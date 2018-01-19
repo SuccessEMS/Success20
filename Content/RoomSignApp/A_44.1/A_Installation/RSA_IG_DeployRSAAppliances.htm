@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="2812" MadCap:lastWidth="778">
+    <head>
+    </head>
+    <body>
+        <h1>Deploying the EMS&#160;Room Sign App on Appliances</h1>
+        <h2>Aura Meeting Room Screen for the EMS&#160;Room Sign App</h2>
+        <p>The Aura Meeting Room Screen from ResourceXpress is an interactive digital signage appliance that can be used with the EMS&#160;Room Sign App. Aura devices provide integrated LED&#160;status lights that provide a quick visual indication of space availability from the device enclosure. </p>
+        <p>This section will detail the process of deploying the EMS&#160;Room Sign App on an Aura device. </p>
+        <h2>Prerequisites for Using EMS&#160;Room Sign App with Aura Devices</h2>
+        <p>Customers must have installed Update 19 or later of the EMS&#160;Room Sign App. </p>
+        <p>There are two options for integration of Aura Meeting Room Screens with the EMS&#160;Room Sign App:</p>
+        <ol>
+            <li><a href="#Direct">Direct authentication</a>
+            </li>
+            <li>Server-to-server authentication</li>
+        </ol>
+        <h2><a name="Direct"></a>Direct Integration</h2>
+        <p>Direct integration allows customers to utilize the EMS Room Sign App on an Aura device as they would on consumer tablets. The Aura device is configured through the EMS&#160;Glance Settings of the EMS&#160;Desktop Client.</p>
+        <ol>
+            <li>
+                <ol>
+                    <li><a href="../B_Configuration/RSA_CG_ConfigProfile.html">Create a new profile</a> for your device or edit an existing profile in the EMS&#160;Desktop Client.</li>
+                    <li>Navigate to <span class="bold">Settings </span>&gt;&#160;<span class="bold">Misc </span>&gt; <span class="bold">Select Hardware Enclosure</span>. </li>
+                </ol>
+                <p>
+                    <img src="../../../Resources/Images/Aura setting.png" style="width: 538px;height: 462px;" />
+                </p>
+                <ol MadCap:continue="true">
+                    <li>From the drop-down, select Aura.</li>
+                </ol>
+                <p class="note-box">Note:&#160;If this selection is not made, the LEDs on your device will not change color based on status.</p>
+                <ol MadCap:continue="true">
+                    <li>Click OK. Close the profile to Save. </li>
+                </ol>
+            </li>
+            <li>Turn on the Aura device.</li>
+            <li>Perform <a href="Aura_initialsetup_GG.pdf">initial device setup</a>. </li>
+            <li>Enter your EMS&#160;Room Sign App URL.</li>
+            <li>You will be prompted to select a profile. If this is not the initial configuration with the Aura device, you will need to double click the EMS&#160;icon to select a different profile. </li>
+            <li>Click Apply.</li>
+        </ol>
+        <h3>Additional information</h3>
+        <h4><span class="bold">LED integration</span>
+        </h4>
+        <p>The color of the LEDs on the Aura device will indicate the status of the room you are booking:</p>
+        <ol>
+            <li>Green light = Space is <span class="bold">available</span></li>
+            <li>Red = Space is <span class="bold">unavailable</span></li>
+            <li>Orange = Upcoming booking/<span class="bold">available to check in</span></li>
+        </ol>
+    </body>
+</html>
