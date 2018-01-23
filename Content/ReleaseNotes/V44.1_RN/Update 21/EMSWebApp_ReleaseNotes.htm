@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xml:lang="en-us" MadCap:lastBlockDepth="12" MadCap:lastHeight="5722" MadCap:lastWidth="581" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+        <link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1 class="Heading1">EMS Web App Release Notes <br />V44.1, Update 21</h1>
+        <p class="p_1">This section describes updates to&#160;your EMS software.&#160;&#160;</p>
+        <p>See Also:&#160;<a href="#Contact">Contact Customer Support</a>&#160;and&#160;<MadCap:xref href="../../../Update_to_LatestVersion_EMS.htm"><a href="../../../Update_to_LatestVersion_EMS.htm">Updating to the Latest Version of EMS (Patches and Builds)</a></MadCap:xref>. </p>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 154px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <tr class="TableStyle-PatternedRows-Body-LightRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="p_3">Name:&#160;V44.1 Update 21</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="p_3">Release&#160;Date:&#160;January 29, 2018</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="p_3">Patch:&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                    <p class="p_3">Build #:&#160;</p>
+                </td>
+            </tr>
+        </table>
+        <h2>FIXes</h2>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');margin-left: auto;margin-right: auto;width: 100%;" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 157px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1" style="text-align: left;">
+                        <p class="p_6">Area</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1" style="text-align: left;">
+                        <p class="p_6">Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: left;">
+                        <p class="italics">Special Characters</p>
+                        <p>&#160;</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
+                        <p><span class="bold">Group Search in Browse People Did Not Return Results with Apostrophe in Name</span>
+                        </p>
+                        <div class="indent">
+                            <p>The group search filter was not handling special characters. </p>
+                            <p>Fix:&#160;Modified functionality so that the group search returns results with special characters in the name.</p>
+                            <p class="p_10"><span class="italics"><span class="bold">Internal </span></span><span class="bold">Reference</span> #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=34128">34128</a></p>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="text-align: left;">
+                        <p class="italics">ICS&#160;File</p>
+                        <p>&#160;</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
+                        <p><span class="bold">Incorrect Date, Time, and Time Zone Displayed in ICS&#160;File</span>
+                        </p>
+                        <div class="indent">
+                            <p>Users who created a reservation from EMS Desktop Client or the EMS&#160;Web App and clicked Add to My Calendar received an ICS&#160;file with the wrong date and time. </p>
+                            <p>Fix:&#160;Modified functionality so that the ICS file is correct. </p>
+                            <p class="p_10"><span class="italics"><span class="bold">Internal </span></span><span class="bold">Reference</span> #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=34378">34378</a></p>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: left;" rowspan="4">
+                        <p class="italics">UDFs</p>
+                        <p>&#160;</p>
+                        <p class="italics">Add Visitor</p>
+                        <p>&#160;</p>
+                        <p class="italics">Billing References</p>
+                        <p>&#160;</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
+                        <p><span class="bold">User-Defined Fields Not Working As Expected</span>
+                        </p>
+                        <div class="indent">
+                            <p>After inserting text into the user-defined field, the red box did not show the requirement was met. This happened for all other required fields.</p>
+                            <p>Fix:&#160;Modified functionality so that the red box turns grey once text has been inserted, indicating the requirement has been met.</p>
+                            <p class="p_10"><span class="italics"><span class="bold">Internal </span></span><span class="bold">Reference</span> #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=30779">30779</a></p>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
+                        <p><span class="bold">Adding a Visitor from the EMS Web App Required an Extra Click </span>
+                        </p>
+                        <blockquote>
+                            <p>
+Visitor page was not remaining open when making a reservation in the EMS Web App, forcing users to add Visitors one at a time. </p>
+                            <p>
+Fix: Modified functionality so that the Visitor page remains open, allowing users to add multiple Visitors to the reservation.
+</p>
+                            <p><span class="bold">Internal </span><span class="bold">Reference</span> #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=35410">35410</a></p>
+                        </blockquote>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
+                        <p><span class="bold">Billing Reference Allocation Numbers Were Not Parsing Ampersands (&amp;) Correctly </span><![CDATA[
+]]></p>
+                        <blockquote>
+                            <p>Billing References Numbers that included an ampersand and had been set to a Group were not displaying correctly in the EMS Web App.
+</p>
+                            <p>Fix: Modified functionality so that special characters display correctly for Cost Centers/PO/Billing References. </p>
+                            <p><span class="bold">Internal </span><span class="bold">Reference</span> #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=35411">35411</a><![CDATA[
+
+]]></p>
+                        </blockquote>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
+                        <p class="bold">Billing Reference Was Not Updating When Group Was Updated
+</p>
+                        <blockquote>
+                            <p>Everyday users who updated a group to a new group, were experiencing default billing reference numbers that were not populating as expected. The old billing references remained. 
+</p>
+                            <p>Fix: Modified functionality so that billing references change to reflect the Group's billing reference.
+</p>
+                            <p><span class="bold">Internal </span><span class="bold">Reference</span> #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=35412">35412</a></p>
+                        </blockquote>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="italics">New Booking Cutoff Time</p>
+                        <p>&#160;</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
+                        <p class="bold">Server Time Zone Was Being Honored by "Use New Booking Cutoff Time" 
+</p>
+                        <blockquote>
+                            <p>When creating a reservation in the EMS Web App, regardless of which building a user chose, cutoff times were being created from the server's Time Zone. 
+</p>
+                            <p>Fix: Modified functionality so that cutoff times are created by the building's Time Zone.
+</p>
+                            <p><span class="bold">Internal </span><span class="bold">Reference</span> #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=35408">35408</a></p>
+                        </blockquote>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows" style="text-align: left;">&#160;</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2><a name="Contact"></a>Contact Customer Support</h2>
+        <MadCap:snippetBlock src="../../../ContactCustomerSupport.flsnp" />
+    </body>
+</html>
