@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xml:lang="en-us" MadCap:lastBlockDepth="12" MadCap:lastHeight="5643" MadCap:lastWidth="581" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+        <link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1 class="Heading1">EMS Desktop Client Release Notes <br />V44.1, Update 21</h1>
+        <p class="p_1">This section describes updates to&#160;your EMS software.&#160;&#160;</p>
+        <p>See Also:&#160;<a href="#Contact">Contact Customer Support</a>&#160;and&#160;<MadCap:xref href="../../../Update_to_LatestVersion_EMS.htm"><a href="../../../Update_to_LatestVersion_EMS.htm">Updating to the Latest Version of EMS (Patches and Builds)</a></MadCap:xref>. </p>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 154px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <tr class="TableStyle-PatternedRows-Body-LightRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="p_3">Name:&#160;V44.1 Update 21</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="p_3">Release&#160;Date:&#160;January 29, 2018</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="p_3">Patch:&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                    <p class="p_3">Build #:&#160;</p>
+                </td>
+            </tr>
+        </table>
+        <h2>FIXes</h2>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');margin-left: auto;margin-right: auto;width: 100%;" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 157px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1" style="text-align: left;">
+                        <p class="p_6">Area</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1" style="text-align: left;">
+                        <p class="p_6">Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: left;">
+                        <p class="p_7"><span class="italics">Reservation Wizard</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
+                        <p><span class="bold">Reconfirm Date for Status Was Not Available </span>
+                        </p>
+                        <div class="indent">
+                            <p>The reconfirm date field was unavailable on the Reservation Wizard template when a status was selected. </p>
+                            <p>Fix:&#160;Modified functionality so that when a status is selected, the reconfirm date field is available to users and must be entered before proceeding.</p>
+                            <p class="p_10"><span class="italics"><span class="bold">Internal </span></span><span class="bold">Reference</span> #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=35048">35048</a></p>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="text-align: left;">
+                        <p class="p_7"><span class="italics">Event Name</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
+                        <p><span class="bold">Time Was Not Adjusted for Time Zone When Adding Booking in Outlook </span>
+                        </p>
+                        <div class="indent">
+                            <p>When booking an event in EMS&#160;for Outlook, time for the outlook event was not being adjusted for the local time zone. It displayed the same hour start and end as the navigator.</p>
+                            <p>Fix:&#160;Modified functionality so that the EMS&#160;for Outlook event should adjust the time to account for the difference in time zone.</p>
+                            <p class="p_10"><span class="bold"><span class="italics">Internal </span>Reference</span> #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=29342">29342</a></p>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: left;">
+                        <p class="p_7"><span class="italics">Time Zone</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
+                        <p><span class="bold">Missing Time Zone</span>
+                        </p>
+                        <div class="indent">
+                            <p>The Novosibirsk, Russia time zone is missing</p>
+                            <p>Fix:&#160;Modified functionality so that the add (+)&#160;icon against a room does not appear when users drag time to conflict.</p>
+                            <p class="p_10"><span class="italics"><span class="bold">Internal </span></span><span class="bold">Reference</span> #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=34105">34105</a></p>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="text-align: left;">
+                        <p class="p_7"><span class="italics">Edit Reservation</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
+                        <p><span class="bold">Room Change Not Allowed When Original Room Had an Inventory Tracking Feature</span>
+                        </p>
+                        <div class="indent">
+                            <p>Users were unable to edit the room of an existing reservation if that original room had an inventory tracking feature.</p>
+                            <p>Fix:&#160;Modified functionality so that users can change the room.</p>
+                            <p class="p_10"><span class="bold"><span class="italics">Internal </span>Reference</span> #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=34460">34460</a></p>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: left;" rowspan="2">
+                        <p class="p_7"><span class="italics">Make a Reservation</span>
+                        </p>
+                        <p>&#160;</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
+                        <p><span class="bold">Users Unable to Book More than One Booking on Template That Allows Multiple Bookings</span>
+                        </p>
+                        <div class="indent">
+                            <p>Users were unable to book more than one booking on templates that were configured for multiple bookings. </p>
+                            <p>Fix:&#160;Modified functionality so that users can book multiple bookings on multiple booking templates. </p>
+                            <p class="p_10"><span class="bold"><span class="italics">Internal </span>Reference</span> #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=34880">34880</a></p>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
+                        <p class="bold">Outlook Reservations Did Not Follow the Reservation Source Parameter</p>
+                        <div class="indent">
+                            <p>'Reservation Source' on a reservation made through EMS for Outlook was not following the source set on the template, whether template specific or global.</p>
+                            <p>Fix:&#160;Modified functionality so that reservations made in EMS&#160;for Outlook follow the reservation source parameter. </p>
+                            <p class="p_10"><span class="bold"><span class="italics">Internal </span>Reference</span> #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=35076">35076</a></p>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p><span class="italics">Resource Alert</span>
+                        </p>
+                        <p>&#160;</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
+                        <p class="bold">Resource Alerts Were Cutoff in Popup</p>
+                        <div class="indent">
+                            <p>If resource alerts are too long, they were cutoff and did not wrap as expected. </p>
+                            <p>Fix:&#160;Modified functionality so that resource alerts wrap. </p>
+                            <p class="p_10"><span class="bold"><span class="italics">Internal </span>Reference</span> #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=35086">35086</a></p>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
+                        <p><span class="italics">Service Items</span>
+                        </p>
+                        <p>&#160;</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows" style="text-align: left;">
+                        <p><span class="bold">Service Items Booked Did Not Appear on Confirmations</span>
+                        </p>
+                        <div class="indent">
+                            <p>Categories and resources were not appearing correctly on the initial automated confirmation that is sent.</p>
+                            <p>Fix:&#160;Modified functionality so that categories and resources appear correctly on confirmations.</p>
+                            <p class="p_10"><span class="bold"><span class="italics">Internal </span>Reference</span> #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=34773">34773</a></p>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h2><a name="Contact"></a>Contact Customer Support</h2>
+        <MadCap:snippetBlock src="../../../ContactCustomerSupport.flsnp" />
+    </body>
+</html>
