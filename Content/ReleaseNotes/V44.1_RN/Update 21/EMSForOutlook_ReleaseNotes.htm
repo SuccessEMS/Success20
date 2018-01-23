@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xml:lang="en-us" MadCap:lastBlockDepth="12" MadCap:lastHeight="2183" MadCap:lastWidth="581" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+<html xml:lang="en-us" MadCap:lastBlockDepth="12" MadCap:lastHeight="3831" MadCap:lastWidth="581" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
         <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
         <link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
@@ -30,7 +30,7 @@
         </table>
         <h2>FIX</h2>
         <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');margin-left: auto;margin-right: auto;width: 100%;" cellspacing="0">
-            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 162px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 157px;" />
             <col class="TableStyle-PatternedRows-Column-Regular" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
@@ -54,22 +54,67 @@
                         <div class="indent">
                             <p>Type-ahead functionality was added to the building drop-down menu under the filtering tool.</p>
                             <p>Fix:&#160;Modified functionality so that users can enter text. </p>
-                            <p class="p_10">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=33711">33711</a></p>
+                            <p class="p_10"><span class="italics"><span class="bold">Internal </span></span><span class="bold">Reference</span> #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=33711">33711</a></p>
                         </div>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows" style="text-align: left;">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="text-align: left;">
                         <p class="p_7"><span class="italics">Event Name</span>
                         </p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows" style="text-align: left;">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
                         <p><span class="bold">Default Event Named Held Previous Booking Name </span>
                         </p>
                         <div class="indent">
                             <p>The default name for an event held the previous booking name, despite being on a different template. </p>
-                            <p>Fix:&#160;Modified functionality so that template defaults for event name change if user changes the template.</p>
-                            <p class="p_10">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=33763">33763</a></p>
+                            <p>Fix:&#160;Modified functionality so that template defaults for event name change if the user changes the template.</p>
+                            <p class="p_10"><span class="bold"><span class="italics">Internal </span>Reference</span> #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=33763">33763</a></p>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: left;">
+                        <p class="p_7"><span class="italics">Event Name</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
+                        <p><span class="bold">Icon Remained Despite Dragging Time to Conflict</span>
+                        </p>
+                        <div class="indent">
+                            <p>When there was a time conflict for a booking, the add (+)&#160;icon still appeared if a user dragged the time to the conflict. </p>
+                            <p>Fix:&#160;Modified functionality so that the add (+)&#160;icon against a room does not appear when users drag time to conflict.</p>
+                            <p class="p_10"><span class="italics"><span class="bold">Internal </span></span><span class="bold">Reference</span> #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=34105">34105</a></p>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="text-align: left;">
+                        <p class="p_7"><span class="italics">Edit Reservation</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
+                        <p><span class="bold">Room Change Not Allowed When Original Room Had an Inventory Tracking Feature</span>
+                        </p>
+                        <div class="indent">
+                            <p>Users were unable to edit the room of an existing reservation if that original room had an inventory tracking feature.</p>
+                            <p>Fix:&#160;Modified functionality so that users can change the room.</p>
+                            <p class="p_10"><span class="bold"><span class="italics">Internal </span>Reference</span> #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=34460">34460</a></p>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows" style="text-align: left;">
+                        <p class="p_7"><span class="italics">Make a Reservation</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" style="text-align: left;">
+                        <p><span class="bold">Users Unable to Book More than One Booking on Template That Allows Multiple Bookings</span>
+                        </p>
+                        <div class="indent">
+                            <p>Users were unable to book more than one booking on templates that were configured for multiple bookings. </p>
+                            <p>Fix:&#160;Modified functionality so that users can book multiple bookings on multiple booking templates. </p>
+                            <p class="p_10"><span class="bold"><span class="italics">Internal </span>Reference</span> #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=34880">34880</a></p>
                         </div>
                     </td>
                 </tr>
