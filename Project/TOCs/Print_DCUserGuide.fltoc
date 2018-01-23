@@ -233,7 +233,8 @@
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
-        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl"
+        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_EditMultBookinNav.htm" />
       <TocEntry
         Title="Move Bookings to a Different Reservation in the Navigator"
         Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_MoveBooktoDifRes.html"
