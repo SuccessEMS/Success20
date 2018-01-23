@@ -1148,7 +1148,7 @@
         Link="/Content/RoomSignApp/Video Tutorials/RSA_VIDEO-IntroRSA.htm" />
     </TocEntry>
     <TocEntry
-      Title="EMS Campus"
+      Title="EMS Campus (Academic Planning)"
       Link="/Content/InstallGuides/10_CampusV44.1/10_CampusHome.htm">
       <TocEntry
         Title="EMS Campus Planning Interface"
@@ -2271,7 +2271,7 @@
         Link="/Content/RoomSignApp/A_44.1/B_Configuration/RSA_Config_PDF.pdf" />
     </TocEntry>
     <TocEntry
-      Title="EMS Campus "
+      Title="EMS Campus (Academic Planning)"
       Link="/Content/ConfigGuides/10_EMS Campus Configuration Guide.htm">
       <TocEntry
         Title="Introduction"
@@ -3301,7 +3301,7 @@
         Link="/Content/RoomSignApp/A_44.1/C_UserGuide/RSA_UG_SettingUpRSAtoDemo.html" />
     </TocEntry>
     <TocEntry
-      Title="EMS Campus"
+      Title="EMS Campus (Academic Planning)"
       Link="/Content/Campus/A_V44.1/C_UG_Campus/Campus_UG_44_AcademicPlanwithCampus.htm">
       <TocEntry
         Title="Overview of the Academic Scheduling Process"

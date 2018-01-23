@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="3553" MadCap:lastWidth="899">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="5237" MadCap:lastWidth="683">
     <head>
         <link href="Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
     </head>
@@ -35,43 +35,29 @@
             <li>Updates are usually released on a monthly basis.</li>
             <li>For each component, updates are cumulative, which means that you can apply an update even if you have not applied the previous update. However, when you update any component to the latest release, you must make sure that you update all components to the latest available release. This requirement can be tricky; please see the example in the box below.</li>
         </ul>
-        <div class="quotation"><span style="color: #ff0000; font-weight: bold;">Important</span>: To update to the latest release, be sure to run every Patch and Build available to you on the Software Downloads page since there may be dependencies between Component Builds and related Services. Patches update your database, and Builds update your EMS components. For example, if you have EMS Desktop Client and EMS Web App, you will need the patch (if included in the release) and the builds for EMS Desktop Client and EMS Web App. <br /><br />At a component level of EMS (for example, EMS for Outlook), you can skip updates. For example, if you're running Update 6 of EMS for Outlook and you want to apply Update 8, you do NOT have to apply Update 7.<br /><br />However, you must be careful to apply the latest update of every component. For example, say you're running Update 6 of EMS and want to apply Update 8. Because the latest update of one or more components may be in Update 7 instead of Update 8, you have to check Update 7 to make sure you have the latest update of each component.</div>
+        <div class="note-box"><span style="color: #ff0000; font-weight: bold;">Important</span>: To update to the latest release, be sure to run every Patch and Build available to you on the Software Downloads page since there may be dependencies between Component Builds and related Services. Patches update your database, and Builds update your EMS components. For example, if you have EMS Desktop Client and EMS Web App, you will need the patch (if included in the release) and the builds for EMS Desktop Client and EMS Web App. <br /><br />At a component level of EMS (for example, EMS for Outlook), you can skip updates. For example, if you're running Update 6 of EMS for Outlook and you want to apply Update 8, you do NOT have to apply Update 7.<br /><br />However, you must be careful to apply the latest update of every component. For example, say you're running Update 6 of EMS and want to apply Update 8. Because the latest update of one or more components may be in Update 7 instead of Update 8, you have to check Update 7 to make sure you have the latest update of each component.</div>
         <h2><a name="DownloadLatestPatchesBuilds"></a>Download the Latest Update (Patches and Builds)</h2>
         <ol>
-            <li>Review our Release Notes Summary to see a quick list of contents of each Update.</li>
-            <li>Go to <a href="http://www.emssoftware.com/">www.emssoftware.com</a> and click <b class="bold">Support</b>.</li>
-            <li>Log in.</li>
-            <li>Select <b class="bold">Software &amp; Docs Library</b> &gt; <b class="bold">New Releases &amp; Patches</b>. This page lists downloads available based on your license.</li>
-        </ol>
-        <address>Software &amp;&#160;Documents Library</address>
-        <p>
-            <img src="ReleaseNotes/Resources/Images/UpdatingtotheLatestVersionofEMS_SupportDocsLibrary.JPG" style="width: 622px;height: 328px;" />
-        </p>
-        <ol start="5">
-            <li>Download the new patches and builds (available based on your license) by selecting the appropriate links in the <b>Download</b> column.</li>
+            <li>Review our <a href="V44.1_ReleaseNotes.htm">Release Notes Summary</a> to see a quick list of contents of each Update.</li>
+            <li>Log into the <a href="https://portal.emssoftware.com/" title="EMS&#160;Customer Portal" alt="EMS&#160;Customer Portal">EMS&#160;Customer Portal</a>. </li>
+            <li>Click the Software and Docs library link.</li>
+            <li>Click the 44.1 Releases &amp; Patches link.</li>
+            <li>This page lists downloads available based on your license.</li>
         </ol>
         <h2><a name="ApplyDatabasePatches"></a>Apply Database Patches</h2>
         <p>The following steps need to be performed for each <i>System Administrator</i> machine.</p>
         <ol>
             <li>On your database server, launch Microsoft SQL Server Management Studio.</li>
         </ol>
-        <div class="quotation"><span style="color: #ff0000; font-weight: bold;">IMPORTANT</span>: Back up your EMS database using Microsoft SQL Server Management Studio. </div>
+        <div class="note-box"><span style="color: #ff0000; font-weight: bold;">IMPORTANT</span>: Back up your EMS database using Microsoft SQL Server Management Studio. </div>
         <ol start="2">
             <li>Locate the database patch file you downloaded from the online Support Center (as described above; the file is typically named EMSPatch.sql).</li>
             <li>Within Microsoft SQL Server Management Studio, select <b>File</b> &gt; <b>Open</b> &gt; <b>File</b> and open the EMS patch file.</li>
             <li>Select your EMS database (not EMS_Master) and execute the query (<b>Query</b> &gt; <b>Execute</b>).  When query execution has completed, a “Query Batch Completed” message will display in the Results.</li>
             <li>Verify your new Patch Number by launching the EMS Desktop Client and selecting <b>Help</b> &gt; <b>About EMS</b> &gt; <b>Patch Number</b>.</li>
         </ol>
-        <p><a href="#Top"><img src="Resources/Images/Top.png" style="width: 30px;height: 30px;"></img><a href="#Introduction" style="text-decoration: none; color: #00467f; font-size: 10pt; font-weight: bold;">Back to Top</a></a>
-        </p>
         <h2><a name="InstallNewBuilds"></a>Install New Builds</h2>
-        <p>For each new build (.msi file) you wish to update, you can navigate to the appropriate installation guide here or follow the installation instructions linked next to the download. If you are upgrading from V44.1 or later, start here.</p>
-        <address>Installation Guides and Downloads from EMS&#160;Product Portal</address>
-        <p>
-            <img src="ReleaseNotes/Resources/Images/UpdatingtotheLatestVersionofEMS_Install.JPG" />
-        </p>
-        <p><a href="#Top"><img src="Resources/Images/Top.png" style="width: 30px;height: 30px;"></img><a href="#Introduction" style="text-decoration: none; color: #00467f; font-size: 10pt; font-weight: bold;">Back to Top</a></a>
-        </p>
+        <p>For each new build (.msi file) you wish to update, you can navigate to the appropriate installation guide here or follow the installation instructions linked next to the download. </p>
         <h2><a name="UpgradeConsiderations"></a>Upgrade Considerations</h2>
         <p>Consider the following notes depending on your implementation and licensing.</p>
         <h3>New EMS Desktop Client And/Or Outlook Builds Need to be Updated on Your Users' Machines</h3>
@@ -82,7 +68,5 @@
         <p>EMS V44.1 changes how Everyday Web Users are validated. If you have custom HR Toolkit scripts, these need to be tested with V44.1.</p>
         <h2>Contact Customer Support</h2>
         <MadCap:snippetBlock src="ContactCustomerSupport.flsnp" />
-        <p><a href="#Top"><img src="Resources/Images/Top.png" style="width: 30px;height: 30px;"></img><a href="#Introduction" style="text-decoration: none; color: #00467f; font-size: 10pt; font-weight: bold;">Back to Top</a></a>
-        </p>
     </body>
 </html>

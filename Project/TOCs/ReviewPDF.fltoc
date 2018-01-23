@@ -2,9 +2,6 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="Platform Services Release Notes"
-    Link="/Content/ReleaseNotes/V44.1_RN/Update 21/EMSPlatformServices_ReleaseNotes.htm"></TocEntry>
-  <TocEntry
-    Title="Room Sign App Release Notes"
-    Link="/Content/ReleaseNotes/V44.1_RN/Update 21/EMSRoomSignApp_ReleaseNotes.htm"></TocEntry>
+    Title="Web App Release Notes"
+    Link="/Content/ReleaseNotes/V44.1_RN/Update 21/EMSWebApp_ReleaseNotes.htm"></TocEntry>
 </CatapultToc>
