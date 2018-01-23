@@ -2703,8 +2703,7 @@
           Title="Edit a Booking in the Navigator"
           Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_EditBookinNav.html" />
         <TocEntry
-          Title="Edit Multiple Bookings in the Navigator"
-          Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_EditMultipleBookinNav.html" />
+          Title="Edit Multiple Bookings in the Navigator" />
         <TocEntry
           Title="Move Bookings to a Different Reservation in the Navigator"
           Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_MoveBooktoDifRes.html" />
@@ -4278,8 +4277,7 @@
             Title="Edit a Booking in the Navigator"
             Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_EditBookinNav.html" />
           <TocEntry
-            Title="Edit Multiple Bookings in the Navigator"
-            Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_EditMultipleBookinNav.html" />
+            Title="Edit Multiple Bookings in the Navigator" />
           <TocEntry
             Title="Move Bookings to a Different Reservation in the Navigator"
             Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_MoveBooktoDifRes.html" />

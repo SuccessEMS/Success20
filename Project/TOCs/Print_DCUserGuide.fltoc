@@ -230,7 +230,6 @@
         PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
       <TocEntry
         Title="Edit Multiple Bookings in the Navigator"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_EditMultipleBookinNav.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
