@@ -2,18 +2,9 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="Outlook Release Notes U21"
-    Link="/Content/ReleaseNotes/V44.1_RN/Update 21/EMSForOutlook_ReleaseNotes.htm"></TocEntry>
+    Title="Platform Services Release Notes"
+    Link="/Content/ReleaseNotes/V44.1_RN/Update 21/EMSPlatformServices_ReleaseNotes.htm"></TocEntry>
   <TocEntry
-    Title="Campus Release Notes U21"
-    Link="/Content/ReleaseNotes/V44.1_RN/Update 21/EMSCampus_ReleaseNotes.htm"></TocEntry>
-  <TocEntry
-    Title="Master Calendar Release Notes U21"
-    Link="/Content/ReleaseNotes/V44.1_RN/Update 21/EMSMasterCalendar_ReleaseNotes.htm"></TocEntry>
-  <TocEntry
-    Title="Regics Release Notes U21"
-    Link="/Content/ReleaseNotes/V44.1_RN/Update 21/Regics_ReleaseNotes.htm" />
-  <TocEntry
-    Title="Desktop Client Release Notes U21"
-    Link="/Content/ReleaseNotes/V44.1_RN/Update 21/EMSDesktopClient_ReleaseNotes.htm" />
+    Title="Room Sign App Release Notes"
+    Link="/Content/ReleaseNotes/V44.1_RN/Update 21/EMSRoomSignApp_ReleaseNotes.htm"></TocEntry>
 </CatapultToc>
