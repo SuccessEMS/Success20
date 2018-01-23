@@ -2703,7 +2703,8 @@
           Title="Edit a Booking in the Navigator"
           Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_EditBookinNav.html" />
         <TocEntry
-          Title="Edit Multiple Bookings in the Navigator" />
+          Title="Edit Multiple Bookings in the Navigator"
+          Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_EditMultBookinNav.htm" />
         <TocEntry
           Title="Move Bookings to a Different Reservation in the Navigator"
           Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_MoveBooktoDifRes.html" />
@@ -2789,6 +2790,9 @@
       <TocEntry
         Title="The Reservation Wizard"
         Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_ReservationWizard.htm">
+        <TocEntry
+          Title="What Is a Wizard?"
+          Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_WhatIsWizard.html" />
         <TocEntry
           Title="Fields in the Reservation Wizard"
           Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_FieldsinResWiz1.htm" />
@@ -4277,7 +4281,8 @@
             Title="Edit a Booking in the Navigator"
             Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_EditBookinNav.html" />
           <TocEntry
-            Title="Edit Multiple Bookings in the Navigator" />
+            Title="Edit Multiple Bookings in the Navigator"
+            Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_EditMultBookinNav.htm" />
           <TocEntry
             Title="Move Bookings to a Different Reservation in the Navigator"
             Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_MoveBooktoDifRes.html" />
