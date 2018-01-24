@@ -15,4 +15,25 @@
     StartSection="false"
     PageNumberReset="continue"
     PageLayout="/Content/Resources/PageLayouts/7X9/TOC7X9.flpgl" />
+  <TocEntry
+    Title="Requirements for Master Calendar"
+    Link="/Content/MasterCalendar/V8/A_Installation/MC_IG_SysReqPrereq.html" />
+  <TocEntry
+    Title="Installation Instructions"
+    Link="/Content/MasterCalendar/V8/A_Installation/MC_IG_InstallationInstruct.html">
+    <TocEntry
+      Title="Obtain Master Calendar Installation Files"
+      Link="/Content/MasterCalendar/V8/A_Installation/MC_IG_ObtainingMCInstallFiles.html" />
+    <TocEntry
+      Title="Run the Master Calendar Installer"
+      Link="/Content/MasterCalendar/V8/A_Installation/MC_IG_RunningMCInstaller.html" />
+    <TocEntry
+      Title="Configure Master Calendar to Use the Master Calendar API Web Service" />
+    <TocEntry
+      Title="Install or Upgrade the Database Component in Master Calendar"
+      Link="/Content/MasterCalendar/V8/A_Installation/MC_InstallUpgradeDatabaseComp.html" />
+    <TocEntry
+      Title="Install or Upgrade the Master Calendar Web Service"
+      Link="/Content/MasterCalendar/V8/A_Installation/MC_InstallUpgradeMCWebService.html" />
+  </TocEntry>
 </CatapultToc>

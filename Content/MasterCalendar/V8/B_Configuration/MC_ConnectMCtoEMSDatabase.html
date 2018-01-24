@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html MadCap:lastBlockDepth="7" MadCap:lastHeight="20033" MadCap:lastWidth="1029" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../Resources/MasterPages/emsMasterCalendar.flmsp');">
+<html MadCap:lastBlockDepth="7" MadCap:lastHeight="29768" MadCap:lastWidth="843" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../Resources/MasterPages/emsMasterCalendar.flmsp');">
     <head>
+        <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" />
         <link href="../../../1DesktopClient/V44.1/Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title mt-export-translate="no">Connecting Master Calendar to Your EMS Database</title>
         <meta name="mt-type" value="application/x.deki-text" />
         <meta name="mt-unsafe" value="true" />
@@ -10,6 +11,8 @@
         <p class="Body">A <em>connector</em> is a direct feed from your EMS database to your Master Calendar database. If you are an EMS customer and a Master Calendar customer, a connector prevents you from having to carry out double entry of your events. You can enter all your events once into your EMS system, then use a connector to import one or more, or all your EMS events into Master Calendar.</p>
         <p class="Body">This topic will provide information that will allow you to:</p>
         <ul>
+            <li><a href="#Confirm">Confirm and Install New License</a>
+            </li>
             <li>
                 <MadCap:xref href="#Add">Add a Connector</MadCap:xref>
                 <ul>
@@ -61,6 +64,10 @@
         </ul>
         <p class="Body">Managing connectors in EMS&#160;Master Calendar consists of adding a connector, filtering the events to import, setting the frequency of the import, activating and inactivating connectors, editing a connector, running a connector, purging a connector, and deleting a connector. You can also generate a Connectors List report and you can view the history for a connector.</p>
         <p class="Body"><strong>Note: </strong>As with data sources, the Connector function requires that your organization purchase the optional module, Master Calendar Data Connectors.</p>
+        <h2><a name="Confirm"></a>Confirm and Install New License</h2>
+        <p>In order to use the Master Calendar Data Connectors, an organization must be properly licensed.  If unsure about whether the EMS Data Connector Module has been purchased, log into the Master Calendar site, go to the systemcheck.aspx page, click the License Information heading and review the Licensed For list and look for a description to state “EMS Connector.”</p>
+        <p>If an organization was not previously licensed for the EMS Data Connector Module but is now, update the registration information by logging in to the Master Calendar, going to Admin – Site Administration - Registration, entering the new licenses information then click Save License Data.  Please note, the license information is case sensitive and needs to be entered in exactly how it was provide from EMS&#160;Software.  </p>
+        <p>After entering the registration information, Master Calendar must re-read the license by going to the systemcheck.aspx page, clicking the License Information heading and then clicking Read License.  At the very top of the page, it should state “License read successfully.”</p>
         <h2><a name="Add"></a>Add a Connector</h2>
         <ol>
             <li>On the Admin menu, point to Events &amp; Special Dates, and then click Connectors.&#160;The Connectors page opens. By default, the Active tab is the opened tab. All the currently active connectors in Master Calendar are displayed on this tab.</li>
@@ -77,7 +84,7 @@
         <ol MadCap:continue="true">
             <li>Select the data source that you want to use for the connector. The Details tab opens. You use the options on this tab to add the basic information for the connector.</li>
         </ol>
-        <p class="StepNumberContinued"><strong>Tip:</strong>Remember, the data source is for the connection to the EMS database, and you must also use a connector to import UDFs into your Master Calendar database. If you do not see the data source that you want to use for the connector, then it has not been created.</p>
+        <p class="note-box"><strong>Tip:</strong>Remember, the data source is for the connection to the EMS database, and you must also use a connector to import UDFs into your Master Calendar database. If you do not see the data source that you want to use for the connector, then it has not been created.</p>
         <p class="AnchorFigure">
             <img src="../images/B_Configuration/MC_ConnectMCtoEMSDatabase_DetailsTab.png" />
         </p>
@@ -85,7 +92,7 @@
             <li>Enter the information for the connector.</li>
         </ol>
         <h2><a name="Details"></a>Details Tab Fields</h2>
-        <table border="0" cellspacing="0" class="TableStyle-PatternedRows" style="mc-table-style: url('../../../1DesktopClient/V44.1/Resources/TableStyles/PatternedRows.css');">
+        <table border="0" cellspacing="0" class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');">
             <col class="TableStyle-PatternedRows-Column-Regular" style="width: 220px;" />
             <col class="TableStyle-PatternedRows-Column-Regular" />
             <thead>
