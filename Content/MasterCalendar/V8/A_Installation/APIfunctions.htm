@@ -1,0 +1,2027 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xml:lang="en-us" MadCap:lastBlockDepth="6" MadCap:lastHeight="28762" MadCap:lastWidth="824" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head><title></title>
+        <link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1 class="Heading1">API Functions </h1>
+        <h2 class="Heading2">GetEventTypes </h2>
+        <p class="p_2">Description </p>
+        <p class="p_3">Returns a list of event types </p>
+        <h2 class="Heading2">Request Parameters </h2>
+        <table class="table_1">
+            <col />
+            <col />
+            <col />
+            <thead>
+                <tr>
+                    <th class="th_1">
+                        <p class="p_4">Name </p>
+                    </th>
+                    <th class="th_1">
+                        <p class="p_5">Description </p>
+                    </th>
+                    <th class="th_1">
+                        <p class="p_5">Type </p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">UserName </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">MC User Name </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">String </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">Password </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">MC User Password </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">String </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h2 class="Heading2">Response Elements </h2>
+        <table class="table_1">
+            <col />
+            <col />
+            <col />
+            <thead>
+                <tr>
+                    <th class="th_1">
+                        <p class="p_4">Name </p>
+                    </th>
+                    <th class="th_1">
+                        <p class="p_5">Description </p>
+                    </th>
+                    <th class="th_1">
+                        <p class="p_5">Type </p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">Name </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Location Name </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">String </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">EventTypeID </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Event Type ID </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Integer </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">Color </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Event Type Color </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">String </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h2 class="Heading2">Sample Code </h2>
+        <p class="p_8">private void GetEventTypes() </p>
+        <p class="p_8"> { </p>
+        <p class="p_9">&#160;&#160;&#160;&#160;&#160;&#160;&#160; MCAPI.MCAPIService svc = new MCAPI.MCAPIService();&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; svc.Url = "http://yourserver/MCAPI/MCAPIService.asmx?WSDL"; </p>
+        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160;&#160; StringReader sr = new StringReader(svc.GetEventTypes("username", "pwd")); </p>
+        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160;&#160; DataSet ds = new DataSet(); </p>
+        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160;&#160; System.Xml.XmlDocument doc = new System.Xml.XmlDocument();&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; doc.LoadXml(sr.ReadToEnd()); </p>
+        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160;&#160; ds.ReadXml(new System.Xml.XmlNodeReader(doc)); </p>
+        <p class="p_10">&#160; } </p>
+        <h2 class="Heading2">Example Response </h2>
+        <p class="p_8">&lt;EventTypes&gt; </p>
+        <p class="p_8">&#160; &lt;Data&gt; </p>
+        <p class="p_8">&#160;&#160;&#160; &lt;EventTypeID&gt;169&lt;/EventTypeID&gt; </p>
+        <p class="p_8">&#160;&#160;&#160; &lt;Name&gt;Academic&lt;/Name&gt; </p>
+        <p class="p_8">&#160;&#160;&#160; &lt;Color&gt;#CCCC66&lt;/Color&gt; </p>
+        <p class="p_8">&#160; &lt;/Data&gt; </p>
+        <p class="p_8">&#160; &lt;Data&gt; </p>
+        <p class="p_8">&#160;&#160;&#160; &lt;EventTypeID&gt;171&lt;/EventTypeID&gt; </p>
+        <p class="p_8">&#160;&#160;&#160; &lt;Name&gt;Athletic&lt;/Name&gt; </p>
+        <p class="p_8">&#160;&#160;&#160; &lt;Color&gt;#FF3300&lt;/Color&gt; </p>
+        <p class="p_8">&#160; &lt;/Data&gt; </p>
+        <p class="p_8">&lt;/EventTypes&gt; </p>
+        <h2 class="Heading2">GetLocations </h2>
+        <p class="p_2">Description </p>
+        <p class="p_3">Returns a list of locations </p>
+        <h2 class="Heading2">Request Parameters </h2>
+        <table class="table_1">
+            <col />
+            <col />
+            <col />
+            <thead>
+                <tr>
+                    <th class="th_1">
+                        <p class="p_4">Name </p>
+                    </th>
+                    <th class="th_1">
+                        <p class="p_5">Description </p>
+                    </th>
+                    <th class="th_1">
+                        <p class="p_5">Type </p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">UserName </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">MC User Name </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">String </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">Password </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">MC User Password </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">String </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h2 class="Heading2">Response Elements </h2>
+        <table class="table_1">
+            <col />
+            <col />
+            <col />
+            <thead>
+                <tr>
+                    <th class="th_1">
+                        <p class="p_4">Name </p>
+                    </th>
+                    <th class="th_1">
+                        <p class="p_5">Description </p>
+                    </th>
+                    <th class="th_1">
+                        <p class="p_5">Type </p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">Name </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Location Name </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">String </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">LocationID </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Loocation ID </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Integer </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">Url </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Location Url </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">String </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h2 class="Heading2">Sample Code </h2>
+        <p class="p_8">private void GetLocations() </p>
+        <p class="p_8"> { </p>
+        <p class="p_9">&#160;&#160;&#160;&#160;&#160;&#160;&#160; MCAPI.MCAPIService svc = new MCAPI.MCAPIService();&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; svc.Url = "http://yourserver/MCAPI/MCAPIService.asmx?WSDL"; </p>
+        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160;&#160; StringReader sr = new StringReader(svc.GetLocations("username", "pwd")); </p>
+        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160;&#160; DataSet ds = new DataSet(); </p>
+        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160;&#160; System.Xml.XmlDocument doc = new System.Xml.XmlDocument(); </p>
+        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160;&#160; doc.LoadXml(sr.ReadToEnd()); </p>
+        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160;&#160; ds.ReadXml(new System.Xml.XmlNodeReader(doc)); </p>
+        <p class="p_10">&#160; } </p>
+        <h2 class="Heading2">Example Response </h2>
+        <p class="p_11">&lt;Locations&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;LocationID&gt;15&lt;/LocationID&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;Name&gt;10th Floor&lt;/Name&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;Url&gt;http://maps.google.com/&lt;/Url&gt; </p>
+        <p class="p_11">&#160; &lt;/Data&gt; </p>
+        <p class="p_11">&#160; &lt;Data&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;LocationID&gt;11&lt;/LocationID&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;Name&gt;11th Floor&lt;/Name&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;Url&gt;http://maps.google.com/&lt;/Url&gt; </p>
+        <p class="p_12">&#160; &lt;/Data&gt; &lt;/Locations&gt;  </p>
+        <h2 class="Heading2">GetCalendars </h2>
+        <p class="p_2">Description </p>
+        <p class="p_3">Returns a list of calendars </p>
+        <h2 class="Heading2">Request Parameters </h2>
+        <table class="table_1">
+            <col />
+            <col />
+            <col />
+            <thead>
+                <tr>
+                    <th class="th_1">
+                        <p class="p_4">Name </p>
+                    </th>
+                    <th class="th_1">
+                        <p class="p_5">Description </p>
+                    </th>
+                    <th class="th_1">
+                        <p class="p_5">Type </p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">UserName </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">MC User Name </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">String </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">Password </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">MC User Password </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">String </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h2 class="Heading2">Response Elements </h2>
+        <table class="table_1">
+            <col />
+            <col />
+            <col />
+            <thead>
+                <tr>
+                    <th class="th_1">
+                        <p class="p_4">Name </p>
+                    </th>
+                    <th class="th_1">
+                        <p class="p_5">Description </p>
+                    </th>
+                    <th class="th_1">
+                        <p class="p_5">Type </p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">Name </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Calendar Name </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">String </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">CalendarID </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Calendar ID </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Integer </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h2 class="Heading2">Sample Code </h2>
+        <p class="p_8">private void GetCalendars() </p>
+        <p class="p_8"> { </p>
+        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160;&#160; MCAPI.MCAPIService svc = new MCAPI.MCAPIService(); </p>
+        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160;&#160; svc.Url = "http://yourserver/MCAPI/MCAPIService.asmx?WSDL"; </p>
+        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160;&#160; StringReader sr = new StringReader(svc.GetCalendars("username", "pwd")); </p>
+        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160;&#160; DataSet ds = new DataSet(); </p>
+        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160;&#160; System.Xml.XmlDocument doc = new System.Xml.XmlDocument(); </p>
+        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160;&#160; doc.LoadXml(sr.ReadToEnd()); </p>
+        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160;&#160; ds.ReadXml(new System.Xml.XmlNodeReader(doc)); </p>
+        <p class="p_10">&#160; } </p>
+        <h2 class="Heading2">Example Response </h2>
+        <p class="p_11">&lt;Calendars&gt; </p>
+        <p class="p_11">&#160; &lt;Data&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;CalendarID&gt;134&lt;/CalendarID&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;Name&gt;Alumni&lt;/Name&gt; </p>
+        <p class="p_11">&#160; &lt;/Data&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;CalendarID&gt;3&lt;/CalendarID&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;Name&gt;Athletics&lt;/Name&gt; </p>
+        <p class="p_13">&#160; &lt;/Data&gt;&#160; &lt;/Calendars&gt; </p>
+        <h2 class="Heading2">GetCalendar </h2>
+        <p class="p_2">Description </p>
+        <p class="p_3">Returns calendar information for a specific calendar </p>
+        <h2 class="Heading2">Request Parameters </h2>
+        <table class="table_1">
+            <col />
+            <col />
+            <col />
+            <thead>
+                <tr>
+                    <th class="th_1">
+                        <p class="p_4">Name </p>
+                    </th>
+                    <th class="th_1">
+                        <p class="p_5">Description </p>
+                    </th>
+                    <th class="th_1">
+                        <p class="p_5">Type </p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">UserName </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">MC User Name </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">String </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">Password </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">MC User Password </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">String </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">CalendarID </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">MC Calendar ID </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Interger </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h2 class="Heading2">Response Elements </h2>
+        <table class="table_1">
+            <col />
+            <col />
+            <col />
+            <thead>
+                <tr>
+                    <th class="th_2">
+                        <p class="p_4">Name </p>
+                    </th>
+                    <th class="th_2">
+                        <p class="p_5">Description </p>
+                    </th>
+                    <th class="th_2">
+                        <p class="p_5">Type </p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="td_2">
+                        <p class="p_6">Name </p>
+                    </td>
+                    <td class="td_2">
+                        <p class="p_7">Calendar Name </p>
+                    </td>
+                    <td class="td_2">
+                        <p class="p_7">String </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_2">
+                        <p class="p_6">CalendarID </p>
+                    </td>
+                    <td class="td_2">
+                        <p class="p_7">Calendar ID </p>
+                    </td>
+                    <td class="td_2">
+                        <p class="p_7">Integer </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_2">
+                        <p class="p_6">Description </p>
+                    </td>
+                    <td class="td_2">
+                        <p class="p_7">Calendar Description </p>
+                    </td>
+                    <td class="td_2">
+                        <p class="p_7">String </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_2">
+                        <p class="p_6">AdminName </p>
+                    </td>
+                    <td class="td_2">
+                        <p class="p_7">Calendar Admin Name </p>
+                    </td>
+                    <td class="td_2">
+                        <p class="p_7">String </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_2">
+                        <p class="p_6">AdminEmail </p>
+                    </td>
+                    <td class="td_2">
+                        <p class="p_7">Calendar Admin Email </p>
+                    </td>
+                    <td class="td_2">
+                        <p class="p_7">String </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_2">
+                        <p class="p_6">ApprovalEmail </p>
+                    </td>
+                    <td class="td_2">
+                        <p class="p_7">Calednar Approval Email </p>
+                    </td>
+                    <td class="td_2">
+                        <p class="p_7"> &#160;</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_2">
+                        <p class="p_6">IsPrivate </p>
+                    </td>
+                    <td class="td_2">
+                        <p class="p_7">Calendar is set as private </p>
+                    </td>
+                    <td class="td_2">
+                        <p class="p_7">Boolean </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_2">
+                        <p class="p_6">IsActive </p>
+                    </td>
+                    <td class="td_2">
+                        <p class="p_7">Calendar is active </p>
+                    </td>
+                    <td class="td_2">
+                        <p class="p_7">Boolean </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_2">
+                        <p class="p_6">ShowCancelledEvents </p>
+                    </td>
+                    <td class="td_2">
+                        <p class="p_7">Calendar shows canceled events </p>
+                    </td>
+                    <td class="td_2">
+                        <p class="p_7">Boolean </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_2">
+                        <p class="p_6">DefaultViewID </p>
+                    </td>
+                    <td class="td_2">
+                        <p class="p_7">Calendar View&#160; 0=Daily, 1=Weekly, 3=Monthly, 4=Yearly </p>
+                    </td>
+                    <td class="td_2">
+                        <p class="p_7">Integer </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_2">
+                        <p class="p_6">CalendarFormatID </p>
+                    </td>
+                    <td class="td_2">
+                        <p class="p_7">Calendar Format 1 = List, 2 = Grid </p>
+                    </td>
+                    <td class="td_2">
+                        <p class="p_7">Integer </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_2">
+                        <p class="p_6">GroupingID </p>
+                    </td>
+                    <td class="td_2">
+                        <p class="p_7">Calendar GroupingID </p>
+                    </td>
+                    <td class="td_2">
+                        <p class="p_7">Integer </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_2">
+                        <p class="p_6">ShowWeekends </p>
+                    </td>
+                    <td class="td_2">
+                        <p class="p_7">Calendar shows weekends </p>
+                    </td>
+                    <td class="td_2">
+                        <p class="p_7">Boolean </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_2">
+                        <p class="p_6">StartWeekOn </p>
+                    </td>
+                    <td class="td_2">
+                        <p class="p_7">Calendar Starts On </p>
+                        <p class="p_7">0=Sun,1=Mon,2=Tue,3=Wed,4=Thu,5=Fri,6=Sat </p>
+                    </td>
+                    <td class="td_2">
+                        <p class="p_7">Interger </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_2">
+                        <p class="p_6">AllowPublicSubmission </p>
+                    </td>
+                    <td class="td_2">
+                        <p class="p_7">Calendar allows public submission </p>
+                    </td>
+                    <td class="td_2">
+                        <p class="p_7">Boolean </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_2">
+                        <p class="p_6">ContactInfoPublic </p>
+                    </td>
+                    <td class="td_2">
+                        <p class="p_7">Show Calendar contact info </p>
+                    </td>
+                    <td class="td_2">
+                        <p class="p_7">Boolean </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_2">
+                        <p class="p_6">Subscription </p>
+                    </td>
+                    <td class="td_2">
+                        <p class="p_7">Calendar Subscription 0=Off, 1=Authenticated Users, 2=All Users </p>
+                    </td>
+                    <td class="td_2">
+                        <p class="p_7">Integer </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_2">
+                        <p class="p_6">ListTypeID </p>
+                    </td>
+                    <td class="td_2">
+                        <p class="p_7">Calendar List Type Format&#160; 1=Condensed, 2=Standard, 3=Detailed </p>
+                    </td>
+                    <td class="td_2">
+                        <p class="p_7">Integer </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h2 class="Heading2">Sample Code </h2>
+        <p class="p_8">private void GetCalendar() </p>
+        <p class="p_8"> { </p>
+        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160;&#160; MCAPI.MCAPIService svc = new MCAPI.MCAPIService(); </p>
+        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160;&#160; svc.Url = "http://yourserver/MCAPI/MCAPIService.asmx?WSDL"; </p>
+        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160;&#160; StringReader sr = new StringReader(svc.GetCalendar("username", "pwd", 1)); </p>
+        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160;&#160; DataSet ds = new DataSet(); </p>
+        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160;&#160; System.Xml.XmlDocument doc = new System.Xml.XmlDocument(); </p>
+        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160;&#160; doc.LoadXml(sr.ReadToEnd()); </p>
+        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160;&#160; ds.ReadXml(new System.Xml.XmlNodeReader(doc)); </p>
+        <p class="p_10">&#160; } </p>
+        <h2 class="Heading2">Example Response </h2>
+        <p class="p_11">&lt;Calendar&gt; </p>
+        <p class="p_11">&#160; &lt;Data&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;Name&gt;Cycling Club&lt;/Name&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;CalendarID&gt;126&lt;/CalendarID&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;Description /&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;AdminName&gt;Brad&lt;/AdminName&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;AdminEmail&gt; email@yourcompany.com &lt;/AdminEmail&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;ApprovalEmail&gt;email@yourcompany.com&lt;/ApprovalEmail&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;IsPrivate&gt;false&lt;/IsPrivate&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;IsActive&gt;true&lt;/IsActive&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;ShowCancelledEvents&gt;false&lt;/ShowCancelledEvents&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;DefaultViewID&gt;2&lt;/DefaultViewID&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;CalendarFormatID&gt;1&lt;/CalendarFormatID&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;GroupingID&gt;3&lt;/GroupingID&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;ShowWeekends&gt;true&lt;/ShowWeekends&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;StartWeekOn&gt;0&lt;/StartWeekOn&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;AllowPublicSubmission&gt;true&lt;/AllowPublicSubmission&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;ContactInfoPublic&gt;true&lt;/ContactInfoPublic&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;Subscription&gt;2&lt;/Subscription&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;ListTypeID&gt;3&lt;/ListTypeID&gt; </p>
+        <p class="p_14">&#160; &lt;/Data&gt; &lt;/Calendar&gt; </p>
+        <h2 class="Heading2">GetGroupings </h2>
+        <p class="p_2">Description </p>
+        <p class="p_3">Returns a list of group IDs </p>
+        <h2 class="Heading2">Request Parameters </h2>
+        <table class="table_1">
+            <col />
+            <col />
+            <col />
+            <thead>
+                <tr>
+                    <th class="th_1">
+                        <p class="p_4">Name </p>
+                    </th>
+                    <th class="th_1">
+                        <p class="p_5">Description </p>
+                    </th>
+                    <th class="th_1">
+                        <p class="p_5">Type </p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">UserName </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">MC User Name </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">String </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">Password </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">MC User Password </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">String </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h2 class="Heading2">Response Elements </h2>
+        <table class="table_1">
+            <col />
+            <col />
+            <col />
+            <thead>
+                <tr>
+                    <th class="th_1">
+                        <p class="p_4">Name </p>
+                    </th>
+                    <th class="th_1">
+                        <p class="p_5">Description </p>
+                    </th>
+                    <th class="th_1">
+                        <p class="p_5">Type </p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">Name </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Grouping Name </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">String </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">GroupindID </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Grouping ID </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Integer </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h2 class="Heading2">Sample Code </h2>
+        <p class="p_8">private void GetGroupings() </p>
+        <p class="p_8"> { </p>
+        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160;&#160; MCAPI.MCAPIService svc = new MCAPI.MCAPIService(); </p>
+        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160;&#160; svc.Url = "http://yourserver/MCAPI/MCAPIService.asmx?WSDL"; </p>
+        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160;&#160; StringReader sr = new StringReader(svc.GetGroupings("username", "pwd")); </p>
+        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160;&#160; DataSet ds = new DataSet(); </p>
+        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160;&#160; System.Xml.XmlDocument doc = new System.Xml.XmlDocument();&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; doc.LoadXml(sr.ReadToEnd()); </p>
+        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160;&#160; ds.ReadXml(new System.Xml.XmlNodeReader(doc)); </p>
+        <p class="p_10">&#160; } </p>
+        <h2 class="Heading2">Example Response </h2>
+        <p class="p_11">&lt;Groupings&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;GroupingID&gt;18&lt;/GroupingID&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;Name&gt;Administration&lt;/Name&gt; </p>
+        <p class="p_11">&#160; &lt;/Data&gt; </p>
+        <p class="p_11">&#160; &lt;Data&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;GroupingID&gt;15&lt;/GroupingID&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;Name&gt;Conference Center&lt;/Name&gt; </p>
+        <p class="p_15">&#160; &lt;/Data&gt; &lt;/Groupings&gt; </p>
+        <h2 class="Heading2">GetEvents </h2>
+        <p class="p_2">Description </p>
+        <p class="p_3">Returns a list of events </p>
+        <h2 class="Heading2">Request Parameters </h2>
+        <table class="table_1">
+            <col />
+            <col />
+            <col />
+            <thead>
+                <tr>
+                    <th class="th_1">
+                        <p class="p_4">Name </p>
+                    </th>
+                    <th class="th_1">
+                        <p class="p_5">Description </p>
+                    </th>
+                    <th class="th_1">
+                        <p class="p_5">Type </p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">UserName </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">MC User Name </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">String </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">Password </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">MC User Password </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">String </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">StartDate </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Event Start Date </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">DateTime </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">EndDate </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Event End Date </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">DateTime </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">EventName </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Event Title (searches partial) </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">String </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">Location </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Event Location (Searches partial) </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">String </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">Calendars </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Calendars to search. (null value = all calendars) </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Interger Array </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">EventTypes </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">EventTypes to search. (null value = all eventtypes) </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Integer Array </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6"> &#160;</p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7"> &#160;</p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7"> &#160;</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h2 class="Heading2">Response Elements </h2>
+        <table class="table_1">
+            <col />
+            <col />
+            <col />
+            <thead>
+                <tr>
+                    <th class="th_1">
+                        <p class="p_4">Name </p>
+                    </th>
+                    <th class="th_1">
+                        <p class="p_5">Description </p>
+                    </th>
+                    <th class="th_1">
+                        <p class="p_5">Type </p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">EventDetailID </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Event Detail ID </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Integer </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">EventID </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Event ID </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Integer </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">Title </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Event Title </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">String </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">Description </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Event Description </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">String </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">Location </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Event Location </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">String </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">LocationUrl </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Event Location Url </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">String </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">Canceled </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Event Canceled </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Boolean </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">NoEndTime </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Event has no end time </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Boolean </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">Priority </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Event priority 1=High, 2=Medium, 3=Low </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Interger </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">EventDate </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Event Date </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">DateTime </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">TimeEventStart </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Time Event Starts </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">DateTime </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">TimeEventEnds </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Time Event Ends </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">DateTime </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">IsAllDayEvent </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Is Event All Day </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Boolean </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">IsTimedEvent </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Is Event a timed event </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Boolean </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">EventTypeID </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Event Type ID </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Integer </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">EventTypeName </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Event Type Name </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">String </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">Contactname </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Event Contact Name </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">String </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">ContactEmail </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Event Contact Email </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">String </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">IsReOccurring </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Event has multiple dates </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Boolean </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">IsOnMultipleCalendars </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Event is on multiple calendars </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Boolean </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">BookingID </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">EMS Booking ID </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Integer </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">ReservationID </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">EMS Reservation ID </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Integer </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">ConnectorID </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">MC Connector ID </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Integer </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">HideContactName </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Hide Contact Name </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Boolean </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">HideContactEmail </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Hide Contact Email </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Boolean </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">HideContactPhone </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Hide Contact Phone </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Boolean </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">CustomFieldLabel1 </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Custom Field Label 1 </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">String </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">CustomFieldDescription1 </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Custom Field Description 1 </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">String </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">CustomUrl1 </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Custom Url 1 </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">String </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">CustomFieldLabel2 </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_6">Custom Field Label 2 </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_6">String </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">CustomFieldDescription2 </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_6">Custom Field Description 2 </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_6">String </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">CustomUrl2 </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_6">Custom Url 2 </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_6">String </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">EventUpdatedBy </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_6">Last Event Updated By </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_6">String </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">EventUpdatedDate </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_6">Last Event&#160; Updated Date </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_6">DateTime </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">EventDetailUpdatedBy </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_6">Last Event Detail Updated By </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_6">String </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">EventDetailUpdatedDate </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_6">Last Event Detail Updated Date </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_6">DateTime </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h2 class="Heading2">Sample Code </h2>
+        <p class="p_8">private void GetEvents() </p>
+        <p class="p_8"> { </p>
+        <p class="p_9">&#160;&#160;&#160;&#160;&#160;&#160;&#160; MCAPI.MCAPIService svc = new MCAPI.MCAPIService();&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; svc.Url = "http://yourserver/MCAPI/MCAPIService.asmx?WSDL"; </p>
+        <p class="p_6">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </p>
+        <p class="p_16">&#160;&#160;&#160;&#160;&#160;&#160; svcMCAPI.ArrayOfInt&#160; calendars = new svcMCAPI.ArrayOfInt();&#160;&#160;&#160;&#160;&#160;&#160;&#160; calendars.Add(12);&#160;&#160;&#160;&#160;&#160;&#160;&#160; calendars.Add(14); </p>
+        <p class="p_6">&#160;&#160;&#160;&#160; </p>
+        <p class="p_17">&#160;&#160;&#160;&#160;&#160;&#160; svcMCAPI.ArrayOfInt&#160; eventTypes = new svcMCAPI.ArrayOfInt();&#160;&#160;&#160;&#160;&#160;&#160;&#160; eventTypes.Add(4); </p>
+        <p class="p_18">&#160;&#160;&#160;&#160;&#160;&#160; StringReader sr = new StringReader(svc.GetEvents("username", "pwd", DateTime.Now.AddDays(-5),&#160;&#160;&#160;&#160;&#160; DateTime.Now.AddDays(5), "", "", calendars, eventTypes));&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </p>
+        <p class="p_8">&#160;&#160;&#160;&#160;&#160; DataSet ds = new DataSet(); </p>
+        <p class="p_6">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </p>
+        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160;&#160; System.Xml.XmlDocument doc = new System.Xml.XmlDocument(); </p>
+        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160;&#160; doc.LoadXml(sr.ReadToEnd()); </p>
+        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160;&#160; ds.ReadXml(new System.Xml.XmlNodeReader(doc)); </p>
+        <p class="p_10">&#160; } </p>
+        <h2 class="Heading2">Example Response </h2>
+        <p class="p_11">&lt;Events&gt; </p>
+        <p class="p_11"> &lt;Data&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;EventDetailID&gt;155609&lt;/EventDetailID&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;EventID&gt;23173&lt;/EventID&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;Title&gt;Test Event (TT) 240 month recurrence&lt;/Title&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;Description /&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;Location&gt;RM B&lt;/Location&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;Canceled&gt;false&lt;/Canceled&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;NoEndTime&gt;false&lt;/NoEndTime&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;Priority&gt;2&lt;/Priority&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;EventDate&gt;2011-04-01T00:00:00-06:00&lt;/EventDate&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;TimeEventStart&gt;2011-04-01T10:00:00-06:00&lt;/TimeEventStart&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;TimeEventEnd&gt;2011-04-01T11:00:00-06:00&lt;/TimeEventEnd&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;IsAllDayEvent&gt;false&lt;/IsAllDayEvent&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;IsTimedEvent&gt;true&lt;/IsTimedEvent&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;EventTypeID&gt;111&lt;/EventTypeID&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;EventTypeName&gt;Conference&lt;/EventTypeName&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;ContactName&gt;Tester 1&lt;/ContactName&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;ContactEmail&gt;test@dea.com&lt;/ContactEmail&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;IsReOccurring&gt;true&lt;/IsReOccurring&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;IsOnMultipleCalendars&gt;false&lt;/IsOnMultipleCalendars&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;BookingID&gt;61157&lt;/BookingID&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;ReservationID&gt;3609&lt;/ReservationID&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;ConnectorID&gt;0&lt;/ConnectorID&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;HideContactName&gt;false&lt;/HideContactName&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;HideContactEmail&gt;false&lt;/HideContactEmail&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;HideContactPhone&gt;false&lt;/HideContactPhone&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;EventUpdatedBy&gt;Connector Service&lt;/EventUpdatedBy&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;EventUpdatedDate&gt;2010-06-03T16:34:34.15-06:00&lt;/EventUpdatedDate&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;EventDetailUpdatedBy&gt;dbo&lt;/EventDetailUpdatedBy&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;EventDetailUpdatedDate&gt;2010-06-03T16:34:34.167-06:00&lt;/EventDetailUpdatedDate&gt;&#160;&#160; &lt;/Data&gt; </p>
+        <p class="p_11">&lt;/Events&gt; </p>
+        <h2 class="Heading2">GetEvent </h2>
+        <p class="p_2">Description </p>
+        <p class="p_3">Returns event information for a specific event date </p>
+        <h2 class="Heading2">Request Parameters </h2>
+        <table class="table_1">
+            <col />
+            <col />
+            <col />
+            <thead>
+                <tr>
+                    <th class="th_1">
+                        <p class="p_4">Name </p>
+                    </th>
+                    <th class="th_1">
+                        <p class="p_5">Description </p>
+                    </th>
+                    <th class="th_1">
+                        <p class="p_5">Type </p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">UserName </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">MC User Name </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">String </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">Password </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">MC User Password </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">String </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">EventDetailID </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Event Detail ID for the specific event date </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Integer </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h2 class="Heading2">Response Elements </h2>
+        <table class="table_1">
+            <col />
+            <col />
+            <col />
+            <thead>
+                <tr>
+                    <th class="th_1">
+                        <p class="p_4">Name </p>
+                    </th>
+                    <th class="th_1">
+                        <p class="p_5">Description </p>
+                    </th>
+                    <th class="th_1">
+                        <p class="p_5">Type </p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">EventDetailID </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Event Detail ID </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Integer </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">EventID </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Event ID </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Integer </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">Title </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Event Title </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">String </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">TitleURl </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Event Title Url </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">String </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">Description </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Event Description </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">String </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">Department </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Event Department </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">String </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">Location </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Event Location </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">String </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">LocationUrl </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Event Location Url </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">String </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">Canceled </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Event Canceled </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Boolean </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">NoEndTime </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Event has no end time </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Boolean </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">Priority </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Event priority 1=High, 2=Medium, 3=Low </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Interger </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">EventDate </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Event Date </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">DateTime </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">TimeEventStart </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Time Event Starts </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">DateTime </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">TimeEventEnd </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Time Event Ends </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">DateTime </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">PostDate </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Date Event Posts on the calendar </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">DateTime </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">TimezoneID </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">TimezoneID </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Integer </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">TimezoneAbbr </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Timezone abbreviation </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">String </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">IsAllDayEvent </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Is Event All Day </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Boolean </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">IsTimedEvent </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Is Event a timed event </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Boolean </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">calendarName </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Calendar Name </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">String </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">EventTypeID </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Event Type ID </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Integer </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">EventTypeName </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Event Type Name </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">String </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">EventTypeColor </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Color of the Event Type </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">String </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">ContactName </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Event Contact Name </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">String </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">ContactEmail </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Event Contact Email </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">String </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">IsReOccurring </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Event has multiple dates </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Boolean </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">IsOnMultipleCalendars </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Event is on multiple calendars </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Boolean </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">BookingID </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">EMS Booking ID </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Integer </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">ReservationID </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">EMS Reservation ID </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Integer </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">ConnectorID </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">MC Connector ID </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Integer </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">HideContactName </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Hide Contact Name </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Boolean </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">HideContactEmail </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Hide Contact Email </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Boolean </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">HideContactPhone </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Hide Contact Phone </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Boolean </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">CustomFieldLabel1 </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Custom Field Label 1 </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">String </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">CustomFieldDescription1 </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Custom Field Description 1 </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">String </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">CustomUrl1 </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Custom Url 1 </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">String </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">CustomFieldLabel2 </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Custom Field Label 2 </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">String </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">CustomFieldDescription2 </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Custom Field Description 2 </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">String </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">CustomUrl2 </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Custom Url 2 </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">String </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">EventUpdatedBy </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Last Event Updated By </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">String </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">EventUpdatedDate </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Last Event&#160; Updated Date </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">DateTime </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">EventDetailUpdatedBy </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Last Event Detail Updated By </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">String </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">EventDetailUpdatedDate </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Last Event Detail Updated Date </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">DateTime </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">ImageId </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Event Image ID </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Integer </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">FileExtension </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Event Image file extension </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">String </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">ImageName </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Event Image Name </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">String </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">Image </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Event Image </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_7">Image Bytes </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h2 class="Heading2">Sample Code </h2>
+        <p class="p_8">private void GetEvent() </p>
+        <p class="p_8"> { </p>
+        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160;&#160; MCAPI.MCAPIService svc = new MCAPI.MCAPIService(); </p>
+        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160;&#160; svc.Url = "http://yourserver/MCAPI/MCAPIService.asmx?WSDL"; </p>
+        <p class="p_6">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </p>
+        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160; int eventDetailId = 126; </p>
+        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160; StringReader sr = new StringReader(svc.GetEvents("username", "pwd”, eventDetailId));&#160;&#160;&#160;&#160;&#160;&#160;&#160; </p>
+        <p class="p_6">&#160;&#160;&#160;&#160;&#160;&#160; </p>
+        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160; DataSet ds = new DataSet(); </p>
+        <p class="p_6">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </p>
+        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160;&#160; System.Xml.XmlDocument doc = new System.Xml.XmlDocument(); </p>
+        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160;&#160; doc.LoadXml(sr.ReadToEnd()); </p>
+        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160;&#160; ds.ReadXml(new System.Xml.XmlNodeReader(doc)); </p>
+        <p class="p_10">&#160; } </p>
+        <h2 class="Heading2">Example Response </h2>
+        <p class="p_11">&lt;Event&gt; </p>
+        <p class="p_11">&#160; &lt;Data&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;EventDetailID&gt;155609&lt;/EventDetailID&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;EventID&gt;23173&lt;/EventID&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;Title&gt;Test Event (TT) 240 month recurrence&lt;/Title&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;TitleUrl /&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;Description /&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;Department&gt;Test Group&lt;/Department&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;Location&gt;RM B&lt;/Location&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;Canceled&gt;false&lt;/Canceled&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;NoEndTime&gt;false&lt;/NoEndTime&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;StartDate&gt;2011-04-01T00:00:00-06:00&lt;/StartDate&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;Priority&gt;2&lt;/Priority&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;TimeEventStart&gt;2011-04-01T10:00:00-06:00&lt;/TimeEventStart&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;TimeEventEnd&gt;2011-04-01T11:00:00-06:00&lt;/TimeEventEnd&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;IsAllDayEvent&gt;false&lt;/IsAllDayEvent&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;IsTimedEvent&gt;true&lt;/IsTimedEvent&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;TimeZoneID&gt;68&lt;/TimeZoneID&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;ContactName&gt;Tester 1&lt;/ContactName&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;ContactEmail&gt;test@dea.com&lt;/ContactEmail&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;ContactPhone&gt;0123456789&lt;/ContactPhone&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;IsOnMultipleCalendars&gt;false&lt;/IsOnMultipleCalendars&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;IsReOccurring&gt;true&lt;/IsReOccurring&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;CustomFieldLabel1 /&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;CustomFieldDescription1 /&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;CustomURL1 /&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;CustomFieldLabel2 /&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;CustomFieldDescription2 /&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;CustomURL2 /&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;EventTypeID&gt;111&lt;/EventTypeID&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;EventTypeName&gt;Conference&lt;/EventTypeName&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;EventTypeColor&gt;#CC00CC&lt;/EventTypeColor&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;BookingID&gt;61157&lt;/BookingID&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;ReservationID&gt;3609&lt;/ReservationID&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;Priority1&gt;2&lt;/Priority1&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;HideContactName&gt;false&lt;/HideContactName&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;HideContactEmail&gt;false&lt;/HideContactEmail&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;HideContactPhone&gt;false&lt;/HideContactPhone&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;CalendarName&gt;Cycling Club&lt;/CalendarName&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;PostDate&gt;2010-06-03T16:34:34.15-06:00&lt;/PostDate&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;TimezoneAbbr&gt;MT&lt;/TimezoneAbbr&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;EventUpdatedBy&gt;Connector Service&lt;/EventUpdatedBy&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;EventUpdatedDate&gt;2010-06-03T16:34:34.15-06:00&lt;/EventUpdatedDate&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;EventDetailUpdatedBy&gt;dbo&lt;/EventDetailUpdatedBy&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;EventDetailUpdatedDate&gt;2010-06-03T16:34:34.167-06:00&lt;/EventDetailUpdatedDate&gt;&#160;&#160;&#160;&#160; &lt;ImageId&gt;0&lt;/ImageId&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;FileExtension /&gt; </p>
+        <p class="p_11">&#160;&#160;&#160; &lt;ImageName&gt;Image&lt;/ImageName&gt; </p>
+        <p class="p_11">&#160; &lt;/Data&gt; </p>
+        <p class="p_19">&lt;/Event&gt;  </p>
+    </body>
+</html>
