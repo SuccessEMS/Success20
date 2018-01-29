@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="10" MadCap:lastHeight="8775" MadCap:lastWidth="847">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="10" MadCap:lastHeight="11534" MadCap:lastWidth="710">
     <head><title mt-export-translate="no">Configuring Skype for Business</title>
         <meta name="mt-type" value="application/x.deki-text" />
         <meta name="mt-unsafe" value="true" />
@@ -48,7 +48,7 @@
             <li><span class="bold">For On Premise deployment:</span>
                 <ol start="1" style="list-style-type: lower-alpha;">
                     <li>Set the <span class="bold">Skype for Business Auto Discover URL</span> parameter. This parameter performs autodiscovery&#160;to find the appropriate server to communicate with. For more information regarding setting this parameter, click see <a href="https://ucwa.skype.com/documentation/GettingStarted-RootURL" title="https://ucwa.skype.com/documentation/GettingStarted-RootURL" alt="https://ucwa.skype.com/documentation/GettingStarted-RootURL">here</a>.&#160;</li>
-                    <li>Set&#160;the <span class="bold">Skype for Business Serve Authentication Method</span>. This parameter determines the authentication type that is used to generate a token.&#160;<ul start="1"><li>The Skype for Business (On Premise) server supports three authentication methods:<ol start="1"><li>ADFS (not supported in EMS Mobile App)</li><li>NTLM</li><li>UserName/Password</li></ol><p><img src="../Images/Skype_CG3.png" /></p></li></ul></li>
+                    <li>Set&#160;the <span class="bold">Skype for Business Server Authentication Method</span>. This parameter determines the authentication type that is used to generate a token.&#160;<ul start="1"><li>The Skype for Business (On Premise) server supports three authentication methods:<ol start="1"><li>ADFS (Active Directory Federation Services)&#160;(not supported in EMS Mobile App)</li><li>NTLM/Windows Authentication</li><li>UserName/Password</li></ol><p><img src="../Images/Skype_CG3.png" /></p></li></ul></li>
                 </ol>
             </li>
             <li><span class="bold">For Online deployment:</span>
@@ -56,13 +56,13 @@
                     <li>Set the <span class="bold">Azure Active Directory Client ID</span> parameter. This parameter determines the ID of the registered application. For more information regarding setting this parameter, click see <a href="https://msdn.microsoft.com/en-us/skype/ucwa/registeringyourapplicationinazuread" title="https://msdn.microsoft.com/en-us/skype/ucwa/registeringyourapplicationinazuread">here</a>.&#160;</li>
                     <li>Set the <span class="bold">Azure Active Directory Tenant</span> parameter. This parameter determines the name of the AAD tenant. For more information regarding setting this parameter, click see <a href="https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-howto-tenant" title="https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-howto-tenant">here</a>.</li>
                     <li><span class="bold">Skype for Business Auto Discover URL</span>. This parameter performs autodiscovery&#160;to find the appropriate server to communicate with. For more information regarding setting this parameter, click&#160;see <a href="https://msdn.microsoft.com/en-us/skype/ucwa/authenticationusingazuread" title="https://msdn.microsoft.com/en-us/skype/ucwa/authenticationusingazuread">here</a>.&#160;</li>
-                    <li><span class="bold">Skype for Business Server Authentication Method</span>. This parameter determines the authentication type that is used to generate a token.<ul start="1"><li>The Skype for Business (Online) server supports one authentication method:<ol start="1"><li>Oauth</li></ol><p><img src="../Images/Skype_CG4.png" /></p></li></ul></li>
+                    <li><span class="bold">Skype for Business Server Authentication Method</span>. This parameter determines the authentication type that is used to generate a token.<ul start="1"><li>The Skype for Business (Online) server supports one authentication method:<ol start="1"><li>Oauth (Online authentication)</li></ol><p><img src="../Images/Skype_CG4.png" /></p></li></ul></li>
                 </ol>
             </li>
         </ol>
         <ol start="4">
             <li>Configure the Reply URL&#160;for EMS Mobile App (Skype for Business Online deployment):
-    <ol start="1" style="list-style-type: lower-alpha;"><li>&#160;Refer to the steps outlined in this see <a href="https://docs.microsoft.com/en-us/azure/app-service-mobile/app-service-mobile-how-to-configure-active-directory-authentication#a-nameadvanced-aalternative-method-manually-configure-azure-active-directory-with-advanced-settings" title="https://docs.microsoft.com/en-us/azure/app-service-mobile/app-service-mobile-how-to-configure-active-directory-authentication#a-nameadvanced-aalternative-method-manually-configure-azure-active-directory-with-advanced-settings">documentation</a>.</li><li>In the Reply URL field, insert&#160;<span class="bold">emssoftware://skype/x</span>.</li></ol></li>
+    <ol start="1" style="list-style-type: lower-alpha;"><li>&#160;Refer to the steps outlined in this <a href="https://docs.microsoft.com/en-us/azure/app-service-mobile/app-service-mobile-how-to-configure-active-directory-authentication#a-nameadvanced-aalternative-method-manually-configure-azure-active-directory-with-advanced-settings" title="https://docs.microsoft.com/en-us/azure/app-service-mobile/app-service-mobile-how-to-configure-active-directory-authentication#a-nameadvanced-aalternative-method-manually-configure-azure-active-directory-with-advanced-settings">documentation</a>.</li><li>In the Reply URL field, insert&#160;<span class="bold">emssoftware://skype/x</span>.</li></ol></li>
             <li>Configure the Reply URL for EMS Web App:
     <ol start="1" style="list-style-type: lower-alpha;"><li>In the Reply URL field, insert the root URL:
         <ul class="mt-indent-1"><li>Skype for Business Reply URL = https://loripsor/ConferencingLogin.aspx (where EMS Web App URL = htttps://loripsor.emswebapp.com and&#160;Root URL = loripsor)</li></ul></li></ol></li>
@@ -84,7 +84,11 @@
         </div>
         <ol start="5">
             <li>Clear the cache in EMS Platform Services by navigating&#160;back to the EMS Platform Services Admin Portal and clicking the <span class="bold">Clear Cache</span> button.&#160;</li>
+            <li>In the EMS&#160;Desktop Client, navigate to System Administration &gt;&#160;Settings&#160;&gt;&#160;Parameters &gt;&#160;Everyday User Applications. Configure the Platform Services API&#160;URL&#160;parameter. Click Close. </li>
         </ol>
+        <p>
+            <img src="../Images/Skype_ParamforWebApp.PNG" />
+        </p>
         <h2><a name="Configure_Skype_for_Business_on_Global_Templates"></a>Configure Skype for Business on Global Templates</h2>
         <ol start="1">
             <li>Log into EMS Desktop Client.&#160;Enable the global parameters for&#160;Skype for Business within EMS. Navigate to <span class="bold">System Administration</span> &gt; <span class="bold">Settings </span>&gt; <span class="bold">Parameters </span>&gt; <span class="bold">Everyday User Applications</span> tab.&#160;

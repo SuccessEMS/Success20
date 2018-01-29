@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html MadCap:lastBlockDepth="6" MadCap:lastHeight="9970" MadCap:lastWidth="1046" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../Resources/MasterPages/emsMasterCalendar.flmsp');">
+<html MadCap:lastBlockDepth="6" MadCap:lastHeight="13410" MadCap:lastWidth="778" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../Resources/MasterPages/emsMasterCalendar.flmsp');">
     <head><title mt-export-translate="no">Connecting to Data Sources</title>
         <meta name="mt-type" value="application/x.deki-text" />
         <meta name="mt-unsafe" value="true" />
@@ -33,7 +33,7 @@
         </p>
         <ul>
             <li class="Body">For setting up event types from “scratch,” see <MadCap:xref href="../C_UserGuide/MC_UG_WorkwithEvents.html">Work With Events</MadCap:xref>.</li>
-            <li class="Body">For setting up holidays (special dates) from “scratch,” see <a title="Managing Special Dates">Managing Special Dates</a>.</li>
+            <li class="Body">For setting up holidays (special dates) from “scratch,” see <a title="Managing Special Dates" href="MC_ConfigSpecialDates.html" alt="Managing Special Dates">Managing Special Dates</a>.</li>
         </ul>
         <h2><a name="Adding"></a>Add a Data Source</h2>
         <ol>
@@ -95,7 +95,7 @@
             <img src="../images/B_Configuration/MC_ConnectDataSources_SelecttheDataSources.png" />
         </p>
         <ol MadCap:continue="true">
-            <li>For any of the unmapped EMS event types, click Create to open a Master Calendar dialog box. The Description tab on this dialog box lists all the currently active Master Calendar event types. The “Do Not Use” option is also displayed on this list. If you do not see the Master Calendar event type to which you want to map the EMS event type, either it has not been created, or it is currently inactive in Master Calendar. To add a new event type, or to activate a currently inactive event type, see “<a title="Managing Event Types">To add an event type</a>” or “<a title="Managing Event Types">To activate an event type</a>”.</li>
+            <li>For any of the unmapped EMS event types, click Create to open a Master Calendar dialog box. The Description tab on this dialog box lists all the currently active Master Calendar event types. The “Do Not Use” option is also displayed on this list. If you do not see the Master Calendar event type to which you want to map the EMS event type, either it has not been created, or it is currently inactive in Master Calendar. To add a new event type, or to activate a currently inactive event type, see “<a title="Managing Event Types" href="MC_WorkwithEventTypes.html" alt="Managing Event Types">To add an event type</a>” or “<a title="Managing Event Types" href="MC_WorkwithEventTypes.html" alt="Managing Event Types">To activate an event type</a>”.</li>
         </ol>
         <p class="AnchorFigure">
             <img src="../images/B_Configuration/MC_ConnectDataSources_MasterCalendarDialogBox.png" />
@@ -109,9 +109,9 @@
             <li>Optionally, continue to one or both of the following:</li>
         </ol>
         <ul>
-            <li><a title="Managing Data Sources">Import EMS holidays</a>
+            <li><a title="Managing Data Sources" href="#ImportHoliday" alt="Managing Data Sources">Import EMS holidays</a>
             </li>
-            <li><a title="Managing Data Sources">Select EMS user-defined fields (UDFs) for importing</a>
+            <li><a title="Managing Data Sources" href="#Select" alt="Managing Data Sources">Select EMS user-defined fields (UDFs) for importing</a>
             </li>
         </ul>
         <h2><a name="View"></a>View the History for an Event Type Mapping</h2>
@@ -142,7 +142,7 @@
             <img src="../images/B_Configuration/MC_ConnectDataSources_EventTypeMappingHistory.png" />
         </p>
         <h2><a name="ImportHoliday"></a>Import&#160;EMS Holidays or Special Dates</h2>
-        <p class="StepNumberBegin">Tip:&#160;The term “holiday” is equivalent to the Master Calendar term “special date.”</p>
+        <h1 class="note-box">Note:&#160;The term “holiday” is equivalent to the Master Calendar term “special date.”</h1>
         <ol>
             <li>On the Admin menu, point to Site Administration, and then click Data Sources.&#160;The Data Sources page opens. This page lists all the currently available data sources in Master Calendar.</li>
         </ol>
@@ -161,14 +161,14 @@
         </ol>
         <ul>
             <li>In the <strong>Start Date</strong> field, enter a different start date.</li>
-            <li>In the <strong>Title </strong>field, enter partial or complete search criteria for the holiday description.The search is limited to the exact order of the characters in the string; however, the search string is not case-sensitive and the search string can be found anywhere in the search results. For example, the search string “scout” returns holidays that contain either Scouting Day or Boy Scouts’ Day.</li>
+            <li>In the <strong>Title </strong>field, enter partial or complete search criteria for the holiday description. The search is limited to the exact order of the characters in the string; however, the search string is not case-sensitive and the search string can be found anywhere in the search results. For example, the search string “scout” returns holidays that contain either Scouting Day or Boy Scouts’ Day.</li>
         </ul>
         <ol start="5">
             <li>Click <strong>Go</strong>.&#160;The page is refreshed to show the Holidays that meet your search criteria.</li>
             <li>Select the holidays that are to be imported from the selected data source, and then <strong>Add</strong>.To select all holidays on the currently opened page for importing in a single step, select <strong>Description</strong>. If you have multiple pages of holidays to import, you must repeat this entire process on each page.&#160;You will be prompted to confirm that&#160;you are sure you want to add all the selected holidays.&#160;</li>
             <li>Click <strong>OK </strong>in the message.</li>
         </ol>
-        <p class="StepResultNoBullet">The message closes. You return to the Holidays page.&#160;When you import EMS holidays into your Master Calendar database, all the imported holidays are added to all the calendars in Master Calendar. You must manually delete the dates from the calendars on which you do not want the holidays to be displayed. See <a title="Managing Special Dates">To delete a special date</a>.</p>
+        <p class="StepResultNoBullet">The message closes. You return to the Holidays page.&#160;When you import EMS holidays into your Master Calendar database, all the imported holidays are added to all the calendars in Master Calendar. You must manually delete the dates from the calendars on which you do not want the holidays to be displayed. </p>
         <ol MadCap:continue="true">
             <li>Optionally, do one or both of the following:</li>
         </ol>
@@ -195,6 +195,5 @@
             <li>Click <strong>Save</strong>.</li>
             <li>You must now run a connector to import the selected UDFs and their associated answers into your Master Calendar database.</li>
         </ol>
-        <p class="StepNumberContinued"><strong>See Also:&#160;</strong><a title="Managing Connectors in your Master Calendar System">Managing Connectors in your Master Calendar System</a>.</p>
     </body>
 </html>

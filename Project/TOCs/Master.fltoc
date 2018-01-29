@@ -429,8 +429,6 @@
           Title="Run the Master Calendar Installer"
           Link="/Content/MasterCalendar/V8/A_Installation/MC_IG_RunningMCInstaller.html" />
         <TocEntry
-          Title="Configure Master Calendar to Use the Master Calendar API Web Service" />
-        <TocEntry
           Title="Install or Upgrade the Database Component in Master Calendar"
           Link="/Content/MasterCalendar/V8/A_Installation/MC_InstallUpgradeDatabaseComp.html" />
         <TocEntry
@@ -1240,8 +1238,6 @@
         <TocEntry
           Title="Run the Master Calendar Installer"
           Link="/Content/MasterCalendar/V8/A_Installation/MC_IG_RunningMCInstaller.html" />
-        <TocEntry
-          Title="Configure Master Calendar to Use the Master Calendar API Web Service" />
         <TocEntry
           Title="Install or Upgrade the Database Component in Master Calendar"
           Link="/Content/MasterCalendar/V8/A_Installation/MC_InstallUpgradeDatabaseComp.html" />
@@ -2518,51 +2514,7 @@
           Link="/Content/MasterCalendar/V8/B_Configuration/MC_ReleaseNotes.html" />
         <TocEntry
           Title="API Functions"
-          Link="/Content/MasterCalendar/V8/B_Configuration/MC_APIFunctions.html">
-          <TocEntry
-            Title="AddEventWithMultipleDates (Requires Advanced API Option)"
-            Link="/Content/MasterCalendar/V8/B_Configuration/MC_API_AddEventwithMultDates.html" />
-          <TocEntry
-            Title="AddEvent (Requires Advanced API Option)"
-            Link="/Content/MasterCalendar/V8/B_Configuration/MC_AddEventReqAdvAPIOpt.html">
-            <TocEntry
-              Title="GetCalendar"
-              Link="/Content/MasterCalendar/V8/B_Configuration/MC_GetCalendar.html" />
-            <TocEntry
-              Title="GetCalendars"
-              Link="/Content/MasterCalendar/V8/B_Configuration/MC_GetCalendars.html" />
-            <TocEntry
-              Title="GetComments"
-              Link="/Content/MasterCalendar/V8/B_Configuration/MC_GetComments.html" />
-            <TocEntry
-              Title="GetEvent"
-              Link="/Content/MasterCalendar/V8/B_Configuration/MC_GetEvent.html" />
-            <TocEntry
-              Title="GetEvents"
-              Link="/Content/MasterCalendar/V8/B_Configuration/MC_GetEvents.html" />
-            <TocEntry
-              Title="GetEventTypes"
-              Link="/Content/MasterCalendar/V8/B_Configuration/MC_GetEventTypes.html" />
-            <TocEntry
-              Title="GetFeaturedEvents"
-              Link="/Content/MasterCalendar/V8/B_Configuration/MC_GetFeaturedEvents.html" />
-            <TocEntry
-              Title="GetGroupings"
-              Link="/Content/MasterCalendar/V8/B_Configuration/MC_GetGroupings.html" />
-            <TocEntry
-              Title="GetLocations"
-              Link="/Content/MasterCalendar/V8/B_Configuration/MC_GetLocations.html" />
-            <TocEntry
-              Title="GetUdqs"
-              Link="/Content/MasterCalendar/V8/B_Configuration/MC_GetUdqs.html" />
-            <TocEntry
-              Title="UpdateEventDate (Requires Advanced API Option)"
-              Link="/Content/MasterCalendar/V8/B_Configuration/MC_UpdateEventDateReqAdvanAPIOpt.html" />
-            <TocEntry
-              Title="UpdateEvent (Requires Advanced API Option)"
-              Link="/Content/MasterCalendar/V8/B_Configuration/MC_UpdateEventReqAdvanAPIOpt.html" />
-          </TocEntry>
-        </TocEntry>
+          Link="/Content/MasterCalendar/V8/B_Configuration/MC_APIFunctions.html"></TocEntry>
       </TocEntry>
       <TocEntry
         Title="Work with Subscriptions"

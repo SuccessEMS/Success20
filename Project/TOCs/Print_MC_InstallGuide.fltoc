@@ -28,8 +28,6 @@
       Title="Run the Master Calendar Installer"
       Link="/Content/MasterCalendar/V8/A_Installation/MC_IG_RunningMCInstaller.html" />
     <TocEntry
-      Title="Configure Master Calendar to Use the Master Calendar API Web Service" />
-    <TocEntry
       Title="Install or Upgrade the Database Component in Master Calendar"
       Link="/Content/MasterCalendar/V8/A_Installation/MC_InstallUpgradeDatabaseComp.html" />
     <TocEntry
