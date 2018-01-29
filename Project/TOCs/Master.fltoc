@@ -2514,7 +2514,7 @@
           Link="/Content/MasterCalendar/V8/B_Configuration/MC_ReleaseNotes.html" />
         <TocEntry
           Title="API Functions"
-          Link="/Content/MasterCalendar/V8/B_Configuration/MC_APIFunctions.html"></TocEntry>
+          Link="/Content/MasterCalendar/V8/B_Configuration/MC_APIfunctions.htm"></TocEntry>
       </TocEntry>
       <TocEntry
         Title="Work with Subscriptions"

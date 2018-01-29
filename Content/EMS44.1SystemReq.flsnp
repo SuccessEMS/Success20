@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="7584" MadCap:lastWidth="1134">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="8556" MadCap:lastWidth="1134">
     <head>
         <link href="Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" />
     </head>
@@ -191,7 +191,7 @@
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">365</td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Outlook</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Outlook (32- and 64-bit)</td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">2010, 2013, 2016</td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
