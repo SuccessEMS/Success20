@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Update21">
+    <TocEntry
+      Title="EMS Desktop Client Release Notes V44.1, Update 21"
+      Link="/Content/ReleaseNotes/Version44.1/Update21/EMSDesktopClient_ReleaseNotes.htm"
+      MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="EMS Campus Release Notes V44.1, Update 21"
+      Link="/Content/ReleaseNotes/Version44.1/Update21/EMSCampus_ReleaseNotes.htm"
+      MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="EMS Web App Release Notes V44.1, Update 21"
+      Link="/Content/ReleaseNotes/Version44.1/Update21/EMSWebApp_ReleaseNotes.htm"
+      MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="EMS for Outlook Release Notes V44.1, Update 21"
+      Link="/Content/ReleaseNotes/Version44.1/Update21/EMSForOutlook_ReleaseNotes.htm"
+      MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="EMS Room Sign App Release Notes V44.1, Update 21"
+      Link="/Content/ReleaseNotes/Version44.1/Update21/EMSRoomSignApp_ReleaseNotes.htm"
+      MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="EMS Master Calendar Release Notes V44.1, Update 21"
+      Link="/Content/ReleaseNotes/Version44.1/Update21/EMSMasterCalendar_ReleaseNotes.htm"
+      MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="EMS Platform Services Release Notes V44.1, Update 21"
+      Link="/Content/ReleaseNotes/Version44.1/Update21/EMSPlatformServices_ReleaseNotes.htm"
+      MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+  </TocEntry>
+</CatapultToc>
