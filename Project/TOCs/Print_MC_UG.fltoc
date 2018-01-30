@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="EMS Master Calendar User Guide"
+    Link="/Content/Print/DC_Install_FrontPage.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/7X9/Title7X9.flpgl"
+    PageNumberReset="continue"></TocEntry>
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/Print Only Topics/TOC.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/7X9/TOC7X9.flpgl" />
+  <TocEntry
+    Title="Requirements for Master Calendar"
+    Link="/Content/MasterCalendar/V8/A_Installation/MC_IG_SysReqPrereq.html"></TocEntry>
+  <TocEntry
+    Title="User Guide"
+    Link="/Content/MasterCalendar/V8/C_UserGuide/MC_UG_Introduction.html">
+    <TocEntry
+      Title="Log In to Master Calendar"
+      Link="/Content/MasterCalendar/V8/C_UserGuide/MC_UG_LogIn.html" />
+    <TocEntry
+      Title="Use Basic Features of EMS Master Calendar"
+      Link="/Content/MasterCalendar/V8/C_UserGuide/MC_UG_UseBasicFeatures.html">
+      <TocEntry
+        Title="Use Field Icons in EMS Master Calendar"
+        Link="/Content/MasterCalendar/V8/C_UserGuide/MC_UG_UseFieldIcons.html" />
+      <TocEntry
+        Title="Search by Keyword"
+        Link="/Content/MasterCalendar/V8/C_UserGuide/MC_UG_SearchbyKeyword.html" />
+      <TocEntry
+        Title="Export Search Results"
+        Link="/Content/MasterCalendar/V8/C_UserGuide/MC_UG_ExportSearchResults.html" />
+      <TocEntry
+        Title="Search for an Event or Special Date"
+        Link="/Content/MasterCalendar/V8/C_UserGuide/MC_UG_SearchforEventorSpecialDate.html" />
+      <TocEntry
+        Title="Use RSS Feeds in EMS Master Calendar"
+        Link="/Content/MasterCalendar/V8/C_UserGuide/MC_UG_UseRSSFeeds.html" />
+    </TocEntry>
+    <TocEntry
+      Title="Work with Calendars"
+      Link="/Content/MasterCalendar/V8/C_UserGuide/MC_UG_WorkwithCalendars.html">
+      <TocEntry
+        Title="Modify the Calendar Display"
+        Link="/Content/MasterCalendar/V8/C_UserGuide/MC_UG_ModifyCalendarDispaly.html" />
+      <TocEntry
+        Title="Filter Events on the Calendar"
+        Link="/Content/MasterCalendar/V8/C_UserGuide/MC_UG_FilterEventsonCalendar.html" />
+      <TocEntry
+        Title="Set a Timeframe for the Calendar Display"
+        Link="/Content/MasterCalendar/V8/C_UserGuide/MC_UG_SetTimeFrameforDisplay.html" />
+      <TocEntry
+        Title="Navigate in the Master Calendar"
+        Link="/Content/MasterCalendar/V8/C_UserGuide/MC_UG_NavinMasterCalendar.html" />
+      <TocEntry
+        Title="Open Events from the Master Calendar"
+        Link="/Content/MasterCalendar/V8/C_UserGuide/MC_UG_OpenEvents.html" />
+      <TocEntry
+        Title="Scroll Through Events on the Calendar"
+        Link="/Content/MasterCalendar/V8/C_UserGuide/MC_UG_ScrollThroughEvents.html" />
+      <TocEntry
+        Title="Subscribe to a Calendar"
+        Link="/Content/MasterCalendar/V8/C_UserGuide/MC_UG_SubscribetoCalendar.html" />
+      <TocEntry
+        Title="Subscribe to a Calendar Using Email"
+        Link="/Content/MasterCalendar/V8/C_UserGuide/MC_UG_SubscribetoCalendarUsingEmail.html" />
+      <TocEntry
+        Title="Subscribe to a Calendar Using iCal"
+        Link="/Content/MasterCalendar/V8/C_UserGuide/MC_UG_SubscribetoCalendarUsingical.html" />
+    </TocEntry>
+    <TocEntry
+      Title="User Options"
+      Link="/Content/MasterCalendar/V8/C_UserGuide/MC_UG_UserOptions.html">
+      <TocEntry
+        Title="Change Your Password"
+        Link="/Content/MasterCalendar/V8/C_UserGuide/MC_UG_ChangeYourPassword.html" />
+      <TocEntry
+        Title="View Custom Help Text"
+        Link="/Content/MasterCalendar/V8/C_UserGuide/MC_UG_ViewCustomHelpText.html" />
+      <TocEntry
+        Title="View Your Notifications"
+        Link="/Content/MasterCalendar/V8/C_UserGuide/MC_UG_ViewYourNotifications.html" />
+      <TocEntry
+        Title="View Your Requests"
+        Link="/Content/MasterCalendar/V8/C_UserGuide/MC_UG_ViewYourRequests.html" />
+    </TocEntry>
+    <TocEntry
+      Title="How Do I Publicize an Event in Master Calendar?"
+      Link="/Content/MasterCalendar/V8/C_UserGuide/MC_UG_HowtoPublicizeEvent.html" />
+    <TocEntry
+      Title="Work with Events"
+      Link="/Content/MasterCalendar/V8/C_UserGuide/MC_UG_WorkwithEvents.html">
+      <TocEntry
+        Title="Types of Master Calendar Users"
+        Link="/Content/MasterCalendar/V8/C_UserGuide/MC_UG_TypesofUsers.html" />
+      <TocEntry
+        Title="Submit an Event"
+        Link="/Content/MasterCalendar/V8/C_UserGuide/MC_UG_SubmitEvents.html" />
+      <TocEntry
+        Title="Additional Info Fields"
+        Link="/Content/MasterCalendar/V8/C_UserGuide/MC_UG_AdditionalInfoFields.html" />
+      <TocEntry
+        Title="Custom, Email, and Attachment Fields"
+        Link="/Content/MasterCalendar/V8/C_UserGuide/MC_UG_CustomEmailAttachmentFields.html" />
+      <TocEntry
+        Title="Event Times Fields"
+        Link="/Content/MasterCalendar/V8/C_UserGuide/MC_UG_EventTimesFields.html" />
+      <TocEntry
+        Title="General Info Fields"
+        Link="/Content/MasterCalendar/V8/C_UserGuide/MC_UG_GeneralInfoFields.html" />
+    </TocEntry>
+    <TocEntry
+      Title="Glossary"
+      Link="/Content/MasterCalendar/V8/C_UserGuide/MC_UG_Glossary.html" />
+  </TocEntry>
+</CatapultToc>
