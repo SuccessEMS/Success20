@@ -1,9 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xml:lang="en-us" MadCap:lastBlockDepth="6" MadCap:lastHeight="8927" MadCap:lastWidth="872" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\emsCampus.flmsp');">
+<html xml:lang="en-us" MadCap:lastBlockDepth="6" MadCap:lastHeight="11762" MadCap:lastWidth="778" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\emsCampus.flmsp');">
     <head>
-        <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" />
-        <title></title>
-        
+        <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
     </head>
     <body>
         <h1>PeopleSoft Views Data Model</h1>
@@ -13,8 +11,17 @@
             <p>Note:&#160;Optionally and on a custom basis, up to 10 User Defined Fields can be added to the set of views for each organization to support desired workflow. Detailed business requirements are needed to provide a quote for customization of the views for this purpose.</p>
         </div>
         <p>Modification of views by the customer is unsupported and voids the Annual Service Agreement for the integration with PeopleSoft.</p>
+        <p>A stored procedure has been introduced into EMS_SPUPDATECOURSEDATES  to provide additional updates to PeopleSoft.  These updates and new stored procedure accomplish the following:</p>
+        <ol>
+            <li>Update the PS_CLASS_MTG_PAT record with the room ID.</li>
+            <li>      If an Event ID already exists, update the existing PS_CAMPUS_MTG records.</li>
+            <li>If an Event ID does not exist:<ol><li>      Update the PS_EVENT_LAST_TBL table – increment by one.</li><li>     Retrieve the EVENT_NBR_LAST value from the PS_EVENT_LAST_TBL table.</li><li>      Update the PS_CLASS_TBL record with the Event ID.</li><li>     If it’s a combined section then update the related combined sections in PS_CLASS_TBL with the Event ID so long as the SKIP_MTGPAT_EDIT flag is set to ‘No.’</li></ol></li>
+            <li>Create PS_CAMPUS_EVENT record if it doesn’t exist for the Event ID.</li>
+            <li>Create PS_CAMPUS_MTG records if they don’t exist for the Event ID and Meeting Number.</li>
+        </ol>
+        <h2>View Modifications</h2>
         <p>Fields highlighted in&#160;<span style="color: #1e90ff;">BLUE&#160;</span>are required to be unique.</p>
-        <h2>Buildings</h2>
+        <h3>Buildings</h3>
         <p><span class="bold">EMS View:</span> EMS_vwBuildings</p>
         <p><span class="bold">View Permissions:</span>&#160;Read Only</p>
         <p><span class="bold">PeopleSoft Tables:</span>&#160;PS_BLDG_TBL</p>
@@ -61,7 +68,7 @@
                 </tr>
             </tbody>
         </table>
-        <h2>Room Types</h2>
+        <h3>Room Types</h3>
         <p><span class="bold">EMS View:</span> EMS_vwRoomTypes</p>
         <p><span class="bold">View Permissions:</span>&#160;Read Only</p>
         <p><span class="bold">PeopleSoft Tables:</span>&#160;PSXLATITEM (‘FACILITY_TYPE’)</p>
@@ -100,7 +107,7 @@
                 </tr>
             </tbody>
         </table>
-        <h2>Rooms</h2>
+        <h3>Rooms</h3>
         <p><span class="bold">EMS View:</span> EMS_vwRooms</p>
         <p><span class="bold">View Permissions:</span>&#160;Read Only</p>
         <p><span class="bold">PeopleSoft Tables:</span> PS_FACILITY_TBL, PS_BLDG_TBL, PSXLATITEM</p>
@@ -171,7 +178,7 @@
                 </tr>
             </tbody>
         </table>
-        <h2>Instructors</h2>
+        <h3>Instructors</h3>
         <p><span class="bold">EMS View:</span>&#160;EMS_vwInstructors</p>
         <p><span class="bold">View Permissions:</span>&#160;Read Only</p>
         <p><span class="bold">PeopleSoft Tables:</span>&#160;PS_INSTR_ADVISOR, PS_NAMES</p>
@@ -210,7 +217,7 @@
                 </tr>
             </tbody>
         </table>
-        <h2>Terms</h2>
+        <h3>Terms</h3>
         <p><span class="bold">EMS View:</span>&#160;EMS_vwTerms</p>
         <p><span class="bold">View Permissions:</span>&#160;Read Only</p>
         <p><span class="bold">PeopleSoft Tables:</span> PS_TERM_TBL</p>
@@ -273,7 +280,7 @@
                 </tr>
             </tbody>
         </table>
-        <h2>Subjects</h2>
+        <h3>Subjects</h3>
         <p><span class="bold">EMS View:</span>&#160;EMS_vwSubjects</p>
         <p><span class="bold">View Permissions:</span>&#160;Read Only</p>
         <p><span class="bold">PeopleSoft Tables:</span>&#160;PS_SUBJECT_TBL, PS_CLASS_TBL (Distinct values)</p>
@@ -369,7 +376,7 @@
             </tbody>
         </table>
         <p>*NULL if not using Campus Codes</p>
-        <h2>Course Types</h2>
+        <h3>Course Types</h3>
         <p><span class="bold">EMS View:</span> EMS_vwCourseTypes</p>
         <p><span class="bold">View Permissions:</span>&#160;Read Only</p>
         <p><span class="bold">PeopleSoft Tables:</span>&#160;PSXLATITEM (‘SSR_COMPONENT’)</p>
@@ -408,7 +415,7 @@
                 </tr>
             </tbody>
         </table>
-        <h2>Courses</h2>
+        <h3>Courses</h3>
         <p><span class="bold">EMS View:</span> EMS_vwCourses</p>
         <p><span class="bold">View Permissions:</span>&#160;Read Only</p>
         <p><span class="bold">PeopleSoft Tables:</span>&#160;PS_CLASS_TBL, PS_CRSE_CATALOG, PS_CLASS_INSTR, PS_SCTN_CMBND</p>
@@ -568,7 +575,7 @@
             </tbody>
         </table>
         <p>*NULL if not using Campus Codes<br />**First record<br />***’0’ if not crosslisted, otherwise matching on SCTN_COMBINED_ID</p>
-        <h2>Course Dates</h2>
+        <h3>Course Dates</h3>
         <p><span class="bold">EMS View:</span> EMS_vwCourseDates</p>
         <p><span class="bold">View Permissions:</span>&#160;Update if allowing EMS to update room locations in PeopleSoft</p>
         <p><span class="bold">PeopleSoft Tables:</span>&#160;PS_CLASS_MTG_PAT, PS_CLASS_TBL, PS_FACILITY_TBL</p>
