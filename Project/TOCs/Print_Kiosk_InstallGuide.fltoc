@@ -26,35 +26,35 @@
       PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl"></TocEntry>
     <TocEntry
       Title="Introduction to the EMS Kiosk App"
-      Link="/Content/Kiosk/A_44.1/A_Install/Kiosk_IG_Introduction.htm"
+      Link="/Content/EMSKioskApp/A_44.1/A_Install/Kiosk_IG_Introduction.htm"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
       PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
     <TocEntry
       Title="Obtain the Installation Files for EMS Kiosk App"
-      Link="/Content/Kiosk/A_44.1/A_Install/Kiosk_IG_ObtainInstallation.htm"
+      Link="/Content/EMSKioskApp/A_44.1/A_Install/Kiosk_IG_ObtainInstallation.htm"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
       PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
     <TocEntry
       Title="System Requirements and Prerequisites for EMS Kiosk App"
-      Link="/Content/Kiosk/A_44.1/A_Install/Kiosk_IG_SysReqPrereq.htm"
+      Link="/Content/EMSKioskApp/A_44.1/A_Install/Kiosk_IG_SysReqPrereq.htm"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
       PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
     <TocEntry
       Title="Install or Upgrade the EMS Kiosk App"
-      Link="/Content/Kiosk/A_44.1/A_Install/Kiosk_IG_InstallUpgrade.htm"
+      Link="/Content/EMSKioskApp/A_44.1/A_Install/Kiosk_IG_InstallUpgrade.htm"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
       PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
     <TocEntry
       Title="Launch EMS Kiosk App"
-      Link="/Content/Kiosk/A_44.1/A_Install/Kiosk_IG_StartKioskApp.htm"
+      Link="/Content/EMSKioskApp/A_44.1/A_Install/Kiosk_IG_StartKioskApp.htm"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"

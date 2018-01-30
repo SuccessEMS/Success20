@@ -24,20 +24,20 @@
       PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl"></TocEntry>
     <TocEntry
       Title="Configure EMS Kiosk App Profiles"
-      Link="/Content/Kiosk/A_44.1/B_Config/Kiosk_CG_ConfigKioskAppProfiles.htm"
+      Link="/Content/EMSKioskApp/A_44.1/B_Config/Kiosk_CG_ConfigKioskAppProfiles.htm"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
       PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
     <TocEntry
       Title="Configure EMS Kiosk App Menus"
-      Link="/Content/Kiosk/A_44.1/B_Config/Kiosk_CG_ConfigKioskAppMenus.htm"
+      Link="/Content/EMSKioskApp/A_44.1/B_Config/Kiosk_CG_ConfigKioskAppMenus.htm"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
       PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
     <TocEntry
       Title="Customize the Logo and Background in the EMS Kiosk App"
-      Link="/Content/Kiosk/A_44.1/B_Config/Kiosk_CustomizeLogoBackground.htm" />
+      Link="/Content/EMSKioskApp/A_44.1/B_Config/Kiosk_CustomizeLogoBackground.htm" />
   </TocEntry>
 </CatapultToc>

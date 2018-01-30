@@ -24,14 +24,14 @@
         PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl"></TocEntry>
       <TocEntry
         Title="Configure EMS Kiosk App Profiles"
-        Link="/Content/Kiosk/A_44.1/B_Config/Kiosk_CG_ConfigKioskAppProfiles.htm"
+        Link="/Content/EMSKioskApp/A_44.1/B_Config/Kiosk_CG_ConfigKioskAppProfiles.htm"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
       <TocEntry
         Title="Configure EMS Kiosk App Menus"
-        Link="/Content/Kiosk/A_44.1/B_Config/Kiosk_CG_ConfigKioskAppMenus.htm"
+        Link="/Content/EMSKioskApp/A_44.1/B_Config/Kiosk_CG_ConfigKioskAppMenus.htm"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -46,14 +46,14 @@
       PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl"></TocEntry>
     <TocEntry
       Title="Get Started with EMS Kiosk App"
-      Link="/Content/Kiosk/A_44.1/C_User/Kiosk_UG_GetStarted.htm"
+      Link="/Content/EMSKioskApp/A_44.1/C_User/Kiosk_UG_GetStarted.htm"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
       PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
       <TocEntry
         Title="Overview: The EMS Kiosk App Window"
-        Link="/Content/Kiosk/A_44.1/C_User/Kiosk_UG_OverviewKioskWindow.htm"
+        Link="/Content/EMSKioskApp/A_44.1/C_User/Kiosk_UG_OverviewKioskWindow.htm"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -61,35 +61,35 @@
     </TocEntry>
     <TocEntry
       Title="View Your Reservations and Check In to EMS Kiosk App"
-      Link="/Content/Kiosk/A_44.1/C_User/Kiosk_UG_ViewYourRes.htm"
+      Link="/Content/EMSKioskApp/A_44.1/C_User/Kiosk_UG_ViewYourRes.htm"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
       PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
     <TocEntry
       Title="Book a Desk or Workspace in EMS Kiosk App"
-      Link="/Content/Kiosk/A_44.1/C_User/Kiosk_UG_BookDeskWorkspace.htm"
+      Link="/Content/EMSKioskApp/A_44.1/C_User/Kiosk_UG_BookDeskWorkspace.htm"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
       PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
     <TocEntry
       Title="Locate a Person in EMS Kiosk App"
-      Link="/Content/Kiosk/A_44.1/C_User/Kiosk_UG_LocatePerson.htm"
+      Link="/Content/EMSKioskApp/A_44.1/C_User/Kiosk_UG_LocatePerson.htm"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
       PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
     <TocEntry
       Title="Locate a Space in EMS Kiosk App"
-      Link="/Content/Kiosk/A_44.1/C_User/Kiosk_UG_LocateSpace.htm"
+      Link="/Content/EMSKioskApp/A_44.1/C_User/Kiosk_UG_LocateSpace.htm"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
       PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
     <TocEntry
       Title="View Today's Events in EMS Kiosk App"
-      Link="/Content/Kiosk/A_44.1/C_User/Kiosk_UG_ViewTodaysEvents.htm"
+      Link="/Content/EMSKioskApp/A_44.1/C_User/Kiosk_UG_ViewTodaysEvents.htm"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"

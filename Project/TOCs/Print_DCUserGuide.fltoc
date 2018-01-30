@@ -17,77 +17,77 @@
       PageLayout="/Content/Resources/PageLayouts/7X9/TOC7X9.flpgl" />
     <TocEntry
       Title="Introduction to EMS Desktop Client"
-      Link="/Content/DesktopClient/V44.1/A_InstallationGuide/DC_IG_Introduction.html"
+      Link="/Content/EMSDesktopClient/V44.1/A_InstallationGuide/DC_IG_Introduction.html"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
       PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
     <TocEntry
       Title="Launch EMS Desktop Client"
-      Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_StartEMS.html"
+      Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_StartEMS.html"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
       PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
     <TocEntry
       Title="Manage Database Connections"
-      Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_ManageDBConn.html"
+      Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_ManageDBConn.html"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
       PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
     <TocEntry
       Title="User Settings"
-      Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_UserSettings.html"
+      Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_UserSettings.html"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
       PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
     <TocEntry
       Title="Reservations and Bookings"
-      Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_ReservandBookings.html"
+      Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_ReservandBookings.html"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
       PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
     <TocEntry
       Title="Other Reservation Functions"
-      Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_OtherResFunctions.html"
+      Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_OtherResFunctions.html"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
       PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
       <TocEntry
         Title="Record Actual Attendance Numbers for Bookings"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_RecActAttend.html"
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_RecActAttend.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
       <TocEntry
         Title="Manage Attendees and Visitors"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_ManageAttendeesVisitor.html"
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_ManageAttendeesVisitor.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
       <TocEntry
         Title="View Visitors"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_ViewVisitors.htm"
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_ViewVisitors.htm"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
       <TocEntry
         Title="Check In Visitors"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_CheckInVisitors.htm"
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_CheckInVisitors.htm"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
       <TocEntry
         Title="Import a List of Visitors"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_ImportListVis.html"
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_ImportListVis.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -95,28 +95,28 @@
     </TocEntry>
     <TocEntry
       Title="The EMS Window"
-      Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_EMSWindow.html"
+      Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_EMSWindow.html"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
       PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
       <TocEntry
         Title="Work with the EMS Window"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_WorkwithEMSWindow.htm"
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_WorkwithEMSWindow.htm"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
       <TocEntry
         Title="Toolbar Buttons"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_ToolbarButtons.html"
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_ToolbarButtons.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
       <TocEntry
         Title="Customizing Your Toolbar"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_CustomizeToolbar.html"
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_CustomizeToolbar.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -124,35 +124,35 @@
     </TocEntry>
     <TocEntry
       Title="The Reservation Book"
-      Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_UseReservationBook.html"
+      Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_UseReservationBook.html"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
       PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
       <TocEntry
         Title="Create a Booking in the Reservation Book"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_BookRoomsResBook.html"
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_BookRoomsResBook.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
       <TocEntry
         Title="View and Edit Reservations in the Reservation Book"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_ViewEditReservinResBook.htm"
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_ViewEditReservinResBook.htm"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
       <TocEntry
         Title="Edit a Reservation in the Reservation Book"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_EditResinResBook.htm"
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_EditResinResBook.htm"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
       <TocEntry
         Title="Import a List of Visitors to a Booking"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_ImportListVis.html"
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_ImportListVis.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -160,70 +160,70 @@
     </TocEntry>
     <TocEntry
       Title="The Navigator"
-      Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_WorkwithResNavigator.htm"
+      Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_WorkwithResNavigator.htm"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
       PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
       <TocEntry
         Title="Overview of the Navigator"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_NavigatorOverview.html"
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_NavigatorOverview.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
       <TocEntry
         Title="Get Familiar with the Navigator"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_GetFamwithNav.html"
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_GetFamwithNav.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
       <TocEntry
         Title="Edit a Reservation in the Navigator"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_EditResinNav.html"
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_EditResinNav.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
       <TocEntry
         Title="Add Bookings to a Reservation in the Navigator"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_AddBooktoResinNav.html"
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_AddBooktoResinNav.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
       <TocEntry
         Title="Copy a Reservation in the Navigator"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_CopyResinNav.html"
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_CopyResinNav.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
       <TocEntry
         Title="Change the Status of a Reservation in the Navigator"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_ChangeStatusResfromResSum.html"
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_ChangeStatusResfromResSum.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
       <TocEntry
         Title="Reprice Categories and Room Charges for a Reservation in the Navigator"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_RepricCatRoomChargeRes.html"
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_RepricCatRoomChargeRes.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
       <TocEntry
         Title="Apply a Reservation Discount"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_ApplyReservDiscount.html"
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_ApplyReservDiscount.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
       <TocEntry
         Title="Edit a Booking in the Navigator"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_EditBookinNav.html"
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_EditBookinNav.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -234,115 +234,115 @@
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_EditMultBookinNav.htm" />
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_EditMultBookinNav.htm" />
       <TocEntry
         Title="Move Bookings to a Different Reservation in the Navigator"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_MoveBooktoDifRes.html"
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_MoveBooktoDifRes.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
       <TocEntry
         Title="Copy Multiple Bookings in the Navigator"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_CopyMultipleBookinNav.html"
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_CopyMultipleBookinNav.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
       <TocEntry
         Title="Booking Details and Items Overview"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_BookDetailsItemsOverview.htm"
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_BookDetailsItemsOverview.htm"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
         <TocEntry
           Title="Add Booking Details and Items to Individual Bookings"
-          Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_AddBookDetItemtoIndivBookings.htm"
+          Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_AddBookDetItemtoIndivBookings.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
           PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
         <TocEntry
           Title="Add Booking Details and Items to Existing Bookings"
-          Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_AddBookDetsItemstoExistBook.html"
+          Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_AddBookDetsItemstoExistBook.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
           PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
         <TocEntry
           Title="Add Booking Details and Items to Multiple Bookings"
-          Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_AddItemstoMultBook.html"
+          Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_AddItemstoMultBook.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
           PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
         <TocEntry
           Title="Edit Booking Detail Items for Individual Bookings"
-          Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_EditItemsforIndividBook.html"
+          Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_EditItemsforIndividBook.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
           PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
         <TocEntry
           Title="Copy Booking Details Between Bookings"
-          Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_CopyBookDetBetwBookings.htm"
+          Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_CopyBookDetBetwBookings.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
           PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
         <TocEntry
           Title="Delete Booking Details from Multiple Bookings"
-          Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_DeleteBookDetailsMultBook.htm"
+          Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_DeleteBookDetailsMultBook.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
           PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
         <TocEntry
           Title="Edit Charges for Multiple Billable Items"
-          Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_EditChargforMultpBillItem.html"
+          Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_EditChargforMultpBillItem.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
           PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
         <TocEntry
           Title="Edit Count Information for a Booking in the Navigator"
-          Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_EditCountInfoforBook.html"
+          Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_EditCountInfoforBook.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
           PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
         <TocEntry
           Title="Add Booking Details Wizard"
-          Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_AddBookDetailsWizard.htm"
+          Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_AddBookDetailsWizard.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
           PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
         <TocEntry
           Title="Copy Booking Details Wizard"
-          Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_CopyBookDetailsWzd.html"
+          Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_CopyBookDetailsWzd.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
           PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
         <TocEntry
           Title="Delete Booking Details Wizard"
-          Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_DeleteBookDetailsWzd.html"
+          Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_DeleteBookDetailsWzd.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
           PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
         <TocEntry
           Title="Delete Item Wizard"
-          Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_DeleteItemWizard.html"
+          Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_DeleteItemWizard.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
           PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
         <TocEntry
           Title="Add Item Wizard"
-          Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_AddItemWizard.htm"
+          Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_AddItemWizard.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -350,14 +350,14 @@
       </TocEntry>
       <TocEntry
         Title="Comments and Reminders in the Navigator"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_CommRemindinNav.html"
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_CommRemindinNav.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
         <TocEntry
           Title="Add Multiple Comments and Reminders to a Reservation"
-          Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_AddMultCommRemintoRes.htm"
+          Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_AddMultCommRemintoRes.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -365,35 +365,35 @@
       </TocEntry>
       <TocEntry
         Title="User-Defined Fields in the Navigator"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_UserDefFieldsinNav.html"
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_UserDefFieldsinNav.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
       <TocEntry
         Title="Attachments in the Navigator"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_AttachmentsinNav.html"
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_AttachmentsinNav.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
       <TocEntry
         Title="Drawings in the Navigator"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_DrawingsinNav.html"
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_DrawingsinNav.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
       <TocEntry
         Title="Resource Utility Conflicts Tool"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_RunResourceUtility.html"
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_RunResourceUtility.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
       <TocEntry
         Title="Approve or Deny Reservation Requests"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_ApprovDenyReservReq.html"
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_ApprovDenyReservReq.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -401,21 +401,21 @@
     </TocEntry>
     <TocEntry
       Title="The Calendar"
-      Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_Calendar.htm"
+      Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_Calendar.htm"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
       PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
       <TocEntry
         Title="Search with the Calendar"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_SearchwithCalendar.html"
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_SearchwithCalendar.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
       <TocEntry
         Title="Search with the Resource Calendar"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_SearchwithResourCal.html"
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_SearchwithResourCal.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -423,28 +423,28 @@
     </TocEntry>
     <TocEntry
       Title="The Reservation Wizard"
-      Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_ReservationWizard.htm"
+      Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_ReservationWizard.htm"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
       PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
       <TocEntry
         Title="Fields in the Reservation Wizard"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_FieldsinResWiz1.htm"
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_FieldsinResWiz1.htm"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
       <TocEntry
         Title="The Everyday User Reservations Browser"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_EverydayUserReservBrowser.htm"
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_EverydayUserReservBrowser.htm"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
         <TocEntry
           Title="Search Using the Everyday User Reservations Browser"
-          Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_SearchEverydayUserBrow.htm"
+          Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_SearchEverydayUserBrow.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -452,14 +452,14 @@
       </TocEntry>
       <TocEntry
         Title="Create a Reservation in the Reservation Wizard"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_CreateResinResWizard.htm"
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_CreateResinResWizard.htm"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
       <TocEntry
         Title="Book a Video Conference"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_BookingaVC.html"
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_BookingaVC.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -467,14 +467,14 @@
     </TocEntry>
     <TocEntry
       Title="The Browser"
-      Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_Browser.htm"
+      Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_Browser.htm"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
       PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
       <TocEntry
         Title="Search with the Browser"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_SearchwithBrowser.html"
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_SearchwithBrowser.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -482,77 +482,77 @@
     </TocEntry>
     <TocEntry
       Title="People: Groups and Contacts"
-      Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_PeopleGroupsContacts.html"
+      Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_PeopleGroupsContacts.html"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
       PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
       <TocEntry
         Title="Search for People"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_SearchforPeople.html"
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_SearchforPeople.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
       <TocEntry
         Title="Add or Edit Profile Information for People and Groups"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_WorkInfoAboutGroupsIndiv.html"
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_WorkInfoAboutGroupsIndiv.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
       <TocEntry
         Title="Create an Everyday User from a Group"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_CreateEverydayUserfromGroup.htm"
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_CreateEverydayUserfromGroup.htm"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
       <TocEntry
         Title="Assign an Everyday User to a Group"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_AssignEverydayUserstoGroup.html"
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_AssignEverydayUserstoGroup.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
       <TocEntry
         Title="Configure Contacts for a Group"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_ConfigContactsforGroup.html"
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_ConfigContactsforGroup.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
       <TocEntry
         Title="Import Groups"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_ImportGroups.html"
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_ImportGroups.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
       <TocEntry
         Title="Print and Export Everyday User Information"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_PrintExportEverdayUserInfo.html"
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_PrintExportEverdayUserInfo.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
       <TocEntry
         Title="Print and Export Group Information"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_PrintExportGroupInfo.html"
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_PrintExportGroupInfo.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
       <TocEntry
         Title="Work with Reservations for a Group"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_WorkwithResGroup.htm"
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_WorkwithResGroup.htm"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
       <TocEntry
         Title="Email a Group"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_EmailaGroup.htm"
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_EmailaGroup.htm"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -560,28 +560,28 @@
     </TocEntry>
     <TocEntry
       Title="The Dashboard"
-      Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_UseDashboard.html"
+      Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_UseDashboard.html"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
       PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
       <TocEntry
         Title="Overview of the EMS Dashboard"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_WorkWithDashboard.html"
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_WorkWithDashboard.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
       <TocEntry
         Title="Notifications Tab"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_NotificationsTab.html"
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_NotificationsTab.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
         <TocEntry
           Title="Confirmations Vs Notifications: What Is the Difference?"
-          Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_ConfirmVsNotifWhatDiff.html"
+          Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_ConfirmVsNotifWhatDiff.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -589,28 +589,28 @@
       </TocEntry>
       <TocEntry
         Title="Reminders Tab"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_RemindersTab.htm"
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_RemindersTab.htm"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
       <TocEntry
         Title="Everyday User Reservations Tab"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_EverydayUserReservationsTab.html"
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_EverydayUserReservationsTab.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
       <TocEntry
         Title="Guest Requests Tab"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_GuestRequestsTab.html"
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_GuestRequestsTab.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
         <TocEntry
           Title="Manage Requests for Managed Space"
-          Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_ManageReqMangedSpace.html"
+          Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_ManageReqMangedSpace.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -618,35 +618,35 @@
       </TocEntry>
       <TocEntry
         Title="Wait List Tab"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_WaitListTab.html"
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_WaitListTab.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
       <TocEntry
         Title="Reconfirm Dates Tab"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_ReconfirmDatesTab.html"
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_ReconfirmDatesTab.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
       <TocEntry
         Title="Building Hours Exceptions Tab"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_BuildHoursExceptTab.html"
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_BuildHoursExceptTab.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
       <TocEntry
         Title="Analytics Tab"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_AnalyticsTab.html"
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_AnalyticsTab.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
       <TocEntry
         Title="At a Glance Tab"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_AtAGlanceTab.html"
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_AtAGlanceTab.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -654,14 +654,14 @@
     </TocEntry>
     <TocEntry
       Title="Manage Services"
-      Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_ManageServices.html"
+      Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_ManageServices.html"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
       PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
       <TocEntry
         Title="Work With and Search for Service Orders"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_ManageServices.html"
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_ManageServices.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -669,35 +669,35 @@
     </TocEntry>
     <TocEntry
       Title="Search For Reservations, Bookings, Resources, and Service Orders"
-      Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_SrchResBookResSvcOrder.html"
+      Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_SrchResBookResSvcOrder.html"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
       PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
     <TocEntry
       Title="Booking Check In "
-      Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_BookCheckIn.html"
+      Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_BookCheckIn.html"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
       PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
       <TocEntry
         Title="Enable Booking Check In"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_EnableBookingCheckIn.html"
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_EnableBookingCheckIn.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
       <TocEntry
         Title="Ways to Check In"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_WaystoCheckIn.html"
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_WaystoCheckIn.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
       <TocEntry
         Title="Manage Check In"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_ManageCheckIn.html"
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_ManageCheckIn.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -705,56 +705,56 @@
     </TocEntry>
     <TocEntry
       Title="Reports and Queries"
-      Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_ReportsQueries.html"
+      Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_ReportsQueries.html"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
       PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
       <TocEntry
         Title="Report Descriptions and Options"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_ReportDescriptionsOptions.html"
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_ReportDescriptionsOptions.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
       <TocEntry
         Title="Generate an EMS Report"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_GenEMSReport.html"
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_GenEMSReport.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
       <TocEntry
         Title="Generate an EMS Billing Report"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_GenEMSBillReport.html"
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_GenEMSBillReport.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
       <TocEntry
         Title="Generate Attendee Visitor Reports"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_GenVisitorRep.html"
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_GenVisitorRep.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
       <TocEntry
         Title="Configure Automated Reports"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_ConfigAutomatedReports.html"
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_ConfigAutomatedReports.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
       <TocEntry
         Title="Work with Saved Reports"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_WorkwithSavedReports.html"
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_WorkwithSavedReports.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
       <TocEntry
         Title="Work with a Query"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_WorkwithResBook.html"
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_WorkwithResBook.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -762,84 +762,84 @@
     </TocEntry>
     <TocEntry
       Title="Billing"
-      Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_Billing.html"
+      Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_Billing.html"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
       PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
       <TocEntry
         Title="Overview of Billing in EMS"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_OverviewBilling.html"
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_OverviewBilling.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
       <TocEntry
         Title="Search for Transactions"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_SearchforTransactions.html"
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_SearchforTransactions.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
       <TocEntry
         Title="Apply Calculations to Billing -- Add to Billing Topic. This is a placeholder"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_ApplyCalcultoBilling.html"
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_ApplyCalcultoBilling.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
       <TocEntry
         Title="Quick Reference Guide: Billing and Invoicing"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_QuickRefBillandInvoice.html"
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_QuickRefBillandInvoice.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
       <TocEntry
         Title="Work with Invoices"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_WorkwithInvoices.html"
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_WorkwithInvoices.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
       <TocEntry
         Title="Types of Transactions"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_TypesofTransactions.html"
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_TypesofTransactions.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
       <TocEntry
         Title="Work with Transactions"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_WorkwithTransactions.html"
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_WorkwithTransactions.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
       <TocEntry
         Title="EMS Billing Reports"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_GenEMSBillReport.html"
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_GenEMSBillReport.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
       <TocEntry
         Title="Apply a Reservation Discount"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_ApplyReservDiscount.html"
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_ApplyReservDiscount.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
       <TocEntry
         Title="Bill Multiple Reference and PO Numbers for a Reservation"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_BillMultRefandPONumbers.html"
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_BillMultRefandPONumbers.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
       <TocEntry
         Title="Price Categories and Room Charges"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_RepricCatRoomChargeRes.html"
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_RepricCatRoomChargeRes.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -847,32 +847,32 @@
     </TocEntry>
     <TocEntry
       Title="Confirmations"
-      Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_Confirmations.html"
+      Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_Confirmations.html"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
       PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
       <TocEntry
         Title="Specifying Your Confirmation Settings"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_SpecifyConfirmSettings.htm" />
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_SpecifyConfirmSettings.htm" />
       <TocEntry
         Title="Send Confirmations"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_SendConfirmations.html" />
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_SendConfirmations.html" />
       <TocEntry
         Title="Generate a Single Confirmation at a Time"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_GenSingConfirmatTime.html" />
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_GenSingConfirmatTime.html" />
       <TocEntry
         Title="Generate Printed Confirmations"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_GenPrintedConfirmations.html" />
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_GenPrintedConfirmations.html" />
       <TocEntry
         Title="Generate Word Merge Documents for Custom Documentation"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_GenMergeDocsCustomDoc.html" />
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_GenMergeDocsCustomDoc.html" />
       <TocEntry
         Title="Sending Emails from EMS"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_SendEmails.html" />
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_SendEmails.html" />
       <TocEntry
         Title="View History of Sent Emails"
-        Link="/Content/DesktopClient/V44.1/C_UserGuide/DC_UG_ViewHistorySentEmails.html" />
+        Link="/Content/EMSDesktopClient/V44.1/C_UserGuide/DC_UG_ViewHistorySentEmails.html" />
     </TocEntry>
   </TocEntry>
 </CatapultToc>
