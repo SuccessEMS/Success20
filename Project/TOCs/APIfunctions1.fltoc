@@ -1,4 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<CatapultToc Version="1">
-    <TocEntry Title="GetFeaturedEvents" Link="/Content/APIfunctions1/APIfunctions.htm" />
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="GetFeaturedEvents" />
 </CatapultToc>
