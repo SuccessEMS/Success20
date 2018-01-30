@@ -17,221 +17,221 @@
     PageLayout="/Content/Resources/PageLayouts/7X9/TOC7X9.flpgl" />
   <TocEntry
     Title="Requirements for Master Calendar"
-    Link="/Content/MasterCalendar/V8/A_Installation/MC_IG_SysReqPrereq.html"></TocEntry>
+    Link="/Content/EMSMasterCalendar/V8/A_Installation/MC_IG_SysReqPrereq.html"></TocEntry>
   <TocEntry
     Title="Configuration Guide"
-    Link="/Content/MasterCalendar/V8/B_Configuration/MC_Introduction.htm">
+    Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_Introduction.htm">
     <TocEntry
       Title="Admin Interface Overview"
-      Link="/Content/MasterCalendar/V8/B_Configuration/MC_AdminInterfaceOverview.html" />
+      Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_AdminInterfaceOverview.html" />
     <TocEntry
       Title="Calendar Management"
-      Link="/Content/MasterCalendar/V8/B_Configuration/MC_CalendarManagement.html">
+      Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_CalendarManagement.html">
       <TocEntry
         Title="Import Events Into Your Master Calendar System"
-        Link="/Content/MasterCalendar/V8/B_Configuration/MC_ImportEvents.html">
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ImportEvents.html">
         <TocEntry
           Title="Connect Master Calendar to Your EMS Database"
-          Link="/Content/MasterCalendar/V8/B_Configuration/MC_ConnectMCtoEMSDatabase.html" />
+          Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ConnectMCtoEMSDatabase.html" />
         <TocEntry
           Title="Connect to Data Sources"
-          Link="/Content/MasterCalendar/V8/B_Configuration/MC_ConnectDataSources.html" />
+          Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ConnectDataSources.html" />
       </TocEntry>
     </TocEntry>
     <TocEntry
       Title="Manage an Event from the Event Summary Page"
-      Link="/Content/MasterCalendar/V8/B_Configuration/MC_ManageEventfromEventSumPg.html">
+      Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ManageEventfromEventSumPg.html">
       <TocEntry
         Title="Add Events to Your Personal Email Calendar"
-        Link="/Content/MasterCalendar/V8/B_Configuration/MC_AddEventstoPersonalEmailCal.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_AddEventstoPersonalEmailCal.html" />
       <TocEntry
         Title="Add Event Dates"
-        Link="/Content/MasterCalendar/V8/B_Configuration/MC_AddEventDates.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_AddEventDates.html" />
       <TocEntry
         Title="Cancel Event Dates"
-        Link="/Content/MasterCalendar/V8/B_Configuration/MC_CancelEventDates.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_CancelEventDates.html" />
       <TocEntry
         Title="Copy an Event"
-        Link="/Content/MasterCalendar/V8/B_Configuration/MC_CopyEvent.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_CopyEvent.html" />
       <TocEntry
         Title="Edit an Event"
-        Link="/Content/MasterCalendar/V8/B_Configuration/MC_EditEvent.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_EditEvent.html" />
       <TocEntry
         Title="Un-Cancel an Event"
-        Link="/Content/MasterCalendar/V8/B_Configuration/MC_Un-CancelEvent.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_Un-CancelEvent.html" />
     </TocEntry>
     <TocEntry
       Title="Manage Events from the Manage Events Page"
-      Link="/Content/MasterCalendar/V8/B_Configuration/MC_ManageEventsfromManageEventsPg.html">
+      Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ManageEventsfromManageEventsPg.html">
       <TocEntry
         Title="Filter Events on the Manage Events Page"
-        Link="/Content/MasterCalendar/V8/B_Configuration/MC_FilterEventsManageEventsPg.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_FilterEventsManageEventsPg.html" />
       <TocEntry
         Title="Approve Pending Event Requests"
-        Link="/Content/MasterCalendar/V8/B_Configuration/MC_ApprovePendingEventRequests.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ApprovePendingEventRequests.html" />
       <TocEntry
         Title="Reject Pending Event Requests"
-        Link="/Content/MasterCalendar/V8/B_Configuration/MC_RejectPendingEventRequests.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_RejectPendingEventRequests.html" />
       <TocEntry
         Title="Move Rejected Event Requests to Approved Status"
-        Link="/Content/MasterCalendar/V8/B_Configuration/MC_MoveRejectEventRequeststoAppStatus.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_MoveRejectEventRequeststoAppStatus.html" />
       <TocEntry
         Title="Generate a List of Event Requests"
-        Link="/Content/MasterCalendar/V8/B_Configuration/MC_GenerateListEventRequests.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_GenerateListEventRequests.html" />
       <TocEntry
         Title="Request Additional Information for Event Requests"
-        Link="/Content/MasterCalendar/V8/B_Configuration/MC_RequestAddInfoEventRequests.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_RequestAddInfoEventRequests.html" />
       <TocEntry
         Title="Delete Event Requests"
-        Link="/Content/MasterCalendar/V8/B_Configuration/MC_DeleteEventRequests.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_DeleteEventRequests.html" />
     </TocEntry>
     <TocEntry
       Title="Configure Calendar Groupings and Calendars"
-      Link="/Content/MasterCalendar/V8/B_Configuration/MC_ConfigCalGroupingsandCals.html">
+      Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ConfigCalGroupingsandCals.html">
       <TocEntry
         Title="Manage Calendars in Master Calendar"
-        Link="/Content/MasterCalendar/V8/B_Configuration/MC_ManageCalendarsinMC.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ManageCalendarsinMC.html" />
       <TocEntry
         Title="Configure Special Dates"
-        Link="/Content/MasterCalendar/V8/B_Configuration/MC_ConfigSpecialDates.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ConfigSpecialDates.html" />
       <TocEntry
         Title="Manage Calendar URLs"
-        Link="/Content/MasterCalendar/V8/B_Configuration/MC_ManageCalURLs.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ManageCalURLs.html" />
       <TocEntry
         Title="Manage External Links for a Grouping"
-        Link="/Content/MasterCalendar/V8/B_Configuration/MC_ManageExtLinksforGrouping.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ManageExtLinksforGrouping.html" />
       <TocEntry
         Title="Manage Groupings in Master Calendar"
-        Link="/Content/MasterCalendar/V8/B_Configuration/MC_ManageGroupingsinMC.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ManageGroupingsinMC.html" />
     </TocEntry>
     <TocEntry
       Title="Configure Optional Information"
-      Link="/Content/MasterCalendar/V8/B_Configuration/MC_ConfigOptionalInfo.html">
+      Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ConfigOptionalInfo.html">
       <TocEntry
         Title="Configure Event Icons"
-        Link="/Content/MasterCalendar/V8/B_Configuration/MC_ConfigEventIcons.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ConfigEventIcons.html" />
       <TocEntry
         Title="Maintain Departments in Master Calendar"
-        Link="/Content/MasterCalendar/V8/B_Configuration/MC_MaintainDeptinMC.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_MaintainDeptinMC.html" />
       <TocEntry
         Title="Manage Cultures"
-        Link="/Content/MasterCalendar/V8/B_Configuration/MC_ManageCultures.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ManageCultures.html" />
       <TocEntry
         Title="Manage Custom Field Hints"
-        Link="/Content/MasterCalendar/V8/B_Configuration/MC_ManageCustomFieldHints.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ManageCustomFieldHints.html" />
       <TocEntry
         Title="Manage Event Type Views"
-        Link="/Content/MasterCalendar/V8/B_Configuration/MC_ManageEventTypeViews.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ManageEventTypeViews.html" />
       <TocEntry
         Title="Creating Event Locations"
-        Link="/Content/MasterCalendar/V8/B_Configuration/MC_WorkwithEventLocations.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_WorkwithEventLocations.html" />
       <TocEntry
         Title="Creating Event Types"
-        Link="/Content/MasterCalendar/V8/B_Configuration/MC_WorkwithEventTypes.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_WorkwithEventTypes.html" />
       <TocEntry
         Title="Work with Rooms"
-        Link="/Content/MasterCalendar/V8/B_Configuration/MC_WorkwithRooms.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_WorkwithRooms.html" />
       <TocEntry
         Title="Work with User Defined Questions (UDQs)"
-        Link="/Content/MasterCalendar/V8/B_Configuration/MC_WorkwithUserDefQuest.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_WorkwithUserDefQuest.html" />
     </TocEntry>
     <TocEntry
       Title="Configure Users and Templates"
-      Link="/Content/MasterCalendar/V8/B_Configuration/MC_ConfigUsersTemplates.html">
+      Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ConfigUsersTemplates.html">
       <TocEntry
         Title="Manage Users"
-        Link="/Content/MasterCalendar/V8/B_Configuration/MC_ManageUsers.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ManageUsers.html" />
       <TocEntry
         Title="Manage User Templates"
-        Link="/Content/MasterCalendar/V8/B_Configuration/MC_ManageUserTemplates.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ManageUserTemplates.html" />
     </TocEntry>
     <TocEntry
       Title="Create Custom Reports in Master Calendar"
-      Link="/Content/MasterCalendar/V8/B_Configuration/MC_CreateCustReports.html" />
+      Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_CreateCustReports.html" />
     <TocEntry
       Title="Customize Master Calendar Site Appearance and Behavior"
-      Link="/Content/MasterCalendar/V8/B_Configuration/MC_CustomMCSiteAppBehav.html">
+      Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_CustomMCSiteAppBehav.html">
       <TocEntry
         Title="Broadcast Announcements"
-        Link="/Content/MasterCalendar/V8/B_Configuration/MC_BroadcastAnnouncements.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_BroadcastAnnouncements.html" />
       <TocEntry
         Title="Customize Help Text in Master Calendar"
-        Link="/Content/MasterCalendar/V8/B_Configuration/MC_CustomizeHelpText.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_CustomizeHelpText.html" />
       <TocEntry
         Title="Customize Menus in Master Calendar"
-        Link="/Content/MasterCalendar/V8/B_Configuration/MC_CustomizeMenus.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_CustomizeMenus.html" />
       <TocEntry
         Title="Customize Your Master Calendar Site and Automated Emails"
-        Link="/Content/MasterCalendar/V8/B_Configuration/MC_CustomizeMCSiteandAutoEmails.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_CustomizeMCSiteandAutoEmails.html" />
       <TocEntry
         Title="Set Default Home Page Behavior"
-        Link="/Content/MasterCalendar/V8/B_Configuration/MC_SetDefaultHomePgBehavior.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_SetDefaultHomePgBehavior.html" />
       <TocEntry
         Title="Set the Default Home Page Layout"
-        Link="/Content/MasterCalendar/V8/B_Configuration/MC_SetDefaultHomePgLayout.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_SetDefaultHomePgLayout.html" />
     </TocEntry>
     <TocEntry
       Title="Integrated Authentication for Master Calendar"
-      Link="/Content/MasterCalendar/V8/B_Configuration/MC_IntegAuthenforMC.html">
+      Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_IntegAuthenforMC.html">
       <TocEntry
         Title="Portal Authentication Methods"
-        Link="/Content/MasterCalendar/V8/B_Configuration/MC_PortalAuthenMethods.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_PortalAuthenMethods.html" />
     </TocEntry>
     <TocEntry
       Title="Maintain Master Calendar Software Registration"
-      Link="/Content/MasterCalendar/V8/B_Configuration/MC_MaintainMCSoftwareReg.html" />
+      Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_MaintainMCSoftwareReg.html" />
     <TocEntry
       Title="Manage RSS Feeds"
-      Link="/Content/MasterCalendar/V8/B_Configuration/MC_ManageRSSFeeds.html" />
+      Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ManageRSSFeeds.html" />
     <TocEntry
       Title="Master Calendar Admin Field Definitions"
-      Link="/Content/MasterCalendar/V8/B_Configuration/MC_MCAdminFieldDef.html">
+      Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_MCAdminFieldDef.html">
       <TocEntry
         Title="Area: Calendar"
-        Link="/Content/MasterCalendar/V8/B_Configuration/MC_AreaCalendar.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_AreaCalendar.html" />
       <TocEntry
         Title="Area: Email"
-        Link="/Content/MasterCalendar/V8/B_Configuration/MC_AreaEmail.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_AreaEmail.html" />
       <TocEntry
         Title="Area: Labels"
-        Link="/Content/MasterCalendar/V8/B_Configuration/MC_AreaLabels.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_AreaLabels.html" />
       <TocEntry
         Title="Area: Mobile"
-        Link="/Content/MasterCalendar/V8/B_Configuration/MC_AreaMobile.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_AreaMobile.html" />
       <TocEntry
         Title="Area: Portal Authentication"
-        Link="/Content/MasterCalendar/V8/B_Configuration/MC_AreaPortAuthen.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_AreaPortAuthen.html" />
       <TocEntry
         Title="Area: RSS"
-        Link="/Content/MasterCalendar/V8/B_Configuration/MC_AreaRSS.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_AreaRSS.html" />
       <TocEntry
         Title="Area: Submit"
-        Link="/Content/MasterCalendar/V8/B_Configuration/MC_AreaSubmit.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_AreaSubmit.html" />
       <TocEntry
         Title="Area: System Configuration"
-        Link="/Content/MasterCalendar/V8/B_Configuration/MC_AreaSystemConfig.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_AreaSystemConfig.html" />
       <TocEntry
         Title="Area: Tooltip"
-        Link="/Content/MasterCalendar/V8/B_Configuration/MC_AreaTooltip.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_AreaTooltip.html" />
     </TocEntry>
     <TocEntry
       Title="Master Calendar API"
-      Link="/Content/MasterCalendar/V8/B_Configuration/MC_MasterCalAPI.html">
+      Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_MasterCalAPI.html">
       <TocEntry
         Title="Master Calendar API Requirements and Licensing"
-        Link="/Content/MasterCalendar/V8/B_Configuration/MC_APISysRequirements.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_APISysRequirements.html" />
       <TocEntry
         Title="Verify the Master Calendar API"
-        Link="/Content/MasterCalendar/V8/B_Configuration/MC_VerifyMCAPI.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_VerifyMCAPI.html" />
       <TocEntry
         Title="Release Notes"
-        Link="/Content/MasterCalendar/V8/B_Configuration/MC_ReleaseNotes.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ReleaseNotes.html" />
       <TocEntry
         Title="API Functions"
-        Link="/Content/MasterCalendar/V8/B_Configuration/MC_APIfunctions.htm"></TocEntry>
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_APIfunctions.htm"></TocEntry>
     </TocEntry>
     <TocEntry
       Title="Work with Subscriptions"
-      Link="/Content/MasterCalendar/V8/B_Configuration/MC_WorkwithSubscriptions.html" />
+      Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_WorkwithSubscriptions.html" />
   </TocEntry>
 </CatapultToc>

@@ -645,13 +645,13 @@
       PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
       <TocEntry
         Title="Configure Kiosk Profiles"
-        Link="/Content/EMSKioskApp/A_44.1/B_Config/Kiosk_CG_ConfigKioskAppProfiles.htm"
+        Link="/Content/EMSKioskApp/V44.1/B_Config/Kiosk_CG_ConfigKioskAppProfiles.htm"
         BreakType="chapter"
         PageNumber="1"
         PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
       <TocEntry
         Title="Configure Kiosk Menus"
-        Link="/Content/EMSKioskApp/A_44.1/B_Config/Kiosk_CG_ConfigKioskAppMenus.htm"
+        Link="/Content/EMSKioskApp/V44.1/B_Config/Kiosk_CG_ConfigKioskAppMenus.htm"
         BreakType="chapter"
         PageNumber="1"
         PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />

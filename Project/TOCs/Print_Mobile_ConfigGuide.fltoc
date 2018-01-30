@@ -20,41 +20,41 @@
         Link="/Content/ConfigGuides/4_EMS_MobileApp_CG.htm"></TocEntry>
       <TocEntry
         Title="Introduction"
-        Link="/Content/MobileApp/B_ConfigurationGuide/Mobile_Introduction.htm" />
+        Link="/Content/EMSMobileApp/B_ConfigurationGuide/Mobile_Introduction.htm" />
       <TocEntry
         Title="Add Mobile Users"
-        Link="/Content/MobileApp/B_ConfigurationGuide/Mobile_AddMobileUsers.htm" />
+        Link="/Content/EMSMobileApp/B_ConfigurationGuide/Mobile_AddMobileUsers.htm" />
       <TocEntry
         Title="Deploying the EMS Mobile App"
-        Link="/Content/MobileApp/B_ConfigurationGuide/Mobile_DeployMobileApp.html">
+        Link="/Content/EMSMobileApp/B_ConfigurationGuide/Mobile_DeployMobileApp.html">
         <TocEntry
           Title="Change EMS Mobile App Logo (Private Deployment Only)"
-          Link="/Content/MobileApp/B_ConfigurationGuide/Mobile_ChangeEMSMobileAppLogoPrivDeploy.html" />
+          Link="/Content/EMSMobileApp/B_ConfigurationGuide/Mobile_ChangeEMSMobileAppLogoPrivDeploy.html" />
         <TocEntry
           Title="Configure and Re-Sign EMS Mobile App (Private Deployment Only)"
-          Link="/Content/MobileApp/B_ConfigurationGuide/Mobile_ConfigRe-signMobilePrivDeploy.html" />
+          Link="/Content/EMSMobileApp/B_ConfigurationGuide/Mobile_ConfigRe-signMobilePrivDeploy.html" />
         <TocEntry
           Title="Customize Your Mobile App Configuration Using config.json (Private Deployment Only)"
-          Link="/Content/MobileApp/B_ConfigurationGuide/Mobile_CustomizeMobileAppUsingConfigJson.htm" />
+          Link="/Content/EMSMobileApp/B_ConfigurationGuide/Mobile_CustomizeMobileAppUsingConfigJson.htm" />
         <TocEntry
           Title="Assign Templates to EMS Mobile Users"
-          Link="/Content/MobileApp/B_ConfigurationGuide/Mobile_AssignTemptoMobileUsers.html" />
+          Link="/Content/EMSMobileApp/B_ConfigurationGuide/Mobile_AssignTemptoMobileUsers.html" />
         <TocEntry
           Title="Restrict Users' Mobile App Versions"
-          Link="/Content/MobileApp/B_ConfigurationGuide/Mobile_RestrictUsersMobileAppVer.html" />
+          Link="/Content/EMSMobileApp/B_ConfigurationGuide/Mobile_RestrictUsersMobileAppVer.html" />
       </TocEntry>
       <TocEntry
         Title="Change the Help Link Label and URL"
-        Link="/Content/MobileApp/B_ConfigurationGuide/Mobile_ChangeHelpLinkLabelURL.html" />
+        Link="/Content/EMSMobileApp/B_ConfigurationGuide/Mobile_ChangeHelpLinkLabelURL.html" />
       <TocEntry
         Title="Configure EMS Mobile QR Codes"
-        Link="/Content/MobileApp/B_ConfigurationGuide/Mobile_ConfigMobileQRCodes.html" />
+        Link="/Content/EMSMobileApp/B_ConfigurationGuide/Mobile_ConfigMobileQRCodes.html" />
       <TocEntry
         Title="How Do I Know When To Upgrade the Mobile App and API?"
-        Link="/Content/MobileApp/B_ConfigurationGuide/Mobile_HowtoUpgradeMobileApptoAPI.html" />
+        Link="/Content/EMSMobileApp/B_ConfigurationGuide/Mobile_HowtoUpgradeMobileApptoAPI.html" />
       <TocEntry
         Title="Set EMS Mobile Parameters"
-        Link="/Content/MobileApp/B_ConfigurationGuide/Mobile_SetMobileParameters.html" />
+        Link="/Content/EMSMobileApp/B_ConfigurationGuide/Mobile_SetMobileParameters.html" />
     </TocEntry>
   </TocEntry>
 </CatapultToc>

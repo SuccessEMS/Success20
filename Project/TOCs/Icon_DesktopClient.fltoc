@@ -356,10 +356,10 @@
         Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigurationKiosk.htm">
         <TocEntry
           Title="Configure Kiosk Profiles"
-          Link="/Content/EMSKioskApp/A_44.1/B_Config/Kiosk_CG_ConfigKioskAppProfiles.htm" />
+          Link="/Content/EMSKioskApp/V44.1/B_Config/Kiosk_CG_ConfigKioskAppProfiles.htm" />
         <TocEntry
           Title="Configure Kiosk Menus"
-          Link="/Content/EMSKioskApp/A_44.1/B_Config/Kiosk_CG_ConfigKioskAppMenus.htm" />
+          Link="/Content/EMSKioskApp/V44.1/B_Config/Kiosk_CG_ConfigKioskAppMenus.htm" />
       </TocEntry>
       <TocEntry
         Title="Configure Groups (Toolbar Icon)"
