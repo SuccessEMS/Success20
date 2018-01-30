@@ -1,10 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="2812" MadCap:lastWidth="778">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="3589" MadCap:lastWidth="778">
     <head>
     </head>
     <body>
         <h1>Deploying the EMS&#160;Room Sign App on Appliances</h1>
-        <h2>Aura Meeting Room Screen for the EMS&#160;Room Sign App</h2>
+        <p>The EMS&#160;Room Sign App supports integration with multiple appliances, including the <a href="#Aura">Aura Meeting Room Screen</a> and <a href="#Mimo">Multiple-Input Multiple-Output (MIMO)</a> technology. </p>
+        <h2><a name="Aura"></a>Aura Meeting Room Screen for the EMS&#160;Room Sign App</h2>
         <p>The Aura Meeting Room Screen from ResourceXpress is an interactive digital signage appliance that can be used with the EMS&#160;Room Sign App. Aura devices provide integrated LED&#160;status lights that provide a quick visual indication of space availability from the device enclosure. </p>
         <p>This section will detail the process of deploying the EMS&#160;Room Sign App on an Aura device. </p>
         <h2>Prerequisites for Using EMS&#160;Room Sign App with Aura Devices</h2>
@@ -49,5 +50,14 @@
             <li>Red = Space is <span class="bold">unavailable</span></li>
             <li>Orange = Upcoming booking/<span class="bold">available to check in</span></li>
         </ol>
+        <h2><a name="Mimo"></a>Mimo technology Integration</h2>
+        <ol>
+            <li>Launch the MIMO device. If this is the initial deployment, a white screen appears, alerting the user that there is no playable file. </li>
+            <li>Press the area in the upper right-hand corner for five (5)&#160;seconds and enter 0000 in the password field. Click OK. </li>
+            <li>The Mlok Management Page appears. </li>
+            <li>Navigate to Playback Settings:<ol><li>Click Play Mode and choose Web viewer. Click OK. </li><li>Click Web URL&#160;and enter your EMS&#160;Room Sign App URL&#160;location. Click OK. </li></ol></li>
+            <li>From the main Management Page, click the playback button. This will launch the EMS&#160;Room Sign App with the URL&#160;configured above. </li>
+        </ol>
+        <p class="note-box">Warning:&#160;If the LEDs do not function on the MIMO device, ensure the PhoneServerDemo app is running.</p>
     </body>
 </html>
