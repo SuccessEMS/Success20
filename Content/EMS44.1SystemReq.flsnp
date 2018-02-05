@@ -374,7 +374,7 @@
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Android&#160;5, 6</td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">Chrome, KioWare Lite&#160;(see&#160;<a class="F1" title="Glance Best Practice: Device Configuration"><MadCap:xref href="RoomSignApp/A_44.1/B_Configuration/RSA_CG_BestPractDeviceConfSteps.htm">Best Practice:&#160;Device Configuration Steps</MadCap:xref></a></td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">Chrome, KioWare Lite&#160;(see&#160;<a class="F1" title="Glance Best Practice: Device Configuration"><MadCap:xref href="EMSRoomSignApp/A_44.1/B_Configuration/RSA_CG_BestPractDeviceConfSteps.htm">Best Practice:&#160;Device Configuration Steps</MadCap:xref></a></td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Windows 7, 8, 10</td>
@@ -397,7 +397,7 @@
                         <p style="text-align: left;"><strong>Supported Resolutions</strong>
                             <br />            1024 x 768<br />            1280 x 1024<br />            1660 x 900<br />            1920 x 1080<br />            2048 x 1536</p>
                         <div class="note-box note">
-                            <p><strong>Note:&#160;</strong><MadCap:variable name="General.RSA" /> will run on touch-enabled tablets (with above resolutions)&#160;set in landscape mode.&#160;Integrating with ArmorActive&#160;enclosures require a browser&#160;that can play sound.&#160;<strong>See Also</strong>: <MadCap:xref href="RoomSignApp/A_44.1/B_Configuration/RSA_CG_BestPractDeviceConfSteps.htm">Best Practice:&#160;Device Configuration Steps</MadCap:xref>.&#160;</p>
+                            <p><strong>Note:&#160;</strong><MadCap:variable name="General.RSA" /> will run on touch-enabled tablets (with above resolutions)&#160;set in landscape mode.&#160;Integrating with ArmorActive&#160;enclosures require a browser&#160;that can play sound.&#160;<strong>See Also</strong>: <MadCap:xref href="EMSRoomSignApp/A_44.1/B_Configuration/RSA_CG_BestPractDeviceConfSteps.htm">Best Practice:&#160;Device Configuration Steps</MadCap:xref>.&#160;</p>
                         </div>
                         <p>EMS tests on and recommends the <a href="https://www.apple.com/ipad-mini-4/">iPad Mini</a> and <a href="http://www.samsung.com/us/mobile/tablets/all-other-tablets/samsung-galaxy-tab-a-8-0-16gb-wi-fi-smoky-titanium-sm-t350nzaaxar/">8” Samsung Tab A.</a></p>
                     </td>

@@ -24,36 +24,36 @@
       PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl"></TocEntry>
     <TocEntry
       Title="Requirements for the EMS Room Sign App"
-      Link="/Content/RoomSignApp/A_44.1/A_Installation/RSA_Install_RequirementsforRSA.html" />
+      Link="/Content/EMSRoomSignApp/A_44.1/A_Installation/RSA_Install_RequirementsforRSA.html" />
     <TocEntry
       Title="Obtain the Installation Files for EMS Room Sign"
-      Link="/Content/RoomSignApp/A_44.1/A_Installation/RSA_Install_ObtainInstallFiles.html" />
+      Link="/Content/EMSRoomSignApp/A_44.1/A_Installation/RSA_Install_ObtainInstallFiles.html" />
     <TocEntry
       Title="Architecture for the EMS Room Sign App"
-      Link="/Content/RoomSignApp/A_44.1/A_Installation/RSA_Install_Architecture.html"
+      Link="/Content/EMSRoomSignApp/A_44.1/A_Installation/RSA_Install_Architecture.html"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
       PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
     <TocEntry
       Title="Best Practices for Using EMS Room Sign App"
-      Link="/Content/RoomSignApp/A_44.1/A_Installation/RSA_BestPractices.htm"
+      Link="/Content/EMSRoomSignApp/A_44.1/A_Installation/RSA_BestPractices.htm"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
       PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
     <TocEntry
       Title="Authentication Settings"
-      Link="/Content/RoomSignApp/A_44.1/A_Installation/RSA_IG_Authentication.htm" />
+      Link="/Content/EMSRoomSignApp/A_44.1/A_Installation/RSA_IG_Authentication.htm" />
     <TocEntry
       Title="Install EMS Room Sign App"
-      Link="/Content/RoomSignApp/A_44.1/A_Installation/RSA_Install_InstallRSA.html"
+      Link="/Content/EMSRoomSignApp/A_44.1/A_Installation/RSA_Install_InstallRSA.html"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
       PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
     <TocEntry
       Title="Deploy EMS Room Sign App on Appliances"
-      Link="/Content/RoomSignApp/A_44.1/A_Installation/RSA_IG_DeployRSAAppliances.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      Link="/Content/EMSRoomSignApp/A_44.1/A_Installation/RSA_IG_DeployRSAAppliances.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
   </TocEntry>
 </CatapultToc>
