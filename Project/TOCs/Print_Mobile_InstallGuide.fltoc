@@ -67,21 +67,21 @@
       PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
     <TocEntry
       Title="Integrated Authentication Options"
-      Link="/Content/OptionalFeatures/IntegAuth/A_V44.1/IntegAuth_IntegratedAuthenOptions.html"
+      Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_IntegratedAuthenOptions.html"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
       PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
       <TocEntry
         Title="Introduction"
-        Link="/Content/OptionalFeatures/IntegAuth/A_V44.1/IntegAuth_Introduction.htm"
+        Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_Introduction.htm"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
         <TocEntry
           Title="Integrated Authentication Considerations"
-          Link="/Content/OptionalFeatures/IntegAuth/A_V44.1/IntegAuth_IntegratedAuthenticationConsid.htm"
+          Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_IntegratedAuthenticationConsid.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -89,14 +89,14 @@
       </TocEntry>
       <TocEntry
         Title="Integrated Windows Authentication"
-        Link="/Content/OptionalFeatures/IntegAuth/A_V44.1/IntegAuth_IntegratedWindowsAuthen.html"
+        Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_IntegratedWindowsAuthen.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
         <TocEntry
           Title="Manage Everyday Users For Integrated Authentication"
-          Link="/Content/OptionalFeatures/IntegAuth/A_V44.1/IntegAuth_ManageEUforIntegAuthen.htm"
+          Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_ManageEUforIntegAuthen.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -104,21 +104,21 @@
       </TocEntry>
       <TocEntry
         Title="LDAP Authentication"
-        Link="/Content/OptionalFeatures/IntegAuth/A_V44.1/IntegAuth_LDAPAuthentication.html"
+        Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_LDAPAuthentication.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
       <TocEntry
         Title="Portal or Federated Authentication"
-        Link="/Content/OptionalFeatures/IntegAuth/A_V44.1/IntegAuth_PortalFederatedAuthen.html"
+        Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_PortalFederatedAuthen.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
         <TocEntry
           Title="Portal Authentication Methods"
-          Link="/Content/OptionalFeatures/IntegAuth/A_V44.1/IntegAuth_PortalAuthenMethods.html"
+          Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_PortalAuthenMethods.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -126,7 +126,7 @@
       </TocEntry>
       <TocEntry
         Title="EMS Mobile App Authentication Options"
-        Link="/Content/OptionalFeatures/IntegAuth/A_V44.1/IntegAuth_Authentication Options_Mobile.htm"
+        Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_Authentication Options_Mobile.htm"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"

@@ -32,30 +32,30 @@
         </TocEntry>
         <TocEntry
           Title="Integrated Authentication Options"
-          Link="/Content/OptionalFeatures/IntegAuth/A_V44.1/IntegAuth_IntegratedAuthenOptions.html">
+          Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_IntegratedAuthenOptions.html">
           <TocEntry
             Title="Introduction"
-            Link="/Content/OptionalFeatures/IntegAuth/A_V44.1/IntegAuth_Introduction.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+            Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_Introduction.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
             <TocEntry
               Title="Integrated Authentication Considerations"
-              Link="/Content/OptionalFeatures/IntegAuth/A_V44.1/IntegAuth_IntegratedAuthenticationConsid.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+              Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_IntegratedAuthenticationConsid.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
           </TocEntry>
           <TocEntry
             Title="Integrated Windows Authentication"
-            Link="/Content/OptionalFeatures/IntegAuth/A_V44.1/IntegAuth_IntegratedWindowsAuthen.html">
+            Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_IntegratedWindowsAuthen.html">
             <TocEntry
               Title="Manage Everyday Users For Integrated Authentication"
-              Link="/Content/OptionalFeatures/IntegAuth/A_V44.1/IntegAuth_ManageEUforIntegAuthen.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+              Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_ManageEUforIntegAuthen.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
           </TocEntry>
           <TocEntry
             Title="LDAP Authentication"
-            Link="/Content/OptionalFeatures/IntegAuth/A_V44.1/IntegAuth_LDAPAuthentication.html" />
+            Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_LDAPAuthentication.html" />
           <TocEntry
             Title="Portal or Federated Authentication"
-            Link="/Content/OptionalFeatures/IntegAuth/A_V44.1/IntegAuth_PortalFederatedAuthen.html">
+            Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_PortalFederatedAuthen.html">
             <TocEntry
               Title="Portal Authentication Methods"
-              Link="/Content/OptionalFeatures/IntegAuth/A_V44.1/IntegAuth_PortalAuthenMethods.html" />
+              Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_PortalAuthenMethods.html" />
           </TocEntry>
         </TocEntry>
         <TocEntry
