@@ -276,22 +276,22 @@
         Title="Integration to Microsoft Exchange">
         <TocEntry
           Title="[%=System.LinkedTitle%]"
-          Link="/Content/Outlook/D_IntegExch/IME/Outlook_IME_IntegExchanReqs.htm" />
+          Link="/Content/IntegrationtoMicrosoftExchange/IntegrationtoExchangeRequirements.htm" />
         <TocEntry
           Title="[%=System.LinkedTitle%]"
-          Link="/Content/Outlook/D_IntegExch/IME/Outlook_IME_InstallUpgradeforEIWservice.htm" />
+          Link="/Content/IntegrationtoMicrosoftExchange/InstallUpgradeEIWS.htm" />
         <TocEntry
           Title="[%=System.LinkedTitle%]"
-          Link="/Content/Outlook/D_IntegExch/IME/Outlook_IME_ConfigIntegExchange.htm" />
+          Link="/Content/IntegrationtoMicrosoftExchange/ConfigureIntegrationtoExchange.htm" />
         <TocEntry
           Title="[%=System.LinkedTitle%]"
-          Link="/Content/Outlook/D_IntegExch/IME/Outlook_IME_UseAppPoolIdentif.htm" />
+          Link="/Content/IntegrationtoMicrosoftExchange/UseAppPoolIdentification.htm" />
         <TocEntry
           Title="[%=System.LinkedTitle%]"
-          Link="/Content/Outlook/D_IntegExch/IME/Outlook_IME_ConfigEWSImperforME.htm" />
+          Link="/Content/IntegrationtoMicrosoftExchange/ConfigureEWSImpersonation.htm" />
         <TocEntry
           Title="[%=System.LinkedTitle%]"
-          Link="/Content/Outlook/D_IntegExch/IME/Outlook_IME_LearnMoreaboutEWS.htm" />
+          Link="/Content/IntegrationtoMicrosoftExchange/LearnMoreaboutEWS.htm" />
       </TocEntry>
     </TocEntry>
     <TocEntry
@@ -1163,22 +1163,22 @@
         Title="Integration to Microsoft Exchange">
         <TocEntry
           Title="[%=System.LinkedTitle%]"
-          Link="/Content/Outlook/D_IntegExch/IME/Outlook_IME_IntegExchanReqs.htm" />
+          Link="/Content/IntegrationtoMicrosoftExchange/IntegrationtoExchangeRequirements.htm" />
         <TocEntry
           Title="[%=System.LinkedTitle%]"
-          Link="/Content/Outlook/D_IntegExch/IME/Outlook_IME_InstallUpgradeforEIWservice.htm" />
+          Link="/Content/IntegrationtoMicrosoftExchange/InstallUpgradeEIWS.htm" />
         <TocEntry
           Title="[%=System.LinkedTitle%]"
-          Link="/Content/Outlook/D_IntegExch/IME/Outlook_IME_ConfigIntegExchange.htm" />
+          Link="/Content/IntegrationtoMicrosoftExchange/ConfigureIntegrationtoExchange.htm" />
         <TocEntry
           Title="[%=System.LinkedTitle%]"
-          Link="/Content/Outlook/D_IntegExch/IME/Outlook_IME_UseAppPoolIdentif.htm" />
+          Link="/Content/IntegrationtoMicrosoftExchange/UseAppPoolIdentification.htm" />
         <TocEntry
           Title="[%=System.LinkedTitle%]"
-          Link="/Content/Outlook/D_IntegExch/IME/Outlook_IME_ConfigEWSImperforME.htm" />
+          Link="/Content/IntegrationtoMicrosoftExchange/ConfigureEWSImpersonation.htm" />
         <TocEntry
           Title="[%=System.LinkedTitle%]"
-          Link="/Content/Outlook/D_IntegExch/IME/Outlook_IME_LearnMoreaboutEWS.htm" />
+          Link="/Content/IntegrationtoMicrosoftExchange/LearnMoreaboutEWS.htm" />
       </TocEntry>
     </TocEntry>
     <TocEntry
@@ -1601,6 +1601,28 @@
           Title="Install or Upgrade the EMS Campus Auto Sync Service (EMS Campus Only)"
           Link="/Content/ServicesComponents/InstallUpgrade EMS Campus Auto Sync Service.htm" />
       </TocEntry>
+    </TocEntry>
+    <TocEntry
+      Link="/Content/Outlook/D_IntegExch/IME/Outlook_IME_Introduction.htm"
+      Title="Integration to Microsoft Exchange">
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/IntegrationtoMicrosoftExchange/IntegrationtoExchangeRequirements.htm" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/IntegrationtoMicrosoftExchange/InstallUpgradeEIWS.htm" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/IntegrationtoMicrosoftExchange/ConfigureIntegrationtoExchange.htm" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/IntegrationtoMicrosoftExchange/UseAppPoolIdentification.htm" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/IntegrationtoMicrosoftExchange/ConfigureEWSImpersonation.htm" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/IntegrationtoMicrosoftExchange/LearnMoreaboutEWS.htm" />
     </TocEntry>
   </TocEntry>
   <TocEntry
