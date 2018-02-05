@@ -418,22 +418,22 @@
       Link="/Content/InstallGuides/9_MasterCalendarV8/9_MasterCalendarV8Home.htm">
       <TocEntry
         Title="Requirements for Master Calendar"
-        Link="/Content/EMSMasterCalendar/V8/A_Installation/MC_IG_SysReqPrereq.html" />
+        Link="/Content/EMSMasterCalendar/V8/A_Installation/SystemRequirementsandPrerequisites.html" />
       <TocEntry
         Title="Installation Instructions"
-        Link="/Content/EMSMasterCalendar/V8/A_Installation/MC_IG_InstallationInstruct.html">
+        Link="/Content/EMSMasterCalendar/V8/A_Installation/InstallationInstructions.html">
         <TocEntry
           Title="Obtain Master Calendar Installation Files"
-          Link="/Content/EMSMasterCalendar/V8/A_Installation/MC_IG_ObtainingMCInstallFiles.html" />
+          Link="/Content/EMSMasterCalendar/V8/A_Installation/ObtainingMCInstallationFiles.html" />
         <TocEntry
           Title="Run the Master Calendar Installer"
-          Link="/Content/EMSMasterCalendar/V8/A_Installation/MC_IG_RunningMCInstaller.html" />
+          Link="/Content/EMSMasterCalendar/V8/A_Installation/RunningMCInstaller.html" />
         <TocEntry
           Title="Install or Upgrade the Database Component in Master Calendar"
-          Link="/Content/EMSMasterCalendar/V8/A_Installation/MC_InstallUpgradeDatabaseComp.html" />
+          Link="/Content/EMSMasterCalendar/V8/A_Installation/InstallUpgradeDatabaseComp.html" />
         <TocEntry
           Title="Install or Upgrade the Master Calendar Web Service"
-          Link="/Content/EMSMasterCalendar/V8/A_Installation/MC_InstallUpgradeMCWebService.html" />
+          Link="/Content/EMSMasterCalendar/V8/A_Installation/InstallUpgradeMCWebService.html" />
       </TocEntry>
     </TocEntry>
     <TocEntry
@@ -441,13 +441,13 @@
       Link="/Content/InstallGuides/7_PlatformServices/V44.1/7_PlatformServicesHome.htm">
       <TocEntry
         Title="Introduction to EMS Platform Services"
-        Link="/Content/PlatformServices/A_InstallationGuide/Platform_Introduction.html" />
+        Link="/Content/EMSPlatformServices/A_InstallationGuide/Platform_Introduction.html" />
       <TocEntry
         Title="Install EMS Platform Services"
-        Link="/Content/PlatformServices/A_InstallationGuide/Platform_InstallPS.html" />
+        Link="/Content/EMSPlatformServices/A_InstallationGuide/Platform_InstallPS.html" />
       <TocEntry
         Title="License Requirements for Platform Services"
-        Link="/Content/PlatformServices/A_InstallationGuide/Platform_LicenseRequirements.html" />
+        Link="/Content/EMSPlatformServices/A_InstallationGuide/Platform_LicenseRequirements.html" />
     </TocEntry>
     <TocEntry
       Title="EMS Exchange Room Integration (ERI)"
@@ -1228,22 +1228,22 @@
       Link="/Content/InstallGuides/9_MasterCalendarV8/9_MasterCalendarV8Home.htm">
       <TocEntry
         Title="Requirements for Master Calendar"
-        Link="/Content/EMSMasterCalendar/V8/A_Installation/MC_IG_SysReqPrereq.html" />
+        Link="/Content/EMSMasterCalendar/V8/A_Installation/SystemRequirementsandPrerequisites.html" />
       <TocEntry
         Title="Installation Instructions"
-        Link="/Content/EMSMasterCalendar/V8/A_Installation/MC_IG_InstallationInstruct.html">
+        Link="/Content/EMSMasterCalendar/V8/A_Installation/InstallationInstructions.html">
         <TocEntry
           Title="Obtain Master Calendar Installation Files"
-          Link="/Content/EMSMasterCalendar/V8/A_Installation/MC_IG_ObtainingMCInstallFiles.html" />
+          Link="/Content/EMSMasterCalendar/V8/A_Installation/ObtainingMCInstallationFiles.html" />
         <TocEntry
           Title="Run the Master Calendar Installer"
-          Link="/Content/EMSMasterCalendar/V8/A_Installation/MC_IG_RunningMCInstaller.html" />
+          Link="/Content/EMSMasterCalendar/V8/A_Installation/RunningMCInstaller.html" />
         <TocEntry
           Title="Install or Upgrade the Database Component in Master Calendar"
-          Link="/Content/EMSMasterCalendar/V8/A_Installation/MC_InstallUpgradeDatabaseComp.html" />
+          Link="/Content/EMSMasterCalendar/V8/A_Installation/InstallUpgradeDatabaseComp.html" />
         <TocEntry
           Title="Install or Upgrade the Master Calendar Web Service"
-          Link="/Content/EMSMasterCalendar/V8/A_Installation/MC_InstallUpgradeMCWebService.html" />
+          Link="/Content/EMSMasterCalendar/V8/A_Installation/InstallUpgradeMCWebService.html" />
       </TocEntry>
     </TocEntry>
     <TocEntry
@@ -1251,13 +1251,13 @@
       Link="/Content/InstallGuides/7_PlatformServices/V44.1/7_PlatformServicesHome.htm">
       <TocEntry
         Title="Introduction to EMS Platform Services"
-        Link="/Content/PlatformServices/A_InstallationGuide/Platform_Introduction.html" />
+        Link="/Content/EMSPlatformServices/A_InstallationGuide/Platform_Introduction.html" />
       <TocEntry
         Title="Install EMS Platform Services"
-        Link="/Content/PlatformServices/A_InstallationGuide/Platform_InstallPS.html" />
+        Link="/Content/EMSPlatformServices/A_InstallationGuide/Platform_InstallPS.html" />
       <TocEntry
         Title="License Requirements for Platform Services"
-        Link="/Content/PlatformServices/A_InstallationGuide/Platform_LicenseRequirements.html" />
+        Link="/Content/EMSPlatformServices/A_InstallationGuide/Platform_LicenseRequirements.html" />
     </TocEntry>
     <TocEntry
       Title="EMS Exchange Room Integration (ERI)"
@@ -2525,7 +2525,7 @@
       Link="/Content/ConfigGuides/7_EMS_PlatformServices_CG.htm">
       <TocEntry
         Title="Configure Platform Services in the Admin Portal"
-        Link="/Content/PlatformServices/B_ConfigurationGuide/Platform_ConfigPSinAdminPortal.html" />
+        Link="/Content/EMSPlatformServices/B_ConfigurationGuide/Platform_ConfigPSinAdminPortal.html" />
     </TocEntry>
     <TocEntry
       Title="EMS Exchange Room Integration (ERI)  "

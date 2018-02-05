@@ -17,7 +17,7 @@
     PageLayout="/Content/Resources/PageLayouts/7X9/TOC7X9.flpgl" />
   <TocEntry
     Title="Requirements for Master Calendar"
-    Link="/Content/EMSMasterCalendar/V8/A_Installation/MC_IG_SysReqPrereq.html"></TocEntry>
+    Link="/Content/EMSMasterCalendar/V8/A_Installation/SystemRequirementsandPrerequisites.html"></TocEntry>
   <TocEntry
     Title="Configuration Guide"
     Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_Introduction.htm">

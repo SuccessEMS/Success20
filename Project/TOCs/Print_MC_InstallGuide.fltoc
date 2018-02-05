@@ -17,21 +17,21 @@
     PageLayout="/Content/Resources/PageLayouts/7X9/TOC7X9.flpgl" />
   <TocEntry
     Title="Requirements for Master Calendar"
-    Link="/Content/EMSMasterCalendar/V8/A_Installation/MC_IG_SysReqPrereq.html" />
+    Link="/Content/EMSMasterCalendar/V8/A_Installation/SystemRequirementsandPrerequisites.html" />
   <TocEntry
     Title="Installation Instructions"
-    Link="/Content/EMSMasterCalendar/V8/A_Installation/MC_IG_InstallationInstruct.html">
+    Link="/Content/EMSMasterCalendar/V8/A_Installation/InstallationInstructions.html">
     <TocEntry
       Title="Obtain Master Calendar Installation Files"
-      Link="/Content/EMSMasterCalendar/V8/A_Installation/MC_IG_ObtainingMCInstallFiles.html" />
+      Link="/Content/EMSMasterCalendar/V8/A_Installation/ObtainingMCInstallationFiles.html" />
     <TocEntry
       Title="Run the Master Calendar Installer"
-      Link="/Content/EMSMasterCalendar/V8/A_Installation/MC_IG_RunningMCInstaller.html" />
+      Link="/Content/EMSMasterCalendar/V8/A_Installation/RunningMCInstaller.html" />
     <TocEntry
       Title="Install or Upgrade the Database Component in Master Calendar"
-      Link="/Content/EMSMasterCalendar/V8/A_Installation/MC_InstallUpgradeDatabaseComp.html" />
+      Link="/Content/EMSMasterCalendar/V8/A_Installation/InstallUpgradeDatabaseComp.html" />
     <TocEntry
       Title="Install or Upgrade the Master Calendar Web Service"
-      Link="/Content/EMSMasterCalendar/V8/A_Installation/MC_InstallUpgradeMCWebService.html" />
+      Link="/Content/EMSMasterCalendar/V8/A_Installation/InstallUpgradeMCWebService.html" />
   </TocEntry>
 </CatapultToc>
