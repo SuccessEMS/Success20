@@ -7,7 +7,7 @@
     BreakType="chapter"
     StartSection="false"
     PageNumberReset="continue"
-    PageLayout="/Content/Resources/PageLayouts/7X9/Title7X9.flpgl" />
+    PageLayout="/Content/Resources/PageLayouts/7X9/Title7X9.flpgl"></TocEntry>
   <TocEntry
     Title="[%=System.LinkedTitle%]"
     Link="/Content/Print Only Topics/TOC.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
@@ -134,28 +134,24 @@
   </TocEntry>
   <TocEntry
     Link="/Content/Outlook/D_IntegExch/IME/Outlook_IME_Introduction.htm"
-    Title="Integration to Microsoft Exchange"
-    BreakType="chapter"
-    StartSection="false"
-    PageNumberReset="continue"
-    PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
+    Title="Integration to Microsoft Exchange">
     <TocEntry
       Title="[%=System.LinkedTitle%]"
-      Link="/Content/Outlook/D_IntegExch/IME/Outlook_IME_IntegExchanReqs.htm" />
+      Link="/Content/IntegrationtoMicrosoftExchange/IntegrationtoExchangeRequirements.htm" />
     <TocEntry
       Title="[%=System.LinkedTitle%]"
-      Link="/Content/Outlook/D_IntegExch/IME/Outlook_IME_InstallUpgradeforEIWservice.htm" />
+      Link="/Content/IntegrationtoMicrosoftExchange/InstallUpgradeEIWS.htm" />
     <TocEntry
       Title="[%=System.LinkedTitle%]"
-      Link="/Content/Outlook/D_IntegExch/IME/Outlook_IME_ConfigIntegExchange.htm" />
+      Link="/Content/IntegrationtoMicrosoftExchange/ConfigureIntegrationtoExchange.htm" />
     <TocEntry
       Title="[%=System.LinkedTitle%]"
-      Link="/Content/Outlook/D_IntegExch/IME/Outlook_IME_UseAppPoolIdentif.htm" />
+      Link="/Content/IntegrationtoMicrosoftExchange/UseAppPoolIdentification.htm" />
     <TocEntry
       Title="[%=System.LinkedTitle%]"
-      Link="/Content/Outlook/D_IntegExch/IME/Outlook_IME_ConfigEWSImperforME.htm" />
+      Link="/Content/IntegrationtoMicrosoftExchange/ConfigureEWSImpersonation.htm" />
     <TocEntry
       Title="[%=System.LinkedTitle%]"
-      Link="/Content/Outlook/D_IntegExch/IME/Outlook_IME_LearnMoreaboutEWS.htm" />
+      Link="/Content/IntegrationtoMicrosoftExchange/LearnMoreaboutEWS.htm" />
   </TocEntry>
 </CatapultToc>
