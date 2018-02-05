@@ -178,7 +178,7 @@
     </TocEntry>
     <TocEntry
       Title="[%=System.LinkedTitle%]"
-      Link="/Content/Learn_About_App/VPAT for EMS Web App V44 1.htm" />
+      Link="/Content/LearnAboutOurApplications/VPAT for EMS Web App V44 1.htm" />
     <TocEntry
       Title="Integrated Windows Authentication"
       Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_IntegratedWindowsAuthen.html">

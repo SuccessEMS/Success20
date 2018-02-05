@@ -111,7 +111,7 @@
         </TocEntry>
         <TocEntry
           Title="[%=System.LinkedTitle%]"
-          Link="/Content/Learn_About_App/VPAT for EMS Web App V44 1.htm" />
+          Link="/Content/LearnAboutOurApplications/VPAT for EMS Web App V44 1.htm" />
         <TocEntry
           Title="Integrated Windows Authentication"
           Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_IntegratedWindowsAuthen.html">
@@ -985,7 +985,7 @@
         </TocEntry>
         <TocEntry
           Title="[%=System.LinkedTitle%]"
-          Link="/Content/Learn_About_App/VPAT for EMS Web App V44 1.htm" />
+          Link="/Content/LearnAboutOurApplications/VPAT for EMS Web App V44 1.htm" />
         <TocEntry
           Title="Integrated Windows Authentication"
           Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_IntegratedWindowsAuthen.html">
@@ -5242,22 +5242,22 @@
   </TocEntry>
   <TocEntry
     Title="FAQs"
-    Link="/Content/Learn_About_App/LearnAboutOurApplications.htm">
+    Link="/Content/LearnAboutOurApplications/LearnAboutOurApplications.htm">
     <TocEntry
       Title="Managing EMS"
-      Link="/Content/Learn_About_App/Managing EMS.htm">
+      Link="/Content/LearnAboutOurApplications/Managing EMS.htm">
       <TocEntry
         Title="EMS Application Architecture"
-        Link="/Content/Learn_About_App/EMS Application Architecture.htm" />
+        Link="/Content/LearnAboutOurApplications/EMS Application Architecture.htm" />
       <TocEntry
         Title="EMS Application Architecture for EMS Campus"
-        Link="/Content/Learn_About_App/EMS Application Architecture_1.htm" />
+        Link="/Content/LearnAboutOurApplications/EMS Application Architecture_1.htm" />
       <TocEntry
         Title="[%=System.LinkedTitle%]"
-        Link="/Content/Learn_About_App/What Do EMS APIs Do.htm" />
+        Link="/Content/LearnAboutOurApplications/What Do EMS APIs Do.htm" />
       <TocEntry
         Title="[%=System.LinkedTitle%]"
-        Link="/Content/Learn_About_App/What is Facilities Management.htm" />
+        Link="/Content/LearnAboutOurApplications/What is Facilities Management.htm" />
       <TocEntry
         Title="What is Integrated Authentication"
         Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_Introduction.htm">
@@ -5279,89 +5279,89 @@
       </TocEntry>
       <TocEntry
         Title="[%=System.LinkedTitle%]"
-        Link="/Content/Learn_About_App/What is Polycom Integration.htm" />
+        Link="/Content/LearnAboutOurApplications/What is Polycom Integration.htm" />
       <TocEntry
         Title="[%=System.LinkedTitle%]"
-        Link="/Content/Learn_About_App/What is the EMS Floor Plans.htm" />
+        Link="/Content/LearnAboutOurApplications/What is the EMS Floor Plans.htm" />
       <TocEntry
         Title="VPAT 508 ADA Compliance"
-        Link="/Content/Learn_About_App/VPAT 508 ADA Compliance Section.htm" />
+        Link="/Content/LearnAboutOurApplications/VPAT 508 ADA Compliance Section.htm" />
       <TocEntry
         Title="VPAT for EMS Web App"
-        Link="/Content/Learn_About_App/VPAT for EMS Web App V44 1.htm" />
+        Link="/Content/LearnAboutOurApplications/VPAT for EMS Web App V44 1.htm" />
       <TocEntry
         Title="[%=System.LinkedTitle%]"
-        Link="/Content/Learn_About_App/What is Cisco TMS Integration.htm" />
+        Link="/Content/LearnAboutOurApplications/What is Cisco TMS Integration.htm" />
       <TocEntry
         Title="[%=System.LinkedTitle%]"
-        Link="/Content/Learn_About_App/What is HRIS Integration.htm" />
+        Link="/Content/LearnAboutOurApplications/What is HRIS Integration.htm" />
       <TocEntry
         Title="[%=System.LinkedTitle%]"
-        Link="/Content/Learn_About_App/What is Integration to Exchange.htm" />
+        Link="/Content/LearnAboutOurApplications/What is Integration to Exchange.htm" />
       <TocEntry
         Title="[%=System.LinkedTitle%]"
-        Link="/Content/Learn_About_App/What is RoomWizard Integration.htm" />
+        Link="/Content/LearnAboutOurApplications/What is RoomWizard Integration.htm" />
     </TocEntry>
     <TocEntry
       Title="General FAQs"
-      Link="/Content/Learn_About_App/General FAQs.htm">
+      Link="/Content/LearnAboutOurApplications/General FAQs.htm">
       <TocEntry
         Title="[%=System.LinkedTitle%]"
-        Link="/Content/Learn_About_App/What Are The EMS Software.htm" />
+        Link="/Content/LearnAboutOurApplications/What Are The EMS Software.htm" />
       <TocEntry
         Title="[%=System.LinkedTitle%]"
-        Link="/Content/Learn_About_App/How Does EMS IntegrateSoftwareHardware.htm" />
+        Link="/Content/LearnAboutOurApplications/How Does EMS IntegrateSoftwareHardware.htm" />
       <TocEntry
         Title="[%=System.LinkedTitle%]"
-        Link="/Content/Learn_About_App/Toolkits and Data Integration.htm" />
+        Link="/Content/LearnAboutOurApplications/Toolkits and Data Integration.htm" />
       <TocEntry
         Title="[%=System.LinkedTitle%]"
-        Link="/Content/Learn_About_App/How Do I Import Existing Room.htm" />
+        Link="/Content/LearnAboutOurApplications/How Do I Import Existing Room.htm" />
       <TocEntry
         Title="[%=System.LinkedTitle%]"
-        Link="/Content/Learn_About_App/Course Data SIS.htm" />
+        Link="/Content/LearnAboutOurApplications/Course Data SIS.htm" />
       <TocEntry
         Title="[%=System.LinkedTitle%]"
-        Link="/Content/Learn_About_App/Video Conferencing Interfaces.htm" />
+        Link="/Content/LearnAboutOurApplications/Video Conferencing Interfaces.htm" />
       <TocEntry
         Title="[%=System.LinkedTitle%]"
-        Link="/Content/Learn_About_App/Reporting.htm" />
+        Link="/Content/LearnAboutOurApplications/Reporting.htm" />
       <TocEntry
         Title="[%=System.LinkedTitle%]"
-        Link="/Content/Learn_About_App/End Point Software Integrations.htm" />
+        Link="/Content/LearnAboutOurApplications/End Point Software Integrations.htm" />
       <TocEntry
         Title="[%=System.LinkedTitle%]"
-        Link="/Content/Learn_About_App/What is Integrated Windows.htm" />
+        Link="/Content/LearnAboutOurApplications/What is Integrated Windows.htm" />
       <TocEntry
         Title="[%=System.LinkedTitle%]"
-        Link="/Content/Learn_About_App/Exchange Integration.htm" />
+        Link="/Content/LearnAboutOurApplications/Exchange Integration.htm" />
       <TocEntry
         Title="[%=System.LinkedTitle%]"
-        Link="/Content/Learn_About_App/Digital Signage Video Displays.htm" />
+        Link="/Content/LearnAboutOurApplications/Digital Signage Video Displays.htm" />
       <TocEntry
         Title="[%=System.LinkedTitle%]"
-        Link="/Content/Learn_About_App/HVAC Integration.htm" />
+        Link="/Content/LearnAboutOurApplications/HVAC Integration.htm" />
       <TocEntry
         Title="[%=System.LinkedTitle%]"
-        Link="/Content/Learn_About_App/Geolocation Mapping QR Codes.htm" />
+        Link="/Content/LearnAboutOurApplications/Geolocation Mapping QR Codes.htm" />
       <TocEntry
         Title="[%=System.LinkedTitle%]"
-        Link="/Content/Learn_About_App/Billing and Payment.htm" />
+        Link="/Content/LearnAboutOurApplications/Billing and Payment.htm" />
       <TocEntry
         Title="[%=System.LinkedTitle%]"
-        Link="/Content/Learn_About_App/VDI.htm" />
+        Link="/Content/LearnAboutOurApplications/VDI.htm" />
     </TocEntry>
     <TocEntry
-      Link="/Content/Learn_About_App/How Does EMS Classify Different.htm"
+      Link="/Content/LearnAboutOurApplications/How Does EMS Classify Different.htm"
       Title="[%=System.LinkedTitle%]" />
     <TocEntry
-      Link="/Content/Learn_About_App/How Do Users Log In.htm"
+      Link="/Content/LearnAboutOurApplications/How Do Users Log In.htm"
       Title="[%=System.LinkedTitle%]" />
     <TocEntry
-      Link="/Content/Learn_About_App/When Should I Use EMS Web.htm"
+      Link="/Content/LearnAboutOurApplications/When Should I Use EMS Web.htm"
       Title="[%=System.LinkedTitle%]" />
     <TocEntry
-      Link="/Content/Learn_About_App/How Does EMS Organize Buildings.htm"
+      Link="/Content/LearnAboutOurApplications/How Does EMS Organize Buildings.htm"
       Title="[%=System.LinkedTitle%]" />
   </TocEntry>
   <TocEntry
