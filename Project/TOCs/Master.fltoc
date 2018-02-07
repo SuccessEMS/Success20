@@ -5287,7 +5287,8 @@
       Title="Regics"
       Link="/Content/Regics_RN_4.0.htm" />
     <TocEntry
-      Title="Browse by Product">
+      Title="Browse Release Notes by Product"
+      Link="/Content/ReleaseNotes/BrowsebyProduct.htm">
       <TocEntry
         Title="EMS Desktop Client" />
       <TocEntry
