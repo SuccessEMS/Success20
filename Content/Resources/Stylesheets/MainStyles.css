@@ -560,7 +560,6 @@ p
 	font-size: 18px;
 	font-family: "Open sans", sans-serif;
 	line-height: 32px;
-	
 }
 
 p.CompanyInformation1
@@ -2279,4 +2278,26 @@ p.beforelist
 	padding-bottom: 0px;
 	margin: 0 0 10px;
 	margin-bottom: 5px;
+}
+
+p.RNArea
+{
+	font-style: italic;
+}
+
+p.RNTitle
+{
+	font-weight: bold;
+}
+
+p.RNBody
+{
+	margin-left: 35px;
+}
+
+p.RNRef
+{
+	margin-left: 35px;
+	font-size: 15px;
+	color: #939393;
 }
