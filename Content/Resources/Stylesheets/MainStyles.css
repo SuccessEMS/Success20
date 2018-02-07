@@ -1161,6 +1161,11 @@ p.TOC4
 	padding-bottom: 5pt;
 }
 
+_generic_.RNRefHyper
+{
+	
+}
+
 /*medium device style*/
 
 @media tablet
@@ -2300,4 +2305,9 @@ p.RNRef
 	margin-left: 35px;
 	font-size: 15px;
 	color: #939393;
+}
+
+a.RNRefHyper
+{
+	font-size: 15px;
 }
