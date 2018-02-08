@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="8" MadCap:lastHeight="231042" MadCap:lastWidth="1362">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="8" MadCap:lastHeight="231288" MadCap:lastWidth="1362">
     <head>
         <link href="../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
         <link href="../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
@@ -1120,8 +1120,7 @@ Fix: Modified functionality to properly adjust for audit time zones so that the 
                 </tr>
             </tbody>
         </table>
-        <h4>&#160;</h4>
-        <h4>EMS Desktop Client</h4>
+        <h4>Fixes</h4>
         <table style="mc-table-style: url('../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
@@ -1136,36 +1135,44 @@ Fix: Modified functionality to properly adjust for audit time zones so that the 
             <tbody>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p>Web Client, Departments</p>
+                        <p>Edit Reservation</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p>Unable to Edit or Delete Departments on Web Client</p>
-                        <p>When administrative users selected Configuration &gt; Administration &gt; Departments and clicked&#160;Delete&#160;on a department in the list, the department was not deleted and an error occurred, "Invalid column name 'Confirmations." When they attempted to edit a department, their changes were not saved and the Edit window did not close.</p>
-                        <p>Fix:&#160;Modified validations to ensure that deleting and editing departments is successful.&#160;</p>
-                        <p>27835,&#160;24978&#160;<span style="color: #ff0000;">FIX ONLY IN v43</span></p>
+                        <p>SLOW PERFORMANCE AND ERRORS WHEN ADDING EVERYDAY USERS USING LDAP AUTHENTICATION</p>
+                        <p>When users edited a reservation in the Reservation Wizard and assigned Everyday users when LDAP authentication was enabled, load time for the edit page was unusually slow and errors could occur.</p>
+                        <p>Fix: Modified functionality so that LDAP-authenticated Everyday Users load more efficiently and the slow performance and errors no longer occur.</p>
+                        <p>22003</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p>Web Client, Group Notification Rules</p>
+                        <p>Notifications</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p>Header Message and Time Zone Not Saved for Group Notification Rules on Web Client</p>
-                        <p>When administrative users selected Configuration &gt; Administration &gt; Group Notification Rules and created or edited a rule, their selections for&#160;Header Message&#160;and&#160;Time Zone&#160;were not saved.</p>
-                        <p>Fix:&#160;Modified validations to ensure that header message&#160;and time zone selections for Group Notification Rules&#160;are saved.&#160;</p>
-                        <p>16314&#160;<span style="color: #ff0000;">FIX ONLY IN v43</span></p>
+                        <p>SERVICE ORDER NOTIFICATION RULE SELECTIONS NOT RETAINED</p>
+                        <p>When users selected multiple resources or states for a notification rule and clicked Finish to save their entries, and then opened the rule again to edit, their selections were not saved.</p>
+                        <p>Fix: Modified functionality to ensure that users' selections are retained.</p>
+                        <p>25617</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
-                        <p>Web Client, Transaction Report</p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Dashboard</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
-                        <p>Voided Transactions Persist on Transaction Report&#160;on Web Client</p>
-                        <p>When user ran a Transaction Report from the Web Client, the report showed voided transactions, unlike in the EMS Desktop Client.</p>
-                        <p>Fix:&#160;Modified the Transaction Report to ensure that it does not include voided transactions.&#160;</p>
-                        <p>15199&#160;<span style="color: #ff0000;">FIX&#160;ONLY IN v43</span></p>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>NEW WEB USER STATUS CHANGES NOT SAVED</p>
+                        <p>When Administrators received a notification on the dashboard that a new web user was created and pending review, and then changed the new web user status to Active (selecting the Reviewed option), their changes were not saved on the dashboard and the notification continued to show on the dashboard as if it had not been reviewed.</p>
+                        <p>Fix: Modified functionality to ensure that changes to new web user's status is retained and reviewed notifications do not persist on the dashboard.</p>
+                        <p>27830, 21141</p>
                     </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">Web Deploy</td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">HTTPS ISSUES
+The HTTPS bindings line missing from the web config, which caused an issue with the customers not being able to use HTTPS for the site. 
+Fix: Added the missing line so that customers can use HTTPS for Web Deploy.
+
+26970</td>
                 </tr>
             </tbody>
         </table>
