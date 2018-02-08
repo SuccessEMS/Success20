@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Browse Release Notes by Product"
+    Link="/Content/ReleaseNotes/BrowsebyProduct.htm">
+    <TocEntry
+      Title="EMS Desktop Client" />
+    <TocEntry
+      Title="EMS Web App" />
+    <TocEntry
+      Title="EMS Room Sign App (formerly Glance)"
+      Link="/Content/ReleaseNotes/EMSRoomSignApp_V44.1.htm" />
+    <TocEntry
+      Title="EMS Mobile App" />
+    <TocEntry
+      Title="EMS for Outlook" />
+  </TocEntry>
+</CatapultToc>
