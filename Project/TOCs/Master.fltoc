@@ -5281,26 +5281,13 @@
       Title="Release Notes V43"
       Link="/Content/V43_ReleaseNotes.htm" />
     <TocEntry
+      Title="Known Issues" />
+    <TocEntry
       Title="Master Calendar"
       Link="/Content/MC_ReleaseNotes.html" />
     <TocEntry
       Title="Regics"
       Link="/Content/Regics_RN_4.0.htm" />
-    <TocEntry
-      Title="Browse Release Notes by Product"
-      Link="/Content/ReleaseNotes/BrowsebyProduct.htm">
-      <TocEntry
-        Title="EMS Desktop Client" />
-      <TocEntry
-        Title="EMS Web App" />
-      <TocEntry
-        Title="EMS Room Sign App (formerly Glance)"
-        Link="/Content/ReleaseNotes/EMSRoomSignApp_V44.1.htm" />
-      <TocEntry
-        Title="EMS Mobile App" />
-      <TocEntry
-        Title="EMS for Outlook" />
-    </TocEntry>
   </TocEntry>
   <TocEntry
     Title="FAQs"
