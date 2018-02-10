@@ -805,6 +805,9 @@
       <TocEntry
         Title="V44"
         Link="/Content/EMS_SystemReq_44.htm" />
+      <TocEntry
+        Title="V43"
+        Link="/Content/EMS_SystemReq_43.htm" />
     </TocEntry>
     <TocEntry
       Title="EMS Desktop Client"
