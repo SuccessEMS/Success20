@@ -1270,7 +1270,7 @@
           Title="Install or Upgrade the Master Calendar Import Service"
           Link="/Content/EMSMasterCalendar/V8/A_Installation/InstallingUpgradingtheImportService.htm" />
         <TocEntry
-          Title="Starting Master Calendar"
+          Title="Launch Master Calendar"
           Link="/Content/EMSMasterCalendar/V8/A_Installation/StartingMasterCalendar.htm" />
       </TocEntry>
     </TocEntry>
