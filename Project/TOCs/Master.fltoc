@@ -2555,7 +2555,10 @@
         Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_MasterCalAPI.html">
         <TocEntry
           Title="Master Calendar API Requirements and Licensing"
-          Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_APISysRequirements.html" />
+          Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_APISysRequirements.html"></TocEntry>
+        <TocEntry
+          Title="Configure Master Calendar to Use the Master Calendar API Web Service"
+          Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ConfigMCtoUseMC_API_WebServ.htm" />
         <TocEntry
           Title="Verify the Master Calendar API"
           Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_VerifyMCAPI.html" />
