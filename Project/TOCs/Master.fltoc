@@ -808,6 +808,9 @@
       <TocEntry
         Title="V43"
         Link="/Content/EMS_SystemReq_43.htm" />
+      <TocEntry
+        Title="EMS Lite 8"
+        Link="/Content/EMSLite8SystemRequirements.htm" />
     </TocEntry>
     <TocEntry
       Title="EMS Desktop Client"
@@ -5286,8 +5289,6 @@
     <TocEntry
       Title="Release Notes V43"
       Link="/Content/V43_ReleaseNotes.htm" />
-    <TocEntry
-      Title="Known Issues" />
     <TocEntry
       Title="Master Calendar"
       Link="/Content/MC_ReleaseNotes.html" />
