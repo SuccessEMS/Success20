@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html MadCap:lastBlockDepth="4" MadCap:lastHeight="14848" MadCap:lastWidth="717" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\EMSDesktopClient.flmsp');">
+<html MadCap:lastBlockDepth="6" MadCap:lastHeight="17007" MadCap:lastWidth="758" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\EMSDesktopClient.flmsp');">
     <head><title mt-export-translate="no">Installation Instructions</title>
         <meta name="mt-type" value="application/x.deki-text" />
         <meta name="mt-unsafe" value="true" />
@@ -19,6 +19,10 @@
             </li>
             <li>
                 <MadCap:xref href="#InstallWebDeployMethod">Install EMS Desktop Client (Web Deployment Method)</MadCap:xref>
+                <ul>
+                    <li><a href="#Switching">Switching Between Environments for EMS&#160;Desktop Client Web Deploy</a>
+                    </li>
+                </ul>
             </li>
             <li>
                 <MadCap:xref href="#InstallDCConventional">Installing [%=General.EMS&#160;Desktop Client%] (Conventional Method)</MadCap:xref>
@@ -131,6 +135,22 @@
             <li>Click <strong>OK</strong>.</li>
         </ol>
         <div class="note-box"><strong>Note:</strong>&#160;When an EMS Client is installed through the EMS Desktop Client Web Deployment it will only be able to connect to the EMS instance received from the service.</div>
+        <h2><a name="Switching"></a>Switching Between Environments for EMS&#160;Desktop Client Web Deploy</h2>
+        <p>Users may want to switch their EMS&#160;Desktop Client between on-premise test and production environments, between on-premise and cloud hosted environments, or between cloud hosted test and production environments.</p>
+        <p class="note-box"><span class="bold">Notes</span>:&#160;The EMS Desktop Client runs from the executable file located here:  C:\Users\Username\AppData\Roaming\EMS2016\EMSApplication.exe. Because we can’t point to any two of these environments with the same EMS executable Desktop Client file, users must clear the EMS registry entry and then point to the desired environment.</p>
+        <ol>
+            <li>Clear the EMS&#160;registry entry by utilizing the “Remove GA V44.1 Connection.reg” file. The content of this file is as follows:<div class="indent">Windows Registry Editor Version 5.00</div><div class="indent">[HKEY_CURRENT_USER\SOFTWARE\EMS Software\Version 44.1]</div><div class="indent">"AppFacadeUrl"=-</div></li>
+        </ol>
+        <p class="note-box">Note:&#160;This file can be shared with users via SFTP as most e-mail programs will block attachments with the .reg extension. Alternatively, the file can be renamed with a .txt extension and then renamed again on the user side back to .reg. Or users can copy the three lines above into a text editor and save the file as “Remove GA V44.1 Connection.reg”</p>
+        <ol MadCap:continue="true">
+            <li>Save the registry editor file “Remove GA V44.1 Connection.reg” on the hard drive of the EMS desktop client user and run it.</li>
+            <li>Click “Yes” to the following warning:<img src="../../../Resources/Images/Switching1.png" /></li>
+            <li>Click “OK” to the second informational message:<br /><img src="../../../Resources/Images/switching2.png" style="width: 739px;height: 219px;" /><br /></li>
+            <li>Launch the Desktop Client from the EMS Desktop Client executable file or EMS icon   .</li>
+            <li>Enter the EMS Desktop Client URL corresponding to the desired environment in the EMS Web Deploy Configuration window and click “OK”. This will launch the EMS Desktop Client for the specified environment.<br /><img src="../../../Resources/Images/switching3.png" style="width: 698px;height: 348px;" /><br /></li>
+            <li>Settings are saved from the last time the EMS&#160;Desktop Client was accessed.</li>
+            <li>These steps must be repeated only when a user wants to switch environments.</li>
+        </ol>
         <h2><a name="InstallDCConventional"></a>Installing <MadCap:variable name="General.EMS&#160;Desktop Client" /> (Conventional Method)</h2>
         <p>Follow these instructions to conventionally&#160;install the <MadCap:variable name="General.EMS&#160;Desktop Client" /> on individual workstations.</p>
         <h4>Pre-Installation Instructions</h4>
