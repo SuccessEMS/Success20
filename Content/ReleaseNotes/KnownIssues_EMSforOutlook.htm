@@ -1,13 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="6" MadCap:lastHeight="20596" MadCap:lastWidth="784">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="6" MadCap:lastHeight="23681" MadCap:lastWidth="784">
     <head>
         <link href="../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
         <link href="../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
-        <h1>EMS&#160;Web App<br />Known Issues</h1>
-        <p>EMS Known Issues for the EMS&#160;Web App are organized by Update.  See Also:&#160;<a href="#Contact_Customer_Support">Contact Customer Support</a>.</p>
+        <h1>EMS&#160;for Outlook<br />Known Issues</h1>
+        <p>EMS Known Issues for the EMS&#160;for Outlook are organized by Update.  See Also:&#160;<a href="#Contact_Customer_Support">Contact Customer Support</a>.</p>
         <ul>
+            <li><a href="#Update21">V44.1, Update 21</a>
+            </li>
             <li><a href="#Update20">V44.1, Update 20</a>
             </li>
             <li><a href="#Update19">V44.1, Update 19</a>
@@ -37,7 +39,124 @@
             <li><a href="#Update7">V44.1, Update 7</a>
             </li>
         </ul>
-        <h2 style="font-size: 24pt;"> <a name="Update20"></a><span style="font-size: 26pt;"><span style="font-size: 24pt;">V44.1, </span></span><a href="../V44.1_ReleaseNotes.htm#Update20" style="font-size: 24pt;">Update 20</a><span style="font-size: 26pt;"><span style="font-size: 24pt;">*</span></span></h2>
+        <h2 style="font-size: 24pt;"><a name="Update21"></a><span style="font-size: 26pt;"><span style="font-size: 24pt;">V44.1, </span></span><a href="../V44.1_ReleaseNotes.htm#Update21" style="font-size: 24pt;">Update 21</a><span style="font-size: 26pt;"><span style="font-size: 24pt;">*</span></span>
+        </h2>
+        <table style="mc-table-style: url('../Resources/TableStyles/PatternedRows.css');margin-left: 0;margin-right: auto;width: 100%;" class="TableStyle-PatternedRows" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 568px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p>Issues </p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                        <p>EMS&#160;Internal Reference</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Users cannot book any room if template's "Only Allow New Bookings Within Range of This Many Days," parameter is set to "max value-999999."</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p><a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workitems?_a=edit&amp;id=33052" title="For EMS Internal Use Only" alt="For EMS Internal Use Only">33052</a>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Occurrence will have empty "Selected Rooms" tab if user has chosen a room from another building in conflict modal and reservation was created using a video conference (VC) or usual template.</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p><a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workitems?_a=edit&amp;id=33118" title="For EMS Internal Use Only" alt="For EMS Internal Use Only">33118</a>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                        <p>If an invoice has been run for bookings in the future, those bookings can still be edited via EMS for Outlook. Best practice is to only invoice past bookings.</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
+                        <p><a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workitems?_a=edit&amp;id=33228" title="For EMS Internal Use Only" alt="For EMS Internal Use Only">33228</a>
+                        </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h4>EMS&#160;for Outlook Legacy</h4>
+        <table style="mc-table-style: url('../Resources/TableStyles/PatternedRows.css');margin-left: 0;margin-right: auto;width: 100%;" class="TableStyle-PatternedRows" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 577px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p>Issues (Legacy)</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                        <p>EMS&#160;Internal Reference</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Service category user-defined fields (UDFs) are not displayed in Outlook after creating a recurring appointment with service-level UDFs.</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p><a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workitems?_a=edit&amp;id=25838" title="For EMS Internal Use Only" alt="For EMS Internal Use Only">25838</a>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>If the user inputs 45 and more numeral characters or 49-50 alphabetical characters to "Grouping:" text field in the EMS Desktop Client,&#160;Group name in add-in is blank.</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p><a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workitems?_a=edit&amp;id=26426" title="For EMS Internal Use Only" alt="For EMS Internal Use Only">26426</a>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Users unable to add any service to an all-day recurring event.</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p><a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workitems?_a=edit&amp;id=26519" title="For EMS Internal Use Only" alt="For EMS Internal Use Only">26519</a>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Maximum length for Event Name Parameter is not being followed.</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p><a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workitems?_a=edit&amp;id=26584" title="For EMS Internal Use Only" alt="For EMS Internal Use Only">26584</a>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>User is receiving double notifications of warning when switching from Outlook window to EMS for Outlook window.</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p><a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workitems?_a=edit&amp;id=26767" title="For EMS Internal Use Only" alt="For EMS Internal Use Only">26767</a>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
+                        <p>Users unable to add new room due to incorrect SetupType counting.</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
+                        <p><a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workitems?_a=edit&amp;id=26786" title="For EMS Internal Use Only" alt="For EMS Internal Use Only">26786</a>
+                        </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h2 style="font-size: 24pt;"><a name="Update20"></a><span style="font-size: 26pt;"><span style="font-size: 24pt;">V44.1, </span></span><a href="../V44.1_ReleaseNotes.htm#Update20" style="font-size: 24pt;">Update 20</a><span style="font-size: 26pt;"><span style="font-size: 24pt;">*</span></span>
+        </h2>
         <table style="margin-left: 0;margin-right: auto;width: 100%;mc-table-style: url('../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
             <col class="TableStyle-PatternedRows-Column-Regular" style="width: 585px;" />
             <col class="TableStyle-PatternedRows-Column-Regular" />
@@ -47,7 +166,51 @@
                 </tr>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
-                        <p>Issue</p>
+                        <p>Issues</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                        <p>Internal Reference</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Users cannot book any room if template's "Only Allow New Bookings Within Range of This Many Days," parameter is set to "max value-999999."</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p><a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems?_a=edit&amp;id=33052" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems?_a=edit&amp;id=33052">33052</a>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Occurrence will have empty "Selected Rooms" tab if user has chosen a room from another building in conflict modal and reservation was created using a video conference (VC) or usual template.</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p><a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems?_a=edit&amp;id=33118" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems?_a=edit&amp;id=33118">33118</a>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                        <p>If an invoice has been run for bookings in the future, those bookings can still be edited via EMS for Outlook. Best practice is to only invoice past bookings.</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
+                        <p><a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems?_a=edit&amp;id=33228" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems?_a=edit&amp;id=33228">33228</a>
+                        </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>EMS&#160;for Outlook (Legacy)</h2>
+        <table style="mc-table-style: url('../Resources/TableStyles/PatternedRows.css');margin-left: 0;margin-right: auto;width: 100%;" class="TableStyle-PatternedRows" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 560px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p>Issues (legacy)</p>
                     </th>
                     <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
                         <p>EMS&#160;Internal Reference</p>
@@ -56,11 +219,56 @@
             </thead>
             <tbody>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
-                        <p>EMS Web App crashes after trying to go over the Max No Bookings Per Reservation on Exchange.</p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Service category user-defined fields (UDFs) are not displayed in Outlook after creating a recurring appointment with service-level UDFs.</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
-                        <p><a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=26920" title="For EMS Internal Use Only" alt="For EMS Internal Use Only">26920</a>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p><a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workitems?_a=edit&amp;id=25838" title="For EMS Internal Use Only" alt="For EMS Internal Use Only">25838</a>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>If the user inputs 45 and more numeral characters or 49-50 alphabetical characters to "Grouping:" text field in the EMS Desktop Client,&#160;Group name in add-in is blank.</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p><a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workitems?_a=edit&amp;id=26426" title="For EMS Internal Use Only" alt="For EMS Internal Use Only">26426</a>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Users unable to add any service to an all-day recurring event.</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p><a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workitems?_a=edit&amp;id=26519" title="For EMS Internal Use Only" alt="For EMS Internal Use Only">26519</a>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Maximum length for Event Name Parameter is not being followed.</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p><a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workitems?_a=edit&amp;id=26584" title="For EMS Internal Use Only" alt="For EMS Internal Use Only">26584</a>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>User is receiving double notifications of warning when switching from Outlook window to EMS for Outlook window.</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p><a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workitems?_a=edit&amp;id=26767" title="For EMS Internal Use Only" alt="For EMS Internal Use Only">26767</a>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
+                        <p>Users unable to add new room due to incorrect SetupType counting.</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
+                        <p><a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workitems?_a=edit&amp;id=26786" title="For EMS Internal Use Only" alt="For EMS Internal Use Only">26786</a>
                         </p>
                     </td>
                 </tr>
