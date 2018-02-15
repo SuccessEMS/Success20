@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xml:lang="en-us" MadCap:lastBlockDepth="6" MadCap:lastHeight="1564" MadCap:lastWidth="1182" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+<html xml:lang="en-us" MadCap:lastBlockDepth="6" MadCap:lastHeight="1542" MadCap:lastWidth="942" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
         <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
         <link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
@@ -8,7 +8,7 @@
         <h1 class="Heading1_2">EMS Room Sign App Release Notes <br />V44.1, Update 17 </h1>
         <p>This section describes updates to&#160;your EMS software.&#160;&#160;</p>
         <p>See Also:&#160;<a href="#Contact">Contact Customer Support</a>&#160;and&#160;<MadCap:xref href="../../../Update_to_LatestVersion_EMS.htm"><a href="../../../Update_to_LatestVersion_EMS.htm">Updating to the Latest Version of EMS (Patches and Builds)</a></MadCap:xref>. </p>
-        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');margin-left: auto;margin-right: auto;width: 100%;" cellspacing="0">
             <col class="TableStyle-PatternedRows-Column-Regular" />
             <col class="TableStyle-PatternedRows-Column-Regular" />
             <col class="TableStyle-PatternedRows-Column-Regular" />
@@ -29,7 +29,7 @@
             </tr>
         </table>
         <h2 class="Heading2_2_1">Fixes&#160;</h2>
-        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');margin-left: auto;margin-right: auto;" cellspacing="0">
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');margin-left: auto;margin-right: auto;width: 100%;" cellspacing="0">
             <col class="TableStyle-PatternedRows-Column-Regular" />
             <col class="TableStyle-PatternedRows-Column-Regular" />
             <thead>
@@ -45,24 +45,24 @@
             <tbody>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td rowspan="2" class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p class="Emphasis_1">Room Sign</p>
+                        <p class="RNArea">Room Sign</p>
                         <p class="p_25">&#160;</p>
                         <p class="p_25">&#160;</p>
                         <p class="p_25">&#160;</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p class="bold">Using Relative URL Paths to Deploy the Room Sign App Caused a 404 Not Found Error</p>
-                        <p class="NormalWeb_2">When deploying the Room Sign App on the cloud using relative URL paths, users were receiving a 404 Not Found error.</p>
-                        <p class="NormalWeb_3">Fix:&#160;Modified functionality so that users can deploy&#160;the Room Sign App on the cloud using relative URL paths as long as the site uses 100% relative URL paths. It is also recommended that users avoid using paths beginning&#160;with&#160;../</p>
-                        <p class="p_25">Internal Reference #&#160;33149</p>
+                        <p class="RNTitle">Using Relative URL Paths to Deploy the Room Sign App Caused a 404 Not Found Error</p>
+                        <p class="RNBody">When deploying the Room Sign App on the cloud using relative URL paths, users were receiving a 404 Not Found error.</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that users can deploy&#160;the Room Sign App on the cloud using relative URL paths as long as the site uses 100% relative URL paths. It is also recommended that users avoid using paths beginning&#160;with&#160;../</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=33149" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">33149</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
-                        <p class="bold">EMS Room Sign App Error Encryption Failure</p>
-                        <p class="NormalWeb_3">When using the Glance API with the EMS Room Sign App, the app&#160;was not&#160;functioning and users were receiving the error&#160;"Invalid Glance API URL"&#160;even though the API URL was valid.&#160;This problem stemmed from TLS 1.0 not being enabled on the server. Setting the new web.config file corrected this problem.</p>
-                        <p class="NormalWeb_3">Fix:&#160;Modified functionality by enabling&#160;TLS 1.0 and setting the new web.config file.</p>
-                        <p class="p_25">Internal Reference #&#160;33332</p>
+                        <p class="RNTitle">EMS Room Sign App Error Encryption Failure</p>
+                        <p class="RNBody">When using the Glance API with the EMS Room Sign App, the app&#160;was not&#160;functioning and users were receiving the error&#160;"Invalid Glance API URL"&#160;even though the API URL was valid.&#160;This problem stemmed from TLS 1.0 not being enabled on the server. Setting the new web.config file corrected this problem.</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality by enabling&#160;TLS 1.0 and setting the new web.config file.</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=33332" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">33332</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
             </tbody>

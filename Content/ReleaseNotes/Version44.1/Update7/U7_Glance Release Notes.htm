@@ -1,8 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xml:lang="en-us" MadCap:lastBlockDepth="6" MadCap:lastHeight="3197" MadCap:lastWidth="937" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+<html xml:lang="en-us" MadCap:lastBlockDepth="7" MadCap:lastHeight="3011" MadCap:lastWidth="929" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
-        <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" />
-        <link href="../../../1DesktopClient/V44.1/Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+        <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
         <link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
@@ -32,10 +31,14 @@
                 </td>
             </tr>
         </table>
-        <p class="note-box">Important:&#160;There is a&#160;<a href="https://discussions.apple.com/thread/3802691?tstart=0" title="https://discussions.apple.com/thread/3802691?tstart=0" alt="https://discussions.apple.com/thread/3802691?tstart=0">known iOS issue</a>&#160;where homelinks on iPads (i.e., a full screen Safari browser page that is saved as an app) do not always clear&#160;their cache even if you do so manually. This issue may cause some of your devices to have errors.&#160;If you experience this issue, you should upgrade Glance (see&#160;Update 8).</p>
-        <p class="note-box">Note:&#160;Glance can run across all EMS versions. You can therefore just update the Glance application without upgrading all of EMS.</p>
+        <div class="note-box important">
+            <p><span class="bold">Important:</span>&#160;There is a&#160;<a href="https://discussions.apple.com/thread/3802691?tstart=0" title="https://discussions.apple.com/thread/3802691?tstart=0" alt="https://discussions.apple.com/thread/3802691?tstart=0">known iOS issue</a>&#160;where homelinks on iPads (i.e., a full screen Safari browser page that is saved as an app) do not always clear&#160;their cache even if you do so manually. This issue may cause some of your devices to have errors.&#160;If you experience this issue, you should upgrade Glance (see&#160;Update 8).</p>
+        </div>
+        <div class="note-box note">
+            <p><span class="bold">Note:</span>&#160;Glance can run across all EMS versions. You can therefore just update the Glance application without upgrading all of EMS.</p>
+        </div>
         <h2 class="Heading2_1">Fixes&#160;&#160;</h2>
-        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../1DesktopClient/V44.1/Resources/TableStyles/PatternedRows.css');" cellspacing="0">
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');margin-left: auto;margin-right: auto;width: 100%;" cellspacing="0">
             <col class="TableStyle-PatternedRows-Column-Regular" />
             <col class="TableStyle-PatternedRows-Column-Regular" />
             <thead>
@@ -51,50 +54,57 @@
             <tbody>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p class="Emphasis_1">ArmorActive&#160;Enclosure</p>
+                        <p class="RNArea">ArmorActive&#160;Enclosure</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <h4>LED Colors Stayed Orange for Checked-In And&#160;Canceled Meetings on ArmorActive Enclosure&#160;</h4>
-                        <p class="p_25">When users checked into a meeting that was then canceled, the LEDs on the enclosure stayed orange.</p>
-                        <p class="p_32">Fix:&#160;Modified commands to the ArmorActive&#160;display so that when a meeting is canceled (regardless of check-in), LEDs turn red.&#160;</p>
-                        <p class="p_32">Internal Reference # 24347</p>
+                        <p class="RNTitle">LED Colors Stayed Orange for Checked-In And&#160;Canceled Meetings on ArmorActive Enclosure&#160;</p>
+                        <p class="RNBody">When users checked into a meeting that was then canceled, the LEDs on the enclosure stayed orange.</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified commands to the ArmorActive&#160;display so that when a meeting is canceled (regardless of check-in), LEDs turn red.&#160;</p>
+                        <p class="RNRef">Internal Reference # 24347<br />(For EMS&#160;Internal Use &#160;Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p class="Emphasis_1">Edit Reservation</p>
+                        <p class="RNArea">Edit Reservation</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <h4>Cross-listed Combo Rooms Showed As Private</h4>
-                        <p class="p_25">When private academic courses were in combo rooms and cross-listed with other courses, they showed as "Private Meeting" when the event names should have shown in the list.</p>
-                        <p class="p_32">Fix:&#160;Modified functionality so that the event names now show in the list of courses and the events no longer behave as if they are private.</p>
-                        <p class="p_32">Note:&#160;Patch (above) required. &#160;</p>
-                        <p class="p_32">Internal Reference # 23867</p>
+                        <p class="RNTitle">Cross-listed Combo Rooms Showed As Private</p>
+                        <p class="RNBody">When private academic courses were in combo rooms and cross-listed with other courses, they showed as "Private Meeting" when the event names should have shown in the list.</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that the event names now show in the list of courses and the events no longer behave as if they are private.</p>
+                        <div class="note-box note">
+                            <p class="p_32"><span class="bold">Note:</span>&#160;Patch (above) required. &#160;</p>
+                        </div>
+                        <p class="RNRef">Internal Reference # <a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=23867" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNREFHyper">23867</a><br />(For EMS&#160;Internal Use &#160;Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p class="Emphasis_1">New Reservation</p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" rowspan="2">
+                        <p class="RNArea">New Reservation</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <h4>Automatic No-Show Incorrectly Triggered for Some Bookings</h4>
-                        <p class="NormalWeb_2">When users booked events in Glance that had no-show notifications turned on, due to a lag in saving to the database and updating Glance, some events triggered an automatic no-show status.</p>
-                        <p class="p_32">Fix:&#160;Modified the API so that these events update the database more efficiently and the events no longer trigger an inappropriate no-show status.</p>
-                        <h4>"Allow Future Same Day Bookings" Parameter Not Observed</h4>
-                        <p class="p_32">When this parameter was set to&#160;No, users were still able to book future same-day bookings by double-clicking on the&#160;desired time slots on the calendar grid.</p>
-                        <p class="p_32">Fix:&#160;&#160;Modified the display so that this parameter is enforced when it is set to No,&#160;clicking on the grid does not allow users to book future events.</p>
-                        <p class="p_25">Internal Reference #s 23640, <a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/24505" class="Hyperlink_2">24505</a></p>
+                        <p class="RNTitle">Automatic No-Show Incorrectly Triggered for Some Bookings</p>
+                        <p class="RNBody">When users booked events in Glance that had no-show notifications turned on, due to a lag in saving to the database and updating Glance, some events triggered an automatic no-show status.</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified the API so that these events update the database more efficiently and the events no longer trigger an inappropriate no-show status.</p>
+                        <p class="RNRef">Internal Reference # <a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=23640" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="rnrefhyper">23640</a><br />(For EMS&#160;Internal Use &#160;Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
-                        <p class="Emphasis_1">Security</p>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="RNTitle">"Allow Future Same Day Bookings" Parameter Not Observed</p>
+                        <p class="RNBody">When this parameter was set to&#160;No, users were still able to book future same-day bookings by double-clicking on the&#160;desired time slots on the calendar grid.</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;&#160;Modified the display so that this parameter is enforced when it is set to No,&#160;clicking on the grid does not allow users to book future events.</p>
+                        <p class="RNRef">Internal Reference # <a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=24505" class="rnrefhyper" title="For EMS Internal Use Only" alt="For EMS Internal Use Only">24505</a><br />(For EMS&#160;Internal Use &#160;Only)</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
-                        <h4>Web Traffic Security Vulnerabilities</h4>
-                        <p class="p_25">The web application sent non-secure user and session information (cookies) during encrypted (SSL) sessions, exposing vulnerable information.</p>
-                        <p class="p_32">Fix:&#160;Added ANtiForgery validation to all Ajax HttpPost calls and added verb tampering redirection to prevent non-HTTP&#160;or Get calls being made to Glance so web traffic no longer exposes user and session information.</p>
-                        <p class="p_32">Internal Reference # 23980</p>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                        <p class="RNArea">Security</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
+                        <p class="RNTitle">Web Traffic Security Vulnerabilities</p>
+                        <p class="RNBody">The web application sent non-secure user and session information (cookies) during encrypted (SSL) sessions, exposing vulnerable information.</p>
+                        <p class="RNBody"><span class="bold">Fix:&#160;</span>Added ANtiForgery validation to all Ajax HttpPost calls and added verb tampering redirection to prevent non-HTTP&#160;or Get calls being made to Glance so web traffic no longer exposes user and session information.</p>
+                        <p class="RNRef">Internal Reference # <a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=23980" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="rnrefhyper">23980</a><br />(For EMS&#160;Internal Use &#160;Only)</p>
                     </td>
                 </tr>
             </tbody>
