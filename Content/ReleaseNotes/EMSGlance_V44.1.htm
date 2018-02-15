@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="10" MadCap:lastHeight="4218" MadCap:lastWidth="890">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="10" MadCap:lastHeight="7839" MadCap:lastWidth="890">
     <head>
         <link href="../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title>EMS&#160;Room Sign App Release Notes (Version 44.1)</title>
         <link href="../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
@@ -56,7 +56,7 @@
                         <p style="text-align: center;">2017.05.09.1</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p style="text-align: center;">&#160;</p>
+                        <p style="text-align: center;">Build #: 17.5.10.13<br />Glance API #: 1.0.1.020</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
@@ -67,7 +67,94 @@
                 </tr>
             </tbody>
         </table>
-        <h4>Fixes</h4>
+        <div class="note-box important">
+            <p><span class="bold">Important:</span>&#160;There is a&#160;known iOS issue&#160;where homelinks on iPads (i.e. a full screen Safari browser page that is saved as an app) do not always clear&#160;their cache even if you do so manually. This issue may cause some of your devices to have errors.&#160;If you see an error, please close Glance on the iPad and re-open it using the homelink.</p>
+        </div>
+        <h4>Enhancements</h4>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../Resources/TableStyles/PatternedRows.css');margin-left: auto;margin-right: auto;width: 100%;" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p class="Strong_1">Area</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                        <p class="Strong_1">Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="RNArea">.NET Framework</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="RNTitle">Enable .NET Framework 4.6.1</p>
+                        <p class="RNBody">Modified functionality so that EMS Glance is compatible with .NET Framework 4.6.1</p>
+                        <p class="RNRef">Internal Reference # <a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=29415" title="For EMS Internal Reference Only" alt="For EMS Internal Reference Only" class="RNRefHyper">29415</a><br />(For Internal Reference Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="RNArea">Event Information</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="RNTitle">Increase Display Options for Event Information</p>
+                        <p class="RNBody">Modified several settings (in EMS Desktop Client under Glance Settings)&#160;to offer more choices for event information that displays on Glance&#160;tablets, so users can now see Event Type and Booking Setup Type, depending on parameter settings. Renamed the parameter, "Display Event Name" to "Display Heading 1". Renamed the parameter, "Display Group Name" to "Display Heading 2". Renamed the parameter "Display Contact Name" to "Display Heading 3". Clicking on these parameters now shows a drop-down menu where users can choose from Event Name, Group Name, Contact Name, Event Type, Booking Setup Type, and (none). For Heading 1, the default is Event Name. For Heading 2, the default is Group Name</p>
+                        <p class="RNRef">Internal Reference # <a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=26003" title="For EMS Internal Reference Only" alt="For EMS Internal Reference Only" class="RNRefHyper">26003</a><br />(For Internal Reference Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="RNArea">Permissions</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="RNTitle">Enable Web Process Template&#160;Security</p>
+                        <p class="RNBody">Added a setting&#160;(in EMS Desktop Client under Glance Settings)&#160;to enable Glance to check User Process Templates when users request space. When set to Yes, this parameter, "Enable Everyday User Process Template Security,"&#160;requires the user to have access to the room from at least one of his everyday user templates, or the room must be in the unauthenticated user process template.&#160;</p>
+                        <p class="RNRef">Internal Reference # <a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=19549" title="For EMS Internal Reference Only" alt="For EMS Internal Reference Only" class="RNRefHyper">19549</a><br />(For Internal Reference Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
+                        <p class="RNArea">New Reservation</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
+                        <p class="RNTitle">Hide End Times That Could Cause Conflicts</p>
+                        <p class="RNBody">Enhanced new reservation screens so that meeting end times no longer display as available when they can cause a booking conflict.&#160;</p>
+                        <p class="RNRef">Internal Reference # <a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=25997" title="For EMS Internal Reference Only" alt="For EMS Internal Reference Only" class="RNRefHyper">25997</a><br />(For Internal Reference Only)</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h4>Fix</h4>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../Resources/TableStyles/PatternedRows.css');margin-left: auto;margin-right: auto;width: 100%;" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p class="Strong_1">Area</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                        <p class="Strong_1">Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                        <p class="RNArea">Check In</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
+                        <p class="RNTitle">Check-In Button Displayed&#160;Based On Reservation Time, Not Event Time</p>
+                        <p class="RNBody">The meeting Check-In button became available based on the meeting reservation time when it should have displayed based on the event time.</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that the Check In button activates based on the set number of minutes before booking start time.&#160;</p>
+                        <p class="RNRef">Internal Reference # <a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=28126" title="For EMS Internal Reference Only" alt="For EMS Internal Reference Only" class="RNRefHyper">28126</a><br />(For Internal Reference Only)</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
         <h2><a name="Update9"></a><span style="font-size: 24pt;">V44.1, </span><a href="../V44.1_ReleaseNotes.htm#Update9" style="font-size: 24pt;">Update 9</a><span style="font-size: 24pt;">*</span>
         </h2>
         <table style="mc-table-style: url('../Resources/TableStyles/PatternedRows.css');width: 718px;" class="TableStyle-PatternedRows" cellspacing="0">
@@ -99,7 +186,7 @@
                         <p style="text-align: center;">2017.02.27.0</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p style="text-align: center;">&#160;</p>
+                        <p style="text-align: center;">17.2.12.1</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
@@ -112,7 +199,43 @@
                 </tr>
             </tbody>
         </table>
-        <h4>Fixes</h4>
+        <h4>Enhancements</h4>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../Resources/TableStyles/PatternedRows.css');margin-left: auto;margin-right: auto;width: 100%;" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p class="p_11">Area</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                        <p class="p_11">Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="RNArea">Log In</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="RNTitle">Enhance Authentication Validations&#160;&#160;</p>
+                        <p class="RNBody">Enhanced authentication validations so that only the group or user that owns the meeting can edit or cancel it. If a user logs in with a different group and attempt to edit or end the meeting, they will now see the message, "'No Matching clients found." Additionally, modified the Log In fields so that if the user enters an invalid group or username, the Password field is cleared when the message above presents&#160;so they can try again without needing a keyboard.</p>
+                        <p class="RNRef">Internal Reference # <a href="http://tfs02.dea.com:8080/tfs/EMS Suite/Ems/_workitems/edit/26353" class="RNRefHyper" title="For EMS Internal Reference Only" alt="For EMS Internal Reference Only">26353</a>,&#160;<a href="http://tfs02.dea.com:8080/tfs/EMS Suite/Ems/_workitems/edit/26024" class="RNRefHyper" title="For EMS Internal Reference Only" alt="For EMS Internal Reference Only">26024</a><br />(For EMS Internal Reference Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
+                        <p class="RNArea">.Net Framework</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
+                        <p class="RNTitle">Update to .Net Framework 4.6.2</p>
+                        <p class="RNBody">Updated the target framework to .Net Framework 4.6.2.&#160;</p>
+                        <p class="RNRef">Internal Reference # <a href="http://tfs02.dea.com:8080/tfs/EMS Suite/Ems/_workitems/edit/17333" class="RNRefHyper" title="For EMS Internal Reference Only" alt="For EMS Internal Reference Only">17333</a>&#160;<br />(For EMS&#160;Internal Reference Only)</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
         <h2><a name="Update8"></a>V44.1, <a href="../V44.1_ReleaseNotes.htm#Update8">Update 8</a>*</h2>
         <table style="mc-table-style: url('../Resources/TableStyles/PatternedRows.css');width: 718px;" class="TableStyle-PatternedRows" cellspacing="0">
             <col class="TableStyle-PatternedRows-Column-Regular" style="width: 200px;" />
@@ -143,7 +266,7 @@
                         <p style="text-align: center;">2016.12.12.0</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p>&#160;</p>
+                        <p style="text-align: center;">Build #: 12017.1.13.1<br />Glance API #: 1.0.1.015</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
@@ -153,8 +276,64 @@
                 </tr>
             </tbody>
         </table>
+        <div class="note-box important">
+            <p><span class="bold">Important:</span>&#160;There is a&#160;<a href="https://discussions.apple.com/thread/3802691?tstart=0" title="https://discussions.apple.com/thread/3802691?tstart=0">known iOS issue</a>&#160;where homelinks on iPads (i.e. a full screen Safari browser page that is saved as an app) do not always clear&#160;their cache even if you do so manually. This issue may cause some of your devices to have errors.&#160;If you see an error, please close Glance on the iPad and re-open it using the homelink.</p>
+        </div>
         <h4>Enhancement</h4>
-        <h4>Fixes</h4>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../Resources/TableStyles/PatternedRows.css');margin-left: auto;margin-right: auto;width: 100%;" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 135px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p class="p_11">Area</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                        <p class="p_11">Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                        <p class="RNArea">Log In</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
+                        <p class="RNTitle">Support Windows Authentication</p>
+                        <p class="RNBody">Modified the EMS Glance API to use Windows Authentication instead of EMSUser account.</p>
+                        <p class="RNRef">Internal Reference # <a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workitems/edit/25645" class="rnrefhyper" title="For EMS Internal Reference Only" alt="For EMS Internal Reference Only">25645</a><br />(For EMS&#160;Internal Reference Only)</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h4>Fix</h4>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../Resources/TableStyles/PatternedRows.css');margin-left: auto;margin-right: auto;width: 100%;" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 138px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p class="p_11">Area</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                        <p class="p_11">Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                        <p class="RNArea">iPad</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
+                        <p class="RNTitle">Upgrading Glance Caused Error For Home Links on iPad</p>
+                        <p class="RNBody">When users upgraded from older versions of EMS Glance on iPads, and they had set the application as a favorite on their Home screen, the link caused an error.</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that users' Home links to Glance continue to function.&#160;</p>
+                        <p class="RNRef">Internal Reference # <a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workitems/edit/26224" class="RNrefHyper" title="For EMS Internal Reference Only" alt="For EMS Internal Reference Only">26224</a><br />(For EMS&#160;Internal Reference Only)</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
         <h2><a name="Update7"></a>V44.1, <a href="../V44.1_ReleaseNotes.htm#Update7">Update 7</a>*</h2>
         <table style="mc-table-style: url('../Resources/TableStyles/PatternedRows.css');width: 718px;" class="TableStyle-PatternedRows" cellspacing="0">
             <col class="TableStyle-PatternedRows-Column-Regular" style="width: 200px;" />
