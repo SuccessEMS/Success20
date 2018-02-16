@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="8" MadCap:lastHeight="20014" MadCap:lastWidth="733">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="8" MadCap:lastHeight="19104" MadCap:lastWidth="916">
     <head>
         <link href="../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
         <link href="../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
@@ -884,7 +884,7 @@
                         <p style="text-align: center;">44.1.18000.201710252</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p>&#160;</p>
+                        <p style="text-align: center;">44.1.18001.200</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
@@ -895,7 +895,67 @@
             </tbody>
         </table>
         <h4>Enhancements</h4>
-        <p>&#160;</p>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../Resources/TableStyles/PatternedRows.css');margin-left: auto;margin-right: auto;width: 100%;" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p class="Strong_1">Area</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                        <p class="Strong_1">Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td rowspan="5" class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="RNArea">Room Search</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="RNTitle">Availability Result Sort</p>
+                        <p class="RNBody">Availability results now return a&#160;list of rooms&#160;ordered by availability,&#160;room name, type, floors, and capacity. Rooms that are not available will not appear on&#160;first page results.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="RNTitle">Availability Result Sorted by "Days Available" in Descending Order</p>
+                        <p class="RNBody">"Available" rooms will be sorted first&#160;followed by "unavailable" rooms. When creating a recurring meeting, users will see&#160;unavailable rooms in an order where the room available for most days is displayed on the top of the unavailable results.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="RNTitle">Availability Result Sorted by "Days Available" in Descending Order</p>
+                        <p class="RNBody">Customers can search rooms by actual room types and multiple room types&#160;and not by classification type.&#160;</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="RNTitle">POST/rooms/action/search to Return Capacity for Default Setup Type</p>
+                        <p class="RNBody">Administrators can&#160;compare the attendance for VC bookings with the room's capacity. This will allow admins to&#160;move the meeting to another space that matches the meeting host's requirement. This feature will optimize space utilization.&#160;</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=32861" title="EMS Internal Use Only" class="rnrefhyper" alt="EMS Internal Use Only">32861</a></p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="RNTitle">Duplicated Results Removed if a Room Was&#160;Available on More Than One Template</p>
+                        <p class="RNBody">Room availability search now allows for removing duplicated results if a room is available on more than one template. This more defined filtering feature&#160;enhances the&#160;efficiency on the result set size returned.</p>
+                        <p class="RNRef">&#160;Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=33308" title="EMS Internal Use Only" alt="EMS Internal Use Only" class="rnrefhyper">33308</a></p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
+                        <p class="Emphasis_1">Parameters</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
+                        <p class="RNTitle">VIP Flag Has Been Added to Reservation Summary Model</p>
+                        <p class="RNBody">/bookings/actions/search&#160;now returns 'vip' field as part of reservation.&#160;</p>
+                        <p class="RNRef">&#160;Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=33500" title="EMS Internal Use Only" alt="EMS Internal Use Only" class="rnrefhyper">33500</a></p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
         <h2><a name="Update16"></a><span><span style="font-size: 24pt;">V44.1, </span></span><a href="../V44.1_ReleaseNotes.htm#Update16.0" style="font-size: 24pt;">Update 16</a><span><span style="font-size: 24pt;">*</span></span>
         </h2>
         <table style="mc-table-style: url('../Resources/TableStyles/PatternedRows.css');width: 718px;" class="TableStyle-PatternedRows" cellspacing="0">
