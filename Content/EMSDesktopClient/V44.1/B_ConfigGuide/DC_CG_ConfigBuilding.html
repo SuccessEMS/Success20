@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html MadCap:lastBlockDepth="7" MadCap:lastHeight="8994" MadCap:lastWidth="978" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\EMSDesktopClient.flmsp');">
+<html MadCap:lastBlockDepth="7" MadCap:lastHeight="9750" MadCap:lastWidth="978" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\EMSDesktopClient.flmsp');">
     <head>
         <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title mt-export-translate="no">Configuring Buildings</title>
         <meta name="mt-type" value="application/x.deki-text" />
@@ -198,22 +198,23 @@
             <li>From the Building Configuration dialog, click&#160;the <span class="bold">Images </span>tab.</li>
         </ol>
         <p class="AnchorFigure">
-            <img border="0" class="internal" src="Images/DC_CG_ConfigBuild4.png" />
+            <img src="Images/DocUpdate/Configuration-BuildingsImages.PNG" />
         </p>
         <ol MadCap:continue="true">
-            <li>To have an image of the building display&#160;to Everyday User is viewing building details, click <strong>New </strong>to open the Find Image dialog box, and then browse to and select the image.&#160;The Find Image dialog box closes. You remain on the Images tab with an entry for the image displayed on the tab.</li>
-            <li>You can add enter a longer description of the building&#160;in the <strong>Web Long Description</strong> field. The value that you enter here defines the “long desc” attribute for web content accessibility.</li>
+            <li>To have an image of the building display&#160;to Everyday Users when viewing building details, click <strong>New </strong>to open the Find Image dialog box, and then browse to and select the image.&#160;The Find Image dialog box closes. You remain on the Images tab with an entry for the image displayed on the tab.</li>
+            <li>You can enter a longer description of the building&#160;in the <strong>Web App Long Description</strong> field. The value that you enter here defines the “long desc” attribute.</li>
             <li>Continue with any other configuration for the building as needed; otherwise, click <strong>OK </strong>to close the Building dialog box and return to the Buildings window.&#160;</li>
         </ol>
         <h2><a name="SetValues"></a>Set Values&#160;for the User Defined Fields (UDFs)</h2>
+        <p>The UDF fields are used to flag details associated with a building for reporting purposes. These fields are typically used when integrating with other systems. </p>
         <ol>
-            <li>From the Building configuration dialog, click&#160;the UDFs tab.</li>
+            <li>From the Building configuration dialog, click&#160;the <span class="bold">UDFs </span>tab.</li>
         </ol>
         <p class="FigureCaptionColumn">
             <img border="0" class="internal" src="Images/DC_CG_ConfigBuild5.png" />
         </p>
         <ol MadCap:continue="true">
-            <li>For each UDF that has been defined for the building, select the UDF, and then click the <strong>Set Value</strong> button to open a dialog box in which you can set the value for the UDF.</li>
+            <li>For each UDF that has been defined for the building, select the UDF, and then click the <strong>Set Value</strong> button to open the Building Manager dialog box in which you can set the value for the UDF.<br /><br /></li>
             <li>Continue with any other configuration for the building as needed; otherwise, click <strong>OK </strong>to close the Building dialog box and return to the Buildings window.</li>
         </ol>
         <h2><a name="Specify"></a>Specify Unregistered Attendee/Visitor Behavior</h2>
@@ -228,6 +229,8 @@
             <li>Enter the information for the new unregistered visitor/attendee.</li>
         </ol>
         <table border="0" cellspacing="0" class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');">
+            <col style="width: 224px;" />
+            <col />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th scope="col" class="TableStyle-PatternedRows-HeadE-Regular-Header1">
@@ -237,7 +240,7 @@
                     </th>
                     <th scope="col" class="TableStyle-PatternedRows-HeadD-Regular-Header1">
                         <dl>
-                            <dt class="TableColumnHeader">Description</dt>
+                            <dt class="TableColumnHeader">DESCRIPTION</dt>
                         </dl>
                     </th>
                 </tr>
@@ -245,9 +248,7 @@
             <tbody>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <dl>
-                            <dt class="TableBody">Category</dt>
-                        </dl>
+                        <p>Category</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
                         <p class="TableBody">Select an Attendee type category. See <MadCap:xref href="DC_CG_ConfigCategory.html">Configure Categories</MadCap:xref>.</p>
@@ -255,9 +256,7 @@
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <dl>
-                            <dt class="TableBody">Room</dt>
-                        </dl>
+                        <p>Room</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
                         <p class="TableBody">The Override room that is booked for the unregistered visitor’s/attendee’s reservation.</p>
@@ -266,9 +265,7 @@
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <dl>
-                            <dt class="TableBody">Status</dt>
-                        </dl>
+                        <p>Status</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
                         <p class="TableBody">The status that is used for an unregistered visitor’s/attendee’s reservation. See <a title="Configuring Statuses"><MadCap:xref href="DC_CG_ConfigStatuses.htm">Configure Statuses</MadCap:xref>.</a></p>
@@ -276,9 +273,8 @@
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <dl>
-                            <dt class="TableBody">Event Type</dt>
-                        </dl>
+                        <p>Event Type</p>
+                        <p>&#160;</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
                         <p class="TableBody">The event type that is used for the unregistered visitor’s/attendee’s reservation.</p>
@@ -298,9 +294,8 @@
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
-                        <dl>
-                            <dt class="TableBody">End Time</dt>
-                        </dl>
+                        <p>End Time</p>
+                        <p>&#160;</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
                         <p class="TableBody">The booking for the unregistered visitor/attendee is created from the current time until the end time that you specify.</p>
