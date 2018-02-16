@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xml:lang="en-us" MadCap:lastBlockDepth="7" MadCap:lastHeight="1642" MadCap:lastWidth="752" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+<html xml:lang="en-us" MadCap:lastBlockDepth="7" MadCap:lastHeight="1225" MadCap:lastWidth="929" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
         <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
         <link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
@@ -8,22 +8,24 @@
         <h1 class="Heading1">EMS Platform Services<br />Release Notes <br />V44.1, Update 19.2</h1>
         <p class="p_1">This section describes updates to&#160;your EMS software.&#160;&#160;</p>
         <p>See Also:&#160;<a href="#Contact">Contact Customer Support</a>&#160;and&#160;<MadCap:xref href="../../../Update_to_LatestVersion_EMS.htm"><a href="../../../Update_to_LatestVersion_EMS.htm">Updating to the Latest Version of EMS (Patches and Builds)</a></MadCap:xref>. </p>
-        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');margin-left: 0;margin-right: auto;width: 100%;" cellspacing="0">
             <col class="TableStyle-PatternedRows-Column-Regular" />
             <col class="TableStyle-PatternedRows-Column-Regular" style="width: 278px;" />
             <col class="TableStyle-PatternedRows-Column-Regular" style="width: 320px;" />
             <tr class="TableStyle-PatternedRows-Body-LightRows">
                 <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                    <p class="p_3">Name:&#160;V44.1 Update 19.2</p>
+                    <p class="p_3">Name:&#160;<br />V44.1 Update 19.2</p>
                 </td>
                 <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                    <p class="p_3">Release&#160;Date:&#160;January 26, 2018</p>
+                    <p class="p_3">Release&#160;Date:&#160;<br />January 26, 2018</p>
                 </td>
-                <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">Patch:&#160;44.1.190002.201801260</td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                    <p>Patch:&#160;<br />44.1.190002.201801260</p>
+                </td>
             </tr>
         </table>
         <h2>Fix</h2>
-        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');margin-left: 0;margin-right: auto;width: 100%;" cellspacing="0">
             <col class="TableStyle-PatternedRows-Column-Regular" />
             <col class="TableStyle-PatternedRows-Column-Regular" />
             <thead>
@@ -39,15 +41,13 @@
             <tbody>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
-                        <p class="italics">Availability Search</p>
+                        <p class="RNArea">Availability Search</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
-                        <p class="bold">No Rooms Returned in Availability Search Despite a Value &gt; 1  on Max No. Bookings Per Day</p>
-                        <div class="indent">
-                            <p>When any value was set to &gt; 1, the service/proc was treating the value as 1 for the Max No. Bookings Per Day booking rule.  The availability search returned no available rooms if one booking for that template existed on that day.</p>
-                            <p>Fix:&#160;Modified functionality so that when the Max No. Bookings Per Day is set to a value &gt; 0, the availability search correctly applies that value.</p>
-                            <p class="p_10">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=35999">35999</a></p>
-                        </div>
+                        <p class="RNTitle">No Rooms Returned in Availability Search Despite a Value &gt; 1  on Max No. Bookings Per Day</p>
+                        <p class="RNBody">When any value was set to &gt; 1, the service/proc was treating the value as 1 for the Max No. Bookings Per Day booking rule.  The availability search returned no available rooms if one booking for that template existed on that day.</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that when the Max No. Bookings Per Day is set to a value &gt; 0, the availability search correctly applies that value.</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=35999" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="rnrefhyper">35999</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
             </tbody>
