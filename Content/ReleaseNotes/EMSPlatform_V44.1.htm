@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="8" MadCap:lastHeight="9270" MadCap:lastWidth="916">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="8" MadCap:lastHeight="10491" MadCap:lastWidth="916">
     <head>
         <link href="../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
         <link href="../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
@@ -10,7 +10,10 @@
         <ul class="unorder-list">
             <li><a href="#Update21">V44.1, Update 21</a>
             </li>
-            <li>V44.1, Update 20.5</li>
+            <li><a href="#Update20.5">V44.1, Update 20.5</a>
+            </li>
+            <li>V44.1, Update 20.4</li>
+            <li>V44.1, Update 20.3</li>
             <li><a href="#Update20">V44.1, Update 20</a>
             </li>
             <li><a href="#Update19">V44.1, Update 19</a>
@@ -138,7 +141,7 @@
                 </tr>
             </tbody>
         </table>
-        <h2 style="font-size: 24pt;"><a name="Update20.5"></a><span style="font-size: 26pt;"><span style="font-size: 24pt;">V44.1, </span></span><a href="../V44.1_ReleaseNotes.htm#Update21" style="font-size: 24pt;">Update 20.5</a><span style="font-size: 26pt;"><span style="font-size: 24pt;">*</span></span> </h2>
+        <h2 style="font-size: 24pt;"><a name="Update20.5"></a><span style="font-size: 26pt;"><span style="font-size: 24pt;">V44.1, </span></span><a href="../V44.1_ReleaseNotes.htm#Update20.5" style="font-size: 24pt;">Update 20.5</a><span style="font-size: 26pt;"><span style="font-size: 24pt;">*</span></span> <![CDATA[ ]]></h2>
         <table style="mc-table-style: url('../Resources/TableStyles/PatternedRows.css');width: 718px;" class="TableStyle-PatternedRows" cellspacing="0">
             <col class="TableStyle-PatternedRows-Column-Regular" style="width: 191px;" />
             <col class="TableStyle-PatternedRows-Column-Regular" style="width: 302px;" />
@@ -177,7 +180,115 @@
             </tbody>
         </table>
         <h4> Fix</h4>
-        <p>&#160;</p>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../Resources/TableStyles/PatternedRows.css');margin-left: auto;margin-right: auto;width: 100%;" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p class="p_6">Area</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                        <p class="p_6">Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                        <p class="RNArea">Availability Search</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
+                        <p class="RNTitle">No Rooms Returned in Availability Search Returned Despite a Value &gt; 1  on Max No. Bookings Per Day</p>
+                        <div class="indent">
+                            <p class="RNBody">When any value was set to &gt; 1, the service/proc was treating the value as 1 for the Max No. Bookings Per Day booking rule.  The availability search returned no available rooms if one booking for that template existed on that day.</p>
+                            <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that when the Max No. Bookings Per Day is set to a value &gt; 0, the availability search correctly applies that value.</p>
+                            <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=35999" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNrefhyper">35999</a><br />(For EMS Internal Use Only)</p>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h2 style="font-size: 24pt;"><a name="Update20.4"></a><span style="font-size: 26pt;"><span style="font-size: 24pt;">V44.1, </span></span><a href="../V44.1_ReleaseNotes.htm#Update20.4" style="font-size: 24pt;">Update 20.4</a><span style="font-size: 26pt;"><span style="font-size: 24pt;">*</span></span>
+        </h2>
+        <table style="mc-table-style: url('../Resources/TableStyles/PatternedRows.css');width: 718px;" class="TableStyle-PatternedRows" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 191px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 302px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 240px;" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1" colspan="3">*Click the linked Update Number above for more information regarding <br />enhancements and fixes for all products released during this Update.</th>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1" style="text-align: center;">
+                        <p style="text-align: center;">Release Date</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1" style="text-align: center;">Patch number</th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1" style="text-align: center;">
+                        <p>&#160;</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: center;">
+                        <p>&#160;</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: center;">
+                        <p>&#160;</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: center;">
+                        <p>&#160;</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows" style="text-align: center;" colspan="3">
+                        <p colspan="3" style="text-align: center;"><span class="bold">See Also</span>:&#160;<a href="Version44.1/Update21/KnownIssues.htm">Known Issues for Update 21</a><br /><a href="../WhatsNewV44.1.htm">What's New for Version 44.1</a></p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h4> Fix</h4>
+        <h2 style="font-size: 24pt;"><a name="Update20.3"></a><span style="font-size: 26pt;"><span style="font-size: 24pt;">V44.1, </span></span><a href="../V44.1_ReleaseNotes.htm#Update20.3" style="font-size: 24pt;">Update 20.3</a><span style="font-size: 26pt;"><span style="font-size: 24pt;">*</span></span>
+        </h2>
+        <table style="mc-table-style: url('../Resources/TableStyles/PatternedRows.css');width: 718px;" class="TableStyle-PatternedRows" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 191px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 302px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 240px;" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1" colspan="3">*Click the linked Update Number above for more information regarding <br />enhancements and fixes for all products released during this Update.</th>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1" style="text-align: center;">
+                        <p style="text-align: center;">Release Date</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1" style="text-align: center;">Patch number</th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1" style="text-align: center;">
+                        <p>&#160;</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: center;">
+                        <p>&#160;</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: center;">
+                        <p>&#160;</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: center;">
+                        <p>&#160;</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows" style="text-align: center;" colspan="3">
+                        <p colspan="3" style="text-align: center;"><span class="bold">See Also</span>:&#160;<a href="Version44.1/Update21/KnownIssues.htm">Known Issues for Update 21</a><br /><a href="../WhatsNewV44.1.htm">What's New for Version 44.1</a></p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h4> Fix</h4>
         <h2><a name="Update20"></a><span style="font-size: 26pt;"><span style="font-size: 24pt;">V44.1, </span></span><a href="../V44.1_ReleaseNotes.htm#Update20" style="font-size: 24pt;">Update 20</a><span style="font-size: 26pt;"><span style="font-size: 24pt;">*</span></span>
         </h2>
         <table style="mc-table-style: url('../Resources/TableStyles/PatternedRows.css');width: 718px;" class="TableStyle-PatternedRows" cellspacing="0">
