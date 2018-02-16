@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html MadCap:lastBlockDepth="7" MadCap:lastHeight="9426" MadCap:lastWidth="761" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\EMSDesktopClient.flmsp');">
+<html MadCap:lastBlockDepth="7" MadCap:lastHeight="8994" MadCap:lastWidth="978" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\EMSDesktopClient.flmsp');">
     <head>
         <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title mt-export-translate="no">Configuring Buildings</title>
         <meta name="mt-type" value="application/x.deki-text" />
@@ -7,7 +7,7 @@
     </head>
     <body>
         <h1 class="mt-export-title">Configuring Buildings</h1>
-        <p class="Body">A <em class="bold">building</em> is a physical location that contains one or more spaces (rooms, open areas, and so on) that your users can reserve for an event. Buildings are one of the core data items that you must configure&#160;so that your users can make reservations in <MadCap:variable name="General.Product" />.</p>
+        <p class="Body">A <em class="bold" style="font-style: normal;">building</em> is a physical location that contains one or more spaces (e.g., rooms, open areas, etc.), that users can reserve for an event. Buildings are one of the core data items that you must configure&#160;so that your users can make reservations in <MadCap:variable name="General.Product" />.</p>
         <p class="Body">This topic will provide the following information:</p>
         <ul>
             <li>
@@ -28,7 +28,7 @@
         </ul>
         <h2><a name="ConfigureBuilding"></a>Configure a Building</h2>
         <ol>
-            <li>On the <MadCap:variable name="General.EMS&#160;Desktop Client" /> menu bar, click Configuration &gt; Facilities &gt; <strong>Buildings</strong>.&#160;The Buildings window opens. This window lists all the buildings that are currently configured in your <MadCap:variable name="General.Product" /> database.</li>
+            <li>On the <MadCap:variable name="General.EMS&#160;Desktop Client" /> menu bar, click <span class="bold">Configuration </span>&gt; <span class="bold">Facilities </span>&gt; <strong>Buildings</strong>.&#160;The Buildings window opens. This window lists all the buildings that are currently configured in your <MadCap:variable name="General.Product" /> database.</li>
         </ol>
         <p class="FigureCaptionColumn">
             <img border="0" class="internal" src="Images/DC_CG_ConfigBuild1.png" />
@@ -44,8 +44,8 @@
         </ol>
         <p class="note-box"><strong>Tip:</strong>By default, when you configure a building, the building hours are set to Open All Day. To change these hours, see <MadCap:xref href="DC_CG_ConfigBuildingHours.html">Configuring Building Hours</MadCap:xref>. Only the building name, the building code, and the time zone are required fields. All other fields on all other tabs are optional and can be configured at a later date if needed.</p>
         <table border="0" cellspacing="0" class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');">
-            <col style="width: 174px;" />
-            <col style="width: 579px;" />
+            <col style="width: 174px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 579px;" class="TableStyle-PatternedRows-Column-Regular" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th scope="col" class="TableStyle-PatternedRows-HeadE-Regular-Header1">
@@ -146,13 +146,32 @@
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
                         <dl>
                             <p>Annual Operating Hours</p>
                         </dl>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
                         <p class="TableBody">Total number of hours that the building is open during a calendar year. Used on the Room Utilization report.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Latitude</p>
+                        <p>&#160;</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>This field relates to geofencing in the EMS&#160;Mobile App.</p>
+                        <p>&#160;</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
+                        <p>Longitude</p>
+                        <p>&#160;</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
+                        <p>This field relates to geofencing in the EMS&#160;Mobile <MadCap:annotation MadCap:createDate="2018-02-16T09:00:39.2791203-07:00" MadCap:creator="Jen.Naused" MadCap:initials="JE" MadCap:comment="Add to Mobile App documentation." MadCap:editor="Jen.Naused" MadCap:editDate="2018-02-16T09:00:45.5026641-07:00">App.</MadCap:annotation></p>
                     </td>
                 </tr>
             </tbody>
@@ -161,28 +180,28 @@
             <li>Continue with any other configuration for the building as needed in this topic; otherwise, click <strong>OK </strong>to close the Building dialog box and return to the Buildings window. The newly configured building is displayed in the window.</li>
         </ol>
         <h2><a name="RestrictBuilding"></a>Restrict a Building to Specific Categories</h2>
-        <p>You can restrict specific categories to specific buildings only in EMS&#160;Enterprise. All categories are available to all buildings in EMS&#160;Professional.</p>
+        <p>You can restrict specific categories to specific buildings. </p>
         <ol>
-            <li>From the Building Configuration page, click&#160;the Categories tab.</li>
+            <li>From the Building Configuration page, click&#160;the <span class="bold">Categories </span>tab.</li>
         </ol>
         <p class="FigureCaptionColumn">
             <img border="0" class="internal" src="Images/DC_CG_ConfigBuild3.png" />
         </p>
         <p class="note-box"><strong>Tip:</strong>The Available to All Buildings list in the lower right pane displays all the categories that are always available to all buildings and you cannot edit this list. You can also link buildings and categories when you are configuring categories. See <MadCap:xref href="DC_CG_ConfigCategory.html">Configure Categories</MadCap:xref>.</p>
         <ol MadCap:continue="true">
-            <li>Select the categories you want&#160;to be available for use in the building, and then use the arrow buttons to move the them to the Selected list.</li>
+            <li>Select the categories you want&#160;to be available for use in the building, and then use the arrow buttons to move them to the Selected list.</li>
             <li>Continue with any other configuration for the building as needed; otherwise, click <strong>OK </strong>to close the Building dialog box and return to the Buildings window. The newly configured building is displayed in the window.</li>
         </ol>
         <h2><a name="AssociateImage"></a>Associate&#160;an Image With a Building</h2>
-        <p class="Body">Images are displayed as thumbnails in both <MadCap:variable name="General.EMS&#160;Desktop Client" /> and <MadCap:variable name="General.EMS&#160;Web App" /> when a user views details about a building. You can associate an image with a building if the image is in one of the following formats: .gif, .jpeg, .jpg, .bmp, .wmf, or .png and ideally, it should not be larger than 615 x 350 pixels. If you attach an image larger than this, you might not be able to view the image without scrolling.</p>
+        <p class="Body">Images are displayed as thumbnails when an Everyday User views details about a building. You can associate an image with a building if the image is in one of the following formats: .gif, .jpeg, .jpg, .bmp, .wmf, or .png and ideally, it should not be larger than 615 x 350 pixels. If you attach an image larger than this, you might not be able to view the image without scrolling.</p>
         <ol>
-            <li>From the Building Configuration dialog, click&#160;the Images tab.</li>
+            <li>From the Building Configuration dialog, click&#160;the <span class="bold">Images </span>tab.</li>
         </ol>
         <p class="AnchorFigure">
             <img border="0" class="internal" src="Images/DC_CG_ConfigBuild4.png" />
         </p>
         <ol MadCap:continue="true">
-            <li>To have an image of the building display&#160;in EMS and the EMS&#160;Web App when a user is viewing building details, click <strong>New </strong>to open the Find Image dialog box, and then browse to and select the image.&#160;The Find Image dialog box closes. You remain on the Images tab with an entry for the image displayed on the tab.</li>
+            <li>To have an image of the building display&#160;to Everyday User is viewing building details, click <strong>New </strong>to open the Find Image dialog box, and then browse to and select the image.&#160;The Find Image dialog box closes. You remain on the Images tab with an entry for the image displayed on the tab.</li>
             <li>You can add enter a longer description of the building&#160;in the <strong>Web Long Description</strong> field. The value that you enter here defines the “long desc” attribute for web content accessibility.</li>
             <li>Continue with any other configuration for the building as needed; otherwise, click <strong>OK </strong>to close the Building dialog box and return to the Buildings window.&#160;</li>
         </ol>
