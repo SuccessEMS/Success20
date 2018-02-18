@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xml:lang="en-us" MadCap:lastBlockDepth="8" MadCap:lastHeight="9380" MadCap:lastWidth="916" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+<html xml:lang="en-us" MadCap:lastBlockDepth="8" MadCap:lastHeight="9334" MadCap:lastWidth="916" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
         <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
         <link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
@@ -50,7 +50,7 @@
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
                         <p class="RNTitle">VC Create – Validate VC Constraints on Event Creation</p>
-                        <p class="RNBody">Video Conferencing reservations are now validated for the following:</p>
+                        <p class="RNBodyBeforeList">Video Conferencing reservations are now validated for the following:</p>
                         <ul class="RN-unorder-list">
                             <li class="li_33">All booking records have the same GMT start per grouping.</li>
                             <li class="li_33">For each date, the bookings should all have the same GMT start.</li>
@@ -90,36 +90,36 @@
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
                         <p class="RNTitle">Get Attachments for&#160;Multiple Bookings</p>
-                        <p class="NormalWeb_2">Added a new API call that takes multiple booking IDs&#160;as inputs and returns attachments.</p>
-                        <p class="mt-font-courier-new_2">POST /bookings/actions/search/attachments</p>
-                        <p class="p_25">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=31202" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=31202" class="Hyperlink_2">31202</a></p>
+                        <p class="RNBody">Added a new API call that takes multiple booking IDs&#160;as inputs and returns attachments.</p>
+                        <p class="RNBody">POST /bookings/actions/search/attachments</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=31202" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=31202" class="Hyperlink_2">31202</a></p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p class="bold">Ability to Create and Edit a&#160;Reservation with the Conference Code and Conference URL&#160;(Skype Meetings)</p>
-                        <p class="NormalWeb_2">Added 'conferenceURL' and 'conferenceCode' attributes to these routes:</p>
-                        <ul class="ul_4">
-                            <li class="li_33">POST /reservations/actions/create</li>
-                            <li class="li_33">PATCH /reservations/{id}</li>
+                        <p class="RNTitle">Ability to Create and Edit a&#160;Reservation with the Conference Code and Conference URL&#160;(Skype Meetings)</p>
+                        <p class="RNBodyBeforeList">Added 'conferenceURL' and 'conferenceCode' attributes to these routes:</p>
+                        <ul class="RN-unorder-list">
+                            <li>POST /reservations/actions/create</li>
+                            <li>PATCH /reservations/{id}</li>
                         </ul>
-                        <p class="p_25">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=31610" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=31610" class="Hyperlink_2">31610</a></p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=31610" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=31610" class="Hyperlink_2">31610</a></p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p class="bold">Add Service Orders to Existing Booking</p>
-                        <p class="NormalWeb_3">Added a new API call that inserts&#160;records into tblServiceOrder and tblServiceOrderDetail.</p>
-                        <p class="mt-font-courier-new_2">POST /bookings/{id}/serviceorders</p>
-                        <p class="p_25">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=31649" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=31649" class="Hyperlink_2">31649</a></p>
+                        <p class="RNTitle">Add Service Orders to Existing Booking</p>
+                        <p class="RNBody">Added a new API call that inserts&#160;records into tblServiceOrder and tblServiceOrderDetail.</p>
+                        <p class="RNBody">POST /bookings/{id}/serviceorders</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=31649" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=31649" class="Hyperlink_2">31649</a></p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
                         <p class="bold">Edit Service Order</p>
-                        <p class="NormalWeb_2">Added a new API call that allows a parameter validation to allow edit of services and restrict SO times to an event time.</p>
-                        <p class="mt-font-courier-new_2">PATCH /serviceorders/{id}</p>
-                        <p class="p_25">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=31650" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=31650" class="Hyperlink_2">31650</a></p>
+                        <p class="RNBody">Added a new API call that allows a parameter validation to allow edit of services and restrict SO times to an event time.</p>
+                        <p class="RNBody">PATCH /serviceorders/{id}</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=31650" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=31650" class="Hyperlink_2">31650</a></p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
