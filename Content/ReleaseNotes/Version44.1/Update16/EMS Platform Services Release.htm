@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xml:lang="en-us" MadCap:lastBlockDepth="8" MadCap:lastHeight="9420" MadCap:lastWidth="916" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+<html xml:lang="en-us" MadCap:lastBlockDepth="8" MadCap:lastHeight="9380" MadCap:lastWidth="916" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
         <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
         <link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
@@ -46,54 +46,50 @@
             <tbody>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td rowspan="3" class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p class="Emphasis_1">Video Conference (VC)</p>
+                        <p class="RNArea">Video Conference (VC)</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p class="bold">VC Create – Validate VC Constraints on Event Creation</p>
-                        <p class="NormalWeb_2">Video Conferencing reservations are now validated for the following:</p>
-                        <ul class="ul_4">
+                        <p class="RNTitle">VC Create – Validate VC Constraints on Event Creation</p>
+                        <p class="RNBody">Video Conferencing reservations are now validated for the following:</p>
+                        <ul class="RN-unorder-list">
                             <li class="li_33">All booking records have the same GMT start per grouping.</li>
-                        </ul>
-                        <ul class="ul_5">
                             <li class="li_33">For each date, the bookings should all have the same GMT start.</li>
-                        </ul>
-                        <ul class="ul_4">
                             <li class="li_33">A room record is designated as the Host.</li>
                             <li class="li_33">Only one VC Host can be assigned to a group of bookings with same GMT start time.</li>
                         </ul>
-                        <p class="p_25">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=30279" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=30279" class="Hyperlink_2">30279</a></p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=30279" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=30279" class="Hyperlink_2">30279</a></p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p class="bold">VC Cancel –&#160;Bookings and Reservation</p>
-                        <p class="NormalWeb_2">Users can cancel individual bookings in a VC. However, a VC Host booking cannot be canceled unless it is&#160;the only non-canceled booking in the group. When VC Cancel is enabled, Exchange will be updated.</p>
-                        <p class="p_25">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=30281" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=30281" class="Hyperlink_2">30281</a></p>
+                        <p class="RNTitle">VC Cancel –&#160;Bookings and Reservation</p>
+                        <p class="RNBody">Users can cancel individual bookings in a VC. However, a VC Host booking cannot be canceled unless it is&#160;the only non-canceled booking in the group. When VC Cancel is enabled, Exchange will be updated.</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=30281" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=30281" class="Hyperlink_2">30281</a></p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p class="bold">VC – Change Host</p>
-                        <p class="NormalWeb_2">Added a new route for setting the room associated with bookingID as the host of the reservation VC group in which bookingId belongs.</p>
-                        <p class="mt-font-courier-new_2">POST /reservations/{id}/vchost/{bookingId}</p>
-                        <p class="p_25">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=30282" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=30282" class="Hyperlink_2">30282</a></p>
+                        <p class="RNTitle">VC – Change Host</p>
+                        <p class="RNBody">Added a new route for setting the room associated with bookingID as the host of the reservation VC group in which bookingId belongs.</p>
+                        <p class="RNBody">POST /reservations/{id}/vchost/{bookingId}</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=30282" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=30282" class="Hyperlink_2">30282</a></p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td rowspan="16" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p class="Emphasis_1">API Calls</p>
+                        <p class="RNArea">API Calls</p>
                         <p class="p_25">&#160;</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p class="bold">Get Drawings for Multiple Bookings</p>
-                        <p class="NormalWeb_2">Added a&#160;new API call that takes multiple booking IDs as inputs and returns drawings.</p>
-                        <p class="mt-font-courier-new_2">POST /bookings/actions/search/drawings</p>
-                        <p class="p_25">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=31201" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=31201" class="Hyperlink_2">31201</a></p>
+                        <p class="RNTitle">Get Drawings for Multiple Bookings</p>
+                        <p class="RNBody">Added a&#160;new API call that takes multiple booking IDs as inputs and returns drawings.</p>
+                        <p class="RNBody">POST /bookings/actions/search/drawings</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=31201" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=31201" class="Hyperlink_2">31201</a></p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p class="bold">Get Attachments for&#160;Multiple Bookings</p>
+                        <p class="RNTitle">Get Attachments for&#160;Multiple Bookings</p>
                         <p class="NormalWeb_2">Added a new API call that takes multiple booking IDs&#160;as inputs and returns attachments.</p>
                         <p class="mt-font-courier-new_2">POST /bookings/actions/search/attachments</p>
                         <p class="p_25">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=31202" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=31202" class="Hyperlink_2">31202</a></p>
