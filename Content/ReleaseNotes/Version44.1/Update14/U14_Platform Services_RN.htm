@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xml:lang="en-us" MadCap:lastBlockDepth="8" MadCap:lastHeight="5316" MadCap:lastWidth="916" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+<html xml:lang="en-us" MadCap:lastBlockDepth="10" MadCap:lastHeight="5551" MadCap:lastWidth="890" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
         <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" />
         <link href="../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
@@ -16,16 +16,16 @@
             <col class="TableStyle-PatternedRows-Column-Regular" />
             <tr class="TableStyle-PatternedRows-Body-LightRows">
                 <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                    <p>Name:&#160;V44.1 Update 14</p>
+                    <p>Name:&#160;<br />V44.1 Update 14</p>
                 </td>
                 <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                    <p>Release&#160;Date:&#160;July 31, 2017</p>
+                    <p>Release&#160;Date:&#160;<br />July 31, 2017</p>
                 </td>
                 <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                    <p>Patch:&#160;44.1.14000.201707251</p>
+                    <p>Patch:&#160;<br />44.1.14000.201707251</p>
                 </td>
                 <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                    <p>Build #:&#160;44.1.14000.2640</p>
+                    <p>Build #:&#160;<br />44.1.14000.2640</p>
                 </td>
             </tr>
         </table>
@@ -46,91 +46,72 @@
             <tbody>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td rowspan="14" class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p>API Calls&#160;</p>
+                        <p class="RNArea">API Calls&#160;</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p class="bold">Search By and Return Status Information for Reservations</p>
-                        <blockquote>
-                            <p>The following API calls have been added:&#160;</p>
-                        </blockquote>
-                        <ol start="1">
+                        <p class="RNTitle">Search By and Return Status Information for Reservations</p>
+                        <p class="RNBodyBeforeList">The following API calls have been added:&#160;</p>
+                        <ol start="1" class="RN-number-list">
                             <li>GET /reservations: Supports 'statusId' search filter and statusId attribute in response model.</li>
                             <li>POST /reservations/actions/search: Supports 'statusIds' search filter.</li>
                         </ol>
-                        <p>Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems?_a=edit&amp;id=31415" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems?_a=edit&amp;id=31415" class="Hyperlink">31415</a></p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workitems?_a=edit&amp;id=31415" title="EMS Internal Use Only" class="rnrefhyper" alt="EMS Internal Use Only">31415</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
                         <p class="bold">Reservation/Booking Audit Info Correctly Via Delegate Functions</p>
-                        <ul>
-                            <li>GET /reservations, GET /bookings and GET /reservations/{id}/userdefinedfields all include audit information with each record, in the following format:</li>
+                        <ul class="RN-unorder-list">
+                            <li>GET /reservations, GET /bookings and GET /reservations/{id}/userdefinedfields all include audit information with each record, in the following format:<p class="RNBodyBeforeList">"audit": {</p><p class="RNBodyBeforeList">&#160; &#160; "addedBy": "Joe User",</p><p class="RNBodyBeforeList">&#160; &#160; "dateAdded": "2016-12-27T15:38:07.22Z",</p><p class="RNBodyBeforeList">&#160; &#160; "changedBy": "Joe User",</p><p class="RNBodyBeforeList">&#160; &#160; "dateChanged": "2016-12-27T15:38:07.22Z"</p><p class="RNBody">}</p></li>
                         </ul>
-                        <p>"audit": {</p>
-                        <p>&#160; &#160; "addedBy": "Joe User",</p>
-                        <p>&#160; &#160; "dateAdded": "2016-12-27T15:38:07.22Z",</p>
-                        <p>&#160; &#160; "changedBy": "Joe User",</p>
-                        <p>&#160; &#160; "dateChanged": "2016-12-27T15:38:07.22Z"</p>
-                        <p>}</p>
-                        <ul>
+                        <ul class="RN-unorder-list">
                             <li>If a delegate creates/edits a reservation or booking, the audit information will reflect the delegate user.</li>
                         </ul>
-                        <p>&#160;</p>
-                        <p>Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems?_a=edit&amp;id=31196" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems?_a=edit&amp;id=31196">31196</a>,&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems?_a=edit&amp;id=31367" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems?_a=edit&amp;id=31367">31367</a>,&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems?_a=edit&amp;id=31368" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems?_a=edit&amp;id=31368">31368</a>,&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems?_a=edit&amp;id=31369" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems?_a=edit&amp;id=31369">31369</a></p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workitems?_a=edit&amp;id=31196" title="EMS Internal Use Only" alt="EMS Internal Use Only" class="RNRefHyper">31196</a>,&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workitems?_a=edit&amp;id=31367" title="EMS Internal Use Only" alt="EMS Internal Use Only" class="RNRefHyper">31367</a>,&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workitems?_a=edit&amp;id=31368" title="EMS Internal Use Only" alt="EMS Internal Use Only" class="RNRefHyper">31368</a>,&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workitems?_a=edit&amp;id=31369" title="EMS Internal Use Only" alt="EMS Internal Use Only" class="RNRefHyper">31369</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
                         <p class="bold">Make/Status the Default Redirect Page for Base URL Requests</p>
-                        <ul>
+                        <ul class="RN-unorder-list">
                             <li>Visiting&#160;<a href="https://mydomain.com/%5bVirtualSite%5d" title="https://mydomain.com/[VirtualSite]">https://mydomain.com/[VirtualSite]</a>&#160;in browser redirects you to the status page (e.g.,&#160;<a href="https://mydomain.com/EmsPlatform" title="https://mydomain.com/EmsPlatform">https://mydomain.com/EmsPlatform</a>).</li>
                             <li>Visiting&#160;<a href="https://mydomain.com/%5bVirtualSite%5d/swagger" title="https://mydomain.com/[VirtualSite]/swagger">https://mydomain.com/[VirtualSite]/swagger</a>&#160;in browser redirects you to the EMS Platform Swagger Documentation page.</li>
                         </ul>
-                        <p>Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems?_a=edit&amp;id=31378" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems?_a=edit&amp;id=31378" class="Hyperlink">31378</a></p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workitems?_a=edit&amp;id=31378" title="EMS Internal Use Only" class="RNRefHyper" alt="EMS Internal Use Only">31378</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
                         <p class="bold">Set Estimated/Actual Attendance as a Part of Edit Reservation</p>
-                        <blockquote>
-                            <p>Users can&#160;set estimated and actual attendance as a part of edit reservation. Add estimated, actual attendance to request attributes of&#160;PATCH/reservation/{id}&#160;call:</p>
-                        </blockquote>
-                        <ul>
+                        <p class="RNBody">Users can&#160;set estimated and actual attendance as a part of edit reservation. Add estimated, actual attendance to request attributes of&#160;PATCH/reservation/{id}&#160;call:</p>
+                        <ul class="RN-unorder-list">
                             <li>PATCH /reservation/{id}&#160;Additional Attributes:</li>
-                        </ul>
-                        <ul>
                             <li>estimatedAttendance</li>
                             <li>actualAttendance</li>
                         </ul>
-                        <p>Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems?_a=edit&amp;id=31445" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems?_a=edit&amp;id=31445" class="Hyperlink">31445</a></p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workitems?_a=edit&amp;id=31445" title="EMS Internal Use Only" class="RNRefHyper" alt="EMS Internal Use Only">31445</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
                         <p class="bold">Rename GET/Myuser/Delegates</p>
-                        <blockquote>
-                            <p>GET /myuser/delegates&#160;moved to&#160;GET /myuser/delegations&#160;to return a list of users who the authenticated user can impersonate, (i.e.,&#160;users for which an authenticated user is a delegate).</p>
-                        </blockquote>
-                        <p>Internal Reference # 31590</p>
+                        <p class="RNBody">GET /myuser/delegates&#160;moved to&#160;GET /myuser/delegations&#160;to return a list of users who the authenticated user can impersonate, (i.e.,&#160;users for which an authenticated user is a delegate).</p>
+                        <p class="RNRef">Internal Reference # <a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=31590" title="EMS Internal Use Only" alt="EMS Internal Use Only" class="rnrefhyper">31590</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
                         <p class="bold">Added Ability to Search Users</p>
-                        <blockquote>
-                            <p>Added new route&#160;to allow searching users by username, ID and/or email address.&#160;POST /webusers/actions/search&#160;allows the search of&#160;web users by username, email, external reference, or network id.&#160;</p>
-                        </blockquote>
-                        <p>Internal Reference # 31600</p>
+                        <p class="RNBody">Added new route&#160;to allow searching users by username, ID and/or email address.&#160;POST /webusers/actions/search&#160;allows the search of&#160;web users by username, email, external reference, or network id.&#160;</p>
+                        <p class="RNRef">Internal Reference # <a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=31600" title="EMS Internal Use Only" alt="EMS Internal Use Only" class="rnrefhyper">31600</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
                         <p class="bold">GET All Buildings Within an Area</p>
-                        <blockquote>
-                            <p>GET/bookviews/{id}/rooms&#160;returns buildings if ID for area is passed in the request parameters.</p>
-                            <p>New /areas service:</p>
-                        </blockquote>
-                        <ul>
+                        <p class="RNBody">GET/bookviews/{id}/rooms&#160;returns buildings if ID for area is passed in the request parameters.</p>
+                        <p class="RNBodyBeforeList">New /areas service:</p>
+                        <ul class="RN-unorder-list">
                             <li>GET /areas</li>
                             <li>GET /areas/{id}</li>
                             <li>POST /areas</li>
@@ -140,70 +121,56 @@
                             <li>POST /areas/{id}/buildings</li>
                             <li>DELETE /areas/{id}/buildings</li>
                         </ul>
-                        <p>Internal Reference # 30684</p>
+                        <p class="RNRef">Internal Reference # <a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=30684" title="EMS Internal Use Only" alt="EMS Internal Use Only" class="rnrefhyper">30684</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
                         <p class="bold">Set Actual Attendance As a Part of Edit Booking</p>
-                        <blockquote>
-                            <p>API call,&#160;PATCH/booking/{id}&#160;includes optional actualAttendance field.</p>
-                        </blockquote>
-                        <p>Internal Reference # 31148</p>
+                        <p class="RNBody">API call,&#160;PATCH/booking/{id}&#160;includes optional actualAttendance field.</p>
+                        <p class="RNRef">Internal Reference # <a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=31148" title="EMS Internal Use Only" alt="EMS Internal Use Only" class="rnrefhyper">31148</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
                         <p class="bold">Set Estimated Attendance as a Part of Create Reservation</p>
-                        <blockquote>
-                            <p>Added estimated attendance to the request parameters for the API call,&#160;POST /reservations/actions/create.&#160;</p>
-                        </blockquote>
-                        <p>Internal Reference # 31149</p>
+                        <p class="RNBody">Added estimated attendance to the request parameters for the API call,&#160;POST /reservations/actions/create.&#160;</p>
+                        <p class="RNRef">Internal Reference # <a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=31149" title="EMS Internal Use Only" alt="EMS Internal Use Only" class="rnrefhyper">31149</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
                         <p class="bold">Get List of UDFs from Multiple Reservations</p>
-                        <blockquote>
-                            <p>New API call,&#160;POST&#160;/reservations/actions/search/userdefinedfields,&#160;searches reservations by one or more reservation IDs, returning their UDF values.&#160;</p>
-                        </blockquote>
-                        <p>Internal Reference # 31150</p>
+                        <p class="RNBody">New API call,&#160;POST&#160;/reservations/actions/search/userdefinedfields,&#160;searches reservations by one or more reservation IDs, returning their UDF values.&#160;</p>
+                        <p class="RNRef">Internal Reference # <a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=31150" title="EMS Internal Use Only" alt="EMS Internal Use Only" class="rnrefhyper">31150</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
                         <p class="bold">Get List of UDFs from Multiple Bookings</p>
-                        <blockquote>
-                            <p>New API call,&#160;POST&#160;/bookings/actions/search/userdefinedfields,&#160;returns a list of UDF values for one or more booking IDs.&#160;</p>
-                        </blockquote>
-                        <p>Internal Reference # 31151</p>
+                        <p class="RNBody">New API call,&#160;POST&#160;/bookings/actions/search/userdefinedfields,&#160;returns a list of UDF values for one or more booking IDs.&#160;</p>
+                        <p class="RNRef">Internal Reference # <a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=31151" title="EMS Internal Use Only" alt="EMS Internal Use Only" class="rnrefhyper">31151</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
                         <p class="bold">Change Status of Bookings</p>
-                        <blockquote>
-                            <p>New API call,&#160;PUT /bookings/{id}/status,&#160;changes the status on a booking.</p>
-                        </blockquote>
-                        <p>Internal Reference # 31197</p>
+                        <p class="RNBody">New API call,&#160;PUT /bookings/{id}/status,&#160;changes the status on a booking.</p>
+                        <p class="RNRef">Internal Reference # <a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=31197" title="EMS Internal Use Only" alt="EMS Internal Use Only" class="rnrefhyper">31197</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
                         <p class="bold">Add Deposit to a Reservation</p>
-                        <blockquote>
-                            <p>New API call,&#160;POST /reservations/{id}/deposit,&#160;adds&#160;a deposit to a reservation.</p>
-                        </blockquote>
-                        <p>Internal Reference # 31199</p>
+                        <p class="RNBody">New API call,&#160;POST /reservations/{id}/deposit,&#160;adds&#160;a deposit to a reservation.</p>
+                        <p class="RNRef">Internal Reference # <a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=31199" title="EMS Internal Use Only" alt="EMS Internal Use Only" class="rnrefhyper">31199</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
                         <p class="bold">Change Status of a Reservation</p>
-                        <blockquote>
-                            <p>New API call,&#160;PUT /reservations/{id}/status, changes the status on a reservation.</p>
-                        </blockquote>
-                        <p>Internal Reference # 31218</p>
+                        <p class="RNBody">New API call,&#160;PUT /reservations/{id}/status, changes the status on a reservation.</p>
+                        <p class="RNRef">Internal Reference # <a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=31218" title="EMS Internal Use Only" alt="EMS Internal Use Only" class="rnrefhyper">31218</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
             </tbody>
@@ -229,11 +196,9 @@
                     </td>
                     <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
                         <p class="bold">API Call Was Only Returning Rooms with Long Description Field Defined</p>
-                        <blockquote>
-                            <p>The API call,&#160;rooms/{id}/images, was only returning rooms with the Long Description field defined.</p>
-                            <p>Fix: Modified modality so that using the call&#160;/rooms/{id}/images&#160;would return image list regardless of contents of the Long Description field.&#160;</p>
-                        </blockquote>
-                        <p>Internal Reference # 31380</p>
+                        <p class="RNBody">The API call,&#160;rooms/{id}/images, was only returning rooms with the Long Description field defined.</p>
+                        <p class="RNBody"><span class="bold">Fix:</span> Modified modality so that using the call&#160;/rooms/{id}/images&#160;would return image list regardless of contents of the Long Description field.&#160;</p>
+                        <p class="RNRef">Internal Reference # <a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=31380" title="EMS Internal Use Only" alt="EMS Internal Use Only" class="rnrefhyper">31380</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
             </tbody>
