@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="8556" MadCap:lastWidth="1134">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="9700" MadCap:lastWidth="1134">
     <head>
         <link href="Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" />
     </head>
@@ -437,7 +437,7 @@
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows" colspan="2">
                         <div class="note-box note">
-                            <p>Note:&#160;The EMS Campus Planning Interface also requires Microsoft .NET Framework v3.5 on the web server.  In Windows Server 2008/2008 R2, this is a feature that can be enabled in Windows Server Manager.</p>
+                            <p>Note:&#160;The EMS Campus Planning Interface also requires Microsoft .NET Framework 4.6.1 on the web server.  In Windows Server 2008/2008 R2, this is a feature that can be enabled in Windows Server Manager.</p>
                         </div>
                     </td>
                 </tr>
