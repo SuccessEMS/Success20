@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xml:lang="en-us" MadCap:lastBlockDepth="12" MadCap:lastHeight="2930" MadCap:lastWidth="864" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+<html xml:lang="en-us" MadCap:lastBlockDepth="12" MadCap:lastHeight="3915" MadCap:lastWidth="864" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
         <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
         <link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
@@ -71,24 +71,39 @@
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
                         <p class="RNTitle">Search Bookings by UDFs</p>
-                        <p class="RNBody">&#160;</p>
+                        <p class="RNBody">Users an now search bookings by user-defined fields (UDFs). GET/bookings allows searching by one UDF, and POST/bookings allows searching by an array of UDFs.</p>
+                        <p class="RNBodyBeforeList">When filtering by UDF, both key and value filters are required.</p>
+                        <ul class="RN-unorder-list">
+                            <li>UDF name filter will search room UDFs  (tblUserDefinedField), joining up to tblUDFDefinition to get the UDF name value<ul><li>case insensitive match</li></ul></li>
+                            <li>UDF value filter will search room UDF values<ul><li>exact match, case insensitive</li><li>list-type UDFs require going to tblUDFDefinitionItem to get the actual configured value string</li></ul></li>
+                        </ul>
                         <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=35928" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="rnrefhyper">35928</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="text-align: left;" rowspan="2">
-                        <p>Event Type IDs</p>
+                        <p class="RNArea">Event Type IDs</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
                         <p class="RNTitle">Search Reservations by Event Type IDs</p>
-                        <p class="RNBody">&#160;</p>
+                        <p class="RNBody">Users can now search reservations by multiple event type IDs and display reservations of filtered event types on digital signs and other displays. </p>
+                        <p class="RNBodyBeforeList">The following have been added to enable searching reservations by multiple event type IDs:</p>
+                        <ul class="RN-unorder-list">
+                            <li>An array of eventTypeIds has been added as a search criteria to POST/reservations/action/search</li>
+                            <li>The eventTypeId has been added as a search criteria to GET/reservation</li>
+                        </ul>
                         <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=35930" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="rnrefhyper">35930</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
                         <p class="RNTitle">Search Bookings by Event Type IDs</p>
-                        <p class="RNBody">&#160;</p>
+                        <p class="RNBody">Users can now search bookings by multiple event type IDs and display bookings of filtered event types on digital signs and other displays. </p>
+                        <p class="RNBodyBeforeList">The following have been added to enable searching bookings by multiple event type IDs:</p>
+                        <ul class="RN-unorder-list">
+                            <li>An array of eventTypeIds has been added as a search criteria to POST/bookings/action/search</li>
+                            <li>The eventTypeId has been added as a search criteria to GET/bookings</li>
+                        </ul>
                         <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=35931" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="rnrefhyper">35931</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
@@ -98,7 +113,12 @@
                     </td>
                     <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows" style="text-align: left;">
                         <p class="RNTitle">Search Reservations by Web User ID</p>
-                        <p class="RNBody">&#160;</p>
+                        <p class="RNBody">Users can now search reservations by web user ID and display reservations of the filtered users on digital signs and other displays.</p>
+                        <p class="RNBodyBeforeList">The webUserID filter has been added to the following routes:</p>
+                        <ul class="RN-unorder-list">
+                            <li>GET/reservations (query string parameter)</li>
+                            <li>POST/reservatoins/actions/search (part of the request object)</li>
+                        </ul>
                         <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=35933" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="rnrefhyper">35933</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
