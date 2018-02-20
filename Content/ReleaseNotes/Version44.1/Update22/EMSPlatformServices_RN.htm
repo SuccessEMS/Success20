@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xml:lang="en-us" MadCap:lastBlockDepth="12" MadCap:lastHeight="2547" MadCap:lastWidth="864" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+<html xml:lang="en-us" MadCap:lastBlockDepth="12" MadCap:lastHeight="2930" MadCap:lastWidth="864" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
         <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
         <link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
@@ -45,53 +45,59 @@
             <tbody>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: left;">
-                        <p class="RNArea">&#160;</p>
-                        <p>&#160;</p>
+                        <p class="RNArea">Installation</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
-                        <p class="RNTitle">Installer should display warning, at start of installation, regarding dependent HttpPlatformHandler installation</p>
-                        <p class="RNBody"> <![CDATA[ ]]></p>
-                        <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=28276" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="rnrefhyper">28276</a><br />(For EMS&#160;Internal Use Only)</p>
+                        <p class="RNTitle">Warning Displayed Regarding Dependent HttpPlatformHandler Installation</p>
+                        <p class="RNBody">When running the installer, a warning message will appear at the start of installation to remind users to install the HttpPlatformHandler first.</p>
+                        <p class="RNRef">  Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=28276" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="rnrefhyper">28276</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNArea">User Defined Fields (UDFs)</p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="text-align: left;" rowspan="2">
+                        <p class="RNArea">User-Defined Fields (UDFs)</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNTitle">Search reservations by UDFs</p>
-                        <p class="RNBody">&#160;</p>
+                        <p class="RNTitle">Search Reservations by UDFs</p>
+                        <p class="RNBody">Users can now search reservations by user-defined fields (UDFs). GET/reservation allows searching by one UDF, and POST/reservation allows searching by an array of UDFs. </p>
+                        <p class="RNBodyBeforeList">When filtering by UDF, both key and value filters are required.</p>
+                        <ul class="RN-unorder-list">
+                            <li>UDF name filter will search room UDFs  (tblUserDefinedField) and join up to tblUDFDefinition to get the UDF name value<ul><li>case insensitive match</li></ul></li>
+                            <li>UDF value filter will search room UDF values<ul><li>exact match, case insensitive</li><li>list-type UDFs require going to tblUDFDefinitionItem to get the actual configured value string</li></ul></li>
+                        </ul>
                         <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=35910" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="rnrefhyper">35910</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: left;">&#160;</td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
-                        <p class="RNTitle">Search bookings by UDFs</p>
+                        <p class="RNTitle">Search Bookings by UDFs</p>
                         <p class="RNBody">&#160;</p>
                         <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=35928" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="rnrefhyper">35928</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="text-align: left;">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="text-align: left;" rowspan="2">
+                        <p>Event Type IDs</p>
+                    </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNTitle">Search reservations by Event Type IDs</p>
+                        <p class="RNTitle">Search Reservations by Event Type IDs</p>
                         <p class="RNBody">&#160;</p>
                         <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=35930" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="rnrefhyper">35930</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: left;">&#160;</td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
-                        <p class="RNTitle">Search bookings by Event Type IDs</p>
+                        <p class="RNTitle">Search Bookings by Event Type IDs</p>
                         <p class="RNBody">&#160;</p>
                         <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=35931" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="rnrefhyper">35931</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows" style="text-align: left;">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows" style="text-align: left;">
+                        <p class="RNArea">Web User ID</p>
+                    </td>
                     <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNTitle">Search reservations by web user ID</p>
+                        <p class="RNTitle">Search Reservations by Web User ID</p>
                         <p class="RNBody">&#160;</p>
                         <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=35933" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="rnrefhyper">35933</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
