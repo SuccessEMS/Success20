@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xml:lang="en-us" MadCap:lastBlockDepth="7" MadCap:lastHeight="4225" MadCap:lastWidth="929" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+<html xml:lang="en-us" MadCap:lastBlockDepth="7" MadCap:lastHeight="4357" MadCap:lastWidth="929" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
         <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
         <link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
@@ -82,22 +82,21 @@
             </thead>
             <tbody>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p>&#160;</p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" rowspan="2">
+                        <p class="RNArea">Security</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p class="RNTitle">security vulnerability- JQuery version vulnerable to cross site scripting and selector issues</p>
-                        <p class="RNBody">XX </p>
-                        <p class="RNBody"><span class="bold">Fix:</span>&#160;XX</p>
+                        <p class="RNTitle">JQuery Versions Were Vulnerable to Cross Site Scripting and Selector Issues</p>
+                        <p class="RNBody">The Room Sign application was running versions of JQuery that are vulnerable to cross site scripting and selector issues.</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that the Room Sign application is running a newer, secure jQuery version. </p>
                         <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=35273" class="RNRefHyper" title="For EMS Internal Use Only" alt="For EMS Internal Use Only">35273</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">&#160;</td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p class="RNTitle">security vulnerability- Room Sign User Controllable Error Message</p>
-                        <p class="RNBody">XX </p>
-                        <p class="RNBody"><span class="bold">Fix:</span>&#160;XX</p>
+                        <p class="RNTitle">Security Vulnerability—Room Sign App Error Message Could Be Modified</p>
+                        <p class="RNBody">In the Room Sign App, users could potentially override application error messages and change the error messages to arbitrary text through parameter modification.</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that users are unable to override application error messages. Error messages are generated server-side.</p>
                         <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=35279" class="RNRefHyper" title="For EMS Internal Use Only" alt="For EMS Internal Use Only">35279</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
@@ -129,7 +128,7 @@
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
                         <p class="RNTitle">End Time Was Not Adjusting Correctly Based on Start Time</p>
-                        <p class="RNBody">End time was not adjusting correctly based on the selected start time and  future bookings were not being created. </p>
+                        <p class="RNBody">End time was not adjusting correctly based on the selected start time, and  future bookings were not being created. </p>
                         <p class="RNBody"><span class="bold">Fix</span>:&#160;Modified functionality so that end time is adjusted based on selected start time.</p>
                         <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=36653" class="RNRefHyper" title="For EMS Internal Use Only" alt="For EMS Internal Use Only">36653</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
@@ -162,8 +161,8 @@
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
                         <p class="RNTitle">Authentication to End Booking Was Required Even if "Authentication to End Booking"&#160;Was Set to No</p>
-                        <p class="RNBody">EMS Room sign was requiring authentication to end bookings regardless of whether the setting "Require Authentication to End Booking in Progress"  was set to "No."</p>
-                        <p class="RNBody"><span class="bold">Fix</span>:&#160;Modified functionality so that the EMS&#160;Room Sign App does not require authentication to end booking if the parameter "Require Authentication to End Booking in Progress"  is set to No.</p>
+                        <p class="RNBody">EMS Room Sign App was requiring authentication to end bookings regardless of whether the setting "Require Authentication to End Booking in Progress"  was set to "No."</p>
+                        <p class="RNBody"><span class="bold">Fix</span>:&#160;Modified functionality so that the EMS&#160;Room Sign App does not require authentication to end booking if the parameter "Require Authentication to End Booking in Progress"  is set to "No."</p>
                         <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=36657" class="RNRefHyper" title="For EMS Internal Use Only" alt="For EMS Internal Use Only">36657</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
