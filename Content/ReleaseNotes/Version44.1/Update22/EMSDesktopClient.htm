@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xml:lang="en-us" MadCap:lastBlockDepth="10" MadCap:lastHeight="6751" MadCap:lastWidth="700" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+<html xml:lang="en-us" MadCap:lastBlockDepth="10" MadCap:lastHeight="4088" MadCap:lastWidth="714" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
         <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
         <link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
@@ -18,7 +18,7 @@
                     <p class="p_3">Name:&#160;<br />V44.1 Update 22</p>
                 </td>
                 <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                    <p class="p_3">Release&#160;Date:&#160;<br /></p>
+                    <p class="p_3">Release&#160;Date:&#160;<br />February 28, 2018<br /></p>
                 </td>
                 <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
                     <p class="p_3">Patch:&#160;<br /></p>
@@ -28,9 +28,37 @@
                 </td>
             </tr>
         </table>
-        <h2>Fixes</h2>
+        <h2>Enhancement</h2>
         <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');width: 100%;margin-left: auto;margin-right: auto;" cellspacing="0">
             <col class="TableStyle-PatternedRows-Column-Regular" style="width: 157px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1" style="text-align: left;">
+                        <p class="p_6">Area</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1" style="text-align: left;">
+                        <p class="p_6">Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows" style="text-align: left;">
+                        <p class="RNArea">Parameter</p>
+                        <p>&#160;</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" style="text-align: left;">
+                        <p class="RNTitle">New Parameter for Custom Icon</p>
+                        <p>A parameter has been added to allow a custom EMS for Outlook icon that will appear within the Add-in.</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=36020" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="rnrefhyper">36020</a><br />(For EMS Internal Use Only)</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Fixes</h2>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');width: 100%;margin-left: auto;margin-right: auto;" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 202px;" />
             <col class="TableStyle-PatternedRows-Column-Regular" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
@@ -48,104 +76,31 @@
                         <p class="RNArea">User-Defined Fields (UDFs)</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
-                        <p class="RNTitle">Unable to Add Already Existing UDF&#160;to Reservation</p>
-                        <p class="RNBody">When running the installer, a warning message will appear at the start of installation to remind users to install the HttpPlatformHandler first.</p>
+                        <p class="RNTitle">Unable to Add Previously Existing UDF&#160;to Reservation</p>
+                        <p class="RNBody">User-defined fields (UDFs) could no longer be added to a reservation more than once. </p>
+                        <p class="RNBody">Fix:&#160;Modified functionality so that users can add a UDF to a reservation more than once. </p>
                         <p class="RNRef">  Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=28076" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="rnrefhyper">28076</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="text-align: left;" rowspan="2">
-                        <p class="RNArea">User-Defined Fields (UDFs)</p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="text-align: left;">
+                        <p class="RNArea">Service Order Notification</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNTitle">Search Reservations by UDFs</p>
-                        <p class="RNBody">Users can now search reservations by user-defined fields (UDFs). GET/reservation allows searching by one UDF, and POST/reservation allows searching by an array of UDFs. </p>
-                        <p class="RNBodyBeforeList">When filtering by UDF, both key and value filters are required.</p>
-                        <ul class="RN-unorder-list">
-                            <li>UDF name filter will search room UDFs  (tblUserDefinedField) and join up to tblUDFDefinition to get the UDF name value<ul><li>case insensitive match</li></ul></li>
-                            <li>UDF value filter will search room UDF values<ul><li>exact match, case insensitive</li><li>list-type UDFs require going to tblUDFDefinitionItem to get the actual configured value string</li></ul></li>
-                        </ul>
-                        <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=35910" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="rnrefhyper">35910</a><br />(For EMS&#160;Internal Use Only)</p>
+                        <p class="RNTitle">Selecting Finish on a Service Order Notification Was Resetting State to All</p>
+                        <p class="RNBody">Users who opened an existing Service Order Notification Rule, that includes a Filter for States, but did not make any changes to the rule were experiencing the Finish button reverting the States filter to All. If the user selected the Cancel button, the existing States filter selection was retained.</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=30708" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="rnrefhyper">30708</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
-                        <p class="RNTitle">Search Bookings by UDFs</p>
-                        <p class="RNBody">Users an now search bookings by user-defined fields (UDFs). GET/bookings allows searching by one UDF, and POST/bookings allows searching by an array of UDFs.</p>
-                        <p class="RNBodyBeforeList">When filtering by UDF, both key and value filters are required.</p>
-                        <ul class="RN-unorder-list">
-                            <li>UDF name filter will search room UDFs  (tblUserDefinedField), joining up to tblUDFDefinition to get the UDF name value<ul><li>case insensitive match</li></ul></li>
-                            <li>UDF value filter will search room UDF values<ul><li>exact match, case insensitive</li><li>list-type UDFs require going to tblUDFDefinitionItem to get the actual configured value string</li></ul></li>
-                        </ul>
-                        <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=35928" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="rnrefhyper">35928</a><br />(For EMS&#160;Internal Use Only)</p>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows" style="text-align: left;">
+                        <p class="RNArea">Notifications</p>
                     </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="text-align: left;" rowspan="2">
-                        <p class="RNArea">Event Type IDs</p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNTitle">Search Reservations by Event Type IDs</p>
-                        <p class="RNBody">Users can now search reservations by multiple event type IDs and display reservations of filtered event types on digital signs and other displays. </p>
-                        <p class="RNBodyBeforeList">The following have been added to enable searching reservations by multiple event type IDs:</p>
-                        <ul class="RN-unorder-list">
-                            <li>An array of eventTypeIds has been added as a search criteria to POST/reservations/action/search</li>
-                            <li>The eventTypeId has been added as a search criteria to GET/reservation</li>
-                        </ul>
-                        <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=35930" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="rnrefhyper">35930</a><br />(For EMS&#160;Internal Use Only)</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
-                        <p class="RNTitle">Search Bookings by Event Type IDs</p>
-                        <p class="RNBody">Users can now search bookings by multiple event type IDs and display bookings of filtered event types on digital signs and other displays. </p>
-                        <p class="RNBodyBeforeList">The following have been added to enable searching bookings by multiple event type IDs:</p>
-                        <ul class="RN-unorder-list">
-                            <li>An array of eventTypeIds has been added as a search criteria to POST/bookings/action/search</li>
-                            <li>The eventTypeId has been added as a search criteria to GET/bookings</li>
-                        </ul>
-                        <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=35931" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="rnrefhyper">35931</a><br />(For EMS&#160;Internal Use Only)</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNArea">Web User ID</p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNTitle">Search Reservations by Web User ID</p>
-                        <p class="RNBody">Users can now search reservations by web user ID and display reservations of the filtered users on digital signs and other displays.</p>
-                        <p class="RNBodyBeforeList">The webUserID filter has been added to the following routes:</p>
-                        <ul class="RN-unorder-list">
-                            <li>GET/reservations (query string parameter)</li>
-                            <li>POST/reservatoins/actions/search (part of the request object)</li>
-                        </ul>
-                        <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=35933" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="rnrefhyper">35933</a><br />(For EMS&#160;Internal Use Only)</p>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-        <h2>Fix</h2>
-        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');width: 100%;margin-left: auto;margin-right: auto;" cellspacing="0">
-            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 157px;" />
-            <col class="TableStyle-PatternedRows-Column-Regular" />
-            <thead>
-                <tr class="TableStyle-PatternedRows-Head-Header1">
-                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1" style="text-align: left;">
-                        <p class="p_6">Area</p>
-                    </th>
-                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1" style="text-align: left;">
-                        <p class="p_6">Description</p>
-                    </th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows" style="text-align: left;">&#160;</td>
                     <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" style="text-align: left;">
-                        <p class="RNTitle">When authenticating first time users through outlook security template is not being assigned</p>
-                        <p class="RNBody">XX</p>
-                        <p class="RNBody"><span class="bold">Fix:</span>&#160;XX</p>
-                        <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=35951" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="rnrefhyper">35951</a><br />(For EMS Internal Use Only)</p>
+                        <p class="RNTitle">Email Notifications Were Not Being Sent</p>
+                        <p class="RNBody">When reservations were created with bookings that met the conditions of the Group Notification rule, group email notifications were not being sent.</p>
+                        <p class="RNBodyBeforeList">Fix:&#160;Modified functionality so that Everyday Users receive the group notification. </p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=33666" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="rnrefhyper">33666</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
             </tbody>
