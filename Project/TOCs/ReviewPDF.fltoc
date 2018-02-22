@@ -2,9 +2,6 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="Desktop Client Release Notes U22"
-    Link="/Content/ReleaseNotes/Version44.1/Update22/EMSDesktopClient.htm"></TocEntry>
-  <TocEntry
-    Title="Outlook Release Notes U22"
-    Link="/Content/ReleaseNotes/Version44.1/Update22/EMSforOutlook.htm" />
+    Title="EMS API Release Notes U22"
+    Link="/Content/ReleaseNotes/Version44.1/Update22/EMSAPI.htm"></TocEntry>
 </CatapultToc>
