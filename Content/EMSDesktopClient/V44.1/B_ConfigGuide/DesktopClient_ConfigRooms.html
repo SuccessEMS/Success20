@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html MadCap:lastBlockDepth="8" MadCap:lastHeight="21626" MadCap:lastWidth="960" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\EMSDesktopClient.flmsp');">
+<html MadCap:lastBlockDepth="8" MadCap:lastHeight="23737" MadCap:lastWidth="957" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\EMSDesktopClient.flmsp');">
     <head>
         <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title mt-export-translate="no">Configuring Rooms</title>
         <meta name="mt-type" value="application/x.deki-text" />
@@ -53,6 +53,8 @@
             </li>
             <li>
                 <MadCap:xref href="#SetValue">Set Values for User Defined Fields (UDFs) for a Room</MadCap:xref>
+            </li>
+            <li><a href="#ConfigureOutlookTBDRooms">Configure Outlook TBD&#160;Rooms</a>
             </li>
             <li>
                 <MadCap:xref href="#AssignRoomtoEverydayUser">Assign the Room to an Everyday User Process Templates</MadCap:xref>
@@ -343,8 +345,8 @@
             <li>Enter one or more of the following for the room:</li>
         </ol>
         <table border="0" cellspacing="0" class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');">
-            <col style="width: 218px;" />
-            <col />
+            <col style="width: 218px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th scope="col" class="TableStyle-PatternedRows-HeadE-Regular-Header1">
@@ -406,8 +408,8 @@
             <li>For each rate schedule, select the Pricing method, which determines the cost for reserving the room.&#160;If the appropriate rate schedule is not listed, you can configure it.</li>
         </ol>
         <table border="0" cellspacing="0" class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');">
-            <col style="width: 241px;" />
-            <col style="width: 696px;" />
+            <col style="width: 241px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 696px;" class="TableStyle-PatternedRows-Column-Regular" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th scope="col" class="TableStyle-PatternedRows-HeadE-Regular-Header1">
@@ -480,8 +482,8 @@
             <li>After you select a pricing method, edit the amounts in the fields below as needed.</li>
         </ol>
         <table border="0" cellspacing="0" class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');">
-            <col style="width: 217px;" />
-            <col style="width: 722px;" />
+            <col style="width: 217px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 722px;" class="TableStyle-PatternedRows-Column-Regular" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th scope="col" class="TableStyle-PatternedRows-HeadE-Regular-Header1">
@@ -633,6 +635,13 @@
             <li>From the Room Configuration page, open the <strong>Drawings</strong> tab.</li>
             <li>Click <strong>Attach</strong> to open the Find Drawing dialog box, and then browse for your drawing file. Once you have chosen the file, the drawing is displayed on the Drawing tab.</li>
             <li>Continue with any other optional configuration for the room as needed; otherwise, click <strong>OK</strong> to close the Room configuration page and return to the Rooms window. The newly configured room is displayed in the window.</li>
+        </ol>
+        <h2><a name="ConfigureOutlookTBDRooms"></a>Configure Outlook TBD&#160;Rooms</h2>
+        <p>EMS Software recommends that you define an "Outlook TBD"&#160;room for each building in your database. This will ensure skipped bookings in EMS&#160;for Outlook remain in the correct timezone and will allow for localized notifications and reports to be created around meetings without locations. See Also:&#160;<a href="../../../Outlook/C_User/Outlook_UG_ResolveBookingConflicts.htm">Resolve Booking Conflicts in EMS&#160;for Outlook</a>. </p>
+        <ol>
+            <li>On the <MadCap:variable name="General.EMS&#160;Desktop Client" /> menu bar, click <span class="bold">System Administration </span>&gt; <span class="bold">Tools</span>&gt; <strong>Create Missing Outlook TBD&#160;Rooms</strong>.&#160;The Create Missing Outlook TBD Rooms dialog box will open.<br /><img src="../../../Outlook/Images/OutlookTBD2.PNG" /><br /></li>
+            <li>Select one or more Buildings you want to create a TBD&#160;room for. </li>
+            <li>Click <span class="bold">Create</span>. A TBD&#160;room will now be available in your list of rooms for the selected Buildings. The TBD room will automatically appear as an Outlook TBD Room for Building  in your Room Configuration page. Optionally, you can set a <span class="bold">Display As </span>name for your Everyday Users. <br /><img src="../../../Outlook/Images/OutlookTBD.PNG" /><br /></li>
         </ol>
         <h2><a name="SetValue"></a>Set Values for User Defined Fields (UDFs) for a Room</h2>
         <ol>
