@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="6" MadCap:lastHeight="7143" MadCap:lastWidth="899" style="mc-master-page: url('..\..\Resources\MasterPages\emsMicrosoftOutlook.flmsp');">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="6" MadCap:lastHeight="10615" MadCap:lastWidth="723" style="mc-master-page: url('..\..\Resources\MasterPages\emsMicrosoftOutlook.flmsp');">
     <head>
         <link href="../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
     </head>
@@ -9,6 +9,8 @@
         <p>Additional configuration tasks are required in order to enable your Microsoft Outlook users to access EMS for Outlook functionality:</p>
         <ul class="unorder-list">
             <li><a href="#CustomizeAddinLogo">Customize the Add-In&#160;Label</a>
+            </li>
+            <li><a href="#CustomizeAddinIcon">Customize the Add-In Icon</a>
             </li>
             <li><a href="#EMSforOutlookParameters">EMS for Outlook System Parameters</a>
             </li>
@@ -31,8 +33,19 @@
         <div class="note-box tip">
             <p><span class="bold">Tip:</span>&#160;You can customize other field labels under the <span class="bold">All Applications</span> tab (which means your customizations will apply to all EMS applications you deploy); filter the list by selecting <span class="bold">Labels </span>in the&#160;Area&#160;field.</p>
         </div>
+        <h2><a name="CustomizeAddinIcon"></a>Customize the Add-in icon</h2>
+        <p>You can replace the default EMS for Outlook icon that displays in Outlook with a custom icon of your choosing. </p>
+        <ol start="1" class="number-list">
+            <li>Log into EMS Desktop Client.</li>
+            <li>Navigate to <span class="bold">System Administration</span> &gt; <span class="bold">Settings </span>&gt;&#160;<span class="bold">Parameters&#160;</span>and select the&#160;<span class="bold">Everyday User Applications</span>&#160;tab.</li>
+            <li>In the&#160;Area&#160;drop-down, select <span class="bold">EMS for Outlook - Specific</span>.</li>
+            <li>Select&#160;<span class="bold">Custom&#160;Calendaring Icon</span> and click&#160;<span class="bold">Edit</span>.</li>
+            <li>Make your changes and click&#160;<span class="bold">OK</span>.&#160;</li>
+            <li>Click&#160;<span class="bold">Close</span>. Microsoft Outlook will need to be restarted to see the custom icon change. </li>
+        </ol>
+        <p class="note-box"> <span class="bold">Important</span>:&#160;Supported file types are .ico, .jpeg, .jpg, or .png. The recommended size is 32 x 32.</p>
         <h2><a name="EMSforOutlookParameters"></a>EMS for Outlook System Parameters</h2>
-        <p>In addition to changing the Add-in Label, you can use the following parameters to make additional changes:</p>
+        <p>In addition to changing the Add-in label and custom icon, you can use the following parameters to make additional changes:</p>
         <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
             <col class="TableStyle-PatternedRows-Column-Regular" />
             <col class="TableStyle-PatternedRows-Column-Regular" />
