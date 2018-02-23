@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="8" MadCap:lastHeight="7942" MadCap:lastWidth="916">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="8" MadCap:lastHeight="11703" MadCap:lastWidth="916">
     <head>
         <link href="../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
         <link href="../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
@@ -8,13 +8,13 @@
         <h1>EMS&#160;Mobile App<br />Release Notes (Version 44.1)</h1>
         <p>EMS release notes for the EMS&#160;Mobile App are organized by Update. For information on changes to other products released in the Update, click on the Update number in the title. See Also:&#160;<a href="#Contact_Customer_Support">Contact Customer Support</a>.</p>
         <ul class="unorder-list">
-            <li><a href="#Update21">V44.1, Update 21</a>
+            <li><a href="#Update21.5">V44.1, Update 21.5</a>
+            </li>
+            <li><a href="#Update21.4">V44.1, Update 21.4</a>
             </li>
             <li><a href="#Update20">V44.1, Update 20</a>
             </li>
-            <li><a href="#Update19">V44.1, Update 19</a>
-            </li>
-            <li><a href="#Update18">V44.1, Update 18</a>
+            <li><a href="#Update17">V44.1, Update 17</a>
             </li>
             <li><a href="#Update16">V44.1, Update 16</a>
             </li>
@@ -43,7 +43,7 @@
             <li><a href="#Update2">V44.1, Update 2</a>
             </li>
         </ul>
-        <h2 style="font-size: 24pt;"><a name="Update21"></a><span style="font-size: 26pt;"><span style="font-size: 24pt;">V44.1, </span></span><a href="../V44.1_ReleaseNotes.htm#Update21" style="font-size: 24pt;">Update 21</a><span style="font-size: 26pt;"><span style="font-size: 24pt;">*</span></span> <![CDATA[ ]]></h2>
+        <h2 style="font-size: 24pt;"><a name="Update21.5"></a><span style="font-size: 26pt;"><span style="font-size: 24pt;">V44.1, </span></span><a href="../V44.1_ReleaseNotes.htm#Update21.5" style="font-size: 24pt;">Update 21.5</a><span style="font-size: 26pt;"><span style="font-size: 24pt;">*</span></span> </h2>
         <table style="mc-table-style: url('../Resources/TableStyles/PatternedRows.css');width: 718px;" class="TableStyle-PatternedRows" cellspacing="0">
             <col class="TableStyle-PatternedRows-Column-Regular" style="width: 191px;" />
             <col class="TableStyle-PatternedRows-Column-Regular" style="width: 302px;" />
@@ -58,17 +58,17 @@
                     </th>
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1" style="text-align: center;">Patch number</th>
                     <th class="TableStyle-PatternedRows-HeadD-Regular-Header1" style="text-align: center;">
-                        <p style="text-align: center;">Build Number</p>
+                        <p>&#160;</p>
                     </th>
                 </tr>
             </thead>
             <tbody>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: center;">
-                        <p style="text-align: center;">01/31/2018</p>
+                        <p style="text-align: center;">2/20/2018</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: center;">
-                        <p style="text-align: center;">44.1.21000.201801220</p>
+                        <p style="text-align: center;">44.1.21005.4330</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: center;">
                         <p>&#160;</p>
@@ -81,7 +81,106 @@
                 </tr>
             </tbody>
         </table>
-        <h4> Fixes</h4>
+        <div class="note-box note">
+            <p><span class="bold">Note:</span>&#160;These updates are available from the App Store and Google Play stores. </p>
+        </div>
+        <h4> Fix</h4>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../Resources/TableStyles/PatternedRows.css');width: 100%;margin-left: auto;margin-right: auto;" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 157px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1" style="text-align: left;">
+                        <p class="p_6">Area</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1" style="text-align: left;">
+                        <p class="p_6">Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows" style="text-align: left;">
+                        <p class="RNArea">Authentication</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" style="text-align: left;">
+                        <p class="RNTitle">OpenID Authentication Not Working (Android)</p>
+                        <p class="RNBody"> OpenID&#160;authentication was not working for customers using Android devices. </p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that OpenID authentication works properly. </p>
+                        <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=36633" class="RNRefHyper" title="EMS Internal Use Only" alt="EMS Internal Use Only">36633</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h2 style="font-size: 24pt;"><a name="Update21.4"></a><span style="font-size: 26pt;"><span style="font-size: 24pt;">V44.1, </span></span><a href="../V44.1_ReleaseNotes.htm#Update21.4" style="font-size: 24pt;">Update 21.4</a><span style="font-size: 26pt;"><span style="font-size: 24pt;">*</span></span> </h2>
+        <table style="mc-table-style: url('../Resources/TableStyles/PatternedRows.css');width: 718px;" class="TableStyle-PatternedRows" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 191px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 302px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 240px;" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1" colspan="3">*Click the linked Update Number above for more information regarding <br />enhancements and fixes for all products released during this Update.</th>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1" style="text-align: center;">
+                        <p style="text-align: center;">Release Date</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1" style="text-align: center;">Patch number</th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1" style="text-align: center;">
+                        <p>&#160;</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: center;">
+                        <p style="text-align: center;">2/13/2018</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: center;">
+                        <p style="text-align: center;">44.1.21004.4325</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: center;">
+                        <p>&#160;</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows" style="text-align: center;" colspan="3">
+                        <p colspan="3" style="text-align: center;"><span class="bold">See Also</span>:&#160;<a href="Version44.1/Update21/KnownIssues.htm">Known Issues for Update 21</a><br /><a href="../WhatsNewV44.1.htm">What's New for Version 44.1</a></p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="note-box note">
+            <p><span class="bold">Note:</span>&#160;These updates are available from the App Store and Google Play stores. </p>
+        </div>
+        <h4> Fix</h4>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../Resources/TableStyles/PatternedRows.css');width: 100%;margin-left: 0;margin-right: auto;" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 157px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1" style="text-align: left;">
+                        <p class="p_6">Area</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1" style="text-align: left;">
+                        <p class="p_6">Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows" style="text-align: left;">
+                        <p class="RNArea">Authentication</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" style="text-align: left;">
+                        <p class="RNTitle">OpenID Authentication Not Working (iOS only)</p>
+                        <p class="RNBody"> OpenID&#160;authentication was not working. </p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that OpenID authentication works properly. </p>
+                        <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=36107" class="RNRefHyper" title="EMS Internal Use Only" alt="EMS Internal Use Only">36107</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
         <h2><a name="Update20"></a><span style="font-size: 26pt;"><span style="font-size: 24pt;">V44.1, </span></span><a href="../V44.1_ReleaseNotes.htm#Update20" style="font-size: 24pt;">Update 20</a><span style="font-size: 26pt;"><span style="font-size: 24pt;">*</span></span>
         </h2>
         <table style="mc-table-style: url('../Resources/TableStyles/PatternedRows.css');width: 718px;" class="TableStyle-PatternedRows" cellspacing="0">
@@ -111,7 +210,7 @@
                         <p>44.1.20000.201712150</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p>&#160;</p>
+                        <p style="text-align: center;">44.1.20000.4312</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
@@ -121,53 +220,10 @@
                 </tr>
             </tbody>
         </table>
-        <h4>Enhancements</h4>
-        <h4>Fixes</h4>
-        <h2><a name="Update19"></a><span style="font-size: 26pt;"><span style="font-size: 24pt;">V44.1, </span></span><a href="../V44.1_ReleaseNotes.htm#Update19" style="font-size: 24pt;">Update 19</a><span style="font-size: 26pt;"><span style="font-size: 24pt;">*</span></span>
-        </h2>
-        <table style="mc-table-style: url('../Resources/TableStyles/PatternedRows.css');width: 718px;" class="TableStyle-PatternedRows" cellspacing="0">
-            <col class="TableStyle-PatternedRows-Column-Regular" />
-            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 129px;" />
-            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 257px;" />
-            <thead>
-                <tr class="TableStyle-PatternedRows-Head-Header1">
-                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1" colspan="3">*Click the linked Update Number above for more information regarding <br />enhancements and fixes for all products released during this Update.</th>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Head-Header1">
-                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
-                        <p style="text-align: center;">Release Date</p>
-                    </th>
-                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
-                        <p style="text-align: center;">Patch number</p>
-                    </th>
-                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
-                        <p style="text-align: center;">Build Number</p>
-                    </th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p style="text-align: center;">11/30/17</p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p>44.1.19000.201711170</p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p>&#160;</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows" colspan="3" style="text-align: center;">
-                        <p colspan="3" style="text-align: center;"><span class="bold">See Also:&#160;</span><a href="Version44.1/Update19/KnownIssues.htm">Known Issues for Update 19</a>
-                            <br /><a href="../WhatsNewV44.1.htm">What's New for Version 44.1</a>
-                        </p>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-        <h4>Fix</h4>
-        <h2><a name="Update18"></a><span style="font-size: 26pt;"><span style="font-size: 24pt;">V44.1, </span></span><a href="../V44.1_ReleaseNotes.htm#Update18.0" style="font-size: 24pt;">Update 18</a><span style="font-size: 26pt;"><span style="font-size: 24pt;">*</span></span>
+        <div class="note-box important">
+            <p><span class="bold">Important:</span>&#160;Integration with Google Calendar has been added to the EMS Mobile App.&#160;For additional details, please see the&#160;<a href="U20_Google Calendar Integration.htm" title="Release_Notes/V44.1/EMS_Google_Integration_Release_Notes_V44.1%2C_Update_20" alt="Release_Notes/V44.1/EMS_Google_Integration_Release_Notes_V44.1%2C_Update_20">Google Calendar Integration Release Notes</a>.&#160;</p>
+        </div>
+        <h2><a name="Update17"></a><span style="font-size: 26pt;"><span style="font-size: 24pt;">V44.1, </span></span><a href="../V44.1_ReleaseNotes.htm#Update17.0" style="font-size: 24pt;">Update 17</a><span style="font-size: 26pt;"><span style="font-size: 24pt;">*</span></span>
         </h2>
         <table style="mc-table-style: url('../Resources/TableStyles/PatternedRows.css');width: 718px;" class="TableStyle-PatternedRows" cellspacing="0">
             <col class="TableStyle-PatternedRows-Column-Regular" style="width: 200px;" />
@@ -179,36 +235,114 @@
                 </tr>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
-                        <p>Release Date</p>
+                        <p style="text-align: center;">Release Date</p>
                     </th>
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
-                        <p>patch Number</p>
+                        <p style="text-align: center;">patch Number</p>
                     </th>
                     <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
-                        <p>build Number</p>
+                        <p style="text-align: center;">build Number</p>
                     </th>
                 </tr>
             </thead>
             <tbody>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p>10/31/2017</p>
+                        <p style="text-align: center;">10/13/2017</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p>44.1.18000.201710252</p>
+                        <p style="text-align: center;">44.1.16000.201710040</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p>&#160;</p>
+                        <p style="text-align: center;">44.1.17000.4278</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows" colspan="3">
-                        <p colspan="3" style="text-align: center;"><span class="bold">See Also:</span>&#160;<a href="Version44.1/Update18/U18_KnownIssues.htm">Known Issues for Update 18</a><br /><a href="../WhatsNewV44.1.htm">What's New for Version 44.1</a></p>
+                        <p colspan="3" style="text-align: center;"><span class="bold">See Also:</span>&#160;<a href="Version44.1/Update17/U17_KnownIssues.htm">Known Issues for Update 17</a><br /><a href="../WhatsNewV44.1.htm">What's New for Version 44.1</a></p>
                     </td>
                 </tr>
             </tbody>
         </table>
         <h4>fixes</h4>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../Resources/TableStyles/PatternedRows.css');margin-left: 0;margin-right: auto;width: 100%;" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 120px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p class="Strong_1">Area</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                        <p class="Strong_1">Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="RNArea">Events List</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="RNTitle">Start and End Times Were Incorrect in Booking Details for Meetings Occurring After Daylight Saving Time Ends</p>
+                        <p class="RNBody">For meetings that occur after Daylight Saving Time ends, the meeting start and end times were&#160;incorrect&#160;in the booking details.</p>
+                        <p class="RNBody"><span class="bold">Fix:&#160;</span>Modified functionality so that when meetings occur after Daylight Saving Time ends, the meeting start and end times will display correctly in the booking details.</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=30910" title="EMS Internal Use Only" alt="EMS Internal Use Only" class="rnrefhyper">30910</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td rowspan="6" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="RNArea">Scan QR Code</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="bold">After Scanning a QR Code, Selecting the "About This Location" Button Crashed the EMS Mobile App</p>
+                        <p class="RNBody">After scanning a QR code to view a room's schedule, the EMS Mobile App would crash if users selected the&#160;About This Location&#160;button from the room’s schedule/list view.</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that after scanning a QR code to view a room's schedule, the&#160;About This Location&#160;page opens if&#160;users select the&#160;About This Location&#160;button from the room’s schedule/list view. &#160;</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=33113" title="EMS Internal Use Only" alt="EMS Internal Use Only" class="rnrefhyper">33113</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="bold">After Scanning a QR Code, Schedule/List View Was Shown Even Though Room Was Not Assigned to User Templates, and EMS Mobile App Crashed If Users Tried to Book the Room</p>
+                        <p class="RNBody">After scanning a QR code for a room that was not assigned to any of the users’ templates, the room’s schedule/list view was shown, and if users selected the&#160;+&#160;button to book the room, the EMS Mobile App would crash.</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that when users scan a QR code for a room that is not assigned to any of the users’ templates, the EMS Mobile App will not crash; instead, the app will detect that the room is not assigned to the users’ templates, and users will receive an error message.</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=33115" title="EMS Internal Use Only" alt="EMS Internal Use Only" class="rnrefhyper">33115</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="bold">After Scanning a QR Code, the Room’s Schedule/List View Did Not Load</p>
+                        <p class="RNBody">When scanning a QR code to view a room’s schedule, the room’s schedule/list view did not load unless users re-scanned the QR code or switched between the schedule/list view.</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that a room’s schedule/list view loads the first time users scan the room’s QR code.</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=33116" title="EMS Internal Use Only" alt="EMS Internal Use Only" class="rnrefhyper">33116</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="bold">After Scanning a QR Code, Selecting the + Button in Schedule/List View Crashed the EMS Mobile App</p>
+                        <p class="RNBody">After scanning a room’s QR code, the EMS Mobile App would crash if users selected the&#160;+&#160;button from the room’s schedule/list view.</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that after scanning a room’s QR code, the app will not crash when users can select the + button from the room’s schedule/list view; instead, a&#160;list of available templates will appear when users select the&#160;+&#160;button.</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=33117" title="EMS Internal Use Only" alt="EMS Internal Use Only" class="rnrefhyper">33117</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="bold">When Scanning a QR Code Associated with a Fully Defaulted Template, Users Experienced Infinite Loading When Trying to Create a Booking</p>
+                        <p class="RNBody">When scanning a QR code associated with a fully defaulted template, users experienced infinite loading instead of having the booking created.</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that when users scan a QR code associated with a fully defaulted template, the booking is created.</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=33393" title="EMS Internal Use Only" alt="EMS Internal Use Only" class="rnrefhyper">33393</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
+                        <p class="bold">For Bookings Requiring Check In, Users Weren't Checked In When Scanning the&#160;QR Code</p>
+                        <p class="RNBody">For bookings created with rooms that require check in, users were not checked in&#160;when they&#160;scanned the QR code to check in; instead,&#160;they&#160; were&#160;shown the events list.</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that when a booking requires check in and users scan the QR code, users are checked in to the booking and receive a message stating that check in was successful.</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=33396" title="EMS Internal Use Only" alt="EMS Internal Use Only" class="rnrefhyper">33396</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
         <h2><a name="Update16"></a><span><span style="font-size: 24pt;">V44.1, </span></span><a href="../V44.1_ReleaseNotes.htm#Update16.0" style="font-size: 24pt;">Update 16</a><span><span style="font-size: 24pt;">*</span></span>
         </h2>
         <table style="mc-table-style: url('../Resources/TableStyles/PatternedRows.css');width: 718px;" class="TableStyle-PatternedRows" cellspacing="0">
@@ -237,10 +371,10 @@
                         <p style="text-align: center;">09/29/2017</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p>&#160;</p>
+                        <p style="text-align: center;">44.1.16000.201709202</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p>&#160;</p>
+                        <p style="text-align: center;">44.1.16000.4264</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
@@ -250,7 +384,7 @@
                 </tr>
             </tbody>
         </table>
-        <h4>Fix</h4>
+        <h4>Fixes</h4>
         <h2><a name="Update15"></a><span style="font-size: 24pt;">V44.1, </span><a href="../V44.1_ReleaseNotes.htm#Update15" style="font-size: 24pt;">Update 15</a><span style="font-size: 24pt;">*</span>
         </h2>
         <table style="mc-table-style: url('../Resources/TableStyles/PatternedRows.css');width: 718px;" class="TableStyle-PatternedRows" cellspacing="0">
