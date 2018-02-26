@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="8" MadCap:lastHeight="12949" MadCap:lastWidth="916">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="8" MadCap:lastHeight="16066" MadCap:lastWidth="916">
     <head>
         <link href="../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
         <link href="../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
@@ -581,7 +581,111 @@
                 </tr>
             </tbody>
         </table>
+        <div class="note-box important">
+            <p><span class="bold">Important Notes:</span>
+            </p>
+            <ul class="unorder-list">
+                <li>The EMS Mobile App Update 7 version was removed from the Apple App Store and Google Play Store on July&#160;7,&#160;2017. </li>
+                <li>EMS Mobile App Update 12 is compatible with Platform Services Update 12, as well as previous versions. </li>
+                <li>Platform Services Update 12 is NOT compatible with previous versions of EMS Mobile App. Customers upgrading to Platform Services Update 12 must upgrade to EMS Mobile App Update 12.</li>
+            </ul>
+        </div>
         <h4>Fixes</h4>
+        <table style="mc-table-style: url('../Resources/TableStyles/PatternedRows.css');margin-left: 0;margin-right: auto;" class="TableStyle-PatternedRows" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p>Area</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                        <p>Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td rowspan="2" class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="RNArea">Create Reservation</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="RNTitle">Contact Record Not Displayed</p>
+                        <p class="RNBody">When creating or editing a booking, the Contact ('None') record was not displaying.&#160;</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that the&#160;Contact record '(None)' is a selectable option when creating and editing a booking.</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workitems?_a=edit&amp;id=27874" title="EMS Internal Use Only" class="rnrefhyper" alt="EMS Internal Use Only">27874</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="RNTitle">Load More Button Displayed on the Top of Events List For 0.5 to 1 Second After Creating and Saving Booking</p>
+                        <p class="RNBody">When users were creating or editing a reservation, the Load More button displayed at the top of the Events List for only 0.5 to 1 second after creating and saving the booking.&#160;</p>
+                        <p class="RNBody">Fix:&#160;Modified functionality so that the Load More button doesn't appear&#160;at the top of the Events List right after creating and saving the booking.</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workitems?_a=edit&amp;id=30948" title="EMS Internal Use Only" class="rnrefhyper" alt="EMS Internal Use Only">30948</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="RNArea">User Defined Field</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="RNTitle">User Defined Fields Were Unreadable Due to Truncation</p>
+                        <p class="RNBody">When a template with a user defined field (UDF) was selected, users were unable to read the UDF question in its entirety.&#160;</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that users can read the UDF in order to provide an intelligent answer.&#160;</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workitems?_a=edit&amp;id=30892" title="EMS Internal Use Only" class="rnrefhyper" alt="EMS Internal Use Only">30892</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td rowspan="2" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="RNArea">Events List</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="RNTitle">Check In Icon Not Displayed After Checking In</p>
+                        <p class="RNBody">The Check In icon was not displaying right after the user checked in. User was forced to manually refresh the Events List.&#160;</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that the Events List automatically refreshed and the Check In icon appeared near the booking.&#160;</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workitems?_a=edit&amp;id=31009" title="EMS Internal Use Only" class="rnrefhyper" alt="EMS Internal Use Only">31009</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="RNTitle">After Canceling a Booking from the Drawer, the Spinning Circle Disappeared</p>
+                        <p class="RNBody">The spinning circle was missing after canceling a booking from the drawer.&#160;</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that the spinning circle is present before booking is canceled and the Events List updated.&#160;</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workitems?_a=edit&amp;id=31039" title="EMS Internal Use Only" class="rnrefhyper" alt="EMS Internal Use Only">31039</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td rowspan="2" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="RNArea">Skype for Business</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="RNTitle">Mobile App Crashed When User Clicked "Continue Without Adding Skype" Button</p>
+                        <p class="RNBody">If Skype is not configured correctly, clicking the "Continue Without Adding Skype" button crashes the app instead of leading to Create Reservation page.&#160;</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that users clicking Continue Without Adding Skype button are led to the Create Reservation page.&#160;</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workitems?_a=edit&amp;id=31068" title="EMS Internal Use Only" class="rnrefhyper" alt="EMS Internal Use Only">31068</a></p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="RNTitle">Previously Entered UDFs&#160;Were Refreshing After Enabling Skype Toggle</p>
+                        <p class="RNBody">When the Skype toggle was enabled for the first time, previously entered user-defined fields (UDFs) were refreshing.&#160;</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that previously entered UDFs do not refresh and users do not have to repopulate UDFs.</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workitems?_a=edit&amp;id=31327" title="EMS Internal Use Only" class="rnrefhyper" alt="EMS Internal Use Only">31327</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
+                        <p class="RNArea">Configuration</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
+                        <p class="RNTitle">Mobile App Crashed When Users Imported OpenID Configuration</p>
+                        <p class="RNBody">When users configured the EMS Mobile App to use OpenID, the config import caused the app to crash. The app would continue to crash after each subsequent try until the user uninstalled and then reinstalled the app.&#160;</p>
+                        <p class="RNBody"><span class="bold">Fix:&#160;</span>Modified functionality so that the OpenID configuration import does not cause the EMS Mobile App to crash.&#160;</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workitems?_a=edit&amp;id=31093" title="EMS Internal Use Only" class="rnrefhyper" alt="EMS Internal Use Only">31093</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
         <h2><a name="Update12"></a><span style="font-size: 24pt;">V44.1, </span><a href="../V44.1_ReleaseNotes.htm#Update12" style="font-size: 24pt;">Update 12</a><span style="font-size: 24pt;">*</span>
         </h2>
         <table style="mc-table-style: url('../Resources/TableStyles/PatternedRows.css');width: 718px;" class="TableStyle-PatternedRows" cellspacing="0">
@@ -613,7 +717,7 @@
                         <p style="text-align: center;">2017.06.29.0</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p>&#160;</p>
+                        <p style="text-align: center;">44.1.12000.4222</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
@@ -626,6 +730,7 @@
         </table>
         <h4>Enhancements</h4>
         <h4>Fixes</h4>
+        <p>&#160;</p>
         <h2><a name="Update11"></a><span style="font-size: 24pt;">V44.1, </span><a href="../V44.1_ReleaseNotes.htm#Update11" style="font-size: 24pt;">Update 11</a><span style="font-size: 24pt;">*</span>
         </h2>
         <table style="mc-table-style: url('../Resources/TableStyles/PatternedRows.css');width: 718px;" class="TableStyle-PatternedRows" cellspacing="0">
