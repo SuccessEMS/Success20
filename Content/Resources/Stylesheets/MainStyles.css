@@ -1,4 +1,4 @@
-/*<meta />*/
+﻿/*<meta />*/
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
 
@@ -2357,6 +2357,12 @@ p.beforelist
 	margin-bottom: 5px;
 }
 
+p.InternalRef
+{
+	font-size: 15px;
+	color: #939393;
+}
+
 p.RNArea
 {
 	font-style: italic;
@@ -2390,4 +2396,3 @@ a.RNRefHyper
 {
 	font-size: 15px;
 }
-
