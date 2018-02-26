@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="8" MadCap:lastHeight="20579" MadCap:lastWidth="916">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="8" MadCap:lastHeight="21916" MadCap:lastWidth="916">
     <head>
         <link href="../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
         <link href="../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
@@ -923,7 +923,7 @@
                         <p style="text-align: center;">2017.05.09.1</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p style="text-align: center;">&#160;</p>
+                        <p style="text-align: center;">44.1.11000.3761</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
@@ -935,6 +935,60 @@
             </tbody>
         </table>
         <h4>Fixes</h4>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../Resources/TableStyles/PatternedRows.css');margin-left: auto;margin-right: auto;" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p class="Strong_1">Area</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                        <p class="Strong_1">Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="RNArea">About Page</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="RNTitle">API Revision Number Missing on About Page</p>
+                        <p class="RNBody">The API revision number was not displayed with the version number on the About Page.</p>
+                        <p class="RNBody"><span class="bold">Fix: </span>Modified the page to add the API revision number.</p>
+                        <p class="RNRef">Internal Reference # <a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=29299" title="EMS Internal Use Only" alt="EMS Internal Use Only" class="rnrefhyper">29299</a><br />(EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td rowspan="3" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="RNArea">Authentication</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="RNTitle">Entering a Blank Server URL Over SSO Caused Crash</p>
+                        <p class="RNBody">When users changed the Server URL to an empty value using Single Sign On authentication, EMS Mobile App crashed.</p>
+                        <p class="RNBody"><span class="bold">Fix:</span> Modified validations so the app no longer crashes and instead presents the error message, "Unable to import configuration".</p>
+                        <p class="RNRef">Internal Reference # <a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=29733" class="rnrefhyper">29733</a><br />(EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="RNTitle">Child User-Defined Fields Disappear</p>
+                        <p class="RNBody">When users edited values in User Defined Fields (UDFs) that had child fields, saved changes, and then opened the reservation to edit again, the child UDFs did not display.</p>
+                        <p class="RNBody"><span class="bold">Fix:</span> Modified functionality so that child UDFs display in edit mode.</p>
+                        <p class="RNRef">Internal Reference # <a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=29480" class="rnrefhyper">29480</a><br />(EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
+                        <p class="RNTitle">User Authentication Issues Due To Custom config.json File</p>
+                        <p class="RNBody">For customers who used a custom config.json file, users had to click the About &gt; EMS Server URL in order to authenticate.</p>
+                        <p class="RNBody"><span class="bold">Fix:</span> Modified functionality so that custom config.json files no longer cause the issue and users authenticate in one step.</p>
+                        <p class="RNRef">Internal Reference # <a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=29692" class="rnrefhyper">29692</a><br />(EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
         <h2><a name="Update9"></a><span style="font-size: 24pt;">V44.1, </span><a href="../V44.1_ReleaseNotes.htm#Update9" style="font-size: 24pt;">Update 9</a><span style="font-size: 24pt;">*</span>
         </h2>
         <table style="mc-table-style: url('../Resources/TableStyles/PatternedRows.css');width: 718px;" class="TableStyle-PatternedRows" cellspacing="0">
