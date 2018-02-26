@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="8" MadCap:lastHeight="11703" MadCap:lastWidth="916">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="8" MadCap:lastHeight="12949" MadCap:lastWidth="916">
     <head>
         <link href="../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
         <link href="../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
@@ -18,9 +18,9 @@
             </li>
             <li><a href="#Update16">V44.1, Update 16</a>
             </li>
-            <li><a href="#Update15">V44.1, Update 15</a>
+            <li><a href="#Update15.1">V44.1, Update 15.1</a>
             </li>
-            <li><a href="#Update14">V44.1, Update 14</a>
+            <li><a href="#Update15">V44.1, Update 15</a>
             </li>
             <li><a href="#Update13">V44.1, Update 13</a>
             </li>
@@ -43,7 +43,7 @@
             <li><a href="#Update2">V44.1, Update 2</a>
             </li>
         </ul>
-        <h2 style="font-size: 24pt;"><a name="Update21.5"></a><span style="font-size: 26pt;"><span style="font-size: 24pt;">V44.1, </span></span><a href="../V44.1_ReleaseNotes.htm#Update21.5" style="font-size: 24pt;">Update 21.5</a><span style="font-size: 26pt;"><span style="font-size: 24pt;">*</span></span> </h2>
+        <h2 style="font-size: 24pt;"><a name="Update21.5"></a><span style="font-size: 26pt;"><span style="font-size: 24pt;">V44.1, </span></span><a href="../V44.1_ReleaseNotes.htm#Update21.5" style="font-size: 24pt;">Update 21.5</a><span style="font-size: 26pt;"><span style="font-size: 24pt;">*</span></span> <![CDATA[ ]]></h2>
         <table style="mc-table-style: url('../Resources/TableStyles/PatternedRows.css');width: 718px;" class="TableStyle-PatternedRows" cellspacing="0">
             <col class="TableStyle-PatternedRows-Column-Regular" style="width: 191px;" />
             <col class="TableStyle-PatternedRows-Column-Regular" style="width: 302px;" />
@@ -112,7 +112,7 @@
                 </tr>
             </tbody>
         </table>
-        <h2 style="font-size: 24pt;"><a name="Update21.4"></a><span style="font-size: 26pt;"><span style="font-size: 24pt;">V44.1, </span></span><a href="../V44.1_ReleaseNotes.htm#Update21.4" style="font-size: 24pt;">Update 21.4</a><span style="font-size: 26pt;"><span style="font-size: 24pt;">*</span></span> </h2>
+        <h2 style="font-size: 24pt;"><a name="Update21.4"></a><span style="font-size: 26pt;"><span style="font-size: 24pt;">V44.1, </span></span><a href="../V44.1_ReleaseNotes.htm#Update21.4" style="font-size: 24pt;">Update 21.4</a><span style="font-size: 26pt;"><span style="font-size: 24pt;">*</span></span> <![CDATA[ ]]></h2>
         <table style="mc-table-style: url('../Resources/TableStyles/PatternedRows.css');width: 718px;" class="TableStyle-PatternedRows" cellspacing="0">
             <col class="TableStyle-PatternedRows-Column-Regular" style="width: 191px;" />
             <col class="TableStyle-PatternedRows-Column-Regular" style="width: 302px;" />
@@ -385,6 +385,90 @@
             </tbody>
         </table>
         <h4>Fixes</h4>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../Resources/TableStyles/PatternedRows.css');margin-left: 0;margin-right: auto;width: 100%;" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p class="Strong_1">Area</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                        <p class="Strong_1">Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="RNArea">Scan QR Code</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="RNTitle">QR Code Events List Was Empty After Selecting Back Button in Booking Details</p>
+                        <p class="RNBody">When users scanned a QR code to view bookings in the events list, the events list was empty after the users selected the&#160;Back&#160;button in Booking Details.</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that when users scan a QR code to view bookings in the events list, the bookings display in the QR Code events list after users select the&#160;Back&#160;button in Booking Details.&#160;</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=31033" title="EMS Internal Use Only" class="rnrefhyper" alt="EMS Internal Use Only">31033</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
+                        <p class="RNArea">New Booking &gt; Find a Room</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
+                        <p class="RNTitle">Find a Room Search Results Not Showing Available Rooms</p>
+                        <p class="RNBody">When searching for an available room to book, the Find a Room search results did not show any rooms as available even though there were&#160;rooms&#160;available.</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that when users view the Find a Room search results, all available rooms will display in the results list.</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=32555" title="EMS Internal Use Only" class="RNrefhyper" alt="EMS Internal Use Only">32555</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h2><a name="Update15.1"></a><span style="font-size: 24pt;">V44.1, </span><a href="../V44.1_ReleaseNotes.htm#Update15.1" style="font-size: 24pt;">Update 15.1</a><span style="font-size: 24pt;">*</span>
+        </h2>
+        <table style="mc-table-style: url('../Resources/TableStyles/PatternedRows.css');width: 718px;" class="TableStyle-PatternedRows" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 200px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 261px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1" colspan="3">*Click the linked Update Number above for more information regarding <br />enhancements and fixes for all products released during this Update.</th>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p style="text-align: center;">Release Date</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p style="text-align: center;">patch Number</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                        <p style="text-align: center;">build Number</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p style="text-align: center;">09/06/2017</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p style="text-align: center;">44.1.15001.3023</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p style="text-align: center;">44.1.15000.4256</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows" colspan="3">
+                        <p style="text-align: center;"><span class="bold">See Also:&#160;</span><a href="Version44.1/Update15/U15_KnownIssues.htm">Known Issues for Update 15</a>
+                            <br /><a href="../WhatsNewV44.1.htm">What's New for Version 44.1</a>
+                        </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="note-box important">
+            <p><span class="bold">Important:</span>&#160;This interim 15.1&#160;release addresses NTLM and SAML&#160;authentication issues associated with the EMS Mobile App.</p>
+        </div>
         <h2><a name="Update15"></a><span style="font-size: 24pt;">V44.1, </span><a href="../V44.1_ReleaseNotes.htm#Update15" style="font-size: 24pt;">Update 15</a><span style="font-size: 24pt;">*</span>
         </h2>
         <table style="mc-table-style: url('../Resources/TableStyles/PatternedRows.css');width: 718px;" class="TableStyle-PatternedRows" cellspacing="0">
@@ -416,7 +500,7 @@
                         <p>44.1.15000.201708291</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p>&#160;</p>
+                        <p style="text-align: center;">44.1.150000.4256</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
@@ -428,49 +512,34 @@
                 </tr>
             </tbody>
         </table>
-        <h4>Fixes</h4>
-        <h2><a name="Update14"></a><span style="font-size: 24pt;">V44.1, </span><a href="../V44.1_ReleaseNotes.htm#Update14" style="font-size: 24pt;">Update 14</a><span style="font-size: 24pt;">*</span>
-        </h2>
-        <table style="mc-table-style: url('../Resources/TableStyles/PatternedRows.css');width: 718px;" class="TableStyle-PatternedRows" cellspacing="0">
-            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 200px;" />
-            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 261px;" />
+        <h4>Fix</h4>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../Resources/TableStyles/PatternedRows.css');margin-left: 0;margin-right: auto;width: 100%;" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" />
             <col class="TableStyle-PatternedRows-Column-Regular" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
-                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1" colspan="3">*Click the linked Update Number above for more information regarding <br />enhancements and fixes for all products released during this Update.</th>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
-                        <p style="text-align: center;">Release Date</p>
-                    </th>
-                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
-                        <p style="text-align: center;">patch Number</p>
+                        <p class="Strong_1">Area</p>
                     </th>
                     <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
-                        <p style="text-align: center;">build Number</p>
+                        <p class="Strong_1">Description</p>
                     </th>
                 </tr>
             </thead>
             <tbody>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p style="text-align: center;">07/31/17</p>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                        <p class="RNArea">Edit Booking</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p>44.1.13000.201707100</p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p>&#160;</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows" colspan="3">
-                        <p style="text-align: center;">See Also:&#160;<a href="Version44.1/Update14/Known Issues Home V44.1 Update 14.htm">Known Issues for Update 14</a><br /><a href="../WhatsNewV44.1.htm">What's New for Version 44.1</a></p>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
+                        <p class="RNTitle">Edited Bookings Not Being Updated&#160;</p>
+                        <p class="RNBody">Users trying to edit&#160;a&#160;booking&#160;were receiving the error message "There was an error updating the booking" and the booking was not updated.</p>
+                        <p class="RNBody"><span class="bold">Fix:</span> Modified functionality so that when users edit a booking, the booking is updated.</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=32399" title="EMS Internal Use Only" class="rnrefhyper" alt="EMS Internal Use Only">32399</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
             </tbody>
         </table>
-        <h4>Fixes</h4>
         <h2><a name="Update13"></a><span style="font-size: 24pt;">V44.1, </span><a href="../V44.1_ReleaseNotes.htm#Update13" style="font-size: 24pt;">Update 13</a><span style="font-size: 24pt;">*</span>
         </h2>
         <table style="mc-table-style: url('../Resources/TableStyles/PatternedRows.css');width: 718px;" class="TableStyle-PatternedRows" cellspacing="0">
@@ -502,7 +571,7 @@
                         <p>44.1.13000.201707100</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p style="text-align: center;">&#160;</p>
+                        <p style="text-align: center;">44.1.13000.4254</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
@@ -512,7 +581,7 @@
                 </tr>
             </tbody>
         </table>
-        <h4>Fix</h4>
+        <h4>Fixes</h4>
         <h2><a name="Update12"></a><span style="font-size: 24pt;">V44.1, </span><a href="../V44.1_ReleaseNotes.htm#Update12" style="font-size: 24pt;">Update 12</a><span style="font-size: 24pt;">*</span>
         </h2>
         <table style="mc-table-style: url('../Resources/TableStyles/PatternedRows.css');width: 718px;" class="TableStyle-PatternedRows" cellspacing="0">
