@@ -198,22 +198,22 @@
           Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/A_IG_CWS/CWS_IG_44_InstallUpgrade.html"
           Title="Install or Upgrade the EMS Campus Web Service" />
         <TocEntry
-          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/A_IG_CWS/CWS_IG_44.1_ConfigSteps.htm"
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/A_IG_CWS/CampusWebService_Configuration_44.1.htm"
           Title="Configure EMS Campus Web Service" />
         <TocEntry
-          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/A_IG_CWS/CWS_IG_44_Data Models.htm"
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/A_IG_CWS/CampusWebService_DataModels_44.1.htm"
           Title="Data Models">
           <TocEntry
-            Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/A_IG_CWS/CWS_IG_44.1_BanView.htm"
+            Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/A_IG_CWS/CampusWebService_BannerView_44.1.htm"
             Title="Banner Views Data Model" />
           <TocEntry
-            Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/A_IG_CWS/CWS_IG_44.1_CAMSView.htm"
+            Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/A_IG_CWS/CampusWebService_CAMS_44.1.htm"
             Title="CAMS Views Data Model" />
           <TocEntry
-            Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/A_IG_CWS/CWS_IG_44.1_ColleagOrac.htm"
+            Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/A_IG_CWS/CampusWebService_ColleagueOracleSQL_44.1.htm"
             Title="Colleague (Oracle or SQL) Views Data Model" />
           <TocEntry
-            Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/A_IG_CWS/CWS_IG_44.1_ColleagUnidata.htm"
+            Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/A_IG_CWS/CampusWebService_ColleagueUnidata_44.1.htm"
             Title="Colleague Unidata Views Data Model" />
           <TocEntry
             Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/A_IG_CWS/CWS_IG_44_JenzabarCX.htm"
@@ -232,7 +232,7 @@
           Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/A_IG_CWS/CWS_IG_44_WebSvOverview.htm"
           Title="Web Service Overview" />
         <TocEntry
-          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/A_IG_CWS/CWS_IG_44.1_AppendA.htm"
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/A_IG_CWS/CampusWebService_FormatTabDelimitedFiles_44.1.htm"
           Title="Appendix A - Format for Tab-Delimited Files" />
         <TocEntry
           Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_IntegCourseStudentInfowithSIS.htm"
