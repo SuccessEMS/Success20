@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xml:lang="en-us" MadCap:lastBlockDepth="6" MadCap:lastHeight="7209" MadCap:lastWidth="1120" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\EMSDesktopClient.flmsp');" class="desktopClient">
+<html xml:lang="en-us" MadCap:lastBlockDepth="8" MadCap:lastHeight="9610" MadCap:lastWidth="777" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\EMSDesktopClient.flmsp');" class="desktopClient">
     <head>
         <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
         <link href="../../../../Resources/Stylesheets/DTC_V44_CGOthDataTypes.css" rel="stylesheet" />
@@ -9,7 +9,7 @@
         <p>Holidays&#160;are days that have special significance for your organization, for example, New Year’s Day, Spring Break, Staff Retreat, and so on. Holidays are displayed in various places throughout your EMS system. The holiday designation is for informational purposes only and unless you specifically close the date to your users, your users are not prevented from making reservations or booking rooms on a holiday. You must&#160;configure&#160;your organization’s holidays each calendar year. EMS does not assume that a day that is a holiday for the current calendar year is also a holiday for the next calendar year. You can configure holidays on an individual basis, you can configure multiple holidays, or you can use a wizard to import a list of holidays in a single step. Optionally, after you configure or import a list of holidays, you can configure the hours for the buildings that are affected by the holiday. By default, buildings are configured to be “Open All Day.” You can configure the hours for a building so that the building is open for only a specific time period on the holiday, or the building is closed for the entire holiday.</p>
         <h2 class="Heading2">To configure holidays&#160;</h2>
         <ol start="1">
-            <li>On the EMS menu bar, click Configuration &gt; Other &gt; Holidays.</li>
+            <li>On the EMS menu bar, click Configuration &gt; Other &gt; Holidays. </li>
         </ol>
         <p>The Holidays window opens. This window lists all the holidays that are currently configured for all buildings in your EMS database and that have a date greater than or equal to the current day’s date.</p>
         <p>
@@ -184,7 +184,7 @@
             <li>Description of holiday (Required. 50 characters maximum, including spaces.)</li>
             <li>Notes (Optional. No maximum.)</li>
         </ul>
-        <p class="note-box">Note:&#160;Each holiday must be a separate line entry. To see the required format for the<br />tab-delimited file, on the Holidays window, click Print &gt; Import Format or&#160;see <a href="../../V44.1/B_ConfigGuide/DC_CG_ImportFileSpec.htm" title="Import File Specifications" alt="Import File Specifications">Import File Specifications</a>.</p>
+        <p class="note-box">Note:&#160;Each holiday must be a separate line entry. To see the required format for the<br />tab-delimited file, on the Holidays window, click Print &gt; Import Format or&#160;see <a href="DC_CG_SpecialDateImportFileSpec.htm">Special Date Import File Specifications. </a></p>
         <ol start="2">
             <li>Click Wizard.&#160;The Holiday Wizard opens.</li>
         </ol>
@@ -240,8 +240,10 @@
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
                         <p>Select this option to close the building for the entire holiday period. When you select this option, then a Web Only option is displayed on the Building Hours dialog box.</p>
-                        <p>• If you do&#160;not&#160;select Web Only, then none of your users (EMS or VEMS) can make reservations on this date in the selected buildings.</p>
-                        <p>• If you do select Web Only, then your EMS users can make reservations on this date in the selected buildings; however, your VEMS users cannot.</p>
+                        <ul>
+                            <li>If you do&#160;not&#160;select Web Only, then none of your users (EMS or VEMS) can make reservations on this date in the selected buildings.</li>
+                            <li>If you do select Web Only, then your EMS users can make reservations on this date in the selected buildings; however, your VEMS users cannot.</li>
+                        </ul>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
