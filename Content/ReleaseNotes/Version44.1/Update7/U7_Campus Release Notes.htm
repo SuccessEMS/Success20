@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xml:lang="en-us" MadCap:lastBlockDepth="6" MadCap:lastHeight="2765" MadCap:lastWidth="847" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+<html xml:lang="en-us" MadCap:lastBlockDepth="6" MadCap:lastHeight="3597" MadCap:lastWidth="915" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
         <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" />
         <link href="../../../1DesktopClient/V44.1/Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
         <link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
-        <h1>EMS Desktop Client -- Academic Planning Release Notes <br />V44.1 Update 7</h1>
+        <h1>EMS Desktop Client -- Academic Planning <br />Release Notes <br />V44.1 Update 7</h1>
         <p class="p_34">This section describes updates to&#160;your EMS software.&#160;</p>
         <p class="p_72">See Also:&#160;</p>
         <ul class="ul_1">
@@ -51,47 +51,46 @@
             <tbody>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p class="p_26">Publish Courses</p>
+                        <p class="RNArea">Publish Courses</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <h4>Cross-Listed Courses Missing Info, Slow Performance</h4>
-                        <p class="NormalWeb_2">When users published a term that included cross-listed courses, conflict handling caused slow performance, errors, and the courses were missing course dates.</p>
-                        <p class="NormalWeb_2">Fix:&#160;Modified conflict handling so that data is published efficiently and the issues no longer occur.</p>
-                        <p class="p_25">24544</p>
+                        <p class="RNTitle">Cross-Listed Courses Missing Info, Slow Performance</p>
+                        <p class="RNBody">When users published a term that included cross-listed courses, conflict handling caused slow performance, errors, and the courses were missing course dates.</p>
+                        <p class="RNBody">Fix:&#160;Modified conflict handling so that data is published efficiently and the issues no longer occur.</p>
+                        <p class="RNRef">EMS&#160;Internal Reference # 24544<br />(For Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p class="p_26">Academic Browser</p>
+                        <p class="RNArea">Academic Browser</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <h4>SIS Caused Duplicate Courses</h4>
-                        <p class="NormalWeb_2">Due to syncing issues for section changes over SIS, switching section numbers for two courses resulted in duplicating both courses in the Academic Browser.&#160;</p>
-                        <p class="NormalWeb_2">Fix:&#160;Modified synchronization to correctly process the switched section numbers without duplicating the courses.</p>
-                        <p class="p_4"><a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/18103" class="a_16">18103</a>
-                        </p>
+                        <p class="RNTitle">SIS Caused Duplicate Courses</p>
+                        <p class="RNBody">Due to syncing issues for section changes over SIS, switching section numbers for two courses resulted in duplicating both courses in the Academic Browser.&#160;</p>
+                        <p class="RNBody">Fix:&#160;Modified synchronization to correctly process the switched section numbers without duplicating the courses.</p>
+                        <p class="RNRef">EMS&#160;Internal Reference # 18103<br />(For Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p class="p_26">Academic Book</p>
+                        <p class="RNArea">Academic Book</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <h4>Instructor View of Courses Unavailable When Listing All Subjects</h4>
-                        <p class="NormalWeb_2">When users navigated to the course view for a specific instructor and included all subjects, the view was empty.</p>
-                        <p class="NormalWeb_2">Fix:&#160;Modified the view to show all courses for an instructor in all subjects as expected.</p>
-                        <p class="p_25">21914</p>
+                        <p class="RNTitle">Instructor View of Courses Unavailable When Listing All Subjects</p>
+                        <p class="RNBody">When users navigated to the course view for a specific instructor and included all subjects, the view was empty.</p>
+                        <p class="RNBody">Fix:&#160;Modified the view to show all courses for an instructor in all subjects as expected.</p>
+                        <p class="RNRef">EMS&#160;Internal Reference # 21914<br />(For Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
-                        <p class="p_26">Cancellations</p>
+                        <p class="RNArea">Cancellations</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
-                        <h4>Canceling One Meeting Pattern Updates Course Status Incorrectly</h4>
-                        <p class="NormalWeb_2">When users canceled one meeting pattern for a published term that had more than one meeting pattern, the reservation status incorrectly changed to Canceled.</p>
-                        <p class="NormalWeb_2">Fix:&#160;Modified validations so the reservation status remains Confirmed as long as one confirmed meeting pattern exists in the course.</p>
-                        <p class="p_25">22977</p>
+                        <p class="RNTitle">Canceling One Meeting Pattern Updates Course Status Incorrectly</p>
+                        <p class="RNBody">When users canceled one meeting pattern for a published term that had more than one meeting pattern, the reservation status incorrectly changed to Canceled.</p>
+                        <p class="RNBody">Fix:&#160;Modified validations so the reservation status remains Confirmed as long as one confirmed meeting pattern exists in the course.</p>
+                        <p class="RNRef">EMS&#160;Internal Reference # 22977<br />(For Internal Use Only)</p>
                     </td>
                 </tr>
             </tbody>
