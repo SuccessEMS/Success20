@@ -3080,7 +3080,7 @@
     </TocEntry>
     <TocEntry
       Title="EMS Desktop Client - Academic Planning"
-      Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/C_UG_Campus/Campus_UG_44_AcademicPlanwithCampus.htm">
+      Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/C_UG_Campus/AcademicPlanwithCampus_44.1.htm">
       <TocEntry
         Title="Overview of the Academic Scheduling Process"
         Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/C_UG_Campus/Campus_UG_44_OverviewAcademicScheduling.htm" />
@@ -3122,7 +3122,7 @@
         Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/C_UG_Campus/Campus_UG_44_AvailActionsCourseNav.htm" />
       <TocEntry
         Title="Add and Review Courses"
-        Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/C_UG_Campus/Campus_UG_44_AddReviewCourses.htm" />
+        Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/C_UG_Campus/AddReviewCourses_44.1.htm" />
       <TocEntry
         Title="Edit or Cancel Courses"
         Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/C_UG_Campus/Campus_UG_44_EditCancelCourses.htm" />
@@ -3143,7 +3143,7 @@
         Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/C_UG_Campus/Campus_UG_44_OverviewRoomAssignOpti.htm" />
       <TocEntry
         Title="Assign Rooms"
-        Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/C_UG_Campus/Campus_UG_44_AssignRooms.htm" />
+        Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/C_UG_Campus/AssignRooms_44.1.htm" />
       <TocEntry
         Title="Using the Search for Rooms Tool"
         Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/C_UG_Campus/Campus_UG_44_UseSearchRoomsTool.htm" />
@@ -3158,7 +3158,7 @@
         Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/C_UG_Campus/Campus_UG_44_ManualUpdateCourseLocSIS.htm" />
       <TocEntry
         Title="About Creating Scenarios and Optimization"
-        Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/C_UG_Campus/Campus_UG_44_AboutCreateScenariosOpt.htm" />
+        Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/C_UG_Campus/AboutCreateScenariosOpt_44.1.htm" />
       <TocEntry
         Title="Create Scenarios"
         Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/C_UG_Campus/Campus_UG_44_CreateScenarios.htm" />
