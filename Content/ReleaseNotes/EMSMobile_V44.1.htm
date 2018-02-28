@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="8" MadCap:lastHeight="20579" MadCap:lastWidth="916">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="8" MadCap:lastHeight="42366" MadCap:lastWidth="946">
     <head>
         <link href="../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
         <link href="../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
@@ -28,6 +28,7 @@
             </li>
             <li><a href="#Update11">V44.1, Update 11</a>
             </li>
+            <li>V44.1, Update 10</li>
             <li><a href="#Update9">V44.1, Update 9</a>
             </li>
             <li><a href="#Update8">V44.1, Update 8</a>
@@ -43,7 +44,7 @@
             <li><a href="#Update2">V44.1, Update 2</a>
             </li>
         </ul>
-        <h2 style="font-size: 24pt;"><a name="Update21.5"></a><span style="font-size: 26pt;"><span style="font-size: 24pt;">V44.1, </span></span><a href="../V44.1_ReleaseNotes.htm#Update21.5" style="font-size: 24pt;">Update 21.5</a><span style="font-size: 26pt;"><span style="font-size: 24pt;">*</span></span> <![CDATA[ ]]></h2>
+        <h2 style="font-size: 24pt;"><a name="Update21.5"></a><span style="font-size: 26pt;"><span style="font-size: 24pt;">V44.1, </span></span><a href="../V44.1_ReleaseNotes.htm#Update21.5" style="font-size: 24pt;">Update 21.5</a><span style="font-size: 26pt;"><span style="font-size: 24pt;">*</span></span>  </h2>
         <table style="mc-table-style: url('../Resources/TableStyles/PatternedRows.css');width: 718px;" class="TableStyle-PatternedRows" cellspacing="0">
             <col class="TableStyle-PatternedRows-Column-Regular" style="width: 191px;" />
             <col class="TableStyle-PatternedRows-Column-Regular" style="width: 302px;" />
@@ -112,7 +113,7 @@
                 </tr>
             </tbody>
         </table>
-        <h2 style="font-size: 24pt;"><a name="Update21.4"></a><span style="font-size: 26pt;"><span style="font-size: 24pt;">V44.1, </span></span><a href="../V44.1_ReleaseNotes.htm#Update21.4" style="font-size: 24pt;">Update 21.4</a><span style="font-size: 26pt;"><span style="font-size: 24pt;">*</span></span> <![CDATA[ ]]></h2>
+        <h2 style="font-size: 24pt;"><a name="Update21.4"></a><span style="font-size: 26pt;"><span style="font-size: 24pt;">V44.1, </span></span><a href="../V44.1_ReleaseNotes.htm#Update21.4" style="font-size: 24pt;">Update 21.4</a><span style="font-size: 26pt;"><span style="font-size: 24pt;">*</span></span>  </h2>
         <table style="mc-table-style: url('../Resources/TableStyles/PatternedRows.css');width: 718px;" class="TableStyle-PatternedRows" cellspacing="0">
             <col class="TableStyle-PatternedRows-Column-Regular" style="width: 191px;" />
             <col class="TableStyle-PatternedRows-Column-Regular" style="width: 302px;" />
@@ -923,18 +924,411 @@
                         <p style="text-align: center;">2017.05.09.1</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p style="text-align: center;">&#160;</p>
+                        <p style="text-align: center;">44.1.11000.3761</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows" colspan="3" style="text-align: center;">
-                        <p style="text-align: center;"><span class="bold">See Also:&#160;</span><a href="Version44.1/Update11.1/Known Issues Home V44.1 Update 11.1.htm">Known Issues for Update 11</a>
+                        <p style="text-align: center;"><span class="bold">See Also:&#160;</span><a href="Version44.1/Update11/U11_KnownIssues.htm">Known Issues for Update 11</a>
                         </p><a href="../WhatsNewV44.1.htm">What's New for Version 44.1</a>
                     </td>
                 </tr>
             </tbody>
         </table>
         <h4>Fixes</h4>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../Resources/TableStyles/PatternedRows.css');margin-left: auto;margin-right: auto;" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p class="Strong_1">Area</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                        <p class="Strong_1">Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="RNArea">About Page</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="RNTitle">API Revision Number Missing on About Page</p>
+                        <p class="RNBody">The API revision number was not displayed with the version number on the About Page.</p>
+                        <p class="RNBody"><span class="bold">Fix: </span>Modified the page to add the API revision number.</p>
+                        <p class="RNRef">Internal Reference # <a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=29299" title="EMS Internal Use Only" alt="EMS Internal Use Only" class="rnrefhyper">29299</a><br />(EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td rowspan="3" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="RNArea">Authentication</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="RNTitle">Entering a Blank Server URL Over SSO Caused Crash</p>
+                        <p class="RNBody">When users changed the Server URL to an empty value using Single Sign On authentication, EMS Mobile App crashed.</p>
+                        <p class="RNBody"><span class="bold">Fix:</span> Modified validations so the app no longer crashes and instead presents the error message, "Unable to import configuration".</p>
+                        <p class="RNRef">Internal Reference # <a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=29733" class="rnrefhyper" title="EMS Internal Use Only" alt="EMS Internal Use Only">29733</a><br />(EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="RNTitle">Child User-Defined Fields Disappear</p>
+                        <p class="RNBody">When users edited values in User Defined Fields (UDFs) that had child fields, saved changes, and then opened the reservation to edit again, the child UDFs did not display.</p>
+                        <p class="RNBody"><span class="bold">Fix:</span> Modified functionality so that child UDFs display in edit mode.</p>
+                        <p class="RNRef">Internal Reference # <a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=29480" class="rnrefhyper" title="EMS Internal Use Only" alt="EMS Internal Use Only">29480</a><br />(EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
+                        <p class="RNTitle">User Authentication Issues Due To Custom config.json File</p>
+                        <p class="RNBody">For customers who used a custom config.json file, users had to click the About &gt; EMS Server URL in order to authenticate.</p>
+                        <p class="RNBody"><span class="bold">Fix:</span> Modified functionality so that custom config.json files no longer cause the issue and users authenticate in one step.</p>
+                        <p class="RNRef">Internal Reference # <a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=29692" class="rnrefhyper">29692</a><br />(EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h2><a name="Update10"></a><span style="font-size: 24pt;">V44.1, </span><a href="../V44.1_ReleaseNotes.htm#Update10" style="font-size: 24pt;">Update 10</a><span style="font-size: 24pt;">*</span>
+        </h2>
+        <table style="mc-table-style: url('../Resources/TableStyles/PatternedRows.css');width: 718px;margin-left: 0;margin-right: auto;" class="TableStyle-PatternedRows" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 200px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 261px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 309px;" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1" colspan="3">*Click the linked Update Number above for more information regarding <br />enhancements and fixes for all products released during this Update.</th>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p style="text-align: center;">Release Date</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p style="text-align: center;">patch Number</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                        <p style="text-align: center;">build Number</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p style="text-align: center;">04/07/2017</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p style="text-align: center;">201703280</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p style="text-align: center;">EMS&#160;Mobile 44.1.4695<br />EMS—44.1.4695.unsigned.apk<br />EMS—44.1.4695.unsigned.ipa</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows" colspan="3" style="text-align: center;">
+                        <p style="text-align: center;"><span class="bold">See Also:&#160;</span><a href="Version44.1/Update10/U10_KnownIssues.htm">Known Issues for Update 11</a>
+                        </p><a href="../WhatsNewV44.1.htm">What's New for Version 44.1</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h4>Fixes</h4>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../Resources/TableStyles/PatternedRows.css');margin-left: 0;margin-right: auto;width: 100%;" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p class="Strong_1">Area</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                        <p class="Strong_1">Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="RNArea">Log In</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="RNTitle">Keyboard Covered&#160;Code Field on Login Screen When 2FA is Enabled</p>
+                        <p class="RNBody">When users attempted to log in with 2FA enabled, the verification Code field was blocked by the keyboard.&#160;&#160;</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified the display so the user can see the verification Code field in this situation.</p>
+                        <p class="RNRef">Internal Reference # <a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workitems/edit/27741?fullScreen=false" class="rnrefhyper" title="EMS Internal Use Only" alt="EMS Internal Use Only">27741</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td rowspan="5" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="RNArea">Scan QR Code</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="RNTitle">"Reservation Created" Toast Absent When Using a Second QR Code</p>
+                        <p class="RNBody">When users booked a reservation by scanning a QR code for the second time in a session, the confirmation toast "Reservation Created" did not appear.</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified the display to show the toast message now appears when a QR code is used a second time.</p>
+                        <p class="RNRef">Internal Reference # <a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workitems/edit/27744?fullScreen=false" class="rnrefhyper" title="EMS Internal Use Only" alt="EMS Internal Use Only">27744</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="RNTitle">Meeting Prematurely Listed&#160;As In Progress</p>
+                        <p class="RNBody">When users scanned a QR code to see events for a room, some events showed as In Progress up to two hours prior to start time.</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified time zone offset calculations so that rooms only show as In Progress upon start time.</p>
+                        <p class="RNRef">Internal Reference # <a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workitems/edit/28519" class="rnrefhyper" title="EMS Internal Use Only" alt="EMS Internal Use Only">28519</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="RNTitle">Auto-Create Workflow Issues</p>
+                        <p class="RNBody">When users scanned a QR code to automatically create a booking, several issues arose. Where there was only one process template, they still had to click the "+" button to&#160;initiate the booking process. In a fully automated scenario where&#160;all field values were defaulted, they still had to click&#160;Create Reservation&#160;to finalize&#160;the booking.</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified the automation workflow so users are take directly to the booking process when they must complete some fields, and so that bookings are automatically finalized in fully defaulted scenarios.</p>
+                        <p class="RNRef">Internal Reference # <a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workitems/edit/28694" class="rnrefhyper" title="EMS Internal Use Only" alt="EMS Internal Use Only">28694</a> &amp;&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workitems/edit/27974" class="rnrefhyper" title="EMS Internal Use Only" alt="EMS Internal Use Only">27974</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="RNTitle">Selecting a Process Template After Scanning QR Code Returned Users to Scan QR Code Screen</p>
+                        <p class="RNBody">When users scanned a QR code to book a room and clicked on a certain&#160;process template from the available list, they were incorrectly returned to the Scan QR Code page.</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified validations so users can select the process template and proceed with the booking as expected.</p>
+                        <p class="RNRef">Internal Reference # <a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workitems/edit/27966?fullScreen=false" class="rnrefhyper" title="EMS Internal Use Only" alt="EMS Internal Use Only">27966</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="RNTitle">iOS: Disabling Camera Caused Crash When Scanning &#160;a QR Code</p>
+                        <p class="RNBody">When users scanned a QR code using iOS devices that had the camera disabled for the first time, the app crashed.</p>
+                        <p class="RNBody"><span class="bold">Fix:&#160;</span>Modified validations to successfully load the app when Allow Camera is off.</p>
+                        <p class="RNRef">Internal Reference # <a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workitems/edit/27947?fullScreen=false" class="rnrefhyper" title="EMS Internal Use Only" alt="EMS Internal Use Only">27947</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td rowspan="5" class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="RNArea">Create Reservation</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="RNTitle">Geolocation Issues</p>
+                        <p class="RNBody">When users booked a room and Location Services was turned on, the&#160;Distance&#160;field was empty and the list of room results was not in order of proximity. On Android devices, when Location Services was turned off, the&#160;Distance&#160;label persisted and kilometers displayed as "NaN Kilometers;" additionally, the default building/view for the booking template in use was not automatically selected.&#160;</p>
+                        <p class="RNBody"><span class="bold">Fix:&#160;</span>Modified functionality so that when Location Services is turned on,&#160;users can see the distance of a room and the results list is sorted by nearest to furthest, and for Android, when Location Services is turned off, users no longer see the distance, and kilometers and default buildings/views display as expected.</p>
+                        <p class="RNRef">Internal Reference # <a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workitems/edit/28406?fullScreen=false" class="rnrefhyper" title="EMS Internal Use Only" alt="EMS Internal Use Only">28406</a> &amp;&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workitems/edit/28596" class="rnrefhyper" title="EMS Internal Use Only" alt="EMS Internal Use Only">28596</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="RNTitle">Tapping Blue Arrow Caused&#160;Crash</p>
+                        <p class="RNBody">When users tapped the blue FormLink&#160;"Next" arrow on the right&#160;from booking details or new reservation&#160;screens, the app crashed.</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that tapping the arrow no longer causes a crash.</p>
+                        <p class="RNRef">Internal Reference # <a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workitems/edit/28498?fullScreen=false" class="rnrefhyper" title="EMS Internal Use Only" alt="EMS Internal Use Only">28498</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="RNTitle">Start and End Times Defaulting Incorrectly</p>
+                        <p class="RNBody">When users booked a meeting too close to closing time (according to booking rules), start and end times defaulted to the same time. Additionally, when booking rules set default meeting duration to 45 minutes after start time, default end time was calculated incorrectly.</p>
+                        <p class="RNBody"><span class="bold">Fix:&#160;</span>Modified functionality so that template defaults are properly applied and default end times are correctly calculated.</p>
+                        <p class="RNRef">Internal Reference # <a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workitems/edit/28374?fullScreen=false" class="rnrefhyper" title="EMS Internal Use Only" alt="EMS Internal Use Only">28374</a> &amp;&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workitems/edit/28332" class="rnrefhyper" title="EMS Internal Use Only" alt="EMS Internal Use Only">28332</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="RNTitle">Changing Location Turned&#160;Off Capacity Filter For Room Search</p>
+                        <p class="RNBody">When users searched for rooms and filtered by room capacity, and then changed location, the capacity filter turned off.</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that changing the location does not turn off the capacity filter.</p>
+                        <p class="RNRef">Internal Reference # <a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workitems/edit/28507?fullScreen=false" class="rnrefhyper" title="EMS Internal Use Only" alt="EMS Internal Use Only">28507</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="RNTitle">Child UDF Default Values&#160;Missing</p>
+                        <p class="RNBody">When a booking template was set to show the default values set for child UDFs and the parent UDFs&#160;allowed multiple selections, the default values of the child fields did not display.&#160;</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified the display to show child UDF&#160;default values of multi-select parent UDFs in this situation.</p>
+                        <p class="RNRef">Internal Reference # <a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workitems/edit/27920?fullScreen=false" class="rnrefhyper" title="EMS Internal Use Only" alt="EMS Internal Use Only">27920</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td rowspan="4" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="RNArea">Edit Reservation</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="RNTitle">"Room Unavailable" Error When Changing Event Time To Follow Another Event</p>
+                        <p class="RNBody">When users edited an event so that it started immediately after another one in the same room, the error "Room Unavailable" presented incorrectly and their room selection was cleared.&#160;</p>
+                        <p class="RNBody"><span class="bold">Fix:&#160;</span>Modified validations to allow adjacent scheduling when a meeting has no setup and teardown allowance.</p>
+                        <p class="RNRef">Internal Reference # <a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workitems/edit/28458?fullScreen=false" class="rnrefhyper" title="EMS Internal Use Only" alt="EMS Internal Use Only">28458</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="RNTitle">Unable to Add Attendees After Booking Exchange Meeting</p>
+                        <p class="RNBody">When users added attendees to an Exchange-compatible meeting that had not been originally created with attendees, their additions were not saved and attendees were not invited.&#160;</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that users can successfully add attendees when editing in this situation.</p>
+                        <p class="RNRef">Internal Reference # <a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workitems/edit/28456" class="rnrefhyper" title="EMS Internal Use Only" alt="EMS Internal Use Only">28456</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="RNTitle">Rooms Not Listed Under View</p>
+                        <p class="RNBody">When users edited an event and tapped the View option for a selected room, it was not in the list as expected.</p>
+                        <p class="RNBody"><span class="bold">Fix:&#160;</span>Modified the display so the selected room shows in both Building and View&#160;as expected.</p>
+                        <p class="RNRef">Internal Reference # <a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workitems/edit/28560" class="rnrefhyper" title="EMS Internal Use Only" alt="EMS Internal Use Only">28560</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="RNTitle">Favorite Room Listed Twice</p>
+                        <p class="RNBody">When users edited an event to move a meeting later on the schedule, the selected favorite room was listed twice.&#160;&#160;</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified the display so the selected favorite room only lists once as expected.</p>
+                        <p class="RNRef">Internal Reference # <a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workitems/edit/28401" class="rnrefhyper" title="EMS Internal Use Only" alt="EMS Internal Use Only">28401</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td rowspan="3" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="RNArea">Time Zones</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="RNTitle">Time Zones Without Designated Abbreviations Displayed as "NULL"</p>
+                        <p class="RNBody">Time zones that did not have abbreviations defined in the user database showed as "NULL" on the app.&#160;&#160;</p>
+                        <p class="RNBody"><span class="bold">Fix:&#160;</span>Modified functionality so that when time zone abbreviations are not defined, the time zone field shows the full name of the time zone.</p>
+                        <p class="RNRef">Internal Reference # <a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workitems/edit/28367?fullScreen=false" class="rnrefhyper" title="EMS Internal Use Only" alt="EMS Internal Use Only">28367</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="RNTitle">Incorrect Time Zone Adjustment When Changing Event Date</p>
+                        <p class="RNBody">When users changed an event date such that it was after the Daylight Savings Time period for their devices, the event time was incorrectly adjusted.&#160;&#160;</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that time zone adjustments are made correctly in this situation.</p>
+                        <p class="RNRef">Internal Reference # <a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workitems/edit/28421" class="rnrefhyper" title="EMS Internal Use Only" alt="EMS Internal Use Only">28421</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="RNTitle">Room Incorrectly Unavailable When Server Time Zone Was "UTC +00"</p>
+                        <p class="RNBody">When the server time zone was set to UTC + 00 and users picked a room spanning Daylight Savings Time, the room was incorrectly unavailable.&#160;&#160;</p>
+                        <p class="RNBody"><span class="bold">Fix:&#160;</span>Modified validations to ensure that room availability displays correctly in this situation.</p>
+                        <p class="RNRef">Internal Reference # <a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workitems/edit/28607?fullScreen=false" class="rnrefhyper" title="EMS Internal Use Only" alt="EMS Internal Use Only">28607</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="RNArea">Billing &amp; PO Numbers</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="RNTitle">Default Billing Reference Number Empty When Prompt For Room Enabled</p>
+                        <p class="RNBody">When users booked a room using a template that used a default billing reference number and required/validated the value, the field was empty after they selected a room as prompted.</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that the default value is retained when the room prompt is enabled in this situation.</p>
+                        <p class="RNRef">Internal Reference # <a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workitems/edit/27602?fullScreen=false" class="rnrefhyper" title="EMS Internal Use Only" alt="EMS Internal Use Only">27602</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td rowspan="3" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="RNArea">Navigation</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="RNTitle">Android: Back Button Closed&#160;Application</p>
+                        <p class="RNBody">When users clicked the native back button from the home screen on Android devices, this closed the application rather than collapsing it.&#160;</p>
+                        <p class="RNBody"><span class="bold">Fix:&#160;</span>Modified functionality so that tapping the Android back button from the home screen collapses the application without closing it.&#160;</p>
+                        <p class="RNRef">Internal Reference # <a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workitems/edit/27675?fullScreen=false" class="rnrefhyper" title="EMS Internal Use Only" alt="EMS Internal Use Only">27675</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="RNTitle">Home Page Refreshed Incorrectly When Navigating Back From Booking Details&#160;</p>
+                        <p class="RNBody">When users navigated back to the home page from a booking details screen, the home page did not scroll up to "Now" if the list of events extended beyond one page and they had previously navigated to see events for a specific date.</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that the home page refreshes to today's events when reached using the&#160;Back&#160;button.&#160;</p>
+                        <p class="RNRef">Internal Reference # <a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workitems/edit/28532?fullScreen=false" class="rnrefhyper" title="EMS Internal Use Only" alt="EMS Internal Use Only">28532</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
+                        <p class="RNTitle">Building URL Link Failed</p>
+                        <p class="RNBody">When users clicked on&#160;Building URL&#160;from booking details screens, the link failed because the ":" character was not being carried over to the web browser.</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that the URL is carried over and the link functions as expected.&#160;</p>
+                        <p class="RNRef">Internal Reference # <a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workitems/edit/28548?fullScreen=false" class="rnrefhyper" title="EMS Internal Use Only" alt="EMS Internal Use Only">28548</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h2><a name="Update9.1"></a><span style="font-size: 24pt;">V44.1, </span><a href="../V44.1_ReleaseNotes.htm#Update9.1" style="font-size: 24pt;">Update 9.1</a><span style="font-size: 24pt;">*</span>
+        </h2>
+        <table style="mc-table-style: url('../Resources/TableStyles/PatternedRows.css');width: 718px;" class="TableStyle-PatternedRows" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 200px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 261px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1" colspan="3">*Click the linked Update Number above for more information regarding <br />enhancements and fixes for all products released during this Update.</th>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p style="text-align: center;">Release Date</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p>&#160;</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                        <p style="text-align: center;">build Number</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p style="text-align: center;">03/17/2017</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>&#160;</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p style="text-align: center;">4531</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows" colspan="3">
+                        <p colspan="3" style="text-align: center;"><span class="bold">See Also:&#160;</span><a href="Version44.1/Update9/U9_KnownIssues.htm">Known Issues for Update 9</a>
+                            <br /><a href="../WhatsNewV44.1.htm">What's New for Version 44.1</a>
+                            <br />
+                        </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h4>Fixes</h4>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../Resources/TableStyles/PatternedRows.css');margin-left: 0;margin-right: auto;width: 100%;" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p class="p_11">Area</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                        <p class="p_11">Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="RNArea">Edit Booking</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="RNTitle">Extending Meeting Duration Caused Error</p>
+                        <p class="RNBody">When users changed the end time for a meeting to extend meeting duration, the error message "Room no longer available" incorrectly displayed.</p>
+                        <p class="RNBody"><span class="bold">Fix:&#160;</span>Modified validations to ensure that this error message no longer presents and users can successfully extend the meeting duration.</p>
+                        <p class="RNRef">Internal Reference # <a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workitems/edit/28194?fullScreen=false" class="rnrefhyper" title="EMS Internal Reference Only" alt="EMS Internal Reference Only">28194</a><br />(For EMS&#160;Internal Reference Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
+                        <p class="RNArea">Timezones</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
+                        <p class="RNTitle">Time Zones/Daylight Savings&#160;Not Synched With Device</p>
+                        <p class="RNBody">When users worked with meetings that were booked in different time zones than the time zone for their mobile device, daylight savings time adjustments were not properly synched and booking times appeared to be off by an hour in the list view, on the reservation, and on booking details.</p>
+                        <p class="RNBody"><span class="bold">Fix:&#160;</span>Modified validations to ensure that daylight savings time is properly accounted for when syncing time zones between users' mobile devices and meeting times in the database, such that times display to users in the set time zone of their mobile devices.</p>
+                        <p class="RNRef">Internal Reference # <a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workitems/edit/28196?fullScreen=false" class="rnrefhyper" title="EMS Internal Reference Only" alt="EMS Internal Reference Only">28196</a><br />(For EMS&#160;Internal Reference Only)</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
         <h2><a name="Update9"></a><span style="font-size: 24pt;">V44.1, </span><a href="../V44.1_ReleaseNotes.htm#Update9" style="font-size: 24pt;">Update 9</a><span style="font-size: 24pt;">*</span>
         </h2>
         <table style="mc-table-style: url('../Resources/TableStyles/PatternedRows.css');width: 718px;" class="TableStyle-PatternedRows" cellspacing="0">
@@ -966,7 +1360,7 @@
                         <p style="text-align: center;">2017.02.27.0</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p style="text-align: center;">&#160;</p>
+                        <p style="text-align: center;">IPA 44.1.4464<br />APK 44.1.4466</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
@@ -979,50 +1373,175 @@
                 </tr>
             </tbody>
         </table>
-        <h4>Fixes</h4>
-        <h2><a name="Update8"></a>V44.1, <a href="../V44.1_ReleaseNotes.htm#Update8">Update 8</a>*</h2>
-        <table style="mc-table-style: url('../Resources/TableStyles/PatternedRows.css');width: 718px;" class="TableStyle-PatternedRows" cellspacing="0">
-            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 200px;" />
-            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 261px;" />
+        <div class="note-box important">
+            <p><span class="bold">Note:</span>&#160;The App Store and Google Play Store versions of Update 7 EMS Mobile App were renamed to "EMS Mobile app Update 7". This release (Update 9, called "EMS Mobile App") of EMS Mobile App&#160;for iOS, will be available in the App Store on March 10&#160;due to the two day Apple approval process.</p>
+        </div>
+        <h4>Enhancements</h4>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../Resources/TableStyles/PatternedRows.css');margin-left: 0;margin-right: auto;width: 100%;" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" />
             <col class="TableStyle-PatternedRows-Column-Regular" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
-                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1" colspan="3">*Click the linked Update Number above for more information regarding <br />enhancements and fixes for all products released during this Update.</th>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
-                        <p style="text-align: center;">Release Date</p>
-                    </th>
-                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
-                        <p style="text-align: center;">patch Number</p>
+                        <p class="p_11">Area</p>
                     </th>
                     <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
-                        <p style="text-align: center;">build Number</p>
+                        <p class="p_11">Description</p>
                     </th>
                 </tr>
             </thead>
             <tbody>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p style="text-align: center;">01/31/2017</p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p style="text-align: center;">2016.12.12.0</p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" rowspan="5">
+                        <p class="RNArea">Create Reservation</p>
+                        <p class="p_9">&#160;</p>
+                        <p>&#160;</p>
+                        <p>&#160;</p>
+                        <p>&#160;</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p>&#160;</p>
+                        <p class="RNTitle">Added location and capacity filters for narrowing down the room search results.</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows" colspan="3" style="text-align: center;"><span class="bold">See Also:&#160;</span><a href="Version44.1/Update8/U8_KnownIssues.htm">Known Issues for Update 8</a>
-                        <br /><a href="../WhatsNewV44.1.htm">What's New for Version 44.1</a>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="RNTitle">Added Smart defaults for start time and end time based on the process templates default values for Start time and End time.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="RNTitle">Time zone defaults to selected location and now is a read-only field next to Start Time and End Time .</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="RNTitle">Enlarged button area for "+" button to access process templates.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="RNTitle">If user has only one process template assigned, clicking on "+" button now loads the process template rather than taking user to the "select process template" page.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" rowspan="4">
+                        <p class="RNArea">List View</p>
+                        <p>&#160;</p>
+                        <p>&#160;</p>
+                        <p>&#160;</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="RNTitle">Removed past bookings from the list view&#160;since Everyday Users only care about upcoming and future meetings.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="RNTitle">Removed Schedule View from the home page. This view contained only the user created EMS bookings and hence not a true representation of the user's schedule and could be misleading.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="RNTitle">Added a pull-out monthly calendar to view the upcoming bookings.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="RNTitle">Booking capacity on the calendar changed from "varying sizes bars" to "dots". Size of bars did not convey the intent of their presence; smaller bars indicated few meetings, while bigger ones indicated more meetings. A dot under the date now indicates the presence of meeting.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="RNArea">Favorite rooms</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="RNTitle">Added Location filter for narrowing down the room search results.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="RNArea">Browse locations</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="RNTitle">Removed the Browse Location feature.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="RNArea">Your filters</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="RNTitle">Removed "Your Filters" feature, which was only used inside the Browse Locations.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="RNArea">Branding - Logo</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="RNTitle">Added the capability to change the EMS Mobile App logo on the "connect screen". This feature can only be implemented in cases of private deployment.&#160;</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="RNArea">Branding - Help&#160;</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="RNTitle">Customized the Help link on the Menu page so users can now change the label and link for this field through EMS Mobile App-specific parameters in EMS Desktop Client.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" rowspan="3">
+                        <p class="RNArea">Authentication</p>
+                        <p>&#160;</p>
+                        <p>&#160;</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="RNTitle">Added support for Single Sign On protocol: SAML 2.0.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="RNTitle">Added support for Single Sign On protocol:&#160;OpenID Connect.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="RNTitle">Added persistent authentication/auto login support. Users will not be required to enter credentials every time they use EMS Mobile App.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="RNArea">EMS Mobile App Admin Page</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="RNTitle">EMS Mobile App admin functionality is now available under Admin functions in EMS Web App.&#160;</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" rowspan="2">
+                        <p class="RNArea">Infrastructure</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="RNTitle">Replaced the EMS Mobile App API with a new middle-tier component, "EMS Platform Services". Using EMS Mobile App&#160;now requires users to upgrade to&#160;EMS Platform Services.&#160;</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="RNTitle">Using React&#160;native framework is now in use for EMS Mobile App development.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                        <p class="RNArea">General</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
+                        <p class="RNTitle">Significant improvements in quality and performance.</p>
                     </td>
                 </tr>
             </tbody>
         </table>
-        <h4>Enhancement</h4>
-        <h4>Fixes</h4>
-        <h2><a name="Update7"></a>V44.1, <a href="../V44.1_ReleaseNotes.htm#Update7">Update 7</a>*</h2>
+        <h2><a name="Update7"></a><span style="font-size: 26pt;"><span style="font-size: 24pt;">V44.1, </span></span><a href="../V44.1_ReleaseNotes.htm#Update7" style="font-size: 24pt;">Update 7</a><span style="font-size: 26pt;"><span style="font-size: 24pt;">*</span></span>
+        </h2>
         <table style="mc-table-style: url('../Resources/TableStyles/PatternedRows.css');width: 718px;" class="TableStyle-PatternedRows" cellspacing="0">
             <col class="TableStyle-PatternedRows-Column-Regular" style="width: 200px;" />
             <col class="TableStyle-PatternedRows-Column-Regular" style="width: 261px;" />
@@ -1052,61 +1571,26 @@
                         <p style="text-align: center;">2016.12.05.0</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p>&#160;</p>
+                        <p>EMS Mobile App API #<br />44.1.249.0</p>
+                        <p>EMS Mobile App (APK/IPA) #<br />44.1.487</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows" colspan="3" style="text-align: center;"><span class="bold">See Also:&#160;</span><a href="Version44.1/Update7/U7_KnownIssues.htm">Known Issues for Update 7</a>
-                        <br /><a href="../WhatsNewV44.1.htm">What's New for Version 44.1</a>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-        <h4>Enhancements&#160;&#160;</h4>
-        <h4>Fixes&#160;&#160;</h4>
-        <h2><a name="Update6.1"></a><span style="font-size: 24pt;">V44.1, </span><a href="../V44.1_ReleaseNotes.htm#Update6.1" style="font-size: 24pt;">Update 6.1</a><span style="font-size: 24pt;">*</span>
-        </h2>
-        <table style="mc-table-style: url('../Resources/TableStyles/PatternedRows.css');width: 718px;" class="TableStyle-PatternedRows" cellspacing="0">
-            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 200px;" />
-            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 261px;" />
-            <col class="TableStyle-PatternedRows-Column-Regular" />
-            <thead>
-                <tr class="TableStyle-PatternedRows-Head-Header1">
-                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1" colspan="3">*Click the linked Update Number above for more information regarding <br />enhancements and fixes for all products released during this Update.</th>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Head-Header1">
-                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
-                        <p style="text-align: center;">Release Date</p>
-                    </th>
-                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
-                        <p style="text-align: center;">patch Number</p>
-                    </th>
-                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
-                        <p style="text-align: center;">build Number</p>
-                    </th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p style="text-align: center;">10/21/2016</p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p style="text-align: center;">2016.10.21.0</p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p>&#160;</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows" colspan="3">
-                        <p colspan="3" style="text-align: center;"><span class="bold">See Also:&#160;</span><a href="../WhatsNewV44.1.htm">What's New for Version 44.1</a>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows" colspan="3" style="text-align: center;">
+                        <p colspan="3" style="text-align: center;"><span class="bold">See Also:&#160;</span><a href="Version44.1/Update7/U7_KnownIssues.htm">Known Issues for Update 7</a>
+                            <br /><a href="../WhatsNewV44.1.htm">What's New for Version 44.1</a>
                         </p>
                     </td>
                 </tr>
             </tbody>
         </table>
-        <h4>Fix</h4>
+        <div class="note-box note">
+            <p><span class="bold">Note:</span> For Update 7, there were no release notes for enhancements and fixes;&#160;however, there were back-end updates to EMS Mobile App found in the following builds:&#160;</p>
+            <ul class="unorder-list">
+                <li>EMS Mobile App API # 44.1.249.0</li>
+                <li>EMS Mobile App (APK/IPA) # 44.1.487</li>
+            </ul>
+        </div>
         <h2><a name="Update6"></a><span style="font-size: 24pt;">V44.1, </span><a href="../V44.1_ReleaseNotes.htm#Update6" style="font-size: 24pt;">Update 6</a><span style="font-size: 24pt;">*</span>
         </h2>
         <table style="mc-table-style: url('../Resources/TableStyles/PatternedRows.css');width: 718px;" class="TableStyle-PatternedRows" cellspacing="0">
@@ -1138,7 +1622,8 @@
                         <p style="text-align: center;">2016.10.18.0</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p>&#160;</p>
+                        <p>EMS Mobile App API #<br />44.1.208.0</p>
+                        <p>EMS Mobile App (IPA/APK) # <br />44.1.447</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
@@ -1149,8 +1634,241 @@
                 </tr>
             </tbody>
         </table>
-        <h4>Enhancement&#160;</h4>
-        <h4>Fixes&#160;</h4>
+        <h4>Enhancements</h4>
+        <table style="mc-table-style: url('../Resources/TableStyles/PatternedRows.css');margin-left: 0;margin-right: auto;width: 100%;" class="TableStyle-PatternedRows" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 114px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p>Area</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                        <p>Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td rowspan="2" class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p rowspan="2" class="RNArea">Log In</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="RNTitle">Set Time Period for Authentication
+</p>
+                        <p class="RNBody">
+In order to enable Administrators to set a defined time period in days for users' log-ins to persist, added a configuration parameter, "Number of days to persist login on mobile app" (MOBILE_NumberofDays ). When set to 0, behavior remains governed by "Number of minutes to remember login on the mobile app." When set to any number of days, the user must sign out or the application must crash in order to begin a new session during that time period.
+</p>
+                        <p class="RNBody"><span class="bold">Related Fixes:</span>
+
+Renamed parameter, "Number of minutes to remember login on the mobile app" (MOBILE_MinutesToRememberLogin) to "Inactivity period in minutes before auto logout from mobile app."
+Removed parameter, "Number of days to remember login on mobile app" (MOBILE_DaysToRememberLogin) as this new parameter replaces it. </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
+                        <p class="RNTitle">Automatically Log Users Out When User Configuration Changes
+</p>
+                        <p class="RNBodyBeforeList">
+In order to enable Administrators to update user profiles with the latest changes, added functionality so that users are automatically logged out whenever the following types of changes are made to their configuration:
+
+</p>
+                        <ul class="RN-unorder-list">
+                            <li>Number or type of process templates and security templates. 
+</li>
+                            <li>Any updates to user information including email, username, time zone, external reference, or network ID.</li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h4>Fixes</h4>
+        <table border="1" cellpadding="0" cellspacing="0" class="TableStyle-PatternedRows" style="margin-left: 0;margin-right: auto;width: 100%;mc-table-style: url('../Resources/TableStyles/PatternedRows.css');">
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 163px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 783px;" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p>Area</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                        <p>Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows"><![CDATA[  ]]></tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="RNArea">Log In &gt; iOS 10</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="RNTitle">Connection Fails on iOS 10</p>
+                        <p class="RNBody">Users were unable to log in to EMS Mobile App via iOS 10.</p>
+                        <p class="RNBody"><span class="bold">Fix:</span> Modified functionality so that users can now log in via iOS 10.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="RNArea">Android Devices &gt; Log In</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="RNTitle">Two Factor Authentication Bypassed on Android Devices</p>
+                        <p class="RNBody">When users logged in using two-factor authentication on Android devices, they were able to bypass it by clicking the back key to exit the authentication prompt.</p>
+                        <p class="RNBody"><span class="bold">Fix:</span> Modified authentication so that users are not logged in until the second factor has been completed.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="RNArea">Browse Events in List View</p>
+                        <p>&#160;</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="RNTitle">List Fails to Refresh When Advancing To Previous Or Next Day</p>
+                        <p class="RNBody">When users browsed the events calendar in list view and clicked on the previous or next day in the top menu bar, the list view failed to refresh and show the selected day's events.</p>
+                        <p class="RNBody"><span class="bold">Fix:</span> Modified the display to refresh and show the selected day's events.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="RNArea">Geolocation</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="RNTitle">Geolocation Causes Slow Processing
+
+</p>
+                        <p class="RNBody">When users turned on geolocation to find the nearest buildings during the booking process, performance was slow.
+
+</p>
+                        <p class="RNBody"><span class="bold">Fix:</span> Modified functionality to use the cached location, start the location search earlier in the process, or show a “Waiting” indicator.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="RNArea">QR Codes</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="RNTitle">	
+Scanning QR Codes Causes Error
+
+</p>
+                        <p class="RNBody">When users scanned QR codes, the following error occurred: "There was an error reading the QR code."
+
+</p>
+                        <p class="RNBody"><span class="bold">Fix:</span> Modified parameter presets to ensure that QR codes point correctly to URLs and the error no longer occurs. </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="RNArea">Cancel Meeting</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="RNTitle">Canceling Outlook Meeting Causes Error
+
+</p>
+                        <p class="RNBody">When users canceled meetings that had been booked in EMS Web App with Exchange-enabled booking templates, an error occurred.
+</p>
+                        <p class="RNBody"><![CDATA[
+]]><span class="bold">Fix:</span> Modified Exchange Integration to ensure that cancellations can be completed without errors. </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="RNArea">Add Contacts</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="RNTitle">Display Issues for Contact Fields
+
+</p>
+                        <p class="RNBody">When users created a reservation using a template with pre-defined contacts, and then changed the 1st Contact by searching by name, no search results presented and the search results display was cut off. Additionally, if the user had more than one default primary contact defined, the 1st Contact field was not auto-populated and the searching for one produced “There are no matching search results."
+
+</p>
+                        <p class="RNBody"><span class="bold">Fix</span>: Modified the display so that the search results present as expected in full-screen size. Also resolved validations for users with more than one default primary contact so that the 1st Contact auto-populates with that user's name and clicking the Search icon produces search results as expected. </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="RNArea">Invite Attendee</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="RNTitle">	
+Keyboard Search Key Causes Error
+
+</p>
+                        <p class="RNBody">When users added attendees to an event and used the Search key on their mobile device keyboard, the error "Invalid Email" occurred.
+
+</p>
+                        <p class="RNBody"><span class="bold">Fix:</span> Modified the display to present the expected search results.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" rowspan="2">
+                        <p class="RNArea">Edit Reservation</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="RNTitle">	
+Back Button on Edit Reservation Page Causes Crash
+
+</p>
+                        <p class="RNBody">Clicking the Back button twice while editing a reservation caused the application to crash.
+
+</p>
+                        <p class="RNBody"><span class="bold">Fix</span>:  Modified the display so the crash no longer occurs and clicking the Back button returns users to the Home page. 
+
+</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="RNTitle">Change to Building/Room Combo Not Saved
+
+</p>
+                        <p class="RNBody">When users edited a reservation to change both the building and the room, the edit was not saved.
+
+</p>
+                        <p class="RNBody"><span class="bold">Fix:</span> Modified validations to ensure that these changes are saved as expected. </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="RNArea">User Defined Fields</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="RNTitle">User Defined Fields With Long Titles Overlap
+
+</p>
+                        <p class="RNBody">When creating a reservation with any template containing UDFs, those fields with longer names stacked one on top of the other making them illegible.
+
+</p>
+                        <p class="RNBody"><span class="bold">Fix:</span> Modified the display so that these fields do not overlap.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" rowspan="2">
+                        <p class="RNArea">Booking Templates</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="RNTitle">Booking Templates Not Clickable, Cut Off
+
+</p>
+                        <p class="RNBody">The titles of booking templates were not clickable during the new booking workflow, and long template names were cut off. 
+
+</p>
+                        <p class="RNBody"><span class="bold">Fix:</span> Modified the display so that clicking on a template title produces a new screen with more information about the template. </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
+                        <p class="RNTitle">Templates Named Incorrectly
+
+</p>
+                        <p class="RNBody">When browsing by location, opening a room, and then starting a new reservation, booking templates were listed with incorrect names (showing Room data and "ID"). 
+</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>  Modified the display to show booking templates by their title as designed.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
         <h2><a name="Update4"></a><span style="font-size: 24pt;">V44.1, </span><a href="../V44.1_ReleaseNotes.htm#Update4" style="font-size: 24pt;">Update 4</a><span style="font-size: 24pt;">*</span>
         </h2>
         <table style="mc-table-style: url('../Resources/TableStyles/PatternedRows.css');width: 718px;" class="TableStyle-PatternedRows" cellspacing="0">
@@ -1193,8 +1911,172 @@
                 </tr>
             </tbody>
         </table>
-        <h4>Enhancement&#160;</h4>
-        <h4>Fixes&#160;</h4>
+        <h4>Fixes</h4>
+        <table align="center" class="TableStyle-PatternedRows" style="mc-table-style: url('../Resources/TableStyles/PatternedRows.css');margin-left: 0;margin-right: auto;width: 100%;" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p class="p_11">Area</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                        <p class="p_11">Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="RNArea">Login &gt; Create Account</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="RNTitle">EMS Human Resources Toolkit Users Credentials Not Imported Correctly</p>
+                        <p class="RNBody">When EMS Human Resources Toolkit users attempted to log in to EMS Mobile App, security template settings did not affect permissions as expected.&#160;The&#160;Create Account&#160;button was available to users who should not have access to this feature.</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that Administrators can control the button's availability&#160;using the "Create \Edit An Account" role under Configuration &gt; Everyday User Applications &gt; Everyday User Security Templates in EMS Desktop Client.</p>
+                        <p class="RNRef">Internal Reference # <a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=23080" title="EMS Internal Use Only" alt="EMS Internal Use Only" class="rnrefhyper">23080</a><br />(For EMS Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" rowspan="3">
+                        <p class="RNArea">User Interface</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="RNTitle">Create/Edit Reservation:&#160;Required Fields Unmarked for Long Field Names</p>
+                        <p class="RNBody">When working with a booking, fields that had long field names were not appropriately marked with red to indicate when they were required.</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified display so that required fields show a red bar on the left side regardless of field name length.&#160;</p>
+                        <p class="RNRef">Internal Reference # <a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=23171" title="EMS Internal Use Only" alt="EMS Internal Use Only" class="rnrefhyper">23171</a><br />(For EMS Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="RNTitle">Calendar: "Load more" Button Displays When No More Events Exist</p>
+                        <p class="RNBody">When viewing future events, the button appeared even when no more events existed.</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Changed validations so that the button only appears when there are more events to view.</p>
+                        <p class="RNRef">Internal Reference # <a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=23124" title="EMS Internal Use Only" alt="EMS Internal Use Only" class="rnrefhyper">23124</a><br />(For EMS Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="RNTitle">"Reservation Created" Message Repeats After Locking/Unlocking Devices</p>
+                        <p class="RNBody">During the reservation creation process, if users' devices locked and then unlocked while the user was navigating back to the home page,&#160;the message "Reservation Created" appeared multiple times.</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Changed the message to only display once after saving changes.</p>
+                        <p class="RNRef">Internal Reference # <a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=23029" title="EMS Internal Use Only" alt="EMS Internal Use Only" class="rnrefhyper">23029</a><br />(For EMS Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="RNArea">Create Reservation&#160;&gt; Change Room</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="RNTitle">Changing Room Changes Timezone</p>
+                        <p class="RNBody">When users changed the room to a new building on a reservation, the time zone changed and an error message presented.</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified behavior so that the error message no longer presents.&#160;</p>
+                        <p class="RNRef">Internal Reference # <a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=23065" title="EMS Internal Use " alt="EMS Internal Use " class="rnrefhyper">23065</a><br />(For EMS Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="RNArea">Create Reservation &gt; Add Attendee</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="RNTitle">Adding Attendee to Reservation When Add to Calendar is Disabled Causes Crash</p>
+                        <p class="RNBody">When users added attendees to reservations that had the option to add the event to the calendar&#160;disabled, the application crashed.</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Changed functionality so the crash no longer occurs, and added a descriptive error message to clarify when adding the event to the calendar has been disabled.</p>
+                        <p class="RNRef">Internal Reference # <a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=23366" title="EMS Internal Use Only" alt="EMS Internal Use Only" class="rnrefhyper">23366</a><br />(For EMS Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" rowspan="2">
+                        <p class="RNArea">Edit Outlook&#160;Booking</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="RNTitle">Editing Outlook&#160;Booking Causes Error</p>
+                        <p class="RNBody">When users edited bookings from Outlook&#160;that had been made using a booking template enabled for both EMS Mobile App and EMS for Outlook, the following error occurred: "Error Loading Template."</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality to ensure that users can edit this type of booking without the error.&#160;</p>
+                        <p class="RNRef">Internal Reference # <a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=23364" title="EMS Internal Use Only" alt="EMS Internal Use Only" class="rnrefhyper">23364</a><br />(For EMS Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="RNTitle">Cannot Save Changes to Outlook Meeting</p>
+                        <p class="RNBody">When editing a booking that did not allow "Add to my calendar," users were unable to save changes.</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified validations to ensure that users can save changes in this situation.</p>
+                        <p class="RNRef">Internal Reference # <a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workitems/edit/23367" class="rnrefhyper" title="EMS Internal Use Only" alt="EMS Internal Use Only">23367</a><br />(For EMS Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="RNArea">Search</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="RNTitle">Clicking Search Button Repeatedly Opens Multiple Search Windows</p>
+                        <p class="RNBody">When users clicked the Search button multiple times, multiple search windows launched.</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified behavior so that only one search window opens.</p>
+                        <p class="RNRef">Internal Reference # <a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=23006" title="EMS Internal Use Only" alt="EMS Internal Use Only" class="rnrefhyper">23006</a><br />(For EMS Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" rowspan="3">
+                        <p class="RNArea">Calendar</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="RNTitle">Calendar Fails to Refresh After Booking Cancellation</p>
+                        <p class="RNBody">When users canceled a booking the Calendar did not refresh to show the cancellation.&#160;</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified the page to auto-refresh after a booking cancellation.</p>
+                        <p class="RNRef">Internal Reference # <a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=23069" title="EMS Internal Use Only" alt="EMS Internal Use Only" class="rnrefhyper">23069</a><br />(For EMS Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="RNTitle">Location Name and Details Frozen While Scrolling</p>
+                        <p class="RNBody">When users scrolled up and down, the location name and other details did not scroll.</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified display so that all elements scroll as designed.&#160;</p>
+                        <p class="RNRef">Internal Reference # <a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=23028" title="EMS Internal Use Only" alt="EMS Internal Use Only" class="rnrefhyper">23028</a><br />(For EMS Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="RNTitle">Bookings Not Visible When&#160;Toggling Back to Home Page</p>
+                        <p class="RNBody">When users navigated to the calendar in schedule (grid) view&#160;and then back to the home page, bookings did not show on the home page.</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified the display to ensure that bookings are properly listed on the home page.&#160;</p>
+                        <p class="RNRef">Internal Reference # <a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=23386" title="EMS Internal Use Only" alt="EMS Internal Use Only" class="rnrefhyper">23386</a><br />(For EMS Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="RNArea">Check-In</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="RNTitle">Outdated Parameters for Check-In and Building Proximity</p>
+                        <p class="RNBodyBeforeList">Parameters that controlled user&#160;Check-In from EMS Desktop Client for&#160;how building proximity was handled during check-in were outdated:</p>
+                        <ol start="1" class="RN-number-list">
+                            <li class="li_14">MOBILE_CheckinProximityDistance -&#160;Mobile Check In Proximity Distance</li>
+                            <li class="li_14">MOBILE_CheckinProximityUnitOfMeasurement -&#160;Mobile Check In Proximity Unit of Measurement</li>
+                            <li class="li_14">MOBILE_ProximityDistance -&#160;Mobile building proximity distance</li>
+                            <li class="li_14">MOBILE_ProximityUnitOfMeasurement -&#160;Mobile building proximity unit of measurement</li>
+                        </ol>
+                        <p class="RNBodyBeforeList"><span class="bold">Fix:&#160;</span>Modified parameters so now the following exist instead:</p>
+                        <ol start="1" class="RN-number-list">
+                            <li class="li_14">MOBILE_CheckinProximityDistance -&#160;Mobile Check In Proximity Distance</li>
+                            <li class="li_14">MOBILE_ProximityUnitOfMeasurement -&#160;Mobile proximity unit of measurement</li>
+                        </ol>
+                        <p class="RNRef">Internal Reference # <a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?searchText=23253%27&amp;_a=edit&amp;id=23253" title="EMS Internal Use Only" alt="EMS Internal Use Only" class="rnrefhyper">23253</a><br />(For EMS Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
+                        <p class="RNArea">iOS Only: Home Page</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
+                        <p class="RNTitle">Today's Events Not Displaying Automatically</p>
+                        <p class="RNBody">When users on iOS&#160;devices launched the application, today's events were not automatically listed.&#160;</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified the display to list today's events for the current user&#160;as designed.&#160;</p>
+                        <p class="RNRef">Internal Reference # <a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?searchText=23253%27&amp;_a=edit&amp;id=23378" title="EMS Internal Use Only" alt="EMS Internal Use Only" class="rnrefhyper">23378</a><br />(For EMS Internal Use Only)</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
         <h2><a name="Update3"></a><span style="font-size: 24pt;">V44.1, </span><a href="../V44.1_ReleaseNotes.htm#Update3" style="font-size: 24pt;">Update 3</a><span style="font-size: 24pt;">*</span>
         </h2>
         <table style="mc-table-style: url('../Resources/TableStyles/PatternedRows.css');width: 718px;" class="TableStyle-PatternedRows" cellspacing="0">
@@ -1226,7 +2108,9 @@
                         <p style="text-align: center;">2016.08.24.0</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p style="text-align: center;">&#160;</p>
+                        <p>EMS Mobile API #<br />44.1.172.0</p>
+                        <p>EMS Mobile App (IPA) #<br />44.1.410</p>
+                        <p>EMS Mobile App (APK) #<br />44.1.410</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
@@ -1237,7 +2121,7 @@
                 </tr>
             </tbody>
         </table>
-        <h4>Enhancement&#160;</h4>
+        <h4>Enhancement</h4>
         <h4>Fix&#160;</h4>
         <h2><a name="Update2"></a><span style="font-size: 24pt;">V44.1, </span><a href="../V44.1_ReleaseNotes.htm#Update2" style="font-size: 24pt;">Update 2</a><span style="font-size: 24pt;">*</span>
         </h2>
