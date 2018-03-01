@@ -40,9 +40,6 @@
         <TocEntry
           Title="EMS API Functions"
           Link="/Content/OptionalFeatures/EMS_API/A_V44.1/API_EMSAPIfunctions.html" />
-        <TocEntry
-          Title="Release Notes"
-          Link="/Content/OptionalFeatures/EMS_API/A_V44.1/API_ReleaseNotes.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       </TocEntry>
       <TocEntry
         Title="EMS Floor Plan"
