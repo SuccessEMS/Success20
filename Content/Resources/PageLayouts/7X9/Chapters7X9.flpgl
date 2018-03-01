@@ -22,7 +22,7 @@
                 </xhtml:html>
             </Content>
         </Frame>
-        <Frame X="-2px" Y="-8px" Width="106px" Height="40px" Flow="decoration0" Right="472px" Bottom="736px" BackgroundImage="../../Images/EMS Logo.JPG" BackgroundRepeat="stretch" />
+        <Frame X="-2px" Y="-8px" Width="106px" Height="40px" Flow="decoration0" Right="472px" Bottom="736px" BackgroundImage="../../Images/ems_logo_250w.jpg" BackgroundRepeat="stretch" Anchors="" />
     </Page>
     <Page Name="Left" Width="7in" Height="9in" Padding="20px" PageType="left" PaddingLeft="0.5in" PaddingRight="0.5in" PaddingTop="0.5in" PaddingBottom="0.5in" BleedLeft="0.25in" Orientation="portrait" BleedBottom="0.25in" BleedTop="0.25in" BleedRight="0.25in" PageSize="custom">
         <Frame Flow="body" Y="57px" Bottom="48px" X="0px" Right="0px" ColumnCount="1" ColumnGap="30px" ColumnDivider="Solid 1px Red" Anchors="Left,Right,Top,Bottom" Width="576px" Height="663px">
@@ -38,12 +38,12 @@
                 </xhtml:html>
             </Content>
         </Frame>
-        <Frame X="-2px" Y="-2px" Width="106px" Height="40px" Flow="decoration0" Right="472px" Bottom="730px" BackgroundImage="../../Images/EMS Logo.JPG" BackgroundRepeat="stretch" />
+        <Frame X="-2px" Y="-2px" Width="106px" Height="40px" Flow="decoration0" Right="472px" Bottom="730px" BackgroundImage="../../Images/ems_logo_250w.jpg" BackgroundRepeat="stretch" Anchors="" />
     </Page>
     <Page Name="Right" Width="7in" Height="9in" Padding="20px" PageSize="custom" PageType="right" PaddingLeft="0.5in" PaddingRight="0.5in" PaddingTop="0.5in" PaddingBottom="0.5in" Orientation="portrait" BleedBottom="0.25in" BleedTop="0.25in" BleedRight="0.25in" BleedLeft="0.25in">
         <Frame Flow="body" Y="46px" Bottom="49px" X="0px" Right="0px" ColumnCount="1" ColumnGap="30px" ColumnDivider="Solid 1px Red" Anchors="Left,Right,Top,Bottom" Width="576px" Height="673px">
         </Frame>
-        <Frame X="-3px" Y="-8px" Width="106px" Height="40px" Flow="decoration0" Right="473px" Bottom="736px" BackgroundImage="../../Images/EMS Logo.JPG" BackgroundRepeat="stretch" />
+        <Frame X="-3px" Y="-8px" Width="106px" Height="40px" Flow="decoration0" Right="473px" Bottom="736px" BackgroundImage="../../Images/ems_logo_250w.jpg" BackgroundRepeat="stretch" Anchors="" />
         <Frame Flow="footer" Height="47px" Anchors="Left,Right,Bottom" Right="-8px" Bottom="-31px" X="-2px" Y="752px" Width="586px" TextAlign="left" VerticalAlign="top" FlowIndex="1">
             <Content>
                 <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
