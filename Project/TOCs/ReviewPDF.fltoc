@@ -2,6 +2,30 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="MasterCalendarRN"
-    Link="/Content/MCV8_RN.htm"></TocEntry>
+    Title="EMS Desktop Client Release Notes"
+    Link="/Content/ReleaseNotes/Version44.1/Update22/EMSDesktopClient.htm" />
+  <TocEntry
+    Title="EMS for Outlook Release Notes"
+    Link="/Content/ReleaseNotes/Version44.1/Update22/EMSforOutlook.htm"></TocEntry>
+  <TocEntry
+    Title="EMS MasterCalendar Release Notes"
+    Link="/Content/ReleaseNotes/Version44.1/Update22/EMSMasterCalendar.htm"></TocEntry>
+  <TocEntry
+    Title="EMS Kiosk App Release Notes"
+    Link="/Content/ReleaseNotes/Version44.1/Update22/EMSKioskApp.htm"></TocEntry>
+  <TocEntry
+    Title="EMS Web App Release Notes"
+    Link="/Content/ReleaseNotes/Version44.1/Update22/EMSWebApp.htm" />
+  <TocEntry
+    Title="EMS Room Sign App Release Notes"
+    Link="/Content/ReleaseNotes/Version44.1/Update22/EMSRoomSignApp_RN.htm"></TocEntry>
+  <TocEntry
+    Title="EMS Platform Services Release Notes"
+    Link="/Content/ReleaseNotes/Version44.1/Update22/EMSPlatformServices_RN.htm"></TocEntry>
+  <TocEntry
+    Title="EMS Mobile App Release Notes"
+    Link="/Content/ReleaseNotes/Version44.1/Update22/EMSMobileApp_RN.htm"></TocEntry>
+  <TocEntry
+    Title="EMSAPI Release Notes"
+    Link="/Content/ReleaseNotes/Version44.1/Update22/EMSAPI.htm"></TocEntry>
 </CatapultToc>
