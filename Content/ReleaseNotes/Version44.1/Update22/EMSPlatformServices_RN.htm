@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xml:lang="en-us" MadCap:lastBlockDepth="12" MadCap:lastHeight="4584" MadCap:lastWidth="864" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+<html xml:lang="en-us" MadCap:lastBlockDepth="12" MadCap:lastHeight="6210" MadCap:lastWidth="864" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
         <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
         <link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
@@ -18,7 +18,7 @@
                     <p class="p_3">Name:&#160;<br />V44.1 Update 22</p>
                 </td>
                 <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                    <p class="p_3">Release&#160;Date:&#160;<br />February 28, 2018<br /></p>
+                    <p class="p_3">Release&#160;Date:&#160;<br />March <br /></p>
                 </td>
                 <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
                     <p class="p_3">Patch:&#160;<br /></p>
@@ -54,30 +54,92 @@
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="text-align: left;" rowspan="2">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="text-align: left;" rowspan="4">
                         <p class="RNArea">User-Defined Fields (UDFs)</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNTitle">Search Reservations by UDFs</p>
-                        <p class="RNBody">Users can now search reservations by user-defined fields (UDFs). GET/reservation allows searching by one UDF, and POST/reservation allows searching by an array of UDFs. </p>
-                        <p class="RNBodyBeforeList">When filtering by UDF, both key and value filters are required.</p>
+                        <p class="RNTitle">Search Reservations by UDFs (List Type NOT Included)</p>
+                        <p class="RNBodyBeforeList">Added UDF name and value filters to GET/reservations and POST/reservations/action/search. </p>
                         <ul class="RN-unorder-list">
-                            <li>UDF name filter will search room UDFs  (tblUserDefinedField) and join up to tblUDFDefinition to get the UDF name value<ul><li>case insensitive match</li></ul></li>
-                            <li>UDF value filter will search room UDF values<ul><li>exact match, case insensitive</li><li>list-type UDFs require going to tblUDFDefinitionItem to get the actual configured value string</li></ul></li>
+                            <li>GET/reservation allows searching by one UDF, and POST/reservation allows searching by an array of UDFs.</li>
+                            <li>All UDF types are supported—date, numeric, and text.</li>
+                            <li>When filtering by UDF, both key and value filters are required.</li>
                         </ul>
+                        <p class="RNBodyBeforeList">Examples:</p>
+                        <div class="indent">
+                            <p class="RNBodyBeforeList">GET  /reservations?webUserId=0&amp;udf=UDF_Text:Text</p>
+                            <p class="RNBodyBeforeList">POST</p>
+                            <p class="RNBodyBeforeList">{</p>
+                            <p class="RNBodyBeforeList">"udfSearch": ["UDF_Text:Text"],</p>
+                            <p class="RNBodyBeforeList">"webUserId": 0</p>
+                            <p class="RNBody">}</p>
+                        </div>
                         <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=35910" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="rnrefhyper">35910</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
-                        <p class="RNTitle">Search Bookings by UDFs</p>
-                        <p class="RNBody">Users can now search bookings by user-defined fields (UDFs). GET/bookings allows searching by one UDF, and POST/bookings allows searching by an array of UDFs.</p>
-                        <p class="RNBodyBeforeList">When filtering by UDF, both key and value filters are required.</p>
+                        <p class="RNTitle">Search Bookings by UDFs (List Type NOT Included)</p>
+                        <p class="RNBodyBeforeList">Added UDF name and value filters to GET/bookings and POST/bookings/action/search. </p>
                         <ul class="RN-unorder-list">
-                            <li>UDF name filter will search room UDFs  (tblUserDefinedField), joining up to tblUDFDefinition to get the UDF name value<ul><li>case insensitive match</li></ul></li>
-                            <li>UDF value filter will search room UDF values<ul><li>exact match, case insensitive</li><li>list-type UDFs require going to tblUDFDefinitionItem to get the actual configured value string</li></ul></li>
+                            <li>GET/bookings allows searching by one UDF, and POST/bookings allows searching by an array of UDFs.</li>
+                            <li>All UDF types are supported—date, numeric, and text.</li>
+                            <li>When filtering by UDF, both key and value filters are required. </li>
                         </ul>
+                        <p class="RNBodyBeforeList">Examples:</p>
+                        <div class="indent">
+                            <p class="RNBodyBeforeList">GET  /bookings?webUserId=0&amp;udf=UDF_Text:Text</p>
+                            <p class="RNBodyBeforeList">POST</p>
+                            <p class="RNBodyBeforeList">{</p>
+                            <p class="RNBodyBeforeList">"udfSearch": ["UDF_Text:Text"],</p>
+                            <p class="RNBodyBeforeList">"webUserId": 0</p>
+                            <p class="RNBody">}</p>
+                        </div>
                         <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=35928" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="rnrefhyper">35928</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
+                        <p class="RNTitle">Search Reservations by UDFs (List Type UDF ONLY)</p>
+                        <p class="RNBodyBeforeList">Added UDF name and value filters to GET/reservations and POST/reservations/action/search.</p>
+                        <ul class="RN-unorder-list">
+                            <li>GET/reservation allows searching by one UDF, and POST/reservation allows searching by an array of UDFs.</li>
+                            <li>When filtering by UDF, both key and value filters are required.</li>
+                            <li>List Type: list - single selection (does not include multi-select types).</li>
+                            <li>List type UDFs require going to tblUDFDefinitionItem to get the actual configured value string.</li>
+                        </ul>
+                        <p class="RNBodyBeforeList">Examples:</p>
+                        <div class="indent">
+                            <p class="RNBodyBeforeList">GET  /reservations?webUserId=0&amp;udf=FruitList:Apple</p>
+                            <p class="RNBodyBeforeList">POST</p>
+                            <p class="RNBodyBeforeList">{</p>
+                            <p class="RNBodyBeforeList">"udfSearch": ["FruitList:Apple"],</p>
+                            <p class="RNBodyBeforeList">"webUserId": 0</p>
+                            <p class="RNBody">}</p>
+                        </div>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=36764" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="rnrefhyper">36764</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
+                        <p class="RNTitle">Search Bookings by UDFs (List Type UDF ONLY)</p>
+                        <p class="RNBodyBeforeList">Added UDF name and value filters to GET/bookings and POST/bookings/action/search.</p>
+                        <ul class="RN-unorder-list">
+                            <li>GET/bookings allows searching by one UDF, and POST/bookings allows searching by an array of UDFs.</li>
+                            <li>When filtering by UDF, both key and value filters are required.</li>
+                            <li>List Type: list - single selection (does not include multi-select types)</li>
+                            <li>List type UDFs require going to tblUDFDefinitionItem to get the actual, configured value string</li>
+                        </ul>
+                        <p class="RNBodyBeforeList">Examples:</p>
+                        <div class="indent">
+                            <p class="RNBodyBeforeList">GET  /bookings?webUserId=0&amp;udf=FruitList:Apple</p>
+                            <p class="RNBodyBeforeList">POST</p>
+                            <p class="RNBodyBeforeList">{</p>
+                            <p class="RNBodyBeforeList">"udfSearch": ["FruitList:Apple"],</p>
+                            <p class="RNBodyBeforeList">"webUserId": 0</p>
+                            <p class="RNBody">}</p>
+                        </div>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=36765" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="rnrefhyper">36765</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
@@ -117,7 +179,7 @@
                         <p class="RNBodyBeforeList">The webUserID filter has been added to the following routes:</p>
                         <ul class="RN-unorder-list">
                             <li>GET/reservations (query string parameter)</li>
-                            <li>POST/reservatoins/actions/search (part of the request object)</li>
+                            <li>POST/reservations/actions/search (part of the request object)</li>
                         </ul>
                         <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=35933" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="rnrefhyper">35933</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
