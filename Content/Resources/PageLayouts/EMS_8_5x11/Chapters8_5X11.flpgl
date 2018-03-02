@@ -59,7 +59,7 @@
     <Page Name="All" Width="7in" Height="9in" Padding="20px" PageSize="Letter" PageType="normal" PaddingLeft="1in" PaddingRight="1in" PaddingTop="1in" PaddingBottom="1in" Orientation="portrait" BleedBottom="0.25in" BleedTop="0.25in" BleedRight="0.25in" BleedLeft="0.25in">
         <Frame Flow="body" Y="46px" Bottom="49px" X="0px" Right="0px" ColumnCount="1" ColumnGap="30px" ColumnDivider="Solid 1px Red" Anchors="Left,Right,Top,Bottom" Width="624px" Height="769px">
         </Frame>
-        <Frame X="-3px" Y="-8px" Width="106px" Height="40px" Flow="decoration0" Right="521px" Bottom="832px" BackgroundImage="../../Images/ems_logo_250w.jpg" BackgroundRepeat="stretch" Anchors="" />
+        <Frame X="-1px" Y="-53px" Width="106px" Height="40px" Flow="decoration0" Right="519px" Bottom="877px" BackgroundImage="../../Images/ems_logo_250w.jpg" BackgroundRepeat="stretch" Anchors="" />
         <Frame Flow="footer" Height="47px" Anchors="Left,Right,Bottom" Right="-8px" Bottom="-31px" X="-2px" Y="848px" Width="634px" TextAlign="left" VerticalAlign="top" FlowIndex="1">
             <Content>
                 <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
@@ -71,5 +71,6 @@
                 </xhtml:html>
             </Content>
         </Frame>
+        <Frame X="-2px" Y="-4px" Width="629px" Height="11px" Flow="header" Right="-3px" Bottom="857px" BorderTopStyle="solid" BorderTopWidth="2px" BorderTopColor="#666666" Anchors="" />
     </Page>
 </PageStyles>

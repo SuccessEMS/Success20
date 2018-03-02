@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PageStyles xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <Page Name="All" Width="7in" Height="9in" Padding="20px" PageSize="Letter" PageType="title" PaddingLeft="1in" PaddingRight="1in" PaddingTop="1in" PaddingBottom="1in" BackgroundRepeat="no-repeat" Orientation="portrait" BackgroundImage="../../Images/TitlePageBackground.eps" BackgroundPositionX="10px" BackgroundPositionY="-90px" BleedLeft="0.25in" BleedRight="0.25in" BleedTop="0.25in" BleedBottom="0.25in">
-        <Frame X="-3px" Y="515px" Width="607px" Height="274px" Flow="body" Right="20px" Bottom="75px" />
-        <Frame X="-40px" Y="-35px" Width="563px" Height="95px" Right="101px" Bottom="804px" BackgroundImage="../../Images/ems_logo_250w.jpg" BackgroundRepeat="no-repeat" BackgroundPositionX="left" BackgroundPositionY="top" Anchors="" Flow="header" TextAlign="left" VerticalAlign="top" />
-        <Frame X="-96px" Y="61px" Width="809px" Height="433px" Flow="decoration1" Right="-89px" Bottom="370px" BackgroundImage="../../Images/PDF-cover.jpg" BackgroundRepeat="stretch" DividerTopMargin="208px" Anchors="" />
-        <Frame X="-6px" Y="816px" Width="624px" Height="55px" Flow="footer" Right="6px" Bottom="-7px">
+        <Frame X="-5px" Y="532px" Width="624px" Height="294px" Flow="body" Right="5px" Bottom="38px" />
+        <Frame X="-14px" Y="-63px" Width="563px" Height="95px" Right="75px" Bottom="832px" BackgroundImage="../../Images/ems_logo_250w.jpg" BackgroundRepeat="no-repeat" BackgroundPositionX="left" BackgroundPositionY="top" Anchors="" Flow="header" TextAlign="left" VerticalAlign="top" />
+        <Frame X="-95px" Y="72px" Width="819px" Height="437px" Flow="decoration1" Right="-100px" Bottom="355px" BackgroundImage="../../Images/banner.jpg" BackgroundRepeat="stretch" DividerTopMargin="208px" Anchors="" />
+        <Frame X="-5px" Y="865px" Width="624px" Height="55px" Flow="footer" Right="5px" Bottom="-56px">
             <Content>
                 <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
                     <xhtml:body>
