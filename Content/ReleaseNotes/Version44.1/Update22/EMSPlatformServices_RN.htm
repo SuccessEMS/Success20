@@ -67,10 +67,10 @@
                         </ul>
                         <p class="RNBodyBeforeList">Examples:</p>
                         <div class="indent">
-                            <p class="RNBodyBeforeList">GET  /reservations?webUserId=0&amp;udf=FruitList:Apple</p>
+                            <p class="RNBodyBeforeList">GET  /reservations?webUserId=0&amp;udf=UDF_Text:Text</p>
                             <p class="RNBodyBeforeList">POST</p>
                             <p class="RNBodyBeforeList">{</p>
-                            <p class="RNBodyBeforeList">"udfSearch": ["FruitList:Apple"],</p>
+                            <p class="RNBodyBeforeList">"udfSearch": ["UDF_Text:Text"],</p>
                             <p class="RNBodyBeforeList">"webUserId": 0</p>
                             <p class="RNBody">}</p>
                         </div>
@@ -83,8 +83,8 @@
                         <p class="RNBodyBeforeList">Added UDF name and value filters to GET/bookings and POST/bookings/action/search. </p>
                         <ul class="RN-unorder-list">
                             <li>GET/bookings allows searching by one UDF, and POST/bookings allows searching by an array of UDFs.</li>
-                            <li>When filtering by UDF, both key and value filters are required. </li>
                             <li>All UDF types are supported—date, numeric, and text.</li>
+                            <li>When filtering by UDF, both key and value filters are required. </li>
                         </ul>
                         <p class="RNBodyBeforeList">Examples:</p>
                         <div class="indent">
@@ -105,8 +105,8 @@
                         <ul class="RN-unorder-list">
                             <li>GET/reservation allows searching by one UDF, and POST/reservation allows searching by an array of UDFs.</li>
                             <li>When filtering by UDF, both key and value filters are required.</li>
-                            <li>List Type: list - single selection (does not include multi-select types)</li>
-                            <li>List type UDFs require going to tblUDFDefinitionItem to get the actual configured value string</li>
+                            <li>List Type: list - single selection (does not include multi-select types).</li>
+                            <li>List type UDFs require going to tblUDFDefinitionItem to get the actual configured value string.</li>
                         </ul>
                         <p class="RNBodyBeforeList">Examples:</p>
                         <div class="indent">
