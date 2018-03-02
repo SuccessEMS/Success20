@@ -2,7 +2,7 @@
 <PageStyles xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <Page Name="First Right" Width="7in" Height="9in" Padding="20px" PageSize="Letter" PageType="firstright" PaddingLeft="1in" PaddingRight="1in" PaddingTop="1in" PaddingBottom="1in" Orientation="portrait" BackgroundType="Solid" BackgroundColor="#ffffff" BleedLeft="0.25in" BleedRight="0.25in" BleedTop="0.25in" BleedBottom="0.25in">
         <Frame X="-6px" Y="90px" Width="634px" Height="733px" FlowIndex="8" Flow="body" Right="-4px" Bottom="41px" Anchors="Left,Right,Bottom" />
-        <Frame Flow="footer" Height="47px" Anchors="Left,Right,Bottom" Right="-8px" Bottom="-31px" X="8px" Y="848px" Width="624px" TextAlign="left" VerticalAlign="top">
+        <Frame Flow="footer" Height="47px" Anchors="Left,Right,Bottom" Right="-1px" Bottom="-55px" X="-9px" Y="872px" Width="634px" TextAlign="left" VerticalAlign="top">
             <Content>
                 <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
                     <xhtml:head>
@@ -23,8 +23,7 @@
                     <xhtml:head>
                     </xhtml:head>
                     <xhtml:body>
-                        <xhtml:p xhtml:class="FrameFooterText"><MadCap:variable xhtml:name="System.PageNumber" />
-                        </xhtml:p>
+                        <xhtml:p>&#160;</xhtml:p>
                     </xhtml:body>
                 </xhtml:html>
             </Content>
@@ -39,8 +38,7 @@
                     <xhtml:head>
                     </xhtml:head>
                     <xhtml:body>
-                        <xhtml:p xhtml:class="FrameFooterText"><MadCap:variable xhtml:name="System.PageNumber" />
-                        </xhtml:p>
+                        <xhtml:p>&#160;</xhtml:p>
                     </xhtml:body>
                 </xhtml:html>
             </Content>
@@ -55,8 +53,7 @@
                     <xhtml:head>
                     </xhtml:head>
                     <xhtml:body>
-                        <xhtml:p xhtml:class="FrameFooterText"><MadCap:variable xhtml:name="System.PageNumber" />
-                        </xhtml:p>
+                        <xhtml:p>&#160;</xhtml:p>
                     </xhtml:body>
                 </xhtml:html>
             </Content>
