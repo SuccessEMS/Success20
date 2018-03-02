@@ -19,8 +19,8 @@
     PopupConversion="remove-body"
     GenerateTOCProxy="false" />
   <DocumentProperties
-    Title="User Manual—7X9"
-    Author="My Name" />
+    Title="User Manual"
+    Author="EMS Software" />
   <PDF
     ShowUsedBookmarks="false"
     InitialMagnification="100"
