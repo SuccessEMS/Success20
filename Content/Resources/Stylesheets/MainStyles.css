@@ -280,6 +280,7 @@ ul.navigation > li > a:hover
 	border-bottom: 3px #afbd21 solid;
 }
 
+
 /* ******************************* */
 /* Breadcrumb Css*/
 /* ******************************* */
@@ -1164,6 +1165,11 @@ p.TOC4
 _generic_.RNRefHyper
 {
 	
+}
+
+MadCap|tocProxy
+{
+	border-top-color: #666666;
 }
 
 /*medium device style*/
@@ -2396,3 +2402,30 @@ a.RNRefHyper
 {
 	font-size: 15px;
 }
+
+/* *********************************** Print PDF Style ********************************************* */
+
+p.PDFGuideTitle
+{
+	margin-bottom: 8px;
+	padding-bottom: 10px;
+	margin-top: 0px;
+	font-size: 42px;
+	line-height: 58px;
+	color: #333333;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+
+p.PDFTocTitle
+{
+	margin-bottom: 8px;
+	padding-bottom: 10px;
+	margin-top: 0px;
+	font-size: 42px;
+	line-height: 58px;
+	color: #333333;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+
