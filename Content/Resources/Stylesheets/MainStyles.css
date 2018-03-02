@@ -280,7 +280,6 @@ ul.navigation > li > a:hover
 	border-bottom: 3px #afbd21 solid;
 }
 
-
 /* ******************************* */
 /* Breadcrumb Css*/
 /* ******************************* */
@@ -2429,3 +2428,14 @@ p.PDFTocTitle
 	font-weight: 300;
 }
 
+p.lastUpdated
+{
+	font-weight: bold;
+	color: #1a6bb8;
+}
+
+p.bookversion
+{
+	font-weight: bold;
+	color: #1a6bb8;
+}
