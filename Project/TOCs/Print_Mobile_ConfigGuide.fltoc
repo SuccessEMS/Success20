@@ -6,7 +6,7 @@
     Link="/Content/Print/Mobile_Config_FrontPage.htm"
     BreakType="chapter"
     StartSection="false"
-    PageLayout="/Content/Resources/PageLayouts/7X9/Title7X9.flpgl"
+    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Title8_5X11.flpgl"
     PageNumberReset="continue">
     <TocEntry
       Title="[%=System.LinkedTitle%]"
@@ -14,47 +14,131 @@
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
-      PageLayout="/Content/Resources/PageLayouts/7X9/TOC7X9.flpgl">
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/TOC8_5X11.flpgl">
       <TocEntry
-        Title="EMS Mobile App"
-        Link="/Content/ConfigGuides/4_EMS_MobileApp_CG.htm"></TocEntry>
-      <TocEntry
-        Title="Introduction"
-        Link="/Content/EMSMobileApp/B_ConfigurationGuide/Mobile_Introduction.htm" />
-      <TocEntry
-        Title="Add Mobile Users"
-        Link="/Content/EMSMobileApp/B_ConfigurationGuide/Mobile_AddMobileUsers.htm" />
-      <TocEntry
-        Title="Deploying the EMS Mobile App"
-        Link="/Content/EMSMobileApp/B_ConfigurationGuide/Mobile_DeployMobileApp.html">
+        Title="Introduction to the EMS Mobile App"
+        Link="/Content/ConfigGuides/4_EMS_MobileApp_CG.htm"
+        BreakType="chapter"
+        PageNumberReset="reset"
+        ChapterNumberReset="reset"
+        ChapterNumber="1"
+        StartSection="false"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same">
         <TocEntry
-          Title="Change EMS Mobile App Logo (Private Deployment Only)"
-          Link="/Content/EMSMobileApp/B_ConfigurationGuide/Mobile_ChangeEMSMobileAppLogoPrivDeploy.html" />
+          Title="Add Mobile Users"
+          Link="/Content/EMSMobileApp/B_ConfigurationGuide/Mobile_AddMobileUsers.htm"
+          ChapterNumberReset="continue"
+          BreakType="chapter"
+          StartSection="false"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same" />
         <TocEntry
-          Title="Configure and Re-Sign EMS Mobile App (Private Deployment Only)"
-          Link="/Content/EMSMobileApp/B_ConfigurationGuide/Mobile_ConfigRe-signMobilePrivDeploy.html" />
+          Title="Deploying the EMS Mobile App"
+          Link="/Content/EMSMobileApp/B_ConfigurationGuide/Mobile_DeployMobileApp.html"
+          ChapterNumberReset="continue"
+          BreakType="chapter"
+          StartSection="false"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same">
+          <TocEntry
+            Title="Change EMS Mobile App Logo (Private Deployment Only)"
+            Link="/Content/EMSMobileApp/B_ConfigurationGuide/Mobile_ChangeEMSMobileAppLogoPrivDeploy.html"
+            ChapterNumberReset="continue"
+            BreakType="chapter"
+            StartSection="false"
+            PageNumberReset="continue"
+            PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+            SectionNumberReset="continue"
+            VolumeNumberReset="same" />
+          <TocEntry
+            Title="Configure and Re-Sign EMS Mobile App (Private Deployment Only)"
+            Link="/Content/EMSMobileApp/B_ConfigurationGuide/Mobile_ConfigRe-signMobilePrivDeploy.html"
+            ChapterNumberReset="continue"
+            BreakType="chapter"
+            StartSection="false"
+            PageNumberReset="continue"
+            PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+            SectionNumberReset="continue"
+            VolumeNumberReset="same" />
+          <TocEntry
+            Title="Customize Your Mobile App Configuration Using config.json (Private Deployment Only)"
+            Link="/Content/EMSMobileApp/B_ConfigurationGuide/Mobile_CustomizeMobileAppUsingConfigJson.htm"
+            ChapterNumberReset="continue"
+            BreakType="chapter"
+            StartSection="false"
+            PageNumberReset="continue"
+            PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+            SectionNumberReset="continue"
+            VolumeNumberReset="same" />
+          <TocEntry
+            Title="Assign Templates to EMS Mobile Users"
+            Link="/Content/EMSMobileApp/B_ConfigurationGuide/Mobile_AssignTemptoMobileUsers.html"
+            ChapterNumberReset="continue"
+            BreakType="chapter"
+            StartSection="false"
+            PageNumberReset="continue"
+            PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+            SectionNumberReset="continue"
+            VolumeNumberReset="same" />
+          <TocEntry
+            Title="Restrict Users' Mobile App Versions"
+            Link="/Content/EMSMobileApp/B_ConfigurationGuide/Mobile_RestrictUsersMobileAppVer.html"
+            ChapterNumberReset="continue"
+            BreakType="chapter"
+            StartSection="false"
+            PageNumberReset="continue"
+            PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+            SectionNumberReset="continue"
+            VolumeNumberReset="same" />
+        </TocEntry>
         <TocEntry
-          Title="Customize Your Mobile App Configuration Using config.json (Private Deployment Only)"
-          Link="/Content/EMSMobileApp/B_ConfigurationGuide/Mobile_CustomizeMobileAppUsingConfigJson.htm" />
+          Title="Change the Help Link Label and URL"
+          Link="/Content/EMSMobileApp/B_ConfigurationGuide/Mobile_ChangeHelpLinkLabelURL.html"
+          ChapterNumberReset="continue"
+          BreakType="chapter"
+          StartSection="false"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same" />
         <TocEntry
-          Title="Assign Templates to EMS Mobile Users"
-          Link="/Content/EMSMobileApp/B_ConfigurationGuide/Mobile_AssignTemptoMobileUsers.html" />
+          Title="Configure EMS Mobile QR Codes"
+          Link="/Content/EMSMobileApp/B_ConfigurationGuide/Mobile_ConfigMobileQRCodes.html"
+          ChapterNumberReset="continue"
+          BreakType="chapter"
+          StartSection="false"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same" />
         <TocEntry
-          Title="Restrict Users' Mobile App Versions"
-          Link="/Content/EMSMobileApp/B_ConfigurationGuide/Mobile_RestrictUsersMobileAppVer.html" />
+          Title="How Do I Know When To Upgrade the Mobile App and API?"
+          Link="/Content/EMSMobileApp/B_ConfigurationGuide/Mobile_HowtoUpgradeMobileApptoAPI.html"
+          ChapterNumberReset="continue"
+          BreakType="chapter"
+          StartSection="false"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same" />
+        <TocEntry
+          Title="Set EMS Mobile Parameters"
+          Link="/Content/EMSMobileApp/B_ConfigurationGuide/Mobile_SetMobileParameters.html"
+          ChapterNumberReset="continue"
+          BreakType="chapter"
+          StartSection="false"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same" />
       </TocEntry>
-      <TocEntry
-        Title="Change the Help Link Label and URL"
-        Link="/Content/EMSMobileApp/B_ConfigurationGuide/Mobile_ChangeHelpLinkLabelURL.html" />
-      <TocEntry
-        Title="Configure EMS Mobile QR Codes"
-        Link="/Content/EMSMobileApp/B_ConfigurationGuide/Mobile_ConfigMobileQRCodes.html" />
-      <TocEntry
-        Title="How Do I Know When To Upgrade the Mobile App and API?"
-        Link="/Content/EMSMobileApp/B_ConfigurationGuide/Mobile_HowtoUpgradeMobileApptoAPI.html" />
-      <TocEntry
-        Title="Set EMS Mobile Parameters"
-        Link="/Content/EMSMobileApp/B_ConfigurationGuide/Mobile_SetMobileParameters.html" />
     </TocEntry>
   </TocEntry>
 </CatapultToc>

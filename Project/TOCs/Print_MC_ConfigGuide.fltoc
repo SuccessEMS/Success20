@@ -6,7 +6,7 @@
     Link="/Content/Print/DC_Install_FrontPage.htm"
     BreakType="chapter"
     StartSection="false"
-    PageLayout="/Content/Resources/PageLayouts/7X9/Title7X9.flpgl"
+    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Title8_5X11.flpgl"
     PageNumberReset="continue"></TocEntry>
   <TocEntry
     Title="[%=System.LinkedTitle%]"
@@ -14,227 +14,515 @@
     BreakType="chapter"
     StartSection="false"
     PageNumberReset="continue"
-    PageLayout="/Content/Resources/PageLayouts/7X9/TOC7X9.flpgl" />
-  <TocEntry
-    Title="Requirements for Master Calendar"
-    Link="/Content/EMSMasterCalendar/V8/A_Installation/SystemRequirementsandPrerequisites.html"></TocEntry>
+    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/TOC8_5X11.flpgl" />
   <TocEntry
     Title="Configuration Guide"
-    Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_Introduction.htm">
+    Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_Introduction.htm"
+    BreakType="chapter"
+    PageNumberReset="reset"
+    ChapterNumberReset="reset"
+    ChapterNumber="1"
+    StartSection="false"
+    PageNumber="1"
+    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same">
+    <TocEntry
+      Title="Requirements for Master Calendar"
+      Link="/Content/EMSMasterCalendar/V8/A_Installation/SystemRequirementsandPrerequisites.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue"></TocEntry>
     <TocEntry
       Title="Admin Interface Overview"
-      Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_AdminInterfaceOverview.html" />
+      Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_AdminInterfaceOverview.html"
+      BreakType="chapter"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      ChapterNumberReset="continue" />
     <TocEntry
       Title="Calendar Management"
-      Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_CalendarManagement.html">
+      Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_CalendarManagement.html"
+      BreakType="chapter"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      ChapterNumberReset="continue">
       <TocEntry
         Title="Import Events Into Your Master Calendar System"
-        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ImportEvents.html">
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ImportEvents.html"
+        BreakType="chapter"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        ChapterNumberReset="continue">
         <TocEntry
           Title="Connect Master Calendar to Your EMS Database"
-          Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ConnectMCtoEMSDatabase.html" />
+          Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ConnectMCtoEMSDatabase.html"
+          BreakType="chapter"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          ChapterNumberReset="continue" />
         <TocEntry
           Title="Connect to Data Sources"
-          Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ConnectDataSources.html" />
+          Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ConnectDataSources.html"
+          BreakType="chapter"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          ChapterNumberReset="continue" />
       </TocEntry>
     </TocEntry>
     <TocEntry
       Title="Manage an Event from the Event Summary Page"
-      Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ManageEventfromEventSumPg.html">
+      Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ManageEventfromEventSumPg.html"
+      BreakType="chapter"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      ChapterNumberReset="continue">
       <TocEntry
         Title="Add Events to Your Personal Email Calendar"
-        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_AddEventstoPersonalEmailCal.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_AddEventstoPersonalEmailCal.html"
+        BreakType="chapter"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        ChapterNumberReset="continue" />
       <TocEntry
         Title="Add Event Dates"
-        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_AddEventDates.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_AddEventDates.html"
+        BreakType="chapter"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        ChapterNumberReset="continue" />
       <TocEntry
         Title="Cancel Event Dates"
-        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_CancelEventDates.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_CancelEventDates.html"
+        BreakType="chapter"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        ChapterNumberReset="continue" />
       <TocEntry
         Title="Copy an Event"
-        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_CopyEvent.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_CopyEvent.html"
+        BreakType="chapter"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        ChapterNumberReset="continue" />
       <TocEntry
         Title="Edit an Event"
-        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_EditEvent.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_EditEvent.html"
+        BreakType="chapter"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        ChapterNumberReset="continue" />
       <TocEntry
         Title="Un-Cancel an Event"
-        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_Un-CancelEvent.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_Un-CancelEvent.html"
+        BreakType="chapter"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        ChapterNumberReset="continue" />
     </TocEntry>
     <TocEntry
       Title="Manage Events from the Manage Events Page"
-      Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ManageEventsfromManageEventsPg.html">
+      Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ManageEventsfromManageEventsPg.html"
+      BreakType="chapter"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      ChapterNumberReset="continue">
       <TocEntry
         Title="Filter Events on the Manage Events Page"
-        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_FilterEventsManageEventsPg.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_FilterEventsManageEventsPg.html"
+        BreakType="chapter"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        ChapterNumberReset="continue" />
       <TocEntry
         Title="Approve Pending Event Requests"
-        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ApprovePendingEventRequests.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ApprovePendingEventRequests.html"
+        BreakType="chapter"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        ChapterNumberReset="continue" />
       <TocEntry
         Title="Reject Pending Event Requests"
-        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_RejectPendingEventRequests.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_RejectPendingEventRequests.html"
+        BreakType="chapter"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        ChapterNumberReset="continue" />
       <TocEntry
         Title="Move Rejected Event Requests to Approved Status"
-        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_MoveRejectEventRequeststoAppStatus.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_MoveRejectEventRequeststoAppStatus.html"
+        BreakType="chapter"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        ChapterNumberReset="continue" />
       <TocEntry
         Title="Generate a List of Event Requests"
-        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_GenerateListEventRequests.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_GenerateListEventRequests.html"
+        BreakType="chapter"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        ChapterNumberReset="continue" />
       <TocEntry
         Title="Request Additional Information for Event Requests"
-        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_RequestAddInfoEventRequests.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_RequestAddInfoEventRequests.html"
+        BreakType="chapter"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        ChapterNumberReset="continue" />
       <TocEntry
         Title="Delete Event Requests"
-        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_DeleteEventRequests.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_DeleteEventRequests.html"
+        BreakType="chapter"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        ChapterNumberReset="continue" />
     </TocEntry>
     <TocEntry
       Title="Configure Calendar Groupings and Calendars"
-      Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ConfigCalGroupingsandCals.html">
+      Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ConfigCalGroupingsandCals.html"
+      BreakType="chapter"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      ChapterNumberReset="continue">
       <TocEntry
         Title="Manage Calendars in Master Calendar"
-        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ManageCalendarsinMC.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ManageCalendarsinMC.html"
+        BreakType="chapter"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        ChapterNumberReset="continue" />
       <TocEntry
         Title="Configure Special Dates"
-        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ConfigSpecialDates.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ConfigSpecialDates.html"
+        BreakType="chapter"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        ChapterNumberReset="continue" />
       <TocEntry
         Title="Manage Calendar URLs"
-        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ManageCalURLs.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ManageCalURLs.html"
+        BreakType="chapter"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        ChapterNumberReset="continue" />
       <TocEntry
         Title="Manage External Links for a Grouping"
-        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ManageExtLinksforGrouping.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ManageExtLinksforGrouping.html"
+        BreakType="chapter"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        ChapterNumberReset="continue" />
       <TocEntry
         Title="Manage Groupings in Master Calendar"
-        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ManageGroupingsinMC.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ManageGroupingsinMC.html"
+        BreakType="chapter"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        ChapterNumberReset="continue" />
     </TocEntry>
     <TocEntry
       Title="Configure Optional Information"
-      Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ConfigOptionalInfo.html">
+      Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ConfigOptionalInfo.html"
+      BreakType="chapter"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      ChapterNumberReset="continue">
       <TocEntry
         Title="Configure Event Icons"
-        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ConfigEventIcons.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ConfigEventIcons.html"
+        BreakType="chapter"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        ChapterNumberReset="continue" />
       <TocEntry
         Title="Maintain Departments in Master Calendar"
-        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_MaintainDeptinMC.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_MaintainDeptinMC.html"
+        BreakType="chapter"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        ChapterNumberReset="continue" />
       <TocEntry
         Title="Manage Cultures"
-        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ManageCultures.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ManageCultures.html"
+        BreakType="chapter"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        ChapterNumberReset="continue" />
       <TocEntry
         Title="Manage Custom Field Hints"
-        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ManageCustomFieldHints.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ManageCustomFieldHints.html"
+        BreakType="chapter"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        ChapterNumberReset="continue" />
       <TocEntry
         Title="Manage Event Type Views"
-        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ManageEventTypeViews.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ManageEventTypeViews.html"
+        BreakType="chapter"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        ChapterNumberReset="continue" />
       <TocEntry
         Title="Creating Event Locations"
-        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_WorkwithEventLocations.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_WorkwithEventLocations.html"
+        BreakType="chapter"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        ChapterNumberReset="continue" />
       <TocEntry
         Title="Creating Event Types"
-        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_WorkwithEventTypes.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_WorkwithEventTypes.html"
+        BreakType="chapter"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        ChapterNumberReset="continue" />
       <TocEntry
         Title="Work with Rooms"
-        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_WorkwithRooms.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_WorkwithRooms.html"
+        BreakType="chapter"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        ChapterNumberReset="continue" />
       <TocEntry
         Title="Work with User Defined Questions (UDQs)"
-        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_WorkwithUserDefQuest.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_WorkwithUserDefQuest.html"
+        BreakType="chapter"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        ChapterNumberReset="continue" />
     </TocEntry>
     <TocEntry
       Title="Configure Users and Templates"
-      Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ConfigUsersTemplates.html">
+      Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ConfigUsersTemplates.html"
+      BreakType="chapter"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      ChapterNumberReset="continue">
       <TocEntry
         Title="Manage Users"
-        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ManageUsers.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ManageUsers.html"
+        BreakType="chapter"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        ChapterNumberReset="continue" />
       <TocEntry
         Title="Manage User Templates"
-        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ManageUserTemplates.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ManageUserTemplates.html"
+        BreakType="chapter"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        ChapterNumberReset="continue" />
     </TocEntry>
     <TocEntry
       Title="Create Custom Reports in Master Calendar"
-      Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_CreateCustReports.html" />
+      Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_CreateCustReports.html"
+      BreakType="chapter"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      ChapterNumberReset="continue" />
     <TocEntry
       Title="Customize Master Calendar Site Appearance and Behavior"
-      Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_CustomMCSiteAppBehav.html">
+      Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_CustomMCSiteAppBehav.html"
+      BreakType="chapter"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      ChapterNumberReset="continue">
       <TocEntry
         Title="Broadcast Announcements"
-        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_BroadcastAnnouncements.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_BroadcastAnnouncements.html"
+        BreakType="chapter"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        ChapterNumberReset="continue" />
       <TocEntry
         Title="Customize Help Text in Master Calendar"
-        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_CustomizeHelpText.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_CustomizeHelpText.html"
+        BreakType="chapter"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        ChapterNumberReset="continue" />
       <TocEntry
         Title="Customize Menus in Master Calendar"
-        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_CustomizeMenus.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_CustomizeMenus.html"
+        BreakType="chapter"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        ChapterNumberReset="continue" />
       <TocEntry
         Title="Customize Your Master Calendar Site and Automated Emails"
-        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_CustomizeMCSiteandAutoEmails.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_CustomizeMCSiteandAutoEmails.html"
+        BreakType="chapter"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        ChapterNumberReset="continue" />
       <TocEntry
         Title="Set Default Home Page Behavior"
-        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_SetDefaultHomePgBehavior.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_SetDefaultHomePgBehavior.html"
+        BreakType="chapter"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        ChapterNumberReset="continue" />
       <TocEntry
         Title="Set the Default Home Page Layout"
-        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_SetDefaultHomePgLayout.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_SetDefaultHomePgLayout.html"
+        BreakType="chapter"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        ChapterNumberReset="continue" />
     </TocEntry>
     <TocEntry
       Title="Integrated Authentication for Master Calendar"
-      Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_IntegAuthenforMC.html">
+      Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_IntegAuthenforMC.html"
+      BreakType="chapter"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      ChapterNumberReset="continue">
       <TocEntry
         Title="Portal Authentication Methods"
-        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_PortalAuthenMethods.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_PortalAuthenMethods.html"
+        BreakType="chapter"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        ChapterNumberReset="continue" />
     </TocEntry>
     <TocEntry
       Title="Maintain Master Calendar Software Registration"
-      Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_MaintainMCSoftwareReg.html" />
+      Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_MaintainMCSoftwareReg.html"
+      BreakType="chapter"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      ChapterNumberReset="continue" />
     <TocEntry
       Title="Manage RSS Feeds"
-      Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ManageRSSFeeds.html" />
+      Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ManageRSSFeeds.html"
+      BreakType="chapter"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      ChapterNumberReset="continue" />
     <TocEntry
       Title="Master Calendar Admin Field Definitions"
-      Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_MCAdminFieldDef.html">
+      Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_MCAdminFieldDef.html"
+      BreakType="chapter"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      ChapterNumberReset="continue">
       <TocEntry
         Title="Area: Calendar"
-        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_AreaCalendar.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_AreaCalendar.html"
+        BreakType="chapter"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        ChapterNumberReset="continue" />
       <TocEntry
         Title="Area: Email"
-        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_AreaEmail.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_AreaEmail.html"
+        BreakType="chapter"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        ChapterNumberReset="continue" />
       <TocEntry
         Title="Area: Labels"
-        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_AreaLabels.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_AreaLabels.html"
+        BreakType="chapter"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        ChapterNumberReset="continue" />
       <TocEntry
         Title="Area: Mobile"
-        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_AreaMobile.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_AreaMobile.html"
+        BreakType="chapter"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        ChapterNumberReset="continue" />
       <TocEntry
         Title="Area: Portal Authentication"
-        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_AreaPortAuthen.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_AreaPortAuthen.html"
+        BreakType="chapter"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        ChapterNumberReset="continue" />
       <TocEntry
         Title="Area: RSS"
-        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_AreaRSS.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_AreaRSS.html"
+        BreakType="chapter"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        ChapterNumberReset="continue" />
       <TocEntry
         Title="Area: Submit"
-        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_AreaSubmit.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_AreaSubmit.html"
+        BreakType="chapter"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        ChapterNumberReset="continue" />
       <TocEntry
         Title="Area: System Configuration"
-        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_AreaSystemConfig.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_AreaSystemConfig.html"
+        BreakType="chapter"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        ChapterNumberReset="continue" />
       <TocEntry
         Title="Area: Tooltip"
-        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_AreaTooltip.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_AreaTooltip.html"
+        BreakType="chapter"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        ChapterNumberReset="continue" />
     </TocEntry>
     <TocEntry
       Title="Master Calendar API"
-      Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_MasterCalAPI.html">
+      Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_MasterCalAPI.html"
+      BreakType="chapter"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      ChapterNumberReset="continue">
       <TocEntry
         Title="Master Calendar API Requirements and Licensing"
-        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_APISysRequirements.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_APISysRequirements.html"
+        BreakType="chapter"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        ChapterNumberReset="continue"></TocEntry>
       <TocEntry
         Title="Configure Master Calendar to Use the Master Calendar API Web Service"
-        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ConfigMCtoUseMC_API_WebServ.htm" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ConfigMCtoUseMC_API_WebServ.htm"
+        BreakType="chapter"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        ChapterNumberReset="continue" />
       <TocEntry
         Title="Verify the Master Calendar API"
-        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_VerifyMCAPI.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_VerifyMCAPI.html"
+        BreakType="chapter"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        ChapterNumberReset="continue" />
       <TocEntry
         Title="Release Notes"
-        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ReleaseNotes.html" />
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ReleaseNotes.html"
+        BreakType="chapter"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        ChapterNumberReset="continue" />
       <TocEntry
         Title="API Functions"
-        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_APIfunctions.htm"></TocEntry>
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_APIfunctions.htm"
+        BreakType="chapter"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        ChapterNumberReset="continue"></TocEntry>
     </TocEntry>
     <TocEntry
       Title="Work with Subscriptions"
-      Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_WorkwithSubscriptions.html" />
+      Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_WorkwithSubscriptions.html"
+      BreakType="chapter"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      ChapterNumberReset="continue" />
   </TocEntry>
 </CatapultToc>
