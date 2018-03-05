@@ -1,4 +1,4 @@
-﻿/*<meta />*/
+/*<meta />*/
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
 
@@ -2445,8 +2445,42 @@ p.bookversion
 
 p.PDFh1
 {
-	text-align: right;	
+	text-align: right;
 	font-style: italic;
 	font-size: 11px;
 	font-family: 'Open Sans', sans-serif;
 }
+
+@media print
+{
+	h4
+	{
+		mc-heading-level: 0;
+	}
+
+	h5
+	{
+		mc-heading-level: 0;
+	}
+
+	h6
+	{
+		mc-heading-level: 0;
+	}
+
+	h1
+	{
+		mc-auto-number-format: 'CHAPTER {chapnum}: ';
+	}
+
+	div.TitleandScreenshot
+	{
+		page-break-inside: avoid;
+	}
+}
+
+div.TitleandScreenshot
+{
+	
+}
+
