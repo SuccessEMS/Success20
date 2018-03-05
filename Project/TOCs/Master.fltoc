@@ -5318,11 +5318,8 @@
       Title="Release Notes V43"
       Link="/Content/V43_ReleaseNotes.htm" />
     <TocEntry
-      Title="Master Calendar"
-      Link="/Content/MC_ReleaseNotes.html" />
-    <TocEntry
-      Title="Regics"
-      Link="/Content/Regics_RN_4.0.htm" />
+      Title="Browse by Product"
+      Link="/Content/ReleaseNotes/BrowsebyProduct.htm" />
   </TocEntry>
   <TocEntry
     Title="FAQs"
