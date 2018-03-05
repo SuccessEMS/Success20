@@ -40,8 +40,7 @@
             <Content>
                 <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
                     <xhtml:body>
-                        <xhtml:p xhtml:class="PDFh1"><MadCap:variable xhtml:name="System.ChapterNumber" xhtml:style="font-size: 11pt;" /><xhtml:span xhtml:style="font-size: 11pt;">:&#160;</xhtml:span><MadCap:variable xhtml:name="Heading.Level1" xhtml:style="font-size: 11pt;" />
-                        </xhtml:p>
+                        <xhtml:p xhtml:class="PDFh1">CHAPTER <MadCap:variable xhtml:name="System.ChapterNumber" />:&#160;<MadCap:variable xhtml:name="Heading.Level1" /></xhtml:p>
                     </xhtml:body>
                 </xhtml:html>
             </Content>
@@ -67,8 +66,7 @@
             <Content>
                 <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
                     <xhtml:body>
-                        <xhtml:p xhtml:class="PDFh1"><MadCap:variable xhtml:name="System.ChapterNumber" xhtml:style="font-size: 11pt;" /><xhtml:span xhtml:style="font-size: 11pt;">:&#160;</xhtml:span><MadCap:variable xhtml:name="Heading.Level1" xhtml:style="font-size: 11pt;" />
-                        </xhtml:p>
+                        <xhtml:p xhtml:class="PDFh1">CHAPTER <MadCap:variable xhtml:name="System.ChapterNumber" />:&#160;<MadCap:variable xhtml:name="Heading.Level1" /></xhtml:p>
                     </xhtml:body>
                 </xhtml:html>
             </Content>
@@ -94,7 +92,7 @@
             <Content>
                 <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
                     <xhtml:body>
-                        <xhtml:p xhtml:class="PDFh1">Chapter: <MadCap:variable xhtml:name="System.ChapterNumber" />:&#160;<MadCap:variable xhtml:name="Heading.Level1" /></xhtml:p>
+                        <xhtml:p xhtml:class="PDFh1">CHAPTER <MadCap:variable xhtml:name="System.ChapterNumber" />:&#160;<MadCap:variable xhtml:name="Heading.Level1" /></xhtml:p>
                     </xhtml:body>
                 </xhtml:html>
             </Content>

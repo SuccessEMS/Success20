@@ -23,14 +23,22 @@
       StartSection="false"
       PageNumberReset="reset"
       PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
-      PageNumber="1">
+      PageNumber="1"
+      ChapterNumberReset="reset"
+      ChapterNumber="1"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same">
       <TocEntry
         Title="Get Started with EMS for Outlook"
         Link="/Content/Outlook/C_User/Outlook_UG_GetStarted.htm"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
-        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl">
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        ChapterNumber=""
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue">
         <TocEntry
           Title="Microsoft Outlook, EMS for Microsoft Outlook, and EMS Web App Comparison"
           Link="/Content/Outlook/C_User/Outlook_UG_OutlookComparisons.htm"
