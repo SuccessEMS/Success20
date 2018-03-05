@@ -36,11 +36,11 @@
             </Content>
         </Frame>
         <Frame X="-2px" Y="-4px" Width="629px" Height="11px" Flow="decoration0" Right="-3px" Bottom="857px" BorderTopStyle="solid" BorderTopWidth="1px" BorderTopColor="#666666" Anchors="" />
-        <Frame X="254px" Y="-52px" Width="373px" Height="38px" Flow="header" Right="-3px" Bottom="878px">
+        <Frame X="175px" Y="-53px" Width="449px" Height="38px" Flow="header" Right="0px" Bottom="879px">
             <Content>
                 <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
                     <xhtml:body>
-                        <xhtml:p xhtml:class="PDFh1"><MadCap:variable xhtml:name="Heading.Level1" />
+                        <xhtml:p xhtml:class="PDFh1"><MadCap:variable xhtml:name="System.ChapterNumber" xhtml:style="font-size: 11pt;" /><xhtml:span xhtml:style="font-size: 11pt;">:&#160;</xhtml:span><MadCap:variable xhtml:name="Heading.Level1" xhtml:style="font-size: 11pt;" />
                         </xhtml:p>
                     </xhtml:body>
                 </xhtml:html>
@@ -63,11 +63,11 @@
             </Content>
         </Frame>
         <Frame X="-2px" Y="-4px" Width="629px" Height="11px" Flow="decoration0" Right="-3px" Bottom="857px" BorderTopStyle="solid" BorderTopWidth="1px" BorderTopColor="#666666" Anchors="" />
-        <Frame X="254px" Y="-52px" Width="373px" Height="38px" Flow="header" Right="-3px" Bottom="878px">
+        <Frame X="175px" Y="-53px" Width="449px" Height="38px" Flow="header" Right="0px" Bottom="879px">
             <Content>
                 <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
                     <xhtml:body>
-                        <xhtml:p xhtml:class="title"><MadCap:variable xhtml:name="Heading.Level1" />
+                        <xhtml:p xhtml:class="PDFh1"><MadCap:variable xhtml:name="System.ChapterNumber" xhtml:style="font-size: 11pt;" /><xhtml:span xhtml:style="font-size: 11pt;">:&#160;</xhtml:span><MadCap:variable xhtml:name="Heading.Level1" xhtml:style="font-size: 11pt;" />
                         </xhtml:p>
                     </xhtml:body>
                 </xhtml:html>
@@ -90,12 +90,11 @@
             </Content>
         </Frame>
         <Frame X="-2px" Y="-4px" Width="629px" Height="11px" Flow="decoration0" Right="-3px" Bottom="857px" BorderTopStyle="solid" BorderTopWidth="1px" BorderTopColor="#666666" Anchors="" />
-        <Frame X="254px" Y="-52px" Width="373px" Height="38px" Flow="header" Right="-3px" Bottom="878px">
+        <Frame X="175px" Y="-53px" Width="449px" Height="38px" Flow="header" Right="0px" Bottom="879px">
             <Content>
                 <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
                     <xhtml:body>
-                        <xhtml:p xhtml:class="title"><MadCap:variable xhtml:name="Heading.Level1" />
-                        </xhtml:p>
+                        <xhtml:p xhtml:class="PDFh1">Chapter: <MadCap:variable xhtml:name="System.ChapterNumber" />:&#160;<MadCap:variable xhtml:name="Heading.Level1" /></xhtml:p>
                     </xhtml:body>
                 </xhtml:html>
             </Content>

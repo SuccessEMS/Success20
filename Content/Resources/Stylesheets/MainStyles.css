@@ -1,4 +1,4 @@
-/*<meta />*/
+﻿/*<meta />*/
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
 
@@ -2445,6 +2445,8 @@ p.bookversion
 
 p.PDFh1
 {
-	
+	text-align: right;	
+	font-style: italic;
+	font-size: 11px;
+	font-family: 'Open Sans', sans-serif;
 }
-
