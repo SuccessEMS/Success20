@@ -1,4 +1,4 @@
-/*<meta />*/
+﻿/*<meta />*/
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
 
@@ -2491,6 +2491,8 @@ p.PDFh1
 	font-family: 'Open Sans', sans-serif;
 }
 
+/* *********************************** Print Medium CSS Styles ********************************************* */
+
 @media print
 {
 	li
@@ -2508,4 +2510,3 @@ p.PDFh1
 		page-break-inside: avoid;
 	}
 }
-
