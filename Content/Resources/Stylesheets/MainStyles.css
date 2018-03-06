@@ -1459,6 +1459,98 @@ ul ul li::before
 	background: none;
 }
 
+/****************************************************************************/
+/***************Number List css and unordered list CSS****************/
+
+ol.number-list-snip
+{
+	margin-left: 0px;
+	list-style-type: decimal;
+}
+
+ol.number-list-snip li,
+ul.unorder-list-snip li
+{
+	color: #666;
+	line-height: 32px;
+	background: none;
+	position: relative;
+	padding-left: 6px;
+}
+
+ol.number-list-snip li::before
+{
+	content: '';
+	position: absolute;
+	display: block;
+	color: #666;
+	top: 0;
+	left: -8px;
+	background: transparent;
+}
+
+ol.number-list-snip li a,
+ul.unorder-list-snip li a
+{
+	color: #00467f;
+}
+
+ol.number-list-snip,
+ul.unorder-list-snip
+{
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+
+ul.unorder-list-snip,
+ul
+{
+	color: #676767;
+	font-size: 12px;
+	margin-left: 34px;
+	padding-bottom: 20px;
+}
+
+ul.unorder-list-snip li,
+ul li
+{
+	font-size: 16px;
+	line-height: 30px;
+	font-weight: 400;
+	position: relative;
+	background: none;
+}
+
+ul.unorder-list-snip li:before,
+ul li::before
+{
+	position: absolute;
+	left: -15px;
+	top: 13px;
+	content: '';
+	display: block;
+	background-image: none;
+	width: 5px;
+	height: 5px;
+}
+
+ul.unorder-list-snip li ul
+{
+	margin-left: 16px;
+}
+
+ul.unorder-list-snip li ul li,
+ul li ul li
+{
+	position: relative;
+}
+
+ul.unorder-list-snip ul li:before,
+ul ul li::before
+{
+	background: none;
+}
+
 /**********Release Note Number and Unordered Lists starts**********/
 
 ol.RN-number-list
@@ -2453,34 +2545,13 @@ p.PDFh1
 
 @media print
 {
-	h4
-	{
-		mc-heading-level: 0;
-	}
-
-	h5
-	{
-		mc-heading-level: 0;
-	}
-
-	h6
-	{
-		mc-heading-level: 0;
-	}
-
-	h1
+	li
 	{
 		
 	}
 
-	div.TitleandScreenshot
+	h1
 	{
-		page-break-inside: avoid;
+		mc-auto-number-format: 'CHAPTER {chapnum}: ';
 	}
 }
-
-div.TitleandScreenshot
-{
-	
-}
-
