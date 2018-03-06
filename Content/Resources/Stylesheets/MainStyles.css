@@ -1499,7 +1499,6 @@ ol.number-list-snip
 	padding-top: 0px;
 }
 
-
 /**********Release Note Number and Unordered Lists starts**********/
 
 ol.RN-number-list
@@ -2503,4 +2502,10 @@ p.PDFh1
 	{
 		mc-auto-number-format: 'CHAPTER {chapnum}: ';
 	}
+
+	div.TitleandImage
+	{
+		page-break-inside: avoid;
+	}
 }
+
