@@ -1460,7 +1460,7 @@ ul ul li::before
 }
 
 /****************************************************************************/
-/***************Number List css and unordered list CSS****************/
+/***************Install Snippet Numbered List CSS****************/
 
 ol.number-list-snip
 {
@@ -1468,8 +1468,7 @@ ol.number-list-snip
 	list-style-type: decimal;
 }
 
-ol.number-list-snip li,
-ul.unorder-list-snip li
+ol.number-list-snip li
 {
 	color: #666;
 	line-height: 32px;
@@ -1489,67 +1488,17 @@ ol.number-list-snip li::before
 	background: transparent;
 }
 
-ol.number-list-snip li a,
-ul.unorder-list-snip li a
+ol.number-list-snip li a
 {
 	color: #00467f;
 }
 
-ol.number-list-snip,
-ul.unorder-list-snip
+ol.number-list-snip
 {
 	padding-bottom: 0px;
 	padding-top: 0px;
 }
 
-ul.unorder-list-snip,
-ul
-{
-	color: #676767;
-	font-size: 12px;
-	margin-left: 34px;
-	padding-bottom: 20px;
-}
-
-ul.unorder-list-snip li,
-ul li
-{
-	font-size: 16px;
-	line-height: 30px;
-	font-weight: 400;
-	position: relative;
-	background: none;
-}
-
-ul.unorder-list-snip li:before,
-ul li::before
-{
-	position: absolute;
-	left: -15px;
-	top: 13px;
-	content: '';
-	display: block;
-	background-image: none;
-	width: 5px;
-	height: 5px;
-}
-
-ul.unorder-list-snip li ul
-{
-	margin-left: 16px;
-}
-
-ul.unorder-list-snip li ul li,
-ul li ul li
-{
-	position: relative;
-}
-
-ul.unorder-list-snip ul li:before,
-ul ul li::before
-{
-	background: none;
-}
 
 /**********Release Note Number and Unordered Lists starts**********/
 
@@ -1622,7 +1571,7 @@ ul ul li::before
 	background: none;
 }
 
-/************Release Note Number and Unordered Lists ends**************/
+/************Install Snippet and Release Note Number and Unordered Lists ends**************/
 /***************Number List css and unordered list CSS ends****************/
 /****************************************************************************/
 
