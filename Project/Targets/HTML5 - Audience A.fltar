@@ -20,7 +20,6 @@
   UseEmptyAltText="true"
   MenuSkin="/Project/Skins/SideMenu.flskn"
   MasterStylesheetOverride="true"
-  Medium="print"
   TopNavTocPath="true">
   <PrintedOutput
     CollapseMargins="true"
