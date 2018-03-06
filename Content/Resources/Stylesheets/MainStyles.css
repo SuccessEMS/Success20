@@ -1,4 +1,4 @@
-/*<meta />*/
+﻿/*<meta />*/
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
 
@@ -1464,7 +1464,7 @@ ul ul li::before
 
 ol.number-list-snip
 {
-	margin-left: 36px;
+	margin-left: 0px;
 	list-style-type: decimal;
 }
 
@@ -2555,4 +2555,3 @@ p.PDFh1
 		mc-auto-number-format: 'CHAPTER {chapnum}: ';
 	}
 }
-
