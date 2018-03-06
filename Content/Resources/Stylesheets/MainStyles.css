@@ -2509,4 +2509,10 @@ p.PDFh1
 	{
 		page-break-inside: avoid;
 	}
+
+	img
+	{
+		max-height: 475px;
+		max-width: auto;
+	}
 }
