@@ -1,4 +1,4 @@
-/*<meta />*/
+﻿/*<meta />*/
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
 
@@ -1499,7 +1499,6 @@ ol.number-list-snip
 	padding-top: 0px;
 }
 
-
 /**********Release Note Number and Unordered Lists starts**********/
 
 ol.RN-number-list
@@ -2492,6 +2491,8 @@ p.PDFh1
 	font-family: 'Open Sans', sans-serif;
 }
 
+/* *********************************** Print Medium CSS Styles ********************************************* */
+
 @media print
 {
 	li
@@ -2502,5 +2503,10 @@ p.PDFh1
 	h1
 	{
 		mc-auto-number-format: 'CHAPTER {chapnum}: ';
+	}
+
+	div.TitleandImage
+	{
+		page-break-inside: avoid;
 	}
 }
