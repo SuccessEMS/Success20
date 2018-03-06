@@ -14,20 +14,29 @@
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
-      PageLayout="/Content/Resources/PageLayouts/7X9/TOC7X9.flpgl" />
+      PageLayout="/Content/Resources/PageLayouts/7X9/TOC7X9.flpgl"></TocEntry>
     <TocEntry
       Title="EMS for Microsoft Outlook"
       Link="/Content/Outlook/B_Config/Outlook_CG_ConfigOutlookOverview.htm"
       BreakType="chapter"
+      PageNumberReset="reset"
+      ChapterNumberReset="reset"
+      ChapterNumber="1"
       StartSection="false"
-      PageNumberReset="continue"
-      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl"></TocEntry>
-    <TocEntry
-      Title="Configure EMS for Outlook"
-      Link="/Content/Outlook/B_Config/Outlook_CG_ConfigforOutlook.htm"
-      BreakType="chapter"
-      StartSection="false"
-      PageNumberReset="continue"
-      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      PageNumber="1"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same">
+      <TocEntry
+        Title="Configure EMS for Outlook"
+        Link="/Content/Outlook/B_Config/Outlook_CG_ConfigforOutlook.htm"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+    </TocEntry>
   </TocEntry>
 </CatapultToc>

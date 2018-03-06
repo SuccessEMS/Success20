@@ -14,144 +14,82 @@
     BreakType="chapter"
     StartSection="false"
     PageNumberReset="continue"
-    PageLayout="/Content/Resources/PageLayouts/7X9/TOC7X9.flpgl" />
-  <TocEntry
-    Link="/Content/InstallGuides/5_OutlookV44.1/5_OutlookV44.1Home.htm"
-    Title="EMS for Microsoft Outlook Installation Guide"
-    BreakType="chapter"
-    StartSection="false"
-    PageNumberReset="continue"
-    PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl"></TocEntry>
-  <TocEntry
-    Title="Introduction to EMS for Outlook"
-    Link="/Content/Outlook/A_Install/Outlook_IG_Introduction.htm"
-    BreakType="chapter"
-    StartSection="false"
-    PageNumberReset="continue"
-    PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
-  <TocEntry
-    Title="Requirements and Prerequisites for EMS for Outlook"
-    Link="/Content/Outlook/A_Install/Outlook_IG_ReqsPrereqs.htm"
-    BreakType="chapter"
-    StartSection="false"
-    PageNumberReset="continue"
-    PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
-  <TocEntry
-    Title="Plan Your EMS for Outlook Implementation"
-    Link="/Content/Outlook/A_Install/Outlook_IG_PlanImplementation.htm"
-    BreakType="chapter"
-    StartSection="false"
-    PageNumberReset="continue"
-    PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
-  <TocEntry
-    Title="Install or Upgrade EMS for Outlook on Users' Computers"
-    Link="/Content/Outlook/A_Install/Outlook_IG_InstallUpgrade.htm"
-    BreakType="chapter"
-    StartSection="false"
-    PageNumberReset="continue"
-    PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
+    PageLayout="/Content/Resources/PageLayouts/7X9/TOC7X9.flpgl">
     <TocEntry
-      Title="EMS for Outlook Add-In Is Offline"
-      Link="/Content/Outlook/A_Install/Outlook_IG_OutlookAddInOffline.htm"
-      BreakType="chapter"
-      StartSection="false"
-      PageNumberReset="continue"
-      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
-    <TocEntry
-      Title="Silent/Unattended EMS for Outlook Installation"
-      Link="/Content/Outlook/A_Install/Outlook_IG_SilentUnattendedInstall.htm"
-      BreakType="chapter"
-      StartSection="false"
-      PageNumberReset="continue"
-      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
-    <TocEntry
-      Title="Where to See Your Exchange Server URL and EMS for Outlook Version Number"
-      Link="/Content/Outlook/A_Install/Outlook_IG_WhereExchServURLVerNum.htm"
-      BreakType="chapter"
-      StartSection="false"
-      PageNumberReset="continue"
-      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
-  </TocEntry>
-  <TocEntry
-    Title="Integrated Authentication Options"
-    Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_IntegratedAuthenOptions.html"
-    BreakType="chapter"
-    StartSection="false"
-    PageNumberReset="continue"
-    PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
-    <TocEntry
-      Title="Introduction"
-      Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_Introduction.htm"
-      BreakType="chapter"
-      StartSection="false"
-      PageNumberReset="continue"
-      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
+      Link="/Content/InstallGuides/5_OutlookV44.1/5_OutlookV44.1Home.htm"
+      Title="EMS for Microsoft Outlook">
       <TocEntry
-        Title="Integrated Authentication Considerations"
-        Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_IntegratedAuthenticationConsid.htm"
-        BreakType="chapter"
-        StartSection="false"
-        PageNumberReset="continue"
-        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
-    </TocEntry>
-    <TocEntry
-      Title="Integrated Windows Authentication"
-      Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_IntegratedWindowsAuthen.html"
-      BreakType="chapter"
-      StartSection="false"
-      PageNumberReset="continue"
-      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
+        Title="Introduction to EMS for Outlook"
+        Link="/Content/Outlook/A_Install/Outlook_IG_Introduction.htm" />
       <TocEntry
-        Title="Manage Everyday Users For Integrated Authentication"
-        Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_ManageEUforIntegAuthen.htm"
-        BreakType="chapter"
-        StartSection="false"
-        PageNumberReset="continue"
-        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
-    </TocEntry>
-    <TocEntry
-      Title="LDAP Authentication"
-      Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_LDAPAuthentication.html"
-      BreakType="chapter"
-      StartSection="false"
-      PageNumberReset="continue"
-      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
-    <TocEntry
-      Title="Portal or Federated Authentication"
-      Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_PortalFederatedAuthen.html"
-      BreakType="chapter"
-      StartSection="false"
-      PageNumberReset="continue"
-      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
+        Title="Requirements and Prerequisites for EMS for Outlook"
+        Link="/Content/Outlook/A_Install/Outlook_IG_ReqsPrereqs.htm" />
       <TocEntry
-        Title="Portal Authentication Methods"
-        Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_PortalAuthenMethods.html"
-        BreakType="chapter"
-        StartSection="false"
-        PageNumberReset="continue"
-        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+        Title="Plan Your EMS for Outlook Implementation"
+        Link="/Content/Outlook/A_Install/Outlook_IG_PlanImplementation.htm" />
+      <TocEntry
+        Title="Install or Upgrade EMS for Outlook on Users' Computers"
+        Link="/Content/Outlook/A_Install/Outlook_IG_InstallUpgrade.htm">
+        <TocEntry
+          Title="EMS for Outlook Add-In Is Offline"
+          Link="/Content/Outlook/A_Install/Outlook_IG_OutlookAddInOffline.htm" />
+        <TocEntry
+          Title="Silent/Unattended EMS for Outlook Installation"
+          Link="/Content/Outlook/A_Install/Outlook_IG_SilentUnattendedInstall.htm" />
+        <TocEntry
+          Title="Where to See Your Exchange Server URL and EMS for Outlook Version Number"
+          Link="/Content/Outlook/A_Install/Outlook_IG_WhereExchServURLVerNum.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Integrated Authentication Options"
+        Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_IntegratedAuthenOptions.html">
+        <TocEntry
+          Title="Introduction"
+          Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_Introduction.htm">
+          <TocEntry
+            Title="Integrated Authentication Considerations"
+            Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_IntegratedAuthenticationConsid.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="Integrated Windows Authentication"
+          Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_IntegratedWindowsAuthen.html">
+          <TocEntry
+            Title="Manage Everyday Users For Integrated Authentication"
+            Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_ManageEUforIntegAuthen.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="LDAP Authentication"
+          Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_LDAPAuthentication.html" />
+        <TocEntry
+          Title="Portal or Federated Authentication"
+          Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_PortalFederatedAuthen.html">
+          <TocEntry
+            Title="Portal Authentication Methods"
+            Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_PortalAuthenMethods.html" />
+        </TocEntry>
+      </TocEntry>
+      <TocEntry
+        Link="/Content/Outlook/D_IntegExch/IME/Outlook_IME_Introduction.htm"
+        Title="Integration to Microsoft Exchange">
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/IntegrationtoMicrosoftExchange/IntegrationtoExchangeRequirements.htm" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/IntegrationtoMicrosoftExchange/InstallUpgradeEIWS.htm" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/IntegrationtoMicrosoftExchange/ConfigureIntegrationtoExchange.htm" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/IntegrationtoMicrosoftExchange/UseAppPoolIdentification.htm" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/IntegrationtoMicrosoftExchange/ConfigureEWSImpersonation.htm" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/IntegrationtoMicrosoftExchange/LearnMoreaboutEWS.htm" />
+      </TocEntry>
     </TocEntry>
-  </TocEntry>
-  <TocEntry
-    Link="/Content/Outlook/D_IntegExch/IME/Outlook_IME_Introduction.htm"
-    Title="Integration to Microsoft Exchange">
-    <TocEntry
-      Title="[%=System.LinkedTitle%]"
-      Link="/Content/IntegrationtoMicrosoftExchange/IntegrationtoExchangeRequirements.htm" />
-    <TocEntry
-      Title="[%=System.LinkedTitle%]"
-      Link="/Content/IntegrationtoMicrosoftExchange/InstallUpgradeEIWS.htm" />
-    <TocEntry
-      Title="[%=System.LinkedTitle%]"
-      Link="/Content/IntegrationtoMicrosoftExchange/ConfigureIntegrationtoExchange.htm" />
-    <TocEntry
-      Title="[%=System.LinkedTitle%]"
-      Link="/Content/IntegrationtoMicrosoftExchange/UseAppPoolIdentification.htm" />
-    <TocEntry
-      Title="[%=System.LinkedTitle%]"
-      Link="/Content/IntegrationtoMicrosoftExchange/ConfigureEWSImpersonation.htm" />
-    <TocEntry
-      Title="[%=System.LinkedTitle%]"
-      Link="/Content/IntegrationtoMicrosoftExchange/LearnMoreaboutEWS.htm" />
   </TocEntry>
 </CatapultToc>
