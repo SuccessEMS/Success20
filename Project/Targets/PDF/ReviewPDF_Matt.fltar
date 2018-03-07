@@ -2,7 +2,7 @@
 <CatapultTarget
   Version="2"
   Comment="Draft"
-  Type="MsWord"
+  Type="PDF"
   Destinations=""
   GlossaryTermConversion="marked"
   MasterToc="/Project/TOCs/ReviewPDF_Matt.fltoc"
@@ -19,8 +19,8 @@
     PopupConversion="remove-body"
     GenerateTOCProxy="false" />
   <DocumentProperties
-    Title="User Manual—7X9"
-    Author="My Name" />
+    Title="Draft"
+    Author="EMS Software" />
   <PDF
     ShowUsedBookmarks="false"
     InitialMagnification="100"

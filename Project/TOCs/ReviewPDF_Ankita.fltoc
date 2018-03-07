@@ -2,6 +2,14 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="Iadea Documentation"
-    Link="/Content/EMSRoomSignApp/A_44.1/A_Installation/RSA_IG_DeployRSAAppliances.htm" />
+    Title="Mobile Known Issues U22"
+    Link="/Content/ReleaseNotes/Version44.1/Update22/EMSMobileApp_KnownIssues.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    PageNumberReset="reset"
+    StartSection="false"
+    PageNumber="1"
+    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"></TocEntry>
+  <TocEntry
+    Title="Platform Known Issues U22"
+    Link="/Content/ReleaseNotes/Version44.1/Update22/EMSPlatform_KnownIssues.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
 </CatapultToc>
