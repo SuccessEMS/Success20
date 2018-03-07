@@ -47,6 +47,7 @@
       ComputeToc="false"
       ReplaceMergeNode="false"></TocEntry>
     <TocEntry
-      Title="PDF" />
+      Title="PDF"
+      Link="/Content/EMSPlatformServices/PS.pdf" />
   </TocEntry>
 </CatapultToc>
