@@ -193,7 +193,7 @@
         Link="/Content/EMSMobileApp/C_UserGuide/MobileApp_UserGuide_UseSkypeforBusiness.html" />
       <TocEntry
         Title="PDF"
-        Link="/Content/Kiosk/A_44.1/C_User/Kiosk_UG_PDF.pdf" />
+        Link="/Content/EMSMobileApp/C_UserGuide/EMSMobileApp_UserGuide.pdf" />
     </TocEntry>
     <TocEntry
       Title="Video Tutorials"
