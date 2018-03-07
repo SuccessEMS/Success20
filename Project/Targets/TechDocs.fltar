@@ -21,8 +21,7 @@
   MenuSkin="/Project/Skins/SideMenu.flskn"
   MasterStylesheetOverride="true"
   Medium="print"
-  TopNavTocPath="false"
-  OutputFolder="C:\Users\Jen.Naused\Desktop\Success22\TechDocs">
+  TopNavTocPath="false">
   <PrintedOutput
     CollapseMargins="true"
     GenerateTOCProxy="true"
