@@ -1217,6 +1217,9 @@
           Title="[%=System.LinkedTitle%]"
           Link="/Content/IntegrationtoMicrosoftExchange/LearnMoreaboutEWS.htm" />
       </TocEntry>
+      <TocEntry
+        Title="PDF"
+        Link="/Content/Outlook/A_Install/Outlook_Install_PDF.pdf" />
     </TocEntry>
     <TocEntry
       Title="EMS Kiosk App"
@@ -2346,6 +2349,9 @@
       <TocEntry
         Title="Configure EMS for Outlook"
         Link="/Content/Outlook/B_Config/Outlook_CG_ConfigforOutlook.htm" />
+      <TocEntry
+        Title="PDF"
+        Link="/Content/Outlook/B_Config/Outlook_Config_PDF.pdf" />
     </TocEntry>
     <TocEntry
       Title="EMS Kiosk App"
@@ -3435,6 +3441,9 @@
       <TocEntry
         Title="View Known Errors/Alerts for EMS for Outlook"
         Link="/Content/Outlook/C_User/Outlook_UG_ViewKnownErrorsAlerts.htm" />
+      <TocEntry
+        Title="PDF"
+        Link="/Content/Outlook/C_User/Outlook_UG_PDF.pdf" />
     </TocEntry>
     <TocEntry
       Title="EMS Kiosk App"

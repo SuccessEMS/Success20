@@ -7,35 +7,46 @@
     BreakType="chapter"
     StartSection="false"
     PageNumberReset="continue"
-    PageLayout="/Content/Resources/PageLayouts/7X9/Title7X9.flpgl">
+    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Title8_5X11.flpgl">
     <TocEntry
       Title="[%=System.LinkedTitle%]"
       Link="/Content/Print Only Topics/TOC.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
-      PageLayout="/Content/Resources/PageLayouts/7X9/TOC7X9.flpgl" />
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/TOC8_5X11.flpgl" />
     <TocEntry
       Title="EMS for Microsoft Outlook "
       Link="/Content/Outlook/C_User/Outlook_UG_UseEMSforOutlook.htm"
       BreakType="chapter"
       StartSection="false"
-      PageNumberReset="continue"
-      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
+      PageNumberReset="reset"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      ChapterNumberReset="reset"
+      ChapterNumber="1"
+      PageNumber="1"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same">
       <TocEntry
         Title="Get Started with EMS for Outlook"
         Link="/Content/Outlook/C_User/Outlook_UG_GetStarted.htm"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
-        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue">
         <TocEntry
           Title="Microsoft Outlook, EMS for Microsoft Outlook, and EMS Web App Comparison"
           Link="/Content/Outlook/C_User/Outlook_UG_OutlookComparisons.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
-          PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue" />
       </TocEntry>
       <TocEntry
         Title="Create a Reservation in EMS for Microsoft Outlook"
@@ -43,35 +54,50 @@
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
-        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue">
         <TocEntry
           Title="Create a Single Reservation"
           Link="/Content/Outlook/C_User/Outlook_UG_CreateSingleRes.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
-          PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue" />
         <TocEntry
           Title="Create a Series Reservation"
           Link="/Content/Outlook/C_User/Outlook_UG_CreateSeriesRes.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
-          PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue" />
         <TocEntry
           Title="Create a Video Conference Reservation"
           Link="/Content/Outlook/C_User/Outlook_UG_CreateVideoConRes.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
-          PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue" />
         <TocEntry
           Title="Edit or Cancel a Reservation"
           Link="/Content/Outlook/C_User/Outlook_UG_EditCancelSchedEvent.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
-          PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue" />
       </TocEntry>
       <TocEntry
         Title="Use Skype for Business in EMS for Outlook"
@@ -79,21 +105,30 @@
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
-        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
       <TocEntry
         Title="Resolve Booking Conflicts"
         Link="/Content/Outlook/C_User/Outlook_UG_ResolveBookingConflicts.htm"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
-        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
       <TocEntry
         Title="View Known Errors/Alerts for EMS for Outlook"
         Link="/Content/Outlook/C_User/Outlook_UG_ViewKnownErrorsAlerts.htm"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
-        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
     </TocEntry>
   </TocEntry>
 </CatapultToc>

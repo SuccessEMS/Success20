@@ -6,7 +6,7 @@
     Link="/Content/Print/DC_Install_FrontPage.htm"
     BreakType="chapter"
     StartSection="false"
-    PageLayout="/Content/Resources/PageLayouts/7X9/Title7X9.flpgl"
+    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Title8_5X11.flpgl"
     PageNumberReset="continue"></TocEntry>
   <TocEntry
     Title="[%=System.LinkedTitle%]"
@@ -14,54 +14,77 @@
     BreakType="chapter"
     StartSection="false"
     PageNumberReset="continue"
-    PageLayout="/Content/Resources/PageLayouts/7X9/TOC7X9.flpgl" />
+    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/TOC8_5X11.flpgl" />
   <TocEntry
     Title="Introduction"
     Link="/Content/EMSDesktopClient/V44.1/A_InstallationGuide/DC_IG_Introduction.html"
     BreakType="chapter"
     StartSection="false"
-    PageNumberReset="continue"
-    PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+    PageNumberReset="reset"
+    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+    ChapterNumberReset="reset"
+    ChapterNumber="1"
+    PageNumber="1"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same" />
   <TocEntry
     Title="System Requirements and Prerequisites"
     Link="/Content/EMSDesktopClient/V44.1/A_InstallationGuide/DC_IG_SystemReq.htm"
     BreakType="chapter"
     StartSection="false"
     PageNumberReset="continue"
-    PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue" />
   <TocEntry
     Title="Installation Instructions"
     Link="/Content/EMSDesktopClient/V44.1/A_InstallationGuide/DC_IG_INstallationInstruct.html"
     BreakType="chapter"
     StartSection="false"
     PageNumberReset="continue"
-    PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue" />
   <TocEntry
     Title="Upgrade Considerations"
     Link="/Content/EMSDesktopClient/V44.1/A_InstallationGuide/DC_IG_UpgradeConsideration.html"
     BreakType="chapter"
     StartSection="false"
     PageNumberReset="continue"
-    PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue" />
   <TocEntry
     Title="Upgrade Instructions"
     Link="/Content/EMSDesktopClient/V44.1/A_InstallationGuide/DC_IG_UpgradeInstruct.html"
     BreakType="chapter"
     StartSection="false"
     PageNumberReset="continue"
-    PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl"></TocEntry>
+    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue"></TocEntry>
   <TocEntry
     Title="Downgrade the EMS Desktop Client Web Deploy"
     Link="/Content/EMSDesktopClient/V44.1/A_InstallationGuide/DC_IG_DowngradeWebDeploy.htm"
     BreakType="chapter"
     StartSection="false"
     PageNumberReset="continue"
-    PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue" />
   <TocEntry
     Title="Installing Custom Reports in EMS Desktop Client"
     Link="/Content/EMSDesktopClient/V44.1/A_InstallationGuide/DC_IG_InstallCustomReport.html"
     BreakType="chapter"
     StartSection="false"
     PageNumberReset="continue"
-    PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue" />
 </CatapultToc>

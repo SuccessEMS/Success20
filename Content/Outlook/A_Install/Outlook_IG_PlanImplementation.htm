@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="6" MadCap:lastHeight="2179" MadCap:lastWidth="899" style="mc-master-page: url('..\..\Resources\MasterPages\emsMicrosoftOutlook.flmsp');">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="6" MadCap:lastHeight="3498" MadCap:lastWidth="698" style="mc-master-page: url('..\..\Resources\MasterPages\emsMicrosoftOutlook.flmsp');">
     <head><title></title>
     </head>
     <body>
-        <h1>Plan Your EMS for Outlook Implementation</h1>
+        <h1 MadCap:autonum="CHAPTER&#160;1: ">Plan Your EMS for Outlook Implementation</h1>
         <p>There are several steps that your Administrator must complete when installing EMS for Outlook:</p>
         <ol start="1" class="number-list">
-            <li><a href="#ObtainEMSforOutlookInstallationFile">Obtain the installation files</a> from the&#160;EMS Support Portal.</li>
+            <li><a href="#ObtainEMSforOutlookInstallationFile">Obtain the installation files</a> from the&#160;EMS Customer Portal.</li>
             <li><a href="#EMSIntegrationforMicrosoftExchange">Install the EMS Integration for Microsoft Exchange</a>.</li>
             <li><a href="#InstallEMSPlatformServices">Install EMS Platform Services</a> and connect to your organization's web server.</li>
             <li><a href="#InstallEMSonUsersComputers">Install EMS for Outlook on Users' Computers</a>.</li>
@@ -15,10 +15,9 @@
         </ol>
         <h2><a name="ObtainEMSforOutlookInstallationFile"></a>
             <MadCap:annotation MadCap:createDate="2018-01-16T20:26:59.8648234-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Update instructions for the new Customer Portal." MadCap:editor="Megan.Laub" MadCap:editDate="2018-01-16T20:27:08.9753528-07:00">Obtain the EMS for Outlook </MadCap:annotation>Installation File</h2>
-        <ol start="1" class="number-list">
-            <li>The latest release of the EMS for Outlook can be downloaded from the online <a href="https://portal.emssoftware.com/">Customer Portal</a>. From the Customer Portal, click the<span class="bold">Login </span>button. </li>
-            <li>Enter your Email and Password in the fields and click <span class="bold">Log in</span>.</li>
-            <li>Navigate to the <span class="bold">Downloads </span>area and download&#160;<span class="bold">EMS For Outlook (EMSForOutlook.msi)</span>&#160;(required for both first time installations and upgrades).</li>
+        <MadCap:snippetBlock src="../../ObtainInstallationFiles.flsnp" />
+        <ol start="4" class="number-list">
+            <li>Download&#160;<span class="bold">EMS For Outlook (EMSForOutlook.msi)</span>&#160;(required for both first time installations and upgrades).</li>
         </ol>
         <h2><a name="EMSIntegrationforMicrosoftExchange"></a>Install the EMS Integration for Microsoft Exchange</h2>
         <p>This service (typically&#160;<a href="../D_IntegExch/IME/Outlook_IME_IntegtoMEOverview.htm">installed</a>&#160;where your EMS Web App&#160;resides) manages the integration between EMS Software&#160;and Exchange, including checking room availability, booking the meeting in EMS, and managing changes.</p>
@@ -26,8 +25,8 @@
             <p><span class="bold">Tip:</span>&#160;The Exchange Integration service needs to be properly configured.&#160;For complete instructions, see the&#160;<a href="../D_IntegExch/IME/Outlook_IME_IntegtoMEOverview.htm">Integration to Microsoft<sup>®</sup> Exchange</a>&#160;guide.</p>
         </div>
         <h2><a name="InstallEMSPlatformServices"></a>Install EMS Platform Services on Your Web Server</h2>
-        <ol start="1" class="number-list">
-            <li>Navigate to&#160;the <a href="https://portal.emssoftware.com/">Customer Portal</a>. Log&#160;in&#160;and locate EMS Platform Services in the Downloads area.</li>
+        <MadCap:snippetBlock src="../../ObtainInstallationFiles.flsnp" />
+        <ol start="4" class="number-list">
             <li>Download the&#160;<span class="bold">EMSPlatformServices.msi</span>&#160;file.&#160;</li>
             <li>Run this file on your web server.&#160;<div class="note-box note"><p><span class="bold">Note:</span>&#160;You will need to enter the SQL server and EMS database. Make a note of the database name.&#160;The typical install path is&#160;C:\Program Files\EMS Software\Ems.Platform.Api.</p></div></li>
             <li>When all prompts have been completed, click&#160;<span class="bold">Install</span>. The API is installed on your web server.&#160;</li>
