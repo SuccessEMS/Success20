@@ -1238,6 +1238,9 @@
       <TocEntry
         Title="Launch EMS Kiosk App"
         Link="/Content/EMSKioskApp/V44.1/A_Install/Kiosk_IG_StartKioskApp.htm" />
+      <TocEntry
+        Title="PDF"
+        Link="/Content/EMSKioskApp/V44.1/A_Install/Kiosk_Install_PDF.pdf" />
     </TocEntry>
     <TocEntry
       Title="EMS Room Sign App (formerly Glance)"
@@ -1340,6 +1343,9 @@
       <TocEntry
         Title="Exchange Sync Utility"
         Link="/Content/Integrations/7ERI/A_Installation/ERI_IG_ExchangeSyncUtility.html" />
+      <TocEntry
+        Title="PDF"
+        Link="/Content/Integrations/7ERI/ERI_PDF.pdf" />
     </TocEntry>
     <TocEntry
       Title="Regics "
@@ -2353,6 +2359,9 @@
       <TocEntry
         Title="Customize the Logo and Background on the EMS Kiosk App"
         Link="/Content/EMSKioskApp/V44.1/B_Config/Kiosk_CustomizeLogoBackground.htm" />
+      <TocEntry
+        Title="PDF"
+        Link="/Content/EMSKioskApp/V44.1/B_Config/Kiosk_Config_PDF.pdf" />
     </TocEntry>
     <TocEntry
       Title="EMS Room Sign App (formerly Glance)"
@@ -3452,6 +3461,9 @@
       <TocEntry
         Title="View Today's Events in EMS Kiosk App"
         Link="/Content/EMSKioskApp/V44.1/C_User/Kiosk_UG_ViewTodaysEvents.htm" />
+      <TocEntry
+        Title="PDF"
+        Link="/Content/EMSKioskApp/V44.1/C_User/Kiosk_UG_PDF.pdf" />
     </TocEntry>
     <TocEntry
       Title="EMS Room Sign App (formerly Glance)"
