@@ -3,5 +3,10 @@
   Version="1">
   <TocEntry
     Title="Iadea Documentation"
-    Link="/Content/EMSRoomSignApp/A_44.1/A_Installation/RSA_IG_DeployRSAAppliances.htm" />
+    Link="/Content/EMSRoomSignApp/A_44.1/A_Installation/RSA_IG_DeployRSAAppliances.htm"></TocEntry>
+  <TocEntry
+    Title="New entry">
+    <TocEntry
+      Title="New entry" />
+  </TocEntry>
 </CatapultToc>
