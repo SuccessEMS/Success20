@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CatapultTarget
   Version="2"
-  Comment="User Guide A—7X9"
-  Type="MsWord"
+  Comment="Draft"
+  Type="PDF"
   Destinations=""
   GlossaryTermConversion="marked"
-  MasterToc="/Project/TOCs/ReviewPDF.fltoc"
+  MasterToc="/Project/TOCs/ReviewPDF_Harlean.fltoc"
   ConditionTagExpression="include[General.PDF or PrintGuides.UserGuideA]exclude[General.Online or PrintGuides.UserGuideB]"
   PatchHeadingLevels="false"
   InjectEmptyPages="false"
@@ -19,8 +19,8 @@
     PopupConversion="remove-body"
     GenerateTOCProxy="false" />
   <DocumentProperties
-    Title="User Manual—7X9"
-    Author="My Name" />
+    Title="Draft"
+    Author="EMS Software" />
   <PDF
     ShowUsedBookmarks="false"
     InitialMagnification="100"

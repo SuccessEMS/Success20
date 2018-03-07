@@ -2,6 +2,38 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="Iadea Documentation"
-    Link="/Content/EMSRoomSignApp/A_44.1/A_Installation/RSA_IG_DeployRSAAppliances.htm" />
+    Title="Desktop Client Known Issues U22"
+    Link="/Content/ReleaseNotes/Version44.1/Update22/EMSDesktopClient_KnownIssues.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    PageNumberReset="reset"
+    StartSection="false"
+    PageNumber="1"
+    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
+  <TocEntry
+    Title="Desktop Client – Academic Planing Known Issues U22"
+    Link="/Content/ReleaseNotes/Version44.1/Update22/EMSDesktopClient_AcadPlan_KnownIssues.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue" />
+  <TocEntry
+    Title="Outlook Add-in Known Issues U22"
+    Link="/Content/ReleaseNotes/Version44.1/Update22/EMSforOutlook_KnownIssues.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue" />
+  <TocEntry
+    Title="Outlook (Legacy) Known Issues U22"
+    Link="/Content/ReleaseNotes/Version44.1/Update22/EMSOutlookLegacy_KnownIssues.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
 </CatapultToc>
