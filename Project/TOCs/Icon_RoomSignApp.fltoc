@@ -29,7 +29,7 @@
         Link="/Content/EMSRoomSignApp/A_44.1/A_Installation/RSA_IG_DeployRSAAppliances.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
         Title="PDF"
-        Link="/Content/EMSRoomSignApp/A_44.1/B_Configuration/RSA_Config_PDF.pdf" />
+        Link="/Content/EMSRoomSignApp/A_44.1/A_Installation/RSA_Install_PDF.pdf" />
       <TocEntry
         Title="VIDEO: Introduction to the EMS Room Sign App"
         Link="/Content/EMSRoomSignApp/Video Tutorials/RSA_VIDEO-IntroRSA.htm" />
@@ -84,7 +84,8 @@
         Title="Set Up EMS Room Sign App to Demo on a Desktop Browser (Update 12+)"
         Link="/Content/EMSRoomSignApp/A_44.1/C_UserGuide/RSA_UG_SettingUpRSAtoDemo.html" />
       <TocEntry
-        Title="PDF" />
+        Title="PDF"
+        Link="/Content/EMSRoomSignApp/A_44.1/C_UserGuide/RSA_UserGuide_PDF.pdf" />
     </TocEntry>
     <TocEntry
       Title="Legacy Documentation"

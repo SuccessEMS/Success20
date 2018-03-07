@@ -3471,6 +3471,9 @@
       <TocEntry
         Title="Set Up EMS Room Sign App to Demo on a Desktop Browser (Update 12+)"
         Link="/Content/EMSRoomSignApp/A_44.1/C_UserGuide/RSA_UG_SettingUpRSAtoDemo.html" />
+      <TocEntry
+        Title="PDF"
+        Link="/Content/EMSRoomSignApp/A_44.1/C_UserGuide/RSA_UserGuide_PDF.pdf" />
     </TocEntry>
     <TocEntry
       Title="EMS Master Calendar"
