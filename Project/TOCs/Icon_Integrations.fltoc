@@ -67,6 +67,9 @@
           Title="Use Application Pool Identity for Integration for Exchange Service Account"
           Link="/Content/Outlook/D_IntegExch/IME/Outlook_IME_UseAppPoolIdentif.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
+          Title="PDF"
+          Link="/Content/IntegrationtoMicrosoftExchange/IntegrationtoMicrosoftExchange.pdf" />
+        <TocEntry
           Title="Configure EWS Impersonation for Microsoft® Exchange"
           Link="/Content/Outlook/D_IntegExch/IME/Outlook_IME_ConfigEWSImperforME.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
           <TocEntry

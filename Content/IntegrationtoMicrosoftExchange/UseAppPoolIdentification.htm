@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="6" MadCap:lastHeight="2318" MadCap:lastWidth="899" style="mc-master-page: url('../Resources/MasterPages/emsMicrosoftOutlook.flmsp');">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="4" MadCap:lastHeight="3505" MadCap:lastWidth="650" style="mc-master-page: url('../Resources/MasterPages/emsMicrosoftOutlook.flmsp');">
     <head><title></title>
     </head>
     <body>
-        <h1>Use Application Pool Identity for Integration for Exchange Service Account</h1>
+        <h1 MadCap:autonum="CHAPTER&#160;1: ">Use Application Pool Identity for Integration for Exchange Service Account</h1>
         <p>Rather than entering&#160;the Integration for Exchange account credentials on the PAMConfig.aspx page (as in V44 and previous releases), credentials can be maintained at the Application Pool level. This allows your organization to maintain absolute control—<span class="bold">only&#160;</span>IIS applications running in the newly created application pool can run as the Integration to Exchange Account.</p>
         <p>This functionality requires the following:</p>
         <ul class="unorder-list">
@@ -29,7 +29,7 @@
             <li>Navigate to the Integration for Exchange&#160;configuration area by opening a browser and entering the following:<p>http://[ServerName]/PAMWebService/PAMConfig.aspx&#160;(replace [ServerName] with the name of your web server)</p></li>
             <li>From the&#160;<span class="bold">Account Info</span>&#160;tab, find the&#160;Authentication Information&#160;section, check the box for&#160;<span class="bold">Use application pool identity when authenticating to calendaring service</span> (see following image).</li>
             <li>With this option enabled, you can leave the&#160;Username&#160;and&#160;Password&#160;fields blank in the Authentication Information section.</li>
-            <li>Click&#160;<span class="bold">Save&#160;</span>button at the bottom of the page.&#160;<p><img src="../Resources/Images/Integration to Microsoft/Using Application Pool Identity.png" /></p></li>
+            <li>Click&#160;<span class="bold">Save&#160;</span>button at the bottom of the page.&#160;<p><img src="../Resources/Images/Integration to Microsoft/Using Application Pool Identity.png" class="PDFlarge" /></p></li>
         </ol>
     </body>
 </html>
