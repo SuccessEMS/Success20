@@ -21,7 +21,7 @@
   MenuSkin="/Project/Skins/SideMenu.flskn"
   MasterStylesheetOverride="true"
   Medium="print"
-  TopNavTocPath="false">
+  TopNavTocPath="true">
   <PrintedOutput
     CollapseMargins="true"
     GenerateTOCProxy="true"
