@@ -184,10 +184,16 @@
       PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl">
       <TocEntry
         Title="Architecture"
-        Link="/Content/EMSMobileApp/A_InstallationGuide/Mobile_Architecture.html" />
+        Link="/Content/EMSMobileApp/A_InstallationGuide/Mobile_Architecture.html"
+        BreakType="chapter"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
       <TocEntry
         Title="How Mobile App Data Is Stored on Devices"
-        Link="/Content/EMSMobileApp/A_InstallationGuide/Mobile_HowAppDataIsStoredonDevices.html" />
+        Link="/Content/EMSMobileApp/A_InstallationGuide/Mobile_HowAppDataIsStoredonDevices.html"
+        BreakType="chapter"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
     </TocEntry>
   </TocEntry>
 </CatapultToc>

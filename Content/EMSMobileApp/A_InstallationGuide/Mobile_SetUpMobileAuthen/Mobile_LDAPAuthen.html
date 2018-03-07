@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html MadCap:lastBlockDepth="8" MadCap:lastHeight="10813" MadCap:lastWidth="873" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+<html MadCap:lastBlockDepth="8" MadCap:lastHeight="17163" MadCap:lastWidth="650" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head><title>LDAP Authentication</title>
     </head>
     <body>
-        <h1>LDAP Authentication</h1>
+        <h1 MadCap:autonum="CHAPTER&#160;1: ">LDAP Authentication</h1>
         <p>Lightweight Directory Access Protocol (LDAP) is an application protocol for querying directory information.  The LDAP Authentication method provides single-sign-on capability using your organization’s LDAP environment and can be used in both intranet and internet deployments of EMS Everyday applications such as EMS Web App and EMS Mobile App.</p>
         <p>When a user logs into EMS Web App or EMS Mobile App with their User ID and Password, their credentials are authenticated against LDAP and compared against corresponding user information recorded in the Network ID and/or External Reference fields of your EMS Everyday User records.  If a match exists, the Everyday User will be logged in to the application, inheriting any Everyday User Process Template rights to which their LDAP Group has been assigned.</p>
         <div class="note-box note">
@@ -51,8 +51,8 @@
         <h2><a name="Configure_Your_LDAP_Provider"></a>Configure Your LDAP Provider</h2>
         <ol class="number-list">
             <li>Navigate to Platform Services admin portal (&#160;https://yourcompany.com/ems-platform-api) and select Integrations&#160;from the sidebar. Select EMS Mobile and choose LDAP from everyday user authentication method dropdown.<p><img src="../../Images/B_ConfigurationGuide/MA_ConfiguringLDAP_PlatfromServices.png" /></p></li>
-            <li>Navigate to the <span class="bold">EMS Web App</span> &gt;&#160;<span class="bold">Admin Functions</span>&#160;page,&#160;listed under your name in the upper right corner of the application.<p><img src="../../Images/B_ConfigurationGuide/MA_ConfiguringLDAP_AdminFunctions.png" /></p></li>
-            <li>Tap the<span class="bold"> LDAP Configuration</span> tab and complete all required LDAP information, and then <MadCap:xref href="#Test_Your_LDAP_Configuration">test your configuration</MadCap:xref>.<p><img src="../../Images/B_ConfigurationGuide/MA_ConfiguringLDAP_TestConfiguration.png" /></p></li>
+            <li>Navigate to the <span class="bold">EMS Web App</span> &gt;&#160;<span class="bold">Admin Functions</span>&#160;page,&#160;listed under your name in the upper right corner of the application.<p><img src="../../Images/B_ConfigurationGuide/MA_ConfiguringLDAP_AdminFunctions.png" class="PDFlarge" /></p></li>
+            <li>Tap the<span class="bold"> LDAP Configuration</span> tab and complete all required LDAP information, and then <MadCap:xref href="#Test_Your_LDAP_Configuration">test your configuration</MadCap:xref>.<p><img src="../../Images/B_ConfigurationGuide/MA_ConfiguringLDAP_TestConfiguration.png" class="PDFlarge" /></p></li>
         </ol>
         <div class="note-box tip">
             <p><span class="bold">Tip</span>: This is the same process you use&#160;for <MadCap:xref href="../../../OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_LDAPAuthentication.html">authenticating EMS&#160;Web App with LDAP</MadCap:xref>. The EMS Platform Services&#160;API uses&#160;the same configuration information.</p>
@@ -61,8 +61,8 @@
         <ol class="number-list">
             <li>Log into EMS Web App with a User that belongs to an Everyday User Security Template containing the Web Administrator role (controlled in the EMS Desktop Client under Configuration &gt; Everyday User Applications &gt; Everyday User Security Templates). See Also: Configuring Security Templates</li>
             <li>From the User Options, select Admin Functions.<p><img src="../../../Resources/Images/adminfunctionsmenu.png" /></p></li>
-            <li>Click the LDAP Configuration tab. <p><img src="../../../Resources/Images/clipboard_ec382dfd46bbd860e6b6d04bd8d971e9e.png" /></p></li>
-            <li>The LDAP Configuration window appears, presenting multiple tabs for various settings.<p><img src="../../../Resources/Images/AdminLDAPconfig1.png" /></p></li>
+            <li>Click the LDAP Configuration tab. <p><img src="../../../Resources/Images/clipboard_ec382dfd46bbd860e6b6d04bd8d971e9e.png" class="PDFlarge" /></p></li>
+            <li>The LDAP Configuration window appears, presenting multiple tabs for various settings.<p><img src="../../../Resources/Images/AdminLDAPconfig1.png" class="PDFlarge" /></p></li>
         </ol>
         <h3><a name="ConfiguringWebAppSecurity"></a>Configuring EMS Web App Security</h3>
         <ol class="number-list">
@@ -130,7 +130,7 @@
             <li>After completing configuration, navigate to the Test Configuration tab in the EMS Web App under LDAP Configuration.</li>
             <li>Enter your Network UserId Without Domain Name.</li>
             <li>Enter your Password.</li>
-            <li>Click Test.<ol><li>If your configuration was successful, you will receive a message in a green box at the top that includes domain information and the words "Authentication successful" (please see example below). <p><img src="../../../Resources/Images/LDAPAuthentication_Test_Configuration.png" /></p></li><li>If the configuration was unsuccessful, you will receive a prompt stating that LDAP could not be accessed. Check your logs to determine the reason for the failure.</li></ol></li>
+            <li>Click Test.<ol><li>If your configuration was successful, you will receive a message in a green box at the top that includes domain information and the words "Authentication successful" (please see example below). <p><img src="../../../Resources/Images/LDAPAuthentication_Test_Configuration.png" class="PDFlarge" /></p></li><li>If the configuration was unsuccessful, you will receive a prompt stating that LDAP could not be accessed. Check your logs to determine the reason for the failure.</li></ol></li>
         </ol>
         <h3><a name="ConfiguringAuthenticationforEMSMobileApp"></a>Configuring Authentication for the EMS&#160;Mobile App</h3>
         <ol class="number-list">

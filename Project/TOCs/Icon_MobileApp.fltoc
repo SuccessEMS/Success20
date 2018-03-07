@@ -88,7 +88,7 @@
       </TocEntry>
       <TocEntry
         Title="PDF"
-        Link="/Content/Kiosk/A_44.1/A_Install/Kiosk_Install_PDF.pdf"></TocEntry>
+        Link="/Content/EMSMobileApp/A_InstallationGuide/EMSMobileApp_InstallationGuide.pdf"></TocEntry>
     </TocEntry>
     <TocEntry
       Title="Configuration Guide"
@@ -129,7 +129,7 @@
         Link="/Content/EMSMobileApp/B_ConfigurationGuide/Mobile_SetMobileParameters.html"></TocEntry>
       <TocEntry
         Title="PDF"
-        Link="/Content/Kiosk/A_44.1/B_Config/Kiosk_Config_PDF.pdf" />
+        Link="/Content/EMSMobileApp/B_ConfigurationGuide/EMSMobileApp_ConfigurationGuide.pdf" />
     </TocEntry>
     <TocEntry
       Title="User Guide"
