@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CatapultTarget
   Version="2"
-  Comment="User Guide A—7X9"
+  Comment="EMS Desktop Client User Guide"
   Type="PDF"
   Destinations=""
   GlossaryTermConversion="marked"
@@ -19,8 +19,8 @@
     PopupConversion="remove-body"
     GenerateTOCProxy="false" />
   <DocumentProperties
-    Title="User Manual—7X9"
-    Author="My Name" />
+    Title="EMS Desktop Client User Guide"
+    Author="EMS Software" />
   <PDF
     ShowUsedBookmarks="false"
     InitialMagnification="100"

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CatapultTarget
   Version="2"
-  Comment="EMS Mobile Installation Guide"
+  Comment="EMS Mobile App Installation Guide"
   Type="PDF"
   Destinations=""
   GlossaryTermConversion="marked"
