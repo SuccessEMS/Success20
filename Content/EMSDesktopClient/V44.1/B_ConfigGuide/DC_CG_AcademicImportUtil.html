@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html MadCap:lastBlockDepth="6" MadCap:lastHeight="15793" MadCap:lastWidth="923" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\EMSDesktopClient.flmsp');">
+<html MadCap:lastBlockDepth="6" MadCap:lastHeight="18605" MadCap:lastWidth="812" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\EMSDesktopClient.flmsp');">
     <head>
         <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" />
         <link href="../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title mt-export-translate="no">Academic Import Utility</title>
@@ -7,14 +7,19 @@
         <meta name="mt-unsafe" value="false" />
     </head>
     <body>
-        <h1>Academic Import Utility</h1>
-        <p>The Academic Import Utility (AIU) is an optional, add-on component for EMS that is designed to manually import from your Student Information System, or SIS. For each scheduled class that is being imported, a single reservation with multiple bookings is created. One booking is created for each date on which the class meets. All class reservations created by the import process are assigned to one Group (customer, client, and so on) that you have configured in your EMS database.&#160;The imported class data can be one of two formats,&#160;tab-delimited&#160;or&#160;fixed width. In addition, prior to using the AIU, you should have certain&#160;items&#160;configured in your EMS database.</p>
+        <h1 MadCap:autonum="CHAPTER&#160;1: ">Academic Import Utility</h1>
+        <p>The <span class="bold">Academic Import Utility</span> (AIU) is an optional, add-on component for EMS that is designed to manually import from your Student Information System, or SIS. For each scheduled class that is being imported, a single reservation with multiple bookings is created. One booking is created for each date on which the class meets. All class reservations created by the import process are assigned to one Group (customer, client, and so on) that you have configured in your EMS database.&#160;The imported class data can be one of two formats,&#160;tab-delimited&#160;or&#160;fixed width. In addition, prior to using the AIU, you should have certain&#160;items&#160;configured in your EMS database.</p>
         <p>To import data, you must&#160;configure&#160;a session for each block of data (i.e. quarter or semester). After you have configured a session, AIU saves the settings for use in both the initial import and any subsequent re-import. When a session is re-imported, only events in the import file that have changed since the last import are recreated in the EMS database. This prevents the unnecessary re-import of unchanged events and the associated invalidation of large ranges of reservation numbers. After configuring a session, you import the session.</p>
         <p class="note-box">Warning:&#160;Creating reservations can take an extended time and must be performed when no users are logged on to EMS. (To log off active users, see&#160;“Viewing and Emailing Logged-In Users”.) The time required to create reservations varies depending on the amount of data involved and the processing power of the computer making the reservations. After the import process completes, the system automatically displays a report listing booking conflicts, if any.</p>
         <p>Reservations that were added to the EMS database using the AIU can be removed from the database using the AIU as well. Deleting a session removes all reservations created using the session.</p>
-        <p class="note-box">Tip:&#160;Before you configure an AIU session, you should review the Academic Import Days of the Week setting in your system parameters. This setting dictates whether the AIU interprets days of the week based on their position within the data (with options for Sunday first or Monday first) or based on specific text entries (Su = Sunday, M = Monday, and so on). See&#160;“System Parameters”.</p>
-        <p>Tip:&#160;All fields are required unless noted otherwise.</p>
+        <p class="note-box">Tip:&#160;Before you configure an AIU session, you should review the Academic Import Days of the Week setting in your system parameters. This setting dictates whether the AIU interprets days of the week based on their position within the data (with options for Sunday first or Monday first) or based on specific text entries (Su = Sunday, M = Monday, and so on). See&#160;Also:&#160;<a href="DC_CG_SystemParam.htm">System Parameters</a>.<br /><br /><span class="bold">All fields are required unless noted otherwise.</span></p>
         <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
+            <col />
+            <col style="width: 131px;" />
+            <col />
+            <col />
+            <col />
+            <col style="width: 138px;" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
@@ -650,11 +655,11 @@
         <p>To import data, you must&#160;configure&#160;a session for each block of data (i.e., quarter or semester). After you have configured a session, AIU saves the settings for use in both the initial import and any subsequent re-import. When a session is re-imported, only events in the import file that have changed since the last import are recreated in the EMS database. This prevents the unnecessary re-import of unchanged events and the associated invalidation of large ranges of reservation numbers. After configuring a session, you&#160;import&#160;the data for the session.</p>
         <p class="note-box">Tip:&#160;Creating reservations can take an extended time and must be performed when no users are logged in to EMS. (To log off active users, see&#160;“Viewing and Emailing Logged-In Users”.) The time required to create reservations varies depending on the amount of data involved and the processing power of the computer making the reservations. After the import process completes, the system automatically displays a report listing booking conflicts, if any.</p>
         <p>Reservations that were added to the EMS database using the AIU can be removed from the database using the AIU as well. Deleting a session removes all reservations created using the session.</p>
-        <p class="note-box">Tip:&#160;Before you configure an AIU session, you should review the Academic Import Days of the Week setting in your system parameters. This setting dictates whether the AIU interprets days of the week based on their position within the data (with options for Sunday first or Monday first) or based on specific text entries (Su = Sunday, M = Monday, and so on). See “System Parameters”.</p>
+        <p class="note-box">Tip:&#160;Before you configure an AIU session, you should review the Academic Import Days of the Week setting in your system parameters. This setting dictates whether the AIU interprets days of the week based on their position within the data (with options for Sunday first or Monday first) or based on specific text entries (Su = Sunday, M = Monday, and so on). See Also:&#160;<a href="DC_CG_SystemParam.htm">System Parameters</a>.</p>
         <h2 class="Heading2"><a name="RTF436f6e6669677572655f7365"></a>Configure an AIU session&#160;</h2>
-        <p class="note-box">Tip:&#160;This section describes the steps for configuring a new session for the AIU. If you simply need to load an existing session, then after opening the Sessions window, skip to&#160;“To import the data into the session”.</p>
+        <p class="note-box">Tip:&#160;This section describes the steps for configuring a new session for the AIU. If you simply need to load an existing session, then after opening the Sessions window, skip to&#160;<a href="#importdataintosession">Import the data into the session</a>.</p>
         <ol start="1">
-            <li>On the EMS menu bar, click Reservations &gt; Academic Import &gt; Academic Import Utility.&#160;The Sessions window opens. This window lists all the sessions that are currently configured in your EMS database.</li>
+            <li>On the EMS menu bar, click <span class="bold">Reservations </span>&gt; <span class="bold">Academic Import</span> &gt; <span class="bold">Academic Import Utility</span>.&#160;The Sessions window opens. This window lists all the sessions that are currently configured in your EMS database.</li>
         </ol>
         <p>
             <img src="../../../Resources/Images/DTC_V44_VideoDispInter/Configuring the Academic Import_2.png" alt="emssg_appendixacademic_image001.png" />
@@ -711,7 +716,7 @@
                         <p>Group</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p>The reservation holder for all reservations in the session. For example, Registrar's Office. You can select a value from the Group dropdown list, or you can click the Search icon&#160;to open the Groups window and create the necessary group. See&#160;“Configuring Groups”.</p>
+                        <p>The reservation holder for all reservations in the session. For example, Registrar's Office. You can select a value from the Group dropdown list, or you can click the Search icon&#160;to open the Groups window and create the necessary group. See&#160;Also:&#160;<a href="DC_CG_ConfigGroup.htm">Configuring Groups</a>.</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
@@ -719,7 +724,7 @@
                         <p>Event Type</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p>Select a value from the dropdown list. If none of the event types that are currently configured in your EMS database meets your needs, then you can configure a type (for example, Academic). See&#160;“Configuring Event Types”.</p>
+                        <p>Select a value from the dropdown list. If none of the event types that are currently configured in your EMS database meets your needs, then you can configure a type (for example, Academic). See&#160;Also:&#160;<a href="DesktopClient_ConfigEventType.html">Configuring Event Types</a>.</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
@@ -727,7 +732,7 @@
                         <p>Setup Type</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p>Select a value from the dropdown list. If none of the event types that are currently configured in your EMS database meets your needs, then you can configure a type (for example, Classroom). See&#160;“Configuring Setup Types”.</p>
+                        <p>Select a value from the dropdown list. If none of the event types that are currently configured in your EMS database meets your needs, then you can configure a type (for example, Classroom). See&#160;Also:&#160;<a href="DesktopClient_ConfigSetupType.html">Configuring Setup Types</a>.</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
@@ -736,7 +741,7 @@
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
                         <p>The status for the new bookings that are created.</p>
-                        <p>Note:&#160;While you can use an existing status such as Confirmed, it is generally best to create a new status (for example, Academic - Confirmed) to denote the imported data. See&#160;“Configuring Statuses”.</p>
+                        <p>Note:&#160;While you can use an existing status such as Confirmed, it is generally best to create a new status (for example, Academic - Confirmed) to denote the imported data. See&#160;Also:&#160;<a href="DC_CG_ConfigStatuses.htm">Configuring Statuses</a>.</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
@@ -744,7 +749,7 @@
                         <p>Conflict Status</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p>Available after you specify a Status. Select a value from the dropdown list. If none of the statuses that are currently configured in your EMS database meets your needs, then you can configure a status (for example, Academic - Conflict). See&#160;“Configuring Statuses”.</p>
+                        <p>Available after you specify a Status. Select a value from the dropdown list. If none of the statuses that are currently configured in your EMS database meets your needs, then you can configure a status (for example, Academic - Conflict). See&#160;Also:&#160;<a href="DC_CG_ConfigStatuses.htm">Configuring Statuses</a>.</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
@@ -760,7 +765,7 @@
                         <p>Cross List Conflict Status</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p>Available if you select Use Cross List Status. The status that is to be applied to cross-listed classes. Select a value from the dropdown list. If none of the statuses that are currently configured in your EMS database meets your needs, then you can configure a status (for example, Academic - Cross List). See&#160;“Configuring Statuses”.</p>
+                        <p>Available if you select Use Cross List Status. The status that is to be applied to cross-listed classes. Select a value from the dropdown list. If none of the statuses that are currently configured in your EMS database meets your needs, then you can configure a status (for example, Academic - Cross List). See&#160;Also:&#160;<a href="DC_CG_ConfigStatuses.htm">Configuring Statuses</a>.</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
@@ -776,7 +781,7 @@
                         <p>Override Conflict Status</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p>Available if you select Override Existing Bookings. The status that is to be applied to existing events if they are overridden by imported events. Select a value from the dropdown list. If none of the statuses that are currently configured in your EMS database meets your needs, then you can configure a status (for example, Academic - Conflict). See&#160;“Configuring Statuses”.</p>
+                        <p>Available if you select Override Existing Bookings. The status that is to be applied to existing events if they are overridden by imported events. Select a value from the dropdown list. If none of the statuses that are currently configured in your EMS database meets your needs, then you can configure a status (for example, Academic - Conflict). See&#160;Also:&#160;<a href="DC_CG_ConfigStatuses.htm">Configuring Statuses</a>.</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
@@ -784,16 +789,16 @@
                         <p>Reservation Source</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
-                        <p>Select a source for the reservation. If none of the sources that are currently configured in your EMS database meets your needs, you can configure a source. See&#160;“Configuring Reservation Sources”.</p>
+                        <p>Select a source for the reservation. If none of the sources that are currently configured in your EMS database meets your needs, you can configure a source. See&#160;Also:&#160;<a href="DesktopClient_ConfigReservSources.html">Configuring Reservation Sources</a>.</p>
                     </td>
                 </tr>
             </tbody>
         </table>
         <ol start="4">
             <li>Click OK.&#160;The Session dialog box closes. You return to the Sessions window with the newly configured session displayed in the window.</li>
-            <li>Continue to&#160;“To import the data into the session.”</li>
+            <li>Continue to&#160;<a href="#importdataintosession">import the data into the session</a> below.</li>
         </ol>
-        <h2 class="Heading2">Import the Data into the Session&#160;</h2>
+        <h2 class="Heading2"><a name="importdataintosession"></a>Import the Data into the Session&#160;</h2>
         <ol start="1">
             <li>Select the session that you are using for importing classes, and then click Load.&#160;The first of three AIU windows opens.</li>
         </ol>
@@ -848,7 +853,5 @@
             <li>After you have added or deleted the necessary booking dates, click Finish.&#160;A message appears indicating that the session was successfully imported.</li>
             <li>Click OK to close the message and return to the Sessions window.</li>
         </ol>
-        <p>&#160;</p>
-        <p>&#160;</p>
     </body>
 </html>
