@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html MadCap:lastBlockDepth="6" MadCap:lastHeight="16862" MadCap:lastWidth="865" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\EMSWebApp.flmsp');" class="emsWebapp" MadCap:onlyLocalStylesheets="False">
+<html MadCap:lastBlockDepth="6" MadCap:lastHeight="20248" MadCap:lastWidth="703" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\EMSWebApp.flmsp');" class="emsWebapp" MadCap:onlyLocalStylesheets="False">
     <head><title mt-export-translate="no">Best Practices: Setting Up Your Web Server 2012 or 2012R2</title>
         <meta name="mt-type" value="application/x.deki-text" />
         <meta name="mt-unsafe" value="true" />
     </head>
     <body>
-        <h1>
-            <MadCap:annotation MadCap:createDate="2017-11-21T15:34:27.5383607-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="This topic contains repeated info from 2008. Also contains two &quot;Add Roles&quot; sections that seeme to have the same content. Is 2008 and 2012 both in this topic?" MadCap:editor="Megan.Laub" MadCap:editDate="2017-11-21T15:35:08.7452640-07:00">Best</MadCap:annotation> Practices: Setting Up Your Web Server 2012 or 2012R2</h1>
+        <h1 MadCap:autonum="CHAPTER&#160;1: ">
+            <MadCap:annotation MadCap:createDate="2017-11-21T15:34:27.5383607-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="This topic contains repeated info from 2008. Also contains two &quot;Add Roles&quot; sections that seeme to have the same content. Is 2008 and 2012 both in this topic?" MadCap:editor="Megan.Laub" MadCap:editDate="2017-11-21T15:35:08.7452640-07:00">Best</MadCap:annotation> Practices: Setting Up Your Web Server 2012 or 2012 R2</h1>
         <p>This section guides you in best practices&#160;in setting up a Web Server for installation of EMS web-based products and is intended for experienced System Administrators.&#160; Please be aware that we can only provide instructions for modifying your web server as tested in our facilities, and cannot guarantee results for your configuration. Lastly, after completing these modifications, you will need to perform your own adjustments to system security etc. &#160; &#160; &#160;&#160;</p>
-        <p>Note:&#160; Before beginning the installation process, please review <a href="../../../EMS_SystemReq_44.1.html">EMS&#160;System Requirements</a>&#160;before proceeding. The minimum hardware requirements must be met to continue with the configuration below. Administrative rights will be necessary to enable the roles and features listed for each Windows Server.</p>
+        <p class="note-box">Note:&#160; Before beginning the installation process, please review <a href="../../../EMS_SystemReq_44.1.html">EMS&#160;System Requirements</a>&#160;before proceeding. The minimum hardware requirements must be met to continue with the configuration below. Administrative rights will be necessary to enable the roles and features listed for each Windows Server.</p>
         <p>This topic provides information on the <MadCap:annotation MadCap:createDate="2017-11-21T17:55:07.3757180-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="First three bullets might be for 2008. " MadCap:editor="Megan.Laub" MadCap:editDate="2017-11-21T17:55:17.8625753-07:00">following</MadCap:annotation>:&#160;</p>
         <ul class="unorder-list">
             <li><a href="#InstallNetFramework3.5">To&#160;Install&#160;.NET Framework 3.5</a>
@@ -52,7 +52,7 @@
             <li>Navigate to&#160;<span class="bold">Start </span>&gt; <span class="bold">All Programs</span> &gt; <span class="bold">Administrative Tools</span> &gt; <span class="bold">Server Manager</span>.</li>
         </ol>
         <p>
-            <img src="Images/WebApp_Install/Best Practices Setting Up_1.jpg" alt="" />
+            <img src="Images/WebApp_Install/Best Practices Setting Up_1.jpg" alt="" class="PDFlarge" />
         </p>
         <ol start="2">
             <li>In the&#160;Server Manager&#160;window, scroll down to&#160;<span class="bold">Roles Summary</span>, and then click&#160;<span class="bold">Add Roles</span>.</li>
@@ -132,50 +132,50 @@
         <ol start="1">
             <li>In Server Manager, click&#160;<span class="bold">Manage&#160;</span>and then select&#160;<span class="bold">Add Roles and Features</span>&#160;to start the <span class="bold">Add Roles and Features Wizard</span>.</li>
         </ol>
-        <p>&#160;<img src="Images/WebApp_Install/Best Practices Setting Up_1.png" alt="" /></p>
+        <p>&#160;<img src="Images/WebApp_Install/Best Practices Setting Up_1.png" alt="" class="PDFlarge" /></p>
         <ol start="2">
             <li>On the&#160;Select installation type&#160;screen, select&#160;<span class="bold">Add roles and Features</span>.</li>
             <li>Select the target server. The wizard presents a Before you Begin prompt.</li>
         </ol>
         <p>
-            <img src="Images/WebApp_Install/Best Practices Setting Up_1_1.png" alt="" />
+            <img src="Images/WebApp_Install/Best Practices Setting Up_1_1.png" alt="" class="PDFlarge" />
         </p>
         <ol start="4">
             <li>Click&#160;<span class="bold">Next</span>. The wizard advances to the Installation Type prompt.</li>
         </ol>
         <p>
-            <img src="Images/WebApp_Install/Best Practices Setting Up_1_2.png" alt="" />
+            <img src="Images/WebApp_Install/Best Practices Setting Up_1_2.png" alt="" class="PDFlarge" />
         </p>
         <ol start="5">
             <li>Select&#160;<span class="bold">Role-based or feature-based installation</span>.</li>
             <li>Click&#160;<span class="bold">Next</span>. The wizard advances you to the Server Selection prompt.</li>
         </ol>
         <p>
-            <img src="Images/WebApp_Install/Best Practices Setting Up_1_3.png" alt="" />
+            <img src="Images/WebApp_Install/Best Practices Setting Up_1_3.png" alt="" class="PDFlarge" />
         </p>
         <ol start="7">
             <li>Select your server and click&#160;<span class="bold">Next</span>. The wizard advances you to the Server Roles prompt.</li>
         </ol>
         <p>
-            <img src="Images/WebApp_Install/Best Practices Setting Up_1_4.png" alt="" />
+            <img src="Images/WebApp_Install/Best Practices Setting Up_1_4.png" alt="" class="PDFlarge" />
         </p>
         <ol start="8">
             <li>Select&#160;<span class="bold">Web Server (IIS)</span>&#160;and click&#160;<span class="bold">Next</span>. The wizard advances you to the Features prompt.</li>
         </ol>
         <p>
-            <img src="Images/WebApp_Install/Best Practices Setting Up_1_5.png" alt="" />
+            <img src="Images/WebApp_Install/Best Practices Setting Up_1_5.png" alt="" class="PDFlarge" />
         </p>
         <ol start="9">
             <li>Select the&#160;<span class="bold">.NET Framework Framework 3.5</span>&#160;and&#160;<span class="bold">.NET Framework 4.5</span>&#160;options. The wizard prompts you to confirm for each option.</li>
         </ol>
         <p>
-            <img src="Images/WebApp_Install/Best Practices Setting Up_1_6.png" alt="" />
+            <img src="Images/WebApp_Install/Best Practices Setting Up_1_6.png" alt="" class="PDFlarge" />
         </p>
         <ol start="10">
             <li>Click&#160;<span class="bold">Next</span>. Repeat this confirmation step for the .NET 4.5 server role. The Wizard advances you to the Select Role Services prompt.</li>
         </ol>
         <p>
-            <img src="Images/WebApp_Install/Best Practices Setting Up_1_7.png" alt="" />
+            <img src="Images/WebApp_Install/Best Practices Setting Up_1_7.png" alt="" class="PDFlarge" />
         </p>
         <ol start="11">
             <li>Select both&#160;<span class="bold">ASP .NET 3.5</span>&#160;and&#160;<span class="bold">ASP .NET 4.5</span>&#160;options. The wizard advances you to the Confirmation Prompt.</li>
@@ -188,7 +188,7 @@
             <li>Once expanded, select&#160;both&#160;the&#160;<span class="bold">.NET Framework 4.5</span>&#160;and&#160;<span class="bold">ASP.NET 4.5</span>&#160;options and click&#160;<span class="bold">Next</span>.&#160;</li>
         </ol>
         <p>
-            <img src="Images/WebApp_Install/Best Practices Setting Up_1_7.png" alt="" />
+            <img src="Images/WebApp_Install/Best Practices Setting Up_1_7.png" alt="" class="PDFlarge" />
         </p>
         <ol start="3">
             <li>Review the selections and then click&#160;<span class="bold">Install</span>.</li>
