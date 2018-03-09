@@ -1,26 +1,84 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PageStyles xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
-    <Page Name="First Right" Width="7in" Height="9in" Padding="20px" PageSize="custom" PageType="firstright" PaddingLeft="0.5in" PaddingRight="0.5in" PaddingTop="0.5in" PaddingBottom="0.5in" Orientation="landscape" BackgroundColor="#ffffff" BackgroundType="Solid" BleedLeft="0.25in" BleedRight="0.25in" BleedTop="0.25in" BleedBottom="0.25in">
-        <Frame Flow="body" Y="34px" Bottom="47px" X="8px" Right="0px" ColumnCount="1" ColumnGap="30px" ColumnDivider="Solid 1px Red" Anchors="Left,Right,Bottom" Width="760px" Height="495px" FlowIndex="1">
-        </Frame>
-    </Page>
-    <Page Name="Left" Width="7in" Height="9in" Padding="20px" PageSize="custom" PageType="left" PaddingLeft="0.5in" PaddingRight="0.5in" PaddingTop="0.5in" PaddingBottom="0.5in" Orientation="landscape" BleedBottom="0.25in" BleedTop="0.25in" BleedRight="0.25in" BleedLeft="0.25in">
-        <Frame Flow="body" Y="9px" Bottom="23px" X="0px" Right="0px" ColumnCount="1" ColumnGap="30px" ColumnDivider="Solid 1px Red" Anchors="Left,Right,Top,Bottom" Width="768px" Height="544px">
-        </Frame>
-    </Page>
-    <Page Name="Empty Left" Width="7in" Height="9in" Padding="20px" PageSize="custom" PageType="emptyleft" PaddingLeft="0.5in" PaddingRight="0.5in" PaddingTop="0.5in" PaddingBottom="0.5in" Orientation="landscape" BleedBottom="0.25in" BleedTop="0.25in" BleedRight="0.25in" BleedLeft="0.25in">
-        <Frame X="208px" Y="264px" Width="353px" Height="49px" Flow="decoration0" Right="207px" Bottom="263px" Anchors="Left,Right,Top,Bottom">
+    <Page Name="Left" Width="7in" Height="9in" Padding="20px" PageSize="Letter" PageType="left" PaddingLeft="1in" PaddingRight="1in" PaddingTop="1in" PaddingBottom="1in" Orientation="landscape" BleedBottom="0.25in" BleedTop="0.25in" BleedRight="0.25in" BleedLeft="0.25in">
+        <Frame X="-21px" Y="-54px" Width="106px" Height="40px" Flow="decoration0" Right="779px" Bottom="638px" BackgroundImage="../../Images/ems_logo_250w.jpg" BackgroundRepeat="stretch" Anchors="" />
+        <Frame X="415px" Y="-53px" Width="449px" Height="38px" Flow="header" Right="0px" Bottom="639px" Anchors="">
             <Content>
                 <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
                     <xhtml:body>
-                        <xhtml:p xhtml:class="EmptyPageText" xhtml:style="text-align: center;">This page intentionally left blank to ensure new chapters start on right (odd number) pages.</xhtml:p>
+                        <xhtml:p xhtml:class="PDFh1"><MadCap:variable xhtml:name="Heading.Level1" />
+                        </xhtml:p>
                     </xhtml:body>
                 </xhtml:html>
             </Content>
         </Frame>
+        <Frame X="-2px" Y="-4px" Width="866px" Height="11px" Flow="decoration1" Right="0px" Bottom="617px" BorderTopStyle="solid" BorderTopWidth="1px" BorderTopColor="#666666" Anchors="" FlowIndex="1" />
+        <Frame Flow="footer" Height="47px" Anchors="Left,Right,Bottom" Right="-8px" Bottom="-50px" X="-3px" Y="627px" Width="875px" TextAlign="left" VerticalAlign="top" FlowIndex="1">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:head>
+                    </xhtml:head>
+                    <xhtml:body>
+                        <xhtml:p xhtml:class="FrameFooterText" xhtml:style="font-size: 10pt;text-align: right;">EMS&#160;Software © 2018 / <MadCap:variable xhtml:name="General.Version" /> / Page <MadCap:variable xhtml:name="System.PageNumber" /></xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame Flow="body" Y="46px" Bottom="38px" X="0px" Right="0px" ColumnCount="1" ColumnGap="30px" ColumnDivider="Solid 1px Red" Anchors="Left,Right,Top,Bottom" Width="864px" Height="540px">
+        </Frame>
     </Page>
-    <Page Name="Right" Width="7in" Height="9in" Padding="20px" PageSize="custom" PageType="right" PaddingLeft="0.5in" PaddingRight="0.5in" PaddingTop="0.5in" PaddingBottom="0.5in" Orientation="landscape" BleedBottom="0.25in" BleedTop="0.25in" BleedRight="0.25in" BleedLeft="0.25in">
-        <Frame Flow="body" Y="-1px" Bottom="25px" X="0px" Right="0px" ColumnCount="1" ColumnGap="30px" ColumnDivider="Solid 1px Red" Anchors="Left,Right,Top,Bottom" Width="768px" Height="552px">
+    <Page Name="Right" Width="7in" Height="9in" Padding="20px" PageSize="Letter" PageType="right" PaddingLeft="1in" PaddingRight="1in" PaddingTop="1in" PaddingBottom="1in" Orientation="landscape" BleedBottom="0.25in" BleedTop="0.25in" BleedRight="0.25in" BleedLeft="0.25in">
+        <Frame X="-21px" Y="-54px" Width="106px" Height="40px" Flow="decoration0" Right="779px" Bottom="638px" BackgroundImage="../../Images/ems_logo_250w.jpg" BackgroundRepeat="stretch" Anchors="" />
+        <Frame X="415px" Y="-53px" Width="449px" Height="38px" Flow="header" Right="0px" Bottom="639px" Anchors="">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:p xhtml:class="PDFh1"><MadCap:variable xhtml:name="Heading.Level1" />
+                        </xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame X="-2px" Y="-4px" Width="866px" Height="11px" Flow="decoration1" Right="0px" Bottom="617px" BorderTopStyle="solid" BorderTopWidth="1px" BorderTopColor="#666666" Anchors="" FlowIndex="1" />
+        <Frame Flow="footer" Height="47px" Anchors="Left,Right,Bottom" Right="-8px" Bottom="-50px" X="-3px" Y="627px" Width="875px" TextAlign="left" VerticalAlign="top" FlowIndex="1">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:head>
+                    </xhtml:head>
+                    <xhtml:body>
+                        <xhtml:p xhtml:class="FrameFooterText" xhtml:style="font-size: 10pt;text-align: right;">EMS&#160;Software © 2018 / <MadCap:variable xhtml:name="General.Version" /> / Page <MadCap:variable xhtml:name="System.PageNumber" /></xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame Flow="body" Y="46px" Bottom="38px" X="0px" Right="0px" ColumnCount="1" ColumnGap="30px" ColumnDivider="Solid 1px Red" Anchors="Left,Right,Top,Bottom" Width="864px" Height="540px">
+        </Frame>
+    </Page>
+    <Page Width="7in" Height="9in" Padding="20px" PageSize="Letter" PageType="normal" PaddingLeft="1in" PaddingRight="1in" PaddingTop="1in" PaddingBottom="1in" Orientation="landscape" BleedBottom="0.25in" BleedTop="0.25in" BleedRight="0.25in" BleedLeft="0.25in" Name="Normal">
+        <Frame X="-21px" Y="-54px" Width="106px" Height="40px" Flow="decoration0" Right="779px" Bottom="638px" BackgroundImage="../../Images/ems_logo_250w.jpg" BackgroundRepeat="stretch" Anchors="" />
+        <Frame X="415px" Y="-53px" Width="449px" Height="38px" Flow="header" Right="0px" Bottom="639px" Anchors="">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:p xhtml:class="PDFh1"><MadCap:variable xhtml:name="Heading.Level1" />
+                        </xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame Flow="body" Y="46px" Bottom="38px" X="0px" Right="0px" ColumnCount="1" ColumnGap="30px" ColumnDivider="Solid 1px Red" Anchors="Left,Right,Top,Bottom" Width="864px" Height="540px">
+        </Frame>
+        <Frame X="-2px" Y="-4px" Width="866px" Height="11px" Flow="decoration1" Right="0px" Bottom="617px" BorderTopStyle="solid" BorderTopWidth="1px" BorderTopColor="#666666" Anchors="" FlowIndex="1" />
+        <Frame Flow="footer" Height="47px" Anchors="Left,Right,Bottom" Right="-8px" Bottom="-50px" X="-3px" Y="627px" Width="875px" TextAlign="left" VerticalAlign="top" FlowIndex="1">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:head>
+                    </xhtml:head>
+                    <xhtml:body>
+                        <xhtml:p xhtml:class="FrameFooterText" xhtml:style="font-size: 10pt;text-align: right;">EMS&#160;Software © 2018 / <MadCap:variable xhtml:name="General.Version" /> / Page <MadCap:variable xhtml:name="System.PageNumber" /></xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
         </Frame>
     </Page>
 </PageStyles>
