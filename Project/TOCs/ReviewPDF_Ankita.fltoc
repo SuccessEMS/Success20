@@ -2,14 +2,10 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="Mobile Known Issues U22"
-    Link="/Content/ReleaseNotes/Version44.1/Update22/EMSMobileApp_KnownIssues.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_EMSBrowserWindow.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
     BreakType="chapter"
-    PageNumberReset="reset"
     StartSection="false"
-    PageNumber="1"
-    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"></TocEntry>
-  <TocEntry
-    Title="Platform Known Issues U22"
-    Link="/Content/ReleaseNotes/Version44.1/Update22/EMSPlatform_KnownIssues.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
 </CatapultToc>
