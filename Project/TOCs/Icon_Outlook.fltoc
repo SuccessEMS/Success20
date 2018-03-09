@@ -57,9 +57,6 @@
         </TocEntry>
       </TocEntry>
       <TocEntry
-        Title="PDF"
-        Link="/Content/Outlook/A_Install/Outlook_Install_PDF.pdf" />
-      <TocEntry
         Link="/Content/Outlook/D_IntegExch/IME/Outlook_IME_Introduction.htm"
         Title="Integration to Microsoft Exchange">
         <TocEntry
@@ -81,6 +78,9 @@
           Title="[%=System.LinkedTitle%]"
           Link="/Content/IntegrationtoMicrosoftExchange/LearnMoreaboutEWS.htm" />
       </TocEntry>
+      <TocEntry
+        Title="PDF"
+        Link="/Content/Outlook/A_Install/Outlook_Install_PDF.pdf" />
     </TocEntry>
     <TocEntry
       Title="Configuration Guide"
