@@ -36,7 +36,8 @@
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
         SectionNumberReset="continue"
         VolumeNumberReset="same"
-        ChapterNumberReset="continue" />
+        ChapterNumberReset="continue"
+        PageNumber="1" />
       <TocEntry
         Title="Authentication Options for EMS Desktop Client"
         Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_AuthenticationOptions.html"
@@ -46,7 +47,8 @@
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
         SectionNumberReset="continue"
         VolumeNumberReset="same"
-        ChapterNumberReset="continue" />
+        ChapterNumberReset="continue"
+        PageNumber="1" />
       <TocEntry
         Title="EMS Main Window"
         Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_EMSMainWindow.html"
@@ -56,7 +58,8 @@
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
         SectionNumberReset="continue"
         VolumeNumberReset="same"
-        ChapterNumberReset="continue" />
+        ChapterNumberReset="continue"
+        PageNumber="1" />
       <TocEntry
         Title="EMS Browser Window"
         Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_EMSBrowserWindow.htm"
@@ -66,7 +69,8 @@
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
         SectionNumberReset="continue"
         VolumeNumberReset="same"
-        ChapterNumberReset="continue" />
+        ChapterNumberReset="continue"
+        PageNumber="1" />
       <TocEntry
         Title="Configuration &gt; Facililties"
         Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigFacil.html"
@@ -76,7 +80,8 @@
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
         SectionNumberReset="continue"
         VolumeNumberReset="same"
-        ChapterNumberReset="continue">
+        ChapterNumberReset="continue"
+        PageNumber="1">
         <TocEntry
           Title="Overview of Configuring Rooms"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_OverviewConfigRooms.html"
@@ -86,7 +91,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue">
+          ChapterNumberReset="continue"
+          PageNumber="1">
           <TocEntry
             Title="Configure Rooms"
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigRooms.html"
@@ -96,7 +102,8 @@
             PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
             SectionNumberReset="continue"
             VolumeNumberReset="same"
-            ChapterNumberReset="continue" />
+            ChapterNumberReset="continue"
+            PageNumber="1" />
           <TocEntry
             Title="Room Configuration Wizard"
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_RoomConfigWiz.htm"
@@ -106,7 +113,8 @@
             PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
             SectionNumberReset="continue"
             VolumeNumberReset="same"
-            ChapterNumberReset="continue" />
+            ChapterNumberReset="continue"
+            PageNumber="1" />
           <TocEntry
             Title="Configure Room Pricing"
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigRoomPricing.htm"
@@ -116,7 +124,8 @@
             PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
             SectionNumberReset="continue"
             VolumeNumberReset="same"
-            ChapterNumberReset="continue" />
+            ChapterNumberReset="continue"
+            PageNumber="1" />
           <TocEntry
             Title="Configure Override Rooms"
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigOverrideRooms.htm"
@@ -126,7 +135,8 @@
             PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
             SectionNumberReset="continue"
             VolumeNumberReset="same"
-            ChapterNumberReset="continue" />
+            ChapterNumberReset="continue"
+            PageNumber="1" />
           <TocEntry
             Title="Configure and Generate Room QR Codes"
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigGenerRoomQRCode.htm"
@@ -136,7 +146,8 @@
             PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
             SectionNumberReset="continue"
             VolumeNumberReset="same"
-            ChapterNumberReset="continue" />
+            ChapterNumberReset="continue"
+            PageNumber="1" />
           <TocEntry
             Title="Import Rooms"
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ImportRooms.htm"
@@ -146,7 +157,8 @@
             PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
             SectionNumberReset="continue"
             VolumeNumberReset="same"
-            ChapterNumberReset="continue" />
+            ChapterNumberReset="continue"
+            PageNumber="1" />
         </TocEntry>
         <TocEntry
           Title="Configure Buildings"
@@ -157,7 +169,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
         <TocEntry
           Title="Configure Building Hours"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigBuildingHours.html"
@@ -167,7 +180,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue">
+          ChapterNumberReset="continue"
+          PageNumber="1">
           <TocEntry
             Title="Building Hours Wizard"
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_BuildHourWiz.htm"
@@ -177,7 +191,8 @@
             PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
             SectionNumberReset="continue"
             VolumeNumberReset="same"
-            ChapterNumberReset="continue" />
+            ChapterNumberReset="continue"
+            PageNumber="1" />
         </TocEntry>
         <TocEntry
           Title="Configure Areas"
@@ -188,7 +203,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
         <TocEntry
           Title="Configure Room Types"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigRoomType.html"
@@ -198,7 +214,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
         <TocEntry
           Title="Configure Setup Types"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigSetupType.html"
@@ -208,7 +225,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
         <TocEntry
           Title="Configure Features"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigFeatures.html"
@@ -218,7 +236,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
         <TocEntry
           Title="Configure Floors"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigFloors.html"
@@ -228,7 +247,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
         <TocEntry
           Title="Configure Floor Plans"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigFloorPlans.html"
@@ -238,7 +258,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
         <TocEntry
           Title="Configure Public Views"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigPublicViews.html"
@@ -248,7 +269,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
       </TocEntry>
       <TocEntry
         Title="Configuration &gt; Other"
@@ -259,7 +281,8 @@
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
         SectionNumberReset="continue"
         VolumeNumberReset="same"
-        ChapterNumberReset="continue">
+        ChapterNumberReset="continue"
+        PageNumber="1">
         <TocEntry
           Title="Configure Event Types"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigEventType.html"
@@ -269,7 +292,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
         <TocEntry
           Title="Configure Group Types"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigGroupType.html"
@@ -279,7 +303,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
         <TocEntry
           Title="Configure Reminder Types"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigReminderTypes.html"
@@ -289,7 +314,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
         <TocEntry
           Title="Configure Comment Types"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigCommentType.html"
@@ -299,7 +325,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
         <TocEntry
           Title="Configure Messages"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigMessages.htm"
@@ -309,7 +336,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
         <TocEntry
           Title="Configure Special Dates"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigSpecialDates.html"
@@ -319,7 +347,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
         <TocEntry
           Title="Configure User-Defined Fields"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigUDF.html"
@@ -329,7 +358,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
         <TocEntry
           Title="Configure Reservation Sources"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigReservSources.html"
@@ -339,7 +369,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
         <TocEntry
           Title="Configure Cancel Reasons"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigCancelReasons.html"
@@ -349,7 +380,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
         <TocEntry
           Title="Configure Attachment Types"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigAttachmentType.html"
@@ -359,7 +391,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
         <TocEntry
           Title="Configure Word Merge Documents"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigWordMergeDoc.html"
@@ -369,7 +402,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
         <TocEntry
           Title="Configure Calendar Styles"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigCalendarStyles.html"
@@ -379,7 +413,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
       </TocEntry>
       <TocEntry
         Title="Configuration &gt; Resources"
@@ -390,7 +425,8 @@
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
         SectionNumberReset="continue"
         VolumeNumberReset="same"
-        ChapterNumberReset="continue">
+        ChapterNumberReset="continue"
+        PageNumber="1">
         <TocEntry
           Title="Categories, Resources, Services - What's the Difference?"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_CategoriesResourcesServices_WhatsDiff.htm"
@@ -400,7 +436,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
         <TocEntry
           Title="Configure Resources for a Category"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigResourcesforCat.html"
@@ -410,7 +447,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue">
+          ChapterNumberReset="continue"
+          PageNumber="1">
           <TocEntry
             Title="Resource Configuration Wizard"
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ResourceConfigWiz.htm"
@@ -420,7 +458,8 @@
             PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
             SectionNumberReset="continue"
             VolumeNumberReset="same"
-            ChapterNumberReset="continue" />
+            ChapterNumberReset="continue"
+            PageNumber="1" />
         </TocEntry>
         <TocEntry
           Title="Import Resources for a Category"
@@ -431,7 +470,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
         <TocEntry
           Title="Define Resource Selections and Selection Items"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_DefineResourceSel.htm"
@@ -441,7 +481,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
         <TocEntry
           Title="Configure Services for a Category"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigureServicesforCat.htm"
@@ -451,7 +492,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
         <TocEntry
           Title="Configure Groupings for a Resource"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigGroupingsResource.html"
@@ -461,7 +503,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
         <TocEntry
           Title="Define Production Areas and Production Items for a Catering Resource"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_DefineProdAreaItems.htm"
@@ -471,7 +514,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
         <TocEntry
           Title="Configure Pricing for a Resource in the Edit Pricing Window"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigPricingResourceEditPriceWin.htm"
@@ -481,7 +525,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
         <TocEntry
           Title="Export Pricing Information for a Resource"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ExportPricInfo.htm"
@@ -491,7 +536,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
       </TocEntry>
       <TocEntry
         Title="Configuration &gt; Billing"
@@ -502,7 +548,8 @@
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
         SectionNumberReset="continue"
         VolumeNumberReset="same"
-        ChapterNumberReset="continue">
+        ChapterNumberReset="continue"
+        PageNumber="1">
         <TocEntry
           Title="Configure Rate Schedules"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigRateSchedule.htm"
@@ -512,7 +559,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
         <TocEntry
           Title="Configure Pricing Plans"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigPricingPlan.htm"
@@ -522,7 +570,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
         <TocEntry
           Title="Export Pricing Information for Billable Items (Rooms &amp; Resources)"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ExportPricingInfoBillableItems.htm"
@@ -532,7 +581,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
         <TocEntry
           Title="Configure Calculations"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigCalc.htm"
@@ -542,7 +592,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
         <TocEntry
           Title="Configure Accounts"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigAccount.htm"
@@ -552,7 +603,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
         <TocEntry
           Title="Configure Payment Types"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigPaymentType.htm"
@@ -562,7 +614,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
         <TocEntry
           Title="Configure Sales Categories"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigSalesCat.htm"
@@ -572,7 +625,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
         <TocEntry
           Title="Configure Billing References and PO Numbers"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigBillRefPO.htm"
@@ -582,7 +636,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
         <TocEntry
           Title="Establishing Billing Reference and PO Behavior"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_EstablishBillingRef.htm"
@@ -592,7 +647,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
         <TocEntry
           Title="Configure Currencies"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigCurrencies.htm"
@@ -602,7 +658,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
       </TocEntry>
       <TocEntry
         Title="Configuration &gt; Administration"
@@ -613,7 +670,8 @@
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
         SectionNumberReset="continue"
         VolumeNumberReset="same"
-        ChapterNumberReset="continue">
+        ChapterNumberReset="continue"
+        PageNumber="1">
         <TocEntry
           Title="Configure Categories"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigCategory.html"
@@ -623,7 +681,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue">
+          ChapterNumberReset="continue"
+          PageNumber="1">
           <TocEntry
             Title="Enable Visitor Management"
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_EnableVisitorMgmt.htm"
@@ -633,7 +692,8 @@
             PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
             SectionNumberReset="continue"
             VolumeNumberReset="same"
-            ChapterNumberReset="continue" />
+            ChapterNumberReset="continue"
+            PageNumber="1" />
         </TocEntry>
         <TocEntry
           Title="Configure Departments"
@@ -644,7 +704,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
         <TocEntry
           Title="Configure Statuses"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigStatuses.htm"
@@ -654,7 +715,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
         <TocEntry
           Title="Configure Notification Rules"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigNotRules.htm"
@@ -664,7 +726,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue">
+          ChapterNumberReset="continue"
+          PageNumber="1">
           <TocEntry
             Title="Types of Notification Rules"
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_TypesNotifiRules.htm"
@@ -674,7 +737,8 @@
             PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
             SectionNumberReset="continue"
             VolumeNumberReset="same"
-            ChapterNumberReset="continue" />
+            ChapterNumberReset="continue"
+            PageNumber="1" />
         </TocEntry>
         <TocEntry
           Title="Configure Group Notification Rules"
@@ -685,7 +749,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
         <TocEntry
           Title="Configure Check-in Notification Rules"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigCheckinNot.htm"
@@ -695,7 +760,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
         <TocEntry
           Title="Configure Room Card Formats"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigRoomCardFormat.htm"
@@ -705,7 +771,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
         <TocEntry
           Title="Configure Calendar Formats"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigCalFormat.htm"
@@ -715,7 +782,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
         <TocEntry
           Title="Configure Reservation Wizard Templates"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigResWiz.htm"
@@ -725,7 +793,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
       </TocEntry>
       <TocEntry
         Title="Configuration &gt; Everyday User Applications"
@@ -736,7 +805,8 @@
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
         SectionNumberReset="continue"
         VolumeNumberReset="same"
-        ChapterNumberReset="continue">
+        ChapterNumberReset="continue"
+        PageNumber="1">
         <TocEntry
           Title="Configure Everyday Users"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigEverydayUser.htm"
@@ -746,7 +816,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue">
+          ChapterNumberReset="continue"
+          PageNumber="1">
           <TocEntry
             Title="Licensing for Everyday Users"
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_LicensingEverydayUser.htm"
@@ -756,7 +827,8 @@
             PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
             SectionNumberReset="continue"
             VolumeNumberReset="same"
-            ChapterNumberReset="continue" />
+            ChapterNumberReset="continue"
+            PageNumber="1" />
           <TocEntry
             Title="Emailing an Everyday User"
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_EmailingEverydayUser.html"
@@ -766,7 +838,8 @@
             PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
             SectionNumberReset="continue"
             VolumeNumberReset="same"
-            ChapterNumberReset="continue" />
+            ChapterNumberReset="continue"
+            PageNumber="1" />
           <TocEntry
             Title="Configure Groups and Contacts from an Everyday User"
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigGroupsContactsEverydayUser.htm"
@@ -776,7 +849,8 @@
             PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
             SectionNumberReset="continue"
             VolumeNumberReset="same"
-            ChapterNumberReset="continue" />
+            ChapterNumberReset="continue"
+            PageNumber="1" />
           <TocEntry
             Title="Assign Templates to Everyday Users"
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_AssignTempEverydayUser.htm"
@@ -786,7 +860,8 @@
             PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
             SectionNumberReset="continue"
             VolumeNumberReset="same"
-            ChapterNumberReset="continue" />
+            ChapterNumberReset="continue"
+            PageNumber="1" />
         </TocEntry>
         <TocEntry
           Title="Configure Everyday User Process Templates"
@@ -797,7 +872,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue">
+          ChapterNumberReset="continue"
+          PageNumber="1">
           <TocEntry
             Title="Web Template Tab"
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_WebTemplateTab.htm"
@@ -807,7 +883,8 @@
             PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
             SectionNumberReset="continue"
             VolumeNumberReset="same"
-            ChapterNumberReset="continue" />
+            ChapterNumberReset="continue"
+            PageNumber="1" />
           <TocEntry
             Title="Booking Rules Tab"
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_BookingRulesTab.htm"
@@ -817,7 +894,8 @@
             PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
             SectionNumberReset="continue"
             VolumeNumberReset="same"
-            ChapterNumberReset="continue" />
+            ChapterNumberReset="continue"
+            PageNumber="1" />
           <TocEntry
             Title="Defaults Tab"
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_DefaultsTab.htm"
@@ -827,7 +905,8 @@
             PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
             SectionNumberReset="continue"
             VolumeNumberReset="same"
-            ChapterNumberReset="continue" />
+            ChapterNumberReset="continue"
+            PageNumber="1" />
           <TocEntry
             Title="Video Conference Tab"
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_VCtab.htm"
@@ -837,7 +916,8 @@
             PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
             SectionNumberReset="continue"
             VolumeNumberReset="same"
-            ChapterNumberReset="continue" />
+            ChapterNumberReset="continue"
+            PageNumber="1" />
           <TocEntry
             Title="Rooms Tab"
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_RoomsTab.htm"
@@ -847,7 +927,8 @@
             PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
             SectionNumberReset="continue"
             VolumeNumberReset="same"
-            ChapterNumberReset="continue" />
+            ChapterNumberReset="continue"
+            PageNumber="1" />
           <TocEntry
             Title="Categories Tab"
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_CategoryTab.htm"
@@ -857,7 +938,8 @@
             PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
             SectionNumberReset="continue"
             VolumeNumberReset="same"
-            ChapterNumberReset="continue" />
+            ChapterNumberReset="continue"
+            PageNumber="1" />
           <TocEntry
             Title="Event Types Tab"
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_EventTypeTab.htm"
@@ -867,7 +949,8 @@
             PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
             SectionNumberReset="continue"
             VolumeNumberReset="same"
-            ChapterNumberReset="continue" />
+            ChapterNumberReset="continue"
+            PageNumber="1" />
           <TocEntry
             Title="LDAP Groups Tab"
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_LDAPGroupTab.htm"
@@ -877,7 +960,8 @@
             PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
             SectionNumberReset="continue"
             VolumeNumberReset="same"
-            ChapterNumberReset="continue" />
+            ChapterNumberReset="continue"
+            PageNumber="1" />
           <TocEntry
             Title="User Defined Fields Tab"
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_UDFTab.htm"
@@ -887,7 +971,8 @@
             PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
             SectionNumberReset="continue"
             VolumeNumberReset="same"
-            ChapterNumberReset="continue" />
+            ChapterNumberReset="continue"
+            PageNumber="1" />
           <TocEntry
             Title="Parameters Tab"
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_ParametersTab.htm"
@@ -897,7 +982,8 @@
             PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
             SectionNumberReset="continue"
             VolumeNumberReset="same"
-            ChapterNumberReset="continue" />
+            ChapterNumberReset="continue"
+            PageNumber="1" />
           <TocEntry
             Title="Web Text Tab"
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_WebTextTab.htm"
@@ -907,7 +993,8 @@
             PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
             SectionNumberReset="continue"
             VolumeNumberReset="same"
-            ChapterNumberReset="continue" />
+            ChapterNumberReset="continue"
+            PageNumber="1" />
           <TocEntry
             Title="Menu Text Translations Tab"
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_MenuTextTab.htm"
@@ -917,7 +1004,8 @@
             PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
             SectionNumberReset="continue"
             VolumeNumberReset="same"
-            ChapterNumberReset="continue" />
+            ChapterNumberReset="continue"
+            PageNumber="1" />
           <TocEntry
             Title="Terms and Conditions Tab"
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_TermsConditionsTab.htm"
@@ -927,7 +1015,8 @@
             PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
             SectionNumberReset="continue"
             VolumeNumberReset="same"
-            ChapterNumberReset="continue" />
+            ChapterNumberReset="continue"
+            PageNumber="1" />
         </TocEntry>
         <TocEntry
           Title="Configure Everyday User Security Templates"
@@ -938,7 +1027,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue">
+          ChapterNumberReset="continue"
+          PageNumber="1">
           <TocEntry
             Title="Everyday User Security Template Field Definitions"
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigEUSecurityFieldDef.htm"
@@ -948,7 +1038,8 @@
             PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
             SectionNumberReset="continue"
             VolumeNumberReset="same"
-            ChapterNumberReset="continue" />
+            ChapterNumberReset="continue"
+            PageNumber="1" />
           <TocEntry
             Title="Assign Security Templates to Multiple Everyday Users"
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_AssignSecTempMultUser.htm"
@@ -958,7 +1049,8 @@
             PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
             SectionNumberReset="continue"
             VolumeNumberReset="same"
-            ChapterNumberReset="continue" />
+            ChapterNumberReset="continue"
+            PageNumber="1" />
         </TocEntry>
         <TocEntry
           Title="Configure EMS Web App Menus"
@@ -969,7 +1061,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
         <TocEntry
           Title="Configure Help Text"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigHelpText.htm"
@@ -979,7 +1072,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
         <TocEntry
           Title="Configure Web Text"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigWebText.htm"
@@ -989,7 +1083,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
         <TocEntry
           Title="Configure Language Translations"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigLangTrans.htm"
@@ -999,7 +1094,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
         <TocEntry
           Title="Configure Confirmation Behavior for Everyday User Applications"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigConfBehavior.htm"
@@ -1009,7 +1105,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
         <TocEntry
           Title="Create Templates for Desks and Workspaces"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_CreateTempDeskWork.htm"
@@ -1019,7 +1116,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
         <TocEntry
           Title="Everyday User Process Template Field Definitions"
           Link="/Content/WebApp/A_V44.1/B_ConfigurationGuide/WebApp_CG_EverydayUserProcTempFieldDef.html"
@@ -1029,7 +1127,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
         <TocEntry
           Title="How Do I Allow Invitations on a Booking Template?"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_HowDoIAllowInvite.htm"
@@ -1039,7 +1138,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
       </TocEntry>
       <TocEntry
         Title="Configuration &gt; Kiosk"
@@ -1050,7 +1150,8 @@
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
         SectionNumberReset="continue"
         VolumeNumberReset="same"
-        ChapterNumberReset="continue">
+        ChapterNumberReset="continue"
+        PageNumber="1">
         <TocEntry
           Title="Configure Kiosk Profiles"
           Link="/Content/EMSKioskApp/V44.1/B_Config/Kiosk_CG_ConfigKioskAppProfiles.htm"
@@ -1060,7 +1161,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
         <TocEntry
           Title="Configure Kiosk Menus"
           Link="/Content/EMSKioskApp/V44.1/B_Config/Kiosk_CG_ConfigKioskAppMenus.htm"
@@ -1070,7 +1172,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
       </TocEntry>
       <TocEntry
         Title="Configure Groups (Toolbar Icon)"
@@ -1081,7 +1184,8 @@
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
         SectionNumberReset="continue"
         VolumeNumberReset="same"
-        ChapterNumberReset="continue">
+        ChapterNumberReset="continue"
+        PageNumber="1">
         <TocEntry
           Title="Configure Groups"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigGroup.htm"
@@ -1091,7 +1195,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue">
+          ChapterNumberReset="continue"
+          PageNumber="1">
           <TocEntry
             Title="Configure Additional Information for a Group"
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigAddInfoGroup.html"
@@ -1101,7 +1206,8 @@
             PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
             SectionNumberReset="continue"
             VolumeNumberReset="same"
-            ChapterNumberReset="continue" />
+            ChapterNumberReset="continue"
+            PageNumber="1" />
           <TocEntry
             Title="Edit Group Information"
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_EditGroupInfo.htm"
@@ -1111,7 +1217,8 @@
             PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
             SectionNumberReset="continue"
             VolumeNumberReset="same"
-            ChapterNumberReset="continue" />
+            ChapterNumberReset="continue"
+            PageNumber="1" />
           <TocEntry
             Title="Import Groups"
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ImportGroup.htm"
@@ -1121,7 +1228,8 @@
             PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
             SectionNumberReset="continue"
             VolumeNumberReset="same"
-            ChapterNumberReset="continue" />
+            ChapterNumberReset="continue"
+            PageNumber="1" />
         </TocEntry>
         <TocEntry
           Title="Configure Contacts"
@@ -1132,7 +1240,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
       </TocEntry>
       <TocEntry
         Title="System Administration &gt; Settings"
@@ -1143,7 +1252,8 @@
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
         SectionNumberReset="continue"
         VolumeNumberReset="same"
-        ChapterNumberReset="continue">
+        ChapterNumberReset="continue"
+        PageNumber="1">
         <TocEntry
           Title="Edit System Parameters"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_EditSysParam.htm"
@@ -1153,7 +1263,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
         <TocEntry
           Title="Import Registration Information"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ImportRegInfo.htm"
@@ -1163,7 +1274,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
         <TocEntry
           Title="Configure the Confirmation Email Subject Line"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigConfEmailSubLine.htm"
@@ -1173,7 +1285,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
         <TocEntry
           Title="Reservation Wizard Required Fields"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_ReservationWizReqFields.html"
@@ -1183,7 +1296,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
         <TocEntry
           Title="Configure Email Settings"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigEmailSet.html"
@@ -1193,7 +1307,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
         <TocEntry
           Title="Set Global Email Preference to SMTP and My Personal Email Preference to Outlook"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_SetGlobalEmailPrefSMTP.htm"
@@ -1203,7 +1318,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
       </TocEntry>
       <TocEntry
         Title="System Administration &gt; Security"
@@ -1214,7 +1330,8 @@
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
         SectionNumberReset="continue"
         VolumeNumberReset="same"
-        ChapterNumberReset="continue">
+        ChapterNumberReset="continue"
+        PageNumber="1">
         <TocEntry
           Title="Overview of User Processes"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_OverviewUserProc.htm"
@@ -1224,7 +1341,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
         <TocEntry
           Title="Configure Users"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigUsers.htm"
@@ -1234,7 +1352,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
         <TocEntry
           Title="Configure User Templates"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigUserTemp.htm"
@@ -1244,7 +1363,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
         <TocEntry
           Title="Configure Academic User Templates"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigAcadUserTemp.htm"
@@ -1254,7 +1374,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
         <TocEntry
           Title="Configure User Security for Multiple User Accounts"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigUserSecMultAcct.htm"
@@ -1264,7 +1385,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
       </TocEntry>
       <TocEntry
         Title="System Administration &gt; Tools"
@@ -1275,7 +1397,8 @@
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
         SectionNumberReset="continue"
         VolumeNumberReset="same"
-        ChapterNumberReset="continue">
+        ChapterNumberReset="continue"
+        PageNumber="1">
         <TocEntry
           Title="Change Group Wizard"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ChangeGroupWiz.htm"
@@ -1285,7 +1408,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
         <TocEntry
           Title="Change Reservation Wizard"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ChangeResWiz.htm"
@@ -1295,7 +1419,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
         <TocEntry
           Title="Room Administration Wizard"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_RoomAdminWizard.htm"
@@ -1305,7 +1430,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
         <TocEntry
           Title="Manage Saved Reports"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ManageSavedReport.htm"
@@ -1315,7 +1441,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
         <TocEntry
           Title="Override Existing Bookings Utility"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_OverrideExistingBookUtil.html"
@@ -1325,7 +1452,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
         <TocEntry
           Title="Import Reservations Utility"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ImportResUtil.htm"
@@ -1335,7 +1463,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
         <TocEntry
           Title="View and Email Logged-In Users"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ViewEmailLoggedUsers.htm"
@@ -1345,7 +1474,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
         <TocEntry
           Title="Deleting Old Data"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_DeleteOldData.htm"
@@ -1355,7 +1485,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
         <TocEntry
           Title="Currency Configuration Wizard"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_CurrencyConfigWiz.htm"
@@ -1365,7 +1496,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
         <TocEntry
           Title="Booking Move/Change Status Wizard"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_BookingMoveChangeStatusWiz.htm"
@@ -1375,7 +1507,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
         <TocEntry
           Title="Video Display Interface"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_VideoDisplayInterf.htm"
@@ -1385,7 +1518,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
         <TocEntry
           Title="Migrate Data"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_MigrateData.htm"
@@ -1395,7 +1529,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
       </TocEntry>
       <TocEntry
         Title="System Parameters"
@@ -1406,7 +1541,8 @@
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
         SectionNumberReset="continue"
         VolumeNumberReset="same"
-        ChapterNumberReset="continue">
+        ChapterNumberReset="continue"
+        PageNumber="1">
         <TocEntry
           Title="EMS Desktop Client Parameters"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_DCSystemParam.htm"
@@ -1416,7 +1552,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
         <TocEntry
           Title="EMS Web App Parameters"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_WebAppParam.htm"
@@ -1426,7 +1563,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
         <TocEntry
           Title="EMS for Outlook Parameters"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_OutlookSysParam.htm"
@@ -1436,7 +1574,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
         <TocEntry
           Title="EMS Kiosk Parameters"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_KioskParam.htm"
@@ -1446,7 +1585,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
         <TocEntry
           Title="EMS Mobile App Parameters"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_MobileAppParam.htm"
@@ -1456,7 +1596,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
       </TocEntry>
       <TocEntry
         Title="Import Files to Streamline Data Entry"
@@ -1467,7 +1608,8 @@
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
         SectionNumberReset="continue"
         VolumeNumberReset="same"
-        ChapterNumberReset="continue">
+        ChapterNumberReset="continue"
+        PageNumber="1">
         <TocEntry
           Title="Special Date Import File Specification"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_SpecialDateImportFileSpec.htm"
@@ -1477,7 +1619,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
         <TocEntry
           Title="Room Import File Specification"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_RoomImportFileSpec.htm"
@@ -1487,7 +1630,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
         <TocEntry
           Title="Resource Import File Specification"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ResourceImportFileSpec.htm"
@@ -1497,7 +1641,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
         <TocEntry
           Title="Group Import File Specification"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_GroupImportFileSpec.htm"
@@ -1507,7 +1652,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
         <TocEntry
           Title="Reservation Import File Specification"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ResImportFileSpec.htm"
@@ -1517,7 +1663,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
         <TocEntry
           Title="Final Exam Schedule Import File Specification"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_FinalExamSchedImportFileSpec.htm"
@@ -1527,7 +1674,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
       </TocEntry>
       <TocEntry
         Title="Video Conferencing"
@@ -1538,7 +1686,8 @@
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
         SectionNumberReset="continue"
         VolumeNumberReset="same"
-        ChapterNumberReset="continue">
+        ChapterNumberReset="continue"
+        PageNumber="1">
         <TocEntry
           Title="Configure Video Conferencing Capabilities"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigVCCapabilities.htm"
@@ -1548,7 +1697,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
         <TocEntry
           Title="Overview of Video Conferenncing"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_OverviewVCConfig.html"
@@ -1558,7 +1708,8 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          ChapterNumberReset="continue"
+          PageNumber="1" />
       </TocEntry>
       <TocEntry
         Title="Academic Import Utility"
@@ -1569,7 +1720,8 @@
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
         SectionNumberReset="continue"
         VolumeNumberReset="same"
-        ChapterNumberReset="continue" />
+        ChapterNumberReset="continue"
+        PageNumber="1" />
       <TocEntry
         Title="Deployment of EMS Desktop Client"
         Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_Deploy_DeploymentOptions.htm"
@@ -1579,25 +1731,44 @@
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
         SectionNumberReset="continue"
         VolumeNumberReset="same"
-        ChapterNumberReset="continue">
+        ChapterNumberReset="continue"
+        PageNumber="1">
         <TocEntry
           Title="Decision Guide: Web Vs Conventional Deployment"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_Deploy_DecisionGuide.htm" />
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_Deploy_DecisionGuide.htm"
+          BreakType="chapter"
+          PageNumber="1"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
         <TocEntry
           Title="Web Deployment"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_Deploy_Web Deployment.htm" />
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_Deploy_Web Deployment.htm"
+          BreakType="chapter"
+          PageNumber="1"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
         <TocEntry
           Title="Conventional Deployment"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_Deploy_Conventional Deployment.htm" />
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_Deploy_Conventional Deployment.htm"
+          BreakType="chapter"
+          PageNumber="1"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
         <TocEntry
           Title="Easy Deployment with Conventional Deployment"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_Deploy_Easy Deployment.htm" />
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_Deploy_Easy Deployment.htm"
+          BreakType="chapter"
+          PageNumber="1"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
         <TocEntry
           Title="Enable SSL on Web Deployment"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_Deploy_Enable SSL on Web Deployment.htm" />
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_Deploy_Enable SSL on Web Deployment.htm"
+          BreakType="chapter"
+          PageNumber="1"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
         <TocEntry
           Title="Troubleshooting"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_Deploy_Troubleshooting.htm" />
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_Deploy_Troubleshooting.htm"
+          BreakType="chapter"
+          PageNumber="1"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
       </TocEntry>
     </TocEntry>
   </TocEntry>
