@@ -2606,4 +2606,38 @@ p.PDFh1
 		text-decoration: underline;
 	}
 
+	table MadCap|xref
+	{
+		color: #00467f;
+		font-size: 11px;
+		mc-format: '{para}';
+		text-decoration: underline;
+		padding-bottom: 15px;
+		line-height: 25px;
+	}
+
+	table MadCap|xref:hover
+	{
+		color: #00467f;
+		font-size: 11px;
+		text-decoration: underline;
+	}
+	
+	table ul li MadCap|xref
+	{
+		color: #00467f;
+		font-size: 11px;
+		mc-format: '{para}';
+		text-decoration: underline;
+		padding-bottom: 15px;
+		line-height: 20px;
+	}
+
+	table ul li MadCap|xref:hover
+	{
+		color: #00467f;
+		font-size: 11px;
+		text-decoration: underline;
+	}
+	
 }
