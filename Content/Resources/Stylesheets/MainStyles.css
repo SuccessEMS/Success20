@@ -2589,5 +2589,21 @@ p.PDFh1
 		font-size: 14pt;
 		
 	}
+	
+	table p a,
+	.right-content a
+	{
+		font-size: 11px;
+		line-height: 25px;
+		color: #00467f;
+		font-weight: 600;
+	}
+
+	table p a:hover,
+	.right-content a:hover
+	{
+		color: #00467f;
+		text-decoration: underline;
+	}
 
 }
