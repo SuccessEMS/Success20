@@ -2533,4 +2533,25 @@ p.PDFh1
 		max-height: auto;
 		max-width: 650px;
 	}
+	
+	MadCap|dropDownBody
+	{
+
+		border-bottom: none;
+
+	}
+
+	MadCap|dropDownHead
+	{
+
+		margin-top: 16px;
+
+	}
+
+	MadCap|dropDownHotspot
+	{
+
+		font-size: 14pt;
+		
+	}
 }
