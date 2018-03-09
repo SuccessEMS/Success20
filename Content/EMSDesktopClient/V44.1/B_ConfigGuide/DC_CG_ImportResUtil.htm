@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xml:lang="en-us" MadCap:lastBlockDepth="6" MadCap:lastHeight="12776" MadCap:lastWidth="811" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\EMSDesktopClient.flmsp');">
+<html xml:lang="en-us" MadCap:lastBlockDepth="6" MadCap:lastHeight="13302" MadCap:lastWidth="812" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\EMSDesktopClient.flmsp');">
     <head>
         <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
         <link href="../Resources/Stylesheets/DTC_V44_SysAdTools.css" rel="stylesheet" />
     </head>
     <body>
-        <h1 class="Heading1">Import Reservations Utility</h1>
+        <h1 class="Heading1" MadCap:autonum="CHAPTER&#160;1: ">Import Reservations Utility</h1>
         <p>This utility enables you to import existing reservations into your EMS database from a tab-delimited text file. (See&#160;Also: <a href="DC_CG_ResImportFileSpec.htm">Reservation Import File Specifications</a> for the import file specifications.) Importing reservations is a two-step process.</p>
         <ol start="1">
             <li>Configure&#160;the reservation import. See also:&#160;Best Practices for Importing Reservations.</li>
@@ -29,20 +29,107 @@
         </ul>
         <h2><a name="Best"></a>Best Practices for Using the Reservation Import Utility</h2>
         <p>The practices below are recommended for preparing existing reservations for import into EMS.</p>
-        <p>To view the fields you are importing in order, from EMS System Administration &gt; Tools &gt; Import Reservation Utility, you can use Print &gt; Import Format to view the fields in order. These fields are explained below.</p>
-        <ul>
-            <li>Date (This can be in MM/DD/YYYY format if you are in US. If your computer is using DD/MM/YYY format, your file should match that format.</li>
-            <li>Start time (This must be HHMM, like 0800 - Excel will try removing the leading zero, so you can format the column as Text, or as More Number Formats &gt; Custom and enter "HHMM" as the custom format).</li>
-            <li>End time (This must be HHMM, like 1700).</li>
-            <li>Building (This is EMS Building Code, not description).</li>
-            <li>Room (This is EMS Room Code).</li>
-            <li>Event Name (255 character max).</li>
-            <li>Group (e.g., Host, Customer, Employee if you have relabeled it in your organization).</li>
-            <li class="bold">1st Contact</li>
-            <li class="bold">Setup Count</li>
-            <li>Reservation Grouping (this number behaves similarly to an EMS reservation number: you should use the same number for each booking that should be grouped together. You can start with 1 and work upwards from there; all lines with a "1" will go under one reservation, so if you have a three day meeting,  "1" would appear on the first three lines, then start with #2 for the next reservation).</li>
-            <li>Billing Reference (this can be left blank if not required).</li>
-        </ul>
+        <ol>
+            <li>To view the fields you are importing in order, navigate to EMS System Administration &gt; Tools &gt; Import Reservation Utility. Use Print &gt; Import Format to view the fields in order. </li>
+        </ol>
+        <p class="title">Reservation Import Utility Fields</p>
+        <table style="width: 100%;mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');margin-left: 0;margin-right: auto;" class="TableStyle-PatternedRows" cellspacing="0">
+            <col style="width: 299px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 393px;" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">FIELD</th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">DESCRIPTION</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Date </p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>This can be in MM/DD/YYYY format if you are in the United States. If your computer is using DD/MM/YYY format, your file should match that format.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Start Time</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>This must be HHMM (e.g., 0800).  Excel will try removing the leading zero, so you can format the column as Text, or as More Number Formats &gt; Custom and enter "HHMM" as the custom format.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>End Time </p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>This must be HHMM (e.g., 1700).</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Building</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>This is EMS Building Code, not description.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Room</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>This is the EMS Room Code.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Event Name</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>255 character max.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Group</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>Host, Customer, Employee if you have relabeled it in your organization.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>1st Contact</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">&#160;</td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Setup Count</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">&#160;</td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Reservation Grouping </p>
+                        <p>&#160;</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>This number behaves similarly to an EMS reservation number: you should use the same number for each booking that should be grouped together. You can start with 1 and work upwards from there; all lines with a "1" will go under one reservation, so if you have a three day meeting,  "1" would appear on the first three lines, then start with #2 for the next reservation.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                        <p>Billing Reference</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
+                        <p>Billing reference can be left blank if not required.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
         <h3>Additional Best Practices</h3>
         <ul>
             <li>Your import file must be tab-delimited. The easiest way to generate the file is by using Excel and then copying and pasting into Notepad, and saving that file.</li>
@@ -61,13 +148,16 @@
             <li>Setup and Teardown time are not included in the import. If you need the room blocked including setup/teardown time, you can set your start time and end time to reflect the entire duration for which you wish to block the room, or you can modify the bookings post-import.</li>
         </ul>
         <h2 class="Heading2"><a name="ConfigureResImport"></a>Configure the Reservation Import&#160;</h2>
-        <p>Note:&#160;This section describes the steps for configuring a new reservation import. If you simply need to load an existing import, then after opening the Reservation Import Sessions window, skip to&#160;the following section, <MadCap:xref href="#ImportResintoSession">Import Reservations Into a Session</MadCap:xref>.</p>
+        <p class="note-box"><span class="bold">Note</span>:&#160;This section describes the steps for configuring a new reservation import. If you simply need to load an existing import, then after opening the Reservation Import Sessions window, skip to&#160;the following section, <MadCap:xref href="#ImportResintoSession">Import Reservations Into a Session</MadCap:xref>.</p>
         <ol start="1">
             <li>On the EMS menu bar, click System Administration &gt; Tools &gt;&#160;Import Reservations Utility.&#160;The Reservation Import Sessions window opens. This window lists all the reservation sessions that have been imported into your EMS database.</li>
         </ol>
-        <p>
-            <img src="../Resources/Images/DTC_V44_SysAdTools/Import Reservations Utility.png" alt="emssg_SysAdminTools_image016.png" />
-        </p>
+        <div class="TitleandImage">
+            <p class="title">Reservation Import Sessions Window</p>
+            <p>
+                <img src="../Resources/Images/DTC_V44_SysAdTools/Import Reservations Utility.png" alt="emssg_SysAdminTools_image016.png" />
+            </p>
+        </div>
         <ol start="2">
             <li>Click&#160;New.&#160;The Reservation Import Session dialog box opens.</li>
         </ol>
@@ -75,7 +165,7 @@
             <img src="../Resources/Images/DTC_V44_SysAdTools/Import Reservations Utility_1.png" alt="emssg_SysAdminTools_image017.png" />
         </p>
         <ol start="3">
-            <li>Enter the information for the new import session.&#160;See also:&#160;Best Practices for Importing Reservations</li>
+            <li>Enter the information for the new import session.&#160;See also:&#160;<a href="#Best">Best Practices for Importing Reservations</a>.</li>
         </ol>
         <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
             <thead>
@@ -170,9 +260,12 @@
             <li>On the EMS menu bar, click System Administration &gt; Tools &gt;&#160;Import Reservations Utility&#160;to open the Reservation Import Sessions window.</li>
             <li>Select the reservation session into which you are importing the reservations, and then click&#160;Load.&#160;The Import Reservations wizard opens.</li>
         </ol>
-        <p>
-            <img src="../Resources/Images/DTC_V44_SysAdTools/Import Reservations Utility_2.png" alt="emssg_SysAdminTools_image018.png" />
-        </p>
+        <div class="TitleandImage">
+            <p class="title">Import Reservations Wizard</p>
+            <p>
+                <img src="../Resources/Images/DTC_V44_SysAdTools/Import Reservations Utility_2.png" alt="emssg_SysAdminTools_image018.png" />
+            </p>
+        </div>
         <ol start="3">
             <li>Click the Search icon&#160;to browse to and select the file you are importing, and then click&#160;Next.&#160;The Import Reservations wizard displays all the reservations in the import file by the building/room combinations that have been assigned to them.&#160;</li>
         </ol>
@@ -192,9 +285,12 @@
         <ol start="6">
             <li>Click&#160;Next.&#160;The Import Reservations Wizard displays all groups that are assigned to reservations in the import file.</li>
         </ol>
-        <p>
-            <img src="../Resources/Images/DTC_V44_SysAdTools/Import Reservations Utility_5.png" alt="emssg_SysAdminTools_image021.png" />
-        </p>
+        <div class="TitleandImage">
+            <p class="title">Groups Displayed in the Import Reservations Wizard</p>
+            <p>
+                <img src="../Resources/Images/DTC_V44_SysAdTools/Import Reservations Utility_5.png" alt="emssg_SysAdminTools_image021.png" />
+            </p>
+        </div>
         <p class="note-box">Tip:&#160;If a group name in the import file is identical to a group name in the EMS database, then the record is automatically assigned; otherwise, the record remains unassigned.</p>
         <ol start="7">
             <li>To work with groups:</li>
@@ -213,13 +309,15 @@
         <ol start="1">
             <li>On the EMS menu bar, click System Administration &gt; Tools &gt;&#160;Import Reservations Utility.&#160;The Reservation Import Sessions window opens. This window lists all the reservation sessions that have been imported into your EMS database.</li>
         </ol>
-        <p>
-            <img src="../Resources/Images/DTC_V44_SysAdTools/Import Reservations Utility_6.png" alt="emssg_SysAdminTools_image022.png" />
-        </p>
+        <div class="TitleandImage">
+            <p class="title">Reservation Import Sessions Wizard</p>
+            <p>
+                <img src="../Resources/Images/DTC_V44_SysAdTools/Import Reservations Utility_6.png" alt="emssg_SysAdminTools_image022.png" />
+            </p>
+        </div>
         <ol start="2">
             <li>Select the import session that you are deleting, and then click&#160;Delete.&#160;A message opens informing you that all reservations related to the session will be deleted and asking you if it is&#160;OK&#160;to continue.</li>
             <li>Click&#160;Yes.&#160;The message closes. The import session is deleted.</li>
         </ol>
-        <p>&#160;</p>
     </body>
 </html>
