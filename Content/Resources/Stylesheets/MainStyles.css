@@ -2509,6 +2509,16 @@ p.PDFh1
 	{
 		page-break-inside: avoid;
 	}
+	
+	table p
+	{
+		font-size: 11px;
+	}
+	
+	td
+	{
+		font-size: 11px;
+	}
 
 	img
 	{
@@ -2554,4 +2564,5 @@ p.PDFh1
 		font-size: 14pt;
 		
 	}
+
 }
