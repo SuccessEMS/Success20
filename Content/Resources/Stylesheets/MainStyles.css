@@ -2512,7 +2512,25 @@ p.PDFh1
 	
 	table p
 	{
+		padding-bottom: 15px;
+		line-height: 25px;
 		font-size: 11px;
+	}
+	
+	table li
+	{
+		color: #666666;
+		font-size: 11px;
+	}
+	
+	table ul
+	{
+		list-style: url('../Images/Bullet1Table.png');
+		
+	font-size: 11px;
+	margin-left: 34px;
+	padding-bottom: 15px;
+		
 	}
 	
 	td
