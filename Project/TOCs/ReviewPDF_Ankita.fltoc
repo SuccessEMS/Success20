@@ -2,13 +2,10 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="Starting EMS"
-    Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_StartingEMS.html"
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_EMSBrowserWindow.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
     BreakType="chapter"
     StartSection="false"
     PageNumberReset="continue"
-    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"></TocEntry>
-  <TocEntry
-    Title="The EMS Main Window"
-    Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_EMSMainWindow.html" />
+    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
 </CatapultToc>
