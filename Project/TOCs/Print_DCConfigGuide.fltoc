@@ -1545,7 +1545,7 @@
         PageNumber="1">
         <TocEntry
           Title="EMS Desktop Client Parameters"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_DCSystemParam.htm"
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_EMSSystemParam.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
