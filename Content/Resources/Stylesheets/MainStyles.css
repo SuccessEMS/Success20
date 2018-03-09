@@ -2516,23 +2516,30 @@ p.PDFh1
 		line-height: 25px;
 		font-size: 11px;
 	}
-	
-	table li
+
+	table p.beforelist
 	{
-		color: #666666;
-		font-size: 11px;
+		margin-bottom: 15px;
 	}
 	
 	table ul
 	{
-		list-style: url('../Images/Bullet1Table.png');
-		
-	font-size: 11px;
-	margin-left: 34px;
-	padding-bottom: 15px;
-		
+		list-style:url('../Images/Bullet1Table.png');		
+		line-height: 20px;
+		margin-top: 0px;
+		margin-left: 34px;
+		padding-top: 0px;
+		padding-bottom: 20px;
 	}
-	
+		
+	table li
+	{
+		margin-top: 10px;
+		line-height: 17px;
+		color: #666666;
+		font-size: 11px;
+	}
+
 	td
 	{
 		font-size: 11px;

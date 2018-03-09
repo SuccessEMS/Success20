@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <html xml:lang="en-us" MadCap:lastBlockDepth="7" MadCap:lastHeight="3011" MadCap:lastWidth="929" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
         <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
@@ -85,7 +85,7 @@
                         <p class="RNTitle">Automatic No-Show Incorrectly Triggered for Some Bookings</p>
                         <p class="RNBody">When users booked events in Glance that had no-show notifications turned on, due to a lag in saving to the database and updating Glance, some events triggered an automatic no-show status.</p>
                         <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified the API so that these events update the database more efficiently and the events no longer trigger an inappropriate no-show status.</p>
-                        <p class="RNRef">Internal Reference # <a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=23640" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="rnrefhyper">23640</a><br />(For EMS&#160;Internal Use &#160;Only)</p>
+                        <p class="RNRef">Internal Reference # <a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=23640" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">23640</a><br />(For EMS&#160;Internal Use &#160;Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
@@ -93,7 +93,7 @@
                         <p class="RNTitle">"Allow Future Same Day Bookings" Parameter Not Observed</p>
                         <p class="RNBody">When this parameter was set to&#160;No, users were still able to book future same-day bookings by double-clicking on the&#160;desired time slots on the calendar grid.</p>
                         <p class="RNBody"><span class="bold">Fix:</span>&#160;&#160;Modified the display so that this parameter is enforced when it is set to No,&#160;clicking on the grid does not allow users to book future events.</p>
-                        <p class="RNRef">Internal Reference # <a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=24505" class="rnrefhyper" title="For EMS Internal Use Only" alt="For EMS Internal Use Only">24505</a><br />(For EMS&#160;Internal Use &#160;Only)</p>
+                        <p class="RNRef">Internal Reference # <a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=24505" class="RNRefHyper" title="For EMS Internal Use Only" alt="For EMS Internal Use Only">24505</a><br />(For EMS&#160;Internal Use &#160;Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
@@ -104,7 +104,7 @@
                         <p class="RNTitle">Web Traffic Security Vulnerabilities</p>
                         <p class="RNBody">The web application sent non-secure user and session information (cookies) during encrypted (SSL) sessions, exposing vulnerable information.</p>
                         <p class="RNBody"><span class="bold">Fix:&#160;</span>Added ANtiForgery validation to all Ajax HttpPost calls and added verb tampering redirection to prevent non-HTTP&#160;or Get calls being made to Glance so web traffic no longer exposes user and session information.</p>
-                        <p class="RNRef">Internal Reference # <a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=23980" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="rnrefhyper">23980</a><br />(For EMS&#160;Internal Use &#160;Only)</p>
+                        <p class="RNRef">Internal Reference # <a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=23980" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">23980</a><br />(For EMS&#160;Internal Use &#160;Only)</p>
                     </td>
                 </tr>
             </tbody>
