@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html MadCap:lastBlockDepth="6" MadCap:lastHeight="307998" MadCap:lastWidth="1040" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+<html MadCap:lastBlockDepth="6" MadCap:lastHeight="301368" MadCap:lastWidth="1738" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
         <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
     </head>
@@ -623,9 +623,9 @@
 		(svc.GetAllBookings(“UserID”, “Password”, 
 		Date.Today, Date.Today, 1, False))</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim dst As New DataSet("Data")</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; dst.ReadXml(objReader)</pre><pre>End Sub</pre>
         <h3>Example Response</h3><pre>&lt;Bookings&gt;</pre><pre>&lt;Data&gt;</pre><pre xml:space="preserve">	&lt;BookingDate&gt;2009-10-04T00:00:00&lt;/BookingDate&gt;</pre><pre xml:space="preserve">	&lt;StartBookingDate&gt;2009-10-04T00:00:00&lt;/StartBookingDate&gt;</pre><pre xml:space="preserve">	&lt;RoomDescription&gt;DEN Room 101&lt;/RoomDescription&gt;</pre><pre xml:space="preserve">	&lt;TimeEventStart&gt;2009-10-04T16:00:00&lt;/TimeEventStart&gt;</pre><pre xml:space="preserve">	&lt;TimeEventEnd&gt;2009-10-04T17:00:00&lt;/TimeEventEnd&gt;</pre><pre xml:space="preserve">	&lt;GroupName&gt;ABC Company &lt;/GroupName&gt;</pre><pre xml:space="preserve">	&lt;EventName&gt;Spring Conference&lt;/EventName&gt;</pre><pre xml:space="preserve">	&lt;SetupTypeDescription&gt;U - Shape&lt;/SetupTypeDescription&gt;</pre><pre xml:space="preserve">	&lt;SetupCount&gt;50&lt;/SetupCount&gt;</pre><pre xml:space="preserve">	&lt;ReservationID&gt;6650&lt;/ReservationID&gt;</pre><pre xml:space="preserve">	&lt;EventCoordinator /&gt;</pre><pre xml:space="preserve">	&lt;GroupID&gt;499&lt;/GroupID&gt;</pre><pre xml:space="preserve">	&lt;VIP xml:space="preserve"&gt;</pre><pre xml:space="preserve">	&lt;/VIP&gt;</pre><pre xml:space="preserve">	&lt;VIPEvent&gt;false&lt;/VIPEvent&gt;</pre><pre xml:space="preserve">	&lt;ClosedAllDay&gt;false&lt;/ClosedAllDay&gt;</pre><pre xml:space="preserve">	&lt;OpenTime&gt;1900-01-01T00:00:00&lt;/OpenTime&gt;</pre><pre xml:space="preserve">	&lt;CloseTime&gt;1900-01-01T00:00:00&lt;/CloseTime&gt;</pre><pre xml:space="preserve">	&lt;GroupTypeDescription&gt;Corporate&lt;/GroupTypeDescription&gt;</pre><pre xml:space="preserve">	&lt;EventTypeDescription&gt;Conference&lt;/EventTypeDescription&gt;</pre><pre xml:space="preserve">	&lt;Contact&gt;Jim Smith&lt;/Contact&gt;</pre><pre xml:space="preserve">	&lt;AltContact /&gt;</pre><pre xml:space="preserve">	&lt;BookingID&gt;222008&lt;/BookingID&gt;</pre><pre xml:space="preserve">	&lt;TimeBookingStart&gt;2009-10-04T16:00:00&lt;/TimeBookingStart&gt;</pre><pre xml:space="preserve">	&lt;TimeBookingEnd&gt;2009-10-04T17:00:00&lt;/TimeBookingEnd&gt;</pre><pre xml:space="preserve">	&lt;GMTStartTime&gt;2009-10-04T22:00:00&lt;/GMTStartTime&gt;</pre><pre xml:space="preserve">	&lt;GMTEndTime&gt;2009-10-04T23:00:00&lt;/GMTEndTime&gt;</pre><pre xml:space="preserve">	&lt;TimeZone&gt;MT&lt;/TimeZone&gt;</pre><pre xml:space="preserve">	&lt;BuildingCode&gt;DEN&lt;/BuildingCode&gt;</pre><pre xml:space="preserve">	&lt;Building&gt;Denver&lt;/Building&gt;</pre><pre xml:space="preserve">	&lt;RoomCode&gt;RM101&lt;/RoomCode&gt;</pre><pre xml:space="preserve">	&lt;Room&gt;Room 101&lt;/RoomCode&gt;</pre><pre xml:space="preserve">	&lt;RoomID&gt;3271&lt;/RoomID&gt;</pre><pre xml:space="preserve">	&lt;BuildingID&gt;1&lt;/BuildingID&gt;</pre><pre xml:space="preserve">	&lt;RoomTypeID&gt;1&lt;/RoomTypeID&gt;</pre><pre xml:space="preserve">	&lt;RoomType&gt;Classroom&lt;/RoomType&gt;</pre><pre xml:space="preserve">	&lt;HVACZone/&gt;</pre><pre xml:space="preserve">	&lt;StatusID&gt;1&lt;/StatusID&gt;</pre><pre xml:space="preserve">	&lt;StatusTypeID&gt;-14&lt;/StatusTypeID&gt;</pre><pre xml:space="preserve">	&lt;EventTypeID&gt;4&lt;/EventTypeID&gt;</pre><pre xml:space="preserve">	&lt;GroupTypeID&gt;3&lt;/GroupTypeID&gt;<br />	&lt;DateAdded&gt;2009-10-04T16:00:00&lt;/DateAdded&gt;</pre><pre xml:space="preserve">	&lt;AddedBy&gt;User 1&lt;/AddedBy&gt;</pre><pre xml:space="preserve">	&lt;DateChanged&gt;2009-10-04T16:00:00&lt;/DateChanged&gt;</pre><pre xml:space="preserve">	&lt;ChangedBy&gt;User 1&lt;/ChangedBy&gt;</pre><pre xml:space="preserve">	&lt;ContactEmailAddress&gt;jsmith@test.com&lt;/ContactEmailAddress&gt;</pre><pre xml:space="preserve">	&lt;CheckedIn&gt;false&lt;/CheckedIn&gt;</pre><pre>&lt;/Data&gt;</pre><pre>&lt;/Bookings&gt;</pre>
-        <h2>GetAllBookings2</h2>
+        <h2><a name="GetAllBookings2"></a>GetAllBookings2</h2>
         <h3>Description</h3>
-        <p>Returns a list of bookings for a specific building for a specific UDF value&#160;(Reservation or Booking level UDF only)</p>
+        <p>Returns a list of bookings for a specific building for a specific UDF value&#160;(Reservation or Booking level UDF only).</p>
         <h3>Request Parameters</h3>
         <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
             <col />
@@ -1259,70 +1259,18 @@
                 </tr>
             </tbody>
         </table>
-        <h3>Sample Code</h3>
-        <p>Private Sub GetBookings2()</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim svc As New EMSAPI.ServiceSoapClient</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim objReader As New StringReader(svc.GetAllBookings2(“UserID”, “Password”, Date.Today, Date.Today, 1, False, 1, “udf text”))</p>
-        <p>&#160;</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim dst As New DataSet("Data")</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; dst.ReadXml(objReader)</p>
-        <p>End Sub</p>
-        <h3>Example Response</h3>
-        <p>&lt;Bookings&gt;</p>
-        <p>&lt;Data&gt;</p>
-        <p>&lt;BookingDate&gt;2009-10-04T00:00:00&lt;/BookingDate&gt;</p>
-        <p>&lt;StartBookingDate&gt;2009-10-04T00:00:00&lt;/StartBookingDate&gt;</p>
-        <p>&lt;RoomDescription&gt;DEN Room 101&lt;/RoomDescription&gt;</p>
-        <p>&lt;TimeEventStart&gt;2009-10-04T16:00:00&lt;/TimeEventStart&gt;</p>
-        <p>&lt;TimeEventEnd&gt;2009-10-04T17:00:00&lt;/TimeEventEnd&gt;</p>
-        <p>&lt;GroupName&gt;ABC Company &lt;/GroupName&gt;</p>
-        <p>&lt;EventName&gt;Spring Conference&lt;/EventName&gt;</p>
-        <p>&lt;SetupTypeDescription&gt;U - Shape&lt;/SetupTypeDescription&gt;</p>
-        <p>&lt;SetupCount&gt;50&lt;/SetupCount&gt;</p>
-        <p>&lt;ReservationID&gt;6650&lt;/ReservationID&gt;</p>
-        <p>&lt;EventCoordinator /&gt;</p>
-        <p>&lt;GroupID&gt;499&lt;/GroupID&gt;</p>
-        <p>&lt;VIP xml:space="preserve"&gt;</p>
-        <p>&lt;/VIP&gt;</p>
-        <p>&lt;VIPEvent&gt;false&lt;/VIPEvent&gt;</p>
-        <p>&lt;ClosedAllDay&gt;false&lt;/ClosedAllDay&gt;</p>
-        <p>&lt;OpenTime&gt;1900-01-01T00:00:00&lt;/OpenTime&gt;</p>
-        <p>&lt;CloseTime&gt;1900-01-01T00:00:00&lt;/CloseTime&gt;</p>
-        <p>&lt;GroupTypeDescription&gt;Corporate&lt;/GroupTypeDescription&gt;</p>
-        <p>&lt;EventTypeDescription&gt;Conference&lt;/EventTypeDescription&gt;</p>
-        <p>&lt;Contact&gt;Jim Smith&lt;/Contact&gt;</p>
-        <p>&lt;AltContact /&gt;</p>
-        <p>&lt;BookingID&gt;222008&lt;/BookingID&gt;</p>
-        <p>&lt;TimeBookingStart&gt;2009-10-04T16:00:00&lt;/TimeBookingStart&gt;</p>
-        <p>&lt;TimeBookingEnd&gt;2009-10-04T17:00:00&lt;/TimeBookingEnd&gt;</p>
-        <p>&lt;GMTStartTime&gt;2009-10-04T22:00:00&lt;/GMTStartTime&gt;</p>
-        <p>&lt;GMTEndTime&gt;2009-10-04T23:00:00&lt;/GMTEndTime&gt;</p>
-        <p>&lt;TimeZone&gt;MT&lt;/TimeZone&gt;</p>
-        <p>&lt;BuildingCode&gt;DEN&lt;/BuildingCode&gt;</p>
-        <p>&lt;Building&gt;Denver&lt;/Building&gt;</p>
-        <p>&lt;RoomCode&gt;RM101&lt;/RoomCode&gt;</p>
-        <p>&lt;Room&gt;Room 101&lt;/RoomCode&gt;</p>
-        <p>&lt;RoomID&gt;3271&lt;/RoomID&gt;</p>
-        <p>&lt;BuildingID&gt;1&lt;/BuildingID&gt;</p>
-        <p>&lt;RoomTypeID&gt;1&lt;/RoomTypeID&gt;</p>
-        <p>&lt;RoomType&gt;Classroom&lt;/RoomType&gt;</p>
-        <p>&lt;HVACZone/&gt;</p>
-        <p>&lt;StatusID&gt;1&lt;/StatusID&gt;</p>
-        <p>&lt;StatusTypeID&gt;-14&lt;/StatusTypeID&gt;</p>
-        <p>&lt;EventTypeID&gt;4&lt;/EventTypeID&gt;</p>
-        <p>&lt;GroupTypeID&gt;3&lt;/GroupTypeID&gt;<br />&lt;DateAdded&gt;2009-10-04T16:00:00&lt;/DateAdded&gt;</p>
-        <p>&lt;AddedBy&gt;User 1&lt;/AddedBy&gt;</p>
-        <p>&lt;DateChanged&gt;2009-10-04T16:00:00&lt;/DateChanged&gt;</p>
-        <p>&lt;ChangedBy&gt;User 1&lt;/ChangedBy&gt;</p>
-        <p>&lt;ContactEmailAddress&gt;jsmith@test.com&lt;/ContactEmailAddress&gt;</p>
-        <p>&lt;CheckedIn&gt;false&lt;/CheckedIn&gt;</p>
-        <p>&lt;/Data&gt;</p>
-        <p>&lt;/Bookings&gt;</p>
-        <h2>GetAllComboRoomComponents</h2>
+        <h3>Sample Code</h3><pre>Private Sub GetBookings2()</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim svc As New EMSAPI.ServiceSoapClient</pre><pre xml:space="preserve">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim objReader As New StringReader
+		(svc.GetAllBookings2(“UserID”, “Password”, 
+		Date.Today, Date.Today, 1, False, 1, “udf text”))</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim dst As New DataSet("Data")</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; dst.ReadXml(objReader)</pre><pre>End Sub</pre>
+        <h3>Example Response</h3><pre>&lt;Bookings&gt;</pre><pre>&lt;Data&gt;</pre><pre xml:space="preserve">	&lt;BookingDate&gt;2009-10-04T00:00:00&lt;/BookingDate&gt;</pre><pre xml:space="preserve">	&lt;StartBookingDate&gt;2009-10-04T00:00:00&lt;/StartBookingDate&gt;</pre><pre xml:space="preserve">	&lt;RoomDescription&gt;DEN Room 101&lt;/RoomDescription&gt;</pre><pre xml:space="preserve">	&lt;TimeEventStart&gt;2009-10-04T16:00:00&lt;/TimeEventStart&gt;</pre><pre xml:space="preserve">	&lt;TimeEventEnd&gt;2009-10-04T17:00:00&lt;/TimeEventEnd&gt;</pre><pre xml:space="preserve">	&lt;GroupName&gt;ABC Company &lt;/GroupName&gt;</pre><pre xml:space="preserve">	&lt;EventName&gt;Spring Conference&lt;/EventName&gt;</pre><pre xml:space="preserve">	&lt;SetupTypeDescription&gt;U - Shape&lt;/SetupTypeDescription&gt;</pre><pre xml:space="preserve">	&lt;SetupCount&gt;50&lt;/SetupCount&gt;</pre><pre xml:space="preserve">	&lt;ReservationID&gt;6650&lt;/ReservationID&gt;</pre><pre xml:space="preserve">	&lt;EventCoordinator /&gt;</pre><pre xml:space="preserve">	&lt;GroupID&gt;499&lt;/GroupID&gt;</pre><pre xml:space="preserve">	&lt;VIP xml:space="preserve"&gt;</pre><pre xml:space="preserve">	&lt;/VIP&gt;</pre><pre xml:space="preserve">	&lt;VIPEvent&gt;false&lt;/VIPEvent&gt;</pre><pre xml:space="preserve">	&lt;ClosedAllDay&gt;false&lt;/ClosedAllDay&gt;</pre><pre xml:space="preserve">	&lt;OpenTime&gt;1900-01-01T00:00:00&lt;/OpenTime&gt;</pre><pre xml:space="preserve">	&lt;CloseTime&gt;1900-01-01T00:00:00&lt;/CloseTime&gt;</pre><pre xml:space="preserve">	&lt;GroupTypeDescription&gt;Corporate&lt;/GroupTypeDescription&gt;</pre><pre xml:space="preserve">	&lt;EventTypeDescription&gt;Conference&lt;/EventTypeDescription&gt;</pre><pre xml:space="preserve">	&lt;Contact&gt;Jim Smith&lt;/Contact&gt;</pre><pre xml:space="preserve">	&lt;AltContact /&gt;</pre><pre xml:space="preserve">	&lt;BookingID&gt;222008&lt;/BookingID&gt;</pre><pre xml:space="preserve">	&lt;TimeBookingStart&gt;2009-10-04T16:00:00&lt;/TimeBookingStart&gt;</pre><pre xml:space="preserve">	&lt;TimeBookingEnd&gt;2009-10-04T17:00:00&lt;/TimeBookingEnd&gt;</pre><pre xml:space="preserve">	&lt;GMTStartTime&gt;2009-10-04T22:00:00&lt;/GMTStartTime&gt;</pre><pre xml:space="preserve">	&lt;GMTEndTime&gt;2009-10-04T23:00:00&lt;/GMTEndTime&gt;</pre><pre xml:space="preserve">	&lt;TimeZone&gt;MT&lt;/TimeZone&gt;</pre><pre xml:space="preserve">	&lt;BuildingCode&gt;DEN&lt;/BuildingCode&gt;</pre><pre xml:space="preserve">	&lt;Building&gt;Denver&lt;/Building&gt;</pre><pre xml:space="preserve">	&lt;RoomCode&gt;RM101&lt;/RoomCode&gt;</pre><pre xml:space="preserve">	&lt;Room&gt;Room 101&lt;/RoomCode&gt;</pre><pre xml:space="preserve">	&lt;RoomID&gt;3271&lt;/RoomID&gt;</pre><pre xml:space="preserve">	&lt;BuildingID&gt;1&lt;/BuildingID&gt;</pre><pre xml:space="preserve">	&lt;RoomTypeID&gt;1&lt;/RoomTypeID&gt;</pre><pre xml:space="preserve">	&lt;RoomType&gt;Classroom&lt;/RoomType&gt;</pre><pre xml:space="preserve">	&lt;HVACZone/&gt;</pre><pre xml:space="preserve">	&lt;StatusID&gt;1&lt;/StatusID&gt;</pre><pre xml:space="preserve">	&lt;StatusTypeID&gt;-14&lt;/StatusTypeID&gt;</pre><pre xml:space="preserve">	&lt;EventTypeID&gt;4&lt;/EventTypeID&gt;</pre><pre xml:space="preserve">	&lt;GroupTypeID&gt;3&lt;/GroupTypeID&gt;<br />	&lt;DateAdded&gt;2009-10-04T16:00:00&lt;/DateAdded&gt;</pre><pre xml:space="preserve">	&lt;AddedBy&gt;User 1&lt;/AddedBy&gt;</pre><pre xml:space="preserve">	&lt;DateChanged&gt;2009-10-04T16:00:00&lt;/DateChanged&gt;</pre><pre xml:space="preserve">	&lt;ChangedBy&gt;User 1&lt;/ChangedBy&gt;</pre><pre xml:space="preserve">	&lt;ContactEmailAddress&gt;jsmith@test.com&lt;/ContactEmailAddress&gt;</pre><pre xml:space="preserve">	&lt;CheckedIn&gt;false&lt;/CheckedIn&gt;</pre><pre>&lt;/Data&gt;</pre><pre>&lt;/Bookings&gt;</pre>
+        <h2><a name="GetAllComboRoomComponents"></a>GetAllComboRoomComponents</h2>
         <h3>Description</h3>
-        <p>Returns component room details for all combo rooms</p>
+        <p>Returns component room details for all combo rooms.</p>
         <h3>Request Parameters</h3>
         <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
+            <col style="width: 189px;" />
+            <col style="width: 256px;" />
+            <col style="width: 251px;" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
@@ -1363,6 +1311,9 @@
         </table>
         <h3>Response Elements</h3>
         <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
+            <col style="width: 248px;" />
+            <col style="width: 282px;" />
+            <col style="width: 167px;" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
@@ -1467,41 +1418,16 @@
                 </tr>
             </tbody>
         </table>
-        <h3>Sample Code</h3>
-        <p>Private Sub GetAllComboRoomComponents()</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim svc As New EMSAPI.ServiceSoapClient</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim objReader As New System.IO.StringReader(svc.GetAllComboRoomComponents(“UserID”, “Password”))</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim dst As New DataSet("Data")</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; dst.ReadXml(objReader)</p>
-        <p>End Sub</p>
-        <h3>Example Response</h3>
-        <p>&lt;RoomComponents&gt;</p>
-        <p>&lt;Data&gt;</p>
-        <p>&lt;ParentRoom&gt;RM 101&lt;/Room&gt;</p>
-        <p>&lt;ParentDescription&gt;Room 101&lt;/Description&gt;</p>
-        <p>&lt;ParentBuilding&gt;Denver&lt;/Building&gt;</p>
-        <p>&lt;ParentID&gt;3271&lt;/ParentID&gt;</p>
-        <p>&lt;ComponentRoom&gt;Room 102 &lt;/ComponentRoom&gt;</p>
-        <p>&lt;ComponentDescription&gt;Room 102&lt;/Description&gt;</p>
-        <p>&lt;ComponentBuilding&gt;Denver&lt;/Building&gt;</p>
-        <p>&lt;ComponentID&gt;3272&lt;/ComponentID&gt;</p>
-        <p>&lt;ParentRoom&gt;RM 101&lt;/Room&gt;</p>
-        <p>&lt;ParentDescription&gt;Room 101&lt;/Description&gt;</p>
-        <p>&lt;ParentBuilding&gt;Denver&lt;/Building&gt;</p>
-        <p>&lt;ParentID&gt;3273&lt;/ParentID&gt;</p>
-        <p>&lt;ComponentRoom&gt;Room 103 &lt;/ComponentRoom&gt;</p>
-        <p>&lt;ComponentDescription&gt;Room 103&lt;/Description&gt;</p>
-        <p>&lt;ComponentBuilding&gt;Denver&lt;/Building&gt;</p>
-        <p>&lt;ComponentID&gt;3273&lt;/ComponentID&gt;</p>
-        <p>&lt;/Data&gt;</p>
-        <p>&lt;/ RoomComponents &gt;</p>
+        <h3>Sample Code</h3><pre>Private Sub GetAllComboRoomComponents()</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim svc As New EMSAPI.ServiceSoapClient</pre><pre xml:space="preserve">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim objReader As New System.IO.StringReader
+		(svc.GetAllComboRoomComponents(“UserID”, “Password”))</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim dst As New DataSet("Data")</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; dst.ReadXml(objReader)</pre><pre>End Sub</pre>
+        <h3>Example Response</h3><pre>&lt;RoomComponents&gt;</pre><pre>&lt;Data&gt;</pre><pre xml:space="preserve">	&lt;ParentRoom&gt;RM 101&lt;/Room&gt;</pre><pre xml:space="preserve">	&lt;ParentDescription&gt;Room 101&lt;/Description&gt;</pre><pre xml:space="preserve">	&lt;ParentBuilding&gt;Denver&lt;/Building&gt;</pre><pre xml:space="preserve">	&lt;ParentID&gt;3271&lt;/ParentID&gt;</pre><pre xml:space="preserve">	&lt;ComponentRoom&gt;Room 102 &lt;/ComponentRoom&gt;</pre><pre xml:space="preserve">	&lt;ComponentDescription&gt;Room 102&lt;/Description&gt;</pre><pre xml:space="preserve">	&lt;ComponentBuilding&gt;Denver&lt;/Building&gt;</pre><pre xml:space="preserve">	&lt;ComponentID&gt;3272&lt;/ComponentID&gt;</pre><pre xml:space="preserve">	&lt;ParentRoom&gt;RM 101&lt;/Room&gt;</pre><pre xml:space="preserve">	&lt;ParentDescription&gt;Room 101&lt;/Description&gt;</pre><pre xml:space="preserve">	&lt;ParentBuilding&gt;Denver&lt;/Building&gt;</pre><pre xml:space="preserve">	&lt;ParentID&gt;3273&lt;/ParentID&gt;</pre><pre xml:space="preserve">	&lt;ComponentRoom&gt;Room 103 &lt;/ComponentRoom&gt;</pre><pre xml:space="preserve">	&lt;ComponentDescription&gt;Room 103&lt;/Description&gt;</pre><pre xml:space="preserve">	&lt;ComponentBuilding&gt;Denver&lt;/Building&gt;</pre><pre xml:space="preserve">	&lt;ComponentID&gt;3273&lt;/ComponentID&gt;</pre><pre xml:space="preserve">	&lt;/Data&gt;</pre><pre>&lt;/ RoomComponents &gt;</pre>
         <h2>GetAllRoomBookings</h2>
-        <p>Description</p>
-        <p>Returns a list of bookings for a specific room</p>
+        <h3>Description</h3>
+        <p>Returns a list of bookings for a specific room.</p>
         <h3>Request Parameters&#160;</h3>
         <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
             <col class="TableStyle-PatternedRows-Column-Regular" />
-            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 397px;" />
             <col class="TableStyle-PatternedRows-Column-Regular" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
@@ -2109,69 +2035,18 @@
                 </tr>
             </tbody>
         </table>
-        <h3>Sample Code</h3>
-        <p>Private Sub GetBookings()</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim svc As New EMSAPI.ServiceSoapClient</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim objReader As New StringReader(svc.GetAllRoomBookings(“UserID”, “Password”, Date.Today, Date.Today, 3271, False))</p>
-        <p>&#160;</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim dst As New DataSet("Data")</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; dst.ReadXml(objReader)</p>
-        <p>End Sub</p>
-        <h3>Example Response</h3>
-        <p>&lt;Bookings&gt;</p>
-        <p>&lt;Data&gt;</p>
-        <p>&lt;BookingDate&gt;2009-10-04T00:00:00&lt;/BookingDate&gt;</p>
-        <p>&lt;StartBookingDate&gt;2009-10-04T00:00:00&lt;/StartBookingDate&gt;</p>
-        <p>&lt;RoomDescription&gt;DEN Room 101&lt;/RoomDescription&gt;</p>
-        <p>&lt;TimeEventStart&gt;2009-10-04T16:00:00&lt;/TimeEventStart&gt;</p>
-        <p>&lt;TimeEventEnd&gt;2009-10-04T17:00:00&lt;/TimeEventEnd&gt;</p>
-        <p>&lt;GroupName&gt;ABC Company &lt;/GroupName&gt;</p>
-        <p>&lt;EventName&gt;Spring Conference&lt;/EventName&gt;</p>
-        <p>&lt;SetupTypeDescription&gt;U - Shape&lt;/SetupTypeDescription&gt;</p>
-        <p>&lt;SetupCount&gt;50&lt;/SetupCount&gt;</p>
-        <p>&lt;ReservationID&gt;6650&lt;/ReservationID&gt;</p>
-        <p>&lt;EventCoordinator /&gt;</p>
-        <p>&lt;GroupID&gt;499&lt;/GroupID&gt;</p>
-        <p>&lt;VIP xml:space="preserve"&gt;</p>
-        <p>&lt;/VIP&gt;</p>
-        <p>&lt;VIPEvent&gt;false&lt;/VIPEvent&gt;</p>
-        <p>&lt;ClosedAllDay&gt;false&lt;/ClosedAllDay&gt;</p>
-        <p>&lt;OpenTime&gt;1900-01-01T00:00:00&lt;/OpenTime&gt;</p>
-        <p>&lt;CloseTime&gt;1900-01-01T00:00:00&lt;/CloseTime&gt;</p>
-        <p>&lt;GroupTypeDescription&gt;Corporate&lt;/GroupTypeDescription&gt;</p>
-        <p>&lt;EventTypeDescription&gt;Conference&lt;/EventTypeDescription&gt;</p>
-        <p>&lt;Contact&gt;Jim Smith&lt;/Contact&gt;</p>
-        <p>&lt;AltContact /&gt;</p>
-        <p>&lt;BookingID&gt;222008&lt;/BookingID&gt;</p>
-        <p>&lt;TimeBookingStart&gt;2009-10-04T16:00:00&lt;/TimeBookingStart&gt;</p>
-        <p>&lt;TimeBookingEnd&gt;2009-10-04T17:00:00&lt;/TimeBookingEnd&gt;</p>
-        <p>&lt;GMTStartTime&gt;2009-10-04T22:00:00&lt;/GMTStartTime&gt;</p>
-        <p>&lt;GMTEndTime&gt;2009-10-04T23:00:00&lt;/GMTEndTime&gt;</p>
-        <p>&lt;TimeZone&gt;MT&lt;/TimeZone&gt;</p>
-        <p>&lt;BuildingCode&gt;DEN&lt;/BuildingCode&gt;</p>
-        <p>&lt;Building&gt;Denver&lt;/Building&gt;</p>
-        <p>&lt;RoomCode&gt;RM101&lt;/RoomCode&gt;</p>
-        <p>&lt;Room&gt;Room 101&lt;/RoomCode&gt;</p>
-        <p>&lt;RoomID&gt;3271&lt;/RoomID&gt;</p>
-        <p>&lt;BuildingID&gt;1&lt;/BuildingID&gt;</p>
-        <p>&lt;StatusID&gt;1&lt;/StatusID&gt;</p>
-        <p>&lt;StatusTypeID&gt;-14&lt;/StatusTypeID&gt;</p>
-        <p>&lt;EventTypeID&gt;4&lt;/EventTypeID&gt;</p>
-        <p>&lt;GroupTypeID&gt;3&lt;/GroupTypeID&gt;</p>
-        <p>&lt;RoomTypeID&gt;1&lt;/RoomTypeID&gt;</p>
-        <p>&lt;RoomType&gt;Classroom&lt;/RoomType&gt;</p>
-        <p>&lt;DateAdded&gt;2009-10-04T16:00:00&lt;/DateAdded&gt;</p>
-        <p>&lt;AddedBy&gt;User 1&lt;/AddedBy&gt;</p>
-        <p>&lt;DateChanged&gt;2009-10-04T16:00:00&lt;/DateChanged&gt;</p>
-        <p>&lt;ChangedBy&gt;User 1&lt;/ChangedBy&gt;<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;ContactEmailAddress&gt;jsmith@test.com&lt;/ContactEmailAddress&gt;</p>
-        <p>&lt;CheckedIn&gt;false&lt;/CheckedIn&gt;</p>
-        <p>&lt;/Data&gt;</p>
-        <p>&lt;/Bookings&gt;</p>
-        <h2>GetAllRooms</h2>
+        <h3>Sample Code</h3><pre>Private Sub GetBookings()</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim svc As New EMSAPI.ServiceSoapClient</pre><pre xml:space="preserve">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim objReader As New StringReader
+		(svc.GetAllRoomBookings(“UserID”, “Password”, 
+		Date.Today, Date.Today, 3271, False))</pre><pre>&#160;</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim dst As New DataSet("Data")</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; dst.ReadXml(objReader)</pre><pre>End Sub</pre>
+        <h3>Example Response</h3><pre>&lt;Bookings&gt;</pre><pre>&lt;Data&gt;</pre><pre xml:space="preserve">	&lt;BookingDate&gt;2009-10-04T00:00:00&lt;/BookingDate&gt;</pre><pre xml:space="preserve">	&lt;StartBookingDate&gt;2009-10-04T00:00:00&lt;/StartBookingDate&gt;</pre><pre xml:space="preserve">	&lt;RoomDescription&gt;DEN Room 101&lt;/RoomDescription&gt;</pre><pre xml:space="preserve">	&lt;TimeEventStart&gt;2009-10-04T16:00:00&lt;/TimeEventStart&gt;</pre><pre xml:space="preserve">	&lt;TimeEventEnd&gt;2009-10-04T17:00:00&lt;/TimeEventEnd&gt;</pre><pre xml:space="preserve">	&lt;GroupName&gt;ABC Company &lt;/GroupName&gt;</pre><pre xml:space="preserve">	&lt;EventName&gt;Spring Conference&lt;/EventName&gt;</pre><pre xml:space="preserve">	&lt;SetupTypeDescription&gt;U - Shape&lt;/SetupTypeDescription&gt;</pre><pre xml:space="preserve">	&lt;SetupCount&gt;50&lt;/SetupCount&gt;</pre><pre xml:space="preserve">	&lt;ReservationID&gt;6650&lt;/ReservationID&gt;</pre><pre xml:space="preserve">	&lt;EventCoordinator /&gt;</pre><pre xml:space="preserve">	&lt;GroupID&gt;499&lt;/GroupID&gt;</pre><pre xml:space="preserve">	&lt;VIP xml:space="preserve"&gt;</pre><pre xml:space="preserve">	&lt;/VIP&gt;</pre><pre xml:space="preserve">	&lt;VIPEvent&gt;false&lt;/VIPEvent&gt;</pre><pre xml:space="preserve">	&lt;ClosedAllDay&gt;false&lt;/ClosedAllDay&gt;</pre><pre xml:space="preserve">	&lt;OpenTime&gt;1900-01-01T00:00:00&lt;/OpenTime&gt;</pre><pre xml:space="preserve">	&lt;CloseTime&gt;1900-01-01T00:00:00&lt;/CloseTime&gt;</pre><pre xml:space="preserve">	&lt;GroupTypeDescription&gt;Corporate&lt;/GroupTypeDescription&gt;</pre><pre xml:space="preserve">	&lt;EventTypeDescription&gt;Conference&lt;/EventTypeDescription&gt;</pre><pre xml:space="preserve">	&lt;Contact&gt;Jim Smith&lt;/Contact&gt;</pre><pre xml:space="preserve">	&lt;AltContact /&gt;</pre><pre xml:space="preserve">	&lt;BookingID&gt;222008&lt;/BookingID&gt;</pre><pre xml:space="preserve">	&lt;TimeBookingStart&gt;2009-10-04T16:00:00&lt;/TimeBookingStart&gt;</pre><pre xml:space="preserve">	&lt;TimeBookingEnd&gt;2009-10-04T17:00:00&lt;/TimeBookingEnd&gt;</pre><pre xml:space="preserve">	&lt;GMTStartTime&gt;2009-10-04T22:00:00&lt;/GMTStartTime&gt;</pre><pre xml:space="preserve">	&lt;GMTEndTime&gt;2009-10-04T23:00:00&lt;/GMTEndTime&gt;</pre><pre xml:space="preserve">	&lt;TimeZone&gt;MT&lt;/TimeZone&gt;</pre><pre xml:space="preserve">	&lt;BuildingCode&gt;DEN&lt;/BuildingCode&gt;</pre><pre xml:space="preserve">	&lt;Building&gt;Denver&lt;/Building&gt;</pre><pre xml:space="preserve">	&lt;RoomCode&gt;RM101&lt;/RoomCode&gt;</pre><pre xml:space="preserve">	&lt;Room&gt;Room 101&lt;/RoomCode&gt;</pre><pre xml:space="preserve">	&lt;RoomID&gt;3271&lt;/RoomID&gt;</pre><pre xml:space="preserve">	&lt;BuildingID&gt;1&lt;/BuildingID&gt;</pre><pre xml:space="preserve">	&lt;StatusID&gt;1&lt;/StatusID&gt;</pre><pre xml:space="preserve">	&lt;StatusTypeID&gt;-14&lt;/StatusTypeID&gt;</pre><pre xml:space="preserve">	&lt;EventTypeID&gt;4&lt;/EventTypeID&gt;</pre><pre xml:space="preserve">	&lt;GroupTypeID&gt;3&lt;/GroupTypeID&gt;</pre><pre xml:space="preserve">	&lt;RoomTypeID&gt;1&lt;/RoomTypeID&gt;</pre><pre xml:space="preserve">	&lt;RoomType&gt;Classroom&lt;/RoomType&gt;</pre><pre xml:space="preserve">	&lt;DateAdded&gt;2009-10-04T16:00:00&lt;/DateAdded&gt;</pre><pre xml:space="preserve">	&lt;AddedBy&gt;User 1&lt;/AddedBy&gt;</pre><pre xml:space="preserve">	&lt;DateChanged&gt;2009-10-04T16:00:00&lt;/DateChanged&gt;</pre><pre xml:space="preserve">	&lt;ChangedBy&gt;User 1&lt;/ChangedBy&gt;<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;ContactEmailAddress&gt;jsmith@test.com&lt;/ContactEmailAddress&gt;</pre><pre xml:space="preserve">	&lt;CheckedIn&gt;false&lt;/CheckedIn&gt;</pre><pre>&lt;/Data&gt;</pre><pre>&lt;/Bookings&gt;</pre>
+        <h2><a name="GetAllRooms"></a>GetAllRooms</h2>
         <h3>Description</h3>
-        <p>Returns list of rooms</p>
+        <p>Returns list of rooms.</p>
         <h3>Request Parameters&#160;</h3>
         <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
+            <col style="width: 211px;" />
+            <col style="width: 319px;" />
+            <col style="width: 170px;" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
@@ -2223,6 +2098,9 @@
         </table>
         <h3>Response Elements&#160;</h3>
         <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
+            <col style="width: 235px;" />
+            <col style="width: 288px;" />
+            <col style="width: 172px;" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
@@ -2437,53 +2315,23 @@
                 </tr>
             </tbody>
         </table>
-        <h3>Sample Code&#160;</h3>
-        <p>Private Sub GetRooms()</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim svc As New EMSAPI.ServiceSoapClient</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim objReader As New System.IO.StringReader(svc.GetAllRooms(“UserID”, “Password”, 1))</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim dst As New DataSet("Data")</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; dst.ReadXml(objReader)</p>
-        <p>End Sub</p>
-        <h3>Example Response</h3>
-        <p>&lt;Rooms&gt;</p>
-        <p>&lt;Data&gt;</p>
-        <p>&lt;Room&gt;RM 101&lt;/Room&gt;</p>
-        <p>&lt;Description&gt;Room 101&lt;/Description&gt;</p>
-        <p>&lt;Building&gt;Denver&lt;/Building&gt;</p>
-        <p>&lt;Floor&gt;1<sup>st</sup>&#160;Floor&lt;/Floor&gt;</p>
-        <p>&lt;Type&gt;Meeting Room&lt;/Type&gt;</p>
-        <p>&lt;Classification&gt;Standard&lt;/Classification&gt;</p>
-        <p>&lt;Phone&gt;x123&lt;/Phone&gt;</p>
-        <p>&lt;Notes /&gt;</p>
-        <p>&lt;RoomSize&gt;20&lt;/RoomSize&gt;</p>
-        <p>&lt;SetupHours&gt;0&lt;/SetupHours&gt;</p>
-        <p>&lt;TeardownHours&gt;0&lt;/TeardownHours&gt;</p>
-        <p>&lt;HVACZone /&gt;</p>
-        <p>&lt;URL /&gt;<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;Active&gt;1&lt;/Active&gt;</p>
-        <p>&lt;BuildingID&gt;1&lt;/BuildingID&gt;</p>
-        <p>&lt;ID&gt;3271&lt;/ID&gt;</p>
-        <p>&lt;ExternalReference /&gt;</p>
-        <p>&lt;DisplayOnWeb&gt;1&lt;/DisplayOnWeb&gt;</p>
-        <p>&lt;/Data&gt;</p>
-        <p>&lt;/Rooms&gt;</p>
-        <h2>GetAPIVersion</h2>
+        <h3>Sample Code&#160;</h3><pre>Private Sub GetRooms()</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim svc As New EMSAPI.ServiceSoapClient</pre><pre xml:space="preserve">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim objReader As New System.IO.StringReader
+		(svc.GetAllRooms(“UserID”, “Password”, 1))</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim dst As New DataSet("Data")</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; dst.ReadXml(objReader)</pre><pre>End Sub</pre>
+        <h3>Example Response</h3><pre>&lt;Rooms&gt;</pre><pre>&lt;Data&gt;</pre><pre xml:space="preserve">	&lt;Room&gt;RM 101&lt;/Room&gt;</pre><pre xml:space="preserve">	&lt;Description&gt;Room 101&lt;/Description&gt;</pre><pre xml:space="preserve">	&lt;Building&gt;Denver&lt;/Building&gt;</pre><pre xml:space="preserve">	&lt;Floor&gt;1<sup>st</sup>&#160;Floor&lt;/Floor&gt;</pre><pre xml:space="preserve">	&lt;Type&gt;Meeting Room&lt;/Type&gt;</pre><pre xml:space="preserve">	&lt;Classification&gt;Standard&lt;/Classification&gt;</pre><pre xml:space="preserve">	&lt;Phone&gt;x123&lt;/Phone&gt;</pre><pre xml:space="preserve">	&lt;Notes /&gt;</pre><pre xml:space="preserve">	&lt;RoomSize&gt;20&lt;/RoomSize&gt;</pre><pre xml:space="preserve">	&lt;SetupHours&gt;0&lt;/SetupHours&gt;</pre><pre xml:space="preserve">	&lt;TeardownHours&gt;0&lt;/TeardownHours&gt;</pre><pre xml:space="preserve">	&lt;HVACZone /&gt;</pre><pre xml:space="preserve">	&lt;URL /&gt;<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;Active&gt;1&lt;/Active&gt;</pre><pre xml:space="preserve">	&lt;BuildingID&gt;1&lt;/BuildingID&gt;</pre><pre xml:space="preserve">	&lt;ID&gt;3271&lt;/ID&gt;</pre><pre xml:space="preserve">	&lt;ExternalReference /&gt;</pre><pre xml:space="preserve">	&lt;DisplayOnWeb&gt;1&lt;/DisplayOnWeb&gt;</pre><pre xml:space="preserve">	&lt;/Data&gt;</pre><pre>&lt;/Rooms&gt;</pre>
+        <h2><a name="GetAPIVersion"></a>GetAPIVersion</h2>
         <h3>Description</h3>
-        <p>Returns API version</p>
-        <h3>Request Parameters</h3>
-        <p>(none)</p>
-        <h3>Example Response</h3>
-        <p>&lt;API&gt;</p>
-        <p>&#160; &lt;APIVersion&gt;</p>
-        <p>&#160;&#160;&#160; &lt;Version&gt;1.1.19.0&lt;/Version&gt;</p>
-        <p>&#160;&#160;&#160; &lt;License&gt;Advanced&lt;/License&gt;</p>
-        <p>&#160; &lt;/APIVersion&gt;</p>
-        <p>&lt;/API&gt;</p>
-        <p>Note: The Read Only API returns a value of Basic, the Updating API returns a value of Advanced</p>
-        <h2>GetAreas</h2>
+        <p>Returns API version.</p>
+        <h3>Request Parameters</h3><pre>(none)</pre>
+        <h3>Example Response</h3><pre>&lt;API&gt;</pre><pre>&#160; &lt;APIVersion&gt;</pre><pre>&#160;&#160;&#160; &lt;Version&gt;1.1.19.0&lt;/Version&gt;</pre><pre>&#160;&#160;&#160; &lt;License&gt;Advanced&lt;/License&gt;</pre><pre>&#160; &lt;/APIVersion&gt;</pre><pre>&lt;/API&gt;</pre>
+        <p class="note-box">Note: The Read Only API returns a value of <span class="bold">Basic</span>, the Updating API returns a value of <span class="bold">Advanced</span>.</p>
+        <h2><a name="GetAreas"></a>GetAreas</h2>
         <h3>Description</h3>
-        <p>Returns a list of areas and associated buildings</p>
+        <p>Returns a list of areas and associated buildings.</p>
         <h3>Request Parameters</h3>
         <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
+            <col style="width: 207px;" />
+            <col style="width: 334px;" />
+            <col style="width: 157px;" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
@@ -2535,6 +2383,9 @@
         </table>
         <h3>Response Elements</h3>
         <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
+            <col style="width: 250px;" />
+            <col style="width: 280px;" />
+            <col style="width: 166px;" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
@@ -2595,34 +2446,17 @@
                 </tr>
             </tbody>
         </table>
-        <h3>Sample Code</h3>
-        <p>Private Sub GetAreas()</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim svc As New EMSAPI.ServiceSoapClient</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim objReader As New System.IO.StringReader(svc.GetAreas(“UserID”, “Password”, 12))</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim dst As New DataSet("Data")</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; dst.ReadXml(objReader)</p>
-        <p>End Sub</p>
-        <h3>Example Response</h3>
-        <p>&lt;Areas&gt;</p>
-        <p>&lt;Data&gt;</p>
-        <p>&lt;ID&gt;12&lt;/ID&gt;</p>
-        <p>&lt;AreaDescription&gt;Midwest&lt;/AreaDescription&gt;</p>
-        <p>&lt;AreaNotes&gt;&lt;/AreaNotes&gt;</p>
-        <p>&lt;BuildingID&gt;1&lt;/BuildingID&gt;</p>
-        <p>&lt;/Data&gt;</p>
-        <p>&lt;Data&gt;</p>
-        <p>&lt;ID&gt;12&lt;/ID&gt;</p>
-        <p>&lt;AreaDescription&gt;Midwest&lt;/AreaDescription&gt;</p>
-        <p>&lt;AreaNotes&gt;&lt;/AreaNotes&gt;</p>
-        <p>&lt;BuildingID&gt;2&lt;/BuildingID&gt;</p>
-        <p>&lt;/Data&gt;</p>
-        <p>&lt;/Areas&gt;</p>
-        <p>&#160;</p>
-        <h2>GetBooking</h2>
+        <h3>Sample Code</h3><pre>Private Sub GetAreas()</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim svc As New EMSAPI.ServiceSoapClient</pre><pre xml:space="preserve">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim objReader As New System.IO.StringReader
+		(svc.GetAreas(“UserID”, “Password”, 12))</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim dst As New DataSet("Data")</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; dst.ReadXml(objReader)</pre><pre>End Sub</pre>
+        <h3>Example Response</h3><pre>&lt;Areas&gt;</pre><pre>&lt;Data&gt;</pre><pre xml:space="preserve">	&lt;ID&gt;12&lt;/ID&gt;</pre><pre xml:space="preserve">	&lt;AreaDescription&gt;Midwest&lt;/AreaDescription&gt;</pre><pre xml:space="preserve">	&lt;AreaNotes&gt;&lt;/AreaNotes&gt;</pre><pre xml:space="preserve">	&lt;BuildingID&gt;1&lt;/BuildingID&gt;</pre><pre>&lt;/Data&gt;</pre><pre>&lt;Data&gt;</pre><pre xml:space="preserve">	&lt;ID&gt;12&lt;/ID&gt;</pre><pre xml:space="preserve">	&lt;AreaDescription&gt;Midwest&lt;/AreaDescription&gt;</pre><pre xml:space="preserve">	&lt;AreaNotes&gt;&lt;/AreaNotes&gt;</pre><pre xml:space="preserve">	&lt;BuildingID&gt;2&lt;/BuildingID&gt;</pre><pre xml:space="preserve">	&lt;/Data&gt;</pre><pre>&lt;/Areas&gt;</pre>
+        <h2><a name="GetBooking"></a>GetBooking</h2>
         <h3>Description</h3>
-        <p>Returns booking information for a specific booking</p>
+        <p>Returns booking information for a specific booking.</p>
         <h3>Request Parameters</h3>
         <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
+            <col style="width: 234px;" />
+            <col style="width: 341px;" />
+            <col style="width: 117px;" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
@@ -3141,65 +2975,17 @@
                 </tr>
             </tbody>
         </table>
-        <h3>Sample Code</h3>
-        <p>Private Sub GetBooking()</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim svc As New EMSAPI.ServiceSoapClient</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim objReader As New StringReader(svc.GetBooking(“UserID”, “Password”, 222008))</p>
-        <p>&#160;</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim dst As New DataSet("Data")</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; dst.ReadXml(objReader)</p>
-        <p>End Sub</p>
-        <h3>Example Response</h3>
-        <p>&lt;Booking&gt;</p>
-        <p>&lt;Data&gt;</p>
-        <p>&lt;BookingDate&gt;2009-10-04T00:00:00&lt;/BookingDate&gt;</p>
-        <p>&lt;StartBookingDate&gt;2009-10-04T00:00:00&lt;/StartBookingDate&gt;</p>
-        <p>&lt;RoomDescription&gt;DEN Room 101&lt;/RoomDescription&gt;</p>
-        <p>&lt;TimeEventStart&gt;2009-10-04T16:00:00&lt;/TimeEventStart&gt;</p>
-        <p>&lt;TimeEventEnd&gt;2009-10-04T17:00:00&lt;/TimeEventEnd&gt;</p>
-        <p>&lt;GroupName&gt;ABC Company &lt;/GroupName&gt;</p>
-        <p>&lt;EventName&gt;Spring Conference&lt;/EventName&gt;</p>
-        <p>&lt;SetupTypeDescription&gt;U - Shape&lt;/SetupTypeDescription&gt;</p>
-        <p>&lt;SetupCount&gt;50&lt;/SetupCount&gt;</p>
-        <p>&lt;ReservationID&gt;6650&lt;/ReservationID&gt;</p>
-        <p>&lt;EventCoordinator /&gt;</p>
-        <p>&lt;GroupID&gt;499&lt;/GroupID&gt;</p>
-        <p>&lt;VIP xml:space="preserve"&gt;</p>
-        <p>&lt;/VIP&gt;</p>
-        <p>&lt;VIPEvent&gt;false&lt;/VIPEvent&gt;</p>
-        <p>&lt;ClosedAllDay&gt;false&lt;/ClosedAllDay&gt;</p>
-        <p>&lt;OpenTime&gt;1900-01-01T00:00:00&lt;/OpenTime&gt;</p>
-        <p>&lt;CloseTime&gt;1900-01-01T00:00:00&lt;/CloseTime&gt;</p>
-        <p>&lt;GroupTypeDescription&gt;Corporate&lt;/GroupTypeDescription&gt;</p>
-        <p>&lt;EventTypeDescription&gt;Conference&lt;/EventTypeDescription&gt;</p>
-        <p>&lt;Contact&gt;Jim Smith&lt;/Contact&gt;</p>
-        <p>&lt;AltContact /&gt;</p>
-        <p>&lt;BookingID&gt;222008&lt;/BookingID&gt;</p>
-        <p>&lt;TimeBookingStart&gt;2009-10-04T16:00:00&lt;/TimeBookingStart&gt;</p>
-        <p>&lt;TimeBookingEnd&gt;2009-10-04T17:00:00&lt;/TimeBookingEnd&gt;</p>
-        <p>&lt;GMTStartTime&gt;2009-10-04T22:00:00&lt;/GMTStartTime&gt;</p>
-        <p>&lt;GMTEndTime&gt;2009-10-04T23:00:00&lt;/GMTEndTime&gt;</p>
-        <p>&lt;TimeZone&gt;MT&lt;/TimeZone&gt;</p>
-        <p>&lt;BuildingCode&gt;DEN&lt;/BuildingCode&gt;</p>
-        <p>&lt;Building&gt;Denver&lt;/Building&gt;</p>
-        <p>&lt;RoomCode&gt;RM101&lt;/RoomCode&gt;</p>
-        <p>&lt;Room&gt;Room 101&lt;/RoomCode&gt;</p>
-        <p>&lt;RoomID&gt;3271&lt;/RoomID&gt;</p>
-        <p>&lt;RoomTypeID&gt;0&lt;/RoomTypeID&gt;</p>
-        <p>&lt;BuildingID&gt;1&lt;/BuildingID&gt;</p>
-        <p>&lt;StatusID&gt;1&lt;/StatusID&gt;</p>
-        <p>&lt;StatusTypeID&gt;-14&lt;/StatusTypeID&gt;</p>
-        <p>&lt;EventTypeID&gt;4&lt;/EventTypeID&gt;</p>
-        <p>&lt;GroupTypeID&gt;3&lt;/GroupTypeID&gt;</p>
-        <p>&lt;WebProcessTemplateID&gt;0&lt;/WebProcessTemplateID&gt;</p>
-        <p>&lt;CheckedIn&gt;false&lt;/CheckedIn&gt;</p>
-        <p>&lt;/Data&gt;</p>
-        <p>&lt;/Booking&gt;</p>
-        <h2>GetBookingCheckIn</h2>
+        <h3>Sample Code</h3><pre>Private Sub GetBooking()</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim svc As New EMSAPI.ServiceSoapClient</pre><pre xml:space="preserve">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim objReader As New StringReader
+		(svc.GetBooking(“UserID”, “Password”, 222008))</pre><pre>&#160;</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim dst As New DataSet("Data")</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; dst.ReadXml(objReader)</pre><pre>End Sub</pre>
+        <h3>Example Response</h3><pre>&lt;Booking&gt;</pre><pre>&lt;Data&gt;</pre><pre xml:space="preserve">	&lt;BookingDate&gt;2009-10-04T00:00:00&lt;/BookingDate&gt;</pre><pre xml:space="preserve">	&lt;StartBookingDate&gt;2009-10-04T00:00:00&lt;/StartBookingDate&gt;</pre><pre xml:space="preserve">	&lt;RoomDescription&gt;DEN Room 101&lt;/RoomDescription&gt;</pre><pre xml:space="preserve">	&lt;TimeEventStart&gt;2009-10-04T16:00:00&lt;/TimeEventStart&gt;</pre><pre xml:space="preserve">	&lt;TimeEventEnd&gt;2009-10-04T17:00:00&lt;/TimeEventEnd&gt;</pre><pre xml:space="preserve">	&lt;GroupName&gt;ABC Company &lt;/GroupName&gt;</pre><pre xml:space="preserve">	&lt;EventName&gt;Spring Conference&lt;/EventName&gt;</pre><pre xml:space="preserve">	&lt;SetupTypeDescription&gt;U - Shape&lt;/SetupTypeDescription&gt;</pre><pre xml:space="preserve">	&lt;SetupCount&gt;50&lt;/SetupCount&gt;</pre><pre xml:space="preserve">	&lt;ReservationID&gt;6650&lt;/ReservationID&gt;</pre><pre xml:space="preserve">	&lt;EventCoordinator /&gt;</pre><pre xml:space="preserve">	&lt;GroupID&gt;499&lt;/GroupID&gt;</pre><pre xml:space="preserve">	&lt;VIP xml:space="preserve"&gt;</pre><pre xml:space="preserve">	&lt;/VIP&gt;</pre><pre xml:space="preserve">	&lt;VIPEvent&gt;false&lt;/VIPEvent&gt;</pre><pre xml:space="preserve">	&lt;ClosedAllDay&gt;false&lt;/ClosedAllDay&gt;</pre><pre xml:space="preserve">	&lt;OpenTime&gt;1900-01-01T00:00:00&lt;/OpenTime&gt;</pre><pre xml:space="preserve">	&lt;CloseTime&gt;1900-01-01T00:00:00&lt;/CloseTime&gt;</pre><pre xml:space="preserve">	&lt;GroupTypeDescription&gt;Corporate&lt;/GroupTypeDescription&gt;</pre><pre xml:space="preserve">	&lt;EventTypeDescription&gt;Conference&lt;/EventTypeDescription&gt;</pre><pre xml:space="preserve">	&lt;Contact&gt;Jim Smith&lt;/Contact&gt;</pre><pre xml:space="preserve">	&lt;AltContact /&gt;</pre><pre xml:space="preserve">	&lt;BookingID&gt;222008&lt;/BookingID&gt;</pre><pre xml:space="preserve">	&lt;TimeBookingStart&gt;2009-10-04T16:00:00&lt;/TimeBookingStart&gt;</pre><pre xml:space="preserve">	&lt;TimeBookingEnd&gt;2009-10-04T17:00:00&lt;/TimeBookingEnd&gt;</pre><pre xml:space="preserve">	&lt;GMTStartTime&gt;2009-10-04T22:00:00&lt;/GMTStartTime&gt;</pre><pre xml:space="preserve">	&lt;GMTEndTime&gt;2009-10-04T23:00:00&lt;/GMTEndTime&gt;</pre><pre xml:space="preserve">	&lt;TimeZone&gt;MT&lt;/TimeZone&gt;</pre><pre xml:space="preserve">	&lt;BuildingCode&gt;DEN&lt;/BuildingCode&gt;</pre><pre xml:space="preserve">	&lt;Building&gt;Denver&lt;/Building&gt;</pre><pre xml:space="preserve">	&lt;RoomCode&gt;RM101&lt;/RoomCode&gt;</pre><pre xml:space="preserve">	&lt;Room&gt;Room 101&lt;/RoomCode&gt;</pre><pre xml:space="preserve">	&lt;RoomID&gt;3271&lt;/RoomID&gt;</pre><pre xml:space="preserve">	&lt;RoomTypeID&gt;0&lt;/RoomTypeID&gt;</pre><pre xml:space="preserve">	&lt;BuildingID&gt;1&lt;/BuildingID&gt;</pre><pre xml:space="preserve">	&lt;StatusID&gt;1&lt;/StatusID&gt;</pre><pre xml:space="preserve">	&lt;StatusTypeID&gt;-14&lt;/StatusTypeID&gt;</pre><pre xml:space="preserve">	&lt;EventTypeID&gt;4&lt;/EventTypeID&gt;</pre><pre xml:space="preserve">	&lt;GroupTypeID&gt;3&lt;/GroupTypeID&gt;</pre><pre xml:space="preserve">	&lt;WebProcessTemplateID&gt;0&lt;/WebProcessTemplateID&gt;</pre><pre xml:space="preserve">	&lt;CheckedIn&gt;false&lt;/CheckedIn&gt;</pre><pre>&lt;/Data&gt;</pre><pre>&lt;/Booking&gt;</pre>
+        <h2><a name="GetBookingCheckIn"></a>GetBookingCheckIn</h2>
         <h3>Description</h3>
-        <p>Returns check in properties for a booking</p>
+        <p>Returns check in properties for a booking.</p>
         <h3>Request Parameters</h3>
         <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
+            <col style="width: 257px;" />
+            <col style="width: 263px;" />
+            <col style="width: 174px;" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
@@ -3251,6 +3037,9 @@
         </table>
         <h3>Response Elements</h3>
         <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
+            <col style="width: 255px;" />
+            <col style="width: 264px;" />
+            <col style="width: 175px;" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
@@ -3300,21 +3089,9 @@
                 </tr>
             </tbody>
         </table>
-        <h3>Sample Code</h3>
-        <p>Private Sub GetBookingCheckIn()</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim svc As New EMSAPI.ServiceSoapClient</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim objReader As New System.IO.StringReader(svc.GetBookingCheckIn(“UserID”, “Password”, 12345))</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim dst As New DataSet("Data")</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; dst.ReadXml(objReader)</p>
-        <p>End Sub</p>
-        <h3>Example Response</h3>
-        <p>&lt;Bookings&gt;</p>
-        <p>&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;Data&gt;</p>
-        <p>&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;BookingID&gt;12345&lt;/BookingID&gt;</p>
-        <p>&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;CheckedIn&gt;true&lt;/CheckedIn&gt;</p>
-        <p>&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;CheckInDate&gt;2015-01-07T11:17:22.833&lt;/CheckInDate&gt;</p>
-        <p>&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;/Data&gt;</p>
-        <p>&lt;/Bookings&gt;</p>
+        <h3>Sample Code</h3><pre>Private Sub GetBookingCheckIn()</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim svc As New EMSAPI.ServiceSoapClient</pre><pre xml:space="preserve">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim objReader As New System.IO.StringReader
+		(svc.GetBookingCheckIn(“UserID”, “Password”, 12345))</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim dst As New DataSet("Data")</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; dst.ReadXml(objReader)</pre><pre>End Sub</pre>
+        <h3>Example Response</h3><pre xml:space="preserve">&lt;Bookings&gt;</pre><pre xml:space="preserve">	&lt;Data&gt;</pre><pre xml:space="preserve">		&lt;BookingID&gt;12345&lt;/BookingID&gt;</pre><pre xml:space="preserve">		&lt;CheckedIn&gt;true&lt;/CheckedIn&gt;</pre><pre xml:space="preserve">&#160;&#160;&#160;		&lt;CheckInDate&gt;2015-01-07T11:17:22.833&lt;/CheckInDate&gt;</pre><pre xml:space="preserve">	&lt;/Data&gt;</pre><pre>&lt;/Bookings&gt;</pre>
         <h2><a name="GetBookingHistory"></a>GetBookingHistory</h2>
         <h3>Description</h3>
         <p>For each booking that has changed or has been created within a specified time period, this API returns all of the changes, including the baseline record.</p>
@@ -3436,7 +3213,7 @@
             </tbody>
         </table>
         <h3>Response Elements</h3>
-        <p>Baseline (latest data for a booking that has changed during the time period)</p>
+        <p>Baseline (latest data for a booking that has changed during the time period).</p>
         <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
@@ -3960,9 +3737,11 @@
                 </tr>
             </tbody>
         </table>
-        <p>&#160;</p>
-        <p>History (one for each change for the above booking for the time period)</p>
+        <p>History (one for each change for the above booking for the time period).</p>
         <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
+            <col style="width: 214px;" />
+            <col style="width: 323px;" />
+            <col style="width: 160px;" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
@@ -4045,118 +3824,13 @@
                 </tr>
             </tbody>
         </table>
-        <p>&#160;</p>
-        <h3>Sample Code</h3>
-        <p>Private Sub GetBookings()</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim dvwStatuses, dvwEventTypes, dvwGroupTypes As DataView</p>
-        <p>Dim gintRooms As New Generic.List(Of Int32)</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim gintStatuses As New Generic.List(Of Int32)</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim gintEventTypes As New Generic.List(Of Int32)</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim gintGroupTypes As New Generic.List(Of Int32)</p>
-        <p>&#160;</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim svc As New EMSAPI.ServiceSoapClient</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim objReader As New StringReader(svc.GetStatuses(“UserID”, “Password”))</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; gintRooms.Add(3271)</p>
-        <p>&#160;</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; dvwStatuses = Me.GetData(objReader)</p>
-        <p>&#160;</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; objReader = New StringReader(svc.GetEventTypes(“UserID”, “Password”))</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; dvwEventTypes = Me.GetData(objReader)</p>
-        <p>&#160;</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; objReader = New StringReader(svc.GetGroupTypes(“UserID”, “Password”))</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; dvwGroupTypes = Me.GetData(objReader)</p>
-        <p>&#160;</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; For Each drv As DataRowView In dvwStatuses</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; gintStatuses.Add(drv("ID"))</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Next</p>
-        <p>&#160;</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; For Each drv As DataRowView In dvwEventTypes</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; gintEventTypes.Add(drv("ID"))</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Next</p>
-        <p>&#160;</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; For Each drv As DataRowView In dvwGroupTypes</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; gintGroupTypes.Add(drv("ID"))</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Next</p>
-        <p>&#160;</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim strRooms As New EMSAPI.ArrayOfInt</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim strStatuses As New EMSAPI.ArrayOfInt</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim strEventTypes As New EMSAPI.ArrayOfInt</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim strGroupTypes As New EMSAPI.ArrayOfInt</p>
-        <p>&#160;</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; strRooms.AddRange(gintRooms.ToArray)</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; strStatuses.AddRange(gintStatuses.ToArray)</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; strEventTypes.AddRange(gintEventTypes.ToArray)</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; strGroupTypes.AddRange(gintGroupTypes.ToArray)</p>
-        <p>&#160;</p>
-        <p>objReader = New StringReader(svc.GetChangedBookings(“UserID”, “Password”, Date.Today, Date.Today, strRooms, strStatuses, strEventTypes, strGroupTypes, False))</p>
-        <p>&#160;</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim dst As New DataSet("Data")</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; dst.ReadXml(objReader)</p>
-        <p>End Sub</p>
-        <h3>Example Response</h3>
-        <p>&lt;BookingHistory&gt;</p>
-        <p>&lt;Data&gt;</p>
-        <p>&lt;BookingDate&gt;2009-10-04T00:00:00&lt;/BookingDate&gt;</p>
-        <p>&lt;StartBookingDate&gt;2009-10-04T00:00:00&lt;/StartBookingDate&gt;</p>
-        <p>&lt;RoomDescription&gt;DEN Room 101&lt;/RoomDescription&gt;</p>
-        <p>&lt;TimeEventStart&gt;2009-10-04T16:00:00&lt;/TimeEventStart&gt;</p>
-        <p>&lt;TimeEventEnd&gt;2009-10-04T17:00:00&lt;/TimeEventEnd&gt;</p>
-        <p>&lt;GroupName&gt;ABC Company &lt;/GroupName&gt;</p>
-        <p>&lt;EventName&gt;Spring Conference&lt;/EventName&gt;</p>
-        <p>&lt;SetupTypeDescription&gt;U - Shape&lt;/SetupTypeDescription&gt;</p>
-        <p>&lt;SetupCount&gt;50&lt;/SetupCount&gt;</p>
-        <p>&lt;ReservationID&gt;6650&lt;/ReservationID&gt;</p>
-        <p>&lt;EventCoordinator /&gt;</p>
-        <p>&lt;GroupID&gt;499&lt;/GroupID&gt;</p>
-        <p>&lt;VIP xml:space="preserve"&gt;</p>
-        <p>&lt;/VIP&gt;</p>
-        <p>&lt;VIPEvent&gt;false&lt;/VIPEvent&gt;</p>
-        <p>&lt;ClosedAllDay&gt;false&lt;/ClosedAllDay&gt;</p>
-        <p>&lt;OpenTime&gt;1900-01-01T00:00:00&lt;/OpenTime&gt;</p>
-        <p>&lt;CloseTime&gt;1900-01-01T00:00:00&lt;/CloseTime&gt;</p>
-        <p>&lt;GroupTypeDescription&gt;Corporate&lt;/GroupTypeDescription&gt;</p>
-        <p>&lt;EventTypeDescription&gt;Conference&lt;/EventTypeDescription&gt;</p>
-        <p>&lt;Contact&gt;Jim Smith&lt;/Contact&gt;</p>
-        <p>&lt;AltContact /&gt;</p>
-        <p>&lt;BookingID&gt;222008&lt;/BookingID&gt;</p>
-        <p>&lt;TimeBookingStart&gt;2009-10-04T16:00:00&lt;/TimeBookingStart&gt;</p>
-        <p>&lt;TimeBookingEnd&gt;2009-10-04T17:00:00&lt;/TimeBookingEnd&gt;</p>
-        <p>&lt;GMTStartTime&gt;2009-10-04T22:00:00&lt;/GMTStartTime&gt;</p>
-        <p>&lt;GMTEndTime&gt;2009-10-04T23:00:00&lt;/GMTEndTime&gt;</p>
-        <p>&lt;TimeZone&gt;MT&lt;/TimeZone&gt;</p>
-        <p>&lt;BuildingCode&gt;DEN&lt;/BuildingCode&gt;</p>
-        <p>&lt;Building&gt;Denver&lt;/Building&gt;</p>
-        <p>&lt;RoomCode&gt;RM101&lt;/RoomCode&gt;</p>
-        <p>&lt;Room&gt;Room 101&lt;/Room&gt;</p>
-        <p>&lt;RoomID&gt;3271&lt;/RoomID&gt;</p>
-        <p>&lt;BuildingID&gt;1&lt;/BuildingID&gt;</p>
-        <p>&lt;RoomTypeID&gt;1&lt;/RoomTypeID&gt;</p>
-        <p>&lt;RoomType&gt;Classroom&lt;/RoomType&gt;</p>
-        <p>&lt;HVACZone/&gt;</p>
-        <p>&lt;StatusID&gt;1&lt;/StatusID&gt;</p>
-        <p>&lt;StatusTypeID&gt;-14&lt;/StatusTypeID&gt;</p>
-        <p>&lt;EventTypeID&gt;4&lt;/EventTypeID&gt;</p>
-        <p>&lt;GroupTypeID&gt;3&lt;/GroupTypeID&gt;</p>
-        <p>&lt;DateAdded&gt;2009-10-04T16:00:00&lt;/DateAdded&gt;</p>
-        <p>&lt;AddedBy&gt;User 1&lt;/AddedBy&gt;</p>
-        <p>&lt;DateChanged&gt;2009-10-04T16:00:00&lt;/DateChanged&gt;</p>
-        <p>&lt;ChangedBy&gt;User 1&lt;/ChangedBy&gt;</p>
-        <p>&lt;ContactEmailAddress&gt;test@test.com&lt;/ContactEmailAddress&gt;</p>
-        <p>&lt;CheckedIn&gt;false&lt;/CheckedIn&gt;</p>
-        <p>&lt;/Data&gt;</p>
-        <p>&lt;Data1&gt;</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;Date&gt;2016-10-27T09:26:23.183&lt;/Date&gt;</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;ChangedBy&gt;User 1&lt;/ChangedBy&gt;</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;Field&gt;Room&lt;/Field&gt;</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;OldValue&gt;Room 1&lt;/OldValue&gt;</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;NewValue&gt;Room 2&lt;/NewValue&gt;</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;ID&gt;222008&lt;/ID&gt;</p>
-        <p>&lt;/Data1&gt;</p>
-        <p>&lt;/BookingHistory&gt;</p>
-        <h2>GetBookings</h2>
+        <h3>Sample Code</h3><pre>Private Sub GetBookings()</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim dvwStatuses, dvwEventTypes, dvwGroupTypes As DataView</pre><pre>Dim gintRooms As New Generic.List(Of Int32)</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim gintStatuses As New Generic.List(Of Int32)</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim gintEventTypes As New Generic.List(Of Int32)</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim gintGroupTypes As New Generic.List(Of Int32)</pre>
+        <p>&#160;</p><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim svc As New EMSAPI.ServiceSoapClient</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim objReader As New StringReader(svc.GetStatuses(“UserID”, “Password”))</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; gintRooms.Add(3271)</pre>
+        <p>&#160;</p><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; dvwStatuses = Me.GetData(objReader)</pre><pre>&#160;</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; objReader = New StringReader(svc.GetEventTypes(“UserID”, “Password”))</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; dvwEventTypes = Me.GetData(objReader)</pre><pre>&#160;</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; objReader = New StringReader(svc.GetGroupTypes(“UserID”, “Password”))</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; dvwGroupTypes = Me.GetData(objReader)</pre><pre>&#160;</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; For Each drv As DataRowView In dvwStatuses</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; gintStatuses.Add(drv("ID"))</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Next</pre><pre>&#160;</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; For Each drv As DataRowView In dvwEventTypes</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; gintEventTypes.Add(drv("ID"))</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Next</pre><pre>&#160;</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; For Each drv As DataRowView In dvwGroupTypes</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; gintGroupTypes.Add(drv("ID"))</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Next</pre><pre>&#160;</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim strRooms As New EMSAPI.ArrayOfInt</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim strStatuses As New EMSAPI.ArrayOfInt</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim strEventTypes As New EMSAPI.ArrayOfInt</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim strGroupTypes As New EMSAPI.ArrayOfInt</pre><pre>&#160;</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; strRooms.AddRange(gintRooms.ToArray)</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; strStatuses.AddRange(gintStatuses.ToArray)</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; strEventTypes.AddRange(gintEventTypes.ToArray)</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; strGroupTypes.AddRange(gintGroupTypes.ToArray)</pre><pre>&#160;</pre><pre>objReader = New StringReader(svc.GetChangedBookings(“UserID”, “Password”, Date.Today, Date.Today, strRooms, strStatuses, strEventTypes, strGroupTypes, False))</pre><pre>&#160;</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim dst As New DataSet("Data")</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; dst.ReadXml(objReader)</pre><pre>End Sub</pre>
+        <h3>Example Response</h3><pre>&lt;BookingHistory&gt;</pre><pre>&lt;Data&gt;</pre><pre xml:space="preserve">	&lt;BookingDate&gt;2009-10-04T00:00:00&lt;/BookingDate&gt;</pre><pre xml:space="preserve">	&lt;StartBookingDate&gt;2009-10-04T00:00:00&lt;/StartBookingDate&gt;</pre><pre xml:space="preserve">	&lt;RoomDescription&gt;DEN Room 101&lt;/RoomDescription&gt;</pre><pre xml:space="preserve">	&lt;TimeEventStart&gt;2009-10-04T16:00:00&lt;/TimeEventStart&gt;</pre><pre xml:space="preserve">	&lt;TimeEventEnd&gt;2009-10-04T17:00:00&lt;/TimeEventEnd&gt;</pre><pre xml:space="preserve">	&lt;GroupName&gt;ABC Company &lt;/GroupName&gt;</pre><pre xml:space="preserve">	&lt;EventName&gt;Spring Conference&lt;/EventName&gt;</pre><pre xml:space="preserve">	&lt;SetupTypeDescription&gt;U - Shape&lt;/SetupTypeDescription&gt;</pre><pre xml:space="preserve">	&lt;SetupCount&gt;50&lt;/SetupCount&gt;</pre><pre xml:space="preserve">	&lt;ReservationID&gt;6650&lt;/ReservationID&gt;</pre><pre xml:space="preserve">	&lt;EventCoordinator /&gt;</pre><pre xml:space="preserve">	&lt;GroupID&gt;499&lt;/GroupID&gt;</pre><pre xml:space="preserve">	&lt;VIP xml:space="preserve"&gt;</pre><pre xml:space="preserve">	&lt;/VIP&gt;</pre><pre xml:space="preserve">	&lt;VIPEvent&gt;false&lt;/VIPEvent&gt;</pre><pre xml:space="preserve">	&lt;ClosedAllDay&gt;false&lt;/ClosedAllDay&gt;</pre><pre xml:space="preserve">	&lt;OpenTime&gt;1900-01-01T00:00:00&lt;/OpenTime&gt;</pre><pre xml:space="preserve">	&lt;CloseTime&gt;1900-01-01T00:00:00&lt;/CloseTime&gt;</pre><pre xml:space="preserve">	&lt;GroupTypeDescription&gt;Corporate&lt;/GroupTypeDescription&gt;</pre><pre xml:space="preserve">	&lt;EventTypeDescription&gt;Conference&lt;/EventTypeDescription&gt;</pre><pre xml:space="preserve">	&lt;Contact&gt;Jim Smith&lt;/Contact&gt;</pre><pre xml:space="preserve">	&lt;AltContact /&gt;</pre><pre xml:space="preserve">	&lt;BookingID&gt;222008&lt;/BookingID&gt;</pre><pre xml:space="preserve">	&lt;TimeBookingStart&gt;2009-10-04T16:00:00&lt;/TimeBookingStart&gt;</pre><pre xml:space="preserve">	&lt;TimeBookingEnd&gt;2009-10-04T17:00:00&lt;/TimeBookingEnd&gt;</pre><pre xml:space="preserve">	&lt;GMTStartTime&gt;2009-10-04T22:00:00&lt;/GMTStartTime&gt;</pre><pre xml:space="preserve">	&lt;GMTEndTime&gt;2009-10-04T23:00:00&lt;/GMTEndTime&gt;</pre><pre xml:space="preserve">	&lt;TimeZone&gt;MT&lt;/TimeZone&gt;</pre><pre xml:space="preserve">	&lt;BuildingCode&gt;DEN&lt;/BuildingCode&gt;</pre><pre xml:space="preserve">	&lt;Building&gt;Denver&lt;/Building&gt;</pre><pre xml:space="preserve">	&lt;RoomCode&gt;RM101&lt;/RoomCode&gt;</pre><pre xml:space="preserve">	&lt;Room&gt;Room 101&lt;/Room&gt;</pre><pre xml:space="preserve">	&lt;RoomID&gt;3271&lt;/RoomID&gt;</pre><pre xml:space="preserve">	&lt;BuildingID&gt;1&lt;/BuildingID&gt;</pre><pre xml:space="preserve">	&lt;RoomTypeID&gt;1&lt;/RoomTypeID&gt;</pre><pre xml:space="preserve">	&lt;RoomType&gt;Classroom&lt;/RoomType&gt;</pre><pre xml:space="preserve">	&lt;HVACZone/&gt;</pre><pre xml:space="preserve">	&lt;StatusID&gt;1&lt;/StatusID&gt;</pre><pre xml:space="preserve">	&lt;StatusTypeID&gt;-14&lt;/StatusTypeID&gt;</pre><pre xml:space="preserve">	&lt;EventTypeID&gt;4&lt;/EventTypeID&gt;</pre><pre xml:space="preserve">	&lt;GroupTypeID&gt;3&lt;/GroupTypeID&gt;</pre><pre xml:space="preserve">	&lt;DateAdded&gt;2009-10-04T16:00:00&lt;/DateAdded&gt;</pre><pre xml:space="preserve">	&lt;AddedBy&gt;User 1&lt;/AddedBy&gt;</pre><pre xml:space="preserve">	&lt;DateChanged&gt;2009-10-04T16:00:00&lt;/DateChanged&gt;</pre><pre xml:space="preserve">	&lt;ChangedBy&gt;User 1&lt;/ChangedBy&gt;</pre><pre xml:space="preserve">	&lt;ContactEmailAddress&gt;test@test.com&lt;/ContactEmailAddress&gt;</pre><pre xml:space="preserve">	&lt;CheckedIn&gt;false&lt;/CheckedIn&gt;</pre><pre>&lt;/Data&gt;</pre><pre>&lt;Data1&gt;</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;Date&gt;2016-10-27T09:26:23.183&lt;/Date&gt;</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;ChangedBy&gt;User 1&lt;/ChangedBy&gt;</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;Field&gt;Room&lt;/Field&gt;</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;OldValue&gt;Room 1&lt;/OldValue&gt;</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;NewValue&gt;Room 2&lt;/NewValue&gt;</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;ID&gt;222008&lt;/ID&gt;</pre><pre>&lt;/Data1&gt;</pre><pre>&lt;/BookingHistory&gt;</pre>
+        <h2><a name="GetBookings"></a>GetBookings</h2>
         <h3>Description</h3>
-        <p>Returns a list of bookings based on filters provided</p>
+        <p>Returns a list of bookings based on filters provided.</p>
         <h3>Request Parameters</h3>
         <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
             <thead>
