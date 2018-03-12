@@ -2640,4 +2640,8 @@ p.PDFh1
 		text-decoration: underline;
 	}
 	
+	pre
+	{
+		font-size: 14px;
+		}
 }
