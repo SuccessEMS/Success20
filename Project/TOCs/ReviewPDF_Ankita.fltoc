@@ -2,24 +2,6 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="Configuring Buildings"
-    Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigBuilding.html"
-    BreakType="chapter"
-    ChapterNumberReset="reset"
-    ChapterNumber="1"
-    StartSection="false"
-    PageNumberReset="continue"
-    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
-    SectionNumberReset="continue"
-    VolumeNumberReset="same" />
-  <TocEntry
     Title="[%=System.LinkedTitle%]"
-    Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_BuildHourWiz.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-    BreakType="chapter"
-    StartSection="false"
-    PageNumberReset="continue"
-    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
-    SectionNumberReset="continue"
-    VolumeNumberReset="same"
-    ChapterNumberReset="continue" />
+    Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigRoomPricing.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
 </CatapultToc>
