@@ -39,7 +39,7 @@
           Link="/Content/OptionalFeatures/EMS_API/A_V44.1/API_ConfigVerifyEMSAPIWebServUse.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
           Title="EMS API Functions"
-          Link="/Content/OptionalFeatures/EMS_API/A_V44.1/API_EMSAPIfunctions_ADDOperation.html" />
+          Link="/Content/OptionalFeatures/EMS_API/A_V44.1/EMSAPIfunctions_ADDOperation.html" />
       </TocEntry>
       <TocEntry
         Title="EMS Floor Plan"
