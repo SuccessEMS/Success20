@@ -518,7 +518,7 @@
           Link="/Content/OptionalFeatures/EMS_API/A_V44.1/API_ConfigVerifyEMSAPIWebServUse.htm" />
         <TocEntry
           Title="EMS API Functions"
-          Link="/Content/OptionalFeatures/EMS_API/A_V44.1/API_EMSAPIfunctions.html" />
+          Link="/Content/OptionalFeatures/EMS_API/A_V44.1/API_EMSAPIfunctions_ADDOperation.html" />
       </TocEntry>
       <TocEntry
         Title="EMS Floor Plan"
@@ -1389,7 +1389,7 @@
           Link="/Content/OptionalFeatures/EMS_API/A_V44.1/API_ConfigVerifyEMSAPIWebServUse.htm" />
         <TocEntry
           Title="EMS API Functions"
-          Link="/Content/OptionalFeatures/EMS_API/A_V44.1/API_EMSAPIfunctions.html" />
+          Link="/Content/OptionalFeatures/EMS_API/A_V44.1/API_EMSAPIfunctions_ADDOperation.html" />
       </TocEntry>
       <TocEntry
         Title="EMS Floor Plan"
