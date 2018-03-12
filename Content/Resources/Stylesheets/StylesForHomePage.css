@@ -544,6 +544,10 @@ span.img-block.padd15 img {
 .product-block .block .img-block.mobile-app {
     width: 48px;
 } 
+
+.product-block .block .img-block.campus {
+    width: 60px;
+} 
 /* Home page Tiles css  ends */
 
 
