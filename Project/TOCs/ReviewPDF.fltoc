@@ -3,10 +3,5 @@
   Version="1">
   <TocEntry
     Title="Iadea Documentation"
-    Link="/Content/EMSRoomSignApp/A_44.1/A_Installation/RSA_IG_DeployRSAAppliances.htm"></TocEntry>
-  <TocEntry
-    Title="New entry">
-    <TocEntry
-      Title="New entry" />
-  </TocEntry>
+    Link="/Content/OptionalFeatures/EMS_API/A_V44.1/API_EMSAPIfunctions_ADDOperation.html"></TocEntry>
 </CatapultToc>
