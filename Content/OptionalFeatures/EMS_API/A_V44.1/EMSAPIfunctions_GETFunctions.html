@@ -1,18 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html MadCap:lastBlockDepth="6" MadCap:lastHeight="265871" MadCap:lastWidth="1738" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\emsAPI.flmsp');">
+<html MadCap:lastBlockDepth="6" MadCap:lastHeight="292339" MadCap:lastWidth="2212" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\emsAPI.flmsp');">
     <head>
         <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
     </head>
     <body>
-        <h1 MadCap:autonum="CHAPTER&#160;1: ">EMS API Functions -- GET&#160;Operations</h1>
+        <h1>EMS API Functions -- GET&#160;Operations</h1>
         <h2><a name="GetAllBookings"></a>GetAllBookings</h2>
         <h3>Description</h3>
         <p>Returns a list of bookings for a specific building.</p>
         <h3>Request Parameters</h3>
         <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
-            <col />
-            <col style="width: 386px;" />
-            <col style="width: 90px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 386px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 90px;" class="TableStyle-PatternedRows-Column-Regular" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
@@ -628,9 +628,9 @@
         <p>Returns a list of bookings for a specific building for a specific UDF value&#160;(Reservation or Booking level UDF only).</p>
         <h3>Request Parameters</h3>
         <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
-            <col />
-            <col style="width: 409px;" />
-            <col />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 409px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
@@ -1268,9 +1268,9 @@
         <p>Returns component room details for all combo rooms.</p>
         <h3>Request Parameters</h3>
         <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
-            <col style="width: 189px;" />
-            <col style="width: 256px;" />
-            <col style="width: 251px;" />
+            <col style="width: 189px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 256px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 251px;" class="TableStyle-PatternedRows-Column-Regular" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
@@ -1311,9 +1311,9 @@
         </table>
         <h3>Response Elements</h3>
         <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
-            <col style="width: 248px;" />
-            <col style="width: 282px;" />
-            <col style="width: 167px;" />
+            <col style="width: 248px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 282px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 167px;" class="TableStyle-PatternedRows-Column-Regular" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
@@ -1421,7 +1421,7 @@
         <h3>Sample Code</h3><pre>Private Sub GetAllComboRoomComponents()</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim svc As New EMSAPI.ServiceSoapClient</pre><pre xml:space="preserve">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim objReader As New System.IO.StringReader
 		(svc.GetAllComboRoomComponents(“UserID”, “Password”))</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim dst As New DataSet("Data")</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; dst.ReadXml(objReader)</pre><pre>End Sub</pre>
         <h3>Example Response</h3><pre>&lt;RoomComponents&gt;</pre><pre>&lt;Data&gt;</pre><pre xml:space="preserve">	&lt;ParentRoom&gt;RM 101&lt;/Room&gt;</pre><pre xml:space="preserve">	&lt;ParentDescription&gt;Room 101&lt;/Description&gt;</pre><pre xml:space="preserve">	&lt;ParentBuilding&gt;Denver&lt;/Building&gt;</pre><pre xml:space="preserve">	&lt;ParentID&gt;3271&lt;/ParentID&gt;</pre><pre xml:space="preserve">	&lt;ComponentRoom&gt;Room 102 &lt;/ComponentRoom&gt;</pre><pre xml:space="preserve">	&lt;ComponentDescription&gt;Room 102&lt;/Description&gt;</pre><pre xml:space="preserve">	&lt;ComponentBuilding&gt;Denver&lt;/Building&gt;</pre><pre xml:space="preserve">	&lt;ComponentID&gt;3272&lt;/ComponentID&gt;</pre><pre xml:space="preserve">	&lt;ParentRoom&gt;RM 101&lt;/Room&gt;</pre><pre xml:space="preserve">	&lt;ParentDescription&gt;Room 101&lt;/Description&gt;</pre><pre xml:space="preserve">	&lt;ParentBuilding&gt;Denver&lt;/Building&gt;</pre><pre xml:space="preserve">	&lt;ParentID&gt;3273&lt;/ParentID&gt;</pre><pre xml:space="preserve">	&lt;ComponentRoom&gt;Room 103 &lt;/ComponentRoom&gt;</pre><pre xml:space="preserve">	&lt;ComponentDescription&gt;Room 103&lt;/Description&gt;</pre><pre xml:space="preserve">	&lt;ComponentBuilding&gt;Denver&lt;/Building&gt;</pre><pre xml:space="preserve">	&lt;ComponentID&gt;3273&lt;/ComponentID&gt;</pre><pre xml:space="preserve">	&lt;/Data&gt;</pre><pre>&lt;/ RoomComponents &gt;</pre>
-        <h2>GetAllRoomBookings</h2>
+        <h2><a name="GetAllRoomBookings"></a>GetAllRoomBookings</h2>
         <h3>Description</h3>
         <p>Returns a list of bookings for a specific room.</p>
         <h3>Request Parameters&#160;</h3>
@@ -2044,9 +2044,9 @@
         <p>Returns list of rooms.</p>
         <h3>Request Parameters&#160;</h3>
         <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
-            <col style="width: 211px;" />
-            <col style="width: 319px;" />
-            <col style="width: 170px;" />
+            <col style="width: 211px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 319px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 170px;" class="TableStyle-PatternedRows-Column-Regular" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
@@ -2098,9 +2098,9 @@
         </table>
         <h3>Response Elements&#160;</h3>
         <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
-            <col style="width: 235px;" />
-            <col style="width: 288px;" />
-            <col style="width: 172px;" />
+            <col style="width: 235px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 288px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 172px;" class="TableStyle-PatternedRows-Column-Regular" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
@@ -2329,9 +2329,9 @@
         <p>Returns a list of areas and associated buildings.</p>
         <h3>Request Parameters</h3>
         <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
-            <col style="width: 207px;" />
-            <col style="width: 334px;" />
-            <col style="width: 157px;" />
+            <col style="width: 207px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 334px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 157px;" class="TableStyle-PatternedRows-Column-Regular" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
@@ -2383,9 +2383,9 @@
         </table>
         <h3>Response Elements</h3>
         <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
-            <col style="width: 250px;" />
-            <col style="width: 280px;" />
-            <col style="width: 166px;" />
+            <col style="width: 250px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 280px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 166px;" class="TableStyle-PatternedRows-Column-Regular" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
@@ -2454,9 +2454,9 @@
         <p>Returns booking information for a specific booking.</p>
         <h3>Request Parameters</h3>
         <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
-            <col style="width: 234px;" />
-            <col style="width: 341px;" />
-            <col style="width: 117px;" />
+            <col style="width: 234px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 341px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 117px;" class="TableStyle-PatternedRows-Column-Regular" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
@@ -2983,9 +2983,9 @@
         <p>Returns check in properties for a booking.</p>
         <h3>Request Parameters</h3>
         <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
-            <col style="width: 257px;" />
-            <col style="width: 263px;" />
-            <col style="width: 174px;" />
+            <col style="width: 257px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 263px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 174px;" class="TableStyle-PatternedRows-Column-Regular" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
@@ -3037,9 +3037,9 @@
         </table>
         <h3>Response Elements</h3>
         <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
-            <col style="width: 255px;" />
-            <col style="width: 264px;" />
-            <col style="width: 175px;" />
+            <col style="width: 255px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 264px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 175px;" class="TableStyle-PatternedRows-Column-Regular" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
@@ -3739,9 +3739,9 @@
         </table>
         <p>History (one for each change for the above booking for the time period).</p>
         <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
-            <col style="width: 214px;" />
-            <col style="width: 323px;" />
-            <col style="width: 160px;" />
+            <col style="width: 214px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 323px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 160px;" class="TableStyle-PatternedRows-Column-Regular" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
@@ -5842,9 +5842,9 @@
         <p>Returns a list of holidays for a specific date.</p>
         <h3>Request Parameters</h3>
         <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
-            <col style="width: 172px;" />
-            <col style="width: 258px;" />
-            <col style="width: 264px;" />
+            <col style="width: 172px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 258px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 264px;" class="TableStyle-PatternedRows-Column-Regular" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
@@ -5907,9 +5907,9 @@
         </table>
         <h3>Response Elements</h3>
         <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
-            <col style="width: 243px;" />
-            <col style="width: 259px;" />
-            <col style="width: 196px;" />
+            <col style="width: 243px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 259px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 196px;" class="TableStyle-PatternedRows-Column-Regular" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
@@ -5978,9 +5978,9 @@
         <p>Returns a list of building hours for a specific date.</p>
         <h3>Request Parameters</h3>
         <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
-            <col style="width: 216px;" />
-            <col style="width: 281px;" />
-            <col style="width: 201px;" />
+            <col style="width: 216px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 281px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 201px;" class="TableStyle-PatternedRows-Column-Regular" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
@@ -6043,9 +6043,9 @@
         </table>
         <h3>Response Elements</h3>
         <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
-            <col style="width: 216px;" />
-            <col style="width: 283px;" />
-            <col style="width: 198px;" />
+            <col style="width: 216px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 283px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 198px;" class="TableStyle-PatternedRows-Column-Regular" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
@@ -6125,9 +6125,9 @@
         <p>Returns a list of buildings.</p>
         <h3>Request Parameters</h3>
         <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
-            <col style="width: 220px;" />
-            <col style="width: 348px;" />
-            <col style="width: 131px;" />
+            <col style="width: 220px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 348px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 131px;" class="TableStyle-PatternedRows-Column-Regular" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
@@ -6168,9 +6168,9 @@
         </table>
         <h3>Response Elements</h3>
         <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
-            <col style="width: 221px;" />
-            <col style="width: 337px;" />
-            <col style="width: 142px;" />
+            <col style="width: 221px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 337px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 142px;" class="TableStyle-PatternedRows-Column-Regular" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
@@ -6261,9 +6261,9 @@
         <p>This API retrieves EMS category information. By passing a building parameter, it will only return categories valid for the building ID entered.</p>
         <h3>Request Parameters</h3>
         <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
-            <col style="width: 196px;" />
-            <col style="width: 367px;" />
-            <col style="width: 138px;" />
+            <col style="width: 196px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 367px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 138px;" class="TableStyle-PatternedRows-Column-Regular" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
@@ -6315,9 +6315,9 @@
         </table>
         <h3>Response Elements</h3>
         <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
-            <col />
-            <col style="width: 445px;" />
-            <col />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 445px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
@@ -6463,9 +6463,9 @@
         <p>This API retrieves EMS category state information. By passing a category parameter, it will only return categories valid for the building ID entered.</p>
         <h3>Request Parameters</h3>
         <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
-            <col style="width: 147px;" />
-            <col style="width: 388px;" />
-            <col style="width: 161px;" />
+            <col style="width: 147px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 388px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 161px;" class="TableStyle-PatternedRows-Column-Regular" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
@@ -6517,9 +6517,9 @@
         </table>
         <h3>Response Elements</h3>
         <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
-            <col style="width: 202px;" />
-            <col style="width: 294px;" />
-            <col style="width: 201px;" />
+            <col style="width: 202px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 294px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 201px;" class="TableStyle-PatternedRows-Column-Regular" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
@@ -7227,9 +7227,9 @@
         <p>Returns component room details for a specific combo room.</p>
         <h3>Request Parameters</h3>
         <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
-            <col style="width: 238px;" />
-            <col style="width: 264px;" />
-            <col style="width: 199px;" />
+            <col style="width: 238px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 264px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 199px;" class="TableStyle-PatternedRows-Column-Regular" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
@@ -7281,9 +7281,9 @@
         </table>
         <h3>Response Elements</h3>
         <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
-            <col style="width: 237px;" />
-            <col style="width: 265px;" />
-            <col style="width: 177px;" />
+            <col style="width: 237px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 265px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 177px;" class="TableStyle-PatternedRows-Column-Regular" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
@@ -7443,37 +7443,18 @@
                 </tr>
             </tbody>
         </table>
-        <h3>Sample Code</h3>
-        <p>Private Sub GetComboRoomComponents()</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim svc As New EMSAPI.ServiceSoapClient</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim objReader As New System.IO.StringReader(svc.GetComboRoomComponents(“UserID”, “Password”, 3272))</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim dst As New DataSet("Data")</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; dst.ReadXml(objReader)</p>
-        <p>End Sub</p>
-        <p>&#160;</p>
-        <h3>Example Response</h3>
-        <p>&lt;RoomComponents&gt;</p>
-        <p>&lt;Data&gt;</p>
-        <p>&lt;Room&gt;RM 102&lt;/Room&gt;</p>
-        <p>&lt;Description&gt;Room 102&lt;/Description&gt;</p>
-        <p>&lt;Building&gt;Denver&lt;/Building&gt;</p>
-        <p>&lt;Floor&gt;1<sup>st</sup>&#160;Floor&lt;/Floor&gt;</p>
-        <p>&lt;Type&gt;Meeting Room&lt;/Type&gt;</p>
-        <p>&lt;Classification&gt;Standard&lt;/Classification&gt;</p>
-        <p>&lt;Phone&gt;x456&lt;/Phone&gt;</p>
-        <p>&lt;Notes /&gt;</p>
-        <p>&lt;RoomSize&gt;10&lt;/RoomSize&gt;</p>
-        <p>&lt;SetupHours&gt;0&lt;/SetupHours&gt;</p>
-        <p>&lt;TeardownHours&gt;0&lt;/TeardownHours&gt;</p>
-        <p>&lt;HVACZone /&gt;</p>
-        <p>&lt;URL /&gt;</p>
-        <p>&lt;/Data&gt;</p>
-        <p>&lt;/RoomComponents&gt;</p>
-        <h2>GetCommentTypes</h2>
+        <h3>Sample Code</h3><pre>Private Sub GetComboRoomComponents()</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim svc As New EMSAPI.ServiceSoapClient</pre><pre xml:space="preserve">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim objReader As New System.IO.StringReader
+		(svc.GetComboRoomComponents(“UserID”, 
+		“Password”, 3272))</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim dst As New DataSet("Data")</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; dst.ReadXml(objReader)</pre><pre>End Sub</pre>
+        <h3>Example Response</h3><pre>&lt;RoomComponents&gt;</pre><pre>&lt;Data&gt;</pre><pre xml:space="preserve">	&lt;Room&gt;RM 102&lt;/Room&gt;</pre><pre xml:space="preserve">	&lt;Description&gt;Room 102&lt;/Description&gt;</pre><pre xml:space="preserve">	&lt;Building&gt;Denver&lt;/Building&gt;</pre><pre xml:space="preserve">	&lt;Floor&gt;1<sup>st</sup>&#160;Floor&lt;/Floor&gt;</pre><pre xml:space="preserve">	&lt;Type&gt;Meeting Room&lt;/Type&gt;</pre><pre xml:space="preserve">	&lt;Classification&gt;Standard&lt;/Classification&gt;</pre><pre xml:space="preserve">	&lt;Phone&gt;x456&lt;/Phone&gt;</pre><pre xml:space="preserve">	&lt;Notes /&gt;</pre><pre xml:space="preserve">	&lt;RoomSize&gt;10&lt;/RoomSize&gt;</pre><pre xml:space="preserve">	&lt;SetupHours&gt;0&lt;/SetupHours&gt;</pre><pre xml:space="preserve">	&lt;TeardownHours&gt;0&lt;/TeardownHours&gt;</pre><pre xml:space="preserve">	&lt;HVACZone /&gt;</pre><pre xml:space="preserve">	&lt;URL /&gt;</pre><pre xml:space="preserve">	&lt;/Data&gt;</pre><pre>&lt;/RoomComponents&gt;</pre>
+        <h2><a name="GetCommentTypes"></a>GetCommentTypes</h2>
         <h3>Description</h3>
-        <p>Returns a list of comment types</p>
+        <p>Returns a list of comment types.</p>
         <h3>Request Parameters</h3>
         <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
+            <col style="width: 270px;" />
+            <col style="width: 276px;" />
+            <col style="width: 146px;" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
@@ -7514,6 +7495,9 @@
         </table>
         <h3>Response Elements</h3>
         <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
+            <col style="width: 269px;" />
+            <col style="width: 275px;" />
+            <col style="width: 148px;" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
@@ -7563,31 +7547,17 @@
                 </tr>
             </tbody>
         </table>
-        <h3>Sample Code</h3>
-        <p>Private Sub GetCommentTypes()</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim svc As New EMSAPI.ServiceSoapClient</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim objReader As New System.IO.StringReader(svc.GetCommentTypes(“UserID”, “Password”))</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim dst As New DataSet("Data")</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; dst.ReadXml(objReader)</p>
-        <p>End Sub</p>
-        <h3>Example Response</h3>
-        <p>&lt;CommentTypes&gt;</p>
-        <p>&lt;Data&gt;</p>
-        <p>&lt;Description&gt;(user specified comment)&lt;/Description&gt;</p>
-        <p>&lt;ID&gt;-38&lt;/ID&gt;</p>
-        <p>&lt;Comments/&gt;</p>
-        <p>&lt;/Data&gt;</p>
-        <p>&lt;Data&gt;</p>
-        <p>&lt;Description&gt;Res. Comments&lt;/Description&gt;</p>
-        <p>&lt;ID&gt;2&lt;/ID&gt;</p>
-        <p>&lt;Comments&gt;test comments&lt;/Comments&gt;</p>
-        <p>&lt;/Data&gt;</p>
-        <p>&lt;/CommentTypes&gt;</p>
-        <h2>GetContactDetails</h2>
+        <h3>Sample Code</h3><pre>Private Sub GetCommentTypes()</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim svc As New EMSAPI.ServiceSoapClient</pre><pre xml:space="preserve">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim objReader As New System.IO.StringReader
+		(svc.GetCommentTypes(“UserID”, “Password”))</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim dst As New DataSet("Data")</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; dst.ReadXml(objReader)</pre><pre>End Sub</pre>
+        <h3>Example Response</h3><pre>&lt;CommentTypes&gt;</pre><pre>&lt;Data&gt;</pre><pre xml:space="preserve">	&lt;Description&gt;(user specified comment)&lt;/Description&gt;</pre><pre xml:space="preserve">	&lt;ID&gt;-38&lt;/ID&gt;</pre><pre xml:space="preserve">	&lt;Comments/&gt;</pre><pre xml:space="preserve">	&lt;/Data&gt;</pre><pre xml:space="preserve">	&lt;Data&gt;</pre><pre xml:space="preserve">	&lt;Description&gt;Res. Comments&lt;/Description&gt;</pre><pre xml:space="preserve">	&lt;ID&gt;2&lt;/ID&gt;</pre><pre xml:space="preserve">	&lt;Comments&gt;test comments&lt;/Comments&gt;</pre><pre xml:space="preserve">	&lt;/Data&gt;</pre><pre>&lt;/CommentTypes&gt;</pre>
+        <h2><a name="GetContactDetails"></a>GetContactDetails</h2>
         <h3>Description</h3>
-        <p>Returns details for a specific Contact</p>
+        <p>Returns details for a specific contact.</p>
         <h3>Request Parameters</h3>
         <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
+            <col style="width: 238px;" />
+            <col style="width: 287px;" />
+            <col style="width: 161px;" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
@@ -7639,6 +7609,9 @@
         </table>
         <h3>Response Elements</h3>
         <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
+            <col style="width: 237px;" />
+            <col style="width: 289px;" />
+            <col style="width: 161px;" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
@@ -7798,36 +7771,18 @@
                 </tr>
             </tbody>
         </table>
-        <h3>Sample Code</h3>
-        <p>Private Sub GetContactDetails()</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim svc As New EMSAPI.ServiceSoapClient</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim objReader As New System.IO.StringReader(svc.GetContactDetails(“UserID”, “Password”, 12345))</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim dst As New DataSet("Data")</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; dst.ReadXml(objReader)</p>
-        <p>End Sub</p>
-        <h3>Example Response</h3>
-        <p>&lt;ContactDetails&gt;</p>
-        <p>&lt;Data&gt;</p>
-        <p>&lt;Contact&gt;Test Contact&lt;/Contact&gt;</p>
-        <p>&lt;GroupName&gt;Text Group&lt;/GroupName&gt;</p>
-        <p>&lt;Address1&gt;123 Main St.&lt;/Address1&gt;</p>
-        <p>&lt;Address2/&gt;</p>
-        <p>&lt;City&gt;Denver&lt;/City&gt;</p>
-        <p>&lt;State&gt;CO&lt;/State&gt;</p>
-        <p>&lt;ZipCode&gt;80111&lt;/ZipCode&gt;</p>
-        <p>&lt;Country /&gt;</p>
-        <p>&lt;Phone&gt;x123&lt;/Phone&gt;</p>
-        <p>&lt;Fax /&gt;</p>
-        <p>&lt;EmailAddress&gt;testcontact@test.com&lt;/EmailAddress&gt;</p>
-        <p>&lt;ExternalReference /&gt;</p>
-        <p>&lt;GroupID&gt;1234&lt;/GroupID&gt;</p>
-        <p>&lt;/Data&gt;</p>
-        <p>&lt;/ContactDetails&gt;</p>
-        <h2>GetContacts</h2>
+        <h3>Sample Code</h3><pre>Private Sub GetContactDetails()</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim svc As New EMSAPI.ServiceSoapClient</pre><pre xml:space="preserve">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim objReader As New System.IO.StringReader
+		(svc.GetContactDetails(“UserID”, 
+		“Password”, 12345))</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim dst As New DataSet("Data")</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; dst.ReadXml(objReader)</pre><pre>End Sub</pre>
+        <h3>Example Response</h3><pre>&lt;ContactDetails&gt;</pre><pre>&lt;Data&gt;</pre><pre xml:space="preserve">	&lt;Contact&gt;Test Contact&lt;/Contact&gt;</pre><pre xml:space="preserve">	&lt;GroupName&gt;Text Group&lt;/GroupName&gt;</pre><pre xml:space="preserve">	&lt;Address1&gt;123 Main St.&lt;/Address1&gt;</pre><pre xml:space="preserve">	&lt;Address2/&gt;</pre><pre xml:space="preserve">	&lt;City&gt;Denver&lt;/City&gt;</pre><pre xml:space="preserve">	&lt;State&gt;CO&lt;/State&gt;</pre><pre xml:space="preserve">	&lt;ZipCode&gt;80111&lt;/ZipCode&gt;</pre><pre xml:space="preserve">	&lt;Country /&gt;</pre><pre xml:space="preserve">	&lt;Phone&gt;x123&lt;/Phone&gt;</pre><pre xml:space="preserve">	&lt;Fax /&gt;</pre><pre xml:space="preserve">	&lt;EmailAddress&gt;testcontact@test.com&lt;/EmailAddress&gt;</pre><pre xml:space="preserve">	&lt;ExternalReference /&gt;</pre><pre xml:space="preserve">	&lt;GroupID&gt;1234&lt;/GroupID&gt;</pre><pre>&lt;/Data&gt;</pre><pre>&lt;/ContactDetails&gt;</pre>
+        <h2><a name="GetContacts"></a>GetContacts</h2>
         <h3>Description</h3>
-        <p>Returns Contact list for a Group</p>
+        <p>Returns a contact list for a Group.</p>
         <h3>Request Parameters</h3>
         <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
+            <col style="width: 223px;" />
+            <col style="width: 312px;" />
+            <col style="width: 152px;" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
@@ -7877,9 +7832,11 @@
                 </tr>
             </tbody>
         </table>
-        <p>&#160;</p>
         <h3>Response Elements</h3>
         <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
+            <col style="width: 224px;" />
+            <col style="width: 311px;" />
+            <col style="width: 154px;" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
@@ -8039,36 +7996,17 @@
                 </tr>
             </tbody>
         </table>
-        <h3>Sample Code</h3>
-        <p>Private Sub GetContacts()</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim svc As New EMSAPI.ServiceSoapClient</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim objReader As New System.IO.StringReader(svc.GetContacts(“UserID”, “Password”, 1234))</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim dst As New DataSet("Data")</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; dst.ReadXml(objReader)</p>
-        <p>End Sub</p>
-        <h3>Example Response</h3>
-        <p>&lt;Contacts&gt;</p>
-        <p>&lt;Data&gt;</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;ContactID&gt;12345&lt;/ContactID&gt;</p>
-        <p>&lt;Contact&gt;Test Contact&lt;/Contact&gt;</p>
-        <p>&lt;GroupName&gt;Text Group&lt;/GroupName&gt;</p>
-        <p>&lt;Address1&gt;123 Main St.&lt;/Address1&gt;</p>
-        <p>&lt;Address2/&gt;</p>
-        <p>&lt;City&gt;Denver&lt;/City&gt;</p>
-        <p>&lt;State&gt;CO&lt;/State&gt;</p>
-        <p>&lt;ZipCode&gt;80111&lt;/ZipCode&gt;</p>
-        <p>&lt;Country /&gt;</p>
-        <p>&lt;Phone&gt;x123&lt;/Phone&gt;</p>
-        <p>&lt;Fax /&gt;</p>
-        <p>&lt;EmailAddress&gt;testcontact@test.com&lt;/EmailAddress&gt;</p>
-        <p>&lt;ExternalReference /&gt;</p>
-        <p>&lt;/Data&gt;</p>
-        <p>&lt;/Contacts&gt;</p>
-        <h2>GetCourseBookings</h2>
+        <h3>Sample Code</h3><pre>Private Sub GetContacts()</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim svc As New EMSAPI.ServiceSoapClient</pre><pre xml:space="preserve">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim objReader As New System.IO.StringReader
+		(svc.GetContacts(“UserID”, “Password”, 1234))</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim dst As New DataSet("Data")</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; dst.ReadXml(objReader)</pre><pre>End Sub</pre>
+        <h3>Example Response</h3><pre>&lt;Contacts&gt;</pre><pre>&lt;Data&gt;</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;ContactID&gt;12345&lt;/ContactID&gt;</pre><pre>&lt;Contact&gt;Test Contact&lt;/Contact&gt;</pre><pre>&lt;GroupName&gt;Text Group&lt;/GroupName&gt;</pre><pre>&lt;Address1&gt;123 Main St.&lt;/Address1&gt;</pre><pre>&lt;Address2/&gt;</pre><pre>&lt;City&gt;Denver&lt;/City&gt;</pre><pre>&lt;State&gt;CO&lt;/State&gt;</pre><pre>&lt;ZipCode&gt;80111&lt;/ZipCode&gt;</pre><pre>&lt;Country /&gt;</pre><pre>&lt;Phone&gt;x123&lt;/Phone&gt;</pre><pre>&lt;Fax /&gt;</pre><pre>&lt;EmailAddress&gt;testcontact@test.com&lt;/EmailAddress&gt;</pre><pre>&lt;ExternalReference /&gt;</pre><pre>&lt;/Data&gt;</pre><pre>&lt;/Contacts&gt;</pre>
+        <h2><a name="GetCourseBookings"></a>GetCourseBookings</h2>
         <h3>Description</h3>
-        <p>Returns a list of bookings tied to courses based on filters provided</p>
+        <p>Returns a list of bookings tied to courses based on filters provided.</p>
         <h3>Request Parameters</h3>
         <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
+            <col style="width: 336px;" />
+            <col style="width: 234px;" />
+            <col />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
@@ -8176,6 +8114,9 @@
         <p>&#160;</p>
         <h3>Response Elements</h3>
         <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
+            <col style="width: 250px;" />
+            <col style="width: 321px;" />
+            <col />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
@@ -8665,101 +8606,20 @@
                 </tr>
             </tbody>
         </table>
-        <h3>Sample Code</h3>
-        <p>Private Sub GetBookings()</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim dvwBuildings, dvwStatuses, dvwEventTypes As DataView</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim gintBuildings As New Generic.List(Of Int32)</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim gintStatuses As New Generic.List(Of Int32)</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim gintEventTypes As New Generic.List(Of Int32)</p>
-        <p>&#160;</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim svc As New EMSAPI.ServiceSoapClient</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim objReader As New StringReader(svc.GetBuildings(“UserID”, “Password”))</p>
-        <p>&#160;</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; dvwBuildings = Me.GetData(objReader)</p>
-        <p>&#160;</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; objReader = New StringReader(svc.GetStatuses(“UserID”, “Password”))</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; dvwStatuses = Me.GetData(objReader)</p>
-        <p>&#160;</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; objReader = New StringReader(svc.GetEventTypes(“UserID”, “Password”))</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; dvwEventTypes = Me.GetData(objReader)</p>
-        <p>&#160;</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; For Each drv As DataRowView In dvwBuildings</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; gintBuildings.Add(drv("ID"))</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Next</p>
-        <p>&#160;</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; For Each drv As DataRowView In dvwStatuses</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; gintStatuses.Add(drv("ID"))</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Next</p>
-        <p>&#160;</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; For Each drv As DataRowView In dvwEventTypes</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; gintEventTypes.Add(drv("ID"))</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Next</p>
-        <p>&#160;</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim strBuildings As New EMSAPI.ArrayOfInt</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim strStatuses As New EMSAPI.ArrayOfInt</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim strEventTypes As New EMSAPI.ArrayOfInt</p>
-        <p>&#160;</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; strBuildings.AddRange(gintBuildings.ToArray)</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; strStatuses.AddRange(gintStatuses.ToArray)</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; strEventTypes.AddRange(gintEventTypes.ToArray)</p>
-        <p>&#160;</p>
-        <p>objReader = New StringReader(svc.GetCourseBookings(“UserID”, “Password”, Date.Today, Date.Today, strBuildings, strStatuses, strEventTypes, False))</p>
-        <p>&#160;</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim dst As New DataSet("Data")</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; dst.ReadXml(objReader)</p>
-        <p>End Sub</p>
-        <h3>Example Response</h3>
-        <p>&lt;CourseBookings&gt;</p>
-        <p>&lt;Data&gt;</p>
-        <p>&lt;BookingDate&gt;2009-10-04T00:00:00&lt;/BookingDate&gt;</p>
-        <p>&lt;StartBookingDate&gt;2009-10-04T00:00:00&lt;/StartBookingDate&gt;</p>
-        <p>&lt;RoomDescription&gt;DEN Room 101&lt;/RoomDescription&gt;</p>
-        <p>&lt;TimeEventStart&gt;2009-10-04T16:00:00&lt;/TimeEventStart&gt;</p>
-        <p>&lt;TimeEventEnd&gt;2009-10-04T17:00:00&lt;/TimeEventEnd&gt;</p>
-        <p>&lt;GroupName&gt;ABC Company &lt;/GroupName&gt;</p>
-        <p>&lt;EventName&gt;Spring Conference&lt;/EventName&gt;</p>
-        <p>&lt;ReservationID&gt;6650&lt;/ReservationID&gt;</p>
-        <p>&lt;GroupID&gt;499&lt;/GroupID&gt;</p>
-        <p>&lt;GroupTypeDescription&gt;Corporate&lt;/GroupTypeDescription&gt;</p>
-        <p>&lt;EventTypeDescription&gt;Conference&lt;/EventTypeDescription&gt;</p>
-        <p>&lt;Contact&gt;Jim Smith&lt;/Contact&gt;</p>
-        <p>&lt;AltContact /&gt;</p>
-        <p>&lt;BookingID&gt;222008&lt;/BookingID&gt;</p>
-        <p>&lt;TimeBookingStart&gt;2009-10-04T16:00:00&lt;/TimeBookingStart&gt;</p>
-        <p>&lt;TimeBookingEnd&gt;2009-10-04T17:00:00&lt;/TimeBookingEnd&gt;</p>
-        <p>&lt;GMTStartTime&gt;2009-10-04T22:00:00&lt;/GMTStartTime&gt;</p>
-        <p>&lt;GMTEndTime&gt;2009-10-04T23:00:00&lt;/GMTEndTime&gt;</p>
-        <p>&lt;TimeZone&gt;MT&lt;/TimeZone&gt;</p>
-        <p>&lt;BuildingCode&gt;DEN&lt;/BuildingCode&gt;</p>
-        <p>&lt;Building&gt;Denver&lt;/Building&gt;</p>
-        <p>&lt;RoomCode&gt;RM101&lt;/RoomCode&gt;</p>
-        <p>&lt;Room&gt;Room 101&lt;/RoomCode&gt;</p>
-        <p>&lt;RoomID&gt;3271&lt;/RoomID&gt;</p>
-        <p>&lt;BuildingID&gt;1&lt;/BuildingID&gt;</p>
-        <p>&lt;StatusID&gt;1&lt;/StatusID&gt;</p>
-        <p>&lt;StatusTypeID&gt;-14&lt;/StatusTypeID&gt;</p>
-        <p>&lt;EventTypeID&gt;4&lt;/EventTypeID&gt;</p>
-        <p>&lt;GroupTypeID&gt;3&lt;/GroupTypeID&gt;</p>
-        <p>&lt;RoomTypeID&gt;1&lt;/RoomTypeID&gt;</p>
-        <p>&lt;RoomType&gt;Classroom&lt;/RoomType&gt;</p>
-        <p>&lt;TermCode&gt;Fall 2012&lt;/TermCode&gt;</p>
-        <p>&lt;CRN&gt;10101&lt;/CRN&gt;</p>
-        <p>&lt;SubjectCode&gt;ACCT&lt;/SubjectCode&gt;</p>
-        <p>&lt;Course&gt;101&lt;/Course&gt;</p>
-        <p>&lt;Section&gt;01&lt;/Section&gt;</p>
-        <p>&lt;CourseTitle&gt;Accounting Course&lt;/CourseTitle&gt;</p>
-        <p>&lt;DateAdded&gt;2009-10-04T16:00:00&lt;/DateAdded&gt;</p>
-        <p>&lt;AddedBy&gt;User 1&lt;/AddedBy&gt;</p>
-        <p>&lt;DateChanged&gt;2009-10-04T16:00:00&lt;/DateChanged&gt;</p>
-        <p>&lt;ChangedBy&gt;User 1&lt;/ChangedBy&gt;<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;ContactEmailAddress&gt;jsmith@test.com&lt;/ContactEmailAddress&gt;</p>
-        <p>&lt;/Data&gt;</p>
-        <p>&lt;/CourseBookings&gt;</p>
-        <h2>GetEventTypes</h2>
+        <h3>Sample Code</h3><pre>Private Sub GetBookings()</pre><pre xml:space="preserve">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim dvwBuildings, dvwStatuses, dvwEventTypes 
+		As DataView</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim gintBuildings As New Generic.List(Of Int32)</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim gintStatuses As New Generic.List(Of Int32)</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim gintEventTypes As New Generic.List(Of Int32)</pre><pre>&#160;</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim svc As New EMSAPI.ServiceSoapClient</pre><pre xml:space="preserve">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim objReader As New StringReader
+		(svc.GetBuildings(“UserID”, “Password”))</pre><pre>&#160;</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; dvwBuildings = Me.GetData(objReader)</pre><pre>&#160;</pre><pre xml:space="preserve">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; objReader = New StringReader(svc.GetStatuses
+		(“UserID”, “Password”))</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; dvwStatuses = Me.GetData(objReader)</pre><pre>&#160;</pre><pre xml:space="preserve">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; objReader = New StringReader(svc.GetEventTypes</pre><pre xml:space="preserve">		(“UserID”, “Password”))</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; dvwEventTypes = Me.GetData(objReader)</pre><pre>&#160;</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; For Each drv As DataRowView In dvwBuildings</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; gintBuildings.Add(drv("ID"))</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Next</pre><pre>&#160;</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; For Each drv As DataRowView In dvwStatuses</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; gintStatuses.Add(drv("ID"))</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Next</pre><pre>&#160;</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; For Each drv As DataRowView In dvwEventTypes</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; gintEventTypes.Add(drv("ID"))</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Next</pre><pre>&#160;</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim strBuildings As New EMSAPI.ArrayOfInt</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim strStatuses As New EMSAPI.ArrayOfInt</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim strEventTypes As New EMSAPI.ArrayOfInt</pre><pre>&#160;</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; strBuildings.AddRange(gintBuildings.ToArray)</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; strStatuses.AddRange(gintStatuses.ToArray)</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; strEventTypes.AddRange(gintEventTypes.ToArray)</pre><pre>&#160;</pre><pre xml:space="preserve">objReader = New StringReader(svc.GetCourseBookings(“UserID”, 
+“Password”, Date.Today, Date.Today, strBuildings, strStatuses, </pre><pre xml:space="preserve">strEventTypes, False))</pre><pre>&#160;</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim dst As New DataSet("Data")</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; dst.ReadXml(objReader)</pre><pre>End Sub</pre>
+        <h3>Example Response</h3><pre>&lt;CourseBookings&gt;</pre><pre>&lt;Data&gt;</pre><pre xml:space="preserve">	&lt;BookingDate&gt;2009-10-04T00:00:00&lt;/BookingDate&gt;</pre><pre xml:space="preserve">	&lt;StartBookingDate&gt;2009-10-04T00:00:00&lt;/StartBookingDate&gt;</pre><pre xml:space="preserve">	&lt;RoomDescription&gt;DEN Room 101&lt;/RoomDescription&gt;</pre><pre xml:space="preserve">	&lt;TimeEventStart&gt;2009-10-04T16:00:00&lt;/TimeEventStart&gt;</pre><pre xml:space="preserve">	&lt;TimeEventEnd&gt;2009-10-04T17:00:00&lt;/TimeEventEnd&gt;</pre><pre xml:space="preserve">	&lt;GroupName&gt;ABC Company &lt;/GroupName&gt;</pre><pre xml:space="preserve">	&lt;EventName&gt;Spring Conference&lt;/EventName&gt;</pre><pre xml:space="preserve">	&lt;ReservationID&gt;6650&lt;/ReservationID&gt;</pre><pre xml:space="preserve">	&lt;GroupID&gt;499&lt;/GroupID&gt;</pre><pre xml:space="preserve">	&lt;GroupTypeDescription&gt;Corporate&lt;/GroupTypeDescription&gt;</pre><pre xml:space="preserve">	&lt;EventTypeDescription&gt;Conference&lt;/EventTypeDescription&gt;</pre><pre xml:space="preserve">	&lt;Contact&gt;Jim Smith&lt;/Contact&gt;</pre><pre xml:space="preserve">	&lt;AltContact /&gt;</pre><pre xml:space="preserve">	&lt;BookingID&gt;222008&lt;/BookingID&gt;</pre><pre xml:space="preserve">	&lt;TimeBookingStart&gt;2009-10-04T16:00:00&lt;/TimeBookingStart&gt;</pre><pre xml:space="preserve">	&lt;TimeBookingEnd&gt;2009-10-04T17:00:00&lt;/TimeBookingEnd&gt;</pre><pre xml:space="preserve">	&lt;GMTStartTime&gt;2009-10-04T22:00:00&lt;/GMTStartTime&gt;</pre><pre xml:space="preserve">	&lt;GMTEndTime&gt;2009-10-04T23:00:00&lt;/GMTEndTime&gt;</pre><pre xml:space="preserve">	&lt;TimeZone&gt;MT&lt;/TimeZone&gt;</pre><pre xml:space="preserve">	&lt;BuildingCode&gt;DEN&lt;/BuildingCode&gt;</pre><pre xml:space="preserve">	&lt;Building&gt;Denver&lt;/Building&gt;</pre><pre xml:space="preserve">	&lt;RoomCode&gt;RM101&lt;/RoomCode&gt;</pre><pre xml:space="preserve">	&lt;Room&gt;Room 101&lt;/RoomCode&gt;</pre><pre xml:space="preserve">	&lt;RoomID&gt;3271&lt;/RoomID&gt;</pre><pre xml:space="preserve">	&lt;BuildingID&gt;1&lt;/BuildingID&gt;</pre><pre xml:space="preserve">	&lt;StatusID&gt;1&lt;/StatusID&gt;</pre><pre xml:space="preserve">	&lt;StatusTypeID&gt;-14&lt;/StatusTypeID&gt;</pre><pre xml:space="preserve">	&lt;EventTypeID&gt;4&lt;/EventTypeID&gt;</pre><pre xml:space="preserve">	&lt;GroupTypeID&gt;3&lt;/GroupTypeID&gt;</pre><pre xml:space="preserve">	&lt;RoomTypeID&gt;1&lt;/RoomTypeID&gt;</pre><pre xml:space="preserve">	&lt;RoomType&gt;Classroom&lt;/RoomType&gt;</pre><pre xml:space="preserve">	&lt;TermCode&gt;Fall 2012&lt;/TermCode&gt;</pre><pre xml:space="preserve">	&lt;CRN&gt;10101&lt;/CRN&gt;</pre><pre xml:space="preserve">	&lt;SubjectCode&gt;ACCT&lt;/SubjectCode&gt;</pre><pre xml:space="preserve">	&lt;Course&gt;101&lt;/Course&gt;</pre><pre xml:space="preserve">	&lt;Section&gt;01&lt;/Section&gt;</pre><pre xml:space="preserve">	&lt;CourseTitle&gt;Accounting Course&lt;/CourseTitle&gt;</pre><pre xml:space="preserve">	&lt;DateAdded&gt;2009-10-04T16:00:00&lt;/DateAdded&gt;</pre><pre xml:space="preserve">	&lt;AddedBy&gt;User 1&lt;/AddedBy&gt;</pre><pre xml:space="preserve">	&lt;DateChanged&gt;2009-10-04T16:00:00&lt;/DateChanged&gt;</pre><pre xml:space="preserve">	&lt;ChangedBy&gt;User 1&lt;/ChangedBy&gt;<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;ContactEmailAddress&gt;jsmith@test.com&lt;/ContactEmailAddress&gt;</pre><pre>&lt;/Data&gt;</pre><pre>&lt;/CourseBookings&gt;</pre>
+        <h2><a name="GetEventTypes"></a>GetEventTypes</h2>
         <h3>Description</h3>
-        <p>Returns a list of event types</p>
-        <p>&#160;</p>
+        <p>Returns a list of event types.</p>
         <h3>Request Parameters</h3>
         <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
+            <col style="width: 239px;" />
+            <col style="width: 309px;" />
+            <col style="width: 136px;" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
@@ -8799,7 +8659,10 @@
             </tbody>
         </table>
         <h3>Response Elements</h3>
-        <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
+        <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');width: 687px;" class="TableStyle-PatternedRows" cellspacing="0">
+            <col style="width: 237px;" />
+            <col style="width: 309px;" />
+            <col />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
@@ -8849,36 +8712,16 @@
                 </tr>
             </tbody>
         </table>
-        <h3>Sample Code</h3>
-        <p>Private Sub GetEventTypes()</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim svc As New EMSAPI.ServiceSoapClient</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim objReader As New System.IO.StringReader(svc.GetEventTypes(“UserID”, “Password”))</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim dst As New DataSet("Data")</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; dst.ReadXml(objReader)</p>
-        <p>End Sub</p>
-        <h3>Example Response</h3>
-        <p>&lt;EventTypes&gt;</p>
-        <p>&lt;Data&gt;</p>
-        <p>&lt;Description&gt;(none)&lt;/Description&gt;</p>
-        <p>&lt;ID&gt;0&lt;/ID&gt;</p>
-        <p>&lt;DisplayOnWeb&gt;true&lt;/DisplayOnWeb&gt;</p>
-        <p>&lt;/Data&gt;</p>
-        <p>&lt;Data&gt;</p>
-        <p>&lt;Description&gt;Meeting&lt;/Description&gt;</p>
-        <p>&lt;ID&gt;2&lt;/ID&gt;</p>
-        <p>&lt;DisplayOnWeb&gt;true&lt;/DisplayOnWeb&gt;</p>
-        <p>&lt;/Data&gt;</p>
-        <p>&lt;Data&gt;</p>
-        <p>&lt;Description&gt;Inactive&lt;/Description&gt;</p>
-        <p>&lt;ID&gt;3&lt;/ID&gt;</p>
-        <p>&lt;DisplayOnWeb&gt;true&lt;/DisplayOnWeb&gt;</p>
-        <p>&lt;/Data&gt;</p>
-        <p>&lt;/EventTypes&gt;</p>
-        <h2>GetFeatures</h2>
+        <h3>Sample Code</h3><pre>Private Sub GetEventTypes()</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim svc As New EMSAPI.ServiceSoapClient</pre><pre xml:space="preserve">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim objReader As New System.IO.StringReader</pre><pre xml:space="preserve">		(svc.GetEventTypes(“UserID”, “Password”))</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim dst As New DataSet("Data")</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; dst.ReadXml(objReader)</pre><pre>End Sub</pre>
+        <h3>Example Response</h3><pre>&lt;EventTypes&gt;</pre><pre>&lt;Data&gt;</pre><pre xml:space="preserve">	&lt;Description&gt;(none)&lt;/Description&gt;</pre><pre xml:space="preserve">	&lt;ID&gt;0&lt;/ID&gt;</pre><pre xml:space="preserve">	&lt;DisplayOnWeb&gt;true&lt;/DisplayOnWeb&gt;</pre><pre xml:space="preserve">	&lt;/Data&gt;</pre><pre xml:space="preserve">	&lt;Data&gt;</pre><pre xml:space="preserve">	&lt;Description&gt;Meeting&lt;/Description&gt;</pre><pre xml:space="preserve">	&lt;ID&gt;2&lt;/ID&gt;</pre><pre xml:space="preserve">	&lt;DisplayOnWeb&gt;true&lt;/DisplayOnWeb&gt;</pre><pre xml:space="preserve">	&lt;/Data&gt;</pre><pre xml:space="preserve">	&lt;Data&gt;</pre><pre xml:space="preserve">	&lt;Description&gt;Inactive&lt;/Description&gt;</pre><pre xml:space="preserve">	&lt;ID&gt;3&lt;/ID&gt;</pre><pre xml:space="preserve">	&lt;DisplayOnWeb&gt;true&lt;/DisplayOnWeb&gt;</pre><pre>&lt;/Data&gt;</pre><pre>&lt;/EventTypes&gt;</pre>
+        <h2><a name="GetFeatures"></a>GetFeatures</h2>
         <h3>Description</h3>
-        <p>Returns a list of Features</p>
+        <p>Returns a list of Features.</p>
         <h3>Request Parameters</h3>
         <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
+            <col style="width: 215px;" />
+            <col style="width: 324px;" />
+            <col style="width: 148px;" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
@@ -8930,6 +8773,9 @@
         </table>
         <h3>Response Elements</h3>
         <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
+            <col style="width: 215px;" />
+            <col style="width: 320px;" />
+            <col style="width: 150px;" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
@@ -8968,29 +8814,16 @@
                 </tr>
             </tbody>
         </table>
-        <h3>Sample Code</h3>
-        <p>Private Sub GetFeatures()</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim svc As New EMSAPI.ServiceSoapClient</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim objReader As New System.IO.StringReader(svc.GetFeatures(“UserID”, “Password”, 1))</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim dst As New DataSet("Data")</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; dst.ReadXml(objReader)</p>
-        <p>End Sub</p>
-        <h3>Example Response</h3>
-        <p>&lt;Features&gt;</p>
-        <p>&lt;Data&gt;</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;Description&gt;Whiteboard&lt;/Description&gt;</p>
-        <p>&lt;ID&gt;1&lt;/ID&gt;</p>
-        <p>&lt;/Data&gt;</p>
-        <p>&lt;Data&gt;</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;Description&gt;Projector&lt;/Description&gt;</p>
-        <p>&lt;ID&gt;2&lt;/ID&gt;</p>
-        <p>&lt;/Data&gt;</p>
-        <p>&lt;/Features&gt;</p>
-        <h2>GetGroupBookings</h2>
+        <h3>Sample Code</h3><pre>Private Sub GetFeatures()</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim svc As New EMSAPI.ServiceSoapClient</pre><pre xml:space="preserve">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim objReader As New System.IO.StringReader</pre><pre xml:space="preserve">		(svc.GetFeatures(“UserID”, “Password”, 1))</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim dst As New DataSet("Data")</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; dst.ReadXml(objReader)</pre><pre>End Sub</pre>
+        <h3>Example Response</h3><pre>&lt;Features&gt;</pre><pre>&lt;Data&gt;</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;Description&gt;Whiteboard&lt;/Description&gt;</pre><pre>&lt;ID&gt;1&lt;/ID&gt;</pre><pre>&lt;/Data&gt;</pre><pre>&lt;Data&gt;</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;Description&gt;Projector&lt;/Description&gt;</pre><pre>&lt;ID&gt;2&lt;/ID&gt;</pre><pre>&lt;/Data&gt;</pre><pre>&lt;/Features&gt;</pre>
+        <h2><a name="GetGroupBookings"></a>GetGroupBookings</h2>
         <h3>Description</h3>
-        <p>Returns a list of bookings for a group based on filters provided</p>
+        <p>Returns a list of bookings for a group based on filters provided.</p>
         <h3>Request Parameters</h3>
         <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
+            <col style="width: 336px;" />
+            <col style="width: 265px;" />
+            <col />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
@@ -9575,85 +9408,16 @@
                 </tr>
             </tbody>
         </table>
-        <h3>Sample Code</h3>
-        <p>Private Sub GetGroupBookings()</p>
-        <p>Dim dvwStatuses As DataView</p>
-        <p>Dim gintStatuses As New Generic.List(Of Int32)</p>
-        <p>Dim gintStatusTypes As New Generic.List(Of Int32)</p>
-        <p>&#160;</p>
-        <p>Dim svc As New EMSAPI.ServiceSoapClient</p>
-        <p>Dim objReader As New StringReader(svc.GetStatuses(“UserID”, “Password”))</p>
-        <p>&#160;</p>
-        <p>dvwStatuses = Me.GetData(objReader)</p>
-        <p>&#160;</p>
-        <p>For Each drv As DataRowView In dvwStatuses</p>
-        <p>gintStatuses.Add(drv("ID"))</p>
-        <p>Next</p>
-        <p>&#160;</p>
-        <p>gintStatusTypes.Add(-14) ‘Booked Space</p>
-        <p>&#160;</p>
-        <p>Dim strStatuses As New EMSAPI.ArrayOfInt</p>
-        <p>Dim strStatusTypes as New EMSAPI.ArrayOfInt</p>
-        <p>&#160;</p>
-        <p>strStatuses.AddRange(gintStatuses.ToArray)</p>
-        <p>strStatusTypes.AddRange(gintStatusTypes.ToArray)</p>
-        <p>&#160;</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; objReader = New StringReader(svc.GetGroupBookings(“UserID”, “Password”, Date.Today, Date.Today, 499, strStatuses, strStatusTypes, False))</p>
-        <p>&#160;</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim dst As New DataSet("Data")</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; dst.ReadXml(objReader)</p>
-        <p>End Sub</p>
-        <h3>Example Response</h3>
-        <p>&lt;Bookings&gt;</p>
-        <p>&lt;Data&gt;</p>
-        <p>&lt;ReservationID&gt;6650&lt;/ReservationID&gt;</p>
-        <p>&lt;BookingID&gt;222008&lt;/BookingID&gt;</p>
-        <p>&lt;BookingDate&gt;2009-10-04T00:00:00&lt;/BookingDate&gt;</p>
-        <p>&lt;StartBookingDate&gt;2009-10-04T00:00:00&lt;/StartBookingDate&gt;</p>
-        <p>&lt;TimeEventStart&gt;2009-10-04T16:00:00&lt;/TimeEventStart&gt;</p>
-        <p>&lt;TimeEventEnd&gt;2009-10-04T17:00:00&lt;/TimeEventEnd&gt;</p>
-        <p>&lt;GMTEventStart&gt;2009-10-04T22:00:00&lt;/GMTEventStart&gt;</p>
-        <p>&lt;GMTEventEnd&gt;2009-10-04T23:00:00&lt;/GMTEventEnd&gt;</p>
-        <p>&lt;TimeBookingStart&gt;2009-10-04T16:00:00&lt;/TimeBookingStart&gt;</p>
-        <p>&lt;TimeBookingEnd&gt;2009-10-04T17:00:00&lt;/TimeBookingEnd&gt;</p>
-        <p>&lt;GMTBookingStart&gt;2009-10-04T22:00:00&lt;/GMTBookingStart&gt;</p>
-        <p>&lt;GMTBookingEnd&gt;2009-10-04T23:00:00&lt;/GMTBookingEnd&gt;</p>
-        <p>&lt;EventName&gt;Spring Conference&lt;/EventName&gt;</p>
-        <p>&lt;BuildingID&gt;1&lt;/BuildingID&gt;</p>
-        <p>&lt;BuildingCode&gt;DEN&lt;/BuildingCode&gt;</p>
-        <p>&lt;Building&gt;Denver&lt;/Building&gt;</p>
-        <p>&lt;TimeZoneID&gt;68&lt;/TimeZoneID&gt;</p>
-        <p>&lt;TimeZone&gt;MT&lt;/TimeZone&gt;</p>
-        <p>&lt;RoomID&gt;3271&lt;/RoomID&gt;</p>
-        <p>&lt;RoomCode&gt;RM101&lt;/RoomCode&gt;</p>
-        <p>&lt;RoomDescription&gt;Room 101&lt;/RoomDescription&gt;</p>
-        <p>&lt;RoomTypeID&gt;1&lt;/RoomTypeID&gt;</p>
-        <p>&lt;RoomType&gt;Classroom&lt;/RoomType&gt;</p>
-        <p>&lt;StatusID&gt;1&lt;/StatusID&gt;</p>
-        <p>&lt;StatusTypeID&gt;-14&lt;/StatusTypeID&gt;</p>
-        <p>&lt;StatusDescription&gt;Confirmed&lt;/StatusDescription&gt;</p>
-        <p>&lt;EventTypeID&gt;4&lt;/EventTypeID&gt;</p>
-        <p>&lt;EventTypeDescription&gt;Conference&lt;/EventTypeDescription&gt;</p>
-        <p>&lt;SetupTypeID&gt;1&lt;/SetupTypeID&gt;</p>
-        <p>&lt;SetupTypeDescription&gt;U - Shape&lt;/SetupTypeDescription&gt;</p>
-        <p>&lt;SetupCount&gt;50&lt;/SetupCount&gt;</p>
-        <p>&lt;GroupID&gt;499&lt;/GroupID&gt;</p>
-        <p>&lt;GroupName&gt;ABC Company &lt;/GroupName&gt;</p>
-        <p>&lt;GroupTypeID&gt;3&lt;/GroupTypeID&gt;</p>
-        <p>&lt;GroupTypeDescription&gt;Corporate&lt;/GroupTypeDescription&gt;</p>
-        <p>&lt;Contact1ID&gt;53&lt;/Contact1ID&gt;</p>
-        <p>&lt;Contact1Name&gt;Jim Smith&lt;/Contact1Name&gt;</p>
-        <p>&lt;Contact2ID&gt;-1&lt;Contact2ID&gt;</p>
-        <p>&lt;Contact2Name/&gt;</p>
-        <p>&lt;WebProcessTemplateID&gt;2&lt;/WebProcessTemplateID&gt;<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;ContactEmailAddress&gt;jsmith@test.com&lt;/ContactEmailAddress&gt;</p>
-        <p>&lt;CheckedIn&gt;false&lt;/CheckedIn&gt;</p>
-        <p>&lt;/Data&gt;</p>
-        <p>&lt;/Bookings&gt;</p>
-        <h2>GetGroupDetails</h2>
+        <h3>Sample Code</h3><pre>Private Sub GetGroupBookings()</pre><pre>Dim dvwStatuses As DataView</pre><pre>Dim gintStatuses As New Generic.List(Of Int32)</pre><pre>Dim gintStatusTypes As New Generic.List(Of Int32)</pre><pre>&#160;</pre><pre>Dim svc As New EMSAPI.ServiceSoapClient</pre><pre>Dim objReader As New StringReader(svc.GetStatuses(“UserID”, “Password”))</pre><pre>&#160;</pre><pre>dvwStatuses = Me.GetData(objReader)</pre><pre>&#160;</pre><pre>For Each drv As DataRowView In dvwStatuses</pre><pre>gintStatuses.Add(drv("ID"))</pre><pre>Next</pre><pre>&#160;</pre><pre>gintStatusTypes.Add(-14) ‘Booked Space</pre><pre>&#160;</pre><pre>Dim strStatuses As New EMSAPI.ArrayOfInt</pre><pre>Dim strStatusTypes as New EMSAPI.ArrayOfInt</pre><pre>&#160;</pre><pre>strStatuses.AddRange(gintStatuses.ToArray)</pre><pre>strStatusTypes.AddRange(gintStatusTypes.ToArray)</pre><pre>&#160;</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; objReader = New StringReader(svc.GetGroupBookings(“UserID”, “Password”, Date.Today, Date.Today, 499, strStatuses, strStatusTypes, False))</pre><pre>&#160;</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim dst As New DataSet("Data")</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; dst.ReadXml(objReader)</pre><pre>End Sub</pre>
+        <h3>Example Response</h3><pre>&lt;Bookings&gt;</pre><pre>&lt;Data&gt;</pre><pre>&lt;ReservationID&gt;6650&lt;/ReservationID&gt;</pre><pre>&lt;BookingID&gt;222008&lt;/BookingID&gt;</pre><pre>&lt;BookingDate&gt;2009-10-04T00:00:00&lt;/BookingDate&gt;</pre><pre>&lt;StartBookingDate&gt;2009-10-04T00:00:00&lt;/StartBookingDate&gt;</pre><pre>&lt;TimeEventStart&gt;2009-10-04T16:00:00&lt;/TimeEventStart&gt;</pre><pre>&lt;TimeEventEnd&gt;2009-10-04T17:00:00&lt;/TimeEventEnd&gt;</pre><pre>&lt;GMTEventStart&gt;2009-10-04T22:00:00&lt;/GMTEventStart&gt;</pre><pre>&lt;GMTEventEnd&gt;2009-10-04T23:00:00&lt;/GMTEventEnd&gt;</pre><pre>&lt;TimeBookingStart&gt;2009-10-04T16:00:00&lt;/TimeBookingStart&gt;</pre><pre>&lt;TimeBookingEnd&gt;2009-10-04T17:00:00&lt;/TimeBookingEnd&gt;</pre><pre>&lt;GMTBookingStart&gt;2009-10-04T22:00:00&lt;/GMTBookingStart&gt;</pre><pre>&lt;GMTBookingEnd&gt;2009-10-04T23:00:00&lt;/GMTBookingEnd&gt;</pre><pre>&lt;EventName&gt;Spring Conference&lt;/EventName&gt;</pre><pre>&lt;BuildingID&gt;1&lt;/BuildingID&gt;</pre><pre>&lt;BuildingCode&gt;DEN&lt;/BuildingCode&gt;</pre><pre>&lt;Building&gt;Denver&lt;/Building&gt;</pre><pre>&lt;TimeZoneID&gt;68&lt;/TimeZoneID&gt;</pre><pre>&lt;TimeZone&gt;MT&lt;/TimeZone&gt;</pre><pre>&lt;RoomID&gt;3271&lt;/RoomID&gt;</pre><pre>&lt;RoomCode&gt;RM101&lt;/RoomCode&gt;</pre><pre>&lt;RoomDescription&gt;Room 101&lt;/RoomDescription&gt;</pre><pre>&lt;RoomTypeID&gt;1&lt;/RoomTypeID&gt;</pre><pre>&lt;RoomType&gt;Classroom&lt;/RoomType&gt;</pre><pre>&lt;StatusID&gt;1&lt;/StatusID&gt;</pre><pre>&lt;StatusTypeID&gt;-14&lt;/StatusTypeID&gt;</pre><pre>&lt;StatusDescription&gt;Confirmed&lt;/StatusDescription&gt;</pre><pre>&lt;EventTypeID&gt;4&lt;/EventTypeID&gt;</pre><pre>&lt;EventTypeDescription&gt;Conference&lt;/EventTypeDescription&gt;</pre><pre>&lt;SetupTypeID&gt;1&lt;/SetupTypeID&gt;</pre><pre>&lt;SetupTypeDescription&gt;U - Shape&lt;/SetupTypeDescription&gt;</pre><pre>&lt;SetupCount&gt;50&lt;/SetupCount&gt;</pre><pre>&lt;GroupID&gt;499&lt;/GroupID&gt;</pre><pre>&lt;GroupName&gt;ABC Company &lt;/GroupName&gt;</pre><pre>&lt;GroupTypeID&gt;3&lt;/GroupTypeID&gt;</pre><pre>&lt;GroupTypeDescription&gt;Corporate&lt;/GroupTypeDescription&gt;</pre><pre>&lt;Contact1ID&gt;53&lt;/Contact1ID&gt;</pre><pre>&lt;Contact1Name&gt;Jim Smith&lt;/Contact1Name&gt;</pre><pre>&lt;Contact2ID&gt;-1&lt;Contact2ID&gt;</pre><pre>&lt;Contact2Name/&gt;</pre><pre>&lt;WebProcessTemplateID&gt;2&lt;/WebProcessTemplateID&gt;<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;ContactEmailAddress&gt;jsmith@test.com&lt;/ContactEmailAddress&gt;</pre><pre>&lt;CheckedIn&gt;false&lt;/CheckedIn&gt;</pre><pre>&lt;/Data&gt;</pre><pre>&lt;/Bookings&gt;</pre>
+        <h2><a name="GetGroupDetails"></a>GetGroupDetails</h2>
         <h3>Description</h3>
-        <p>Returns details for a specific Group</p>
+        <p>Returns details for a specific group.</p>
         <h3>Request Parameters</h3>
         <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
+            <col style="width: 282px;" />
+            <col style="width: 307px;" />
+            <col />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
@@ -9705,6 +9469,9 @@
         </table>
         <h3>Response Elements</h3>
         <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
+            <col style="width: 280px;" />
+            <col style="width: 306px;" />
+            <col />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
@@ -9864,34 +9631,12 @@
                 </tr>
             </tbody>
         </table>
-        <h3>Sample Code</h3>
-        <p>Private Sub GetGroupDetails()</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim svc As New EMSAPI.ServiceSoapClient</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim objReader As New System.IO.StringReader(svc.GetGroupDetails(“UserID”, “Password”, 1234))</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim dst As New DataSet("Data")</p>
-        <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; dst.ReadXml(objReader)</p>
-        <p>End Sub</p>
-        <h3>Example Response</h3>
-        <p>&lt;GroupDetails&gt;</p>
-        <p>&lt;Data&gt;</p>
-        <p>&lt;GroupName&gt;Test Group&lt;/GroupName&gt;</p>
-        <p>&lt;GroupType&gt;(none)&lt;/GroupType&gt;</p>
-        <p>&lt;Address1&gt;123 Main St.&lt;/Address1&gt;</p>
-        <p>&lt;Address2/&gt;</p>
-        <p>&lt;City&gt;Denver&lt;/City&gt;</p>
-        <p>&lt;State&gt;CO&lt;/State&gt;</p>
-        <p>&lt;ZipCode&gt;80111&lt;/ZipCode&gt;</p>
-        <p>&lt;Country /&gt;</p>
-        <p>&lt;Phone&gt;x123&lt;/Phone&gt;</p>
-        <p>&lt;Fax /&gt;</p>
-        <p>&lt;EmailAddress&gt;testgroup@test.com&lt;/EmailAddress&gt;</p>
-        <p>&lt;ExternalReference /&gt;</p>
-        <p>&lt;GroupTypeID&gt;0&lt;/GroupTypeID&gt;</p>
-        <p>&lt;/Data&gt;</p>
-        <p>&lt;/GroupDetails&gt;</p>
-        <h2>GetGroups</h2>
+        <h3>Sample Code</h3><pre>Private Sub GetGroupDetails()</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim svc As New EMSAPI.ServiceSoapClient</pre><pre xml:space="preserve">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim objReader As New System.IO.StringReader
+		(svc.GetGroupDetails(“UserID”, “Password”, 1234))</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim dst As New DataSet("Data")</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; dst.ReadXml(objReader)</pre><pre>End Sub</pre>
+        <h3>Example Response</h3><pre>&lt;GroupDetails&gt;</pre><pre>&lt;Data&gt;</pre><pre>&lt;GroupName&gt;Test Group&lt;/GroupName&gt;</pre><pre>&lt;GroupType&gt;(none)&lt;/GroupType&gt;</pre><pre>&lt;Address1&gt;123 Main St.&lt;/Address1&gt;</pre><pre>&lt;Address2/&gt;</pre><pre>&lt;City&gt;Denver&lt;/City&gt;</pre><pre>&lt;State&gt;CO&lt;/State&gt;</pre><pre>&lt;ZipCode&gt;80111&lt;/ZipCode&gt;</pre><pre>&lt;Country /&gt;</pre><pre>&lt;Phone&gt;x123&lt;/Phone&gt;</pre><pre>&lt;Fax /&gt;</pre><pre>&lt;EmailAddress&gt;testgroup@test.com&lt;/EmailAddress&gt;</pre><pre>&lt;ExternalReference /&gt;</pre><pre>&lt;GroupTypeID&gt;0&lt;/GroupTypeID&gt;</pre><pre>&lt;/Data&gt;</pre><pre>&lt;/GroupDetails&gt;</pre>
+        <h2><a name="GetGroups"></a>GetGroups</h2>
         <h3>Description</h3>
-        <p>Returns a list of groups</p>
+        <p>Returns a list of groups.</p>
         <h3>Request Parameters</h3>
         <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
             <thead>
