@@ -3,11 +3,14 @@
   Version="1">
   <TocEntry
     Title="EMS Integration to Polycom"
-    Link="/Content/Print/PS_FrontPage.htm"
+    Link="/Content/Print/Polycom_FrontPage.htm"
     BreakType="chapter"
     StartSection="false"
     PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Title8_5X11.flpgl"
-    PageNumberReset="continue"></TocEntry>
+    PageNumberReset="continue"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue"></TocEntry>
   <TocEntry
     Title="[%=System.LinkedTitle%]"
     Link="/Content/Print Only Topics/TOC.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"

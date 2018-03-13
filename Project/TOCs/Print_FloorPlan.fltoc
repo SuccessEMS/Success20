@@ -3,7 +3,7 @@
   Version="1">
   <TocEntry
     Title="EMS Floor Plans"
-    Link="/Content/Print/PS_FrontPage.htm"
+    Link="/Content/Print/FloorPlans_FrontPage.htm"
     BreakType="chapter"
     StartSection="false"
     PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Title8_5X11.flpgl"
