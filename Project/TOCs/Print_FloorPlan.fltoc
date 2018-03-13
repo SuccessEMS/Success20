@@ -2,7 +2,7 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="EMS Polycom Integration"
+    Title="EMS Floor Plans"
     Link="/Content/Print/PS_FrontPage.htm"
     BreakType="chapter"
     StartSection="false"
@@ -16,119 +16,53 @@
     PageNumberReset="continue"
     PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/TOC8_5X11.flpgl"></TocEntry>
   <TocEntry
-    Title="Polycom Integration"
-    Link="/Content/OptionalFeatures/7_Polycom_Integration_Home.htm"
-    BreakType="chapter"
-    PageNumberReset="reset"
-    ChapterNumberReset="reset"
-    ChapterNumber="1"
-    StartSection="false"
-    PageNumber="1"
-    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
-    SectionNumberReset="continue"
-    VolumeNumberReset="same">
+    Title="EMS Floor Plans"
+    Link="/Content/OptionalFeatures/3_EMS_FloorPlansHome.htm">
     <TocEntry
-      Title="Introduction"
-      Link="/Content/OptionalFeatures/Polycom/A_V44.1/Polycom_Introduction.html"
-      BreakType="chapter"
-      StartSection="false"
-      PageNumberReset="continue"
-      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
-      SectionNumberReset="continue"
-      VolumeNumberReset="same"
-      ChapterNumberReset="continue">
+      Title="Floor Plans Installation Guide"
+      Link="/Content/OptionalFeatures/FloorPlan/A_V44.1/FloorPlan_IG/FloorPlan_IG_InstallGuideOverview.htm">
       <TocEntry
-        Title="Application Architecture"
-        Link="/Content/OptionalFeatures/Polycom/A_V44.1/Polycom_ApplicationArchitecture.html"
-        BreakType="chapter"
-        StartSection="false"
-        PageNumberReset="continue"
-        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
-        SectionNumberReset="continue"
-        VolumeNumberReset="same"
-        ChapterNumberReset="continue" />
+        Title="Introduction"
+        Link="/Content/OptionalFeatures/FloorPlan/A_V44.1/FloorPlan_IG/FloorPlan_IG_Introduction.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+        <TocEntry
+          Title="Requirements"
+          Link="/Content/OptionalFeatures/FloorPlan/A_V44.1/FloorPlan_IG/FloorPlan_IG_Requirements.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
       <TocEntry
-        Title="Requirements"
-        Link="/Content/OptionalFeatures/Polycom/A_V44.1/Polycom_Requirements.html"
-        BreakType="chapter"
-        StartSection="false"
-        PageNumberReset="continue"
-        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
-        SectionNumberReset="continue"
-        VolumeNumberReset="same"
-        ChapterNumberReset="continue" />
+        Title="Obtain Floor Plans Installation Files"
+        Link="/Content/OptionalFeatures/FloorPlan/A_V44.1/FloorPlan_IG/FloorPlan_IG_ObtainFPInstallFiles.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
-        Title="Integration Diagram"
-        Link="/Content/OptionalFeatures/Polycom/A_V44.1/Polycom_IntegrationDiagram.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-        BreakType="chapter"
-        StartSection="false"
-        PageNumberReset="continue"
-        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
-        SectionNumberReset="continue"
-        VolumeNumberReset="same"
-        ChapterNumberReset="continue" />
+        Title="Install Floor Plans Components"
+        Link="/Content/OptionalFeatures/FloorPlan/A_V44.1/FloorPlan_IG/FloorPlan_IG_InstallFloorPlanComponents.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+        <TocEntry
+          Title="Install or Upgrade the Floor Plan Web Service"
+          Link="/Content/OptionalFeatures/FloorPlan/A_V44.1/FloorPlan_IG/FloorPlan_IG_InstallUpgradeFPWebService.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Install or Upgrade the Floor Plan Configuration Tool"
+          Link="/Content/OptionalFeatures/FloorPlan/A_V44.1/FloorPlan_IG/FloorPlan_IG_InstallUpgradeFPConfigTool.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
+      <TocEntry
+        Title="Upload, Configure, and View Floor Plans"
+        Link="/Content/OptionalFeatures/FloorPlan/A_V44.1/FloorPlan_IG/FloorPlan_IG_UploadConfigViewFP.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     </TocEntry>
     <TocEntry
-      Title="Obtain the Installation Files"
-      Link="/Content/OptionalFeatures/Polycom/A_V44.1/Polycom_ObtainInstallFiles.html"
-      BreakType="chapter"
-      StartSection="false"
-      PageNumberReset="continue"
-      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
-      SectionNumberReset="continue"
-      VolumeNumberReset="same"
-      ChapterNumberReset="continue" />
-    <TocEntry
-      Title="Install the EMS Polycom Service For the First Time"
-      Link="/Content/OptionalFeatures/Polycom/A_V44.1/Polycom_InstallPolycomServiceFirstTime.html"
-      BreakType="chapter"
-      StartSection="false"
-      PageNumberReset="continue"
-      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
-      SectionNumberReset="continue"
-      VolumeNumberReset="same"
-      ChapterNumberReset="continue" />
-    <TocEntry
-      Title="Install or Upgrade the EMS Polycom Service"
-      Link="/Content/OptionalFeatures/Polycom/A_V44.1/Polycom_InstallUpgradePolycomService.html"
-      BreakType="chapter"
-      StartSection="false"
-      PageNumberReset="continue"
-      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
-      SectionNumberReset="continue"
-      VolumeNumberReset="same"
-      ChapterNumberReset="continue" />
-    <TocEntry
-      Title="Configure the EMS Polycom Interface"
-      Link="/Content/OptionalFeatures/Polycom/A_V44.1/Polycom_ConfigPolycomInterface.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-      BreakType="chapter"
-      StartSection="false"
-      PageNumberReset="continue"
-      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
-      SectionNumberReset="continue"
-      VolumeNumberReset="same"
-      ChapterNumberReset="continue">
+      Title="Floor Plans Configuration Guide"
+      Link="/Content/OptionalFeatures/FloorPlan/A_V44.1/FloorPlan_CG/FloorPlan_CG_ConfigOverview.htm">
       <TocEntry
-        Title="Install the Polycom Activity DLL on Users' Machines"
-        Link="/Content/OptionalFeatures/Polycom/A_V44.1/Polycom_InstallPolycomActivityDLL.html"
-        BreakType="chapter"
-        PageNumberReset="continue"
-        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
-        ChapterNumberReset="continue" />
+        Title="Introduction"
+        Link="/Content/OptionalFeatures/FloorPlan/A_V44.1/FloorPlan_CG/FloorPlan_CG_Introduction.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
-        Title="Configure the EMS Polycom Rooms/Resources"
-        Link="/Content/OptionalFeatures/Polycom/A_V44.1/Polycom_ConfigurePolycomRoomsResources.html"
-        BreakType="chapter"
-        PageNumberReset="continue"
-        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
-        ChapterNumberReset="continue" />
+        Title="Hardware and Software Requirements"
+        Link="/Content/OptionalFeatures/FloorPlan/A_V44.1/FloorPlan_CG/FloorPlan_CG_HardwareSoftwareReqs.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
-        Title="Advanced EMS Polycom Interface Configuration"
-        Link="/Content/OptionalFeatures/Polycom/A_V44.1/Polycom_AdvancedPolycomInterfaceConfig.html"
-        BreakType="chapter"
-        PageNumberReset="continue"
-        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
-        ChapterNumberReset="continue" />
+        Title="Install or Upgrade the Floor Plans Web Service"
+        Link="/Content/OptionalFeatures/FloorPlan/A_V44.1/FloorPlan_CG/FloorPlan_CG_InstallUpgradeFPWebServ.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Install or Upgrade the Floor Plans Configuration Utility"
+        Link="/Content/OptionalFeatures/FloorPlan/A_V44.1/FloorPlan_CG/FloorPlan_CG_InstallUpgradeFPConfigUtility.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Floor Plans Configuration Steps"
+        Link="/Content/OptionalFeatures/FloorPlan/A_V44.1/FloorPlan_CG/FloorPlan_CG_FPConfigSteps.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     </TocEntry>
   </TocEntry>
 </CatapultToc>

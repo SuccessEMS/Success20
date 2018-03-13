@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CatapultTarget
   Version="2"
-  Comment="EMS Platform Services Installation &amp; Configuration Guide"
+  Comment="EMS Floor Plan Installation and Configuraiton Guide"
   Type="PDF"
   Destinations=""
   GlossaryTermConversion="marked"
-  MasterToc="/Project/TOCs/Print_Polycom.fltoc"
+  MasterToc="/Project/TOCs/Print_FloorPlan.fltoc"
   ConditionTagExpression="include[General.PDF or PrintGuides.UserGuideA]exclude[General.Online or PrintGuides.UserGuideB]"
   PatchHeadingLevels="false"
   InjectEmptyPages="false"
@@ -20,7 +20,7 @@
     PopupConversion="remove-body"
     GenerateTOCProxy="false" />
   <DocumentProperties
-    Title="EMS Polycom Integration Guide"
+    Title="EMS Floor Plan Installation and Configuration Guide"
     Author="EMS Software" />
   <PDF
     ShowUsedBookmarks="false"
