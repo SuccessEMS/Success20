@@ -27,7 +27,7 @@
             Link="/Content/Integrations/7ERI/A_Installation/ERI_IG_InstallingERI.html" />
         </TocEntry>
         <TocEntry
-          Title="B_Config"
+          Title="Configuration Guide"
           Link="/Content/ConfigGuides/8_EMS_ExchangeRoomIntegration_CG.htm">
           <TocEntry
             Title="Configuring Exchange Room Integration (ERI)"
