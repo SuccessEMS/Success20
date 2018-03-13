@@ -5,7 +5,7 @@
   Type="MsWord"
   Destinations=""
   GlossaryTermConversion="marked"
-  MasterToc="/Project/TOCs/ReviewPDF.fltoc"
+  MasterToc="/Project/TOCs/OptionalFeaturesRev.fltoc"
   ConditionTagExpression="include[General.PDF or PrintGuides.UserGuideA]exclude[General.Online or PrintGuides.UserGuideB]"
   PatchHeadingLevels="false"
   InjectEmptyPages="false"
