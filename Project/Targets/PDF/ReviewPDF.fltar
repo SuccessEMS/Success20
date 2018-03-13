@@ -2,7 +2,7 @@
 <CatapultTarget
   Version="2"
   Comment=""
-  Type="PDF"
+  Type="MsWord"
   Destinations=""
   GlossaryTermConversion="marked"
   MasterToc="/Project/TOCs/ReviewPDF.fltoc"
