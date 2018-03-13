@@ -2,7 +2,7 @@
 <CatapultTarget
   Version="2"
   Comment="User Guide"
-  Type="PDF"
+  Type="MsWord"
   Destinations=""
   GlossaryTermConversion="marked"
   MasterToc="/Project/TOCs/OptionalFeaturesRev.fltoc"

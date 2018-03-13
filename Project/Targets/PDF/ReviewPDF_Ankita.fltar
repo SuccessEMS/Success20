@@ -2,7 +2,7 @@
 <CatapultTarget
   Version="2"
   Comment="Draft"
-  Type="PDF"
+  Type="MsWord"
   Destinations=""
   GlossaryTermConversion="marked"
   MasterToc="/Project/TOCs/ReviewPDF_Ankita.fltoc"
@@ -12,12 +12,14 @@
   UseLocalBuildSettings="true"
   IgnoredCompilerWarnings="20032,20033,20034,20035,20036,20037,20038,20039,20040,20041"
   MasterStylesheet="/Content/Resources/Stylesheets/MainStyles.css"
-  MasterPageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl">
+  MasterPageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl"
+  EmbedImages="true">
   <PrintedOutput
     CollapseMargins="true"
     ExpandingTextConversion="expand"
     PopupConversion="remove-body"
-    GenerateTOCProxy="false" />
+    GenerateTOCProxy="false"
+    EnableTrackedChanges="true" />
   <DocumentProperties
     Title="Draft"
     Author="EMS Software" />
