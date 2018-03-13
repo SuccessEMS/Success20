@@ -2,79 +2,36 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="EMS RoomWizard Integration"
-    Link="/Content/OptionalFeatures/8_Room_Wizard_Home.htm"
+    Title="Services and Components"
+    Link="/Content/ServicesComponents/Introduction to Services and Components.htm"
     BreakType="chapter"
     StartSection="false"
     PageNumberReset="continue"
     PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl">
     <TocEntry
-      Title="Introduction"
-      Link="/Content/OptionalFeatures/RoomWiz/A_V44.1/RoomWiz_Introduction.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-      BreakType="chapter"
-      StartSection="false"
-      PageNumberReset="continue"
-      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"></TocEntry>
-    <TocEntry
-      Title="System Requirements"
-      Link="/Content/OptionalFeatures/RoomWiz/A_V44.1/RoomWiz_SystemRequirements.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      Title="Install EMS Automated Report Service"
+      Link="/Content/ServicesComponents/EMS Automated Report Service.htm"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
       PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
     <TocEntry
-      Title="Obtain the Installation Files"
-      Link="/Content/OptionalFeatures/RoomWiz/A_V44.1/RoomWiz_ObtainInstallFiles.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      Title="Install EMS Check-in Notification Service"
+      Link="/Content/ServicesComponents/EMS Check in Notification.htm"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
       PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
     <TocEntry
-      Title="Install EMS - RoomWizard Interface"
-      Link="/Content/OptionalFeatures/RoomWiz/A_V44.1/RoomWiz_InstallRWinterface.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      Title="Install or Upgrade the EMS Email Notification Service"
+      Link="/Content/ServicesComponents/InstallUpgradeEMSEmailNotificationSvc.htm"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
       PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
     <TocEntry
-      Title="Install EMS -RoomWizard Interface Website"
-      Link="/Content/OptionalFeatures/RoomWiz/A_V44.1/RoomWiz_InstallRWInterWebsite.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-      BreakType="chapter"
-      StartSection="false"
-      PageNumberReset="continue"
-      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
-    <TocEntry
-      Title="Configure the EMS RoomWizard Interface"
-      Link="/Content/OptionalFeatures/RoomWiz/A_V44.1/RoomWiz_ConfigEMSRW.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-      BreakType="chapter"
-      StartSection="false"
-      PageNumberReset="continue"
-      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl">
-      <TocEntry
-        Title="Data Transferred Between Units and the Interface"
-        Link="/Content/OptionalFeatures/RoomWiz/A_V44.1/RoomWiz_DataTransBetweenUnits.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-        BreakType="chapter"
-        StartSection="false"
-        PageNumberReset="continue"
-        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
-      <TocEntry
-        Title="Room Wizard Communication"
-        Link="/Content/OptionalFeatures/RoomWiz/A_V44.1/RoomWiz_RWCommunication.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-        BreakType="chapter"
-        StartSection="false"
-        PageNumberReset="continue"
-        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
-      <TocEntry
-        Title="Security Considerations"
-        Link="/Content/OptionalFeatures/RoomWiz/A_V44.1/RoomWiz_SecurityConsiderations.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-        BreakType="chapter"
-        StartSection="false"
-        PageNumberReset="continue"
-        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
-    </TocEntry>
-    <TocEntry
-      Title="Configure Steelcase RoomWizard"
-      Link="/Content/OptionalFeatures/RoomWiz/A_V44.1/RoomWiz_ConfigSteelcaseRW.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      Title="Install or Upgrade the EMS Campus Auto Sync Service (EMS Campus Only)"
+      Link="/Content/ServicesComponents/InstallUpgrade EMS Campus Auto Sync Service.htm"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
