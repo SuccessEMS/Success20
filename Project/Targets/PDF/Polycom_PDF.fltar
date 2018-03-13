@@ -5,21 +5,22 @@
   Type="PDF"
   Destinations=""
   GlossaryTermConversion="marked"
-  MasterToc="/Project/TOCs/Print_PS.fltoc"
+  MasterToc="/Project/TOCs/Print_Polycom.fltoc"
   ConditionTagExpression="include[General.PDF or PrintGuides.UserGuideA]exclude[General.Online or PrintGuides.UserGuideB]"
   PatchHeadingLevels="false"
   InjectEmptyPages="false"
   UseLocalBuildSettings="true"
   IgnoredCompilerWarnings="20032,20033,20034,20035,20036,20037,20038,20039,20040,20041"
   MasterStylesheet="/Content/Resources/Stylesheets/MainStyles.css"
-  MasterPageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl">
+  MasterPageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/ChaptersLandscape8_5X11.flpgl"
+  Medium="print">
   <PrintedOutput
     CollapseMargins="true"
     ExpandingTextConversion="expand"
     PopupConversion="remove-body"
     GenerateTOCProxy="false" />
   <DocumentProperties
-    Title="EMS Platform Services Installation &amp; Configuration Guide"
+    Title="EMS Polycom Integration Guide"
     Author="EMS Software" />
   <PDF
     ShowUsedBookmarks="false"

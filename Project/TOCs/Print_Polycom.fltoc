@@ -6,7 +6,7 @@
     Link="/Content/Print/PS_FrontPage.htm"
     BreakType="chapter"
     StartSection="false"
-    PageLayout="/Content/Resources/PageLayouts/7X9/Title7X9.flpgl"
+    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Title8_5X11.flpgl"
     PageNumberReset="continue"></TocEntry>
   <TocEntry
     Title="[%=System.LinkedTitle%]"
@@ -14,21 +14,121 @@
     BreakType="chapter"
     StartSection="false"
     PageNumberReset="continue"
-    PageLayout="/Content/Resources/PageLayouts/7X9/TOC7X9.flpgl">
+    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/TOC8_5X11.flpgl"></TocEntry>
+  <TocEntry
+    Title="Polycom Integration"
+    Link="/Content/OptionalFeatures/7_Polycom_Integration_Home.htm"
+    BreakType="chapter"
+    PageNumberReset="reset"
+    ChapterNumberReset="reset"
+    ChapterNumber="1"
+    StartSection="false"
+    PageNumber="1"
+    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same">
     <TocEntry
-      Title="EMS Platform Services"
-      Link="/Content/InstallGuides/7_PlatformServices/V44.1/7_PlatformServicesHome.htm"></TocEntry>
+      Title="Introduction"
+      Link="/Content/OptionalFeatures/Polycom/A_V44.1/Polycom_Introduction.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue">
+      <TocEntry
+        Title="Application Architecture"
+        Link="/Content/OptionalFeatures/Polycom/A_V44.1/Polycom_ApplicationArchitecture.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Requirements"
+        Link="/Content/OptionalFeatures/Polycom/A_V44.1/Polycom_Requirements.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Integration Diagram"
+        Link="/Content/OptionalFeatures/Polycom/A_V44.1/Polycom_IntegrationDiagram.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+    </TocEntry>
     <TocEntry
-      Title="Introduction to EMS Platform Services"
-      Link="/Content/EMSPlatformServices/A_InstallationGuide/Platform_Introduction.html" />
+      Title="Obtain the Installation Files"
+      Link="/Content/OptionalFeatures/Polycom/A_V44.1/Polycom_ObtainInstallFiles.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue" />
     <TocEntry
-      Title="Install EMS Platform Services"
-      Link="/Content/EMSPlatformServices/A_InstallationGuide/Platform_InstallPS.html" />
+      Title="Install the EMS Polycom Service For the First Time"
+      Link="/Content/OptionalFeatures/Polycom/A_V44.1/Polycom_InstallPolycomServiceFirstTime.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue" />
     <TocEntry
-      Title="License Requirements for Platform Services"
-      Link="/Content/EMSPlatformServices/A_InstallationGuide/Platform_LicenseRequirements.html" />
+      Title="Install or Upgrade the EMS Polycom Service"
+      Link="/Content/OptionalFeatures/Polycom/A_V44.1/Polycom_InstallUpgradePolycomService.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue" />
     <TocEntry
-      Title="Configure Platform Services in the Admin Portal"
-      Link="/Content/EMSPlatformServices/B_ConfigurationGuide/Platform_ConfigPSinAdminPortal.html" />
+      Title="Configure the EMS Polycom Interface"
+      Link="/Content/OptionalFeatures/Polycom/A_V44.1/Polycom_ConfigPolycomInterface.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue">
+      <TocEntry
+        Title="Install the Polycom Activity DLL on Users' Machines"
+        Link="/Content/OptionalFeatures/Polycom/A_V44.1/Polycom_InstallPolycomActivityDLL.html"
+        BreakType="chapter"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Configure the EMS Polycom Rooms/Resources"
+        Link="/Content/OptionalFeatures/Polycom/A_V44.1/Polycom_ConfigurePolycomRoomsResources.html"
+        BreakType="chapter"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Advanced EMS Polycom Interface Configuration"
+        Link="/Content/OptionalFeatures/Polycom/A_V44.1/Polycom_AdvancedPolycomInterfaceConfig.html"
+        BreakType="chapter"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        ChapterNumberReset="continue" />
+    </TocEntry>
   </TocEntry>
 </CatapultToc>
