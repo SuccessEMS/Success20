@@ -2,89 +2,90 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="Active Directory"
-    Link="/Content/OptionalFeatures/8_Active DirectoryHome.htm"
+    Title="Polycom Integration"
+    Link="/Content/OptionalFeatures/7_Polycom_Integration_Home.htm"
     BreakType="chapter"
     StartSection="false"
     PageNumberReset="continue"
     PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl">
     <TocEntry
-      Title="Connect to Your Database Using Active Directory"
-      Link="/Content/OptionalFeatures/Active Directory/OptFeat_ConnectToYourDatabase.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      Title="Introduction"
+      Link="/Content/OptionalFeatures/Polycom/A_V44.1/Polycom_Introduction.html"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
       PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl">
       <TocEntry
-        Title="Pre-Installation Requirements"
-        Link="/Content/OptionalFeatures/Active Directory/OptFeat_Pre-InstallReqs.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+        Title="Application Architecture"
+        Link="/Content/OptionalFeatures/Polycom/A_V44.1/Polycom_ApplicationArchitecture.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
       <TocEntry
-        Title="Configure Your EMS Database"
-        Link="/Content/OptionalFeatures/Active Directory/OptFeat_ConfigYourEMSDatabase.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+        Title="Requirements"
+        Link="/Content/OptionalFeatures/Polycom/A_V44.1/Polycom_Requirements.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
       <TocEntry
-        Title="Configure EMS Desktop Client"
-        Link="/Content/OptionalFeatures/Active Directory/OptFeat_ConfigEMSDesktopClient.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-        BreakType="chapter"
-        StartSection="false"
-        PageNumberReset="continue"
-        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
-      <TocEntry
-        Title="Connect Your EMS Web-Based Applications"
-        Link="/Content/OptionalFeatures/Active Directory/OptFeat_ConnectYourEMSWebBasedApps.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-        BreakType="chapter"
-        StartSection="false"
-        PageNumberReset="continue"
-        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
-      <TocEntry
-        Title="Finalize Your Database Connection"
-        Link="/Content/OptionalFeatures/Active Directory/OptFeat_FinalizeYourDatabaseCon.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-        BreakType="chapter"
-        StartSection="false"
-        PageNumberReset="continue"
-        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
-      <TocEntry
-        Title="Manage Database Connections With EMS Services"
-        Link="/Content/OptionalFeatures/Active Directory/OptFeat_ManageDatabaseCon.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+        Title="Integration Diagram"
+        Link="/Content/OptionalFeatures/Polycom/A_V44.1/Polycom_IntegrationDiagram.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
     </TocEntry>
     <TocEntry
-      Title="How Do I Translate EMS To Another Language?"
-      Link="/Content/OptionalFeatures/Active Directory/OptFeat_HowTranslateEMSAnothLang.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      Title="Obtain the Installation Files"
+      Link="/Content/OptionalFeatures/Polycom/A_V44.1/Polycom_ObtainInstallFiles.html"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
       PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
     <TocEntry
-      Title="Install EMS Check-in Notification Service"
-      Link="/Content/OptionalFeatures/Active Directory/OptFeat_InstallEMSCheckinNotif.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      Title="Install the EMS Polycom Service For the First Time"
+      Link="/Content/OptionalFeatures/Polycom/A_V44.1/Polycom_InstallPolycomServiceFirstTime.html"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
       PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
     <TocEntry
-      Title="Install or Upgrade the EMS Email Notification Service"
-      Link="/Content/OptionalFeatures/Active Directory/OptFeat_InstallUpgradeEMSEmailNotif.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      Title="Install or Upgrade the EMS Polycom Service"
+      Link="/Content/OptionalFeatures/Polycom/A_V44.1/Polycom_InstallUpgradePolycomService.html"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
       PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
     <TocEntry
-      Title="Install the EMS Automated Report Service"
-      Link="/Content/OptionalFeatures/Active Directory/OptFeat_InstallEMSAutoReportServ.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      Title="Configure the EMS Polycom Interface"
+      Link="/Content/OptionalFeatures/Polycom/A_V44.1/Polycom_ConfigPolycomInterface.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
-      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl">
+      <TocEntry
+        Title="Install the Polycom Activity DLL on Users' Machines"
+        Link="/Content/OptionalFeatures/Polycom/A_V44.1/Polycom_InstallPolycomActivityDLL.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
+      <TocEntry
+        Title="Configure the EMS Polycom Rooms/Resources"
+        Link="/Content/OptionalFeatures/Polycom/A_V44.1/Polycom_ConfigurePolycomRoomsResources.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
+      <TocEntry
+        Title="Advanced EMS Polycom Interface Configuration"
+        Link="/Content/OptionalFeatures/Polycom/A_V44.1/Polycom_AdvancedPolycomInterfaceConfig.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
+    </TocEntry>
   </TocEntry>
 </CatapultToc>
