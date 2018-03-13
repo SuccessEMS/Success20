@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html MadCap:lastBlockDepth="8" MadCap:lastHeight="7369" MadCap:lastWidth="873" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\emsroomSignApp.flmsp');">
+<html MadCap:lastBlockDepth="8" MadCap:lastHeight="6869" MadCap:lastWidth="921" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\emsroomSignApp.flmsp');">
     <head><title mt-export-translate="no">Installing the EMS Room Sign App</title>
         <meta name="mt-type" value="application/x.deki-text" />
         <meta name="mt-unsafe" value="true" />
     </head>
     <body>
-        <h1>Install <MadCap:variable name="General.RSA" /></h1>
+        <h1 MadCap:autonum="CHAPTER&#160;1: ">Install <MadCap:variable name="General.RSA" /></h1>
         <div class="note-box warning">
             <p><span class="bold">Warning:</span>&#160;The EMS Room Sign App was <span class="bold">formerly named EMS Glance</span>. Some of the installation files (e.g., API, dll, etc.) will temporarily retain the Glance name.&#160;</p>
         </div>
@@ -38,13 +38,13 @@
             <li>Manually&#160;<span class="bold">uninstall</span>&#160;any previous versions of the EMS Room Sign App API on your web server.&#160;</li>
             <li>Download the&#160;<span class="bold">EMSGlanceAPI.msi</span>&#160;file onto the web server that will be running the EMS Room Sign App API.</li>
             <li>Run&#160;<span class="bold">EMSGlanceAPI.msi</span>.</li>
-            <li>The first screen welcomes you to the EMS Room Sign App API Web Service Setup Wizard.&#160;Click&#160;<span class="bold">Next&#160;</span>to begin the installation process.&#160;The&#160;Destination Folder&#160;screen will appear.<p><img src="../Images/A_Installation/RSA_InstalRSA_RoomSignAppSetup.png" /></p></li>
+            <li>The first screen welcomes you to the EMS Room Sign App API Web Service Setup Wizard.&#160;Click&#160;<span class="bold">Next&#160;</span>to begin the installation process.&#160;The&#160;Destination Folder&#160;screen will appear.<p><img src="../Images/A_Installation/RSA_InstalRSA_RoomSignAppSetup.png" class="PDFmedium" /></p></li>
             <li>Select the destination folder.&#160;The installation process will create a new physical directory on your web server based on the destination folder path entered (“EMSRoomSignApp” in the example above.)&#160;Click&#160;<span class="bold">Next</span>.<div class="note-box note"><p><span class="bold">Note:</span> The EMS Room Sign App API should not be installed in the same physical directory as other EMS web-based products OR under a site running another version of the EMS Room Sign App API.</p></div></li>
-            <li>The&#160;EMS SQL&#160;Server Database Settings&#160;information screen will appear.<p><img src="../Images/A_Installation/RSA_InstalRSA_ServiceDB.png" /></p></li>
+            <li>The&#160;EMS SQL&#160;Server Database Settings&#160;information screen will appear.<p><img src="../Images/A_Installation/RSA_InstalRSA_ServiceDB.png" class="PDFmedium" /></p></li>
             <li>Enter your EMS SQL&#160;<span class="bold">Server&#160;</span>name.</li>
             <li>Enter your EMS&#160;<span class="bold">Database</span>&#160;name:<ul><li>EMS Professional customers (typically named&#160;“EMSData”).</li><li>EMS Workplace, EMS Campus, EMS Enterprise, EMS District and EMS Legal customers (typically named&#160;“EMS”).</li></ul></li>
             <li>Click <span class="bold">Next</span>.</li>
-            <li>The&#160;Virtual Directory information&#160;screen will appear.<p><img src="../Images/A_Installation/RSA_InstalRSA_VirtualDirectory.png" /></p></li>
+            <li>The&#160;Virtual Directory information&#160;screen will appear.<p><img src="../Images/A_Installation/RSA_InstalRSA_VirtualDirectory.png" class="PDFmedium" /></p></li>
             <li>The Virtual Directory Name will default to the destination folder specified above.&#160;It is recommended that you keep the default setting.&#160;The installation process will create a virtual directory on your web server based on the virtual directory entered (“EMSRoomSignApp” in the example above.)&#160;Click&#160;<span class="bold">Next</span>.<div class="note-box note"><p><span class="bold">Note:</span> The EMS Room Sign App API should&#160;<b>not</b>&#160;be installed in the same virtual directory as other EMS web-based products OR under a site running another version of the EMS Room Sign App API.</p></div></li>
             <li>The&#160;Ready to install EMS Room Sign App API Web Service&#160;screen will appear.&#160;Click&#160;<span class="bold">Install&#160;</span>to install the EMS Room Sign API.</li>
             <li>The&#160;Completed the EMS Room Sign App API Web Service Setup Wizard&#160;screen will appear.&#160;Click&#160;<span class="bold">Finish</span>.</li>
@@ -89,7 +89,7 @@
         <p>The EMS Room Sign App is ready to use once all of the Room Sign components have been properly installed and at least one Profile has been configured for use (see&#160;<a href="../B_Configuration/RSA_CG_Config.html">Configure the EMS Room Sign App</a>).&#160;To access the EMS Room Sign App on your device, do the following:</p>
         <ol class="number-list">
             <li>On your device, open a browser and enter the URL to your EMS Room Sign App web application:<p><b>Example:</b>&#160;http://[ServerName]/EMSGlance<br />(replace [ServerName] with the name of your web server)</p></li>
-            <li>The first time you access the EMS Room Sign App on your device, the Settings screen will appear.<p><img src="../Images/A_Installation/RSA_InstalRSA_SettingsScreen.png" /></p></li>
+            <li>The first time you access the EMS Room Sign App on your device, the Settings screen will appear.<p><img src="../Images/A_Installation/RSA_InstalRSA_SettingsScreen.png" class="PDFmedium" /></p></li>
             <li value="3">Select the Profile in the&#160;<span class="bold">Profile</span>&#160;dropdown.</li>
             <li value="4">Select the Room in the&#160;<span class="bold">Room</span>&#160;dropdown.</li>
             <li value="5">Click&#160;<span class="bold">Apply</span>.</li>
@@ -97,8 +97,5 @@
         <div class="note-box note">
             <p><span class="bold">Note:</span> Once the EMS Room Sign application is running, to re-access the Settings screen for any reason, simply double-tap the EMS Room Sign App logo in the upper-left hand corner of the screen.</p>
         </div>
-        <p>
-            <br />
-        </p>
     </body>
 </html>
