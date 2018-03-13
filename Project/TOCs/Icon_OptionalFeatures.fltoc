@@ -90,6 +90,9 @@
             Title="Floor Plan Configuration Steps"
             Link="/Content/OptionalFeatures/FloorPlan/A_V44.1/FloorPlan_CG/FloorPlan_CG_FPConfigSteps.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         </TocEntry>
+        <TocEntry
+          Title="PDF"
+          Link="/Content/OptionalFeatures/FloorPlan/A_V44.1/FloorPlans_PDF.pdf" />
       </TocEntry>
       <TocEntry
         Title="EMS Facility Management Toolkit"
