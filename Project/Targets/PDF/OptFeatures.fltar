@@ -2,7 +2,7 @@
 <CatapultTarget
   Version="2"
   Comment="User Guide"
-  Type="MsWord"
+  Type="PDF"
   Destinations=""
   GlossaryTermConversion="marked"
   MasterToc="/Project/TOCs/OptionalFeaturesRev.fltoc"
@@ -21,8 +21,8 @@
     GenerateTOCProxy="false"
     EnableTrackedChanges="true" />
   <DocumentProperties
-    Title="User Manual—7X9"
-    Author="My Name" />
+    Title="Draft"
+    Author="EMS Software" />
   <PDF
     ShowUsedBookmarks="false"
     InitialMagnification="100"
