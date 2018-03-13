@@ -1392,7 +1392,7 @@
           Link="/Content/OptionalFeatures/EMS_API/A_V44.1/EMSAPIfunctions_ADDOperation.html" />
       </TocEntry>
       <TocEntry
-        Title="EMS Floor Plan"
+        Title="EMS Floor Plans"
         Link="/Content/OptionalFeatures/3_EMS_FloorPlansHome.htm">
         <TocEntry
           Title="Introduction"
@@ -1408,14 +1408,14 @@
           Title="Install Floor Plans Components"
           Link="/Content/OptionalFeatures/FloorPlan/A_V44.1/FloorPlan_IG/FloorPlan_IG_InstallFloorPlanComponents.htm">
           <TocEntry
-            Title="Install or Upgrade the Floor Plan Web Service"
+            Title="Install or Upgrade the Floor Plans Web Service"
             Link="/Content/OptionalFeatures/FloorPlan/A_V44.1/FloorPlan_IG/FloorPlan_IG_InstallUpgradeFPWebService.htm" />
           <TocEntry
-            Title="Install or Upgrade the Floor Plan Configuration Tool"
+            Title="Install or Upgrade the Floor Plans Configuration Tool"
             Link="/Content/OptionalFeatures/FloorPlan/A_V44.1/FloorPlan_IG/FloorPlan_IG_InstallUpgradeFPConfigTool.htm" />
         </TocEntry>
         <TocEntry
-          Title="Upload, Configure, and View Floorplans"
+          Title="Upload, Configure, and View Floor Plans"
           Link="/Content/OptionalFeatures/FloorPlan/A_V44.1/FloorPlan_IG/FloorPlan_IG_UploadConfigViewFP.htm" />
         <TocEntry
           Title="Integrated Authentication Options"
@@ -1445,6 +1445,8 @@
               Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_PortalAuthenMethods.html" />
           </TocEntry>
         </TocEntry>
+        <TocEntry
+          Title="PDF" />
       </TocEntry>
       <TocEntry
         Title="EMS Facility Management Toolkit"
@@ -1642,6 +1644,9 @@
             Title="Advanced EMS Polycom Interface Configuration"
             Link="/Content/OptionalFeatures/Polycom/A_V44.1/Polycom_AdvancedPolycomInterfaceConfig.html" />
         </TocEntry>
+        <TocEntry
+          Title="PDF"
+          Link="/Content/OptionalFeatures/Polycom/A_V44.1/Polycom_PDF.pdf" />
       </TocEntry>
       <TocEntry
         Title="Services and Components"
