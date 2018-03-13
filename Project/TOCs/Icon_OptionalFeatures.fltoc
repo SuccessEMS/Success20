@@ -252,6 +252,9 @@
             Title="Advanced EMS Polycom Interface Configuration"
             Link="/Content/OptionalFeatures/Polycom/A_V44.1/Polycom_AdvancedPolycomInterfaceConfig.html" />
         </TocEntry>
+        <TocEntry
+          Title="PDF"
+          Link="/Content/OptionalFeatures/Polycom/A_V44.1/Polycom_PDF.pdf" />
       </TocEntry>
       <TocEntry
         Title="EMS RoomWizard Integration"
