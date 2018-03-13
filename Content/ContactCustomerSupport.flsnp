@@ -1,14 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="316" MadCap:lastWidth="812">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="247" MadCap:lastWidth="973">
     <head>
     </head>
     <body>
-        <ul>
+        <ul class="unorder-list">
             <li><b>Option 1 (Recommended):</b> Search the <a href="https://portal.emssoftware.com/s/knowledge">Knowledge Base</a> available in the <a href="https://portal.emssoftware.com/s/support">EMS&#160;Support Portal</a>.</li>
             <li><span class="bold">Option 2:</span>&#160;Submit a <a href="https://portal.emssoftware.com/s/login/?startURL=%2Fs%2Fcontactsupport">Case</a> directly via the <a href="https://portal.emssoftware.com/s/support">EMS Support Portal</a>.</li>
             <li><b>Option 3:</b> Email <b style="text-decoration: underline;"><a href="mailto:support@emssoftware.com" style="font-weight: normal;">support@emssoftware.com</a></b>.</li>
             <li><b>Option 4 (Recommended for critical issues only):</b> Phone (800) 288-4565<br /></li>
         </ul>
-        <div class="note-box important"><span style="color: #ff0000; font-weight: bold;">Important:&#160;</span>If you do not have a customer login, register <a href="https://portal.emssoftware.com/s/login/ ">here</a>. </div>
+        <div class="note-box important">
+            <p><span class="bold">Important:&#160;</span>If you do not have a customer login, register <a href="https://portal.emssoftware.com/s/login/ ">here</a>.</p>
+        </div>
     </body>
 </html>
