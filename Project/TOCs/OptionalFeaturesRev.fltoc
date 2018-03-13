@@ -2,90 +2,82 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="Polycom Integration"
-    Link="/Content/OptionalFeatures/7_Polycom_Integration_Home.htm"
+    Title="EMS RoomWizard Integration"
+    Link="/Content/OptionalFeatures/8_Room_Wizard_Home.htm"
     BreakType="chapter"
     StartSection="false"
     PageNumberReset="continue"
     PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl">
     <TocEntry
       Title="Introduction"
-      Link="/Content/OptionalFeatures/Polycom/A_V44.1/Polycom_Introduction.html"
+      Link="/Content/OptionalFeatures/RoomWiz/A_V44.1/RoomWiz_Introduction.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
-      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl">
-      <TocEntry
-        Title="Application Architecture"
-        Link="/Content/OptionalFeatures/Polycom/A_V44.1/Polycom_ApplicationArchitecture.html"
-        BreakType="chapter"
-        StartSection="false"
-        PageNumberReset="continue"
-        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
-      <TocEntry
-        Title="Requirements"
-        Link="/Content/OptionalFeatures/Polycom/A_V44.1/Polycom_Requirements.html"
-        BreakType="chapter"
-        StartSection="false"
-        PageNumberReset="continue"
-        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
-      <TocEntry
-        Title="Integration Diagram"
-        Link="/Content/OptionalFeatures/Polycom/A_V44.1/Polycom_IntegrationDiagram.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-        BreakType="chapter"
-        StartSection="false"
-        PageNumberReset="continue"
-        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
-    </TocEntry>
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"></TocEntry>
+    <TocEntry
+      Title="System Requirements"
+      Link="/Content/OptionalFeatures/RoomWiz/A_V44.1/RoomWiz_SystemRequirements.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
     <TocEntry
       Title="Obtain the Installation Files"
-      Link="/Content/OptionalFeatures/Polycom/A_V44.1/Polycom_ObtainInstallFiles.html"
+      Link="/Content/OptionalFeatures/RoomWiz/A_V44.1/RoomWiz_ObtainInstallFiles.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
       PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
     <TocEntry
-      Title="Install the EMS Polycom Service For the First Time"
-      Link="/Content/OptionalFeatures/Polycom/A_V44.1/Polycom_InstallPolycomServiceFirstTime.html"
+      Title="Install EMS - RoomWizard Interface"
+      Link="/Content/OptionalFeatures/RoomWiz/A_V44.1/RoomWiz_InstallRWinterface.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
       PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
     <TocEntry
-      Title="Install or Upgrade the EMS Polycom Service"
-      Link="/Content/OptionalFeatures/Polycom/A_V44.1/Polycom_InstallUpgradePolycomService.html"
+      Title="Install EMS -RoomWizard Interface Website"
+      Link="/Content/OptionalFeatures/RoomWiz/A_V44.1/RoomWiz_InstallRWInterWebsite.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
       PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
     <TocEntry
-      Title="Configure the EMS Polycom Interface"
-      Link="/Content/OptionalFeatures/Polycom/A_V44.1/Polycom_ConfigPolycomInterface.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      Title="Configure the EMS RoomWizard Interface"
+      Link="/Content/OptionalFeatures/RoomWiz/A_V44.1/RoomWiz_ConfigEMSRW.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
       PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl">
       <TocEntry
-        Title="Install the Polycom Activity DLL on Users' Machines"
-        Link="/Content/OptionalFeatures/Polycom/A_V44.1/Polycom_InstallPolycomActivityDLL.html"
+        Title="Data Transferred Between Units and the Interface"
+        Link="/Content/OptionalFeatures/RoomWiz/A_V44.1/RoomWiz_DataTransBetweenUnits.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
       <TocEntry
-        Title="Configure the EMS Polycom Rooms/Resources"
-        Link="/Content/OptionalFeatures/Polycom/A_V44.1/Polycom_ConfigurePolycomRoomsResources.html"
+        Title="Room Wizard Communication"
+        Link="/Content/OptionalFeatures/RoomWiz/A_V44.1/RoomWiz_RWCommunication.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
       <TocEntry
-        Title="Advanced EMS Polycom Interface Configuration"
-        Link="/Content/OptionalFeatures/Polycom/A_V44.1/Polycom_AdvancedPolycomInterfaceConfig.html"
+        Title="Security Considerations"
+        Link="/Content/OptionalFeatures/RoomWiz/A_V44.1/RoomWiz_SecurityConsiderations.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
     </TocEntry>
+    <TocEntry
+      Title="Configure Steelcase RoomWizard"
+      Link="/Content/OptionalFeatures/RoomWiz/A_V44.1/RoomWiz_ConfigSteelcaseRW.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
   </TocEntry>
 </CatapultToc>
