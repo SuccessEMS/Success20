@@ -34,7 +34,8 @@
             Link="/Content/Integrations/7ERI/B_Config/ERI_Config_ConfigEXR.html" />
         </TocEntry>
         <TocEntry
-          Title="PDF" />
+          Title="PDF"
+          Link="/Content/Integrations/7ERI/ERI_PDF.pdf" />
       </TocEntry>
       <TocEntry
         Title="Human Resources Information Systems (HRIS)"
