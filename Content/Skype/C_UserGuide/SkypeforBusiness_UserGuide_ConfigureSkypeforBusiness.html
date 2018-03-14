@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html MadCap:lastBlockDepth="10" MadCap:lastHeight="13856" MadCap:lastWidth="710" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+<html MadCap:lastBlockDepth="10" MadCap:lastHeight="11035" MadCap:lastWidth="1408" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head><title mt-export-translate="no">Configuring Skype for Business</title>
         <meta name="mt-type" value="application/x.deki-text" />
         <meta name="mt-unsafe" value="true" />
     </head>
     <body>
-        <h1>Configure Skype for Business</h1>
+        <h1 MadCap:autonum="CHAPTER&#160;1: ">Configure Skype for Business</h1>
         <p>This topic provides information on the following: </p>
         <ul>
             <li><a href="#Prerequisites">Prerequisites</a>
@@ -59,8 +59,8 @@
         </ol>
         <h4>For Online Deployment</h4>
         <ol>
-            <li>Create a Skype for Business App in Azure AD:<ol><li>Sign into the <a href="https://portal.azure.com/">Azure Management portal</a>. </li><li>Select Azure Active Directory.</li><li>Select App registration.</li><li>Click New Application registration.</li><li>Enter the required information, including:<ol><li>Name of your application (e.g., EMS&#160;SFB).</li><li>Application type &gt; Native.</li><li>Conferencing URI (please ensure the trailing slash). </li><li>Click <span class="bold">Create</span>. <br /><img src="../../Resources/Images/SkypeConfig1.png" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /><br /></li></ol></li></ol></li>
-            <li>Modify the Skype for Business App permissions:<ol><li>Click on the Skype for Business App from the App Registrations.</li><li>Click Required Permissions.</li><li>Click Add.<br /><img src="../../Resources/Images/SkypeConfig2.png" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /><br /></li><li>Select all permissions for Skype for Business online.<br /><img src="../../Resources/Images/Config3.png" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /><br /></li><li>Select Windows Active Directory and choose only "Sign in and read user profile."<br /><img src="../../Resources/Images/SkypeConfig3.png" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /><br /></li><li>Click <span class="bold">Save</span>. </li></ol><p class="note-box"><span class="bold">Note</span>:&#160;From this Skype for Business application, users can add multiple URI&#160;(e.g., for testing or production URI) without creating separate Skype for Business apps for each environment.</p><ol MadCap:continue="true"><li>Note the Client ID.&#160;This will need to be added to EMS&#160;parameters. <br /><img src="../../Resources/Images/SkypeConfig5.png" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /><br /></li></ol><h4>Configure the Reply&#160;URL&#160;for EMS&#160;Mobile App (Skype for Business Online deployment):</h4></li>
+            <li>Create a Skype for Business App in Azure AD:<ol><li>Sign into the <a href="https://portal.azure.com/">Azure Management portal</a>. </li><li>Select Azure Active Directory.</li><li>Select App registration.</li><li>Click New Application registration.</li><li>Enter the required information, including:<ol><li>Name of your application (e.g., EMS&#160;SFB).</li><li>Application type &gt; Native.</li><li>Conferencing URI (please ensure the trailing slash). </li><li>Click <span class="bold">Create</span>. <br /><img src="../../Resources/Images/SkypeConfig1.png" /><br /></li></ol></li></ol></li>
+            <li>Modify the Skype for Business App permissions:<ol><li>Click on the Skype for Business App from the App Registrations.</li><li>Click Required Permissions.</li><li>Click Add.<br /><img src="../../Resources/Images/SkypeConfig2.png" /><br /></li><li>Select all permissions for Skype for Business online.<br /><img src="../../Resources/Images/Config3.png" /><br /></li><li>Select Windows Active Directory and choose only "Sign in and read user profile."<br /><img src="../../Resources/Images/SkypeConfig3.png" /><br /></li><li>Click <span class="bold">Save</span>. </li></ol><p class="note-box"><span class="bold">Note</span>:&#160;From this Skype for Business application, users can add multiple URI&#160;(e.g., for testing or production URI) without creating separate Skype for Business apps for each environment.</p><ol MadCap:continue="true"><li>Note the Client ID.&#160;This will need to be added to EMS&#160;parameters. <br /><img src="../../Resources/Images/SkypeConfig5.png" /><br /></li></ol><h4>Configure the Reply&#160;URL&#160;for EMS&#160;Mobile App (Skype for Business Online deployment):</h4></li>
         </ol>
         <ol>
             <li>Refer to the steps outlined in this <a href="https://docs.microsoft.com/en-us/azure/app-service-mobile/app-service-mobile-how-to-configure-active-directory-authentication#a-nameadvanced-aalternative-method-manually-configure-azure-active-directory-with-advanced-settings">documentation</a>.</li>
@@ -85,7 +85,7 @@
         </ol>
         <p>&#160; &#160; &lt;add key="platformServicesSecret" value="YourSecretID" /&gt;</p>
         <div class="note-box important">
-            <p class="note-box.important">Important: Cloud customers do not need to generate a Secret or insert it into the web.config file (Steps 3 through 4).</p>
+            <p class="note-box.important"><span class="bold">Important:</span> Cloud customers do not need to generate a Secret or insert it into the web.config file (Steps 3 through 4).</p>
         </div>
         <ol start="5">
             <li>Clear the cache in EMS Platform Services by navigating&#160;back to the EMS Platform Services Admin Portal and clicking the Clear Cache button.&#160;</li>

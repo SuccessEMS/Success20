@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="3" MadCap:lastHeight="138" MadCap:lastWidth="986">
+    <head>
+    </head>
+    <body>
+        <div class="note-box note">
+            <p><span class="bold">Note for Cloud Customers:</span> There is no EMS_Master database for cloud hosted customers. For more information about Cloud Services, refer to the topic <a href="Cloud.htm">Cloud Services for EMS</a>.</p>
+        </div>
+    </body>
+</html>
