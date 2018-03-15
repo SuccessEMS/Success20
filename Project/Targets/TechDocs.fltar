@@ -20,7 +20,8 @@
   UseEmptyAltText="true"
   MenuSkin="/Project/Skins/SideMenu.flskn"
   MasterStylesheetOverride="true"
-  TopNavTocPath="true">
+  TopNavTocPath="true"
+  FaviconSkin="/Project/Skins/Favicon.flskn">
   <PrintedOutput
     CollapseMargins="true"
     GenerateTOCProxy="true"
