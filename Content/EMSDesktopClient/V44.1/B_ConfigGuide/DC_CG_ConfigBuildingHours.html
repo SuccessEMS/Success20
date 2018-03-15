@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html MadCap:lastBlockDepth="7" MadCap:lastHeight="3380" MadCap:lastWidth="900" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\EMSDesktopClient.flmsp');">
+<html MadCap:lastBlockDepth="8" MadCap:lastHeight="3060" MadCap:lastWidth="924" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\EMSDesktopClient.flmsp');">
     <head>
         <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title mt-export-translate="no">Configuring Building Hours</title>
         <meta name="mt-type" value="application/x.deki-text" />
         <meta name="mt-unsafe" value="true" />
     </head>
     <body>
-        <h1 class="mt-export-title">Configuring Building Hours</h1>
+        <h1 class="mt-export-title" MadCap:autonum="CHAPTER&#160;1: ">Configuring Building Hours</h1>
         <p class="Body">By configuring building hours, you can set times when buildings and rooms therein are not available for scheduling.&#160;</p>
         <p class="Body">In the <MadCap:variable name="General.EMS&#160;Desktop Client" />, configured building hours do not prevent a user from scheduling events outside these hours. A user is merely warned that the event is being scheduled outside normal operating hours. In <MadCap:variable name="General.EMS&#160;Web App" />, users cannot schedule events outside the configured building hours. Setup and teardown hours must also fall within the configured building hours for an event that is scheduled in <MadCap:variable name="General.EMS&#160;Web App" />.</p>
         <p class="Body">By default, when you configure&#160;a building, the building hours are set to Open All Day, which means that the building is open 24 hours a day, 7 days a week, 365 days a year. If needed, you can configure the hours for a building so that a building is open only for a specified time period on a particular date or for a given date range. You can also configure the hours so that a building is closed all day. You can configure&#160;the hours for a building for a single date, or you can configure&#160;the hours for multiple dates in a single step.</p>
@@ -64,8 +64,10 @@
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
                         <p class="TableBody">Select this option to close the building for the entire day. When you select this option, then a Web Only option is displayed on the Building Hours dialog box.</p>
-                        <p class="TableBulletLev1">• If you do <em>not</em> select Web Only, then none of your users (<MadCap:variable name="General.EMS&#160;Desktop Client" /> or <MadCap:variable name="General.EMS&#160;Web App" />) can make reservations on this date in the selected buildings.</p>
-                        <p class="TableBulletLev1">• If you do you select Web Only, then your <MadCap:variable name="General.EMS&#160;Desktop Client" /> users can make reservations on this date in the selected buildings; however, your <MadCap:variable name="General.EMS&#160;Web App" /> users cannot.</p>
+                        <ul>
+                            <li>If you do <em>not</em> select Web Only, then none of your users (<MadCap:variable name="General.EMS&#160;Desktop Client" /> or <MadCap:variable name="General.EMS&#160;Web App" />) can make reservations on this date in the selected buildings.</li>
+                            <li>If you do you select Web Only, then your <MadCap:variable name="General.EMS&#160;Desktop Client" /> users can make reservations on this date in the selected buildings; however, your <MadCap:variable name="General.EMS&#160;Web App" /> users cannot.</li>
+                        </ul>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
