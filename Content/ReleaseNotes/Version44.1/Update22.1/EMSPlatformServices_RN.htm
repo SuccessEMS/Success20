@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xml:lang="en-us" MadCap:lastBlockDepth="8" MadCap:lastHeight="5828" MadCap:lastWidth="664" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+<html xml:lang="en-us" MadCap:lastBlockDepth="8" MadCap:lastHeight="5510" MadCap:lastWidth="664" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
         <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
         <link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
@@ -73,35 +73,27 @@
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
                         <p class="RNTitle">Searching for Multiple Values of the Same UDF&#160;Returned Partial Results</p>
                         <p class="RNBody">Users searching for multiple values of the same UDF experienced only partial results (i.e., results for which ever key value was last in the list).</p>
-                        <p class="RNBody">Fix:&#160;Modified functionality so that searching on multiple key values should return all matching results.</p>
+                        <p class="RNBody"><span class="bold">Fix</span>:&#160;Modified functionality so that searching on multiple key values should return all matching results.</p>
                         <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=37068" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">37068</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNTitle">Search Bookings by Event Type IDs</p>
-                        <p class="RNBody">Users can now search bookings by multiple event type IDs and display bookings of filtered event types on digital signs and other displays. </p>
-                        <p class="RNBodyBeforeList">The following have been added to enable searching bookings by multiple event type IDs:</p>
-                        <ul class="RN-unorder-list">
-                            <li>An array of eventTypeIds has been added as a search criteria to POST/bookings/action/search</li>
-                            <li>The eventTypeId has been added as a search criteria to GET/bookings</li>
-                        </ul>
-                        <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=35931" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">35931</a><br />(For EMS&#160;Internal Use Only)</p>
+                        <p class="RNTitle">UDF Search Conflict</p>
+                        <p class="RNBody">UDFs with matching names, but defined on different parent types, were conflicting in UDF searches. </p>
+                        <p class="RNBody">Fix:&#160;Modified functionality so that there is no conflict while searching UDFs. </p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=37100" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">37100</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows" style="text-align: left;">
-                        <p class="RNArea">Web User ID</p>
+                        <p class="RNArea">API&#160;Call</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" style="text-align: left;">
-                        <p class="RNTitle">Search Reservations by Web User ID</p>
-                        <p class="RNBody">Users can now search reservations by web user ID and display reservations of the filtered web users on digital signs and other displays.</p>
-                        <p class="RNBodyBeforeList">The webUserID filter has been added to the following routes:</p>
-                        <ul class="RN-unorder-list">
-                            <li>GET/reservations (query string parameter)</li>
-                            <li>POST/reservations/actions/search (part of the request object)</li>
-                        </ul>
-                        <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=35933" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">35933</a><br />(For EMS&#160;Internal Use Only)</p>
+                        <p class="RNTitle">API Call Panicked When Creating Skype Reservation from EMS&#160;Mobile App</p>
+                        <p class="RNBody">The POST/reservations/actions/create call panicked when creating a Skype reservation from the EMS&#160;Mobile App. </p>
+                        <p class="RNBody">Fix:&#160;Modified functionality so that the POST/reservations/actions/create call works appropriately when creating a Skype reservation from the EMS&#160;Mobile App. </p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=37076" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">37076</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
             </tbody>
