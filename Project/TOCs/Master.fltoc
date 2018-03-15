@@ -1389,7 +1389,26 @@
           Link="/Content/OptionalFeatures/EMS_API/A_V44.1/API_ConfigVerifyEMSAPIWebServUse.htm" />
         <TocEntry
           Title="EMS API Functions"
-          Link="/Content/OptionalFeatures/EMS_API/A_V44.1/EMSAPIfunctions_ADDOperation.html" />
+          Link="/Content/OptionalFeatures/EMS_API/A_V44.1/EMSAPIFunctions.htm">
+          <TocEntry
+            Title="ADD Operations"
+            Link="/Content/OptionalFeatures/EMS_API/A_V44.1/EMSAPIfunctions_ADDOperation.html" />
+          <TocEntry
+            Title="AUTOCHECKIN Operations"
+            Link="/Content/OptionalFeatures/EMS_API/A_V44.1/EMSAPIFunctions_AutoCheckinOperation.htm" />
+          <TocEntry
+            Title="DELETE Operations"
+            Link="/Content/OptionalFeatures/EMS_API/A_V44.1/EMSAPIFunctions_DeleteOperations.htm" />
+          <TocEntry
+            Title="GET Operations"
+            Link="/Content/OptionalFeatures/EMS_API/A_V44.1/EMSAPIfunctions_GETFunctions.html" />
+          <TocEntry
+            Title="UPDATE Operatons"
+            Link="/Content/OptionalFeatures/EMS_API/A_V44.1/EMSAPIFunctions_UpdateOperation.htm" />
+          <TocEntry
+            Title="VALIDATE Operation"
+            Link="/Content/OptionalFeatures/EMS_API/A_V44.1/EMSAPIFunctions_ValidateOperation.htm" />
+        </TocEntry>
       </TocEntry>
       <TocEntry
         Title="EMS Floor Plans"

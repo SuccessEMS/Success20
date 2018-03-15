@@ -2,7 +2,7 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="EMS API Guide"
+    Title="EMS API DELETE Operations"
     Link="/Content/OptionalFeatures/EMS_API/A_V44.1/EMSAPIFunctions_DeleteOperations.htm">
     <TocEntry
       Title="DeleteServiceOrder"

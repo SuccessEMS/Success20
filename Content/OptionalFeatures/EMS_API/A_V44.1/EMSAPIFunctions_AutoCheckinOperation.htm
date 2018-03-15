@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="2450" MadCap:lastWidth="701" style="mc-master-page: url('..\..\..\Resources\MasterPages\emsAPI.flmsp');">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="2792" MadCap:lastWidth="812" style="mc-master-page: url('..\..\..\Resources\MasterPages\emsAPI_AUTOCHECKIN.flmsp');">
     <head>
         <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" />
     </head>
     <body>
-        <h1 MadCap:autonum="CHAPTER&#160;1: ">EMS API Functions—Auto Check-in Operation</h1>
+        <h1>EMS API Functions—Auto Check-in Operation</h1>
         <h2><a name="AutoCheckin"></a>AutoCheckin </h2>
         <p>(Requires EMS API Advanced License)</p>
         <h3>Description</h3>
@@ -207,7 +207,8 @@
         </table>
         <h3>Sample Code</h3><pre>Private Sub AutoCheckin()</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim svc As New EMSAPI.ServiceSoapClient</pre><pre xml:space="preserve">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim objReader As New System.IO.StringReader
 		(svc.AutoCheckin(“UserID”, “Password”, 
-		“test@test.com”, 5, 6, “UDF Value”,1, 2, 3, Date.Today, 3))</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim dst As New DataSet("Data")</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; dst.ReadXml(objReader)</pre><pre>End Sub</pre>
+		“test@test.com”, 5, 6, “UDF Value”,1, 2, 3, 
+		Date.Today, 3))</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim dst As New DataSet("Data")</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; dst.ReadXml(objReader)</pre><pre>End Sub</pre>
         <h3>Example Response&#160;</h3><pre>&lt;AutoCheckinDetails&gt;</pre><pre>&lt;Data&gt;</pre><pre xml:space="preserve">	&lt;Message&gt;Success&lt;/&gt;</pre><pre xml:space="preserve">	&lt;BookingID&gt;1&lt;/BookingID&gt;</pre><pre xml:space="preserve">	&lt;RoomID&gt;3&lt;/RoomID&gt;</pre><pre xml:space="preserve">	&lt;/Data&gt;</pre><pre>&lt;/ AutoCheckinDetails </pre>
     </body>
 </html>

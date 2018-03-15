@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="3462" MadCap:lastWidth="840" style="mc-master-page: url('..\..\..\Resources\MasterPages\emsAPI.flmsp');">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="3503" MadCap:lastWidth="812" style="mc-master-page: url('..\..\..\Resources\MasterPages\emsAPI_DELETE.flmsp');">
     <head>
         <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" />
     </head>
     <body>
-        <h1>EMS API Functions Delete Operations</h1>
+        <h1>EMS API Functions—Delete Operations</h1>
         <h2><a name="DeleteServiceOrder"></a>DeleteServiceOrder </h2>
         <p>(Requires EMS API Advanced License)&#160;</p>
         <h3>Description</h3>
@@ -189,7 +189,8 @@
             </tbody>
         </table>
         <h3>Sample Code</h3><pre>Private Sub DeleteServiceOrderDetail()</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim svc As New EMSAPI.ServiceSoapClient</pre><pre xml:space="preserve">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim objReader As New System.IO.StringReader
-		(svc.DeleteServiceOrderDetail(“UserID”, “Password”, 1234))</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim dst As New DataSet("Data")</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; dst.ReadXml(objReader)</pre><pre>End Sub</pre>
+		(svc.DeleteServiceOrderDetail(“UserID”, 
+		“Password”, 1234))</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Dim dst As New DataSet("Data")</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; dst.ReadXml(objReader)</pre><pre>End Sub</pre>
         <h3>Example Response</h3><pre>&lt;Messages&gt;</pre><pre>&lt;Message&gt;</pre><pre xml:space="preserve">	&lt;Message&gt;Success!&lt;/Message&gt;</pre><pre xml:space="preserve">	&lt;/Message&gt;</pre><pre>&lt;/Messages&gt;</pre>
     </body>
 </html>

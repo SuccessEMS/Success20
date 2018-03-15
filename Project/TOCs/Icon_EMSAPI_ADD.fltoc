@@ -2,7 +2,7 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="EMS API Guide"
+    Title="EMS API ADD Operations"
     Link="/Content/OptionalFeatures/2_EMS_API_Home.htm">
     <TocEntry
       Title="AddBooking"
