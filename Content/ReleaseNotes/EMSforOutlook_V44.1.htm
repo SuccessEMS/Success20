@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="8" MadCap:lastHeight="78171" MadCap:lastWidth="1020" style="mc-master-page: url('..\Resources\MasterPages\BrowsebyProd.flmsp');">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="8" MadCap:lastHeight="78140" MadCap:lastWidth="1020" style="mc-master-page: url('..\Resources\MasterPages\BrowsebyProd.flmsp');">
     <head>
         <link href="Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" />
         <link href="../1DesktopClient/V44.1/Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" />
@@ -63,7 +63,7 @@
             <li><a href="#Update1">V44.1, Update 1</a>
             </li>
         </ul>
-        <h2 style="font-size: 24pt;"><a name="Update22.1"></a><span style="font-size: 26pt;"><span style="font-size: 24pt;">V44.1, </span></span><a href="../V44.1_ReleaseNotes.htm#Update22.1" style="font-size: 24pt;">Update 22.1</a><span style="font-size: 26pt;"><span style="font-size: 24pt;">*</span></span> </h2>
+        <h2 style="font-size: 24pt;"><a name="Update22.1"></a><span style="font-size: 26pt;"><span style="font-size: 24pt;">V44.1, </span></span><a href="../V44.1_ReleaseNotes.htm#Update22.1" style="font-size: 24pt;">Update 22.1</a><span style="font-size: 26pt;"><span style="font-size: 24pt;">*</span></span> <![CDATA[ ]]></h2>
         <table style="mc-table-style: url('../Resources/TableStyles/PatternedRows.css');width: 718px;" class="TableStyle-PatternedRows" cellspacing="0">
             <col class="TableStyle-PatternedRows-Column-Regular" style="width: 191px;" />
             <col class="TableStyle-PatternedRows-Column-Regular" style="width: 302px;" />
@@ -122,10 +122,10 @@
                     </td>
                     <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" style="text-align: left;">
                         <p class="RNTitle">Enhanced PAM Logging to Provide Detailed Request Logging for EWS Connectivity Issues</p>
-                        <p class="RNBody">To better debug and troubleshoot Exchange Web Services (EWS) connectivity issues, EWS&#160;request logging was added in a JSON format that can be indexed by Splunk. </p>
+                        <p class="RNBody">To better debug and troubleshoot Exchange Web Services (EWS) connectivity issues, enhanced EWS request logging was added. </p>
                         <p class="RNBodyBeforeList">The following logging capabilities were added to PAM:</p>
                         <ul class="RN-unorder-list">
-                            <li>JSON request logging to the EWS calls made in PAM using Serilog with configuration parameters available in the web.config to set the log folder, filename pattern, and retention policy.</li>
+                            <li>Added configuration parameters in the web.config to set the log folder, filename pattern, and retention policy.</li>
                             <li>Support for EWS Managed API request tracing if the log level is set to "Debug."</li>
                             <li>Support for the following log levels as a configuration option in the web.config: Verbose, Debug, Information, Warning, Error, and Fatal.</li>
                         </ul>
