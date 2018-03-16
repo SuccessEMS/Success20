@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="8" MadCap:lastHeight="77261" MadCap:lastWidth="1020" style="mc-master-page: url('..\Resources\MasterPages\BrowsebyProd.flmsp');">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="8" MadCap:lastHeight="78171" MadCap:lastWidth="1020" style="mc-master-page: url('..\Resources\MasterPages\BrowsebyProd.flmsp');">
     <head>
         <link href="Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" />
         <link href="../1DesktopClient/V44.1/Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" />
@@ -10,6 +10,8 @@
         <h1>EMS&#160;for Outlook<br />Release Notes (Version 44.1)</h1>
         <p>EMS release notes for the EMS&#160;Desktop Client are organized by Update. For information on changes to other products released in the Update, click on the Update number in the title. See Also:&#160;<a href="#Contact_Customer_Support">Contact Customer Support</a>.</p>
         <ul>
+            <li><a href="#Update22.1">V44.1, Update 22.1</a>
+            </li>
             <li><a href="#Update22">V44.1, Update 22</a>
             </li>
             <li><a href="#Update21">V44.1, Update 21</a>
@@ -61,6 +63,77 @@
             <li><a href="#Update1">V44.1, Update 1</a>
             </li>
         </ul>
+        <h2 style="font-size: 24pt;"><a name="Update22.1"></a><span style="font-size: 26pt;"><span style="font-size: 24pt;">V44.1, </span></span><a href="../V44.1_ReleaseNotes.htm#Update22" style="font-size: 24pt;">Update 22.1</a><span style="font-size: 26pt;"><span style="font-size: 24pt;">*</span></span> </h2>
+        <table style="mc-table-style: url('../Resources/TableStyles/PatternedRows.css');width: 718px;" class="TableStyle-PatternedRows" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 191px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 302px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 240px;" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1" colspan="3">*Click the linked Update Number above for more information regarding <br />enhancements and fixes for all products released during this Update.</th>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1" style="text-align: center;">
+                        <p style="text-align: center;">Release Date</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1" style="text-align: center;">&#160;</th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1" style="text-align: center;">
+                        <p style="text-align: center;">Build</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: center;">
+                        <p style="text-align: center;">03/16/2018</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: center;">
+                        <p>&#160;</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: center;">
+                        <p style="text-align: center;">44.1.16001.288</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows" style="text-align: center;" colspan="3">
+                        <p colspan="3" style="text-align: center;"><span class="bold">See Also:</span>&#160;<a href="Version44.1/Update22/KnownIssues.htm">Known Issues for Update 22</a><br /><a href="../WhatsNewV44.1.htm">What's New for Version 44.1</a></p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h4> Enhancement</h4>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../Resources/TableStyles/PatternedRows.css');width: 100%;margin-left: 0;margin-right: auto;" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 157px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1" style="text-align: left;">
+                        <p class="p_6">Area</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1" style="text-align: left;">
+                        <p class="p_6">Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows" style="text-align: left;">
+                        <p class="RNArea">Exchange Integration Web Service (PAM)</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" style="text-align: left;">
+                        <p class="RNTitle">Enhanced PAM Logging to Provide Detailed Request Logging for EWS Connectivity Issues</p>
+                        <p class="RNBody">To better debug and troubleshoot Exchange Web Services (EWS) connectivity issues, EWS&#160;request logging was added in a JSON format that can be indexed by Splunk. </p>
+                        <p class="RNBodyBeforeList">The following logging capabilities were added to PAM:</p>
+                        <ul class="RN-unorder-list">
+                            <li>JSON request logging to the EWS calls made in PAM using Serilog with configuration parameters available in the web.config to set the log folder, filename pattern, and retention policy.</li>
+                            <li>Support for EWS Managed API request tracing if the log level is set to "Debug."</li>
+                            <li>Support for the following log levels as a configuration option in the web.config: Verbose, Debug, Information, Warning, Error, and Fatal.</li>
+                        </ul>
+                        <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=37083" class="RNRefHyper" title="EMS Internal Use Only" alt="EMS Internal Use Only">37083</a><br />(For EMS Internal Use Only)</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
         <h2 style="font-size: 24pt;"><a name="Update22"></a><span style="font-size: 26pt;"><span style="font-size: 24pt;">V44.1, </span></span><a href="../V44.1_ReleaseNotes.htm#Update22" style="font-size: 24pt;">Update 22</a><span style="font-size: 26pt;"><span style="font-size: 24pt;">*</span></span> <![CDATA[ ]]></h2>
         <table style="mc-table-style: url('../Resources/TableStyles/PatternedRows.css');width: 718px;" class="TableStyle-PatternedRows" cellspacing="0">
             <col class="TableStyle-PatternedRows-Column-Regular" style="width: 191px;" />
@@ -95,7 +168,7 @@
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows" style="text-align: center;" colspan="3">
-                        <p colspan="3" style="text-align: center;"><span class="bold">See Also</span>:&#160;<br /><a href="../WhatsNewV44.1.htm">What's New for Version 44.1</a></p>
+                        <p colspan="3" style="text-align: center;"><span class="bold">See Also:</span>&#160;<a href="Version44.1/Update22/KnownIssues.htm">Known Issues for Update 22</a><br /><a href="../WhatsNewV44.1.htm">What's New for Version 44.1</a></p>
                     </td>
                 </tr>
             </tbody>
