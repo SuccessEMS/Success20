@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xml:lang="en-us" MadCap:lastBlockDepth="12" MadCap:lastHeight="1202" MadCap:lastWidth="883" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+<html xml:lang="en-us" MadCap:lastBlockDepth="8" MadCap:lastHeight="1390" MadCap:lastWidth="920" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
         <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
         <link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
@@ -28,7 +28,7 @@
                 </td>
             </tr>
         </table>
-        <h2>FIX</h2>
+        <h2>Enhancement</h2>
         <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');width: 100%;margin-left: 0;margin-right: auto;" cellspacing="0">
             <col class="TableStyle-PatternedRows-Column-Regular" style="width: 157px;" />
             <col class="TableStyle-PatternedRows-Column-Regular" />
@@ -45,13 +45,18 @@
             <tbody>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows" style="text-align: left;">
-                        <p class="RNArea">Create Reservation</p>
+                        <p class="RNArea">Exchange Integration Service (PAM)</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" style="text-align: left;">
-                        <p class="RNTitle">Creating a Reservation with a Skype Meeting Displayed an Error Message</p>
-                        <p class="RNBody">When creating reservation with a Skype meeting, or favoriting rooms, users were unable to filter by area. The building list was empty.</p>
-                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that when users filter by area, the building list will display the appropriate buildings for the filtered area.  </p>
-                        <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=32588" class="RNRefHyper" title="EMS Internal Use Only" alt="EMS Internal Use Only">32588</a><br />(For EMS Internal Use Only)</p>
+                        <p class="RNTitle">Enhanced PAM Logging to Provide Detailed Request Logging for EWS Connectivity Issues</p>
+                        <p class="RNBody">To better debug and troubleshoot Exchange Web Services (EWS) connectivity issues, enhanced EWS&#160;request logging was added in a JSON format that can be indexed by Splunk. </p>
+                        <p class="RNBodyBeforeList">The following logging capabilities were added to PAM:</p>
+                        <ul class="RN-unorder-list">
+                            <li>JSON request logging to the EWS calls made in PAM using Serilog with configuration parameters available in the web.config to set the log folder, filename pattern, and retention policy.</li>
+                            <li>Support for EWS Managed API request tracing if the log level is set to "Debug."</li>
+                            <li>Support for the following log levels as a configuration option in the web.config: Verbose, Debug, Information, Warning, Error, and Fatal.</li>
+                        </ul>
+                        <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=37083" class="RNRefHyper" title="EMS Internal Use Only" alt="EMS Internal Use Only">37083</a><br />(For EMS Internal Use Only)</p>
                     </td>
                 </tr>
             </tbody>
