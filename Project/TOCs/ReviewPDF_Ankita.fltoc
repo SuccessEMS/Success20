@@ -2,6 +2,9 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="[%=System.LinkedTitle%]"
-    Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigRoomPricing.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    Title="Platform Services Release Notes U22.1"
+    Link="/Content/ReleaseNotes/Version44.1/Update22.1/EMSPlatformServices_RN.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
+  <TocEntry
+    Title="EMS Mobile App Release Notes U22.1"
+    Link="/Content/ReleaseNotes/Version44.1/Update22.1/EMSMobileApp.htm" />
 </CatapultToc>

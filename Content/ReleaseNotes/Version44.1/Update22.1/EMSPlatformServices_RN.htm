@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xml:lang="en-us" MadCap:lastBlockDepth="8" MadCap:lastHeight="5510" MadCap:lastWidth="664" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+<html xml:lang="en-us" MadCap:lastBlockDepth="8" MadCap:lastHeight="3723" MadCap:lastWidth="664" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
         <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
         <link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
@@ -81,63 +81,19 @@
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
                         <p class="RNTitle">UDF Search Conflict</p>
                         <p class="RNBody">UDFs with matching names, but defined on different parent types, were conflicting in UDF searches. </p>
-                        <p class="RNBody">Fix:&#160;Modified functionality so that there is no conflict while searching UDFs. </p>
+                        <p class="RNBody"><span class="bold">Fix</span>:&#160;Modified functionality so that there is no conflict while searching UDFs. </p>
                         <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=37100" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">37100</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows" style="text-align: left;">
-                        <p class="RNArea">API&#160;Call</p>
+                        <p class="RNArea">EMS&#160;Mobile App</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" style="text-align: left;">
                         <p class="RNTitle">API Call Panicked When Creating Skype Reservation from EMS&#160;Mobile App</p>
                         <p class="RNBody">The POST/reservations/actions/create call panicked when creating a Skype reservation from the EMS&#160;Mobile App. </p>
-                        <p class="RNBody">Fix:&#160;Modified functionality so that the POST/reservations/actions/create call works appropriately when creating a Skype reservation from the EMS&#160;Mobile App. </p>
+                        <p class="RNBody"><span class="bold">Fix</span>:&#160;Modified functionality so that the POST/reservations/actions/create call works appropriately when creating a Skype reservation from the EMS&#160;Mobile App. </p>
                         <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=37076" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">37076</a><br />(For EMS&#160;Internal Use Only)</p>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-        <h2>Fixes</h2>
-        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');width: 100%;margin-left: auto;margin-right: auto;" cellspacing="0">
-            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 157px;" />
-            <col class="TableStyle-PatternedRows-Column-Regular" />
-            <thead>
-                <tr class="TableStyle-PatternedRows-Head-Header1">
-                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1" style="text-align: left;">
-                        <p class="p_6">Area</p>
-                    </th>
-                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1" style="text-align: left;">
-                        <p class="p_6">Description</p>
-                    </th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: left;">
-                        <p class="RNArea">EMS&#160;for Outlook</p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
-                        <p class="RNTitle">When Authenticating First Time Users Through EMS&#160;for Outlook, Security Template Was Not Being Assigned</p>
-                        <p class="RNBody">When authenticating users for the first time through EMS&#160;for Outlook, a security template was not being assigned, and the user was receiving an "invalid url" message when logging in to the Outlook add-in. </p>
-                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that when authenticating users for the first time in EMS&#160;Outlook, the security template configured for the user in the EMS&#160;Desktop Client is assigned to the user, and the user is able to log in to the EMS&#160;for Outlook add-in.</p>
-                        <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=35951" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">35951</a><br />(For EMS Internal Use Only)</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNArea">API&#160;Calls</p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNTitle">GET/Bookings Returned Incorrect Combo Room Details </p>
-                        <p class="RNBody">GET/Bookings route was returning component room bookings even though "includeComponentRooms" flag was set to false.</p>
-                        <p class="RNBodyBeforeList"><span class="bold">Fix:</span>&#160;Modified functionality so that the correct room details (BookingRoomModel) are returned for combo and component rooms, and component room bookings are not returned when the filter "includeComponentRooms" is set to false for the following:&#160;</p>
-                        <ul class="RN-unorder-list">
-                            <li>GET /bookings</li>
-                            <li>POST /bookings/actions/search</li>
-                            <li>/bookings/actions/search/users</li>
-                        </ul>
-                        <p class="RNRef"> Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=36634" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">36634</a><br />(For EMS Internal Use Only)</p>
                     </td>
                 </tr>
             </tbody>
