@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html MadCap:lastBlockDepth="7" MadCap:lastHeight="7514" MadCap:lastWidth="934" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\EMSDesktopClient.flmsp');">
+<html MadCap:lastBlockDepth="7" MadCap:lastHeight="7994" MadCap:lastWidth="933" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\EMSDesktopClient.flmsp');">
     <head>
         <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title mt-export-translate="no">Configuring Buildings</title>
         <meta name="mt-type" value="application/x.deki-text" />
@@ -7,8 +7,8 @@
     </head>
     <body>
         <h1 MadCap:autonum="CHAPTER&#160;1: ">Configuring Buildings</h1>
-        <p>A <em class="bold" style="font-style: normal;">building</em> is a physical location that contains one or more spaces (e.g., rooms, open areas, etc.), that users can reserve for an event. Buildings are one of the core data items that you must configure&#160;so that your users can make reservations in <MadCap:variable name="General.Product" />.</p>
-        <p>This topic will provide the following information:</p>
+        <p>A <span class="bold">building</span> is a physical location that contains one or more spaces (e.g., rooms, open areas, etc.), that users can reserve for an event. Buildings are one of the core data items that you must configure&#160;so that your users can make reservations in <MadCap:variable name="General.Product" />.</p>
+        <p>This topic provides the following information:</p>
         <ul class="unorder-list">
             <li>
                 <MadCap:xref href="#ConfigureBuilding">Configure a Building</MadCap:xref>
@@ -25,20 +25,28 @@
             <li>
                 <MadCap:xref href="#Specify">Specify Unregistered Attendee/Visitor Behavior</MadCap:xref>
             </li>
+            <li><a href="#AuditTab">Audit Tab</a>
+            </li>
         </ul>
         <h2><a name="ConfigureBuilding"></a>Configure a Building</h2>
         <ol class="number-list">
             <li>On the <MadCap:variable name="General.EMS&#160;Desktop Client" /> menu bar, click <span class="bold">Configuration </span>&gt; <span class="bold">Facilities </span>&gt; <span class="bold">Buildings</span>.&#160;The Buildings window opens. This window lists all the buildings that are currently configured in your <MadCap:variable name="General.Product" /> database.</li>
         </ol>
-        <p>
-            <img border="0" src="Images/DC_CG_ConfigBuild1.png" class="PDFmedium" />
-        </p>
+        <div class="TitleandImage">
+            <p class="title"> Buildings Window</p>
+            <p>
+                <img border="0" src="Images/DC_CG_ConfigBuild1.png" class="PDFmedium" />
+            </p>
+        </div>
         <ol MadCap:continue="true" class="number-list">
             <li>Click <span class="bold">New</span>.&#160;The Building configuration dialog opens on the Building tab.</li>
         </ol>
-        <p>
-            <img border="0" src="Images/DC_CG_ConfigBuild2.png" class="PDFlarge" />
-        </p>
+        <div class="TitleandImage">
+            <p>Building Configuration Dialog</p>
+            <p>
+                <img border="0" src="Images/DC_CG_ConfigBuild2.png" class="PDFlarge" />
+            </p>
+        </div>
         <ol MadCap:continue="true" class="number-list">
             <li>Enter the information as appropriate for the building using the subtopics in this topic.</li>
         </ol>
@@ -176,45 +184,57 @@
         <h2><a name="RestrictBuilding"></a>Restrict a Building to Specific Categories</h2>
         <p>You can restrict specific categories to specific buildings. </p>
         <ol class="number-list">
-            <li>From the Building Configuration page, click&#160;the <span class="bold">Categories </span>tab.</li>
+            <li>From the Building Configuration dialog, click&#160;the <span class="bold">Categories </span>tab.</li>
         </ol>
-        <p>
-            <img border="0" src="Images/DC_CG_ConfigBuild3.png" class="PDFmedium" />
-        </p>
+        <div class="TitleandImage">
+            <p class="title">Categories Tab of the Building Configuration Dialog</p>
+            <p>
+                <img border="0" src="Images/DC_CG_ConfigBuild3.png" class="PDFmedium" />
+            </p>
+        </div>
         <div class="note-box tip">
             <p><span class="bold">Tip:</span> The Available to All Buildings list in the lower right pane displays all the categories that are always available to all buildings and you cannot edit this list. You can also link buildings and categories when you are configuring categories. See <MadCap:xref href="DC_CG_ConfigCategory.html">Configure Categories</MadCap:xref>.</p>
         </div>
         <ol MadCap:continue="true" class="number-list">
             <li>Select the categories you want&#160;to be available for use in the building, and then use the arrow buttons to move them to the Selected list.</li>
-            <li>Continue with any other configuration for the building as needed; otherwise, click <span class="bold">OK </span>to close the Building dialog box and return to the Buildings window. The newly configured building is displayed in the window.</li>
+            <li>Continue with any other configuration for the building as needed; otherwise, click <span class="bold">OK </span>to close the Building dialog and return to the Buildings window. The newly configured building is displayed in the window.</li>
         </ol>
         <h2><a name="AssociateImage"></a>Associate&#160;an Image With a Building</h2>
         <p>Images are displayed as thumbnails when an Everyday User views details about a building. You can associate an image with a building if the image is in one of the following formats: .gif, .jpeg, .jpg, .bmp, .wmf, or .png and ideally, it should not be larger than 615 x 350 pixels. If you attach an image larger than this, you might not be able to view the image without scrolling.</p>
         <ol class="number-list">
             <li>From the Building Configuration dialog, click&#160;the <span class="bold">Images </span>tab.</li>
         </ol>
-        <p>
-            <img src="Images/DocUpdate/Configuration-BuildingsImages.PNG" class="PDFlarge" />
-        </p>
+        <div class="TitleandImage">
+            <p class="title">Images Tab of the Building Configuration Dialog</p>
+            <p>
+                <img src="Images/DocUpdate/Configuration-BuildingsImages.PNG" class="PDFlarge" />
+            </p>
+        </div>
         <ol MadCap:continue="true" class="number-list">
-            <li>To have an image of the building display&#160;to Everyday Users when viewing building details, click <span class="bold">New </span>to open the Find Image dialog box, and then browse to and select the image.&#160;The Find Image dialog box closes. You remain on the Images tab with an entry for the image displayed on the tab.</li>
+            <li>To have an image of the building display&#160;to Everyday Users when viewing building details, click <span class="bold">New </span>to open the Find Image dialog box, and then browse to and select the image.&#160;The Find Image dialog box closes. You remain on the <span class="bold">Images </span>tab with an entry for the image displayed on the tab.</li>
             <li>You can enter a longer description of the building&#160;in the <span class="bold">Web App Long Description</span> field. The value that you enter here defines the “long desc” attribute.</li>
             <li>Continue with any other configuration for the building as needed; otherwise, click <span class="bold">OK </span>to close the Building dialog box and return to the Buildings window.&#160;</li>
         </ol>
         <h2><a name="SetValues"></a>Set Values&#160;for the User Defined Fields (UDFs)</h2>
         <p>The UDF fields are used to flag details associated with a building for reporting purposes. These fields are typically used when integrating with other systems. </p>
         <ol class="number-list">
-            <li>From the Building configuration dialog, click&#160;the <span class="bold">UDFs </span>tab.</li>
+            <li>From the Building configuration dialog, click&#160;the <span class="bold">User Defined Fields </span>tab.</li>
         </ol>
-        <p>
-            <img border="0" src="Images/DC_CG_ConfigBuild5.png" class="PDFmedium" />
-        </p>
+        <div class="TitleandImage">
+            <p class="title">User Defined Fields Tab of the Building Configuration Dialog</p>
+            <p>
+                <img border="0" src="Images/DC_CG_ConfigBuild5.png" class="PDFmedium" />
+            </p>
+        </div>
         <ol MadCap:continue="true" class="number-list">
             <li>For each UDF that has been defined for the building, select the UDF, and then click the <span class="bold">Set Value</span> button to open the Building Manager dialog box in which you can set the value for the UDF.</li>
         </ol>
-        <p>
-            <img src="Images/DocUpdate/Configuration-BuildingUDF.PNG" class="PDFmedium" />
-        </p>
+        <div class="TitleandImage">
+            <p class="title">Building Manager Dialog</p>
+            <p>
+                <img src="Images/DocUpdate/Configuration-BuildingUDF.PNG" class="PDFmedium" />
+            </p>
+        </div>
         <ol class="number-list" MadCap:continue="true">
             <li>Continue with any other configuration for the building as needed; otherwise, click <span class="bold">OK </span>to close the Building dialog box and return to the Buildings window.</li>
         </ol>
@@ -223,9 +243,12 @@
         <ol class="number-list">
             <li>From the Building configuration dialog, click the <span class="bold">Visitor Management </span>tab.</li>
         </ol>
-        <p>
-            <img border="0" src="Images/DC_CG_ConfigBuild6.png" class="PDFmedium" />
-        </p>
+        <div class="TitleandImage">
+            <p class="title">Visitor Management Tab of the Building Configuration Dialog</p>
+            <p>
+                <img border="0" src="Images/DC_CG_ConfigBuild6.png" class="PDFmedium" />
+            </p>
+        </div>
         <ol MadCap:continue="true" class="number-list">
             <li>Enter the information for the new unregistered visitor/attendee.</li>
         </ol>
@@ -301,6 +324,7 @@
         <ol MadCap:continue="true" class="number-list">
             <li>Continue with any other configuration for the building as needed; otherwise, click <span class="bold">OK </span>to close the Building configuration dialog and return to the list of Buildings.</li>
         </ol>
+        <h2><a name="AuditTab"></a>Audit Tab</h2>
         <MadCap:snippetBlock src="../../../AuditTab.flsnp" />
     </body>
 </html>

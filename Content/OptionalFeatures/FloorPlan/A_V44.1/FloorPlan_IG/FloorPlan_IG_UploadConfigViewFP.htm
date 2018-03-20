@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="8" MadCap:lastHeight="7945" MadCap:lastWidth="922">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="8" MadCap:lastHeight="8614" MadCap:lastWidth="920">
     <head>
         <link href="../../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
     </head>
@@ -36,7 +36,11 @@
             </li>
         </ul>
         <h2><a name="Best_Practices"></a>Best Practices</h2>
-        <p>Display settings and other environmental factors greatly affect the performance of EMS Floorplan.&#160;For an optimal floorplan experience, please adhere to the following&#160;best practices:</p>
+        <p>Display settings and other environmental factors greatly affect the performance of EMS Floor Plans.&#160;</p>
+        <div class="note-box note">
+            <p><span class="bold">Note</span>:&#160;Floor plan indicators do <span class="bold">not </span>scale when you zoom in and out of the floor plan.</p>
+        </div>
+        <p>For an optimal floor plan experience, please adhere to the following&#160;best practices:</p>
         <p class="title">Recommended Display Settings</p>
         <table style="mc-table-style: url('../../../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
             <thead>
@@ -92,7 +96,7 @@
                 </tr>
             </tbody>
         </table>
-        <p class="title">Floorplan Image Max/Min Resolution and Aspect Ratio Recommendations</p>
+        <p class="title">Floor Plan Image Max/Min Resolution and Aspect Ratio Recommendations</p>
         <table style="mc-table-style: url('../../../../Resources/TableStyles/PatternedRows.css');margin-left: 0;margin-right: auto;width: 100%;" class="TableStyle-PatternedRows" cellspacing="0">
             <col class="TableStyle-PatternedRows-Column-Regular" />
             <col class="TableStyle-PatternedRows-Column-Regular" />
@@ -476,17 +480,23 @@
         <h2><a name="Upload_and_Map_Floorplan_Indicators_and_Diagrams"></a>Upload and Map Floor Plan Indicators and Diagrams to Rooms in EMS Desktop Client</h2>
         <p>Using the Floor Plan Configuration Utility, map indicators to room locations on your floor plans.&#160;</p>
         <p>This optional feature, enabled with an EMS Floor Plans license,&#160;allows users to view available rooms and book a space directly from a floor plan image in EMS Web App&#160;or EMS Kiosk.</p>
-        <p>Concept:&#160;Configuring floor plans in the Floor Plan module is a three step process:</p>
-        <ol start="1" class="number-list">
-            <li><span class="italics">Configure&#160;the&#160;floor plan indicators</span> (the images used indicate whether a room is available or unavailable for a floor plan). For example, you might use something as simple as a green square to indicate that a room on a floor is available and a red square to indicate that a room on a floor is unavailable.</li>
-            <li><span class="italics">Configure&#160;a floor plan diagram</span>&#160;for each floor of each building for which a floor plan applies. A&#160;floor plan diagram&#160;is a drawing, or outline, usually to scale, that shows the relationships between rooms, spaces, and other physical features for one floor of a building.</li>
-            <li>Map your floor plan indicators to rooms on your diagrams using the Floor Plan Configuration utility.</li>
-        </ol>
-        <p>The availability of each reservable space ultimately determines the indicator (available or unavailable) that shows&#160;on a floor plan in EMS Web App or EMS Kiosk.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Concept:&#160;Configuring floor plans in the Floor Plan module is a three step process: <MadCap:variable name="General.Click for More" /></MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol start="1" class="number-list">
+                    <li><span class="italics">Configure&#160;the&#160;floor plan indicators</span> (the images used indicate whether a room is available or unavailable for a floor plan). For example, you might use something as simple as a green square to indicate that a room on a floor is available and a red square to indicate that a room on a floor is unavailable.</li>
+                    <li><span class="italics">Configure&#160;a floor plan diagram</span>&#160;for each floor of each building for which a floor plan applies. A&#160;floor plan diagram&#160;is a drawing, or outline, usually to scale, that shows the relationships between rooms, spaces, and other physical features for one floor of a building.</li>
+                    <li><span class="italics">Map your floor plan indicators </span>to rooms on your diagrams using the Floor Plan Configuration utility.</li>
+                </ol>
+                <p>The availability of each reservable space ultimately determines the indicator (available or unavailable) that shows&#160;on a floor plan in EMS Web App or EMS Kiosk.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
         <h2><a name="Configure_Floor_Plan_Indicators"></a>Configure Floor Plan Indicators</h2>
         <ol start="1" class="number-list">
-            <li>On the EMS menu bar, click <span class="bold">Configuration </span>&gt; <span class="bold">Facilities </span>&gt;&#160;<span class="bold">Floor Plan Indicators</span>.&#160;The Floor Plan Indicators window opens, listing&#160;active&#160;indicator sets currently configured in your EMS database.<p><img src="../Images/FloorPlan_Guide/Upload Configure and View_1.png" alt="emssg_corefacilities_image050.png" class="PDFlarge" /></p><div class="note-box tip"><p><span class="bold">Tip:</span> To see all indicator sets regardless of status, under Show, click&#160;<span class="bold">Inactive</span>.</p></div></li>
-            <li>Click&#160;<span class="bold">New</span>.&#160;The Floor Plan Indicator dialog box opens.<p><img src="../Images/FloorPlan_Guide/Upload Configure and View_3.png" alt="emssg_corefacilities_image051.png" class="PDFlarge" /></p></li>
+            <li>On the EMS menu bar, click <span class="bold">Configuration </span>&gt; <span class="bold">Facilities </span>&gt;&#160;<span class="bold">Floor Plan Indicators</span>.&#160;The Floor Plan Indicators window opens, listing&#160;active&#160;indicator sets currently configured in your EMS database.<div class="TitleandImage"><p class="title">Floor Plan Indicators Window</p><p><img src="../Images/FloorPlan_Guide/Upload Configure and View_1.png" alt="emssg_corefacilities_image050.png" class="PDFmedium" /></p></div><div class="note-box tip"><p><span class="bold">Tip:</span> To see all indicator sets regardless of status, under Show, click&#160;<span class="bold">Inactive</span>.</p></div></li>
+            <li>Click&#160;<span class="bold">New</span>.&#160;The Floor Plan Indicator dialog box opens.<div class="TitleandImage"><p class="title">Floor Plan Indicator Dialog</p><p><img src="../Images/FloorPlan_Guide/Upload Configure and View_3.png" alt="emssg_corefacilities_image051.png" class="PDFmedium" /></p></div></li>
             <li>In the Description field, enter a name or description for the new floor plan indicators (max 50 characters including spaces. You can name indicators something as simply as Indicator Set 1, or if you are using different indicators for different floor plans in different buildings, you could identify them by building, for example, Memorial Student Union indicators, Fifth Floor Conference Room indicators, and so on.</li>
             <li>Next to the Image field, click&#160;<span class="bold">Search&#160;</span>to browse to and select an&#160;image to use for the&#160;<span class="italics">available&#160;</span>indicator.</li>
             <li>Next to the Secondary Image field, click&#160;<span class="italics">Search&#160;</span>to browse to and select an&#160;image to use for the&#160;<span class="italics">unavailable&#160;</span>indicator.<div class="note-box note"><p><span class="bold">Note:</span>&#160;The image must be in .gif, .jpeg, .jpg, .bmp, .wmf, or .png format.</p></div></li>
@@ -495,9 +505,9 @@
         <h2><a name="Configure_a_Floor_Plan_Diagram"></a>Configure a Floor Plan Diagram</h2>
         <p>You must configure one floor plan diagram for each floor that will&#160;be available for booking in EMS Web App&#160;and the EMS Kiosk.</p>
         <ol start="1" class="number-list">
-            <li>On the EMS menu bar, click <span class="bold">Configuration </span>&gt; <span class="bold">Facilities </span>&gt;&#160;<span class="bold">Floor Plan Diagrams</span>.&#160;A blank Floor Plan Diagrams window opens.<p><img src="../Images/FloorPlan_Guide/Upload Configure and View_5.png" alt="emssg_corefacilities_image053.png" class="PDFmedium" /></p></li>
+            <li>On the EMS menu bar, click <span class="bold">Configuration </span>&gt; <span class="bold">Facilities </span>&gt;&#160;<span class="bold">Floor Plan Diagrams</span>.&#160;A blank Floor Plan Diagrams window opens.<div class="TitleandImage"><p class="title">Floor Plan Diagrams Window</p><p><img src="../Images/FloorPlan_Guide/Upload Configure and View_5.png" alt="emssg_corefacilities_image053.png" class="PDFmedium" /></p></div></li>
             <li>Optionally, in the Building dropdown list, select (all), or select a specific building to see a list of floor plans for all buildings or for the selected building in the window.</li>
-            <li>Click&#160;<span class="bold">New</span>.&#160;The Floor Plan Diagram dialog box opens on&#160;<span class="bold">Floor Plan Diagram</span> tab.<p><img src="../Images/FloorPlan_Guide/Upload Configure and View_6.png" alt="emssg_corefacilities_image054.png" class="PDFlarge" /></p></li>
+            <li>Click&#160;<span class="bold">New</span>.&#160;The Floor Plan Diagram dialog box opens on&#160;<span class="bold">Floor Plan Diagram</span> tab.<div class="TitleandImage"><p class="title">Floor Plan Diagram Tab in the Floor Plan Diagram Dialog</p><p><img src="../Images/FloorPlan_Guide/Upload Configure and View_6.png" alt="emssg_corefacilities_image054.png" class="PDFmedium" /></p></div></li>
             <li>In the Description field, enter a name or description for the new floor plan diagram (maximum of 50 characters, including spaces).</li>
             <li>On the Building dropdown list, select the building for which you are configuring the floor plan diagram.</li>
             <li>Next to the Image field,&#160;<span class="bold">Search&#160;</span>to browse and select the image to use for the floor plan diagram.<div class="note-box note"><p><span class="bold">Note:&#160;</span>Image files must be&#160;gif, .jpeg, .jpg, .bmp, .wmf, or .png. Optimal image size is 1024 x 768</p></div></li>
@@ -506,16 +516,16 @@
         </ol>
         <h2><a name="Map_a_Floor_Plan"></a>Map&#160;a Floor Plan</h2>
         <ol start="1" class="number-list">
-            <li>Log in to the Floor Plan Configuration module;&#160;then the Configure Rooms option shows&#160;above&#160;the Login fields on the main window.<p>Floor Plan Configuration module, main window with Configure Rooms option</p><p><img src="../Images/FloorPlan_Guide/Upload Configure and View_7.png" alt="emssg_corefacilities_image055.png" class="PDFlarge" /></p></li>
-            <li>Click&#160;<span class="bold">Configure Rooms</span>.&#160;The Configure Rooms page opens.<p>Floor Plan Configuration module, Configure Rooms page</p><p><img src="../Images/FloorPlan_Guide/Upload Configure and View_8.png" alt="emssg_corefacilities_image056.png" class="PDFlarge" /></p></li>
+            <li>Log in to the Floor Plan Configuration module. Te Configure Rooms option shows&#160;above&#160;the Login fields on the main window.<p class="title">Floor Plan Configuration Module, Main Window with Configure Rooms Option</p><p><img src="../Images/FloorPlan_Guide/Upload Configure and View_7.png" alt="emssg_corefacilities_image055.png" class="PDFlarge" /></p></li>
+            <li>Click&#160;<span class="bold">Configure Rooms</span>.&#160;The Configure Rooms page opens.<div class="TitleandImage"><p class="title">Floor Plan Configuration Module, Configure Rooms Page</p><p><img src="../Images/FloorPlan_Guide/Upload Configure and View_8.png" alt="emssg_corefacilities_image056.png" class="PDFlarge" /></p></div></li>
             <li>On the Floor Plan dropdown list, select a floor plan diagram.&#160;The available indicators that are associated with the floor plan diagram are displayed below the selected diagram.</li>
             <li>Drag an available indicator and place it as needed to indicate where a room (reservable space) is located on the floor.</li>
             <li>Repeat&#160;Step 4&#160;until you have identified all the reservable spaces on the floor.</li>
-            <li>For each indicator, do the following:<ul start="1"><li>Click on the indicator to open a Room Details dialog box.</li><li>On the Rooms dropdown list, select the room for the indicator, and then click&#160;<span class="bold">Save</span>.</li></ul><div class="note-box note"><p><span class="bold">Note:</span>&#160;To filter the list of available rooms, select a specific floor and/or room type under Filter Options. Drop an indicator on the floorplan. Click Save. It is not necessary to configure a room in the indicator.</p></div></li>
+            <li>For each indicator, do the following:<ul start="1"><li>Click on the indicator to open a Room Details dialog box.</li><li>On the Rooms dropdown list, select the room for the indicator, and then click&#160;<span class="bold">Save</span>.</li></ul><div class="note-box note"><p><span class="bold">Note:</span>&#160;To filter the list of available rooms, select a specific floor and/or room type under Filter Options. Drop an indicator on the floor plan. Click <span class="bold">Save</span>. It is not necessary to configure a room in the indicator.</p></div></li>
             <li>Close the Floor Plan Configuration module.</li>
         </ol>
         <h2><a name="Enable_Floorplans_to_Show_in_Your_EMS_Apps"></a>Enable Floor Plans to Show in Your EMS Apps</h2>
-        <p>Once your floorplans have been configured, you can then enable them to display to users in the web apps your organization has licensed.</p>
+        <p>Once your floor plans have been configured, you can then enable them to display to users in the web apps your organization has licensed.</p>
         <h3><a name="Enable_Floorplans_to_Show_in_EMS_Web_App"></a>Enable Floor Plans to Show in EMS Web App</h3>
         <ol start="1" class="number-list">
             <li>Go to&#160;<span class="bold">System Administration</span> &gt; <span class="bold">Settings </span>&gt; <span class="bold">Parameters </span>&gt;&#160;<span class="bold">Everyday User Applications</span>&#160;tab&#160;and locate the parameter, <span class="italics">"Floor Plan Web Service URL"</span>.&#160;</li>
