@@ -101,6 +101,97 @@
         Title="Update 14"
         Link="/Content/V44.1_ReleaseNotes.htm#Update14"
         StartSection="false"></TocEntry>
+      <TocEntry
+        Title="Update 13"
+        Link="/Content/V44.1_ReleaseNotes.htm#Update13"
+        StartSection="false"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue"></TocEntry>
+      <TocEntry
+        Title="Update 12"
+        Link="/Content/V44.1_ReleaseNotes.htm#Update12"
+        StartSection="false"></TocEntry>
+      <TocEntry
+        Title="Update 11.1"
+        Link="/Content/V44.1_ReleaseNotes.htm#Update11.1"
+        StartSection="false"></TocEntry>
+      <TocEntry
+        Title="Update 11"
+        Link="/Content/V44.1_ReleaseNotes.htm#Update11"
+        StartSection="false"></TocEntry>
+      <TocEntry
+        Title="Update 10"
+        Link="/Content/V44.1_ReleaseNotes.htm#Update10"
+        StartSection="false"></TocEntry>
+      <TocEntry
+        Title="Update 9.1"
+        Link="/Content/V44.1_ReleaseNotes.htm#Update9.1"
+        StartSection="false"></TocEntry>
+      <TocEntry
+        Title="Update 9"
+        Link="/Content/V44.1_ReleaseNotes.htm#Update9"
+        StartSection="false"></TocEntry>
+      <TocEntry
+        Title="Update 8.3"
+        Link="/Content/V44.1_ReleaseNotes.htm#Update8.3"
+        StartSection="false"></TocEntry>
+      <TocEntry
+        Title="Update 8.2"
+        Link="/Content/V44.1_ReleaseNotes.htm#Update8.2"
+        StartSection="false"></TocEntry>
+      <TocEntry
+        Title="Update 8.1"
+        Link="/Content/V44.1_ReleaseNotes.htm#Update8.1"
+        StartSection="false"></TocEntry>
+      <TocEntry
+        Title="Update 8"
+        Link="/Content/V44.1_ReleaseNotes.htm#Update8"
+        StartSection="false"></TocEntry>
+      <TocEntry
+        Title="Update 7"
+        Link="/Content/V44.1_ReleaseNotes.htm#Update7"
+        StartSection="false"></TocEntry>
+      <TocEntry
+        Title="Update 6.3"
+        Link="/Content/V44.1_ReleaseNotes.htm#Update6.3"
+        StartSection="false"></TocEntry>
+      <TocEntry
+        Title="Update 6.2"
+        Link="/Content/V44.1_ReleaseNotes.htm#Update6.2"
+        StartSection="false"></TocEntry>
+      <TocEntry
+        Title="Update 6.1"
+        Link="/Content/V44.1_ReleaseNotes.htm#Update6.1"
+        StartSection="false"></TocEntry>
+      <TocEntry
+        Title="Update 6"
+        Link="/Content/V44.1_ReleaseNotes.htm#Update6"
+        StartSection="false"></TocEntry>
+      <TocEntry
+        Title="Update 5"
+        Link="/Content/V44.1_ReleaseNotes.htm#Update5"
+        StartSection="false"></TocEntry>
+      <TocEntry
+        Title="Update 4"
+        Link="/Content/V44.1_ReleaseNotes.htm#Update4"
+        StartSection="false"></TocEntry>
+      <TocEntry
+        Title="Update 3"
+        Link="/Content/V44.1_ReleaseNotes.htm#Update3"
+        StartSection="false"></TocEntry>
+      <TocEntry
+        Title="Update 2.1"
+        Link="/Content/V44.1_ReleaseNotes.htm#Update2.1"
+        StartSection="false"></TocEntry>
+      <TocEntry
+        Title="Update 2"
+        Link="/Content/V44.1_ReleaseNotes.htm#Update2"
+        StartSection="false"></TocEntry>
+      <TocEntry
+        Title="Update 1"
+        Link="/Content/V44.1_ReleaseNotes.htm#Update1"
+        StartSection="false"></TocEntry>
     </TocEntry>
     <TocEntry
       Title="Browse by Product"
