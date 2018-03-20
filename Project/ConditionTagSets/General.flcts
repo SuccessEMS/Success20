@@ -14,6 +14,7 @@
     Comment="" />
   <ConditionTag
     BackgroundColor="#008027"
-    Name="TechDocs"
-    Comment="" />
+    Name="Online Only"
+    Comment=""
+    OriginalName="TechDocs" />
 </CatapultConditionTagSet>
