@@ -2,29 +2,6 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="EMS Cloud Services"
-    Link="/Content/Cloud.htm"
-    BreakType="chapter"
-    StartSection="false"
-    PageNumberReset="reset"
-    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
-    ChapterNumberReset="reset"
-    ChapterNumber="1"
-    PageNumber="1"
-    SectionNumberReset="continue"
-    VolumeNumberReset="same"></TocEntry>
-  <TocEntry
     Title="[%=System.LinkedTitle%]"
-    Link="/Content/Cloud/Cloud_Architecture.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-    BreakType="chapter"
-    StartSection="false"
-    PageNumberReset="continue"
-    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
-  <TocEntry
-    Title="[%=System.LinkedTitle%]"
-    Link="/Content/Cloud/Cloud_Installation.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-    BreakType="chapter"
-    StartSection="false"
-    PageNumberReset="continue"
-    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
+    Link="/Content/OptionalFeatures/FloorPlan/A_V44.1/FloorPlan_IG/FloorPlan_IG_UploadConfigViewFP.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
 </CatapultToc>
