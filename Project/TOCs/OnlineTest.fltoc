@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+  <TocEntry
+    Title="Installation Guides"
+    Link="/Content/InstallGuides/1InstallationHome.htm">
+    <TocEntry
+      Title="Optional Features"
+      Link="/Content/OptionalFeatures/1_OptionalFeaturesHome.htm">
+      <TocEntry
+        Title="EMS Floor Plan"
+        Link="/Content/OptionalFeatures/3_EMS_FloorPlansHome.htm">
+        <TocEntry
+          Title="Introduction"
+          Link="/Content/OptionalFeatures/FloorPlan/A_V44.1/FloorPlan_IG/FloorPlan_IG_Introduction.htm">
+          <TocEntry
+            Title="Requirements"
+            Link="/Content/OptionalFeatures/FloorPlan/A_V44.1/FloorPlan_IG/FloorPlan_IG_Requirements.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="Obtain Floor Plans Installation Files"
+          Link="/Content/OptionalFeatures/FloorPlan/A_V44.1/FloorPlan_IG/FloorPlan_IG_ObtainFPInstallFiles.htm" />
+        <TocEntry
+          Title="Install Floor Plans Components"
+          Link="/Content/OptionalFeatures/FloorPlan/A_V44.1/FloorPlan_IG/FloorPlan_IG_InstallFloorPlanComponents.htm">
+          <TocEntry
+            Title="Install or Upgrade the Floor Plan Web Service"
+            Link="/Content/OptionalFeatures/FloorPlan/A_V44.1/FloorPlan_IG/FloorPlan_IG_InstallUpgradeFPWebService.htm" />
+          <TocEntry
+            Title="Install or Upgrade the Floor Plan Configuration Tool"
+            Link="/Content/OptionalFeatures/FloorPlan/A_V44.1/FloorPlan_IG/FloorPlan_IG_InstallUpgradeFPConfigTool.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="Upload, Configure, and View Floorplans"
+          Link="/Content/OptionalFeatures/FloorPlan/A_V44.1/FloorPlan_IG/FloorPlan_IG_UploadConfigViewFP.htm" />
+        <TocEntry
+          Title="Integrated Authentication Options"
+          Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_IntegratedAuthenOptions.html">
+          <TocEntry
+            Title="Introduction"
+            Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_Introduction.htm">
+            <TocEntry
+              Title="Integrated Authentication Considerations"
+              Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_IntegratedAuthenticationConsid.htm" />
+          </TocEntry>
+          <TocEntry
+            Title="Integrated Windows Authentication"
+            Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_IntegratedWindowsAuthen.html">
+            <TocEntry
+              Title="Manage Everyday Users For Integrated Authentication"
+              Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_ManageEUforIntegAuthen.htm" />
+          </TocEntry>
+          <TocEntry
+            Title="LDAP Authentication"
+            Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_LDAPAuthentication.html" />
+          <TocEntry
+            Title="Portal or Federated Authentication"
+            Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_PortalFederatedAuthen.html">
+            <TocEntry
+              Title="Portal Authentication Methods"
+              Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_PortalAuthenMethods.html" />
+          </TocEntry>
+        </TocEntry>
+      </TocEntry>
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Installation Guides"
+    Link="/Content/InstallGuides/1InstallationHome.htm">
+    <TocEntry
+      Title="Optional Features"
+      Link="/Content/OptionalFeatures/1_OptionalFeaturesHome.htm">
+      <TocEntry
+        Title="EMS Floor Plans"
+        Link="/Content/OptionalFeatures/3_EMS_FloorPlansHome.htm">
+        <TocEntry
+          Title="Introduction"
+          Link="/Content/OptionalFeatures/FloorPlan/A_V44.1/FloorPlan_IG/FloorPlan_IG_Introduction.htm">
+          <TocEntry
+            Title="Requirements"
+            Link="/Content/OptionalFeatures/FloorPlan/A_V44.1/FloorPlan_IG/FloorPlan_IG_Requirements.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="Obtain Floor Plans Installation Files"
+          Link="/Content/OptionalFeatures/FloorPlan/A_V44.1/FloorPlan_IG/FloorPlan_IG_ObtainFPInstallFiles.htm" />
+        <TocEntry
+          Title="Install Floor Plans Components"
+          Link="/Content/OptionalFeatures/FloorPlan/A_V44.1/FloorPlan_IG/FloorPlan_IG_InstallFloorPlanComponents.htm">
+          <TocEntry
+            Title="Install or Upgrade the Floor Plans Web Service"
+            Link="/Content/OptionalFeatures/FloorPlan/A_V44.1/FloorPlan_IG/FloorPlan_IG_InstallUpgradeFPWebService.htm" />
+          <TocEntry
+            Title="Install or Upgrade the Floor Plans Configuration Tool"
+            Link="/Content/OptionalFeatures/FloorPlan/A_V44.1/FloorPlan_IG/FloorPlan_IG_InstallUpgradeFPConfigTool.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="Upload, Configure, and View Floor Plans"
+          Link="/Content/OptionalFeatures/FloorPlan/A_V44.1/FloorPlan_IG/FloorPlan_IG_UploadConfigViewFP.htm" />
+        <TocEntry
+          Title="Integrated Authentication Options"
+          Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_IntegratedAuthenOptions.html">
+          <TocEntry
+            Title="Introduction"
+            Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_Introduction.htm">
+            <TocEntry
+              Title="Integrated Authentication Considerations"
+              Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_IntegratedAuthenticationConsid.htm" />
+          </TocEntry>
+          <TocEntry
+            Title="Integrated Windows Authentication"
+            Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_IntegratedWindowsAuthen.html">
+            <TocEntry
+              Title="Manage Everyday Users For Integrated Authentication"
+              Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_ManageEUforIntegAuthen.htm" />
+          </TocEntry>
+          <TocEntry
+            Title="LDAP Authentication"
+            Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_LDAPAuthentication.html" />
+          <TocEntry
+            Title="Portal or Federated Authentication"
+            Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_PortalFederatedAuthen.html">
+            <TocEntry
+              Title="Portal Authentication Methods"
+              Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_PortalAuthenMethods.html" />
+          </TocEntry>
+        </TocEntry>
+        <TocEntry
+          Title="PDF"
+          Link="/Content/OptionalFeatures/FloorPlan/A_V44.1/FloorPlans_PDF.pdf" />
+      </TocEntry>
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Configuration Guides"
+    Link="/Content/ConfigGuides/1_ConfigurationHome/1_Configuration Home.htm"
+    ReplaceMergeNode="false"></TocEntry>
+  <TocEntry
+    Title="User Guides"
+    Link="/Content/UserGuides/1_EverydayUserGuideHome.htm"
+    ReplaceMergeNode="false"></TocEntry>
+  <TocEntry
+    Title="Older Releases"
+    Link="/Content/OlderReleases.htm"
+    ReplaceMergeNode="false"></TocEntry>
+  <TocEntry
+    Title="Release Notes"
+    Link="/Content/V44.1_ReleaseNotes.htm"
+    ReplaceMergeNode="false">
+    <TocEntry
+      Title="Release Notes V44.1"
+      Link="/Content/V44.1_ReleaseNotes.htm"
+      StartSection="false" />
+    <TocEntry
+      Title="Browse by Product"
+      Link="/Content/ReleaseNotes/BrowsebyProduct.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="FAQs"
+    Link="/Content/LearnAboutOurApplications/LearnAboutOurApplications.htm"></TocEntry>
+  <TocEntry
+    Title="Video Tutorials"
+    Link="/Content/VIDEO/Video_intro.htm"
+    StartSection="false"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue"
+    ComputeToc="false"
+    ReplaceMergeNode="false"></TocEntry>
+</CatapultToc>
