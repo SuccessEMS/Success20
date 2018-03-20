@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xml:lang="en-us" MadCap:lastBlockDepth="10" MadCap:lastHeight="6614" MadCap:lastWidth="810" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+<html xml:lang="en-us" MadCap:lastBlockDepth="10" MadCap:lastHeight="3853" MadCap:lastWidth="782" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
         <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
         <link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
-        <h1 class="Heading1">EMS for Outlook<br />Release Notes <br />V44.1, Update 23</h1>
+        <h1 class="Heading1" MadCap:autonum="CHAPTER&#160;1: ">EMS for Outlook<br />Release Notes <br />V44.1, Update 23</h1>
         <p class="p_1">This section describes updates to&#160;your EMS software.&#160;&#160;</p>
         <p>See Also:&#160;<a href="#Contact">Contact Customer Support</a>&#160;and&#160;<MadCap:xref href="../../../Update_to_LatestVersion_EMS.htm"><a href="../../../Update_to_LatestVersion_EMS.htm">Updating to the Latest Version of EMS (Patches and Builds)</a></MadCap:xref>. </p>
         <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');margin-left: auto;margin-right: auto;width: 100%;" cellspacing="0">
@@ -94,80 +94,47 @@
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNArea">Selected Rooms</p>
-                        <p>&#160;</p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNTitle">Incorrect Behavior When Room Changed to a Room From a Building in Another Timezone</p>
-                        <p class="RNBody">Users who created a new recurring reservation with two rooms from the same building and then changed one room to a room from a building in another timezone were not seeing rooms displayed correctly.  The single occurrence showed only the room that was not changed in the Selected Rooms tab. All series showed both rooms, BUT it duplicated values in the "Days Available" column. In addition, the timezone offset did not occur.</p>
-                        <p class="RNBodyBeforeList"><span class="bold">Fix:</span>&#160;Modified functionality so that a single occurrence shows correct quantity of rooms and all series show correct quantity of days in "Days Available" column.</p>
-                        <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=35985" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">35985</a><br />(For EMS&#160;Internal Use Only)</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: left;">
                         <p class="RNArea">Statuses</p>
                         <p>&#160;</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
                         <p class="RNTitle">Send Update Button Not Working When an Occurrence of a Recurring Reservation Was Canceled</p>
                         <p class="RNBody">When users deleted one occurrence, the occurrence was not removed from the Calendar. In the EMS&#160;Desktop Client, the required booking still had a Confirmed status. When users removed the series, all series were removed from the Calendar, BUT the reservation and all bookings displayed a Confirmed status in the EMS&#160;Desktop Client.</p>
                         <p class="RNBodyBeforeList"><span class="bold">Fix:</span>&#160;Modified functionality so that occurrences and series deleted are removed from Calendar and display a Canceled status in the EMS&#160;Desktop Client.</p>
                         <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=36104" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">36104</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="text-align: left;">
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: left;">
                         <p class="RNArea">Booking Violation Error</p>
                         <p>&#160;</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
                         <p class="RNTitle">Error When Opening and Canceling Out While Creating an Outlook Booking</p>
                         <p class="RNBody">Users who opened and then canceled out while trying to create a booking received a booking violation error modal, notifying them that fields were required.</p>
                         <p class="RNBody"><span class="bold">Fix</span>:&#160;Modified functionality so that users who do not choose a room do not receive a booking violation error. </p>
                         <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=36245" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">36245</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: left;">
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="text-align: left;">
                         <p class="RNArea">Attendee Availability</p>
                         <p>&#160;</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
                         <p class="RNTitle">Attendee Availability Was Not Updating</p>
                         <p class="RNBody">When changing dates, the EMS&#160;for Outlook Add-in was not updating attendee availability. </p>
                         <p class="RNBody"><span class="bold">Fix</span>:&#160;Modified functionality so that attendee availability was updated every time the date is changed. </p>
                         <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=36492" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">36492</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="text-align: left;">&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows" style="text-align: left;">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" style="text-align: left;">
                         <p class="RNTitle">Combo Rooms Not Booking Correctly</p>
                         <p class="RNBody">When booking combo rooms in the EMS&#160;for Outlook Add-in and adjusting the time, the combo room does not appear. </p>
                         <p class="RNBody"><span class="bold">Fix</span>:&#160;Modified functionality so that the booking time is updated and rooms display as booked. </p>
                         <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=36740" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">36740</a><br />(For EMS&#160;Internal Use Only)</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: left;">&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
-                        <p class="RNTitle">Recurring Meeting Changing Time and Resolving conflict - set up type and attendance not holding original booking details</p>
-                        <p class="RNBody">Recurring meeting changed time and resolved conflict - the setup type and attendance was not holding original booking details.</p>
-                        <p class="RNBody"><span class="bold">Fix</span>:&#160;Modified functionality so that setup type and attendance is held to the original value.</p>
-                        <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=34688" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">34688</a><br />(For EMS&#160;Internal Use Only)</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNArea">Combo Rooms</p>
-                        <p>&#160;</p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNTitle">Recurrence Reservations Made in Outlook Not Displaying Correct Room or Location Field</p>
-                        <p class="RNBody">When removing a component room and adding a new room in the EMS&#160;for Outlook Add-in, the Combo Room was displayed in the Location field on the .ICS file. Editing occurrence or series was changing which rooms were selected and location field was not updating correctly.</p>
-                        <p class="RNBody"><span class="bold">Fix</span>:&#160;Modified functionality so that when combo rooms are removed from a reservation, they are removed from all aspects of the Reservation and will not be displayed. </p>
-                        <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=36873" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">36873</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
             </tbody>
