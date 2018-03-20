@@ -226,8 +226,25 @@
       <TocEntry
         Title="EMS API"
         Link="/Content/ReleaseNotes/EMSAPI_V44.1.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Older Versions"
+      Link="/Content/Glossary/1_Glossary.htm"
+      Skin="/Project/Skins/HomeSearchBar.flskn"
+      StartSection="false"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue"
+      ComputeToc="false"
+      ReplaceMergeNode="false">
       <TocEntry
-        Title="Older Versions of Release Notes">
+        Title="Release Notes V44"
+        Link="/Content/V44_ReleaseNotes.htm" />
+      <TocEntry
+        Title="Release Notes V43"
+        Link="/Content/V43_ReleaseNotes.htm" />
+      <TocEntry
+        Title="Browse Older Release Notes by Product">
         <TocEntry
           Title="EMS Desktop Client V44"
           Link="/Content/ReleaseNotes/EMSDesktopClient_V44.htm"></TocEntry>
@@ -268,23 +285,6 @@
           Title="PAM V44"
           Link="/Content/ReleaseNotes/PAM_V44.htm" />
       </TocEntry>
-    </TocEntry>
-    <TocEntry
-      Title="Older Versions"
-      Link="/Content/Glossary/1_Glossary.htm"
-      Skin="/Project/Skins/HomeSearchBar.flskn"
-      StartSection="false"
-      SectionNumberReset="continue"
-      VolumeNumberReset="same"
-      ChapterNumberReset="continue"
-      ComputeToc="false"
-      ReplaceMergeNode="false">
-      <TocEntry
-        Title="Release Notes V44"
-        Link="/Content/V44_ReleaseNotes.htm" />
-      <TocEntry
-        Title="Release Notes V43"
-        Link="/Content/V43_ReleaseNotes.htm" />
     </TocEntry>
   </TocEntry>
 </CatapultToc>
