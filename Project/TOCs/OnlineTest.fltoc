@@ -130,40 +130,4 @@
       </TocEntry>
     </TocEntry>
   </TocEntry>
-  <TocEntry
-    Title="Configuration Guides"
-    Link="/Content/ConfigGuides/1_ConfigurationHome/1_Configuration Home.htm"
-    ReplaceMergeNode="false"></TocEntry>
-  <TocEntry
-    Title="User Guides"
-    Link="/Content/UserGuides/1_EverydayUserGuideHome.htm"
-    ReplaceMergeNode="false"></TocEntry>
-  <TocEntry
-    Title="Older Releases"
-    Link="/Content/OlderReleases.htm"
-    ReplaceMergeNode="false"></TocEntry>
-  <TocEntry
-    Title="Release Notes"
-    Link="/Content/V44.1_ReleaseNotes.htm"
-    ReplaceMergeNode="false">
-    <TocEntry
-      Title="Release Notes V44.1"
-      Link="/Content/V44.1_ReleaseNotes.htm"
-      StartSection="false" />
-    <TocEntry
-      Title="Browse by Product"
-      Link="/Content/ReleaseNotes/BrowsebyProduct.htm" />
-  </TocEntry>
-  <TocEntry
-    Title="FAQs"
-    Link="/Content/LearnAboutOurApplications/LearnAboutOurApplications.htm"></TocEntry>
-  <TocEntry
-    Title="Video Tutorials"
-    Link="/Content/VIDEO/Video_intro.htm"
-    StartSection="false"
-    SectionNumberReset="continue"
-    VolumeNumberReset="same"
-    ChapterNumberReset="continue"
-    ComputeToc="false"
-    ReplaceMergeNode="false"></TocEntry>
 </CatapultToc>
