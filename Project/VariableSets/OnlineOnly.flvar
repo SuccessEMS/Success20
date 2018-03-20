@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<CatapultVariableSet
-  conditions="General.Online Only">
-  <Variable
-    Name="Click for More"
-    Comment="For online drop-down text"
-    EvaluatedDefinition="Click for more...">Click for more...</Variable>
-</CatapultVariableSet>
