@@ -13,7 +13,7 @@
   MasterStylesheet="/Content/Resources/Stylesheets/MainStyles.css"
   MasterPageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl"
   EmbedImages="true"
-  ConditionTagExpression="include[&quot;General.Print Only&quot;] exclude[&quot;General.Online Only&quot;] ">
+  ConditionTagExpression="exclude[&quot;General.Online Only&quot;] ">
   <PrintedOutput
     CollapseMargins="true"
     ExpandingTextConversion="expand"
