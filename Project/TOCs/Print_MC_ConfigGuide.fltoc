@@ -190,7 +190,7 @@
       ChapterNumberReset="continue">
       <TocEntry
         Title="Manage Calendars in Master Calendar"
-        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ManageCalendarsinMC.html"
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ConfiguringCalendarsinMC.html"
         BreakType="chapter"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
@@ -204,7 +204,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Manage Calendar URLs"
-        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ManageCalURLs.html"
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ConfigureCalURLs.html"
         BreakType="chapter"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
@@ -268,7 +268,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Creating Event Locations"
-        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_WorkwithEventLocations.html"
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_CreateEventLocations.html"
         BreakType="chapter"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
@@ -282,7 +282,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Work with Rooms"
-        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_WorkwithRooms.html"
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ConfigureRooms.html"
         BreakType="chapter"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
@@ -304,7 +304,7 @@
       ChapterNumberReset="continue">
       <TocEntry
         Title="Manage Users"
-        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ManageUsers.html"
+        Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ConfigureUsers.html"
         BreakType="chapter"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"

@@ -113,13 +113,13 @@
         Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ConfigCalGroupingsandCals.html">
         <TocEntry
           Title="Manage Calendars in Master Calendar"
-          Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ManageCalendarsinMC.html" />
+          Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ConfiguringCalendarsinMC.html" />
         <TocEntry
           Title="Configure Special Dates"
           Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ConfigSpecialDates.html" />
         <TocEntry
           Title="Manage Calendar URLs"
-          Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ManageCalURLs.html" />
+          Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ConfigureCalURLs.html" />
         <TocEntry
           Title="Manage External Links for a Grouping"
           Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ManageExtLinksforGrouping.html" />
@@ -147,13 +147,13 @@
           Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ManageEventTypeViews.html" />
         <TocEntry
           Title="Creating Event Locations"
-          Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_WorkwithEventLocations.html" />
+          Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_CreateEventLocations.html" />
         <TocEntry
           Title="Creating Event Types"
           Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_WorkwithEventTypes.html" />
         <TocEntry
           Title="Work with Rooms"
-          Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_WorkwithRooms.html" />
+          Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ConfigureRooms.html" />
         <TocEntry
           Title="Work with User Defined Questions (UDQs)"
           Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_WorkwithUserDefQuest.html" />
@@ -163,7 +163,7 @@
         Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ConfigUsersTemplates.html">
         <TocEntry
           Title="Manage Users"
-          Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ManageUsers.html" />
+          Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ConfigureUsers.html" />
         <TocEntry
           Title="Manage User Templates"
           Link="/Content/EMSMasterCalendar/V8/B_Configuration/MC_ManageUserTemplates.html" />

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xml:lang="en-us" MadCap:lastBlockDepth="6" MadCap:lastHeight="61531" MadCap:lastWidth="1144" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+<html xml:lang="en-us" MadCap:lastBlockDepth="6" MadCap:lastHeight="51376" MadCap:lastWidth="3806" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
         <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
         <link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
@@ -24,7 +24,7 @@
             </li>
             <li><a href="#GetEvent">GetEvent</a>
             </li>
-            <li><a href="#GetUdqs">GetUdqs</a>
+            <li><a href="#GetUdqs">GetUDQs</a>
             </li>
             <li><a href="#GetComments">GetComments</a>
             </li>
@@ -220,7 +220,7 @@
                         <p class="p_6">LocationID </p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p class="p_7">Loocation ID </p>
+                        <p class="p_7">Location ID </p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
                         <p class="p_7">Integer </p>
@@ -383,7 +383,7 @@
                         <p class="p_7">MC Calendar ID </p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
-                        <p class="p_7">Interger </p>
+                        <p class="p_7">Integer </p>
                     </td>
                 </tr>
             </tbody>
@@ -467,7 +467,7 @@
                         <p class="p_6">ApprovalEmail </p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p class="p_7">Calednar Approval Email </p>
+                        <p class="p_7">Calendar Approval Email </p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
                         <p class="p_7"> &#160;</p>
@@ -559,7 +559,7 @@
                         <p class="p_7">0=Sun,1=Mon,2=Tue,3=Wed,4=Thu,5=Fri,6=Sat </p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p class="p_7">Interger </p>
+                        <p class="p_7">Integer </p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
@@ -687,7 +687,7 @@
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
-                        <p class="p_6">GroupindID </p>
+                        <p class="p_6">GroupingID </p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
                         <p class="p_7">Grouping ID </p>
@@ -699,22 +699,14 @@
             </tbody>
         </table>
         <h4>Sample Code </h4><pre>private void GetGroupings() </pre><pre> { </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160; MCAPI.MCAPIService svc = new MCAPI.MCAPIService(); </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160; svc.Url = "http://yourserver/MCAPI/MCAPIService.asmx?WSDL"; </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160; StringReader sr = new StringReader(svc.GetGroupings("username", "pwd")); </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160; DataSet ds = new DataSet(); </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160; System.Xml.XmlDocument doc = new System.Xml.XmlDocument();&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; doc.LoadXml(sr.ReadToEnd()); </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160; ds.ReadXml(new System.Xml.XmlNodeReader(doc)); </pre><pre>&#160; } </pre>
-        <h4>Example Response </h4>
-        <p class="p_11">&lt;Groupings&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;GroupingID&gt;18&lt;/GroupingID&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;Name&gt;Administration&lt;/Name&gt; </p>
-        <p class="p_11">&#160; &lt;/Data&gt; </p>
-        <p class="p_11">&#160; &lt;Data&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;GroupingID&gt;15&lt;/GroupingID&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;Name&gt;Conference Center&lt;/Name&gt; </p>
-        <p class="p_15">&#160; &lt;/Data&gt; &lt;/Groupings&gt; </p>
+        <h4>Example Response </h4><pre>&lt;Groupings&gt; </pre><pre>&#160;&#160;&#160; &lt;GroupingID&gt;18&lt;/GroupingID&gt; </pre><pre>&#160;&#160;&#160; &lt;Name&gt;Administration&lt;/Name&gt; </pre><pre>&#160; &lt;/Data&gt; </pre><pre>&#160; &lt;Data&gt; </pre><pre>&#160;&#160;&#160; &lt;GroupingID&gt;15&lt;/GroupingID&gt; </pre><pre>&#160;&#160;&#160; &lt;Name&gt;Conference Center&lt;/Name&gt; </pre><pre>&#160; &lt;/Data&gt; &lt;/Groupings&gt; </pre>
         <h2 class="Heading2"><a name="GetEvents"></a>GetEvents </h2>
         <p class="p_2">This API&#160;returns a list of events.</p>
         <h3>Request Parameters </h3>
         <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
             <col class="TableStyle-PatternedRows-Column-Regular" />
             <col class="TableStyle-PatternedRows-Column-Regular" style="width: 377px;" />
-            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 99px;" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
@@ -803,7 +795,7 @@
                         <p class="p_7">Calendars to search. (null value = all calendars) </p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p class="p_7">Interger Array </p>
+                        <p class="p_7">Integer Array </p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
@@ -822,8 +814,8 @@
         <h3>Response Elements </h3>
         <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
             <col class="TableStyle-PatternedRows-Column-Regular" />
-            <col class="TableStyle-PatternedRows-Column-Regular" />
-            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 292px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 106px;" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
@@ -934,7 +926,7 @@
                         <p class="p_7">Event priority 1=High, 2=Medium, 3=Low </p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p class="p_7">Interger </p>
+                        <p class="p_7">Integer </p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
@@ -1236,60 +1228,18 @@
                 </tr>
             </tbody>
         </table>
-        <h4>Sample Code </h4>
-        <p class="p_8">private void GetEvents() </p>
-        <p class="p_8"> { </p>
-        <p class="p_9">&#160;&#160;&#160;&#160;&#160;&#160;&#160; MCAPI.MCAPIService svc = new MCAPI.MCAPIService();&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; svc.Url = "http://yourserver/MCAPI/MCAPIService.asmx?WSDL"; </p>
-        <p class="p_6">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </p>
-        <p class="p_16">&#160;&#160;&#160;&#160;&#160;&#160; svcMCAPI.ArrayOfInt&#160; calendars = new svcMCAPI.ArrayOfInt();&#160;&#160;&#160;&#160;&#160;&#160;&#160; calendars.Add(12);&#160;&#160;&#160;&#160;&#160;&#160;&#160; calendars.Add(14); </p>
-        <p class="p_6">&#160;&#160;&#160;&#160; </p>
-        <p class="p_17">&#160;&#160;&#160;&#160;&#160;&#160; svcMCAPI.ArrayOfInt&#160; eventTypes = new svcMCAPI.ArrayOfInt();&#160;&#160;&#160;&#160;&#160;&#160;&#160; eventTypes.Add(4); </p>
-        <p class="p_18">&#160;&#160;&#160;&#160;&#160;&#160; StringReader sr = new StringReader(svc.GetEvents("username", "pwd", DateTime.Now.AddDays(-5),&#160;&#160;&#160;&#160;&#160; DateTime.Now.AddDays(5), "", "", calendars, eventTypes));&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </p>
-        <p class="p_8">&#160;&#160;&#160;&#160;&#160; DataSet ds = new DataSet(); </p>
-        <p class="p_6">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </p>
-        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160;&#160; System.Xml.XmlDocument doc = new System.Xml.XmlDocument(); </p>
-        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160;&#160; doc.LoadXml(sr.ReadToEnd()); </p>
-        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160;&#160; ds.ReadXml(new System.Xml.XmlNodeReader(doc)); </p>
-        <p class="p_10">&#160; } </p>
-        <h4>Example Response </h4>
-        <p class="p_11">&lt;Events&gt; </p>
-        <p class="p_11"> &lt;Data&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;EventDetailID&gt;155609&lt;/EventDetailID&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;EventID&gt;23173&lt;/EventID&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;Title&gt;Test Event (TT) 240 month recurrence&lt;/Title&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;Description /&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;Location&gt;RM B&lt;/Location&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;Canceled&gt;false&lt;/Canceled&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;NoEndTime&gt;false&lt;/NoEndTime&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;Priority&gt;2&lt;/Priority&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;EventDate&gt;2011-04-01T00:00:00-06:00&lt;/EventDate&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;TimeEventStart&gt;2011-04-01T10:00:00-06:00&lt;/TimeEventStart&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;TimeEventEnd&gt;2011-04-01T11:00:00-06:00&lt;/TimeEventEnd&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;IsAllDayEvent&gt;false&lt;/IsAllDayEvent&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;IsTimedEvent&gt;true&lt;/IsTimedEvent&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;EventTypeID&gt;111&lt;/EventTypeID&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;EventTypeName&gt;Conference&lt;/EventTypeName&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;ContactName&gt;Tester 1&lt;/ContactName&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;ContactEmail&gt;test@dea.com&lt;/ContactEmail&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;IsReOccurring&gt;true&lt;/IsReOccurring&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;IsOnMultipleCalendars&gt;false&lt;/IsOnMultipleCalendars&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;BookingID&gt;61157&lt;/BookingID&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;ReservationID&gt;3609&lt;/ReservationID&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;ConnectorID&gt;0&lt;/ConnectorID&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;HideContactName&gt;false&lt;/HideContactName&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;HideContactEmail&gt;false&lt;/HideContactEmail&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;HideContactPhone&gt;false&lt;/HideContactPhone&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;EventUpdatedBy&gt;Connector Service&lt;/EventUpdatedBy&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;EventUpdatedDate&gt;2010-06-03T16:34:34.15-06:00&lt;/EventUpdatedDate&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;EventDetailUpdatedBy&gt;dbo&lt;/EventDetailUpdatedBy&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;EventDetailUpdatedDate&gt;2010-06-03T16:34:34.167-06:00&lt;/EventDetailUpdatedDate&gt;&#160;&#160; &lt;/Data&gt; </p>
-        <p class="p_11">&lt;/Events&gt; </p>
+        <h4>Sample Code </h4><pre>private void GetEvents() </pre><pre> { </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160; MCAPI.MCAPIService svc = new MCAPI.MCAPIService();&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; svc.Url = "http://yourserver/MCAPI/MCAPIService.asmx?WSDL"; </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </pre><pre xml:space="preserve">&#160;&#160;&#160;&#160;&#160;&#160; svcMCAPI.ArrayOfInt&#160; calendars = new svcMCAPI.ArrayOfInt();&#160;&#160;&#160;&#160;&#160;&#160;&#160; 
+	calendars.Add(12);&#160;&#160;&#160;&#160;&#160;&#160;&#160; calendars.Add(14); </pre><pre>&#160;&#160;&#160;&#160; </pre><pre xml:space="preserve">&#160;&#160;&#160;&#160;&#160;&#160; svcMCAPI.ArrayOfInt&#160; eventTypes = new svcMCAPI.ArrayOfInt();&#160;&#160;&#160;&#160;&#160;&#160;&#160; 
+	eventTypes.Add(4); </pre><pre xml:space="preserve">&#160;&#160;&#160;&#160;&#160;&#160; StringReader sr = new StringReader(svc.GetEvents
+	("username", "pwd", DateTime.Now.AddDays(-5),&#160;&#160;&#160;&#160;&#160; 
+	DateTime.Now.AddDays(5), "", "", calendars, eventTypes));&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </pre><pre>&#160;&#160;&#160;&#160;&#160; DataSet ds = new DataSet(); </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160; System.Xml.XmlDocument doc = new System.Xml.XmlDocument(); </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160; doc.LoadXml(sr.ReadToEnd()); </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160; ds.ReadXml(new System.Xml.XmlNodeReader(doc)); </pre><pre>&#160; } </pre>
+        <h4>Example Response </h4><pre>&lt;Events&gt; </pre><pre> &lt;Data&gt; </pre><pre>&#160;&#160;&#160; &lt;EventDetailID&gt;155609&lt;/EventDetailID&gt; </pre><pre>&#160;&#160;&#160; &lt;EventID&gt;23173&lt;/EventID&gt; </pre><pre>&#160;&#160;&#160; &lt;Title&gt;Test Event (TT) 240 month recurrence&lt;/Title&gt; </pre><pre>&#160;&#160;&#160; &lt;Description /&gt; </pre><pre>&#160;&#160;&#160; &lt;Location&gt;RM B&lt;/Location&gt; </pre><pre>&#160;&#160;&#160; &lt;Canceled&gt;false&lt;/Canceled&gt; </pre><pre>&#160;&#160;&#160; &lt;NoEndTime&gt;false&lt;/NoEndTime&gt; </pre><pre>&#160;&#160;&#160; &lt;Priority&gt;2&lt;/Priority&gt; </pre><pre>&#160;&#160;&#160; &lt;EventDate&gt;2011-04-01T00:00:00-06:00&lt;/EventDate&gt; </pre><pre>&#160;&#160;&#160; &lt;TimeEventStart&gt;2011-04-01T10:00:00-06:00&lt;/TimeEventStart&gt; </pre><pre>&#160;&#160;&#160; &lt;TimeEventEnd&gt;2011-04-01T11:00:00-06:00&lt;/TimeEventEnd&gt; </pre><pre>&#160;&#160;&#160; &lt;IsAllDayEvent&gt;false&lt;/IsAllDayEvent&gt; </pre><pre>&#160;&#160;&#160; &lt;IsTimedEvent&gt;true&lt;/IsTimedEvent&gt; </pre><pre>&#160;&#160;&#160; &lt;EventTypeID&gt;111&lt;/EventTypeID&gt; </pre><pre>&#160;&#160;&#160; &lt;EventTypeName&gt;Conference&lt;/EventTypeName&gt; </pre><pre>&#160;&#160;&#160; &lt;ContactName&gt;Tester 1&lt;/ContactName&gt; </pre><pre>&#160;&#160;&#160; &lt;ContactEmail&gt;test@dea.com&lt;/ContactEmail&gt; </pre><pre>&#160;&#160;&#160; &lt;IsReOccurring&gt;true&lt;/IsReOccurring&gt; </pre><pre>&#160;&#160;&#160; &lt;IsOnMultipleCalendars&gt;false&lt;/IsOnMultipleCalendars&gt; </pre><pre>&#160;&#160;&#160; &lt;BookingID&gt;61157&lt;/BookingID&gt; </pre><pre>&#160;&#160;&#160; &lt;ReservationID&gt;3609&lt;/ReservationID&gt; </pre><pre>&#160;&#160;&#160; &lt;ConnectorID&gt;0&lt;/ConnectorID&gt; </pre><pre>&#160;&#160;&#160; &lt;HideContactName&gt;false&lt;/HideContactName&gt; </pre><pre>&#160;&#160;&#160; &lt;HideContactEmail&gt;false&lt;/HideContactEmail&gt; </pre><pre>&#160;&#160;&#160; &lt;HideContactPhone&gt;false&lt;/HideContactPhone&gt; </pre><pre>&#160;&#160;&#160; &lt;EventUpdatedBy&gt;Connector Service&lt;/EventUpdatedBy&gt; </pre><pre>&#160;&#160;&#160; &lt;EventUpdatedDate&gt;2018-06-03T16:34:34.15-06:00&lt;/EventUpdatedDate&gt; </pre><pre>&#160;&#160;&#160; &lt;EventDetailUpdatedBy&gt;dbo&lt;/EventDetailUpdatedBy&gt; </pre><pre>&#160;&#160;&#160; &lt;EventDetailUpdatedDate&gt;2018-06-03T16:34:34.167-06:00&lt;/EventDetailUpdatedDate&gt;&#160;&#160; &lt;/Data&gt; </pre><pre>&lt;/Events&gt; </pre>
         <h2 class="Heading2"><a name="GetEvent"></a>GetEvent </h2>
         <p class="p_2">This API&#160;returns event information for a specific event date.</p>
         <h3>Request Parameters </h3>
         <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
-            <col class="TableStyle-PatternedRows-Column-Regular" />
-            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 170px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 325px;" />
             <col class="TableStyle-PatternedRows-Column-Regular" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
@@ -1394,7 +1344,7 @@
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p class="p_6">TitleURl </p>
+                        <p class="p_6">TitleURL</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
                         <p class="p_7">Event Title Url </p>
@@ -1570,7 +1520,7 @@
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p class="p_6">calendarName </p>
+                        <p class="p_6">CalendarName </p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
                         <p class="p_7">Calendar Name </p>
@@ -1878,71 +1828,9 @@
                 </tr>
             </tbody>
         </table>
-        <h4>Sample Code </h4>
-        <p class="p_8">private void GetEvent() </p>
-        <p class="p_8"> { </p>
-        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160;&#160; MCAPI.MCAPIService svc = new MCAPI.MCAPIService(); </p>
-        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160;&#160; svc.Url = "http://yourserver/MCAPI/MCAPIService.asmx?WSDL"; </p>
-        <p class="p_6">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </p>
-        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160; int eventDetailId = 126; </p>
-        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160; StringReader sr = new StringReader(svc.GetEvents("username", "pwd”, eventDetailId));&#160;&#160;&#160;&#160;&#160;&#160;&#160; </p>
-        <p class="p_6">&#160;&#160;&#160;&#160;&#160;&#160; </p>
-        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160; DataSet ds = new DataSet(); </p>
-        <p class="p_6">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </p>
-        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160;&#160; System.Xml.XmlDocument doc = new System.Xml.XmlDocument(); </p>
-        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160;&#160; doc.LoadXml(sr.ReadToEnd()); </p>
-        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160;&#160; ds.ReadXml(new System.Xml.XmlNodeReader(doc)); </p>
-        <p class="p_10">&#160; } </p>
-        <h4>Example Response </h4>
-        <p class="p_11">&lt;Event&gt; </p>
-        <p class="p_11">&#160; &lt;Data&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;EventDetailID&gt;155609&lt;/EventDetailID&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;EventID&gt;23173&lt;/EventID&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;Title&gt;Test Event (TT) 240 month recurrence&lt;/Title&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;TitleUrl /&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;Description /&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;Department&gt;Test Group&lt;/Department&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;Location&gt;RM B&lt;/Location&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;Canceled&gt;false&lt;/Canceled&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;NoEndTime&gt;false&lt;/NoEndTime&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;StartDate&gt;2011-04-01T00:00:00-06:00&lt;/StartDate&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;Priority&gt;2&lt;/Priority&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;TimeEventStart&gt;2011-04-01T10:00:00-06:00&lt;/TimeEventStart&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;TimeEventEnd&gt;2011-04-01T11:00:00-06:00&lt;/TimeEventEnd&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;IsAllDayEvent&gt;false&lt;/IsAllDayEvent&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;IsTimedEvent&gt;true&lt;/IsTimedEvent&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;TimeZoneID&gt;68&lt;/TimeZoneID&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;ContactName&gt;Tester 1&lt;/ContactName&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;ContactEmail&gt;test@dea.com&lt;/ContactEmail&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;ContactPhone&gt;0123456789&lt;/ContactPhone&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;IsOnMultipleCalendars&gt;false&lt;/IsOnMultipleCalendars&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;IsReOccurring&gt;true&lt;/IsReOccurring&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;CustomFieldLabel1 /&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;CustomFieldDescription1 /&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;CustomURL1 /&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;CustomFieldLabel2 /&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;CustomFieldDescription2 /&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;CustomURL2 /&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;EventTypeID&gt;111&lt;/EventTypeID&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;EventTypeName&gt;Conference&lt;/EventTypeName&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;EventTypeColor&gt;#CC00CC&lt;/EventTypeColor&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;BookingID&gt;61157&lt;/BookingID&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;ReservationID&gt;3609&lt;/ReservationID&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;Priority1&gt;2&lt;/Priority1&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;HideContactName&gt;false&lt;/HideContactName&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;HideContactEmail&gt;false&lt;/HideContactEmail&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;HideContactPhone&gt;false&lt;/HideContactPhone&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;CalendarName&gt;Cycling Club&lt;/CalendarName&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;PostDate&gt;2010-06-03T16:34:34.15-06:00&lt;/PostDate&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;TimezoneAbbr&gt;MT&lt;/TimezoneAbbr&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;EventUpdatedBy&gt;Connector Service&lt;/EventUpdatedBy&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;EventUpdatedDate&gt;2010-06-03T16:34:34.15-06:00&lt;/EventUpdatedDate&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;EventDetailUpdatedBy&gt;dbo&lt;/EventDetailUpdatedBy&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;EventDetailUpdatedDate&gt;2010-06-03T16:34:34.167-06:00&lt;/EventDetailUpdatedDate&gt;&#160;&#160;&#160;&#160; &lt;ImageId&gt;0&lt;/ImageId&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;FileExtension /&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;ImageName&gt;Image&lt;/ImageName&gt; </p>
-        <p class="p_11">&#160; &lt;/Data&gt; </p>
-        <p class="p_19">&lt;/Event&gt; </p>
+        <h4>Sample Code </h4><pre>private void GetEvent() </pre><pre> { </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160; MCAPI.MCAPIService svc = new MCAPI.MCAPIService(); </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160; svc.Url = "http://yourserver/MCAPI/MCAPIService.asmx?WSDL"; </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160; int eventDetailId = 126; </pre><pre xml:space="preserve">&#160;&#160;&#160;&#160;&#160;&#160; StringReader sr = new StringReader(svc.GetEvents
+	("username", "pwd”, eventDetailId));&#160;&#160;&#160;&#160;&#160;&#160;&#160; </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160; </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160; DataSet ds = new DataSet(); </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160; System.Xml.XmlDocument doc = new System.Xml.XmlDocument(); </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160; doc.LoadXml(sr.ReadToEnd()); </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160; ds.ReadXml(new System.Xml.XmlNodeReader(doc)); </pre><pre>&#160; } </pre>
+        <h4>Example Response </h4><pre>&lt;Event&gt; </pre><pre>&#160; &lt;Data&gt; </pre><pre>&#160;&#160;&#160; &lt;EventDetailID&gt;155609&lt;/EventDetailID&gt; </pre><pre>&#160;&#160;&#160; &lt;EventID&gt;23173&lt;/EventID&gt; </pre><pre>&#160;&#160;&#160; &lt;Title&gt;Test Event (TT) 240 month recurrence&lt;/Title&gt; </pre><pre>&#160;&#160;&#160; &lt;TitleUrl /&gt; </pre><pre>&#160;&#160;&#160; &lt;Description /&gt; </pre><pre>&#160;&#160;&#160; &lt;Department&gt;Test Group&lt;/Department&gt; </pre><pre>&#160;&#160;&#160; &lt;Location&gt;RM B&lt;/Location&gt; </pre><pre>&#160;&#160;&#160; &lt;Canceled&gt;false&lt;/Canceled&gt; </pre><pre>&#160;&#160;&#160; &lt;NoEndTime&gt;false&lt;/NoEndTime&gt; </pre><pre>&#160;&#160;&#160; &lt;StartDate&gt;2011-04-01T00:00:00-06:00&lt;/StartDate&gt; </pre><pre>&#160;&#160;&#160; &lt;Priority&gt;2&lt;/Priority&gt; </pre><pre>&#160;&#160;&#160; &lt;TimeEventStart&gt;2011-04-01T10:00:00-06:00&lt;/TimeEventStart&gt; </pre><pre>&#160;&#160;&#160; &lt;TimeEventEnd&gt;2011-04-01T11:00:00-06:00&lt;/TimeEventEnd&gt; </pre><pre>&#160;&#160;&#160; &lt;IsAllDayEvent&gt;false&lt;/IsAllDayEvent&gt; </pre><pre>&#160;&#160;&#160; &lt;IsTimedEvent&gt;true&lt;/IsTimedEvent&gt; </pre><pre>&#160;&#160;&#160; &lt;TimeZoneID&gt;68&lt;/TimeZoneID&gt; </pre><pre>&#160;&#160;&#160; &lt;ContactName&gt;Tester 1&lt;/ContactName&gt; </pre><pre>&#160;&#160;&#160; &lt;ContactEmail&gt;test@dea.com&lt;/ContactEmail&gt; </pre><pre>&#160;&#160;&#160; &lt;ContactPhone&gt;0123456789&lt;/ContactPhone&gt; </pre><pre>&#160;&#160;&#160; &lt;IsOnMultipleCalendars&gt;false&lt;/IsOnMultipleCalendars&gt; </pre><pre>&#160;&#160;&#160; &lt;IsReOccurring&gt;true&lt;/IsReOccurring&gt; </pre><pre>&#160;&#160;&#160; &lt;CustomFieldLabel1 /&gt; </pre><pre>&#160;&#160;&#160; &lt;CustomFieldDescription1 /&gt; </pre><pre>&#160;&#160;&#160; &lt;CustomURL1 /&gt; </pre><pre>&#160;&#160;&#160; &lt;CustomFieldLabel2 /&gt; </pre><pre>&#160;&#160;&#160; &lt;CustomFieldDescription2 /&gt; </pre><pre>&#160;&#160;&#160; &lt;CustomURL2 /&gt; </pre><pre>&#160;&#160;&#160; &lt;EventTypeID&gt;111&lt;/EventTypeID&gt; </pre><pre>&#160;&#160;&#160; &lt;EventTypeName&gt;Conference&lt;/EventTypeName&gt; </pre><pre>&#160;&#160;&#160; &lt;EventTypeColor&gt;#CC00CC&lt;/EventTypeColor&gt; </pre><pre>&#160;&#160;&#160; &lt;BookingID&gt;61157&lt;/BookingID&gt; </pre><pre>&#160;&#160;&#160; &lt;ReservationID&gt;3609&lt;/ReservationID&gt; </pre><pre>&#160;&#160;&#160; &lt;Priority1&gt;2&lt;/Priority1&gt; </pre><pre>&#160;&#160;&#160; &lt;HideContactName&gt;false&lt;/HideContactName&gt; </pre><pre>&#160;&#160;&#160; &lt;HideContactEmail&gt;false&lt;/HideContactEmail&gt; </pre><pre>&#160;&#160;&#160; &lt;HideContactPhone&gt;false&lt;/HideContactPhone&gt; </pre><pre>&#160;&#160;&#160; &lt;CalendarName&gt;Cycling Club&lt;/CalendarName&gt; </pre><pre>&#160;&#160;&#160; &lt;PostDate&gt;2010-06-03T16:34:34.15-06:00&lt;/PostDate&gt; </pre><pre>&#160;&#160;&#160; &lt;TimezoneAbbr&gt;MT&lt;/TimezoneAbbr&gt; </pre><pre>&#160;&#160;&#160; &lt;EventUpdatedBy&gt;Connector Service&lt;/EventUpdatedBy&gt; </pre><pre>&#160;&#160;&#160; &lt;EventUpdatedDate&gt;2010-06-03T16:34:34.15-06:00&lt;/EventUpdatedDate&gt; </pre><pre>&#160;&#160;&#160; &lt;EventDetailUpdatedBy&gt;dbo&lt;/EventDetailUpdatedBy&gt; </pre><pre>&#160;&#160;&#160; &lt;EventDetailUpdatedDate&gt;2010-06-03T16:34:34.167-06:00&lt;/EventDetailUpdatedDate&gt;&#160;&#160;&#160;&#160; &lt;ImageId&gt;0&lt;/ImageId&gt; </pre><pre>&#160;&#160;&#160; &lt;FileExtension /&gt; </pre><pre>&#160;&#160;&#160; &lt;ImageName&gt;Image&lt;/ImageName&gt; </pre><pre>&#160; &lt;/Data&gt; </pre><pre>&lt;/Event&gt; </pre>
         <h2><a name="GetFeaturedEvents"></a>GetFeaturedEvents </h2>
         <p class="p_1">This API&#160;returns a list of events.</p>
         <h3>Request Parameters </h3>
@@ -2038,7 +1926,7 @@
                         <p class="p_6">Calendars to search. (null value = all calendars) </p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p class="p_6">Interger Array </p>
+                        <p class="p_6">Integer Array </p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
@@ -2046,7 +1934,7 @@
                         <p class="p_5">EventTypes </p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p class="p_6">EventTypes to search. (null value = all eventtypes) </p>
+                        <p class="p_6">EventTypes to search. (null value = all event types) </p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
                         <p class="p_6">Integer Array </p>
@@ -2493,61 +2381,15 @@
                 </tr>
             </tbody>
         </table>
-        <h4>Sample Code </h4>
-        <p class="p_7">private void GetFeaturedEvents() </p>
-        <p class="p_7"> { </p>
-        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160;&#160; MCAPI.MCAPIService svc = new MCAPI.MCAPIService();&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; svc.Url = "http://yourserver/MCAPI/MCAPIService.asmx?WSDL"; </p>
-        <p class="p_5">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </p>
-        <p class="p_9">&#160;&#160;&#160;&#160;&#160;&#160; svcMCAPI.ArrayOfInt&#160; calendars = new svcMCAPI.ArrayOfInt();&#160;&#160;&#160;&#160;&#160;&#160;&#160; calendars.Add(12);&#160;&#160;&#160;&#160;&#160;&#160;&#160; calendars.Add(14); </p>
-        <p class="p_5">&#160;&#160;&#160;&#160; </p>
-        <p class="p_10">&#160;&#160;&#160;&#160;&#160;&#160; svcMCAPI.ArrayOfInt&#160; eventTypes = new svcMCAPI.ArrayOfInt();&#160;&#160;&#160;&#160;&#160;&#160;&#160; eventTypes.Add(4); </p>
-        <p class="p_11">&#160;&#160;&#160;&#160;&#160;&#160; StringReader sr = new StringReader(svc.GetFeaturedsEvents("username", "pwd", DateTime.Now.AddDays(-5),&#160;&#160;&#160;&#160;&#160; DateTime.Now.AddDays(5), "", "", calendars, eventTypes));&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </p>
-        <p class="p_7">&#160;&#160;&#160;&#160;&#160; DataSet ds = new DataSet(); </p>
-        <p class="p_5">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </p>
-        <p class="p_7">&#160;&#160;&#160;&#160;&#160;&#160;&#160; System.Xml.XmlDocument doc = new System.Xml.XmlDocument();&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; doc.LoadXml(sr.ReadToEnd()); </p>
-        <p class="p_7">&#160;&#160;&#160;&#160;&#160;&#160;&#160; ds.ReadXml(new System.Xml.XmlNodeReader(doc)); </p>
-        <p class="p_12">&#160; } </p>
-        <h4>Example Response </h4>
-        <p class="p_13">&lt;Events&gt; </p>
-        <p class="p_13"> &lt;Data&gt; </p>
-        <p class="p_13">&#160;&#160;&#160; &lt;EventDetailID&gt;155609&lt;/EventDetailID&gt; </p>
-        <p class="p_13">&#160;&#160;&#160; &lt;EventID&gt;23173&lt;/EventID&gt; </p>
-        <p class="p_13">&#160;&#160;&#160; &lt;Title&gt;Test Event (TT) 240 month recurrence&lt;/Title&gt; </p>
-        <p class="p_13">&#160;&#160;&#160; &lt;Description /&gt; </p>
-        <p class="p_13">&#160;&#160;&#160; &lt;Location&gt;RM B&lt;/Location&gt; </p>
-        <p class="p_13">&#160;&#160;&#160; &lt;Canceled&gt;false&lt;/Canceled&gt; </p>
-        <p class="p_13">&#160;&#160;&#160; &lt;NoEndTime&gt;false&lt;/NoEndTime&gt; </p>
-        <p class="p_13">&#160;&#160;&#160; &lt;Priority&gt;2&lt;/Priority&gt; </p>
-        <p class="p_13">&#160;&#160;&#160; &lt;EventDate&gt;2011-04-01T00:00:00&lt;/EventDate&gt; </p>
-        <p class="p_13">&#160;&#160;&#160; &lt;TimeEventStart&gt;2011-04-01T10:00:00&lt;/TimeEventStart&gt; </p>
-        <p class="p_13">&#160;&#160;&#160; &lt;TimeEventEnd&gt;2011-04-01T11:00:00&lt;/TimeEventEnd&gt; </p>
-        <p class="p_13">&#160;&#160;&#160; &lt;IsAllDayEvent&gt;false&lt;/IsAllDayEvent&gt; </p>
-        <p class="p_13">&#160;&#160;&#160; &lt;IsTimedEvent&gt;true&lt;/IsTimedEvent&gt; </p>
-        <p class="p_13">&#160;&#160;&#160; &lt;EventTypeID&gt;111&lt;/EventTypeID&gt; </p>
-        <p class="p_13">&#160;&#160;&#160; &lt;EventTypeName&gt;Conference&lt;/EventTypeName&gt; </p>
-        <p class="p_13">&#160;&#160;&#160; &lt;ContactName&gt;Tester 1&lt;/ContactName&gt; </p>
-        <p class="p_13">&#160;&#160;&#160; &lt;ContactEmail&gt;test@dea.com&lt;/ContactEmail&gt; </p>
-        <p class="p_13">&#160;&#160;&#160; &lt;IsReOccurring&gt;true&lt;/IsReOccurring&gt; </p>
-        <p class="p_13">&#160;&#160;&#160; &lt;IsOnMultipleCalendars&gt;false&lt;/IsOnMultipleCalendars&gt; </p>
-        <p class="p_13">&#160;&#160;&#160; &lt;BookingID&gt;61157&lt;/BookingID&gt; </p>
-        <p class="p_13">&#160;&#160;&#160; &lt;ReservationID&gt;3609&lt;/ReservationID&gt; </p>
-        <p class="p_13">&#160;&#160;&#160; &lt;ConnectorID&gt;0&lt;/ConnectorID&gt; </p>
-        <p class="p_13">&#160;&#160;&#160; &lt;HideContactName&gt;false&lt;/HideContactName&gt; </p>
-        <p class="p_13">&#160;&#160;&#160; &lt;HideContactEmail&gt;false&lt;/HideContactEmail&gt; </p>
-        <p class="p_13">&#160;&#160;&#160; &lt;HideContactPhone&gt;false&lt;/HideContactPhone&gt; </p>
-        <p class="p_13">&#160;&#160;&#160; &lt;EventUpdatedBy&gt;Connector Service&lt;/EventUpdatedBy&gt; </p>
-        <p class="p_13">&#160;&#160;&#160; &lt;EventUpdatedDate&gt;2010-06-03T16:34:34.15&lt;/EventUpdatedDate&gt; </p>
-        <p class="p_13">&#160;&#160;&#160; &lt;EventDetailUpdatedBy&gt;dbo&lt;/EventDetailUpdatedBy&gt; </p>
-        <p class="p_13">&#160;&#160;&#160; &lt;EventDetailUpdatedDate&gt;2010-06-03T16:34:34.167&lt;/EventDetailUpdatedDate&gt; </p>
-        <p class="p_13">&#160; &lt;/Data&gt; </p>
-        <p class="p_13">&lt;/Events&gt; </p>
+        <h4>Sample Code </h4><pre>private void GetFeaturedEvents() </pre><pre> { </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160; MCAPI.MCAPIService svc = new MCAPI.MCAPIService();&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; svc.Url = "http://yourserver/MCAPI/MCAPIService.asmx?WSDL"; </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160; svcMCAPI.ArrayOfInt&#160; calendars = new svcMCAPI.ArrayOfInt();&#160;&#160;&#160;&#160;&#160;&#160;&#160; calendars.Add(12);&#160;&#160;&#160;&#160;&#160;&#160;&#160; calendars.Add(14); </pre><pre>&#160;&#160;&#160;&#160; </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160; svcMCAPI.ArrayOfInt&#160; eventTypes = new svcMCAPI.ArrayOfInt();&#160;&#160;&#160;&#160;&#160;&#160;&#160; eventTypes.Add(4); </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160; StringReader sr = new StringReader(svc.GetFeaturedsEvents("username", "pwd", DateTime.Now.AddDays(-5),&#160;&#160;&#160;&#160;&#160; DateTime.Now.AddDays(5), "", "", calendars, eventTypes));&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </pre><pre>&#160;&#160;&#160;&#160;&#160; DataSet ds = new DataSet(); </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160; System.Xml.XmlDocument doc = new System.Xml.XmlDocument();&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; doc.LoadXml(sr.ReadToEnd()); </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160; ds.ReadXml(new System.Xml.XmlNodeReader(doc)); </pre><pre>&#160; } </pre>
+        <h4>Example Response </h4><pre>&lt;Events&gt; </pre><pre> &lt;Data&gt; </pre><pre>&#160;&#160;&#160; &lt;EventDetailID&gt;155609&lt;/EventDetailID&gt; </pre><pre>&#160;&#160;&#160; &lt;EventID&gt;23173&lt;/EventID&gt; </pre><pre>&#160;&#160;&#160; &lt;Title&gt;Test Event (TT) 240 month recurrence&lt;/Title&gt; </pre><pre>&#160;&#160;&#160; &lt;Description /&gt; </pre><pre>&#160;&#160;&#160; &lt;Location&gt;RM B&lt;/Location&gt; </pre><pre>&#160;&#160;&#160; &lt;Canceled&gt;false&lt;/Canceled&gt; </pre><pre>&#160;&#160;&#160; &lt;NoEndTime&gt;false&lt;/NoEndTime&gt; </pre><pre>&#160;&#160;&#160; &lt;Priority&gt;2&lt;/Priority&gt; </pre><pre>&#160;&#160;&#160; &lt;EventDate&gt;2011-04-01T00:00:00&lt;/EventDate&gt; </pre><pre>&#160;&#160;&#160; &lt;TimeEventStart&gt;2011-04-01T10:00:00&lt;/TimeEventStart&gt; </pre><pre>&#160;&#160;&#160; &lt;TimeEventEnd&gt;2011-04-01T11:00:00&lt;/TimeEventEnd&gt; </pre><pre>&#160;&#160;&#160; &lt;IsAllDayEvent&gt;false&lt;/IsAllDayEvent&gt; </pre><pre>&#160;&#160;&#160; &lt;IsTimedEvent&gt;true&lt;/IsTimedEvent&gt; </pre><pre>&#160;&#160;&#160; &lt;EventTypeID&gt;111&lt;/EventTypeID&gt; </pre><pre>&#160;&#160;&#160; &lt;EventTypeName&gt;Conference&lt;/EventTypeName&gt; </pre><pre>&#160;&#160;&#160; &lt;ContactName&gt;Tester 1&lt;/ContactName&gt; </pre><pre>&#160;&#160;&#160; &lt;ContactEmail&gt;test@dea.com&lt;/ContactEmail&gt; </pre><pre>&#160;&#160;&#160; &lt;IsReOccurring&gt;true&lt;/IsReOccurring&gt; </pre><pre>&#160;&#160;&#160; &lt;IsOnMultipleCalendars&gt;false&lt;/IsOnMultipleCalendars&gt; </pre><pre>&#160;&#160;&#160; &lt;BookingID&gt;61157&lt;/BookingID&gt; </pre><pre>&#160;&#160;&#160; &lt;ReservationID&gt;3609&lt;/ReservationID&gt; </pre><pre>&#160;&#160;&#160; &lt;ConnectorID&gt;0&lt;/ConnectorID&gt; </pre><pre>&#160;&#160;&#160; &lt;HideContactName&gt;false&lt;/HideContactName&gt; </pre><pre>&#160;&#160;&#160; &lt;HideContactEmail&gt;false&lt;/HideContactEmail&gt; </pre><pre>&#160;&#160;&#160; &lt;HideContactPhone&gt;false&lt;/HideContactPhone&gt; </pre><pre>&#160;&#160;&#160; &lt;EventUpdatedBy&gt;Connector Service&lt;/EventUpdatedBy&gt; </pre><pre>&#160;&#160;&#160; &lt;EventUpdatedDate&gt;2010-06-03T16:34:34.15&lt;/EventUpdatedDate&gt; </pre><pre>&#160;&#160;&#160; &lt;EventDetailUpdatedBy&gt;dbo&lt;/EventDetailUpdatedBy&gt; </pre><pre>&#160;&#160;&#160; &lt;EventDetailUpdatedDate&gt;2010-06-03T16:34:34.167&lt;/EventDetailUpdatedDate&gt; </pre><pre>&#160; &lt;/Data&gt; </pre><pre>&lt;/Events&gt; </pre>
         <h2>GetEvent </h2>
         <p class="p_1">This API&#160;returns event information for a specific event date.</p>
         <h3>Request Parameters </h3>
         <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
-            <col class="TableStyle-PatternedRows-Column-Regular" />
-            <col class="TableStyle-PatternedRows-Column-Regular" />
-            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 180px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 313px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 78px;" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
@@ -2651,7 +2493,7 @@
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p class="p_5">TitleURl </p>
+                        <p class="p_5">TitleURL</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
                         <p class="p_6">Event Title Url </p>
@@ -2827,7 +2669,7 @@
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p class="p_5">calendarName </p>
+                        <p class="p_5">CalendarName </p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
                         <p class="p_6">Calendar Name </p>
@@ -3146,78 +2988,14 @@
                 </tr>
             </tbody>
         </table>
-        <h4>Sample Code </h4>
-        <p class="p_7">private void GetEvent() </p>
-        <p class="p_7"> { </p>
-        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160;&#160; MCAPI.MCAPIService svc = new MCAPI.MCAPIService();&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; svc.Url = "http://yourserver/MCAPI/MCAPIService.asmx?WSDL"; </p>
-        <p class="p_5">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </p>
-        <p class="p_7">&#160;&#160;&#160;&#160;&#160;&#160; int eventDetailId = 126; </p>
-        <p class="p_7">&#160;&#160;&#160;&#160;&#160;&#160; StringReader sr = new StringReader(svc.GetEvents("username", "pwd”, eventDetailId));&#160;&#160;&#160;&#160;&#160;&#160;&#160; </p>
-        <p class="p_5">&#160;&#160;&#160;&#160;&#160;&#160; </p>
-        <p class="p_7">&#160;&#160;&#160;&#160;&#160;&#160; DataSet ds = new DataSet(); </p>
-        <p class="p_5">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </p>
-        <p class="p_7">&#160;&#160;&#160;&#160;&#160;&#160;&#160; System.Xml.XmlDocument doc = new System.Xml.XmlDocument(); </p>
-        <p class="p_7">&#160;&#160;&#160;&#160;&#160;&#160;&#160; doc.LoadXml(sr.ReadToEnd()); </p>
-        <p class="p_7">&#160;&#160;&#160;&#160;&#160;&#160;&#160; ds.ReadXml(new System.Xml.XmlNodeReader(doc)); </p>
-        <p class="p_12">&#160; } </p>
-        <h4>Example Response </h4>
-        <p class="p_13">&lt;Event&gt; </p>
-        <p class="p_13">&#160; &lt;Data&gt; </p>
-        <p class="p_13">&#160;&#160;&#160; &lt;EventDetailID&gt;155609&lt;/EventDetailID&gt; </p>
-        <p class="p_13">&#160;&#160;&#160; &lt;EventID&gt;23173&lt;/EventID&gt; </p>
-        <p class="p_13">&#160;&#160;&#160; &lt;Title&gt;Test Event (TT) 240 month recurrence&lt;/Title&gt; </p>
-        <p class="p_13">&#160;&#160;&#160; &lt;TitleUrl /&gt; </p>
-        <p class="p_13">&#160;&#160;&#160; &lt;Description /&gt; </p>
-        <p class="p_13">&#160;&#160;&#160; &lt;Department&gt;Test Group&lt;/Department&gt; </p>
-        <p class="p_13">&#160;&#160;&#160; &lt;Location&gt;RM B&lt;/Location&gt; </p>
-        <p class="p_13">&#160;&#160;&#160; &lt;Canceled&gt;false&lt;/Canceled&gt; </p>
-        <p class="p_13">&#160;&#160;&#160; &lt;NoEndTime&gt;false&lt;/NoEndTime&gt; </p>
-        <p class="p_13">&#160;&#160;&#160; &lt;StartDate&gt;2011-04-01T00:00:00&lt;/StartDate&gt; </p>
-        <p class="p_13">&#160;&#160;&#160; &lt;Priority&gt;2&lt;/Priority&gt; </p>
-        <p class="p_13">&#160;&#160;&#160; &lt;TimeEventStart&gt;2011-04-01T10:00:00&lt;/TimeEventStart&gt; </p>
-        <p class="p_13">&#160;&#160;&#160; &lt;TimeEventEnd&gt;2011-04-01T11:00:00&lt;/TimeEventEnd&gt; </p>
-        <p class="p_13">&#160;&#160;&#160; &lt;IsAllDayEvent&gt;false&lt;/IsAllDayEvent&gt; </p>
-        <p class="p_13">&#160;&#160;&#160; &lt;IsTimedEvent&gt;true&lt;/IsTimedEvent&gt; </p>
-        <p class="p_13">&#160;&#160;&#160; &lt;TimeZoneID&gt;68&lt;/TimeZoneID&gt; </p>
-        <p class="p_13">&#160;&#160;&#160; &lt;ContactName&gt;Tester 1&lt;/ContactName&gt; </p>
-        <p class="p_13">&#160;&#160;&#160; &lt;ContactEmail&gt;test@dea.com&lt;/ContactEmail&gt; </p>
-        <p class="p_13">&#160;&#160;&#160; &lt;ContactPhone&gt;0123456789&lt;/ContactPhone&gt; </p>
-        <p class="p_13">&#160;&#160;&#160; &lt;IsOnMultipleCalendars&gt;false&lt;/IsOnMultipleCalendars&gt; </p>
-        <p class="p_13">&#160;&#160;&#160; &lt;IsReOccurring&gt;true&lt;/IsReOccurring&gt; </p>
-        <p class="p_13">&#160;&#160;&#160; &lt;CustomFieldLabel1 /&gt; </p>
-        <p class="p_13">&#160;&#160;&#160; &lt;CustomFieldDescription1 /&gt; </p>
-        <p class="p_13">&#160;&#160;&#160; &lt;CustomURL1 /&gt; </p>
-        <p class="p_13">&#160;&#160;&#160; &lt;CustomFieldLabel2 /&gt; </p>
-        <p class="p_13">&#160;&#160;&#160; &lt;CustomFieldDescription2 /&gt; </p>
-        <p class="p_13">&#160;&#160;&#160; &lt;CustomURL2 /&gt; </p>
-        <p class="p_13">&#160;&#160;&#160; &lt;EventTypeID&gt;111&lt;/EventTypeID&gt; </p>
-        <p class="p_13">&#160;&#160;&#160; &lt;EventTypeName&gt;Conference&lt;/EventTypeName&gt; </p>
-        <p class="p_13">&#160;&#160;&#160; &lt;EventTypeColor&gt;#CC00CC&lt;/EventTypeColor&gt; </p>
-        <p class="p_13">&#160;&#160;&#160; &lt;BookingID&gt;61157&lt;/BookingID&gt; </p>
-        <p class="p_13">&#160;&#160;&#160; &lt;ReservationID&gt;3609&lt;/ReservationID&gt; </p>
-        <p class="p_13">&#160;&#160;&#160; &lt;Priority1&gt;2&lt;/Priority1&gt; </p>
-        <p class="p_13">&#160;&#160;&#160; &lt;HideContactName&gt;false&lt;/HideContactName&gt; </p>
-        <p class="p_13">&#160;&#160;&#160; &lt;HideContactEmail&gt;false&lt;/HideContactEmail&gt; </p>
-        <p class="p_13">&#160;&#160;&#160; &lt;HideContactPhone&gt;false&lt;/HideContactPhone&gt; </p>
-        <p class="p_13">&#160;&#160;&#160; &lt;CalendarName&gt;Cycling Club&lt;/CalendarName&gt; </p>
-        <p class="p_13">&#160;&#160;&#160; &lt;PostDate&gt;2010-06-03T16:34:34.15&lt;/PostDate&gt; </p>
-        <p class="p_13">&#160;&#160;&#160; &lt;TimezoneAbbr&gt;MT&lt;/TimezoneAbbr&gt; </p>
-        <p class="p_13">&#160;&#160;&#160; &lt;EventUpdatedBy&gt;Connector Service&lt;/EventUpdatedBy&gt; </p>
-        <p class="p_13">&#160;&#160;&#160; &lt;EventUpdatedDate&gt;2010-06-03T16:34:34.15&lt;/EventUpdatedDate&gt; </p>
-        <p class="p_13">&#160;&#160;&#160; &lt;EventDetailUpdatedBy&gt;dbo&lt;/EventDetailUpdatedBy&gt; </p>
-        <p class="p_13">&#160;&#160;&#160; &lt;EventDetailUpdatedDate&gt;2010-06-03T16:34:34.167&lt;/EventDetailUpdatedDate&gt; </p>
-        <p class="p_13">&#160;&#160;&#160; &lt;ImageId&gt;0&lt;/ImageId&gt; </p>
-        <p class="p_13">&#160;&#160;&#160; &lt;FileExtension /&gt; </p>
-        <p class="p_13">&#160;&#160;&#160; &lt;ImageName&gt;Image&lt;/ImageName&gt; </p>
-        <p class="p_13">&#160; &lt;/Data&gt; </p>
-        <p class="p_13">&lt;/Event&gt; </p>
+        <h4>Sample Code </h4><pre>private void GetEvent() </pre><pre> { </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160; MCAPI.MCAPIService svc = new MCAPI.MCAPIService();&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; svc.Url = "http://yourserver/MCAPI/MCAPIService.asmx?WSDL"; </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160; int eventDetailId = 126; </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160; StringReader sr = new StringReader(svc.GetEvents("username", "pwd”, eventDetailId));&#160;&#160;&#160;&#160;&#160;&#160;&#160; </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160; </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160; DataSet ds = new DataSet(); </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160; System.Xml.XmlDocument doc = new System.Xml.XmlDocument(); </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160; doc.LoadXml(sr.ReadToEnd()); </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160; ds.ReadXml(new System.Xml.XmlNodeReader(doc)); </pre><pre>&#160; } </pre><pre>Example Response </pre><pre>&lt;Event&gt; </pre><pre>&#160; &lt;Data&gt; </pre><pre>&#160;&#160;&#160; &lt;EventDetailID&gt;155609&lt;/EventDetailID&gt; </pre><pre>&#160;&#160;&#160; &lt;EventID&gt;23173&lt;/EventID&gt; </pre><pre>&#160;&#160;&#160; &lt;Title&gt;Test Event (TT) 240 month recurrence&lt;/Title&gt; </pre><pre>&#160;&#160;&#160; &lt;TitleUrl /&gt; </pre><pre>&#160;&#160;&#160; &lt;Description /&gt; </pre><pre>&#160;&#160;&#160; &lt;Department&gt;Test Group&lt;/Department&gt; </pre><pre>&#160;&#160;&#160; &lt;Location&gt;RM B&lt;/Location&gt; </pre><pre>&#160;&#160;&#160; &lt;Canceled&gt;false&lt;/Canceled&gt; </pre><pre>&#160;&#160;&#160; &lt;NoEndTime&gt;false&lt;/NoEndTime&gt; </pre><pre>&#160;&#160;&#160; &lt;StartDate&gt;2011-04-01T00:00:00&lt;/StartDate&gt; </pre><pre>&#160;&#160;&#160; &lt;Priority&gt;2&lt;/Priority&gt; </pre><pre>&#160;&#160;&#160; &lt;TimeEventStart&gt;2011-04-01T10:00:00&lt;/TimeEventStart&gt; </pre><pre>&#160;&#160;&#160; &lt;TimeEventEnd&gt;2011-04-01T11:00:00&lt;/TimeEventEnd&gt; </pre><pre>&#160;&#160;&#160; &lt;IsAllDayEvent&gt;false&lt;/IsAllDayEvent&gt; </pre><pre>&#160;&#160;&#160; &lt;IsTimedEvent&gt;true&lt;/IsTimedEvent&gt; </pre><pre>&#160;&#160;&#160; &lt;TimeZoneID&gt;68&lt;/TimeZoneID&gt; </pre><pre>&#160;&#160;&#160; &lt;ContactName&gt;Tester 1&lt;/ContactName&gt; </pre><pre>&#160;&#160;&#160; &lt;ContactEmail&gt;test@dea.com&lt;/ContactEmail&gt; </pre><pre>&#160;&#160;&#160; &lt;ContactPhone&gt;0123456789&lt;/ContactPhone&gt; </pre><pre>&#160;&#160;&#160; &lt;IsOnMultipleCalendars&gt;false&lt;/IsOnMultipleCalendars&gt; </pre><pre>&#160;&#160;&#160; &lt;IsReOccurring&gt;true&lt;/IsReOccurring&gt; </pre><pre>&#160;&#160;&#160; &lt;CustomFieldLabel1 /&gt; </pre><pre>&#160;&#160;&#160; &lt;CustomFieldDescription1 /&gt; </pre><pre>&#160;&#160;&#160; &lt;CustomURL1 /&gt; </pre><pre>&#160;&#160;&#160; &lt;CustomFieldLabel2 /&gt; </pre><pre>&#160;&#160;&#160; &lt;CustomFieldDescription2 /&gt; </pre><pre>&#160;&#160;&#160; &lt;CustomURL2 /&gt; </pre><pre>&#160;&#160;&#160; &lt;EventTypeID&gt;111&lt;/EventTypeID&gt; </pre><pre>&#160;&#160;&#160; &lt;EventTypeName&gt;Conference&lt;/EventTypeName&gt; </pre><pre>&#160;&#160;&#160; &lt;EventTypeColor&gt;#CC00CC&lt;/EventTypeColor&gt; </pre><pre>&#160;&#160;&#160; &lt;BookingID&gt;61157&lt;/BookingID&gt; </pre><pre>&#160;&#160;&#160; &lt;ReservationID&gt;3609&lt;/ReservationID&gt; </pre><pre>&#160;&#160;&#160; &lt;Priority1&gt;2&lt;/Priority1&gt; </pre><pre>&#160;&#160;&#160; &lt;HideContactName&gt;false&lt;/HideContactName&gt; </pre><pre>&#160;&#160;&#160; &lt;HideContactEmail&gt;false&lt;/HideContactEmail&gt; </pre><pre>&#160;&#160;&#160; &lt;HideContactPhone&gt;false&lt;/HideContactPhone&gt; </pre><pre>&#160;&#160;&#160; &lt;CalendarName&gt;Cycling Club&lt;/CalendarName&gt; </pre><pre>&#160;&#160;&#160; &lt;PostDate&gt;2010-06-03T16:34:34.15&lt;/PostDate&gt; </pre><pre>&#160;&#160;&#160; &lt;TimezoneAbbr&gt;MT&lt;/TimezoneAbbr&gt; </pre><pre>&#160;&#160;&#160; &lt;EventUpdatedBy&gt;Connector Service&lt;/EventUpdatedBy&gt; </pre><pre>&#160;&#160;&#160; &lt;EventUpdatedDate&gt;2010-06-03T16:34:34.15&lt;/EventUpdatedDate&gt; </pre><pre>&#160;&#160;&#160; &lt;EventDetailUpdatedBy&gt;dbo&lt;/EventDetailUpdatedBy&gt; </pre><pre>&#160;&#160;&#160; &lt;EventDetailUpdatedDate&gt;2010-06-03T16:34:34.167&lt;/EventDetailUpdatedDate&gt; </pre><pre>&#160;&#160;&#160; &lt;ImageId&gt;0&lt;/ImageId&gt; </pre><pre>&#160;&#160;&#160; &lt;FileExtension /&gt; </pre><pre>&#160;&#160;&#160; &lt;ImageName&gt;Image&lt;/ImageName&gt; </pre><pre>&#160; &lt;/Data&gt; </pre><pre>&lt;/Event&gt; </pre>
         <h2 class="Heading2"><a name="GetUdqs"></a>GetUdqs </h2>
         <p class="p_1">This API&#160;returns user defined question information for a specific event.</p>
         <h3>Request Parameters </h3>
         <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
-            <col class="TableStyle-PatternedRows-Column-Regular" />
-            <col class="TableStyle-PatternedRows-Column-Regular" />
-            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 218px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 227px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 123px;" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
@@ -3269,9 +3047,9 @@
         </table>
         <h3>Response Elements </h3>
         <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
-            <col class="TableStyle-PatternedRows-Column-Regular" />
-            <col class="TableStyle-PatternedRows-Column-Regular" />
-            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 219px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 228px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 125px;" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
@@ -3332,31 +3110,15 @@
                 </tr>
             </tbody>
         </table>
-        <h4>Sample Code </h4>
-        <p class="p_7">private void GetUdqs() </p>
-        <p class="p_7"> { </p>
-        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160;&#160; MCAPI.MCAPIService svc = new MCAPI.MCAPIService();&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; svc.Url = "http://yourserver/MCAPI/MCAPIService.asmx?WSDL"; </p>
-        <p class="p_7">&#160;&#160;&#160;&#160;&#160;&#160;&#160; StringReader sr = new StringReader(svc.GetUdqs("username", "pwd", 1)); </p>
-        <p class="p_7">&#160;&#160;&#160;&#160;&#160;&#160;&#160; DataSet ds = new DataSet(); </p>
-        <p class="p_7">&#160;&#160;&#160;&#160;&#160;&#160;&#160; System.Xml.XmlDocument doc = new System.Xml.XmlDocument(); </p>
-        <p class="p_7">&#160;&#160;&#160;&#160;&#160;&#160;&#160; doc.LoadXml(sr.ReadToEnd()); </p>
-        <p class="p_7">&#160;&#160;&#160;&#160;&#160;&#160;&#160; ds.ReadXml(new System.Xml.XmlNodeReader(doc)); </p>
-        <p class="p_12">&#160; } </p>
-        <h4>Example Response </h4>
-        <p class="p_13">&lt;Udqs&gt; </p>
-        <p class="p_13">&#160; &lt;Data&gt; </p>
-        <p class="p_13">&#160;&#160;&#160; &lt;UDQID&gt;126&lt;/UDQID&gt; </p>
-        <p class="p_13">&#160;&#160;&#160; &lt;PromptText&gt;How will your organization pay for this event?&lt;/PromptText&gt; </p>
-        <p class="p_13">&#160;&#160;&#160; &lt;Answer&gt;Cash&lt;/Answer&gt; </p>
-        <p class="p_13">&#160;&#160; &lt;Sequence&gt;1&lt;/Sequence&gt; </p>
-        <p class="p_14">&#160; &lt;/Data&gt; &lt;/Udqs&gt; </p>
+        <h4>Sample Code </h4><pre>private void GetUdqs() </pre><pre> { </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160; MCAPI.MCAPIService svc = new MCAPI.MCAPIService();&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; svc.Url = "http://yourserver/MCAPI/MCAPIService.asmx?WSDL"; </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160; StringReader sr = new StringReader(svc.GetUdqs("username", "pwd", 1)); </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160; DataSet ds = new DataSet(); </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160; System.Xml.XmlDocument doc = new System.Xml.XmlDocument(); </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160; doc.LoadXml(sr.ReadToEnd()); </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160; ds.ReadXml(new System.Xml.XmlNodeReader(doc)); </pre><pre>&#160; } </pre>
+        <h4>Example Response </h4><pre>&lt;Udqs&gt; </pre><pre>&#160; &lt;Data&gt; </pre><pre>&#160;&#160;&#160; &lt;UDQID&gt;126&lt;/UDQID&gt; </pre><pre>&#160;&#160;&#160; &lt;PromptText&gt;How will your organization pay for this event?&lt;/PromptText&gt; </pre><pre>&#160;&#160;&#160; &lt;Answer&gt;Cash&lt;/Answer&gt; </pre><pre>&#160;&#160; &lt;Sequence&gt;1&lt;/Sequence&gt; </pre><pre>&#160; &lt;/Data&gt; &lt;/Udqs&gt; </pre>
         <h2 class="Heading2"><a name="GetComments"></a>GetComments </h2>
         <p class="p_1">This API&#160;returns EMS comments for a specific event.</p>
         <h3>Request Parameters </h3>
         <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
-            <col class="TableStyle-PatternedRows-Column-Regular" />
-            <col class="TableStyle-PatternedRows-Column-Regular" />
-            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 231px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 256px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 91px;" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
@@ -3423,7 +3185,7 @@
                         <p class="p_6">EMS Booking ID </p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
-                        <p class="p_6">Interger </p>
+                        <p class="p_6">Integer </p>
                     </td>
                 </tr>
             </tbody>
@@ -3431,8 +3193,8 @@
         <h3>Response Elements </h3>
         <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
             <col class="TableStyle-PatternedRows-Column-Regular" />
-            <col class="TableStyle-PatternedRows-Column-Regular" />
-            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 375px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 82px;" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
@@ -3493,31 +3255,14 @@
                 </tr>
             </tbody>
         </table>
-        <h4>Sample Code </h4>
-        <p class="p_7">private void GetComments() </p>
-        <p class="p_7"> { </p>
-        <p class="p_7">&#160;&#160;&#160;&#160;&#160;&#160;&#160; MCAPI.MCAPIService svc = new MCAPI.MCAPIService(); </p>
-        <p class="p_7">&#160;&#160;&#160;&#160;&#160;&#160;&#160; svc.Url = "http://yourserver/MCAPI/MCAPIService.asmx?WSDL"; </p>
-        <p class="p_7">&#160;&#160;&#160;&#160;&#160;&#160;&#160; StringReader sr = new StringReader(svc.GetComments("username", "pwd", 1,25, 482)); </p>
-        <p class="p_7">&#160;&#160;&#160;&#160;&#160;&#160;&#160; DataSet ds = new DataSet(); </p>
-        <p class="p_7">&#160;&#160;&#160;&#160;&#160;&#160;&#160; System.Xml.XmlDocument doc = new System.Xml.XmlDocument(); </p>
-        <p class="p_7">&#160;&#160;&#160;&#160;&#160;&#160;&#160; doc.LoadXml(sr.ReadToEnd()); </p>
-        <p class="p_7">&#160;&#160;&#160;&#160;&#160;&#160;&#160; ds.ReadXml(new System.Xml.XmlNodeReader(doc)); </p>
-        <p class="p_12">&#160; } </p>
-        <h4>Example Response </h4>
-        <p class="p_13">&lt;Comments&gt; </p>
-        <p class="p_13">&#160; &lt;Data&gt; </p>
-        <p class="p_13">&#160;&#160;&#160; &lt;ID&gt;1&lt;/ID&gt; </p>
-        <p class="p_13">&#160;&#160;&#160; &lt;Notes&gt;details…&lt;/Notes&gt; </p>
-        <p class="p_13">&#160;&#160;&#160; &lt;CommentType&gt;Event Details&lt;/CommentType&gt; </p>
-        <p class="p_13">&#160;&#160; &lt;NoteType&gt;Reservation Notes&lt;/ NoteType &gt; </p>
-        <p class="p_15">&#160; &lt;/Data&gt; &lt;/Comments&gt; </p>
+        <h4>Sample Code </h4><pre>private void GetComments() </pre><pre> { </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160; MCAPI.MCAPIService svc = new MCAPI.MCAPIService(); </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160; svc.Url = "http://yourserver/MCAPI/MCAPIService.asmx?WSDL"; </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160; StringReader sr = new StringReader(svc.GetComments("username", "pwd", 1,25, 482)); </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160; DataSet ds = new DataSet(); </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160; System.Xml.XmlDocument doc = new System.Xml.XmlDocument(); </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160; doc.LoadXml(sr.ReadToEnd()); </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160; ds.ReadXml(new System.Xml.XmlNodeReader(doc)); </pre><pre>&#160; } </pre>
+        <h4>Example Response </h4><pre>&lt;Comments&gt; </pre><pre>&#160; &lt;Data&gt; </pre><pre>&#160;&#160;&#160; &lt;ID&gt;1&lt;/ID&gt; </pre><pre>&#160;&#160;&#160; &lt;Notes&gt;details…&lt;/Notes&gt; </pre><pre>&#160;&#160;&#160; &lt;CommentType&gt;Event Details&lt;/CommentType&gt; </pre><pre>&#160;&#160; &lt;NoteType&gt;Reservation Notes&lt;/ NoteType &gt; </pre><pre>&#160; &lt;/Data&gt; &lt;/Comments&gt; </pre>
         <h2 class="Heading2"><a name="AddEvent"></a>AddEvent (Requires Advanced API Option) </h2>
         <p class="p_1">This API&#160;allows you to add an Event.</p>
         <h3>Request Parameters </h3>
         <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
             <col class="TableStyle-PatternedRows-Column-Regular" />
-            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 248px;" />
             <col class="TableStyle-PatternedRows-Column-Regular" style="width: 144px;" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
@@ -3593,7 +3338,7 @@
                         <p class="p_5">TitleURL </p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p class="p_6">EventTitleUrl </p>
+                        <p class="p_6">Event Title URL</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
                         <p class="p_6">String </p>
@@ -3832,7 +3577,7 @@
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p class="p_5">HIdeContactEmail </p>
+                        <p class="p_5">HideContactEmail </p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
                         <p class="p_6">Hide Event Contact Email </p>
@@ -3843,7 +3588,7 @@
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
-                        <p class="p_5">HIdeContactPhone </p>
+                        <p class="p_5">HideContactPhone </p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
                         <p class="p_6">Hide Event Contact Phone </p>
@@ -3856,9 +3601,9 @@
         </table>
         <h3>Response Elements </h3>
         <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
-            <col class="TableStyle-PatternedRows-Column-Regular" />
-            <col class="TableStyle-PatternedRows-Column-Regular" />
-            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 215px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 256px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 93px;" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
@@ -3897,31 +3642,15 @@
                 </tr>
             </tbody>
         </table>
-        <h4>Sample Code </h4>
-        <p class="p_7"> private void AddEvent() </p>
-        <p class="p_7"> { </p>
-        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160;&#160; MCAPI.MCAPIService svc = new MCAPI.MCAPIService();&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; svc.Url = "http://yourserver/MCAPI/MCAPIService.asmx?WSDL"; </p>
-        <p class="p_16">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160; int[] cals = new int[] { 3, 126 }; </p>
-        <p class="p_17">&#160;&#160;&#160;&#160;&#160;&#160; StringReader sr = new StringReader(svc.AddEvent("username", "pwd", “1/1/1900”, cals, </p>
-        <p class="p_17">"Test API Event","", "This is a test api description", “1/1/1900&#160;&#160;&#160; 00:00”, “1/1/1900&#160;&#160;&#160; 00:00”, "Denver", "http://www.dea.com", "Contact Name", "Contact Email", "", false, false, false,&#160; false,"","","","","","",-1, "", false, false, true)); </p>
-        <p class="p_5">&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160; DataSet ds = new DataSet(); </p>
-        <p class="p_5">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160; System.Xml.XmlDocument doc = new System.Xml.XmlDocument();&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; doc.LoadXml(sr.ReadToEnd()); </p>
-        <p class="p_7">&#160;&#160;&#160;&#160;&#160;&#160;&#160; ds.ReadXml(new System.Xml.XmlNodeReader(doc)); </p>
-        <p class="p_7"> } </p>
-        <h4>Example Response </h4>
-        <p class="p_13">&lt;Event&gt; </p>
-        <p class="p_13">&#160; &lt;Data&gt; </p>
-        <p class="p_13">&#160;&#160;&#160; &lt;EventDetailID&gt;155609&lt;/EventDetailID&gt; </p>
-        <p class="p_13">&#160;&#160;&#160; &lt;EventID&gt;23173&lt;/EventID&gt; </p>
-        <p class="p_13">&#160; &lt;/Data&gt; </p>
-        <p class="p_13">&lt;/Event&gt; </p>
+        <h4>Sample Code </h4><pre> private void AddEvent() </pre><pre> { </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160; MCAPI.MCAPIService svc = new MCAPI.MCAPIService();&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; svc.Url = "http://yourserver/MCAPI/MCAPIService.asmx?WSDL"; </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160; int[] cals = new int[] { 3, 126 }; </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160; StringReader sr = new StringReader(svc.AddEvent("username", "pwd", “1/1/1900”, cals, </pre><pre>"Test API Event","", "This is a test api description", “1/1/1900&#160;&#160;&#160; 00:00”, “1/1/1900&#160;&#160;&#160; 00:00”, "Denver", "http://www.dea.com", "Contact Name", "Contact Email", "", false, false, false,&#160; false,"","","","","","",-1, "", false, false, true)); </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160; DataSet ds = new DataSet(); </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160; System.Xml.XmlDocument doc = new System.Xml.XmlDocument();&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; doc.LoadXml(sr.ReadToEnd()); </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160; ds.ReadXml(new System.Xml.XmlNodeReader(doc)); </pre><pre> } </pre>
+        <h4>Example Response </h4><pre>&lt;Event&gt; </pre><pre>&#160; &lt;Data&gt; </pre><pre>&#160;&#160;&#160; &lt;EventDetailID&gt;155609&lt;/EventDetailID&gt; </pre><pre>&#160;&#160;&#160; &lt;EventID&gt;23173&lt;/EventID&gt; </pre><pre>&#160; &lt;/Data&gt; </pre><pre>&lt;/Event&gt; </pre>
         <h2 class="Heading2"><a name="AddEventWithMultipleDates"></a>AddEventWithMultipleDates (Requires Advanced API Option) </h2>
         <p class="p_1">This API&#160;allows you to add an Event.</p>
         <h3>Request Parameters </h3>
         <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
             <col class="TableStyle-PatternedRows-Column-Regular" />
-            <col class="TableStyle-PatternedRows-Column-Regular" />
-            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 258px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 134px;" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
@@ -3996,7 +3725,7 @@
                         <p class="p_5">TitleURL </p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p class="p_6">EventTitleUrl </p>
+                        <p class="p_6">Event Title URL</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
                         <p class="p_6">String </p>
@@ -4235,7 +3964,7 @@
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p class="p_5">HIdeContactEmail </p>
+                        <p class="p_5">HideContactEmail </p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
                         <p class="p_5">Hide Event Contact Email </p>
@@ -4246,7 +3975,7 @@
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
-                        <p class="p_5">HIdeContactPhone </p>
+                        <p class="p_5">HideContactPhone </p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
                         <p class="p_5">Hide Event Contact Phone </p>
@@ -4259,9 +3988,9 @@
         </table>
         <h3>Response Elements </h3>
         <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
-            <col class="TableStyle-PatternedRows-Column-Regular" />
-            <col class="TableStyle-PatternedRows-Column-Regular" />
-            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 177px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 260px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 132px;" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
@@ -4300,30 +4029,15 @@
                 </tr>
             </tbody>
         </table>
-        <h4>Sample Code </h4>
-        <p class="p_7"> private void AddEventWithMultipleDates() </p>
-        <p class="p_7"> { </p>
-        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160;&#160; MCAPI.MCAPIService svc = new MCAPI.MCAPIService();&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; svc.Url = "http://yourserver/MCAPI/MCAPIService.asmx?WSDL"; </p>
-        <p class="p_5">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </p>
-        <p class="p_18">&#160;&#160;&#160;&#160;&#160;&#160; DateTime[] dates = new DateTime[] { DateTime.Now, DateTime.Now.AddDays(1) };&#160;&#160;&#160;&#160;&#160;&#160;&#160; int[] cals = new int[] { 3, 126 }; </p>
-        <p class="p_17">&#160;&#160;&#160;&#160;&#160;&#160; StringReader sr = new StringReader(svc.AddEventWithMultipleDates("username", "pwd", dates, cals, "Test API Event","", "This is a test api description", “1/1/1900&#160;&#160;&#160; 00:00”, “1/1/1900&#160;&#160;&#160; 00:00”, "Denver", "http://www.dea.com", "Contact Name", "Contact Email", "", false, false, false,&#160; false,"","","","","","",-1, "", false, false, true)); </p>
-        <p class="p_5">&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160; DataSet ds = new DataSet(); </p>
-        <p class="p_5">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160; System.Xml.XmlDocument doc = new System.Xml.XmlDocument();&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; doc.LoadXml(sr.ReadToEnd()); </p>
-        <p class="p_7">&#160;&#160;&#160;&#160;&#160;&#160;&#160; ds.ReadXml(new System.Xml.XmlNodeReader(doc)); </p>
-        <p class="p_7"> } </p>
-        <h4>Example Response </h4>
-        <p class="p_13">&lt;Event&gt; </p>
-        <p class="p_13">&#160; &lt;Data&gt; </p>
-        <p class="p_13">&#160;&#160;&#160; &lt;EventID&gt;23173&lt;/EventID&gt; </p>
-        <p class="p_13">&#160; &lt;/Data&gt; </p>
-        <p class="p_13">&lt;/Event&gt; </p>
+        <h4>Sample Code </h4><pre> private void AddEventWithMultipleDates() </pre><pre> { </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160; MCAPI.MCAPIService svc = new MCAPI.MCAPIService();&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; svc.Url = "http://yourserver/MCAPI/MCAPIService.asmx?WSDL"; </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160; DateTime[] dates = new DateTime[] { DateTime.Now, DateTime.Now.AddDays(1) };&#160;&#160;&#160;&#160;&#160;&#160;&#160; int[] cals = new int[] { 3, 126 }; </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160; StringReader sr = new StringReader(svc.AddEventWithMultipleDates("username", "pwd", dates, cals, "Test API Event","", "This is a test api description", “1/1/1900&#160;&#160;&#160; 00:00”, “1/1/1900&#160;&#160;&#160; 00:00”, "Denver", "http://www.dea.com", "Contact Name", "Contact Email", "", false, false, false,&#160; false,"","","","","","",-1, "", false, false, true)); </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160; DataSet ds = new DataSet(); </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160; System.Xml.XmlDocument doc = new System.Xml.XmlDocument();&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; doc.LoadXml(sr.ReadToEnd()); </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160; ds.ReadXml(new System.Xml.XmlNodeReader(doc)); </pre><pre> } </pre>
+        <h4>Example Response </h4><pre>&lt;Event&gt; </pre><pre>&#160; &lt;Data&gt; </pre><pre>&#160;&#160;&#160; &lt;EventID&gt;23173&lt;/EventID&gt; </pre><pre>&#160; &lt;/Data&gt; </pre><pre>&lt;/Event&gt; </pre>
         <h2 class="Heading2"><a name="UpdateEvent"></a>UpdateEvent (Requires Advanced API Option) </h2>
         <p class="p_1">This API&#160;allows you to add an Event.</p>
         <h3>Request Parameters </h3>
         <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
             <col class="TableStyle-PatternedRows-Column-Regular" />
-            <col class="TableStyle-PatternedRows-Column-Regular" />
-            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 237px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 155px;" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
@@ -4409,7 +4123,7 @@
                         <p class="p_5">TitleURL </p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p class="p_6">EventTitleUrl </p>
+                        <p class="p_6">Event Title URL</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
                         <p class="p_6">String </p>
@@ -4648,7 +4362,7 @@
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p class="p_5">HIdeContactEmail </p>
+                        <p class="p_5">HideContactEmail </p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
                         <p class="p_5">Hide Event Contact Email </p>
@@ -4659,7 +4373,7 @@
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
-                        <p class="p_5">HIdeContactPhone </p>
+                        <p class="p_5">HideContactPhone </p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
                         <p class="p_5">Hide Event Contact Phone </p>
@@ -4672,9 +4386,9 @@
         </table>
         <h3>Response Elements </h3>
         <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
-            <col class="TableStyle-PatternedRows-Column-Regular" />
-            <col class="TableStyle-PatternedRows-Column-Regular" />
-            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 180px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 238px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 150px;" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
@@ -4702,28 +4416,15 @@
                 </tr>
             </tbody>
         </table>
-        <p class="p_7">private void UpdateEvent() </p>
-        <p class="p_7"> { </p>
-        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160;&#160; MCAPI.MCAPIService svc = new MCAPI.MCAPIService();&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; svc.Url = "http://yourserver/MCAPI/MCAPIService.asmx?WSDL"; </p>
-        <p class="p_16">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160; int[] cals = new int[] { 3, 126 }; </p>
-        <p class="p_17">&#160;&#160;&#160;&#160;&#160;&#160; StringReader sr = new StringReader(svc.AddEvent("username", "pwd", eventId, “1/1/1900”, cals, "Test API Event","", "This is a test api description", “1/1/1900&#160;&#160;&#160; 00:00”, “1/1/1900&#160;&#160;&#160; 00:00”, "Denver", "http://www.dea.com", "Contact Name", "Contact Email", "", false, false, false,&#160; false,"","","","","","",-1, "", false, false, true)); </p>
-        <p class="p_5">&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160; DataSet ds = new DataSet(); </p>
-        <p class="p_5">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160; System.Xml.XmlDocument doc = new System.Xml.XmlDocument();&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; doc.LoadXml(sr.ReadToEnd()); </p>
-        <p class="p_7">&#160;&#160;&#160;&#160;&#160;&#160;&#160; ds.ReadXml(new System.Xml.XmlNodeReader(doc)); </p>
-        <p class="p_7"> } </p>
-        <h4>Example Response </h4>
-        <p class="p_7">&lt;Messages&gt; </p>
-        <p class="p_19">&lt;Message&gt; </p>
-        <p class="p_20">&lt;Message&gt;Success!&lt;/Message&gt; </p>
-        <p class="p_19">&lt;/Message&gt; </p>
-        <p class="p_7">&lt;/Messages&gt; </p>
+        <h4>Sample Code</h4><pre>private void UpdateEvent() </pre><pre> { </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160; MCAPI.MCAPIService svc = new MCAPI.MCAPIService();&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; svc.Url = "http://yourserver/MCAPI/MCAPIService.asmx?WSDL"; </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160; int[] cals = new int[] { 3, 126 }; </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160; StringReader sr = new StringReader(svc.AddEvent("username", "pwd", eventId, “1/1/1900”, cals, "Test API Event","", "This is a test api description", “1/1/1900&#160;&#160;&#160; 00:00”, “1/1/1900&#160;&#160;&#160; 00:00”, "Denver", "http://www.dea.com", "Contact Name", "Contact Email", "", false, false, false,&#160; false,"","","","","","",-1, "", false, false, true)); </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160; DataSet ds = new DataSet(); </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160; System.Xml.XmlDocument doc = new System.Xml.XmlDocument();&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; doc.LoadXml(sr.ReadToEnd()); </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160; ds.ReadXml(new System.Xml.XmlNodeReader(doc)); </pre><pre> } </pre>
+        <h4>Example Response </h4><pre>&lt;Messages&gt; </pre><pre>&lt;Message&gt; </pre><pre>&lt;Message&gt;Success!&lt;/Message&gt; </pre><pre>&lt;/Message&gt; </pre><pre>&lt;/Messages&gt; </pre>
         <h2 class="Heading2"><a name="UpdateEventDate"></a>UpdateEventDate (Requires Advanced API Option) </h2>
         <p class="p_1">This API&#160;allows you to add an Event.</p>
         <h3>Request Parameters </h3>
         <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
             <col class="TableStyle-PatternedRows-Column-Regular" />
-            <col class="TableStyle-PatternedRows-Column-Regular" />
-            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 291px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 107px;" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
@@ -4798,7 +4499,7 @@
                         <p class="p_5">TitleURL </p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p class="p_5">EventTitleUrl </p>
+                        <p class="p_5">Event Title URL</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
                         <p class="p_6">String </p>
@@ -4973,9 +4674,9 @@
         </table>
         <h3>Response Elements </h3>
         <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
-            <col class="TableStyle-PatternedRows-Column-Regular" />
-            <col class="TableStyle-PatternedRows-Column-Regular" />
-            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 179px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 290px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 103px;" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
@@ -5003,22 +4704,7 @@
                 </tr>
             </tbody>
         </table>
-        <p class="p_7">private void UpdateEventDate() </p>
-        <p class="p_7"> { </p>
-        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160;&#160; MCAPI.MCAPIService svc = new MCAPI.MCAPIService();&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; svc.Url = "http://yourserver/MCAPI/MCAPIService.asmx?WSDL"; </p>
-        <p class="p_16">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; StringReader sr = new StringReader(svc.AddEventDate("username", "pwd", </p>
-        <p class="p_17">eventDetailId, “1/1/1900”, "Test API Event","", "This is a test api description", “1/1/1900&#160;&#160;&#160; </p>
-        <p class="p_17">00:00”, “1/1/1900&#160;&#160;&#160; 00:00”, "Denver", "http://www.dea.com", false, false, false,&#160; false,"","","","","","",-1)); </p>
-        <p class="p_5">&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160; DataSet ds = new DataSet(); </p>
-        <p class="p_5">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160; System.Xml.XmlDocument doc = new System.Xml.XmlDocument();&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; doc.LoadXml(sr.ReadToEnd()); </p>
-        <p class="p_7">&#160;&#160;&#160;&#160;&#160;&#160;&#160; ds.ReadXml(new System.Xml.XmlNodeReader(doc)); </p>
-        <p class="p_7"> } </p>
-        <h4>Example Response </h4>
-        <p class="p_7">&lt;Messages&gt; </p>
-        <p class="p_19">&lt;Message&gt; </p>
-        <p class="p_20">&lt;Message&gt;Success!&lt;/Message&gt; </p>
-        <p class="p_19">&lt;/Message&gt; </p>
-        <p class="p_7">&lt;/Messages&gt; </p>
-        <p class="p_19">  <![CDATA[ ]]></p>
+        <h4>Sample Code</h4><pre>private void UpdateEventDate() </pre><pre> { </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160; MCAPI.MCAPIService svc = new MCAPI.MCAPIService();&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; svc.Url = "http://yourserver/MCAPI/MCAPIService.asmx?WSDL"; </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; StringReader sr = new StringReader(svc.AddEventDate("username", "pwd", </pre><pre>eventDetailId, “1/1/1900”, "Test API Event","", "This is a test api description", “1/1/1900&#160;&#160;&#160; </pre><pre>00:00”, “1/1/1900&#160;&#160;&#160; 00:00”, "Denver", "http://www.dea.com", false, false, false,&#160; false,"","","","","","",-1)); </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160; DataSet ds = new DataSet(); </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160; System.Xml.XmlDocument doc = new System.Xml.XmlDocument();&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; doc.LoadXml(sr.ReadToEnd()); </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160; ds.ReadXml(new System.Xml.XmlNodeReader(doc)); </pre><pre> } </pre>
+        <h4>Example Response </h4><pre>&lt;Messages&gt; </pre><pre>&lt;Message&gt; </pre><pre>&lt;Message&gt;Success!&lt;/Message&gt; </pre><pre>&lt;/Message&gt; </pre><pre>&lt;/Messages&gt; </pre>
     </body>
 </html>
