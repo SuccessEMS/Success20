@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html MadCap:lastBlockDepth="8" MadCap:lastHeight="6869" MadCap:lastWidth="921" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\emsroomSignApp.flmsp');">
+<html MadCap:lastBlockDepth="8" MadCap:lastHeight="13118" MadCap:lastWidth="650" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\emsroomSignApp.flmsp');">
     <head><title mt-export-translate="no">Installing the EMS Room Sign App</title>
         <meta name="mt-type" value="application/x.deki-text" />
         <meta name="mt-unsafe" value="true" />
@@ -9,6 +9,25 @@
         <div class="note-box warning">
             <p><span class="bold">Warning:</span>&#160;The EMS Room Sign App was <span class="bold">formerly named EMS Glance</span>. Some of the installation files (e.g., API, dll, etc.) will temporarily retain the Glance name.&#160;</p>
         </div>
+        <p>This topic will provide information that will allow you to do the following:</p>
+        <ul>
+            <li><a href="#Install_or_Upgrade_the_Database_Component">Install or Upgrade the Database Component</a>
+            </li>
+            <li><a href="#Install_or_Upgrade_the_EMS_Room_Sign_App_DLL">Install or Upgrade the EMS&#160;Room Sign App DLL</a>
+            </li>
+            <li><a href="#Install_or_Upgrade_the_EMS_Room_Sign_App_API">Install or Upgrade the EMS&#160;Room Sign App API</a>
+            </li>
+            <li><a href="#Verify_the_EMS_Room_Sign_App_API_Installation">Verify the EMS&#160;Room Sign App API&#160;Installation</a>
+            </li>
+            <li><a href="#Install_or_Upgrade_the_EMS_Room_Sign_Web_Application">Install or Upgrade the EMS&#160;Room Sign Web Application</a>
+            </li>
+            <li><a href="#Create_an_EMS_Admin_User_to_Manage">Create an EMS&#160;Admin User to Manage Your EMS&#160;Room Sign App API&#160;Web Service</a>
+            </li>
+            <li><a href="#SetLaunchPin">Set a Launch Pin</a>
+            </li>
+            <li><a href="#Access_EMS_Room_Sign_App_on_Your_Device(s)">Access EMS&#160;Room Sign App on Your Devices</a>
+            </li>
+        </ul>
         <p>To install or upgrade the EMS Room Sign App, you will:</p>
         <ul class="unorder-list">
             <li>Update your database with the new <a href="#Install_or_Upgrade_the_Database_Component">EMS Room Sign App .sql file</a>.</li>
@@ -76,15 +95,26 @@
         <ol start="1" class="number-list">
             <li>Create&#160;the EMS Admin Account to be used for the EMS Room Sign App:
     <ol start="1" style="list-style-type: lower-alpha;"><li>Create a user account in EMS Desktop Client under <span class="bold">System Administration</span> &gt; <span class="bold">Security</span> &gt;&#160;<span class="bold">Users&#160;</span>(with any user name and password you choose).</li><li>Uncheck the <span class="bold">Administrator&#160;</span>box.</li><li>Then add the process&#160;<span class="bold">EMS API Web Service Access</span>&#160;to this account.</li></ol></li>
-            <li>Enter the user name and password for the account in the web.config file of the EMS Room Sign application settings, for example:</li>
-        </ol>
-        <p class="mt-indent-1">&lt;appSettings&gt;</p>
-        <blockquote>
-            <p class="mt-indent-2" style="text-align: left;">&lt;add key="webpages:Version" value="2.0.0.0"/&gt;<br />&lt;add key="webpages:Enabled" value="false"/&gt;<br />&lt;add key="PreserveLoginUrl" value="true"/&gt;<br />&lt;add key="ClientValidationEnabled" value="true"/&gt;<br />&lt;add key="UnobtrusiveJavaScriptEnabled" value="true"/&gt;<br />&lt;add key="ClientValidationEnabled" value="true"/&gt;<br />&lt;add key="EMSGlanceAPIURL" value=""/&gt;<br /><span style="background-color: #ffff00;">&lt;add key="EmsUser" value="admin"/&gt;</span><br style="background-color: #ffff00;" /><span style="background-color: #ffff00;">&lt;add key="EmsPassword" value="admin"/&gt;</span></p>
+            <li>Enter the user name and password for the account in the web.config file of the EMS Room Sign App settings, for example:</li>
+        </ol><pre>&lt;appSettings&gt;</pre>
+        <blockquote><pre>&lt;add key="webpages:Version" value="2.0.0.0"/&gt;<br />&lt;add key="webpages:Enabled" value="false"/&gt;<br />&lt;add key="PreserveLoginUrl" value="true"/&gt;<br />&lt;add key="ClientValidationEnabled" value="true"/&gt;<br />&lt;add key="UnobtrusiveJavaScriptEnabled" value="true"/&gt;<br />&lt;add key="ClientValidationEnabled" value="true"/&gt;<br />&lt;add key="EMSGlanceAPIURL" value=""/&gt;<br /><span style="background-color: #ffff00;">&lt;add key="EmsUser" value="admin"/&gt;</span><br style="background-color: #ffff00;" /><span style="background-color: #ffff00;">&lt;add key="EmsPassword" value="admin"/&gt;</span></pre>
         </blockquote>
         <div class="note-box tip">
-            <p class="mt-indent-2" style="text-align: left;"><span class="bold">Tip for EMS Cloud Customers:</span> Modifications to the web.config file must be performed by EMS Cloud Operations. To request these changes, please contact EMS Support.</p>
+            <p class="mt-indent-2" style="text-align: left;"><span class="bold">Tip for EMS Cloud Customers:</span> Modifications to the web.config file must be performed by EMS Cloud Operations. To request these changes, please <a href="../../../ContactUs.htm">contact EMS Support</a>.</p>
         </div>
+        <h2><a name="SetLaunchPin"></a>Set a Launch Pin</h2>
+        <ol class="number-list">
+            <li>Open a browser and enter the URL to your EMS Room Sign App web application.</li>
+            <li>If this is your first time accessing the site, select a profile and room. Each individual profile can be protected with a passcode; however, the first landing page does not have a passcode set by default. </li>
+            <li>Modify the web.config file to set a Launch Pin. Setting this value (which is blank by default), will force users to enter a code the first time they browse to the EMS&#160;Room Sign site. </li>
+            <li>Navigate to the Room Sign App web directory. </li>
+            <li>Edit the web.config file. </li>
+            <li>Enter a value for the Launch Pin key. </li>
+        </ol>
+        <p class="title">Example Screenshot With a 0000 Pin </p>
+        <p>
+            <img src="../Images/RSA_launchpin.png" class="PDFlarge" />
+        </p>
         <h2><a name="Access_EMS_Room_Sign_App_on_Your_Device(s)"></a>Access EMS Room Sign App on Your Device(s)</h2>
         <p>The EMS Room Sign App is ready to use once all of the Room Sign components have been properly installed and at least one Profile has been configured for use (see&#160;<a href="../B_Configuration/RSA_CG_Config.html">Configure the EMS Room Sign App</a>).&#160;To access the EMS Room Sign App on your device, do the following:</p>
         <ol class="number-list">
@@ -95,7 +125,7 @@
             <li value="5">Click&#160;<span class="bold">Apply</span>.</li>
         </ol>
         <div class="note-box note">
-            <p><span class="bold">Note:</span> Once the EMS Room Sign application is running, to re-access the Settings screen for any reason, simply double-tap the EMS Room Sign App logo in the upper-left hand corner of the screen.</p>
+            <p><span class="bold">Note:</span> Once the EMS Room Sign App is running, to re-access the Settings screen for any reason, simply double-tap the EMS Room Sign App logo in the upper-left hand corner of the screen.</p>
         </div>
     </body>
 </html>
