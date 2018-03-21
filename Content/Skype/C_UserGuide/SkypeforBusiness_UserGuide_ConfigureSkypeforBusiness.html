@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html MadCap:lastBlockDepth="10" MadCap:lastHeight="11688" MadCap:lastWidth="895" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+<html MadCap:lastBlockDepth="10" MadCap:lastHeight="16786" MadCap:lastWidth="828" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head><title mt-export-translate="no">Configuring Skype for Business</title>
         <meta name="mt-type" value="application/x.deki-text" />
         <meta name="mt-unsafe" value="true" />
     </head>
     <body>
-        <h1>Configure Skype for Business</h1>
+        <h1 MadCap:autonum="CHAPTER&#160;1: ">Configure Skype for Business</h1>
         <p>This topic provides information on the following: </p>
         <ul class="unorder-list">
             <li><a href="#Prerequisites">Prerequisites</a>
@@ -85,8 +85,8 @@
             <li>Click the Reset Secret button and copy the generated Secret.</li>
             <li>In the web.config file located in the designated folder for your current version of EMS, insert the copied Secret&#160;ID into the value field.&#160;</li>
         </ol>
-        <div class="indent">
-            <p>&#160; &#160; &lt;add key="platformServicesSecret" value="YourSecretID" /&gt;</p>
+        <div class="indent"><pre xml:space="preserve">&#160; &#160; &lt;add key="platformServicesSecret" 
+	value="YourSecretID" /&gt;</pre>
         </div>
         <div class="note-box important">
             <p class="note-box.important"><span class="bold">Important:</span> Cloud customers do not need to generate a Secret or insert it into the web.config file (Steps 3 through 4).</p>
@@ -96,7 +96,7 @@
             <li>In the EMS&#160;Desktop Client, navigate to System Administration &gt;&#160;Settings&#160;&gt;&#160;Parameters &gt;&#160;Everyday User Applications. Configure the Platform Services API&#160;URL&#160;parameter. Click Close. </li>
         </ol>
         <p>
-            <img src="../Images/Skype_ParamforWebApp.PNG" />
+            <img src="../Images/Skype_ParamforWebApp.PNG" class="PDFlarge" />
         </p>
         <h2><a name="Configure_Skype_for_Business_on_Global_Templates"></a>Configure Skype for Business on Global Templates</h2>
         <ol start="1" class="number-list">
@@ -106,7 +106,7 @@
         </ol>
         <p class="title">Configuring Skype for Business on a Global Template</p>
         <p>
-            <img src="../Images/Skype_CG5.png" />
+            <img src="../Images/Skype_CG5.png" class="PDFlarge" />
         </p>
         <ol start="2" class="number-list">
             <li>Navigate to System Administration &gt; Settings &gt; Parameters &gt; Everyday User Applications tab.&#160;

@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html MadCap:lastBlockDepth="8" MadCap:lastHeight="6343" MadCap:lastWidth="574" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\EMSDesktopClient.flmsp');">
+<html MadCap:lastBlockDepth="8" MadCap:lastHeight="5280" MadCap:lastWidth="812" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\EMSDesktopClient.flmsp');">
     <head>
         <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" />
     </head>
     <body>
-        <h1>Configure Statuses</h1>
+        <h1 MadCap:autonum="CHAPTER&#160;1: ">Configure Statuses</h1>
         <p>A status automates the booking workflow, especially for booking requests that must be approved and then completed. A status is one of four core data items that you must configure so that your users can make reservations.</p>
         <p class="note-box">Tip: You can associate a status to reservations and to bookings, but only booking-level statuses affects room availability. Every booking must have a status.</p>
         <p>You may wish to configure your own statuses to automate the booking request workflow, such as “Confirmed,” “Tentative,” “Wait List,” and “Canceled.” You can configure as many statuses as you need and give them any names you want; however, you must always assign one of the four following status types to a status:</p>
@@ -122,6 +122,7 @@
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
                         <p>Select this option to display the event details for bookings with this status in EMS Web App.</p>
+                        <p><span class="bold">Note</span>:&#160;For a booking to appear on Browse Events, the event type, status and room for that booking all have to have Display to Everyday User (DEDU)&#160;settings enabled. If one of these properties is not DEDU-enabled, the booking will not appear on Browse Events in the EMS&#160;Web App.</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
