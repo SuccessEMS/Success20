@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xml:lang="en-us" MadCap:lastBlockDepth="6" MadCap:lastHeight="14378" MadCap:lastWidth="1120" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\EMSDesktopClient.flmsp');">
+<html xml:lang="en-us" MadCap:lastBlockDepth="6" MadCap:lastHeight="17083" MadCap:lastWidth="812" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\EMSDesktopClient.flmsp');">
     <head>
         <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" />
         <link href="../../V44.1/Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
     </head>
     <body>
-        <h1 class="Heading1">Configure the Academic Import Utility</h1>
+        <h1 class="Heading1" MadCap:autonum="CHAPTER&#160;1: ">Configure the Academic Import Utility</h1>
         <p>The Academic Import Utility (AIU) is an optional, add-on component for EMS that is designed to manually import from your Student Information System, or SIS. For each scheduled class that is being imported, a single reservation with multiple bookings is created. One booking is created for each date on which the class meets. All class reservations created by the import process are assigned to one Group (customer, client, and so on) that you have configured in your EMS database.&#160;The imported class data can be one of two formats,&#160;tab-delimited&#160;or&#160;fixed width. In addition, prior to using the AIU, you should have certain&#160;items&#160;configured in your EMS database.</p>
         <p>To import data, you must&#160;configure&#160;a session for each block of data (i.e. quarter or semester). After you have configured a session, AIU saves the settings for use in both the initial import and any subsequent re-import. When a session is re-imported, only events in the import file that have changed since the last import are recreated in the EMS database. This prevents the unnecessary re-import of unchanged events and the associated invalidation of large ranges of reservation numbers. After configuring a session, you import the session.</p>
         <p class="note-box">Warning:&#160;Creating reservations can take an extended time and must be performed when no users are logged on to EMS. (To log off active users, see&#160;“Viewing and Emailing Logged-In Users”.) The time required to create reservations varies depending on the amount of data involved and the processing power of the computer making the reservations. After the import process completes, the system automatically displays a report listing booking conflicts, if any.</p>
@@ -683,7 +683,7 @@
                         <p>Session Code</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p>A unique identifier for the session, for example, SPRING17.</p>
+                        <p>A unique identifier for the session, for example, SPRING18.</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
@@ -691,7 +691,7 @@
                         <p>Description</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p>An expanded definition of the session code, for example, Spring Semester 2017.</p>
+                        <p>An expanded definition of the session code, for example, Spring Semester 2018.</p>
                         <p>Note:&#160;The description can be a maximum of 50 characters, including spaces.</p>
                     </td>
                 </tr>
@@ -701,7 +701,7 @@
                         <p>End Date</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p>The start date and end date for the session, for example, 1/15/17 and<br />5/31/17.</p>
+                        <p>The start date and end date for the session, for example, 1/15/18 and<br />5/31/18.</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">

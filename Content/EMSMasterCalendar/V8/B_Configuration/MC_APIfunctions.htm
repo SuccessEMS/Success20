@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xml:lang="en-us" MadCap:lastBlockDepth="6" MadCap:lastHeight="55971" MadCap:lastWidth="942" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+<html xml:lang="en-us" MadCap:lastBlockDepth="6" MadCap:lastHeight="61531" MadCap:lastWidth="1144" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
         <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
         <link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
-        <h1 class="Heading1">API Functions</h1>
+        <h1 class="Heading1" MadCap:autonum="CHAPTER&#160;1: ">API Functions</h1>
         <p>This section provides information on the following API calls:</p>
         <ul class="unorder-list">
             <li><a href="#GetEventTypes">GetEventTypes</a>
@@ -41,9 +41,9 @@
         <p class="p_3">This API&#160;returns a list of event types.</p>
         <h3>Request Parameters </h3>
         <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
-            <col class="TableStyle-PatternedRows-Column-Regular" />
-            <col class="TableStyle-PatternedRows-Column-Regular" />
-            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 213px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 245px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 112px;" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
@@ -84,9 +84,9 @@
         </table>
         <h3>Response Elements </h3>
         <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
-            <col class="TableStyle-PatternedRows-Column-Regular" />
-            <col class="TableStyle-PatternedRows-Column-Regular" />
-            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 213px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 246px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 111px;" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
@@ -136,35 +136,17 @@
                 </tr>
             </tbody>
         </table>
-        <h4>Sample Code </h4>
-        <p class="p_8">private void GetEventTypes() </p>
-        <p class="p_8"> { </p>
-        <p class="p_9">&#160;&#160;&#160;&#160;&#160;&#160;&#160; MCAPI.MCAPIService svc = new MCAPI.MCAPIService();&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; svc.Url = "http://yourserver/MCAPI/MCAPIService.asmx?WSDL"; </p>
-        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160;&#160; StringReader sr = new StringReader(svc.GetEventTypes("username", "pwd")); </p>
-        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160;&#160; DataSet ds = new DataSet(); </p>
-        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160;&#160; System.Xml.XmlDocument doc = new System.Xml.XmlDocument();&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; doc.LoadXml(sr.ReadToEnd()); </p>
-        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160;&#160; ds.ReadXml(new System.Xml.XmlNodeReader(doc)); </p>
-        <p class="p_10">&#160; } </p>
-        <h4>Example Response </h4>
-        <p class="p_8">&lt;EventTypes&gt; </p>
-        <p class="p_8">&#160; &lt;Data&gt; </p>
-        <p class="p_8">&#160;&#160;&#160; &lt;EventTypeID&gt;169&lt;/EventTypeID&gt; </p>
-        <p class="p_8">&#160;&#160;&#160; &lt;Name&gt;Academic&lt;/Name&gt; </p>
-        <p class="p_8">&#160;&#160;&#160; &lt;Color&gt;#CCCC66&lt;/Color&gt; </p>
-        <p class="p_8">&#160; &lt;/Data&gt; </p>
-        <p class="p_8">&#160; &lt;Data&gt; </p>
-        <p class="p_8">&#160;&#160;&#160; &lt;EventTypeID&gt;171&lt;/EventTypeID&gt; </p>
-        <p class="p_8">&#160;&#160;&#160; &lt;Name&gt;Athletic&lt;/Name&gt; </p>
-        <p class="p_8">&#160;&#160;&#160; &lt;Color&gt;#FF3300&lt;/Color&gt; </p>
-        <p class="p_8">&#160; &lt;/Data&gt; </p>
-        <p class="p_8">&lt;/EventTypes&gt; </p>
+        <h4>Sample Code </h4><pre>private void GetEventTypes() </pre><pre> { </pre><pre xml:space="preserve">&#160;&#160;&#160;&#160;&#160;&#160;&#160; MCAPI.MCAPIService svc = new MCAPI.MCAPIService();&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 
+	svc.Url = "http://yourserver/MCAPI/MCAPIService.asmx?WSDL"; </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160; StringReader sr = new StringReader(svc.GetEventTypes("username", "pwd")); </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160; DataSet ds = new DataSet(); </pre><pre xml:space="preserve">&#160;&#160;&#160;&#160;&#160;&#160;&#160; System.Xml.XmlDocument doc = new System.Xml.XmlDocument();&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 
+	doc.LoadXml(sr.ReadToEnd()); </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160; ds.ReadXml(new System.Xml.XmlNodeReader(doc)); </pre><pre>&#160; } </pre>
+        <h4>Example Response </h4><pre>&lt;EventTypes&gt; </pre><pre>&#160; &lt;Data&gt; </pre><pre>&#160;&#160;&#160; &lt;EventTypeID&gt;169&lt;/EventTypeID&gt; </pre><pre>&#160;&#160;&#160; &lt;Name&gt;Academic&lt;/Name&gt; </pre><pre>&#160;&#160;&#160; &lt;Color&gt;#CCCC66&lt;/Color&gt; </pre><pre>&#160; &lt;/Data&gt; </pre><pre>&#160; &lt;Data&gt; </pre><pre>&#160;&#160;&#160; &lt;EventTypeID&gt;171&lt;/EventTypeID&gt; </pre><pre>&#160;&#160;&#160; &lt;Name&gt;Athletic&lt;/Name&gt; </pre><pre>&#160;&#160;&#160; &lt;Color&gt;#FF3300&lt;/Color&gt; </pre><pre>&#160; &lt;/Data&gt; </pre><pre>&lt;/EventTypes&gt; </pre>
         <h2 class="Heading2"><a name="GetLocations"></a>GetLocations </h2>
         <p class="p_2">This API&#160;returns a list of locations.</p>
         <h3>Request Parameters </h3>
         <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
-            <col class="TableStyle-PatternedRows-Column-Regular" />
-            <col class="TableStyle-PatternedRows-Column-Regular" />
-            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 239px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 255px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 77px;" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
@@ -205,9 +187,9 @@
         </table>
         <h3>Response Elements </h3>
         <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
-            <col class="TableStyle-PatternedRows-Column-Regular" />
-            <col class="TableStyle-PatternedRows-Column-Regular" />
-            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 237px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 257px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 75px;" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
@@ -257,34 +239,16 @@
                 </tr>
             </tbody>
         </table>
-        <h4>Sample Code </h4>
-        <p class="p_8">private void GetLocations() </p>
-        <p class="p_8"> { </p>
-        <p class="p_9">&#160;&#160;&#160;&#160;&#160;&#160;&#160; MCAPI.MCAPIService svc = new MCAPI.MCAPIService();&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; svc.Url = "http://yourserver/MCAPI/MCAPIService.asmx?WSDL"; </p>
-        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160;&#160; StringReader sr = new StringReader(svc.GetLocations("username", "pwd")); </p>
-        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160;&#160; DataSet ds = new DataSet(); </p>
-        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160;&#160; System.Xml.XmlDocument doc = new System.Xml.XmlDocument(); </p>
-        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160;&#160; doc.LoadXml(sr.ReadToEnd()); </p>
-        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160;&#160; ds.ReadXml(new System.Xml.XmlNodeReader(doc)); </p>
-        <p class="p_10">&#160; } </p>
-        <h4>Example Response </h4>
-        <p class="p_11">&lt;Locations&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;LocationID&gt;15&lt;/LocationID&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;Name&gt;10th Floor&lt;/Name&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;Url&gt;http://maps.google.com/&lt;/Url&gt; </p>
-        <p class="p_11">&#160; &lt;/Data&gt; </p>
-        <p class="p_11">&#160; &lt;Data&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;LocationID&gt;11&lt;/LocationID&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;Name&gt;11th Floor&lt;/Name&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;Url&gt;http://maps.google.com/&lt;/Url&gt; </p>
-        <p class="p_12">&#160; &lt;/Data&gt; &lt;/Locations&gt;  </p>
+        <h4>Sample Code </h4><pre>private void GetLocations() </pre><pre> { </pre><pre xml:space="preserve">&#160;&#160;&#160;&#160;&#160;&#160;&#160; MCAPI.MCAPIService svc = new MCAPI.MCAPIService();&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 
+	svc.Url = "http://yourserver/MCAPI/MCAPIService.asmx?WSDL"; </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160; StringReader sr = new StringReader(svc.GetLocations("username", "pwd")); </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160; DataSet ds = new DataSet(); </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160; System.Xml.XmlDocument doc = new System.Xml.XmlDocument(); </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160; doc.LoadXml(sr.ReadToEnd()); </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160; ds.ReadXml(new System.Xml.XmlNodeReader(doc)); </pre><pre>&#160; } </pre>
+        <h4>Example Response </h4><pre>&lt;Locations&gt; </pre><pre>&#160;&#160;&#160; &lt;LocationID&gt;15&lt;/LocationID&gt; </pre><pre>&#160;&#160;&#160; &lt;Name&gt;10th Floor&lt;/Name&gt; </pre><pre>&#160;&#160;&#160; &lt;Url&gt;http://maps.google.com/&lt;/Url&gt; </pre><pre>&#160; &lt;/Data&gt; </pre><pre>&#160; &lt;Data&gt; </pre><pre>&#160;&#160;&#160; &lt;LocationID&gt;11&lt;/LocationID&gt; </pre><pre>&#160;&#160;&#160; &lt;Name&gt;11th Floor&lt;/Name&gt; </pre><pre>&#160;&#160;&#160; &lt;Url&gt;http://maps.google.com/&lt;/Url&gt; </pre><pre>&#160; &lt;/Data&gt; &lt;/Locations&gt;  </pre>
         <h2 class="Heading2"><a name="GetCalendars"></a>GetCalendars </h2>
         <p class="p_2">This API&#160;returns a list of calendars.</p>
         <h3>Request Parameters </h3>
         <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
-            <col class="TableStyle-PatternedRows-Column-Regular" />
-            <col class="TableStyle-PatternedRows-Column-Regular" />
-            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 181px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 270px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 123px;" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
@@ -325,9 +289,9 @@
         </table>
         <h3>Response Elements </h3>
         <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
-            <col class="TableStyle-PatternedRows-Column-Regular" />
-            <col class="TableStyle-PatternedRows-Column-Regular" />
-            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 180px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 271px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 120px;" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
@@ -366,33 +330,15 @@
                 </tr>
             </tbody>
         </table>
-        <h4>Sample Code </h4>
-        <p class="p_8">private void GetCalendars() </p>
-        <p class="p_8"> { </p>
-        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160;&#160; MCAPI.MCAPIService svc = new MCAPI.MCAPIService(); </p>
-        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160;&#160; svc.Url = "http://yourserver/MCAPI/MCAPIService.asmx?WSDL"; </p>
-        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160;&#160; StringReader sr = new StringReader(svc.GetCalendars("username", "pwd")); </p>
-        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160;&#160; DataSet ds = new DataSet(); </p>
-        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160;&#160; System.Xml.XmlDocument doc = new System.Xml.XmlDocument(); </p>
-        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160;&#160; doc.LoadXml(sr.ReadToEnd()); </p>
-        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160;&#160; ds.ReadXml(new System.Xml.XmlNodeReader(doc)); </p>
-        <p class="p_10">&#160; } </p>
-        <h4>Example Response </h4>
-        <p class="p_11">&lt;Calendars&gt; </p>
-        <p class="p_11">&#160; &lt;Data&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;CalendarID&gt;134&lt;/CalendarID&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;Name&gt;Alumni&lt;/Name&gt; </p>
-        <p class="p_11">&#160; &lt;/Data&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;CalendarID&gt;3&lt;/CalendarID&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;Name&gt;Athletics&lt;/Name&gt; </p>
-        <p class="p_13">&#160; &lt;/Data&gt;&#160; &lt;/Calendars&gt; </p>
+        <h4>Sample Code </h4><pre>private void GetCalendars() </pre><pre> { </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160; MCAPI.MCAPIService svc = new MCAPI.MCAPIService(); </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160; svc.Url = "http://yourserver/MCAPI/MCAPIService.asmx?WSDL"; </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160; StringReader sr = new StringReader(svc.GetCalendars("username", "pwd")); </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160; DataSet ds = new DataSet(); </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160; System.Xml.XmlDocument doc = new System.Xml.XmlDocument(); </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160; doc.LoadXml(sr.ReadToEnd()); </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160; ds.ReadXml(new System.Xml.XmlNodeReader(doc)); </pre><pre>&#160; } </pre>
+        <h4>Example Response </h4><pre>&lt;Calendars&gt; </pre><pre>&#160; &lt;Data&gt; </pre><pre>&#160;&#160;&#160; &lt;CalendarID&gt;134&lt;/CalendarID&gt; </pre><pre>&#160;&#160;&#160; &lt;Name&gt;Alumni&lt;/Name&gt; </pre><pre>&#160; &lt;/Data&gt; </pre><pre>&#160;&#160;&#160; &lt;CalendarID&gt;3&lt;/CalendarID&gt; </pre><pre>&#160;&#160;&#160; &lt;Name&gt;Athletics&lt;/Name&gt; </pre><pre>&#160; &lt;/Data&gt;&#160; &lt;/Calendars&gt; </pre>
         <h2 class="Heading2"><a name="GetCalendar"></a>GetCalendar </h2>
         <p class="p_2">This API&#160;returns calendar information for a specific calendar.</p>
         <h3>Request Parameters </h3>
         <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
-            <col class="TableStyle-PatternedRows-Column-Regular" />
-            <col class="TableStyle-PatternedRows-Column-Regular" />
-            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 204px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 250px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 110px;" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
@@ -445,7 +391,7 @@
         <h3>Response Elements </h3>
         <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
             <col class="TableStyle-PatternedRows-Column-Regular" />
-            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 513px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 324px;" />
             <col class="TableStyle-PatternedRows-Column-Regular" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
@@ -662,46 +608,15 @@
                 </tr>
             </tbody>
         </table>
-        <h4>Sample Code </h4>
-        <p class="p_8">private void GetCalendar() </p>
-        <p class="p_8"> { </p>
-        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160;&#160; MCAPI.MCAPIService svc = new MCAPI.MCAPIService(); </p>
-        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160;&#160; svc.Url = "http://yourserver/MCAPI/MCAPIService.asmx?WSDL"; </p>
-        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160;&#160; StringReader sr = new StringReader(svc.GetCalendar("username", "pwd", 1)); </p>
-        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160;&#160; DataSet ds = new DataSet(); </p>
-        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160;&#160; System.Xml.XmlDocument doc = new System.Xml.XmlDocument(); </p>
-        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160;&#160; doc.LoadXml(sr.ReadToEnd()); </p>
-        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160;&#160; ds.ReadXml(new System.Xml.XmlNodeReader(doc)); </p>
-        <p class="p_10">&#160; } </p>
-        <h4>Example Response </h4>
-        <p class="p_11">&lt;Calendar&gt; </p>
-        <p class="p_11">&#160; &lt;Data&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;Name&gt;Cycling Club&lt;/Name&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;CalendarID&gt;126&lt;/CalendarID&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;Description /&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;AdminName&gt;Brad&lt;/AdminName&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;AdminEmail&gt; email@yourcompany.com &lt;/AdminEmail&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;ApprovalEmail&gt;email@yourcompany.com&lt;/ApprovalEmail&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;IsPrivate&gt;false&lt;/IsPrivate&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;IsActive&gt;true&lt;/IsActive&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;ShowCancelledEvents&gt;false&lt;/ShowCancelledEvents&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;DefaultViewID&gt;2&lt;/DefaultViewID&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;CalendarFormatID&gt;1&lt;/CalendarFormatID&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;GroupingID&gt;3&lt;/GroupingID&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;ShowWeekends&gt;true&lt;/ShowWeekends&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;StartWeekOn&gt;0&lt;/StartWeekOn&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;AllowPublicSubmission&gt;true&lt;/AllowPublicSubmission&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;ContactInfoPublic&gt;true&lt;/ContactInfoPublic&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;Subscription&gt;2&lt;/Subscription&gt; </p>
-        <p class="p_11">&#160;&#160;&#160; &lt;ListTypeID&gt;3&lt;/ListTypeID&gt; </p>
-        <p class="p_14">&#160; &lt;/Data&gt; &lt;/Calendar&gt; </p>
+        <h4>Sample Code </h4><pre>private void GetCalendar() </pre><pre> { </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160; MCAPI.MCAPIService svc = new MCAPI.MCAPIService(); </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160; svc.Url = "http://yourserver/MCAPI/MCAPIService.asmx?WSDL"; </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160; StringReader sr = new StringReader(svc.GetCalendar("username", "pwd", 1)); </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160; DataSet ds = new DataSet(); </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160; System.Xml.XmlDocument doc = new System.Xml.XmlDocument(); </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160; doc.LoadXml(sr.ReadToEnd()); </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160; ds.ReadXml(new System.Xml.XmlNodeReader(doc)); </pre><pre>&#160; } </pre>
+        <h4>Example Response </h4><pre>&lt;Calendar&gt; </pre><pre>&#160; &lt;Data&gt; </pre><pre>&#160;&#160;&#160; &lt;Name&gt;Cycling Club&lt;/Name&gt; </pre><pre>&#160;&#160;&#160; &lt;CalendarID&gt;126&lt;/CalendarID&gt; </pre><pre>&#160;&#160;&#160; &lt;Description /&gt; </pre><pre>&#160;&#160;&#160; &lt;AdminName&gt;Brad&lt;/AdminName&gt; </pre><pre>&#160;&#160;&#160; &lt;AdminEmail&gt; email@yourcompany.com &lt;/AdminEmail&gt; </pre><pre>&#160;&#160;&#160; &lt;ApprovalEmail&gt;email@yourcompany.com&lt;/ApprovalEmail&gt; </pre><pre>&#160;&#160;&#160; &lt;IsPrivate&gt;false&lt;/IsPrivate&gt; </pre><pre>&#160;&#160;&#160; &lt;IsActive&gt;true&lt;/IsActive&gt; </pre><pre>&#160;&#160;&#160; &lt;ShowCancelledEvents&gt;false&lt;/ShowCancelledEvents&gt; </pre><pre>&#160;&#160;&#160; &lt;DefaultViewID&gt;2&lt;/DefaultViewID&gt; </pre><pre>&#160;&#160;&#160; &lt;CalendarFormatID&gt;1&lt;/CalendarFormatID&gt; </pre><pre>&#160;&#160;&#160; &lt;GroupingID&gt;3&lt;/GroupingID&gt; </pre><pre>&#160;&#160;&#160; &lt;ShowWeekends&gt;true&lt;/ShowWeekends&gt; </pre><pre>&#160;&#160;&#160; &lt;StartWeekOn&gt;0&lt;/StartWeekOn&gt; </pre><pre>&#160;&#160;&#160; &lt;AllowPublicSubmission&gt;true&lt;/AllowPublicSubmission&gt; </pre><pre>&#160;&#160;&#160; &lt;ContactInfoPublic&gt;true&lt;/ContactInfoPublic&gt; </pre><pre>&#160;&#160;&#160; &lt;Subscription&gt;2&lt;/Subscription&gt; </pre><pre>&#160;&#160;&#160; &lt;ListTypeID&gt;3&lt;/ListTypeID&gt; </pre><pre>&#160; &lt;/Data&gt; &lt;/Calendar&gt; </pre>
         <h2 class="Heading2"><a name="GetGroupings"></a>GetGroupings </h2>
         <p class="p_2">This API&#160;returns a list of group IDs.</p>
         <h3>Request Parameters </h3>
         <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
-            <col class="TableStyle-PatternedRows-Column-Regular" />
-            <col class="TableStyle-PatternedRows-Column-Regular" />
-            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 218px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 263px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 91px;" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
@@ -742,9 +657,9 @@
         </table>
         <h3>Response Elements </h3>
         <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
-            <col class="TableStyle-PatternedRows-Column-Regular" />
-            <col class="TableStyle-PatternedRows-Column-Regular" />
-            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 217px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 262px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 91px;" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
@@ -783,16 +698,7 @@
                 </tr>
             </tbody>
         </table>
-        <h4>Sample Code </h4>
-        <p class="p_8">private void GetGroupings() </p>
-        <p class="p_8"> { </p>
-        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160;&#160; MCAPI.MCAPIService svc = new MCAPI.MCAPIService(); </p>
-        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160;&#160; svc.Url = "http://yourserver/MCAPI/MCAPIService.asmx?WSDL"; </p>
-        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160;&#160; StringReader sr = new StringReader(svc.GetGroupings("username", "pwd")); </p>
-        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160;&#160; DataSet ds = new DataSet(); </p>
-        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160;&#160; System.Xml.XmlDocument doc = new System.Xml.XmlDocument();&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; doc.LoadXml(sr.ReadToEnd()); </p>
-        <p class="p_8">&#160;&#160;&#160;&#160;&#160;&#160;&#160; ds.ReadXml(new System.Xml.XmlNodeReader(doc)); </p>
-        <p class="p_10">&#160; } </p>
+        <h4>Sample Code </h4><pre>private void GetGroupings() </pre><pre> { </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160; MCAPI.MCAPIService svc = new MCAPI.MCAPIService(); </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160; svc.Url = "http://yourserver/MCAPI/MCAPIService.asmx?WSDL"; </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160; StringReader sr = new StringReader(svc.GetGroupings("username", "pwd")); </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160; DataSet ds = new DataSet(); </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160; System.Xml.XmlDocument doc = new System.Xml.XmlDocument();&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; doc.LoadXml(sr.ReadToEnd()); </pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160; ds.ReadXml(new System.Xml.XmlNodeReader(doc)); </pre><pre>&#160; } </pre>
         <h4>Example Response </h4>
         <p class="p_11">&lt;Groupings&gt; </p>
         <p class="p_11">&#160;&#160;&#160; &lt;GroupingID&gt;18&lt;/GroupingID&gt; </p>
@@ -5113,6 +5019,6 @@
         <p class="p_20">&lt;Message&gt;Success!&lt;/Message&gt; </p>
         <p class="p_19">&lt;/Message&gt; </p>
         <p class="p_7">&lt;/Messages&gt; </p>
-        <p class="p_19"> <![CDATA[ ]]></p>
+        <p class="p_19">  <![CDATA[ ]]></p>
     </body>
 </html>
