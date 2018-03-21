@@ -1775,8 +1775,6 @@ ul ul li::before
 	font-weight: 700;
 	color: #333;
 	text-transform: uppercase;
-	display: inline-block;
-	margin-right: 5px;
 }
 
 .status-box
