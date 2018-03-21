@@ -1786,6 +1786,200 @@ ul ul li::before
 	border-radius: 50%;
 }
 
+/* **********************    Notification Box Combo    ***********************************  */
+
+.box-note
+{
+	padding: 20px 16px 20px 50px;
+	font-size: 16px;
+	position: relative;
+	font-weight: 400;
+	line-height: 30px;
+	border: 1px solid #ccc;
+	border-left-width: 8px;
+	border-radius: 4px;
+	border-color: #afbd22;
+	margin-bottom: 30px;
+}
+
+.box-tip
+{
+	padding: 20px 16px 20px 50px;
+	font-size: 16px;
+	position: relative;
+	font-weight: 400;
+	line-height: 30px;
+	border: 1px solid #ccc;
+	border-left-width: 8px;
+	border-radius: 4px;
+	border-color: #00477f;
+	margin-bottom: 30px;
+} 
+
+.box-important
+{
+	padding: 20px 16px 20px 50px;
+	font-size: 16px;
+	position: relative;
+	font-weight: 400;
+	line-height: 30px;
+	border: 1px solid #ccc;
+	border-left-width: 8px;
+	border-radius: 4px;
+	border-color: #f6c343;
+	margin-bottom: 30px;
+}
+
+.box-warning
+{
+	padding: 20px 16px 20px 50px;
+	font-size: 16px;
+	position: relative;
+	font-weight: 400;
+	line-height: 30px;
+	border: 1px solid #ccc;
+	border-left-width: 8px;
+	border-radius: 4px;
+	border-color: #ee2e23;
+	margin-bottom: 30px;
+}
+
+.box-note p
+{
+	line-height: 30px;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.box-tip p
+{
+	line-height: 30px;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.box-important p
+{
+	line-height: 30px;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.box-warning p
+{
+	line-height: 30px;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.box-note:before
+{
+	position: absolute;
+	left: 14px;
+	top: 23px;
+	content: '';
+	display: block;
+	background-image: url('../Images/icon-note.png');
+	width: 22px;
+	height: 26px;
+}
+
+.box-tip:before
+{
+	position: absolute;
+	left: 14px;
+	top: 23px;
+	content: '';
+	display: block;
+	background-image: url('../Images/icon-tip.png');
+	width: 29px;
+	height: 31px;
+}
+
+.box-warning:before
+{
+	position: absolute;
+	left: 14px;
+	top: 23px;
+	content: '';
+	display: block;
+	background-image: url('../Images/icon-waring.png');
+	width: 24px;
+	height: 24px;
+}
+
+.box-important:before
+{
+	position: absolute;
+	left: 14px;
+	top: 23px;
+	content: '';
+	display: block;
+	background-image: url('../Images/icon-important.png');
+	width: 25px;
+	height: 24px;
+}
+
+.box-note p
+{
+	padding-bottom: 0;
+}
+
+.box-tip p
+{
+	padding-bottom: 0;
+}
+
+.box-important p
+{
+	padding-bottom: 0;
+}
+
+.box-warning p
+{
+	padding-bottom: 0;
+}
+
+/*
+.box-note p span
+{
+	font-weight: 700;
+	color: #333;
+	text-transform: uppercase;
+}
+
+.box-tip p span
+{
+	font-weight: 700;
+	color: #333;
+	text-transform: uppercase;
+}
+
+.box-important p span
+{
+	font-weight: 700;
+	color: #333;
+	text-transform: uppercase;
+}
+
+.box-warning p span
+{
+	font-weight: 700;
+	color: #333;
+	text-transform: uppercase;
+}
+*/
+
+.bold-box
+{
+	font-weight: 700;
+	color: #333;
+	text-transform: uppercase;
+}
+
+/* ******************** End Notificaton Box Combo *************************** */
+
+
 /* **********************    Notification Box    ***********************************  */
 /*Individual Topic*/
 
