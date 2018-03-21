@@ -188,6 +188,8 @@
     <Word Comment="">V44</Word>
     <Word Comment="">SAML</Word>
     <Word Comment="">Email/Password</Word>
-    <Word>ert.Smith@emssoftware.com</Word>
-    <Word>UDQs</Word>
+    <Word Comment="">ert.Smith@emssoftware.com</Word>
+    <Word Comment="">UDQs</Word>
+    <Word>http://www.dea.com</Word>
+    <Word>http://yourserver/MCAPI/MCAPIService.asmx?WSDL</Word>
 </IgnoredWordsDictionary>
