@@ -138,5 +138,18 @@
         Link="/Content/VIDEO/Kiosk/VIDEO_ViewMakeRes.htm"
         MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     </TocEntry>
+    <TocEntry
+      Title="EMS Room Sign App"
+      Link="/Content/EMSRoomSignApp/Video Tutorials/RSAVideoTutorialIntro.htm">
+      <TocEntry
+        Title="Overview of the EMS Room Sign App"
+        Link="/Content/EMSRoomSignApp/Video Tutorials/VIDEO_OverviewofRSA.htm" />
+      <TocEntry
+        Title="Making Impromptu Reservations "
+        Link="/Content/EMSRoomSignApp/Video Tutorials/VIDEO_MakeImpromptuReservations.htm" />
+      <TocEntry
+        Title="View Schedules, Room Availability, Make Reservations"
+        Link="/Content/EMSRoomSignApp/Video Tutorials/VIDEO_ViewScheduleRoomAvailabilityMakeReservations.htm" />
+    </TocEntry>
   </TocEntry>
 </CatapultToc>

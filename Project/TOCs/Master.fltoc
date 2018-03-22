@@ -1274,7 +1274,7 @@
         Link="/Content/EMSRoomSignApp/A_44.1/B_Configuration/RSA_Config_PDF.pdf" />
       <TocEntry
         Title="VIDEO: Introduction to the EMS Room Sign App"
-        Link="/Content/EMSRoomSignApp/Video Tutorials/RSA_VIDEO-IntroRSA.htm" />
+        Link="/Content/EMSRoomSignApp/Video Tutorials/VIDEO_OverviewofRSA.htm" />
     </TocEntry>
     <TocEntry
       Title="EMS Master Calendar"
@@ -5589,12 +5589,8 @@
       Title="EMS for Microsoft Outlook"
       Link="/Content/VIDEO/Outlook/Outlook_VideoTutorialIntro.htm">
       <TocEntry
-        Title="VIDEO: Add Catering" />
-      <TocEntry
         Title="VIDEO: Adding Services"
         Link="/Content/VIDEO/Outlook/VIDEO_AddingServices.htm" />
-      <TocEntry
-        Title="VIDEO: Add a Video Conference (VTC)" />
       <TocEntry
         Title="VIDEO: Book a Meeting"
         Link="/Content/VIDEO/Outlook/VIDEO_BookMeeting.htm" />
@@ -5617,6 +5613,19 @@
       <TocEntry
         Title="VIDEO: View/Make a Reservation or Search for Colleagues in the EMS Kiosk App"
         Link="/Content/VIDEO/Kiosk/VIDEO_ViewMakeRes.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="EMS Room Sign App"
+      Link="/Content/EMSRoomSignApp/Video Tutorials/RSAVideoTutorialIntro.htm">
+      <TocEntry
+        Title="Overview of the EMS Room Sign App"
+        Link="/Content/EMSRoomSignApp/Video Tutorials/VIDEO_OverviewofRSA.htm" />
+      <TocEntry
+        Title="Making Impromptu Reservations "
+        Link="/Content/EMSRoomSignApp/Video Tutorials/VIDEO_MakeImpromptuReservations.htm" />
+      <TocEntry
+        Title="View Schedules, Room Availability, Make Reservations"
+        Link="/Content/EMSRoomSignApp/Video Tutorials/VIDEO_ViewScheduleRoomAvailabilityMakeReservations.htm" />
     </TocEntry>
   </TocEntry>
 </CatapultToc>
