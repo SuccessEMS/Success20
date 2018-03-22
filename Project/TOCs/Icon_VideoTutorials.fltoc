@@ -106,15 +106,13 @@
         Link="/Content/VIDEO/Outlook/VIDEO_BookMeeting.htm"
         MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
-        Title="VIDEO: Add Catering to a Meeting"
-        Link="/Content/Outlook/Video Tutorials/VIDEO_AddCateringtoMeeting.htm" />
+        Title="VIDEO: Add Catering to a Meeting" />
       <TocEntry
         Title="VIDEO: Add Services"
         Link="/Content/VIDEO/Outlook/VIDEO_AddingServices.htm"
         MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
-        Title="VIDEO: Add a Video Conference (VTC)"
-        Link="/Content/Outlook/Video Tutorials/VIDEO_AddVideoConference.htm" />
+        Title="VIDEO: Add a Video Conference (VTC)" />
       <TocEntry
         Title="VIDEO: Book a Video Conference"
         Link="/Content/VIDEO/Outlook/VIDEO_BookVC.htm"
