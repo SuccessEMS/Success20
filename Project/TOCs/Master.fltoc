@@ -5589,8 +5589,14 @@
       Title="EMS for Microsoft Outlook"
       Link="/Content/VIDEO/Outlook/Outlook_VideoTutorialIntro.htm">
       <TocEntry
+        Title="VIDEO: Add Catering"
+        Link="/Content/Outlook/Video Tutorials/VIDEO_AddCateringtoMeeting.htm" />
+      <TocEntry
         Title="VIDEO: Adding Services"
         Link="/Content/VIDEO/Outlook/VIDEO_AddingServices.htm" />
+      <TocEntry
+        Title="VIDEO: Add a Video Conference (VTC)"
+        Link="/Content/Outlook/Video Tutorials/VIDEO_AddVideoConference.htm" />
       <TocEntry
         Title="VIDEO: Book a Meeting"
         Link="/Content/VIDEO/Outlook/VIDEO_BookMeeting.htm" />

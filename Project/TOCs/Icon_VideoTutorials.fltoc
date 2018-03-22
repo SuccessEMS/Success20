@@ -102,23 +102,29 @@
       Title="EMS for Microsoft Outlook"
       Link="/Content/VIDEO/Outlook/Outlook_VideoTutorialIntro.htm">
       <TocEntry
-        Title="VIDEO: Add Services in EMS for Outlook"
-        Link="/Content/VIDEO/Outlook/VIDEO_AddingServices.htm"
-        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-      <TocEntry
-        Title="VIDEO: Book a Meeting in EMS for Outlook"
+        Title="VIDEO: Book a Meeting"
         Link="/Content/VIDEO/Outlook/VIDEO_BookMeeting.htm"
         MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
-        Title="VIDEO: Book a Video Conference in EMS for Outlook"
+        Title="VIDEO: Add Catering to a Meeting"
+        Link="/Content/Outlook/Video Tutorials/VIDEO_AddCateringtoMeeting.htm" />
+      <TocEntry
+        Title="VIDEO: Add Services"
+        Link="/Content/VIDEO/Outlook/VIDEO_AddingServices.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="VIDEO: Add a Video Conference (VTC)"
+        Link="/Content/Outlook/Video Tutorials/VIDEO_AddVideoConference.htm" />
+      <TocEntry
+        Title="VIDEO: Book a Video Conference"
         Link="/Content/VIDEO/Outlook/VIDEO_BookVC.htm"
         MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
-        Title="VIDEO: Recurrent Meetings and Conflict Resolution in EMS for Outlook"
+        Title="VIDEO: Recurrent Meetings and Conflict Resolution"
         Link="/Content/VIDEO/Outlook/VIDEO_Recurrent Meetings Conflict Res.htm"
         MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
-        Title="VIDEO: Skype for Business in EMS for Outlook"
+        Title="VIDEO: Skype for Business in EMS for Outlook Add-in"
         Link="/Content/VIDEO/Outlook/VIDEO_Skype.htm"
         MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     </TocEntry>

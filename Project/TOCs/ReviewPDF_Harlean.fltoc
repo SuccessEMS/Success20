@@ -2,16 +2,16 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="Kiosk App Known Issues U22"
-    Link="/Content/ReleaseNotes/Version44.1/Update22/EMSKioskApp_KnownIssues.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    Title="EMS Kiosk App Release Notes U23"
+    Link="/Content/ReleaseNotes/Version44.1/Update23/EMSKioskApp.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
     BreakType="chapter"
     PageNumberReset="reset"
     StartSection="false"
     PageNumber="1"
     PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
   <TocEntry
-    Title="Kiosk (Legacy) Known Issues U22"
-    Link="/Content/ReleaseNotes/Version44.1/Update22/EMSKiosk_Legacy_KnownIssues.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    Title="EMS Web App Release Notes U23"
+    Link="/Content/ReleaseNotes/Version44.1/Update23/EMSWebApp.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
     BreakType="chapter"
     StartSection="false"
     PageNumberReset="continue"
