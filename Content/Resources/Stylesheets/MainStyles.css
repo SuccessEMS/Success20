@@ -1851,7 +1851,21 @@ ul ul li::before
 	font-weight: 400;
 }
 
+p.box-note
+{
+	line-height: 30px;
+	font-size: 16px;
+	font-weight: 400;
+}
+
 .box-tip p
+{
+	line-height: 30px;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+p.box-tip
 {
 	line-height: 30px;
 	font-size: 16px;
@@ -1865,7 +1879,21 @@ ul ul li::before
 	font-weight: 400;
 }
 
+p.box-important
+{
+	line-height: 30px;
+	font-size: 16px;
+	font-weight: 400;
+}
+
 .box-warning p
+{
+	line-height: 30px;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+p.box-warning
 {
 	line-height: 30px;
 	font-size: 16px;
@@ -1947,7 +1975,21 @@ ul ul li::before
 	text-transform: uppercase;
 }
 
+p.box-note span
+{
+	font-weight: 700;
+	color: #333;
+	text-transform: uppercase;
+}
+
 .box-tip p span
+{
+	font-weight: 700;
+	color: #333;
+	text-transform: uppercase;
+}
+
+p.box-tip span
 {
 	font-weight: 700;
 	color: #333;
@@ -1961,6 +2003,13 @@ ul ul li::before
 	text-transform: uppercase;
 }
 
+p.box-important span
+{
+	font-weight: 700;
+	color: #333;
+	text-transform: uppercase;
+}
+
 .box-warning p span
 {
 	font-weight: 700;
@@ -1968,12 +2017,21 @@ ul ul li::before
 	text-transform: uppercase;
 }
 
+p.box-warning span
+{
+	font-weight: 700;
+	color: #333;
+	text-transform: uppercase;
+}
+
+/*
 .bold-box
 {
 	font-weight: 700;
 	color: #333;
 	text-transform: uppercase;
 }
+*/
 
 /* ******************** End Notificaton Box Combo *************************** */
 
