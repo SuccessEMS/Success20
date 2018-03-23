@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="6" MadCap:lastHeight="3498" MadCap:lastWidth="698" style="mc-master-page: url('..\..\Resources\MasterPages\emsMicrosoftOutlook.flmsp');">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="6" MadCap:lastHeight="2205" MadCap:lastWidth="947" style="mc-master-page: url('..\..\Resources\MasterPages\emsMicrosoftOutlook.flmsp');">
     <head><title></title>
     </head>
     <body>
@@ -13,10 +13,9 @@
             <li>
                 Ensure the <a href="#ConfigurationPath">Configuration Path</a>&#160;is correct.</li>
         </ol>
-        <h2><a name="ObtainEMSforOutlookInstallationFile"></a>
-            <MadCap:annotation MadCap:createDate="2018-01-16T20:26:59.8648234-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Update instructions for the new Customer Portal." MadCap:editor="Megan.Laub" MadCap:editDate="2018-01-16T20:27:08.9753528-07:00">Obtain the EMS for Outlook </MadCap:annotation>Installation File</h2>
-        <MadCap:snippetBlock src="../../ObtainInstallationFiles.flsnp" />
-        <ol start="4" class="number-list">
+        <h2><a name="ObtainEMSforOutlookInstallationFile"></a>Obtain the EMS for Outlook Installation File</h2>
+        <MadCap:snippetBlock src="../../ObtainInstallFilesStartAt1.flsnp" />
+        <ol class="number-list" MadCap:continue="true">
             <li>Download&#160;<span class="bold">EMS For Outlook (EMSForOutlook.msi)</span>&#160;(required for both first time installations and upgrades).</li>
         </ol>
         <h2><a name="EMSIntegrationforMicrosoftExchange"></a>Install the EMS Integration for Microsoft Exchange</h2>
@@ -25,8 +24,8 @@
             <p><span class="bold">Tip:</span>&#160;The Exchange Integration service needs to be properly configured.&#160;For complete instructions, see the&#160;<a href="../D_IntegExch/IME/Outlook_IME_IntegtoMEOverview.htm">Integration to Microsoft<sup>®</sup> Exchange</a>&#160;guide.</p>
         </div>
         <h2><a name="InstallEMSPlatformServices"></a>Install EMS Platform Services on Your Web Server</h2>
-        <MadCap:snippetBlock src="../../ObtainInstallationFiles.flsnp" />
-        <ol start="4" class="number-list">
+        <MadCap:snippetBlock src="../../ObtainInstallFilesStartAt1.flsnp" />
+        <ol class="number-list" MadCap:continue="true">
             <li>Download the&#160;<span class="bold">EMSPlatformServices.msi</span>&#160;file.&#160;</li>
             <li>Run this file on your web server.&#160;<div class="note-box note"><p><span class="bold">Note:</span>&#160;You will need to enter the SQL server and EMS database. Make a note of the database name.&#160;The typical install path is&#160;C:\Program Files\EMS Software\Ems.Platform.Api.</p></div></li>
             <li>When all prompts have been completed, click&#160;<span class="bold">Install</span>. The API is installed on your web server.&#160;</li>
@@ -36,7 +35,7 @@
         <p>This&#160;add-in should be&#160;installed on your users’ desktops.&#160;You will be prompted to supply the Platform Services URL during the installation process. By default, the&#160;<span class="bold">EMSForOutlook.msi</span>&#160;installs all of the files required by the EMS for Outlook&#160;Add-in in the following locations:</p>
         <ul class="unorder-list">
             <li><span class="bold">32-bit machines</span>&#160;–&#160;<span class="italics">C:\Program Files\EMS for Outlook</span></li>
-            <li><span class="bold">64-bit machines</span>&#160;– <span class="italics">C:\Program Files (x86)\EMS for Outlook</span><div class="note-box note"><p><span class="bold">Note:</span>&#160;A 64-bit machine installation will require an elevated permission level.</p></div><p>This location can be changed during the installation, but it is recommended that you keep the default.</p></li>
+            <li><span class="bold">64-bit machines</span>&#160;– <span class="italics">C:\Program Files (x86)\EMS for Outlook</span><div class="box-note"><p><span class="bold">Note:</span>&#160;A 64-bit machine installation will require an elevated permission level.</p></div><p>This location can be changed during the installation, but it is recommended that you keep the default.</p></li>
         </ul>
         <h2><a name="ConfigurationPath"></a>Configuration Path</h2>
         <p>EMS must be&#160;<a href="../B_Config/Outlook_CG_ConfigOutlookOverview.htm">configured</a> properly  to activate EMS for Outlook for each Outlook user:</p>
