@@ -206,16 +206,16 @@
         </TocEntry>
         <TocEntry
           Title="How Do I Translate EMS To Another Language?"
-          Link="/Content/OptionalFeatures/Active Directory/OptFeat_HowTranslateEMSAnothLang.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Link="/Content/OptionalFeatures/Active Directory/OptFeat_HowTranslateEMSAnothLang.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
+        <TocEntry
+          Title="Install EMS Automated Report Service"
+          Link="/Content/ServicesComponents/EMS Automated Report Service.htm" />
         <TocEntry
           Title="Install EMS Check-in Notification Service"
-          Link="/Content/OptionalFeatures/Active Directory/OptFeat_InstallEMSCheckinNotif.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Link="/Content/ServicesComponents/EMS Check in Notification.htm" />
         <TocEntry
           Title="Install or Upgrade the EMS Email Notification Service"
-          Link="/Content/OptionalFeatures/Active Directory/OptFeat_InstallUpgradeEMSEmailNotif.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-        <TocEntry
-          Title="Install the EMS Automated Report Service"
-          Link="/Content/OptionalFeatures/Active Directory/OptFeat_InstallEMSAutoReportServ.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Link="/Content/ServicesComponents/InstallUpgradeEMSEmailNotificationSvc.htm" />
       </TocEntry>
       <TocEntry
         Title="Cisco TMS Interface"
