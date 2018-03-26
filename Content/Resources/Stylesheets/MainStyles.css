@@ -1459,6 +1459,122 @@ ul ul li::before
 	background: none;
 }
 
+/*************Table Bullet and Number List CSS*****************/
+
+table ul
+{
+	list-style: url('../Images/Bullet1.png');
+	margin: 0;
+	padding: 0;
+}
+
+table ul img,
+table ol img
+{
+	vertical-align: top;
+}
+
+table ol li::before
+{
+	background: none;
+}
+
+table ol
+{
+	margin-left: 20px;
+	list-style-type: decimal;
+}
+
+table ol li,
+table ul li
+{
+	color: #666;
+	line-height: 32px;
+	background: none;
+	position: relative;
+	padding-left: 6px;
+}
+
+table ol li::before
+{
+	content: '';
+	position: absolute;
+	display: block;
+	color: #666;
+	top: 0;
+	left: -8px;
+	background: transparent;
+}
+
+table ol li a,
+table ul li a
+{
+	color: #00467f;
+}
+
+table ol,
+table ul
+{
+	padding-bottom: 20px;
+	padding-top: 0px;
+	margin-top: 10px;
+}
+
+table ul,
+ul
+{
+	color: #676767;
+	font-size: 12px;
+	margin-left: 18px;
+	padding-bottom: 20px;
+}
+
+table ul li,
+ul li
+{
+	font-size: 16px;
+	line-height: 30px;
+	font-weight: 400;
+	position: relative;
+	background: none;
+}
+
+table ul li:before,
+ul li::before
+{
+	position: absolute;
+	left: -15px;
+	top: 13px;
+	content: '';
+	display: block;
+	background-image: none;
+	width: 5px;
+	height: 5px;
+}
+
+table ul li::before
+{
+	background: none;
+}
+
+table ul li ul
+{
+	margin-left: 16px;
+}
+
+table ul li ul li,
+ul li ul li
+{
+	position: relative;
+}
+
+table ul ul li:before,
+ul ul li::before
+{
+	background: none;
+}
+
+/*******************End Table Unorder and Number List CSS************/
 /****************************************************************************/
 /***************Install Snippet Numbered List CSS****************/
 
@@ -2646,8 +2762,7 @@ div.indent
 p.beforelist
 {
 	padding-bottom: 0px;
-	margin: 0 0 10px;
-	margin-bottom: 5px;
+	margin-bottom: 15px;
 }
 
 p.InternalRef
