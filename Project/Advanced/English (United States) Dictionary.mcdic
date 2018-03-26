@@ -10,106 +10,107 @@
     <Word Comment="">V44.1</Word>
     <Word Comment="">V43</Word>
     <Word Comment="">Regics</Word>
-    <Word>GetFeaturedEvents</Word>
-    <Word>GetEventTypes</Word>
-    <Word>GetLocations</Word>
-    <Word>GetCalendars</Word>
-    <Word>GetCalendar</Word>
-    <Word>GetGroupings</Word>
-    <Word>GetEvents</Word>
-    <Word>GetEvent</Word>
-    <Word>GetUDQs</Word>
-    <Word>GetComments</Word>
-    <Word>AddEvent</Word>
-    <Word>AddEventWithMultipleDates</Word>
-    <Word>UpdateEvent</Word>
-    <Word>UpdateEventDate</Word>
-    <Word>LocationID</Word>
-    <Word>CalendarID</Word>
-    <Word>AdminName</Word>
-    <Word>AdminEmail</Word>
-    <Word>ApprovalEmail</Word>
-    <Word>IsPrivate</Word>
-    <Word>IsActive</Word>
-    <Word>GroupingID</Word>
-    <Word>CalendarFormatID</Word>
-    <Word>StartWeekOn</Word>
-    <Word>ShowWeekends</Word>
-    <Word>AllowPublicSubmission</Word>
-    <Word>ContactInfoPublic</Word>
-    <Word>ListTypeID</Word>
-    <Word>ShowCancelledEvents</Word>
-    <Word>DefaultViewID</Word>
-    <Word>StartDate</Word>
-    <Word>EndDate</Word>
-    <Word>EventDetailID</Word>
-    <Word>EventID</Word>
-    <Word>LocationUrl</Word>
-    <Word>NoEndTime</Word>
-    <Word>EventDate</Word>
-    <Word>/ReservationID</Word>
-    <Word>ConnectorID</Word>
-    <Word>/ConnectorID</Word>
-    <Word>HideContactName</Word>
-    <Word>/HideContactName</Word>
-    <Word>HideContactEmail</Word>
-    <Word>/HideContactEmail</Word>
-    <Word>HideContactPhone</Word>
-    <Word>/HideContactPhone</Word>
-    <Word>EventUpdatedBy</Word>
-    <Word>/EventUpdatedBy</Word>
-    <Word>EventUpdatedDate</Word>
-    <Word>/EventUpdatedDate</Word>
-    <Word>EventDetailUpdatedBy</Word>
-    <Word>/EventDetailUpdatedBy</Word>
-    <Word>EventDetailUpdatedDate</Word>
-    <Word>/Events</Word>
-    <Word>TitleURL</Word>
-    <Word>PostDate</Word>
-    <Word>TimezoneID</Word>
-    <Word>TimezoneAbbr</Word>
-    <Word>IsAllDayEvent</Word>
-    <Word>IsTimedEvent</Word>
-    <Word>CalendarName</Word>
-    <Word>EventTypeID</Word>
-    <Word>EventTypeName</Word>
-    <Word>EventTypeColor</Word>
-    <Word>ContactName</Word>
-    <Word>ContactEmail</Word>
-    <Word>IsReOccurring</Word>
-    <Word>IsOnMultipleCalendars</Word>
-    <Word>CustomFieldLabel1</Word>
-    <Word>CustomFieldDescription1</Word>
-    <Word>CustomUrl1</Word>
-    <Word>CustomFieldLabel2</Word>
-    <Word>CustomFieldDescription2</Word>
-    <Word>CustomUrl2</Word>
-    <Word>ImageId</Word>
-    <Word>FileExtension</Word>
-    <Word>ImageName</Word>
-    <Word>TimeEventEnds</Word>
-    <Word>UDQAnswer</Word>
-    <Word>ContactPhone</Word>
-    <Word>Base64String</Word>
-    <Word>GetUdqs</Word>
-    <Word>UDQID</Word>
-    <Word>PromptText</Word>
-    <Word>CommentType</Word>
-    <Word>NoteType</Word>
-    <Word>/EventDetailID</Word>
-    <Word>/EventID</Word>
-    <Word>/Message</Word>
-    <Word>/Messages</Word>
-    <Word>MCAPI.MCAPIService</Word>
-    <Word>StringReader</Word>
-    <Word>eventDetailId</Word>
-    <Word>System.Xml.XmlDocument</Word>
-    <Word>svc.AddEventDate</Word>
-    <Word>System.Xml.XmlNodeReader</Word>
-    <Word>Success!</Word>
-    <Word>Facebook</Word>
-    <Word>MCCookie</Word>
-    <Word>QueryString</Word>
-    <Word>RSS</Word>
-    <Word>tooltip</Word>
+    <Word Comment="">GetFeaturedEvents</Word>
+    <Word Comment="">GetEventTypes</Word>
+    <Word Comment="">GetLocations</Word>
+    <Word Comment="">GetCalendars</Word>
+    <Word Comment="">GetCalendar</Word>
+    <Word Comment="">GetGroupings</Word>
+    <Word Comment="">GetEvents</Word>
+    <Word Comment="">GetEvent</Word>
+    <Word Comment="">GetUDQs</Word>
+    <Word Comment="">GetComments</Word>
+    <Word Comment="">AddEvent</Word>
+    <Word Comment="">AddEventWithMultipleDates</Word>
+    <Word Comment="">UpdateEvent</Word>
+    <Word Comment="">UpdateEventDate</Word>
+    <Word Comment="">LocationID</Word>
+    <Word Comment="">CalendarID</Word>
+    <Word Comment="">AdminName</Word>
+    <Word Comment="">AdminEmail</Word>
+    <Word Comment="">ApprovalEmail</Word>
+    <Word Comment="">IsPrivate</Word>
+    <Word Comment="">IsActive</Word>
+    <Word Comment="">GroupingID</Word>
+    <Word Comment="">CalendarFormatID</Word>
+    <Word Comment="">StartWeekOn</Word>
+    <Word Comment="">ShowWeekends</Word>
+    <Word Comment="">AllowPublicSubmission</Word>
+    <Word Comment="">ContactInfoPublic</Word>
+    <Word Comment="">ListTypeID</Word>
+    <Word Comment="">ShowCancelledEvents</Word>
+    <Word Comment="">DefaultViewID</Word>
+    <Word Comment="">StartDate</Word>
+    <Word Comment="">EndDate</Word>
+    <Word Comment="">EventDetailID</Word>
+    <Word Comment="">EventID</Word>
+    <Word Comment="">LocationUrl</Word>
+    <Word Comment="">NoEndTime</Word>
+    <Word Comment="">EventDate</Word>
+    <Word Comment="">/ReservationID</Word>
+    <Word Comment="">ConnectorID</Word>
+    <Word Comment="">/ConnectorID</Word>
+    <Word Comment="">HideContactName</Word>
+    <Word Comment="">/HideContactName</Word>
+    <Word Comment="">HideContactEmail</Word>
+    <Word Comment="">/HideContactEmail</Word>
+    <Word Comment="">HideContactPhone</Word>
+    <Word Comment="">/HideContactPhone</Word>
+    <Word Comment="">EventUpdatedBy</Word>
+    <Word Comment="">/EventUpdatedBy</Word>
+    <Word Comment="">EventUpdatedDate</Word>
+    <Word Comment="">/EventUpdatedDate</Word>
+    <Word Comment="">EventDetailUpdatedBy</Word>
+    <Word Comment="">/EventDetailUpdatedBy</Word>
+    <Word Comment="">EventDetailUpdatedDate</Word>
+    <Word Comment="">/Events</Word>
+    <Word Comment="">TitleURL</Word>
+    <Word Comment="">PostDate</Word>
+    <Word Comment="">TimezoneID</Word>
+    <Word Comment="">TimezoneAbbr</Word>
+    <Word Comment="">IsAllDayEvent</Word>
+    <Word Comment="">IsTimedEvent</Word>
+    <Word Comment="">CalendarName</Word>
+    <Word Comment="">EventTypeID</Word>
+    <Word Comment="">EventTypeName</Word>
+    <Word Comment="">EventTypeColor</Word>
+    <Word Comment="">ContactName</Word>
+    <Word Comment="">ContactEmail</Word>
+    <Word Comment="">IsReOccurring</Word>
+    <Word Comment="">IsOnMultipleCalendars</Word>
+    <Word Comment="">CustomFieldLabel1</Word>
+    <Word Comment="">CustomFieldDescription1</Word>
+    <Word Comment="">CustomUrl1</Word>
+    <Word Comment="">CustomFieldLabel2</Word>
+    <Word Comment="">CustomFieldDescription2</Word>
+    <Word Comment="">CustomUrl2</Word>
+    <Word Comment="">ImageId</Word>
+    <Word Comment="">FileExtension</Word>
+    <Word Comment="">ImageName</Word>
+    <Word Comment="">TimeEventEnds</Word>
+    <Word Comment="">UDQAnswer</Word>
+    <Word Comment="">ContactPhone</Word>
+    <Word Comment="">Base64String</Word>
+    <Word Comment="">GetUdqs</Word>
+    <Word Comment="">UDQID</Word>
+    <Word Comment="">PromptText</Word>
+    <Word Comment="">CommentType</Word>
+    <Word Comment="">NoteType</Word>
+    <Word Comment="">/EventDetailID</Word>
+    <Word Comment="">/EventID</Word>
+    <Word Comment="">/Message</Word>
+    <Word Comment="">/Messages</Word>
+    <Word Comment="">MCAPI.MCAPIService</Word>
+    <Word Comment="">StringReader</Word>
+    <Word Comment="">eventDetailId</Word>
+    <Word Comment="">System.Xml.XmlDocument</Word>
+    <Word Comment="">svc.AddEventDate</Word>
+    <Word Comment="">System.Xml.XmlNodeReader</Word>
+    <Word Comment="">Success!</Word>
+    <Word Comment="">Facebook</Word>
+    <Word Comment="">MCCookie</Word>
+    <Word Comment="">QueryString</Word>
+    <Word Comment="">RSS</Word>
+    <Word Comment="">tooltip</Word>
+    <Word>​EMS</Word>
 </SpellingDictionary>
