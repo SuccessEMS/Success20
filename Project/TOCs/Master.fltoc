@@ -665,16 +665,16 @@
         </TocEntry>
         <TocEntry
           Title="How Do I Translate EMS To Another Language?"
-          Link="/Content/OptionalFeatures/Active Directory/OptFeat_HowTranslateEMSAnothLang.htm" />
+          Link="/Content/OptionalFeatures/Active Directory/OptFeat_HowTranslateEMSAnothLang.htm"></TocEntry>
         <TocEntry
           Title="Install EMS Check-in Notification Service"
-          Link="/Content/OptionalFeatures/Active Directory/OptFeat_InstallEMSCheckinNotif.htm" />
+          Link="/Content/ServicesComponents/EMS Check in Notification.htm" />
         <TocEntry
           Title="Install or Upgrade the EMS Email Notification Service"
-          Link="/Content/OptionalFeatures/Active Directory/OptFeat_InstallUpgradeEMSEmailNotif.htm" />
+          Link="/Content/ServicesComponents/InstallUpgradeEMSEmailNotificationSvc.htm"></TocEntry>
         <TocEntry
-          Title="Install the EMS Automated Report Service"
-          Link="/Content/OptionalFeatures/Active Directory/OptFeat_InstallEMSAutoReportServ.htm" />
+          Title="Install EMS Automated Report Service"
+          Link="/Content/ServicesComponents/EMS Automated Report Service.htm" />
       </TocEntry>
       <TocEntry
         Title="Cisco TMS Interface"
@@ -1558,16 +1558,16 @@
         </TocEntry>
         <TocEntry
           Title="How Do I Translate EMS To Another Language?"
-          Link="/Content/OptionalFeatures/Active Directory/OptFeat_HowTranslateEMSAnothLang.htm" />
+          Link="/Content/OptionalFeatures/Active Directory/OptFeat_HowTranslateEMSAnothLang.htm"></TocEntry>
+        <TocEntry
+          Title="Install EMS Automated Report Service"
+          Link="/Content/ServicesComponents/EMS Automated Report Service.htm" />
         <TocEntry
           Title="Install EMS Check-in Notification Service"
-          Link="/Content/OptionalFeatures/Active Directory/OptFeat_InstallEMSCheckinNotif.htm" />
+          Link="/Content/ServicesComponents/EMS Check in Notification.htm" />
         <TocEntry
           Title="Install or Upgrade the EMS Email Notification Service"
-          Link="/Content/OptionalFeatures/Active Directory/OptFeat_InstallUpgradeEMSEmailNotif.htm" />
-        <TocEntry
-          Title="Install the EMS Automated Report Service"
-          Link="/Content/OptionalFeatures/Active Directory/OptFeat_InstallEMSAutoReportServ.htm" />
+          Link="/Content/ServicesComponents/InstallUpgradeEMSEmailNotificationSvc.htm" />
       </TocEntry>
       <TocEntry
         Title="Cisco TMS Interface"
