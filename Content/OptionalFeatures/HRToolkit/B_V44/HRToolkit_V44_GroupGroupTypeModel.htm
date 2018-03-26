@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="6" MadCap:lastHeight="3802" MadCap:lastWidth="861">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="6" MadCap:lastHeight="9249" MadCap:lastWidth="745">
     <head>
         <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
         <link href="../../../Resources/Stylesheets/HRToolkitV44.css" rel="stylesheet" />
@@ -15,7 +15,7 @@
         <h2>HR Toolkit Overview&#160;</h2>
         <h3>The EMS_Staging Database&#160;</h3>
         <p>The&#160;EMS_Staging&#160;database (created by&#160;HRTK Staging DB Install G_GT_WU.sql) is used to stage Group and Web User records before they are imported into EMS.&#160;</p>
-        <p>Note: your EMS database may have the “Groups” field renamed to another term.</p>
+        <p class="note-box"><span class="bold">NOTE</span>: Your EMS database may have the “Groups” field renamed to another term.</p>
         <p>Once you have identified the data source within your organization that will be used to create and maintain your EMS Group and Web User records, you will be required to define/create a process to import&#160;ACTIVE&#160;Group records into the&#160;tblPeople&#160;table within&#160;EMS_Staging.</p>
         <p>
             <img src="Images/HRToolkitV44/HR Toolkit Group Group Type.png" alt="https://success.emssoftware.com/@api/deki/files/121/image_26.png?revision=1&amp;size=bestfit&amp;width=385&amp;height=441" />
@@ -224,14 +224,14 @@
         </table>
         <p>EMS uses the PersonnelNumber field in EMS_Staging.tblPeople and the tblGroup.ExternalReference and tblWebUser.ExternalReference fields in the EMS database to determine whether a record needs to be added, updated, or inactivated.</p>
         <p>Group and/or Web User records within EMS with an empty External Reference field are excluded from processing. Therefore, Groups that are not included in your data feed (e.g. contractors, temporary employees, etc.) can be added and maintained manually within EMS and will not impacted by the HR Toolkit.</p>
-        <p>Important Note:  Existing EMS clients must ‘synchronize’ existing EMS Group and/or Web User records before activating the HR Toolkit by adding a valid PersonnelNumber value in tblGroup.ExternalReference and tblWebUser.ExternalReference. Ignoring this step will result in duplicate records.</p>
+        <p class="note-box"><span class="bold">IMPORTANT</span>:  Existing EMS clients must ‘synchronize’ existing EMS Group and/or Web User records before activating the HR Toolkit by adding a valid PersonnelNumber value in tblGroup.ExternalReference and tblWebUser.ExternalReference. Ignoring this step will result in duplicate records.</p>
         <h4>Group Type Records&#160;</h4>
         <p>Unique GroupTypes in&#160;EMS_Staging.tblPeople&#160;are added to the Group Types table in EMS (EMS.tblGroupType). Group Types are not updated or inactivated.</p>
         <h4>New Group Records&#160;</h4>
         <p>If PersonnelNumber in EMS_Staging.tblPeople is not found to be associated with a Group record in EMS, a Group and Web User account will be created for that record.</p>
         <p>In addition to creating a new Web User record, this process also automatically assigns the Group to the Web User record. This allows a Web User to make a reservation using their Group record within Virtual EMS.</p>
         <p>Various configuration settings are available to automatically assign the appropriate Web Process Template(s) when a user hits your Virtual EMS site for the first time.  Within the Virtual EMS Parameters area of EMS (System Administration &gt; Settings &gt; Parameters (Virtual tab)), the following parameters must be set accordingly to activate this feature:</p>
-        <p>Note:  Ignore the “Auto Creates…” and “Security Status…” parameters if your HR Toolkit was customized to automatically assign Web Process Templates to Web Users.</p>
+        <p class="note-box"><span class="bold">NOTE</span>:  Ignore the “Auto Creates…” and “Security Status…” parameters if your HR Toolkit was customized to automatically assign Web Process Templates to Web Users.</p>
         <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
@@ -309,6 +309,6 @@
             <li>For current EMS clients only:&#160; Ensure that existing Group and/or Web User records have been ‘synchronized’ as outlined above.</li>
             <li>Using&#160;Microsoft SQL Server Management Studio&#160;execute the&#160;HRTK_Update_Group&#160;stored procedure.</li>
         </ol>
-        <p>Note:&#160; Step 3 (and Step 1 with assistance from your IT Department) can be scheduled to execute automatically using a SQL Job.  Please refer to your MS SQL Server documentation for more information on creating and scheduling a SQL Job. This is NOT an EMS managed process.</p>
+        <p class="note-box"><span class="bold">NOTE</span>:&#160; Step 3 (and Step 1 with assistance from your IT Department) can be scheduled to execute automatically using a SQL Job.  Please refer to your MS SQL Server documentation for more information on creating and scheduling a SQL Job. This is NOT an EMS managed process.</p>
     </body>
 </html>
