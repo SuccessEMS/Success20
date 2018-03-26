@@ -1890,7 +1890,7 @@ ul ul li::before
 {
 	font-weight: 700;
 	color: #333;
-	text-transform: uppercase;
+	text-transform: none;
 }
 
 .status-box
@@ -2088,56 +2088,56 @@ p.box-warning
 {
 	font-weight: 700;
 	color: #333;
-	text-transform: uppercase;
+	text-transform: none;
 }
 
 p.box-note span
 {
 	font-weight: 700;
 	color: #333;
-	text-transform: uppercase;
+	text-transform: none;
 }
 
 .box-tip p span
 {
 	font-weight: 700;
 	color: #333;
-	text-transform: uppercase;
+	text-transform: none;
 }
 
 p.box-tip span
 {
 	font-weight: 700;
 	color: #333;
-	text-transform: uppercase;
+	text-transform: none;
 }
 
 .box-important p span
 {
 	font-weight: 700;
 	color: #333;
-	text-transform: uppercase;
+	text-transform: none;
 }
 
 p.box-important span
 {
 	font-weight: 700;
 	color: #333;
-	text-transform: uppercase;
+	text-transform: none;
 }
 
 .box-warning p span
 {
 	font-weight: 700;
 	color: #333;
-	text-transform: uppercase;
+	text-transform: none;
 }
 
 p.box-warning span
 {
 	font-weight: 700;
 	color: #333;
-	text-transform: uppercase;
+	text-transform: none;
 }
 
 /*
@@ -2145,7 +2145,7 @@ p.box-warning span
 {
 	font-weight: 700;
 	color: #333;
-	text-transform: uppercase;
+	text-transform: none;
 }
 */
 
