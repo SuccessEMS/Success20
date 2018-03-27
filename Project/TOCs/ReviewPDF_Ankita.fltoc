@@ -3,11 +3,36 @@
   Version="1">
   <TocEntry
     Title="EMS Platform Services Release Notes U23"
-    Link="/Content/ReleaseNotes/Version44.1/Update23/EMSPlatformServices.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
+    Link="/Content/ReleaseNotes/Version44.1/Update23/EMSPlatformServices.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    ChapterNumberReset="reset"
+    ChapterNumber="1"
+    StartSection="false"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    BreakType="chapter"
+    PageNumberReset="reset"
+    PageNumber="1"
+    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"></TocEntry>
   <TocEntry
     Title="EMS Room Sign App Release Notes U23"
-    Link="/Content/ReleaseNotes/Version44.1/Update23/EMSRoomSignApp_RN.htm" />
+    Link="/Content/ReleaseNotes/Version44.1/Update23/EMSRoomSignApp_RN.htm"
+    ChapterNumberReset="continue"
+    StartSection="false"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    BreakType="chapter"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+    AutoEndOnLeftPage="disabled" />
   <TocEntry
     Title="EMS Mobile App Release Notes U23"
-    Link="/Content/ReleaseNotes/Version44.1/Update23/EMSMobileApp.htm" />
+    Link="/Content/ReleaseNotes/Version44.1/Update23/EMSMobileApp.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+    AutoEndOnLeftPage="disabled"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue" />
 </CatapultToc>
