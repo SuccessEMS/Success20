@@ -2,6 +2,19 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="Preview of V44.1 Update 23"
-    Link="/Content/ReleaseNotes/Version44.1/Update23/PreviewRelease_V44.1_Update23.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    Title="Skype for Business"
+    Link="/Content/Skype/C_UserGuide/SkypeforBusiness_UserGuide_Introduction.html" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <TocEntry
+      Title="Configure Skype for Business"
+      Link="/Content/Skype/C_UserGuide/SkypeforBusiness_UserGuide_ConfigureSkypeforBusiness.html" />
+    <TocEntry
+      Title="Skype for Business in the EMS Web App"
+      Link="/Content/WebApp/A_V44.1/C_UserGuide/WebApp_SkypeforBusiness.html" />
+    <TocEntry
+      Title="Skype for Business in the EMS Mobile App"
+      Link="/Content/EMSMobileApp/C_UserGuide/MobileApp_UserGuide_UseSkypeforBusiness.html" />
+    <TocEntry
+      Title="Use Skype for Business in EMS for Outlook"
+      Link="/Content/Outlook/C_User/Outlook_UG_UseSkypeforBusiness.htm" />
+  </TocEntry>
 </CatapultToc>

@@ -2,7 +2,8 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="EMS for Microsoft Outlook">
+    Title="EMS for Microsoft Outlook"
+    Link="/Content/Outlook/Legacy/Outlook_OlderReleases.htm">
     <TocEntry
       Title="Legacy Documentation"
       Link="/Content/Outlook/Legacy/Outlook_OlderReleases.htm">

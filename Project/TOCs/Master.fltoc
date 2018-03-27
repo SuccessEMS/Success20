@@ -1225,10 +1225,7 @@
       Title="EMS Kiosk App"
       Skin="/Project/Skins/TopicToolBar.flskn"
       ReplaceMergeNode="false"
-      Link="/Content/InstallGuides/6_Kiosk/A_KioskHome.htm">
-      <TocEntry
-        Title="Introduction to the EMS Kiosk App"
-        Link="/Content/EMSKioskApp/V44.1/A_Install/Kiosk_IG_Introduction.htm" />
+      Link="/Content/EMSKioskApp/V44.1/A_Install/Kiosk_IG_Introduction.htm">
       <TocEntry
         Title="Obtain the Installation Files for EMS Kiosk App"
         Link="/Content/EMSKioskApp/V44.1/A_Install/Kiosk_IG_ObtainInstallation.htm" />
@@ -3641,10 +3638,10 @@
     Link="/Content/OlderReleases.htm"
     ReplaceMergeNode="false">
     <TocEntry
-      Title="Browse Older Releases by Product"
+      Title="BROWSE BY PRODUCT"
       Link="/Content/OlderReleases_Product.htm" />
     <TocEntry
-      Title="Browse Older Releases by Version"
+      Title="BROWSE BY VERSION"
       Link="/Content/OlderReleases_Version.htm" />
   </TocEntry>
   <TocEntry

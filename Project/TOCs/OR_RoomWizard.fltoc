@@ -5,7 +5,7 @@
     Title="EMS RoomWizard"
     Link="/Content/OptionalFeatures/RoomWiz/B_V44/RoomWizard_OlderReleases.htm">
     <TocEntry
-      Title="V44">
+      Title="Version 44">
       <TocEntry
         Title="Introduction"
         Link="/Content/OptionalFeatures/RoomWiz/B_V44/RoomWiz_Introduction.htm"
@@ -52,7 +52,7 @@
         MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     </TocEntry>
     <TocEntry
-      Title="V43">
+      Title="Version 43">
       <TocEntry
         Title="Introduction to EMS RoomWizard"
         Link="/Content/OptionalFeatures/RoomWiz/C_V43/RoomWizard_IntroV43.htm"

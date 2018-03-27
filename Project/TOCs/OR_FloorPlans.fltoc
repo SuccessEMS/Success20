@@ -5,7 +5,7 @@
     Title="EMS Floor Plans"
     Link="/Content/OptionalFeatures/FloorPlan/B_V44/FloorPlan_OlderReleases.htm">
     <TocEntry
-      Title="V44"
+      Title="Version 44"
       Link="/Content/OptionalFeatures/FloorPlan/B_V44/FloorPlan_V44_EMSFloorPlanV44.htm">
       <TocEntry
         Title="Introduction"
@@ -37,7 +37,7 @@
         MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     </TocEntry>
     <TocEntry
-      Title="V43">
+      Title="Version 43">
       <TocEntry
         Title="Introduction to EMS Floor Plans"
         Link="/Content/OptionalFeatures/FloorPlan/C_V43/EMSFloorPlans_IntrotoV43.htm"

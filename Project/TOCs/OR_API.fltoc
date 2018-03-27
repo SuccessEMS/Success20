@@ -5,7 +5,7 @@
     Title="EMS API"
     Link="/Content/OptionalFeatures/EMS_API/B_V44/API_OlderReleases.htm">
     <TocEntry
-      Title="V44"
+      Title="Version 44"
       Link="/Content/OptionalFeatures/EMS_API/B_V44/API_V44_APIGuideV44.htm">
       <TocEntry
         Title="EMS API Functions"
@@ -49,7 +49,7 @@
         MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     </TocEntry>
     <TocEntry
-      Title="C_V43"
+      Title="Version 43"
       Link="/Content/OptionalFeatures/EMS_API/C_V43/EMS_IntrotoV43.htm">
       <TocEntry
         Title="EMS API"

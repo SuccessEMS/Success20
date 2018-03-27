@@ -5,7 +5,7 @@
     Title="EMS HR Toolkit"
     Link="/Content/OptionalFeatures/HRToolkit/B_V44/HRToolkit_OlderReleases.htm">
     <TocEntry
-      Title="V44"
+      Title="Version 44"
       Link="/Content/OptionalFeatures/HRToolkit/B_V44/HRToolkit_V44_HRToolkitV44.htm">
       <TocEntry
         Title="How EMS HR Toolkit Integrates Your User Records"
@@ -25,7 +25,7 @@
         MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     </TocEntry>
     <TocEntry
-      Title="V43">
+      Title="Version 43">
       <TocEntry
         Title="Introduction to EMS Floor Plans"
         Link="/Content/OptionalFeatures/FloorPlan/C_V43/EMSFloorPlans_IntrotoV43.htm"

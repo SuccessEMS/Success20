@@ -5,7 +5,7 @@
     Title="EMS Polycom Interface"
     Link="/Content/OptionalFeatures/Polycom/B_V44/Polycom_OlderReleases.htm">
     <TocEntry
-      Title="V44"
+      Title="Version 44"
       Link="/Content/OptionalFeatures/Polycom/B_V44/Polycom_V44_PolyInterV44.htm">
       <TocEntry
         Title="Introduction"
@@ -49,7 +49,7 @@
         MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     </TocEntry>
     <TocEntry
-      Title="V43">
+      Title="Version 43">
       <TocEntry
         Title="Introduction to EMS Polycom"
         Link="/Content/OptionalFeatures/Polycom/C_V43/EMSPolycom_IntroV43.htm"

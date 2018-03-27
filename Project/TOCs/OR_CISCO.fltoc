@@ -5,7 +5,7 @@
     Title="EMS CISCO TMS"
     Link="/Content/OptionalFeatures/Cisco/B_V44/Cisco_OlderReleases.htm">
     <TocEntry
-      Title="V44"
+      Title="Version 44"
       Link="/Content/OptionalFeatures/Cisco/B_V44/Cisco_V44_CiscoTMSV44.htm">
       <TocEntry
         Title="Introduction to Cisco TMS"
@@ -45,7 +45,7 @@
         MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     </TocEntry>
     <TocEntry
-      Title="V43">
+      Title="Version 43">
       <TocEntry
         Title="Introduction to CISCO TMS"
         Link="/Content/OptionalFeatures/Cisco/C_V43/CISCO_IntrotoV43.htm"
