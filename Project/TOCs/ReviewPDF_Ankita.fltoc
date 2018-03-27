@@ -16,18 +16,23 @@
   <TocEntry
     Title="EMS Room Sign App Release Notes U23"
     Link="/Content/ReleaseNotes/Version44.1/Update23/EMSRoomSignApp_RN.htm"
-    ChapterNumberReset="same"
+    ChapterNumberReset="continue"
     StartSection="false"
     SectionNumberReset="continue"
     VolumeNumberReset="same"
     BreakType="chapter"
     PageNumberReset="continue"
-    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
+    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+    AutoEndOnLeftPage="disabled" />
   <TocEntry
     Title="EMS Mobile App Release Notes U23"
     Link="/Content/ReleaseNotes/Version44.1/Update23/EMSMobileApp.htm"
     BreakType="chapter"
     StartSection="false"
     PageNumberReset="continue"
-    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
+    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+    AutoEndOnLeftPage="disabled"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue" />
 </CatapultToc>
