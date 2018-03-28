@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="23723" MadCap:lastWidth="854">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="16036" MadCap:lastWidth="671">
     <head><title mt-export-translate="no">Configuring Skype for Business</title>
         <meta name="mt-type" value="application/x.deki-text" />
         <meta name="mt-unsafe" value="true" />
@@ -32,7 +32,7 @@
             </li>
         </ul>
         <h2><a name="SupportedSkypeProducts"></a>Supported Skype Products</h2>
-        <ul>
+        <ul class="unorder-list">
             <li>Skype for Business Online</li>
             <li>Skype for Business Server (On-premise) Version 2015</li>
         </ul>
@@ -42,20 +42,9 @@
         <h2><a name="Prerequisites"></a>Prerequisites</h2>
         <h4><a name="SkypeOnPremIntegration"></a>Skype for Business Server 2015 (On-premise) Integration</h4>
         <ol class="number-list">
-            <li>
-                <p>Ensure a SHA2 and above Algorithm certificate is installed and functional.</p>
-            </li>
-            <li>
-                <p>Provide Skype for Business AutoDiscover URL. This setting is used to discover the URL of the user's home pool. EMS Software currently allows only one AutoDiscover URL (either external or internal). For more information, please click <a href="https://ucwa.skype.com/documentation/GettingStarted-RootURL">here</a>. </p>
-                <p class="box-note"><span class="bold">NOTE</span>:&#160;Ensure you can access the URL without certificate errors (EMS&#160;Software recommends using the Google Chrome browser). AutoDiscover URL should return an xml file. If you experience certificate errors, please refer to the first step above. </p>
-            </li>
-            <li>
-                <p>Ensure all EMS components have been deployed:</p>
-                <ol style="list-style-type: lower-alpha;">
-                    <li>EMS Platform Services</li>
-                    <li>EMS Web App<ol style="list-style-type: lower-roman;"><li><MadCap:variable name="General.Mobile" /></li><li><MadCap:variable name="General.EMS&#160;Desktop Client" /></li><li>Integration to Microsoft Exchange</li></ol></li>
-                </ol>
-            </li>
+            <li>Ensure a SHA2 and above Algorithm certificate is installed and functional.</li>
+            <li>Provide Skype for Business AutoDiscover URL. This setting is used to discover the URL of the user's home pool. EMS Software currently allows only one AutoDiscover URL (either external or internal). For more information, please click <a href="https://ucwa.skype.com/documentation/GettingStarted-RootURL">here</a>. <p class="box-note"><span class="bold">NOTE</span>:&#160;Ensure you can access the URL without certificate errors (EMS&#160;Software recommends using the Google Chrome browser). AutoDiscover URL should return an xml file. If you experience certificate errors, please refer to the first step above. </p></li>
+            <li>Ensure all EMS components have been deployed:<ol style="list-style-type: lower-alpha;"><li>EMS Platform Services</li><li>EMS Web App<ol style="list-style-type: lower-roman;"><li><MadCap:variable name="General.Mobile" /></li><li><MadCap:variable name="General.EMS&#160;Desktop Client" /></li><li>Integration to Microsoft Exchange</li></ol></li></ol></li>
         </ol>
         <h4><a name="SkypeOnline"></a>Skype for Business Online Integration</h4>
         <ol class="number-list">
