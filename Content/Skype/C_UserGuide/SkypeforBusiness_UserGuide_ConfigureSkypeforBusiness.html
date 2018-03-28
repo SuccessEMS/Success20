@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="16036" MadCap:lastWidth="671">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="10" MadCap:lastHeight="15000" MadCap:lastWidth="895">
     <head><title mt-export-translate="no">Configuring Skype for Business</title>
         <meta name="mt-type" value="application/x.deki-text" />
         <meta name="mt-unsafe" value="true" />
@@ -87,14 +87,10 @@
             <img src="../../EMSRoomSignApp/A_44.1/Images/image11.png" />
         </p>
         <ol MadCap:continue="true" class="number-list">
-            <li>Add EMS Applications to the Allowed Domains List. UCWA utilizes xframe and cross-domain scripting to accomplish the user authentication to leverage the integration. Therefore, EMS applications must be added to a whitelist within the Skype for Business implementation. The whitelist needs to be updated on each of the servers that a user could leverage. For more information, please see <a href="https://ucwa.skype.com/documentation/itadmin-configuration">here</a>. </li>
+            <li>Add EMS Applications to the Allowed Domains List. UCWA utilizes xframe and cross-domain scripting to accomplish the user authentication to leverage the integration. Therefore, EMS applications must be added to a whitelist within the Skype for Business implementation. The whitelist needs to be updated on each of the servers that a user could leverage. For more information, please see <a href="https://ucwa.skype.com/documentation/itadmin-configuration">here</a>. <ul MadCap:continue="true"><li>At a minimum, customers will need to whitelist the EMS&#160;Web App and EMS&#160;Mobile App conferencing URL (trailing forward slash is required). Please see examples below:<ul><li>EMS&#160;Web App: https://servername.domain/EMSWebApplicationName/ConfrencingLogin.aspx/<ul><li>Any combination of this URL will need to be whitelisted (e.g., if there is a different URL for Internal versus External or Mobile Web Access).</li></ul></li><li>EMS&#160;Mobile App: <br />emssoftware://skype/x<ul><li>If the customer re-Packages the EMS&#160;Mobile App, the same URL should be used.</li></ul></li></ul></li><li>Optionally, whitelisting the EMS Web server will facilitate both test and prod environments without adding multiple single entries. Please consult your organization's IT&#160;department and provide them with the following <a href="https://ucwa.skype.com/documentation/itadmin-configuration">steps</a>. </li></ul></li>
         </ol>
-        <ul>
-            <li>At a minimum, customers will need to whitelist the EMS&#160;Web App and EMS&#160;Mobile App conferencing URL (trailing forward slash is required). Please see examples below:<ul><li>EMS&#160;Web App: https://servername.domain/EMSWebApplicationName/ConfrencingLogin.aspx/<ul><li>Any combination of this URL will need to be whitelisted (e.g., if there is a different URL for Internal versus External or Mobile Web Access).</li></ul></li><li>EMS&#160;Mobile App: <br />emssoftware://skype/x<ul><li>If the customer re-Packages the EMS&#160;Mobile App, the same URL should be used.</li></ul></li></ul></li>
-            <li>Optionally, whitelisting the EMS Web server will facilitate both test and prod environments without adding multiple single entries. Please consult your organization's IT&#160;department and provide them with the following <a href="https://ucwa.skype.com/documentation/itadmin-configuration">steps</a>. </li>
-        </ul>
         <p class="box-note"><span class="bold">NOTE</span>: When testing Skype for Business Integration, ensure you are using a whitelisted <span class="bold">FULLY QUALIFIED DOMAIN</span>. Most browsers will throw a cross domain error unless the server name is whitelisted without FDQN.<br />For example: <span class="bold">http://xxxx.servername.com/emswebapp </span>this is different than <span class="bold">http://xxxx/emswebapp </span><br />and different than <span class="bold">https://xxxxx.servername.com/emswebapp</span></p>
-        <ol start="8">
+        <ol start="8" class="number-list">
             <li>Skype certificates. The client devices and EMS Servers need to be able to trust the certificates that are installed on the Skype servers within the Skype implementation. Customers can use private certificates that the Web server has been configured to trust.</li>
         </ol>
         <h4>Integration with Skype for Business Online</h4>
@@ -106,37 +102,15 @@
         </p>
         <ol class="number-list" MadCap:continue="true">
             <li>Modify the Skype for Business App permissions:<ol><li>Click on the Skype for Business App from the App Registrations.</li><li>Click Required Permissions.</li><li>Click Add.<br /><img src="../../Resources/Images/SkypeConfig2.png" class="PDFlarge" /><br /></li><li>Select all permissions for Skype for Business online.<br /><img src="../../Resources/Images/Config3.png" class="PDFmedium" /><br /></li><li>Select Windows Active Directory and choose only "Sign in and read user profile."<br /><img src="../../Resources/Images/SkypeConfig3.png" class="PDFmedium" /><br /></li><li>Click <span class="bold">Save</span>. </li></ol><div class="note-box note"><p><span class="bold">Note:</span>&#160;From this Skype for Business application, users can add multiple URI&#160;(e.g., for testing or production URI) without creating separate Skype for Business apps for each environment.</p></div><ol start="7"><li>Note the Client ID.&#160;This will need to be added to EMS&#160;parameters. <br /><img class="PDFlarge" src="../../Resources/Images/SkypeConfig5.png" /><br /></li></ol></li>
-            <li>
-                <p>Navigate to System Administration &gt; Settings &gt; Parameters &gt; Everyday User Applications tab. From the Area dropdown, choose Skype for Business. </p>
-                <ul>
-                    <li>
-                        <p>Set the Azure Active Directory Client ID parameter. This parameter determines the ID of the registered application. For more information regarding setting this parameter, click <a href="https://msdn.microsoft.com/en-us/skype/ucwa/registeringyourapplicationinazuread">here</a>. Please refer to the above steps to create ClientID. </p>
-                    </li>
-                    <li>
-                        <p>Set the Azure Active Directory Tenant parameter. This parameter determines the name of the AAD tenant. For more information regarding setting this parameter, click <a href="https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-howto-tenant">here</a>.</p>
-                    </li>
-                    <li>
-                        <p>Skype for Business AutoDiscover URL. This parameter performs autodiscovery to find the appropriate server to communicate with. For more information regarding setting this parameter, click <a href="https://msdn.microsoft.com/en-us/skype/ucwa/authenticationusingazuread">here</a>. Only one autodiscover URL can be provided and it can be either external or internal. The client machine and the Web server should have access to the autodiscover URL.</p>
-                    </li>
-                    <li>
-                        <p>Skype for Business Server Authentication Method. This parameter determines the authentication type that is used to generate a token. The Skype for Business (Online) only supports Oauth authentication method:</p>
-                        <p>
-                            <img src="../../EMSRoomSignApp/A_44.1/Images/image12.png" />
-                        </p>
-                    </li>
-                </ul>
-            </li>
+            <li>Navigate to System Administration &gt; Settings &gt; Parameters &gt; Everyday User Applications tab. From the Area dropdown, choose Skype for Business. <ul><li>Set the Azure Active Directory Client ID parameter. This parameter determines the ID of the registered application. For more information regarding setting this parameter, click <a href="https://msdn.microsoft.com/en-us/skype/ucwa/registeringyourapplicationinazuread">here</a>. Please refer to the above steps to create ClientID. </li><li>Set the Azure Active Directory Tenant parameter. This parameter determines the name of the AAD tenant. For more information regarding setting this parameter, click <a href="https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-howto-tenant">here</a>.</li><li>Skype for Business AutoDiscover URL. This parameter performs autodiscovery to find the appropriate server to communicate with. For more information regarding setting this parameter, click <a href="https://msdn.microsoft.com/en-us/skype/ucwa/authenticationusingazuread">here</a>. Only one autodiscover URL can be provided and it can be either external or internal. The client machine and the Web server should have access to the autodiscover URL.</li><li>Skype for Business Server Authentication Method. This parameter determines the authentication type that is used to generate a token. The Skype for Business (Online) only supports Oauth authentication method:<p><img src="../../EMSRoomSignApp/A_44.1/Images/image12.png" /></p></li></ul></li>
             <li>Configure the Reply&#160;URL.</li>
             <ul>
-                <li>&#160;EMS&#160;Mobile App:<ol style="list-style-type: lower-alpha;"><li>Refer to the steps outlined in this <a href="https://docs.microsoft.com/en-us/azure/app-service-mobile/app-service-mobile-how-to-configure-active-directory-authentication#a-nameadvanced-aalternative-method-manually-configure-azure-active-directory-with-advanced-settings">documentation</a>.</li><li>In the Reply URL field, insert emssoftware://skype/x.</li></ol></li>
+                <li>&#160;EMS&#160;Mobile App:<ol style="list-style-type: lower-alpha;"><li>Refer to the steps outlined in this <a href="https://docs.microsoft.com/en-us/azure/app-service-mobile/app-service-mobile-how-to-configure-active-directory-authentication#a-nameadvanced-aalternative-method-manually-configure-azure-active-directory-with-advanced-settings">documentation</a>.</li><li>In the Reply URL field, insert emssoftware://skype/x.</li></ol><div class="note-box warning"><p><span class="bold">Warning</span>: The cache must be cleared in EMS&#160;Platform Services&#160;and the EMS Web App whenever parameter changes are made in the EMS Desktop Client.&#160;</p></div></li>
+                <ul MadCap:continue="true">
+                    <li>EMS Web App:<ul><li>In the Reply URL field, insert the root URL:<ul><li>Skype for Business Reply URL = https://loripsor/ConferencingLogin.aspx (where EMS Web App URL = htttps://loripsor.emswebapp.com and Root URL = loripsor)</li></ul></li></ul></li>
+                </ul>
             </ul>
         </ol>
-        <div class="note-box warning">
-            <p><span class="bold">Warning</span>: The cache must be cleared in EMS&#160;Platform Services&#160;and the EMS Web App whenever parameter changes are made in the EMS Desktop Client.&#160;</p>
-        </div>
-        <ul>
-            <li>EMS Web App:<ul><li>In the Reply URL field, insert the root URL:<ul><li>Skype for Business Reply URL = https://loripsor/ConferencingLogin.aspx (where EMS Web App URL = htttps://loripsor.emswebapp.com and Root URL = loripsor)</li></ul></li></ul></li>
-        </ul>
         <p class="box-note"><span class="bold">NOTE</span>:&#160;When updating the EMS Web App, re-enter/reissue the secret key (from EMS Platform Services) in the new web.config file. This hashed secret key is also stored in tbl.client. You may need to add https://login.microsoftonline.com and EMS Web App server in the same Internet zone. This is how Microsoft verifies and sends the token key back to EMS Web App/Platform Services server.</p>
         <h2><a name="Connect_EMS_Web_App_Platform_Services"></a>Connect EMS Web App&#160;to Platform Services</h2>
         <p>To integrate with Skype for Business, EMS Web App must connect to EMS Platform Services.&#160;</p>
@@ -169,9 +143,8 @@
         <ol start="2" class="number-list">
             <li>Navigate to <span class="bold">System Administration</span> &gt; <span class="bold">Settings</span> &gt; <span class="bold">Parameters</span> &gt; <span class="bold">Everyday User Applications</span>.&#160;<ol start="1"><li>From the Area dropdown, choose <span class="bold">System</span>.</li><li>Select <span class="bold">Platform Services URL</span>. Click <span class="bold">Edit</span>.</li><li>Enter the Value (enter the URL for Platform Services) (e.g., https://serverURL/{PlatformServicesName}.</li><li>Click <span class="bold">OK</span>.</li><li>Click <span class="bold">Close</span>.&#160;</li></ol></li>
             <li>
-                <li>Navigate to System Administration &gt; Settings &gt; Parameters &gt; Everyday User Applications.
-    <ol start="1" MadCap:continue="true"><li>From the Area dropdown, choose Skype for Business.</li><li>Select Enable Skype for Business. Click Edit.</li><li>The default value is No. Set the Description to Yes.</li><li>Click OK.</li><li>Click Close.&#160;</li></ol></li>
-            </li>
+                Navigate to System Administration &gt; Settings &gt; Parameters &gt; Everyday User Applications.
+    <ol start="1" MadCap:continue="true"><li>From the Area dropdown, choose <span class="bold">Skype for Business</span>.</li><li>Select Enable Skype for Business. Click <span class="bold">Edit</span>.</li><li>The default value is No. Set the Description to <span class="bold">Yes</span>.</li><li>Click <span class="bold">OK</span>.</li><li>Click <span class="bold">Close</span>.&#160;</li></ol></li>
         </ol>
         <h2><a name="Configure_Skype_for_Business_on_a_Process_Template_Level"></a>Configure Skype for Business on a Process Template Level</h2>
         <div class="note-box note">
