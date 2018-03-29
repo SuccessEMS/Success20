@@ -2,18 +2,13 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="EMS Kiosk App Release Notes U23"
-    Link="/Content/ReleaseNotes/Version44.1/Update23/EMSKioskApp.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-    BreakType="chapter"
-    PageNumberReset="reset"
-    StartSection="false"
-    PageNumber="1"
-    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
-  <TocEntry
-    Title="EMS Web App Release Notes U23"
-    Link="/Content/ReleaseNotes/Version44.1/Update23/EMSWebApp.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/DRAFT_V44_ReleaseNotes.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
     BreakType="chapter"
     StartSection="false"
     PageNumberReset="continue"
-    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
+    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue" />
 </CatapultToc>
