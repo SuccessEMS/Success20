@@ -2,7 +2,7 @@
 <CatapultTarget
   Version="2"
   Comment="Draft"
-  Type="PDF"
+  Type="MsWord"
   Destinations=""
   GlossaryTermConversion="marked"
   MasterToc="/Project/TOCs/ReviewPDF_Ankita.fltoc"
