@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html MadCap:lastBlockDepth="6" MadCap:lastHeight="7050" MadCap:lastWidth="917" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+<html MadCap:lastBlockDepth="6" MadCap:lastHeight="8192" MadCap:lastWidth="917" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
         <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title mt-export-translate="no">SAML Authentication</title>
         <meta name="mt-type" value="application/x.deki-text" />
@@ -9,9 +9,13 @@
         <h1>SAML <MadCap:annotation MadCap:createDate="2017-10-24T15:19:32.9731882-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="This topic is not listed in the MindTouch guide for Mobile Install/Config. Need to determine if topic should be included in documentation or archived." MadCap:editor="Megan.Laub" MadCap:editDate="2017-10-24T15:19:33.8779809-06:00">Authentication</MadCap:annotation></h1>
         <p>This section guides you authenticating your users with a SAML provider. Authentication with SAML requires getting configuration set up for EMS Mobile App and EMS Web App prior to beginning the authentication flow.</p>
         <h2>Prerequisites</h2>
-        <ul>
-            <li>EMS Platform Services (44.1.23000)</li>
-        </ul>
+        <p>EMS Platform Services is required for SAML&#160;authentication. </p>
+        <p class="box-note"><span class="bold">NOTE</span>:&#160;For EMS Cloud Customers, generation of encryption  must be performed by EMS Cloud Operations. To request these changes, please contact <a href="../../../ContactUs.htm">EMS Support</a>.</p>
+        <h3>EMS&#160;Web App </h3>
+        <p>Minimum version of EMS&#160;Platform Services Update 23.</p>
+        <h3>EMS&#160;Mobile App</h3>
+        <p>Minimum version of EMS Platform Services Update 9.</p>
+        <p class="box-note"><span class="bold">NOTE</span>:&#160; There are breaking changes in <a href="../../../ReleaseNotes/Version44.1/Update12/Mobile App Release Notes V44.1 Update 12.htm">Update 12</a>.</p>
         <h2>Supported Identity Providers</h2>
         <ul>
             <li>ADFS</li>
@@ -22,6 +26,11 @@
         </ul>
         <p class="box-note"><span class="bold">NOTE</span>:&#160;Only Redirect HTTP&#160;Binding Type is currently supported. </p>
         <h2>Configure SAML&#160;Authentication for EMS&#160;Mobile App and EMS&#160;Web App</h2>
+        <h4>Prerequisite</h4>
+        <p>Update the Encryption key in default.Json file</p>
+        <p>Encryption Key - Used for encrypting and decrypting the Service Provider private key when stored in the database via the AuthKey API.</p>
+        <p>- New Customers: The encryption key is already provided in the default.json file.</p>
+        <p>- Existing Customers: The encryption key needs to be generated and added to the default.json file before using the AuthKey API. Run the following command in a terminal, openssl rand -base64 32, to generate a 256-bit key that is Base64 encoded.The encryption key must be 256-bit and must be Base64 encoded. Restart Platform Services after updating default.Json file</p>
         <ol>
             <li>Login to EMS Platform Services and navigate to the Integrations tab.</li>
             <li>Select EMS Mobile / EMS Web Application.</li>
