@@ -98,6 +98,12 @@ mcTableFootStyle
 	padding-top: 0px;
 	padding-bottom: 0px;
 	margin-top: 0px;
+	line-height: 28px;
+}
+
+.TableStyle-PatternedRows p
+{
+margin-bottom: 3px;
 }
 
 .TableStyle-PatternedRows-Column-Regular
