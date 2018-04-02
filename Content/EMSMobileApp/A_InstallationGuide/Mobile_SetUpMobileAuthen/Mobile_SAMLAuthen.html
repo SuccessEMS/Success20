@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html MadCap:lastBlockDepth="6" MadCap:lastHeight="6767" MadCap:lastWidth="778" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+<html MadCap:lastBlockDepth="6" MadCap:lastHeight="7091" MadCap:lastWidth="917" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
         <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title mt-export-translate="no">SAML Authentication</title>
         <meta name="mt-type" value="application/x.deki-text" />
@@ -7,33 +7,39 @@
     </head>
     <body>
         <h1>SAML <MadCap:annotation MadCap:createDate="2017-10-24T15:19:32.9731882-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="This topic is not listed in the MindTouch guide for Mobile Install/Config. Need to determine if topic should be included in documentation or archived." MadCap:editor="Megan.Laub" MadCap:editDate="2017-10-24T15:19:33.8779809-06:00">Authentication</MadCap:annotation></h1>
-        <p>This section guides you authenticating your users with a SAML provider. Authentication with SAML requires getting configuration information into <MadCap:variable name="General.Mobile" />&#160;prior to beginning the authentication flow.</p>
-        <p>To use SAML&#160;authentication, you will:</p>
-        <ol class="mt-indent-1">
-            <li>
-                <MadCap:xref href="#Configure_SAML_Authentication_for_Mobile_App">Configure SAML Authentication for EMS&#160;Mobile App</MadCap:xref>
-            </li>
-            <li>
-                <MadCap:xref href="#Test_Your_SAML_Configuration">Test Your SAML&#160;Configuration</MadCap:xref>
-            </li>
-            <li>
-                <MadCap:xref href="#Test_Your_SAML_Authentication">Test Your SAML&#160;Authentication</MadCap:xref>
-            </li>
+        <p>This section guides you authenticating your users with a SAML provider. Authentication with SAML requires getting configuration set up for EMS Mobile App and EMS Web App prior to beginning the authentication flow.</p>
+        <h2>Prerequisites</h2>
+        <ul>
+            <li>EMS Platform Services (44.1.23000)</li>
+        </ul>
+        <h2>Supported Identity Providers</h2>
+        <ul>
+            <li>ADFS</li>
+            <li>G Suite</li>
+            <li>Okta</li>
+            <li>Auth0</li>
+            <li>Azure AD</li>
+        </ul>
+        <p class="box-note"><span class="bold">NOTE</span>:&#160;Only Redirect HTTP&#160;Binding Type is currently supported. </p>
+        <h2>Configure SAML&#160;Authentication for EMS&#160;Mobile App and EMS&#160;Web App</h2>
+        <ol>
+            <li>Login to EMS Platform Services and navigate to the Integrations tab.</li>
+            <li>Select EMS Mobile / EMS Web Application.</li>
+            <li>Set Everyday user authentication method to SAML and save changes.</li>
+            <li>Select SAML from the left navigation bar.</li>
+            <li>Identify your provider in configuration. </li>
         </ol>
-        <p class="note-box">Note:&#160;For more information about how SAML&#160;Authentication can be hosted or pre-configured in the EMS Mobile App, see <a href="Mobile_SAMLAuthenHostPreconfig.htm">SAML Authentication&#160;Can Be&#160;Hosted or Pre-Configured in the EMS Mobile App</a>.&#160;</p>
-        <h2><a name="Configure_SAML_Authentication_for_Mobile_App"></a>Configure SAML Authentication for EMS&#160;Mobile App</h2>
-        <p>Setting up SAML involves configuration on both the Identify Provider and Service Provider sides.</p>
         <h3>Identify Your&#160;Provider in Configuration</h3>
         <p>You are responsible for the configuration of your chosen IdP, with information relevant to the EMS Platform Services acting as a Service Provider for SAML Authentication. The following EMS Platform Services related settings may be needed in order to configure your IdP.</p>
         <ul>
-            <li><span class="bold">EMS Platform Signing Certificate:</span>&#160;Optional certificate used by EMS Platform to sign AuthnRequests sent to IdP.</li>
-            <li><span class="bold">SP Issuer:</span>&#160;Optional service provider identifier used to identify the EMS Platform to the identify provider. (e.g. http://mycompany.com/EmsPlatform)</li>
-            <li><span class="bold">Service Provider Post back URL:</span> Optional URL for Identify Provider to use for generating SAMLResponse POST Back URL to EMS Platform as the Service Provider. This should be set to the URL to the EMS Platform Services SAML Auth Endpoint (e.g., https://mycompany.com/EmsPlatform/api/v1/authentication/saml). If the Service Provider post back URL is not configured with the IdP, then it will need to be configured from the EMS Platform Admin UI.</li>
-            <li>Following fields are required to complete SAML authentication configuration:&#160;</li>
+            <li><span class="bold">EMS Platform Signing Certificate:</span>&#160;REQUIRED certificate used by EMS Platform Services to sign AuthnRequests sent to IdP.</li>
+            <li><span class="bold">SP Issuer:</span>&#160;Optional service provider identifier used to identify the EMS Platform to the identify provider (e.g., http://mycompany.com/EmsPlatform).</li>
+            <li><span class="bold">Service Provider Post back URL:</span> Optional URL for Identify Provider to use for generating SAMLResponse POST Back URL to EMS Platform Services as the Service Provider. This should be set to the URL at the EMS Platform Services SAML Auth Endpoint (e.g., https://mycompany.com/EmsPlatform/api/v1/authentication/saml). If the Service Provider post back URL is not configured with the IdP, then it will need to be configured from the EMS Platform Admin UI.</li>
         </ul>
+        <p>Following fields are required to complete SAML authentication configuration:&#160;</p>
         <table border="1" cellpadding="0" cellspacing="0" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows">
-            <col class="TableStyle-PatternedRows-Column-Regular" />
-            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 234px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 683px;" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
@@ -56,11 +62,11 @@
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p><span class="bold">User Info Request Method </span>
+                        <p><span class="bold">User Identity Field </span>
                         </p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p>Dropdown with choice of assertion element containing user identity (NameID&#160;or Attribute). If set to Attribute, then must set <span class="bold">Identity Attribute Name</span> to expected assertion attribute name to use for user identity.</p>
+                        <p>Dropdown with choice of assertion element containing user identity (NameID&#160;or Attribute). If set to Attribute, then you must set the <span class="bold">Identity Attribute Name</span> to the expected assertion attribute name to use for user identity.</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
@@ -68,7 +74,7 @@
                         <p><span class="bold">Identity Attribute Name</span> <![CDATA[ ]]></p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p>Assertion attribute name containing user identity. Attribute names can be identity provider specific (i.e. 'uid', 'mail').</p>
+                        <p>Assertion attribute name containing user identity. Attribute names can be identity provider-specific (i.e., 'uid', 'mail'). This field is ignored when User Identity Field is set to Name ID.</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
@@ -77,7 +83,8 @@
                         </p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p>Optional Identity Provider Issuer (i.e. urn:emsplayground.auth0.com) to use to verify expected issuer of assertions, included in SAMLResponse as &lt;saml:Issuer&gt;.</p>
+                        <p><span class="bold">REQUIRED</span>. Used to verify expected issuer of assertions, including in SAMLResponse as &lt;Issuer xmlns="urn:oasis:names:tc:SAML:2.0:assertion" &gt;http://adfs.mycompany.net/adfs/services/trust&lt;/Issuer&gt;.</p>
+                        <p><span class="bold">NOTE</span>:&#160;If you have the identity provider metadata.xml file, you can upload it through the EMS Platform Services endpoint https://company.platform/api/v1/authentication/saml/metadata/idp. The identity provider certificate will be uploaded for you and Identity Provider Issuer. The Identity Provider URL for Service Provider Redirect fields will be populated for you.</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
@@ -86,49 +93,60 @@
                         </p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p>Optional Service Provider issuer identifier, to be included by EMS Platform in AuthnRequest requests sent to Identify Provider. This maps to the &lt;saml:Issuer&gt; element in the SAML AuthnRequest. Ex: http://mycompany.com/EmsPlatform</p>
+                        <p>REQUIRED. Included by EMS Platform Services in AuthnRequest requests sent to Identify Provider. This is included in the SAMLRequest as &lt;saml:Issuer&gt;https://mycompany.com/EmsPlatform&lt;/saml:Issuer&gt;</p>
+                        <p>The EMS Platform will autogenerate the values for the Service Provider Issuer and the Service Provider Base URL for IdP Callback.</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="bold">HTTP&#160;Binding Type</p>
+                        <p>&#160;</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>Specifies which SAML binding (HTTP Post or HTTP Redirect) EMS Platform Services will use to transmit SAML protocol messages. Currently only Redirect is supported.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
                         <p><span class="bold">Identity Provider URL for Service Provider Redirect </span>
                         </p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p>Required Identity Provider Redirect URL (ex. https://idp.example.org/SAML2/SSO/Redirect). This URL includes two SAML-defined query string argument (typically 'SAMLRequest' and 'RelayState'). 'SAMLRequest' includes the authentication request details, provided by EMS Platform. 'RelayState' contains opaque data that EMS Platform includes in the request, in order for the Identify Provider to include as Relay State on the SAML Response. If 'SAMLRequest' and 'RelayState' are not included in the configured URL, the EMS Platform will add them automatically to the request sent to the Identify Provider. For example, if you configure a URL of https://idp.example.org/SAML2/SSO/Redirect, the resulting URL that EMS Platform calls will look like https://idp.example.org/SAML2/SSO/Redirect?SAMLRequest=[SamlRequest data]&amp;RelayState=[Opaque EMS Data].</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p><span class="bold">Service Provider Callback URL</span> <![CDATA[ ]]></p>
-                    </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p>Base URL of EMS Platform, used for the Identity Provider callback URL in the SAML HTTP POST binding. Set this URL to the base URL of the EMS Platform installation (i.e. https://mycompany.com/EmsPlatform).</p>
+                        <p>REQUIRED. This URL, (e.g., https://idp.example.org/SAML2/SSO/Redirect), includes the authentication request details provided by EMS Platform Services and contains opaque data that it includes in the request. This enables the Identify Provider to include it as Relay State on the SAMLResponse.</p>
+                        <p>NOTE:&#160;If you have the identity provider metadata.xml file, you can upload it through the EMS Platform Services endpoint https://company.platform/api/v1/authentication/saml/metadata/idp. The identity provider certificate will be uploaded for you and Identity Provider Issuer. The Identity Provider URL for Service Provider Redirect fields will be populated for you.</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p><span class="bold">Path to Identity Provider Public Certificate</span> <![CDATA[ ]]></p>
+                        <p><span class="bold">Service Provider Base URL for IdP Callback</span><![CDATA[  ]]></p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p>Optional identity provider public key (.pem) for EMS Platform to use to verify SAML Assertions.</p>
+                        <p>REQUIRED. Set this URL to the base URL of the EMS Platform Services installation (i.e., https://mycompany.com/EmsPlatform). EMS Platform Services will autogenerate the values for the Service Provider Issuer and the Service Provider Base URL for IdP Callback</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p><span class="bold">Path to Service Provider Public Certificate </span>
-                        </p>
+                        <p><span class="bold">Path to Identity Provider Public Certificate</span> <![CDATA[ ]]></p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p>Optional Customer-generated public cert (.cer/.pem) file containing base64 encoded public cert for EMS Platform to use to sign AuthnRequests sent to identity provider.</p>
+                        <p>REQUIRED. Uploaded through Auth Keys.</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p><span class="bold">Path to Service Provider Public Certificate </span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>Optional. Uploaded through Auth Keys.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
                         <p><span class="bold">Path to Service Provider Private Certificate</span> <![CDATA[ ]]></p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
-                        <p>Optional Customer-generated private cert (.cer/.pem) file containing base64 encoded public cert for EMS Platform to use to sign AuthnRequests sent to identity provider.</p>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
+                        <p>Optional. Uploaded through Auth Keys.</p>
                     </td>
                 </tr>
             </tbody>
@@ -139,7 +157,7 @@
         <p>Once you have created your configuration file, you may proceed with one of the sections below, depending on whether you intend to host the file or pre-configure the application and redistribute it.</p>
         <h3>Use Hosted Configuration (Public Deployment)</h3>
         <p>Host your configuration file from an applicable web server. Distribute the URL to your end users.</p>
-        <p class="note-box">Warning: It is not recommended to make this configuration file publicly available, since it will likely have URLs and/or other information in it that you do not want made available. Instead, host the file in a way such that it is only available internally to your organization. Users should only have to perform this import one time per installation of the application.</p>
+        <p class="box-warning"><span class="bold">WARNING</span>: It is not recommended to make this configuration file publicly available, since it will likely have URLs and/or other information in it that you do not want made available. Instead, host the file in a way such that it is only available internally to your organization. Users should only have to perform this import one time per installation of the application.</p>
         <h3>Pre-Configure EMS&#160;Mobile App (Private Deployment)</h3>
         <p>If you wish to pre-configure <MadCap:variable name="General.Mobile" />, see&#160;<MadCap:xref href="../../B_ConfigurationGuide/Mobile_ConfigRe-signMobilePrivDeploy.html">Configure and Re-Sign the EMS Mobile App</MadCap:xref>.</p>
         <h2><a name="Test_Your_SAML_Configuration"></a>Test Your SAML&#160;Configuration</h2>
