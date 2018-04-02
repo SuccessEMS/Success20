@@ -87,13 +87,17 @@ mcTableFootStyle
 .TableStyle-PatternedRows
 {
 	border-collapse: separate;
-	overflow: hidden;font-size:15px;
-	border-spacing: 0px 0px; margin-bottom:20px;font-size:15px;
+	overflow: hidden;font-size:14px;
+	border-spacing: 0px 0px; margin-bottom:20px;font-size:14px;
 }
 
-.TableStyle-PatternedRows p
+.TableStyle-PatternedRows p,
+.TableStyle-PatternedRows td
 {
-	font-size:15px;
+	font-size:14px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-top: 0px;
 }
 
 .TableStyle-PatternedRows-Column-Regular
@@ -119,14 +123,14 @@ mcTableFootStyle
 	padding-bottom: 5px;
 	color: #ffffff;
 	font-family: 'Open Sans';
-	font-weight: 600;font-size:15px;
+	font-weight: 600;font-size:14px;
 	background-color: #333333; text-align:left; text-transform:uppercase;
 }
 
 .TableStyle-PatternedRows-HeadI-Regular-Header1 p
 {
 	color: #ffffff;
-	font-family: 'Open Sans';font-size:15px;
+	font-family: 'Open Sans';font-size:14px;
 	font-weight: 600;text-align:left; text-transform:uppercase; margin:0px; padding:0px;
 }
 
@@ -144,14 +148,14 @@ mcTableFootStyle
 	font-weight: 600;
 	background-color: #333333;
 	border-bottom-width: 0px;
-	border-bottom-color: #ffffff;font-size:15px;
+	border-bottom-color: #ffffff;font-size:14px;
 	border-bottom-style: solid;text-align:left; text-transform:uppercase;
 }
 
 .TableStyle-PatternedRows-HeadE-Regular-Header1 p
 {
 	color: #ffffff;margin:0px; padding:0px;
-	font-family: 'Open Sans';font-size:15px;
+	font-family: 'Open Sans';font-size:14px;
 	font-weight: 600;text-align:left; text-transform:uppercase;
 }
 
@@ -164,7 +168,7 @@ mcTableFootStyle
 	color: #ffffff;
 	font-family: 'Open Sans';
 	font-weight: 600;
-	background-color: #00008b;font-size:15px;
+	background-color: #00008b;font-size:14px;
 	border-bottom-width: 0px;
 	border-bottom-color: #ffffff;
 	border-bottom-style: solid;text-align:left; text-transform:uppercase;
@@ -173,7 +177,7 @@ mcTableFootStyle
 .TableStyle-PatternedRows-HeadF-Regular-Header1 p
 {
 	color: #ffffff;
-	font-family: 'Open Sans';margin:0px; padding:0px;font-size:15px;
+	font-family: 'Open Sans';margin:0px; padding:0px;font-size:14px;
 	font-weight: 600;text-align:left; text-transform:uppercase;
 }
 
@@ -189,14 +193,14 @@ mcTableFootStyle
 	color: #ffffff;
 	font-family: 'Open Sans';
 	font-weight: 600;
-	background-color: #00008b;font-size:15px;
+	background-color: #00008b;font-size:14px;
 }
 
 .TableStyle-PatternedRows-HeadH-Regular-Header1 p
 {
 	color: #ffffff;
 	font-family: 'Open Sans';margin:0px; padding:0px;
-	font-weight: 600;text-align:left; text-transform:uppercase;font-size:15px;
+	font-weight: 600;text-align:left; text-transform:uppercase;font-size:14px;
 }
 
 .TableStyle-PatternedRows-HeadD-Regular-Header1
@@ -211,13 +215,13 @@ mcTableFootStyle
 	background-color: #333333;
 	border-bottom-width: 0px;
 	border-bottom-color: #ffffff;
-	border-bottom-style: solid;font-size:15px;
+	border-bottom-style: solid;font-size:14px;
 }
 
 .TableStyle-PatternedRows-HeadD-Regular-Header1 p
 {
 	color: #ffffff;
-	font-family: 'Open Sans';margin:0px; padding:0px;font-size:15px;
+	font-family: 'Open Sans';margin:0px; padding:0px;font-size:14px;
 	font-weight: 600;text-align:left; text-transform:uppercase;
 }
 
@@ -237,7 +241,7 @@ mcTableFootStyle
 {
 	color: #ffffff;
 	font-family: 'Open Sans';
-	font-weight: 600;margin:0px; padding:0px;font-size:15px;
+	font-weight: 600;margin:0px; padding:0px;font-size:14px;
 }
 
 .TableStyle-PatternedRows-HeadB-Regular-Header1
@@ -252,14 +256,14 @@ mcTableFootStyle
 	color: #ffffff;
 	font-family: 'Open Sans';
 	font-weight: 600;
-	background-color: #00008b;font-size:15px;
+	background-color: #00008b;font-size:14px;
 }
 
 .TableStyle-PatternedRows-HeadB-Regular-Header1 p
 {
 	color: #ffffff;
 	font-family: 'Open Sans';
-	font-weight: 600;margin:0px; padding:0px;font-size:15px;
+	font-weight: 600;margin:0px; padding:0px;font-size:14px;
 }
 
 .TableStyle-PatternedRows-HeadA-Regular-Header1
@@ -271,14 +275,14 @@ mcTableFootStyle
 	color: #ffffff;
 	font-family: 'Open Sans';
 	font-weight: 600;
-	background-color: #00008b;font-size:15px;
+	background-color: #00008b;font-size:14px;
 }
 
 .TableStyle-PatternedRows-HeadA-Regular-Header1 p
 {
 	color: #ffffff;
 	font-family: 'Open Sans';
-	font-weight: 600;margin:0px; padding:0px;font-size:15px;
+	font-weight: 600;margin:0px; padding:0px;font-size:14px;
 }
 
 .TableStyle-PatternedRows-HeadG-Regular-Header1
@@ -290,7 +294,7 @@ mcTableFootStyle
 	color: #ffffff;
 	font-family: 'Open Sans';
 	font-weight: 600;
-	background-color: #00008b;font-size:15px;
+	background-color: #00008b;font-size:14px;
 }
 
 .TableStyle-PatternedRows-HeadG-Regular-Header1 p
@@ -309,14 +313,14 @@ mcTableFootStyle
 	color: #ffffff;
 	font-family: 'Open Sans';
 	font-weight: 600;
-	background-color: #00008b;font-size:15px;
+	background-color: #00008b;font-size:14px;
 }
 
 .TableStyle-PatternedRows-HeadI-DarkShade-Header1 p
 {
 	color: #ffffff;
 	font-family: 'Open Sans';
-	font-weight: 600;margin:0px; padding:0px;font-size:15px;
+	font-weight: 600;margin:0px; padding:0px;font-size:14px;
 }
 
 .TableStyle-PatternedRows-HeadE-DarkShade-Header1
@@ -334,7 +338,7 @@ mcTableFootStyle
 	background-color: #00008b;
 	border-bottom-width: 0px;
 	border-bottom-color: #ffffff;
-	border-bottom-style: solid;font-size:15px;
+	border-bottom-style: solid;font-size:14px;
 }
 
 .TableStyle-PatternedRows-HeadE-DarkShade-Header1 p
@@ -356,14 +360,14 @@ mcTableFootStyle
 	background-color: #00008b;
 	border-bottom-width: 0px;
 	border-bottom-color: #ffffff;
-	border-bottom-style: solid;font-size:15px;
+	border-bottom-style: solid;font-size:14px;
 }
 
 .TableStyle-PatternedRows-HeadF-DarkShade-Header1 p
 {
 	color: #ffffff;
 	font-family: 'Open Sans';
-	font-weight: 600;margin:0px; padding:0px;font-size:15px;
+	font-weight: 600;margin:0px; padding:0px;font-size:14px;
 }
 
 .TableStyle-PatternedRows-HeadH-DarkShade-Header1
@@ -378,14 +382,14 @@ mcTableFootStyle
 	color: #ffffff;
 	font-family: 'Open Sans';
 	font-weight: 600;
-	background-color: #00008b;font-size:15px;
+	background-color: #00008b;font-size:14px;
 }
 
 .TableStyle-PatternedRows-HeadH-DarkShade-Header1 p
 {
 	color: #ffffff;
 	font-family: 'Open Sans';
-	font-weight: 600;margin:0px; padding:0px;font-size:15px;
+	font-weight: 600;margin:0px; padding:0px;font-size:14px;
 }
 
 .TableStyle-PatternedRows-HeadD-DarkShade-Header1
@@ -400,14 +404,14 @@ mcTableFootStyle
 	background-color: #00008b;
 	border-bottom-width: 0px;
 	border-bottom-color: #ffffff;
-	border-bottom-style: solid;font-size:15px;
+	border-bottom-style: solid;font-size:14px;
 }
 
 .TableStyle-PatternedRows-HeadD-DarkShade-Header1 p
 {
 	color: #ffffff;
 	font-family: 'Open Sans';
-	font-weight: 600;margin:0px; padding:0px;font-size:15px;
+	font-weight: 600;margin:0px; padding:0px;font-size:14px;
 }
 
 .TableStyle-PatternedRows-HeadC-DarkShade-Header1
@@ -419,7 +423,7 @@ mcTableFootStyle
 	color: #ffffff;
 	font-family: 'Open Sans';
 	font-weight: 600;
-	background-color: #00008b;font-size:15px;
+	background-color: #00008b;font-size:14px;
 }
 
 .TableStyle-PatternedRows-HeadC-DarkShade-Header1 p
@@ -441,7 +445,7 @@ mcTableFootStyle
 	color: #ffffff;
 	font-family: 'Open Sans';
 	font-weight: 600;
-	background-color: #00008b;font-size:15px;
+	background-color: #00008b;font-size:14px;
 }
 
 .TableStyle-PatternedRows-HeadB-DarkShade-Header1 p
@@ -460,14 +464,14 @@ mcTableFootStyle
 	color: #ffffff;
 	font-family: 'Open Sans';
 	font-weight: 600;
-	background-color: #00008b;font-size:15px;
+	background-color: #00008b;font-size:14px;
 }
 
 .TableStyle-PatternedRows-HeadA-DarkShade-Header1 p
 {
 	color: #ffffff;
 	font-family: 'Open Sans';
-	font-weight: 600;margin:0px; padding:0px;font-size:15px;
+	font-weight: 600;margin:0px; padding:0px;font-size:14px;
 }
 
 .TableStyle-PatternedRows-HeadG-DarkShade-Header1
@@ -479,7 +483,7 @@ mcTableFootStyle
 	color: #ffffff;
 	font-family: 'Open Sans';
 	font-weight: 600;
-	background-color: #00008b;font-size:15px;
+	background-color: #00008b;font-size:14px;
 }
 
 .TableStyle-PatternedRows-HeadG-DarkShade-Header1 p
@@ -1361,88 +1365,81 @@ mcTableFootStyle
 
 /**********************Table Bullets*************************/
 
-	table ul
+	.TableStyle-PatternedRows ul
 	{
 		list-style:url('../Images/Bullet1Table.png');		
 		line-height: 20px;
 		margin-top: 0px;
-		margin-left: 34px;
+		margin-left: 25px;
 		padding-top: 0px;
 		padding-bottom: 20px;
 	}
 	
-	table li
+	.TableStyle-PatternedRows li
 	{
 		margin-top: 10px;
 		line-height: 17px;
 		color: #666666;
-		font-size: 11px;
+		font-size: 14px;
 	}
 	
-	table ul.unorder-list li
+	.TableStyle-PatternedRows ul.unorder-list li
 	{
 		list-style:url('../Images/Bullet1Table.png');		
 		line-height: 20px;
 		margin-top: 0px;
-		margin-left: 34px;
+		margin-left: 25px;
 		padding-top: 0px;
 		padding-bottom: 20px;
-		font-size: 11px;
+		font-size: 14px;
 	}	
 		
 
-	td
-	{
-		font-size: 11px;
-	}
-
-	table p a,
+	.TableStyle-PatternedRows p a,
 	.right-content a
 	{
-		font-size: 11px;
-		line-height: 25px;
+		font-size: 14px;
+		
 		color: #00467f;
 		font-weight: 600;
 	}
 
-	table p a:hover,
+	.TableStyle-PatternedRows p a:hover,
 	.right-content a:hover
 	{
 		color: #00467f;
 		text-decoration: underline;
 	}
 
-	table MadCap|xref
+	.TableStyle-PatternedRows MadCap|xref
 	{
 		color: #00467f;
-		font-size: 11px;
+		font-size: 14px;
 		mc-format: '{para}';
 		text-decoration: underline;
-		padding-bottom: 15px;
-		line-height: 25px;
+		
+		
 	}
 
-	table MadCap|xref:hover
+	.TableStyle-PatternedRows MadCap|xref:hover
 	{
 		color: #00467f;
-		font-size: 11px;
+		font-size: 14px;
 		text-decoration: underline;
 	}
 	
-	table ul li MadCap|xref
+	.TableStyle-PatternedRows ul li MadCap|xref
 	{
 		color: #00467f;
-		font-size: 11px;
+		font-size: 14px;
 		mc-format: '{para}';
 		text-decoration: underline;
-		padding-bottom: 15px;
-		line-height: 20px;
 	}
 
-	table ul li MadCap|xref:hover
+	.TableStyle-PatternedRows ul li MadCap|xref:hover
 	{
 		color: #00467f;
-		font-size: 11px;
+		font-size: 14px;
 		text-decoration: underline;
 	}
 
