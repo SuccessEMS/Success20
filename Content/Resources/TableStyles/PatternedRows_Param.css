@@ -91,6 +91,11 @@ mcTableFootStyle
 	border-spacing: 0px 0px; margin-bottom:20px;font-size:15px;
 }
 
+.TableStyle-PatternedRows p
+{
+	font-size:15px;
+}
+
 .TableStyle-PatternedRows-Column-Regular
 {
 	
@@ -1353,6 +1358,93 @@ mcTableFootStyle
 {
 	
 }
+
+/**********************Table Bullets*************************/
+
+	table ul
+	{
+		list-style:url('../Images/Bullet1Table.png');		
+		line-height: 20px;
+		margin-top: 0px;
+		margin-left: 34px;
+		padding-top: 0px;
+		padding-bottom: 20px;
+	}
+	
+	table li
+	{
+		margin-top: 10px;
+		line-height: 17px;
+		color: #666666;
+		font-size: 11px;
+	}
+	
+	table ul.unorder-list li
+	{
+		list-style:url('../Images/Bullet1Table.png');		
+		line-height: 20px;
+		margin-top: 0px;
+		margin-left: 34px;
+		padding-top: 0px;
+		padding-bottom: 20px;
+		font-size: 11px;
+	}	
+		
+
+	td
+	{
+		font-size: 11px;
+	}
+
+	table p a,
+	.right-content a
+	{
+		font-size: 11px;
+		line-height: 25px;
+		color: #00467f;
+		font-weight: 600;
+	}
+
+	table p a:hover,
+	.right-content a:hover
+	{
+		color: #00467f;
+		text-decoration: underline;
+	}
+
+	table MadCap|xref
+	{
+		color: #00467f;
+		font-size: 11px;
+		mc-format: '{para}';
+		text-decoration: underline;
+		padding-bottom: 15px;
+		line-height: 25px;
+	}
+
+	table MadCap|xref:hover
+	{
+		color: #00467f;
+		font-size: 11px;
+		text-decoration: underline;
+	}
+	
+	table ul li MadCap|xref
+	{
+		color: #00467f;
+		font-size: 11px;
+		mc-format: '{para}';
+		text-decoration: underline;
+		padding-bottom: 15px;
+		line-height: 20px;
+	}
+
+	table ul li MadCap|xref:hover
+	{
+		color: #00467f;
+		font-size: 11px;
+		text-decoration: underline;
+	}
 
 /******************PDF Print Styles******************/
 @media print
