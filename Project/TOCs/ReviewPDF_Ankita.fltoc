@@ -15,7 +15,7 @@
     PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"></TocEntry>
   <TocEntry
     Title="Deploy Room Sign App Appliances"
-    Link="/Content/EMSRoomSignApp/A_44.1/A_Installation/RSA_IG_DeployRSAAppliances.htm"></TocEntry>
+    Link="/Content/EMSRoomSignApp/A_44.1/InstallationGuide/RSA_IG_DeployRSAAppliances.htm"></TocEntry>
   <TocEntry
     Title="Room Sign App Release Notes Update 20"
     Link="/Content/ReleaseNotes/Version44.1/Update20/RSA_RN.htm" />

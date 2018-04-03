@@ -1,14 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html MadCap:lastBlockDepth="8" MadCap:lastHeight="10929" MadCap:lastWidth="753" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\emsroomSignApp.flmsp');">
+<html MadCap:lastBlockDepth="8" MadCap:lastHeight="10457" MadCap:lastWidth="964" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\emsroomSignApp.flmsp');">
     <head><title mt-export-translate="no">Deploying the EMS Room Sign App on Tablets</title>
         <meta name="mt-type" value="application/x.deki-text" />
         <meta name="mt-unsafe" value="true" />
     </head>
     <body>
-        <h1 MadCap:autonum="CHAPTER&#160;1: ">Deploy  <MadCap:variable name="General.RSA" /> on Tablets</h1>
+        <h1>Deploy  <MadCap:variable name="General.RSA" /> on Tablets</h1>
         <h2><a name="Overview"></a>Overview</h2>
         <p>To deploy the <MadCap:variable name="General.RSA" /> (formerly named EMS Glance), you need to prevent users from using the tablet to browse to other websites or use other tablet apps. This state—where tablets are restricted to a single use—is known as <i>kiosk</i> mode. iOS offers a native kiosk mode known as <i>Guided Access</i>. Android and Windows do not have a native kiosk mode and require a third party application. For Android, we recommend KioWare Lite. Below we detail how to configure the EMS Room Sign App in kiosk mode on iPads and the Samsung Tab A Android tablets.</p>
         <p>In addition to placing the tablet in kiosk mode, you should also use an enclosure to protect the tablet. An enclosure prevents users from using the power/home buttons, and also protects the tablet from theft. We strongly recommend the&#160;<a href="http://armoractive.com/" rel="external nofollow" target="_blank" title="http://armoractive.com/">ArmorActive enclosures</a>. As of <a href="https://www.emssoftware.com/company/media-center/2016/ems-selects-armoractive-hardware-partner" rel="external nofollow" target="_blank" title="https://www.emssoftware.com/company/media-center/2016/ems-selects-armoractive-hardware-partner">September 2016</a>, ArmorActive is our official hardware partner, and they can help you source both tablets and enclosures.&#160;</p>
+        <p class="box-note"><span class="bold">NOTE</span>:&#160;To configure LED&#160;integration, set the parameter for your enclosure in the EMS&#160;Desktop Client on the global and/or profile level. This parameter can be set during profile configuration or at a global level to apply the setting across all profiles. See Also:&#160;<a href="../InstallationGuide/RSA_IG_DeployRSAAppliances.htm">Deploying the EMS&#160;Room Sign App on Appliances</a>. </p>
         <p>This topic will include the following information:</p>
         <ul class="unorder-list">
             <li>
@@ -92,7 +93,7 @@
         <ol style="list-style-type: lower-alpha;"><li>Enable Cookies</li><li>Enable Application Cache (under HTML 5 Web Storage)</li><li>Clear HTML 5 Storage at Session End (under HTML 5 Web Storage)</li></ol></li>
         </ol>
         <div class="note-box note">
-            <p><span class="bold">Note:</span> It will be more difficult to upgrade the Room Sign App if you select more options because KioWare will store old settings.</p>
+            <p><span class="bold">Note:</span> It will be more difficult to upgrade the EMS&#160;Room Sign App if you select more options because KioWare will store old settings.</p>
         </div>
         <h3><a name="AttractInactivitySettings"></a>Attract/Inactivity Settings</h3>
         <ol start="1" class="number-list">
@@ -126,6 +127,7 @@
         <p>You should also consider how to supply power to your tablets. Our customers typically choose enclosures that allow them to use PoE (Power over Ethernet) to provide power.</p>
         <p>iPads can connect to networks only via wireless; Apple does <i>not</i> support connecting iPads to Ethernet cables.</p>
         <p>Please consider the <a href="http://armoractive.com/" rel="external nofollow" target="_blank" title="http://armoractive.com/">ArmorActive</a> enclosures. In particular, ArmorActive offers an <a href="http://www.armoractive.com/products/optica-pro-LED-iPad-mini3.aspx" rel="external nofollow" target="_blank" title="http://www.armoractive.com/products/optica-pro-LED-iPad-mini3.aspx">enclosure for the iPad Mini</a>, which offers optional LED indicators that the EMS Room Sign App supports to indicate whether or not the room is available. ArmorActive also makes an <a href="http://www.armoractive.com/products/optica-pro-LED-plus-samsung-TabA.aspx" rel="external nofollow" target="_blank" title="http://www.armoractive.com/products/optica-pro-LED-plus-samsung-TabA.aspx">enclosure for the Samsung Tab A</a>, which we support and recommend. Contact your Account Executive for more information on these enclosures. </p>
+        <p class="box-note"><span class="bold">NOTE</span>:&#160;To configure LED&#160;integration, set the parameter for your enclosure in the EMS&#160;Desktop Client on the global and/or profile level. This parameter can be set during profile configuration or at a global level to apply the setting across all profiles. See Also:&#160;<a href="../InstallationGuide/RSA_IG_DeployRSAAppliances.htm">Deploying the EMS&#160;Room Sign App on Appliances</a>. </p>
         <p><a href="Kioware/kioware_provision.xml">Kioware_Provision.xml </a>
         </p>
         <p><a href="Kioware/kwsettings.xml">KioWare_Settings.xml </a>

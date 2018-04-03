@@ -29,7 +29,7 @@
         VolumeNumberReset="same">
         <TocEntry
           Title="Requirements for the EMS Room Sign App"
-          Link="/Content/EMSRoomSignApp/A_44.1/A_Installation/RSA_Install_RequirementsforRSA.html"
+          Link="/Content/EMSRoomSignApp/A_44.1/InstallationGuide/RSA_Install_RequirementsforRSA.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -39,7 +39,7 @@
           ChapterNumberReset="continue" />
         <TocEntry
           Title="Obtain the Installation Files for EMS Room Sign"
-          Link="/Content/EMSRoomSignApp/A_44.1/A_Installation/RSA_Install_ObtainInstallFiles.html"
+          Link="/Content/EMSRoomSignApp/A_44.1/InstallationGuide/RSA_Install_ObtainInstallFiles.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -49,7 +49,7 @@
           ChapterNumberReset="continue" />
         <TocEntry
           Title="Architecture for the EMS Room Sign App"
-          Link="/Content/EMSRoomSignApp/A_44.1/A_Installation/RSA_Install_Architecture.html"
+          Link="/Content/EMSRoomSignApp/A_44.1/InstallationGuide/RSA_Install_Architecture.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -59,7 +59,7 @@
           ChapterNumberReset="continue" />
         <TocEntry
           Title="Best Practices for Using EMS Room Sign App"
-          Link="/Content/EMSRoomSignApp/A_44.1/A_Installation/RSA_BestPractices.htm"
+          Link="/Content/EMSRoomSignApp/A_44.1/InstallationGuide/BestPractices.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -69,7 +69,7 @@
           ChapterNumberReset="continue" />
         <TocEntry
           Title="Authentication Settings"
-          Link="/Content/EMSRoomSignApp/A_44.1/A_Installation/RSA_IG_Authentication.htm"
+          Link="/Content/EMSRoomSignApp/A_44.1/InstallationGuide/RSA_IG_Authentication.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -79,7 +79,7 @@
           ChapterNumberReset="continue"></TocEntry>
         <TocEntry
           Title="Install EMS Room Sign App"
-          Link="/Content/EMSRoomSignApp/A_44.1/A_Installation/RSA_Install_InstallRSA.html"
+          Link="/Content/EMSRoomSignApp/A_44.1/InstallationGuide/RSA_Install_InstallRSA.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -89,7 +89,7 @@
           ChapterNumberReset="continue" />
         <TocEntry
           Title="Deploy EMS Room Sign App on Appliances"
-          Link="/Content/EMSRoomSignApp/A_44.1/A_Installation/RSA_IG_DeployRSAAppliances.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+          Link="/Content/EMSRoomSignApp/A_44.1/InstallationGuide/RSA_IG_DeployRSAAppliances.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"

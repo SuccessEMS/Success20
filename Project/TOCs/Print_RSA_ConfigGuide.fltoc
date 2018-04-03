@@ -17,7 +17,7 @@
       PageLayout="/Content/Resources/PageLayouts/7X9/TOC7X9.flpgl">
       <TocEntry
         Title="EMS Room Sign App"
-        Link="/Content/EMSRoomSignApp/A_44.1/A_Installation/RSA_Install_Introduction.html"
+        Link="/Content/EMSRoomSignApp/A_44.1/InstallationGuide/RSA_Install_Introduction.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="reset"
@@ -29,7 +29,7 @@
         VolumeNumberReset="same"></TocEntry>
       <TocEntry
         Title="Best Practices for Device Configuration"
-        Link="/Content/EMSRoomSignApp/A_44.1/B_Configuration/RSA_CG_BestPractDeviceConfSteps.htm"
+        Link="/Content/EMSRoomSignApp/A_44.1/Configuration Guide/RSA_CG_BestPractDeviceConfSteps.htm"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -39,7 +39,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Configure the EMS Room Sign App"
-        Link="/Content/EMSRoomSignApp/A_44.1/B_Configuration/RSA_CG_Config.html"
+        Link="/Content/EMSRoomSignApp/A_44.1/Configuration Guide/RSA_CG_Config.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -49,7 +49,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Configure Profiles"
-        Link="/Content/EMSRoomSignApp/A_44.1/B_Configuration/RSA_CG_ConfigProfile.html"
+        Link="/Content/EMSRoomSignApp/A_44.1/Configuration Guide/RSA_CG_ConfigProfile.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -59,7 +59,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Configure Check In Functionality "
-        Link="/Content/EMSRoomSignApp/A_44.1/B_Configuration/RSA_CG_ConfigCheckInFunct.html"
+        Link="/Content/EMSRoomSignApp/A_44.1/Configuration Guide/RSA_CG_ConfigCheckInFunct.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -69,7 +69,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Configure Edit Booking Functionality"
-        Link="/Content/EMSRoomSignApp/A_44.1/B_Configuration/RSA_CG_ConfigEditBookFunct.html"
+        Link="/Content/EMSRoomSignApp/A_44.1/Configuration Guide/RSA_CG_ConfigEditBookFunct.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -79,7 +79,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Configure How Booking Information Displays"
-        Link="/Content/EMSRoomSignApp/A_44.1/B_Configuration/RSA_CG_ConfigHowBookInfoDisplay.html"
+        Link="/Content/EMSRoomSignApp/A_44.1/Configuration Guide/RSA_CG_ConfigHowBookInfoDisplay.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -89,7 +89,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Configure New Booking Functionality"
-        Link="/Content/EMSRoomSignApp/A_44.1/B_Configuration/RSA_CG_ConfigNewBookFunct.html"
+        Link="/Content/EMSRoomSignApp/A_44.1/Configuration Guide/RSA_CG_ConfigNewBookFunct.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -99,7 +99,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Configure Custom Labels, Messages, and Images"
-        Link="/Content/EMSRoomSignApp/A_44.1/B_Configuration/RSA_CG_CustomLabelsMessImage.html"
+        Link="/Content/EMSRoomSignApp/A_44.1/Configuration Guide/RSA_CG_CustomLabelsMessImage.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
