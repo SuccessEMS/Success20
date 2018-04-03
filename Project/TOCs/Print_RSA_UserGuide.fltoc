@@ -29,7 +29,7 @@
         VolumeNumberReset="same"></TocEntry>
       <TocEntry
         Title="Introduction to EMS Room Sign App"
-        Link="/Content/EMSRoomSignApp/A_44.1/UserGuide/RSA_UG_Introduction.html"
+        Link="/Content/EMSRoomSignApp/44.1/UserGuide/RSA_UG_Introduction.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -39,7 +39,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Best Practices for Using EMS Room Sign App"
-        Link="/Content/EMSRoomSignApp/A_44.1/UserGuide/RSA_UG_BestPracticesforUsing.html"
+        Link="/Content/EMSRoomSignApp/44.1/UserGuide/RSA_UG_BestPracticesforUsing.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -49,7 +49,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Get Started with EMS Room Sign App"
-        Link="/Content/EMSRoomSignApp/A_44.1/UserGuide/RSA_UG_GettingStarted.html"
+        Link="/Content/EMSRoomSignApp/44.1/UserGuide/RSA_UG_GettingStarted.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -59,7 +59,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Deploying the EMS Room Sign App on Tablets"
-        Link="/Content/EMSRoomSignApp/A_44.1/UserGuide/RSA_UG_DeployingonTablet.html"
+        Link="/Content/EMSRoomSignApp/44.1/UserGuide/RSA_UG_DeployingonTablet.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -69,7 +69,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Set Up EMS Room Sign App to Demo on a Desktop Browser (Update 12+)"
-        Link="/Content/EMSRoomSignApp/A_44.1/UserGuide/RSA_UG_SettingUpRSAtoDemo.html"
+        Link="/Content/EMSRoomSignApp/44.1/UserGuide/RSA_UG_SettingUpRSAtoDemo.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
