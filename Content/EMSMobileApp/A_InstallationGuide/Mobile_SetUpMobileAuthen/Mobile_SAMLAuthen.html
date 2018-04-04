@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html MadCap:lastBlockDepth="6" MadCap:lastHeight="7849" MadCap:lastWidth="998" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+<html MadCap:lastBlockDepth="6" MadCap:lastHeight="6380" MadCap:lastWidth="917" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
         <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title mt-export-translate="no">SAML Authentication</title>
         <meta name="mt-type" value="application/x.deki-text" />
@@ -11,7 +11,12 @@
         <h2>Prerequisites</h2>
         <p>EMS Platform Services is required for SAML&#160;authentication. </p>
         <h3>EMS&#160;Web App </h3>
-        <p>The minimum version of EMS&#160;Platform Services for SAML&#160;authentication in the EMS&#160;Web App is Update 23. </p>
+        <p>The minimum version of EMS Web App and EMS Platform Services for authentication through SAML 2.0 is Update 23.</p>
+        <div class="box-note">
+            <p><span class="bold">NOTE:</span> For EMS&#160;Web App, Administrators must enable SAML 2.0  authentication by changing  the following parameter value to <span class="bold">Yes </span>in Desktop Client:</p>
+            <div class="indent"><span class="bold">System Administration</span> &gt; <span class="bold">Settings </span>&gt; <span class="bold">Parameters </span>&gt; <span class="bold">Everyday User Applications</span> &gt; <span class="bold">Authentication </span>&gt; <span class="bold">Use SAML 2.0 Authentication for User Authentication Web App Only</span> &gt; Select <span class="bold">Yes</span>.</div>
+            <p>If set to <span class="bold">No</span>, EMS Web App will utilize SAML as configured through Portal Authentication methods.</p>
+        </div>
         <h3>EMS&#160;Mobile App</h3>
         <p>The minimum version of EMS Platform Services for SAML&#160;authentication in the EMS&#160;Mobile App is Update 9. There are breaking changes in <a href="../../../ReleaseNotes/Version44.1/Update23/EMSMobileApp.htm">Update 23</a> and customers will be required to update SAML&#160;configuration settings.</p>
         <h2>To update SAML&#160;configuration</h2>
