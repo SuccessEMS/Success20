@@ -323,11 +323,11 @@
         Name="Search Result Path">
         <Properties>
           <Property
-            Name="Display">none</Property>
-          <Property
             Name="FontStyle">normal</Property>
           <Property
             Name="Color">#afbc21</Property>
+          <Property
+            Name="Display">block</Property>
         </Properties>
       </Style>
       <Style
