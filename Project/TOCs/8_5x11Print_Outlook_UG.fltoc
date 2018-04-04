@@ -2,104 +2,128 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="EMS for Microsoft Outlook User Guide"
-    Link="/Content/Print/Outlook_UG_FrontPage.htm"
+    Title="EMS Human Resources Toolkit"
+    Link="/Content/Print/Copy of EMSAPIGuide_FrontPage.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Title8_5X11.flpgl"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue"></TocEntry>
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/Print Only Topics/TOC.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
     BreakType="chapter"
     StartSection="false"
     PageNumberReset="reset"
-    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Title8_5X11.flpgl">
+    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/TOC8_5X11.flpgl"
+    PageNumber="1">
     <TocEntry
-      Title="[%=System.LinkedTitle%]"
-      Link="/Content/Print Only Topics/TOC.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-      BreakType="chapter"
-      StartSection="false"
-      PageNumberReset="reset"
-      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/TOC8_5X11.flpgl"
-      PageNumber="1" />
-    <TocEntry
-      Title="EMS for Microsoft Outlook "
-      Link="/Content/Outlook/C_User/Outlook_UG_UseEMSforOutlook.htm"
+      Title="EMS Human Resources Toolkit"
+      Link="/Content/OptionalFeatures/5_EMS_HumanResourcesToolkitHome.htm"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="reset"
       PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
-      PageNumber="1"
       ChapterNumberReset="reset"
       ChapterNumber="1"
+      PageNumber="1"
       SectionNumberReset="continue"
-      VolumeNumberReset="same">
+      VolumeNumberReset="same"></TocEntry>
+    <TocEntry
+      Title="Introduction"
+      Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_Introduction.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      BreakType="chapter"
+      AutoEndOnLeftPage="disabled"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"></TocEntry>
+    <TocEntry
+      Title="Installation Overview"
+      Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_InstallationOverview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      BreakType="chapter"
+      AutoEndOnLeftPage="disabled"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
+    <TocEntry
+      Title="Obtain the Installation Files"
+      Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_ObtainInstallFiles.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      BreakType="chapter"
+      AutoEndOnLeftPage="disabled"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
+    <TocEntry
+      Title="How It Works"
+      Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_HowItWorks.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      BreakType="chapter"
+      AutoEndOnLeftPage="disabled"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl">
       <TocEntry
-        Title="Get Started with EMS for Outlook"
-        Link="/Content/Outlook/C_User/Outlook_UG_GetStarted.htm"
+        Title="How HR Toolkit Integrates Your User Records"
+        Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_HowIntegUserRec.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
         BreakType="chapter"
-        StartSection="false"
-        PageNumberReset="continue"
-        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
-        ChapterNumber=""
-        SectionNumberReset="continue"
-        VolumeNumberReset="same"
-        ChapterNumberReset="continue">
-        <TocEntry
-          Title="Microsoft Outlook, EMS for Microsoft Outlook, and EMS Web App Comparison"
-          Link="/Content/Outlook/C_User/Outlook_UG_OutlookComparisons.htm"
-          BreakType="chapter"
-          StartSection="false"
-          PageNumberReset="continue"
-          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
-      </TocEntry>
-      <TocEntry
-        Title="Create a Reservation in EMS for Microsoft Outlook"
-        Link="/Content/Outlook/C_User/Outlook_UG_CreateResOverview.htm"
-        BreakType="chapter"
-        StartSection="false"
-        PageNumberReset="continue"
-        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl">
-        <TocEntry
-          Title="Create a Single Reservation"
-          Link="/Content/Outlook/C_User/Outlook_UG_CreateSingleRes.htm"
-          BreakType="chapter"
-          StartSection="false"
-          PageNumberReset="continue"
-          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
-        <TocEntry
-          Title="Create a Series Reservation"
-          Link="/Content/Outlook/C_User/Outlook_UG_CreateSeriesRes.htm"
-          BreakType="chapter"
-          StartSection="false"
-          PageNumberReset="continue"
-          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
-        <TocEntry
-          Title="Create a Video Conference Reservation"
-          Link="/Content/Outlook/C_User/Outlook_UG_CreateVideoConRes.htm"
-          BreakType="chapter"
-          StartSection="false"
-          PageNumberReset="continue"
-          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
-        <TocEntry
-          Title="Edit or Cancel a Reservation"
-          Link="/Content/Outlook/C_User/Outlook_UG_EditCancelSchedEvent.htm"
-          BreakType="chapter"
-          StartSection="false"
-          PageNumberReset="continue"
-          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
-      </TocEntry>
-      <TocEntry
-        Title="Use Skype for Business in EMS for Outlook"
-        Link="/Content/Outlook/C_User/Outlook_UG_UseSkypeforBusiness.htm"
-        BreakType="chapter"
+        AutoEndOnLeftPage="disabled"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
       <TocEntry
-        Title="Resolve Booking Conflicts"
-        Link="/Content/Outlook/C_User/Outlook_UG_ResolveBookingConflicts.htm"
+        Title="Align Your Source Data for HR Toolkit"
+        Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_AlignSourceData.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
         BreakType="chapter"
+        AutoEndOnLeftPage="disabled"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
       <TocEntry
-        Title="View Known Errors/Alerts for EMS for Outlook"
-        Link="/Content/Outlook/C_User/Outlook_UG_ViewKnownErrorsAlerts.htm"
+        Title="Configure EMS Web App for HR Toolkit"
+        Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_ConfigWebAppforHRTK.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+        BreakType="chapter"
+        AutoEndOnLeftPage="disabled"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
+      <TocEntry
+        Title="Upgrade Considerations"
+        Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_UpgradeConsiderations.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+        BreakType="chapter"
+        AutoEndOnLeftPage="disabled"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
+    </TocEntry>
+    <TocEntry
+      Title="Install HR Toolkit for the Group/Group Type Model"
+      Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_InstallforGroupGroupTypeModel.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      BreakType="chapter"
+      AutoEndOnLeftPage="disabled"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl">
+      <TocEntry
+        Title="Import Group/Group Type Data"
+        Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_ImportGroupGroupTypeData.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+        BreakType="chapter"
+        AutoEndOnLeftPage="disabled"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
+    </TocEntry>
+    <TocEntry
+      Title="Install HR Toolkit for the Groups/Contacts or Hybrid Model"
+      Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_InstallforGroupContactHybridModel.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      BreakType="chapter"
+      AutoEndOnLeftPage="disabled"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl">
+      <TocEntry
+        Title="Import Group/Contact or Hybrid Data"
+        Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_ImportGroupContactHybridData.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
