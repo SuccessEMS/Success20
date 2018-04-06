@@ -1177,7 +1177,7 @@
       </TocEntry>
       <TocEntry
         Title="Configure Groups (Toolbar Icon)"
-        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigurationGroupsToolbarIcon.htm"
+        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigGroupsIcon.htm"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
