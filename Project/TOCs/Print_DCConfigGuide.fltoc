@@ -931,7 +931,7 @@
             PageNumber="1" />
           <TocEntry
             Title="Categories Tab"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_CategoryTab.htm"
+            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/CategoryTab.htm"
             BreakType="chapter"
             StartSection="false"
             PageNumberReset="continue"
@@ -1401,7 +1401,7 @@
         PageNumber="1">
         <TocEntry
           Title="Change Group Wizard"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ChangeGroupWiz.htm"
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ChangeGroupWiz.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"

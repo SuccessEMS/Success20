@@ -293,7 +293,7 @@
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/RoomsTab.htm" />
           <TocEntry
             Title="Categories Tab"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_CategoryTab.htm" />
+            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/CategoryTab.htm" />
           <TocEntry
             Title="Event Types Tab"
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_EventTypeTab.htm" />
@@ -427,7 +427,7 @@
         Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/SystemAdminTools.html">
         <TocEntry
           Title="Change Group Wizard"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ChangeGroupWiz.htm" />
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ChangeGroupWiz.htm" />
         <TocEntry
           Title="Change Reservation Wizard"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ChangeResWiz.htm" />
