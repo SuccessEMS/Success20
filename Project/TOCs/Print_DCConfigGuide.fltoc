@@ -909,7 +909,7 @@
             PageNumber="1" />
           <TocEntry
             Title="Video Conference Tab"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_VCtab.htm"
+            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/VideoConferencetab.htm"
             BreakType="chapter"
             StartSection="false"
             PageNumberReset="continue"
