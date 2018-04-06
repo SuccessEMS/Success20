@@ -997,7 +997,7 @@
             PageNumber="1" />
           <TocEntry
             Title="Menu Text Translations Tab"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_MenuTextTab.htm"
+            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/MenuTextTab.htm"
             BreakType="chapter"
             StartSection="false"
             PageNumberReset="continue"
