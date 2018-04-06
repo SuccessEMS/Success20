@@ -2044,7 +2044,7 @@
         Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigurationGroupsToolbarIcon.htm">
         <TocEntry
           Title="Configure Groups"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigGroup.htm">
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigGroup.htm">
           <TocEntry
             Title="Configure Additional Information for a Group"
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigAddInfoGroup.html" />
