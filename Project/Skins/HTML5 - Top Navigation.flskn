@@ -284,8 +284,6 @@
         Name="Search Result Link">
         <Properties>
           <Property
-            Name="Color">#00467f</Property>
-          <Property
             Name="FontFamily">Open Sans</Property>
           <Property
             Name="FontSize">18px</Property>
@@ -293,6 +291,8 @@
             Name="FontStyle">normal</Property>
           <Property
             Name="FontWeight">normal</Property>
+          <Property
+            Name="Color">#la6bb8</Property>
         </Properties>
       </Style>
       <Style
@@ -325,9 +325,11 @@
           <Property
             Name="FontStyle">normal</Property>
           <Property
-            Name="Color">#afbc21</Property>
-          <Property
             Name="Display">block</Property>
+          <Property
+            Name="FontSize">0.9em</Property>
+          <Property
+            Name="Color">#97d700</Property>
         </Properties>
       </Style>
       <Style
@@ -355,21 +357,21 @@
         Name="Search Result Link (visited)">
         <Properties>
           <Property
-            Name="Color">#00467f</Property>
+            Name="Color">#2ebaf5</Property>
         </Properties>
       </Style>
       <Style
         Name="Search Result Link (focus)">
         <Properties>
           <Property
-            Name="Color">#aebd36</Property>
+            Name="Color">#97d700</Property>
         </Properties>
       </Style>
       <Style
         Name="Search Result Link (hover)">
         <Properties>
           <Property
-            Name="Color">#aebd36</Property>
+            Name="Color">#97d700</Property>
         </Properties>
       </Style>
       <Style
