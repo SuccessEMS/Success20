@@ -2,26 +2,8 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="EMS Master Calendar Release Notes U23"
-    Link="/Content/ReleaseNotes/Version44.1/Update23/EMSMasterCalendar.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-    BreakType="chapter"
-    PageNumberReset="reset"
-    StartSection="false"
-    PageNumber="1"
-    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
-  <TocEntry
-    Title="Outlook Release Notes U23"
-    Link="/Content/ReleaseNotes/Version44.1/Update23/EMSforOutlook.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-    BreakType="chapter"
-    StartSection="false"
-    PageNumberReset="continue"
-    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
-    SectionNumberReset="continue"
-    VolumeNumberReset="same"
-    ChapterNumberReset="continue" />
-  <TocEntry
-    Title="EMS Desktop Client Release Notes U23"
-    Link="/Content/ReleaseNotes/Version44.1/Update23/EMSDesktopClient.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    Title="EMS Desktop Client Release Notes U23.1"
+    Link="/Content/ReleaseNotes/Version44.1/Update23.1/EMSDesktopClient.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
     BreakType="chapter"
     StartSection="false"
     PageNumberReset="continue"
