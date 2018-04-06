@@ -2540,7 +2540,7 @@
           Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ConfigureRooms.html" />
         <TocEntry
           Title="Work with User Defined Questions (UDQs)"
-          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_WorkwithUserDefQuest.html" />
+          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/ConfiguringUDQs.html" />
       </TocEntry>
       <TocEntry
         Title="Configure Users and Templates"
