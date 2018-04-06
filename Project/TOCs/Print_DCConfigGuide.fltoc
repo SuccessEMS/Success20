@@ -1278,7 +1278,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Configure the Confirmation Email Subject Line"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigConfEmailSubLine.htm"
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigConfEmailSubLine.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
