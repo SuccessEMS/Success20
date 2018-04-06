@@ -384,7 +384,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Configure Attachment Types"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigAttachmentType.html"
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigAttachmentType.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
