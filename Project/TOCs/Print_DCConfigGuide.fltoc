@@ -920,7 +920,7 @@
             PageNumber="1" />
           <TocEntry
             Title="Rooms Tab"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_RoomsTab.htm"
+            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/RoomsTab.htm"
             BreakType="chapter"
             StartSection="false"
             PageNumberReset="continue"
@@ -1289,7 +1289,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Reservation Wizard Required Fields"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_ReservationWizReqFields.html"
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ReservationWizReqFields.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"

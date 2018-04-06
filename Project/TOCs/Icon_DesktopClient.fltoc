@@ -290,7 +290,7 @@
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/VideoConferencetab.htm" />
           <TocEntry
             Title="Rooms Tab"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_RoomsTab.htm" />
+            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/RoomsTab.htm" />
           <TocEntry
             Title="Categories Tab"
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_CategoryTab.htm" />
@@ -395,7 +395,7 @@
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigConfEmailSubLine.htm" />
         <TocEntry
           Title="Reservation Wizard Required Fields"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_ReservationWizReqFields.html" />
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ReservationWizReqFields.html" />
         <TocEntry
           Title="Configure Email Settings"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigEmailSet.html" />
