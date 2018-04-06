@@ -2050,7 +2050,7 @@
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigAddInfoGroup.html" />
           <TocEntry
             Title="Edit Group Information"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_EditGroupInfo.htm" />
+            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/EditGroupInfo.htm" />
           <TocEntry
             Title="Import Groups"
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ImportGroup.htm" />
