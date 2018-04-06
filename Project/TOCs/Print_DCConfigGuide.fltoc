@@ -1601,7 +1601,7 @@
       </TocEntry>
       <TocEntry
         Title="Import Files to Streamline Data Entry"
-        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ImportFileSpec.htm"
+        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ImportFileSpec.htm"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"

@@ -2161,7 +2161,7 @@
       </TocEntry>
       <TocEntry
         Title="Import Files to Streamline Data Entry"
-        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ImportFileSpec.htm">
+        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ImportFileSpec.htm">
         <TocEntry
           Title="Special Date Import File Specification"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/SpecialDateImportFileSpec.htm" />
