@@ -7,6 +7,10 @@
       Title="Browse by Update #"
       Link="/Content/Regics_RN_4.0.htm">
       <TocEntry
+        Title="Update 23.1"
+        Link="/Content/V44.1_ReleaseNotes.htm#Update23.1"
+        StartSection="false" />
+      <TocEntry
         Title="Update 23"
         Link="/Content/V44.1_ReleaseNotes.htm#Update23"
         StartSection="false"></TocEntry>

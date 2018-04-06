@@ -1754,7 +1754,7 @@
         </TocEntry>
         <TocEntry
           Title="Configure Buildings"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigBuilding.html" />
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigBuilding.html" />
         <TocEntry
           Title="Configure Building Hours"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigBuildingHours.html">
@@ -1764,7 +1764,7 @@
         </TocEntry>
         <TocEntry
           Title="Configure Areas"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigAreas.html" />
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigAreas.html" />
         <TocEntry
           Title="Configure Room Types"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigRoomType.html" />
@@ -1821,7 +1821,7 @@
       </TocEntry>
       <TocEntry
         Title="Configuration &gt; Billing"
-        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigBilling.htm">
+        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigBilling.htm">
         <TocEntry
           Title="Configure Rate Schedules"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigRateSchedule.htm" />
@@ -1836,7 +1836,7 @@
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigCalc.htm" />
         <TocEntry
           Title="Configure Accounts"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigAccount.htm" />
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigAccount.htm" />
         <TocEntry
           Title="Configure Payment Types"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigPaymentType.htm" />
@@ -1845,7 +1845,7 @@
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigSalesCat.htm" />
         <TocEntry
           Title="Configure Billing References and PO Numbers"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigBillRefPO.htm" />
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigBillRefPO.htm" />
         <TocEntry
           Title="Establishing Billing Reference and PO Behavior"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_EstablishBillingRef.htm" />
@@ -1855,7 +1855,7 @@
       </TocEntry>
       <TocEntry
         Title="Configuration &gt; Administration"
-        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigAdmin.htm">
+        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigAdmin.htm">
         <TocEntry
           Title="Configure Categories"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigCategory.html">
@@ -1924,7 +1924,7 @@
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigCancelReasons.html" />
         <TocEntry
           Title="Configure Attachment Types"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigAttachmentType.html" />
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigAttachmentType.html" />
         <TocEntry
           Title="Configure Word Merge Documents"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigWordMergeDoc.html" />
@@ -2047,7 +2047,7 @@
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigGroup.htm">
           <TocEntry
             Title="Configure Additional Information for a Group"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigAddInfoGroup.html" />
+            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigAddInfoGroup.html" />
           <TocEntry
             Title="Edit Group Information"
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_EditGroupInfo.htm" />
@@ -2095,7 +2095,7 @@
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigUserTemp.htm" />
         <TocEntry
           Title="Configure Academic User Templates"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigAcadUserTemp.htm" />
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigAcadUserTemp.htm" />
         <TocEntry
           Title="Configure User Security for Multiple User Accounts"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigUserSecMultAcct.htm" />
@@ -2108,7 +2108,7 @@
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ChangeGroupWiz.htm" />
         <TocEntry
           Title="Change Reservation Wizard"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ChangeResWiz.htm" />
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ChangeResWiz.htm" />
         <TocEntry
           Title="Room Administration Wizard"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/RoomAdminWizard.htm" />

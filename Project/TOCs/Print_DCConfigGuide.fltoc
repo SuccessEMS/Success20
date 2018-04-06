@@ -162,7 +162,7 @@
         </TocEntry>
         <TocEntry
           Title="Configure Buildings"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigBuilding.html"
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigBuilding.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -196,7 +196,7 @@
         </TocEntry>
         <TocEntry
           Title="Configure Areas"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigAreas.html"
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigAreas.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -384,7 +384,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Configure Attachment Types"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigAttachmentType.html"
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigAttachmentType.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -541,7 +541,7 @@
       </TocEntry>
       <TocEntry
         Title="Configuration &gt; Billing"
-        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigBilling.htm"
+        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigBilling.htm"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -596,7 +596,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Configure Accounts"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigAccount.htm"
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigAccount.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -629,7 +629,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Configure Billing References and PO Numbers"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigBillRefPO.htm"
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigBillRefPO.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -663,7 +663,7 @@
       </TocEntry>
       <TocEntry
         Title="Configuration &gt; Administration"
-        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigAdmin.htm"
+        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigAdmin.htm"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -1199,7 +1199,7 @@
           PageNumber="1">
           <TocEntry
             Title="Configure Additional Information for a Group"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigAddInfoGroup.html"
+            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigAddInfoGroup.html"
             BreakType="chapter"
             StartSection="false"
             PageNumberReset="continue"
@@ -1367,7 +1367,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Configure Academic User Templates"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigAcadUserTemp.htm"
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigAcadUserTemp.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -1412,7 +1412,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Change Reservation Wizard"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ChangeResWiz.htm"
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ChangeResWiz.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
