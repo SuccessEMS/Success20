@@ -259,7 +259,7 @@
         Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigEverydayUserApp.html">
         <TocEntry
           Title="Configure Everyday Users"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigEverydayUser.htm">
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigEverydayUser.htm">
           <TocEntry
             Title="Licensing for Everyday Users"
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/LicensingEverydayUser.htm" />

@@ -809,7 +809,7 @@
         PageNumber="1">
         <TocEntry
           Title="Configure Everyday Users"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigEverydayUser.htm"
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigEverydayUser.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
