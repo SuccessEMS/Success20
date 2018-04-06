@@ -876,7 +876,7 @@
           PageNumber="1">
           <TocEntry
             Title="Web Template Tab"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_WebTemplateTab.htm"
+            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/WebTemplateTab.htm"
             BreakType="chapter"
             StartSection="false"
             PageNumberReset="continue"

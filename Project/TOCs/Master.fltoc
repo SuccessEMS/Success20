@@ -1956,7 +1956,7 @@
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigEverydayUserProcessTemplate.htm">
           <TocEntry
             Title="Web Template Tab"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_WebTemplateTab.htm" />
+            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/WebTemplateTab.htm" />
           <TocEntry
             Title="Booking Rules Tab"
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_BookingRulesTab.htm" />
