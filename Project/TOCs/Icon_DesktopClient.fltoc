@@ -45,7 +45,7 @@
         Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/AuthenticationOptions.html" />
       <TocEntry
         Title="EMS Main Window"
-        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_EMSMainWindow.html" />
+        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/EMSMainWindow.html" />
       <TocEntry
         Title="EMS Browser Window"
         Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/EMSBrowserWindow.htm" />

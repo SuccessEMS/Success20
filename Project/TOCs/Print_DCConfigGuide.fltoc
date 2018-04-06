@@ -51,7 +51,7 @@
         PageNumber="1" />
       <TocEntry
         Title="EMS Main Window"
-        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_EMSMainWindow.html"
+        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/EMSMainWindow.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
