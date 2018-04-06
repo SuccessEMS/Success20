@@ -865,7 +865,7 @@
         </TocEntry>
         <TocEntry
           Title="Configure Everyday User Process Templates"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigEverydayUserProcessTemplate.htm"
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigEverydayUserProcessTemplate.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
