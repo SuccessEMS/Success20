@@ -1927,7 +1927,7 @@
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigAttachmentType.html" />
         <TocEntry
           Title="Configure Word Merge Documents"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigWordMergeDoc.html" />
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigWordMergeDoc.html" />
         <TocEntry
           Title="Configure Calendar Styles"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigCalendarStyles.html" />
