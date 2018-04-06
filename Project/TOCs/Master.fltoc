@@ -2009,13 +2009,13 @@
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigWebAppMenu.htm" />
         <TocEntry
           Title="Configure Help Text"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigHelpText.htm" />
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigHelpText.htm" />
         <TocEntry
           Title="Configure Web Text"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigWebText.htm" />
         <TocEntry
           Title="Configure Language Translations"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigLangTrans.htm" />
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigLangTrans.htm" />
         <TocEntry
           Title="Configure Confirmation Behavior for Everyday User Applications"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigConfBehavior.htm" />

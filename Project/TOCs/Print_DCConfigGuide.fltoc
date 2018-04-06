@@ -1065,7 +1065,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Configure Help Text"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigHelpText.htm"
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigHelpText.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -1087,7 +1087,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Configure Language Translations"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigLangTrans.htm"
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigLangTrans.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
