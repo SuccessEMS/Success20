@@ -10,22 +10,22 @@
       Link="/Content/InstallGuides/6_Kiosk/A_KioskHome.htm">
       <TocEntry
         Title="Introduction to the EMS Kiosk App"
-        Link="/Content/EMSKioskApp/V44.1/A_Install/Kiosk_IG_Introduction.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        Link="/Content/EMSKioskApp/V44.1/Installation Guide/Kiosk_IG_Introduction.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
         Title="Obtain the Installation Files for EMS Kiosk App"
-        Link="/Content/EMSKioskApp/V44.1/A_Install/Kiosk_IG_ObtainInstallation.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        Link="/Content/EMSKioskApp/V44.1/Installation Guide/Kiosk_IG_ObtainInstallation.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
         Title="System Requirements and Prerequisites for EMS Kiosk App"
-        Link="/Content/EMSKioskApp/V44.1/A_Install/Kiosk_IG_SysReqPrereq.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        Link="/Content/EMSKioskApp/V44.1/Installation Guide/Kiosk_IG_SysReqPrereq.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
         Title="Install or Upgrade the EMS Kiosk App"
-        Link="/Content/EMSKioskApp/V44.1/A_Install/Kiosk_IG_InstallUpgrade.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        Link="/Content/EMSKioskApp/V44.1/Installation Guide/Kiosk_IG_InstallUpgrade.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
         Title="Launch EMS Kiosk App"
-        Link="/Content/EMSKioskApp/V44.1/A_Install/Kiosk_IG_StartKioskApp.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        Link="/Content/EMSKioskApp/V44.1/Installation Guide/Kiosk_IG_StartKioskApp.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
         Title="PDF"
-        Link="/Content/EMSKioskApp/V44.1/A_Install/Kiosk_Install_PDF.pdf" />
+        Link="/Content/EMSKioskApp/V44.1/Installation Guide/Kiosk_Install_PDF.pdf" />
     </TocEntry>
     <TocEntry
       Title="Configuration Guide"
