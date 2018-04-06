@@ -505,7 +505,7 @@
         Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/VideoConference.html">
         <TocEntry
           Title="Configure Video Conferencing Capabilities"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigVCCapabilities.htm" />
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigVCCapabilities.htm" />
       </TocEntry>
       <TocEntry
         Title="Deployment of EMS Desktop Client"
