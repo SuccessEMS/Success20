@@ -63,7 +63,7 @@
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/RoomConfigWiz.htm" />
           <TocEntry
             Title="Configure Room Pricing"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigRoomPricing.htm" />
+            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigRoomPricing.htm" />
           <TocEntry
             Title="Configure Override Rooms"
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigOverrideRooms.htm" />
