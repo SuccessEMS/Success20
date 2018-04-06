@@ -17,7 +17,7 @@
     PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/TOC8_5X11.flpgl">
     <TocEntry
       Title="EMS Master Calendar"
-      Link="/Content/EMSMasterCalendar/V8/C_UserGuide/MC_UG_Introduction.html"
+      Link="/Content/EMSMasterCalendar/V8/UserGuide/MC_UG_Introduction.html"
       BreakType="chapter"
       PageNumberReset="reset"
       ChapterNumberReset="reset"
@@ -29,7 +29,7 @@
       VolumeNumberReset="same">
       <TocEntry
         Title="Log In to Master Calendar"
-        Link="/Content/EMSMasterCalendar/V8/C_UserGuide/MC_UG_LogIn.html"
+        Link="/Content/EMSMasterCalendar/V8/UserGuide/MC_UG_LogIn.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -39,7 +39,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Use Basic Features of EMS Master Calendar"
-        Link="/Content/EMSMasterCalendar/V8/C_UserGuide/MC_UG_UseBasicFeatures.html"
+        Link="/Content/EMSMasterCalendar/V8/UserGuide/MC_UG_UseBasicFeatures.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -49,7 +49,7 @@
         ChapterNumberReset="continue">
         <TocEntry
           Title="Use Field Icons in EMS Master Calendar"
-          Link="/Content/EMSMasterCalendar/V8/C_UserGuide/MC_UG_UseFieldIcons.html"
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/MC_UG_UseFieldIcons.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -59,7 +59,7 @@
           ChapterNumberReset="continue" />
         <TocEntry
           Title="Search by Keyword"
-          Link="/Content/EMSMasterCalendar/V8/C_UserGuide/MC_UG_SearchbyKeyword.html"
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/MC_UG_SearchbyKeyword.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -69,7 +69,7 @@
           ChapterNumberReset="continue" />
         <TocEntry
           Title="Export Search Results"
-          Link="/Content/EMSMasterCalendar/V8/C_UserGuide/MC_UG_ExportSearchResults.html"
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/MC_UG_ExportSearchResults.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -79,7 +79,7 @@
           ChapterNumberReset="continue" />
         <TocEntry
           Title="Search for an Event or Special Date"
-          Link="/Content/EMSMasterCalendar/V8/C_UserGuide/MC_UG_SearchforEventorSpecialDate.html"
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/MC_UG_SearchforEventorSpecialDate.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -89,7 +89,7 @@
           ChapterNumberReset="continue" />
         <TocEntry
           Title="Use RSS Feeds in EMS Master Calendar"
-          Link="/Content/EMSMasterCalendar/V8/C_UserGuide/MC_UG_UseRSSFeeds.html"
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/MC_UG_UseRSSFeeds.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -100,7 +100,7 @@
       </TocEntry>
       <TocEntry
         Title="Work with Calendars"
-        Link="/Content/EMSMasterCalendar/V8/C_UserGuide/MC_UG_WorkwithCalendars.html"
+        Link="/Content/EMSMasterCalendar/V8/UserGuide/MC_UG_WorkwithCalendars.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -110,7 +110,7 @@
         ChapterNumberReset="continue">
         <TocEntry
           Title="Modify the Calendar Display"
-          Link="/Content/EMSMasterCalendar/V8/C_UserGuide/MC_UG_ModifyCalendarDispaly.html"
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/MC_UG_ModifyCalendarDispaly.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -120,7 +120,7 @@
           ChapterNumberReset="continue" />
         <TocEntry
           Title="Filter Events on the Calendar"
-          Link="/Content/EMSMasterCalendar/V8/C_UserGuide/MC_UG_FilterEventsonCalendar.html"
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/MC_UG_FilterEventsonCalendar.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -130,7 +130,7 @@
           ChapterNumberReset="continue" />
         <TocEntry
           Title="Set a Timeframe for the Calendar Display"
-          Link="/Content/EMSMasterCalendar/V8/C_UserGuide/MC_UG_SetTimeFrameforDisplay.html"
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/MC_UG_SetTimeFrameforDisplay.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -140,7 +140,7 @@
           ChapterNumberReset="continue" />
         <TocEntry
           Title="Navigate in the Master Calendar"
-          Link="/Content/EMSMasterCalendar/V8/C_UserGuide/MC_UG_NavinMasterCalendar.html"
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/MC_UG_NavinMasterCalendar.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -150,7 +150,7 @@
           ChapterNumberReset="continue" />
         <TocEntry
           Title="Open Events from the Master Calendar"
-          Link="/Content/EMSMasterCalendar/V8/C_UserGuide/MC_UG_OpenEvents.html"
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/MC_UG_OpenEvents.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -160,7 +160,7 @@
           ChapterNumberReset="continue" />
         <TocEntry
           Title="Scroll Through Events on the Calendar"
-          Link="/Content/EMSMasterCalendar/V8/C_UserGuide/MC_UG_ScrollThroughEvents.html"
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/MC_UG_ScrollThroughEvents.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -170,7 +170,7 @@
           ChapterNumberReset="continue" />
         <TocEntry
           Title="Subscribe to a Calendar"
-          Link="/Content/EMSMasterCalendar/V8/C_UserGuide/MC_UG_SubscribetoCalendar.html"
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/MC_UG_SubscribetoCalendar.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -180,7 +180,7 @@
           ChapterNumberReset="continue" />
         <TocEntry
           Title="Subscribe to a Calendar Using Email"
-          Link="/Content/EMSMasterCalendar/V8/C_UserGuide/MC_UG_SubscribetoCalendarUsingEmail.html"
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/MC_UG_SubscribetoCalendarUsingEmail.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -190,7 +190,7 @@
           ChapterNumberReset="continue" />
         <TocEntry
           Title="Subscribe to a Calendar Using iCal"
-          Link="/Content/EMSMasterCalendar/V8/C_UserGuide/MC_UG_SubscribetoCalendarUsingical.html"
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/MC_UG_SubscribetoCalendarUsingical.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -201,7 +201,7 @@
       </TocEntry>
       <TocEntry
         Title="User Options"
-        Link="/Content/EMSMasterCalendar/V8/C_UserGuide/MC_UG_UserOptions.html"
+        Link="/Content/EMSMasterCalendar/V8/UserGuide/MC_UG_UserOptions.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -211,7 +211,7 @@
         ChapterNumberReset="continue">
         <TocEntry
           Title="Change Your Password"
-          Link="/Content/EMSMasterCalendar/V8/C_UserGuide/MC_UG_ChangeYourPassword.html"
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/MC_UG_ChangeYourPassword.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -221,7 +221,7 @@
           ChapterNumberReset="continue" />
         <TocEntry
           Title="View Custom Help Text"
-          Link="/Content/EMSMasterCalendar/V8/C_UserGuide/MC_UG_ViewCustomHelpText.html"
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/MC_UG_ViewCustomHelpText.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -231,7 +231,7 @@
           ChapterNumberReset="continue" />
         <TocEntry
           Title="View Your Notifications"
-          Link="/Content/EMSMasterCalendar/V8/C_UserGuide/MC_UG_ViewYourNotifications.html"
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/MC_UG_ViewYourNotifications.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -241,7 +241,7 @@
           ChapterNumberReset="continue" />
         <TocEntry
           Title="View Your Requests"
-          Link="/Content/EMSMasterCalendar/V8/C_UserGuide/MC_UG_ViewYourRequests.html"
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/MC_UG_ViewYourRequests.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -252,7 +252,7 @@
       </TocEntry>
       <TocEntry
         Title="How Do I Publicize an Event in Master Calendar?"
-        Link="/Content/EMSMasterCalendar/V8/C_UserGuide/MC_UG_HowtoPublicizeEvent.html"
+        Link="/Content/EMSMasterCalendar/V8/UserGuide/MC_UG_HowtoPublicizeEvent.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -262,7 +262,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Work with Events"
-        Link="/Content/EMSMasterCalendar/V8/C_UserGuide/MC_UG_WorkwithEvents.html"
+        Link="/Content/EMSMasterCalendar/V8/UserGuide/MC_UG_WorkwithEvents.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -272,7 +272,7 @@
         ChapterNumberReset="continue">
         <TocEntry
           Title="Types of Master Calendar Users"
-          Link="/Content/EMSMasterCalendar/V8/C_UserGuide/MC_UG_TypesofUsers.html"
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/MC_UG_TypesofUsers.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -282,7 +282,7 @@
           ChapterNumberReset="continue" />
         <TocEntry
           Title="Submit an Event"
-          Link="/Content/EMSMasterCalendar/V8/C_UserGuide/MC_UG_SubmitEvents.html"
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/MC_UG_SubmitEvents.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -292,7 +292,7 @@
           ChapterNumberReset="continue" />
         <TocEntry
           Title="Additional Info Fields"
-          Link="/Content/EMSMasterCalendar/V8/C_UserGuide/MC_UG_AdditionalInfoFields.html"
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/MC_UG_AdditionalInfoFields.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -302,7 +302,7 @@
           ChapterNumberReset="continue" />
         <TocEntry
           Title="Custom, Email, and Attachment Fields"
-          Link="/Content/EMSMasterCalendar/V8/C_UserGuide/MC_UG_CustomEmailAttachmentFields.html"
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/MC_UG_CustomEmailAttachmentFields.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -312,7 +312,7 @@
           ChapterNumberReset="continue" />
         <TocEntry
           Title="Event Times Fields"
-          Link="/Content/EMSMasterCalendar/V8/C_UserGuide/MC_UG_EventTimesFields.html"
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/MC_UG_EventTimesFields.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -322,7 +322,7 @@
           ChapterNumberReset="continue" />
         <TocEntry
           Title="General Info Fields"
-          Link="/Content/EMSMasterCalendar/V8/C_UserGuide/MC_UG_GeneralInfoFields.html"
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/MC_UG_GeneralInfoFields.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -333,7 +333,7 @@
       </TocEntry>
       <TocEntry
         Title="Glossary"
-        Link="/Content/EMSMasterCalendar/V8/C_UserGuide/MC_UG_Glossary.html"
+        Link="/Content/EMSMasterCalendar/V8/UserGuide/MC_UG_Glossary.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
