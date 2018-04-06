@@ -1983,7 +1983,7 @@
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/UserDefinedFieldTab.htm" />
           <TocEntry
             Title="Parameters Tab"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_ParametersTab.htm" />
+            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ParametersTab.htm" />
           <TocEntry
             Title="Web Text Tab"
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/WebTextTab.htm" />
@@ -2189,7 +2189,7 @@
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigVCCapabilities.htm" />
         <TocEntry
           Title="Overview of Video Conferenncing"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_OverviewVCConfig.html" />
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/OverviewVCConfig.html" />
       </TocEntry>
       <TocEntry
         Title="Academic Import Utility"
