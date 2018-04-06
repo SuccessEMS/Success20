@@ -329,7 +329,7 @@
           <Property
             Name="FontSize">0.9em</Property>
           <Property
-            Name="Color">#666666</Property>
+            Name="Color">#124775</Property>
         </Properties>
       </Style>
       <Style
@@ -364,14 +364,14 @@
         Name="Search Result Link (focus)">
         <Properties>
           <Property
-            Name="Color">#2ebaf5</Property>
+            Name="Color">#124775</Property>
         </Properties>
       </Style>
       <Style
         Name="Search Result Link (hover)">
         <Properties>
           <Property
-            Name="Color">#2ebaf5</Property>
+            Name="Color">#124775</Property>
         </Properties>
       </Style>
       <Style
