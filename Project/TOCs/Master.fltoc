@@ -1833,7 +1833,7 @@
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ExportPricingInfoBillableItems.htm" />
         <TocEntry
           Title="Configure Calculations"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigCalc.htm" />
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigCalc.htm" />
         <TocEntry
           Title="Configure Accounts"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigAccount.htm" />
