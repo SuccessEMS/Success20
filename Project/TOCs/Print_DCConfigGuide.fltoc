@@ -596,7 +596,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Configure Accounts"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigAccount.htm"
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigAccount.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
