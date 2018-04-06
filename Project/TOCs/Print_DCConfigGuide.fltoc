@@ -518,7 +518,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Configure Pricing for a Resource in the Edit Pricing Window"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigPricingResourceEditPriceWin.htm"
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigPricingResourceEditPriceWin.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -552,7 +552,7 @@
         PageNumber="1">
         <TocEntry
           Title="Configure Rate Schedules"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigRateSchedule.htm"
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigRateSchedule.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -563,7 +563,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Configure Pricing Plans"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigPricingPlan.htm"
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigPricingPlan.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"

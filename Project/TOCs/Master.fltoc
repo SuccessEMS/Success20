@@ -1814,7 +1814,7 @@
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_DefineProdAreaItems.htm" />
         <TocEntry
           Title="Configure Pricing for a Resource in the Edit Pricing Window"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigPricingResourceEditPriceWin.htm" />
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigPricingResourceEditPriceWin.htm" />
         <TocEntry
           Title="Export Pricing Information for a Resource"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ExportPricInfo.htm" />
@@ -1824,10 +1824,10 @@
         Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigBilling.htm">
         <TocEntry
           Title="Configure Rate Schedules"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigRateSchedule.htm" />
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigRateSchedule.htm" />
         <TocEntry
           Title="Configure Pricing Plans"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigPricingPlan.htm" />
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigPricingPlan.htm" />
         <TocEntry
           Title="Export Pricing Information for Billable Items (Rooms &amp; Resources)"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ExportPricingInfoBillableItems.htm" />
