@@ -1256,7 +1256,7 @@
         PageNumber="1">
         <TocEntry
           Title="Edit System Parameters"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_EditSysParam.htm"
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/EditSysParam.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
