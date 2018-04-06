@@ -1747,7 +1747,7 @@
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigOverrideRooms.htm" />
           <TocEntry
             Title="Configure and Generate Room QR Codes"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigGenerRoomQRCode.htm" />
+            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigGenerRoomQRCode.htm" />
           <TocEntry
             Title="Import Rooms"
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ImportRooms.htm" />
