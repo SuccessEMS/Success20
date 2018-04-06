@@ -36,7 +36,7 @@
       Link="/Content/ConfigGuides/2_EMS_Desktop_Client_CG.htm">
       <TocEntry
         Title="Starting EMS"
-        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_StartingEMS.html" />
+        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/StartingEMS.html" />
       <TocEntry
         Title="Overview of EMS Desktop Client Configuration"
         Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_OverviewofDCConfig.htm" />
@@ -54,7 +54,7 @@
         Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigFacil.html">
         <TocEntry
           Title="Overview of Configuring Rooms"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_OverviewConfigRooms.html">
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/OverviewConfigRooms.html">
           <TocEntry
             Title="Configure Rooms"
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigRooms.html"></TocEntry>
@@ -108,7 +108,7 @@
       </TocEntry>
       <TocEntry
         Title="Configuration &gt; Resources"
-        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_OverviewConfigRes.html">
+        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/OverviewConfigRes.html">
         <TocEntry
           Title="Categories, Resources, Services - What's the Difference?"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_CategoriesResourcesServices_WhatsDiff.htm" />
@@ -290,7 +290,7 @@
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/VideoConferencetab.htm" />
           <TocEntry
             Title="Rooms Tab"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_RoomsTab.htm" />
+            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/RoomsTab.htm" />
           <TocEntry
             Title="Categories Tab"
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_CategoryTab.htm" />
@@ -305,7 +305,7 @@
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/UserDefinedFieldTab.htm" />
           <TocEntry
             Title="Parameters Tab"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_ParametersTab.htm" />
+            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ParametersTab.htm" />
           <TocEntry
             Title="Web Text Tab"
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/WebTextTab.htm" />
@@ -395,7 +395,7 @@
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigConfEmailSubLine.htm" />
         <TocEntry
           Title="Reservation Wizard Required Fields"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_ReservationWizReqFields.html" />
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ReservationWizReqFields.html" />
         <TocEntry
           Title="Configure Email Settings"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigEmailSet.html" />
@@ -424,7 +424,7 @@
       </TocEntry>
       <TocEntry
         Title="System Administration &gt; Tools"
-        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_SystemAdminTools.html">
+        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/SystemAdminTools.html">
         <TocEntry
           Title="Change Group Wizard"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ChangeGroupWiz.htm" />
@@ -439,7 +439,7 @@
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ManageSavedReport.htm" />
         <TocEntry
           Title="Override Existing Bookings Utility"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_OverrideExistingBookUtil.html" />
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/OverrideExistingBookUtil.html" />
         <TocEntry
           Title="Import Reservations Utility"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ImportResUtil.htm"></TocEntry>

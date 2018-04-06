@@ -17,7 +17,7 @@
       PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/TOC8_5X11.flpgl">
       <TocEntry
         Title="Starting EMS"
-        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_StartingEMS.html"
+        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/StartingEMS.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="reset"
@@ -84,7 +84,7 @@
         PageNumber="1">
         <TocEntry
           Title="Overview of Configuring Rooms"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_OverviewConfigRooms.html"
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/OverviewConfigRooms.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -418,7 +418,7 @@
       </TocEntry>
       <TocEntry
         Title="Configuration &gt; Resources"
-        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_OverviewConfigRes.html"
+        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/OverviewConfigRes.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -920,7 +920,7 @@
             PageNumber="1" />
           <TocEntry
             Title="Rooms Tab"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_RoomsTab.htm"
+            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/RoomsTab.htm"
             BreakType="chapter"
             StartSection="false"
             PageNumberReset="continue"
@@ -975,7 +975,7 @@
             PageNumber="1" />
           <TocEntry
             Title="Parameters Tab"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_ParametersTab.htm"
+            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ParametersTab.htm"
             BreakType="chapter"
             StartSection="false"
             PageNumberReset="continue"
@@ -1289,7 +1289,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Reservation Wizard Required Fields"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_ReservationWizReqFields.html"
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ReservationWizReqFields.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -1390,7 +1390,7 @@
       </TocEntry>
       <TocEntry
         Title="System Administration &gt; Tools"
-        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_SystemAdminTools.html"
+        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/SystemAdminTools.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -1445,7 +1445,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Override Existing Bookings Utility"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_OverrideExistingBookUtil.html"
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/OverrideExistingBookUtil.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -1701,7 +1701,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Overview of Video Conferenncing"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_OverviewVCConfig.html"
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/OverviewVCConfig.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
