@@ -406,7 +406,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Configure Calendar Styles"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigCalendarStyles.html"
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigCalendarStyles.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"

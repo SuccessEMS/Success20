@@ -252,7 +252,7 @@
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigWordMergeDoc.html"></TocEntry>
         <TocEntry
           Title="Configure Calendar Styles"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigCalendarStyles.html" />
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigCalendarStyles.html" />
       </TocEntry>
       <TocEntry
         Title="Configuration &gt; Everyday User Applications"
