@@ -1131,7 +1131,7 @@
           PageNumber="1" />
         <TocEntry
           Title="How Do I Allow Invitations on a Booking Template?"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_HowDoIAllowInvite.htm"
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/AllowInvitationsBookTemp.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
