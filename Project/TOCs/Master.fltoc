@@ -1729,7 +1729,7 @@
         Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_EMSBrowserWindow.htm" />
       <TocEntry
         Title="Configuration &gt; Facililties"
-        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigFacil.html">
+        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigFacil.html">
         <TocEntry
           Title="Overview of Configuring Rooms"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/OverviewConfigRooms.html">
