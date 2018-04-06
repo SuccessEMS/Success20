@@ -1980,7 +1980,7 @@
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_LDAPGroupTab.htm" />
           <TocEntry
             Title="User Defined Fields Tab"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_UDFTab.htm" />
+            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/UserDefinedFieldTab.htm" />
           <TocEntry
             Title="Parameters Tab"
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_ParametersTab.htm" />
