@@ -1511,7 +1511,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Video Display Interface"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_VideoDisplayInterf.htm"
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/VideoDisplayInterf.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"

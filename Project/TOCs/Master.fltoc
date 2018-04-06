@@ -2135,7 +2135,7 @@
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_BookingMoveChangeStatusWiz.htm" />
         <TocEntry
           Title="Video Display Interface"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_VideoDisplayInterf.htm" />
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/VideoDisplayInterf.htm" />
         <TocEntry
           Title="Migrate Data"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_MigrateData.htm" />
