@@ -2002,7 +2002,7 @@
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigEUSecurityFieldDef.htm" />
           <TocEntry
             Title="Assign Security Templates to Multiple Everyday Users"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_AssignSecTempMultUser.htm" />
+            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/AssignSecTempMultUser.htm" />
         </TocEntry>
         <TocEntry
           Title="Configure EMS Web App Menus"
