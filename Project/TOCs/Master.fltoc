@@ -1782,7 +1782,7 @@
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigFloorPlans.html" />
         <TocEntry
           Title="Configure Public Views"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigPublicViews.html" />
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigPublicViews.html" />
       </TocEntry>
       <TocEntry
         Title="Configuration &gt; Resources"
