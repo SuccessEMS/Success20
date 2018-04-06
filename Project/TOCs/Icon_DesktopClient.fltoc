@@ -314,7 +314,7 @@
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_MenuTextTab.htm" />
           <TocEntry
             Title="Terms and Conditions Tab"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_TermsConditionsTab.htm" />
+            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/TermsConditionsTab.htm" />
         </TocEntry>
         <TocEntry
           Title="Configure Everyday User Security Templates"
