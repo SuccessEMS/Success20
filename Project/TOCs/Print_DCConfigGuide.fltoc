@@ -1300,7 +1300,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Configure Email Settings"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigEmailSet.html"
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigEmailSet.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
