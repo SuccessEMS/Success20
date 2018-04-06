@@ -1956,7 +1956,7 @@
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigEverydayUserProcessTemplate.htm">
           <TocEntry
             Title="Web Template Tab"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_WebTemplateTab.htm" />
+            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/WebTemplateTab.htm" />
           <TocEntry
             Title="Booking Rules Tab"
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_BookingRulesTab.htm" />
@@ -1965,7 +1965,7 @@
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_DefaultsTab.htm" />
           <TocEntry
             Title="Video Conference Tab"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_VCtab.htm" />
+            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/VideoConferencetab.htm" />
           <TocEntry
             Title="Rooms Tab"
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_RoomsTab.htm" />
@@ -1986,7 +1986,7 @@
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_ParametersTab.htm" />
           <TocEntry
             Title="Web Text Tab"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_WebTextTab.htm" />
+            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/WebTextTab.htm" />
           <TocEntry
             Title="Menu Text Translations Tab"
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_MenuTextTab.htm" />
