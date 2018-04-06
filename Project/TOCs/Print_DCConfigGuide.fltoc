@@ -1679,7 +1679,7 @@
       </TocEntry>
       <TocEntry
         Title="Video Conferencing"
-        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_VC.html"
+        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/VideoConference.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"

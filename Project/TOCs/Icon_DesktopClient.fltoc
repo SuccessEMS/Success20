@@ -502,7 +502,7 @@
       </TocEntry>
       <TocEntry
         Title="Video Conferencing"
-        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_VC.html">
+        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/VideoConference.html">
         <TocEntry
           Title="Configure Video Conferencing Capabilities"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigVCCapabilities.htm" />
