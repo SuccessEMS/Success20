@@ -1865,7 +1865,7 @@
         </TocEntry>
         <TocEntry
           Title="Configure Departments"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigDepts.htm" />
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigDepts.htm" />
         <TocEntry
           Title="Configure Statuses"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigStatuses.htm" />
