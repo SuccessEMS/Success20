@@ -786,7 +786,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Configure Reservation Wizard Templates"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigResWiz.htm"
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigResWiz.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
