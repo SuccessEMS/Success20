@@ -418,7 +418,7 @@
       </TocEntry>
       <TocEntry
         Title="Configuration &gt; Resources"
-        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_OverviewConfigRes.html"
+        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/OverviewConfigRes.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -1445,7 +1445,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Override Existing Bookings Utility"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_OverrideExistingBookUtil.html"
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/OverrideExistingBookUtil.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"

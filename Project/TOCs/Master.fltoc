@@ -2117,7 +2117,7 @@
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ManageSavedReport.htm" />
         <TocEntry
           Title="Override Existing Bookings Utility"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_OverrideExistingBookUtil.html" />
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/OverrideExistingBookUtil.html" />
         <TocEntry
           Title="Import Reservations Utility"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ImportResUtil.htm" />
