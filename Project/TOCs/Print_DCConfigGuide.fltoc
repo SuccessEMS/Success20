@@ -440,7 +440,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Configure Resources for a Category"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigResourcesforCat.html"
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigResourcesforCat.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
