@@ -470,13 +470,13 @@
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/WebAppParam.htm" />
         <TocEntry
           Title="EMS for Outlook Parameters"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_OutlookSysParam.htm" />
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/OutlookSysParam.htm" />
         <TocEntry
           Title="EMS Kiosk Parameters"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_KioskParam.htm" />
         <TocEntry
           Title="EMS Mobile App Parameters"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_MobileAppParam.htm" />
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/MobileAppParam.htm" />
       </TocEntry>
       <TocEntry
         Title="Import Files to Streamline Data Entry"

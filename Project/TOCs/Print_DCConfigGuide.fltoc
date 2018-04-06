@@ -1567,7 +1567,7 @@
           PageNumber="1" />
         <TocEntry
           Title="EMS for Outlook Parameters"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_OutlookSysParam.htm"
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/OutlookSysParam.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -1589,7 +1589,7 @@
           PageNumber="1" />
         <TocEntry
           Title="EMS Mobile App Parameters"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_MobileAppParam.htm"
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/MobileAppParam.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
