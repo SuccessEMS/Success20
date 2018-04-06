@@ -1842,7 +1842,7 @@
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigPaymentType.htm" />
         <TocEntry
           Title="Configure Sales Categories"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigSalesCat.htm" />
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigSalesCat.htm" />
         <TocEntry
           Title="Configure Billing References and PO Numbers"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigBillRefPO.htm" />
