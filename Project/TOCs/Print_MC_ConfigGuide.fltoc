@@ -275,7 +275,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Creating Event Types"
-        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_WorkwithEventTypes.html"
+        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/CreateEventTypes.html"
         BreakType="chapter"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"

@@ -2534,7 +2534,7 @@
           Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_CreateEventLocations.html" />
         <TocEntry
           Title="Creating Event Types"
-          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_WorkwithEventTypes.html" />
+          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/CreateEventTypes.html" />
         <TocEntry
           Title="Work with Rooms"
           Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ConfigureRooms.html" />
