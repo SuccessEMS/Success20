@@ -1974,7 +1974,7 @@
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/CategoryTab.htm" />
           <TocEntry
             Title="Event Types Tab"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_EventTypeTab.htm" />
+            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/EventTypeTab.htm" />
           <TocEntry
             Title="LDAP Groups Tab"
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/LDAPGroupTab.htm" />

@@ -942,7 +942,7 @@
             PageNumber="1" />
           <TocEntry
             Title="Event Types Tab"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_EventTypeTab.htm"
+            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/EventTypeTab.htm"
             BreakType="chapter"
             StartSection="false"
             PageNumberReset="continue"
