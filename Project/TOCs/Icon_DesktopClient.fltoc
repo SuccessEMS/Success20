@@ -183,7 +183,7 @@
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigCategory.html">
           <TocEntry
             Title="Enable Visitor Management"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_EnableVisitorMgmt.htm" />
+            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/EnableVisitorMgmt.htm" />
         </TocEntry>
         <TocEntry
           Title="Configure Departments"
