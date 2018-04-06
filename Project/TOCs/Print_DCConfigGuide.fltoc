@@ -173,7 +173,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Configure Building Hours"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigBuildingHours.html"
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigBuildingHours.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -406,7 +406,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Configure Calendar Styles"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigCalendarStyles.html"
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigCalendarStyles.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -585,7 +585,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Configure Calculations"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigCalc.htm"
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigCalc.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -775,7 +775,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Configure Calendar Formats"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigCalFormat.htm"
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigCalFormat.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"

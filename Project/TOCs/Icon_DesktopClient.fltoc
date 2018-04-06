@@ -79,7 +79,7 @@
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigBuilding.html" />
         <TocEntry
           Title="Configure Building Hours"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigBuildingHours.html">
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigBuildingHours.html">
           <TocEntry
             Title="Building Hours Wizard"
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/BuildHourWiz.htm" />
@@ -155,7 +155,7 @@
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ExportPricingInfoBillableItems.htm" />
         <TocEntry
           Title="Configure Calculations"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigCalc.htm" />
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigCalc.htm" />
         <TocEntry
           Title="Configure Accounts"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigAccount.htm" />
@@ -209,7 +209,7 @@
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigRoomCardFormat.htm" />
         <TocEntry
           Title="Configure Calendar Formats"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigCalFormat.htm" />
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigCalFormat.htm" />
         <TocEntry
           Title="Configure Reservation Wizard Templates"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigResWiz.htm" />
@@ -252,7 +252,7 @@
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigWordMergeDoc.html"></TocEntry>
         <TocEntry
           Title="Configure Calendar Styles"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigCalendarStyles.html" />
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigCalendarStyles.html" />
       </TocEntry>
       <TocEntry
         Title="Configuration &gt; Everyday User Applications"
