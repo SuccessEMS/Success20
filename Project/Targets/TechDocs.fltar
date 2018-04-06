@@ -20,7 +20,8 @@
   UseEmptyAltText="true"
   MenuSkin="/Project/Skins/SideMenu.flskn"
   MasterStylesheetOverride="true"
-  TopNavTocPath="true">
+  TopNavTocPath="true"
+  SearchFilterSet="/Project/Advanced/Version.flsfs">
   <PrintedOutput
     CollapseMargins="true"
     GenerateTOCProxy="true"
