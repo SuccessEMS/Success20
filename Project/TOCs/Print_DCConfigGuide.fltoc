@@ -1489,7 +1489,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Currency Configuration Wizard"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_CurrencyConfigWiz.htm"
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/CurrencyConfigWiz.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
