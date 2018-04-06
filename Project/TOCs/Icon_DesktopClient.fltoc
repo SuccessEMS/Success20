@@ -411,7 +411,7 @@
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/OverviewUserProc.htm" />
         <TocEntry
           Title="Configure Users"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigUsers.htm" />
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigUsers.htm" />
         <TocEntry
           Title="Configure User Templates"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigUserTemp.htm" />
