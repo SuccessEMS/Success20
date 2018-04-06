@@ -1808,7 +1808,7 @@
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigureServicesforCat.htm" />
         <TocEntry
           Title="Configure Groupings for a Resource"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigGroupingsResource.html" />
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigGroupingsResource.html" />
         <TocEntry
           Title="Define Production Areas and Production Items for a Catering Resource"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_DefineProdAreaItems.htm" />
