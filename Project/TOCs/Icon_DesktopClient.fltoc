@@ -375,7 +375,7 @@
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/EditGroupInfo.htm" />
           <TocEntry
             Title="Import Groups"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ImportGroup.htm" />
+            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ImportGroup.htm" />
         </TocEntry>
         <TocEntry
           Title="Configure Contacts"
