@@ -408,7 +408,7 @@
         Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/SysAdminSecurity.html">
         <TocEntry
           Title="Overview of User Processes"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_OverviewUserProc.htm" />
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/OverviewUserProc.htm" />
         <TocEntry
           Title="Configure Users"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigUsers.htm" />
