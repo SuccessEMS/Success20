@@ -54,7 +54,7 @@
         Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigFacil.html">
         <TocEntry
           Title="Overview of Configuring Rooms"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_OverviewConfigRooms.html">
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/OverviewConfigRooms.html">
           <TocEntry
             Title="Configure Rooms"
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigRooms.html"></TocEntry>
