@@ -18,7 +18,7 @@
                 <MadCap:xref href="DC_CG_ConfigOverrideRooms.htm">Configure Override Rooms</MadCap:xref>
             </li>
             <li>
-                <MadCap:xref href="DesktopClient_ConfigEventType.html">Configure Event Types</MadCap:xref>
+                <MadCap:xref href="ConfigEventType.html">Configure Event Types</MadCap:xref>
             </li>
             <li>
                 <MadCap:xref href="#booktemplate">Configure a Video Conference Booking Template</MadCap:xref>
@@ -30,14 +30,14 @@
         <h2 class="Heading2"><a name="ConfigureVCRoomFeatures"></a>Configuring Video Conference Room Features</h2>
         <p>A feature is a built-in or permanent attribute of a room, such as a network connection, a built-in plasma TV, window, and so on. Your users can use features as criteria when they are searching for a room. They can also filter the available rooms that can be reserved for an event by room features. After you configure different room features for your organization, you must indicate which rooms have these features.</p>
         <ol>
-            <li>Configure Room Features in EMS Desktop Client to reflect your video conferencing equipment options, such as a projector or a webcam. For detailed instructions, See Also: <MadCap:xref href="DesktopClient_ConfigFeatures.html">Configuring Features</MadCap:xref>.</li>
+            <li>Configure Room Features in EMS Desktop Client to reflect your video conferencing equipment options, such as a projector or a webcam. For detailed instructions, See Also: <MadCap:xref href="ConfigFeatures.html">Configuring Features</MadCap:xref>.</li>
         </ol>
         <p class="note-box"><span class="bold">Tip</span>:&#160;Be sure to select <span class="bold">Tied to Resource</span> when configuring a video conference Feature. This links the room to video conferencing equipment and services and streamlines the booking process. If you want EMS Web App users to see this feature when they are searching for available space, leave Available to Everyday Users selected.</p>
         <p>
             <img src="Images/DC_CG_ConfigVC1.png" />
         </p>
         <ol MadCap:continue="true">
-            <li>Associate the feature(s) with Rooms (on the Features tab for Room Configuration); move the feature from the Available panel to the Selected panel as shown below. For detailed instructions, See Also: <a href="DesktopClient_ConfigRooms.html">Configuring Rooms</a>.</li>
+            <li>Associate the feature(s) with Rooms (on the Features tab for Room Configuration); move the feature from the Available panel to the Selected panel as shown below. For detailed instructions, See Also: <a href="ConfigRooms.html">Configuring Rooms</a>.</li>
         </ol>
         <p class="note-box"><span class="bold">Tip</span>:&#160;Do not select the Maintain Inventory option when you are configuring this resource.</p>
         <p>
@@ -47,16 +47,16 @@
         <p>Configure several service categories to represent additional services to be performed for the video conference, such as A/V Setup, and a Mobile Video Conference Cart.</p>
         <ol>
             <li>Configure a category for video conferencing services. <MadCap:xref href="DC_CG_ConfigCategory.html">Click here for detailed instructions on Configuring Categories</MadCap:xref>.</li>
-            <li>Configure resources and services within the Category for equipment, setup, tear down, etc. For detailed instructions, See Also: <MadCap:xref href="DesktopClient_ConfigResourcesforCat.html">Configuring Resources for a Category</MadCap:xref>. Depending on your organization, you may need to configure two types of video conferencing resources for the category that you just created:</li>
+            <li>Configure resources and services within the Category for equipment, setup, tear down, etc. For detailed instructions, See Also: <MadCap:xref href="ConfigResourcesforCat.html">Configuring Resources for a Category</MadCap:xref>. Depending on your organization, you may need to configure two types of video conferencing resources for the category that you just created:</li>
         </ol>
         <ul>
             <li>Built-in video conferencing equipment, such as a Built-in Video Conference Equipment (Note: Do not select the Maintain Inventory option).</li>
             <li>A Mobile Video Conferencing Cart (Note: Be sure to select the Maintain Inventory option , plus a value in the Quantity Available field).</li>
         </ul>
         <p class="note-box">Tip: You can use the Room Configuration Wizard to mass-assign a feature to multiple rooms in a single step. Additionally, you may need to set the Status for these services to Request if your organization requires approvals.</p>
-        <p>For detailed instructions, See Also: <MadCap:xref href="DC_CG_RoomAdminWizard.htm">Room Administration Wizard</MadCap:xref>.</p>
+        <p>For detailed instructions, See Also: <MadCap:xref href="RoomAdminWizard.htm">Room Administration Wizard</MadCap:xref>.</p>
         <h2><a name="booktemplate"></a>Configure a Video Conference Booking Template</h2>
-        <p>For detailed instructions, see <a href="DesktopClient_ConfigEverydayUserProcessTemplate.htm">Configuring an Everyday User Process Template</a> and use the example below.</p>
+        <p>For detailed instructions, see <a href="ConfigEverydayUserProcessTemplate.htm">Configuring an Everyday User Process Template</a> and use the example below.</p>
         <p class="note-box"><span class="bold">Tip</span>: Video conferences are typically reserved in EMS Web App due to its streamlined permissions management and ease of use (especially the Calendar view). If you have a significant number of users who book video conferences in EMS Desktop Client, especially if they have limited access and may not be comfortable using the more expert users' booking process, you may wish to create a video conference template for the Reservation Wizard. Familiarize yourself with the process here and then for detailed instructions, See Also: <a href="DC_CG_ConfigResWiz.htm">Configure Reservation Wizard templates</a>.</p>
         <ol>
             <li>Set the Mode to Self Serve and ensure the Video Conference option is selected for the template. If your organization requires such meetings to be approved, use Requested Request Status.</li>

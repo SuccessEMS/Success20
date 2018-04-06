@@ -98,7 +98,7 @@
               Link="/Content/EMSDesktopClient/44/CG_44/DC_CG_ConfigGenerRoomQRCode.htm" />
             <TocEntry
               Title="Import Rooms"
-              Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ImportRooms.htm" />
+              Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ImportRooms.htm" />
             <TocEntry
               Title="Export Pricing Information for a Room"
               Link="/Content/EMSDesktopClient/44/CG_44/DC_CG_44_ExportPricingInfo.htm" />
@@ -251,7 +251,7 @@
             Link="/Content/EMSDesktopClient/44/CG_44/DC_CG_44_ConfigMessages.htm" />
           <TocEntry
             Title="Configure Special Dates"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigSpecialDates.html" />
+            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigSpecialDates.html" />
           <TocEntry
             Title="Configure User-Defined Fields"
             Link="/Content/EMSDesktopClient/44/CG_44/DC_CG_44_ConfigUDF.htm" />
