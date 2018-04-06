@@ -1456,7 +1456,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Import Reservations Utility"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ImportResUtil.htm"
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ImportResUtil.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
