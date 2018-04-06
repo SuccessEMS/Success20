@@ -133,7 +133,7 @@
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigGroupingsResource.html" />
         <TocEntry
           Title="Define Production Areas and Production Items for a Catering Resource"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_DefineProdAreaItems.htm" />
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DefineProdAreaItems.htm" />
         <TocEntry
           Title="Configure Pricing for a Resource in the Edit Pricing Window"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigPricingResourceEditPriceWin.htm" />
