@@ -62,7 +62,7 @@
         PageNumber="1" />
       <TocEntry
         Title="EMS Browser Window"
-        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_EMSBrowserWindow.htm"
+        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/EMSBrowserWindow.htm"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
