@@ -1612,7 +1612,7 @@
         PageNumber="1">
         <TocEntry
           Title="Special Date Import File Specification"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_SpecialDateImportFileSpec.htm"
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/SpecialDateImportFileSpec.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
