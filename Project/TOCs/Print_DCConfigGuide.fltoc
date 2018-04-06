@@ -574,7 +574,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Export Pricing Information for Billable Items (Rooms &amp; Resources)"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ExportPricingInfoBillableItems.htm"
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ExportPricingInfoBillableItems.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
