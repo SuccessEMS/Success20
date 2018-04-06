@@ -2061,7 +2061,7 @@
       </TocEntry>
       <TocEntry
         Title="System Administration &gt; Settings"
-        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_SystemAdministrationSettings.htm">
+        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/SystemAdministrationSettings.htm">
         <TocEntry
           Title="Edit System Parameters"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_EditSysParam.htm" />
