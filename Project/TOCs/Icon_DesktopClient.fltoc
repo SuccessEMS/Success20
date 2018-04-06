@@ -219,7 +219,7 @@
         Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigOther.html">
         <TocEntry
           Title="Configure Event Types"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigEventType.html" />
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigEventType.html" />
         <TocEntry
           Title="Configure Group Types"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigGroupType.html" />

@@ -285,7 +285,7 @@
         PageNumber="1">
         <TocEntry
           Title="Configure Event Types"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigEventType.html"
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigEventType.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
