@@ -292,7 +292,7 @@
           <Property
             Name="FontWeight">normal</Property>
           <Property
-            Name="Color">#la6bb8</Property>
+            Name="Color">#1a6bb8</Property>
         </Properties>
       </Style>
       <Style
@@ -329,7 +329,7 @@
           <Property
             Name="FontSize">0.9em</Property>
           <Property
-            Name="Color">#97d700</Property>
+            Name="Color">#124775</Property>
         </Properties>
       </Style>
       <Style
@@ -357,21 +357,21 @@
         Name="Search Result Link (visited)">
         <Properties>
           <Property
-            Name="Color">#2ebaf5</Property>
+            Name="Color">#97d700</Property>
         </Properties>
       </Style>
       <Style
         Name="Search Result Link (focus)">
         <Properties>
           <Property
-            Name="Color">#97d700</Property>
+            Name="Color">#124775</Property>
         </Properties>
       </Style>
       <Style
         Name="Search Result Link (hover)">
         <Properties>
           <Property
-            Name="Color">#97d700</Property>
+            Name="Color">#124775</Property>
         </Properties>
       </Style>
       <Style
