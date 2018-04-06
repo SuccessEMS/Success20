@@ -66,7 +66,7 @@
         Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ManageEventfromEventSumPg.html">
         <TocEntry
           Title="Add Events to Your Personal Email Calendar"
-          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_AddEventstoPersonalEmailCal.html" />
+          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/AddEventstoPersonalEmailCal.html" />
         <TocEntry
           Title="Add Event Dates"
           Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/AddEventDates.html" />

@@ -83,7 +83,7 @@
       ChapterNumberReset="continue">
       <TocEntry
         Title="Add Events to Your Personal Email Calendar"
-        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_AddEventstoPersonalEmailCal.html"
+        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/AddEventstoPersonalEmailCal.html"
         BreakType="chapter"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
