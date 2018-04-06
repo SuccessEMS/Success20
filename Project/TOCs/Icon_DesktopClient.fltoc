@@ -445,7 +445,7 @@
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ImportResUtil.htm"></TocEntry>
         <TocEntry
           Title="View and Email Logged-In Users"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ViewEmailLoggedUsers.htm" />
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ViewEmailLoggedUsers.htm" />
         <TocEntry
           Title="Deleting Old Data"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_DeleteOldData.htm" />

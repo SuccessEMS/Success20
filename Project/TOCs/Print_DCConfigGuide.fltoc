@@ -1467,7 +1467,7 @@
           PageNumber="1" />
         <TocEntry
           Title="View and Email Logged-In Users"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ViewEmailLoggedUsers.htm"
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ViewEmailLoggedUsers.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
