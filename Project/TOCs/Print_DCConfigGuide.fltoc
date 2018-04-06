@@ -150,7 +150,7 @@
             PageNumber="1" />
           <TocEntry
             Title="Import Rooms"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ImportRooms.htm"
+            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ImportRooms.htm"
             BreakType="chapter"
             StartSection="false"
             PageNumberReset="continue"

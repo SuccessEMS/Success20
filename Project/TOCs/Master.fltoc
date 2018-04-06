@@ -1750,7 +1750,7 @@
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigGenerRoomQRCode.htm" />
           <TocEntry
             Title="Import Rooms"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ImportRooms.htm" />
+            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ImportRooms.htm" />
         </TocEntry>
         <TocEntry
           Title="Configure Buildings"
