@@ -1356,7 +1356,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Configure User Templates"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigUserTemp.htm"
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigUserTemp.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
