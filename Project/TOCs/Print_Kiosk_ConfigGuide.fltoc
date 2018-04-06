@@ -29,7 +29,7 @@
       VolumeNumberReset="same"></TocEntry>
     <TocEntry
       Title="Configure EMS Kiosk App Profiles"
-      Link="/Content/EMSKioskApp/V44.1/B_Config/Kiosk_CG_ConfigKioskAppProfiles.htm"
+      Link="/Content/EMSKioskApp/V44.1/ConfigurationGuide/Kiosk_CG_ConfigKioskAppProfiles.htm"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
@@ -39,7 +39,7 @@
       ChapterNumberReset="continue" />
     <TocEntry
       Title="Configure EMS Kiosk App Menus"
-      Link="/Content/EMSKioskApp/V44.1/B_Config/Kiosk_CG_ConfigKioskAppMenus.htm"
+      Link="/Content/EMSKioskApp/V44.1/ConfigurationGuide/Kiosk_CG_ConfigKioskAppMenus.htm"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
@@ -49,7 +49,7 @@
       ChapterNumberReset="continue" />
     <TocEntry
       Title="Customize the Logo and Background in the EMS Kiosk App"
-      Link="/Content/EMSKioskApp/V44.1/B_Config/Kiosk_CustomizeLogoBackground.htm"
+      Link="/Content/EMSKioskApp/V44.1/ConfigurationGuide/Kiosk_CustomizeLogoBackground.htm"
       BreakType="chapter"
       PageNumberReset="continue"
       PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"

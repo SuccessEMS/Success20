@@ -32,16 +32,16 @@
       Link="/Content/ConfigGuides/6_EMS Kiosk (V44.1) Configuration Guide.htm">
       <TocEntry
         Title="Configure EMS Kiosk App Profiles"
-        Link="/Content/EMSKioskApp/V44.1/B_Config/Kiosk_CG_ConfigKioskAppProfiles.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        Link="/Content/EMSKioskApp/V44.1/ConfigurationGuide/Kiosk_CG_ConfigKioskAppProfiles.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
         Title="Configure EMS Kiosk App Menus"
-        Link="/Content/EMSKioskApp/V44.1/B_Config/Kiosk_CG_ConfigKioskAppMenus.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        Link="/Content/EMSKioskApp/V44.1/ConfigurationGuide/Kiosk_CG_ConfigKioskAppMenus.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
         Title="Customize the Logo and Background in the EMS Kiosk App"
-        Link="/Content/EMSKioskApp/V44.1/B_Config/Kiosk_CustomizeLogoBackground.htm" />
+        Link="/Content/EMSKioskApp/V44.1/ConfigurationGuide/Kiosk_CustomizeLogoBackground.htm" />
       <TocEntry
         Title="PDF"
-        Link="/Content/EMSKioskApp/V44.1/B_Config/Kiosk_Config_PDF.pdf" />
+        Link="/Content/EMSKioskApp/V44.1/ConfigurationGuide/Kiosk_Config_PDF.pdf" />
     </TocEntry>
     <TocEntry
       Title="User Guide"
