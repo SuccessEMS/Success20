@@ -206,7 +206,7 @@
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigCheckinNot.htm" />
         <TocEntry
           Title="Configure Room Card Formats"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigRoomCardFormat.htm" />
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigRoomCardFormat.htm" />
         <TocEntry
           Title="Configure Calendar Formats"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigCalFormat.htm" />

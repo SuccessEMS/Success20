@@ -764,7 +764,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Configure Room Card Formats"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigRoomCardFormat.htm"
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigRoomCardFormat.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
