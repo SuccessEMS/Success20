@@ -1767,7 +1767,7 @@
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigAreas.html" />
         <TocEntry
           Title="Configure Room Types"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigRoomType.html" />
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigRoomType.html" />
         <TocEntry
           Title="Configure Setup Types"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigSetupType.html" />
