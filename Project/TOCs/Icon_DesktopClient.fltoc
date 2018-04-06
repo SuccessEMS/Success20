@@ -196,7 +196,7 @@
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigNotRules.htm">
           <TocEntry
             Title="Types of Notification Rules"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_TypesNotifiRules.htm" />
+            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/TypesNotifiRules.htm" />
         </TocEntry>
         <TocEntry
           Title="Configure Group Notification Rules"

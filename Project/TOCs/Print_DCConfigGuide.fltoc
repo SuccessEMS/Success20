@@ -730,7 +730,7 @@
           PageNumber="1">
           <TocEntry
             Title="Types of Notification Rules"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_TypesNotifiRules.htm"
+            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/TypesNotifiRules.htm"
             BreakType="chapter"
             StartSection="false"
             PageNumberReset="continue"
