@@ -40,7 +40,7 @@
         PageNumber="1" />
       <TocEntry
         Title="Authentication Options for EMS Desktop Client"
-        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_AuthenticationOptions.html"
+        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/AuthenticationOptions.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -184,7 +184,7 @@
           PageNumber="1">
           <TocEntry
             Title="Building Hours Wizard"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_BuildHourWiz.htm"
+            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/BuildHourWiz.htm"
             BreakType="chapter"
             StartSection="false"
             PageNumberReset="continue"
@@ -429,7 +429,7 @@
         PageNumber="1">
         <TocEntry
           Title="Categories, Resources, Services - What's the Difference?"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_CategoriesResourcesServices_WhatsDiff.htm"
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/CategoriesResourcesServices_WhatsDiff.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -853,7 +853,7 @@
             PageNumber="1" />
           <TocEntry
             Title="Assign Templates to Everyday Users"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_AssignTempEverydayUser.htm"
+            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/AssignTempEverydayUser.htm"
             BreakType="chapter"
             StartSection="false"
             PageNumberReset="continue"
@@ -887,7 +887,7 @@
             PageNumber="1" />
           <TocEntry
             Title="Booking Rules Tab"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_BookingRulesTab.htm"
+            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/BookingRulesTab.htm"
             BreakType="chapter"
             StartSection="false"
             PageNumberReset="continue"
@@ -931,7 +931,7 @@
             PageNumber="1" />
           <TocEntry
             Title="Categories Tab"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_CategoryTab.htm"
+            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/CategoryTab.htm"
             BreakType="chapter"
             StartSection="false"
             PageNumberReset="continue"
@@ -1401,7 +1401,7 @@
         PageNumber="1">
         <TocEntry
           Title="Change Group Wizard"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ChangeGroupWiz.htm"
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ChangeGroupWiz.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -1500,7 +1500,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Booking Move/Change Status Wizard"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_BookingMoveChangeStatusWiz.htm"
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/BookingMoveChangeStatusWiz.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"

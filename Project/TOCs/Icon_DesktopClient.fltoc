@@ -42,7 +42,7 @@
         Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/OverviewofDCConfig.htm" />
       <TocEntry
         Title="Authentication Options for EMS Desktop Client"
-        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_AuthenticationOptions.html" />
+        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/AuthenticationOptions.html" />
       <TocEntry
         Title="EMS Main Window"
         Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_EMSMainWindow.html" />
@@ -82,7 +82,7 @@
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigBuildingHours.html">
           <TocEntry
             Title="Building Hours Wizard"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_BuildHourWiz.htm" />
+            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/BuildHourWiz.htm" />
         </TocEntry>
         <TocEntry
           Title="Configure Areas"
@@ -111,7 +111,7 @@
         Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/OverviewConfigRes.html">
         <TocEntry
           Title="Categories, Resources, Services - What's the Difference?"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_CategoriesResourcesServices_WhatsDiff.htm" />
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/CategoriesResourcesServices_WhatsDiff.htm" />
         <TocEntry
           Title="Configure Resources for a Category"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigResourcesforCat.html">
@@ -271,7 +271,7 @@
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigGroupsContactsEverydayUser.htm" />
           <TocEntry
             Title="Assign Templates to Everyday Users"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_AssignTempEverydayUser.htm" />
+            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/AssignTempEverydayUser.htm" />
         </TocEntry>
         <TocEntry
           Title="Configure Everyday User Process Templates"
@@ -281,7 +281,7 @@
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/WebTemplateTab.htm" />
           <TocEntry
             Title="Booking Rules Tab"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_BookingRulesTab.htm" />
+            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/BookingRulesTab.htm" />
           <TocEntry
             Title="Defaults Tab"
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DefaultsTab.htm" />
@@ -293,7 +293,7 @@
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/RoomsTab.htm" />
           <TocEntry
             Title="Categories Tab"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_CategoryTab.htm" />
+            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/CategoryTab.htm" />
           <TocEntry
             Title="Event Types Tab"
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_EventTypeTab.htm" />
@@ -427,7 +427,7 @@
         Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/SystemAdminTools.html">
         <TocEntry
           Title="Change Group Wizard"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ChangeGroupWiz.htm" />
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ChangeGroupWiz.htm" />
         <TocEntry
           Title="Change Reservation Wizard"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ChangeResWiz.htm" />
@@ -454,7 +454,7 @@
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_CurrencyConfigWiz.htm" />
         <TocEntry
           Title="Booking Move/Change Status Wizard"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_BookingMoveChangeStatusWiz.htm" />
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/BookingMoveChangeStatusWiz.htm" />
         <TocEntry
           Title="Video Display Interface"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/VideoDisplayInterf.htm" />
