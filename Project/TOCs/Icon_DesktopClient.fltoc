@@ -281,7 +281,7 @@
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/WebTemplateTab.htm" />
           <TocEntry
             Title="Booking Rules Tab"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_BookingRulesTab.htm" />
+            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/BookingRulesTab.htm" />
           <TocEntry
             Title="Defaults Tab"
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DefaultsTab.htm" />

@@ -887,7 +887,7 @@
             PageNumber="1" />
           <TocEntry
             Title="Booking Rules Tab"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_BookingRulesTab.htm"
+            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/BookingRulesTab.htm"
             BreakType="chapter"
             StartSection="false"
             PageNumberReset="continue"
@@ -1500,7 +1500,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Booking Move/Change Status Wizard"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_BookingMoveChangeStatusWiz.htm"
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/BookingMoveChangeStatusWiz.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
