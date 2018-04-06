@@ -79,7 +79,7 @@
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigBuilding.html" />
         <TocEntry
           Title="Configure Building Hours"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigBuildingHours.html">
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigBuildingHours.html">
           <TocEntry
             Title="Building Hours Wizard"
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/BuildHourWiz.htm" />
