@@ -321,7 +321,7 @@
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigSecTemplate.htm">
           <TocEntry
             Title="Everyday User Security Template Field Definitions"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigEUSecurityFieldDef.htm" />
+            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigEUSecurityFieldDef.htm" />
           <TocEntry
             Title="Assign Security Templates to Multiple Everyday Users"
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/AssignSecTempMultUser.htm" />
