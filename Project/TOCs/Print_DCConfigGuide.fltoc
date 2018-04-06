@@ -296,7 +296,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Configure Group Types"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigGroupType.html"
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigGroupType.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
