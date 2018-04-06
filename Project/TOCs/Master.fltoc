@@ -2142,7 +2142,7 @@
       </TocEntry>
       <TocEntry
         Title="System Parameters"
-        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_SystemParam.htm">
+        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/SystemParam.htm">
         <TocEntry
           Title="EMS Desktop Client Parameters"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_EMSSystemParam.html" />
