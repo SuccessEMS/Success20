@@ -1412,7 +1412,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Change Reservation Wizard"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ChangeResWiz.htm"
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ChangeResWiz.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
