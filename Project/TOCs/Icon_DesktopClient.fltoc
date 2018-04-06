@@ -405,7 +405,7 @@
       </TocEntry>
       <TocEntry
         Title="System Administration &gt; Security"
-        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_SysAdminSecurity.html">
+        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/SysAdminSecurity.html">
         <TocEntry
           Title="Overview of User Processes"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_OverviewUserProc.htm" />
