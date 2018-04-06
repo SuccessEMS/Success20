@@ -82,7 +82,7 @@
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigBuildingHours.html">
           <TocEntry
             Title="Building Hours Wizard"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_BuildHourWiz.htm" />
+            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/BuildHourWiz.htm" />
         </TocEntry>
         <TocEntry
           Title="Configure Areas"
@@ -111,7 +111,7 @@
         Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/OverviewConfigRes.html">
         <TocEntry
           Title="Categories, Resources, Services - What's the Difference?"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_CategoriesResourcesServices_WhatsDiff.htm" />
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/CategoriesResourcesServices_WhatsDiff.htm" />
         <TocEntry
           Title="Configure Resources for a Category"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigResourcesforCat.html">
