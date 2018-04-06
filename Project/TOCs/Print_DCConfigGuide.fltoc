@@ -975,7 +975,7 @@
             PageNumber="1" />
           <TocEntry
             Title="Parameters Tab"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_ParametersTab.htm"
+            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ParametersTab.htm"
             BreakType="chapter"
             StartSection="false"
             PageNumberReset="continue"

@@ -305,7 +305,7 @@
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/UserDefinedFieldTab.htm" />
           <TocEntry
             Title="Parameters Tab"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_ParametersTab.htm" />
+            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ParametersTab.htm" />
           <TocEntry
             Title="Web Text Tab"
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/WebTextTab.htm" />
