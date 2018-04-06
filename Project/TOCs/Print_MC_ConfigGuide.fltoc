@@ -29,7 +29,7 @@
     VolumeNumberReset="same">
     <TocEntry
       Title="Requirements for Master Calendar"
-      Link="/Content/EMSMasterCalendar/V8/A_Installation/SystemRequirementsandPrerequisites.html"
+      Link="/Content/EMSMasterCalendar/V8/InstallationGuide/SystemRequirementsandPrerequisites.html"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"

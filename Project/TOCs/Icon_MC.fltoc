@@ -8,37 +8,37 @@
       Link="/Content/InstallGuides/9_MasterCalendarV8/9_MasterCalendarV8Home.htm">
       <TocEntry
         Title="System Requirements and Prerequisites"
-        Link="/Content/EMSMasterCalendar/V8/A_Installation/SystemRequirementsandPrerequisites.html" />
+        Link="/Content/EMSMasterCalendar/V8/InstallationGuide/SystemRequirementsandPrerequisites.html" />
       <TocEntry
         Title="Installation Instructions"
-        Link="/Content/EMSMasterCalendar/V8/A_Installation/InstallationInstructions.html">
+        Link="/Content/EMSMasterCalendar/V8/InstallationGuide/InstallationInstructions.html">
         <TocEntry
           Title="Obtain Master Calendar Installation Files"
-          Link="/Content/EMSMasterCalendar/V8/A_Installation/ObtainingMCInstallationFiles.html" />
+          Link="/Content/EMSMasterCalendar/V8/InstallationGuide/ObtainingMCInstallationFiles.html" />
         <TocEntry
           Title="Run the Master Calendar Installer"
-          Link="/Content/EMSMasterCalendar/V8/A_Installation/RunningMCInstaller.html" />
+          Link="/Content/EMSMasterCalendar/V8/InstallationGuide/RunningMCInstaller.html" />
         <TocEntry
           Title="Install or Upgrade the Database Component in Master Calendar"
-          Link="/Content/EMSMasterCalendar/V8/A_Installation/InstallUpgradeDatabaseComp.html" />
+          Link="/Content/EMSMasterCalendar/V8/InstallationGuide/InstallUpgradeDatabaseComp.html" />
         <TocEntry
           Title="Install or Upgrade the Master Calendar Web Service"
-          Link="/Content/EMSMasterCalendar/V8/A_Installation/InstallUpgradeMCWebService.html" />
+          Link="/Content/EMSMasterCalendar/V8/InstallationGuide/InstallUpgradeMCWebService.html" />
         <TocEntry
           Title="Install or Upgrade the Master Calendar Email Notification Service"
-          Link="/Content/EMSMasterCalendar/V8/A_Installation/InstallUpgradeMCEmailsNotSvc.htm" />
+          Link="/Content/EMSMasterCalendar/V8/InstallationGuide/InstallUpgradeMCEmailsNotSvc.htm" />
         <TocEntry
           Title="Execute Master Calendar Data Connector Script"
-          Link="/Content/EMSMasterCalendar/V8/A_Installation/ExecuteDataConnectorScript.htm" />
+          Link="/Content/EMSMasterCalendar/V8/InstallationGuide/ExecuteDataConnectorScript.htm" />
         <TocEntry
           Title="Install or Upgrade the Master Calendar Data Connector Service"
-          Link="/Content/EMSMasterCalendar/V8/A_Installation/InstallorUpgradeDataConnectorService.htm" />
+          Link="/Content/EMSMasterCalendar/V8/InstallationGuide/InstallorUpgradeDataConnectorService.htm" />
         <TocEntry
           Title="Install or Upgrade the Master Calendar Import Service"
-          Link="/Content/EMSMasterCalendar/V8/A_Installation/InstallingUpgradingtheImportService.htm" />
+          Link="/Content/EMSMasterCalendar/V8/InstallationGuide/InstallingUpgradingtheImportService.htm" />
         <TocEntry
           Title="Starting Master Calendar"
-          Link="/Content/EMSMasterCalendar/V8/A_Installation/StartingMasterCalendar.htm" />
+          Link="/Content/EMSMasterCalendar/V8/InstallationGuide/StartingMasterCalendar.htm" />
       </TocEntry>
     </TocEntry>
     <TocEntry
