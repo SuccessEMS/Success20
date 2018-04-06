@@ -353,7 +353,7 @@
       </TocEntry>
       <TocEntry
         Title="Configuration &gt; Kiosk"
-        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigurationKiosk.htm">
+        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigurationKiosk.htm">
         <TocEntry
           Title="Configure Kiosk Profiles"
           Link="/Content/EMSKioskApp/V44.1/ConfigurationGuide/Kiosk_CG_ConfigKioskAppProfiles.htm" />
