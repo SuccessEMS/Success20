@@ -196,7 +196,7 @@
         </TocEntry>
         <TocEntry
           Title="Configure Areas"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigAreas.html"
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigAreas.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"

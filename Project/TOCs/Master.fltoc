@@ -1764,7 +1764,7 @@
         </TocEntry>
         <TocEntry
           Title="Configure Areas"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigAreas.html" />
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigAreas.html" />
         <TocEntry
           Title="Configure Room Types"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigRoomType.html" />
