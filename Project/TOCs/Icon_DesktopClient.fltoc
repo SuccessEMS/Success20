@@ -170,7 +170,7 @@
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigBillRefPO.htm" />
         <TocEntry
           Title="Establishing Billing Reference and PO Behavior"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_EstablishBillingRef.htm" />
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/EstablishBillingRef.htm" />
         <TocEntry
           Title="Configure Currencies"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigCurrencies.htm" />
