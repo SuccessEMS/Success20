@@ -128,7 +128,7 @@
             PageNumber="1" />
           <TocEntry
             Title="Configure Override Rooms"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigOverrideRooms.htm"
+            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigOverrideRooms.htm"
             BreakType="chapter"
             StartSection="false"
             PageNumberReset="continue"
