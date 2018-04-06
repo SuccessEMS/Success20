@@ -1786,7 +1786,7 @@
       </TocEntry>
       <TocEntry
         Title="Configuration &gt; Resources"
-        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_OverviewConfigRes.html">
+        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/OverviewConfigRes.html">
         <TocEntry
           Title="Categories, Resources, Services - What's the Difference?"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_CategoriesResourcesServices_WhatsDiff.htm" />
