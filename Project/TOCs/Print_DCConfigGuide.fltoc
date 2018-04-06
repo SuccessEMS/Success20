@@ -629,7 +629,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Configure Billing References and PO Numbers"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigBillRefPO.htm"
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigBillRefPO.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
