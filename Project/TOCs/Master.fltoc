@@ -1776,7 +1776,7 @@
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigFeatures.html" />
         <TocEntry
           Title="Configure Floors"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigFloors.html" />
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigFloors.html" />
         <TocEntry
           Title="Configure Floor Plans"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigFloorPlans.html" />

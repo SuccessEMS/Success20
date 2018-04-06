@@ -240,7 +240,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Configure Floors"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigFloors.html"
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigFloors.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
