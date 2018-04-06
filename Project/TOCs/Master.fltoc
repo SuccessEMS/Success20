@@ -2002,7 +2002,7 @@
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigEUSecurityFieldDef.htm" />
           <TocEntry
             Title="Assign Security Templates to Multiple Everyday Users"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_AssignSecTempMultUser.htm" />
+            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/AssignSecTempMultUser.htm" />
         </TocEntry>
         <TocEntry
           Title="Configure EMS Web App Menus"
@@ -2193,7 +2193,7 @@
       </TocEntry>
       <TocEntry
         Title="Academic Import Utility"
-        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_AcademicImportUtil.html" />
+        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/AcademicImportUtil.html" />
       <TocEntry
         Title="Deployment of EMS Desktop Client"
         Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_Deploy_DeploymentOptions.htm">
