@@ -1199,7 +1199,7 @@
           PageNumber="1">
           <TocEntry
             Title="Configure Additional Information for a Group"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigAddInfoGroup.html"
+            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigAddInfoGroup.html"
             BreakType="chapter"
             StartSection="false"
             PageNumberReset="continue"
