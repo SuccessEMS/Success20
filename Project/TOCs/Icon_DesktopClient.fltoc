@@ -268,7 +268,7 @@
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_EmailingEverydayUser.html" />
           <TocEntry
             Title="Configure Groups and Contacts from an Everyday User"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigGroupsContactsEverydayUser.htm" />
+            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigGroupsContactsEverydayUser.htm" />
           <TocEntry
             Title="Assign Templates to Everyday Users"
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/AssignTempEverydayUser.htm" />
