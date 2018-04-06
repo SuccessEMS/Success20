@@ -48,29 +48,29 @@
       Link="/Content/UserGuides/4_EMSKiosk_UG.htm">
       <TocEntry
         Title="Get Started with EMS Kiosk App"
-        Link="/Content/EMSKioskApp/V44.1/C_User/Kiosk_UG_GetStarted.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+        Link="/Content/EMSKioskApp/V44.1/UserGuide/Kiosk_UG_GetStarted.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
         <TocEntry
           Title="Overview: The EMS Kiosk App Window"
-          Link="/Content/EMSKioskApp/V44.1/C_User/Kiosk_UG_OverviewKioskWindow.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Link="/Content/EMSKioskApp/V44.1/UserGuide/Kiosk_UG_OverviewKioskWindow.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       </TocEntry>
       <TocEntry
         Title="View Your Reservations and Check In to EMS Kiosk App"
-        Link="/Content/EMSKioskApp/V44.1/C_User/Kiosk_UG_ViewYourRes.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        Link="/Content/EMSKioskApp/V44.1/UserGuide/Kiosk_UG_ViewYourRes.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
         Title="Book a Desk or Workspace in EMS Kiosk App"
-        Link="/Content/EMSKioskApp/V44.1/C_User/Kiosk_UG_BookDeskWorkspace.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        Link="/Content/EMSKioskApp/V44.1/UserGuide/Kiosk_UG_BookDeskWorkspace.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
         Title="Locate a Person in EMS Kiosk App"
-        Link="/Content/EMSKioskApp/V44.1/C_User/Kiosk_UG_LocatePerson.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        Link="/Content/EMSKioskApp/V44.1/UserGuide/Kiosk_UG_LocatePerson.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
         Title="Locate a Space in EMS Kiosk App"
-        Link="/Content/EMSKioskApp/V44.1/C_User/Kiosk_UG_LocateSpace.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        Link="/Content/EMSKioskApp/V44.1/UserGuide/Kiosk_UG_LocateSpace.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
         Title="View Today's Events in EMS Kiosk App"
-        Link="/Content/EMSKioskApp/V44.1/C_User/Kiosk_UG_ViewTodaysEvents.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        Link="/Content/EMSKioskApp/V44.1/UserGuide/Kiosk_UG_ViewTodaysEvents.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
         Title="PDF"
-        Link="/Content/EMSKioskApp/V44.1/C_User/Kiosk_UG_PDF.pdf" />
+        Link="/Content/EMSKioskApp/V44.1/UserGuide/Kiosk_UG_PDF.pdf" />
     </TocEntry>
     <TocEntry
       Title="Older Releases"
