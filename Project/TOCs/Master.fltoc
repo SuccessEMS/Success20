@@ -1717,7 +1717,7 @@
         Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/StartingEMS.html" />
       <TocEntry
         Title="Overview of EMS Desktop Client Configuration"
-        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_OverviewofDCConfig.htm" />
+        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/OverviewofDCConfig.htm" />
       <TocEntry
         Title="Authentication Options for EMS Desktop Client"
         Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_AuthenticationOptions.html" />

@@ -29,7 +29,7 @@
         VolumeNumberReset="same" />
       <TocEntry
         Title="Overview of EMS Desktop Client Configuration"
-        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_OverviewofDCConfig.htm"
+        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/OverviewofDCConfig.htm"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -1334,7 +1334,7 @@
         PageNumber="1">
         <TocEntry
           Title="Overview of User Processes"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_OverviewUserProc.htm"
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/OverviewUserProc.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
