@@ -474,7 +474,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Define Resource Selections and Selection Items"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_DefineResourceSel.htm"
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DefineResourceSel.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"

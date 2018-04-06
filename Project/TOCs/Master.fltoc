@@ -1802,7 +1802,7 @@
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ImportResforCat.htm" />
         <TocEntry
           Title="Define Resource Selections and Selection Items"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_DefineResourceSel.htm" />
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DefineResourceSel.htm" />
         <TocEntry
           Title="Configure Services for a Category"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigureServicesforCat.htm" />
