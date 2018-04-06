@@ -1020,7 +1020,7 @@
         </TocEntry>
         <TocEntry
           Title="Configure Everyday User Security Templates"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigSecTemplate.htm"
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigSecTemplate.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"

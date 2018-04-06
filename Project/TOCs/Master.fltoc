@@ -1996,7 +1996,7 @@
         </TocEntry>
         <TocEntry
           Title="Configure Everyday User Security Templates"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigSecTemplate.htm">
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigSecTemplate.htm">
           <TocEntry
             Title="Everyday User Security Template Field Definitions"
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigEUSecurityFieldDef.htm" />
