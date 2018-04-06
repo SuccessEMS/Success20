@@ -2176,7 +2176,7 @@
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_GroupImportFileSpec.htm" />
         <TocEntry
           Title="Reservation Import File Specification"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ResImportFileSpec.htm" />
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ResImportFileSpec.htm" />
         <TocEntry
           Title="Final Exam Schedule Import File Specification"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_FinalExamSchedImportFileSpec.htm" />
