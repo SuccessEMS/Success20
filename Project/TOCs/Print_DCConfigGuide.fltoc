@@ -463,7 +463,7 @@
         </TocEntry>
         <TocEntry
           Title="Import Resources for a Category"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ImportResforCat.htm"
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ImportResforCat.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
