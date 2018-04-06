@@ -1915,7 +1915,7 @@
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigSpecialDates.html" />
         <TocEntry
           Title="Configure User-Defined Fields"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigUDF.html" />
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigUDF.html" />
         <TocEntry
           Title="Configure Reservation Sources"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigReservSources.html" />
