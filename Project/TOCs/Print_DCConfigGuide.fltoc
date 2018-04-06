@@ -1311,7 +1311,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Set Global Email Preference to SMTP and My Personal Email Preference to Outlook"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_SetGlobalEmailPrefSMTP.htm"
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/SetGlobalEmailPrefSMTP.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
