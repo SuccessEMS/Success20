@@ -95,7 +95,7 @@
           PageNumber="1">
           <TocEntry
             Title="Configure Rooms"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigRooms.html"
+            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigRooms.html"
             BreakType="chapter"
             StartSection="false"
             PageNumberReset="continue"
