@@ -719,7 +719,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Configure Notification Rules"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigNotRules.htm"
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigNotRules.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
