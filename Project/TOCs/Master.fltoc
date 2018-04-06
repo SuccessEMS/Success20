@@ -1720,7 +1720,7 @@
         Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/OverviewofDCConfig.htm" />
       <TocEntry
         Title="Authentication Options for EMS Desktop Client"
-        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_AuthenticationOptions.html" />
+        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/AuthenticationOptions.html" />
       <TocEntry
         Title="EMS Main Window"
         Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_EMSMainWindow.html" />

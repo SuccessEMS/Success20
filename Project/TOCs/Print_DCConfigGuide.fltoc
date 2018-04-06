@@ -40,7 +40,7 @@
         PageNumber="1" />
       <TocEntry
         Title="Authentication Options for EMS Desktop Client"
-        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_AuthenticationOptions.html"
+        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/AuthenticationOptions.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
