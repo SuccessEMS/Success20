@@ -180,7 +180,8 @@
             <p><span class="bold">Notes:</span>&#160;The EMS Desktop Client runs from the executable file located here:  C:\Users\Username\AppData\Roaming\EMS2016\EMSApplication.exe. Because we can’t point to any two of these environments with the same EMS executable Desktop Client file, users must clear the EMS registry entry and then point to the desired environment.</p>
         </div>
         <ol class="number-list">
-            <li>Clear the EMS&#160;registry entry by utilizing the “Reset EMS&#160;V44.1 Connection.reg” file. The content of this file is as follows:<div class="indent"><p class="beforelist">Windows Registry Editor Version 5.00</p><p class="beforelist">[HKEY_CURRENT_USER\SOFTWARE\EMS Software\Version 44.1]</p><p class="indent">"AppFacadeUrl"=-</p></div></li>
+            <li>
+                <MadCap:concept term="V44.1" />Clear the EMS&#160;registry entry by utilizing the “Reset EMS&#160;V44.1 Connection.reg” file. The content of this file is as follows:<div class="indent"><p class="beforelist">Windows Registry Editor Version 5.00</p><p class="beforelist">[HKEY_CURRENT_USER\SOFTWARE\EMS Software\Version 44.1]</p><p class="indent">"AppFacadeUrl"=-</p></div></li>
         </ol>
         <div class="box-note">
             <p><span class="bold">Note:</span>&#160;This file can be shared with users via SFTP as most e-mail programs will block attachments with the .reg extension. Alternatively, the file can be renamed with a .txt extension and then renamed again on the user side back to .reg. Or users can copy the three lines above into a text editor and save the file as “Reset EMS&#160;V44.1 Connection.reg.”</p>
