@@ -1770,7 +1770,7 @@
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigRoomType.html" />
         <TocEntry
           Title="Configure Setup Types"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigSetupType.html" />
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigSetupType.html" />
         <TocEntry
           Title="Configure Features"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigFeatures.html" />
