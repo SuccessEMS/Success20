@@ -607,7 +607,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Configure Payment Types"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigPaymentType.htm"
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigPaymentType.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"

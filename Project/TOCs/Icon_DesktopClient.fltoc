@@ -161,7 +161,7 @@
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigAccount.htm" />
         <TocEntry
           Title="Configure Payment Types"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigPaymentType.htm" />
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigPaymentType.htm" />
         <TocEntry
           Title="Configure Sales Categories"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigSalesCat.htm" />
