@@ -60,7 +60,7 @@
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigRooms.html"></TocEntry>
           <TocEntry
             Title="Room Configuration Wizard"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_RoomConfigWiz.htm" />
+            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/RoomConfigWiz.htm" />
           <TocEntry
             Title="Configure Room Pricing"
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigRoomPricing.htm" />
