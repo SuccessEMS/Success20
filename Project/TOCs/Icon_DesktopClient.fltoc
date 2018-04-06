@@ -464,7 +464,7 @@
         Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/SystemParam.htm">
         <TocEntry
           Title="EMS Desktop Client Parameters"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_EMSSystemParam.html" />
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/EMSSystemParam.html" />
         <TocEntry
           Title="EMS Web App Parameters"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/WebAppParam.htm" />
