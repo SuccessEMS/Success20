@@ -1054,7 +1054,7 @@
         </TocEntry>
         <TocEntry
           Title="Configure EMS Web App Menus"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigWebAppMenu.htm"
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigWebAppMenu.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
