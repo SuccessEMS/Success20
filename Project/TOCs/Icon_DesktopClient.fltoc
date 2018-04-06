@@ -95,7 +95,7 @@
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigSetupType.html" />
         <TocEntry
           Title="Configure Features"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigFeatures.html" />
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigFeatures.html" />
         <TocEntry
           Title="Configure Floors"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigFloors.html"></TocEntry>
