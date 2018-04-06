@@ -986,7 +986,7 @@
             PageNumber="1" />
           <TocEntry
             Title="Web Text Tab"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_WebTextTab.htm"
+            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/WebTextTab.htm"
             BreakType="chapter"
             StartSection="false"
             PageNumberReset="continue"
