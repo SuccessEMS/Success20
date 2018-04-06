@@ -329,7 +329,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Configure Messages"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigMessages.htm"
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigMessages.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
