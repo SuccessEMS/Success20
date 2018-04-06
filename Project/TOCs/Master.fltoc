@@ -1795,7 +1795,7 @@
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigResourcesforCat.html">
           <TocEntry
             Title="Resource Configuration Wizard"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ResourceConfigWiz.htm" />
+            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ResourceConfigWiz.htm" />
         </TocEntry>
         <TocEntry
           Title="Import Resources for a Category"
