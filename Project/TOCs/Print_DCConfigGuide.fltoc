@@ -742,7 +742,7 @@
         </TocEntry>
         <TocEntry
           Title="Configure Group Notification Rules"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigGroupNot.htm"
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigGroupNot.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"

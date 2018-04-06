@@ -1878,7 +1878,7 @@
         </TocEntry>
         <TocEntry
           Title="Configure Group Notification Rules"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigGroupNot.htm" />
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigGroupNot.htm" />
         <TocEntry
           Title="Configure Check-in Notification Rules"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigCheckinNot.htm" />
