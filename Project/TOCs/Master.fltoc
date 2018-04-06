@@ -1980,7 +1980,7 @@
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_LDAPGroupTab.htm" />
           <TocEntry
             Title="User Defined Fields Tab"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_UDFTab.htm" />
+            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/UserDefinedFieldTab.htm" />
           <TocEntry
             Title="Parameters Tab"
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_ParametersTab.htm" />
@@ -1992,7 +1992,7 @@
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_MenuTextTab.htm" />
           <TocEntry
             Title="Terms and Conditions Tab"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_TermsConditionsTab.htm" />
+            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/TermsConditionsTab.htm" />
         </TocEntry>
         <TocEntry
           Title="Configure Everyday User Security Templates"
@@ -2183,7 +2183,7 @@
       </TocEntry>
       <TocEntry
         Title="Video Conferencing"
-        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_VC.html">
+        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/VideoConference.html">
         <TocEntry
           Title="Configure Video Conferencing Capabilities"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigVCCapabilities.htm" />
