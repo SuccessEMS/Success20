@@ -1821,7 +1821,7 @@
       </TocEntry>
       <TocEntry
         Title="Configuration &gt; Billing"
-        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigBilling.htm">
+        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigBilling.htm">
         <TocEntry
           Title="Configure Rate Schedules"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigRateSchedule.htm" />
