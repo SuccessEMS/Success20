@@ -953,7 +953,7 @@
             PageNumber="1" />
           <TocEntry
             Title="LDAP Groups Tab"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_LDAPGroupTab.htm"
+            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/LDAPGroupTab.htm"
             BreakType="chapter"
             StartSection="false"
             PageNumberReset="continue"

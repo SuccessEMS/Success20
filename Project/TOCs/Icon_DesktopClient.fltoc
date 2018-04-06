@@ -299,7 +299,7 @@
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_EventTypeTab.htm" />
           <TocEntry
             Title="LDAP Groups Tab"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_LDAPGroupTab.htm" />
+            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/LDAPGroupTab.htm" />
           <TocEntry
             Title="User Defined Fields Tab"
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/UserDefinedFieldTab.htm" />
