@@ -1894,7 +1894,7 @@
       </TocEntry>
       <TocEntry
         Title="Configuration &gt; Other"
-        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigOther.html">
+        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigOther.html">
         <TocEntry
           Title="Configure Event Types"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigEventType.html" />

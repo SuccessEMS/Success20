@@ -274,7 +274,7 @@
       </TocEntry>
       <TocEntry
         Title="Configuration &gt; Other"
-        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigOther.html"
+        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigOther.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
