@@ -433,7 +433,7 @@
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ChangeResWiz.htm" />
         <TocEntry
           Title="Room Administration Wizard"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_RoomAdminWizard.htm" />
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/RoomAdminWizard.htm" />
         <TocEntry
           Title="Manage Saved Reports"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ManageSavedReport.htm" />
@@ -489,7 +489,7 @@
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/RoomImportFileSpec.htm" />
         <TocEntry
           Title="Resource Import File Specification"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ResourceImportFileSpec.htm" />
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ResourceImportFileSpec.htm" />
         <TocEntry
           Title="Group Import File Specification"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_GroupImportFileSpec.htm" />
