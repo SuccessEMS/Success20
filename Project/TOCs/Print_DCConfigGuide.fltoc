@@ -1367,7 +1367,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Configure Academic User Templates"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigAcadUserTemp.htm"
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigAcadUserTemp.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
