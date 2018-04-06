@@ -17,7 +17,7 @@
       PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/TOC8_5X11.flpgl">
       <TocEntry
         Title="Starting EMS"
-        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_StartingEMS.html"
+        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/StartingEMS.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="reset"
