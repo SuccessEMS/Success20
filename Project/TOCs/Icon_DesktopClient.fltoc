@@ -173,7 +173,7 @@
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_EstablishBillingRef.htm" />
         <TocEntry
           Title="Configure Currencies"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigCurrencies.htm" />
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigCurrencies.htm" />
       </TocEntry>
       <TocEntry
         Title="Configuration &gt; Administration"
