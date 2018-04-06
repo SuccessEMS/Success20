@@ -251,7 +251,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Configure Floor Plans"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigFloorPlans.html"
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigFloorPlans.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
