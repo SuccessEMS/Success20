@@ -1921,7 +1921,7 @@
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigReservSources.html" />
         <TocEntry
           Title="Configure Cancel Reasons"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigCancelReasons.html" />
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigCancelReasons.html" />
         <TocEntry
           Title="Configure Attachment Types"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigAttachmentType.html" />
