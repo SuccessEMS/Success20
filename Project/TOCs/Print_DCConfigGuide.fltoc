@@ -318,7 +318,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Configure Comment Types"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigCommentType.html"
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigCommentType.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -753,7 +753,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Configure Check-in Notification Rules"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigCheckinNot.htm"
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigCheckinNot.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"

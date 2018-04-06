@@ -1881,7 +1881,7 @@
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigGroupNot.htm" />
         <TocEntry
           Title="Configure Check-in Notification Rules"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigCheckinNot.htm" />
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigCheckinNot.htm" />
         <TocEntry
           Title="Configure Room Card Formats"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigRoomCardFormat.htm" />
@@ -1906,7 +1906,7 @@
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigReminderTypes.html" />
         <TocEntry
           Title="Configure Comment Types"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigCommentType.html" />
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigCommentType.html" />
         <TocEntry
           Title="Configure Messages"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigMessages.htm" />
