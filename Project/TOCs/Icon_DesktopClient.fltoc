@@ -424,7 +424,7 @@
       </TocEntry>
       <TocEntry
         Title="System Administration &gt; Tools"
-        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_SystemAdminTools.html">
+        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/SystemAdminTools.html">
         <TocEntry
           Title="Change Group Wizard"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ChangeGroupWiz.htm" />

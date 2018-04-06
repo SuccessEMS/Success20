@@ -1390,7 +1390,7 @@
       </TocEntry>
       <TocEntry
         Title="System Administration &gt; Tools"
-        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DesktopClient_SystemAdminTools.html"
+        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/SystemAdminTools.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
