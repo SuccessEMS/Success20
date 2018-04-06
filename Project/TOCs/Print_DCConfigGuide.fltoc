@@ -1434,7 +1434,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Manage Saved Reports"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ManageSavedReport.htm"
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ManageSavedReport.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -1522,7 +1522,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Migrate Data"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_MigrateData.htm"
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/MigrateData.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"

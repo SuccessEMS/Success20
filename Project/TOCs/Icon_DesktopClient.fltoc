@@ -436,7 +436,7 @@
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/RoomAdminWizard.htm" />
         <TocEntry
           Title="Manage Saved Reports"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ManageSavedReport.htm" />
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ManageSavedReport.htm" />
         <TocEntry
           Title="Override Existing Bookings Utility"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/OverrideExistingBookUtil.html" />
