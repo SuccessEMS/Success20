@@ -1578,7 +1578,7 @@
           PageNumber="1" />
         <TocEntry
           Title="EMS Kiosk Parameters"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_KioskParam.htm"
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/KioskParam.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
