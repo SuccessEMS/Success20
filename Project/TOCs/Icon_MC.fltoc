@@ -69,7 +69,7 @@
           Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_AddEventstoPersonalEmailCal.html" />
         <TocEntry
           Title="Add Event Dates"
-          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_AddEventDates.html" />
+          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/AddEventDates.html" />
         <TocEntry
           Title="Cancel Event Dates"
           Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_CancelEventDates.html" />

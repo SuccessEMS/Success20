@@ -90,7 +90,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Add Event Dates"
-        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_AddEventDates.html"
+        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/AddEventDates.html"
         BreakType="chapter"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
