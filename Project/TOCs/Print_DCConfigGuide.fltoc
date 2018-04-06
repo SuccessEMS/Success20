@@ -1098,7 +1098,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Configure Confirmation Behavior for Everyday User Applications"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigConfBehavior.htm"
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigConfBehavior.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"

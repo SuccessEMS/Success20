@@ -340,7 +340,7 @@
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigLangTrans.htm" />
         <TocEntry
           Title="Configure Confirmation Behavior for Everyday User Applications"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigConfBehavior.htm" />
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigConfBehavior.htm" />
         <TocEntry
           Title="Create Templates for Desks and Workspaces"
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_CreateTempDeskWork.htm" />
