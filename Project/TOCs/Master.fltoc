@@ -1890,7 +1890,7 @@
           Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigCalFormat.htm" />
         <TocEntry
           Title="Configure Reservation Wizard Templates"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigResWiz.htm" />
+          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigResWiz.htm" />
       </TocEntry>
       <TocEntry
         Title="Configuration &gt; Other"
