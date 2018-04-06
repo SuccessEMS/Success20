@@ -301,19 +301,19 @@
       Link="/Content/InstallGuides/6_Kiosk/A_KioskHome.htm">
       <TocEntry
         Title="Introduction to the EMS Kiosk App"
-        Link="/Content/EMSKioskApp/V44.1/Installation Guide/Kiosk_IG_Introduction.htm" />
+        Link="/Content/EMSKioskApp/V44.1/InstallationGuide/Kiosk_IG_Introduction.htm" />
       <TocEntry
         Title="Obtain the Installation Files for EMS Kiosk App"
-        Link="/Content/EMSKioskApp/V44.1/Installation Guide/Kiosk_IG_ObtainInstallation.htm" />
+        Link="/Content/EMSKioskApp/V44.1/InstallationGuide/Kiosk_IG_ObtainInstallation.htm" />
       <TocEntry
         Title="System Requirements and Prerequisites for EMS Kiosk App"
-        Link="/Content/EMSKioskApp/V44.1/Installation Guide/Kiosk_IG_SysReqPrereq.htm" />
+        Link="/Content/EMSKioskApp/V44.1/InstallationGuide/Kiosk_IG_SysReqPrereq.htm" />
       <TocEntry
         Title="Install or Upgrade the EMS Kiosk App"
-        Link="/Content/EMSKioskApp/V44.1/Installation Guide/Kiosk_IG_InstallUpgrade.htm" />
+        Link="/Content/EMSKioskApp/V44.1/InstallationGuide/Kiosk_IG_InstallUpgrade.htm" />
       <TocEntry
         Title="Launch EMS Kiosk App"
-        Link="/Content/EMSKioskApp/V44.1/Installation Guide/Kiosk_IG_StartKioskApp.htm" />
+        Link="/Content/EMSKioskApp/V44.1/InstallationGuide/Kiosk_IG_StartKioskApp.htm" />
     </TocEntry>
     <TocEntry
       Title="EMS Room Sign App (formerly Glance)"
@@ -1225,22 +1225,22 @@
       Title="EMS Kiosk App"
       Skin="/Project/Skins/TopicToolBar.flskn"
       ReplaceMergeNode="false"
-      Link="/Content/EMSKioskApp/V44.1/Installation Guide/Kiosk_IG_Introduction.htm">
+      Link="/Content/EMSKioskApp/V44.1/InstallationGuide/Kiosk_IG_Introduction.htm">
       <TocEntry
         Title="Obtain the Installation Files for EMS Kiosk App"
-        Link="/Content/EMSKioskApp/V44.1/Installation Guide/Kiosk_IG_ObtainInstallation.htm" />
+        Link="/Content/EMSKioskApp/V44.1/InstallationGuide/Kiosk_IG_ObtainInstallation.htm" />
       <TocEntry
         Title="System Requirements and Prerequisites for EMS Kiosk App"
-        Link="/Content/EMSKioskApp/V44.1/Installation Guide/Kiosk_IG_SysReqPrereq.htm" />
+        Link="/Content/EMSKioskApp/V44.1/InstallationGuide/Kiosk_IG_SysReqPrereq.htm" />
       <TocEntry
         Title="Install or Upgrade the EMS Kiosk App"
-        Link="/Content/EMSKioskApp/V44.1/Installation Guide/Kiosk_IG_InstallUpgrade.htm" />
+        Link="/Content/EMSKioskApp/V44.1/InstallationGuide/Kiosk_IG_InstallUpgrade.htm" />
       <TocEntry
         Title="Launch EMS Kiosk App"
-        Link="/Content/EMSKioskApp/V44.1/Installation Guide/Kiosk_IG_StartKioskApp.htm" />
+        Link="/Content/EMSKioskApp/V44.1/InstallationGuide/Kiosk_IG_StartKioskApp.htm" />
       <TocEntry
         Title="PDF"
-        Link="/Content/EMSKioskApp/V44.1/Installation Guide/Kiosk_Install_PDF.pdf" />
+        Link="/Content/EMSKioskApp/V44.1/InstallationGuide/Kiosk_Install_PDF.pdf" />
     </TocEntry>
     <TocEntry
       Title="EMS Room Sign App (formerly Glance)"
