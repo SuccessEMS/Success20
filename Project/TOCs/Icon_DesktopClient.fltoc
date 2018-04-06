@@ -271,7 +271,7 @@
             Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigGroupsContactsEverydayUser.htm" />
           <TocEntry
             Title="Assign Templates to Everyday Users"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_CG_AssignTempEverydayUser.htm" />
+            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/AssignTempEverydayUser.htm" />
         </TocEntry>
         <TocEntry
           Title="Configure Everyday User Process Templates"
