@@ -302,7 +302,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Apply a Reservation Discount"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ApplyReservDiscount.html"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/ApplyReservDiscount.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -1166,7 +1166,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Apply a Reservation Discount"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ApplyReservDiscount.html"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/ApplyReservDiscount.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"

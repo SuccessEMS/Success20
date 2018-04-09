@@ -625,7 +625,7 @@
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_RepricCatRoomChargeRes.html" />
         <TocEntry
           Title="Apply a Reservation Discount"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ApplyReservDiscount.html" />
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/ApplyReservDiscount.html" />
         <TocEntry
           Title="Edit a Booking in the Navigator"
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_EditBookinNav.html" />
@@ -899,7 +899,7 @@
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_GenEMSBillReport.html" />
         <TocEntry
           Title="Apply a Reservation Discount"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ApplyReservDiscount.html" />
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/ApplyReservDiscount.html" />
         <TocEntry
           Title="Bill Multiple Reference and PO Numbers for a Reservation"
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_BillMultRefandPONumbers.html" />
@@ -1426,7 +1426,7 @@
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_RepricCatRoomChargeRes.html" />
             <TocEntry
               Title="Apply a Reservation Discount"
-              Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ApplyReservDiscount.html" />
+              Link="/Content/EMSDesktopClient/V44.1/UserGuide/ApplyReservDiscount.html" />
             <TocEntry
               Title="Edit a Booking in the Navigator"
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_EditBookinNav.html" />
@@ -1695,7 +1695,7 @@
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_GenEMSBillReport.html" />
             <TocEntry
               Title="Apply a Reservation Discount"
-              Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ApplyReservDiscount.html" />
+              Link="/Content/EMSDesktopClient/V44.1/UserGuide/ApplyReservDiscount.html" />
             <TocEntry
               Title="Bill Multiple Reference and PO Numbers for a Reservation"
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_BillMultRefandPONumbers.html" />
