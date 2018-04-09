@@ -613,7 +613,7 @@
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_EditResinNav.html" />
         <TocEntry
           Title="Add Bookings to a Reservation in the Navigator"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_AddBooktoResinNav.html" />
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/AddBooktoResinNav.html" />
         <TocEntry
           Title="Copy a Reservation in the Navigator"
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_CopyResinNav.html" />
@@ -646,7 +646,7 @@
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/AddBookDetItemtoIndivBookings.htm" />
           <TocEntry
             Title="Add Booking Details and Items to Existing Bookings"
-            Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_AddBookDetsItemstoExistBook.html" />
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/AddBookDetsItemstoExistBook.html" />
           <TocEntry
             Title="Add Booking Details and Items to Multiple Bookings"
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_AddItemstoMultBook.html" />
@@ -1414,7 +1414,7 @@
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_EditResinNav.html" />
             <TocEntry
               Title="Add Bookings to a Reservation in the Navigator"
-              Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_AddBooktoResinNav.html" />
+              Link="/Content/EMSDesktopClient/V44.1/UserGuide/AddBooktoResinNav.html" />
             <TocEntry
               Title="Copy a Reservation in the Navigator"
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_CopyResinNav.html" />
@@ -1446,7 +1446,7 @@
                 Link="/Content/EMSDesktopClient/V44.1/UserGuide/AddBookDetItemtoIndivBookings.htm" />
               <TocEntry
                 Title="Add Booking Details and Items to Existing Bookings"
-                Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_AddBookDetsItemstoExistBook.html" />
+                Link="/Content/EMSDesktopClient/V44.1/UserGuide/AddBookDetsItemstoExistBook.html" />
               <TocEntry
                 Title="Add Booking Details and Items to Multiple Bookings"
                 Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_AddItemstoMultBook.html" />
