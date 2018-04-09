@@ -704,7 +704,7 @@
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_RunResourceUtility.html" />
         <TocEntry
           Title="Approve or Deny Reservation Requests"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ApprovDenyReservReq.html" />
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/ApprovDenyReservReq.html" />
       </TocEntry>
       <TocEntry
         Title="The Calendar"
@@ -760,7 +760,7 @@
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_CreateEverydayUserfromGroup.htm" />
         <TocEntry
           Title="Assign an Everyday User to a Group"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_AssignEverydayUserstoGroup.html" />
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/AssignEverydayUserstoGroup.html" />
         <TocEntry
           Title="Configure Contacts for a Group"
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ConfigContactsforGroup.html" />
@@ -1504,7 +1504,7 @@
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_RunResourceUtility.html" />
             <TocEntry
               Title="Approve or Deny Reservation Requests"
-              Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ApprovDenyReservReq.html" />
+              Link="/Content/EMSDesktopClient/V44.1/UserGuide/ApprovDenyReservReq.html" />
           </TocEntry>
           <TocEntry
             Title="The Calendar"
@@ -1557,7 +1557,7 @@
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_CreateEverydayUserfromGroup.htm" />
             <TocEntry
               Title="Assign an Everyday User to a Group"
-              Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_AssignEverydayUserstoGroup.html" />
+              Link="/Content/EMSDesktopClient/V44.1/UserGuide/AssignEverydayUserstoGroup.html" />
             <TocEntry
               Title="Configure Contacts for a Group"
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ConfigContactsforGroup.html" />
