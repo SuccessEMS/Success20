@@ -2,8 +2,8 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="EMS Platform Services 23.1 Release Notes "
-    Link="/Content/ReleaseNotes/Version44.1/Update23.1/EMSPlatformServices.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    Title="SAML Authentication"
+    Link="/Content/EMSMobileApp/A_InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_SAMLAuthen.html" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
     ChapterNumberReset="reset"
     ChapterNumber="1"
     StartSection="false"
