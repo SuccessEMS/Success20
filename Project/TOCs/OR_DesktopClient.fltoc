@@ -24,10 +24,10 @@
           Link="/Content/EMSDesktopClient/V44/InstallationGuide/DC_IG_44_UpgradeInstruct.htm" />
         <TocEntry
           Title="Downgrade the EMS Desktop Client Web Deploy"
-          Link="/Content/EMSDesktopClient/V44.1/A_InstallationGuide/DC_IG_DowngradeWebDeploy.htm" />
+          Link="/Content/EMSDesktopClient/V44.1/InstallationGuide/DC_IG_DowngradeWebDeploy.htm" />
         <TocEntry
           Title="Installing Custom Reports in EMS Desktop Client"
-          Link="/Content/EMSDesktopClient/V44.1/A_InstallationGuide/DC_IG_InstallCustomReport.html" />
+          Link="/Content/EMSDesktopClient/V44.1/InstallationGuide/DC_IG_InstallCustomReport.html" />
       </TocEntry>
       <TocEntry
         Title="EMS Desktop Client Configuration Guide (V44)"
@@ -404,7 +404,7 @@
         Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_Introduction.html">
         <TocEntry
           Title="Introduction to EMS Desktop Client"
-          Link="/Content/EMSDesktopClient/V44.1/A_InstallationGuide/DC_IG_Introduction.html" />
+          Link="/Content/EMSDesktopClient/V44.1/InstallationGuide/DC_IG_Introduction.html" />
         <TocEntry
           Title="Launch EMS Desktop Client"
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_StartEMS.html" />

@@ -17,7 +17,7 @@
     PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/TOC8_5X11.flpgl" />
   <TocEntry
     Title="Introduction"
-    Link="/Content/EMSDesktopClient/V44.1/A_InstallationGuide/DC_IG_Introduction.html"
+    Link="/Content/EMSDesktopClient/V44.1/InstallationGuide/DC_IG_Introduction.html"
     BreakType="chapter"
     StartSection="false"
     PageNumberReset="reset"
@@ -29,7 +29,7 @@
     VolumeNumberReset="same" />
   <TocEntry
     Title="System Requirements and Prerequisites"
-    Link="/Content/EMSDesktopClient/V44.1/A_InstallationGuide/DC_IG_SystemReq.htm"
+    Link="/Content/EMSDesktopClient/V44.1/InstallationGuide/DC_IG_SystemReq.htm"
     BreakType="chapter"
     StartSection="false"
     PageNumberReset="continue"
@@ -39,7 +39,7 @@
     ChapterNumberReset="continue" />
   <TocEntry
     Title="Installation Instructions"
-    Link="/Content/EMSDesktopClient/V44.1/A_InstallationGuide/DC_IG_INstallationInstruct.html"
+    Link="/Content/EMSDesktopClient/V44.1/InstallationGuide/DC_IG_INstallationInstruct.html"
     BreakType="chapter"
     StartSection="false"
     PageNumberReset="continue"
@@ -49,7 +49,7 @@
     ChapterNumberReset="continue" />
   <TocEntry
     Title="Upgrade Considerations"
-    Link="/Content/EMSDesktopClient/V44.1/A_InstallationGuide/DC_IG_UpgradeConsideration.html"
+    Link="/Content/EMSDesktopClient/V44.1/InstallationGuide/DC_IG_UpgradeConsideration.html"
     BreakType="chapter"
     StartSection="false"
     PageNumberReset="continue"
@@ -59,7 +59,7 @@
     ChapterNumberReset="continue" />
   <TocEntry
     Title="Upgrade Instructions"
-    Link="/Content/EMSDesktopClient/V44.1/A_InstallationGuide/DC_IG_UpgradeInstruct.html"
+    Link="/Content/EMSDesktopClient/V44.1/InstallationGuide/DC_IG_UpgradeInstruct.html"
     BreakType="chapter"
     StartSection="false"
     PageNumberReset="continue"
@@ -69,7 +69,7 @@
     ChapterNumberReset="continue"></TocEntry>
   <TocEntry
     Title="Downgrade the EMS Desktop Client Web Deploy"
-    Link="/Content/EMSDesktopClient/V44.1/A_InstallationGuide/DC_IG_DowngradeWebDeploy.htm"
+    Link="/Content/EMSDesktopClient/V44.1/InstallationGuide/DC_IG_DowngradeWebDeploy.htm"
     BreakType="chapter"
     StartSection="false"
     PageNumberReset="continue"
@@ -79,7 +79,7 @@
     ChapterNumberReset="continue" />
   <TocEntry
     Title="Installing Custom Reports in EMS Desktop Client"
-    Link="/Content/EMSDesktopClient/V44.1/A_InstallationGuide/DC_IG_InstallCustomReport.html"
+    Link="/Content/EMSDesktopClient/V44.1/InstallationGuide/DC_IG_InstallCustomReport.html"
     BreakType="chapter"
     StartSection="false"
     PageNumberReset="continue"
