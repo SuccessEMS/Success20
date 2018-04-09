@@ -331,7 +331,7 @@
             Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ChangeGroupWiz.htm" />
           <TocEntry
             Title="Change Reservation Wizard"
-            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_ChangeResWiz.htm" />
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ChangeResWiz.htm" />
           <TocEntry
             Title="Room Administration Wizard"
             Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_RoomAdminWizard.htm" />
