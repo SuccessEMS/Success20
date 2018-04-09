@@ -17,7 +17,7 @@
       PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/TOC8_5X11.flpgl">
       <TocEntry
         Title="Starting EMS"
-        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/StartingEMS.html"
+        Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/StartingEMS.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="reset"
@@ -29,7 +29,7 @@
         VolumeNumberReset="same" />
       <TocEntry
         Title="Overview of EMS Desktop Client Configuration"
-        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/OverviewofDCConfig.htm"
+        Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/OverviewofDCConfig.htm"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -40,7 +40,7 @@
         PageNumber="1" />
       <TocEntry
         Title="Authentication Options for EMS Desktop Client"
-        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/AuthenticationOptions.html"
+        Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/AuthenticationOptions.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -51,7 +51,7 @@
         PageNumber="1" />
       <TocEntry
         Title="EMS Main Window"
-        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/EMSMainWindow.html"
+        Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/EMSMainWindow.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -62,7 +62,7 @@
         PageNumber="1" />
       <TocEntry
         Title="EMS Browser Window"
-        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/EMSBrowserWindow.htm"
+        Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/EMSBrowserWindow.htm"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -73,7 +73,7 @@
         PageNumber="1" />
       <TocEntry
         Title="Configuration &gt; Facililties"
-        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigFacil.html"
+        Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigFacil.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -84,7 +84,7 @@
         PageNumber="1">
         <TocEntry
           Title="Overview of Configuring Rooms"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/OverviewConfigRooms.html"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/OverviewConfigRooms.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -95,7 +95,7 @@
           PageNumber="1">
           <TocEntry
             Title="Configure Rooms"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigRooms.html"
+            Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigRooms.html"
             BreakType="chapter"
             StartSection="false"
             PageNumberReset="continue"
@@ -106,7 +106,7 @@
             PageNumber="1" />
           <TocEntry
             Title="Room Configuration Wizard"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/RoomConfigWiz.htm"
+            Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/RoomConfigWiz.htm"
             BreakType="chapter"
             StartSection="false"
             PageNumberReset="continue"
@@ -117,7 +117,7 @@
             PageNumber="1" />
           <TocEntry
             Title="Configure Room Pricing"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigRoomPricing.htm"
+            Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigRoomPricing.htm"
             BreakType="chapter"
             StartSection="false"
             PageNumberReset="continue"
@@ -128,7 +128,7 @@
             PageNumber="1" />
           <TocEntry
             Title="Configure Override Rooms"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigOverrideRooms.htm"
+            Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigOverrideRooms.htm"
             BreakType="chapter"
             StartSection="false"
             PageNumberReset="continue"
@@ -139,7 +139,7 @@
             PageNumber="1" />
           <TocEntry
             Title="Configure and Generate Room QR Codes"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigGenerRoomQRCode.htm"
+            Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigGenerRoomQRCode.htm"
             BreakType="chapter"
             StartSection="false"
             PageNumberReset="continue"
@@ -150,7 +150,7 @@
             PageNumber="1" />
           <TocEntry
             Title="Import Rooms"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ImportRooms.htm"
+            Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ImportRooms.htm"
             BreakType="chapter"
             StartSection="false"
             PageNumberReset="continue"
@@ -162,7 +162,7 @@
         </TocEntry>
         <TocEntry
           Title="Configure Buildings"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigBuilding.html"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigBuilding.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -173,7 +173,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Configure Building Hours"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigBuildingHours.html"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigBuildingHours.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -184,7 +184,7 @@
           PageNumber="1">
           <TocEntry
             Title="Building Hours Wizard"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/BuildHourWiz.htm"
+            Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/BuildHourWiz.htm"
             BreakType="chapter"
             StartSection="false"
             PageNumberReset="continue"
@@ -196,7 +196,7 @@
         </TocEntry>
         <TocEntry
           Title="Configure Areas"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigAreas.html"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigAreas.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -207,7 +207,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Configure Room Types"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigRoomType.html"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigRoomType.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -218,7 +218,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Configure Setup Types"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigSetupType.html"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigSetupType.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -229,7 +229,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Configure Features"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigFeatures.html"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigFeatures.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -240,7 +240,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Configure Floors"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigFloors.html"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigFloors.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -251,7 +251,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Configure Floor Plans"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigFloorPlans.html"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigFloorPlans.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -262,7 +262,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Configure Public Views"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigPublicViews.html"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigPublicViews.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -274,7 +274,7 @@
       </TocEntry>
       <TocEntry
         Title="Configuration &gt; Other"
-        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigOther.html"
+        Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigOther.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -285,7 +285,7 @@
         PageNumber="1">
         <TocEntry
           Title="Configure Event Types"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigEventType.html"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigEventType.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -296,7 +296,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Configure Group Types"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigGroupType.html"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigGroupType.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -307,7 +307,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Configure Reminder Types"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigReminderTypes.html"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigReminderTypes.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -318,7 +318,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Configure Comment Types"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigCommentType.html"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigCommentType.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -329,7 +329,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Configure Messages"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigMessages.htm"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigMessages.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -340,7 +340,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Configure Special Dates"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigSpecialDates.html"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigSpecialDates.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -351,7 +351,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Configure User-Defined Fields"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigUDF.html"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigUDF.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -362,7 +362,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Configure Reservation Sources"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigReservSources.html"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigReservSources.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -373,7 +373,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Configure Cancel Reasons"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigCancelReasons.html"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigCancelReasons.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -384,7 +384,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Configure Attachment Types"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigAttachmentType.html"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigAttachmentType.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -395,7 +395,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Configure Word Merge Documents"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigWordMergeDoc.html"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigWordMergeDoc.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -406,7 +406,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Configure Calendar Styles"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigCalendarStyles.html"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigCalendarStyles.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -418,7 +418,7 @@
       </TocEntry>
       <TocEntry
         Title="Configuration &gt; Resources"
-        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/OverviewConfigRes.html"
+        Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/OverviewConfigRes.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -429,7 +429,7 @@
         PageNumber="1">
         <TocEntry
           Title="Categories, Resources, Services - What's the Difference?"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/CategoriesResourcesServices_WhatsDiff.htm"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/CategoriesResourcesServices_WhatsDiff.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -440,7 +440,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Configure Resources for a Category"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigResourcesforCat.html"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigResourcesforCat.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -451,7 +451,7 @@
           PageNumber="1">
           <TocEntry
             Title="Resource Configuration Wizard"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ResourceConfigWiz.htm"
+            Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ResourceConfigWiz.htm"
             BreakType="chapter"
             StartSection="false"
             PageNumberReset="continue"
@@ -463,7 +463,7 @@
         </TocEntry>
         <TocEntry
           Title="Import Resources for a Category"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ImportResourcesforCat.htm"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ImportResourcesforCat.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -474,7 +474,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Define Resource Selections and Selection Items"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DefineResourceSel.htm"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/DefineResourceSel.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -485,7 +485,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Configure Services for a Category"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigureServicesforCat.htm"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigureServicesforCat.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -496,7 +496,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Configure Groupings for a Resource"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigGroupingsResource.html"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigGroupingsResource.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -507,7 +507,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Define Production Areas and Production Items for a Catering Resource"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DefineProdAreaItems.htm"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/DefineProdAreaItems.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -518,7 +518,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Configure Pricing for a Resource in the Edit Pricing Window"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigPricingResourceEditPriceWin.htm"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigPricingResourceEditPriceWin.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -529,7 +529,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Export Pricing Information for a Resource"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ExportPricInfo.htm"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ExportPricInfo.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -541,7 +541,7 @@
       </TocEntry>
       <TocEntry
         Title="Configuration &gt; Billing"
-        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigBilling.htm"
+        Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigBilling.htm"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -552,7 +552,7 @@
         PageNumber="1">
         <TocEntry
           Title="Configure Rate Schedules"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigRateSchedule.htm"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigRateSchedule.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -563,7 +563,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Configure Pricing Plans"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigPricingPlan.htm"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigPricingPlan.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -574,7 +574,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Export Pricing Information for Billable Items (Rooms &amp; Resources)"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ExportPricingInfoBillableItems.htm"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ExportPricingInfoBillableItems.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -585,7 +585,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Configure Calculations"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigCalc.htm"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigCalc.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -596,7 +596,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Configure Accounts"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigAccount.htm"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigAccount.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -607,7 +607,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Configure Payment Types"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigPaymentType.htm"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigPaymentType.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -618,7 +618,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Configure Sales Categories"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigSalesCat.htm"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigSalesCat.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -629,7 +629,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Configure Billing References and PO Numbers"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigBillRefPO.htm"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigBillRefPO.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -640,7 +640,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Establishing Billing Reference and PO Behavior"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/EstablishBillingRef.htm"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/EstablishBillingRef.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -651,7 +651,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Configure Currencies"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigCurrencies.htm"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigCurrencies.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -663,7 +663,7 @@
       </TocEntry>
       <TocEntry
         Title="Configuration &gt; Administration"
-        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigAdmin.htm"
+        Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigAdmin.htm"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -674,7 +674,7 @@
         PageNumber="1">
         <TocEntry
           Title="Configure Categories"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigCategory.html"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigCategory.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -685,7 +685,7 @@
           PageNumber="1">
           <TocEntry
             Title="Enable Visitor Management"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/EnableVisitorMgmt.htm"
+            Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/EnableVisitorMgmt.htm"
             BreakType="chapter"
             StartSection="false"
             PageNumberReset="continue"
@@ -697,7 +697,7 @@
         </TocEntry>
         <TocEntry
           Title="Configure Departments"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigDepts.htm"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigDepts.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -708,7 +708,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Configure Statuses"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigStatuses.htm"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigStatuses.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -719,7 +719,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Configure Notification Rules"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigNotRules.htm"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigNotRules.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -730,7 +730,7 @@
           PageNumber="1">
           <TocEntry
             Title="Types of Notification Rules"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/TypesNotifiRules.htm"
+            Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/TypesNotifiRules.htm"
             BreakType="chapter"
             StartSection="false"
             PageNumberReset="continue"
@@ -742,7 +742,7 @@
         </TocEntry>
         <TocEntry
           Title="Configure Group Notification Rules"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigGroupNot.htm"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigGroupNot.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -753,7 +753,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Configure Check-in Notification Rules"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigCheckinNot.htm"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigCheckinNot.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -764,7 +764,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Configure Room Card Formats"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigRoomCardFormat.htm"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigRoomCardFormat.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -775,7 +775,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Configure Calendar Formats"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigCalFormat.htm"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigCalFormat.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -786,7 +786,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Configure Reservation Wizard Templates"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigResWiz.htm"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigResWiz.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -798,7 +798,7 @@
       </TocEntry>
       <TocEntry
         Title="Configuration &gt; Everyday User Applications"
-        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigEverydayUserApp.html"
+        Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigEverydayUserApp.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -809,7 +809,7 @@
         PageNumber="1">
         <TocEntry
           Title="Configure Everyday Users"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigEverydayUser.htm"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigEverydayUser.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -820,7 +820,7 @@
           PageNumber="1">
           <TocEntry
             Title="Licensing for Everyday Users"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/LicensingEverydayUser.htm"
+            Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/LicensingEverydayUser.htm"
             BreakType="chapter"
             StartSection="false"
             PageNumberReset="continue"
@@ -831,7 +831,7 @@
             PageNumber="1" />
           <TocEntry
             Title="Emailing an Everyday User"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/EmailEverydayUser.html"
+            Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/EmailEverydayUser.html"
             BreakType="chapter"
             StartSection="false"
             PageNumberReset="continue"
@@ -842,7 +842,7 @@
             PageNumber="1" />
           <TocEntry
             Title="Configure Groups and Contacts from an Everyday User"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigGroupsContactsEverydayUser.htm"
+            Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigGroupsContactsEverydayUser.htm"
             BreakType="chapter"
             StartSection="false"
             PageNumberReset="continue"
@@ -853,7 +853,7 @@
             PageNumber="1" />
           <TocEntry
             Title="Assign Templates to Everyday Users"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/AssignTempEverydayUser.htm"
+            Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/AssignTempEverydayUser.htm"
             BreakType="chapter"
             StartSection="false"
             PageNumberReset="continue"
@@ -865,7 +865,7 @@
         </TocEntry>
         <TocEntry
           Title="Configure Everyday User Process Templates"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigEverydayUserProcessTemplate.htm"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigEverydayUserProcessTemplate.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -876,7 +876,7 @@
           PageNumber="1">
           <TocEntry
             Title="Web Template Tab"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/WebTemplateTab.htm"
+            Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/WebTemplateTab.htm"
             BreakType="chapter"
             StartSection="false"
             PageNumberReset="continue"
@@ -887,7 +887,7 @@
             PageNumber="1" />
           <TocEntry
             Title="Booking Rules Tab"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/BookingRulesTab.htm"
+            Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/BookingRulesTab.htm"
             BreakType="chapter"
             StartSection="false"
             PageNumberReset="continue"
@@ -898,7 +898,7 @@
             PageNumber="1" />
           <TocEntry
             Title="Defaults Tab"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DefaultsTab.htm"
+            Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/DefaultsTab.htm"
             BreakType="chapter"
             StartSection="false"
             PageNumberReset="continue"
@@ -909,7 +909,7 @@
             PageNumber="1" />
           <TocEntry
             Title="Video Conference Tab"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/VideoConferencetab.htm"
+            Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/VideoConferencetab.htm"
             BreakType="chapter"
             StartSection="false"
             PageNumberReset="continue"
@@ -920,7 +920,7 @@
             PageNumber="1" />
           <TocEntry
             Title="Rooms Tab"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/RoomsTab.htm"
+            Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/RoomsTab.htm"
             BreakType="chapter"
             StartSection="false"
             PageNumberReset="continue"
@@ -931,7 +931,7 @@
             PageNumber="1" />
           <TocEntry
             Title="Categories Tab"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/CategoryTab.htm"
+            Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/CategoryTab.htm"
             BreakType="chapter"
             StartSection="false"
             PageNumberReset="continue"
@@ -942,7 +942,7 @@
             PageNumber="1" />
           <TocEntry
             Title="Event Types Tab"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/EventTypeTab.htm"
+            Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/EventTypeTab.htm"
             BreakType="chapter"
             StartSection="false"
             PageNumberReset="continue"
@@ -953,7 +953,7 @@
             PageNumber="1" />
           <TocEntry
             Title="LDAP Groups Tab"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/LDAPGroupTab.htm"
+            Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/LDAPGroupTab.htm"
             BreakType="chapter"
             StartSection="false"
             PageNumberReset="continue"
@@ -964,7 +964,7 @@
             PageNumber="1" />
           <TocEntry
             Title="User Defined Fields Tab"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/UserDefinedFieldTab.htm"
+            Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/UserDefinedFieldTab.htm"
             BreakType="chapter"
             StartSection="false"
             PageNumberReset="continue"
@@ -975,7 +975,7 @@
             PageNumber="1" />
           <TocEntry
             Title="Parameters Tab"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ParametersTab.htm"
+            Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ParametersTab.htm"
             BreakType="chapter"
             StartSection="false"
             PageNumberReset="continue"
@@ -986,7 +986,7 @@
             PageNumber="1" />
           <TocEntry
             Title="Web Text Tab"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/WebTextTab.htm"
+            Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/WebTextTab.htm"
             BreakType="chapter"
             StartSection="false"
             PageNumberReset="continue"
@@ -997,7 +997,7 @@
             PageNumber="1" />
           <TocEntry
             Title="Menu Text Translations Tab"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/MenuTextTab.htm"
+            Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/MenuTextTab.htm"
             BreakType="chapter"
             StartSection="false"
             PageNumberReset="continue"
@@ -1008,7 +1008,7 @@
             PageNumber="1" />
           <TocEntry
             Title="Terms and Conditions Tab"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/TermsConditionsTab.htm"
+            Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/TermsConditionsTab.htm"
             BreakType="chapter"
             StartSection="false"
             PageNumberReset="continue"
@@ -1020,7 +1020,7 @@
         </TocEntry>
         <TocEntry
           Title="Configure Everyday User Security Templates"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigSecTemplate.htm"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigSecTemplate.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -1031,7 +1031,7 @@
           PageNumber="1">
           <TocEntry
             Title="Everyday User Security Template Field Definitions"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigEUSecurityFieldDef.htm"
+            Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigEUSecurityFieldDef.htm"
             BreakType="chapter"
             StartSection="false"
             PageNumberReset="continue"
@@ -1042,7 +1042,7 @@
             PageNumber="1" />
           <TocEntry
             Title="Assign Security Templates to Multiple Everyday Users"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/AssignSecTempMultUser.htm"
+            Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/AssignSecTempMultUser.htm"
             BreakType="chapter"
             StartSection="false"
             PageNumberReset="continue"
@@ -1054,7 +1054,7 @@
         </TocEntry>
         <TocEntry
           Title="Configure EMS Web App Menus"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigWebAppMenu.htm"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigWebAppMenu.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -1065,7 +1065,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Configure Help Text"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigHelpText.htm"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigHelpText.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -1076,7 +1076,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Configure Web Text"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigWebText.htm"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigWebText.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -1087,7 +1087,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Configure Language Translations"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigLangTrans.htm"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigLangTrans.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -1098,7 +1098,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Configure Confirmation Behavior for Everyday User Applications"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigConfBehavior.htm"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigConfBehavior.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -1109,7 +1109,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Create Templates for Desks and Workspaces"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/CreateTempDeskWork.htm"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/CreateTempDeskWork.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -1131,7 +1131,7 @@
           PageNumber="1" />
         <TocEntry
           Title="How Do I Allow Invitations on a Booking Template?"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/AllowInvitationsBookTemp.htm"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/AllowInvitationsBookTemp.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -1143,7 +1143,7 @@
       </TocEntry>
       <TocEntry
         Title="Configuration &gt; Kiosk"
-        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigurationKiosk.htm"
+        Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigurationKiosk.htm"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -1177,7 +1177,7 @@
       </TocEntry>
       <TocEntry
         Title="Configure Groups (Toolbar Icon)"
-        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigGroupsIcon.htm"
+        Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigGroupsIcon.htm"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -1188,7 +1188,7 @@
         PageNumber="1">
         <TocEntry
           Title="Configure Groups"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigGroup.htm"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigGroup.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -1199,7 +1199,7 @@
           PageNumber="1">
           <TocEntry
             Title="Configure Additional Information for a Group"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigAddInfoGroup.html"
+            Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigAddInfoGroup.html"
             BreakType="chapter"
             StartSection="false"
             PageNumberReset="continue"
@@ -1210,7 +1210,7 @@
             PageNumber="1" />
           <TocEntry
             Title="Edit Group Information"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/EditGroupInfo.htm"
+            Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/EditGroupInfo.htm"
             BreakType="chapter"
             StartSection="false"
             PageNumberReset="continue"
@@ -1221,7 +1221,7 @@
             PageNumber="1" />
           <TocEntry
             Title="Import Groups"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ImportGroup.htm"
+            Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ImportGroup.htm"
             BreakType="chapter"
             StartSection="false"
             PageNumberReset="continue"
@@ -1233,7 +1233,7 @@
         </TocEntry>
         <TocEntry
           Title="Configure Contacts"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigContacts.htm"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigContacts.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -1245,7 +1245,7 @@
       </TocEntry>
       <TocEntry
         Title="System Administration &gt; Settings"
-        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/SystemAdministrationSettings.htm"
+        Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/SystemAdministrationSettings.htm"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -1256,7 +1256,7 @@
         PageNumber="1">
         <TocEntry
           Title="Edit System Parameters"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/EditSysParam.htm"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/EditSysParam.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -1267,7 +1267,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Import Registration Information"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ImportRegInfo.htm"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ImportRegInfo.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -1278,7 +1278,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Configure the Confirmation Email Subject Line"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigConfEmailSubLine.htm"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigConfEmailSubLine.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -1289,7 +1289,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Reservation Wizard Required Fields"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ReservationWizReqFields.html"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ReservationWizReqFields.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -1300,7 +1300,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Configure Email Settings"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigEmailSet.html"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigEmailSet.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -1311,7 +1311,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Set Global Email Preference to SMTP and My Personal Email Preference to Outlook"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/SetGlobalEmailPrefSMTP.htm"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/SetGlobalEmailPrefSMTP.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -1323,7 +1323,7 @@
       </TocEntry>
       <TocEntry
         Title="System Administration &gt; Security"
-        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/SysAdminSecurity.html"
+        Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/SysAdminSecurity.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -1334,7 +1334,7 @@
         PageNumber="1">
         <TocEntry
           Title="Overview of User Processes"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/OverviewUserProc.htm"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/OverviewUserProc.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -1345,7 +1345,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Configure Users"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigUsers.htm"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigUsers.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -1356,7 +1356,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Configure User Templates"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigUserTemp.htm"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigUserTemp.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -1367,7 +1367,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Configure Academic User Templates"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigAcadUserTemp.htm"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigAcadUserTemp.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -1378,7 +1378,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Configure User Security for Multiple User Accounts"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigUserSecMultAcct.htm"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigUserSecMultAcct.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -1390,7 +1390,7 @@
       </TocEntry>
       <TocEntry
         Title="System Administration &gt; Tools"
-        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/SystemAdminTools.html"
+        Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/SystemAdminTools.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -1401,7 +1401,7 @@
         PageNumber="1">
         <TocEntry
           Title="Change Group Wizard"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ChangeGroupWiz.htm"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ChangeGroupWiz.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -1412,7 +1412,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Change Reservation Wizard"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ChangeResWiz.htm"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ChangeResWiz.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -1423,7 +1423,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Room Administration Wizard"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/RoomAdminWizard.htm"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/RoomAdminWizard.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -1434,7 +1434,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Manage Saved Reports"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ManageSavedReport.htm"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ManageSavedReport.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -1445,7 +1445,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Override Existing Bookings Utility"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/OverrideExistingBookUtil.html"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/OverrideExistingBookUtil.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -1456,7 +1456,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Import Reservations Utility"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ImportResUtil.htm"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ImportResUtil.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -1467,7 +1467,7 @@
           PageNumber="1" />
         <TocEntry
           Title="View and Email Logged-In Users"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ViewEmailLoggedUsers.htm"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ViewEmailLoggedUsers.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -1478,7 +1478,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Deleting Old Data"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DeleteOldData.htm"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/DeleteOldData.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -1489,7 +1489,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Currency Configuration Wizard"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/CurrencyConfigWiz.htm"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/CurrencyConfigWiz.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -1500,7 +1500,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Booking Move/Change Status Wizard"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/BookingMoveChangeStatusWiz.htm"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/BookingMoveChangeStatusWiz.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -1511,7 +1511,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Video Display Interface"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/VideoDisplayInterf.htm"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/VideoDisplayInterf.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -1522,7 +1522,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Migrate Data"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/MigrateData.htm"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/MigrateData.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -1534,7 +1534,7 @@
       </TocEntry>
       <TocEntry
         Title="System Parameters"
-        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/SystemParam.htm"
+        Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/SystemParam.htm"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -1545,7 +1545,7 @@
         PageNumber="1">
         <TocEntry
           Title="EMS Desktop Client Parameters"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/EMSSystemParam.html"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/EMSSystemParam.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -1556,7 +1556,7 @@
           PageNumber="1" />
         <TocEntry
           Title="EMS Web App Parameters"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/WebAppParam.htm"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/WebAppParam.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -1567,7 +1567,7 @@
           PageNumber="1" />
         <TocEntry
           Title="EMS for Outlook Parameters"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/OutlookSysParam.htm"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/OutlookSysParam.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -1578,7 +1578,7 @@
           PageNumber="1" />
         <TocEntry
           Title="EMS Kiosk Parameters"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/KioskParam.htm"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/KioskParam.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -1589,7 +1589,7 @@
           PageNumber="1" />
         <TocEntry
           Title="EMS Mobile App Parameters"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/MobileAppParam.htm"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/MobileAppParam.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -1601,7 +1601,7 @@
       </TocEntry>
       <TocEntry
         Title="Import Files to Streamline Data Entry"
-        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ImportFileSpec.htm"
+        Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ImportFileSpec.htm"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -1612,7 +1612,7 @@
         PageNumber="1">
         <TocEntry
           Title="Special Date Import File Specification"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/SpecialDateImportFileSpec.htm"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/SpecialDateImportFileSpec.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -1623,7 +1623,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Room Import File Specification"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/RoomImportFileSpec.htm"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/RoomImportFileSpec.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -1634,7 +1634,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Resource Import File Specification"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ResourceImportFileSpec.htm"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ResourceImportFileSpec.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -1645,7 +1645,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Group Import File Specification"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/GroupImportFileSpec.htm"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/GroupImportFileSpec.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -1656,7 +1656,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Reservation Import File Specification"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ResImportFileSpec.htm"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ResImportFileSpec.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -1667,7 +1667,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Final Exam Schedule Import File Specification"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/FinalExamSchedImportFileSpec.htm"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/FinalExamSchedImportFileSpec.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -1679,7 +1679,7 @@
       </TocEntry>
       <TocEntry
         Title="Video Conferencing"
-        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/VideoConference.html"
+        Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/VideoConference.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -1690,7 +1690,7 @@
         PageNumber="1">
         <TocEntry
           Title="Configure Video Conferencing Capabilities"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigVCCapabilities.htm"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigVCCapabilities.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -1701,7 +1701,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Overview of Video Conferenncing"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/OverviewVCConfig.html"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/OverviewVCConfig.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -1713,7 +1713,7 @@
       </TocEntry>
       <TocEntry
         Title="Academic Import Utility"
-        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/AcademicImportUtil.html"
+        Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/AcademicImportUtil.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -1724,7 +1724,7 @@
         PageNumber="1" />
       <TocEntry
         Title="Deployment of EMS Desktop Client"
-        Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_Deploy_DeploymentOptions.htm"
+        Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/DC_Deploy_DeploymentOptions.htm"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -1735,37 +1735,37 @@
         PageNumber="1">
         <TocEntry
           Title="Decision Guide: Web Vs Conventional Deployment"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_Deploy_DecisionGuide.htm"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/DC_Deploy_DecisionGuide.htm"
           BreakType="chapter"
           PageNumber="1"
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
         <TocEntry
           Title="Web Deployment"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_Deploy_Web Deployment.htm"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/DC_Deploy_Web Deployment.htm"
           BreakType="chapter"
           PageNumber="1"
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
         <TocEntry
           Title="Conventional Deployment"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_Deploy_Conventional Deployment.htm"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/DC_Deploy_Conventional Deployment.htm"
           BreakType="chapter"
           PageNumber="1"
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
         <TocEntry
           Title="Easy Deployment with Conventional Deployment"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_Deploy_Easy Deployment.htm"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/DC_Deploy_Easy Deployment.htm"
           BreakType="chapter"
           PageNumber="1"
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
         <TocEntry
           Title="Enable SSL on Web Deployment"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_Deploy_Enable SSL on Web Deployment.htm"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/DC_Deploy_Enable SSL on Web Deployment.htm"
           BreakType="chapter"
           PageNumber="1"
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
         <TocEntry
           Title="Troubleshooting"
-          Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/DC_Deploy_Troubleshooting.htm"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/DC_Deploy_Troubleshooting.htm"
           BreakType="chapter"
           PageNumber="1"
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />

@@ -24,10 +24,10 @@
           Link="/Content/EMSDesktopClient/V44/InstallationGuide/DC_IG_44_UpgradeInstruct.htm" />
         <TocEntry
           Title="Downgrade the EMS Desktop Client Web Deploy"
-          Link="/Content/EMSDesktopClient/V44.1/A_InstallationGuide/DC_IG_DowngradeWebDeploy.htm" />
+          Link="/Content/EMSDesktopClient/V44.1/InstallationGuide/DC_IG_DowngradeWebDeploy.htm" />
         <TocEntry
           Title="Installing Custom Reports in EMS Desktop Client"
-          Link="/Content/EMSDesktopClient/V44.1/A_InstallationGuide/DC_IG_InstallCustomReport.html" />
+          Link="/Content/EMSDesktopClient/V44.1/InstallationGuide/DC_IG_InstallCustomReport.html" />
       </TocEntry>
       <TocEntry
         Title="EMS Desktop Client Configuration Guide (V44)"
@@ -98,7 +98,7 @@
               Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_ConfigGenerRoomQRCode.htm" />
             <TocEntry
               Title="Import Rooms"
-              Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ImportRooms.htm" />
+              Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ImportRooms.htm" />
             <TocEntry
               Title="Export Pricing Information for a Room"
               Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_ExportPricingInfo.htm" />
@@ -251,7 +251,7 @@
             Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_ConfigMessages.htm" />
           <TocEntry
             Title="Configure Special Dates"
-            Link="/Content/EMSDesktopClient/V44.1/B_ConfigGuide/ConfigSpecialDates.html" />
+            Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigSpecialDates.html" />
           <TocEntry
             Title="Configure User-Defined Fields"
             Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_ConfigUDF.htm" />
@@ -404,7 +404,7 @@
         Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_Introduction.html">
         <TocEntry
           Title="Introduction to EMS Desktop Client"
-          Link="/Content/EMSDesktopClient/V44.1/A_InstallationGuide/DC_IG_Introduction.html" />
+          Link="/Content/EMSDesktopClient/V44.1/InstallationGuide/DC_IG_Introduction.html" />
         <TocEntry
           Title="Launch EMS Desktop Client"
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_StartEMS.html" />
