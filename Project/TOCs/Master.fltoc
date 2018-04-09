@@ -2818,7 +2818,7 @@
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_BookDetailsItemsOverview.htm">
           <TocEntry
             Title="Add Booking Details and Items to Individual Bookings"
-            Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_AddBookDetItemtoIndivBookings.htm" />
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/AddBookDetItemtoIndivBookings.htm" />
           <TocEntry
             Title="Add Booking Details and Items to Existing Bookings"
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_AddBookDetsItemstoExistBook.html" />
