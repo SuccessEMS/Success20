@@ -302,7 +302,7 @@
           Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/AcademicImportUitil.htm">
           <TocEntry
             Title="Configure the Academic Import Utility"
-            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_ConfigAcademImportUtil.htm" />
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigAcademImportUtil.htm" />
         </TocEntry>
         <TocEntry
           Title="System Administration Configuration &gt; User Security"
