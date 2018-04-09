@@ -382,7 +382,7 @@
           ChapterNumberReset="continue" />
         <TocEntry
           Title="Add Booking Details and Items to Multiple Bookings"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_AddItemstoMultBook.html"
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/AddItemstoMultBook.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
