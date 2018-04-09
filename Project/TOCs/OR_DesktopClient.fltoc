@@ -223,7 +223,7 @@
             Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_ConfigRoomCardFormat.htm" />
           <TocEntry
             Title="Configure Calendar Formats"
-            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_ConfigCalFormat.htm" />
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigCalFormat.htm" />
           <TocEntry
             Title="Configure Check-in Notification Rules"
             Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_ConfigCheckinNot.htm" />
@@ -260,7 +260,7 @@
             Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_ConfigReservSource.htm" />
           <TocEntry
             Title="Configure Cancel Reasons"
-            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_ConfigCancelReasons.htm" />
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigCancelReasons.htm" />
           <TocEntry
             Title="Configure Attachment Types"
             Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigAttachmentType.html" />
@@ -269,7 +269,7 @@
             Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_ConfigWordMergeDoc.html" />
           <TocEntry
             Title="Configure Calendar Styles"
-            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_ConfigCalendarStyles.html" />
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigCalendarStyles.html" />
         </TocEntry>
         <TocEntry
           Title="System Administration Configuration &gt; Settings"
