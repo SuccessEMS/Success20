@@ -479,7 +479,7 @@
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_EditResinNav.html" />
           <TocEntry
             Title="Add Bookings to a Reservation in the Navigator"
-            Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_AddBooktoResinNav.html" />
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/AddBooktoResinNav.html" />
           <TocEntry
             Title="Copy a Reservation in the Navigator"
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_CopyResinNav.html" />
@@ -508,13 +508,13 @@
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_BookDetailsItemsOverview.htm">
             <TocEntry
               Title="Add Booking Details and Items to Individual Bookings"
-              Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_AddBookDetItemtoIndivBookings.htm" />
+              Link="/Content/EMSDesktopClient/V44.1/UserGuide/AddBookDetItemtoIndivBookings.htm" />
             <TocEntry
               Title="Add Booking Details and Items to Existing Bookings"
-              Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_AddBookDetsItemstoExistBook.html" />
+              Link="/Content/EMSDesktopClient/V44.1/UserGuide/AddBookDetsItemstoExistBook.html" />
             <TocEntry
               Title="Add Booking Details and Items to Multiple Bookings"
-              Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_AddItemstoMultBook.html" />
+              Link="/Content/EMSDesktopClient/V44.1/UserGuide/AddItemstoMultBook.html" />
             <TocEntry
               Title="Edit Booking Detail Items for Individual Bookings"
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_EditItemsforIndividBook.html" />
@@ -534,7 +534,7 @@
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_EditCountInfoforBook.html" />
             <TocEntry
               Title="Add Booking Details Wizard"
-              Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_AddBookDetailsWizard.htm" />
+              Link="/Content/EMSDesktopClient/V44.1/UserGuide/AddBookDetailsWizard.htm" />
             <TocEntry
               Title="Copy Booking Details Wizard"
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_CopyBookDetailsWzd.html" />
@@ -546,14 +546,14 @@
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_DeleteItemWizard.html" />
             <TocEntry
               Title="Add Item Wizard"
-              Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_AddItemWizard.htm" />
+              Link="/Content/EMSDesktopClient/V44.1/UserGuide/AddItemWizard.htm" />
           </TocEntry>
           <TocEntry
             Title="Comments and Reminders in the Navigator"
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_CommRemindinNav.html">
             <TocEntry
               Title="Add Multiple Comments and Reminders to a Reservation"
-              Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_AddMultCommRemintoRes.htm" />
+              Link="/Content/EMSDesktopClient/V44.1/UserGuide/AddMultCommRemintoRes.htm" />
           </TocEntry>
           <TocEntry
             Title="User-Defined Fields in the Navigator"

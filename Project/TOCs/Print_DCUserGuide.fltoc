@@ -262,7 +262,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Add Bookings to a Reservation in the Navigator"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_AddBooktoResinNav.html"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/AddBooktoResinNav.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -362,7 +362,7 @@
         ChapterNumberReset="continue">
         <TocEntry
           Title="Add Booking Details and Items to Individual Bookings"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_AddBookDetItemtoIndivBookings.htm"
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/AddBookDetItemtoIndivBookings.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -372,7 +372,7 @@
           ChapterNumberReset="continue" />
         <TocEntry
           Title="Add Booking Details and Items to Existing Bookings"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_AddBookDetsItemstoExistBook.html"
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/AddBookDetsItemstoExistBook.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -382,7 +382,7 @@
           ChapterNumberReset="continue" />
         <TocEntry
           Title="Add Booking Details and Items to Multiple Bookings"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_AddItemstoMultBook.html"
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/AddItemstoMultBook.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -442,7 +442,7 @@
           ChapterNumberReset="continue" />
         <TocEntry
           Title="Add Booking Details Wizard"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_AddBookDetailsWizard.htm"
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/AddBookDetailsWizard.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -482,7 +482,7 @@
           ChapterNumberReset="continue" />
         <TocEntry
           Title="Add Item Wizard"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_AddItemWizard.htm"
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/AddItemWizard.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -503,7 +503,7 @@
         ChapterNumberReset="continue">
         <TocEntry
           Title="Add Multiple Comments and Reminders to a Reservation"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_AddMultCommRemintoRes.htm"
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/AddMultCommRemintoRes.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
