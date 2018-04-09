@@ -606,7 +606,7 @@
       ChapterNumberReset="continue">
       <TocEntry
         Title="Fields in the Reservation Wizard"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_FieldsinResWiz1.htm"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/FieldsinResWiz.htm"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -699,7 +699,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Add or Edit Profile Information for People and Groups"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_WorkInfoAboutGroupsIndiv.html"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/InfoAboutGroupsIndiv.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -923,7 +923,7 @@
     </TocEntry>
     <TocEntry
       Title="Manage Services"
-      Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ManageServices.html"
+      Link="/Content/EMSDesktopClient/V44.1/UserGuide/ManageServiceOrders.html"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
@@ -933,7 +933,7 @@
       ChapterNumberReset="continue">
       <TocEntry
         Title="Work With and Search for Service Orders"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ManageServices.html"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/ManageServiceOrders.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"

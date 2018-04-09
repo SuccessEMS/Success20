@@ -2897,7 +2897,7 @@
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_WhatIsWizard.html" />
         <TocEntry
           Title="Fields in the Reservation Wizard"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_FieldsinResWiz1.htm" />
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/FieldsinResWiz.htm" />
         <TocEntry
           Title="The Everyday User Reservations Browser"
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_EverydayUserReservBrowser.htm">
@@ -2930,7 +2930,7 @@
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_SearchConfigGroupsIndividuals.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
           Title="Add or Edit Profile Information for People and Groups"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_WorkInfoAboutGroupsIndiv.html" />
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/InfoAboutGroupsIndiv.html" />
         <TocEntry
           Title="Create an Everyday User from a Group"
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_CreateEverydayUserfromGroup.htm" />
@@ -3000,10 +3000,10 @@
       </TocEntry>
       <TocEntry
         Title="Manage Services"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ManageServices.html">
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/ManageServiceOrders.html">
         <TocEntry
           Title="Work With and Search for Service Orders"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ManageServices.html" />
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/ManageServiceOrders.html" />
       </TocEntry>
       <TocEntry
         Title="Search For Reservations, Bookings, Resources, and Service Orders"
