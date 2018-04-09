@@ -153,7 +153,7 @@
             Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_ConfigGroup.htm">
             <TocEntry
               Title="Configure Additional Information for a Group"
-              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_ConfigAddInfoGroup.htm" />
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigAddInfoGroup.htm" />
             <TocEntry
               Title="Edit Group Information"
               Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_EditGroupInfo.htm" />
@@ -263,7 +263,7 @@
             Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_ConfigCancelReasons.htm" />
           <TocEntry
             Title="Configure Attachment Types"
-            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_ConfigAttachmentType.html" />
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigAttachmentType.html" />
           <TocEntry
             Title="Configure Word Merge Documents"
             Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_ConfigWordMergeDoc.html" />
