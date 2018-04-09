@@ -2084,62 +2084,59 @@ p.box-warning
 	padding-bottom: 0;
 }
 
-.box-note p span
+
+.box-note p span, p.box-note span, .box-tip p span, p.box-tip span, .box-important p span, p.box-important span,
+.box-warning p span, p.box-warning span
 {
 	font-weight: 700;
 	color: #333;
 	text-transform: none;
 }
 
-p.box-note span
+
+
+/********Note Combo Box Links*********/
+.box-tip MadCap|xref, .box-tip MadCap|xref:hover
 {
-	font-weight: 700;
-	color: #333;
-	text-transform: none;
+	font-size: 16px;
 }
 
-.box-tip p span
+.box-note MadCap|xref, .box-note MadCap|xref:hover
 {
-	font-weight: 700;
-	color: #333;
-	text-transform: none;
+	font-size: 16px;	
 }
 
-p.box-tip span
+.box-important MadCap|xref, .box-important MadCap|xref:hover
 {
-	font-weight: 700;
-	color: #333;
-	text-transform: none;
+	font-size: 16px;	
 }
 
-.box-important p span
+.box-warning MadCap|xref, .box-warning MadCap|xref:hover
 {
-	font-weight: 700;
-	color: #333;
-	text-transform: none;
+	font-size: 16px;	
 }
 
-p.box-important span
+.box-tip a, .box-tip a:link, .box-tip a:visited, .box-tip a:hover
 {
-	font-weight: 700;
-	color: #333;
-	text-transform: none;
+	font-size: 16px;
 }
 
-.box-warning p span
+.box-note a, .box-note a:link, .box-note a:visited, .box-note a:hover
 {
-	font-weight: 700;
-	color: #333;
-	text-transform: none;
+	font-size: 16px;
 }
 
-p.box-warning span
+.box-important a, .box-important a:link, .box-important a:visited, .box-important a:hover
 {
-	font-weight: 700;
-	color: #333;
-	text-transform: none;
+	font-size: 16px;
 }
 
+.box-warning a, .box-warning a:link, .box-warning a:visited, .box-warning a:hover
+{
+	font-size: 16px;
+}
+
+/*********************End Note Combo Box Links**************/
 /*
 .bold-box
 {
