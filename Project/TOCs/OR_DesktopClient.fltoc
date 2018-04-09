@@ -182,7 +182,7 @@
             Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_ConfigCalc.htm" />
           <TocEntry
             Title="Configure Accounts"
-            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_ConfigAccount.htm" />
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigAccount.htm" />
           <TocEntry
             Title="Configure Payment Types"
             Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_ConfigPaymentType.htm" />
