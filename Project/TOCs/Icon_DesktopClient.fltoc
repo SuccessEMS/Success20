@@ -721,7 +721,7 @@
         Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ReservationWizard.htm">
         <TocEntry
           Title="Fields in the Reservation Wizard"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_FieldsinResWiz1.htm" />
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/FieldsinResWiz.htm" />
         <TocEntry
           Title="The Everyday User Reservations Browser"
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_EverydayUserReservBrowser.htm">
