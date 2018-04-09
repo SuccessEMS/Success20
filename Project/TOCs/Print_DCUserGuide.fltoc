@@ -442,7 +442,7 @@
           ChapterNumberReset="continue" />
         <TocEntry
           Title="Add Booking Details Wizard"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_AddBookDetailsWizard.htm"
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/AddBookDetailsWizard.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"

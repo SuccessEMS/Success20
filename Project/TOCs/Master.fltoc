@@ -2842,7 +2842,7 @@
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_EditCountInfoforBook.html" />
           <TocEntry
             Title="Add Booking Details Wizard"
-            Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_AddBookDetailsWizard.htm" />
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/AddBookDetailsWizard.htm" />
           <TocEntry
             Title="Copy Booking Details Wizard"
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_CopyBookDetailsWzd.html" />
