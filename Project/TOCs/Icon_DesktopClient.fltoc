@@ -1290,7 +1290,7 @@
               Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_CurrencyConfigWiz.htm" />
             <TocEntry
               Title="Booking Move/Change Status Wizard"
-              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_BookingMoveChangeStatusWiz.htm" />
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/BookingMoveChangeStatusWiz.htm" />
           </TocEntry>
           <TocEntry
             Title="System Parameters"
