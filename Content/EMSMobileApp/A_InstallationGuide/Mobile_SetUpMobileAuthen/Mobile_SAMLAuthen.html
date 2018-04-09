@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html MadCap:lastBlockDepth="6" MadCap:lastHeight="10919" MadCap:lastWidth="917" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+<html MadCap:lastBlockDepth="7" MadCap:lastHeight="12029" MadCap:lastWidth="917" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
         <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title mt-export-translate="no">SAML Authentication</title>
         <meta name="mt-type" value="application/x.deki-text" />
@@ -11,16 +11,30 @@
         <p>This section guides you authenticating your users with a SAML provider. Authentication with SAML requires getting configuration set up for EMS Mobile App and EMS Web App prior to beginning the authentication flow.</p>
         <p>This topic will give you information on the following:</p>
         <ul>
-            <li>Prerequisites</li>
-            <li>Supported Identity Providers</li>
-            <li>Update SAML&#160;Authentication</li>
-            <li>Configure SAML&#160;Authentication for the EMS&#160;Mobile App and EMS&#160;Web App</li>
-            <li>Identify Your Provider in Configuration</li>
-            <li>How EMS&#160;Platform Services Supports SAML</li>
-            <li>Using Hosted Configuration (Public Deployment)</li>
-            <li>Pre-Configure EMS&#160;Mobile App (Private Deployment)</li>
-            <li>Test Your SAML&#160;Configuration</li>
-            <li>Test Your SAML&#160;Authentication</li>
+            <li><a href="#Prerequisites">Prerequisites for SAML&#160;Authentication</a>
+            </li>
+            <li><a href="#SupportedIdentityProviders">Supported Identity Providers</a>
+            </li>
+            <li><a href="#updateSAMLConfiguration">Update SAML&#160;Configuration</a>
+            </li>
+            <li><a href="#ConfigureSAMLAuthenticationforWebandMobile">Configure SAML&#160;Authentication for the EMS&#160;Mobile App and EMS&#160;Web App</a>
+            </li>
+            <li><a href="#Identifyyourprovider">Identify Your Provider in Configuration</a>
+                <ul>
+                    <li><a href="#Shibboleth">Shibboleth Authentication</a>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="#HowPlatformSupportsSAML">How EMS&#160;Platform Services Supports SAML</a>
+            </li>
+            <li><a href="#UsingHostedConfig">Using Hosted Configuration (Public Deployment)</a>
+            </li>
+            <li><a href="#PreConfigureEMSMobileApp">Pre-Configure EMS&#160;Mobile App (Private Deployment)</a>
+            </li>
+            <li><a href="#Test_Your_SAML_Configuration">Test Your SAML&#160;Configuration</a>
+            </li>
+            <li><a href="#Test_Your_SAML_Authentication">Test Your SAML&#160;Authentication</a>
+            </li>
         </ul>
         <h2><a name="Prerequisites"></a>Prerequisites</h2>
         <p>EMS Platform Services is required for SAML&#160;authentication. </p>
@@ -36,7 +50,7 @@
         </div>
         <h3>EMS&#160;Mobile App</h3>
         <p>The minimum version of EMS Platform Services for SAML&#160;authentication in the EMS&#160;Mobile App is Update 9. There are breaking changes in <a href="../../../ReleaseNotes/Version44.1/Update23/EMSMobileApp.htm">Update 23</a> and customers will be required to update SAML&#160;configuration settings.</p>
-        <h2>Supported Identity Providers</h2>
+        <h2><a name="SupportedIdentityProviders"></a>Supported Identity Providers</h2>
         <ul class="unorder-list">
             <li>ADFS</li>
             <li>G Suite</li>
@@ -46,14 +60,14 @@
             <li>Shibboleth</li>
         </ul>
         <p class="box-note"><span class="bold">NOTE</span>:&#160;Only Redirect HTTP&#160;Binding Type is currently supported. </p>
-        <h2>update SAML&#160;configuration</h2>
+        <h2><a name="updateSAMLConfiguration"></a>update SAML&#160;configuration</h2>
         <ol class="number-list" style="list-style-type: lower-alpha;">
             <li>Delete existing identity and service provider keys. As of Update 23 (March 2018), SP and IdP certs are stored in the database instead of the file system of EMS&#160;Platform Services.</li>
             <li><a href="#Encryption">Generate encryption key</a>. </li>
             <li><a href="#Identifyyourprovider">Update SAML configuration based on these settings</a>.</li>
         </ol>
-        <h2>Configure SAML&#160;Authentication for EMS&#160;Mobile App and EMS&#160;Web App</h2>
-        <h4><a name="Encryption"></a>Prerequisite</h4>
+        <h2><a name="ConfigureSAMLAuthenticationforWebandMobile"></a>Configure SAML&#160;Authentication for EMS&#160;Mobile App and EMS&#160;Web App</h2>
+        <h4>Prerequisite</h4>
         <p>Update the Encryption key in default.Json file. </p>
         <p class="box-note"><span class="bold">NOTE:</span>&#160;The Encryption Key is used for encrypting and decrypting the Service Provider private key when stored in the database via the AuthKey API.</p>
         <p><span class="bold">New Customers:</span> The encryption key is already provided in the default.json file.</p>
@@ -75,6 +89,9 @@
             <li><span class="bold">Service Provider Post back URL:</span> Optional URL for Identify Provider to use for generating SAMLResponse POST Back URL to EMS Platform Services as the Service Provider. This should be set to the URL at the EMS Platform Services SAML Auth Endpoint (e.g., https://mycompany.com/EmsPlatform/api/v1/authentication/saml). If the Service Provider post back URL is not configured with the IdP, then it will need to be configured from the EMS Platform Admin UI.</li>
         </ul>
         <p>The following fields are required to complete SAML authentication configuration:&#160;</p>
+        <p>
+            <img src="../../../EMSPlatformServices/Images/ConfigPS_SAMLAuth.png" />
+        </p>
         <table border="1" cellpadding="0" cellspacing="0" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows">
             <col class="TableStyle-PatternedRows-Column-Regular" style="width: 234px;" />
             <col class="TableStyle-PatternedRows-Column-Regular" style="width: 683px;" />
@@ -90,57 +107,67 @@
             </thead>
             <tbody>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" colspan="2">
+                        <h4 colspan="2">Request and Response Properties</h4>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
                         <p><span class="bold">Form Post Field Name</span>
                         </p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
                         <p>(Optional, default is SamlResponse). Attribute in which assertions are sent, within encoded &lt;samlp:Response&gt; document.</p>
                     </td>
                 </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
                         <p><span class="bold">User Identity Field </span>
                         </p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p><span class="bold">REQUIRED</span>. Dropdown with choice of assertion element containing user identity (Name ID or Attribute). If set to Attribute, then you must set the Identity Attribute Name to the expected assertion attribute name to use for user identity.</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p><span class="bold">Identity Attribute Name</span> <![CDATA[ ]]></p>
-                    </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p>Assertion attribute name containing user identity. Attribute names can be identity provider-specific (i.e., 'uid', 'mail'). This field is ignored when User Identity Field is set to Name ID.</p>
+                        <p><span class="bold">REQUIRED</span>. Dropdown with choice of assertion element containing user identity (Name ID or Attribute). If set to Attribute, then you must set the Identity Attribute Name to the expected assertion attribute name to use for user identity.</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p><span class="bold">Identity Provider Issuer </span>
-                        </p>
+                        <p><span class="bold">Identity Attribute Name</span> <![CDATA[ ]]></p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p><span class="bold">REQUIRED</span>. Used to verify expected issuer of assertions, including in SAMLResponse as &lt;Issuer xmlns="urn:oasis:names:tc:SAML:2.0:assertion" &gt;http://adfs.mycompany.net/adfs/services/trust&lt;/Issuer&gt;.</p>
+                        <p>Assertion attribute name containing user identity. Attribute names can be identity provider-specific (i.e., 'uid', 'mail'). This field is ignored when User Identity Field is set to Name ID.</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p><span class="bold">Service Provider Issuer </span>
+                        <p><span class="bold">Identity Provider Issuer </span>
                         </p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p><span class="bold">REQUIRED</span>. Used to verify expected issuer of assertions, including in SAMLResponse as &lt;Issuer xmlns="urn:oasis:names:tc:SAML:2.0:assertion" &gt;http://adfs.mycompany.net/adfs/services/trust&lt;/Issuer&gt;.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p><span class="bold">Service Provider Issuer </span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
                         <p><span class="bold">REQUIRED</span>. Included by EMS Platform Services in AuthnRequest requests sent to Identify Provider. This is included in the SAMLRequest as &lt;saml:Issuer&gt;https://mycompany.com/EmsPlatform&lt;/saml:Issuer&gt;</p>
                         <p>EMS Platform Services will autogenerate the values for the Service Provider Issuer and the Service Provider Base URL for IdP Callback.</p>
                     </td>
                 </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
                         <p class="bold">HTTP&#160;Binding Type</p>
                         <p>&#160;</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
                         <p>Specifies which SAML binding (HTTP Post or HTTP Redirect) EMS Platform Services will use to transmit SAML protocol messages. <span class="bold">Currently only Redirect is supported.</span></p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" colspan="2">
+                        <h4>URLs</h4>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
@@ -159,6 +186,16 @@
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
                         <p><span class="bold">REQUIRED</span>. Set this URL to the base URL of the EMS Platform Services installation (i.e., https://mycompany.com/EmsPlatform). EMS Platform Services will autogenerate the values for the Service Provider Issuer and the Service Provider Base URL for IdP Callback.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" colspan="2">
+                        <h4>Certificate Paths</h4>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" colspan="2">
+                        <p colspan="2" class="box-important"><span class="bold">IMPORTANT</span>:&#160;SAML&#160;Certificates are now Auth Keys. These fields are not editable. </p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
@@ -188,14 +225,40 @@
                 </tr>
             </tbody>
         </table>
-        <h3>How EMS Platform Services Supports SAML</h3>
+        <h2><a name="Shibboleth"></a>Shibboleth</h2>
+        <p>Users can sign in to the EMS Web App and EMS Mobile App using single sign on through Shibboleth. To utilize this functionality,  the service provider and identity provider certificates must be uploaded to the database.</p>
+        <ol>
+            <li><a href="../../../EMSPlatformServices/B_ConfigurationGuide/Platform_ConfigPSinAdminPortal.html#create_a_new_integration_client">Create a new client for Shibboleth in the Integrations tab.</a> <![CDATA[ ]]></li>
+            <li>Designate an <span class="bold">Everyday User Authentication</span> type by choosing <span class="bold">SAML&#160;</span>from the dropdown.</li>
+            <li>Click <span class="bold">Save Client</span>. </li>
+            <li>From the <span class="bold">Auth Keys </span>tab, click the <span class="bold">New Auth Key </span>button.</li>
+        </ol>
+        <p>
+            <img src="../../Images/SAMLAuth_AuthKeys.png" />
+        </p>
+        <ol>
+            <p>
+                <ol>
+                    <li>In the <span class="bold">Purpose </span>field, choose either <span class="bold">SAML&#160;Service Provider </span>or <span class="bold">SAML&#160;Identity Provider </span>Auth Key from the dropdown.</li>
+                </ol>
+                <p class="box-note"><span class="bold">NOTE</span>:&#160;Your Service Provider will provide the Public and Private Auth Keys. As the Identity Provider, EMS&#160;provides Public and Private Auth Keys. </p>
+                <ol MadCap:continue="true">
+                    <li>Optionally, you can choose a date range for the validity of your SAML&#160;Auth Keys by choosing dates from the <span class="bold">Not Before </span>and <span class="bold">Not After</span> fields. </li>
+                    <li>Copy and paste the contents from your Public Key file into the <span class="bold">Public Key</span> box.</li>
+                    <li>Copy and paste the contents from your Private Key file into the <span class="bold">Private Key </span>box. </li>
+                </ol>
+            </p>
+            <li>&#160;</li>
+        </ol>
+        <p>&#160;</p>
+        <h3><a name="HowPlatformSupportsSAML"></a>How EMS Platform Services Supports SAML</h3>
         <p>No 2fa support is provided&#160;with SAML authentication. 2fa is the responsibility of the Identity Provider (3rd-Party or Customer owned) and not the EMS Platform Services.&#160;Token expiration is configured and managed the same for SAML as for other authorization types, thus overriding any SAML Assertion Conditions that specify the assertion expiration timestamp.</p>
         <p class="box-note"><span class="bold">NOTE:</span>&#160;See Also: <MadCap:xref href="Mobile_PersistentAuthen.htm">Persistent Authentication</MadCap:xref> for token expiration configuration details. Refer to <MadCap:xref href="../../B_ConfigurationGuide/Mobile_CustomizeMobileAppUsingConfigJson.htm">Customize Your Mobile App Configuration Using config.json</MadCap:xref>&#160;for details on building a configuration file for <MadCap:variable name="General.Mobile" />.</p>
         <p>Once you have created your configuration file, you may proceed with one of the sections below, depending on whether you intend to host the file or pre-configure the application and redistribute it.</p>
-        <h3>Using Hosted Configuration (Public Deployment)</h3>
+        <h3><a name="UsingHostedConfig"></a>Using Hosted Configuration (Public Deployment)</h3>
         <p>Host your configuration file from an applicable web server. Distribute the URL to your end users.</p>
         <p class="box-warning"><span class="bold">WARNING:</span> It is not recommended to make this configuration file publicly available, since it will likely have URLs and/or other information in it that you do not want made available. Instead, host the file in a way such that it is only available internally to your organization. Users should only have to perform this import one time per installation of the application.</p>
-        <h3>Pre-Configure EMS&#160;Mobile App (Private Deployment)</h3>
+        <h3><a name="PreConfigureEMSMobileApp"></a>Pre-Configure EMS&#160;Mobile App (Private Deployment)</h3>
         <p>If you wish to pre-configure <MadCap:variable name="General.Mobile" />, see&#160;<MadCap:xref href="../../B_ConfigurationGuide/Mobile_ConfigRe-signMobilePrivDeploy.html">Configure and Re-Sign the EMS Mobile App</MadCap:xref>.</p>
         <h2><a name="Test_Your_SAML_Configuration"></a>Test Your SAML&#160;Configuration</h2>
         <p>Assuming you have installed the EMS Platform Services API at https://ems.yourcompany.com/endpoint, then you can test the configuration with a simple curl command:</p>
