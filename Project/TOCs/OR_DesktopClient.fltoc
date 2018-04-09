@@ -9,19 +9,19 @@
       Link="/Content/EMSDesktopClient/44/DC_44_Introduction.htm">
       <TocEntry
         Title="EMS Desktop Client Installation Guide (V44)"
-        Link="/Content/EMSDesktopClient/44/IG_44/DC_IG_44_Introduction.htm">
+        Link="/Content/EMSDesktopClient/44/InstallationGuide/DC_IG_44_Introduction.htm">
         <TocEntry
           Title="Hardware and Software Requirements"
-          Link="/Content/EMSDesktopClient/44/IG_44/DC_IG_44_HardwareSoftwareReq.htm" />
+          Link="/Content/EMSDesktopClient/44/InstallationGuide/DC_IG_44_HardwareSoftwareReq.htm" />
         <TocEntry
           Title="First Time Installation Instructions"
-          Link="/Content/EMSDesktopClient/44/IG_44/DC_IG_44_FirstTimeInstallInstruct.htm"></TocEntry>
+          Link="/Content/EMSDesktopClient/44/InstallationGuide/DC_IG_44_FirstTimeInstallInstruct.htm"></TocEntry>
         <TocEntry
           Title="Obtain the Latest Release of EMS"
-          Link="/Content/EMSDesktopClient/44/IG_44/DC_IG_44_ObtainLatestRelease.htm"></TocEntry>
+          Link="/Content/EMSDesktopClient/44/InstallationGuide/DC_IG_44_ObtainLatestRelease.htm"></TocEntry>
         <TocEntry
           Title="Upgrade Instructions"
-          Link="/Content/EMSDesktopClient/44/IG_44/DC_IG_44_UpgradeInstruct.htm" />
+          Link="/Content/EMSDesktopClient/44/InstallationGuide/DC_IG_44_UpgradeInstruct.htm" />
         <TocEntry
           Title="Downgrade the EMS Desktop Client Web Deploy"
           Link="/Content/EMSDesktopClient/V44.1/A_InstallationGuide/DC_IG_DowngradeWebDeploy.htm" />
