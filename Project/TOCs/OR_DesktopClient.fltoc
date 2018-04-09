@@ -179,7 +179,7 @@
             Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_ExportPricingInfo.htm" />
           <TocEntry
             Title="Configure Calculations"
-            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_ConfigCalc.htm" />
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigCalc.htm" />
           <TocEntry
             Title="Configure Accounts"
             Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigAccount.htm" />
@@ -191,7 +191,7 @@
             Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_ConfigSalesCat.htm" />
           <TocEntry
             Title="Configure Billing References and PO Numbers"
-            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_ConfigBillRefPO.htm" />
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigBillRefPO.htm" />
           <TocEntry
             Title="Configure Currencies"
             Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_ConfigCurrencies.htm" />
