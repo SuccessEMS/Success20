@@ -11,7 +11,7 @@
         <p>To import data, you must&#160;configure&#160;a session for each block of data (i.e. quarter or semester). After you have configured a session, AIU saves the settings for use in both the initial import and any subsequent re-import. When a session is re-imported, only events in the import file that have changed since the last import are recreated in the EMS database. This prevents the unnecessary re-import of unchanged events and the associated invalidation of large ranges of reservation numbers. After configuring a session, you import the session.</p>
         <p class="note-box">Warning:&#160;Creating reservations can take an extended time and must be performed when no users are logged on to EMS. (To log off active users, see&#160;“Viewing and Emailing Logged-In Users”.) The time required to create reservations varies depending on the amount of data involved and the processing power of the computer making the reservations. After the import process completes, the system automatically displays a report listing booking conflicts, if any.</p>
         <p>Reservations that were added to the EMS database using the AIU can be removed from the database using the AIU as well. Deleting a session removes all reservations created using the session.</p>
-        <p class="note-box">Tip:&#160;Before you configure an AIU session, you should review the Academic Import Days of the Week setting in your system parameters. This setting dictates whether the AIU interprets days of the week based on their position within the data (with options for Sunday first or Monday first) or based on specific text entries (Su = Sunday, M = Monday, and so on). See&#160;<a href="../../V44.1/B_ConfigGuide/DC_CG_EMSSystemParam.html">EMS System Parameters.</a></p>
+        <p class="note-box">Tip:&#160;Before you configure an AIU session, you should review the Academic Import Days of the Week setting in your system parameters. This setting dictates whether the AIU interprets days of the week based on their position within the data (with options for Sunday first or Monday first) or based on specific text entries (Su = Sunday, M = Monday, and so on). See&#160;<a href="../../V44.1/B_ConfigGuide/EMSSystemParam.html">EMS System Parameters.</a></p>
         <p class="note-box">Tip:&#160;All fields are required unless noted otherwise.</p>
         <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
             <thead>
@@ -649,7 +649,7 @@
         <p>To import data, you must&#160;configure&#160;a session for each block of data (i.e., quarter or semester). After you have configured a session, AIU saves the settings for use in both the initial import and any subsequent re-import. When a session is re-imported, only events in the import file that have changed since the last import are recreated in the EMS database. This prevents the unnecessary re-import of unchanged events and the associated invalidation of large ranges of reservation numbers. After configuring a session, you&#160;import&#160;the data for the session.</p>
         <p class="note-box">Tip:&#160;Creating reservations can take an extended time and must be performed when no users are logged in to EMS. (To log off active users, see&#160;“Viewing and Emailing Logged-In Users”.) The time required to create reservations varies depending on the amount of data involved and the processing power of the computer making the reservations. After the import process completes, the system automatically displays a report listing booking conflicts, if any.</p>
         <p>Reservations that were added to the EMS database using the AIU can be removed from the database using the AIU as well. Deleting a session removes all reservations created using the session.</p>
-        <p class="note-box">Tip:&#160;Before you configure an AIU session, you should review the Academic Import Days of the Week setting in your system parameters. This setting dictates whether the AIU interprets days of the week based on their position within the data (with options for Sunday first or Monday first) or based on specific text entries (Su = Sunday, M = Monday, and so on). See&#160;<a href="../../V44.1/B_ConfigGuide/DC_CG_EMSSystemParam.html">EMS System Parameters.</a></p>
+        <p class="note-box">Tip:&#160;Before you configure an AIU session, you should review the Academic Import Days of the Week setting in your system parameters. This setting dictates whether the AIU interprets days of the week based on their position within the data (with options for Sunday first or Monday first) or based on specific text entries (Su = Sunday, M = Monday, and so on). See&#160;<a href="../../V44.1/B_ConfigGuide/EMSSystemParam.html">EMS System Parameters.</a></p>
         <h2 class="Heading2"><a name="RTF436f6e6669677572655f7365"></a>Configure an AIU session&#160;</h2>
         <p class="note-box">Tip:&#160;This section describes the steps for configuring a new session for the AIU. If you simply need to load an existing session, then after opening the Sessions window, skip to&#160;“To import the data into the session”.</p>
         <ol start="1">
@@ -735,7 +735,7 @@
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
                         <p>The status for the new bookings that are created.</p>
-                        <p>Note:&#160;While you can use an existing status such as Confirmed, it is generally best to create a new status (for example, Academic - Confirmed) to denote the imported data. See&#160;<a href="../../V44.1/B_ConfigGuide/DC_CG_ConfigStatuses.htm">Configuring Statuses.</a></p>
+                        <p>Note:&#160;While you can use an existing status such as Confirmed, it is generally best to create a new status (for example, Academic - Confirmed) to denote the imported data. See&#160;<a href="../../V44.1/B_ConfigGuide/ConfigStatuses.htm">Configuring Statuses.</a></p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
@@ -743,7 +743,7 @@
                         <p>Conflict Status</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p>Available after you specify a Status. Select a value from the dropdown list. If none of the statuses that are currently configured in your EMS database meets your needs, then you can configure a status (for example, Academic - Conflict). See<a href="../../V44.1/B_ConfigGuide/DC_CG_ConfigStatuses.htm"> Configuring Statuses.</a></p>
+                        <p>Available after you specify a Status. Select a value from the dropdown list. If none of the statuses that are currently configured in your EMS database meets your needs, then you can configure a status (for example, Academic - Conflict). See<a href="../../V44.1/B_ConfigGuide/ConfigStatuses.htm"> Configuring Statuses.</a></p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
@@ -759,7 +759,7 @@
                         <p>Cross List Conflict Status</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p>Available if you select Use Cross List Status. The status that is to be applied to cross-listed classes. Select a value from the dropdown list. If none of the statuses that are currently configured in your EMS database meets your needs, then you can configure a status (for example, Academic - Cross List). See&#160;<a href="../../V44.1/B_ConfigGuide/DC_CG_ConfigStatuses.htm">Configuring Statuses.</a></p>
+                        <p>Available if you select Use Cross List Status. The status that is to be applied to cross-listed classes. Select a value from the dropdown list. If none of the statuses that are currently configured in your EMS database meets your needs, then you can configure a status (for example, Academic - Cross List). See&#160;<a href="../../V44.1/B_ConfigGuide/ConfigStatuses.htm">Configuring Statuses.</a></p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
@@ -775,7 +775,7 @@
                         <p>Override Conflict Status</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p>Available if you select Override Existing Bookings. The status that is to be applied to existing events if they are overridden by imported events. Select a value from the dropdown list. If none of the statuses that are currently configured in your EMS database meets your needs, then you can configure a status (for example, Academic - Conflict). See&#160;<a href="../../V44.1/B_ConfigGuide/DC_CG_ConfigStatuses.htm">Configuring Statuses.</a></p>
+                        <p>Available if you select Override Existing Bookings. The status that is to be applied to existing events if they are overridden by imported events. Select a value from the dropdown list. If none of the statuses that are currently configured in your EMS database meets your needs, then you can configure a status (for example, Academic - Conflict). See&#160;<a href="../../V44.1/B_ConfigGuide/ConfigStatuses.htm">Configuring Statuses.</a></p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
