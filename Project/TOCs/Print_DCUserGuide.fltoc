@@ -699,7 +699,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Add or Edit Profile Information for People and Groups"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_WorkInfoAboutGroupsIndiv.html"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/InfoAboutGroupsIndiv.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
