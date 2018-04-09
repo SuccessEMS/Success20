@@ -817,7 +817,7 @@
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_BuildHoursExceptTab.html" />
         <TocEntry
           Title="Analytics Tab"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_AnalyticsTab.html" />
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/AnalyticsTab.html" />
         <TocEntry
           Title="At a Glance Tab"
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_AtAGlanceTab.html" />
@@ -1614,7 +1614,7 @@
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_BuildHoursExceptTab.html" />
             <TocEntry
               Title="Analytics Tab"
-              Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_AnalyticsTab.html" />
+              Link="/Content/EMSDesktopClient/V44.1/UserGuide/AnalyticsTab.html" />
             <TocEntry
               Title="At a Glance Tab"
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_AtAGlanceTab.html" />
