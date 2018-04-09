@@ -18,7 +18,8 @@
     CollapseMargins="true"
     ExpandingTextConversion="expand"
     PopupConversion="remove-body"
-    GenerateTOCProxy="false" />
+    GenerateTOCProxy="false"
+    EnableTrackedChanges="true" />
   <DocumentProperties
     Title="EMS HR Toolkit"
     Author="EMS Software" />

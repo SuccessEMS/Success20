@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html MadCap:lastBlockDepth="7" MadCap:lastHeight="12029" MadCap:lastWidth="917" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+<html MadCap:lastBlockDepth="7" MadCap:lastHeight="11952" MadCap:lastWidth="917" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
         <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title mt-export-translate="no">SAML Authentication</title>
         <meta name="mt-type" value="application/x.deki-text" />
@@ -92,7 +92,7 @@
         <p>
             <img src="../../../EMSPlatformServices/Images/ConfigPS_SAMLAuth.png" />
         </p>
-        <table border="1" cellpadding="0" cellspacing="0" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows">
+        <table border="1" cellpadding="0" cellspacing="0" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');margin-left: 0;margin-right: auto;width: 100%;" class="TableStyle-PatternedRows">
             <col class="TableStyle-PatternedRows-Column-Regular" style="width: 234px;" />
             <col class="TableStyle-PatternedRows-Column-Regular" style="width: 683px;" />
             <thead>
@@ -241,16 +241,14 @@
                 <ol>
                     <li>In the <span class="bold">Purpose </span>field, choose either <span class="bold">SAML&#160;Service Provider </span>or <span class="bold">SAML&#160;Identity Provider </span>Auth Key from the dropdown.</li>
                 </ol>
-                <p class="box-note"><span class="bold">NOTE</span>:&#160;Your Service Provider will provide the Public and Private Auth Keys. As the Identity Provider, EMS&#160;provides Public and Private Auth Keys. </p>
+                <p class="box-note"><span class="bold">NOTE</span>:&#160;Your <span class="bold">Purpose </span>selection determines who will provide your Public and Private Keys. If SAML&#160;Service Provider is selected, your Service Provider will provide the Public and Private Auth Keys. As the SAML&#160;Identity Provider, EMS&#160;will provide Public and Private Auth Keys. </p>
                 <ol MadCap:continue="true">
                     <li>Optionally, you can choose a date range for the validity of your SAML&#160;Auth Keys by choosing dates from the <span class="bold">Not Before </span>and <span class="bold">Not After</span> fields. </li>
                     <li>Copy and paste the contents from your Public Key file into the <span class="bold">Public Key</span> box.</li>
                     <li>Copy and paste the contents from your Private Key file into the <span class="bold">Private Key </span>box. </li>
                 </ol>
             </p>
-            <li>&#160;</li>
         </ol>
-        <p>&#160;</p>
         <h3><a name="HowPlatformSupportsSAML"></a>How EMS Platform Services Supports SAML</h3>
         <p>No 2fa support is provided&#160;with SAML authentication. 2fa is the responsibility of the Identity Provider (3rd-Party or Customer owned) and not the EMS Platform Services.&#160;Token expiration is configured and managed the same for SAML as for other authorization types, thus overriding any SAML Assertion Conditions that specify the assertion expiration timestamp.</p>
         <p class="box-note"><span class="bold">NOTE:</span>&#160;See Also: <MadCap:xref href="Mobile_PersistentAuthen.htm">Persistent Authentication</MadCap:xref> for token expiration configuration details. Refer to <MadCap:xref href="../../B_ConfigurationGuide/Mobile_CustomizeMobileAppUsingConfigJson.htm">Customize Your Mobile App Configuration Using config.json</MadCap:xref>&#160;for details on building a configuration file for <MadCap:variable name="General.Mobile" />.</p>
