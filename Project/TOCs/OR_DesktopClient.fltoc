@@ -318,7 +318,7 @@
             Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_ConfigUserTemp.htm" />
           <TocEntry
             Title="Configure Academic User Templates"
-            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_ConfigAcadUserTemp.htm" />
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigAcadUserTemp.htm" />
           <TocEntry
             Title="Configure User Security for Multiple User Accounts"
             Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_ConfigUserSecMultAcct.htm" />
