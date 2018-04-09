@@ -560,7 +560,7 @@
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_UserDefFieldsinNav.html" />
           <TocEntry
             Title="Attachments in the Navigator"
-            Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_AttachmentsinNav.html" />
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/AttachmentsinNav.html" />
           <TocEntry
             Title="Drawings in the Navigator"
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_DrawingsinNav.html" />
@@ -682,7 +682,7 @@
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/AnalyticsTab.html" />
           <TocEntry
             Title="At a Glance Tab"
-            Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_AtAGlanceTab.html" />
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/AtAGlanceTab.html" />
         </TocEntry>
         <TocEntry
           Title="Manage Services"
