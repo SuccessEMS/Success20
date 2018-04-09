@@ -491,7 +491,7 @@
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_RepricCatRoomChargeRes.html" />
           <TocEntry
             Title="Apply a Reservation Discount"
-            Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ApplyReservDiscount.html" />
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/ApplyReservDiscount.html" />
           <TocEntry
             Title="Edit a Booking in the Navigator"
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_EditBookinNav.html" />
@@ -560,7 +560,7 @@
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_UserDefFieldsinNav.html" />
           <TocEntry
             Title="Attachments in the Navigator"
-            Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_AttachmentsinNav.html" />
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/AttachmentsinNav.html" />
           <TocEntry
             Title="Drawings in the Navigator"
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_DrawingsinNav.html" />
@@ -569,7 +569,7 @@
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_RunResourceUtility.html" />
           <TocEntry
             Title="Approve or Deny Reservation Requests"
-            Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ApprovDenyReservReq.html" />
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/ApprovDenyReservReq.html" />
         </TocEntry>
         <TocEntry
           Title="The Calendar"
@@ -622,7 +622,7 @@
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_CreateEverydayUserfromGroup.htm" />
           <TocEntry
             Title="Assign an Everyday User to a Group"
-            Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_AssignEverydayUserstoGroup.html" />
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/AssignEverydayUserstoGroup.html" />
           <TocEntry
             Title="Configure Contacts for a Group"
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ConfigContactsforGroup.html" />
@@ -679,10 +679,10 @@
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_BuildHoursExceptTab.html" />
           <TocEntry
             Title="Analytics Tab"
-            Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_AnalyticsTab.html" />
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/AnalyticsTab.html" />
           <TocEntry
             Title="At a Glance Tab"
-            Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_AtAGlanceTab.html" />
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/AtAGlanceTab.html" />
         </TocEntry>
         <TocEntry
           Title="Manage Services"
@@ -742,7 +742,7 @@
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_SearchforTransactions.html" />
           <TocEntry
             Title="Apply Calculations to Billing -- Add to Billing Topic. This is a placeholder"
-            Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ApplyCalcultoBilling.html" />
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/ApplyCalcultoBilling.html" />
           <TocEntry
             Title="Quick Reference Guide: Billing and Invoicing"
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_QuickRefBillandInvoice.html" />
@@ -760,7 +760,7 @@
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_GenEMSBillReport.html" />
           <TocEntry
             Title="Apply a Reservation Discount"
-            Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ApplyReservDiscount.html" />
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/ApplyReservDiscount.html" />
           <TocEntry
             Title="Bill Multiple Reference and PO Numbers for a Reservation"
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_BillMultRefandPONumbers.html" />

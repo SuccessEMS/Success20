@@ -302,7 +302,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Apply a Reservation Discount"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ApplyReservDiscount.html"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/ApplyReservDiscount.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -524,7 +524,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Attachments in the Navigator"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_AttachmentsinNav.html"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/AttachmentsinNav.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -554,7 +554,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Approve or Deny Reservation Requests"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ApprovDenyReservReq.html"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/ApprovDenyReservReq.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -719,7 +719,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Assign an Everyday User to a Group"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_AssignEverydayUserstoGroup.html"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/AssignEverydayUserstoGroup.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -902,7 +902,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Analytics Tab"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_AnalyticsTab.html"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/AnalyticsTab.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -912,7 +912,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="At a Glance Tab"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_AtAGlanceTab.html"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/AtAGlanceTab.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -1106,7 +1106,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Apply Calculations to Billing -- Add to Billing Topic. This is a placeholder"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ApplyCalcultoBilling.html"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/ApplyCalcultoBilling.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -1166,7 +1166,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Apply a Reservation Discount"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ApplyReservDiscount.html"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/ApplyReservDiscount.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
