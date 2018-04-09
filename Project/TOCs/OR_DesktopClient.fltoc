@@ -201,7 +201,7 @@
           Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_ConfigBookingElements.htm">
           <TocEntry
             Title="Configure Categories"
-            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_ConfigCategory.html" />
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigCategory.html" />
           <TocEntry
             Title="Configure Departments"
             Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_ConfigDepts.htm" />
@@ -226,7 +226,7 @@
             Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigCalFormat.htm" />
           <TocEntry
             Title="Configure Check-in Notification Rules"
-            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_ConfigCheckinNot.htm" />
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigCheckinNot.htm" />
           <TocEntry
             Title="Configure Reservation Wizard Templates"
             Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_ConfigResWiz.htm" />
