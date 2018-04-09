@@ -923,7 +923,7 @@
     </TocEntry>
     <TocEntry
       Title="Manage Services"
-      Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ManageServices.html"
+      Link="/Content/EMSDesktopClient/V44.1/UserGuide/ManageServiceOrders.html"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
@@ -933,7 +933,7 @@
       ChapterNumberReset="continue">
       <TocEntry
         Title="Work With and Search for Service Orders"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ManageServices.html"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/ManageServiceOrders.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"

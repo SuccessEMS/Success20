@@ -824,10 +824,10 @@
       </TocEntry>
       <TocEntry
         Title="Manage Services"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ManageServices.html">
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/ManageServiceOrders.html">
         <TocEntry
           Title="Work With and Search for Service Orders"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ManageServices.html" />
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/ManageServiceOrders.html" />
       </TocEntry>
       <TocEntry
         Title="Search For Reservations, Bookings, Resources, and Service Orders"
@@ -1621,10 +1621,10 @@
           </TocEntry>
           <TocEntry
             Title="Manage Services"
-            Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ManageServices.html">
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/ManageServiceOrders.html">
             <TocEntry
               Title="Work With and Search for Service Orders"
-              Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ManageServices.html" />
+              Link="/Content/EMSDesktopClient/V44.1/UserGuide/ManageServiceOrders.html" />
           </TocEntry>
           <TocEntry
             Title="Search For Reservations, Bookings, Resources, and Service Orders"
