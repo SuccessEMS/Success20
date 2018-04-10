@@ -1082,7 +1082,7 @@
           </TocEntry>
           <TocEntry
             Title="Core Configuration &gt; Groups and Contacts"
-            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_CoreConfigurationGroupsandContacts.htm">
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/CoreConfigGroupsContacts.htm">
             <TocEntry
               Title="Configure Groups"
               Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigGroup.htm">
@@ -1201,7 +1201,7 @@
               Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigAttachmentType.html" />
             <TocEntry
               Title="Configure Word Merge Documents"
-              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_ConfigWordMergeDoc.html" />
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigWordMergeDoc.html" />
             <TocEntry
               Title="Configure Calendar Styles"
               Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigCalendarStyles.html" />
