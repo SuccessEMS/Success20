@@ -279,7 +279,7 @@
             Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/EditSysParam.htm" />
           <TocEntry
             Title="Import Registration Information"
-            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_ImportRegInfo.htm" />
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ImportRegInfo.htm" />
           <TocEntry
             Title="Configure the Confirmation Email Subject Line"
             Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigConfEmailSubLine.htm" />
