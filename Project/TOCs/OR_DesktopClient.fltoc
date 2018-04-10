@@ -454,7 +454,7 @@
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_UseReservationBook.html">
           <TocEntry
             Title="Create a Booking in the Reservation Book"
-            Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_BookRoomsResBook.html" />
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/BookRoomsResBook.html" />
           <TocEntry
             Title="View and Edit Reservations in the Reservation Book"
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ViewEditReservinResBook.htm" />
@@ -505,7 +505,7 @@
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_CopyMultipleBookinNav.html" />
           <TocEntry
             Title="Booking Details and Items Overview"
-            Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_BookDetailsItemsOverview.htm">
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/BookDetailsItemsOverview.htm">
             <TocEntry
               Title="Add Booking Details and Items to Individual Bookings"
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/AddBookDetItemtoIndivBookings.htm" />
@@ -599,11 +599,11 @@
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_CreateResinResWizard.htm" />
           <TocEntry
             Title="Book a Video Conference"
-            Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_BookingaVC.html" />
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/BookingaVC.html" />
         </TocEntry>
         <TocEntry
           Title="The Browser"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_Browser.htm">
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/Browser.htm">
           <TocEntry
             Title="Search with the Browser"
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_SearchwithBrowser.html" />
@@ -676,7 +676,7 @@
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ReconfirmDatesTab.html" />
           <TocEntry
             Title="Building Hours Exceptions Tab"
-            Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_BuildHoursExceptTab.html" />
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/BuildHoursExceptTab.html" />
           <TocEntry
             Title="Analytics Tab"
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/AnalyticsTab.html" />
@@ -696,7 +696,7 @@
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_SrchResBookResSvcOrder.html" />
         <TocEntry
           Title="Booking Check In "
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_BookCheckIn.html">
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/BookCheckIn.html">
           <TocEntry
             Title="Enable Booking Check In"
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_EnableBookingCheckIn.html" />
