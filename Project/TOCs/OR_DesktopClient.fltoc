@@ -233,7 +233,7 @@
         </TocEntry>
         <TocEntry
           Title="Core Configuration &gt; Other Data Types"
-          Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_CoreConfigurationOtherDataTypes.htm">
+          Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/CoreConfigOtherDataTypes.htm">
           <TocEntry
             Title="Configure Event Types"
             Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigEventTypes.htm" />
@@ -352,7 +352,7 @@
             Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_DeleteOldData.htm" />
           <TocEntry
             Title="Currency Configuration Wizard"
-            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_CurrencyConfigWiz.htm" />
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/CurrencyConfigWiz.htm" />
           <TocEntry
             Title="Booking Move/Change Status Wizard"
             Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/BookingMoveChangeStatusWiz.htm" />
