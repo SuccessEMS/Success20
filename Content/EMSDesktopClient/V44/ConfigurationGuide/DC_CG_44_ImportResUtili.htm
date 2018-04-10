@@ -1,19 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xml:lang="en-us" MadCap:lastBlockDepth="6" MadCap:lastHeight="12999" MadCap:lastWidth="812" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\OR_DC.flmsp');" class="desktopClient">
+<html xml:lang="en-us" MadCap:lastBlockDepth="6" MadCap:lastHeight="8373" MadCap:lastWidth="890" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../Resources/MasterPages/OR_DC.flmsp');" class="desktopClient">
     <head>
-        <link href="../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+        <link href="../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title>Import Reservations Utility V44 (EMS Desktop Client)</title>
         <link href="../Resources/Stylesheets/DTC_V44_SysAdTools.css" rel="stylesheet" />
     </head>
     <body>
-        <h1 class="Heading1" MadCap:autonum="CHAPTER&#160;1: ">
+        <h1 class="Heading1">
             <MadCap:concept term="V44" />Import Reservations Utility</h1>
         <p>This utility enables you to import existing reservations into your EMS database from a tab-delimited text file. (See&#160;Also:&#160;<a href="DC_CG_ResImportFileSpec.htm">Reservation Import File Specifications</a>&#160;for the import file specifications.) Importing reservations is a two-step process.</p>
-        <ol start="1">
+        <ol start="1" class="number-list">
             <li>Configure&#160;the reservation import. See also:&#160;Best Practices for Importing Reservations.</li>
             <li>After you configure the import, you must import&#160;the reservations. You an can also delete&#160;an import session.</li>
         </ol>
         <p>This topic will include information on the following:</p>
-        <ul>
+        <ul class="unorder-list">
             <li>
                 <MadCap:xref href="#Best">Best Practices for Using the Reservation Import Utility</MadCap:xref>
             </li>
@@ -30,7 +30,7 @@
         <h2><a name="Best"></a>Best Practices for Using the Reservation Import Utility</h2>
         <p>The practices below are recommended for preparing existing reservations for import into EMS.</p>
         <p>To view the fields you are importing in order, from EMS System Administration &gt; Tools &gt; Import Reservation Utility, you can use Print &gt; Import Format to view the fields in order. These fields are explained below.</p>
-        <ul>
+        <ul class="unorder-list">
             <li>Date (This can be in MM/DD/YYYY format if you are in US. If your computer is using DD/MM/YYY format, your file should match that format.</li>
             <li>Start time (This must be HHMM, like 0800 - Excel will try removing the leading zero, so you can format the column as Text, or as More Number Formats &gt; Custom and enter "HHMM" as the custom format).</li>
             <li>End time (This must be HHMM, like 1700).</li>
@@ -44,7 +44,7 @@
             <li>Billing Reference (this can be left blank if not required).</li>
         </ul>
         <h3>Additional Best Practices</h3>
-        <ul>
+        <ul class="unorder-list">
             <li>Your import file must be tab-delimited. The easiest way to generate the file is by using Excel and then copying and pasting into Notepad, and saving that file.</li>
             <li>Make sure the Group, 1st Contact, and Billing Reference are the same for all bookings within any single reservation. (For example, Taylor cannot be the contact for Monday while Chris is the contact for Tuesday)</li>
             <li>Group Name will be matched based on the first one found in your database. If you have two groups called "Pat Lee", EMS will pick the first one and assign it to all matching reservations.</li>

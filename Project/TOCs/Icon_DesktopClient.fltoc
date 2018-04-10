@@ -1247,16 +1247,16 @@
               Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_OverviewUserProc.htm" />
             <TocEntry
               Title="Configure Users"
-              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_ConfigUsers.htm" />
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigUsers.htm" />
             <TocEntry
               Title="Configure User Templates"
-              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_ConfigUserTemp.htm" />
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigUserTemp.htm" />
             <TocEntry
               Title="Configure Academic User Templates"
               Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigAcadUserTemp.htm" />
             <TocEntry
               Title="Configure User Security for Multiple User Accounts"
-              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_ConfigUserSecMultAcct.htm" />
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigUserSecMultAcct.htm" />
           </TocEntry>
           <TocEntry
             Title="System Administration &gt; Tools"
