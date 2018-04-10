@@ -1085,7 +1085,7 @@
             Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_CoreConfigurationGroupsandContacts.htm">
             <TocEntry
               Title="Configure Groups"
-              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_ConfigGroup.htm">
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigGroup.htm">
               <TocEntry
                 Title="Configure Additional Information for a Group"
                 Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigAddInfoGroup.htm" />
