@@ -902,7 +902,7 @@
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/ApplyReservDiscount.html" />
         <TocEntry
           Title="Bill Multiple Reference and PO Numbers for a Reservation"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_BillMultRefandPONumbers.html" />
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/BillMultRefandPONumbers.html" />
         <TocEntry
           Title="Price Categories and Room Charges"
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_RepricCatRoomChargeRes.html" />
@@ -1698,7 +1698,7 @@
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/ApplyReservDiscount.html" />
             <TocEntry
               Title="Bill Multiple Reference and PO Numbers for a Reservation"
-              Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_BillMultRefandPONumbers.html" />
+              Link="/Content/EMSDesktopClient/V44.1/UserGuide/BillMultRefandPONumbers.html" />
             <TocEntry
               Title="Price Categories and Room Charges"
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_RepricCatRoomChargeRes.html" />
