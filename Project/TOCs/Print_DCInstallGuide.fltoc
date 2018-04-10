@@ -79,7 +79,7 @@
     ChapterNumberReset="continue" />
   <TocEntry
     Title="Installing Custom Reports in EMS Desktop Client"
-    Link="/Content/EMSDesktopClient/V44.1/InstallationGuide/DC_IG_InstallCustomReport.html"
+    Link="/Content/EMSDesktopClient/V44.1/InstallationGuide/InstallCustomReport.html"
     BreakType="chapter"
     StartSection="false"
     PageNumberReset="continue"
