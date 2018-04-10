@@ -1902,6 +1902,21 @@ ul ul li::before
 	border-radius: 50%;
 }
 
+/********Note Box Links*********/
+.note-box MadCap|xref, .note-box MadCap|xref:hover
+{
+	font-size: 16px;
+}
+
+
+.note-box a, .note-box a:link, .note-box a:visited, .note-box a:hover
+{
+	font-size: 16px;
+}
+
+
+/*********************End Note Box Links**************/
+
 /* **********************    Notification Box Combo    ***********************************  */
 
 .box-note
