@@ -1152,7 +1152,7 @@
             </TocEntry>
             <TocEntry
               Title="Configure Group Notification Rules"
-              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_ConfigGroupNotRules.htm" />
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigGroupNotRules.htm" />
             <TocEntry
               Title="Configure Room Card Formats"
               Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_ConfigRoomCardFormat.htm" />
