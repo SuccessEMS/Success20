@@ -975,7 +975,7 @@
             Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_StartingEMS.htm" />
           <TocEntry
             Title="The EMS Window"
-            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_EMSWindow.htm" />
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/EMSWindow.htm" />
           <TocEntry
             Title="Overview of EMS Desktop Client Configuration"
             Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_OverviewofDCConfig.htm" />
