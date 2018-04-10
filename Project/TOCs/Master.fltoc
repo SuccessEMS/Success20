@@ -12,7 +12,7 @@
         Link="/Content/EMSDesktopClient/V44.1/InstallationGuide/Introduction.html" />
       <TocEntry
         Title="System Requirements and Prerequisites"
-        Link="/Content/EMSDesktopClient/V44.1/InstallationGuide/DC_IG_SystemReq.htm" />
+        Link="/Content/EMSDesktopClient/V44.1/InstallationGuide/SystemRequirements.htm" />
       <TocEntry
         Title="Installation Instructions"
         Link="/Content/EMSDesktopClient/V44.1/InstallationGuide/InstallationInstructions.html" />
@@ -851,7 +851,7 @@
         Link="/Content/EMSDesktopClient/V44.1/InstallationGuide/Introduction.html" />
       <TocEntry
         Title="System Requirements and Prerequisites"
-        Link="/Content/EMSDesktopClient/V44.1/InstallationGuide/DC_IG_SystemReq.htm" />
+        Link="/Content/EMSDesktopClient/V44.1/InstallationGuide/SystemRequirements.htm" />
       <TocEntry
         Title="Installation Instructions"
         Link="/Content/EMSDesktopClient/V44.1/InstallationGuide/InstallationInstructions.html" />

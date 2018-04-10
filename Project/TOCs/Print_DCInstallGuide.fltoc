@@ -29,7 +29,7 @@
     VolumeNumberReset="same" />
   <TocEntry
     Title="System Requirements and Prerequisites"
-    Link="/Content/EMSDesktopClient/V44.1/InstallationGuide/DC_IG_SystemReq.htm"
+    Link="/Content/EMSDesktopClient/V44.1/InstallationGuide/SystemRequirements.htm"
     BreakType="chapter"
     StartSection="false"
     PageNumberReset="continue"
