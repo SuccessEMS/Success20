@@ -1145,7 +1145,7 @@
               Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_ConfigStatuses.htm" />
             <TocEntry
               Title="Configure Notification Rules"
-              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_ConfigNotRules.htm">
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigNotRules.htm">
               <TocEntry
                 Title="Types of Notification Rules"
                 Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_TypesNotifiRules.htm" />
