@@ -17,7 +17,7 @@
         Link="/Content/EMSDesktopClient/V44.1/InstallationGuide/InstallationInstructions.html"></TocEntry>
       <TocEntry
         Title="Upgrade Considerations"
-        Link="/Content/EMSDesktopClient/V44.1/InstallationGuide/DC_IG_UpgradeConsideration.html" />
+        Link="/Content/EMSDesktopClient/V44.1/InstallationGuide/UpgradeConsideration.html" />
       <TocEntry
         Title="Upgrade Instructions"
         Link="/Content/EMSDesktopClient/V44.1/InstallationGuide/UpgradeInstruct.html" />

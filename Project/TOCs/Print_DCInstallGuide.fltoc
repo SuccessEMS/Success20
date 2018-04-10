@@ -49,7 +49,7 @@
     ChapterNumberReset="continue" />
   <TocEntry
     Title="Upgrade Considerations"
-    Link="/Content/EMSDesktopClient/V44.1/InstallationGuide/DC_IG_UpgradeConsideration.html"
+    Link="/Content/EMSDesktopClient/V44.1/InstallationGuide/UpgradeConsideration.html"
     BreakType="chapter"
     StartSection="false"
     PageNumberReset="continue"
