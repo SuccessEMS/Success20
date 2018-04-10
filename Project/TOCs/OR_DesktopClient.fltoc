@@ -343,7 +343,7 @@
             Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_OverrideExistingBookUtil.html" />
           <TocEntry
             Title="Import Reservations Utility"
-            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_ImportResUtili.htm" />
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ImportResUtili.htm" />
           <TocEntry
             Title="View and Email Logged-In Users"
             Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_ViewEmailLoggedUsers.htm" />
@@ -393,7 +393,7 @@
             Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_FinalExamSchedImportFileSpec.htm" />
           <TocEntry
             Title="Import Spreadsheets"
-            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_ImportSpreadsheet.htm" />
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ImportSpreadsheet.htm" />
         </TocEntry>
         <TocEntry
           Title="Video Display Interface"
