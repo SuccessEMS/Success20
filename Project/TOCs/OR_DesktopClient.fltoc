@@ -156,7 +156,7 @@
               Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigAddInfoGroup.htm" />
             <TocEntry
               Title="Edit Group Information"
-              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_EditGroupInfo.htm" />
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/EditGroupInfo.htm" />
             <TocEntry
               Title="Import Groups"
               Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_ImportGroup.htm" />
@@ -349,7 +349,7 @@
             Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_ViewEmailLoggedUsers.htm" />
           <TocEntry
             Title="Deleting Old Data"
-            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_DeleteOldData.htm" />
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DeleteOldData.htm" />
           <TocEntry
             Title="Currency Configuration Wizard"
             Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/CurrencyConfigWiz.htm" />
