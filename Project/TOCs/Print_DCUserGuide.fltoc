@@ -1076,7 +1076,7 @@
     </TocEntry>
     <TocEntry
       Title="Billing"
-      Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_Billing.html"
+      Link="/Content/EMSDesktopClient/V44.1/UserGuide/Billing.html"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
