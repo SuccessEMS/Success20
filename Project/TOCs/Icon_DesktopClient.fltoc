@@ -1183,7 +1183,7 @@
               Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigCommentType.htm" />
             <TocEntry
               Title="Configure Messages"
-              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_ConfigMessages.htm" />
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigMessages.htm" />
             <TocEntry
               Title="Configure Special Dates"
               Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigSpecialDates.html" />
