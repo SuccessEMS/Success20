@@ -1164,7 +1164,7 @@
               Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigCheckinNot.htm" />
             <TocEntry
               Title="Configure Reservation Wizard Templates"
-              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_ConfigResWiz.htm" />
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigResWizTemp.htm" />
           </TocEntry>
           <TocEntry
             Title="Core Configuration &gt; Other Data Types"
