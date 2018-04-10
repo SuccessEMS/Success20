@@ -2740,7 +2740,7 @@
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ViewVisitors.htm" />
         <TocEntry
           Title="Check In Visitors"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_CheckInVisitors.htm" />
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/CheckInVisitors.htm" />
         <TocEntry
           Title="Import a List of Visitors"
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ImportListVis.html" />
@@ -2794,7 +2794,7 @@
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_CopyResinNav.html" />
         <TocEntry
           Title="Change the Status of a Reservation in the Navigator"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ChangeStatusResfromResSum.html" />
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/ChangeStatusResfromResSum.html" />
         <TocEntry
           Title="Reprice Categories and Room Charges for a Reservation in the Navigator"
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_RepricCatRoomChargeRes.html" />
@@ -2858,7 +2858,7 @@
         </TocEntry>
         <TocEntry
           Title="Comments and Reminders in the Navigator"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_CommRemindinNav.html">
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/CommRemindinNav.html">
           <TocEntry
             Title="Add Multiple Comments and Reminders to a Reservation"
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/AddMultCommRemintoRes.htm" />
@@ -2881,7 +2881,7 @@
       </TocEntry>
       <TocEntry
         Title="The Calendar"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_Calendar.htm">
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/Calendar.htm">
         <TocEntry
           Title="Search with the Calendar"
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_SearchwithCalendar.html" />
@@ -2939,7 +2939,7 @@
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/AssignEverydayUserstoGroup.html" />
         <TocEntry
           Title="Configure Contacts for a Group"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ConfigContactsforGroup.html" />
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/ConfigContactsforGroup.html" />
         <TocEntry
           Title="Import Groups"
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ImportGroups.html" />
@@ -3038,7 +3038,7 @@
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_GenVisitorRep.html" />
         <TocEntry
           Title="Configure Automated Reports"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ConfigAutomatedReports.html" />
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/ConfigAutomatedReports.html" />
         <TocEntry
           Title="Work with Saved Reports"
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_WorkwithSavedReports.html" />
@@ -3085,7 +3085,7 @@
       </TocEntry>
       <TocEntry
         Title="Confirmations"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_Confirmations.html">
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/Confirmations.html">
         <TocEntry
           Title="Specifying Your Confirmation Settings"
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_SpecifyConfirmSettings.htm" />

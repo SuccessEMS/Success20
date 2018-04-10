@@ -109,7 +109,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Check In Visitors"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_CheckInVisitors.htm"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/CheckInVisitors.htm"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -282,7 +282,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Change the Status of a Reservation in the Navigator"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ChangeStatusResfromResSum.html"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/ChangeStatusResfromResSum.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -493,7 +493,7 @@
       </TocEntry>
       <TocEntry
         Title="Comments and Reminders in the Navigator"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_CommRemindinNav.html"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/CommRemindinNav.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -565,7 +565,7 @@
     </TocEntry>
     <TocEntry
       Title="The Calendar"
-      Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_Calendar.htm"
+      Link="/Content/EMSDesktopClient/V44.1/UserGuide/Calendar.htm"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
@@ -729,7 +729,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Configure Contacts for a Group"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ConfigContactsforGroup.html"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/ConfigContactsforGroup.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -1045,7 +1045,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Configure Automated Reports"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ConfigAutomatedReports.html"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/ConfigAutomatedReports.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -1197,7 +1197,7 @@
     </TocEntry>
     <TocEntry
       Title="Confirmations"
-      Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_Confirmations.html"
+      Link="/Content/EMSDesktopClient/V44.1/UserGuide/Confirmations.html"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
