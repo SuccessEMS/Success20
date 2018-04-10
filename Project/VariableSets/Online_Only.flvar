@@ -2,7 +2,7 @@
 <CatapultVariableSet
   conditions="General.Online Only">
   <Variable
-    Name="Click to expand"
+    Name="Click to Expand"
     Comment="Online drop-downs"
-    EvaluatedDefinition="Click to expand...">Click to expand...</Variable>
+    EvaluatedDefinition="(Click to Expand)">(Click to Expand)</Variable>
 </CatapultVariableSet>

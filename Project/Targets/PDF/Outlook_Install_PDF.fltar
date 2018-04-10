@@ -6,7 +6,7 @@
   Destinations=""
   GlossaryTermConversion="marked"
   MasterToc="/Project/TOCs/Print_Outlook_InstallGuide.fltoc"
-  ConditionTagExpression="include[General.PDF or PrintGuides.UserGuideA]exclude[General.Online or PrintGuides.UserGuideB]"
+  ConditionTagExpression="include[&quot;General.Print Only&quot; or General.PDF or PrintGuides.UserGuideA] exclude[&quot;General.Online Only&quot; or General.Online or PrintGuides.UserGuideB] "
   PatchHeadingLevels="false"
   InjectEmptyPages="false"
   UseLocalBuildSettings="true"
