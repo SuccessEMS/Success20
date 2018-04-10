@@ -1129,7 +1129,7 @@
               Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigBillRefPO.htm" />
             <TocEntry
               Title="Configure Currencies"
-              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_ConfigCurrencies.htm" />
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigCurrencies.htm" />
           </TocEntry>
           <TocEntry
             Title="Core Configuration &gt; Booking Elements"
@@ -1139,7 +1139,7 @@
               Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigCategory.html" />
             <TocEntry
               Title="Configure Departments"
-              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_ConfigDepts.htm" />
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigDepts.htm" />
             <TocEntry
               Title="Configure Statuses"
               Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_ConfigStatuses.htm" />
@@ -1171,7 +1171,7 @@
             Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_CoreConfigurationOtherDataTypes.htm">
             <TocEntry
               Title="Configure Event Types"
-              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_ConfigEventTypes.htm" />
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigEventTypes.htm" />
             <TocEntry
               Title="Configure Group Types"
               Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_ConfigGroupType.htm" />
@@ -1220,7 +1220,7 @@
               Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigConfEmailSubLine.htm" />
             <TocEntry
               Title="Configure Email Settings"
-              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_ConfigEmailSet.html" />
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigEmailSet.html" />
             <TocEntry
               Title="Configure Required Fields in the Reservation Wizard"
               Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_ConfigReqFieldsinResWiz.html" />
