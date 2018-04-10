@@ -69,7 +69,7 @@
     ChapterNumberReset="continue"></TocEntry>
   <TocEntry
     Title="Downgrade the EMS Desktop Client Web Deploy"
-    Link="/Content/EMSDesktopClient/V44.1/InstallationGuide/DC_IG_DowngradeWebDeploy.htm"
+    Link="/Content/EMSDesktopClient/V44.1/InstallationGuide/DowngradeWebDeploy.htm"
     BreakType="chapter"
     StartSection="false"
     PageNumberReset="continue"
