@@ -276,7 +276,7 @@
           Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_SystemAdminConfigSettings.htm">
           <TocEntry
             Title="Edit System Parameters"
-            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_EditSysParam.htm" />
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/EditSysParam.htm" />
           <TocEntry
             Title="Import Registration Information"
             Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_ImportRegInfo.htm" />
