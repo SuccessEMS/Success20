@@ -981,7 +981,7 @@
             Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_OverviewofDCConfig.htm" />
           <TocEntry
             Title="EMS Browser Window"
-            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_EMSBrowserWindow.htm" />
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/EMSBrowserWindow.htm" />
           <TocEntry
             Title="Managing Database Connections"
             Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DesktopClient_ManagingDatabaseConnections.html" />
@@ -1297,7 +1297,7 @@
             Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_SystemParam.htm">
             <TocEntry
               Title="EMS System Parameters"
-              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_EMS System Parameters.htm" />
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/EMSSystemParameters.htm" />
             <TocEntry
               Title="Virtual EMS (VEMS) Parameters"
               Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_VEMS System Parameters.htm" />
