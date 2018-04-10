@@ -2939,7 +2939,7 @@
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/AssignEverydayUserstoGroup.html" />
         <TocEntry
           Title="Configure Contacts for a Group"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ConfigContactsforGroup.html" />
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/ConfigContactsforGroup.html" />
         <TocEntry
           Title="Import Groups"
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ImportGroups.html" />
@@ -3085,7 +3085,7 @@
       </TocEntry>
       <TocEntry
         Title="Confirmations"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_Confirmations.html">
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/Confirmations.html">
         <TocEntry
           Title="Specifying Your Confirmation Settings"
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_SpecifyConfirmSettings.htm" />
