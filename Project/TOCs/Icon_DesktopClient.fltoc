@@ -1123,7 +1123,7 @@
               Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigPaymentType.htm" />
             <TocEntry
               Title="Configure Sales Categories"
-              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_ConfigSalesCat.htm" />
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigSalesCat.htm" />
             <TocEntry
               Title="Configure Billing References and PO Numbers"
               Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigBillRefPO.htm" />
@@ -1155,7 +1155,7 @@
               Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigGroupNotRules.htm" />
             <TocEntry
               Title="Configure Room Card Formats"
-              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_ConfigRoomCardFormat.htm" />
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigRoomCardFormat.htm" />
             <TocEntry
               Title="Configure Calendar Formats"
               Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigCalFormat.htm" />
