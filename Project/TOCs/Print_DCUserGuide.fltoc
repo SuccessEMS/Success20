@@ -181,7 +181,7 @@
       ChapterNumberReset="continue">
       <TocEntry
         Title="Create a Booking in the Reservation Book"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_BookRoomsResBook.html"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/BookRoomsResBook.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -352,7 +352,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Booking Details and Items Overview"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_BookDetailsItemsOverview.htm"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/BookDetailsItemsOverview.htm"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -647,7 +647,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Book a Video Conference"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_BookingaVC.html"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/BookingaVC.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -658,7 +658,7 @@
     </TocEntry>
     <TocEntry
       Title="The Browser"
-      Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_Browser.htm"
+      Link="/Content/EMSDesktopClient/V44.1/UserGuide/Browser.htm"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
@@ -892,7 +892,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Building Hours Exceptions Tab"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_BuildHoursExceptTab.html"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/BuildHoursExceptTab.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -954,7 +954,7 @@
       ChapterNumberReset="continue" />
     <TocEntry
       Title="Booking Check In "
-      Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_BookCheckIn.html"
+      Link="/Content/EMSDesktopClient/V44.1/UserGuide/BookCheckIn.html"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
