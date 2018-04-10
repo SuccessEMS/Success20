@@ -1142,7 +1142,7 @@
               Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigDepts.htm" />
             <TocEntry
               Title="Configure Statuses"
-              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_ConfigStatuses.htm" />
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigStatuses.htm" />
             <TocEntry
               Title="Configure Notification Rules"
               Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigNotRules.htm">
@@ -1189,7 +1189,7 @@
               Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigSpecialDates.html" />
             <TocEntry
               Title="Configure User-Defined Fields"
-              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_ConfigUDF.htm" />
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigUDF.htm" />
             <TocEntry
               Title="Configure Reservation Sources"
               Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigReservSource.htm" />
