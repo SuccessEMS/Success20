@@ -573,7 +573,7 @@
         </TocEntry>
         <TocEntry
           Title="The Calendar"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_Calendar.htm">
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/Calendar.htm">
           <TocEntry
             Title="Search with the Calendar"
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_SearchwithCalendar.html" />
