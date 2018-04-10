@@ -170,7 +170,7 @@
           Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_ConfigBilling.htm">
           <TocEntry
             Title="Configure Rate Schedules"
-            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_ConfigRateSchedule.htm" />
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigRateSchedule.htm" />
           <TocEntry
             Title="Configure Pricing Plans"
             Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigPricingPlan.htm" />
