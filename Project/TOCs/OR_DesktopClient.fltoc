@@ -239,7 +239,7 @@
             Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigEventTypes.htm" />
           <TocEntry
             Title="Configure Group Types"
-            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_ConfigGroupType.htm" />
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigGroupType.htm" />
           <TocEntry
             Title="Configure Reminder Types"
             Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_ConfigReminderTypes.html" />
