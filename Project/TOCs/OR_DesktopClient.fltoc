@@ -242,7 +242,7 @@
             Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigGroupType.htm" />
           <TocEntry
             Title="Configure Reminder Types"
-            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_ConfigReminderTypes.html" />
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigReminderTypes.html" />
           <TocEntry
             Title="Configure Comment Types"
             Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigCommentType.htm" />
@@ -257,7 +257,7 @@
             Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_ConfigUDF.htm" />
           <TocEntry
             Title="Configure Reservation Sources"
-            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_ConfigReservSource.htm" />
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigReservSource.htm" />
           <TocEntry
             Title="Configure Cancel Reasons"
             Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigCancelReasons.htm" />
@@ -288,7 +288,7 @@
             Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigEmailSet.html" />
           <TocEntry
             Title="Configure Required Fields in the Reservation Wizard"
-            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_ConfigReqFieldsinResWiz.html" />
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigReqFieldsinResWiz.html" />
         </TocEntry>
         <TocEntry
           Title="Video Conferencing"
