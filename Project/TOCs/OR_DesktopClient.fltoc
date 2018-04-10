@@ -101,7 +101,7 @@
               Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ImportRooms.htm" />
             <TocEntry
               Title="Export Pricing Information for a Room"
-              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_ExportPricingInfo.htm" />
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ExportPricingInfo.htm" />
           </TocEntry>
           <TocEntry
             Title="Configure Floor Plans"
@@ -159,7 +159,7 @@
               Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/EditGroupInfo.htm" />
             <TocEntry
               Title="Import Groups"
-              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_ImportGroup.htm" />
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ImportGroup.htm" />
           </TocEntry>
           <TocEntry
             Title="Configure Contacts"
@@ -176,7 +176,7 @@
             Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigPricingPlan.htm" />
           <TocEntry
             Title="Export Pricing Information for Billable Items (Rooms &amp; Resources)"
-            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_ExportPricingInfo.htm" />
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ExportPricingInfo.htm" />
           <TocEntry
             Title="Configure Calculations"
             Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigCalc.htm" />
