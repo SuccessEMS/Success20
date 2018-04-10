@@ -404,7 +404,7 @@
         Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_Introduction.html">
         <TocEntry
           Title="Introduction to EMS Desktop Client"
-          Link="/Content/EMSDesktopClient/V44.1/InstallationGuide/DC_IG_Introduction.html" />
+          Link="/Content/EMSDesktopClient/V44.1/InstallationGuide/Introduction.html" />
         <TocEntry
           Title="Launch EMS Desktop Client"
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_StartEMS.html" />
