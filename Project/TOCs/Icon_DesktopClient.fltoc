@@ -1098,7 +1098,7 @@
             </TocEntry>
             <TocEntry
               Title="Configure Contacts"
-              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_ConfigContacts.htm" />
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigContacts.htm" />
           </TocEntry>
           <TocEntry
             Title="Core Configuration &gt; Billing"
@@ -1180,7 +1180,7 @@
               Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_ConfigReminderTypes.html" />
             <TocEntry
               Title="Configure Comment Types"
-              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_ConfigCommentType.htm" />
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigCommentType.htm" />
             <TocEntry
               Title="Configure Messages"
               Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_ConfigMessages.htm" />
@@ -1217,7 +1217,7 @@
               Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_ImportRegInfo.htm" />
             <TocEntry
               Title="Configure the Confirmation Email Subject Line"
-              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_ConfigConfEmailSubLine.htm" />
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigConfEmailSubLine.htm" />
             <TocEntry
               Title="Configure Email Settings"
               Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_ConfigEmailSet.html" />
