@@ -1230,7 +1230,7 @@
             Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_VideoConferenceConfig.htm">
             <TocEntry
               Title="Configure Video Conferencing Capabilities"
-              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_ConfigVideoConfCap.htm" />
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigVideoConfCap.htm" />
           </TocEntry>
           <TocEntry
             Title="Academic Import Utility"
