@@ -14,7 +14,7 @@
         Link="/Content/EMSDesktopClient/V44.1/InstallationGuide/DC_IG_SystemReq.htm" />
       <TocEntry
         Title="Installation Instructions"
-        Link="/Content/EMSDesktopClient/V44.1/InstallationGuide/DC_IG_INstallationInstruct.html"></TocEntry>
+        Link="/Content/EMSDesktopClient/V44.1/InstallationGuide/InstallationInstructions.html"></TocEntry>
       <TocEntry
         Title="Upgrade Considerations"
         Link="/Content/EMSDesktopClient/V44.1/InstallationGuide/DC_IG_UpgradeConsideration.html" />

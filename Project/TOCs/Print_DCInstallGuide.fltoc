@@ -39,7 +39,7 @@
     ChapterNumberReset="continue" />
   <TocEntry
     Title="Installation Instructions"
-    Link="/Content/EMSDesktopClient/V44.1/InstallationGuide/DC_IG_INstallationInstruct.html"
+    Link="/Content/EMSDesktopClient/V44.1/InstallationGuide/InstallationInstructions.html"
     BreakType="chapter"
     StartSection="false"
     PageNumberReset="continue"
