@@ -927,7 +927,7 @@
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_GenMergeDocsCustomDoc.html" />
         <TocEntry
           Title="Sending Emails from EMS"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_SendEmails.html" />
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/SendEmails.html" />
         <TocEntry
           Title="View History of Sent Emails"
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/ViewHistorySentEmails.html" />

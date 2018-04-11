@@ -1252,7 +1252,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Sending Emails from EMS"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_SendEmails.html"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/SendEmails.html"
         BreakType="chapter"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
