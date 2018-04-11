@@ -1012,7 +1012,7 @@
             </TocEntry>
             <TocEntry
               Title="Configure Areas"
-              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_ConfigAreas.html" />
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigAreas.html" />
             <TocEntry
               Title="Overview of Configuring Rooms"
               Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DesktopClient_OverviewConfigRooms.html">
@@ -1050,7 +1050,7 @@
             Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DesktopClient_OverviewConfigRes.html">
             <TocEntry
               Title="Categories, Resources, Services - What's the Difference?"
-              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_CategoriesResourcesServices_WhatsDiff.htm" />
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/CategResourcesServices_WhatsDiff.htm" />
             <TocEntry
               Title="Configure Resources for a Category"
               Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DesktopClient_ConfigResourcesforCat.html">
@@ -1102,7 +1102,7 @@
           </TocEntry>
           <TocEntry
             Title="Core Configuration &gt; Billing"
-            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_ConfigBilling.htm">
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigBilling.htm">
             <TocEntry
               Title="Configure Rate Schedules"
               Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigRateSchedule.htm" />
