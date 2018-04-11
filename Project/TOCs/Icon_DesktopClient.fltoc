@@ -944,13 +944,13 @@
         Link="/Content/EMSDesktopClient/V44/DC_44_Introduction.htm">
         <TocEntry
           Title="EMS Desktop Client Installation Guide (V44)"
-          Link="/Content/EMSDesktopClient/V44/InstallationGuide/DC_IG_44_Introduction.htm">
+          Link="/Content/EMSDesktopClient/V44/InstallationGuide/Introduction.htm">
           <TocEntry
             Title="Hardware and Software Requirements"
-            Link="/Content/EMSDesktopClient/V44/InstallationGuide/DC_IG_44_HardwareSoftwareReq.htm" />
+            Link="/Content/EMSDesktopClient/V44/InstallationGuide/HardwareSoftwareReq.htm" />
           <TocEntry
             Title="First Time Installation Instructions"
-            Link="/Content/EMSDesktopClient/V44/InstallationGuide/DC_IG_44_FirstTimeInstallInstruct.htm"></TocEntry>
+            Link="/Content/EMSDesktopClient/V44/InstallationGuide/FirstTimeInstallInstruct.htm"></TocEntry>
           <TocEntry
             Title="Obtain the Latest Release of EMS"
             Link="/Content/EMSDesktopClient/V44/InstallationGuide/DC_IG_44_ObtainLatestRelease.htm"></TocEntry>
