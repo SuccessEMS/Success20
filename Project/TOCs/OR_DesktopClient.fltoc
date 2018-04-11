@@ -52,7 +52,7 @@
           Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DesktopClient_ManagingDatabaseConnections.html" />
         <TocEntry
           Title="Configuration &gt; Facililties"
-          Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DesktopClient_ConfigFacil.html">
+          Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigFacilities.html">
           <TocEntry
             Title="Configure Floors"
             Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DesktopClient_ConfigFloors.html" />
@@ -101,7 +101,7 @@
               Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ImportRooms.htm" />
             <TocEntry
               Title="Export Pricing Information for a Room"
-              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ExportPricingInfo.htm" />
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ExportPricingInfoBillableItems.htm" />
           </TocEntry>
           <TocEntry
             Title="Configure Floor Plans"
@@ -128,22 +128,22 @@
             Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_ImportResforCat.htm" />
           <TocEntry
             Title="Define Resource Selections and Selection Items"
-            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_DefineResourceSel.htm" />
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DefineResourceSel.htm" />
           <TocEntry
             Title="Configure Services for a Category"
-            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_ConfigureServicesforCat.htm" />
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigureServicesforCat.htm" />
           <TocEntry
             Title="Configure Groupings for a Resource"
             Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DesktopClient_ConfigGroupingsResource.html" />
           <TocEntry
             Title="Define Production Areas and Production Items for a Catering Resource"
-            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_DefineProdAreaItems.htm" />
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DefineProdAreaItems.htm" />
           <TocEntry
             Title="Configure Pricing for a Resource in the Edit Pricing Window"
             Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigPricingResourceEditPriceWin.htm" />
           <TocEntry
             Title="Export Pricing Information for a Resource"
-            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_ExportPricInfo.htm" />
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ExportPricingInfoforResource.htm" />
         </TocEntry>
         <TocEntry
           Title="Core Configuration &gt; Groups and Contacts"
@@ -176,7 +176,7 @@
             Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigPricingPlan.htm" />
           <TocEntry
             Title="Export Pricing Information for Billable Items (Rooms &amp; Resources)"
-            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ExportPricingInfo.htm" />
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ExportPricingInfoBillableItems.htm" />
           <TocEntry
             Title="Configure Calculations"
             Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigCalc.htm" />
@@ -390,7 +390,7 @@
             Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_ResImportFileSpec.htm" />
           <TocEntry
             Title="Course Schedule Import File Specification"
-            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_FinalExamSchedImportFileSpec.htm" />
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/FinalExamSchedImportFileSpec.htm" />
           <TocEntry
             Title="Import Spreadsheets"
             Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ImportSpreadsheet.htm" />
