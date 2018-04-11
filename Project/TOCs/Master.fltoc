@@ -3119,7 +3119,7 @@
         Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/UserGuide_EMSDesktopClientAcademicPlanning/UseAcadBook.htm" />
       <TocEntry
         Title="Search with the Academic Browser"
-        Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/UserGuide_EMSDesktopClientAcademicPlanning/Campus_UG_44_SearchwithAcadBrowser.htm" />
+        Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/UserGuide_EMSDesktopClientAcademicPlanning/SearchwithAcadBrowser.htm" />
       <TocEntry
         Title="Specify Room Preferences and Requirements"
         Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/UserGuide_EMSDesktopClientAcademicPlanning/SpecifyRoomPrefReq.htm" />
@@ -3194,7 +3194,7 @@
         Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/UserGuide_EMSDesktopClientAcademicPlanning/CreateScenarios.htm" />
       <TocEntry
         Title="Set a Final Exam Schedule"
-        Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/UserGuide_EMSDesktopClientAcademicPlanning/Campus_UG_44_SetFinalExamSched.htm" />
+        Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/UserGuide_EMSDesktopClientAcademicPlanning/SetFinalExamSched.htm" />
       <TocEntry
         Title="Publish a Final Exam Session"
         Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/UserGuide_EMSDesktopClientAcademicPlanning/Campus_UG_44_PubFinalExamSession.htm" />
