@@ -520,7 +520,7 @@
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_EditItemsforIndividBook.html" />
             <TocEntry
               Title="Copy Booking Details Between Bookings"
-              Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_CopyBookDetBetwBookings.htm" />
+              Link="/Content/EMSDesktopClient/V44.1/UserGuide/CopyBookDetBetwBookings.htm" />
             <TocEntry
               Title="Delete Booking Detail Items from Multiple Bookings" />
             <TocEntry
@@ -537,7 +537,7 @@
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/AddBookDetailsWizard.htm" />
             <TocEntry
               Title="Copy Booking Details Wizard"
-              Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_CopyBookDetailsWzd.html" />
+              Link="/Content/EMSDesktopClient/V44.1/UserGuide/CopyBookDetailsWzd.html" />
             <TocEntry
               Title="Delete Booking Details Wizard"
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_DeleteBookDetailsWzd.html" />
@@ -653,7 +653,7 @@
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_NotificationsTab.html">
             <TocEntry
               Title="Confirmations Vs Notifications: What Is the Difference?"
-              Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ConfirmVsNotifWhatDiff.html" />
+              Link="/Content/EMSDesktopClient/V44.1/UserGuide/ConfirmVsNotifWhatDiff.html" />
           </TocEntry>
           <TocEntry
             Title="Reminders Tab"

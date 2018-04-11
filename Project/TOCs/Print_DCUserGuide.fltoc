@@ -402,7 +402,7 @@
           ChapterNumberReset="continue" />
         <TocEntry
           Title="Copy Booking Details Between Bookings"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_CopyBookDetBetwBookings.htm"
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/CopyBookDetBetwBookings.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -452,7 +452,7 @@
           ChapterNumberReset="continue" />
         <TocEntry
           Title="Copy Booking Details Wizard"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_CopyBookDetailsWzd.html"
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/CopyBookDetailsWzd.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -820,7 +820,7 @@
         ChapterNumberReset="continue">
         <TocEntry
           Title="Confirmations Vs Notifications: What Is the Difference?"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ConfirmVsNotifWhatDiff.html"
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/ConfirmVsNotifWhatDiff.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
