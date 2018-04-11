@@ -2791,7 +2791,7 @@
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/AddBooktoResinNav.html" />
         <TocEntry
           Title="Copy a Reservation in the Navigator"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_CopyResinNav.html" />
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/CopyResinNav.html" />
         <TocEntry
           Title="Change the Status of a Reservation in the Navigator"
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/ChangeStatusResfromResSum.html" />

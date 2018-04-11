@@ -272,7 +272,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Copy a Reservation in the Navigator"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_CopyResinNav.html"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/CopyResinNav.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
