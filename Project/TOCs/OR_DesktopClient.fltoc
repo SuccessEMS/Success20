@@ -55,7 +55,7 @@
           Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigFacilities.html">
           <TocEntry
             Title="Configure Floors"
-            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DesktopClient_ConfigFloors.html" />
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigFloors.html" />
           <TocEntry
             Title="Configure Features"
             Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigFeatures.html" />
@@ -108,7 +108,7 @@
             Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigFloorPlans.html" />
           <TocEntry
             Title="Configure Public Views"
-            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DesktopClient_ConfigPublicViews.html" />
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigPublicViews.html" />
         </TocEntry>
         <TocEntry
           Title="Configuration &gt; Resources"
@@ -134,7 +134,7 @@
             Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigureServicesforCat.htm" />
           <TocEntry
             Title="Configure Groupings for a Resource"
-            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DesktopClient_ConfigGroupingsResource.html" />
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigGroupingsResource.html" />
           <TocEntry
             Title="Define Production Areas and Production Items for a Catering Resource"
             Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DefineProdAreaItems.htm" />
