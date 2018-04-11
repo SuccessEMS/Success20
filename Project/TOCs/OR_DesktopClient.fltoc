@@ -34,7 +34,7 @@
         Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/Introduction.htm">
         <TocEntry
           Title="Overview of Configuration Window"
-          Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/OverviewConfigWindow.htm" />
+          Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigWindowOverview.htm" />
         <TocEntry
           Title="Starting EMS"
           Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/StartingEMS.htm" />
@@ -309,7 +309,7 @@
           Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/SystemAdminConfigUserSec.htm">
           <TocEntry
             Title="Overview of User Processes"
-            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/OverviewUserProc.htm" />
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/UserProcessesOverview.htm" />
           <TocEntry
             Title="Configure Users"
             Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigUsers.htm" />
