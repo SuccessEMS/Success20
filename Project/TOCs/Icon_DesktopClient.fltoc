@@ -1040,7 +1040,7 @@
             </TocEntry>
             <TocEntry
               Title="Configure Floor Plans"
-              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DesktopClient_ConfigFloorPlans.html" />
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigFloorPlans.html" />
             <TocEntry
               Title="Configure Public Views"
               Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DesktopClient_ConfigPublicViews.html" />
