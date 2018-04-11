@@ -87,7 +87,7 @@
         Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/UserGuide_EMSDesktopClientAcademicPlanning/Introduction.htm">
         <TocEntry
           Title="Overview of the Academic Scheduling Process"
-          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/UserGuide_EMSDesktopClientAcademicPlanning/Campus_UG_44_OverviewAcademicScheduling.htm" />
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/UserGuide_EMSDesktopClientAcademicPlanning/OverviewAcademicScheduling.htm" />
         <TocEntry
           Title="Using the Academic Book"
           Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/UserGuide_EMSDesktopClientAcademicPlanning/UseAcadBook.htm" />
@@ -102,7 +102,7 @@
           Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/UserGuide_EMSDesktopClientAcademicPlanning/ReviewVerifyRoomPref.htm" />
         <TocEntry
           Title="Overview of Importing an Academic Term"
-          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/UserGuide_EMSDesktopClientAcademicPlanning/Campus_UG_44_OverviewImportAcadTerm.htm" />
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/UserGuide_EMSDesktopClientAcademicPlanning/OverviewImportAcadTerm.htm" />
         <TocEntry
           Title="Synchronize an Academic Term"
           Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/UserGuide_EMSDesktopClientAcademicPlanning/SynchronizeAcadTerm.htm" />
