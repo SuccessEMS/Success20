@@ -123,7 +123,7 @@
           Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/UserGuide_EMSDesktopClientAcademicPlanning/Campus_UG_44_UseCourseNav.htm" />
         <TocEntry
           Title="Available Actions in the Course Navigator"
-          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/UserGuide_EMSDesktopClientAcademicPlanning/Campus_UG_44_AvailActionsCourseNav.htm" />
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/UserGuide_EMSDesktopClientAcademicPlanning/AvailActionsCourseNav.htm" />
         <TocEntry
           Title="Add and Review Courses"
           Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/UserGuide_EMSDesktopClientAcademicPlanning/AddReviewCourses.htm" />
@@ -147,7 +147,7 @@
           Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/UserGuide_EMSDesktopClientAcademicPlanning/Campus_UG_44_OverviewRoomAssignOpti.htm" />
         <TocEntry
           Title="Assign Rooms"
-          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/UserGuide_EMSDesktopClientAcademicPlanning/AssignRooms_44.1.htm" />
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/UserGuide_EMSDesktopClientAcademicPlanning/AssignRooms.htm" />
         <TocEntry
           Title="Using the Search for Rooms Tool"
           Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/UserGuide_EMSDesktopClientAcademicPlanning/Campus_UG_44_UseSearchRoomsTool.htm" />
