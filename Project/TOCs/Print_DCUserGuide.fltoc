@@ -1136,7 +1136,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Types of Transactions"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_TypesofTransactions.html"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/TypesofTransactions.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"

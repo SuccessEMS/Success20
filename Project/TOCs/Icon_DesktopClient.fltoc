@@ -890,7 +890,7 @@
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/WorkwithInvoices.html" />
         <TocEntry
           Title="Types of Transactions"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_TypesofTransactions.html" />
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/TypesofTransactions.html" />
         <TocEntry
           Title="Work with Transactions"
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/WorkwithTransactions.html" />
@@ -1686,7 +1686,7 @@
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/WorkwithInvoices.html" />
             <TocEntry
               Title="Types of Transactions"
-              Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_TypesofTransactions.html" />
+              Link="/Content/EMSDesktopClient/V44.1/UserGuide/TypesofTransactions.html" />
             <TocEntry
               Title="Work with Transactions"
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/WorkwithTransactions.html" />
