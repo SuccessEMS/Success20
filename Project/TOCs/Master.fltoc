@@ -344,7 +344,7 @@
           Title="Introduction" />
         <TocEntry
           Title="EMS V44.1 System Requirements"
-          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusPlanningInterface/CPI_IG_44.1_SysReqPrereq.htm" />
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusPlanningInterface/SysReqPrereq.htm" />
         <TocEntry
           Title="Obtain the Latest Release of EMS Campus Planning Interface"
           Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusPlanningInterface/CPI_IG_44.1_ObtainLateRel.htm" />
@@ -352,7 +352,7 @@
           Title="Install or Upgrade the EMS Campus Planning Interface"
           Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusPlanningInterface/InstallUpgradCPI.htm" />
         <TocEntry
-          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusPlanningInterface/CPI_IG_44.1_StartCPI.htm"
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusPlanningInterface/StartCPI.htm"
           Title="Start the EMS Campus Planning Interface" />
       </TocEntry>
       <TocEntry
@@ -878,7 +878,7 @@
         Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusPlanningInterface/IntroductiontoCPI.htm">
         <TocEntry
           Title="EMS V44.1 System Requirements"
-          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusPlanningInterface/CPI_IG_44.1_SysReqPrereq.htm" />
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusPlanningInterface/SysReqPrereq.htm" />
         <TocEntry
           Title="Obtain the Latest Release of EMS Campus Planning Interface"
           Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusPlanningInterface/CPI_IG_44.1_ObtainLateRel.htm" />
@@ -886,7 +886,7 @@
           Title="Install or Upgrade the EMS Campus Planning Interface"
           Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusPlanningInterface/InstallUpgradCPI.htm" />
         <TocEntry
-          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusPlanningInterface/CPI_IG_44.1_StartCPI.htm"
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusPlanningInterface/StartCPI.htm"
           Title="Start the EMS Campus Planning Interface" />
       </TocEntry>
       <TocEntry
