@@ -198,10 +198,10 @@
           Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/CampusWebService_InstallationUpgrade_44.1.html"
           Title="Install or Upgrade the EMS Campus Web Service" />
         <TocEntry
-          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/CampusWebService_Configuration_44.1.htm"
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/ConfiguringEMSCampusWebService.htm"
           Title="Configure EMS Campus Web Service" />
         <TocEntry
-          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/CampusWebService_DataModels_44.1.htm"
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/DataModels.htm"
           Title="Data Models">
           <TocEntry
             Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/BannerView.htm"
