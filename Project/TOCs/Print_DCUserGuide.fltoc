@@ -1234,7 +1234,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Generate Printed Confirmations"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_GenPrintedConfirmations.html"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/GenPrintedConfirmations.html"
         BreakType="chapter"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"

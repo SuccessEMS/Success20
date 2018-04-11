@@ -3097,7 +3097,7 @@
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/GenSingConfirmatTime.html" />
         <TocEntry
           Title="Generate Printed Confirmations"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_GenPrintedConfirmations.html" />
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/GenPrintedConfirmations.html" />
         <TocEntry
           Title="Generate Word Merge Documents for Custom Documentation"
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_GenMergeDocsCustomDoc.html" />
