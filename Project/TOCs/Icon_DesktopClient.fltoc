@@ -1053,7 +1053,7 @@
               Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/CategResourcesServices_WhatsDiff.htm" />
             <TocEntry
               Title="Configure Resources for a Category"
-              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DesktopClient_ConfigResourcesforCat.html">
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigResourcesforCat.html">
               <TocEntry
                 Title="Resource Configuration Wizard"
                 Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ResourceConfigWiz.htm" />
