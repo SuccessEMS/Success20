@@ -3134,7 +3134,7 @@
         Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/UserGuide_EMSDesktopClientAcademicPlanning/SynchronizeAcadTerm.htm" />
       <TocEntry
         Title="Publish an Academic Term"
-        Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/UserGuide_EMSDesktopClientAcademicPlanning/Campus_UG_44_PublishTerm.htm" />
+        Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/UserGuide_EMSDesktopClientAcademicPlanning/PublishTerm.htm" />
       <TocEntry
         Title="Unpublish a Previously Published Academic Term"
         Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/UserGuide_EMSDesktopClientAcademicPlanning/UnpublishPreviousPubTerm.htm" />
@@ -3179,7 +3179,7 @@
         Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/UserGuide_EMSDesktopClientAcademicPlanning/UseSearchRoomsTool.htm" />
       <TocEntry
         Title="Review Reservations and Resolve Room Assignments"
-        Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/UserGuide_EMSDesktopClientAcademicPlanning/Campus_UG_44_ReveiwResResolveRoomAssign.htm" />
+        Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/UserGuide_EMSDesktopClientAcademicPlanning/ReviewResolveRoomAssign.htm" />
       <TocEntry
         Title="Work with Shared Spaces"
         Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/UserGuide_EMSDesktopClientAcademicPlanning/WorkwithSharedSpaces.htm" />
