@@ -5,25 +5,25 @@
     Title="Documentation for EMS Campus">
     <TocEntry
       Title="EMS Campus Planning Interface (CPI)"
-      Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/A_IG_CPI/CPI_Intro.htm">
+      Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusPlanningInterface/IntroductiontoCPI.htm">
       <TocEntry
         Title="Installation Guide EMS CPI"
-        Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/A_IG_CPI/CPI_IG_44.1_Intro.htm">
+        Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusPlanningInterface/IntroductiontoCPI.htm">
         <TocEntry
           Title="System Requirements and Prerequisites"
-          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/A_IG_CPI/CPI_IG_44.1_SysReqPrereq.htm" />
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusPlanningInterface/SysReqPrereq.htm" />
         <TocEntry
           Title="Obtain the Latest Release of EMS CPI"
-          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/A_IG_CPI/CPI_IG_44.1_ObtainLateRel.htm" />
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusPlanningInterface/ObtainLateRel.htm" />
         <TocEntry
           Title="Install or Upgrade the EMS CPI"
-          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/A_IG_CPI/CPI_IG_44.1_InstallUpgradCPI.htm" />
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusPlanningInterface/InstallUpgradCPI.htm" />
         <TocEntry
           Title="Start EMS CPI"
-          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/A_IG_CPI/CPI_IG_44.1_StartCPI.htm" />
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusPlanningInterface/StartCPI.htm" />
         <TocEntry
           Title="EMS CPI Architecture"
-          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/A_IG_CPI/CPI_IG_44.1_Architecture.htm" />
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusPlanningInterface/Architecture.htm" />
       </TocEntry>
       <TocEntry
         Title="Everyday User Guide EMS CPI"
