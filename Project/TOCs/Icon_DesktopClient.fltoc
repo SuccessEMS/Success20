@@ -628,7 +628,7 @@
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/ApplyReservDiscount.html" />
         <TocEntry
           Title="Edit a Booking in the Navigator"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_EditBookinNav.html" />
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/EditBookinNav.html" />
         <TocEntry
           Title="Edit Multiple Bookings in the Navigator"
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_EditMultBookinNav.htm" />
@@ -1429,7 +1429,7 @@
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/ApplyReservDiscount.html" />
             <TocEntry
               Title="Edit a Booking in the Navigator"
-              Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_EditBookinNav.html" />
+              Link="/Content/EMSDesktopClient/V44.1/UserGuide/EditBookinNav.html" />
             <TocEntry
               Title="Edit Multiple Bookings in the Navigator" />
             <TocEntry

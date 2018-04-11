@@ -312,7 +312,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Edit a Booking in the Navigator"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_EditBookinNav.html"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/EditBookinNav.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
