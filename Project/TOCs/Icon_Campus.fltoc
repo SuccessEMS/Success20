@@ -189,7 +189,7 @@
           Title="Introduction"
           Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/CampusWebService_Introduction_44.1.htm" />
         <TocEntry
-          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/CampusWebService_SysReqPrereq_44.1.htm"
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/SysReqPrereq.htm"
           Title="EMS Campus Web Service Hardware/Software Requirements" />
         <TocEntry
           Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/CampusWebService_ObtainLatestVersion_44.1.htm"
@@ -225,7 +225,7 @@
             Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/CampusWebService_PeopleSoft_44.1.htm"
             Title="PeopleSoft Views Data Model" />
           <TocEntry
-            Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/CampusWebService_PowerCampus_44.1.htm"
+            Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/PowerCampus.htm"
             Title="PowerCampus Views Data Model" />
         </TocEntry>
         <TocEntry
