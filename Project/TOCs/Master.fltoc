@@ -2779,7 +2779,7 @@
         Link="/Content/EMSDesktopClient/V44.1/UserGuide/WorkwithResNavigator.htm">
         <TocEntry
           Title="Overview of the Navigator"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_NavigatorOverview.html" />
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/NavigatorOverview.html" />
         <TocEntry
           Title="Get Familiar with the Navigator"
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_GetFamwithNav.html" />
@@ -2809,7 +2809,7 @@
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_EditMultBookinNav.htm" />
         <TocEntry
           Title="Move Bookings to a Different Reservation in the Navigator"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_MoveBooktoDifRes.html" />
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/MoveBooktoDifRes.html" />
         <TocEntry
           Title="Copy Multiple Bookings in the Navigator"
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/CopyMultipleBookinNav.html" />
@@ -2964,7 +2964,7 @@
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/WorkWithDashboard.html" />
         <TocEntry
           Title="Notifications Tab"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_NotificationsTab.html">
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/NotificationsTab.html">
           <TocEntry
             Title="Confirmations Vs Notifications: What Is the Difference?"
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/ConfirmVsNotifWhatDiff.html" />

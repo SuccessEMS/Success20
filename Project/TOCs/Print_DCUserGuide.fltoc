@@ -232,7 +232,7 @@
       ChapterNumberReset="continue">
       <TocEntry
         Title="Overview of the Navigator"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_NavigatorOverview.html"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/NavigatorOverview.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -332,7 +332,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Move Bookings to a Different Reservation in the Navigator"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_MoveBooktoDifRes.html"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/MoveBooktoDifRes.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -810,7 +810,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Notifications Tab"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_NotificationsTab.html"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/NotificationsTab.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
