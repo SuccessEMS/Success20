@@ -637,7 +637,7 @@
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_MoveBooktoDifRes.html" />
         <TocEntry
           Title="Copy Multiple Bookings in the Navigator"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_CopyMultipleBookinNav.html" />
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/CopyMultipleBookinNav.html" />
         <TocEntry
           Title="Booking Details and Items Overview"
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/BookDetailsItemsOverview.htm">
@@ -1437,7 +1437,7 @@
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_MoveBooktoDifRes.html" />
             <TocEntry
               Title="Copy Multiple Bookings in the Navigator"
-              Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_CopyMultipleBookinNav.html" />
+              Link="/Content/EMSDesktopClient/V44.1/UserGuide/CopyMultipleBookinNav.html" />
             <TocEntry
               Title="Booking Details and Items Overview"
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/BookDetailsItemsOverview.htm">

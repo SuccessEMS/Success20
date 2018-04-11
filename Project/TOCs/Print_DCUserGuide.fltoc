@@ -342,7 +342,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Copy Multiple Bookings in the Navigator"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_CopyMultipleBookinNav.html"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/CopyMultipleBookinNav.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
