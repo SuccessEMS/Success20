@@ -647,7 +647,7 @@
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_UseDashboard.html">
           <TocEntry
             Title="Overview of the EMS Dashboard"
-            Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_WorkWithDashboard.html" />
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/WorkWithDashboard.html" />
           <TocEntry
             Title="Notifications Tab"
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_NotificationsTab.html">

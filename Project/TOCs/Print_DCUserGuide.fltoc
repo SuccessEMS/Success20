@@ -800,7 +800,7 @@
       ChapterNumberReset="continue">
       <TocEntry
         Title="Overview of the EMS Dashboard"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_WorkWithDashboard.html"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/WorkWithDashboard.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
