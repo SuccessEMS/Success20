@@ -219,7 +219,7 @@
             Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/CampusWebService_JenzabarCX_44.1.htm"
             Title="Jenzabar (CX - Informix) Views Data Model" />
           <TocEntry
-            Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/CampusWebService_JenzabarEX_44.1.htm"
+            Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/JenzabarEX.htm"
             Title="Jenzabar (EX) Views Data Model" />
           <TocEntry
             Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/PeopleSoft.htm"
