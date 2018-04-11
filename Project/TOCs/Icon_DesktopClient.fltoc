@@ -953,10 +953,10 @@
             Link="/Content/EMSDesktopClient/V44/InstallationGuide/FirstTimeInstallInstruct.htm"></TocEntry>
           <TocEntry
             Title="Obtain the Latest Release of EMS"
-            Link="/Content/EMSDesktopClient/V44/InstallationGuide/DC_IG_44_ObtainLatestRelease.htm"></TocEntry>
+            Link="/Content/EMSDesktopClient/V44/InstallationGuide/ObtainLatestRelease.htm"></TocEntry>
           <TocEntry
             Title="Upgrade Instructions"
-            Link="/Content/EMSDesktopClient/V44/InstallationGuide/DC_IG_44_UpgradeInstruct.htm" />
+            Link="/Content/EMSDesktopClient/V44/InstallationGuide/UpgradeInstruct.htm" />
           <TocEntry
             Title="Downgrade the EMS Desktop Client Web Deploy"
             Link="/Content/EMSDesktopClient/V44.1/InstallationGuide/DowngradeWebDeploy.htm" />
