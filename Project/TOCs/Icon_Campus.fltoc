@@ -105,7 +105,7 @@
           Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/UserGuide_EMSDesktopClientAcademicPlanning/Campus_UG_44_OverviewImportAcadTerm.htm" />
         <TocEntry
           Title="Synchronize an Academic Term"
-          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/UserGuide_EMSDesktopClientAcademicPlanning/Campus_UG_44_SynchronizeAcadTerm.htm" />
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/UserGuide_EMSDesktopClientAcademicPlanning/SynchronizeAcadTerm.htm" />
         <TocEntry
           Title="Publish an Academic Term"
           Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/UserGuide_EMSDesktopClientAcademicPlanning/Campus_UG_44_PublishTerm.htm" />
