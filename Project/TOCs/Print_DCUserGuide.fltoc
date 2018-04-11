@@ -130,7 +130,7 @@
     </TocEntry>
     <TocEntry
       Title="The EMS Window"
-      Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_EMSWindow.html"
+      Link="/Content/EMSDesktopClient/V44.1/UserGuide/EMSWindow.html"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
@@ -841,7 +841,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Everyday User Reservations Tab"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_EverydayUserReservationsTab.html"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/EverydayUserReservationsTab.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -964,7 +964,7 @@
       ChapterNumberReset="continue">
       <TocEntry
         Title="Enable Booking Check In"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_EnableBookingCheckIn.html"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/EnableBookingCheckIn.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"

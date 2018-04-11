@@ -438,7 +438,7 @@
         </TocEntry>
         <TocEntry
           Title="The EMS Window"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_EMSWindow.html">
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/EMSWindow.html">
           <TocEntry
             Title="Work with the EMS Window"
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/WorkwithEMSWindow.htm" />
@@ -660,7 +660,7 @@
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/RemindersTab.htm" />
           <TocEntry
             Title="Everyday User Reservations Tab"
-            Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_EverydayUserReservationsTab.html" />
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/EverydayUserReservationsTab.html" />
           <TocEntry
             Title="Guest Requests Tab"
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/GuestRequestsTab.html">
@@ -699,7 +699,7 @@
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/BookCheckIn.html">
           <TocEntry
             Title="Enable Booking Check In"
-            Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_EnableBookingCheckIn.html" />
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/EnableBookingCheckIn.html" />
           <TocEntry
             Title="Ways to Check In"
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/WaystoCheckIn.html" />
