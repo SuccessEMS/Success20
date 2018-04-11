@@ -1002,7 +1002,7 @@
               Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DesktopClient_ConfigRoomType.html" />
             <TocEntry
               Title="Configure Buildings"
-              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_ConfigBuilding.html" />
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigBuilding.html" />
             <TocEntry
               Title="Configure Building Hours"
               Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_ConfigBuildingHours.html">
@@ -1133,7 +1133,7 @@
           </TocEntry>
           <TocEntry
             Title="Core Configuration &gt; Booking Elements"
-            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_ConfigBookingElements.htm">
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigBookingElements.htm">
             <TocEntry
               Title="Configure Categories"
               Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigCategory.html" />
