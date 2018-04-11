@@ -99,7 +99,7 @@
         Title="V43 Documentation">
         <TocEntry
           Title="EMS Desktop Client"
-          Link="/Content/EMSDesktopClient/V43/DC_43_Introduction.htm" />
+          Link="/Content/EMSDesktopClient/V43/IntroDC.htm" />
         <TocEntry
           Title="EMS Desktop Client -- Academic Planning"
           Link="/Content/EMSDesktopClient_AcademicPlanning/V43/Campus_43_Introduction.htm" />
