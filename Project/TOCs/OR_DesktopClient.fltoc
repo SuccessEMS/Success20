@@ -43,7 +43,7 @@
           Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/EMSWindow.htm" />
         <TocEntry
           Title="Overview of EMS Desktop Client Configuration"
-          Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_OverviewofDCConfig.htm" />
+          Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/OverviewofDCConfig.htm" />
         <TocEntry
           Title="EMS Browser Window"
           Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/EMSBrowserWindow.htm" />
@@ -387,7 +387,7 @@
             Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/GroupImportFileSpec.htm" />
           <TocEntry
             Title="Reservation Import File Specification"
-            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_ResImportFileSpec.htm" />
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ReservationImportFileSpec.htm" />
           <TocEntry
             Title="Course Schedule Import File Specification"
             Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/FinalExamSchedImportFileSpec.htm" />
