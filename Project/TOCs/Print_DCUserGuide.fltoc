@@ -739,7 +739,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Import Groups"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ImportGroups.html"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/ImportGroups.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -851,7 +851,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Guest Requests Tab"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_GuestRequestsTab.html"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/GuestRequestsTab.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"

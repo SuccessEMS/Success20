@@ -766,7 +766,7 @@
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/ConfigContactsforGroup.html" />
         <TocEntry
           Title="Import Groups"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ImportGroups.html" />
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/ImportGroups.html" />
         <TocEntry
           Title="Print and Export Everyday User Information"
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/PrintExportEverdayUserInfo.html" />
@@ -801,7 +801,7 @@
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_EverydayUserReservationsTab.html" />
         <TocEntry
           Title="Guest Requests Tab"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_GuestRequestsTab.html">
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/GuestRequestsTab.html">
           <TocEntry
             Title="Manage Requests for Managed Space"
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/ManageReqMangedSpace.html" />
@@ -1563,7 +1563,7 @@
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/ConfigContactsforGroup.html" />
             <TocEntry
               Title="Import Groups"
-              Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ImportGroups.html" />
+              Link="/Content/EMSDesktopClient/V44.1/UserGuide/ImportGroups.html" />
             <TocEntry
               Title="Print and Export Everyday User Information"
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/PrintExportEverdayUserInfo.html" />
@@ -1598,7 +1598,7 @@
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_EverydayUserReservationsTab.html" />
             <TocEntry
               Title="Guest Requests Tab"
-              Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_GuestRequestsTab.html">
+              Link="/Content/EMSDesktopClient/V44.1/UserGuide/GuestRequestsTab.html">
               <TocEntry
                 Title="Manage Requests for Managed Space"
                 Link="/Content/EMSDesktopClient/V44.1/UserGuide/ManageReqMangedSpace.html" />
