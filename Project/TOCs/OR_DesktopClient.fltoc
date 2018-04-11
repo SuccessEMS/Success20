@@ -49,7 +49,7 @@
           Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/EMSBrowserWindow.htm" />
         <TocEntry
           Title="Managing Database Connections"
-          Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DesktopClient_ManagingDatabaseConnections.html" />
+          Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ManageDatabaseConnections.html" />
         <TocEntry
           Title="Configuration &gt; Facililties"
           Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigFacilities.html">
@@ -61,10 +61,10 @@
             Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigFeatures.html" />
           <TocEntry
             Title="Configure Setup Types"
-            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DesktopClient_ConfigSetupType.html" />
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigSetupType.html" />
           <TocEntry
             Title="Configure Room Types"
-            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DesktopClient_ConfigRoomType.html" />
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigRoomType.html" />
           <TocEntry
             Title="Configure Buildings"
             Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigBuilding.html" />
@@ -112,7 +112,7 @@
         </TocEntry>
         <TocEntry
           Title="Configuration &gt; Resources"
-          Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DesktopClient_OverviewConfigRes.html">
+          Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/OverviewConfigRes.html">
           <TocEntry
             Title="Categories, Resources, Services - What's the Difference?"
             Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/CategResourcesServices_WhatsDiff.htm" />
