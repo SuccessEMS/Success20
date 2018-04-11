@@ -715,7 +715,7 @@
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/ReportDescriptionsOptions.html" />
           <TocEntry
             Title="Generate an EMS Report"
-            Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_GenEMSReport.html" />
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/GenEMSReport.html" />
           <TocEntry
             Title="Generate an EMS Billing Report"
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_GenEMSBillReport.html" />
@@ -782,7 +782,7 @@
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/GenPrintedConfirmations.html" />
           <TocEntry
             Title="Generate Word Merge Documents for Custom Documentation"
-            Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_GenMergeDocsCustomDoc.html" />
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/GenMergeDocsCustomDoc.html" />
           <TocEntry
             Title="View History of Sent Emails"
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/ViewHistorySentEmails.html" />
