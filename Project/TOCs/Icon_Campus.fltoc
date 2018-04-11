@@ -27,16 +27,16 @@
       </TocEntry>
       <TocEntry
         Title="Everyday User Guide EMS CPI"
-        Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/C_UG_CPI/CPI_UG_44.1_Intro.html">
+        Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/UserGuide_CampusPlanningInterface/Introduction.html">
         <TocEntry
           Title="Manage User Options in the EMS Campus Planning Interface"
-          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/C_UG_CPI/CPI_UG_44.1_ManageUserOptions.html" />
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/UserGuide_CampusPlanningInterface/ManageUserOptions.html" />
         <TocEntry
           Title="EMS Campus Planning Interface Reports"
-          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/C_UG_CPI/CPI_UG_44.1_CampusPlanningInterfaceReports.html"></TocEntry>
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/UserGuide_CampusPlanningInterface/CampusPlanningInterfaceReports.html"></TocEntry>
         <TocEntry
           Title="EMS Campus Planning Interface Search Tools"
-          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/C_UG_CPI/CPI_UG_44.1_CPISearchTools.html" />
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/UserGuide_CampusPlanningInterface/CPISearchTools.html" />
       </TocEntry>
     </TocEntry>
     <TocEntry
