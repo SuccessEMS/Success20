@@ -1035,7 +1035,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Generate Attendee Visitor Reports"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_GenVisitorRep.html"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/GenVisitorRep.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -1225,7 +1225,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Generate a Single Confirmation at a Time"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_GenSingConfirmatTime.html"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/GenSingConfirmatTime.html"
         BreakType="chapter"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
