@@ -2948,7 +2948,7 @@
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_PrintExportEverdayUserInfo.html" />
         <TocEntry
           Title="Print and Export Group Information"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_PrintExportGroupInfo.html" />
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/PrintExportGroupInfo.html" />
         <TocEntry
           Title="Work with Reservations for a Group"
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/WorkwithResGroup.htm" />
@@ -3060,7 +3060,7 @@
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/ApplyCalcultoBilling.html" />
         <TocEntry
           Title="Quick Reference Guide: Billing and Invoicing"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_QuickRefBillandInvoice.html" />
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/QuickRefBillandInvoice.html" />
         <TocEntry
           Title="Work with Invoices"
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/WorkwithInvoices.html" />
