@@ -2722,7 +2722,7 @@
         Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ManageDBConn.html" />
       <TocEntry
         Title="User Settings"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_UserSettings.html" />
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/UserSettings.html" />
       <TocEntry
         Title="Reservations and Bookings"
         Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ReservandBookings.html" />
@@ -2760,7 +2760,7 @@
       </TocEntry>
       <TocEntry
         Title="The Reservation Book"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_UseReservationBook.html">
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/UseReservationBook.html">
         <TocEntry
           Title="Create a Booking in the Reservation Book"
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/BookRoomsResBook.html" />

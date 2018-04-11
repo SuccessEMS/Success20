@@ -49,7 +49,7 @@
       ChapterNumberReset="continue" />
     <TocEntry
       Title="User Settings"
-      Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_UserSettings.html"
+      Link="/Content/EMSDesktopClient/V44.1/UserGuide/UserSettings.html"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
@@ -171,7 +171,7 @@
     </TocEntry>
     <TocEntry
       Title="The Reservation Book"
-      Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_UseReservationBook.html"
+      Link="/Content/EMSDesktopClient/V44.1/UserGuide/UseReservationBook.html"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
