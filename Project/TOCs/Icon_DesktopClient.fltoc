@@ -966,119 +966,119 @@
         </TocEntry>
         <TocEntry
           Title="EMS Desktop Client Configuration Guide (V44)"
-          Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_Introduction.htm">
+          Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/Introduction.htm">
           <TocEntry
             Title="Overview of Configuration Window"
-            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_OverviewConfigWindow.htm" />
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigWindowOverview.htm" />
           <TocEntry
             Title="Starting EMS"
-            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_StartingEMS.htm" />
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/StartingEMS.htm" />
           <TocEntry
             Title="The EMS Window"
             Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/EMSWindow.htm" />
           <TocEntry
             Title="Overview of EMS Desktop Client Configuration"
-            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_OverviewofDCConfig.htm" />
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/OverviewofDCConfig.htm" />
           <TocEntry
             Title="EMS Browser Window"
             Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/EMSBrowserWindow.htm" />
           <TocEntry
             Title="Managing Database Connections"
-            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DesktopClient_ManagingDatabaseConnections.html" />
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ManageDatabaseConnections.html" />
           <TocEntry
             Title="Configuration &gt; Facililties"
-            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DesktopClient_ConfigFacil.html">
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigFacilities.html">
             <TocEntry
               Title="Configure Floors"
-              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DesktopClient_ConfigFloors.html" />
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigFloors.html" />
             <TocEntry
               Title="Configure Features"
-              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DesktopClient_ConfigFeatures.html" />
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigFeatures.html" />
             <TocEntry
               Title="Configure Setup Types"
-              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DesktopClient_ConfigSetupType.html" />
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigSetupType.html" />
             <TocEntry
               Title="Configure Room Types"
-              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DesktopClient_ConfigRoomType.html" />
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigRoomType.html" />
             <TocEntry
               Title="Configure Buildings"
-              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_ConfigBuilding.html" />
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigBuilding.html" />
             <TocEntry
               Title="Configure Building Hours"
-              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_ConfigBuildingHours.html">
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigBuildingHours.html">
               <TocEntry
                 Title="Building Hours Wizard"
                 Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/BuildHourWiz.htm" />
             </TocEntry>
             <TocEntry
               Title="Configure Areas"
-              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_ConfigAreas.html" />
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigAreas.html" />
             <TocEntry
               Title="Overview of Configuring Rooms"
-              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DesktopClient_OverviewConfigRooms.html">
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigRoomsOverview.html">
               <TocEntry
                 Title="Configure Rooms"
-                Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DesktopClient_ConfigRooms.html" />
+                Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigRooms.html" />
               <TocEntry
                 Title="Room Configuration Wizard"
-                Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_RoomConfigWiz.htm" />
+                Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/RoomConfigWiz.htm" />
               <TocEntry
                 Title="Configure Room Pricing"
-                Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_ConfigRoomPricing.htm" />
+                Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigRoomPricing.htm" />
               <TocEntry
                 Title="Configure Override Rooms"
-                Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_ConfigOverrideRooms.htm" />
+                Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigOverrideRooms.htm" />
               <TocEntry
                 Title="Configure and Generate Room QR Codes"
-                Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_ConfigGenerRoomQRCode.htm" />
+                Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigGenerRoomQRCode.htm" />
               <TocEntry
                 Title="Import Rooms"
                 Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ImportRooms.htm" />
               <TocEntry
                 Title="Export Pricing Information for a Room"
-                Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ExportPricingInfo.htm" />
+                Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ExportPricingInfoBillableItems.htm" />
             </TocEntry>
             <TocEntry
               Title="Configure Floor Plans"
-              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DesktopClient_ConfigFloorPlans.html" />
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigFloorPlans.html" />
             <TocEntry
               Title="Configure Public Views"
-              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DesktopClient_ConfigPublicViews.html" />
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigPublicViews.html" />
           </TocEntry>
           <TocEntry
             Title="Configuration &gt; Resources"
-            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DesktopClient_OverviewConfigRes.html">
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigResourcesOverview.html">
             <TocEntry
               Title="Categories, Resources, Services - What's the Difference?"
-              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_CategoriesResourcesServices_WhatsDiff.htm" />
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/CategResourcesServices_WhatsDiff.htm" />
             <TocEntry
               Title="Configure Resources for a Category"
-              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DesktopClient_ConfigResourcesforCat.html">
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigResourcesforCat.html">
               <TocEntry
                 Title="Resource Configuration Wizard"
-                Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_ResourceConfigWiz.htm" />
+                Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ResourceConfigWiz.htm" />
             </TocEntry>
             <TocEntry
               Title="Import Resources for a Category"
-              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_ImportResforCat.htm" />
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ImportResourcesforCat.htm" />
             <TocEntry
               Title="Define Resource Selections and Selection Items"
-              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_DefineResourceSel.htm" />
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DefineResourceSel.htm" />
             <TocEntry
               Title="Configure Services for a Category"
-              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_ConfigureServicesforCat.htm" />
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigureServicesforCat.htm" />
             <TocEntry
               Title="Configure Groupings for a Resource"
-              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DesktopClient_ConfigGroupingsResource.html" />
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigGroupingsResource.html" />
             <TocEntry
               Title="Define Production Areas and Production Items for a Catering Resource"
-              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_DefineProdAreaItems.htm" />
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DefineProdAreaItems.htm" />
             <TocEntry
               Title="Configure Pricing for a Resource in the Edit Pricing Window"
-              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_ConfigPricingResourceEditPriceWin.htm" />
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigPricingResourceEditPriceWin.htm" />
             <TocEntry
               Title="Export Pricing Information for a Resource"
-              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_ExportPricInfo.htm" />
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ExportPricingInfoforResource.htm" />
           </TocEntry>
           <TocEntry
             Title="Core Configuration &gt; Groups and Contacts"
@@ -1102,7 +1102,7 @@
           </TocEntry>
           <TocEntry
             Title="Core Configuration &gt; Billing"
-            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_ConfigBilling.htm">
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigBilling.htm">
             <TocEntry
               Title="Configure Rate Schedules"
               Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigRateSchedule.htm" />
@@ -1111,7 +1111,7 @@
               Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigPricingPlan.htm" />
             <TocEntry
               Title="Export Pricing Information for Billable Items (Rooms &amp; Resources)"
-              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ExportPricingInfo.htm" />
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ExportPricingInfoBillableItems.htm" />
             <TocEntry
               Title="Configure Calculations"
               Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigCalc.htm" />
@@ -1133,7 +1133,7 @@
           </TocEntry>
           <TocEntry
             Title="Core Configuration &gt; Booking Elements"
-            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_ConfigBookingElements.htm">
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigBookingElements.htm">
             <TocEntry
               Title="Configure Categories"
               Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigCategory.html" />
@@ -1148,7 +1148,7 @@
               Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigNotRules.htm">
               <TocEntry
                 Title="Types of Notification Rules"
-                Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_TypesNotifiRules.htm" />
+                Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/TypesNotifiRules.htm" />
             </TocEntry>
             <TocEntry
               Title="Configure Group Notification Rules"
@@ -1208,7 +1208,7 @@
           </TocEntry>
           <TocEntry
             Title="System Administration Configuration &gt; Settings"
-            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_SystemAdminConfigSettings.htm">
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/SystemAdminConfigSettings.htm">
             <TocEntry
               Title="Edit System Parameters"
               Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/EditSysParam.htm" />
@@ -1227,7 +1227,7 @@
           </TocEntry>
           <TocEntry
             Title="Video Conferencing"
-            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_VideoConferenceConfig.htm">
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/VideoConferenceConfig.htm">
             <TocEntry
               Title="Configure Video Conferencing Capabilities"
               Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigVideoConfCap.htm" />
@@ -1241,10 +1241,10 @@
           </TocEntry>
           <TocEntry
             Title="System Administration Configuration &gt; User Security"
-            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_SystemAdminConfigUserSec.htm">
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/SystemAdminConfigUserSec.htm">
             <TocEntry
               Title="Overview of User Processes"
-              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_OverviewUserProc.htm" />
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/UserProcessesOverview.htm" />
             <TocEntry
               Title="Configure Users"
               Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigUsers.htm" />
@@ -1260,7 +1260,7 @@
           </TocEntry>
           <TocEntry
             Title="System Administration &gt; Tools"
-            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DesktopClient_SystemAdminTools.html">
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/SystemAdminTools.html">
             <TocEntry
               Title="Change Group Wizard"
               Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ChangeGroupWiz.htm" />
@@ -1269,19 +1269,19 @@
               Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ChangeResWiz.htm" />
             <TocEntry
               Title="Room Administration Wizard"
-              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_RoomAdminWizard.htm" />
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/RoomAdminWizard.htm" />
             <TocEntry
               Title="Manage Saved Reports"
-              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_ManageSavedReport.htm" />
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ManageSavedReport.htm" />
             <TocEntry
               Title="Override Existing Bookings Utility"
-              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_OverrideExistingBookUtil.html" />
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/OverrideExistingBookUtil.html" />
             <TocEntry
               Title="Import Reservations Utility"
               Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ImportResUtili.htm" />
             <TocEntry
               Title="View and Email Logged-In Users"
-              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_ViewEmailLoggedUsers.htm" />
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ViewEmailLoggedUsers.htm" />
             <TocEntry
               Title="Deleting Old Data"
               Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DeleteOldData.htm" />
@@ -1294,45 +1294,45 @@
           </TocEntry>
           <TocEntry
             Title="System Parameters"
-            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_SystemParam.htm">
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/EMSSystemParamOverview.htm">
             <TocEntry
               Title="EMS System Parameters"
               Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/EMSSystemParameters.htm" />
             <TocEntry
               Title="Virtual EMS (VEMS) Parameters"
-              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_VEMS System Parameters.htm" />
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/VEMSSystemParameters.htm" />
             <TocEntry
               Title="EMS Kiosk Parameters"
-              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_Kiosk System Parameters.htm" />
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/KioskSystemParameters.htm" />
           </TocEntry>
           <TocEntry
             Title="Import File Specifications"
-            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_ImportFileSpec.htm">
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ImportFileSpec.htm">
             <TocEntry
               Title="Holiday Import File Specification"
-              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_SpecialDateImportFileSpec.htm" />
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/SpecialDateImportFileSpec.htm" />
             <TocEntry
               Title="Room Import File Specification"
-              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_RoomImportFileSpec.htm" />
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/RoomImportFileSpec.htm" />
             <TocEntry
               Title="Resource Import File Specification"
-              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_ResourceImportFileSpec.htm" />
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ResourceImportFileSpec.htm" />
             <TocEntry
               Title="Group Import File Specification"
-              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_GroupImportFileSpec.htm" />
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/GroupImportFileSpec.htm" />
             <TocEntry
               Title="Reservation Import File Specification"
-              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_ResImportFileSpec.htm" />
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ReservationImportFileSpec.htm" />
             <TocEntry
               Title="Course Schedule Import File Specification"
-              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_FinalExamSchedImportFileSpec.htm" />
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/FinalExamSchedImportFileSpec.htm" />
             <TocEntry
               Title="Import Spreadsheets"
               Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ImportSpreadsheet.htm" />
           </TocEntry>
           <TocEntry
             Title="Video Display Interface"
-            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_VideoDisplayInterf.htm" />
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/VideoDisplayInterf.htm" />
         </TocEntry>
         <TocEntry
           Title="EMS Desktop Client User Guide (V44)"
