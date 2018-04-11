@@ -2207,7 +2207,7 @@
           Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/Deploy_Easy Deployment.htm" />
         <TocEntry
           Title="Enable SSL on Web Deployment"
-          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/DC_Deploy_Enable SSL on Web Deployment.htm" />
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/Deploy_Enable SSL on Web Deployment.htm" />
         <TocEntry
           Title="Troubleshooting"
           Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/DC_Deploy_Troubleshooting.htm" />

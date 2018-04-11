@@ -1759,7 +1759,7 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
         <TocEntry
           Title="Enable SSL on Web Deployment"
-          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/DC_Deploy_Enable SSL on Web Deployment.htm"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/Deploy_Enable SSL on Web Deployment.htm"
           BreakType="chapter"
           PageNumber="1"
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
