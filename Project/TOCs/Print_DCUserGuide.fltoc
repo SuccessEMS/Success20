@@ -79,7 +79,7 @@
       ChapterNumberReset="continue">
       <TocEntry
         Title="Record Actual Attendance Numbers for Bookings"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_RecActAttend.html"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/RecActAttend.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"

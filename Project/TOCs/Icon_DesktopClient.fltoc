@@ -556,7 +556,7 @@
         Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_OtherResFunctions.html">
         <TocEntry
           Title="Record Actual Attendance Numbers for Bookings"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_RecActAttend.html" />
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/RecActAttend.html" />
         <TocEntry
           Title="Manage Attendees and Visitors"
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ManageAttendeesVisitor.html" />
@@ -1357,7 +1357,7 @@
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_OtherResFunctions.html">
             <TocEntry
               Title="Record Actual Attendance Numbers for Bookings"
-              Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_RecActAttend.html" />
+              Link="/Content/EMSDesktopClient/V44.1/UserGuide/RecActAttend.html" />
             <TocEntry
               Title="Manage Attendees and Visitors"
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ManageAttendeesVisitor.html" />
