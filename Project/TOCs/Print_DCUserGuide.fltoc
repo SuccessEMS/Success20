@@ -99,7 +99,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="View Visitors"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ViewVisitors.htm"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/ViewVisitors.htm"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -191,7 +191,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="View and Edit Reservations in the Reservation Book"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ViewEditReservinResBook.htm"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/ViewEditReservinResBook.htm"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -872,7 +872,7 @@
       </TocEntry>
       <TocEntry
         Title="Wait List Tab"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_WaitListTab.html"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/WaitListTab.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -1261,7 +1261,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="View History of Sent Emails"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ViewHistorySentEmails.html"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/ViewHistorySentEmails.html"
         BreakType="chapter"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
