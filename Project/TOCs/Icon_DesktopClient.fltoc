@@ -1015,7 +1015,7 @@
               Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigAreas.html" />
             <TocEntry
               Title="Overview of Configuring Rooms"
-              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/OverviewConfigRooms.html">
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigRoomsOverview.html">
               <TocEntry
                 Title="Configure Rooms"
                 Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigRooms.html" />
@@ -1047,7 +1047,7 @@
           </TocEntry>
           <TocEntry
             Title="Configuration &gt; Resources"
-            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigResOverview.html">
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigResourcesOverview.html">
             <TocEntry
               Title="Categories, Resources, Services - What's the Difference?"
               Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/CategResourcesServices_WhatsDiff.htm" />
