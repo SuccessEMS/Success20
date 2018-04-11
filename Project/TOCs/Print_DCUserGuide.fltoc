@@ -779,7 +779,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Email a Group"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_EmailaGroup.htm"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/EmailaGroup.htm"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"

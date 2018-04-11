@@ -778,7 +778,7 @@
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/WorkwithResGroup.htm" />
         <TocEntry
           Title="Email a Group"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_EmailaGroup.htm" />
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/EmailaGroup.htm" />
       </TocEntry>
       <TocEntry
         Title="The Dashboard"
@@ -1575,7 +1575,7 @@
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/WorkwithResGroup.htm" />
             <TocEntry
               Title="Email a Group"
-              Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_EmailaGroup.htm" />
+              Link="/Content/EMSDesktopClient/V44.1/UserGuide/EmailaGroup.htm" />
           </TocEntry>
           <TocEntry
             Title="The Dashboard"
