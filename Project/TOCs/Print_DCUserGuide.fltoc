@@ -616,7 +616,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="The Everyday User Reservations Browser"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_EverydayUserReservBrowser.htm"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/EverydayUserReservBrowser.htm"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -1025,7 +1025,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Generate an EMS Billing Report"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_GenEMSBillReport.html"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/GenEMSBillReport.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -1156,7 +1156,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="EMS Billing Reports"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_GenEMSBillReport.html"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/GenEMSBillReport.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"

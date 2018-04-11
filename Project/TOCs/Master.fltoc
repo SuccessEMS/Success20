@@ -2900,7 +2900,7 @@
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/FieldsinResWiz.htm" />
         <TocEntry
           Title="The Everyday User Reservations Browser"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_EverydayUserReservBrowser.htm">
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/EverydayUserReservBrowser.htm">
           <TocEntry
             Title="Search Using the Everyday User Reservations Browser"
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/SearchEverydayUserBrow.htm" />
@@ -3032,7 +3032,7 @@
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/GenEMSReport.html" />
         <TocEntry
           Title="Generate an EMS Billing Report"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_GenEMSBillReport.html" />
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/GenEMSBillReport.html" />
         <TocEntry
           Title="Generate Attendee Visitor Reports"
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/GenVisitorRep.html" />
@@ -3072,7 +3072,7 @@
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/WorkwithTransactions.html" />
         <TocEntry
           Title="EMS Billing Reports"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_GenEMSBillReport.html" />
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/GenEMSBillReport.html" />
         <TocEntry
           Title="Apply a Reservation Discount"
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/ApplyReservDiscount.html" />
