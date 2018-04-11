@@ -69,7 +69,7 @@
       ChapterNumberReset="continue" />
     <TocEntry
       Title="Other Reservation Functions"
-      Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_OtherResFunctions.html"
+      Link="/Content/EMSDesktopClient/V44.1/UserGuide/OtherResFunctions.html"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
@@ -1086,7 +1086,7 @@
       ChapterNumberReset="continue">
       <TocEntry
         Title="Overview of Billing in EMS"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_OverviewBilling.html"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/OverviewBilling.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"

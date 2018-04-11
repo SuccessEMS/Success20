@@ -2728,7 +2728,7 @@
         Link="/Content/EMSDesktopClient/V44.1/UserGuide/ReservandBookings.html" />
       <TocEntry
         Title="Other Reservation Functions"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_OtherResFunctions.html">
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/OtherResFunctions.html">
         <TocEntry
           Title="Record Actual Attendance Numbers for Bookings"
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/RecActAttend.html" />
@@ -3051,7 +3051,7 @@
         Link="/Content/EMSDesktopClient/V44.1/UserGuide/Billing.html">
         <TocEntry
           Title="Overview of Billing in EMS"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_OverviewBilling.html" />
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/OverviewBilling.html" />
         <TocEntry
           Title="Search for Transactions"
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/SearchforTransactions.html" />
