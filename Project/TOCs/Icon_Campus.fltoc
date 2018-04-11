@@ -96,7 +96,7 @@
           Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/UserGuide_EMSDesktopClientAcademicPlanning/Campus_UG_44_SearchwithAcadBrowser.htm" />
         <TocEntry
           Title="Specify Room Preferences and Requirements"
-          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/UserGuide_EMSDesktopClientAcademicPlanning/Campus_UG_44_SpecifyRoomPrefReq.htm" />
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/UserGuide_EMSDesktopClientAcademicPlanning/SpecifyRoomPrefReq.htm" />
         <TocEntry
           Title="Review and Verify Room Preferences"
           Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/UserGuide_EMSDesktopClientAcademicPlanning/Campus_UG_44_ReviewVerifyRoomPref.htm" />
@@ -141,7 +141,7 @@
           Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/UserGuide_EMSDesktopClientAcademicPlanning/Campus_UG_44_ReviewVerifyRoomPref.htm" />
         <TocEntry
           Title="Specify Room Preferences/Requirements"
-          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/UserGuide_EMSDesktopClientAcademicPlanning/Campus_UG_44_SpecifyRoomPrefReq.htm" />
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/UserGuide_EMSDesktopClientAcademicPlanning/SpecifyRoomPrefReq.htm" />
         <TocEntry
           Title="Overview of Room Assignments"
           Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/UserGuide_EMSDesktopClientAcademicPlanning/Campus_UG_44_OverviewRoomAssignOpti.htm" />
