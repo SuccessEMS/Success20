@@ -575,7 +575,7 @@
       ChapterNumberReset="continue">
       <TocEntry
         Title="Search with the Calendar"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_SearchwithCalendar.html"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/SearchwithCalendar.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -626,7 +626,7 @@
         ChapterNumberReset="continue">
         <TocEntry
           Title="Search Using the Everyday User Reservations Browser"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_SearchEverydayUserBrow.htm"
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/SearchEverydayUserBrow.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -668,7 +668,7 @@
       ChapterNumberReset="continue">
       <TocEntry
         Title="Search with the Browser"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_SearchwithBrowser.html"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/SearchwithBrowser.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -689,7 +689,7 @@
       ChapterNumberReset="continue">
       <TocEntry
         Title="Search for People"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_SearchforPeople.html"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/SearchforPeople.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -1096,7 +1096,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Search for Transactions"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_SearchforTransactions.html"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/SearchforTransactions.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"

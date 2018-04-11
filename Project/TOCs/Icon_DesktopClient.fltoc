@@ -711,7 +711,7 @@
         Link="/Content/EMSDesktopClient/V44.1/UserGuide/Calendar.htm">
         <TocEntry
           Title="Search with the Calendar"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_SearchwithCalendar.html" />
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/SearchwithCalendar.html" />
         <TocEntry
           Title="Search with the Resource Calendar"
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/SearchwithResourCal.html" />
@@ -727,7 +727,7 @@
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_EverydayUserReservBrowser.htm">
           <TocEntry
             Title="Search Using the Everyday User Reservations Browser"
-            Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_SearchEverydayUserBrow.htm" />
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/SearchEverydayUserBrow.htm" />
         </TocEntry>
         <TocEntry
           Title="Create a Reservation in the Reservation Wizard"
@@ -741,17 +741,17 @@
         Link="/Content/EMSDesktopClient/V44.1/UserGuide/Browser.htm">
         <TocEntry
           Title="Search with the Browser"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_SearchwithBrowser.html" />
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/SearchwithBrowser.html" />
       </TocEntry>
       <TocEntry
         Title="People: Groups and Contacts"
         Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_PeopleGroupsContacts.html">
         <TocEntry
           Title="Search for People"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_SearchforPeople.html" />
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/SearchforPeople.html" />
         <TocEntry
           Title="Search for and Configure Groups or Individuals"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_SearchConfigGroupsIndividuals.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/SearchConfigGroupsIndividuals.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
           Title="Add or Edit Profile Information for People and Groups"
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/InfoAboutGroupsIndiv.html" />
@@ -878,7 +878,7 @@
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_OverviewBilling.html" />
         <TocEntry
           Title="Search for Transactions"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_SearchforTransactions.html" />
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/SearchforTransactions.html" />
         <TocEntry
           Title="Apply Calculations to Billing -- Add to Billing Topic. This is a placeholder"
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/ApplyCalcultoBilling.html" />
@@ -1511,7 +1511,7 @@
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/Calendar.htm">
             <TocEntry
               Title="Search with the Calendar"
-              Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_SearchwithCalendar.html" />
+              Link="/Content/EMSDesktopClient/V44.1/UserGuide/SearchwithCalendar.html" />
             <TocEntry
               Title="Search with the Resource Calendar"
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/SearchwithResourCal.html" />
@@ -1527,7 +1527,7 @@
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_EverydayUserReservBrowser.htm">
               <TocEntry
                 Title="Search Using the Everyday User Reservations Browser"
-                Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_SearchEverydayUserBrow.htm" />
+                Link="/Content/EMSDesktopClient/V44.1/UserGuide/SearchEverydayUserBrow.htm" />
             </TocEntry>
             <TocEntry
               Title="Create a Reservation in the Reservation Wizard"
@@ -1541,14 +1541,14 @@
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/Browser.htm">
             <TocEntry
               Title="Search with the Browser"
-              Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_SearchwithBrowser.html" />
+              Link="/Content/EMSDesktopClient/V44.1/UserGuide/SearchwithBrowser.html" />
           </TocEntry>
           <TocEntry
             Title="People: Groups and Contacts"
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_PeopleGroupsContacts.html">
             <TocEntry
               Title="Search for People"
-              Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_SearchforPeople.html" />
+              Link="/Content/EMSDesktopClient/V44.1/UserGuide/SearchforPeople.html" />
             <TocEntry
               Title="Add or Edit Profile Information for People and Groups"
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/InfoAboutGroupsIndiv.html" />
@@ -1674,7 +1674,7 @@
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_OverviewBilling.html" />
             <TocEntry
               Title="Search for Transactions"
-              Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_SearchforTransactions.html" />
+              Link="/Content/EMSDesktopClient/V44.1/UserGuide/SearchforTransactions.html" />
             <TocEntry
               Title="Apply Calculations to Billing -- Add to Billing Topic. This is a placeholder"
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/ApplyCalcultoBilling.html" />
