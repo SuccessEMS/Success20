@@ -757,7 +757,7 @@
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/InfoAboutGroupsIndiv.html" />
         <TocEntry
           Title="Create an Everyday User from a Group"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_CreateEverydayUserfromGroup.htm" />
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/CreateEverydayUserfromGroup.htm" />
         <TocEntry
           Title="Assign an Everyday User to a Group"
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/AssignEverydayUserstoGroup.html" />
@@ -1554,7 +1554,7 @@
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/InfoAboutGroupsIndiv.html" />
             <TocEntry
               Title="Create an Everyday User from a Group"
-              Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_CreateEverydayUserfromGroup.htm" />
+              Link="/Content/EMSDesktopClient/V44.1/UserGuide/CreateEverydayUserfromGroup.htm" />
             <TocEntry
               Title="Assign an Everyday User to a Group"
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/AssignEverydayUserstoGroup.html" />

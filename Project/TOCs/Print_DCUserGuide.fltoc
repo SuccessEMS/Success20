@@ -709,7 +709,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Create an Everyday User from a Group"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_CreateEverydayUserfromGroup.htm"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/CreateEverydayUserfromGroup.htm"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
