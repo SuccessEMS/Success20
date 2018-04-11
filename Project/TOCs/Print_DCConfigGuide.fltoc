@@ -1724,7 +1724,7 @@
         PageNumber="1" />
       <TocEntry
         Title="Deployment of EMS Desktop Client"
-        Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/DC_Deploy_DeploymentOptions.htm"
+        Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/Deploy_DeploymentOptions.htm"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -1735,7 +1735,7 @@
         PageNumber="1">
         <TocEntry
           Title="Decision Guide: Web Vs Conventional Deployment"
-          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/DC_Deploy_DecisionGuide.htm"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/Deploy_DecisionGuide.htm"
           BreakType="chapter"
           PageNumber="1"
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
@@ -1747,19 +1747,19 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
         <TocEntry
           Title="Conventional Deployment"
-          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/DC_Deploy_Conventional Deployment.htm"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/Deploy_ConventionalDeployment.htm"
           BreakType="chapter"
           PageNumber="1"
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
         <TocEntry
           Title="Easy Deployment with Conventional Deployment"
-          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/DC_Deploy_Easy Deployment.htm"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/Deploy_Easy Deployment.htm"
           BreakType="chapter"
           PageNumber="1"
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
         <TocEntry
           Title="Enable SSL on Web Deployment"
-          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/DC_Deploy_Enable SSL on Web Deployment.htm"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/Deploy_Enable SSL on Web Deployment.htm"
           BreakType="chapter"
           PageNumber="1"
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />

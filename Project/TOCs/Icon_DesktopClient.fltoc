@@ -509,22 +509,22 @@
       </TocEntry>
       <TocEntry
         Title="Deployment of EMS Desktop Client"
-        Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/DC_Deploy_DeploymentOptions.htm">
+        Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/Deploy_DeploymentOptions.htm">
         <TocEntry
           Title="Decision Guide: Web Vs Conventional Deployment"
-          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/DC_Deploy_DecisionGuide.htm" />
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/Deploy_DecisionGuide.htm" />
         <TocEntry
           Title="Web Deployment"
           Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/DC_Deploy_Web Deployment.htm" />
         <TocEntry
           Title="Conventional Deployment"
-          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/DC_Deploy_Conventional Deployment.htm" />
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/Deploy_ConventionalDeployment.htm" />
         <TocEntry
           Title="Easy Deployment with Conventional Deployment"
-          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/DC_Deploy_Easy Deployment.htm" />
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/Deploy_Easy Deployment.htm" />
         <TocEntry
           Title="Enable SSL on Web Deployment"
-          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/DC_Deploy_Enable SSL on Web Deployment.htm" />
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/Deploy_Enable SSL on Web Deployment.htm" />
         <TocEntry
           Title="Troubleshooting"
           Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/DC_Deploy_Troubleshooting.htm" />
