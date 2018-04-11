@@ -59,7 +59,7 @@
       ChapterNumberReset="continue" />
     <TocEntry
       Title="Reservations and Bookings"
-      Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ReservandBookings.html"
+      Link="/Content/EMSDesktopClient/V44.1/UserGuide/ReservandBookings.html"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
@@ -292,7 +292,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Reprice Categories and Room Charges for a Reservation in the Navigator"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_RepricCatRoomChargeRes.html"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/RepricCatRoomChargeRes.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -544,7 +544,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Resource Utility Conflicts Tool"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_RunResourceUtility.html"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/RunResourceUtility.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -596,7 +596,7 @@
     </TocEntry>
     <TocEntry
       Title="The Reservation Wizard"
-      Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ReservationWizard.htm"
+      Link="/Content/EMSDesktopClient/V44.1/UserGuide/ReservationWizard.htm"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
@@ -831,7 +831,7 @@
       </TocEntry>
       <TocEntry
         Title="Reminders Tab"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_RemindersTab.htm"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/RemindersTab.htm"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -882,7 +882,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Reconfirm Dates Tab"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ReconfirmDatesTab.html"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/ReconfirmDatesTab.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -995,7 +995,7 @@
     </TocEntry>
     <TocEntry
       Title="Reports and Queries"
-      Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ReportsQueries.html"
+      Link="/Content/EMSDesktopClient/V44.1/UserGuide/ReportsQueries.html"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
@@ -1005,7 +1005,7 @@
       ChapterNumberReset="continue">
       <TocEntry
         Title="Report Descriptions and Options"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ReportDescriptionsOptions.html"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/ReportDescriptionsOptions.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -1186,7 +1186,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Price Categories and Room Charges"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_RepricCatRoomChargeRes.html"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/RepricCatRoomChargeRes.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"

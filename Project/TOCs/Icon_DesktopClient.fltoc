@@ -550,7 +550,7 @@
         Link="/Content/EMSDesktopClient/V44.1/UserGuide/UserSettings.html" />
       <TocEntry
         Title="Reservations and Bookings"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ReservandBookings.html" />
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/ReservandBookings.html" />
       <TocEntry
         Title="Other Reservation Functions"
         Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_OtherResFunctions.html">
@@ -622,7 +622,7 @@
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/ChangeStatusResfromResSum.html" />
         <TocEntry
           Title="Reprice Categories and Room Charges for a Reservation in the Navigator"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_RepricCatRoomChargeRes.html" />
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/RepricCatRoomChargeRes.html" />
         <TocEntry
           Title="Apply a Reservation Discount"
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/ApplyReservDiscount.html" />
@@ -701,7 +701,7 @@
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/DrawingsinNav.html" />
         <TocEntry
           Title="Resource Utility Conflicts Tool"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_RunResourceUtility.html" />
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/RunResourceUtility.html" />
         <TocEntry
           Title="Approve or Deny Reservation Requests"
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/ApprovDenyReservReq.html" />
@@ -718,7 +718,7 @@
       </TocEntry>
       <TocEntry
         Title="The Reservation Wizard"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ReservationWizard.htm">
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/ReservationWizard.htm">
         <TocEntry
           Title="Fields in the Reservation Wizard"
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/FieldsinResWiz.htm" />
@@ -795,7 +795,7 @@
         </TocEntry>
         <TocEntry
           Title="Reminders Tab"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_RemindersTab.htm" />
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/RemindersTab.htm" />
         <TocEntry
           Title="Everyday User Reservations Tab"
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_EverydayUserReservationsTab.html" />
@@ -811,7 +811,7 @@
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/WaitListTab.html" />
         <TocEntry
           Title="Reconfirm Dates Tab"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ReconfirmDatesTab.html" />
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/ReconfirmDatesTab.html" />
         <TocEntry
           Title="Building Hours Exceptions Tab"
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/BuildHoursExceptTab.html" />
@@ -847,10 +847,10 @@
       </TocEntry>
       <TocEntry
         Title="Reports and Queries"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ReportsQueries.html">
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/ReportsQueries.html">
         <TocEntry
           Title="Report Descriptions and Options"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ReportDescriptionsOptions.html" />
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/ReportDescriptionsOptions.html" />
         <TocEntry
           Title="Generate an EMS Report"
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_GenEMSReport.html" />
@@ -905,7 +905,7 @@
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/BillMultRefandPONumbers.html" />
         <TocEntry
           Title="Price Categories and Room Charges"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_RepricCatRoomChargeRes.html" />
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/RepricCatRoomChargeRes.html" />
       </TocEntry>
       <TocEntry
         Title="Confirmations"
@@ -1351,7 +1351,7 @@
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/UserSettings.html" />
           <TocEntry
             Title="Reservations and Bookings"
-            Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ReservandBookings.html" />
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/ReservandBookings.html" />
           <TocEntry
             Title="Other Reservation Functions"
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_OtherResFunctions.html">
@@ -1423,7 +1423,7 @@
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/ChangeStatusResfromResSum.html" />
             <TocEntry
               Title="Reprice Categories and Room Charges for a Reservation in the Navigator"
-              Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_RepricCatRoomChargeRes.html" />
+              Link="/Content/EMSDesktopClient/V44.1/UserGuide/RepricCatRoomChargeRes.html" />
             <TocEntry
               Title="Apply a Reservation Discount"
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/ApplyReservDiscount.html" />
@@ -1501,7 +1501,7 @@
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/DrawingsinNav.html" />
             <TocEntry
               Title="Resource Utility Conflicts Tool"
-              Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_RunResourceUtility.html" />
+              Link="/Content/EMSDesktopClient/V44.1/UserGuide/RunResourceUtility.html" />
             <TocEntry
               Title="Approve or Deny Reservation Requests"
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/ApprovDenyReservReq.html" />
@@ -1518,7 +1518,7 @@
           </TocEntry>
           <TocEntry
             Title="The Reservation Wizard"
-            Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ReservationWizard.htm">
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/ReservationWizard.htm">
             <TocEntry
               Title="Fields in the Reservation Wizard"
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_FieldsinResWiz.htm" />
@@ -1592,7 +1592,7 @@
             </TocEntry>
             <TocEntry
               Title="Reminders Tab"
-              Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_RemindersTab.htm" />
+              Link="/Content/EMSDesktopClient/V44.1/UserGuide/RemindersTab.htm" />
             <TocEntry
               Title="Everyday User Reservations Tab"
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_EverydayUserReservationsTab.html" />
@@ -1608,7 +1608,7 @@
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/WaitListTab.html" />
             <TocEntry
               Title="Reconfirm Dates Tab"
-              Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ReconfirmDatesTab.html" />
+              Link="/Content/EMSDesktopClient/V44.1/UserGuide/ReconfirmDatesTab.html" />
             <TocEntry
               Title="Building Hours Exceptions Tab"
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/BuildHoursExceptTab.html" />
@@ -1644,10 +1644,10 @@
           </TocEntry>
           <TocEntry
             Title="Reports and Queries"
-            Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ReportsQueries.html">
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/ReportsQueries.html">
             <TocEntry
               Title="Report Descriptions and Options"
-              Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ReportDescriptionsOptions.html" />
+              Link="/Content/EMSDesktopClient/V44.1/UserGuide/ReportDescriptionsOptions.html" />
             <TocEntry
               Title="Generate an EMS Report"
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_GenEMSReport.html" />
@@ -1701,7 +1701,7 @@
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/BillMultRefandPONumbers.html" />
             <TocEntry
               Title="Price Categories and Room Charges"
-              Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_RepricCatRoomChargeRes.html" />
+              Link="/Content/EMSDesktopClient/V44.1/UserGuide/RepricCatRoomChargeRes.html" />
           </TocEntry>
           <TocEntry
             Title="Confirmations"
