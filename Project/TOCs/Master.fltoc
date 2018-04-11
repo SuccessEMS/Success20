@@ -356,56 +356,56 @@
           Title="Start the EMS Campus Planning Interface" />
       </TocEntry>
       <TocEntry
-        Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/A_IG_CWS/CampusWebService_InstallationOverview_44.1.htm"
+        Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/CampusWebService_InstallationOverview_44.1.htm"
         Title="EMS Campus Web Service and White Paper">
         <TocEntry
           Title="Introduction"
-          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/A_IG_CWS/CampusWebService_Introduction_44.1.htm" />
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/CampusWebService_Introduction_44.1.htm" />
         <TocEntry
-          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/A_IG_CWS/CampusWebService_SysReqPrereq_44.1.htm"
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/CampusWebService_SysReqPrereq_44.1.htm"
           Title="EMS Campus Web Service Hardware/Software Requirements" />
         <TocEntry
-          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/A_IG_CWS/CampusWebService_ObtainLatestVersion_44.1.htm"
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/CampusWebService_ObtainLatestVersion_44.1.htm"
           Title="Obtain the Latest EMS Campus Web Service Components" />
         <TocEntry
-          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/A_IG_CWS/CampusWebService_InstallationUpgrade_44.1.html"
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/CampusWebService_InstallationUpgrade_44.1.html"
           Title="Install or Upgrade the EMS Campus Web Service" />
         <TocEntry
-          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/A_IG_CWS/CampusWebService_Configuration_44.1.htm"
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/CampusWebService_Configuration_44.1.htm"
           Title="Configure EMS Campus Web Service" />
         <TocEntry
-          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/A_IG_CWS/CampusWebService_DataModels_44.1.htm"
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/CampusWebService_DataModels_44.1.htm"
           Title="Data Models">
           <TocEntry
-            Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/A_IG_CWS/CampusWebService_BannerView_44.1.htm"
+            Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/CampusWebService_BannerView_44.1.htm"
             Title="Banner Views Data Model" />
           <TocEntry
-            Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/A_IG_CWS/CampusWebService_CAMS_44.1.htm"
+            Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/CampusWebService_CAMS_44.1.htm"
             Title="CAMS Views Data Model" />
           <TocEntry
-            Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/A_IG_CWS/CampusWebService_ColleagueOracleSQL_44.1.htm"
+            Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/CampusWebService_ColleagueOracleSQL_44.1.htm"
             Title="Colleague (Oracle or SQL) Views Data Model" />
           <TocEntry
-            Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/A_IG_CWS/CampusWebService_ColleagueUnidata_44.1.htm"
+            Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/CampusWebService_ColleagueUnidata_44.1.htm"
             Title="Colleague Unidata Views Data Model" />
           <TocEntry
-            Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/A_IG_CWS/CampusWebService_JenzabarCX_44.1.htm"
+            Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/CampusWebService_JenzabarCX_44.1.htm"
             Title="Jenzabar (CX - Informix) Views Data Model" />
           <TocEntry
-            Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/A_IG_CWS/CampusWebService_JenzabarEX_44.1.htm"
+            Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/CampusWebService_JenzabarEX_44.1.htm"
             Title="Jenzabar (EX) Views Data Model" />
           <TocEntry
-            Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/A_IG_CWS/CampusWebService_PeopleSoft_44.1.htm"
+            Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/CampusWebService_PeopleSoft_44.1.htm"
             Title="PeopleSoft Views Data Model" />
           <TocEntry
-            Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/A_IG_CWS/CampusWebService_PowerCampus_44.1.htm"
+            Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/CampusWebService_PowerCampus_44.1.htm"
             Title="PowerCampus Views Data Model" />
         </TocEntry>
         <TocEntry
-          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/A_IG_CWS/CampusWebService_WebSvOverview_44.1.htm"
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/CampusWebService_WebSvOverview_44.1.htm"
           Title="Web Service Overview" />
         <TocEntry
-          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/A_IG_CWS/CampusWebService_FormatTabDelimitedFiles_44.1.htm"
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/CampusWebService_FormatTabDelimitedFiles_44.1.htm"
           Title="Appendix A - Format for Tab-Delimited Files" />
         <TocEntry
           Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_IntegCourseStudentInfowithSIS.htm"
@@ -890,56 +890,56 @@
           Title="Start the EMS Campus Planning Interface" />
       </TocEntry>
       <TocEntry
-        Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/A_IG_CWS/CampusWebService_InstallationOverview_44.1.htm"
+        Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/CampusWebService_InstallationOverview_44.1.htm"
         Title="EMS Campus Web Service and White Paper">
         <TocEntry
           Title="Introduction"
-          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/A_IG_CWS/CampusWebService_Introduction_44.1.htm" />
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/CampusWebService_Introduction_44.1.htm" />
         <TocEntry
-          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/A_IG_CWS/CampusWebService_SysReqPrereq_44.1.htm"
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/CampusWebService_SysReqPrereq_44.1.htm"
           Title="EMS Campus Web Service Hardware/Software Requirements" />
         <TocEntry
-          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/A_IG_CWS/CampusWebService_ObtainLatestVersion_44.1.htm"
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/CampusWebService_ObtainLatestVersion_44.1.htm"
           Title="Obtain the Latest EMS Campus Web Service Components" />
         <TocEntry
-          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/A_IG_CWS/CampusWebService_InstallationUpgrade_44.1.html"
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/CampusWebService_InstallationUpgrade_44.1.html"
           Title="Install or Upgrade the EMS Campus Web Service" />
         <TocEntry
-          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/A_IG_CWS/CampusWebService_Configuration_44.1.htm"
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/CampusWebService_Configuration_44.1.htm"
           Title="Configure EMS Campus Web Service" />
         <TocEntry
-          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/A_IG_CWS/CampusWebService_DataModels_44.1.htm"
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/CampusWebService_DataModels_44.1.htm"
           Title="Data Models">
           <TocEntry
-            Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/A_IG_CWS/CampusWebService_BannerView_44.1.htm"
+            Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/CampusWebService_BannerView_44.1.htm"
             Title="Banner Views Data Model" />
           <TocEntry
-            Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/A_IG_CWS/CampusWebService_CAMS_44.1.htm"
+            Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/CampusWebService_CAMS_44.1.htm"
             Title="CAMS Views Data Model" />
           <TocEntry
-            Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/A_IG_CWS/CampusWebService_ColleagueOracleSQL_44.1.htm"
+            Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/CampusWebService_ColleagueOracleSQL_44.1.htm"
             Title="Colleague (Oracle or SQL) Views Data Model" />
           <TocEntry
-            Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/A_IG_CWS/CampusWebService_ColleagueUnidata_44.1.htm"
+            Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/CampusWebService_ColleagueUnidata_44.1.htm"
             Title="Colleague Unidata Views Data Model" />
           <TocEntry
-            Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/A_IG_CWS/CampusWebService_JenzabarCX_44.1.htm"
+            Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/CampusWebService_JenzabarCX_44.1.htm"
             Title="Jenzabar (CX - Informix) Views Data Model" />
           <TocEntry
-            Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/A_IG_CWS/CampusWebService_JenzabarEX_44.1.htm"
+            Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/CampusWebService_JenzabarEX_44.1.htm"
             Title="Jenzabar (EX) Views Data Model" />
           <TocEntry
-            Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/A_IG_CWS/CampusWebService_PeopleSoft_44.1.htm"
+            Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/CampusWebService_PeopleSoft_44.1.htm"
             Title="PeopleSoft Views Data Model" />
           <TocEntry
-            Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/A_IG_CWS/CampusWebService_PowerCampus_44.1.htm"
+            Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/CampusWebService_PowerCampus_44.1.htm"
             Title="PowerCampus Views Data Model" />
         </TocEntry>
         <TocEntry
-          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/A_IG_CWS/CampusWebService_WebSvOverview_44.1.htm"
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/CampusWebService_WebSvOverview_44.1.htm"
           Title="Web Service Overview" />
         <TocEntry
-          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/A_IG_CWS/CampusWebService_FormatTabDelimitedFiles_44.1.htm"
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/CampusWebService_FormatTabDelimitedFiles_44.1.htm"
           Title="Appendix A - Format for Tab-Delimited Files" />
         <TocEntry
           Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_IntegCourseStudentInfowithSIS.htm"
