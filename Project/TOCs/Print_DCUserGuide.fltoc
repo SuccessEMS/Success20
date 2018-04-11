@@ -201,7 +201,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Edit a Reservation in the Reservation Book"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_EditResinResBook.htm"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/EditResinResBook.htm"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -252,7 +252,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Edit a Reservation in the Navigator"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_EditResinNav.html"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/EditResinNav.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"

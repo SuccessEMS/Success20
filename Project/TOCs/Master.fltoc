@@ -2769,7 +2769,7 @@
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/ViewEditReservinResBook.htm" />
         <TocEntry
           Title="Edit a Reservation in the Reservation Book"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_EditResinResBook.htm" />
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/EditResinResBook.htm" />
         <TocEntry
           Title="Import a List of Visitors to a Booking"
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/ImportListVis.html" />
@@ -2785,7 +2785,7 @@
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/GetFamiliarwithNav.html" />
         <TocEntry
           Title="Edit a Reservation in the Navigator"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_EditResinNav.html" />
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/EditResinNav.html" />
         <TocEntry
           Title="Add Bookings to a Reservation in the Navigator"
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/AddBooktoResinNav.html" />
