@@ -581,7 +581,7 @@
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ToolbarButtons.html" />
         <TocEntry
           Title="Customizing Your Toolbar"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_CustomizeToolbar.html" />
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/CustomizeToolbar.html" />
       </TocEntry>
       <TocEntry
         Title="The Reservation Book"
@@ -1382,7 +1382,7 @@
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ToolbarButtons.html" />
             <TocEntry
               Title="Customizing Your Toolbar"
-              Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_CustomizeToolbar.html" />
+              Link="/Content/EMSDesktopClient/V44.1/UserGuide/CustomizeToolbar.html" />
           </TocEntry>
           <TocEntry
             Title="The Reservation Book"
