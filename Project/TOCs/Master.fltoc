@@ -3155,7 +3155,7 @@
         Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/UserGuide_EMSDesktopClientAcademicPlanning/AddReviewCourses.htm" />
       <TocEntry
         Title="Edit or Cancel Courses"
-        Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/UserGuide_EMSDesktopClientAcademicPlanning/Campus_UG_44_EditCancelCourses.htm" />
+        Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/UserGuide_EMSDesktopClientAcademicPlanning/EditCancelCourses.htm" />
       <TocEntry
         Title="Synchronize Courses"
         Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/UserGuide_EMSDesktopClientAcademicPlanning/Campus_UG_44_SynchronizeCourses.htm" />
@@ -3191,7 +3191,7 @@
         Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/UserGuide_EMSDesktopClientAcademicPlanning/AboutCreateScenariosOpt.htm" />
       <TocEntry
         Title="Create Scenarios"
-        Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/UserGuide_EMSDesktopClientAcademicPlanning/Campus_UG_44_CreateScenarios.htm" />
+        Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/UserGuide_EMSDesktopClientAcademicPlanning/CreateScenarios.htm" />
       <TocEntry
         Title="Set a Final Exam Schedule"
         Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/UserGuide_EMSDesktopClientAcademicPlanning/Campus_UG_44_SetFinalExamSched.htm" />
