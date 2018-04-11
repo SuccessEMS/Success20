@@ -216,7 +216,7 @@
             Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/ColleagueUnidata.htm"
             Title="Colleague Unidata Views Data Model" />
           <TocEntry
-            Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/CampusWebService_JenzabarCX_44.1.htm"
+            Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/JenzabarCX.htm"
             Title="Jenzabar (CX - Informix) Views Data Model" />
           <TocEntry
             Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/JenzabarEX.htm"
