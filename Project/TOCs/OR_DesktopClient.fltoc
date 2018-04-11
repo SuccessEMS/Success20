@@ -292,7 +292,7 @@
         </TocEntry>
         <TocEntry
           Title="Video Conferencing"
-          Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_VideoConferenceConfig.htm">
+          Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/VideoConferenceConfig.htm">
           <TocEntry
             Title="Configure Video Conferencing Capabilities"
             Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigVideoConfCap.htm" />
@@ -346,7 +346,7 @@
             Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ImportResUtili.htm" />
           <TocEntry
             Title="View and Email Logged-In Users"
-            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_ViewEmailLoggedUsers.htm" />
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ViewEmailLoggedUsers.htm" />
           <TocEntry
             Title="Deleting Old Data"
             Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DeleteOldData.htm" />
@@ -397,7 +397,7 @@
         </TocEntry>
         <TocEntry
           Title="Video Display Interface"
-          Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_VideoDisplayInterf.htm" />
+          Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/VideoDisplayInterf.htm" />
       </TocEntry>
       <TocEntry
         Title="EMS Desktop Client User Guide (V44)"
