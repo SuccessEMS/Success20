@@ -517,7 +517,7 @@
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/AddItemstoMultBook.html" />
             <TocEntry
               Title="Edit Booking Detail Items for Individual Bookings"
-              Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_EditItemsforIndividBook.html" />
+              Link="/Content/EMSDesktopClient/V44.1/UserGuide/EditItemsforIndividBook.html" />
             <TocEntry
               Title="Copy Booking Details Between Bookings"
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/CopyBookDetBetwBookings.htm" />
@@ -531,7 +531,7 @@
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/EditChargforMultpBillItem.html" />
             <TocEntry
               Title="Edit Count Information for a Booking in the Navigator"
-              Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_EditCountInfoforBook.html" />
+              Link="/Content/EMSDesktopClient/V44.1/UserGuide/EditCountInfoforBook.html" />
             <TocEntry
               Title="Add Booking Details Wizard"
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/AddBookDetailsWizard.htm" />

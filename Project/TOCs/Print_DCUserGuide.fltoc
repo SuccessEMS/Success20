@@ -326,7 +326,7 @@
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_EditMultBookinNav.htm"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/EditMultBookinNav.htm"
         SectionNumberReset="continue"
         VolumeNumberReset="same"
         ChapterNumberReset="continue" />
@@ -392,7 +392,7 @@
           ChapterNumberReset="continue" />
         <TocEntry
           Title="Edit Booking Detail Items for Individual Bookings"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_EditItemsforIndividBook.html"
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/EditItemsforIndividBook.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -432,7 +432,7 @@
           ChapterNumberReset="continue" />
         <TocEntry
           Title="Edit Count Information for a Booking in the Navigator"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_EditCountInfoforBook.html"
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/EditCountInfoforBook.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
