@@ -544,7 +544,7 @@
         Link="/Content/EMSDesktopClient/V44.1/UserGuide/StartEMS.html" />
       <TocEntry
         Title="Manage Database Connections"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ManageDBConn.html" />
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/ManageDBConn.html" />
       <TocEntry
         Title="User Settings"
         Link="/Content/EMSDesktopClient/V44.1/UserGuide/UserSettings.html" />
@@ -559,7 +559,7 @@
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/RecActAttend.html" />
         <TocEntry
           Title="Manage Attendees and Visitors"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ManageAttendeesVisitor.html" />
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/ManageAttendeesVisitor.html" />
         <TocEntry
           Title="View Visitors"
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/ViewVisitors.htm" />
@@ -843,7 +843,7 @@
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/WaystoCheckIn.html" />
         <TocEntry
           Title="Manage Check In"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ManageCheckIn.html" />
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/ManageCheckIn.html" />
       </TocEntry>
       <TocEntry
         Title="Reports and Queries"
@@ -1345,7 +1345,7 @@
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/StartEMS.html" />
           <TocEntry
             Title="Manage Database Connections"
-            Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ManageDBConn.html" />
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/ManageDBConn.html" />
           <TocEntry
             Title="User Settings"
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/UserSettings.html" />
@@ -1360,7 +1360,7 @@
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/RecActAttend.html" />
             <TocEntry
               Title="Manage Attendees and Visitors"
-              Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ManageAttendeesVisitor.html" />
+              Link="/Content/EMSDesktopClient/V44.1/UserGuide/ManageAttendeesVisitor.html" />
             <TocEntry
               Title="View Visitors"
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/ViewVisitors.htm" />
@@ -1640,7 +1640,7 @@
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/WaystoCheckIn.html" />
             <TocEntry
               Title="Manage Check In"
-              Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ManageCheckIn.html" />
+              Link="/Content/EMSDesktopClient/V44.1/UserGuide/ManageCheckIn.html" />
           </TocEntry>
           <TocEntry
             Title="Reports and Queries"

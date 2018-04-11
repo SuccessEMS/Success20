@@ -39,7 +39,7 @@
       ChapterNumberReset="continue" />
     <TocEntry
       Title="Manage Database Connections"
-      Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ManageDBConn.html"
+      Link="/Content/EMSDesktopClient/V44.1/UserGuide/ManageDBConn.html"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
@@ -89,7 +89,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Manage Attendees and Visitors"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ManageAttendeesVisitor.html"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/ManageAttendeesVisitor.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -984,7 +984,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Manage Check In"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ManageCheckIn.html"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/ManageCheckIn.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
