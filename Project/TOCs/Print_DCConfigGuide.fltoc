@@ -1724,7 +1724,7 @@
         PageNumber="1" />
       <TocEntry
         Title="Deployment of EMS Desktop Client"
-        Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/DC_Deploy_DeploymentOptions.htm"
+        Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/Deploy_DeploymentOptions.htm"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
