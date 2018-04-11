@@ -521,7 +521,7 @@
           Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/Deploy_ConventionalDeployment.htm" />
         <TocEntry
           Title="Easy Deployment with Conventional Deployment"
-          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/DC_Deploy_Easy Deployment.htm" />
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/Deploy_Easy Deployment.htm" />
         <TocEntry
           Title="Enable SSL on Web Deployment"
           Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/DC_Deploy_Enable SSL on Web Deployment.htm" />

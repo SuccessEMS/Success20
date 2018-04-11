@@ -1753,7 +1753,7 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
         <TocEntry
           Title="Easy Deployment with Conventional Deployment"
-          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/DC_Deploy_Easy Deployment.htm"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/Deploy_Easy Deployment.htm"
           BreakType="chapter"
           PageNumber="1"
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
