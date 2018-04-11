@@ -547,7 +547,7 @@
         Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ManageDBConn.html" />
       <TocEntry
         Title="User Settings"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_UserSettings.html" />
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/UserSettings.html" />
       <TocEntry
         Title="Reservations and Bookings"
         Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ReservandBookings.html" />
@@ -562,7 +562,7 @@
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ManageAttendeesVisitor.html" />
         <TocEntry
           Title="View Visitors"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ViewVisitors.htm" />
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/ViewVisitors.htm" />
         <TocEntry
           Title="Check In Visitors"
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/CheckInVisitors.htm" />
@@ -575,23 +575,23 @@
         Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_EMSWindow.html">
         <TocEntry
           Title="Work with the EMS Window"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_WorkwithEMSWindow.htm" />
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/WorkwithEMSWindow.htm" />
         <TocEntry
           Title="Toolbar Buttons"
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ToolbarButtons.html" />
         <TocEntry
           Title="Customizing Your Toolbar"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_CustomizeToolbar.html" />
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/CustomizeToolbar.html" />
       </TocEntry>
       <TocEntry
         Title="The Reservation Book"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_UseReservationBook.html">
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/UseReservationBook.html">
         <TocEntry
           Title="Create a Booking in the Reservation Book"
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/BookRoomsResBook.html" />
         <TocEntry
           Title="View and Edit Reservations in the Reservation Book"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ViewEditReservinResBook.htm" />
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/ViewEditReservinResBook.htm" />
         <TocEntry
           Title="Edit a Reservation in the Reservation Book"
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_EditResinResBook.htm" />
@@ -601,7 +601,7 @@
       </TocEntry>
       <TocEntry
         Title="The Navigator"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_WorkwithResNavigator.htm">
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/WorkwithResNavigator.htm">
         <TocEntry
           Title="Overview of the Navigator"
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_NavigatorOverview.html" />
@@ -616,7 +616,7 @@
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/AddBooktoResinNav.html" />
         <TocEntry
           Title="Copy a Reservation in the Navigator"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_CopyResinNav.html" />
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/CopyResinNav.html" />
         <TocEntry
           Title="Change the Status of a Reservation in the Navigator"
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/ChangeStatusResfromResSum.html" />
@@ -637,7 +637,7 @@
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_MoveBooktoDifRes.html" />
         <TocEntry
           Title="Copy Multiple Bookings in the Navigator"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_CopyMultipleBookinNav.html" />
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/CopyMultipleBookinNav.html" />
         <TocEntry
           Title="Booking Details and Items Overview"
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/BookDetailsItemsOverview.htm">
@@ -660,7 +660,7 @@
             Title="Delete Booking Detail Items from Multiple Bookings" />
           <TocEntry
             Title="Delete Booking Details from Multiple Bookings"
-            Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_DeleteBookDetailsMultBook.htm" />
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/DeleteBookDetailsMultBook.htm" />
           <TocEntry
             Title="Edit Charges for Multiple Billable Items"
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_EditChargforMultpBillItem.html" />
@@ -675,7 +675,7 @@
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/CopyBookDetailsWzd.html" />
           <TocEntry
             Title="Delete Booking Details Wizard"
-            Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_DeleteBookDetailsWzd.html" />
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/DeleteBookDetailsWzd.html" />
           <TocEntry
             Title="Delete Item Wizard"
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_DeleteItemWizard.html" />
@@ -731,7 +731,7 @@
         </TocEntry>
         <TocEntry
           Title="Create a Reservation in the Reservation Wizard"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_CreateResinResWizard.htm" />
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/CreateResinResWizard.htm" />
         <TocEntry
           Title="Book a Video Conference"
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/BookingaVC.html" />
@@ -757,7 +757,7 @@
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/InfoAboutGroupsIndiv.html" />
         <TocEntry
           Title="Create an Everyday User from a Group"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_CreateEverydayUserfromGroup.htm" />
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/CreateEverydayUserfromGroup.htm" />
         <TocEntry
           Title="Assign an Everyday User to a Group"
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/AssignEverydayUserstoGroup.html" />
@@ -775,7 +775,7 @@
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_PrintExportGroupInfo.html" />
         <TocEntry
           Title="Work with Reservations for a Group"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_WorkwithResGroup.htm" />
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/WorkwithResGroup.htm" />
         <TocEntry
           Title="Email a Group"
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_EmailaGroup.htm" />
@@ -785,7 +785,7 @@
         Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_UseDashboard.html">
         <TocEntry
           Title="Overview of the EMS Dashboard"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_WorkWithDashboard.html" />
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/WorkWithDashboard.html" />
         <TocEntry
           Title="Notifications Tab"
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_NotificationsTab.html">
@@ -808,7 +808,7 @@
         </TocEntry>
         <TocEntry
           Title="Wait List Tab"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_WaitListTab.html" />
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/WaitListTab.html" />
         <TocEntry
           Title="Reconfirm Dates Tab"
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ReconfirmDatesTab.html" />
@@ -840,7 +840,7 @@
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_EnableBookingCheckIn.html" />
         <TocEntry
           Title="Ways to Check In"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_WaystoCheckIn.html" />
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/WaystoCheckIn.html" />
         <TocEntry
           Title="Manage Check In"
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ManageCheckIn.html" />
@@ -865,10 +865,10 @@
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/ConfigAutomatedReports.html" />
         <TocEntry
           Title="Work with Saved Reports"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_WorkwithSavedReports.html" />
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/WorkwithSavedReports.html" />
         <TocEntry
           Title="Work with a Query"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_WorkwithResBook.html" />
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/WorkwithResBook.html" />
       </TocEntry>
       <TocEntry
         Title="Billing"
@@ -887,13 +887,13 @@
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_QuickRefBillandInvoice.html" />
         <TocEntry
           Title="Work with Invoices"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_WorkwithInvoices.html" />
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/WorkwithInvoices.html" />
         <TocEntry
           Title="Types of Transactions"
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_TypesofTransactions.html" />
         <TocEntry
           Title="Work with Transactions"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_WorkwithTransactions.html" />
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/WorkwithTransactions.html" />
         <TocEntry
           Title="EMS Billing Reports"
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_GenEMSBillReport.html" />
@@ -930,7 +930,7 @@
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_SendEmails.html" />
         <TocEntry
           Title="View History of Sent Emails"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ViewHistorySentEmails.html" />
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/ViewHistorySentEmails.html" />
       </TocEntry>
       <TocEntry
         Title="PDF"
@@ -1348,7 +1348,7 @@
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ManageDBConn.html" />
           <TocEntry
             Title="User Settings"
-            Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_UserSettings.html" />
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/UserSettings.html" />
           <TocEntry
             Title="Reservations and Bookings"
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ReservandBookings.html" />
@@ -1363,7 +1363,7 @@
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ManageAttendeesVisitor.html" />
             <TocEntry
               Title="View Visitors"
-              Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ViewVisitors.htm" />
+              Link="/Content/EMSDesktopClient/V44.1/UserGuide/ViewVisitors.htm" />
             <TocEntry
               Title="Check In Visitors"
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/CheckInVisitors.htm" />
@@ -1376,23 +1376,23 @@
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_EMSWindow.html">
             <TocEntry
               Title="Work with the EMS Window"
-              Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_WorkwithEMSWindow.htm" />
+              Link="/Content/EMSDesktopClient/V44.1/UserGuide/WorkwithEMSWindow.htm" />
             <TocEntry
               Title="Toolbar Buttons"
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ToolbarButtons.html" />
             <TocEntry
               Title="Customizing Your Toolbar"
-              Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_CustomizeToolbar.html" />
+              Link="/Content/EMSDesktopClient/V44.1/UserGuide/CustomizeToolbar.html" />
           </TocEntry>
           <TocEntry
             Title="The Reservation Book"
-            Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_UseReservationBook.html">
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/UseReservationBook.html">
             <TocEntry
               Title="Create a Booking in the Reservation Book"
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/BookRoomsResBook.html" />
             <TocEntry
               Title="View and Edit Reservations in the Reservation Book"
-              Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ViewEditReservinResBook.htm" />
+              Link="/Content/EMSDesktopClient/V44.1/UserGuide/ViewEditReservinResBook.htm" />
             <TocEntry
               Title="Edit a Reservation in the Reservation Book"
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_EditResinResBook.htm" />
@@ -1402,7 +1402,7 @@
           </TocEntry>
           <TocEntry
             Title="The Navigator"
-            Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_WorkwithResNavigator.htm">
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/WorkwithResNavigator.htm">
             <TocEntry
               Title="Overview of the Navigator"
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_NavigatorOverview.html" />
@@ -1417,7 +1417,7 @@
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/AddBooktoResinNav.html" />
             <TocEntry
               Title="Copy a Reservation in the Navigator"
-              Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_CopyResinNav.html" />
+              Link="/Content/EMSDesktopClient/V44.1/UserGuide/CopyResinNav.html" />
             <TocEntry
               Title="Change the Status of a Reservation in the Navigator"
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/ChangeStatusResfromResSum.html" />
@@ -1437,7 +1437,7 @@
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_MoveBooktoDifRes.html" />
             <TocEntry
               Title="Copy Multiple Bookings in the Navigator"
-              Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_CopyMultipleBookinNav.html" />
+              Link="/Content/EMSDesktopClient/V44.1/UserGuide/CopyMultipleBookinNav.html" />
             <TocEntry
               Title="Booking Details and Items Overview"
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/BookDetailsItemsOverview.htm">
@@ -1460,7 +1460,7 @@
                 Title="Delete Booking Detail Items from Multiple Bookings" />
               <TocEntry
                 Title="Delete Booking Details from Multiple Bookings"
-                Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_DeleteBookDetailsMultBook.htm" />
+                Link="/Content/EMSDesktopClient/V44.1/UserGuide/DeleteBookDetailsMultBook.htm" />
               <TocEntry
                 Title="Edit Charges for Multiple Billable Items"
                 Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_EditChargforMultpBillItem.html" />
@@ -1475,7 +1475,7 @@
                 Link="/Content/EMSDesktopClient/V44.1/UserGuide/CopyBookDetailsWzd.html" />
               <TocEntry
                 Title="Delete Booking Details Wizard"
-                Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_DeleteBookDetailsWzd.html" />
+                Link="/Content/EMSDesktopClient/V44.1/UserGuide/DeleteBookDetailsWzd.html" />
               <TocEntry
                 Title="Delete Item Wizard"
                 Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_DeleteItemWizard.html" />
@@ -1531,7 +1531,7 @@
             </TocEntry>
             <TocEntry
               Title="Create a Reservation in the Reservation Wizard"
-              Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_CreateResinResWizard.htm" />
+              Link="/Content/EMSDesktopClient/V44.1/UserGuide/CreateResinResWizard.htm" />
             <TocEntry
               Title="Book a Video Conference"
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/BookingaVC.html" />
@@ -1554,7 +1554,7 @@
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/InfoAboutGroupsIndiv.html" />
             <TocEntry
               Title="Create an Everyday User from a Group"
-              Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_CreateEverydayUserfromGroup.htm" />
+              Link="/Content/EMSDesktopClient/V44.1/UserGuide/CreateEverydayUserfromGroup.htm" />
             <TocEntry
               Title="Assign an Everyday User to a Group"
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/AssignEverydayUserstoGroup.html" />
@@ -1572,7 +1572,7 @@
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_PrintExportGroupInfo.html" />
             <TocEntry
               Title="Work with Reservations for a Group"
-              Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_WorkwithResGroup.htm" />
+              Link="/Content/EMSDesktopClient/V44.1/UserGuide/WorkwithResGroup.htm" />
             <TocEntry
               Title="Email a Group"
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_EmailaGroup.htm" />
@@ -1582,7 +1582,7 @@
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_UseDashboard.html">
             <TocEntry
               Title="Overview of the EMS Dashboard"
-              Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_WorkWithDashboard.html" />
+              Link="/Content/EMSDesktopClient/V44.1/UserGuide/WorkWithDashboard.html" />
             <TocEntry
               Title="Notifications Tab"
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_NotificationsTab.html">
@@ -1605,7 +1605,7 @@
             </TocEntry>
             <TocEntry
               Title="Wait List Tab"
-              Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_WaitListTab.html" />
+              Link="/Content/EMSDesktopClient/V44.1/UserGuide/WaitListTab.html" />
             <TocEntry
               Title="Reconfirm Dates Tab"
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ReconfirmDatesTab.html" />
@@ -1637,7 +1637,7 @@
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_EnableBookingCheckIn.html" />
             <TocEntry
               Title="Ways to Check In"
-              Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_WaystoCheckIn.html" />
+              Link="/Content/EMSDesktopClient/V44.1/UserGuide/WaystoCheckIn.html" />
             <TocEntry
               Title="Manage Check In"
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ManageCheckIn.html" />
@@ -1664,7 +1664,7 @@
               Title="Work with Saved Reports" />
             <TocEntry
               Title="Work with a Query"
-              Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_WorkwithResBook.html" />
+              Link="/Content/EMSDesktopClient/V44.1/UserGuide/WorkwithResBook.html" />
           </TocEntry>
           <TocEntry
             Title="Billing"
@@ -1683,13 +1683,13 @@
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_QuickRefBillandInvoice.html" />
             <TocEntry
               Title="Work with Invoices"
-              Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_WorkwithInvoices.html" />
+              Link="/Content/EMSDesktopClient/V44.1/UserGuide/WorkwithInvoices.html" />
             <TocEntry
               Title="Types of Transactions"
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_TypesofTransactions.html" />
             <TocEntry
               Title="Work with Transactions"
-              Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_WorkwithTransactions.html" />
+              Link="/Content/EMSDesktopClient/V44.1/UserGuide/WorkwithTransactions.html" />
             <TocEntry
               Title="EMS Billing Reports"
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_GenEMSBillReport.html" />
@@ -1720,7 +1720,7 @@
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_GenMergeDocsCustomDoc.html" />
             <TocEntry
               Title="View History of Sent Emails"
-              Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ViewHistorySentEmails.html" />
+              Link="/Content/EMSDesktopClient/V44.1/UserGuide/ViewHistorySentEmails.html" />
           </TocEntry>
         </TocEntry>
       </TocEntry>
