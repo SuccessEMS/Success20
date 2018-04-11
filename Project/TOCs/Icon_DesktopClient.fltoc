@@ -1319,7 +1319,7 @@
               Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_ResourceImportFileSpec.htm" />
             <TocEntry
               Title="Group Import File Specification"
-              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_GroupImportFileSpec.htm" />
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/GroupImportFileSpec.htm" />
             <TocEntry
               Title="Reservation Import File Specification"
               Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_ResImportFileSpec.htm" />
