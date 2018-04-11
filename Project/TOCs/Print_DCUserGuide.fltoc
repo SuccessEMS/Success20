@@ -637,7 +637,7 @@
       </TocEntry>
       <TocEntry
         Title="Create a Reservation in the Reservation Wizard"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_CreateResinResWizard.htm"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/CreateResinResWizard.htm"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
