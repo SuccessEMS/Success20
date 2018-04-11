@@ -365,7 +365,7 @@
           Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/SysReqPrereq.htm"
           Title="EMS Campus Web Service Hardware/Software Requirements" />
         <TocEntry
-          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/CampusWebService_ObtainLatestVersion_44.1.htm"
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/ObtainLatestVersionCampusWebService.htm"
           Title="Obtain the Latest EMS Campus Web Service Components" />
         <TocEntry
           Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/CampusWebService_InstallationUpgrade_44.1.html"
@@ -899,7 +899,7 @@
           Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/SysReqPrereq.htm"
           Title="EMS Campus Web Service Hardware/Software Requirements" />
         <TocEntry
-          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/CampusWebService_ObtainLatestVersion_44.1.htm"
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/ObtainLatestVersionCampusWebService.htm"
           Title="Obtain the Latest EMS Campus Web Service Components" />
         <TocEntry
           Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/CampusWebService_InstallationUpgrade_44.1.html"
