@@ -119,7 +119,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Import a List of Visitors"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ImportListVis.html"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/ImportListVis.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -211,7 +211,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Import a List of Visitors to a Booking"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ImportListVis.html"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/ImportListVis.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"

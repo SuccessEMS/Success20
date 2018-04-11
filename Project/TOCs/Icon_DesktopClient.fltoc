@@ -568,7 +568,7 @@
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/CheckInVisitors.htm" />
         <TocEntry
           Title="Import a List of Visitors"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ImportListVis.html" />
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/ImportListVis.html" />
       </TocEntry>
       <TocEntry
         Title="The EMS Window"
@@ -597,7 +597,7 @@
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_EditResinResBook.htm" />
         <TocEntry
           Title="Import a List of Visitors to a Booking"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ImportListVis.html" />
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/ImportListVis.html" />
       </TocEntry>
       <TocEntry
         Title="The Navigator"
@@ -1336,7 +1336,7 @@
         </TocEntry>
         <TocEntry
           Title="EMS Desktop Client User Guide (V44)"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_Introduction.html">
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/Introduction.html">
           <TocEntry
             Title="Introduction to EMS Desktop Client"
             Link="/Content/EMSDesktopClient/V44.1/InstallationGuide/Introduction.html" />
@@ -1369,7 +1369,7 @@
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/CheckInVisitors.htm" />
             <TocEntry
               Title="Import a List of Visitors"
-              Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ImportListVis.html" />
+              Link="/Content/EMSDesktopClient/V44.1/UserGuide/ImportListVis.html" />
           </TocEntry>
           <TocEntry
             Title="The EMS Window"
@@ -1398,7 +1398,7 @@
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_EditResinResBook.htm" />
             <TocEntry
               Title="Import a List of Visitors to a Booking"
-              Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ImportListVis.html" />
+              Link="/Content/EMSDesktopClient/V44.1/UserGuide/ImportListVis.html" />
           </TocEntry>
           <TocEntry
             Title="The Navigator"

@@ -2743,7 +2743,7 @@
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/CheckInVisitors.htm" />
         <TocEntry
           Title="Import a List of Visitors"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ImportListVis.html" />
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/ImportListVis.html" />
       </TocEntry>
       <TocEntry
         Title="The EMS Window"
@@ -2772,7 +2772,7 @@
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_EditResinResBook.htm" />
         <TocEntry
           Title="Import a List of Visitors to a Booking"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ImportListVis.html" />
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/ImportListVis.html" />
       </TocEntry>
       <TocEntry
         Title="The Navigator"
