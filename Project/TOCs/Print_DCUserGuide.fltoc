@@ -150,7 +150,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Toolbar Buttons"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ToolbarButtons.html"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/ToolbarButtons.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"

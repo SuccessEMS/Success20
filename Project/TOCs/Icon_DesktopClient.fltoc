@@ -578,7 +578,7 @@
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/WorkwithEMSWindow.htm" />
         <TocEntry
           Title="Toolbar Buttons"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ToolbarButtons.html" />
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/ToolbarButtons.html" />
         <TocEntry
           Title="Customizing Your Toolbar"
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/CustomizeToolbar.html" />
@@ -1379,7 +1379,7 @@
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/WorkwithEMSWindow.htm" />
             <TocEntry
               Title="Toolbar Buttons"
-              Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ToolbarButtons.html" />
+              Link="/Content/EMSDesktopClient/V44.1/UserGuide/ToolbarButtons.html" />
             <TocEntry
               Title="Customizing Your Toolbar"
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/CustomizeToolbar.html" />
