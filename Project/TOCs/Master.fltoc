@@ -2833,7 +2833,7 @@
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/CopyBookDetBetwBookings.htm" />
           <TocEntry
             Title="Delete Booking Details from Multiple Bookings"
-            Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_DeleteBookDetailsMultBook.htm" />
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/DeleteBookDetailsMultBook.htm" />
           <TocEntry
             Title="Edit Charges for Multiple Billable Items"
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_EditChargforMultpBillItem.html" />

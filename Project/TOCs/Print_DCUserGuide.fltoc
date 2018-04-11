@@ -412,7 +412,7 @@
           ChapterNumberReset="continue" />
         <TocEntry
           Title="Delete Booking Details from Multiple Bookings"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_DeleteBookDetailsMultBook.htm"
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DeleteBookDetailsMultBook.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
