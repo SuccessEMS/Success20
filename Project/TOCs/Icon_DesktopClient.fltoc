@@ -969,7 +969,7 @@
           Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/Introduction.htm">
           <TocEntry
             Title="Overview of Configuration Window"
-            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_OverviewConfigWindow.htm" />
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/OverviewConfigWindow.htm" />
           <TocEntry
             Title="Starting EMS"
             Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_StartingEMS.htm" />
@@ -1244,7 +1244,7 @@
             Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_SystemAdminConfigUserSec.htm">
             <TocEntry
               Title="Overview of User Processes"
-              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_OverviewUserProc.htm" />
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/OverviewUserProc.htm" />
             <TocEntry
               Title="Configure Users"
               Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigUsers.htm" />
@@ -1275,7 +1275,7 @@
               Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ManageSavedReport.htm" />
             <TocEntry
               Title="Override Existing Bookings Utility"
-              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_OverrideExistingBookUtil.html" />
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/OverrideExistingBookUtil.html" />
             <TocEntry
               Title="Import Reservations Utility"
               Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ImportResUtili.htm" />
