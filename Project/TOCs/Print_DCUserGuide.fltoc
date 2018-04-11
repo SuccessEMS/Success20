@@ -422,7 +422,7 @@
           ChapterNumberReset="continue" />
         <TocEntry
           Title="Edit Charges for Multiple Billable Items"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_EditChargforMultpBillItem.html"
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/EditChargforMultpBillItem.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
