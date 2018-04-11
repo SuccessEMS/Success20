@@ -312,7 +312,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Edit a Booking in the Navigator"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_EditBookinNav.html"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/EditBookinNav.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -422,7 +422,7 @@
           ChapterNumberReset="continue" />
         <TocEntry
           Title="Edit Charges for Multiple Billable Items"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_EditChargforMultpBillItem.html"
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/EditChargforMultpBillItem.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -472,7 +472,7 @@
           ChapterNumberReset="continue" />
         <TocEntry
           Title="Delete Item Wizard"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_DeleteItemWizard.html"
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DeleteItemWizard.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -534,7 +534,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Drawings in the Navigator"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_DrawingsinNav.html"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DrawingsinNav.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -585,7 +585,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Search with the Resource Calendar"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_SearchwithResourCal.html"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/SearchwithResourCal.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -1216,7 +1216,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Send Confirmations"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_SendConfirmations.html"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/SendConfirmations.html"
         BreakType="chapter"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
