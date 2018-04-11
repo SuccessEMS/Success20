@@ -1056,7 +1056,7 @@
               Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DesktopClient_ConfigResourcesforCat.html">
               <TocEntry
                 Title="Resource Configuration Wizard"
-                Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_ResourceConfigWiz.htm" />
+                Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ResourceConfigWiz.htm" />
             </TocEntry>
             <TocEntry
               Title="Import Resources for a Category"
@@ -1316,7 +1316,7 @@
               Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_RoomImportFileSpec.htm" />
             <TocEntry
               Title="Resource Import File Specification"
-              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_ResourceImportFileSpec.htm" />
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ResourceImportFileSpec.htm" />
             <TocEntry
               Title="Group Import File Specification"
               Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/GroupImportFileSpec.htm" />
