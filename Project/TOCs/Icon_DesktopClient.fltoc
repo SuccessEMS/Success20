@@ -804,7 +804,7 @@
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_GuestRequestsTab.html">
           <TocEntry
             Title="Manage Requests for Managed Space"
-            Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ManageReqMangedSpace.html" />
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/ManageReqMangedSpace.html" />
         </TocEntry>
         <TocEntry
           Title="Wait List Tab"
@@ -1601,7 +1601,7 @@
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_GuestRequestsTab.html">
               <TocEntry
                 Title="Manage Requests for Managed Space"
-                Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ManageReqMangedSpace.html" />
+                Link="/Content/EMSDesktopClient/V44.1/UserGuide/ManageReqMangedSpace.html" />
             </TocEntry>
             <TocEntry
               Title="Wait List Tab"
