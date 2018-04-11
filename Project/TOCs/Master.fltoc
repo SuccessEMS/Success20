@@ -2201,7 +2201,7 @@
           Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/DC_Deploy_Web Deployment.htm" />
         <TocEntry
           Title="Conventional Deployment"
-          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/DC_Deploy_Conventional Deployment.htm" />
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/Deploy_ConventionalDeployment.htm" />
         <TocEntry
           Title="Easy Deployment with Conventional Deployment"
           Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/DC_Deploy_Easy Deployment.htm" />
