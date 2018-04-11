@@ -402,7 +402,7 @@
             Title="PowerCampus Views Data Model" />
         </TocEntry>
         <TocEntry
-          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/CampusWebService_WebSvOverview_44.1.htm"
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/WebServiceOverview.htm"
           Title="Web Service Overview" />
         <TocEntry
           Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/FormatTabDelimitedFiles.htm"
@@ -936,7 +936,7 @@
             Title="PowerCampus Views Data Model" />
         </TocEntry>
         <TocEntry
-          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/CampusWebService_WebSvOverview_44.1.htm"
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/WebServiceOverview.htm"
           Title="Web Service Overview" />
         <TocEntry
           Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/FormatTabDelimitedFiles.htm"
