@@ -462,7 +462,7 @@
           ChapterNumberReset="continue" />
         <TocEntry
           Title="Delete Booking Details Wizard"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_DeleteBookDetailsWzd.html"
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DeleteBookDetailsWzd.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"

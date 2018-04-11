@@ -675,7 +675,7 @@
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/CopyBookDetailsWzd.html" />
           <TocEntry
             Title="Delete Booking Details Wizard"
-            Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_DeleteBookDetailsWzd.html" />
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/DeleteBookDetailsWzd.html" />
           <TocEntry
             Title="Delete Item Wizard"
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_DeleteItemWizard.html" />
@@ -1475,7 +1475,7 @@
                 Link="/Content/EMSDesktopClient/V44.1/UserGuide/CopyBookDetailsWzd.html" />
               <TocEntry
                 Title="Delete Booking Details Wizard"
-                Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_DeleteBookDetailsWzd.html" />
+                Link="/Content/EMSDesktopClient/V44.1/UserGuide/DeleteBookDetailsWzd.html" />
               <TocEntry
                 Title="Delete Item Wizard"
                 Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_DeleteItemWizard.html" />
