@@ -135,7 +135,7 @@
           Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/UserGuide_EMSDesktopClientAcademicPlanning/Campus_UG_44_SynchronizeCourses.htm" />
         <TocEntry
           Title="Identify New, Edited, or Canceled Courses"
-          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/UserGuide_EMSDesktopClientAcademicPlanning/Campus_UG_44_IdentifyNewEditedCanceledCourses.htm" />
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/UserGuide_EMSDesktopClientAcademicPlanning/IdentifyNewEditedCanceledCourses.htm" />
         <TocEntry
           Title="Review and Verify Room Preferences"
           Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/UserGuide_EMSDesktopClientAcademicPlanning/Campus_UG_44_ReviewVerifyRoomPref.htm" />
@@ -156,7 +156,7 @@
           Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/UserGuide_EMSDesktopClientAcademicPlanning/Campus_UG_44_ReveiwResResolveRoomAssign.htm" />
         <TocEntry
           Title="Work with Shared Spaces"
-          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/UserGuide_EMSDesktopClientAcademicPlanning/Campus_UG_44_WorkwithSharedSpaces.htm" />
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/UserGuide_EMSDesktopClientAcademicPlanning/WorkwithSharedSpaces.htm" />
         <TocEntry
           Title="Manually Update Course Locations in the SIS"
           Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/UserGuide_EMSDesktopClientAcademicPlanning/Campus_UG_44_ManualUpdateCourseLocSIS.htm" />
