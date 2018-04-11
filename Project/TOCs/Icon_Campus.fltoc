@@ -183,11 +183,11 @@
     <TocEntry
       Title="EMS Campus Web Service and White Paper">
       <TocEntry
-        Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/CampusWebService_InstallationOverview_44.1.htm"
+        Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/InstallationOverview.htm"
         Title="Installation Guide EMS Campus Web Service and White Paper">
         <TocEntry
           Title="Introduction"
-          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/CampusWebService_Introduction_44.1.htm" />
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/IntroductionEMSCampusWebService.htm" />
         <TocEntry
           Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/SysReqPrereq.htm"
           Title="EMS Campus Web Service Hardware/Software Requirements" />
@@ -195,7 +195,7 @@
           Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/ObtainLatestVersionCampusWebService.htm"
           Title="Obtain the Latest EMS Campus Web Service Components" />
         <TocEntry
-          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/CampusWebService_InstallationUpgrade_44.1.html"
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/InstallUpgradeEMSCampusWebService.html"
           Title="Install or Upgrade the EMS Campus Web Service" />
         <TocEntry
           Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/ConfiguringEMSCampusWebService.htm"
