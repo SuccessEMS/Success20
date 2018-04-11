@@ -1015,7 +1015,7 @@
               Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigAreas.html" />
             <TocEntry
               Title="Overview of Configuring Rooms"
-              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DesktopClient_OverviewConfigRooms.html">
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/OverviewConfigRooms.html">
               <TocEntry
                 Title="Configure Rooms"
                 Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigRooms.html" />
@@ -1260,7 +1260,7 @@
           </TocEntry>
           <TocEntry
             Title="System Administration &gt; Tools"
-            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DesktopClient_SystemAdminTools.html">
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/SystemAdminTools.html">
             <TocEntry
               Title="Change Group Wizard"
               Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ChangeGroupWiz.htm" />
