@@ -29,7 +29,7 @@
       VolumeNumberReset="same" />
     <TocEntry
       Title="Launch EMS Desktop Client"
-      Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_StartEMS.html"
+      Link="/Content/EMSDesktopClient/V44.1/UserGuide/StartEMS.html"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
