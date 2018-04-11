@@ -721,7 +721,7 @@
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_GenEMSBillReport.html" />
           <TocEntry
             Title="Generate Attendee Visitor Reports"
-            Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_GenVisitorRep.html" />
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/GenVisitorRep.html" />
           <TocEntry
             Title="Configure Automated Reports"
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/ConfigAutomatedReports.html" />
