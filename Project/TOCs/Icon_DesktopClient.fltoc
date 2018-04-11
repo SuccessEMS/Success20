@@ -678,7 +678,7 @@
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/DeleteBookDetailsWzd.html" />
           <TocEntry
             Title="Delete Item Wizard"
-            Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_DeleteItemWizard.html" />
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/DeleteItemWizard.html" />
           <TocEntry
             Title="Add Item Wizard"
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/AddItemWizard.htm" />
@@ -698,7 +698,7 @@
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/AttachmentsinNav.html" />
         <TocEntry
           Title="Drawings in the Navigator"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_DrawingsinNav.html" />
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DrawingsinNav.html" />
         <TocEntry
           Title="Resource Utility Conflicts Tool"
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_RunResourceUtility.html" />
@@ -714,7 +714,7 @@
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_SearchwithCalendar.html" />
         <TocEntry
           Title="Search with the Resource Calendar"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_SearchwithResourCal.html" />
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/SearchwithResourCal.html" />
       </TocEntry>
       <TocEntry
         Title="The Reservation Wizard"
@@ -915,7 +915,7 @@
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/SpecifyConfirmSettings.htm" />
         <TocEntry
           Title="Send Confirmations"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_SendConfirmations.html" />
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/SendConfirmations.html" />
         <TocEntry
           Title="Generate a Single Confirmation at a Time"
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_GenSingConfirmatTime.html" />
@@ -1478,7 +1478,7 @@
                 Link="/Content/EMSDesktopClient/V44.1/UserGuide/DeleteBookDetailsWzd.html" />
               <TocEntry
                 Title="Delete Item Wizard"
-                Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_DeleteItemWizard.html" />
+                Link="/Content/EMSDesktopClient/V44.1/UserGuide/DeleteItemWizard.html" />
               <TocEntry
                 Title="Add Item Wizard"
                 Link="/Content/EMSDesktopClient/V44.1/UserGuide/AddItemWizard.htm" />
@@ -1498,7 +1498,7 @@
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/AttachmentsinNav.html" />
             <TocEntry
               Title="Drawings in the Navigator"
-              Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_DrawingsinNav.html" />
+              Link="/Content/EMSDesktopClient/V44.1/UserGuide/DrawingsinNav.html" />
             <TocEntry
               Title="Resource Utility Conflicts Tool"
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_RunResourceUtility.html" />
@@ -1514,7 +1514,7 @@
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_SearchwithCalendar.html" />
             <TocEntry
               Title="Search with the Resource Calendar"
-              Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_SearchwithResourCal.html" />
+              Link="/Content/EMSDesktopClient/V44.1/UserGuide/SearchwithResourCal.html" />
           </TocEntry>
           <TocEntry
             Title="The Reservation Wizard"
@@ -1708,7 +1708,7 @@
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/Confirmations.html">
             <TocEntry
               Title="Send Confirmations"
-              Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_SendConfirmations.html" />
+              Link="/Content/EMSDesktopClient/V44.1/UserGuide/SendConfirmations.html" />
             <TocEntry
               Title="Generate a Single Confirmation at a Time"
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_GenSingConfirmatTime.html" />
