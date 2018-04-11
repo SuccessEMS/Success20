@@ -213,7 +213,7 @@
             Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/ColleagueOracleSQL.htm"
             Title="Colleague (Oracle or SQL) Views Data Model" />
           <TocEntry
-            Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/CampusWebService_ColleagueUnidata_44.1.htm"
+            Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/ColleagueUnidata.htm"
             Title="Colleague Unidata Views Data Model" />
           <TocEntry
             Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/CampusWebService_JenzabarCX_44.1.htm"
