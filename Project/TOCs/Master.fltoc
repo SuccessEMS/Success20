@@ -377,7 +377,7 @@
           Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/CampusWebService_DataModels_44.1.htm"
           Title="Data Models">
           <TocEntry
-            Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/CampusWebService_BannerView_44.1.htm"
+            Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/BannerView.htm"
             Title="Banner Views Data Model" />
           <TocEntry
             Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/CampusWebService_CAMS_44.1.htm"
@@ -911,7 +911,7 @@
           Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/CampusWebService_DataModels_44.1.htm"
           Title="Data Models">
           <TocEntry
-            Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/CampusWebService_BannerView_44.1.htm"
+            Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/BannerView.htm"
             Title="Banner Views Data Model" />
           <TocEntry
             Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/CampusWebService_CAMS_44.1.htm"
