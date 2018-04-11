@@ -111,7 +111,7 @@
           Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/UserGuide_EMSDesktopClientAcademicPlanning/Campus_UG_44_PublishTerm.htm" />
         <TocEntry
           Title="Unpublish a Previously Published Academic Term"
-          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/UserGuide_EMSDesktopClientAcademicPlanning/Campus_UG_44_UnpublishPreviousPubTerm.htm" />
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/UserGuide_EMSDesktopClientAcademicPlanning/UnpublishPreviousPubTerm.htm" />
         <TocEntry
           Title="Enable/Disable a Term for Set Preferences Mode"
           Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/UserGuide_EMSDesktopClientAcademicPlanning/EnableDisableTermSetPrefMode.htm" />
@@ -132,7 +132,7 @@
           Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/UserGuide_EMSDesktopClientAcademicPlanning/EditCancelCourses.htm" />
         <TocEntry
           Title="Synchronize Courses"
-          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/UserGuide_EMSDesktopClientAcademicPlanning/Campus_UG_44_SynchronizeCourses.htm" />
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/UserGuide_EMSDesktopClientAcademicPlanning/SynchronizeCourses.htm" />
         <TocEntry
           Title="Identify New, Edited, or Canceled Courses"
           Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/UserGuide_EMSDesktopClientAcademicPlanning/IdentifyNewEditedCanceledCourses.htm" />
