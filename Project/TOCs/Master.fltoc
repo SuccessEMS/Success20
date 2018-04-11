@@ -341,8 +341,7 @@
         Title="EMS Campus Planning Interface"
         Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusPlanningInterface/IntroductiontoCPI.htm">
         <TocEntry
-          Title="Introduction"
-          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusPlanningInterface/CPI_Intro.htm" />
+          Title="Introduction" />
         <TocEntry
           Title="EMS V44.1 System Requirements"
           Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusPlanningInterface/CPI_IG_44.1_SysReqPrereq.htm" />
@@ -878,8 +877,7 @@
         Title="EMS Campus Planning Interface"
         Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusPlanningInterface/IntroductiontoCPI.htm">
         <TocEntry
-          Title="Introduction"
-          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusPlanningInterface/CPI_Intro.htm" />
+          Title="Introduction" />
         <TocEntry
           Title="EMS V44.1 System Requirements"
           Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusPlanningInterface/CPI_IG_44.1_SysReqPrereq.htm" />
