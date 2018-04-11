@@ -140,7 +140,7 @@
       ChapterNumberReset="continue">
       <TocEntry
         Title="Work with the EMS Window"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_WorkwithEMSWindow.htm"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/WorkwithEMSWindow.htm"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -1065,7 +1065,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Work with a Query"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_WorkwithResBook.html"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/WorkwithResBook.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -1126,7 +1126,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Work with Invoices"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_WorkwithInvoices.html"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/WorkwithInvoices.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
