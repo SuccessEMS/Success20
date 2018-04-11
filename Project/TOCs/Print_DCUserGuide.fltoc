@@ -29,7 +29,7 @@
       VolumeNumberReset="same" />
     <TocEntry
       Title="Launch EMS Desktop Client"
-      Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_StartEMS.html"
+      Link="/Content/EMSDesktopClient/V44.1/UserGuide/StartEMS.html"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
@@ -150,7 +150,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Toolbar Buttons"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ToolbarButtons.html"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/ToolbarButtons.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -514,7 +514,7 @@
       </TocEntry>
       <TocEntry
         Title="User-Defined Fields in the Navigator"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_UserDefFieldsinNav.html"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/UserDefFieldsinNav.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -790,7 +790,7 @@
     </TocEntry>
     <TocEntry
       Title="The Dashboard"
-      Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_UseDashboard.html"
+      Link="/Content/EMSDesktopClient/V44.1/UserGuide/UseDashboard.html"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
@@ -944,7 +944,7 @@
     </TocEntry>
     <TocEntry
       Title="Search For Reservations, Bookings, Resources, and Service Orders"
-      Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_SrchResBookResSvcOrder.html"
+      Link="/Content/EMSDesktopClient/V44.1/UserGuide/SrchResBookResSvcOrder.html"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
@@ -1136,7 +1136,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Types of Transactions"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_TypesofTransactions.html"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/TypesofTransactions.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -1207,7 +1207,7 @@
       ChapterNumberReset="continue">
       <TocEntry
         Title="Specifying Your Confirmation Settings"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_SpecifyConfirmSettings.htm"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/SpecifyConfirmSettings.htm"
         BreakType="chapter"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
@@ -1252,7 +1252,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Sending Emails from EMS"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_SendEmails.html"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/SendEmails.html"
         BreakType="chapter"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"

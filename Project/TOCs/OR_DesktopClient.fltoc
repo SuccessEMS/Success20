@@ -407,7 +407,7 @@
           Link="/Content/EMSDesktopClient/V44.1/InstallationGuide/Introduction.html" />
         <TocEntry
           Title="Launch EMS Desktop Client"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_StartEMS.html" />
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/StartEMS.html" />
         <TocEntry
           Title="Manage Database Connections"
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ManageDBConn.html" />
@@ -444,7 +444,7 @@
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/WorkwithEMSWindow.htm" />
           <TocEntry
             Title="Toolbar Buttons"
-            Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ToolbarButtons.html" />
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/ToolbarButtons.html" />
           <TocEntry
             Title="Customizing Your Toolbar"
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/CustomizeToolbar.html" />
@@ -557,7 +557,7 @@
           </TocEntry>
           <TocEntry
             Title="User-Defined Fields in the Navigator"
-            Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_UserDefFieldsinNav.html" />
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/UserDefFieldsinNav.html" />
           <TocEntry
             Title="Attachments in the Navigator"
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/AttachmentsinNav.html" />
@@ -644,7 +644,7 @@
         </TocEntry>
         <TocEntry
           Title="The Dashboard"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_UseDashboard.html">
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/UseDashboard.html">
           <TocEntry
             Title="Overview of the EMS Dashboard"
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/WorkWithDashboard.html" />
@@ -693,7 +693,7 @@
         </TocEntry>
         <TocEntry
           Title="Search For Reservations, Bookings, Resources, and Service Orders"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_SrchResBookResSvcOrder.html" />
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/SrchResBookResSvcOrder.html" />
         <TocEntry
           Title="Booking Check In "
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/BookCheckIn.html">
@@ -751,7 +751,7 @@
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/WorkwithInvoices.html" />
           <TocEntry
             Title="Types of Transactions"
-            Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_TypesofTransactions.html" />
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/TypesofTransactions.html" />
           <TocEntry
             Title="Work with Transactions"
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/WorkwithTransactions.html" />
