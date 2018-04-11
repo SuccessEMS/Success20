@@ -467,7 +467,7 @@
         </TocEntry>
         <TocEntry
           Title="The Navigator"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_WorkwithResNavigator.htm">
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/WorkwithResNavigator.htm">
           <TocEntry
             Title="Overview of the Navigator"
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_NavigatorOverview.html" />
@@ -637,7 +637,7 @@
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_PrintExportGroupInfo.html" />
           <TocEntry
             Title="Work with Reservations for a Group"
-            Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_WorkwithResGroup.htm" />
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/WorkwithResGroup.htm" />
           <TocEntry
             Title="Email a Group"
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_EmailaGroup.htm" />
@@ -754,7 +754,7 @@
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_TypesofTransactions.html" />
           <TocEntry
             Title="Work with Transactions"
-            Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_WorkwithTransactions.html" />
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/WorkwithTransactions.html" />
           <TocEntry
             Title="EMS Billing Reports"
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_GenEMSBillReport.html" />
