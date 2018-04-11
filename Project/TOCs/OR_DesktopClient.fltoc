@@ -528,7 +528,7 @@
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/DeleteBookDetailsMultBook.htm" />
             <TocEntry
               Title="Edit Charges for Multiple Billable Items"
-              Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_EditChargforMultpBillItem.html" />
+              Link="/Content/EMSDesktopClient/V44.1/UserGuide/EditChargforMultpBillItem.html" />
             <TocEntry
               Title="Edit Count Information for a Booking in the Navigator"
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_EditCountInfoforBook.html" />
