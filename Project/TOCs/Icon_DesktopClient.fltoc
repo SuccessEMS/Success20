@@ -512,7 +512,7 @@
         Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/DC_Deploy_DeploymentOptions.htm">
         <TocEntry
           Title="Decision Guide: Web Vs Conventional Deployment"
-          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/DC_Deploy_DecisionGuide.htm" />
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/Deploy_DecisionGuide.htm" />
         <TocEntry
           Title="Web Deployment"
           Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/DC_Deploy_Web Deployment.htm" />
