@@ -86,7 +86,7 @@
               Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DesktopClient_ConfigRooms.html" />
             <TocEntry
               Title="Room Configuration Wizard"
-              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_RoomConfigWiz.htm" />
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/RoomConfigWiz.htm" />
             <TocEntry
               Title="Configure Room Pricing"
               Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigRoomPricing.htm" />
@@ -378,7 +378,7 @@
             Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_SpecialDateImportFileSpec.htm" />
           <TocEntry
             Title="Room Import File Specification"
-            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_RoomImportFileSpec.htm" />
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/RoomImportFileSpec.htm" />
           <TocEntry
             Title="Resource Import File Specification"
             Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ResourceImportFileSpec.htm" />
