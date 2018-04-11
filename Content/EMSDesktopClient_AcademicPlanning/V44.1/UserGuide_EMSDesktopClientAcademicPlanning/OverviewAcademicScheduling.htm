@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xml:lang="en-us" MadCap:lastBlockDepth="6" MadCap:lastHeight="8599" MadCap:lastWidth="778" style="mc-master-page: url('..\..\..\Resources\MasterPages\emsCampus.flmsp');" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+<html xml:lang="en-us" MadCap:lastBlockDepth="6" MadCap:lastHeight="10891" MadCap:lastWidth="527" style="mc-master-page: url('..\..\..\Resources\MasterPages\emsCampus.flmsp');" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
         <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title>Overview of the Academic Scheduling Process V44.1 (Academic Planning)</title>
         <link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
@@ -130,19 +130,19 @@
             <li>Academic users must be configured with the appropriate security settings.</li>
             <li>Default values for academic parameters must be set.</li>
         </ul>
-        <p class="note-box">Tip:&#160;See the <a href="../../../ConfigGuides/2_EMS_Desktop_Client_CG.htm">EMS Desktop Client Configuration Guide</a> for detailed instructions about configuring and synchronizing this needed academic data.</p>
+        <p class="box-tip"><span class="bold">TIP</span>:&#160;See the <a href="../../../ConfigGuides/2_EMS_Desktop_Client_CG.htm">EMS Desktop Client Configuration Guide</a> for detailed instructions about configuring and synchronizing this needed academic data.</p>
         <p>Although the academic scheduling configuration process varies from one academic site to another, typically, the same two-phase process, the Academic Planning phase and the Post-Publishing phase, is carried out, and each process typically has the same high-level steps.</p>
         <h2><a name="Academic_Planning_Phase"></a>Academic Planning Phase</h2>
         <p>The Academic Planning Phase is the first phase carried out in the academic scheduling process. This phase typically has the following high-level steps:</p>
         <ol>
             <li>Importing an Academic Term. See <a href="#Importing_an_Academic_Term">Importing an Academic Term</a>.</li>
-            <li>Defining and Editing Courses. See <a href="Campus_UG_44_SynchronizeCourses.htm">Defining and Editing Courses</a>.</li>
-            <li>Settings Preferences. See <a href="Campus_UG_44_SpecifyRoomPrefReq.htm">Specifying Room Preferences.</a></li>
+            <li>Defining and Editing Courses. See <a href="SynchronizeCourses.htm">Defining and Editing Courses</a>.</li>
+            <li>Settings Preferences. See <a href="SpecifyRoomPrefReq.htm">Specifying Room Preferences.</a></li>
         </ol>
-        <p class="note-box">Tip:&#160;You can carry out Step 2 and Step 3 individually, or you can carry them out simultaneously using Dual Mode. </p>
+        <p class="box-tip"><span class="bold">TIP</span>:&#160;You can carry out Step 2 and Step 3 individually, or you can carry them out simultaneously using Dual Mode. </p>
         <ol>
-            <li>Assigning rooms and optimizing. See <a href="Campus_UG_44_ReviewVerifyRoomPref.htm">Review and Verify Room Preferences</a>.</li>
-            <li>Publishing terms in EMS. See <a href="Campus_UG_44_PublishTerm.htm">Publishing a Term.</a></li>
+            <li>Assigning rooms and optimizing. See <a href="ReviewVerifyRoomPref.htm">Review and Verify Room Preferences</a>.</li>
+            <li>Publishing terms in EMS. See <a href="PublishTerm.htm">Publishing a Term.</a></li>
             <li>Once you have published a term:<ol><li>A new term is created in the SIS either by rolling forward a previous term or by creating it from scratch. The term is synchronized into EMS.</li><li>The Domain Scheduler synchronizes the course schedule data from the campus SIS into EMS Campus.</li><li>Academic units review the course schedule data in the Campus web client and make change requests as appropriate for new, edited, or canceled sections and/or mark the courses that Share Space.</li><li>The Domain Scheduler reviews the changes and shared space settings in EMS Campus, modifies the data in the SIS and resynchronizes the updated course schedule into EMS Campus to synchronize the two systems.</li><li>The Domain Scheduler and/or academic units submit room preferences for courses.</li><li>Pre-assignments are completed and scenarios are created that apply weighted values to the preferences in order to meet organizational criteria for room scheduling and to make the best use of space.</li><li>The Domain Scheduler publishes the schedule to create reservations and bookings in EMS Campus for all academic courses and write the course location information back to the SIS.</li></ol></li>
         </ol>
         <h2><a name="Post-Publishing_Phase"></a>Post-Publishing Phase</h2>
@@ -152,7 +152,7 @@
             <li>Creating a synchronization schedule.</li>
             <li>Creating and publishing a final exam session.</li>
         </ol>
-        <p>For all these tasks, see <a href="Campus_UG_44_Post-PubProcCourses.htm">Post-Publish Processing of Courses</a>. Once you have completed them:</p>
+        <p>For all these tasks, see <a href="Post-PubProcCourses.htm">Post-Publish Processing of Courses</a>. Once you have completed them:</p>
         <ol>
             <li>The Domain Scheduler reviews the room reservations and resolves unassigned courses or displaced event reservations.</li>
             <li>A synchronization schedule is created to keep EMS up to date with changes that are made in the SIS.</li>
@@ -162,9 +162,9 @@
         <ul class="unorder-list">
             <li><a href="OverviewImportAcadTerm.htm">Overview of Importing an Academic Term</a>
             </li>
-            <li><a href="Campus_UG_44_SynchronizeAcadTerm.htm">Synchronize an Academic Term</a>
+            <li><a href="SynchronizeAcadTerm.htm">Synchronize an Academic Term</a>
             </li>
-            <li><a href="Campus_UG_44_SynchronizeCourses.htm">Synchronize Courses</a>
+            <li><a href="SynchronizeCourses.htm">Synchronize Courses</a>
             </li>
         </ul>
     </body>
