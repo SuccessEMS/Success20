@@ -1018,7 +1018,7 @@
               Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DesktopClient_OverviewConfigRooms.html">
               <TocEntry
                 Title="Configure Rooms"
-                Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DesktopClient_ConfigRooms.html" />
+                Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigRooms.html" />
               <TocEntry
                 Title="Room Configuration Wizard"
                 Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/RoomConfigWiz.htm" />
