@@ -840,7 +840,7 @@
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_EnableBookingCheckIn.html" />
         <TocEntry
           Title="Ways to Check In"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_WaystoCheckIn.html" />
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/WaystoCheckIn.html" />
         <TocEntry
           Title="Manage Check In"
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ManageCheckIn.html" />
@@ -1637,7 +1637,7 @@
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_EnableBookingCheckIn.html" />
             <TocEntry
               Title="Ways to Check In"
-              Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_WaystoCheckIn.html" />
+              Link="/Content/EMSDesktopClient/V44.1/UserGuide/WaystoCheckIn.html" />
             <TocEntry
               Title="Manage Check In"
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ManageCheckIn.html" />

@@ -974,7 +974,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Ways to Check In"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_WaystoCheckIn.html"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/WaystoCheckIn.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
