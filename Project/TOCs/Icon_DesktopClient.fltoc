@@ -966,7 +966,7 @@
         </TocEntry>
         <TocEntry
           Title="EMS Desktop Client Configuration Guide (V44)"
-          Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_Introduction.htm">
+          Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/Introduction.htm">
           <TocEntry
             Title="Overview of Configuration Window"
             Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_OverviewConfigWindow.htm" />
@@ -1303,7 +1303,7 @@
               Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_VEMS System Parameters.htm" />
             <TocEntry
               Title="EMS Kiosk Parameters"
-              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DC_CG_44_Kiosk System Parameters.htm" />
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/KioskSystemParameters.htm" />
           </TocEntry>
           <TocEntry
             Title="Import File Specifications"
