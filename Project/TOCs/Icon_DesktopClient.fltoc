@@ -745,7 +745,7 @@
       </TocEntry>
       <TocEntry
         Title="People: Groups and Contacts"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_PeopleGroupsContacts.html">
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/PeopleGroupsContacts.html">
         <TocEntry
           Title="Search for People"
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/SearchforPeople.html" />
@@ -769,7 +769,7 @@
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ImportGroups.html" />
         <TocEntry
           Title="Print and Export Everyday User Information"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_PrintExportEverdayUserInfo.html" />
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/PrintExportEverdayUserInfo.html" />
         <TocEntry
           Title="Print and Export Group Information"
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/PrintExportGroupInfo.html" />
@@ -1545,7 +1545,7 @@
           </TocEntry>
           <TocEntry
             Title="People: Groups and Contacts"
-            Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_PeopleGroupsContacts.html">
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/PeopleGroupsContacts.html">
             <TocEntry
               Title="Search for People"
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/SearchforPeople.html" />
@@ -1566,7 +1566,7 @@
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_ImportGroups.html" />
             <TocEntry
               Title="Print and Export Everyday User Information"
-              Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_PrintExportEverdayUserInfo.html" />
+              Link="/Content/EMSDesktopClient/V44.1/UserGuide/PrintExportEverdayUserInfo.html" />
             <TocEntry
               Title="Print and Export Group Information"
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/PrintExportGroupInfo.html" />

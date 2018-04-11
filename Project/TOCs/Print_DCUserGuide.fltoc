@@ -679,7 +679,7 @@
     </TocEntry>
     <TocEntry
       Title="People: Groups and Contacts"
-      Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_PeopleGroupsContacts.html"
+      Link="/Content/EMSDesktopClient/V44.1/UserGuide/PeopleGroupsContacts.html"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
@@ -749,7 +749,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Print and Export Everyday User Information"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_PrintExportEverdayUserInfo.html"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/PrintExportEverdayUserInfo.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -759,7 +759,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Print and Export Group Information"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_PrintExportGroupInfo.html"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/PrintExportGroupInfo.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -1116,7 +1116,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Quick Reference Guide: Billing and Invoicing"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_QuickRefBillandInvoice.html"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/QuickRefBillandInvoice.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
