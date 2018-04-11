@@ -514,7 +514,7 @@
       </TocEntry>
       <TocEntry
         Title="User-Defined Fields in the Navigator"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_UserDefFieldsinNav.html"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/UserDefFieldsinNav.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -790,7 +790,7 @@
     </TocEntry>
     <TocEntry
       Title="The Dashboard"
-      Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_UseDashboard.html"
+      Link="/Content/EMSDesktopClient/V44.1/UserGuide/UseDashboard.html"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"

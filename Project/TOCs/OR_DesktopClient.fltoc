@@ -557,7 +557,7 @@
           </TocEntry>
           <TocEntry
             Title="User-Defined Fields in the Navigator"
-            Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_UserDefFieldsinNav.html" />
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/UserDefFieldsinNav.html" />
           <TocEntry
             Title="Attachments in the Navigator"
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/AttachmentsinNav.html" />
@@ -644,7 +644,7 @@
         </TocEntry>
         <TocEntry
           Title="The Dashboard"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_UseDashboard.html">
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/UseDashboard.html">
           <TocEntry
             Title="Overview of the EMS Dashboard"
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/WorkWithDashboard.html" />
