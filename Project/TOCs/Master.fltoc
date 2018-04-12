@@ -2239,10 +2239,10 @@
         Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/ConfigurationGuide/ConfigAcademUnit.html" />
       <TocEntry
         Title="Configure Instructors"
-        Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/ConfigurationGuide/Campus_ConfigInstructors.html" />
+        Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/ConfigurationGuide/ConfigInstructors.html" />
       <TocEntry
         Title="Configure the Primary Academic Unit for a Subject"
-        Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/ConfigurationGuide/Campus_ConfigPrimaryAcadUnitforSub.html" />
+        Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/ConfigurationGuide/ConfigPrimaryAcadUnitforSub.html" />
       <TocEntry
         Title="Configure Course Types"
         Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/ConfigurationGuide/ConfigCourseType.html" />
