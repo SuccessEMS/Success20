@@ -22,7 +22,7 @@
     PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/TOC8_5X11.flpgl">
     <TocEntry
       Title="Introduction to ERI"
-      Link="/Content/Integrations/ExchangeRoomIntegration/InstallationGuide/ERI_IG_IntroductiontoERI.html"
+      Link="/Content/Integrations/ExchangeRoomIntegration/InstallationGuide/IntroductiontoERI.html"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="reset"
@@ -34,7 +34,7 @@
       VolumeNumberReset="same"></TocEntry>
     <TocEntry
       Title="System Requirements of ERI"
-      Link="/Content/Integrations/ExchangeRoomIntegration/InstallationGuide/ERI_IG_SystemRequirements.html"
+      Link="/Content/Integrations/ExchangeRoomIntegration/InstallationGuide/SystemRequirements.html"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
