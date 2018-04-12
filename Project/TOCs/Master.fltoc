@@ -2666,10 +2666,10 @@
     </TocEntry>
     <TocEntry
       Title="G Suite Integration"
-      Link="/Content/GSuiteIntegration/Introduction.htm">
+      Link="/Content/GoogleSuiteIntegration/Introduction.htm">
       <TocEntry
         Title="Configuration of G Suite Integration"
-        Link="/Content/GSuiteIntegration/Config.htm" />
+        Link="/Content/GoogleSuiteIntegration/Config.htm" />
     </TocEntry>
     <TocEntry
       Title="Authentication Options"
@@ -3623,10 +3623,10 @@
       Link="/Content/Regics/EMS Regics User Guide and Credit Card Payment Processing Guide.pdf" />
     <TocEntry
       Title="G Suite Integration"
-      Link="/Content/GSuiteIntegration/Introduction.htm">
+      Link="/Content/GoogleSuiteIntegration/Introduction.htm">
       <TocEntry
         Title="Configuration of G Suite Integration"
-        Link="/Content/GSuiteIntegration/Config.htm" />
+        Link="/Content/GoogleSuiteIntegration/Config.htm" />
     </TocEntry>
   </TocEntry>
   <TocEntry
