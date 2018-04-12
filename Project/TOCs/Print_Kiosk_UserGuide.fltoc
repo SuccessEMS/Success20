@@ -39,7 +39,7 @@
       ChapterNumberReset="continue" />
     <TocEntry
       Title="Configure EMS Kiosk App Profiles"
-      Link="/Content/EMSKioskApp/V44.1/ConfigurationGuide/Kiosk_CG_ConfigKioskAppProfiles.htm"
+      Link="/Content/EMSKioskApp/V44.1/ConfigurationGuide/ConfigKioskAppProfiles.htm"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
