@@ -2221,40 +2221,40 @@
       Link="/Content/ConfigGuides/10_EMS Campus Configuration Guide.htm">
       <TocEntry
         Title="Introduction"
-        Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/B_CG_Campus/Campus_44.1_IntrotoConfigGuide.htm" />
+        Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/ConfigurationGuide/Introduction.htm" />
       <TocEntry
         Title="Overview of Synchronization"
-        Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/B_CG_Campus/Campus_OverviewofSynchr.html" />
+        Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/ConfigurationGuide/Campus_OverviewofSynchr.html" />
       <TocEntry
         Title="Synchronize Campus-Specific Data"
-        Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/B_CG_Campus/Campus_SynchroCampus-SpecificData.html" />
+        Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/ConfigurationGuide/Campus_SynchroCampus-SpecificData.html" />
       <TocEntry
         Title="Synchronize Facility Data"
-        Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/B_CG_Campus/Campus_SynchroFacilityData.html" />
+        Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/ConfigurationGuide/Campus_SynchroFacilityData.html" />
       <TocEntry
         Title="Configure Domains"
-        Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/B_CG_Campus/Campus_ConfigDomains.html" />
+        Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/ConfigurationGuide/Campus_ConfigDomains.html" />
       <TocEntry
         Title="Configure Academic Units"
-        Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/B_CG_Campus/Campus_ConfigAcademUnit.html" />
+        Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/ConfigurationGuide/Campus_ConfigAcademUnit.html" />
       <TocEntry
         Title="Configure Instructors"
-        Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/B_CG_Campus/Campus_ConfigInstructors.html" />
+        Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/ConfigurationGuide/Campus_ConfigInstructors.html" />
       <TocEntry
         Title="Configure the Primary Academic Unit for a Subject"
-        Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/B_CG_Campus/Campus_ConfigPrimaryAcadUnitforSub.html" />
+        Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/ConfigurationGuide/Campus_ConfigPrimaryAcadUnitforSub.html" />
       <TocEntry
         Title="Configure Course Types"
-        Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/B_CG_Campus/Campus_ConfigCourseType.html" />
+        Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/ConfigurationGuide/Campus_ConfigCourseType.html" />
       <TocEntry
         Title="Configure Course Types/Room Types Matches"
-        Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/B_CG_Campus/Campus_ConfigCourseRoomTypeMatch.html" />
+        Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/ConfigurationGuide/Campus_ConfigCourseRoomTypeMatch.html" />
       <TocEntry
         Title="Work with Time Block Templates"
-        Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/B_CG_Campus/Campus_WorkTimeBlockTemp2.html" />
+        Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/ConfigurationGuide/Campus_WorkTimeBlockTemp2.html" />
       <TocEntry
         Title="Troubleshoot: Slow Performance When De-Synchronizing Terms"
-        Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/B_CG_Campus/Campus_TroubleshootSlowPerform.html" />
+        Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/ConfigurationGuide/Campus_TroubleshootSlowPerform.html" />
     </TocEntry>
     <TocEntry
       Title="EMS Web App"
