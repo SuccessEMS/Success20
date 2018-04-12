@@ -50,11 +50,10 @@
         Title="Video Conferencing"
         Link="/Content/Integrations/5_VideoConferencing.htm" />
       <TocEntry
-        Title="Integration to Microsoft® Exchange"
-        Link="/Content/Outlook/IntegrationtoMicrosoftExchange/IntegtoMEOverview.htm">
+        Title="Integration to Microsoft® Exchange">
         <TocEntry
           Title="Introduction"
-          Link="/Content/Outlook/IntegrationtoMicrosoftExchange/Outlook_IME_Introduction.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Link="/Content/Outlook/IntegrationtoMicrosoftExchange/Introduction.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
           Title="System Requirements for Integration to Exchange"
           Link="/Content/Outlook/IntegrationtoMicrosoftExchange/IntegExchanReqs.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
