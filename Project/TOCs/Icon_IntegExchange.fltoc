@@ -15,7 +15,7 @@
       Link="/Content/Outlook/IntegrationtoMicrosoftExchange/IME/Outlook_IME_InstallUpgradeforEIWservice.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     <TocEntry
       Title="Configure Integration to Exchange"
-      Link="/Content/Outlook/IntegrationtoMicrosoftExchange/IME/Outlook_IME_ConfigIntegExchange.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      Link="/Content/Outlook/IntegrationtoMicrosoftExchange/Outlook_IME_ConfigIntegExchange.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     <TocEntry
       Title="Use Application Pool Identity for Integration for Exchange Service Account"
       Link="/Content/Outlook/IntegrationtoMicrosoftExchange/IME/Outlook_IME_UseAppPoolIdentif.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
