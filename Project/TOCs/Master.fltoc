@@ -2236,7 +2236,7 @@
         Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/ConfigurationGuide/Campus_ConfigDomains.html" />
       <TocEntry
         Title="Configure Academic Units"
-        Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/ConfigurationGuide/Campus_ConfigAcademUnit.html" />
+        Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/ConfigurationGuide/ConfigAcademUnit.html" />
       <TocEntry
         Title="Configure Instructors"
         Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/ConfigurationGuide/Campus_ConfigInstructors.html" />
