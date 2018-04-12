@@ -1792,14 +1792,11 @@
         Title="Human Resources Information Systems (HRIS)"
         Link="/Content/Integrations/HumanResourcesInformationSystem.htm" />
       <TocEntry
-        Title="Occupancy Sensors"
-        Link="/Content/Integrations/4_Sensors.htm" />
-      <TocEntry
         Title="Microsoft Exchange Integration"
         Link="/Content/Integrations/MicrosoftExchangeIntegrations.htm"></TocEntry>
       <TocEntry
         Title="Video Conferencing"
-        Link="/Content/Integrations/5_VideoConferencing.htm" />
+        Link="/Content/Integrations/VideoConferencing.htm" />
     </TocEntry>
     <TocEntry
       Title="Optional Features"
