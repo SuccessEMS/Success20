@@ -6,7 +6,7 @@
     Link="/Content/Cloud.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <TocEntry
       Title="Architecture"
-      Link="/Content/Cloud/Cloud_Architecture.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      Link="/Content/EMSCloudServices/Architecture.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     <TocEntry
       Title="Glossary"
       Link="/Content/Glossary/1_Glossary.htm"
