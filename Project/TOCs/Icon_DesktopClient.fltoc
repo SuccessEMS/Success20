@@ -1797,6 +1797,8 @@
       <TocEntry
         Title="Video Conferencing"
         Link="/Content/Integrations/VideoConferencing.htm" />
+      <TocEntry
+        Title="Exchange Room Integration (ERI)" />
     </TocEntry>
     <TocEntry
       Title="Optional Features"
