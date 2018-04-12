@@ -52,7 +52,7 @@
       ChapterNumberReset="continue" />
     <TocEntry
       Title="Install or Upgrade the EMS Kiosk App"
-      Link="/Content/EMSKioskApp/V44.1/InstallationGuide/Kiosk_IG_InstallUpgrade.htm"
+      Link="/Content/EMSKioskApp/V44.1/InstallationGuide/InstallUpgrade.htm"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
