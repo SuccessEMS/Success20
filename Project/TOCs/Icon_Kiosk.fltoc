@@ -22,7 +22,7 @@
         Link="/Content/EMSKioskApp/V44.1/InstallationGuide/InstallUpgrade.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
         Title="Launch EMS Kiosk App"
-        Link="/Content/EMSKioskApp/V44.1/InstallationGuide/Kiosk_IG_StartKioskApp.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        Link="/Content/EMSKioskApp/V44.1/InstallationGuide/LaunchKioskApp.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
         Title="PDF"
         Link="/Content/EMSKioskApp/V44.1/InstallationGuide/Kiosk_Install_PDF.pdf" />

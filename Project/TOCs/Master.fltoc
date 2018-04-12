@@ -313,7 +313,7 @@
         Link="/Content/EMSKioskApp/V44.1/InstallationGuide/InstallUpgrade.htm" />
       <TocEntry
         Title="Launch EMS Kiosk App"
-        Link="/Content/EMSKioskApp/V44.1/InstallationGuide/Kiosk_IG_StartKioskApp.htm" />
+        Link="/Content/EMSKioskApp/V44.1/InstallationGuide/LaunchKioskApp.htm" />
     </TocEntry>
     <TocEntry
       Title="EMS Room Sign App (formerly Glance)"
@@ -1233,7 +1233,7 @@
         Link="/Content/EMSKioskApp/V44.1/InstallationGuide/InstallUpgrade.htm" />
       <TocEntry
         Title="Launch EMS Kiosk App"
-        Link="/Content/EMSKioskApp/V44.1/InstallationGuide/Kiosk_IG_StartKioskApp.htm" />
+        Link="/Content/EMSKioskApp/V44.1/InstallationGuide/LaunchKioskApp.htm" />
       <TocEntry
         Title="PDF"
         Link="/Content/EMSKioskApp/V44.1/InstallationGuide/Kiosk_Install_PDF.pdf" />
