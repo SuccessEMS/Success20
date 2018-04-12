@@ -79,10 +79,10 @@
       </TocEntry>
       <TocEntry
         Title="G Suite Integration"
-        Link="/Content/GSuiteIntegration/GSuite_Introduction.htm">
+        Link="/Content/GSuiteIntegration/Introduction.htm">
         <TocEntry
           Title="Configuration of G Suite Integration"
-          Link="/Content/GSuiteIntegration/GSuite_Config.htm" />
+          Link="/Content/GSuiteIntegration/Config.htm" />
       </TocEntry>
     </TocEntry>
   </TocEntry>
