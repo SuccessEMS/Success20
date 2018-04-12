@@ -9,10 +9,10 @@
       Link="/Content/Outlook/IntegrationtoMicrosoftExchange/IME/Outlook_IME_Introduction.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     <TocEntry
       Title="System Requirements for Integration to Exchange"
-      Link="/Content/Outlook/IntegrationtoMicrosoftExchange/IME/Outlook_IME_IntegExchanReqs.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      Link="/Content/Outlook/IntegrationtoMicrosoftExchange/Outlook_IME_IntegExchanReqs.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     <TocEntry
       Title="Install or Upgrade the Exchange Integration Web Service"
-      Link="/Content/Outlook/IntegrationtoMicrosoftExchange/IME/Outlook_IME_InstallUpgradeforEIWservice.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      Link="/Content/Outlook/IntegrationtoMicrosoftExchange/Outlook_IME_InstallUpgradeforEIWservice.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     <TocEntry
       Title="Configure Integration to Exchange"
       Link="/Content/Outlook/IntegrationtoMicrosoftExchange/Outlook_IME_ConfigIntegExchange.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
