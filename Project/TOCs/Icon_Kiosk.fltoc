@@ -10,7 +10,7 @@
       Link="/Content/InstallGuides/6_Kiosk/A_KioskHome.htm">
       <TocEntry
         Title="Introduction to the EMS Kiosk App"
-        Link="/Content/EMSKioskApp/V44.1/InstallationGuide/Kiosk_IG_Introduction.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        Link="/Content/EMSKioskApp/V44.1/InstallationGuide/Introduction.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
         Title="Obtain the Installation Files for EMS Kiosk App"
         Link="/Content/EMSKioskApp/V44.1/InstallationGuide/Kiosk_IG_ObtainInstallation.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
