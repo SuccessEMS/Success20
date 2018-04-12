@@ -24,7 +24,7 @@
       Link="/Content/IntegrationtoMicrosoftExchange/IntegrationtoMicrosoftExchange.pdf" />
     <TocEntry
       Title="Configure EWS Impersonation for Microsoft® Exchange"
-      Link="/Content/Outlook/IntegrationtoMicrosoftExchange/IME/Outlook_IME_ConfigEWSImperforME.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+      Link="/Content/Outlook/IntegrationtoMicrosoftExchange/Outlook_IME_ConfigEWSImperforME.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
       <TocEntry
         Title="Learn More About Exchange Web Services (EWS) Impersonation"
         Link="/Content/Outlook/IntegrationtoMicrosoftExchange/IME/Outlook_IME_LearnMoreaboutEWS.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
