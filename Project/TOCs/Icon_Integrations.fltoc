@@ -18,7 +18,7 @@
             Link="/Content/Integrations/ExchangeRoomIntegration/InstallationGuide/ERI_IG_IntroductiontoERI.html" />
           <TocEntry
             Title="Architecture of ERI"
-            Link="/Content/Integrations/ExchangeRoomIntegration/InstallationGuide/ERI_ArchitectureofERI.html" />
+            Link="/Content/Integrations/ExchangeRoomIntegration/InstallationGuide/ArchitectureofERI.html" />
           <TocEntry
             Title="System Requirements of ERI"
             Link="/Content/Integrations/ExchangeRoomIntegration/InstallationGuide/ERI_IG_SystemRequirements.html" />

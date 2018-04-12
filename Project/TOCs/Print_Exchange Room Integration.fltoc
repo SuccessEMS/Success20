@@ -41,7 +41,7 @@
       PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
     <TocEntry
       Title="Architecture of ERI"
-      Link="/Content/Integrations/ExchangeRoomIntegration/InstallationGuide/ERI_ArchitectureofERI.html"
+      Link="/Content/Integrations/ExchangeRoomIntegration/InstallationGuide/ArchitectureofERI.html"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
