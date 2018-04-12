@@ -2033,7 +2033,7 @@
           Link="/Content/EMSKioskApp/V44.1/ConfigurationGuide/Kiosk_CG_ConfigKioskAppProfiles.htm" />
         <TocEntry
           Title="Configure Kiosk Menus"
-          Link="/Content/EMSKioskApp/V44.1/ConfigurationGuide/Kiosk_CG_ConfigKioskAppMenus.htm" />
+          Link="/Content/EMSKioskApp/V44.1/ConfigurationGuide/ConfigKioskAppMenus.htm" />
       </TocEntry>
       <TocEntry
         Title="Configure Groups (Toolbar Icon)"
@@ -2382,7 +2382,7 @@
         Link="/Content/EMSKioskApp/V44.1/ConfigurationGuide/Kiosk_CG_ConfigKioskAppProfiles.htm" />
       <TocEntry
         Title="Configure EMS Kiosk App Menus"
-        Link="/Content/EMSKioskApp/V44.1/ConfigurationGuide/Kiosk_CG_ConfigKioskAppMenus.htm" />
+        Link="/Content/EMSKioskApp/V44.1/ConfigurationGuide/ConfigKioskAppMenus.htm" />
       <TocEntry
         Title="Customize the Logo and Background on the EMS Kiosk App"
         Link="/Content/EMSKioskApp/V44.1/ConfigurationGuide/Kiosk_CustomizeLogoBackground.htm" />
