@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="8" MadCap:lastHeight="8977" MadCap:lastWidth="1161" style="mc-master-page: url('../../Resources/MasterPages/emsMicrosoftOutlook.flmsp');">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="8" MadCap:lastHeight="7129" MadCap:lastWidth="1251" style="mc-master-page: url('../../Resources/MasterPages/emsMicrosoftOutlook.flmsp');">
     <head>
         <link href="../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title>Configure Integration to Microsoft Exchange V44.1 (EMS for Microsoft Outlook)</title>
     </head>
     <body>
-        <h1>Configure Integration to Exchange</h1>
+        <h1>Configure Integration to Microsoft Exchange</h1>
         <p>Configuring EMS to work with Exchange Online (Office 365) or Exchange 2013 is the same as configuring EMS to work with a 2007/2010 Exchange environment that is hosted on your network.&#160;See&#160;<a href="IME/Outlook_IME_ConfigEWSImperforME.htm">Configure EWS Impersonation for Microsoft<sup>®</sup> Exchange</a> for information on configuring impersonation on Exchange Online (Office 365).&#160;If you need additional assistance configuring this, please contact&#160;<a href="mailto:support@emssoftware.com" title="mailto:support@emssoftware.com">support@emssoftware.com</a>.</p>
         <p>This topic provides information on the following:&#160;</p>
         <ul class="unorder-list">
@@ -12,7 +12,7 @@
             </li>
             <li><a href="#Test_Your_Exchange_Integration">Test Your Exchange Integration</a>
             </li>
-            <li><a href="#Optional_Messaging_Settings">Optional Messaging Settings​</a>
+            <li><a href="#Optional_Messaging_Settings">Optional Messaging Settings</a>
                 <ul>
                     <li><a href="#config">Enable Larger File Attachments on the Config&#160;File</a>
                     </li>
@@ -32,11 +32,11 @@
         </p>
         <ol start="1" class="number-list" MadCap:continue="true">
             <li>Select your email system in the&#160;Provider&#160;dropdown using the instructions provided on the page.</li>
-            <li>Check the box “... utilize AutoDiscover to locate the best Client Access Server for the user…”<div class="note-box note"><p><span class="bold">Note:</span>&#160;If you do not check this box, you&#160;<span class="bold">must&#160;</span>fill in the&#160;Url to Exchange Web Services&#160;field.</p></div></li>
-            <li>Within the&#160;Authentication Information&#160;section, enter your Integration with Exchange Account&#160;User Name&#160;and&#160;Password.&#160;The User Name should be prefixed with your domain (example – YourDomain\Integration with Exchange Account, or Integration with Exchange Account@YourDomain)&#160;.<div class="note-box tip"><p><span class="bold">Tip:</span>&#160;Make a note of this URL for use later in this topic.</p></div></li>
+            <li>Check the box “... utilize AutoDiscover to locate the best Client Access Server for the user…”<div class="note-box note"><p><span class="bold">NOTE:</span>&#160;If you do not check this box, you&#160;<span class="bold">must&#160;</span>fill in the&#160;Url to Exchange Web Services&#160;field.</p></div></li>
+            <li>Within the&#160;Authentication Information&#160;section, enter your Integration with Exchange Account&#160;User Name&#160;and&#160;Password.&#160;The User Name should be prefixed with your domain (example – YourDomain\Integration with Exchange Account, or Integration with Exchange Account@YourDomain)&#160;.<div class="note-box tip"><p><span class="bold">TIP:</span>&#160;Make a note of this URL for use later in this topic.</p></div></li>
             <li>(<span class="italics">Optional</span>)&#160;The “Use application pool identity…” option allows you to set the Integration with Exchange Account credentials at the Application Pool level instead of storing the credentials in the EMS database.&#160;See the&#160;<a href="Outlook_IME_UseAppPoolIdentif.htm">Use Application Pool Identity for Integration for Exchange Service Account</a>&#160;topic for more information about this option.&#160;If this option is selected, you&#160;must&#160;check the box to use Impersonation.&#160;</li>
             <li>If you selected “Exchange Web Services” as your&#160;Provider, select the checkbox if the account specified has Exchange Impersonation access to all mailboxes in your Exchange mailbox store.</li>
-            <li>Select the Authentication Type:<ul start="6"><li><span class="bold">Anonymous&#160;</span>– No authentication</li><li><span class="bold">Specify Account</span>&#160;– Relies on a custom account (not the Integration with Exchange Account) that you create and manage.&#160;Please contact Customer Support (or a member of the Professional Services group if you are working with one) to discuss the configuration process for this option.</li><li><span class="bold">Default Credentials</span>&#160;– Relies on security context of EMS application calling the Integration with Exchange&#160;Web Service.&#160;If using this option, Integrated Windows Authentication should be enabled for the Integration with Exchange Web Service.</li><li>For MS Exchange 2007/2010 environments, click&#160;<span class="bold">Save</span>.</li></ul><div class="note-box note"><p><span class="bold">Note:</span>&#160;When testing Integration with Exchange, the email account that is being used (either on the Test Settings tab or in the "Testing Integration with Exchange" section below) MUST exist in the Exchange environment being tested.&#160;If you are testing Integration with Exchange in a development environment please verify that a mailbox for the email being used exists in that domain/environment.</p></div></li>
+            <li>Select the Authentication Type:<ul start="6"><li><span class="bold">Anonymous&#160;</span>– No authentication</li><li><span class="bold">Specify Account</span>&#160;– Relies on a custom account (not the Integration with Exchange Account) that you create and manage.&#160;Please contact Customer Support (or a member of the Professional Services group if you are working with one) to discuss the configuration process for this option.</li><li><span class="bold">Default Credentials</span>&#160;– Relies on security context of EMS application calling the Integration with Exchange&#160;Web Service.&#160;If using this option, Integrated Windows Authentication should be enabled for the Integration with Exchange Web Service.</li><li>For MS Exchange 2007/2010 environments, click&#160;<span class="bold">Save</span>.</li></ul><div class="note-box note"><p><span class="bold">NOTE:</span>&#160;When testing Integration with Exchange, the email account that is being used (either on the Test Settings tab or in the "Testing Integration with Exchange" section below) MUST exist in the Exchange environment being tested.&#160;If you are testing Integration with Exchange in a development environment please verify that a mailbox for the email being used exists in that domain/environment.</p></div></li>
             <ol class="number-list">Click&#160;<span class="bold">Test Configuration</span>.&#160;If any errors are encountered, please verify your configuration. Otherwise, your Integration with Exchange configuration is complete.&#160;</ol>
         </ol>
         <h2><a name="Test_Your_Exchange_Integration"></a>Test Your Exchange Integration</h2>
@@ -121,14 +121,14 @@
                     <li>Update the <a href="#database">database</a>.&#160;</li>
                 </ol>
                 <div class="note-box note">
-                    <p><span class="bold">Note:&#160;</span>File sizes larger than 2 GB are not allowed at this time.</p>
+                    <p><span class="bold">NOTE:&#160;</span>File sizes larger than 2 GB are not allowed at this time.</p>
                 </div>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
         <h3>Enable Larger File Attachments On The Config&#160;File<a name="config"></a></h3>
         <p>By default, Exchange Integration attachments will only accept files 4MB or less.&#160;If your implementation needs to allow files of larger sizes to be attached to reservations, the following config updates will be required, both in EMS Web App&#160;and in the Exchange Integration Web Service.&#160;</p>
         <div class="note-box important">
-            <p><span class="bold">Important:</span>&#160;The maximum file size is 2 GB.</p>
+            <p><span class="bold">IMPORTANT:</span>&#160;The maximum file size is 2 GB.</p>
         </div>
         <ol start="1" class="number-list">
             <li>In the&#160;&lt;system.webServer&gt;&#160;section, include this xml node:<div class="indent"><p>&lt;security&gt;</p><p>&#160;&#160;&#160;&#160;&#160; &lt;requestFiltering&gt;</p><p>&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;requestLimits&#160;maxAllowedContentLength="51200000"/&gt; &lt;!--maxAllowedContentLength in bytes, 50MB=51200000--&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</p><p>&#160;&#160;&#160;&#160;&#160;&#160;&lt;/requestFiltering&gt;</p><p>&#160;&#160;&#160; &lt;/security&gt;</p></div></li>
@@ -138,7 +138,7 @@
         <h3>Enable Larger File Attachments in the Exchange Integration Web Service<a name="database"></a><img src="../../Resources/Images/Integration to Microsoft/Configuring Integration to.gif" alt="Edit section" class="img_1" /></h3>
         <p>By default Exchange Integration attachments will only accept files 4MB or less. If your implementation needs to allow for Exchange message attachments larger than 4MB, the config updates above will need to be applied in the Exchange Integration Web Service.</p>
         <div class="note-box note">
-            <p><span class="bold">Note:</span>&#160;Due to the size of the xml sent, we recommend adding 5MB to the desired file upload size. (i.e., if you want to allow a max of 20MB files, calculate a total of 25MB worth of Kilobytes and bytes.</p>
+            <p><span class="bold">NOTE:</span>&#160;Due to the size of the xml sent, we recommend adding 5MB to the desired file upload size. (i.e., if you want to allow a max of 20MB files, calculate a total of 25MB worth of Kilobytes and bytes.</p>
         </div>
         <p>In addition to these web.config settings above, a web administrator will need to update the file size in the Exchange Integration Web Service as follows:</p>
         <ol start="1" class="number-list">
@@ -147,7 +147,7 @@
             <li>Update the&#160;<span class="bold">Maximum Attachment Size</span>&#160;text box and <span class="bold">Save</span>.</li>
         </ol>
         <div class="note-box warning">
-            <p><span class="bold">Warning:&#160;For&#160;Externally Exposed Web App sites</span>
+            <p><span class="bold">WARNING:&#160;For&#160;Externally Exposed Web App sites</span>
             </p>
             <p>If your EMS Web App site is externally exposed, some of the web.config settings above could make the site vulnerable to DoS site attacks. We highly recommend setting network-level protection to prevent DoS attacks.</p>
         </div>
