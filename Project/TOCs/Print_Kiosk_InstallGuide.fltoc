@@ -32,7 +32,7 @@
       VolumeNumberReset="same" />
     <TocEntry
       Title="Obtain the Installation Files for EMS Kiosk App"
-      Link="/Content/EMSKioskApp/V44.1/InstallationGuide/Kiosk_IG_ObtainInstallation.htm"
+      Link="/Content/EMSKioskApp/V44.1/InstallationGuide/ObtainInstallation.htm"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
@@ -42,7 +42,7 @@
       ChapterNumberReset="continue" />
     <TocEntry
       Title="System Requirements and Prerequisites for EMS Kiosk App"
-      Link="/Content/EMSKioskApp/V44.1/InstallationGuide/Kiosk_IG_SysReqPrereq.htm"
+      Link="/Content/EMSKioskApp/V44.1/InstallationGuide/SysReqPrereq.htm"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
