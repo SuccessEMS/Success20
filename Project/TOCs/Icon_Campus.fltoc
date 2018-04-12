@@ -59,7 +59,7 @@
           Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/ConfigurationGuide/Campus_SynchroFacilityData.html" />
         <TocEntry
           Title="Configure Domains"
-          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/ConfigurationGuide/Campus_ConfigDomains.html" />
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/ConfigurationGuide/ConfigDomains.html" />
         <TocEntry
           Title="Configure Academic Units"
           Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/ConfigurationGuide/ConfigAcademUnit.html" />
@@ -71,10 +71,10 @@
           Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/ConfigurationGuide/Campus_ConfigPrimaryAcadUnitforSub.html" />
         <TocEntry
           Title="Configure Course Types"
-          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/ConfigurationGuide/Campus_ConfigCourseType.html" />
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/ConfigurationGuide/ConfigCourseType.html" />
         <TocEntry
           Title="Configure Course Types/Room Types Matches"
-          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/ConfigurationGuide/Campus_ConfigCourseRoomTypeMatch.html" />
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/ConfigurationGuide/ConfigCourseRoomTypeMatch.html" />
         <TocEntry
           Title="Work with Time Block Templates"
           Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/ConfigurationGuide/Campus_WorkTimeBlockTemp2.html" />
