@@ -476,7 +476,7 @@
         Link="/Content/Integrations/ExchangeRoomIntegration/InstallationGuide/ERI_IG_InstallingERI.html" />
       <TocEntry
         Title="Exchange Sync Utility"
-        Link="/Content/Integrations/ExchangeRoomIntegration/InstallationGuide/ERI_IG_ExchangeSyncUtility.html" />
+        Link="/Content/Integrations/ExchangeRoomIntegration/InstallationGuide/ExchangeSyncUtility.html" />
     </TocEntry>
     <TocEntry
       Title="Regics "
@@ -1338,7 +1338,7 @@
         Link="/Content/Integrations/ExchangeRoomIntegration/InstallationGuide/ERI_IG_InstallingERI.html" />
       <TocEntry
         Title="Exchange Sync Utility"
-        Link="/Content/Integrations/ExchangeRoomIntegration/InstallationGuide/ERI_IG_ExchangeSyncUtility.html" />
+        Link="/Content/Integrations/ExchangeRoomIntegration/InstallationGuide/ExchangeSyncUtility.html" />
       <TocEntry
         Title="PDF"
         Link="/Content/Integrations/ExchangeRoomIntegration/ERI_PDF.pdf" />
