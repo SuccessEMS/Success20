@@ -463,20 +463,20 @@
       Link="/Content/InstallGuides/11_ERI_V44.1/11_ERI_Home.htm">
       <TocEntry
         Title="Introduction to ERI"
-        Link="/Content/Integrations/7ERI/A_Installation/ERI_IG_IntroductiontoERI.html">
+        Link="/Content/Integrations/ExchangeRoomIntegration/A_Installation/ERI_IG_IntroductiontoERI.html">
         <TocEntry
           Title="Architecture of ERI"
-          Link="/Content/Integrations/7ERI/A_Installation/ERI_ArchitectureofERI.html" />
+          Link="/Content/Integrations/ExchangeRoomIntegration/A_Installation/ERI_ArchitectureofERI.html" />
         <TocEntry
           Title="System Requirements of ERI"
-          Link="/Content/Integrations/7ERI/A_Installation/ERI_IG_SystemRequirements.html" />
+          Link="/Content/Integrations/ExchangeRoomIntegration/A_Installation/ERI_IG_SystemRequirements.html" />
       </TocEntry>
       <TocEntry
         Title="Install Exchange Room Integration"
-        Link="/Content/Integrations/7ERI/A_Installation/ERI_IG_InstallingERI.html" />
+        Link="/Content/Integrations/ExchangeRoomIntegration/A_Installation/ERI_IG_InstallingERI.html" />
       <TocEntry
         Title="Exchange Sync Utility"
-        Link="/Content/Integrations/7ERI/A_Installation/ERI_IG_ExchangeSyncUtility.html" />
+        Link="/Content/Integrations/ExchangeRoomIntegration/A_Installation/ERI_IG_ExchangeSyncUtility.html" />
     </TocEntry>
     <TocEntry
       Title="Regics "
@@ -1325,23 +1325,23 @@
       Link="/Content/InstallGuides/11_ERI_V44.1/11_ERI_Home.htm">
       <TocEntry
         Title="Introduction to ERI"
-        Link="/Content/Integrations/7ERI/A_Installation/ERI_IG_IntroductiontoERI.html">
+        Link="/Content/Integrations/ExchangeRoomIntegration/A_Installation/ERI_IG_IntroductiontoERI.html">
         <TocEntry
           Title="Architecture of ERI"
-          Link="/Content/Integrations/7ERI/A_Installation/ERI_ArchitectureofERI.html" />
+          Link="/Content/Integrations/ExchangeRoomIntegration/A_Installation/ERI_ArchitectureofERI.html" />
         <TocEntry
           Title="System Requirements of ERI"
-          Link="/Content/Integrations/7ERI/A_Installation/ERI_IG_SystemRequirements.html" />
+          Link="/Content/Integrations/ExchangeRoomIntegration/A_Installation/ERI_IG_SystemRequirements.html" />
       </TocEntry>
       <TocEntry
         Title="Install Exchange Room Integration"
-        Link="/Content/Integrations/7ERI/A_Installation/ERI_IG_InstallingERI.html" />
+        Link="/Content/Integrations/ExchangeRoomIntegration/A_Installation/ERI_IG_InstallingERI.html" />
       <TocEntry
         Title="Exchange Sync Utility"
-        Link="/Content/Integrations/7ERI/A_Installation/ERI_IG_ExchangeSyncUtility.html" />
+        Link="/Content/Integrations/ExchangeRoomIntegration/A_Installation/ERI_IG_ExchangeSyncUtility.html" />
       <TocEntry
         Title="PDF"
-        Link="/Content/Integrations/7ERI/ERI_PDF.pdf" />
+        Link="/Content/Integrations/ExchangeRoomIntegration/ERI_PDF.pdf" />
     </TocEntry>
     <TocEntry
       Title="Regics "
@@ -2652,7 +2652,7 @@
       Link="/Content/ConfigGuides/8_EMS_ExchangeRoomIntegration_CG.htm">
       <TocEntry
         Title="Configure Exchange Room Integration (ERI)"
-        Link="/Content/Integrations/7ERI/B_Config/ERI_Config_ConfigEXR.html" />
+        Link="/Content/Integrations/ExchangeRoomIntegration/B_Config/ERI_Config_ConfigEXR.html" />
     </TocEntry>
     <TocEntry
       Title="Skype for Business "
