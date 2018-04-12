@@ -50,7 +50,7 @@
           Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/ConfigurationGuide/Introduction.htm" />
         <TocEntry
           Title="Overview of Synchronization"
-          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/ConfigurationGuide/Campus_OverviewofSynchr.html" />
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/ConfigurationGuide/OverviewofSynchr.html" />
         <TocEntry
           Title="Synchronize Campus-Specific Data"
           Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/ConfigurationGuide/Campus_SynchroCampus-SpecificData.html" />
