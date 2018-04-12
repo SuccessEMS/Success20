@@ -9,7 +9,7 @@
       Link="/Content/Integrations/Integrations.htm">
       <TocEntry
         Title="Exchange Room Integration (ERI)"
-        Link="/Content/Integrations/ExchangeRoomIntegration/11_ERI_IGandCGLandPage.htm">
+        Link="/Content/Integrations/ExchangeRoomIntegration/ERILandingPage.htm">
         <TocEntry
           Title="Installation Guide"
           Link="/Content/InstallGuides/11_ERI_V44.1/11_ERI_Home.htm">
@@ -24,7 +24,7 @@
             Link="/Content/Integrations/ExchangeRoomIntegration/InstallationGuide/SystemRequirements.html" />
           <TocEntry
             Title="Installing Exchange Room Integration"
-            Link="/Content/Integrations/ExchangeRoomIntegration/InstallationGuide/ERI_IG_InstallingERI.html" />
+            Link="/Content/Integrations/ExchangeRoomIntegration/InstallationGuide/InstallingERI.html" />
         </TocEntry>
         <TocEntry
           Title="Configuration Guide"

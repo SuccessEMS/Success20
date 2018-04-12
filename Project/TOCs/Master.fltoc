@@ -473,7 +473,7 @@
       </TocEntry>
       <TocEntry
         Title="Install Exchange Room Integration"
-        Link="/Content/Integrations/ExchangeRoomIntegration/InstallationGuide/ERI_IG_InstallingERI.html" />
+        Link="/Content/Integrations/ExchangeRoomIntegration/InstallationGuide/InstallingERI.html" />
       <TocEntry
         Title="Exchange Sync Utility"
         Link="/Content/Integrations/ExchangeRoomIntegration/InstallationGuide/ExchangeSyncUtility.html" />
@@ -1335,7 +1335,7 @@
       </TocEntry>
       <TocEntry
         Title="Install Exchange Room Integration"
-        Link="/Content/Integrations/ExchangeRoomIntegration/InstallationGuide/ERI_IG_InstallingERI.html" />
+        Link="/Content/Integrations/ExchangeRoomIntegration/InstallationGuide/InstallingERI.html" />
       <TocEntry
         Title="Exchange Sync Utility"
         Link="/Content/Integrations/ExchangeRoomIntegration/InstallationGuide/ExchangeSyncUtility.html" />
