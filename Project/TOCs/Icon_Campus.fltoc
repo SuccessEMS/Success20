@@ -56,7 +56,7 @@
           Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/ConfigurationGuide/Campus_SynchroCampus-SpecificData.html" />
         <TocEntry
           Title="Synchronize Facility Data"
-          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/ConfigurationGuide/Campus_SynchroFacilityData.html" />
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/ConfigurationGuide/SynchroFacilityData.html" />
         <TocEntry
           Title="Configure Domains"
           Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/ConfigurationGuide/ConfigDomains.html" />
@@ -80,7 +80,7 @@
           Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/ConfigurationGuide/WorkTimeBlockTemp.html" />
         <TocEntry
           Title="Troubleshoot: Slow Performance When De-Synchronizing Terms"
-          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/ConfigurationGuide/Campus_TroubleshootSlowPerform.html" />
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/ConfigurationGuide/TroubleshootSlowPerform.html" />
       </TocEntry>
       <TocEntry
         Title="User Guide EMS Campus"
