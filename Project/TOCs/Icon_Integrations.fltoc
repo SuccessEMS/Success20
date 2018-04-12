@@ -31,7 +31,7 @@
           Link="/Content/ConfigGuides/8_EMS_ExchangeRoomIntegration_CG.htm">
           <TocEntry
             Title="Configuring Exchange Room Integration (ERI)"
-            Link="/Content/Integrations/ExchangeRoomIntegration/B_Config/ERI_Config_ConfigEXR.html" />
+            Link="/Content/Integrations/ExchangeRoomIntegration/ConfigurationGuide/ConfigERI.html" />
         </TocEntry>
         <TocEntry
           Title="PDF"

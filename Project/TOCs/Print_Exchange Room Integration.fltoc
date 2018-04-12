@@ -62,7 +62,7 @@
       PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
     <TocEntry
       Title="Configure Exchange Room Integration (ERI)"
-      Link="/Content/Integrations/ExchangeRoomIntegration/B_Config/ERI_Config_ConfigEXR.html"
+      Link="/Content/Integrations/ExchangeRoomIntegration/ConfigurationGuide/ConfigERI.html"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
