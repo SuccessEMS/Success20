@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html MadCap:lastBlockDepth="8" MadCap:lastHeight="7528" MadCap:lastWidth="668" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\emsIntegrations.flmsp');">
+<html MadCap:lastBlockDepth="8" MadCap:lastHeight="5815" MadCap:lastWidth="1251" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\emsIntegrations.flmsp');">
     <head><title>Configuring Exchange Room Integration (ERI) V44.1</title>
     </head>
     <body>
-        <h1 MadCap:autonum="CHAPTER&#160;1: ">
+        <h1>
             <MadCap:concept term="V44.1" />Configure Exchange Room Integration (ERI)</h1>
         <p>This section will provide information on configuring EMS Exchange Room Integration (ERI).&#160;</p>
         <ul>
@@ -19,8 +19,8 @@
             </li>
         </ul>
         <h2><a name="Configure_Resource_Mailboxes_in_MicrosoftExchange"></a>Configure Resource Mailboxes in Microsoft<sup>®</sup>&#160;Exchange</h2>
-        <p>Consult your&#160;<a href="https://technet.microsoft.com/en-us/library/jj215781(v=exchg.160).aspx" title="https://technet.microsoft.com/en-us/library/jj215781(v=exchg.160).aspx">Microsoft Exchange documentation</a>&#160;for instructions to configure room and equipment resource mailboxes.</p>
-        <p>Tip:&#160;Best practices for Exchange configurations include:&#160;</p>
+        <p>Consult your&#160;<a href="https://technet.microsoft.com/en-us/library/jj215781(v=exchg.160).aspx" title="https://technet.microsoft.com/en-us/library/jj215781(v=exchg.160).aspx">Microsoft Exchange documentation</a>&#160;for instructions on configuring room and equipment resource mailboxes.</p>
+        <p>Best practices for Exchange configurations include:&#160;</p>
         <ul>
             <li>Microsoft Exchange resource mailboxes must be set to automatically accept/decline invitations by setting&#160;<span class="bold">Accept or decline booking requests automatically</span>&#160;for Booking requests under Booking Delegates section of the mailbox configuration or by using the Booking Attendant.</li>
             <li>Enable the&#160;<span class="bold">Hide from address lists</span>&#160;option under the General section of the mailbox configuration to forbid users from booking a room or resource outside of EMS.</li>
@@ -52,7 +52,7 @@
             <li>If you want the feature to be available to everyday users so they can search for rooms with that feature, check&#160;<span class="bold">Available to Everyday Users</span>. If you wish the feature to be hidden from everyday users, do <span class="bold">not </span>check the&#160;<span class="bold">Available to Everyday Users</span>&#160;box.&#160;</li>
             <li>Click&#160;<span class="bold">OK</span>.&#160;</li>
             <li>Create a Resource for each room. Navigate to&#160;<span class="bold">Configuration </span>&gt; <span class="bold">Resources</span>. Choose your Category from the dropdown list.&#160;</li>
-            <li>Click&#160;<span class="bold">New</span>. Create&#160;a&#160;Description&#160;that details the Resource e.g.,&#160;Conference Room 101 Self-service Video Conference Device).</li>
+            <li>Click&#160;<span class="bold">New</span>. Create&#160;a&#160;Description&#160;that details the Resource (e.g.,&#160;Conference Room 101 Self-service Video Conference Device).</li>
             <li>Uncheck the&#160;<span class="bold">Available to Everyday Users</span>&#160;box.&#160;</li>
             <li>It is <span class="bold">not </span>necessary to select the&#160;<span class="bold">Maintain Inventory</span>&#160;checkbox for fixed resources.</li>
             <li>On the&#160;<span class="bold">Exchange Integration</span>&#160;tab, enter the email address as it was configured in Microsoft Exchange. There are multiple fields for email addresses on this tab. If a room contains multiple device features, enter all the corresponding email addresses.<p><img src="../../../Resources/Images/ERI_IG_ExchangeRoom/Configure Exchange Room Integration_1.png" alt="ERI_ResourceConfig.png" /></p></li>
@@ -79,7 +79,7 @@
             <li>If you want users to be able to choose the resource while making a booking, check the&#160;<span class="bold">Available at Checkout</span>&#160;box. If you prefer users to add the resource after making a booking, leave this selection unchecked.</li>
             <li>On the&#160;<span class="bold">Exchange Integration</span>&#160;tab, enter a&#160;single&#160;email address as it was configured in Microsoft Exchange. Click&#160;<span class="bold">OK</span>.&#160;</li>
         </ol>
-        <p class="note-box"><span class="bold">Warning</span>:&#160;Though there are multiple fields for email addresses in the Exchange Integration for resources, when configuring a mobile device resource, the device must be configured to a&#160;<span class="bold">single&#160;</span>Exchange equipment mailbox in order to properly enable third-party endpoints.</p>
+        <p class="box-warning"><span class="bold">WARNING</span>:&#160;Though there are multiple fields for email addresses in the Exchange Integration for resources, when configuring a mobile device resource, the device must be configured to a&#160;<span class="bold">single&#160;</span>Exchange equipment mailbox in order to properly enable third-party endpoints.</p>
         <ol start="14">
             <li>You must add the Categories to the appropriate Everyday User Process Templates. The templates must be configured with&#160;<span class="bold">Enable Integration to Microsoft Exchange</span>&#160;enabled. For instructions on creating process templates, please see&#160;<MadCap:xref href="../../../WebApp/A_V44.1/B_ConfigurationGuide/WebApp_CG_ConfigEverydayUserProcessTemps.html">Configure Everyday User Process Templates</MadCap:xref>.</li>
         </ol>
@@ -96,6 +96,5 @@
                 <img src="../../../Resources/Images/ERI_IG_ExchangeRoom/Configure Exchange Room Integration_3.png" alt="ResourceReportERI.png" />
             </p>
         </div>
-        <p>&#160;</p>
     </body>
 </html>
