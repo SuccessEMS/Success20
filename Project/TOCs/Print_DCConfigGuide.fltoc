@@ -1154,7 +1154,7 @@
         PageNumber="1">
         <TocEntry
           Title="Configure Kiosk Profiles"
-          Link="/Content/EMSKioskApp/V44.1/ConfigurationGuide/Kiosk_CG_ConfigKioskAppProfiles.htm"
+          Link="/Content/EMSKioskApp/V44.1/ConfigurationGuide/ConfigKioskAppProfiles.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -1165,7 +1165,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Configure Kiosk Menus"
-          Link="/Content/EMSKioskApp/V44.1/ConfigurationGuide/Kiosk_CG_ConfigKioskAppMenus.htm"
+          Link="/Content/EMSKioskApp/V44.1/ConfigurationGuide/ConfigKioskAppMenus.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"

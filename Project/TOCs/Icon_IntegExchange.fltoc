@@ -2,32 +2,31 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="Integration to Microsoft® Exchange"
-    Link="/Content/Outlook/D_IntegExch/IME/Outlook_IME_IntegtoMEOverview.htm">
+    Title="Integration to Microsoft® Exchange">
     <TocEntry
       Title="Introduction"
-      Link="/Content/Outlook/D_IntegExch/IME/Outlook_IME_Introduction.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      Link="/Content/Outlook/IntegrationtoMicrosoftExchange/Introduction.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     <TocEntry
       Title="System Requirements for Integration to Exchange"
-      Link="/Content/Outlook/D_IntegExch/IME/Outlook_IME_IntegExchanReqs.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      Link="/Content/Outlook/IntegrationtoMicrosoftExchange/IntegExchanReqs.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     <TocEntry
       Title="Install or Upgrade the Exchange Integration Web Service"
-      Link="/Content/Outlook/D_IntegExch/IME/Outlook_IME_InstallUpgradeforEIWservice.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      Link="/Content/Outlook/IntegrationtoMicrosoftExchange/InstallUpgradeforEIWservice.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     <TocEntry
       Title="Configure Integration to Exchange"
-      Link="/Content/Outlook/D_IntegExch/IME/Outlook_IME_ConfigIntegExchange.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      Link="/Content/Outlook/IntegrationtoMicrosoftExchange/ConfigIntegExchange.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     <TocEntry
       Title="Use Application Pool Identity for Integration for Exchange Service Account"
-      Link="/Content/Outlook/D_IntegExch/IME/Outlook_IME_UseAppPoolIdentif.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      Link="/Content/Outlook/IntegrationtoMicrosoftExchange/UseAppPoolIdentif.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     <TocEntry
       Title="PDF"
       Link="/Content/IntegrationtoMicrosoftExchange/IntegrationtoMicrosoftExchange.pdf" />
     <TocEntry
       Title="Configure EWS Impersonation for Microsoft® Exchange"
-      Link="/Content/Outlook/D_IntegExch/IME/Outlook_IME_ConfigEWSImperforME.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+      Link="/Content/Outlook/IntegrationtoMicrosoftExchange/ConfigureEWSImpersonation.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
       <TocEntry
         Title="Learn More About Exchange Web Services (EWS) Impersonation"
-        Link="/Content/Outlook/D_IntegExch/IME/Outlook_IME_LearnMoreaboutEWS.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        Link="/Content/Outlook/IntegrationtoMicrosoftExchange/LearnMoreaboutEWS.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     </TocEntry>
   </TocEntry>
 </CatapultToc>

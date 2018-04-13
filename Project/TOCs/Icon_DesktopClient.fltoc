@@ -356,10 +356,10 @@
         Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigurationKiosk.htm">
         <TocEntry
           Title="Configure Kiosk Profiles"
-          Link="/Content/EMSKioskApp/V44.1/ConfigurationGuide/Kiosk_CG_ConfigKioskAppProfiles.htm" />
+          Link="/Content/EMSKioskApp/V44.1/ConfigurationGuide/ConfigKioskAppProfiles.htm" />
         <TocEntry
           Title="Configure Kiosk Menus"
-          Link="/Content/EMSKioskApp/V44.1/ConfigurationGuide/Kiosk_CG_ConfigKioskAppMenus.htm" />
+          Link="/Content/EMSKioskApp/V44.1/ConfigurationGuide/ConfigKioskAppMenus.htm" />
       </TocEntry>
       <TocEntry
         Title="Configure Groups (Toolbar Icon)"
@@ -1787,19 +1787,18 @@
     </TocEntry>
     <TocEntry
       Title="Integrations"
-      Link="/Content/Integrations/1_Integrations.htm">
+      Link="/Content/Integrations/Integrations.htm">
       <TocEntry
         Title="Human Resources Information Systems (HRIS)"
-        Link="/Content/Integrations/3_HumanResources (HR).htm" />
-      <TocEntry
-        Title="Occupancy Sensors"
-        Link="/Content/Integrations/4_Sensors.htm" />
+        Link="/Content/Integrations/HumanResourcesInformationSystem.htm" />
       <TocEntry
         Title="Microsoft Exchange Integration"
-        Link="/Content/Integrations/2_Microsoft_Exchange_Integrations.htm"></TocEntry>
+        Link="/Content/Integrations/MicrosoftExchangeIntegrations.htm"></TocEntry>
       <TocEntry
         Title="Video Conferencing"
-        Link="/Content/Integrations/5_VideoConferencing.htm" />
+        Link="/Content/Integrations/VideoConferencing.htm" />
+      <TocEntry
+        Title="Exchange Room Integration (ERI)" />
     </TocEntry>
     <TocEntry
       Title="Optional Features"

@@ -272,7 +272,7 @@
         </TocEntry>
       </TocEntry>
       <TocEntry
-        Link="/Content/Outlook/D_IntegExch/IME/Outlook_IME_Introduction.htm"
+        Link="/Content/Outlook/IntegrationtoMicrosoftExchange/Introduction.htm"
         Title="Integration to Microsoft Exchange">
         <TocEntry
           Title="[%=System.LinkedTitle%]"
@@ -301,19 +301,19 @@
       Link="/Content/InstallGuides/6_Kiosk/A_KioskHome.htm">
       <TocEntry
         Title="Introduction to the EMS Kiosk App"
-        Link="/Content/EMSKioskApp/V44.1/InstallationGuide/Kiosk_IG_Introduction.htm" />
+        Link="/Content/EMSKioskApp/V44.1/InstallationGuide/Introduction.htm" />
       <TocEntry
         Title="Obtain the Installation Files for EMS Kiosk App"
-        Link="/Content/EMSKioskApp/V44.1/InstallationGuide/Kiosk_IG_ObtainInstallation.htm" />
+        Link="/Content/EMSKioskApp/V44.1/InstallationGuide/ObtainInstallation.htm" />
       <TocEntry
         Title="System Requirements and Prerequisites for EMS Kiosk App"
-        Link="/Content/EMSKioskApp/V44.1/InstallationGuide/Kiosk_IG_SysReqPrereq.htm" />
+        Link="/Content/EMSKioskApp/V44.1/InstallationGuide/SysReqPrereq.htm" />
       <TocEntry
         Title="Install or Upgrade the EMS Kiosk App"
-        Link="/Content/EMSKioskApp/V44.1/InstallationGuide/Kiosk_IG_InstallUpgrade.htm" />
+        Link="/Content/EMSKioskApp/V44.1/InstallationGuide/InstallUpgrade.htm" />
       <TocEntry
         Title="Launch EMS Kiosk App"
-        Link="/Content/EMSKioskApp/V44.1/InstallationGuide/Kiosk_IG_StartKioskApp.htm" />
+        Link="/Content/EMSKioskApp/V44.1/InstallationGuide/LaunchKioskApp.htm" />
     </TocEntry>
     <TocEntry
       Title="EMS Room Sign App (formerly Glance)"
@@ -463,20 +463,20 @@
       Link="/Content/InstallGuides/11_ERI_V44.1/11_ERI_Home.htm">
       <TocEntry
         Title="Introduction to ERI"
-        Link="/Content/Integrations/7ERI/A_Installation/ERI_IG_IntroductiontoERI.html">
+        Link="/Content/Integrations/ExchangeRoomIntegration/InstallationGuide/IntroductiontoERI.html">
         <TocEntry
           Title="Architecture of ERI"
-          Link="/Content/Integrations/7ERI/A_Installation/ERI_ArchitectureofERI.html" />
+          Link="/Content/Integrations/ExchangeRoomIntegration/InstallationGuide/ArchitectureofERI.html" />
         <TocEntry
           Title="System Requirements of ERI"
-          Link="/Content/Integrations/7ERI/A_Installation/ERI_IG_SystemRequirements.html" />
+          Link="/Content/Integrations/ExchangeRoomIntegration/InstallationGuide/SystemRequirements.html" />
       </TocEntry>
       <TocEntry
         Title="Install Exchange Room Integration"
-        Link="/Content/Integrations/7ERI/A_Installation/ERI_IG_InstallingERI.html" />
+        Link="/Content/Integrations/ExchangeRoomIntegration/InstallationGuide/InstallingERI.html" />
       <TocEntry
         Title="Exchange Sync Utility"
-        Link="/Content/Integrations/7ERI/A_Installation/ERI_IG_ExchangeSyncUtility.html" />
+        Link="/Content/Integrations/ExchangeRoomIntegration/InstallationGuide/ExchangeSyncUtility.html" />
     </TocEntry>
     <TocEntry
       Title="Regics "
@@ -1192,7 +1192,7 @@
         </TocEntry>
       </TocEntry>
       <TocEntry
-        Link="/Content/Outlook/D_IntegExch/IME/Outlook_IME_Introduction.htm"
+        Link="/Content/Outlook/IntegrationtoMicrosoftExchange/Introduction.htm"
         Title="Integration to Microsoft Exchange">
         <TocEntry
           Title="[%=System.LinkedTitle%]"
@@ -1221,19 +1221,19 @@
       Title="EMS Kiosk App"
       Skin="/Project/Skins/TopicToolBar.flskn"
       ReplaceMergeNode="false"
-      Link="/Content/EMSKioskApp/V44.1/InstallationGuide/Kiosk_IG_Introduction.htm">
+      Link="/Content/EMSKioskApp/V44.1/InstallationGuide/Introduction.htm">
       <TocEntry
         Title="Obtain the Installation Files for EMS Kiosk App"
-        Link="/Content/EMSKioskApp/V44.1/InstallationGuide/Kiosk_IG_ObtainInstallation.htm" />
+        Link="/Content/EMSKioskApp/V44.1/InstallationGuide/ObtainInstallation.htm" />
       <TocEntry
         Title="System Requirements and Prerequisites for EMS Kiosk App"
-        Link="/Content/EMSKioskApp/V44.1/InstallationGuide/Kiosk_IG_SysReqPrereq.htm" />
+        Link="/Content/EMSKioskApp/V44.1/InstallationGuide/SysReqPrereq.htm" />
       <TocEntry
         Title="Install or Upgrade the EMS Kiosk App"
-        Link="/Content/EMSKioskApp/V44.1/InstallationGuide/Kiosk_IG_InstallUpgrade.htm" />
+        Link="/Content/EMSKioskApp/V44.1/InstallationGuide/InstallUpgrade.htm" />
       <TocEntry
         Title="Launch EMS Kiosk App"
-        Link="/Content/EMSKioskApp/V44.1/InstallationGuide/Kiosk_IG_StartKioskApp.htm" />
+        Link="/Content/EMSKioskApp/V44.1/InstallationGuide/LaunchKioskApp.htm" />
       <TocEntry
         Title="PDF"
         Link="/Content/EMSKioskApp/V44.1/InstallationGuide/Kiosk_Install_PDF.pdf" />
@@ -1325,23 +1325,23 @@
       Link="/Content/InstallGuides/11_ERI_V44.1/11_ERI_Home.htm">
       <TocEntry
         Title="Introduction to ERI"
-        Link="/Content/Integrations/7ERI/A_Installation/ERI_IG_IntroductiontoERI.html">
+        Link="/Content/Integrations/ExchangeRoomIntegration/InstallationGuide/IntroductiontoERI.html">
         <TocEntry
           Title="Architecture of ERI"
-          Link="/Content/Integrations/7ERI/A_Installation/ERI_ArchitectureofERI.html" />
+          Link="/Content/Integrations/ExchangeRoomIntegration/InstallationGuide/ArchitectureofERI.html" />
         <TocEntry
           Title="System Requirements of ERI"
-          Link="/Content/Integrations/7ERI/A_Installation/ERI_IG_SystemRequirements.html" />
+          Link="/Content/Integrations/ExchangeRoomIntegration/InstallationGuide/SystemRequirements.html" />
       </TocEntry>
       <TocEntry
         Title="Install Exchange Room Integration"
-        Link="/Content/Integrations/7ERI/A_Installation/ERI_IG_InstallingERI.html" />
+        Link="/Content/Integrations/ExchangeRoomIntegration/InstallationGuide/InstallingERI.html" />
       <TocEntry
         Title="Exchange Sync Utility"
-        Link="/Content/Integrations/7ERI/A_Installation/ERI_IG_ExchangeSyncUtility.html" />
+        Link="/Content/Integrations/ExchangeRoomIntegration/InstallationGuide/ExchangeSyncUtility.html" />
       <TocEntry
         Title="PDF"
-        Link="/Content/Integrations/7ERI/ERI_PDF.pdf" />
+        Link="/Content/Integrations/ExchangeRoomIntegration/ERI_PDF.pdf" />
     </TocEntry>
     <TocEntry
       Title="Regics "
@@ -1679,7 +1679,7 @@
       </TocEntry>
     </TocEntry>
     <TocEntry
-      Link="/Content/Outlook/D_IntegExch/IME/Outlook_IME_Introduction.htm"
+      Link="/Content/Outlook/IntegrationtoMicrosoftExchange/Introduction.htm"
       Title="Integration to Microsoft Exchange">
       <TocEntry
         Title="[%=System.LinkedTitle%]"
@@ -2030,10 +2030,10 @@
         Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigurationKiosk.htm">
         <TocEntry
           Title="Configure Kiosk Profiles"
-          Link="/Content/EMSKioskApp/V44.1/ConfigurationGuide/Kiosk_CG_ConfigKioskAppProfiles.htm" />
+          Link="/Content/EMSKioskApp/V44.1/ConfigurationGuide/ConfigKioskAppProfiles.htm" />
         <TocEntry
           Title="Configure Kiosk Menus"
-          Link="/Content/EMSKioskApp/V44.1/ConfigurationGuide/Kiosk_CG_ConfigKioskAppMenus.htm" />
+          Link="/Content/EMSKioskApp/V44.1/ConfigurationGuide/ConfigKioskAppMenus.htm" />
       </TocEntry>
       <TocEntry
         Title="Configure Groups (Toolbar Icon)"
@@ -2221,40 +2221,40 @@
       Link="/Content/ConfigGuides/10_EMS Campus Configuration Guide.htm">
       <TocEntry
         Title="Introduction"
-        Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/B_CG_Campus/Campus_44.1_IntrotoConfigGuide.htm" />
+        Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/ConfigurationGuide_EMSDesktopClientAcademicPlanning/Introduction.htm" />
       <TocEntry
         Title="Overview of Synchronization"
-        Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/B_CG_Campus/Campus_OverviewofSynchr.html" />
+        Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/ConfigurationGuide_EMSDesktopClientAcademicPlanning/OverviewofSynchr.html" />
       <TocEntry
         Title="Synchronize Campus-Specific Data"
-        Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/B_CG_Campus/Campus_SynchroCampus-SpecificData.html" />
+        Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/ConfigurationGuide_EMSDesktopClientAcademicPlanning/SynchroCampus-SpecificData.html" />
       <TocEntry
         Title="Synchronize Facility Data"
-        Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/B_CG_Campus/Campus_SynchroFacilityData.html" />
+        Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/ConfigurationGuide_EMSDesktopClientAcademicPlanning/SynchroFacilityData.html" />
       <TocEntry
         Title="Configure Domains"
-        Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/B_CG_Campus/Campus_ConfigDomains.html" />
+        Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/ConfigurationGuide_EMSDesktopClientAcademicPlanning/ConfigDomains.html" />
       <TocEntry
         Title="Configure Academic Units"
-        Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/B_CG_Campus/Campus_ConfigAcademUnit.html" />
+        Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/ConfigurationGuide_EMSDesktopClientAcademicPlanning/ConfigAcademUnit.html" />
       <TocEntry
         Title="Configure Instructors"
-        Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/B_CG_Campus/Campus_ConfigInstructors.html" />
+        Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/ConfigurationGuide_EMSDesktopClientAcademicPlanning/ConfigInstructors.html" />
       <TocEntry
         Title="Configure the Primary Academic Unit for a Subject"
-        Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/B_CG_Campus/Campus_ConfigPrimaryAcadUnitforSub.html" />
+        Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/ConfigurationGuide_EMSDesktopClientAcademicPlanning/ConfigPrimaryAcadUnitforSub.html" />
       <TocEntry
         Title="Configure Course Types"
-        Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/B_CG_Campus/Campus_ConfigCourseType.html" />
+        Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/ConfigurationGuide_EMSDesktopClientAcademicPlanning/ConfigCourseType.html" />
       <TocEntry
         Title="Configure Course Types/Room Types Matches"
-        Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/B_CG_Campus/Campus_ConfigCourseRoomTypeMatch.html" />
+        Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/ConfigurationGuide_EMSDesktopClientAcademicPlanning/ConfigCourseRoomTypeMatch.html" />
       <TocEntry
         Title="Work with Time Block Templates"
-        Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/B_CG_Campus/Campus_WorkTimeBlockTemp2.html" />
+        Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/ConfigurationGuide_EMSDesktopClientAcademicPlanning/WorkTimeBlockTemp.html" />
       <TocEntry
         Title="Troubleshoot: Slow Performance When De-Synchronizing Terms"
-        Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/B_CG_Campus/Campus_TroubleshootSlowPerform.html" />
+        Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/ConfigurationGuide_EMSDesktopClientAcademicPlanning/TroubleshootSlowPerform.html" />
     </TocEntry>
     <TocEntry
       Title="EMS Web App"
@@ -2376,16 +2376,16 @@
       Link="/Content/ConfigGuides/6_EMS Kiosk (V44.1) Configuration Guide.htm">
       <TocEntry
         Title="Authentication Options"
-        Link="/Content/EMSKioskApp/V44.1/ConfigurationGuide/Kiosk_CG_AuthenOptions.html" />
+        Link="/Content/EMSKioskApp/V44.1/ConfigurationGuide/AuthenOptions.html" />
       <TocEntry
         Title="Configure EMS Kiosk App Profiles"
-        Link="/Content/EMSKioskApp/V44.1/ConfigurationGuide/Kiosk_CG_ConfigKioskAppProfiles.htm" />
+        Link="/Content/EMSKioskApp/V44.1/ConfigurationGuide/ConfigKioskAppProfiles.htm" />
       <TocEntry
         Title="Configure EMS Kiosk App Menus"
-        Link="/Content/EMSKioskApp/V44.1/ConfigurationGuide/Kiosk_CG_ConfigKioskAppMenus.htm" />
+        Link="/Content/EMSKioskApp/V44.1/ConfigurationGuide/ConfigKioskAppMenus.htm" />
       <TocEntry
         Title="Customize the Logo and Background on the EMS Kiosk App"
-        Link="/Content/EMSKioskApp/V44.1/ConfigurationGuide/Kiosk_CustomizeLogoBackground.htm" />
+        Link="/Content/EMSKioskApp/V44.1/ConfigurationGuide/CustomizeLogoBackground.htm" />
       <TocEntry
         Title="PDF"
         Link="/Content/EMSKioskApp/V44.1/ConfigurationGuide/Kiosk_Config_PDF.pdf" />
@@ -2652,7 +2652,7 @@
       Link="/Content/ConfigGuides/8_EMS_ExchangeRoomIntegration_CG.htm">
       <TocEntry
         Title="Configure Exchange Room Integration (ERI)"
-        Link="/Content/Integrations/7ERI/B_Config/ERI_Config_ConfigEXR.html" />
+        Link="/Content/Integrations/ExchangeRoomIntegration/ConfigurationGuide/ConfigERI.html" />
     </TocEntry>
     <TocEntry
       Title="Skype for Business "
@@ -2666,10 +2666,10 @@
     </TocEntry>
     <TocEntry
       Title="G Suite Integration"
-      Link="/Content/GSuiteIntegration/GSuite_Introduction.htm">
+      Link="/Content/GoogleSuiteIntegration/Introduction.htm">
       <TocEntry
         Title="Configuration of G Suite Integration"
-        Link="/Content/GSuiteIntegration/GSuite_Config.htm" />
+        Link="/Content/GoogleSuiteIntegration/Config.htm" />
     </TocEntry>
     <TocEntry
       Title="Authentication Options"
@@ -3623,10 +3623,10 @@
       Link="/Content/Regics/EMS Regics User Guide and Credit Card Payment Processing Guide.pdf" />
     <TocEntry
       Title="G Suite Integration"
-      Link="/Content/GSuiteIntegration/GSuite_Introduction.htm">
+      Link="/Content/GoogleSuiteIntegration/Introduction.htm">
       <TocEntry
         Title="Configuration of G Suite Integration"
-        Link="/Content/GSuiteIntegration/GSuite_Config.htm" />
+        Link="/Content/GoogleSuiteIntegration/Config.htm" />
     </TocEntry>
   </TocEntry>
   <TocEntry
@@ -3872,7 +3872,7 @@
     </TocEntry>
     <TocEntry
       Title="EMS for Microsoft Outlook"
-      Link="/Content/VIDEO/Outlook/Outlook_VideoTutorialIntro.htm">
+      Link="/Content/VIDEO/Outlook/Introduction.htm">
       <TocEntry
         Title="VIDEO: Adding Services"
         Link="/Content/VIDEO/Outlook/VIDEO_AddingServices.htm" />
