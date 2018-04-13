@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xml:lang="en-us" MadCap:lastBlockDepth="10" MadCap:lastHeight="3476" MadCap:lastWidth="838" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../Resources/MasterPages/ReleaseNotes.flmsp');" MadCap:searchable="False">
+<html xml:lang="en-us" MadCap:lastBlockDepth="10" MadCap:lastHeight="3063" MadCap:lastWidth="838" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../Resources/MasterPages/ReleaseNotes.flmsp');" MadCap:searchable="False">
     <head>
         <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
         <link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
@@ -29,7 +29,7 @@
                 </td>
             </tr>
         </table>
-        <h2>Enhancements</h2>
+        <h2>Enhancement</h2>
         <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');width: 100%;margin-left: 0;margin-right: auto;" cellspacing="0">
             <col class="TableStyle-PatternedRows-Column-Regular" style="width: 111px;" />
             <col class="TableStyle-PatternedRows-Column-Regular" />
@@ -45,24 +45,14 @@
             </thead>
             <tbody>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: left;">
-                        <p class="RNArea">Selected Rooms</p>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows" style="text-align: left;">
+                        <p class="RNArea">Meeting Planner</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
-                        <p class="RNTitle">New Status Column Added</p>
-                        <p class="RNBody">A new status column has been added so users can see if the room they selected is in a Confirmed (BookSpace) status. This Status column will display on the Selected Rooms tab. </p>
-                        <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=33470" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">33470</a><br />(For EMS&#160;Internal Use Only)</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNArea">Schedule View</p>
-                        <p>&#160;</p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNTitle">New Header Displays Request and Reserve Rooms on Schedule View</p>
-                        <p class="RNBody">Within each building on the schedule view, 'request' rooms on a template and in that building are now grouped together in a separate section. Rooms in this section are italicized.</p>
-                        <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=36552" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">36552</a><br />(For EMS&#160;Internal Use Only)</p>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" style="text-align: left;">
+                        <p class="RNTitle">Check for Meeting Planner ID</p>
+                        <p class="RNBody">EMS for Outlook should check for and account for any existing Meeting Planner ID, in order to let a former meeting planner customer book rooms in EMS</p>
+                        <p class="RNBody">EMS for Outlook should not error when opening a meeting previously created with MP. EMS for Outlook should also not error out if its reservation is 'disconnected', the user should be allowed to book a new room(s)</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=37309&amp;_a=edit&amp;triage=false" title="EMS Internal Use Only" alt="EMS Internal Use Only" class="RNRefHyper">37309</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
             </tbody>
@@ -84,54 +74,44 @@
             <tbody>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: left;">
-                        <p class="RNArea">Services</p>
+                        <p class="RNArea">Create or Edit Reservation</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
-                        <p class="RNTitle">Services Were Not Saved After Room Changed</p>
-                        <p class="RNBody">Services were not saved after room was changed on EMS for Outlook add-in. EMS&#160;Desktop Client showed the resource was still added to the canceled room/booking, instead of the new one.</p>
-                        <p class="RNBodyBeforeList"><span class="bold">Fix:</span>&#160;Modified functionality so that services are still available when the updated reservation is opened.</p>
-                        <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=35470" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">35470</a><br />(For EMS&#160;Internal Use Only)</p>
+                        <p class="RNTitle">Microsoft Outlook 2010 (64x) Crashes on Save &amp; Close from the EMS for Outlook Add-in</p>
+                        <p class="RNBody">For customers using Microsoft Outlook 2010 (64x), when users tried to <span class="bold">Save &amp; Close</span> an appointment from the EMS&#160;for Outlook add-in, Microsoft Outlook crashed.</p>
+                        <p class="RNBodyBeforeList"><span class="bold">Fix:</span>&#160;Modified functionality so Microsoft Outlook does not crash when users click <span class="bold">Save &amp; Close</span> in the EMS&#160;for Outlook add-in.</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=33452&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">33452</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNArea">Statuses</p>
+                        <p class="RNArea">Recurring Meetings</p>
                         <p>&#160;</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNTitle">Send Update Button Not Working When an Occurrence of a Recurring Reservation Was Canceled</p>
-                        <p class="RNBody">When users deleted one occurrence, the occurrence was not removed from the Calendar. In the EMS&#160;Desktop Client, the required booking still had a Confirmed status. When users removed the series, all series were removed from the Calendar, BUT the reservation and all bookings displayed a Confirmed status in the EMS&#160;Desktop Client.</p>
-                        <p class="RNBodyBeforeList"><span class="bold">Fix:</span>&#160;Modified functionality so that occurrences and series deleted are removed from Calendar and display a Canceled status in the EMS&#160;Desktop Client.</p>
-                        <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=36104" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">36104</a><br />(For EMS&#160;Internal Use Only)</p>
+                        <p class="RNTitle">Outlook Add-in Recurring meeting changing time and resolving conflict - set up type and attendance not holding original booking details</p>
+                        <p class="RNBody">For a recurring meeting, if users modified the meeting time and resolved conflicts, the <span class="bold">Setup Type</span> and <span class="bold">Attendee Count</span> fields lost their original booking detail values, and users would need to reselect these values on the original room.</p>
+                        <p class="RNBodyBeforeList"><span class="bold">Fix:</span>&#160;Modified functionality so that when users modify the meeting time and resolve conflicts for a recurring meeting, the <span class="bold">Setup Type</span> and <span class="bold">Attendee Count</span> fields retain their original booking detail values.</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=34688&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">34688</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: left;">
-                        <p class="RNArea">Booking Violation Error</p>
+                        <p class="RNArea">Combo Room Issue</p>
                         <p>&#160;</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
-                        <p class="RNTitle">Error When Opening and Canceling Out While Creating an Outlook Booking</p>
-                        <p class="RNBody">Users who opened and then canceled out while trying to create a booking received a booking violation error modal, notifying them that fields were required.</p>
-                        <p class="RNBody"><span class="bold">Fix</span>:&#160;Modified functionality so that users who do not choose a room do not receive a booking violation error. </p>
-                        <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=36245" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">36245</a><br />(For EMS&#160;Internal Use Only)</p>
+                        <p class="RNTitle">Recurrence Outlook Reservation Reflecting Combo Room Name in Location Field after Component Room has been removed from the reservation</p>
+                        <p>Combo Room name is displayed in the Location Field. </p>
+                        <p>Expected Results: Combo Room should be removed from all aspects of the Reservation, and should not be displayed</p>
+                        <p class="RNBody">&#160;</p>
+                        <p class="RNBody"><span class="bold">Fix</span>:&#160;Modified functionality so that the combo room name is completely removed from the reservation and does not display in the Location field. </p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=36873&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">36873</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNArea">Attendee Availability</p>
-                        <p>&#160;</p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNTitle">Attendee Availability Was Not Updating</p>
-                        <p class="RNBody">When changing dates, the EMS&#160;for Outlook Add-in was not updating attendee availability. </p>
-                        <p class="RNBody"><span class="bold">Fix</span>:&#160;Modified functionality so that attendee availability was updated every time the date is changed. </p>
-                        <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=36492" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">36492</a><br />(For EMS&#160;Internal Use Only)</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows" style="text-align: left;">&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" style="text-align: left;">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows" style="text-align: left;">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows" style="text-align: left;">
                         <p class="RNTitle">Combo Rooms Not Booking Correctly</p>
                         <p class="RNBody">When booking combo rooms in the EMS&#160;for Outlook Add-in and adjusting the time, the combo room does not appear. </p>
                         <p class="RNBody"><span class="bold">Fix</span>:&#160;Modified functionality so that the booking time is updated and rooms display as booked. </p>
