@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xml:lang="en-us" MadCap:lastBlockDepth="10" MadCap:lastHeight="3063" MadCap:lastWidth="838" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../Resources/MasterPages/ReleaseNotes.flmsp');" MadCap:searchable="False">
+<html xml:lang="en-us" MadCap:lastBlockDepth="10" MadCap:lastHeight="2666" MadCap:lastWidth="838" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../Resources/MasterPages/ReleaseNotes.flmsp');" MadCap:searchable="False">
     <head>
         <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
         <link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
@@ -84,38 +84,23 @@
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNArea">Recurring Meetings</p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="text-align: left;" rowspan="2">
+                        <p class="RNArea">Recurring Reservations</p>
                         <p>&#160;</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNTitle">Outlook Add-in Recurring meeting changing time and resolving conflict - set up type and attendance not holding original booking details</p>
-                        <p class="RNBody">For a recurring meeting, if users modified the meeting time and resolved conflicts, the <span class="bold">Setup Type</span> and <span class="bold">Attendee Count</span> fields lost their original booking detail values, and users would need to reselect these values on the original room.</p>
-                        <p class="RNBodyBeforeList"><span class="bold">Fix:</span>&#160;Modified functionality so that when users modify the meeting time and resolve conflicts for a recurring meeting, the <span class="bold">Setup Type</span> and <span class="bold">Attendee Count</span> fields retain their original booking detail values.</p>
+                        <p class="RNTitle">Setup Type and Attendee Count Fields Not Retaining Original Booking Details Values After Resolving Conflicts in a Recurring Reservation</p>
+                        <p class="RNBody">When users modified the meeting time and resolved conflicts in a recurring reservation, the <span class="bold">Setup Type</span> and <span class="bold">Attendee Count</span> fields lost their original booking details values, and users would need to reselect these values on the original room.</p>
+                        <p class="RNBodyBeforeList"><span class="bold">Fix:</span>&#160;Modified functionality so that when users modify the meeting time and resolve conflicts in a recurring reservation, the <span class="bold">Setup Type</span> and <span class="bold">Attendee Count</span> fields retain their original booking details values.</p>
                         <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=34688&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">34688</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: left;">
-                        <p class="RNArea">Combo Room Issue</p>
-                        <p>&#160;</p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
-                        <p class="RNTitle">Recurrence Outlook Reservation Reflecting Combo Room Name in Location Field after Component Room has been removed from the reservation</p>
-                        <p>Combo Room name is displayed in the Location Field. </p>
-                        <p>Expected Results: Combo Room should be removed from all aspects of the Reservation, and should not be displayed</p>
-                        <p class="RNBody">&#160;</p>
-                        <p class="RNBody"><span class="bold">Fix</span>:&#160;Modified functionality so that the combo room name is completely removed from the reservation and does not display in the Location field. </p>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" style="text-align: left;">
+                        <p class="RNTitle">Combo Room Name Displayed in Location Field After Component Room Has Been Removed from a Recurring Reservation</p>
+                        <p class="RNBody">When users removed a component room and added a new room in a recurring reservation, the <span class="bold">Location </span>field on the .ICS file displayed the combo room name.  </p>
+                        <p class="RNBody"><span class="bold">Fix</span>:&#160;Modified functionality so that the combo room name is completely removed from the reservation and does not display in the <span class="bold">Location </span>field on the .ICS file. </p>
                         <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=36873&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">36873</a><br />(For EMS&#160;Internal Use Only)</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows" style="text-align: left;">&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNTitle">Combo Rooms Not Booking Correctly</p>
-                        <p class="RNBody">When booking combo rooms in the EMS&#160;for Outlook Add-in and adjusting the time, the combo room does not appear. </p>
-                        <p class="RNBody"><span class="bold">Fix</span>:&#160;Modified functionality so that the booking time is updated and rooms display as booked. </p>
-                        <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=36740" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">36740</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
             </tbody>
