@@ -10,7 +10,7 @@
     PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl">
     <TocEntry
       Title="Install EMS Automated Report Service"
-      Link="/Content/ServicesComponents/EMS Automated Report Service.htm"
+      Link="/Content/ServicesComponents/EMSAutomatedReportService.htm"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"

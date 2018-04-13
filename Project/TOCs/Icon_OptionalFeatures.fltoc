@@ -209,7 +209,7 @@
           Link="/Content/OptionalFeatures/Active Directory/OptFeat_HowTranslateEMSAnothLang.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
         <TocEntry
           Title="Install EMS Automated Report Service"
-          Link="/Content/ServicesComponents/EMS Automated Report Service.htm" />
+          Link="/Content/ServicesComponents/EMSAutomatedReportService.htm" />
         <TocEntry
           Title="Install EMS Check-in Notification Service"
           Link="/Content/ServicesComponents/EMS Check in Notification.htm" />
@@ -321,7 +321,7 @@
         Link="/Content/ServicesComponents/Introduction to Services and Components.htm">
         <TocEntry
           Title="Install EMS Automated Report Service"
-          Link="/Content/ServicesComponents/EMS Automated Report Service.htm" />
+          Link="/Content/ServicesComponents/EMSAutomatedReportService.htm" />
         <TocEntry
           Title="Install EMS Check-in Notification Service"
           Link="/Content/ServicesComponents/EMS Check in Notification.htm" />

@@ -673,7 +673,7 @@
           Link="/Content/ServicesComponents/InstallUpgradeEMSEmailNotificationSvc.htm"></TocEntry>
         <TocEntry
           Title="Install EMS Automated Report Service"
-          Link="/Content/ServicesComponents/EMS Automated Report Service.htm" />
+          Link="/Content/ServicesComponents/EMSAutomatedReportService.htm" />
       </TocEntry>
       <TocEntry
         Title="Cisco TMS Interface"
@@ -776,7 +776,7 @@
         Link="/Content/ServicesComponents/Introduction to Services and Components.htm">
         <TocEntry
           Title="Install EMS Automated Report Service"
-          Link="/Content/ServicesComponents/EMS Automated Report Service.htm" />
+          Link="/Content/ServicesComponents/EMSAutomatedReportService.htm" />
         <TocEntry
           Title="Install EMS Check-in Notification Service"
           Link="/Content/ServicesComponents/EMS Check in Notification.htm" />
@@ -1562,7 +1562,7 @@
           Link="/Content/OptionalFeatures/Active Directory/OptFeat_HowTranslateEMSAnothLang.htm"></TocEntry>
         <TocEntry
           Title="Install EMS Automated Report Service"
-          Link="/Content/ServicesComponents/EMS Automated Report Service.htm" />
+          Link="/Content/ServicesComponents/EMSAutomatedReportService.htm" />
         <TocEntry
           Title="Install EMS Check-in Notification Service"
           Link="/Content/ServicesComponents/EMS Check in Notification.htm" />
@@ -1674,7 +1674,7 @@
         Link="/Content/ServicesComponents/Introduction to Services and Components.htm">
         <TocEntry
           Title="Install EMS Automated Report Service"
-          Link="/Content/ServicesComponents/EMS Automated Report Service.htm" />
+          Link="/Content/ServicesComponents/EMSAutomatedReportService.htm" />
         <TocEntry
           Title="Install EMS Check-in Notification Service"
           Link="/Content/ServicesComponents/EMS Check in Notification.htm" />
