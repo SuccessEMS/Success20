@@ -1050,6 +1050,9 @@
           Title="EMS Web App and VEMS Authentication Options"
           Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_Authentication Options_WebAppVEMS.htm" />
       </TocEntry>
+      <TocEntry
+        Title="PDF"
+        Link="/Content/WebApp/A_V44.1/A_InstallationGuide/WebApp_Install_PDF.pdf" />
     </TocEntry>
     <TocEntry
       Title="EMS Mobile App"
@@ -1306,6 +1309,9 @@
           Title="Launch Master Calendar"
           Link="/Content/EMSMasterCalendar/V8/InstallationGuide/StartingMasterCalendar.htm" />
       </TocEntry>
+      <TocEntry
+        Title="PDF"
+        Link="/Content/Outlook/A_Install/Outlook_Install_PDF.pdf" />
     </TocEntry>
     <TocEntry
       Title="EMS Platform Services"
@@ -1319,6 +1325,8 @@
       <TocEntry
         Title="License Requirements for Platform Services"
         Link="/Content/EMSPlatformServices/A_InstallationGuide/Platform_LicenseRequirements.html" />
+      <TocEntry
+        Title="PDF" />
     </TocEntry>
     <TocEntry
       Title="EMS Exchange Room Integration (ERI)"

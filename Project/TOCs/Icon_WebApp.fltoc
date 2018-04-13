@@ -2,7 +2,8 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="Documentation for EMS Web App">
+    Title="Documentation for EMS Web App"
+    Link="/Content/WebApp/WebAppLandingPage.htm">
     <TocEntry
       Title="Installation Guide"
       Link="/Content/InstallGuides/3_WebApp/V44.1/3_Web Appv44.1 Home.htm">
