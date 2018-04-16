@@ -2,34 +2,18 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="Update21">
-    <TocEntry
-      Title="EMS Desktop Client Release Notes V44.1, Update 21"
-      Link="/Content/ReleaseNotes/Version44.1/Update21/EMSDesktopClient.htm"
-      MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-    <TocEntry
-      Title="EMS Campus Release Notes V44.1, Update 21"
-      Link="/Content/ReleaseNotes/Version44.1/Update21/EMSDesktopClient_AcademicPlanning.htm"
-      MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-    <TocEntry
-      Title="EMS Web App Release Notes V44.1, Update 21"
-      Link="/Content/ReleaseNotes/Version44.1/Update21/EMSWebApp.htm"
-      MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-    <TocEntry
-      Title="EMS for Outlook Release Notes V44.1, Update 21"
-      Link="/Content/ReleaseNotes/Version44.1/Update21/EMSForOutlook.htm"
-      MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-    <TocEntry
-      Title="EMS Room Sign App Release Notes V44.1, Update 21"
-      Link="/Content/ReleaseNotes/Version44.1/Update21/EMSRoomSignApp.htm"
-      MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-    <TocEntry
-      Title="EMS Master Calendar Release Notes V44.1, Update 21"
-      Link="/Content/ReleaseNotes/Version44.1/Update21/EMSMasterCalendar.htm"
-      MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-    <TocEntry
-      Title="EMS Platform Services Release Notes V44.1, Update 21"
-      Link="/Content/ReleaseNotes/Version44.1/Update21/EMSPlatformServices.htm"
-      MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-  </TocEntry>
+    Title="All Applications Parameters"
+    Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/AllApplicationParameters.htm"></TocEntry>
+  <TocEntry
+    Title="EMS Kiosk App Parameters"
+    Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/EMSKioskAppParameters.htm"
+    MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+  <TocEntry
+    Title="EMS Everyday User Parameters "
+    Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/EMSEverydayUserApplicationsParameters.htm"
+    MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+  <TocEntry
+    Title="EMS Desktop Client Parameters"
+    Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/EMSDesktopClientParameters.htm"
+    MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
 </CatapultToc>
