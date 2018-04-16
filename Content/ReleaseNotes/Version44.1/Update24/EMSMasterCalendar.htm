@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xml:lang="en-us" MadCap:lastBlockDepth="6" MadCap:lastHeight="4555" MadCap:lastWidth="890" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\ReleaseNotes.flmsp');" MadCap:searchable="False">
+<html xml:lang="en-us" MadCap:lastBlockDepth="6" MadCap:lastHeight="2779" MadCap:lastWidth="890" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\ReleaseNotes.flmsp');" MadCap:searchable="False">
     <head>
         <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
         <link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
@@ -44,60 +44,39 @@
             </thead>
             <tbody>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="RNArea">Subscription</p>
+                    </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p class="RNTitle">Booking Date/Time Changes Were Not Showing in Calendars Created through Subscription Function</p>
-                        <p>When using MC connector syncing events between EMS&#160;and Master CalendarNeed to have EMS and MC databases with events that are getting synced from EMS to MC</p>
-                        <p>Steps to Reproduce:</p>
-                        <p>1. Create a Reservation and Booking in EMS.</p>
-                        <p>2. Run the MC connector to 'sync' that event into a calendar in Master Calendar.</p>
-                        <p>3. Change the booking date (and time) in EMS to another date.</p>
-                        <p>4. Run the MC connector to change the date on the MC calendar.</p>
-                        <p>5. Go into the Calendar in Master Calendar to show that the date actually changed.</p>
-                        <p>6. Create a Subscription to the Calendar to feed into your Outlook Calendars.</p>
-                        <p>7. In your Outlook go to the Calendar that got created with that Subscription and to the date that the Event is supposed to be for. Note that it doesn't exist.</p>
-                        <p>8. Staying in Outlook and the same Calendar go to the date that the Event was originally made for and note that it exists there.</p>
-                        <p>Pre-Requisites: Need to have EMS and MC databases with events that are getting synced from EMS to MC</p>
-                        <p>Actual Results: The Subscription function seems to be reading from the GMT Date which is not getting updated when the date is changed in EMS.</p>
-                        <p>Expected Results: When the date of a booking that is synced into EMS by the MC Connector is changed in EMS and then the Connector runs it should also change the Event date on any Calendar that is using the Subscription functionality</p>
+                        <p class="RNTitle">Booking Date/Time Changes Were Not Showing in Calendars Updated through Subscription Function</p>
+                        <p class="RNBody">For users running Master Calendar connector to sync events from EMS&#160;to Master&#160;Calendar, booking date/time changes made in EMS&#160;were not showing in calendars updated through the subscription function.</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that booking date/time changes made in EMS&#160;will appear in calendars updated through the subscription function.</p>
                         <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=36022&amp;_a=edit&amp;triage=true" title="EMS Internal Use Only" alt="EMS Internal Use Only" class="RNRefHyper">36022</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p>Security</p>
+                        <p class="RNArea">Security</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p>EMS Master Calendar XSS Security vulnerability</p>
-                        <p>Master Calendar was susceptible to Reflective Cross Site Scripting (XSS)</p>
-                        <p>If I were to take any event URL from our instance of Master Calander, and</p>
-                        <p>add the following viewstate parameter</p>
-                        <p>&amp;__VIEWSTATE=%22%3E%3Cscript%3Ealert(150)%3C/script%3E</p>
-                        <p>, the URL would be considered Reflective XSS, and would be blocked on the</p>
-                        <p>browser. If possible, we would like to avoid this if possible.</p>
-                        <p>Expected Results: Block reflective XSS on the browser</p>
-                        <p>Note: You can get the MC8 Build out of jfrog, but you can find the MC7 Build here: \\fs01\Product Installers\Master Calendar\Master Calendar 7\Master Calendar [7.0.0.100]</p>
-                        <p>areas affected</p>
-                        <p>- All Pages before Initializing</p>
-                        <p>root cause</p>
-                        <p>- Master Calendar was never validating if query string variables were potentially .NET hidden fields. As a result, it was possible to "trick" the page into updating it's __VIEWSTATE.</p>
-                        <p>fix</p>
-                        <p>- Added a check to the Base page's PreInit event handler to verify that the query string doesn't contain any .NET hidden fields ("__EVENTTARGET", "__EVENTARGUMENT", "__VIEWSTATE", "__VIEWSTATEENCRYPTED", "__EVENTVALIDATION"), and if it does it will throw an error and display the following error message: Detected a potentially dangerous character in a .NET hidden field value. Field and HtmlEncoded value was {0} = {1}</p>
+                        <p class="RNTitle">EMS Master Calendar Reflective Cross Site Scripting (XSS) Vulnerability</p>
+                        <p>Master Calendar was susceptible to Reflective Cross Site Scripting (XSS).</p>
+                        <p><span class="bold">Fix:</span>&#160;Modified functionality so that Master Calendar is not susceptible to reflective XSS.</p>
                         <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=36985&amp;_a=edit&amp;triage=true" title="EMS Internal Use Only" alt="EMS Internal Use Only" class="RNRefHyper">36985</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
-                        <p>List View Expand / Collapse Event Button</p>
+                        <p class="RNArea">List View Expand / Collapse Event Button</p>
                         <p>&#160;</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
-                        <p>Master Calendar Accessibility Issues, Failing to comply with ADA compliance</p>
+                        <p class="RNTitle">Master Calendar Accessibility Issue—Tabbing Not Functioning Properly</p>
+                        <p>In list view, users were unable to tab and expand/collapse content on the Master Calendar site, which created ADA&#160;accessibility issues. </p>
                         <p>Steps to Reproduce:</p>
                         <p>browse to MasterCalendar site in chrome</p>
                         <p>On the homepage in list view</p>
                         <p>Start tabbing through the page. When you get to "more" on any event pressing enter does not expand the window.</p>
-                        <p>&#160;</p>
                         <p>In Firefox navigate to the MC home page.</p>
                         <p>In list view again. you can not tab past the expand Icon on any event without hitting enter.</p>
                         <p>Actual Results: Tabbing not working correctly, and because of this, it's not ADA compliant.</p>
