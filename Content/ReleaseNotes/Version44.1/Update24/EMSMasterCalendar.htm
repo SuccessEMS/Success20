@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xml:lang="en-us" MadCap:lastBlockDepth="6" MadCap:lastHeight="2779" MadCap:lastWidth="890" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\ReleaseNotes.flmsp');" MadCap:searchable="False">
+<html xml:lang="en-us" MadCap:lastBlockDepth="6" MadCap:lastHeight="1954" MadCap:lastWidth="890" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\ReleaseNotes.flmsp');" MadCap:searchable="False">
     <head>
         <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
         <link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
@@ -60,31 +60,20 @@
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
                         <p class="RNTitle">EMS Master Calendar Reflective Cross Site Scripting (XSS) Vulnerability</p>
-                        <p>Master Calendar was susceptible to Reflective Cross Site Scripting (XSS).</p>
-                        <p><span class="bold">Fix:</span>&#160;Modified functionality so that Master Calendar is not susceptible to reflective XSS.</p>
+                        <p>EMS&#160;Master Calendar was susceptible to Reflective Cross Site Scripting (XSS).</p>
+                        <p><span class="bold">Fix:</span>&#160;Modified functionality so that Master Calendar is not susceptible to Reflective XSS.</p>
                         <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=36985&amp;_a=edit&amp;triage=true" title="EMS Internal Use Only" alt="EMS Internal Use Only" class="RNRefHyper">36985</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
-                        <p class="RNArea">List View Expand / Collapse Event Button</p>
+                        <p class="RNArea">List View Expand/Collapse Event Button</p>
                         <p>&#160;</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
-                        <p class="RNTitle">Master Calendar Accessibility Issue—Tabbing Not Functioning Properly</p>
-                        <p>In list view, users were unable to tab and expand/collapse content on the Master Calendar site, which created ADA&#160;accessibility issues. </p>
-                        <p>Steps to Reproduce:</p>
-                        <p>browse to MasterCalendar site in chrome</p>
-                        <p>On the homepage in list view</p>
-                        <p>Start tabbing through the page. When you get to "more" on any event pressing enter does not expand the window.</p>
-                        <p>In Firefox navigate to the MC home page.</p>
-                        <p>In list view again. you can not tab past the expand Icon on any event without hitting enter.</p>
-                        <p>Actual Results: Tabbing not working correctly, and because of this, it's not ADA compliant.</p>
-                        <p>Expected Results: Tabbing to function properly for all aspects of MC. </p>
-                        <p>root cause</p>
-                        <p>- The button was using knockout's keypress handler to determine which key was pressed, and then open / close the accordion accordingly. However, in firefox this handler swallowed any keypress that wasn't part of the if statement (enter / spacebar). As a result, the tab key press was always being prevented.</p>
-                        <p>fix</p>
-                        <p>- Changed the Expand / Collapse button to use the global mc_keypressHandlerAsButton() handler</p>
+                        <p class="RNTitle">EMS&#160;Master Calendar ADA&#160;Compliance Issue—Tabbing Not Functioning Properly</p>
+                        <p class="RNBody">EMS&#160;Master Calendar had an ADA&#160;compliance issue because tabbing was not functioning properly in list view, and users were unable to expand/collapse content on the Master Calendar site. </p>
+                        <p class="RNBody"><span class="bold">Fix:&#160;</span>Modified functionality so that tabbing functions properly in EMS&#160;Master Calendar.</p>
                         <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=37211&amp;_a=edit&amp;triage=true" title="EMS Internal Use Only" alt="EMS Internal Use Only" class="RNRefHyper">37211</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
