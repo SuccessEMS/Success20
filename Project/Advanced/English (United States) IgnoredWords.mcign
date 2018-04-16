@@ -211,4 +211,5 @@
     <Word>event/reserved</Word>
     <Word>NetworkID</Word>
     <Word>EMS\username</Word>
+    <Word>tblRegistry</Word>
 </IgnoredWordsDictionary>
