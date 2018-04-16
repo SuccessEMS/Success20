@@ -194,4 +194,21 @@
     <Word Comment="">http://yourserver/MCAPI/MCAPIService.asmx?WSDL</Word>
     <Word>MOBILE_HelpLinkLabel</Word>
     <Word>MOBILE_QueryStringKey</Word>
+    <Word>10/hour</Word>
+    <Word>TLS</Word>
+    <Word>SSL3</Word>
+    <Word>date/time</Word>
+    <Word>http://localhost/Pam44-1/Service.asmx</Word>
+    <Word>Phone/Fax</Word>
+    <Word>Closure/Weekend</Word>
+    <Word>ICS</Word>
+    <Word>Gmail</Word>
+    <Word>his/her</Word>
+    <Word>Occurring/Past</Word>
+    <Word>Notifications/Automated</Word>
+    <Word>date/time/room</Word>
+    <Word>notes/special</Word>
+    <Word>event/reserved</Word>
+    <Word>NetworkID</Word>
+    <Word>EMS\username</Word>
 </IgnoredWordsDictionary>
