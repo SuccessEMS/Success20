@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xml:lang="en-us" MadCap:lastBlockDepth="10" MadCap:lastHeight="2666" MadCap:lastWidth="838" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../Resources/MasterPages/ReleaseNotes.flmsp');" MadCap:searchable="False">
+<html xml:lang="en-us" MadCap:lastBlockDepth="10" MadCap:lastHeight="2573" MadCap:lastWidth="838" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../Resources/MasterPages/ReleaseNotes.flmsp');" MadCap:searchable="False">
     <head>
         <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
         <link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
@@ -31,7 +31,7 @@
         </table>
         <h2>Enhancement</h2>
         <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');width: 100%;margin-left: 0;margin-right: auto;" cellspacing="0">
-            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 111px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 170px;" />
             <col class="TableStyle-PatternedRows-Column-Regular" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
@@ -49,9 +49,8 @@
                         <p class="RNArea">Meeting Planner</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" style="text-align: left;">
-                        <p class="RNTitle">Check for Meeting Planner ID</p>
-                        <p class="RNBody">EMS for Outlook should check for and account for any existing Meeting Planner ID, in order to let a former meeting planner customer book rooms in EMS</p>
-                        <p class="RNBody">EMS for Outlook should not error when opening a meeting previously created with MP. EMS for Outlook should also not error out if its reservation is 'disconnected', the user should be allowed to book a new room(s)</p>
+                        <p class="RNTitle">EMS for Outlook Add-in Checks for Meeting Planner IDs</p>
+                        <p class="RNBody">EMS for Outlook add-in now checks for existing Meeting Planner IDs to allow Meeting Planner users to book rooms in EMS.</p>
                         <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=37309&amp;_a=edit&amp;triage=false" title="EMS Internal Use Only" alt="EMS Internal Use Only" class="RNRefHyper">37309</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
@@ -90,16 +89,16 @@
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
                         <p class="RNTitle">Setup Type and Attendee Count Fields Not Retaining Original Booking Details Values After Resolving Conflicts in a Recurring Reservation</p>
-                        <p class="RNBody">When users modified the meeting time and resolved conflicts in a recurring reservation, the <span class="bold">Setup Type</span> and <span class="bold">Attendee Count</span> fields lost their original booking details values, and users would need to reselect these values on the original room.</p>
+                        <p class="RNBody">When users modified the meeting time and resolved conflicts in a recurring reservation, the <span class="bold">Setup Type</span> and <span class="bold">Attendee Count</span> fields lost their original booking details values, and users needed to reselect these values on the original room.</p>
                         <p class="RNBodyBeforeList"><span class="bold">Fix:</span>&#160;Modified functionality so that when users modify the meeting time and resolve conflicts in a recurring reservation, the <span class="bold">Setup Type</span> and <span class="bold">Attendee Count</span> fields retain their original booking details values.</p>
                         <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=34688&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">34688</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" style="text-align: left;">
-                        <p class="RNTitle">Combo Room Name Displayed in Location Field After Component Room Has Been Removed from a Recurring Reservation</p>
+                        <p class="RNTitle">Combo Room Name Displayed in Location Field After Component Room Had Been Removed from a Recurring Reservation</p>
                         <p class="RNBody">When users removed a component room and added a new room in a recurring reservation, the <span class="bold">Location </span>field on the .ICS file displayed the combo room name.  </p>
-                        <p class="RNBody"><span class="bold">Fix</span>:&#160;Modified functionality so that the combo room name is completely removed from the reservation and does not display in the <span class="bold">Location </span>field on the .ICS file. </p>
+                        <p class="RNBody"><span class="bold">Fix</span>:&#160;Modified functionality so that the combo room name is removed from the reservation and does not display in the <span class="bold">Location </span>field on the .ICS file. </p>
                         <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=36873&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">36873</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
