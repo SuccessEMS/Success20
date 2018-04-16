@@ -667,9 +667,22 @@ div.img-row
 	
 }
 
+div.img-row2
+{
+	
+}
+
 div.img-side-by-side
 {
 	width: 23%;
+	float: left;
+	margin: 5px;
+	padding: 5px;
+}
+
+div.img-side-by-side2
+{
+	width: 47%;
 	float: left;
 	margin: 5px;
 	padding: 5px;
@@ -698,6 +711,12 @@ div.img-row::after
 	display: table;
 }
 
+div.img-row2::after
+{
+	content: "";
+	clear: both;
+	display: table;
+}
 
 img.Thumbnail-side-by-side
 {
@@ -1844,6 +1863,136 @@ ul ul li::before
 
 /* **********************    PDF Button    ***********************************  */
 /****************************************************************************/
+
+/******************** Notes in Tables *********************************/
+/*p.note-table
+{
+	font-size: 14px;
+	line-height: 20px;
+	margin: 20px, 20px, 20px, 20px;
+	padding: 20px, 20px, 20px, 20px;
+	border: 1px solid #ccc;
+	border-color: #afbd22;
+	border-left-width: 3px;
+	border-radius: 3px;
+}*/
+
+p.table-note
+{
+	font-size: 14px;
+	line-height: 20px;
+	margin: 15px, 10px, 15px, 10px;
+	padding: 15px, 15px, 15px, 15px;
+	border-top: 1px;
+	border-bottom: 1px;
+	border-style: solid;
+	border-color: #afbd22;
+}
+
+p.table-tip
+{
+	font-size: 14px;
+	line-height: 20px;
+	margin: 15px, 10px, 15px, 10px;
+	padding: 15px, 15px, 15px, 15px;
+	border-top: 1px;
+	border-bottom: 1px;
+	border-style: solid;
+	border-color: #00477f;
+}
+
+p.table-warning
+{
+	font-size: 14px;
+	line-height: 20px;
+	margin: 15px, 10px, 15px, 10px;
+	padding: 15px, 15px, 15px, 15px;
+	border-top: 1px;
+	border-bottom: 1px;
+	border-style: solid;
+	border-color: #ee2e23;
+}
+
+p.table-important
+{
+	font-size: 14px;
+	line-height: 20px;
+	margin: 15px, 10px, 15px, 10px;
+	padding: 15px, 15px, 15px, 15px;
+	border-top: 1px;
+	border-bottom: 1px;
+	border-style: solid;
+	border-color: #f6c343;
+}
+
+.table-note
+{
+	margin: 15px, 10px, 15px, 10px;
+	padding: 15px, 15px, 15px, 15px;
+	border-top: 1px;
+	border-bottom: 1px;
+	border-style: solid;
+	border-color: #afbd22;
+}
+
+.table-note p
+{
+	font-size: 14px;
+	line-height: 20px;
+	margin-bottom: 10px;
+}
+
+.table-tip
+{
+	margin: 15px, 10px, 15px, 10px;
+	padding: 15px, 15px, 15px, 15px;
+	border-top: 1px;
+	border-bottom: 1px;
+	border-style: solid;
+	border-color: #00477f;
+}
+
+.table-tip p
+{
+	font-size: 14px;
+	line-height: 20px;
+	margin-bottom: 10px;
+}
+
+.table-warning
+{
+	margin: 15px, 10px, 15px, 10px;
+	padding: 15px, 15px, 15px, 15px;
+	border-top: 1px;
+	border-bottom: 1px;
+	border-style: solid;
+	border-color: #ee2e23;
+}
+
+.table-warning p
+{
+	font-size: 14px;
+	line-height: 20px;
+	margin-bottom: 10px;
+}
+
+.table-important
+{
+	margin: 15px, 10px, 15px, 10px;
+	padding: 15px, 15px, 15px, 15px;
+	border-top: 1px;
+	border-bottom: 1px;
+	border-style: solid;
+	border-color: #f6c343;
+}
+
+.table-important p
+{
+	font-size: 14px;
+	line-height: 20px;
+	margin-bottom: 10px;
+}
+
 /* **********************    Notification Box    ***********************************  */
 
 .notifications
