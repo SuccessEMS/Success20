@@ -2148,8 +2148,14 @@
         Title="System Parameters"
         Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/SystemParam.htm">
         <TocEntry
-          Title="EMS Desktop Client Parameters"
-          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/EMSSystemParam.html" />
+          Title="All Applications"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/AllApplicationParameters.htm" />
+        <TocEntry
+          Title="EMS Desktop Client Parameters" />
+        <TocEntry
+          Title="EMS Everday User Application Parameters" />
+        <TocEntry
+          Title="EMS Kiosk Parameters" />
         <TocEntry
           Title="EMS Web App Parameters"
           Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/WebAppParam.htm" />
