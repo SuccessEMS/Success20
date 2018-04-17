@@ -5,7 +5,7 @@
     Title="EMS Release Notes">
     <TocEntry
       Title="Browse by Update #"
-      Link="/Content/Regics_RN_4.0.htm">
+      Link="/Content/V44.1_ReleaseNotes.htm">
       <TocEntry
         Title="Update 23.1"
         Link="/Content/V44.1_ReleaseNotes.htm#Update23.1"
@@ -237,7 +237,6 @@
     </TocEntry>
     <TocEntry
       Title="Older Versions"
-      Link="/Content/Glossary/1_Glossary.htm"
       Skin="/Project/Skins/HomeSearchBar.flskn"
       StartSection="false"
       SectionNumberReset="continue"
