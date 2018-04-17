@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <CatapultToc
   Version="1">
   <TocEntry
@@ -253,7 +253,7 @@
         Link="/Content/V43_ReleaseNotes.htm" />
       <TocEntry
         Title="Browse Older Release Notes by Product"
-        Link="/Content/ReleaseNotes/BrowsebyProduct.htm">
+        Link="/Content/ReleaseNotes/BrowsebyProduct_OR.htm">
         <TocEntry
           Title="EMS Desktop Client V44"
           Link="/Content/ReleaseNotes/EMSDesktopClient_V44.htm"></TocEntry>
