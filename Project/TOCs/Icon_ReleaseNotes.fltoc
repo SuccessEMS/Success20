@@ -252,7 +252,8 @@
         Title="Release Notes V43"
         Link="/Content/V43_ReleaseNotes.htm" />
       <TocEntry
-        Title="Browse Older Release Notes by Product">
+        Title="Browse Older Release Notes by Product"
+        Link="/Content/ReleaseNotes/BrowsebyProduct.htm">
         <TocEntry
           Title="EMS Desktop Client V44"
           Link="/Content/ReleaseNotes/EMSDesktopClient_V44.htm"></TocEntry>
