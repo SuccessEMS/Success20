@@ -1544,8 +1544,8 @@
         ChapterNumberReset="continue"
         PageNumber="1">
         <TocEntry
-          Title="EMS Desktop Client Parameters"
-          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/EMSSystemParam.html"
+          Title="All Applications Tab Parameters"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/AllApplicationParameters.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -1555,8 +1555,8 @@
           ChapterNumberReset="continue"
           PageNumber="1" />
         <TocEntry
-          Title="EMS Web App Parameters"
-          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/WebAppParam.htm"
+          Title="Desktop Client Tab Parameters"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/EMSDesktopClientParameters.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -1566,8 +1566,8 @@
           ChapterNumberReset="continue"
           PageNumber="1" />
         <TocEntry
-          Title="EMS for Outlook Parameters"
-          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/OutlookSysParam.htm"
+          Title="Everyday User Applications Tab Parameters"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/EMSEverydayUserApplicationsParameters.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -1577,19 +1577,8 @@
           ChapterNumberReset="continue"
           PageNumber="1" />
         <TocEntry
-          Title="EMS Kiosk Parameters"
-          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/KioskParam.htm"
-          BreakType="chapter"
-          StartSection="false"
-          PageNumberReset="continue"
-          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/ChaptersLandscape8_5X11.flpgl"
-          SectionNumberReset="continue"
-          VolumeNumberReset="same"
-          ChapterNumberReset="continue"
-          PageNumber="1" />
-        <TocEntry
-          Title="EMS Mobile App Parameters"
-          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/MobileAppParam.htm"
+          Title="Kiosk Tab Parameters"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/EMSKioskAppParameters.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
