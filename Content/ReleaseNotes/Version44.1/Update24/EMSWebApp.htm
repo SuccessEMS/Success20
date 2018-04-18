@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xml:lang="en-us" MadCap:lastBlockDepth="10" MadCap:lastHeight="6254" MadCap:lastWidth="763" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../Resources/MasterPages/ReleaseNotes.flmsp');" MadCap:searchable="False">
+<html xml:lang="en-us" MadCap:lastBlockDepth="10" MadCap:lastHeight="5937" MadCap:lastWidth="763" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../Resources/MasterPages/ReleaseNotes.flmsp');" MadCap:searchable="False">
     <head>
         <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title>EMS Web App Release Notes V44.1 Update 24</title>
         <link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
@@ -31,8 +31,8 @@
         </table>
         <h2>Enhancements</h2>
         <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');width: 100%;margin-left: 0;margin-right: auto;" cellspacing="0">
-            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 146px;" />
-            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 369px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 197px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 546px;" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1" style="text-align: left;">
@@ -92,8 +92,8 @@
         </table>
         <h2>Fixes</h2>
         <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');width: 100%;margin-left: 0;margin-right: auto;" cellspacing="0">
-            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 146px;" />
-            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 206px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 549px;" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1" style="text-align: left;">
@@ -142,29 +142,17 @@
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNArea">Security</p>
-                        <p>&#160;</p>
-                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="text-align: left;">&#160;</td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNTitle">Vulnerability on the 'Dismissed Mobile' Entity</p>
-                        <p class="RNBody">Users in the mobile version of the EMS&#160;Web App were experiencing a vulnerability under the 'Dismissed Mobile' entity. </p>
-                        <p class="RNBody"><span class="bold">Fix</span>: Modified functionality so that the ‘Dismissed Mobile’ entity is stored to local storage rather than stored as a cookie.  Values in local storage are encoded to protect against XSS attacks.</p>
-                        <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=36758" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">36758</a><br />(For EMS&#160;Internal Use Only)</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: left;">&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
                         <p class="RNTitle">EMS&#160;Mobile-Specific URL&#160;Parameter for Displaying Mobile App Banner Not Respected </p>
                         <p class="RNBody">The default sample/starter url in the description field was not displaying in the parameter value list until the parameter was actually opened and closed. The Mobile-Specific URL&#160;parameter appeared blank on the parameter list, but there was actually a value entered. The EMS&#160;Web App was recognizing the default URL and displaying the banner.</p>
                         <p class="RNBody"><span class="bold">Fix</span>: Modified functionality so that the Mobile-Specific URL&#160;parameter is respected. </p>
                         <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/Aspen/_queries?id=36860&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">36860</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows" style="text-align: left;">&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows" style="text-align: left;">
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows" style="text-align: left;">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" style="text-align: left;">
                         <p class="RNTitle">Required Text Boxes Not Respected </p>
                         <p class="RNBody">In a text type user-defined field (UDF), users were able to hit the space bar in the text field and create a reservation with a required UDF&#160;containing only white space. Users should have received a warning window that a UDF is required.</p>
                         <p class="RNBody"><span class="bold">Fix</span>: Modified functionality so that users receive a warning window that a UDF is required and cannot create a reservation with white space as a UDF&#160;entry. </p>

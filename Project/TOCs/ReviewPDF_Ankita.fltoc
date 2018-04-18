@@ -2,8 +2,8 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="SAML Authentication"
-    Link="/Content/EMSMobileApp/A_InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_SAMLAuthen.html" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    Title="Mobile App Release Notes U24"
+    Link="/Content/ReleaseNotes/Version44.1/Update24/EMSMobileApp.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
     ChapterNumberReset="reset"
     ChapterNumber="1"
     StartSection="false"
@@ -13,4 +13,10 @@
     PageNumberReset="reset"
     PageNumber="1"
     PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"></TocEntry>
+  <TocEntry
+    Title="Platform Services Release Notes U24"
+    Link="/Content/ReleaseNotes/Version44.1/Update24/EMSPlatformServices.htm"></TocEntry>
+  <TocEntry
+    Title="Room Sign App Release Notes U24"
+    Link="/Content/ReleaseNotes/Version44.1/Update24/EMSRoomSignApp.htm" />
 </CatapultToc>
