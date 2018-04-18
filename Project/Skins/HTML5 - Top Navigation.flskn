@@ -455,8 +455,8 @@
   </Stylesheet>
   <WebHelpOptions
     NavigationPanePosition="Left"
-    TopMenuDepth="2"
-    OffCanvasMenuStyle="Drilldown" />
+    TopMenuDepth="3"
+    OffCanvasMenuStyle="Accordion" />
   <Strings>
     <Stylesheet
       lang="en-us">
