@@ -463,20 +463,17 @@
         Title="System Parameters"
         Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/SystemParam.htm">
         <TocEntry
+          Title="All Applications Parameters"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/AllApplicationParameters.htm" />
+        <TocEntry
           Title="EMS Desktop Client Parameters"
-          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/EMSSystemParam.html" />
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/EMSDesktopClientParameters.htm" />
         <TocEntry
-          Title="EMS Web App Parameters"
-          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/WebAppParam.htm" />
-        <TocEntry
-          Title="EMS for Outlook Parameters"
-          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/OutlookSysParam.htm" />
+          Title="EMS Everday User Application Parameters"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/EMSEverydayUserApplicationsParameters.htm" />
         <TocEntry
           Title="EMS Kiosk Parameters"
-          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/KioskParam.htm" />
-        <TocEntry
-          Title="EMS Mobile App Parameters"
-          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/MobileAppParam.htm" />
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/EMSKioskAppParameters.htm" />
       </TocEntry>
       <TocEntry
         Title="Import Files to Streamline Data Entry"
