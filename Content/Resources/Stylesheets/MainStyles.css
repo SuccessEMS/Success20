@@ -781,7 +781,7 @@ ul.navigation ul.sub-menu > li:last-child
 
 ul.navigation > li:first-child
 {
-	display: none;
+	display: inline-block;
 }
 
 ul.navigation > li.has-children:after
