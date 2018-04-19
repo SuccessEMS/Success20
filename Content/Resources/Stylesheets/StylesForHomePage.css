@@ -865,7 +865,7 @@ img
 /* Top navigation css  */
 ul.navigation > li:first-child
 {
-	display: none;
+	display: inline-block;
 }
 
 ul.navigation li > a
