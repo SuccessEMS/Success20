@@ -2,7 +2,7 @@
 <CatapultTarget
   Version="2"
   Comment="Preview Draft"
-  Type="PDF"
+  Type="MsWord"
   Destinations=""
   GlossaryTermConversion="marked"
   MasterToc="/Project/TOCs/ReleaseNotesPreview.fltoc"
@@ -18,7 +18,7 @@
     ExpandingTextConversion="expand"
     PopupConversion="remove-body"
     GenerateTOCProxy="false"
-    EnableTrackedChanges="true" />
+    EnableTrackedChanges="false" />
   <DocumentProperties
     Title="Preview Draft"
     Author="EMS Software" />

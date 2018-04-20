@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xml:lang="en-us" MadCap:lastBlockDepth="10" MadCap:lastHeight="4972" MadCap:lastWidth="831" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../Resources/MasterPages/ReleaseNotes.flmsp');" MadCap:searchable="False">
+<html xml:lang="en-us" MadCap:lastBlockDepth="10" MadCap:lastHeight="4972" MadCap:lastWidth="832" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../Resources/MasterPages/ReleaseNotes.flmsp');" MadCap:searchable="False">
     <head>
         <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title>EMS Web App Release Notes V44.1 Update 24</title>
         <link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
@@ -70,22 +70,26 @@
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" rowspan="2">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
                         <p class="RNArea">Skype for Business</p>
                         <p>&#160;</p>
                         <p>&#160;</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNTitle">URL-Less Autodiscover Flow for Skype for Business</p>
-                        <p class="RNBody">For standard customers, Skype for Business URL discover can be performed using the user's credentials. For more information, click <a href="https://ucwa.skype.com/documentation/GettingStarted-RootURL">here</a>. </p>
-                        <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/Aspen/_queries?id=37563&amp;_a=edit&amp;fullScreen=true&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">37563</a><br />(For EMS&#160;Internal Use Only)</p>
+                        <p class="RNTitle">Support for Complex On Premise Installations of Skype for Business Servers</p>
+                        <p class="RNBody">On premise installations of multiple Skype for Business servers is now supported by Web App.</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/Aspen/_queries?id=37563&amp;_a=edit&amp;fullScreen=true&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">37563</a> and <a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/Aspen/_queries?id=37566&amp;_a=edit&amp;fullScreen=true&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">37566</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                        <p class="RNArea">Skype for Business Autodiscovery</p>
+                        <p>&#160;</p>
+                    </td>
                     <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" style="text-align: left;">
-                        <p class="RNTitle">Fallback for Discovery </p>
-                        <p class="RNBody">If traditional discovery fails, there is now a collection of Skype for Business discovery URLs. </p>
-                        <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/Aspen/_queries?id=37566&amp;_a=edit&amp;fullScreen=true&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">37566</a><br />(For EMS&#160;Internal Use Only)</p>
+                        <p class="RNTitle">Backup Option If Traditional Discovery Fails</p>
+                        <p class="RNBody">A collection of Skype for business discovery URLs are now stored for use if traditional discovery fails.</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/Aspen/_queries?id=37567&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">37567</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
             </tbody>
@@ -161,13 +165,13 @@
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNArea">Exchange Integration Web Service</p>
                         <p class="RNArea">Edit Reservation &gt; Attendees</p>
+                        <p class="RNArea">Exchange Integration Web Service</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows" style="text-align: left;">
                         <p class="RNTitle">Error When Adding Attendees After Selecting Notify&#160;Changed or Notify&#160;All</p>
                         <p class="RNBody">For EMS&#160;Cloud Services Customers using the EMS&#160;Web App, when users edited a reservation to add attendees and then selected <span class="bold">Notify Change</span> or <span class="bold">Notify All</span> from the Notify Attendees dialog, the following error displayed:&#160;"There was a problem updating attendees on the reservation."</p>
-                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that when users edit a reservation to add attendees to a reservation and then select <span class="bold">Notify Change</span> or <span class="bold">Notify All</span> from the Notify Attendees dialog, the  error message no longer displays, and attendees are notified. </p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that when users edit a reservation to add attendees to a reservation and then select <span class="bold">Notify Change</span> or <span class="bold">Notify All</span>, the  error message no longer displays, and attendees are notified. </p>
                         <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=37816&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">37816</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
