@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xml:lang="en-us" MadCap:lastBlockDepth="10" MadCap:lastHeight="8246" MadCap:lastWidth="832" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../Resources/MasterPages/ReleaseNotes.flmsp');" MadCap:searchable="False">
+<html xml:lang="en-us" MadCap:lastBlockDepth="10" MadCap:lastHeight="3931" MadCap:lastWidth="832" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../Resources/MasterPages/ReleaseNotes.flmsp');" MadCap:searchable="False">
     <head>
         <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
         <link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
@@ -106,106 +106,36 @@
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="RNArea">Delegates</p>
+                    </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
-                        <p>More than one delegate, reservations made in EMSfor Outlook, conflict popup shows for more than just the delegate making reservation</p>
-                        <p>Pre-Requisites:</p>
-                        <p>-Users A, B and C.</p>
-                        <p>-Users B and C will be delegate's of User A</p>
-                        <p>Steps to Reproduce:</p>
-                        <p>Steps to reproduce issue:</p>
-                        <p>Set up delegate 1 and delegate 2 everyday users of some other third person.</p>
-                        <p>Make sure that delegate 1 and delegate 2 are logged into Outlook before beginning any testing (THIS STEP IS CRITICAL TO SEEING ANY OF THE BELOW BEHAVIOR)</p>
-                        <p>Delegate 1 makes new appointment on the third person’s calendar</p>
-                        <p>Delegate 1 clicks and drags entire appointment to new time when they know the room is busy</p>
-                        <p>Delegate 2 receives conflict resolution screen</p>
-                        <p>Delegate 2 MUST make a room selection or skip:</p>
-                        <p>When they make a room selection: delegate 1 calendar is updated as expected</p>
-                        <p>If delegate 2 hits skip: the room is removed</p>
-                        <p>Upon second edit through click and drag (delegate 1), everything behaves as expected.</p>
-                        <p>Delegate 2 does not get the pop up</p>
-                        <p>Upon a third edit through click and drag</p>
-                        <p>Delegate 1 gets the pop up this time:</p>
-                        <p>If no selection is made, the booking stays at the date/time it was originally scheduled for</p>
-                        <p>However, in delegate 1’s Outlook, the new appointment time is represented (with the wrong room)</p>
-                        <p>Change Room Scenario (using the Add-in)</p>
-                        <p>Delegate 1 makes new appointment on the third person’s calendar</p>
-                        <p>Delegate 1 edits appoint and changes time on the “Appointment screen”</p>
-                        <p>Conflict resolution pops up on delegate 2s Outlook</p>
-                        <p>Upon second edit, delegate 1 edits time with drag and drop (to a time when the room is busy)</p>
-                        <p>Conflict resolution pops up on delegate 2s Outlook</p>
-                        <p>Upon third edit, when delegate 1 is changing the time on the appointment tab:</p>
-                        <p>Conflict resolution pops up on delegate 2s Outlook</p>
-                        <p>Upon fourth edit, when delegate 1 is changing the time in the EMS for Outlook add-in button itself. Upon Save &amp; Close:</p>
-                        <p>Conflict resolution pops up on delegate 2s Outlook</p>
-                        <p>Actual Results: ##results##</p>
-                        <p>Expected Results: Only user making the change should get a pop up.</p>
-                        <p>Workaround: Luis</p>
-                        <p>Customer Reported on: 04/02/2018</p>
-                        <p>Attachments: ##attachments##</p>
-                        <p>Additional notes:</p>
-                        <p>-We were able to replicate the behavior with the following:</p>
-                        <p>.Myself and Brandi were Delegates of Matt Luther.</p>
-                        <p>.Matt created moved a reservation to create a conflict.</p>
-                        <p>.I received conflict window pop up.</p>
-                        <p>Acceptance criteria:&#160;conflict resolution modal should only pop up on screen of user who triggers conflict</p>
+                        <p class="RNTitle">Conflict Resolution Dialog Appeared to Other Delegates Than the Delegate Making the Reservation</p>
+                        <p class="RNBody">For users with more than one delegate, if one delegate made a reservation that resulted in a conflict, the Conflict Resolution dialog would appear for all delegates logged into Outlook instead of just the delegate making the reservation. </p>
+                        <p class="RNBody"><span class="bold">Fix:&#160;</span>Modified functionality so that when a delegate makes a reservation that results in a conflict, the Conflict Resolution dialog only appears for the delegate making the reservation.</p>
                         <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=37766&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">37766</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="RNArea">Edit Reservation</p>
+                    </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
-                        <p>Event time is not changed in DC, if user dragged reservation to any time with cache enable.</p>
-                        <p>Test Steps:</p>
-                        <p>1. Ensure that Outlook has cache mod.(cache is enable)</p>
-                        <p>2. Create a new reservation with any room.</p>
-                        <p>3. Drag&amp;drop this reservation to any time.</p>
-                        <p>4. Verify event time in DC.</p>
-                        <p>Actual result:</p>
-                        <p>Event time is not changed in DC.</p>
-                        <p>Expected result:</p>
-                        <p>Event time is changed in DC.</p>
+                        <p class="RNTitle">Reservation Time Changes Made via Drag-and-Drop in Microsoft Outlook Were Not Showing in EMS&#160;Desktop Client</p>
+                        <p class="RNBody">For users with cache mode enabled in Microsoft Outlook, if users changed a reservation's time  via drag-and-drop in Microsoft Outlook, the change did not show in EMS&#160;Desktop Client.</p>
+                        <p class="RNBody"><span class="bold">Fix:&#160;</span>Modified functionality so that if users change a reservation's time via drag-and-drop in Microsoft Outlook, the change will show in EMS&#160;Desktop Client.</p>
                         <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=38047&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">38047</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
                         <p class="RNArea">Exchange Integration Web Service</p>
+                        <p class="RNArea">EMS&#160;Web App &gt; Attendees</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNTitle">Poor Performance with Platform Services (EMS for Outlook Calls)</p>
-                        <p>testing performance of the outlook plugin. (Via calling platform services)</p>
-                        <p>The last test resulted in a spike in response times about halfway through the test. The operations team was involved with this test and Bill M wanted to have a SF case created so activity can be tracked.</p>
-                        <p>**Requested full report from Devin instead of the below screenshot**</p>
-                        <p>In order to improve the performance of the Exchange Integration Service under high load the logging framework is now logging events asynchronously to eliminate thread contention when logging to a single file.  Additionally new json properties have been added to the logging to make it easier to query results from splunk.</p>
-                        <p>To prove that nothing has been broken in the recent changes the following should be tested:</p>
-                        <p>Web App:</p>
-                        <p>GetUserAvailability (Exchange Availability Schedule View)</p>
-                        <p>LookupAttendees (autocomplete)</p>
-                        <p>Create/Edit/Cancel Meetings (verify exchange is updated)</p>
-                        <p>Manage Attendees (use the web app manage attendees option)</p>
-                        <p>Outlook:</p>
-                        <p>Create Outlook Appointment (Platform calls PAM to Convert the Outlook ID to EWS ID)</p>
-                        <p>Add Attendees to Schedule View (Outlook calls platform which calls PAM to lookup attendees and request user availability)</p>
-                        <p>Splunk logs can be viewed by using queries similar to the following:</p>
-                        <p>index=int customer=legal app=Ems.Exchange.Integration</p>
-                        <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=37815&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">37815</a><br />(For EMS&#160;Internal Use Only)</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
-                        <p class="RNArea">Exchange Integration Web Service</p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" style="text-align: left;">
-                        <p class="RNArea">Problem adding attendees when selecting 'notify changed' or 'notify all'</p>
-                        <p>Pre-Requisites: Cloud Service</p>
-                        <p>Steps to Reproduce:</p>
-                        <p>1. Create a reservation via the web app.</p>
-                        <p>2. Edit the reservation through 'My Events' and click on 'Manage Attendees'</p>
-                        <p>3. Add an attendee to the reservation.</p>
-                        <p>4. In the dialogue box that opens, select 'Notify changed' or 'Notify all'.</p>
-                        <p>Actual Results: An error comes up that states 'There was a problem updating attendees on the reservation'.</p>
-                        <p>Expected Results: No error and attendees are notified.</p>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows" style="text-align: left;">
+                        <p class="RNTitle">Error When Adding Attendees After Selecting Notify Changed or Notify All</p>
+                        <p class="RNBody">For EMS&#160;Cloud Services Customers using the EMS&#160;Web App, when users edited a reservation to add attendees and then selected <span class="bold">Notify Change</span> or <span class="bold">Notify All</span> from the Notify Attendees dialog, the following error displayed:&#160;"There was a problem updating attendees on the reservation."</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that when users edit a reservation to add attendees to a reservation and then select <span class="bold">Notify Change</span> or <span class="bold">Notify All</span> from the Notify Attendees dialog, the  error message no longer displays, and attendees are notified. </p>
                         <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=37816&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">37816</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
