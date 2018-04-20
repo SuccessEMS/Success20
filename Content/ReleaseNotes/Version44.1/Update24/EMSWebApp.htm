@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xml:lang="en-us" MadCap:lastBlockDepth="10" MadCap:lastHeight="5937" MadCap:lastWidth="763" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../Resources/MasterPages/ReleaseNotes.flmsp');" MadCap:searchable="False">
+<html xml:lang="en-us" MadCap:lastBlockDepth="10" MadCap:lastHeight="4972" MadCap:lastWidth="831" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../Resources/MasterPages/ReleaseNotes.flmsp');" MadCap:searchable="False">
     <head>
         <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title>EMS Web App Release Notes V44.1 Update 24</title>
         <link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
@@ -151,12 +151,24 @@
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows" style="text-align: left;">&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" style="text-align: left;">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: left;">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
                         <p class="RNTitle">Required Text Boxes Not Respected </p>
                         <p class="RNBody">In a text type user-defined field (UDF), users were able to hit the space bar in the text field and create a reservation with a required UDF&#160;containing only white space. Users should have received a warning window that a UDF is required.</p>
                         <p class="RNBody"><span class="bold">Fix</span>: Modified functionality so that users receive a warning window that a UDF is required and cannot create a reservation with white space as a UDF&#160;entry. </p>
                         <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/Aspen/_queries?id=37046&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">37046</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows" style="text-align: left;">
+                        <p class="RNArea">Exchange Integration Web Service</p>
+                        <p class="RNArea">Edit Reservation &gt; Attendees</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows" style="text-align: left;">
+                        <p class="RNTitle">Error When Adding Attendees After Selecting Notify&#160;Changed or Notify&#160;All</p>
+                        <p class="RNBody">For EMS&#160;Cloud Services Customers using the EMS&#160;Web App, when users edited a reservation to add attendees and then selected <span class="bold">Notify Change</span> or <span class="bold">Notify All</span> from the Notify Attendees dialog, the following error displayed:&#160;"There was a problem updating attendees on the reservation."</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that when users edit a reservation to add attendees to a reservation and then select <span class="bold">Notify Change</span> or <span class="bold">Notify All</span> from the Notify Attendees dialog, the  error message no longer displays, and attendees are notified. </p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=37816&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">37816</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
             </tbody>
