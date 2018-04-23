@@ -1643,24 +1643,12 @@
       Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_Introduction.htm">
       <TocEntry
         Title="Admin Interface Overview"
-        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_AdminInterfaceOverview.html" />
-      <TocEntry
-        Title="Calendar Management"
-        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_CalendarManagement.html">
+        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_AdminInterfaceOverview.html">
         <TocEntry
-          Title="Import Events Into Your Master Calendar System"
-          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ImportEvents.html">
-          <TocEntry
-            Title="Connect Master Calendar to Your EMS Database"
-            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ConnectMCtoEMSDatabase.html" />
-          <TocEntry
-            Title="Connect to Data Sources"
-            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ConnectDataSources.html" />
-        </TocEntry>
-      </TocEntry>
-      <TocEntry
-        Title="Manage an Event from the Event Summary Page"
-        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ManageEventfromEventSumPg.html">
+          Title="Events &amp; Special Dates" />
+        <TocEntry
+          Title="Manage an Event from the Event Summary Page"
+          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ManageEventfromEventSumPg.html"></TocEntry>
         <TocEntry
           Title="Add Events to Your Personal Email Calendar"
           Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/AddEventstoPersonalEmailCal.html" />
@@ -1679,6 +1667,20 @@
         <TocEntry
           Title="Un-Cancel an Event"
           Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_Un-CancelEvent.html" />
+      </TocEntry>
+      <TocEntry
+        Title="Calendar Management"
+        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_CalendarManagement.html">
+        <TocEntry
+          Title="Import Events Into Your Master Calendar System"
+          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ImportEvents.html">
+          <TocEntry
+            Title="Connect Master Calendar to Your EMS Database"
+            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ConnectMCtoEMSDatabase.html" />
+          <TocEntry
+            Title="Connect to Data Sources"
+            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ConnectDataSources.html" />
+        </TocEntry>
       </TocEntry>
       <TocEntry
         Title="Manage Events from the Manage Events Page"
