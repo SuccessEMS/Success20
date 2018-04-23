@@ -2,6 +2,7 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="Portal or Federated Authentication for Web App"
-    Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_PortalFederatedAuthen.html" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
+    Title="Cloud Installation"
+    Link="/Content/EMSCloudServices/Installation.htm"
+    StartSection="false" />
 </CatapultToc>
