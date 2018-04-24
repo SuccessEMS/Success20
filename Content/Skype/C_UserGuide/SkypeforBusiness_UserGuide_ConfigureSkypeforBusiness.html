@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="10" MadCap:lastHeight="18689" MadCap:lastWidth="854">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="10" MadCap:lastHeight="18572" MadCap:lastWidth="854">
     <head><title mt-export-translate="no">Configuring Skype for Business</title>
         <meta name="mt-type" value="application/x.deki-text" />
         <meta name="mt-unsafe" value="true" />
@@ -37,16 +37,13 @@
             <li>Skype for Business Online</li>
             <li>Skype for Business Server (On-premise) Version 2015</li>
         </ul>
-        <p>
-            <MadCap:annotation MadCap:createDate="2017-11-25T15:07:14.0589622-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Does this statement refer to the entire topic or just the deployment types?" MadCap:editor="Megan.Laub" MadCap:editDate="2017-11-25T15:07:26.8179811-07:00">Skype for Business must be configured in the EMS Desktop Client. The process below applies to both EMS Mobile App and EMS Web App.</MadCap:annotation>
-        </p>
         <h2><a name="Prerequisites"></a>Prerequisites</h2>
         <h4><a name="SkypeOnPremIntegration"></a>Skype for Business Server 2015 (On-premise) Integration</h4>
         <ol class="number-list">
             <li>Ensure a SHA2 and above Algorithm certificate is installed and functional.</li>
             <li>Provide Skype for Business AutoDiscover URL. This setting is used to discover the URL of the user's home pool. To provide a URL, navigate to the <span class="bold">Skype for Business AutoDiscover&#160;URL</span>&#160;parameter in EMS&#160;Desktop Client. In the Description tab, provide a URL. If a URL&#160;is not provided, EMS&#160;will build a URL based on the Everyday User's email address.  For more information, please click <a href="https://ucwa.skype.com/documentation/GettingStarted-RootURL">here</a>. </li>
         </ol>
-        <p class="box-note"><span class="bold">NOTES</span>:&#160;You can provide multiple URLs but they must be separated by commas. <br /><br />Ensure you can access the URL without certificate errors (EMS&#160;Software recommends using the Google Chrome browser). AutoDiscover URL should return an xml file. If you experience certificate errors, please refer to the first step above. </p>
+        <p class="box-note"><span class="bold">NOTES</span>:&#160;You can provide multiple URLs but they must be separated by commas.<br /><br />Ensure you can access the URL without certificate errors (EMS&#160;Software recommends using the Google Chrome browser). AutoDiscover URL should return an xml file. If you experience certificate errors, please refer to the first step above. </p>
         <ol class="number-list" MadCap:continue="true">
             <li>Ensure all EMS components have been deployed:<ol style="list-style-type: lower-alpha;"><li>EMS Platform Services</li><li>EMS Web App<ol style="list-style-type: lower-roman;"><li><MadCap:variable name="General.Mobile" /></li><li><MadCap:variable name="General.EMS&#160;Desktop Client" /></li><li>Integration to Microsoft Exchange</li></ol></li></ol></li>
         </ol>
