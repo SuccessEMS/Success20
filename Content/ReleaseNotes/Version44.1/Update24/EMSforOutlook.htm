@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xml:lang="en-us" MadCap:lastBlockDepth="6" MadCap:lastHeight="3843" MadCap:lastWidth="884" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../Resources/MasterPages/ReleaseNotes.flmsp');" MadCap:searchable="False">
+<html xml:lang="en-us" MadCap:lastBlockDepth="6" MadCap:lastHeight="3799" MadCap:lastWidth="884" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../Resources/MasterPages/ReleaseNotes.flmsp');" MadCap:searchable="False">
     <head>
         <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
         <link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
@@ -72,8 +72,9 @@
             </thead>
             <tbody>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: left;">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: left;" rowspan="2">
                         <p class="RNArea">Create or Edit Reservation</p>
+                        <p>&#160;</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
                         <p class="RNTitle">Microsoft Outlook 2010 (64x) Crashes on Save &amp; Close from the EMS for Outlook Add-in</p>
@@ -83,8 +84,12 @@
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="text-align: left;">&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
+                        <p class="RNTitle">Creating or Updating Reservations through EMS for Outlook Caused Microsoft Outlook to Crash</p>
+                        <p class="RNBody">For some Microsoft Outlook 2010 users, creating or updating reservations through EMS for Outlook caused Microsoft Outlook to crash.</p>
+                        <p class="RNBody"><span class="bold">Fix:&#160;</span>Modified functionality so that Microsoft Outlook does not crash when users create or update reservations through EMS for Outlook.</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=37689&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">37689</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: left;">
@@ -111,32 +116,21 @@
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p class="RNArea">Create or Edit Reservations</p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
-                        <p class="RNTitle">Using EMS for Outlook to Create or Edit Reservations Caused Microsoft Outlook to Crash</p>
-                        <p class="RNBody">For some Microsoft Outlook 2010 users, using EMS&#160;for Outlook to create or edit reservations caused the Microsoft Outlook Application to crash.</p>
-                        <p class="RNBody"><span class="bold">Fix:&#160;</span>Modified functionality so that Microsoft Outlook does not crash when users create or edit reservations through EMS&#160;for Outlook.</p>
-                        <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=37689&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">37689</a><br />(For EMS&#160;Internal Use Only)</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
                         <p class="RNArea">Delegates</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
                         <p class="RNTitle">Conflict Resolution Dialog Appeared to Other Delegates Than the Delegate Making the Reservation</p>
                         <p class="RNBody">For users with more than one delegate, if one delegate made a reservation that resulted in a conflict, the Conflict Resolution dialog would appear for all delegates logged into Outlook instead of just the delegate making the reservation. </p>
                         <p class="RNBody"><span class="bold">Fix:&#160;</span>Modified functionality so that when a delegate makes a reservation that results in a conflict, the Conflict Resolution dialog only appears for the delegate making the reservation.</p>
                         <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=37766&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">37766</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
                         <p class="RNArea">Exchange Integration Web Service</p>
                         <p class="RNArea">EMS&#160;Web App &gt; Attendees</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" style="text-align: left;">
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows" style="text-align: left;">
                         <p class="RNTitle">Error When Adding Attendees After Selecting Notify Changed or Notify All</p>
                         <p class="RNBody">For EMS&#160;Cloud Services Customers using the EMS&#160;Web App, when users edited a reservation to add attendees and then selected <span class="bold">Notify Change</span> or <span class="bold">Notify All</span> from the Notify Attendees dialog, the following error displayed:&#160;"There was a problem updating attendees on the reservation."</p>
                         <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that when users edit a reservation to add attendees to a reservation and then select <span class="bold">Notify Change</span> or <span class="bold">Notify All</span> from the Notify Attendees dialog, the  error message no longer displays, and attendees are notified. </p>
