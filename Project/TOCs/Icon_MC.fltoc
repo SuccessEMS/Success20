@@ -63,7 +63,7 @@
       </TocEntry>
       <TocEntry
         Title="Manage an Event from the Event Summary Page"
-        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ManageEventfromEventSumPg.html">
+        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/ManageEvents.html">
         <TocEntry
           Title="Add Events to Your Personal Email Calendar"
           Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/AddEventstoPersonalEmailCal.html" />
@@ -84,14 +84,13 @@
           Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_Un-CancelEvent.html" />
       </TocEntry>
       <TocEntry
-        Title="Manage Events from the Manage Events Page"
-        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ManageEventsfromManageEventsPg.html">
+        Title="Manage Events from the Manage Events Page">
         <TocEntry
           Title="Filter Events on the Manage Events Page"
-          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_FilterEventsManageEventsPg.html" />
+          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/FilterEventsManageEventsPg.html" />
         <TocEntry
           Title="Approve Pending Event Requests"
-          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ApprovePendingEventRequests.html" />
+          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/ApprovePendingEventRequests.html" />
         <TocEntry
           Title="Reject Pending Event Requests"
           Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_RejectPendingEventRequests.html" />
