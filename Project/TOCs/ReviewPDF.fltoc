@@ -2,7 +2,16 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="Cloud Installation"
-    Link="/Content/EMSCloudServices/Installation.htm"
-    StartSection="false" />
+    Title="All Applications Parameter"
+    Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/AllApplicationParameters.htm"
+    StartSection="false"></TocEntry>
+  <TocEntry
+    Title="EMS Desktop Client Parameters"
+    Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/EMSDesktopClientParameters.htm"></TocEntry>
+  <TocEntry
+    Title="EMS Everyday User Application Parameters"
+    Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/EMSEverydayUserApplicationsParameters.htm"></TocEntry>
+  <TocEntry
+    Title="EMS Kiosk Parameters"
+    Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/EMSKioskAppParameters.htm" />
 </CatapultToc>
