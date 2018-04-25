@@ -1,7 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<CatapultToc Version="1">
-    <TocEntry Title="All Applications" Link="/Content/Parameters-Workplace/All Applications.htm" />
-    <TocEntry Title="Desktop Client" Link="/Content/Parameters-Workplace/Desktop Client.htm" />
-    <TocEntry Title="Everyday User Applications" Link="/Content/Parameters-Workplace/Everyday User Applications.htm" />
-    <TocEntry Title="Kiosk" Link="/Content/Parameters-Workplace/Kiosk.htm" />
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="All Applications" />
+  <TocEntry
+    Title="Desktop Client" />
+  <TocEntry
+    Title="Everyday User Applications" />
+  <TocEntry
+    Title="Kiosk" />
 </CatapultToc>
