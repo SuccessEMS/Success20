@@ -3,6 +3,9 @@
   Version="1">
   <TocEntry
     Title="[%=System.LinkedTitle%]"
+    Link="/Content/ReleaseNotes/Version44.1/Update24/EMSDesktopClient.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
     Link="/Content/ReleaseNotes/Version44.1/Update24/EMSMasterCalendar.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
     BreakType="chapter"
     PageNumberReset="reset"
@@ -17,5 +20,8 @@
     StartSection="false"
     PageNumberReset="continue"
     PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
-    AutoEndOnLeftPage="disabled" />
+    AutoEndOnLeftPage="disabled"></TocEntry>
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/ReleaseNotes/Version44.1/Update24/ExchangeIntegWebServ.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
 </CatapultToc>
