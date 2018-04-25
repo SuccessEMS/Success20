@@ -2,9 +2,6 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="Web App Release Notes U24"
-    Link="/Content/ReleaseNotes/Version44.1/Update24/EMSWebApp.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
-  <TocEntry
     Title="Kiosk App Release Notes U24"
     Link="/Content/ReleaseNotes/Version44.1/Update24/EMSKioskApp.htm"></TocEntry>
 </CatapultToc>
