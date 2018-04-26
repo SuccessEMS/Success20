@@ -79,6 +79,8 @@
           Title="Configuration of G Suite Integration"
           Link="/Content/GoogleSuiteIntegration/Config.htm" />
       </TocEntry>
+      <TocEntry
+        Title="Meeting Planner" />
     </TocEntry>
   </TocEntry>
   <TocEntry
