@@ -80,7 +80,8 @@
           Link="/Content/GoogleSuiteIntegration/Config.htm" />
       </TocEntry>
       <TocEntry
-        Title="Meeting Planner" />
+        Title="Meeting Planner"
+        Link="/Content/MeetingPlanner.pdf" />
     </TocEntry>
   </TocEntry>
   <TocEntry
