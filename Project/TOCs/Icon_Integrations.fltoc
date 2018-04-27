@@ -48,7 +48,7 @@
         Link="/Content/Integrations/VideoConferencing.htm" />
       <TocEntry
         Title="Integration to Microsoft® Exchange"
-        Link="/Content/IntegrationtoMicrosoftExchange/IntroductiontoMicrosoftExchange.htm">
+        Link="/Content/Outlook/IntegrationtoMicrosoftExchange/Introduction.htm">
         <TocEntry
           Title="System Requirements for Integration to Exchange"
           Link="/Content/Outlook/IntegrationtoMicrosoftExchange/IntegExchanReqs.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
