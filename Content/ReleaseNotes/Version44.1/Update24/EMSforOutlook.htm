@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xml:lang="en-us" MadCap:lastBlockDepth="6" MadCap:lastHeight="3588" MadCap:lastWidth="760" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../Resources/MasterPages/ReleaseNotes.flmsp');" MadCap:searchable="False">
+<html xml:lang="en-us" MadCap:lastBlockDepth="6" MadCap:lastHeight="4835" MadCap:lastWidth="760" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../Resources/MasterPages/ReleaseNotes.flmsp');" MadCap:searchable="False">
     <head>
         <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
         <link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
@@ -118,17 +118,41 @@
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
                         <p class="RNArea">Edit Reservation</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" style="text-align: left;">
-                        <p class="RNTitle">Reservation Time Changes Made via Drag-and-Drop in Microsoft Outlook Were Not Showing in EMS Desktop Client
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
+                        <p class="RNTitle">Reservation Time Changes Made Via Drag-and-Drop in Microsoft Outlook Window Were Not Showing in EMS Desktop Client
 </p>
-                        <p class="RNBody">For users with cache mode enabled in Microsoft Outlook, if users changed a reservation's time via drag-and-drop in Microsoft Outlook, the change did not show in EMS Desktop Client.
+                        <p class="RNBody">When users changed a reservation's time via drag-and-drop in the Microsoft Outlook window, the change did not show in EMS Desktop Client.
 </p>
-                        <p class="RNBody"><span class="bold">Fix: </span>Modified functionality so that if users change a reservation's time via drag-and-drop in Microsoft Outlook, the change will show in EMS Desktop Client.
+                        <p class="RNBody"><span class="bold">Fix: </span>Modified functionality so that if users change a reservation's time in the Microsoft Outlook window, the change will show in EMS Desktop Client.
 </p>
                         <p class="RNRef">Internal Reference # <a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=38238&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">38238</a><br />(For EMS Internal Use Only)
+</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="RNArea">Recurring Reservation</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
+                        <p class="RNTitle">Location Text Field and Selected Rooms Tab Were Empty When Viewing Recurring Reservation Where Room Conflict Was Resolved and Recurrence Pattern Was Modified</p>
+                        <p class="RNBody">When creating a recurring reservation with a room conflict that was resolved (e.g. Room 2), if users modified the recurrence to a new pattern that puts the conflicted room back in conflict (e.g. Room 2) and then resolved the conflict and saved the reservation, the Location text field and Selected Rooms tab appeared empty when users viewed the reservation in Microsoft Outlook. However, EMS&#160;Desktop Client would correctly display the reservation. </p>
+                        <p class="RNBody"><span class="bold">Fix: </span>Modified functionality so that when users modify recurring reservation patterns and room conflicts, the Location text field and Selected Rooms tab will display the correct values in Microsoft Outlook. </p>
+                        <p class="RNRef">Internal Reference # <a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=38271&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">38271</a><br />(For EMS Internal Use Only)
+</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                        <p class="RNArea">Recurring Reservation</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" style="text-align: left;">
+                        <p class="RNTitle">Location Text Field and Selected Rooms Tab Were Empty When Viewing Recurring Reservation Where Room Conflict Was Resolved and Recurrence Pattern Was Modified</p>
+                        <p class="RNBody">When creating a recurring reservation where a room conflict was resolved, if users modified the recurrence pattern and saved the reservation, the Location text field and Selected Rooms tab appeared empty when users viewed the reservation in Microsoft Outlook. However, EMS&#160;Desktop Client displayed the reservation correctly.</p>
+                        <p class="RNBody"><span class="bold">Fix: </span>Modified functionality so that when users modify recurring reservation patterns and room conflicts, the Location text field and Selected Rooms tab will display the correct values in Microsoft Outlook. </p>
+                        <p class="RNRef">Internal Reference # <a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=38271&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">38271</a><br />(For EMS Internal Use Only)
 </p>
                     </td>
                 </tr>
