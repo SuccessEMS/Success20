@@ -410,23 +410,23 @@
         Link="/Content/Outlook/IntegrationtoMicrosoftExchange/Introduction.htm"
         Title="Integration to Microsoft Exchange">
         <TocEntry
-          Title="[%=System.LinkedTitle%]"
-          Link="/Content/IntegrationtoMicrosoftExchange/IntegrationtoExchangeRequirements.htm" />
+          Title="System Requirements for Integration to Microsoft® Exchange"
+          Link="/Content/Outlook/IntegrationtoMicrosoftExchange/IntegExchanReqs.htm" />
         <TocEntry
-          Title="[%=System.LinkedTitle%]"
-          Link="/Content/IntegrationtoMicrosoftExchange/InstallUpgradeEIWS.htm" />
+          Title="Install or Upgrade the Exchange Integration Web Service"
+          Link="/Content/Outlook/IntegrationtoMicrosoftExchange/InstallUpgradeforEIWservice.htm" />
         <TocEntry
-          Title="[%=System.LinkedTitle%]"
-          Link="/Content/IntegrationtoMicrosoftExchange/ConfigureIntegrationtoExchange.htm" />
+          Title="Configure Integration to Microsoft Exchange"
+          Link="/Content/Outlook/IntegrationtoMicrosoftExchange/ConfigIntegExchange.htm" />
         <TocEntry
-          Title="[%=System.LinkedTitle%]"
-          Link="/Content/IntegrationtoMicrosoftExchange/UseAppPoolIdentification.htm" />
+          Title="Use Application Pool Identity for Integration for Exchange Service Account"
+          Link="/Content/Outlook/IntegrationtoMicrosoftExchange/UseAppPoolIdentif.htm" />
         <TocEntry
-          Title="[%=System.LinkedTitle%]"
-          Link="/Content/IntegrationtoMicrosoftExchange/ConfigureEWSImpersonation.htm" />
+          Title="Configure EWS Impersonation for Microsoft® Exchange"
+          Link="/Content/Outlook/IntegrationtoMicrosoftExchange/ConfigureEWSImpersonation.htm" />
         <TocEntry
-          Title="[%=System.LinkedTitle%]"
-          Link="/Content/IntegrationtoMicrosoftExchange/LearnMoreaboutEWS.htm" />
+          Title="Learn More About Exchange Web Services (EWS) Impersonation"
+          Link="/Content/Outlook/IntegrationtoMicrosoftExchange/LearnMoreaboutEWS.htm" />
       </TocEntry>
       <TocEntry
         Title="PDF"
@@ -902,23 +902,23 @@
       Link="/Content/Outlook/IntegrationtoMicrosoftExchange/Introduction.htm"
       Title="Integration to Microsoft Exchange">
       <TocEntry
-        Title="[%=System.LinkedTitle%]"
-        Link="/Content/IntegrationtoMicrosoftExchange/IntegrationtoExchangeRequirements.htm" />
+        Title="System Requirements for Integration to Microsoft® Exchange"
+        Link="/Content/Outlook/IntegrationtoMicrosoftExchange/IntegExchanReqs.htm" />
       <TocEntry
-        Title="[%=System.LinkedTitle%]"
-        Link="/Content/IntegrationtoMicrosoftExchange/InstallUpgradeEIWS.htm" />
+        Title="Install or Upgrade the Exchange Integration Web Service"
+        Link="/Content/Outlook/IntegrationtoMicrosoftExchange/InstallUpgradeforEIWservice.htm" />
       <TocEntry
-        Title="[%=System.LinkedTitle%]"
-        Link="/Content/IntegrationtoMicrosoftExchange/ConfigureIntegrationtoExchange.htm" />
+        Title="Configure Integration to Microsoft Exchange"
+        Link="/Content/Outlook/IntegrationtoMicrosoftExchange/ConfigIntegExchange.htm" />
       <TocEntry
-        Title="[%=System.LinkedTitle%]"
-        Link="/Content/IntegrationtoMicrosoftExchange/UseAppPoolIdentification.htm" />
+        Title="Use Application Pool Identity for Integration for Exchange Service Account"
+        Link="/Content/Outlook/IntegrationtoMicrosoftExchange/UseAppPoolIdentif.htm" />
       <TocEntry
-        Title="[%=System.LinkedTitle%]"
-        Link="/Content/IntegrationtoMicrosoftExchange/ConfigureEWSImpersonation.htm" />
+        Title="Configure EWS Impersonation for Microsoft® Exchange"
+        Link="/Content/Outlook/IntegrationtoMicrosoftExchange/ConfigureEWSImpersonation.htm" />
       <TocEntry
-        Title="[%=System.LinkedTitle%]"
-        Link="/Content/IntegrationtoMicrosoftExchange/LearnMoreaboutEWS.htm" />
+        Title="Learn More About Exchange Web Services (EWS) Impersonation"
+        Link="/Content/Outlook/IntegrationtoMicrosoftExchange/LearnMoreaboutEWS.htm" />
     </TocEntry>
   </TocEntry>
   <TocEntry

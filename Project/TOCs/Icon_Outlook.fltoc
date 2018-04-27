@@ -61,22 +61,22 @@
         Title="Integration to Microsoft Exchange">
         <TocEntry
           Title="[%=System.LinkedTitle%]"
-          Link="/Content/IntegrationtoMicrosoftExchange/IntegrationtoExchangeRequirements.htm" />
+          Link="/Content/Outlook/IntegrationtoMicrosoftExchange/IntegExchanReqs.htm" />
         <TocEntry
           Title="[%=System.LinkedTitle%]"
-          Link="/Content/IntegrationtoMicrosoftExchange/InstallUpgradeEIWS.htm" />
+          Link="/Content/Outlook/IntegrationtoMicrosoftExchange/InstallUpgradeforEIWservice.htm" />
         <TocEntry
           Title="[%=System.LinkedTitle%]"
-          Link="/Content/IntegrationtoMicrosoftExchange/ConfigureIntegrationtoExchange.htm" />
+          Link="/Content/Outlook/IntegrationtoMicrosoftExchange/ConfigIntegExchange.htm" />
         <TocEntry
           Title="[%=System.LinkedTitle%]"
-          Link="/Content/IntegrationtoMicrosoftExchange/UseAppPoolIdentification.htm" />
+          Link="/Content/Outlook/IntegrationtoMicrosoftExchange/UseAppPoolIdentif.htm" />
         <TocEntry
           Title="[%=System.LinkedTitle%]"
-          Link="/Content/IntegrationtoMicrosoftExchange/ConfigureEWSImpersonation.htm" />
+          Link="/Content/Outlook/IntegrationtoMicrosoftExchange/ConfigureEWSImpersonation.htm" />
         <TocEntry
           Title="[%=System.LinkedTitle%]"
-          Link="/Content/IntegrationtoMicrosoftExchange/LearnMoreaboutEWS.htm" />
+          Link="/Content/Outlook/IntegrationtoMicrosoftExchange/LearnMoreaboutEWS.htm" />
       </TocEntry>
       <TocEntry
         Title="PDF"
