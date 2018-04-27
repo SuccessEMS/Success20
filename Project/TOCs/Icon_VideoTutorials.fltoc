@@ -23,8 +23,7 @@
         Title="VIDEO: Working With a Reservation"
         Link="/Content/VIDEO/DC/VIDEO_WorkingReservation.htm" />
       <TocEntry
-        Title="VIDEO: Automating Reports in EMS Desktop Client"
-        Link="/Content/VIDEO/DC/VIDEO_Automating Reports.htm" />
+        Title="VIDEO: Automating Reports in EMS Desktop Client" />
     </TocEntry>
     <TocEntry
       Title="EMS Desktop Client – Academic Planning"
