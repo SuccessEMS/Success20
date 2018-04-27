@@ -63,7 +63,7 @@
           Link="/Content/Outlook/IntegrationtoMicrosoftExchange/UseAppPoolIdentif.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
           Title="PDF"
-          Link="/Content/IntegrationtoMicrosoftExchange/IntegrationtoMicrosoftExchange.pdf" />
+          Link="/Content/Outlook/IntegrationtoMicrosoftExchange/IntegrationtoMicrosoftExchange.pdf" />
         <TocEntry
           Title="Configure EWS Impersonation for Microsoft® Exchange"
           Link="/Content/Outlook/IntegrationtoMicrosoftExchange/ConfigureEWSImpersonation.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
