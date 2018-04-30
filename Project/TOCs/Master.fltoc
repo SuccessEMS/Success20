@@ -1695,10 +1695,10 @@
           Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_BroadcastAnnouncements.html" />
         <TocEntry
           Title="Connectors"
-          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ConnectDataSources.html">
+          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ConnectMCtoEMSDatabase.html">
           <TocEntry
-            Title="Connect Master Calendar to Your EMS Database"
-            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ConnectMCtoEMSDatabase.html" />
+            Title="Connect to Data Sources"
+            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ConnectDataSources.html" />
         </TocEntry>
       </TocEntry>
       <TocEntry
