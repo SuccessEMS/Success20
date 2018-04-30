@@ -1700,18 +1700,16 @@
             Title="Connect to Data Sources"
             Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ConnectDataSources.html" />
         </TocEntry>
+        <TocEntry
+          Title="Import Events"
+          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ImportEvents.html"></TocEntry>
+        <TocEntry
+          Title="Custom Reports"
+          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_CreateCustReports.html" />
       </TocEntry>
       <TocEntry
         Title="Calendar Management"
-        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_CalendarManagement.html">
-        <TocEntry
-          Title="Import Events Into Your Master Calendar System"
-          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ImportEvents.html">
-          <TocEntry
-            Title="Connect to Data Sources"
-            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ConnectDataSources.html" />
-        </TocEntry>
-      </TocEntry>
+        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_CalendarManagement.html"></TocEntry>
       <TocEntry
         Title="Manage Events from the Manage Events Page">
         <TocEntry
@@ -1775,9 +1773,6 @@
           Title="Manage User Templates"
           Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ManageUserTemplates.html" />
       </TocEntry>
-      <TocEntry
-        Title="Create Custom Reports in Master Calendar"
-        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_CreateCustReports.html" />
       <TocEntry
         Title="Customize Master Calendar Site Appearance and Behavior"
         Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_CustomMCSiteAppBehav.html">

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xml:lang="en-us" MadCap:lastBlockDepth="6" MadCap:lastHeight="12609" MadCap:lastWidth="890" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../Resources/MasterPages/OR_DC.flmsp');">
+<html xml:lang="en-us" MadCap:lastBlockDepth="6" MadCap:lastHeight="16317" MadCap:lastWidth="876" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../Resources/MasterPages/OR_DC.flmsp');">
     <head>
         <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" />
         <link href="../../V44.1/Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title>Configure the Academic Import Utility V44 (EMS Desktop Client)</title>
@@ -9,10 +9,10 @@
             <MadCap:concept term="V44" />Configure the Academic Import Utility</h1>
         <p>The Academic Import Utility (AIU) is an optional, add-on component for EMS that is designed to manually import from your Student Information System, or SIS. For each scheduled class that is being imported, a single reservation with multiple bookings is created. One booking is created for each date on which the class meets. All class reservations created by the import process are assigned to one Group (customer, client, and so on) that you have configured in your EMS database.&#160;The imported class data can be one of two formats,&#160;tab-delimited&#160;or&#160;fixed width. In addition, prior to using the AIU, you should have certain&#160;items&#160;configured in your EMS database.</p>
         <p>To import data, you must&#160;configure&#160;a session for each block of data (i.e. quarter or semester). After you have configured a session, AIU saves the settings for use in both the initial import and any subsequent re-import. When a session is re-imported, only events in the import file that have changed since the last import are recreated in the EMS database. This prevents the unnecessary re-import of unchanged events and the associated invalidation of large ranges of reservation numbers. After configuring a session, you import the session.</p>
-        <p class="note-box">Warning:&#160;Creating reservations can take an extended time and must be performed when no users are logged on to EMS. (To log off active users, see&#160;“Viewing and Emailing Logged-In Users”.) The time required to create reservations varies depending on the amount of data involved and the processing power of the computer making the reservations. After the import process completes, the system automatically displays a report listing booking conflicts, if any.</p>
+        <p class="box-warning"><span class="bold">WARNING</span>:&#160;Creating reservations can take an extended time and must be performed when no users are logged on to EMS. (To log off active users, see&#160;<a href="../../V44.1/ConfigurationGuide/ViewEmailLoggedUsers.htm">Viewing and Emailing Logged-In Users</a>.) The time required to create reservations varies depending on the amount of data involved and the processing power of the computer making the reservations. After the import process completes, the system automatically displays a report listing booking conflicts, if any.</p>
         <p>Reservations that were added to the EMS database using the AIU can be removed from the database using the AIU as well. Deleting a session removes all reservations created using the session.</p>
-        <p class="note-box">Tip:&#160;Before you configure an AIU session, you should review the Academic Import Days of the Week setting in your system parameters. This setting dictates whether the AIU interprets days of the week based on their position within the data (with options for Sunday first or Monday first) or based on specific text entries (Su = Sunday, M = Monday, and so on). See&#160;<a href="../../V44.1/ConfigurationGuide/EMSSystemParam.html">EMS System Parameters.</a></p>
-        <p class="note-box">Tip:&#160;All fields are required unless noted otherwise.</p>
+        <p class="box-tip"><span class="bold">TIP</span>:&#160;Before you configure an AIU session, you should review the Academic Import Days of the Week setting in your system parameters. This setting dictates whether the AIU interprets days of the week based on their position within the data (with options for Sunday first or Monday first) or based on specific text entries (Su = Sunday, M = Monday, and so on). See&#160;<a href="../../V44.1/ConfigurationGuide/AllApplicationParameters.htm">EMS System Parameters.</a></p>
+        <p class="box-tip"><span class="bold">TIP</span>:&#160;All fields are required unless noted otherwise.</p>
         <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
@@ -301,7 +301,7 @@
             </tbody>
         </table>
         <h2 class="Heading2">Fixed Width Format&#160;</h2>
-        <p>Tip:&#160;All fields are required unless noted otherwise. </p>
+        <p class="box-tip"><span class="bold">TIP</span>:&#160;All fields are required unless noted otherwise. </p>
         <table style="mc-table-style: url('../../V44.1/Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
@@ -647,9 +647,9 @@
         </table>
         <p>In addition, you might want to define a unique Event Type and Setup Type that is to be used solely for class reservations.</p>
         <p>To import data, you must&#160;configure&#160;a session for each block of data (i.e., quarter or semester). After you have configured a session, AIU saves the settings for use in both the initial import and any subsequent re-import. When a session is re-imported, only events in the import file that have changed since the last import are recreated in the EMS database. This prevents the unnecessary re-import of unchanged events and the associated invalidation of large ranges of reservation numbers. After configuring a session, you&#160;import&#160;the data for the session.</p>
-        <p class="note-box">Tip:&#160;Creating reservations can take an extended time and must be performed when no users are logged in to EMS. (To log off active users, see&#160;“Viewing and Emailing Logged-In Users”.) The time required to create reservations varies depending on the amount of data involved and the processing power of the computer making the reservations. After the import process completes, the system automatically displays a report listing booking conflicts, if any.</p>
+        <p class="box-tip"><span class="bold">TIP</span>:&#160;Creating reservations can take an extended time and must be performed when no users are logged in to EMS. (To log off active users, see&#160;<a href="../../V44.1/ConfigurationGuide/ViewEmailLoggedUsers.htm">Viewing and Emailing Logged-In Users.</a>) The time required to create reservations varies depending on the amount of data involved and the processing power of the computer making the reservations. After the import process completes, the system automatically displays a report listing booking conflicts, if any.</p>
         <p>Reservations that were added to the EMS database using the AIU can be removed from the database using the AIU as well. Deleting a session removes all reservations created using the session.</p>
-        <p class="note-box">Tip:&#160;Before you configure an AIU session, you should review the Academic Import Days of the Week setting in your system parameters. This setting dictates whether the AIU interprets days of the week based on their position within the data (with options for Sunday first or Monday first) or based on specific text entries (Su = Sunday, M = Monday, and so on). See&#160;<a href="../../V44.1/ConfigurationGuide/EMSSystemParam.html">EMS System Parameters.</a></p>
+        <p class="box-tip"><span class="bold">TIP</span>:&#160;Before you configure an AIU session, you should review the Academic Import Days of the Week setting in your system parameters. This setting dictates whether the AIU interprets days of the week based on their position within the data (with options for Sunday first or Monday first) or based on specific text entries (Su = Sunday, M = Monday, and so on). See&#160;<a href="../../V44.1/ConfigurationGuide/AllApplicationParameters.htm">EMS System Parameters.</a></p>
         <h2 class="Heading2"><a name="RTF436f6e6669677572655f7365"></a>Configure an AIU session&#160;</h2>
         <p class="note-box">Tip:&#160;This section describes the steps for configuring a new session for the AIU. If you simply need to load an existing session, then after opening the Sessions window, skip to&#160;“To import the data into the session”.</p>
         <ol start="1">
@@ -807,10 +807,10 @@
         <ul>
             <li>If any of the records in the import file have any issues (missing data, data that is not in the correct format, data that falls outside the start and/or end dates, and so on) a message opens that details the issue and if applicable, the number that cannot be imported, and asking if you want to continue. You can click No in the message, and then correct the errors in the file before you load the file again, or you can click Yes in the message, and then click Next to continue.</li>
         </ul>
-        <p class="note-box">Tip:&#160;Optionally, you can also do one or both of the following:</p>
+        <p>Optionally, you can do one or both of the following:</p>
         <ul>
             <li>You can click View Errors for more information.</li>
-            <li>You can click Export Errors to export the errors in the import file an an XML format.</li>
+            <li>You can click Export Errors to export the errors in the import file an XML format.</li>
         </ul>
         <ul>
             <li>The import file is complete and there are no issues with the file, so no message opens. Click Next to continue.</li>
@@ -849,7 +849,5 @@
             <li>After you have added or deleted the necessary booking dates, click Finish.&#160;A message appears indicating that the session was successfully imported.</li>
             <li>Click OK to close the message and return to the Sessions window.</li>
         </ol>
-        <p>&#160;</p>
-        <p>&#160;</p>
     </body>
 </html>
