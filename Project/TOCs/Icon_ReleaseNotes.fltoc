@@ -8,8 +8,9 @@
       Link="/Content/V44.1_ReleaseNotes.htm">
       <TocEntry
         Title="Update 24"
-        Link="/Content/V44.1_ReleaseNotes.htm#Update23.1"
-        StartSection="false" />
+        Link="/Content/V44.1_ReleaseNotes.htm#Update24"
+        StartSection="false"
+        ReplaceMergeNode="false" />
       <TocEntry
         Title="Update 23.1"
         Link="/Content/V44.1_ReleaseNotes.htm#Update23.1"
