@@ -1643,32 +1643,28 @@
       Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_Introduction.htm">
       <TocEntry
         Title="Admin Interface Overview"
-        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_AdminInterfaceOverview.html">
+        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_AdminInterfaceOverview.html"></TocEntry>
+      <TocEntry
+        Title="Events &amp; Special Dates"
+        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/EventsandSpecialDates.htm" />
+      <TocEntry
+        Title="Manage Events"
+        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/ManageEvents.html">
         <TocEntry
-          Title="Events &amp; Special Dates"
-          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/EventsandSpecialDates.htm" />
+          Title="Filter Events on the Manage Events Page"
+          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/FilterEventsManageEventsPg.html" />
         <TocEntry
-          Title="Manage Events"
-          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/ManageEvents.html">
-          <TocEntry
-            Title="Filter Events on the Manage Events Page"
-            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/FilterEventsManageEventsPg.html" />
-          <TocEntry
-            Title="Approve Pending Event Requests"
-            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/ApprovePendingEventRequests.html" />
-          <TocEntry
-            Title="Reject Pending Event Requests"
-            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_RejectPendingEventRequests.html" />
-          <TocEntry
-            Title="Delete Event Requests"
-            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_DeleteEventRequests.html" />
-          <TocEntry
-            Title="Move Rejected Event Requests to Approved Status"
-            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_MoveRejectEventRequeststoAppStatus.html" />
-          <TocEntry
-            Title="Generate a List of Event Requests"
-            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_GenerateListEventRequests.html" />
-        </TocEntry>
+          Title="Approve Pending Event Requests"
+          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/ApprovePendingEventRequests.html" />
+        <TocEntry
+          Title="Reject Pending Event Requests"
+          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_RejectPendingEventRequests.html" />
+        <TocEntry
+          Title="Delete Event Requests"
+          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_DeleteEventRequests.html" />
+        <TocEntry
+          Title="Move Rejected Event Requests to Approved Status"
+          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_MoveRejectEventRequeststoAppStatus.html" />
         <TocEntry
           Title="Add Events to Your Personal Email Calendar"
           Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/AddEventstoPersonalEmailCal.html" />
@@ -1687,7 +1683,16 @@
         <TocEntry
           Title="Un-Cancel an Event"
           Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_Un-CancelEvent.html" />
+        <TocEntry
+          Title="Generate a List of Event Requests"
+          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_GenerateListEventRequests.html"></TocEntry>
       </TocEntry>
+      <TocEntry
+        Title="Configure Special Dates"
+        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ConfigSpecialDates.html"></TocEntry>
+      <TocEntry
+        Title="Announcements"
+        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_BroadcastAnnouncements.html" />
       <TocEntry
         Title="Calendar Management"
         Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_CalendarManagement.html">
@@ -1714,9 +1719,6 @@
         <TocEntry
           Title="Manage Calendars in Master Calendar"
           Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ConfiguringCalendarsinMC.html" />
-        <TocEntry
-          Title="Configure Special Dates"
-          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ConfigSpecialDates.html" />
         <TocEntry
           Title="Manage Calendar URLs"
           Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ConfigureCalURLs.html" />
@@ -1774,9 +1776,6 @@
       <TocEntry
         Title="Customize Master Calendar Site Appearance and Behavior"
         Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_CustomMCSiteAppBehav.html">
-        <TocEntry
-          Title="Broadcast Announcements"
-          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_BroadcastAnnouncements.html" />
         <TocEntry
           Title="Customize Help Text in Master Calendar"
           Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_CustomizeHelpText.html" />
