@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xml:lang="en-us" MadCap:lastBlockDepth="8" MadCap:lastHeight="20559" MadCap:lastWidth="864" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+<html xml:lang="en-us" MadCap:lastBlockDepth="8" MadCap:lastHeight="22974" MadCap:lastWidth="790" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
         <link href="Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
         <link href="Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
@@ -8,6 +8,8 @@
         <h1>Master Calendar <br />Release Notes<br />V8.0</h1>
         <p>EMS release notes for the EMS&#160;Master Calendar are organized by Update. For information on changes to other products released in the Update, click on the Update number in the title. See Also:&#160;<a href="#Contact_Customer_Support">Contact Customer Support</a>.</p>
         <ul class="unorder-list">
+            <li><a href="#Update24">V44.1, Update 24</a>
+            </li>
             <li><a href="#Update22">V44.1, Update 22</a>
             </li>
             <li><a href="#Update21">V44.1, Update 21</a>
@@ -27,6 +29,96 @@
             <li><a href="#Update5">V44.1, Update 5</a>
             </li>
         </ul>
+        <h4><a name="Update24"></a><span style="font-size: 26pt;"><span style="font-size: 24pt;">V44.1, </span></span><a href="V44.1_ReleaseNotes.htm#Update24" style="font-size: 24pt;">Update 24</a><span style="font-size: 26pt;"><span style="font-size: 24pt;">*</span></span>
+        </h4>
+        <table style="mc-table-style: url('Resources/TableStyles/PatternedRows.css');width: 718px;" class="TableStyle-PatternedRows" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 192px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 175px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 278px;" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1" colspan="3">*Click the linked Update Number above for more information regarding <br />enhancements and fixes for all products released during this Update.</th>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p style="text-align: center;">Release Date</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1" style="text-align: center;">Patch Number</th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                        <p style="text-align: center;">Build Number</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p style="text-align: center;">04/30/2018</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p style="text-align: center;">201804121</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="p_3">Build #:&#160;8.0.0.149</p>
+                        <p class="p_3">Master Calendar 8 Patch:&#160;8.0.0.201804241</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows" colspan="3" style="text-align: center;">
+                        <p colspan="3" style="text-align: center;"><span class="bold">See Also:</span>&#160;<br /><a href="WhatsNewV44.1.htm">What's New for Version 44.1</a></p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h4>Fixes</h4>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('Resources/TableStyles/PatternedRows.css');width: 100%;margin-left: 0;margin-right: auto;" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 202px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1" style="text-align: left;">
+                        <p class="p_6">Area</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1" style="text-align: left;">
+                        <p class="p_6">Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="RNArea">Subscription Function</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="RNTitle">Booking Date/Time Changes Were Not Showing in Calendars Updated through Subscription Function</p>
+                        <p class="RNBody">For users running Master Calendar connector to sync events from EMS&#160;to Master&#160;Calendar, booking date/time changes made in EMS&#160;were not showing in calendars updated through the subscription function.</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that booking date/time changes made in EMS&#160;will appear in calendars updated through the subscription function.</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=36022&amp;_a=edit&amp;triage=true" title="EMS Internal Use Only" alt="EMS Internal Use Only" class="RNRefHyper">36022</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="RNArea">Security</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="RNTitle">EMS Master Calendar Security Vulnerability Addressed </p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality to address a security vulnerability in EMS Master Calendar.</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=36985&amp;_a=edit&amp;triage=true" title="EMS Internal Use Only" alt="EMS Internal Use Only" class="RNRefHyper">36985</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                        <p class="RNArea">List View Expand/Collapse Event Button</p>
+                        <p>&#160;</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
+                        <p class="RNTitle">EMS&#160;Master Calendar ADA&#160;Compliance Issue—Tabbing Not Functioning Properly</p>
+                        <p class="RNBody">EMS&#160;Master Calendar had an ADA&#160;compliance issue because tabbing was not functioning properly in list view, and users were unable to expand/collapse content on the Master Calendar site. </p>
+                        <p class="RNBody"><span class="bold">Fix:&#160;</span>Modified functionality so that tabbing functions properly in EMS&#160;Master Calendar, and there is no ADA compliance issue.</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=37211&amp;_a=edit&amp;triage=true" title="EMS Internal Use Only" alt="EMS Internal Use Only" class="RNRefHyper">37211</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
         <h4><a name="Update22"></a><span style="font-size: 26pt;"><span style="font-size: 24pt;">V44.1, </span></span><a href="V44.1_ReleaseNotes.htm#Update22" style="font-size: 24pt;">Update 22</a><span style="font-size: 26pt;"><span style="font-size: 24pt;">*</span></span>
         </h4>
         <table style="mc-table-style: url('Resources/TableStyles/PatternedRows.css');width: 718px;" class="TableStyle-PatternedRows" cellspacing="0">
