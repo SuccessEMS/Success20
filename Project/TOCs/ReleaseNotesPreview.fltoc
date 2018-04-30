@@ -9,8 +9,7 @@
     BreakType="pageLayout"
     PageLayout="/Content/Resources/BodyofPDF.flpgl" />
   <TocEntry
-    Title="EMS Desktop Client"
-    Link="/Content/ReleaseNotes/Version44.1/Update24/EMSDesktopClient.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    Title="EMS Desktop Client" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
     BreakType="chapter"
     PageNumberReset="reset"
     PageNumber="(multiple)"
