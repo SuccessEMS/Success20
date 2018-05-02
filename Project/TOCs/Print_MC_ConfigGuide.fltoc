@@ -267,7 +267,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Creating Event Locations"
-        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_CreateEventLocations.html"
+        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/ConfigEventLocations.html"
         BreakType="chapter"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
@@ -281,7 +281,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Work with Rooms"
-        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ConfigureRooms.html"
+        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/ConfigRooms.html"
         BreakType="chapter"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"

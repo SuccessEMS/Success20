@@ -1737,10 +1737,10 @@
             Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/ConfigEventTypeViews.html" />
           <TocEntry
             Title="Locations"
-            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_CreateEventLocations.html" />
+            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/ConfigEventLocations.html" />
           <TocEntry
             Title="Rooms"
-            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ConfigureRooms.html"></TocEntry>
+            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/ConfigRooms.html"></TocEntry>
           <TocEntry
             Title="Departments"
             Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_MaintainDeptinMC.html" />

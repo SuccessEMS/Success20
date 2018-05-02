@@ -146,13 +146,13 @@
           Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/ConfigEventTypeViews.html" />
         <TocEntry
           Title="Creating Event Locations"
-          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_CreateEventLocations.html" />
+          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/ConfigEventLocations.html" />
         <TocEntry
           Title="Creating Event Types"
           Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/ConfigEventTypes.html" />
         <TocEntry
           Title="Work with Rooms"
-          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ConfigureRooms.html" />
+          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/ConfigRooms.html" />
         <TocEntry
           Title="Work with User Defined Questions (UDQs)"
           Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/ConfigUDQs.html" />
