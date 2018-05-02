@@ -1643,7 +1643,7 @@
       Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_Introduction.htm">
       <TocEntry
         Title="Admin Interface Overview"
-        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_AdminInterfaceOverview.html">
+        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/AdminInterfaceOverview.html">
         <TocEntry
           Title="Events &amp; Special Dates"
           Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/EventsandSpecialDates.htm">
@@ -1749,7 +1749,7 @@
             Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_MaintainDeptinMC.html" />
           <TocEntry
             Title="User Defined Questions (UDQs)"
-            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/ConfiguringUDQs.html" />
+            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/ConfigUDQs.html" />
           <TocEntry
             Title="Cultures"
             Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ManageCultures.html" />

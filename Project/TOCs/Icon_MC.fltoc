@@ -46,7 +46,7 @@
       Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_Introduction.htm">
       <TocEntry
         Title="Admin Interface Overview"
-        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_AdminInterfaceOverview.html" />
+        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/AdminInterfaceOverview.html" />
       <TocEntry
         Title="Calendar Management"
         Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_CalendarManagement.html">
@@ -155,7 +155,7 @@
           Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ConfigureRooms.html" />
         <TocEntry
           Title="Work with User Defined Questions (UDQs)"
-          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/ConfiguringUDQs.html" />
+          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/ConfigUDQs.html" />
       </TocEntry>
       <TocEntry
         Title="Configure Users and Templates"
