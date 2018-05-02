@@ -1743,7 +1743,7 @@
             Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/ConfigRooms.html"></TocEntry>
           <TocEntry
             Title="Departments"
-            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_MaintainDeptinMC.html" />
+            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/ConfigDepartments.html" />
           <TocEntry
             Title="Custom Field Hints"
             Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ManageCustomFieldHints.html" />

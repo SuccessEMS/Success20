@@ -134,7 +134,7 @@
           Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ConfigEventIcons.html" />
         <TocEntry
           Title="Maintain Departments in Master Calendar"
-          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_MaintainDeptinMC.html" />
+          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/ConfigDepartments.html" />
         <TocEntry
           Title="Manage Cultures"
           Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ManageCultures.html" />
