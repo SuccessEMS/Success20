@@ -510,7 +510,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="API Functions"
-        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_APIfunctions.htm"
+        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/APIfunctions.htm"
         BreakType="chapter"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"

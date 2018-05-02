@@ -253,7 +253,7 @@
           Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ReleaseNotes.html" />
         <TocEntry
           Title="API Functions"
-          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_APIfunctions.htm"></TocEntry>
+          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/APIfunctions.htm"></TocEntry>
       </TocEntry>
       <TocEntry
         Title="Work with Subscriptions"
