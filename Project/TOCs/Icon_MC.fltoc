@@ -131,7 +131,7 @@
         Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/Configuration.html">
         <TocEntry
           Title="Configure Event Icons"
-          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ConfigEventIcons.html" />
+          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/ConfigEventIcons.html" />
         <TocEntry
           Title="Maintain Departments in Master Calendar"
           Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/ConfigDepartments.html" />

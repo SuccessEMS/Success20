@@ -232,7 +232,7 @@
       ChapterNumberReset="continue">
       <TocEntry
         Title="Configure Event Icons"
-        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ConfigEventIcons.html"
+        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/ConfigEventIcons.html"
         BreakType="chapter"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"

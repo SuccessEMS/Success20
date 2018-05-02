@@ -1752,7 +1752,7 @@
             Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/ConfigUDQs.html" />
           <TocEntry
             Title="Event Icons"
-            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ConfigEventIcons.html"></TocEntry>
+            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/ConfigEventIcons.html"></TocEntry>
           <TocEntry
             Title="Cultures"
             Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/ConfigCultures.html" />
