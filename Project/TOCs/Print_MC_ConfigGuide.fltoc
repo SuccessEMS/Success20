@@ -225,7 +225,7 @@
     </TocEntry>
     <TocEntry
       Title="Configure Optional Information"
-      Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ConfigOptionalInfo.html"
+      Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/Configuration.html"
       BreakType="chapter"
       PageNumberReset="continue"
       PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
@@ -274,7 +274,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Creating Event Types"
-        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/CreateEventTypes.html"
+        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/ConfigEventTypes.html"
         BreakType="chapter"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"

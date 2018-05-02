@@ -1726,41 +1726,44 @@
             Title="Calendar URLs"
             Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ConfigureCalURLs.html" />
         </TocEntry>
+        <TocEntry
+          Title="Configuration"
+          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/Configuration.html">
+          <TocEntry
+            Title="Event Types"
+            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/ConfigEventTypes.html" />
+          <TocEntry
+            Title="Locations"
+            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_CreateEventLocations.html" />
+          <TocEntry
+            Title="Event Icons"
+            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ConfigEventIcons.html"></TocEntry>
+          <TocEntry
+            Title="Rooms"
+            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ConfigureRooms.html"></TocEntry>
+          <TocEntry
+            Title="Custom Field Hints"
+            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ManageCustomFieldHints.html" />
+          <TocEntry
+            Title="Departments"
+            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_MaintainDeptinMC.html" />
+          <TocEntry
+            Title="User Defined Questions (UDQs)"
+            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/ConfiguringUDQs.html" />
+          <TocEntry
+            Title="Cultures"
+            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ManageCultures.html" />
+          <TocEntry
+            Title="Event Type Views"
+            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ManageEventTypeViews.html" />
+        </TocEntry>
       </TocEntry>
       <TocEntry
         Title="Calendar Management"
         Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_CalendarManagement.html"></TocEntry>
       <TocEntry
         Title="Configure Optional Information"
-        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ConfigOptionalInfo.html">
-        <TocEntry
-          Title="Configure Event Icons"
-          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ConfigEventIcons.html" />
-        <TocEntry
-          Title="Maintain Departments in Master Calendar"
-          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_MaintainDeptinMC.html" />
-        <TocEntry
-          Title="Manage Cultures"
-          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ManageCultures.html" />
-        <TocEntry
-          Title="Manage Custom Field Hints"
-          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ManageCustomFieldHints.html" />
-        <TocEntry
-          Title="Manage Event Type Views"
-          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ManageEventTypeViews.html" />
-        <TocEntry
-          Title="Creating Event Locations"
-          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_CreateEventLocations.html" />
-        <TocEntry
-          Title="Creating Event Types"
-          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/CreateEventTypes.html" />
-        <TocEntry
-          Title="Work with Rooms"
-          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ConfigureRooms.html" />
-        <TocEntry
-          Title="Work with User Defined Questions (UDQs)"
-          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/ConfiguringUDQs.html" />
-      </TocEntry>
+        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/Configuration.html"></TocEntry>
       <TocEntry
         Title="Configure Users and Templates"
         Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ConfigUsersTemplates.html">
