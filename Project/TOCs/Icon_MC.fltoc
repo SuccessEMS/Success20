@@ -137,10 +137,10 @@
           Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/ConfigDepartments.html" />
         <TocEntry
           Title="Manage Cultures"
-          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ManageCultures.html" />
+          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/ConfigCultures.html" />
         <TocEntry
           Title="Manage Custom Field Hints"
-          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ManageCustomFieldHints.html" />
+          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/ConfigCustomFieldHints.html" />
         <TocEntry
           Title="Manage Event Type Views"
           Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/ConfigEventTypeViews.html" />

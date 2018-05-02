@@ -1746,7 +1746,7 @@
             Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/ConfigDepartments.html" />
           <TocEntry
             Title="Custom Field Hints"
-            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ManageCustomFieldHints.html" />
+            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/ConfigCustomFieldHints.html" />
           <TocEntry
             Title="User Defined Questions (UDQs)"
             Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/ConfigUDQs.html" />
@@ -1755,7 +1755,7 @@
             Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ConfigEventIcons.html"></TocEntry>
           <TocEntry
             Title="Cultures"
-            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ManageCultures.html" />
+            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/ConfigCultures.html" />
         </TocEntry>
       </TocEntry>
       <TocEntry

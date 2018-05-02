@@ -246,14 +246,14 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Manage Cultures"
-        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ManageCultures.html"
+        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/ConfigCultures.html"
         BreakType="chapter"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Manage Custom Field Hints"
-        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ManageCustomFieldHints.html"
+        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/ConfigCustomFieldHints.html"
         BreakType="chapter"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
