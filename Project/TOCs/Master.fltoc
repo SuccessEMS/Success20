@@ -1714,17 +1714,17 @@
           Title="Groupings and Calendars"
           Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ConfigCalGroupingsandCals.html">
           <TocEntry
-            Title="Manage Calendars in Master Calendar"
+            Title="Groupings"
+            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ManageGroupingsinMC.html" />
+          <TocEntry
+            Title="Calendars"
             Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ConfiguringCalendarsinMC.html" />
           <TocEntry
-            Title="Manage Calendar URLs"
-            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ConfigureCalURLs.html" />
-          <TocEntry
-            Title="Manage External Links for a Grouping"
+            Title="External Links"
             Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ManageExtLinksforGrouping.html" />
           <TocEntry
-            Title="Manage Groupings in Master Calendar"
-            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ManageGroupingsinMC.html" />
+            Title="Calendar URLs"
+            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ConfigureCalURLs.html" />
         </TocEntry>
       </TocEntry>
       <TocEntry
