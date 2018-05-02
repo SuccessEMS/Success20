@@ -453,14 +453,14 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Area: Submit"
-        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_AreaSubmit.html"
+        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/AreaSubmit.html"
         BreakType="chapter"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Area: System Configuration"
-        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_AreaSystemConfig.html"
+        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/AreaSystemConfig.html"
         BreakType="chapter"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"

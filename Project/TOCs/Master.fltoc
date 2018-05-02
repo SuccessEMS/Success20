@@ -1829,10 +1829,10 @@
           Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/AreaRSS.html" />
         <TocEntry
           Title="Area: Submit"
-          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_AreaSubmit.html" />
+          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/AreaSubmit.html" />
         <TocEntry
           Title="Area: System Configuration"
-          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_AreaSystemConfig.html" />
+          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/AreaSystemConfig.html" />
         <TocEntry
           Title="Area: Tooltip"
           Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_AreaTooltip.html" />
