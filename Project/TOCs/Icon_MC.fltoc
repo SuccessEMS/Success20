@@ -225,7 +225,7 @@
           Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/AreaPortAuthen.html" />
         <TocEntry
           Title="Area: RSS"
-          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_AreaRSS.html" />
+          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/AreaRSS.html" />
         <TocEntry
           Title="Area: Submit"
           Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_AreaSubmit.html" />

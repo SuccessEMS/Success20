@@ -446,7 +446,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Area: RSS"
-        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_AreaRSS.html"
+        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/AreaRSS.html"
         BreakType="chapter"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
