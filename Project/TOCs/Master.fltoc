@@ -1686,6 +1686,9 @@
           <TocEntry
             Title="Generate a List of Event Requests"
             Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_GenerateListEventRequests.html"></TocEntry>
+          <TocEntry
+            Title="Request Additional Information for Event Requests"
+            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_RequestAddInfoEventRequests.html" />
         </TocEntry>
         <TocEntry
           Title="Configure Special Dates"
@@ -1710,12 +1713,6 @@
       <TocEntry
         Title="Calendar Management"
         Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_CalendarManagement.html"></TocEntry>
-      <TocEntry
-        Title="Manage Events from the Manage Events Page">
-        <TocEntry
-          Title="Request Additional Information for Event Requests"
-          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_RequestAddInfoEventRequests.html" />
-      </TocEntry>
       <TocEntry
         Title="Configure Calendar Groupings and Calendars"
         Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ConfigCalGroupingsandCals.html">
