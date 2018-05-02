@@ -260,7 +260,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Manage Event Type Views"
-        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ManageEventTypeViews.html"
+        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/ConfigEventTypeViews.html"
         BreakType="chapter"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
