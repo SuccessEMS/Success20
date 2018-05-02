@@ -1,5 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="6" MadCap:lastHeight="1652" MadCap:lastWidth="922" style="mc-master-page: url('../../../Resources/MasterPages/ReleaseNotes.flmsp');" MadCap:searchable="True">
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="6" MadCap:lastHeight="1437" MadCap:lastWidth="1225" style="mc-master-page: url('../../../Resources/MasterPages/ReleaseNotes.flmsp');" MadCap:searchable="True">
     <head>
         <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
     </head>
@@ -76,7 +76,7 @@
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p>TheOlder Desktop Client versions connecting to a database are not receiving the alert that a newer version is available.  The ClientVersion column in tblServerVersion is being updated with the last version of the Desktop Client used instead of the latest version.</p>
+                        <p>The Desktop Client doesn't try to validate against the last connected build of the Desktop Client, so users are not being notified that an updated build is available. Furthermore, the database updates the Column to reflect the last client connection.</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
                         <p class="InternalRef"><a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=27232&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">27232</a>
@@ -84,11 +84,20 @@
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
                         <p>Bug with LDAP Assigning Templates when assigning an Everyday User to a reservation in EMS&#160;Desktop Client.</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
                         <p class="InternalRef"><a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=27712&amp;_a=edit&amp;triage=false" class="RNRefHyper">27712</a>
+                            <br />(EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                        <p>Unable to log in when using Windows Authentication and connecting with the Web Deploy Service.</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
+                        <p class="InternalRef"><a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=37999&amp;_a=edit&amp;triage=false" class="RNRefHyper">37999</a>
                             <br />(EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
