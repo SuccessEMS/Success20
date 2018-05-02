@@ -5,7 +5,7 @@
   Type="WebHelp2"
   Destinations=""
   GlossaryTermConversion="marked"
-  MoveOutputContentToRoot="true"
+  MoveOutputContentToRoot="false"
   SkinComponents=""
   EnableResponsiveOutput="true"
   MasterPage="/Content/Resources/MasterPages/TrainingMasterPage.flmsp"
@@ -22,7 +22,7 @@
   MasterStylesheetOverride="true"
   TopNavTocPath="true"
   SearchFilterSet="/Project/Advanced/Version.flsfs"
-  ReplaceSpacesWithUnderscores="true">
+  ReplaceSpacesWithUnderscores="false">
   <PrintedOutput
     CollapseMargins="true"
     GenerateTOCProxy="true"
