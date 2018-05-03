@@ -21,7 +21,8 @@
   MenuSkin="/Project/Skins/SideMenu.flskn"
   MasterStylesheetOverride="true"
   TopNavTocPath="true"
-  SearchFilterSet="/Project/Advanced/Version.flsfs">
+  SearchFilterSet="/Project/Advanced/Version.flsfs"
+  ReplaceSpacesWithUnderscores="false">
   <PrintedOutput
     CollapseMargins="true"
     GenerateTOCProxy="true"
