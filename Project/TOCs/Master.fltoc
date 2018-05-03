@@ -1804,8 +1804,7 @@
         Title="Integrated Authentication for Master Calendar"
         Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_IntegAuthenforMC.html">
         <TocEntry
-          Title="Portal Authentication Methods"
-          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_PortalAuthenMethods.html" />
+          Title="Portal Authentication Methods" />
       </TocEntry>
       <TocEntry
         Title="Maintain Master Calendar Software Registration"

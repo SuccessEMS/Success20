@@ -10,4 +10,10 @@
   <TocEntry
     Title="[%=System.LinkedTitle%]"
     Link="/Content/EMSKioskApp/V44.1/InstallationGuide/InstallUpgrade.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+  <TocEntry
+    Title="Integrated Authentication for Master Calendar"
+    Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_IntegAuthenforMC.html" />
+  <TocEntry
+    Title="Portal Authentication Methods"
+    Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_PortalAuthenMethods.html" />
 </CatapultToc>
