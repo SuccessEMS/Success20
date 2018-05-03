@@ -360,7 +360,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Set Default Home Page Behavior"
-        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_SetDefaultHomePgBehavior.html"
+        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/SetDefaultHomePgBehavior.html"
         BreakType="chapter"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"

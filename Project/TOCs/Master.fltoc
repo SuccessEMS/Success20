@@ -1788,7 +1788,7 @@
           Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_CustomizeMCSiteandAutoEmails.html" />
         <TocEntry
           Title="Set Default Home Page Behavior"
-          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_SetDefaultHomePgBehavior.html" />
+          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/SetDefaultHomePgBehavior.html" />
         <TocEntry
           Title="Set the Default Home Page Layout"
           Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/SetDefaultHomePgLayout.html" />
