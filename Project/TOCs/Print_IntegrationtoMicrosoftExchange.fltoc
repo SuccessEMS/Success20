@@ -10,13 +10,17 @@
     PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Title8_5X11.flpgl"
     SectionNumberReset="continue"
     VolumeNumberReset="same"
-    ChapterNumberReset="continue"></TocEntry>
+    ChapterNumberReset="continue"
+    AutoEndOnLeftPage="disabled"
+    PageNumber="1"></TocEntry>
   <TocEntry
     Title="[%=System.LinkedTitle%]"
     Link="/Content/Print Only Topics/TOC.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
     BreakType="chapter"
     StartSection="false"
-    PageNumberReset="continue" />
+    PageNumberReset="continue"
+    AutoEndOnLeftPage="disabled"
+    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/TOC8_5X11.flpgl" />
   <TocEntry
     Link="/Content/Outlook/IntegrationtoMicrosoftExchange/Introduction.htm"
     Title="Integration to Microsoft Exchange"
@@ -28,7 +32,8 @@
     PageNumber="1"
     PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
     SectionNumberReset="continue"
-    VolumeNumberReset="same">
+    VolumeNumberReset="same"
+    AutoEndOnLeftPage="disabled">
     <TocEntry
       Title="System Requirements for Integration to Microsoft® Exchange"
       Link="/Content/Outlook/IntegrationtoMicrosoftExchange/IntegExchanReqs.htm"
@@ -38,7 +43,8 @@
       PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
       SectionNumberReset="continue"
       VolumeNumberReset="same"
-      ChapterNumberReset="continue" />
+      ChapterNumberReset="continue"
+      AutoEndOnLeftPage="disabled" />
     <TocEntry
       Title="Install or Upgrade the Exchange Integration Web Service"
       Link="/Content/Outlook/IntegrationtoMicrosoftExchange/InstallUpgradeforEIWservice.htm"
@@ -48,7 +54,8 @@
       PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
       SectionNumberReset="continue"
       VolumeNumberReset="same"
-      ChapterNumberReset="continue" />
+      ChapterNumberReset="continue"
+      AutoEndOnLeftPage="disabled" />
     <TocEntry
       Title="Configure Integration to Microsoft Exchange"
       Link="/Content/Outlook/IntegrationtoMicrosoftExchange/ConfigIntegExchange.htm"
@@ -58,7 +65,8 @@
       PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
       SectionNumberReset="continue"
       VolumeNumberReset="same"
-      ChapterNumberReset="continue" />
+      ChapterNumberReset="continue"
+      AutoEndOnLeftPage="disabled" />
     <TocEntry
       Title="Use Application Pool Identity for Integration for Exchange Service Account"
       Link="/Content/Outlook/IntegrationtoMicrosoftExchange/UseAppPoolIdentif.htm"
@@ -68,7 +76,8 @@
       PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
       SectionNumberReset="continue"
       VolumeNumberReset="same"
-      ChapterNumberReset="continue" />
+      ChapterNumberReset="continue"
+      AutoEndOnLeftPage="disabled" />
     <TocEntry
       Title="Configure EWS Impersonation for Microsoft® Exchange"
       Link="/Content/Outlook/IntegrationtoMicrosoftExchange/ConfigureEWSImpersonation.htm"
@@ -78,7 +87,8 @@
       PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
       SectionNumberReset="continue"
       VolumeNumberReset="same"
-      ChapterNumberReset="continue" />
+      ChapterNumberReset="continue"
+      AutoEndOnLeftPage="disabled" />
     <TocEntry
       Title="Learn More About Exchange Web Services (EWS) Impersonation"
       Link="/Content/Outlook/IntegrationtoMicrosoftExchange/LearnMoreaboutEWS.htm"
@@ -88,6 +98,7 @@
       PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
       SectionNumberReset="continue"
       VolumeNumberReset="same"
-      ChapterNumberReset="continue" />
+      ChapterNumberReset="continue"
+      AutoEndOnLeftPage="disabled" />
   </TocEntry>
 </CatapultToc>
