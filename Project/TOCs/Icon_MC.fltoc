@@ -190,7 +190,7 @@
           Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_SetDefaultHomePgBehavior.html" />
         <TocEntry
           Title="Set the Default Home Page Layout"
-          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_SetDefaultHomePgLayout.html" />
+          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/SetDefaultHomePgLayout.html" />
       </TocEntry>
       <TocEntry
         Title="Integrated Authentication for Master Calendar"
