@@ -16,8 +16,7 @@
     Link="/Content/Print Only Topics/TOC.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
     BreakType="chapter"
     StartSection="false"
-    PageNumberReset="continue"
-    PageLayout="/Content/Resources/PageLayouts/7X9/TOC7X9.flpgl" />
+    PageNumberReset="continue" />
   <TocEntry
     Link="/Content/Outlook/IntegrationtoMicrosoftExchange/Introduction.htm"
     Title="Integration to Microsoft Exchange"

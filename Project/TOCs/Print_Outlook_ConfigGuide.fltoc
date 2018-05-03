@@ -6,15 +6,13 @@
     Link="/Content/Print/Outlook_Config_FrontPage.htm"
     BreakType="chapter"
     StartSection="false"
-    PageNumberReset="continue"
-    PageLayout="/Content/Resources/PageLayouts/7X9/Title7X9.flpgl">
+    PageNumberReset="continue">
     <TocEntry
       Title="[%=System.LinkedTitle%]"
       Link="/Content/Print Only Topics/TOC.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
       BreakType="chapter"
       StartSection="false"
-      PageNumberReset="continue"
-      PageLayout="/Content/Resources/PageLayouts/7X9/TOC7X9.flpgl"></TocEntry>
+      PageNumberReset="continue"></TocEntry>
     <TocEntry
       Title="EMS for Microsoft Outlook"
       Link="/Content/Outlook/B_Config/Outlook_CG_ConfigOutlookOverview.htm"
