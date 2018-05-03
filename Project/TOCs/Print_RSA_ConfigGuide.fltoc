@@ -13,7 +13,8 @@
       Link="/Content/Print Only Topics/TOC.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
       BreakType="chapter"
       StartSection="false"
-      PageNumberReset="continue">
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/TOC8_5X11.flpgl">
       <TocEntry
         Title="EMS Room Sign App"
         Link="/Content/EMSRoomSignApp/44.1/InstallationGuide/Introduction.html"

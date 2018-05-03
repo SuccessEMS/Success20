@@ -9,14 +9,6 @@
     BreakType="pageLayout"
     PageLayout="/Content/Resources/BodyofPDF.flpgl" />
   <TocEntry
-    Title="EMS Desktop Client" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-    BreakType="chapter"
-    PageNumberReset="reset"
-    PageNumber="(multiple)"
-    StartSection="false"
-    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
-    AutoEndOnLeftPage="disabled" />
-  <TocEntry
     Title="EMS Web App"
     Link="/Content/ReleaseNotes/Version44.1/Update24/EMSWebApp.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
     BreakType="chapter"
