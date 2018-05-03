@@ -2,7 +2,12 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="EMS Cloud Services Installation"
-    Link="/Content/EMSCloudServices/Installation.htm"
-    StartSection="false"></TocEntry>
+    Title="Installation Instructions V44.1 (EMS Desktop Client)"
+    Link="/Content/EMSDesktopClient/V44.1/InstallationGuide/InstallationInstructions.html" />
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusPlanningInterface/InstallUpgradeCampusAutoSync.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/EMSKioskApp/V44.1/InstallationGuide/InstallUpgrade.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
 </CatapultToc>
