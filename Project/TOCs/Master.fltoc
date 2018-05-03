@@ -1764,23 +1764,27 @@
             Title="Cultures"
             Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/ConfigCultures.html" />
         </TocEntry>
+        <TocEntry
+          Title="Security"
+          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ConfigUsersTemplates.html">
+          <TocEntry
+            Title="Configure Users"
+            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ConfigureUsers.html" />
+          <TocEntry
+            Title="Manage User Templates"
+            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ManageUserTemplates.html" />
+        </TocEntry>
+        <TocEntry
+          Title="Site Administration" />
+        <TocEntry
+          Title="Admin Functions" />
       </TocEntry>
       <TocEntry
         Title="Calendar Management"
         Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_CalendarManagement.html"></TocEntry>
       <TocEntry
-        Title="Configure Optional Information"
-        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/Configuration.html"></TocEntry>
-      <TocEntry
         Title="Configure Users and Templates"
-        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ConfigUsersTemplates.html">
-        <TocEntry
-          Title="Manage Users"
-          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ConfigureUsers.html" />
-        <TocEntry
-          Title="Manage User Templates"
-          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ManageUserTemplates.html" />
-      </TocEntry>
+        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ConfigUsersTemplates.html"></TocEntry>
       <TocEntry
         Title="Customize Master Calendar Site Appearance and Behavior"
         Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_CustomMCSiteAppBehav.html">
