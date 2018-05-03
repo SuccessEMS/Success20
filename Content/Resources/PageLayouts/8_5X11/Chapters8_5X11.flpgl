@@ -7,8 +7,7 @@
                     <xhtml:head>
                     </xhtml:head>
                     <xhtml:body>
-                        <xhtml:p xhtml:class="FrameFooterText">
-                            <xhtml:img xhtml:src="../../Images/FooterCircle.eps" xhtml:style="max-width: 30px;" />&#160;<xhtml:img xhtml:src="../../Images/FooterCircle.eps" xhtml:style="max-width: 30px;" />&#160;<xhtml:img xhtml:src="../../Images/FooterLogo.eps" xhtml:style="max-width: 30px;" /></xhtml:p>
+                        <xhtml:p xhtml:class="FrameFooterText">&#160;</xhtml:p>
                     </xhtml:body>
                 </xhtml:html>
             </Content>
