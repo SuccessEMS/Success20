@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html MadCap:lastBlockDepth="6" MadCap:lastHeight="3933" MadCap:lastWidth="778" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head><title mt-export-translate="no">Open ID Connect Authentication</title>
         <meta name="mt-type" value="application/x.deki-text" />
         <meta name="mt-unsafe" value="true" />
     </head>
     <body>
-        <h1>
+        <h1 MadCap:autonum="CHAPTER&#160;1: ">
             <MadCap:concept term="V44.1" />Open ID Connect Authentication</h1>
         <p>This section guides you authenticating your users via the Open ID Connect protocol.&#160;Authentication with Open ID requires configuration in&#160;<MadCap:variable name="General.Mobile" /> before users can authenticate. </p>
-        <p class="note-box">Note:&#160;For more information about how Open ID can be hosted or pre-configured in the EMS Mobile App, see <MadCap:xref href="Mobile_OpenIDConnectAuthenHostPreconfig.htm">Open ID Connect Authentication&#160;Can Be&#160;Hosted or Pre-Configured in the EMS Mobile App</MadCap:xref>.</p>
+        <p class="box-note"><span class="bold">NOTE:</span>&#160;For more information about how Open ID can be hosted or pre-configured in the EMS Mobile App, see <MadCap:xref href="Mobile_OpenIDConnectAuthenHostPreconfig.htm">Open ID Connect Authentication&#160;Can Be&#160;Hosted or Pre-Configured in the EMS Mobile App</MadCap:xref>.</p>
         <p>This topic provides information on the following:</p>
         <ul>
             <li>
@@ -45,13 +45,13 @@
         </ol>
         <h4>Use Hosted Configuration</h4>
         <p>Host your configuration file from a web server an distribute the URL to your end users via&#160;the Import SSO&#160;Config feature in <MadCap:variable name="General.Mobile" />.&#160;Users should only have to perform this import one time per installation of the application.</p>
-        <p class="note-box">Warning: It is not recommended to make this configuration file available publicly, since it will likely have URLs and/or other information in it that you do not want made available. Instead, host the file such that it is only available internally to your organization.</p>
+        <p class="box-warning"><span class="bold">WARNING: </span>It is not recommended to make this configuration file available publicly, since it will likely have URLs and/or other information in it that you do not want made available. Instead, host the file such that it is only available internally to your organization.</p>
         <h4>Pre-Configure <MadCap:variable name="General.Mobile" /></h4>
         <p>If you wish to pre-configure the mobile app, see <MadCap:xref href="../../B_ConfigurationGuide/Mobile_ConfigRe-signMobilePrivDeploy.html">Configure and Re-Sign the EMS Mobile App</MadCap:xref>.</p>
         <h2><a name="Test_YourOpen_ID_Connect_Configuration"></a>Test Your&#160;Open ID Connect Configuration</h2>
         <p>Assuming you have installed the EMS Platform Services API at https://ems.yourcompany.com/endpoint, then you can test the configuration with a simple curl command:</p>
         <div class="indent">curl -X GET -H 'x-ems-consumer: MobileApp' https://ems.yourcompany.com/endpoint/api/v1/health</div>
-        <p class="note-box">Tip: You can also use the API's Swagger interface to accomplish this goal.</p>
+        <p class="box-tip"><span class="bold">TIP: </span>You can also use the API's Swagger interface to accomplish this goal.</p>
         <p>You should see a portion of the JSON response that looks like this (unrelated details omitted for brevity):</p>
         <blockquote>
             <p>{<br />&#160;&#160;&#160; ...<br />&#160;&#160;&#160; "additionalProperties": {<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160; "authConfig": {<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; "activities": "openId"&#160; // &lt;-- <span style="color: #ff0000;">these are the critical lines</span><br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; "ui":"openId"<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160; }<br />&#160;&#160;&#160; }<br />}</p>
@@ -60,6 +60,6 @@
         <p>Assuming you have installed the EMS Platform Services API at https://ems.<span class="italics">yourcompany</span>.com/endpoint, you can test the authentication with a curl command:</p>
         <div class="indent">curl -X POST -H 'x-ems-consumer: MobileApp' -H 'Content-Type: application/json' -d '{"token":"your_access_token"}' https://ems.yourcompany.com/endpoint...authentication</div>
         <p>...where your<span class="italics">_access_token</span> is a valid <span class="italics">access_token</span> retrieved from your IdP.</p>
-        <p class="note-box">Note: <span class="bold">api/v1/authentication</span> is the endpoint within the API where your request must be sent.</p>
+        <p class="note-box"><span class="bold">NOTE:</span> <span class="bold">api/v1/authentication</span> is the endpoint within the API where your request must be sent.</p>
     </body>
 </html>
