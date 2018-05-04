@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="6" MadCap:lastHeight="2900" MadCap:lastWidth="965">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
     <head>
         <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
     </head>
@@ -141,8 +141,8 @@
         <p>The FM Toolkit uses the&#160;<span class="italics">ExternalReference&#160;</span>field in&#160;<span class="italics">EMS_Staging.tblRoom</span>&#160;and the&#160;<span class="italics">tblRoom.ExternalReference</span>&#160;field in the EMS database to determine whether a record needs to be added, updated, or inactivated.&#160;</p>
         <h2><a name="Add_New_Records_in_EMS"></a>Add New Records in EMS&#160;</h2>
         <p><span class="bold">Rooms:</span>&#160;If the&#160;<span class="italics">ExternalReference&#160;</span>value in&#160;<span class="italics">EMS_Staging.tblRoom</span>&#160;is not found on an existing room record in EMS, a new room will be created.&#160;</p>
-        <div class="note-box important">
-            <p><span class="bold">Important:</span> Existing EMS clients wanting to implement the FM Toolkit must “synchronize” existing EMS rooms before activating the toolkit by adding a valid&#160;<span class="italics">ExternalReference&#160;</span>value in&#160;<span class="italics">tblRoom</span>.&#160;<span class="bold">Ignoring this step will result in duplicate records.</span>&#160;</p>
+        <div class="box-important">
+            <p><span class="bold">IMPORTANT:</span> Existing EMS clients wanting to implement the FM Toolkit must “synchronize” existing EMS rooms before activating the toolkit by adding a valid&#160;<span class="italics">ExternalReference&#160;</span>value in&#160;<span class="italics">tblRoom</span>.&#160;<span class="bold">Ignoring this step will result in duplicate records.</span>&#160;</p>
         </div>
         <p><span class="bold">Room Types:</span> If the <span class="italics">RoomType </span>value in&#160;<span class="italics">EMS_Staging.tblRoom</span>&#160;is not found in the existing list of room types in EMS, a new room type will be created.</p>
         <p><span class="bold">Floors:</span> If the <span class="italics">Floor </span>value for a particular room record in&#160;<span class="italics">EMS_Staging.tblRoom</span>&#160;is not found in the existing list of floors in EMS, a new floor will be created.</p>
@@ -155,8 +155,8 @@
             <li>If an existing room record in EMS does not exist in&#160;<span class="italics">EMS_Staging.tblRoom</span>&#160;(based on&#160;<span class="italics">ExternalReference</span>).</li>
             <li>If a room record’s&#160;<span class="bold">Active&#160;</span>status in&#160;<span class="italics">EMS_Staging.tblRoom</span>&#160;= 0.</li>
         </ol>
-        <div class="note-box note">
-            <p><span class="bold">Note:</span> Room records within EMS with an empty External Reference field are excluded from processing.&#160;Therefore, rooms that are not included in your data feed can be added and maintained manually within EMS and will not be impacted by the FM Toolkit.&#160;</p>
+        <div class="box-note">
+            <p><span class="bold">NOTE:</span> Room records within EMS with an empty External Reference field are excluded from processing.&#160;Therefore, rooms that are not included in your data feed can be added and maintained manually within EMS and will not be impacted by the FM Toolkit.&#160;</p>
         </div>
     </body>
 </html>

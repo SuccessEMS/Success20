@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="6" MadCap:lastHeight="5860" MadCap:lastWidth="698">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
     <head><title></title>
     </head>
     <body>
@@ -10,7 +10,7 @@
         <div class="TitleandImage">
             <p class="title">Integration Diagram</p>
             <p>
-                <img src="Images/IntegAuthen_Guide/Integration Diagram.png" />
+                <img src="Images/IntegAuthen_Guide/Integration Diagram.png" class="PDFlarge" />
             </p>
         </div>
         <p>When configuring&#160;integrated authentication using this component, you can use the following methods:</p>
@@ -27,8 +27,8 @@
         <p>For a more detailed explanation of the authentication methods outlined above,&#160;see <a href="IntegAuth_IntegratedWindowsAuthen.html">Integrated Windows Authentication</a>.</p>
         <h2>What is <a name="Portal_or_Federated_Authentication"></a>Portal or Federated Authentication?&#160;</h2>
         <p>The Portal Authentication method provides EMS Web App single sign-on capability using your organization’s portal (e.g.,&#160;CAS, Shibboleth,&#160;SiteMinder, Plumtree, uPortal, etc.). When a user logged into your portal accesses EMS Web App, a predefined user-specific variable (e.g.,&#160;email address, employee/student ID, network ID, etc.) captured by your portal/sign-on page is compared against corresponding information recorded in the&#160;<span class="bold">Network ID&#160;</span>and/or&#160;<span class="bold">External Reference&#160;</span>fields of your EMS Everyday User records. If a match exists, the Everyday User will be automatically logged-into EMS Web App.</p>
-        <div class="notifications">
-            <p class="note-box note">Note:&#160;The Field Used to Authenticate Everyday User&#160;parameter (within <span class="bold">System Administration</span> &gt; <span class="bold">Settings </span>&gt;&#160;<span class="bold">Parameters&#160;</span>&gt; <span class="bold">Everyday User Applications</span> tab) is used by EMS Web App to determine which value should be used for authentication.</p>
+        <div class="box-note">
+            <p><span class="bold">NOTE:&#160;</span>The Field Used to Authenticate Everyday User&#160;parameter (within <span class="bold">System Administration</span> &gt; <span class="bold">Settings </span>&gt;&#160;<span class="bold">Parameters&#160;</span>&gt; <span class="bold">Everyday User Applications</span> tab) is used by EMS Web App to determine which value should be used for authentication.</p>
         </div>
         <p>Several built-in authentication methods to pass-in credentials are available including:</p>
         <ul class="unorder-list">
@@ -43,7 +43,7 @@
         <h2>What is <a name="LDAP_Authentication"></a>LDAP Authentication?&#160;</h2>
         <p>Lightweight Directory Access Protocol (LDAP) is an application protocol for querying directory information. The LDAP Authentication method provides single-sign-on capability using your organization’s LDAP environment and can be used in both intranet and internet deployments of EMS Everyday applications such as EMS Web App and EMS Mobile App.&#160;</p>
         <p>
-            <img src="Images/IntegAuthen_Guide/Introduction_1.png" style="visibility: visible;mso-wrap-style: square;width: 547px;height: 321px;" alt="https://success.emssoftware.com/@api/deki/files/5930/clipboard_ea9b09f382c66d9bd3f8fce3ede18706d.png?revision=1&amp;size=bestfit&amp;width=547&amp;height=321" />
+            <img src="Images/IntegAuthen_Guide/Introduction_1.png" style="width: 547px; height: 321px;" alt="https://success.emssoftware.com/@api/deki/files/5930/clipboard_ea9b09f382c66d9bd3f8fce3ede18706d.png?revision=1&amp;size=bestfit&amp;width=547&amp;height=321" class="PDFmedium" />
         </p>
         <p>The LDAP&#160;Authentication topic covers the following information related to LDAP&#160;configuration:</p>
         <ul class="unorder-list">
@@ -67,8 +67,9 @@
             </li>
         </ul>
         <p>When a user logs into EMS Web App or EMS Mobile App with their User ID and Password, their credentials are authenticated against LDAP and compared against corresponding user information recorded in the&#160;<span class="bold">Network ID</span>&#160;and/or&#160;<span class="bold">External Reference</span>&#160;fields of your EMS Everyday User records. If a match exists, the Everyday User will be logged in to the application, inheriting any Everyday User Process Template rights to which&#160;their LDAP Group has been assigned.</p>
-        <div class="note-box note">
-            <p>Notes:</p>
+        <div class="box-note">
+            <p><span class="bold">NOTES:</span>
+            </p>
             <ul class="unorder-list">
                 <li>The EMS Web App LDAP-Process Template assignment process requires that your implementation of LDAP stores group information (e.g., staff, student, department, etc.) as a Directory Service object containing a property (i.e., member) that contains the users that belong to your various groups.&#160;</li>
                 <li>The&#160;Field Used to Authenticate Everyday User&#160;parameter (within&#160;<span class="bold">System Administration</span> &gt; <span class="bold">Settings </span>&gt;&#160;<span class="bold">Parameters&#160;</span>&gt; <span class="bold">Everyday User Applications</span> tab) is used by the applications&#160;to determine which value should be used for authentication.</li>
