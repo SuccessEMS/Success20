@@ -2,14 +2,17 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="Platform Services Release Notes U24"
-    Link="/Content/ReleaseNotes/Version44.1/Update24/EMSPlatformServices.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    Title="EMS for Outlook Release Notes U22.3"
+    Link="/Content/ReleaseNotes/Version44.1/Update22.3/EMSforOutlook.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
     BreakType="chapter"
     StartSection="false"
     PageNumberReset="continue"
     PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
     AutoEndOnLeftPage="disabled"></TocEntry>
   <TocEntry
-    Title="Mobile App Release Notes U24"
-    Link="/Content/ReleaseNotes/Version44.1/Update24/EMSMobileApp.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    Title="Exchange Integration Release Notes U22.3"
+    Link="/Content/ReleaseNotes/Version44.1/Update22.3/ExchangeIntegWebServ.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
+  <TocEntry
+    Title="EMS Desktop Client Release Notes U22.3"
+    Link="/Content/ReleaseNotes/Version44.1/Update22.3/EMSDesktopClient.htm" />
 </CatapultToc>
