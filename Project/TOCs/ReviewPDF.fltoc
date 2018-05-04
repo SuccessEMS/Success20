@@ -160,4 +160,7 @@
   <TocEntry
     Title="[%=System.LinkedTitle%]"
     Link="/Content/OptionalFeatures/Cisco/A_V44.1/Cisco_InstallCiscoTMSservice.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/OptionalFeatures/Polycom/A_V44.1/Polycom_ConfigPolycomInterface.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
 </CatapultToc>
