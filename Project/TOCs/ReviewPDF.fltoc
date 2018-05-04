@@ -2,6 +2,17 @@
 <CatapultToc
   Version="1">
   <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/Print/ReviewPDF_FrontPage.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Print Only Topics/TOC.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/TOC8_5X11.flpgl"></TocEntry>
+  </TocEntry>
+  <TocEntry
     Title="Integrated Authentication Options"
     Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_IntegratedAuthenOptions.html"
     BreakType="chapter"
