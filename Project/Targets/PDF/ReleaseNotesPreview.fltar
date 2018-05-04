@@ -12,7 +12,7 @@
   UseLocalBuildSettings="true"
   IgnoredCompilerWarnings="20032,20033,20034,20035,20036,20037,20038,20039,20040,20041"
   EmbedImages="true"
-  MasterPageLayout="/Content/Resources/PageLayouts/PreviewRN/Chapters8_5X11.flpgl">
+  MasterPageLayout="/Content/Resources/PageLayouts/PreviewRN/PrevChapters.flpgl">
   <PrintedOutput
     CollapseMargins="true"
     ExpandingTextConversion="expand"
