@@ -18,7 +18,7 @@
         Link="/Content/WebApp/B_44/WebApp_OlderReleases.htm" />
       <TocEntry
         Title="EMS for Outlook"
-        Link="/Content/Outlook/Legacy/Outlook_OlderReleases.htm"></TocEntry>
+        Link="/Content/EMSforOutlook/Legacy/Outlook_OlderReleases.htm"></TocEntry>
       <TocEntry
         Title="EMS Glance"
         Link="/Content/EMSRoomSignApp/B_V44/Glance_OlderReleases.htm" />
@@ -57,7 +57,7 @@
         Title="Legacy Documentation">
         <TocEntry
           Title="EMS for Outlook"
-          Link="/Content/Outlook/Legacy/Outlook_OlderReleases.htm"></TocEntry>
+          Link="/Content/EMSforOutlook/Legacy/Outlook_OlderReleases.htm"></TocEntry>
         <TocEntry
           Title="EMS Kiosk App"
           Link="/Content/EMSKioskApp/Legacy/Kiosk_OlderReleases.htm" />

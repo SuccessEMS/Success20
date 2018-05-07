@@ -369,7 +369,7 @@
     ChapterNumberReset="continue" />
   <TocEntry
     Title="[%=System.LinkedTitle%]"
-    Link="/Content/Outlook/IntegrationtoMicrosoftExchange/UseAppPoolIdentif.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    Link="/Content/EMSforOutlook/IntegrationtoMicrosoftExchange/UseAppPoolIdentif.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
     BreakType="chapter"
     AutoEndOnLeftPage="disabled"
     StartSection="false"
