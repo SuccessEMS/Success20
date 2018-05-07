@@ -19,7 +19,7 @@
       AutoEndOnLeftPage="disabled"></TocEntry>
     <TocEntry
       Title="EMS for Microsoft Outlook"
-      Link="/Content/Outlook/B_Config/Outlook_CG_ConfigOutlookOverview.htm"
+      Link="/Content/Outlook/B_Config/ConfigOutlookOverview.htm"
       BreakType="chapter"
       PageNumberReset="reset"
       ChapterNumberReset="reset"
@@ -31,7 +31,7 @@
       VolumeNumberReset="same">
       <TocEntry
         Title="Configure EMS for Outlook"
-        Link="/Content/Outlook/B_Config/Outlook_CG_ConfigforOutlook.htm"
+        Link="/Content/Outlook/B_Config/ConfigforOutlook.htm"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"

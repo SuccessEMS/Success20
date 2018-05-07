@@ -1587,10 +1587,10 @@
     </TocEntry>
     <TocEntry
       Title="EMS for Microsoft Outlook"
-      Link="/Content/Outlook/B_Config/Outlook_CG_ConfigOutlookOverview.htm">
+      Link="/Content/Outlook/B_Config/ConfigOutlookOverview.htm">
       <TocEntry
         Title="Configure EMS for Outlook"
-        Link="/Content/Outlook/B_Config/Outlook_CG_ConfigforOutlook.htm" />
+        Link="/Content/Outlook/B_Config/ConfigforOutlook.htm" />
       <TocEntry
         Title="PDF"
         Link="/Content/Outlook/B_Config/Outlook_Config_PDF.pdf" />

@@ -84,10 +84,10 @@
     </TocEntry>
     <TocEntry
       Title="Configuration Guide"
-      Link="/Content/Outlook/B_Config/Outlook_CG_ConfigOutlookOverview.htm">
+      Link="/Content/Outlook/B_Config/ConfigOutlookOverview.htm">
       <TocEntry
         Title="Configure EMS for Outlook"
-        Link="/Content/Outlook/B_Config/Outlook_CG_ConfigforOutlook.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        Link="/Content/Outlook/B_Config/ConfigforOutlook.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
         Title="PDF"
         Link="/Content/Outlook/B_Config/Outlook_Config_PDF.pdf" />
