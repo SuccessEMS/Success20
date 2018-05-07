@@ -239,6 +239,9 @@
       <TocEntry
         Title="EMS API"
         Link="/Content/ReleaseNotes/EMSAPI_V44.1.htm" />
+      <TocEntry
+        Title="EMS Master Calendar V8"
+        Link="/Content/MCV8_RN.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     </TocEntry>
     <TocEntry
       Title="Older Versions"
@@ -265,7 +268,7 @@
           Title="EMS Desktop Client V43"
           Link="/Content/ReleaseNotes/EMSDesktopClient_V43.htm" />
         <TocEntry
-          Title="EMS Desktop Client -- Academic Planning V44"
+          Title="EMS Desktop Client — Academic Planning V44"
           Link="/Content/ReleaseNotes/EMSDesktopClient_AcademicPlanning_V44.htm" />
         <TocEntry
           Title="Virtual EMS (VEMS) V44"
@@ -295,8 +298,14 @@
           Title="EMS API V44"
           Link="/Content/ReleaseNotes/EMSAPI_V44.htm" />
         <TocEntry
+          Title="EMS Master Calendar V7"
+          Link="/Content/MCV7_RN.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
           Title="PAM V44"
           Link="/Content/ReleaseNotes/PAM_V44.htm" />
+        <TocEntry
+          Title="Regics"
+          Link="/Content/Regics.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       </TocEntry>
     </TocEntry>
   </TocEntry>
