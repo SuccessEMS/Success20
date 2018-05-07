@@ -3,16 +3,13 @@
   Version="1">
   <TocEntry
     Title="EMS Software Accessibility Conformance Report"
-    Link="/Content/EMS_MasterCalendar_VPAT2.0/VPAT_MasterCalendar.htm" />
+    Link="/Content/LearnAboutOurApplications/VPAT_MasterCalendar.htm" />
   <TocEntry
     Title="Applicable Standards/Guidelines" />
   <TocEntry
-    Title="WCAG 2.0 Report"
-    Link="/Content/EMS_MasterCalendar_VPAT2.0/WCAG 2 0 Report.htm" />
+    Title="WCAG 2.0 Report" />
   <TocEntry
-    Title="Table 2: Success Criteria, Level AA"
-    Link="/Content/EMS_MasterCalendar_VPAT2.0/Table 2 Success Criteria Level.htm" />
+    Title="Table 2: Success Criteria, Level AA" />
   <TocEntry
-    Title="2017 Section 508 Report"
-    Link="/Content/EMS_MasterCalendar_VPAT2.0/2017 Section 508 Report.htm" />
+    Title="2017 Section 508 Report" />
 </CatapultToc>
