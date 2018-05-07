@@ -23,10 +23,10 @@
           Link="/Content/EMSforOutlook/InstallationGuide/OutlookAddInOffline.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
           Title="Silent or Unattended EMS for Outlook Installation"
-          Link="/Content/EMSforOutlook/InstallationGuide/Outlook_IG_SilentUnattendedInstall.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Link="/Content/EMSforOutlook/InstallationGuide/SilentUnattendedInstall.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
           Title="Where to See Your Exchange Server URL and EMS for Outlook Version Number"
-          Link="/Content/EMSforOutlook/InstallationGuide/Outlook_IG_WhereExchServURLVerNum.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Link="/Content/EMSforOutlook/InstallationGuide/WhereExchServURLVerNum.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       </TocEntry>
       <TocEntry
         Title="Integrated Authentication Options"

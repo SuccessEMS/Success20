@@ -373,10 +373,10 @@
           Link="/Content/EMSforOutlook/InstallationGuide/OutlookAddInOffline.htm" />
         <TocEntry
           Title="Silent/Unattended EMS for Outlook Installation"
-          Link="/Content/EMSforOutlook/InstallationGuide/Outlook_IG_SilentUnattendedInstall.htm" />
+          Link="/Content/EMSforOutlook/InstallationGuide/SilentUnattendedInstall.htm" />
         <TocEntry
           Title="Where to See Your Exchange Server URL and EMS for Outlook Version Number"
-          Link="/Content/EMSforOutlook/InstallationGuide/Outlook_IG_WhereExchServURLVerNum.htm" />
+          Link="/Content/EMSforOutlook/InstallationGuide/WhereExchServURLVerNum.htm" />
       </TocEntry>
       <TocEntry
         Title="Integrated Authentication Options"
