@@ -268,7 +268,7 @@
           Title="EMS Desktop Client V43"
           Link="/Content/ReleaseNotes/EMSDesktopClient_V43.htm" />
         <TocEntry
-          Title="EMS Desktop Client -- Academic Planning V44"
+          Title="EMS Desktop Client — Academic Planning V44"
           Link="/Content/ReleaseNotes/EMSDesktopClient_AcademicPlanning_V44.htm" />
         <TocEntry
           Title="Virtual EMS (VEMS) V44"
@@ -303,6 +303,9 @@
         <TocEntry
           Title="PAM V44"
           Link="/Content/ReleaseNotes/PAM_V44.htm" />
+        <TocEntry
+          Title="Regics"
+          Link="/Content/Regics.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       </TocEntry>
     </TocEntry>
   </TocEntry>
