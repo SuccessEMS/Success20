@@ -239,6 +239,9 @@
       <TocEntry
         Title="EMS API"
         Link="/Content/ReleaseNotes/EMSAPI_V44.1.htm" />
+      <TocEntry
+        Title="EMS Master Calendar V8"
+        Link="/Content/MCV8_RN.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     </TocEntry>
     <TocEntry
       Title="Older Versions"
@@ -294,6 +297,9 @@
         <TocEntry
           Title="EMS API V44"
           Link="/Content/ReleaseNotes/EMSAPI_V44.htm" />
+        <TocEntry
+          Title="EMS Master Calendar V7"
+          Link="/Content/MCV7_RN.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
           Title="PAM V44"
           Link="/Content/ReleaseNotes/PAM_V44.htm" />
