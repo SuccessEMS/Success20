@@ -466,7 +466,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Area: Tooltip"
-        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_AreaTooltip.html"
+        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/AreaTooltip.html"
         BreakType="chapter"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"

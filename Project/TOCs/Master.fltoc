@@ -240,7 +240,7 @@
         </TocEntry>
         <TocEntry
           Title="[%=System.LinkedTitle%]"
-          Link="/Content/LearnAboutOurApplications/VPAT for EMS Web App V44 1.htm" />
+          Link="/Content/LearnAboutOurApplications/VPAT_EMSWebApp.htm" />
         <TocEntry
           Title="Integrated Windows Authentication"
           Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_IntegratedWindowsAuthen.html">
@@ -1771,7 +1771,7 @@
             Title="Configure Users"
             Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ConfigureUsers.html" />
           <TocEntry
-            Title="Manage User Templates"
+            Title="Configure User Templates"
             Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ManageUserTemplates.html" />
         </TocEntry>
         <TocEntry
@@ -1845,7 +1845,7 @@
           Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/AreaSystemConfig.html" />
         <TocEntry
           Title="Area: Tooltip"
-          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_AreaTooltip.html" />
+          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/AreaTooltip.html" />
       </TocEntry>
       <TocEntry
         Title="Master Calendar API"
@@ -2933,10 +2933,10 @@
         Link="/Content/LearnAboutOurApplications/What is the EMS Floor Plans.htm" />
       <TocEntry
         Title="VPAT 508 ADA Compliance"
-        Link="/Content/LearnAboutOurApplications/VPAT 508 ADA Compliance Section.htm" />
+        Link="/Content/LearnAboutOurApplications/VPAT508ADACompliance.htm" />
       <TocEntry
         Title="VPAT for EMS Web App"
-        Link="/Content/LearnAboutOurApplications/VPAT for EMS Web App V44 1.htm" />
+        Link="/Content/LearnAboutOurApplications/VPAT_EMSWebApp.htm" />
       <TocEntry
         Title="[%=System.LinkedTitle%]"
         Link="/Content/LearnAboutOurApplications/What is Cisco TMS Integration.htm" />

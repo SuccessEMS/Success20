@@ -233,7 +233,7 @@
           Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/AreaSystemConfig.html" />
         <TocEntry
           Title="Area: Tooltip"
-          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_AreaTooltip.html" />
+          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/AreaTooltip.html" />
       </TocEntry>
       <TocEntry
         Title="Master Calendar API"
