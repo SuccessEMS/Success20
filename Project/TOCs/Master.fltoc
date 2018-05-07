@@ -1771,7 +1771,7 @@
             Title="Configure Users"
             Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ConfigureUsers.html" />
           <TocEntry
-            Title="Manage User Templates"
+            Title="Configure User Templates"
             Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ManageUserTemplates.html" />
         </TocEntry>
         <TocEntry
