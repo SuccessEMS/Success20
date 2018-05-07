@@ -94,39 +94,39 @@
     </TocEntry>
     <TocEntry
       Title="User Guide"
-      Link="/Content/EMSforOutlook/UserGuide/Outlook_UG_UseEMSforOutlook.htm">
+      Link="/Content/EMSforOutlook/UserGuide/UseEMSforOutlook.htm">
       <TocEntry
         Title="Get Started with EMS for Outlook"
-        Link="/Content/EMSforOutlook/UserGuide/Outlook_UG_GetStarted.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+        Link="/Content/EMSforOutlook/UserGuide/GetStarted.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
         <TocEntry
           Title="Microsoft Outlook, EMS for Microsoft Outlook, and EMS Web App Comparison"
-          Link="/Content/EMSforOutlook/UserGuide/Outlook_UG_OutlookComparisons.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Link="/Content/EMSforOutlook/UserGuide/OutlookComparisons.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       </TocEntry>
       <TocEntry
         Title="Create a Reservation in EMS for Microsoft Outlook"
-        Link="/Content/EMSforOutlook/UserGuide/Outlook_UG_CreateResOverview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+        Link="/Content/EMSforOutlook/UserGuide/CreateResOverview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
         <TocEntry
           Title="Create a Single Reservation"
-          Link="/Content/EMSforOutlook/UserGuide/Outlook_UG_CreateSingleRes.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Link="/Content/EMSforOutlook/UserGuide/CreateSingleRes.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
           Title="Create a Series Reservation"
-          Link="/Content/EMSforOutlook/UserGuide/Outlook_UG_CreateSeriesRes.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Link="/Content/EMSforOutlook/UserGuide/CreateSeriesRes.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
           Title="Create a Video Conference Reservation"
-          Link="/Content/EMSforOutlook/UserGuide/Outlook_UG_CreateVideoConRes.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Link="/Content/EMSforOutlook/UserGuide/CreateVideoConRes.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
           Title="Edit or Cancel a Reservation"
-          Link="/Content/EMSforOutlook/UserGuide/Outlook_UG_EditCancelSchedEvent.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Link="/Content/EMSforOutlook/UserGuide/EditCancelSchedEvent.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       </TocEntry>
       <TocEntry
         Title="Use Skype for Business in EMS for Outlook"
-        Link="/Content/EMSforOutlook/UserGuide/Outlook_UG_UseSkypeforBusiness.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        Link="/Content/EMSforOutlook/UserGuide/UseSkypeforBusiness.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
         Title="Resolve Booking Conflicts"
-        Link="/Content/EMSforOutlook/UserGuide/Outlook_UG_ResolveBookingConflicts.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        Link="/Content/EMSforOutlook/UserGuide/ResolveBookingConflicts.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
         Title="View Known Errors/Alerts for EMS for Outlook"
-        Link="/Content/EMSforOutlook/UserGuide/Outlook_UG_ViewKnownErrorsAlerts.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        Link="/Content/EMSforOutlook/UserGuide/ViewKnownErrorsAlerts.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
         Title="PDF"
         Link="/Content/EMSforOutlook/UserGuide/Outlook_UG_PDF.pdf" />

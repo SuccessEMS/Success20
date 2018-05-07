@@ -2659,39 +2659,39 @@
     </TocEntry>
     <TocEntry
       Title="EMS for Microsoft Outlook "
-      Link="/Content/EMSforOutlook/UserGuide/Outlook_UG_UseEMSforOutlook.htm">
+      Link="/Content/EMSforOutlook/UserGuide/UseEMSforOutlook.htm">
       <TocEntry
         Title="Get Started with EMS for Outlook"
-        Link="/Content/EMSforOutlook/UserGuide/Outlook_UG_GetStarted.htm">
+        Link="/Content/EMSforOutlook/UserGuide/GetStarted.htm">
         <TocEntry
           Title="Microsoft Outlook, EMS for Microsoft Outlook, and EMS Web App Comparison"
-          Link="/Content/EMSforOutlook/UserGuide/Outlook_UG_OutlookComparisons.htm" />
+          Link="/Content/EMSforOutlook/UserGuide/OutlookComparisons.htm" />
       </TocEntry>
       <TocEntry
         Title="Create a Reservation in EMS for Microsoft Outlook"
-        Link="/Content/EMSforOutlook/UserGuide/Outlook_UG_CreateResOverview.htm">
+        Link="/Content/EMSforOutlook/UserGuide/CreateResOverview.htm">
         <TocEntry
           Title="Create a Single Reservation"
-          Link="/Content/EMSforOutlook/UserGuide/Outlook_UG_CreateSingleRes.htm" />
+          Link="/Content/EMSforOutlook/UserGuide/CreateSingleRes.htm" />
         <TocEntry
           Title="Create a Series Reservation"
-          Link="/Content/EMSforOutlook/UserGuide/Outlook_UG_CreateSeriesRes.htm" />
+          Link="/Content/EMSforOutlook/UserGuide/CreateSeriesRes.htm" />
         <TocEntry
           Title="Create a Video Conference Reservation"
-          Link="/Content/EMSforOutlook/UserGuide/Outlook_UG_CreateVideoConRes.htm" />
+          Link="/Content/EMSforOutlook/UserGuide/CreateVideoConRes.htm" />
         <TocEntry
           Title="Edit or Cancel a Reservation"
-          Link="/Content/EMSforOutlook/UserGuide/Outlook_UG_EditCancelSchedEvent.htm" />
+          Link="/Content/EMSforOutlook/UserGuide/EditCancelSchedEvent.htm" />
       </TocEntry>
       <TocEntry
         Title="Use Skype for Business in EMS for Outlook"
-        Link="/Content/EMSforOutlook/UserGuide/Outlook_UG_UseSkypeforBusiness.htm" />
+        Link="/Content/EMSforOutlook/UserGuide/UseSkypeforBusiness.htm" />
       <TocEntry
         Title="Resolve Booking Conflicts"
-        Link="/Content/EMSforOutlook/UserGuide/Outlook_UG_ResolveBookingConflicts.htm" />
+        Link="/Content/EMSforOutlook/UserGuide/ResolveBookingConflicts.htm" />
       <TocEntry
         Title="View Known Errors/Alerts for EMS for Outlook"
-        Link="/Content/EMSforOutlook/UserGuide/Outlook_UG_ViewKnownErrorsAlerts.htm" />
+        Link="/Content/EMSforOutlook/UserGuide/ViewKnownErrorsAlerts.htm" />
       <TocEntry
         Title="PDF"
         Link="/Content/EMSforOutlook/UserGuide/Outlook_UG_PDF.pdf" />
