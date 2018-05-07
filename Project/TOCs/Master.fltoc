@@ -364,13 +364,13 @@
         Link="/Content/EMSforOutlook/InstallationGuide/Outlook_IG_ReqsPrereqs.htm" />
       <TocEntry
         Title="Plan Your EMS for Outlook Implementation"
-        Link="/Content/EMSforOutlook/InstallationGuide/Outlook_IG_PlanImplementation.htm" />
+        Link="/Content/EMSforOutlook/InstallationGuide/PlanImplementation.htm" />
       <TocEntry
         Title="Install or Upgrade EMS for Outlook on Users' Computers"
         Link="/Content/EMSforOutlook/InstallationGuide/InstallUpgrade.htm">
         <TocEntry
           Title="EMS for Outlook Add-In Is Offline"
-          Link="/Content/EMSforOutlook/InstallationGuide/Outlook_IG_OutlookAddInOffline.htm" />
+          Link="/Content/EMSforOutlook/InstallationGuide/OutlookAddInOffline.htm" />
         <TocEntry
           Title="Silent/Unattended EMS for Outlook Installation"
           Link="/Content/EMSforOutlook/InstallationGuide/Outlook_IG_SilentUnattendedInstall.htm" />

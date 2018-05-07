@@ -14,13 +14,13 @@
         Link="/Content/EMSforOutlook/InstallationGuide/Outlook_IG_ReqsPrereqs.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
         Title="Plan Your EMS for Outlook Implementation"
-        Link="/Content/EMSforOutlook/InstallationGuide/Outlook_IG_PlanImplementation.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        Link="/Content/EMSforOutlook/InstallationGuide/PlanImplementation.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
         Title="Install or Upgrade EMS for Outlook on Users' Computers"
         Link="/Content/EMSforOutlook/InstallationGuide/InstallUpgrade.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
         <TocEntry
           Title="EMS for Outlook Add-In Is Offline"
-          Link="/Content/EMSforOutlook/InstallationGuide/Outlook_IG_OutlookAddInOffline.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Link="/Content/EMSforOutlook/InstallationGuide/OutlookAddInOffline.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
           Title="Silent or Unattended EMS for Outlook Installation"
           Link="/Content/EMSforOutlook/InstallationGuide/Outlook_IG_SilentUnattendedInstall.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />

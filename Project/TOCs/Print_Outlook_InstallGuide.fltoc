@@ -49,7 +49,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Plan Your EMS for Outlook Implementation"
-        Link="/Content/EMSforOutlook/InstallationGuide/Outlook_IG_PlanImplementation.htm"
+        Link="/Content/EMSforOutlook/InstallationGuide/PlanImplementation.htm"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -69,7 +69,7 @@
         ChapterNumberReset="continue">
         <TocEntry
           Title="EMS for Outlook Add-In Is Offline"
-          Link="/Content/EMSforOutlook/InstallationGuide/Outlook_IG_OutlookAddInOffline.htm"
+          Link="/Content/EMSforOutlook/InstallationGuide/OutlookAddInOffline.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
