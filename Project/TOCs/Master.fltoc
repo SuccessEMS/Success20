@@ -358,25 +358,25 @@
       Title="EMS for Microsoft Outlook">
       <TocEntry
         Title="Introduction to EMS for Outlook"
-        Link="/Content/EMSforOutlook/A_Install/Outlook_IG_Introduction.htm" />
+        Link="/Content/EMSforOutlook/InstallationGuide/Introduction.htm" />
       <TocEntry
         Title="Requirements and Prerequisites for EMS for Outlook"
-        Link="/Content/EMSforOutlook/A_Install/Outlook_IG_ReqsPrereqs.htm" />
+        Link="/Content/EMSforOutlook/InstallationGuide/ReqsPrereqs.htm" />
       <TocEntry
         Title="Plan Your EMS for Outlook Implementation"
-        Link="/Content/EMSforOutlook/A_Install/Outlook_IG_PlanImplementation.htm" />
+        Link="/Content/EMSforOutlook/InstallationGuide/PlanImplementation.htm" />
       <TocEntry
         Title="Install or Upgrade EMS for Outlook on Users' Computers"
-        Link="/Content/EMSforOutlook/A_Install/Outlook_IG_InstallUpgrade.htm">
+        Link="/Content/EMSforOutlook/InstallationGuide/InstallUpgrade.htm">
         <TocEntry
           Title="EMS for Outlook Add-In Is Offline"
-          Link="/Content/EMSforOutlook/A_Install/Outlook_IG_OutlookAddInOffline.htm" />
+          Link="/Content/EMSforOutlook/InstallationGuide/OutlookAddInOffline.htm" />
         <TocEntry
           Title="Silent/Unattended EMS for Outlook Installation"
-          Link="/Content/EMSforOutlook/A_Install/Outlook_IG_SilentUnattendedInstall.htm" />
+          Link="/Content/EMSforOutlook/InstallationGuide/SilentUnattendedInstall.htm" />
         <TocEntry
           Title="Where to See Your Exchange Server URL and EMS for Outlook Version Number"
-          Link="/Content/EMSforOutlook/A_Install/Outlook_IG_WhereExchServURLVerNum.htm" />
+          Link="/Content/EMSforOutlook/InstallationGuide/WhereExchServURLVerNum.htm" />
       </TocEntry>
       <TocEntry
         Title="Integrated Authentication Options"
@@ -430,7 +430,7 @@
       </TocEntry>
       <TocEntry
         Title="PDF"
-        Link="/Content/EMSforOutlook/A_Install/Outlook_Install_PDF.pdf" />
+        Link="/Content/EMSforOutlook/InstallationGuide/Outlook_Install_PDF.pdf" />
     </TocEntry>
     <TocEntry
       Title="EMS Kiosk App"
@@ -530,7 +530,7 @@
       </TocEntry>
       <TocEntry
         Title="PDF"
-        Link="/Content/EMSforOutlook/A_Install/Outlook_Install_PDF.pdf" />
+        Link="/Content/EMSforOutlook/InstallationGuide/Outlook_Install_PDF.pdf" />
     </TocEntry>
     <TocEntry
       Title="EMS Platform Services"
@@ -1587,13 +1587,13 @@
     </TocEntry>
     <TocEntry
       Title="EMS for Microsoft Outlook"
-      Link="/Content/EMSforOutlook/B_Config/ConfigOutlookOverview.htm">
+      Link="/Content/EMSforOutlook/ConfigurationGuide/ConfigOutlookOverview.htm">
       <TocEntry
         Title="Configure EMS for Outlook"
-        Link="/Content/EMSforOutlook/B_Config/ConfigforOutlook.htm" />
+        Link="/Content/EMSforOutlook/ConfigurationGuide/ConfigforOutlook.htm" />
       <TocEntry
         Title="PDF"
-        Link="/Content/EMSforOutlook/B_Config/Outlook_Config_PDF.pdf" />
+        Link="/Content/EMSforOutlook/ConfigurationGuide/Outlook_Config_PDF.pdf" />
     </TocEntry>
     <TocEntry
       Title="EMS Kiosk App"
@@ -2659,42 +2659,42 @@
     </TocEntry>
     <TocEntry
       Title="EMS for Microsoft Outlook "
-      Link="/Content/EMSforOutlook/C_User/Outlook_UG_UseEMSforOutlook.htm">
+      Link="/Content/EMSforOutlook/UserGuide/UseEMSforOutlook.htm">
       <TocEntry
         Title="Get Started with EMS for Outlook"
-        Link="/Content/EMSforOutlook/C_User/Outlook_UG_GetStarted.htm">
+        Link="/Content/EMSforOutlook/UserGuide/GetStarted.htm">
         <TocEntry
           Title="Microsoft Outlook, EMS for Microsoft Outlook, and EMS Web App Comparison"
-          Link="/Content/EMSforOutlook/C_User/Outlook_UG_OutlookComparisons.htm" />
+          Link="/Content/EMSforOutlook/UserGuide/OutlookComparisons.htm" />
       </TocEntry>
       <TocEntry
         Title="Create a Reservation in EMS for Microsoft Outlook"
-        Link="/Content/EMSforOutlook/C_User/Outlook_UG_CreateResOverview.htm">
+        Link="/Content/EMSforOutlook/UserGuide/CreateResOverview.htm">
         <TocEntry
           Title="Create a Single Reservation"
-          Link="/Content/EMSforOutlook/C_User/Outlook_UG_CreateSingleRes.htm" />
+          Link="/Content/EMSforOutlook/UserGuide/CreateSingleRes.htm" />
         <TocEntry
           Title="Create a Series Reservation"
-          Link="/Content/EMSforOutlook/C_User/Outlook_UG_CreateSeriesRes.htm" />
+          Link="/Content/EMSforOutlook/UserGuide/CreateSeriesRes.htm" />
         <TocEntry
           Title="Create a Video Conference Reservation"
-          Link="/Content/EMSforOutlook/C_User/Outlook_UG_CreateVideoConRes.htm" />
+          Link="/Content/EMSforOutlook/UserGuide/CreateVideoConRes.htm" />
         <TocEntry
           Title="Edit or Cancel a Reservation"
-          Link="/Content/EMSforOutlook/C_User/Outlook_UG_EditCancelSchedEvent.htm" />
+          Link="/Content/EMSforOutlook/UserGuide/EditCancelSchedEvent.htm" />
       </TocEntry>
       <TocEntry
         Title="Use Skype for Business in EMS for Outlook"
-        Link="/Content/EMSforOutlook/C_User/Outlook_UG_UseSkypeforBusiness.htm" />
+        Link="/Content/EMSforOutlook/UserGuide/UseSkypeforBusiness.htm" />
       <TocEntry
         Title="Resolve Booking Conflicts"
-        Link="/Content/EMSforOutlook/C_User/Outlook_UG_ResolveBookingConflicts.htm" />
+        Link="/Content/EMSforOutlook/UserGuide/ResolveBookingConflicts.htm" />
       <TocEntry
         Title="View Known Errors/Alerts for EMS for Outlook"
-        Link="/Content/EMSforOutlook/C_User/Outlook_UG_ViewKnownErrorsAlerts.htm" />
+        Link="/Content/EMSforOutlook/UserGuide/ViewKnownErrorsAlerts.htm" />
       <TocEntry
         Title="PDF"
-        Link="/Content/EMSforOutlook/C_User/Outlook_UG_PDF.pdf" />
+        Link="/Content/EMSforOutlook/UserGuide/Outlook_UG_PDF.pdf" />
     </TocEntry>
     <TocEntry
       Title="EMS Kiosk App"
