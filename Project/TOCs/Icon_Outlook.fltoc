@@ -11,7 +11,7 @@
         Link="/Content/EMSforOutlook/InstallationGuide/Introduction.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
         Title="Requirements and Prerequisites for EMS for Outlook"
-        Link="/Content/EMSforOutlook/InstallationGuide/Outlook_IG_ReqsPrereqs.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        Link="/Content/EMSforOutlook/InstallationGuide/ReqsPrereqs.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
         Title="Plan Your EMS for Outlook Implementation"
         Link="/Content/EMSforOutlook/InstallationGuide/PlanImplementation.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />

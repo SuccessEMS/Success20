@@ -361,7 +361,7 @@
         Link="/Content/EMSforOutlook/InstallationGuide/Introduction.htm" />
       <TocEntry
         Title="Requirements and Prerequisites for EMS for Outlook"
-        Link="/Content/EMSforOutlook/InstallationGuide/Outlook_IG_ReqsPrereqs.htm" />
+        Link="/Content/EMSforOutlook/InstallationGuide/ReqsPrereqs.htm" />
       <TocEntry
         Title="Plan Your EMS for Outlook Implementation"
         Link="/Content/EMSforOutlook/InstallationGuide/PlanImplementation.htm" />
