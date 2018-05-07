@@ -358,25 +358,25 @@
       Title="EMS for Microsoft Outlook">
       <TocEntry
         Title="Introduction to EMS for Outlook"
-        Link="/Content/Outlook/A_Install/Outlook_IG_Introduction.htm" />
+        Link="/Content/EMSforOutlook/A_Install/Outlook_IG_Introduction.htm" />
       <TocEntry
         Title="Requirements and Prerequisites for EMS for Outlook"
-        Link="/Content/Outlook/A_Install/Outlook_IG_ReqsPrereqs.htm" />
+        Link="/Content/EMSforOutlook/A_Install/Outlook_IG_ReqsPrereqs.htm" />
       <TocEntry
         Title="Plan Your EMS for Outlook Implementation"
-        Link="/Content/Outlook/A_Install/Outlook_IG_PlanImplementation.htm" />
+        Link="/Content/EMSforOutlook/A_Install/Outlook_IG_PlanImplementation.htm" />
       <TocEntry
         Title="Install or Upgrade EMS for Outlook on Users' Computers"
-        Link="/Content/Outlook/A_Install/Outlook_IG_InstallUpgrade.htm">
+        Link="/Content/EMSforOutlook/A_Install/Outlook_IG_InstallUpgrade.htm">
         <TocEntry
           Title="EMS for Outlook Add-In Is Offline"
-          Link="/Content/Outlook/A_Install/Outlook_IG_OutlookAddInOffline.htm" />
+          Link="/Content/EMSforOutlook/A_Install/Outlook_IG_OutlookAddInOffline.htm" />
         <TocEntry
           Title="Silent/Unattended EMS for Outlook Installation"
-          Link="/Content/Outlook/A_Install/Outlook_IG_SilentUnattendedInstall.htm" />
+          Link="/Content/EMSforOutlook/A_Install/Outlook_IG_SilentUnattendedInstall.htm" />
         <TocEntry
           Title="Where to See Your Exchange Server URL and EMS for Outlook Version Number"
-          Link="/Content/Outlook/A_Install/Outlook_IG_WhereExchServURLVerNum.htm" />
+          Link="/Content/EMSforOutlook/A_Install/Outlook_IG_WhereExchServURLVerNum.htm" />
       </TocEntry>
       <TocEntry
         Title="Integrated Authentication Options"
@@ -407,30 +407,30 @@
         </TocEntry>
       </TocEntry>
       <TocEntry
-        Link="/Content/Outlook/IntegrationtoMicrosoftExchange/Introduction.htm"
+        Link="/Content/EMSforOutlook/IntegrationtoMicrosoftExchange/Introduction.htm"
         Title="Integration to Microsoft Exchange">
         <TocEntry
           Title="System Requirements for Integration to Microsoft® Exchange"
-          Link="/Content/Outlook/IntegrationtoMicrosoftExchange/IntegExchanReqs.htm" />
+          Link="/Content/EMSforOutlook/IntegrationtoMicrosoftExchange/IntegExchanReqs.htm" />
         <TocEntry
           Title="Install or Upgrade the Exchange Integration Web Service"
-          Link="/Content/Outlook/IntegrationtoMicrosoftExchange/InstallUpgradeforEIWservice.htm" />
+          Link="/Content/EMSforOutlook/IntegrationtoMicrosoftExchange/InstallUpgradeforEIWservice.htm" />
         <TocEntry
           Title="Configure Integration to Microsoft Exchange"
-          Link="/Content/Outlook/IntegrationtoMicrosoftExchange/ConfigIntegExchange.htm" />
+          Link="/Content/EMSforOutlook/IntegrationtoMicrosoftExchange/ConfigIntegExchange.htm" />
         <TocEntry
           Title="Use Application Pool Identity for Integration for Exchange Service Account"
-          Link="/Content/Outlook/IntegrationtoMicrosoftExchange/UseAppPoolIdentif.htm" />
+          Link="/Content/EMSforOutlook/IntegrationtoMicrosoftExchange/UseAppPoolIdentif.htm" />
         <TocEntry
           Title="Configure EWS Impersonation for Microsoft® Exchange"
-          Link="/Content/Outlook/IntegrationtoMicrosoftExchange/ConfigureEWSImpersonation.htm" />
+          Link="/Content/EMSforOutlook/IntegrationtoMicrosoftExchange/ConfigureEWSImpersonation.htm" />
         <TocEntry
           Title="Learn More About Exchange Web Services (EWS) Impersonation"
-          Link="/Content/Outlook/IntegrationtoMicrosoftExchange/LearnMoreaboutEWS.htm" />
+          Link="/Content/EMSforOutlook/IntegrationtoMicrosoftExchange/LearnMoreaboutEWS.htm" />
       </TocEntry>
       <TocEntry
         Title="PDF"
-        Link="/Content/Outlook/A_Install/Outlook_Install_PDF.pdf" />
+        Link="/Content/EMSforOutlook/A_Install/Outlook_Install_PDF.pdf" />
     </TocEntry>
     <TocEntry
       Title="EMS Kiosk App"
@@ -530,7 +530,7 @@
       </TocEntry>
       <TocEntry
         Title="PDF"
-        Link="/Content/Outlook/A_Install/Outlook_Install_PDF.pdf" />
+        Link="/Content/EMSforOutlook/A_Install/Outlook_Install_PDF.pdf" />
     </TocEntry>
     <TocEntry
       Title="EMS Platform Services"
@@ -906,26 +906,26 @@
       </TocEntry>
     </TocEntry>
     <TocEntry
-      Link="/Content/Outlook/IntegrationtoMicrosoftExchange/Introduction.htm"
+      Link="/Content/EMSforOutlook/IntegrationtoMicrosoftExchange/Introduction.htm"
       Title="Integration to Microsoft Exchange">
       <TocEntry
         Title="System Requirements for Integration to Microsoft® Exchange"
-        Link="/Content/Outlook/IntegrationtoMicrosoftExchange/IntegExchanReqs.htm" />
+        Link="/Content/EMSforOutlook/IntegrationtoMicrosoftExchange/IntegExchanReqs.htm" />
       <TocEntry
         Title="Install or Upgrade the Exchange Integration Web Service"
-        Link="/Content/Outlook/IntegrationtoMicrosoftExchange/InstallUpgradeforEIWservice.htm" />
+        Link="/Content/EMSforOutlook/IntegrationtoMicrosoftExchange/InstallUpgradeforEIWservice.htm" />
       <TocEntry
         Title="Configure Integration to Microsoft Exchange"
-        Link="/Content/Outlook/IntegrationtoMicrosoftExchange/ConfigIntegExchange.htm" />
+        Link="/Content/EMSforOutlook/IntegrationtoMicrosoftExchange/ConfigIntegExchange.htm" />
       <TocEntry
         Title="Use Application Pool Identity for Integration for Exchange Service Account"
-        Link="/Content/Outlook/IntegrationtoMicrosoftExchange/UseAppPoolIdentif.htm" />
+        Link="/Content/EMSforOutlook/IntegrationtoMicrosoftExchange/UseAppPoolIdentif.htm" />
       <TocEntry
         Title="Configure EWS Impersonation for Microsoft® Exchange"
-        Link="/Content/Outlook/IntegrationtoMicrosoftExchange/ConfigureEWSImpersonation.htm" />
+        Link="/Content/EMSforOutlook/IntegrationtoMicrosoftExchange/ConfigureEWSImpersonation.htm" />
       <TocEntry
         Title="Learn More About Exchange Web Services (EWS) Impersonation"
-        Link="/Content/Outlook/IntegrationtoMicrosoftExchange/LearnMoreaboutEWS.htm" />
+        Link="/Content/EMSforOutlook/IntegrationtoMicrosoftExchange/LearnMoreaboutEWS.htm" />
     </TocEntry>
   </TocEntry>
   <TocEntry
@@ -1587,13 +1587,13 @@
     </TocEntry>
     <TocEntry
       Title="EMS for Microsoft Outlook"
-      Link="/Content/Outlook/B_Config/Outlook_CG_ConfigOutlookOverview.htm">
+      Link="/Content/EMSforOutlook/B_Config/ConfigOutlookOverview.htm">
       <TocEntry
         Title="Configure EMS for Outlook"
-        Link="/Content/Outlook/B_Config/Outlook_CG_ConfigforOutlook.htm" />
+        Link="/Content/EMSforOutlook/B_Config/ConfigforOutlook.htm" />
       <TocEntry
         Title="PDF"
-        Link="/Content/Outlook/B_Config/Outlook_Config_PDF.pdf" />
+        Link="/Content/EMSforOutlook/B_Config/Outlook_Config_PDF.pdf" />
     </TocEntry>
     <TocEntry
       Title="EMS Kiosk App"
@@ -2659,42 +2659,42 @@
     </TocEntry>
     <TocEntry
       Title="EMS for Microsoft Outlook "
-      Link="/Content/Outlook/C_User/Outlook_UG_UseEMSforOutlook.htm">
+      Link="/Content/EMSforOutlook/C_User/Outlook_UG_UseEMSforOutlook.htm">
       <TocEntry
         Title="Get Started with EMS for Outlook"
-        Link="/Content/Outlook/C_User/Outlook_UG_GetStarted.htm">
+        Link="/Content/EMSforOutlook/C_User/Outlook_UG_GetStarted.htm">
         <TocEntry
           Title="Microsoft Outlook, EMS for Microsoft Outlook, and EMS Web App Comparison"
-          Link="/Content/Outlook/C_User/Outlook_UG_OutlookComparisons.htm" />
+          Link="/Content/EMSforOutlook/C_User/Outlook_UG_OutlookComparisons.htm" />
       </TocEntry>
       <TocEntry
         Title="Create a Reservation in EMS for Microsoft Outlook"
-        Link="/Content/Outlook/C_User/Outlook_UG_CreateResOverview.htm">
+        Link="/Content/EMSforOutlook/C_User/Outlook_UG_CreateResOverview.htm">
         <TocEntry
           Title="Create a Single Reservation"
-          Link="/Content/Outlook/C_User/Outlook_UG_CreateSingleRes.htm" />
+          Link="/Content/EMSforOutlook/C_User/Outlook_UG_CreateSingleRes.htm" />
         <TocEntry
           Title="Create a Series Reservation"
-          Link="/Content/Outlook/C_User/Outlook_UG_CreateSeriesRes.htm" />
+          Link="/Content/EMSforOutlook/C_User/Outlook_UG_CreateSeriesRes.htm" />
         <TocEntry
           Title="Create a Video Conference Reservation"
-          Link="/Content/Outlook/C_User/Outlook_UG_CreateVideoConRes.htm" />
+          Link="/Content/EMSforOutlook/C_User/Outlook_UG_CreateVideoConRes.htm" />
         <TocEntry
           Title="Edit or Cancel a Reservation"
-          Link="/Content/Outlook/C_User/Outlook_UG_EditCancelSchedEvent.htm" />
+          Link="/Content/EMSforOutlook/C_User/Outlook_UG_EditCancelSchedEvent.htm" />
       </TocEntry>
       <TocEntry
         Title="Use Skype for Business in EMS for Outlook"
-        Link="/Content/Outlook/C_User/Outlook_UG_UseSkypeforBusiness.htm" />
+        Link="/Content/EMSforOutlook/C_User/Outlook_UG_UseSkypeforBusiness.htm" />
       <TocEntry
         Title="Resolve Booking Conflicts"
-        Link="/Content/Outlook/C_User/Outlook_UG_ResolveBookingConflicts.htm" />
+        Link="/Content/EMSforOutlook/C_User/Outlook_UG_ResolveBookingConflicts.htm" />
       <TocEntry
         Title="View Known Errors/Alerts for EMS for Outlook"
-        Link="/Content/Outlook/C_User/Outlook_UG_ViewKnownErrorsAlerts.htm" />
+        Link="/Content/EMSforOutlook/C_User/Outlook_UG_ViewKnownErrorsAlerts.htm" />
       <TocEntry
         Title="PDF"
-        Link="/Content/Outlook/C_User/Outlook_UG_PDF.pdf" />
+        Link="/Content/EMSforOutlook/C_User/Outlook_UG_PDF.pdf" />
     </TocEntry>
     <TocEntry
       Title="EMS Kiosk App"

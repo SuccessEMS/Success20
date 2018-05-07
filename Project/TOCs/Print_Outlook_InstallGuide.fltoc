@@ -29,7 +29,7 @@
       VolumeNumberReset="same">
       <TocEntry
         Title="Introduction to EMS for Outlook"
-        Link="/Content/Outlook/A_Install/Outlook_IG_Introduction.htm"
+        Link="/Content/EMSforOutlook/A_Install/Outlook_IG_Introduction.htm"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -39,7 +39,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Requirements and Prerequisites for EMS for Outlook"
-        Link="/Content/Outlook/A_Install/Outlook_IG_ReqsPrereqs.htm"
+        Link="/Content/EMSforOutlook/A_Install/Outlook_IG_ReqsPrereqs.htm"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -49,7 +49,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Plan Your EMS for Outlook Implementation"
-        Link="/Content/Outlook/A_Install/Outlook_IG_PlanImplementation.htm"
+        Link="/Content/EMSforOutlook/A_Install/Outlook_IG_PlanImplementation.htm"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -59,7 +59,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Install or Upgrade EMS for Outlook on Users' Computers"
-        Link="/Content/Outlook/A_Install/Outlook_IG_InstallUpgrade.htm"
+        Link="/Content/EMSforOutlook/A_Install/Outlook_IG_InstallUpgrade.htm"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -69,7 +69,7 @@
         ChapterNumberReset="continue">
         <TocEntry
           Title="EMS for Outlook Add-In Is Offline"
-          Link="/Content/Outlook/A_Install/Outlook_IG_OutlookAddInOffline.htm"
+          Link="/Content/EMSforOutlook/A_Install/Outlook_IG_OutlookAddInOffline.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -79,7 +79,7 @@
           ChapterNumberReset="continue" />
         <TocEntry
           Title="Silent/Unattended EMS for Outlook Installation"
-          Link="/Content/Outlook/A_Install/Outlook_IG_SilentUnattendedInstall.htm"
+          Link="/Content/EMSforOutlook/A_Install/Outlook_IG_SilentUnattendedInstall.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -89,7 +89,7 @@
           ChapterNumberReset="continue" />
         <TocEntry
           Title="Where to See Your Exchange Server URL and EMS for Outlook Version Number"
-          Link="/Content/Outlook/A_Install/Outlook_IG_WhereExchServURLVerNum.htm"
+          Link="/Content/EMSforOutlook/A_Install/Outlook_IG_WhereExchServURLVerNum.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -183,7 +183,7 @@
         </TocEntry>
       </TocEntry>
       <TocEntry
-        Link="/Content/Outlook/IntegrationtoMicrosoftExchange/Introduction.htm"
+        Link="/Content/EMSforOutlook/IntegrationtoMicrosoftExchange/Introduction.htm"
         Title="Integration to Microsoft Exchange"
         BreakType="chapter"
         StartSection="false"
@@ -194,22 +194,22 @@
         ChapterNumberReset="continue">
         <TocEntry
           Title="System Requirements for Integration to Microsoft® Exchange"
-          Link="/Content/Outlook/IntegrationtoMicrosoftExchange/IntegExchanReqs.htm" />
+          Link="/Content/EMSforOutlook/IntegrationtoMicrosoftExchange/IntegExchanReqs.htm" />
         <TocEntry
           Title="Install or Upgrade the Exchange Integration Web Service"
-          Link="/Content/Outlook/IntegrationtoMicrosoftExchange/InstallUpgradeforEIWservice.htm" />
+          Link="/Content/EMSforOutlook/IntegrationtoMicrosoftExchange/InstallUpgradeforEIWservice.htm" />
         <TocEntry
           Title="Configure Integration to Microsoft Exchange"
-          Link="/Content/Outlook/IntegrationtoMicrosoftExchange/ConfigIntegExchange.htm" />
+          Link="/Content/EMSforOutlook/IntegrationtoMicrosoftExchange/ConfigIntegExchange.htm" />
         <TocEntry
           Title="Use Application Pool Identity for Integration for Exchange Service Account"
-          Link="/Content/Outlook/IntegrationtoMicrosoftExchange/UseAppPoolIdentif.htm" />
+          Link="/Content/EMSforOutlook/IntegrationtoMicrosoftExchange/UseAppPoolIdentif.htm" />
         <TocEntry
           Title="Configure EWS Impersonation for Microsoft® Exchange"
-          Link="/Content/Outlook/IntegrationtoMicrosoftExchange/ConfigureEWSImpersonation.htm" />
+          Link="/Content/EMSforOutlook/IntegrationtoMicrosoftExchange/ConfigureEWSImpersonation.htm" />
         <TocEntry
           Title="Learn More About Exchange Web Services (EWS) Impersonation"
-          Link="/Content/Outlook/IntegrationtoMicrosoftExchange/LearnMoreaboutEWS.htm" />
+          Link="/Content/EMSforOutlook/IntegrationtoMicrosoftExchange/LearnMoreaboutEWS.htm" />
       </TocEntry>
     </TocEntry>
   </TocEntry>
