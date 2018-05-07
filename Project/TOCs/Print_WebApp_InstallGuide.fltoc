@@ -255,7 +255,7 @@
     </TocEntry>
     <TocEntry
       Title="[%=System.LinkedTitle%]"
-      Link="/Content/LearnAboutOurApplications/VPAT for EMS Web App V44 1.htm"
+      Link="/Content/LearnAboutOurApplications/VPAT for EMS Web App.htm"
       BreakType="chapter"
       PageNumberReset="continue"
       PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
