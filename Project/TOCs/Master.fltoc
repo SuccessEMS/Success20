@@ -2289,7 +2289,7 @@
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/WorkwithSavedReports.html" />
         <TocEntry
           Title="Work with a Query"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/WorkwithResBook.html" />
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/WorkwithQuery.html" />
       </TocEntry>
       <TocEntry
         Title="Billing"
