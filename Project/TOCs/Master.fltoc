@@ -1775,7 +1775,26 @@
             Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ManageUserTemplates.html" />
         </TocEntry>
         <TocEntry
-          Title="Site Administration" />
+          Title="Site Administration"
+          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/SiteAdministrationandCustomizingMC.html">
+          <TocEntry
+            Title="Customize Themes"
+            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/CustomizeThemeandEmails.html" />
+          <TocEntry
+            Title="Default Settings" />
+          <TocEntry
+            Title="RSS Menus" />
+          <TocEntry
+            Title="Registration" />
+          <TocEntry
+            Title="Data Sources" />
+          <TocEntry
+            Title="Email Header" />
+          <TocEntry
+            Title="Help Text" />
+          <TocEntry
+            Title="Subscriptions" />
+        </TocEntry>
         <TocEntry
           Title="Admin Functions" />
       </TocEntry>
@@ -1796,7 +1815,7 @@
           Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_CustomizeMenus.html" />
         <TocEntry
           Title="Customize Your Master Calendar Site and Automated Emails"
-          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_CustomizeMCSiteandAutoEmails.html" />
+          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/SiteAdministrationandCustomizingMC.html" />
         <TocEntry
           Title="Set Default Home Page Behavior"
           Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/SetDefaultHomePgBehavior.html" />
@@ -2932,11 +2951,18 @@
         Title="[%=System.LinkedTitle%]"
         Link="/Content/LearnAboutOurApplications/What is the EMS Floor Plans.htm" />
       <TocEntry
-        Title="VPAT 508 ADA Compliance"
-        Link="/Content/LearnAboutOurApplications/VPAT508ADACompliance.htm" />
-      <TocEntry
-        Title="VPAT for EMS Web App"
-        Link="/Content/LearnAboutOurApplications/VPAT_EMSWebApp.htm" />
+        Title="VPAT"
+        Link="/Content/LearnAboutOurApplications/VPAT_Overview.htm">
+        <TocEntry
+          Title="VPAT 508 ADA Compliance"
+          Link="/Content/LearnAboutOurApplications/VPAT508ADACompliance.htm" />
+        <TocEntry
+          Title="VPAT for EMS Web App"
+          Link="/Content/LearnAboutOurApplications/VPAT_EMSWebApp.htm" />
+        <TocEntry
+          Title="VPAT for EMS Master Calendar"
+          Link="/Content/LearnAboutOurApplications/VPAT_MasterCalendar.htm" />
+      </TocEntry>
       <TocEntry
         Title="[%=System.LinkedTitle%]"
         Link="/Content/LearnAboutOurApplications/What is Cisco TMS Integration.htm" />
