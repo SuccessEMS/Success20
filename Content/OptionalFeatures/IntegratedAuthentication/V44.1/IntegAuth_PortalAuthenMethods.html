@@ -19,7 +19,7 @@
                     </li>
                 </ul>
             </li>
-            <li><a href="#EMS_Configuration">EMS Configuration</a>
+            <li><a href="#EMS_Configuration">EMS Desktop Client Configuration</a>
                 <ul>
                     <li><a href="#Session_Method">Session Method</a>
                     </li>
@@ -38,7 +38,6 @@
         <h2><a name="Server_Variable_Method_(Header_Variable)"></a>Server Variable Method (Header Variable)</h2>
         <p>Server Variable/Header Variable is a collection of variables that are set by Internet Information Server (IIS).&#160;</p>
         <p>Applications like SiteMinder create custom server variables for portal site use.</p>
-        <p><span class="bold">Code example:</span>&#160;</p>
         <p>Set the&#160;<span class="bold">Portal Authentication Method</span>&#160;parameter to&#160;Server Variable&#160;and type the appropriate variable for the&#160;<span class="bold">Portal Authentication Variable</span>&#160;parameter. Direct users to your EMS Web App&#160;Default.aspx page.</p>
         <h2><a name="Server_Variable_Method_–_Federated_(SAML)"></a>Server Variable Method – Federated (SAML)</h2>
         <p class="box-note"><span class="bold">NOTE:</span>&#160;As of Update 23 (March 2018), SAML authentication for the EMS&#160;Web App is supported through EMS&#160;Platform Services. This is now the recommended method for configuring SAML. See Also:&#160;<a href="../../../EMSMobileApp/InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_SAMLAuthen.html">SAML&#160;Authentication</a>. </p>
@@ -50,22 +49,22 @@
             <li>Install and configure a service provider on the EMS web server</li>
             <li>Set the service provider to protect the specified EMS web applications</li>
             <li>Configure the service provider to pass the required user attributes</li>
-            <li>In EMS, configure the&#160;EMS Web App&#160;parameter “Portal Authentication Method”</li>
-            <li>In EMS, configure the applicable Portal Authentication Variables.</li>
+            <li>In <MadCap:variable name="General.EMS&#160;Desktop Client" />, configure the&#160;EMS Web App&#160;parameter “Portal Authentication Method”</li>
+            <li>In <MadCap:variable name="General.EMS&#160;Desktop Client" /> configure the applicable Portal Authentication Variables.</li>
         </ol>
         <h3><a name="Method_2"></a>Method 2</h3>
-        <p>This method can be common if there is already a server configured with a service provider in your environment, handling authentication for other applications. In EMS you can configure your application to re-direct any login requests to the other server to be authenticated. Once the user is authenticated, the server with your service provider installed sends the user back to the EMS Application with an identifier for the user in the header, or within a cookie. The EMS application reads this header, or cookie value, and leverages portal authentication to sign the user in with the matched credentials.</p>
+        <p>This method can be common if there is already a server configured with a service provider in your environment, handling authentication for other applications. In <MadCap:variable name="General.EMS&#160;Desktop Client" />, you can configure your application to re-direct any login requests to the other server to be authenticated. Once the user is authenticated, the server with your service provider installed sends the user back to the <MadCap:variable name="General.EMS&#160;Desktop Client" /> with an identifier for the user in the header, or within a cookie. The EMS application reads this header, or cookie value, and leverages portal authentication to sign the user in with the matched credentials.</p>
         <h4>Method 2 Configuration Steps</h4>
         <ol start="1" class="number-list">
             <li>Install and configure a service provider on the EMS web server</li>
             <li>Set the service provider to protect the specified EMS web applications</li>
             <li>Configure the service provider to pass the required user attributes</li>
-            <li>In EMS, configure the EMS Web App parameter “Portal Authentication Method”</li>
-            <li>In EMS, configure the applicable Portal Authentication Variables.</li>
-            <li>In EMS, change the Login URL under <span class="bold">Configuration </span>&gt; <span class="bold">Everyday User Applications</span> &gt; <span class="bold">Web App&#160;Menus</span>.<ol start="1"><li>Select <span class="bold">Login.aspx</span>and click&#160;<span class="bold">Edit</span></li><li>Enter in the URL to your Remote Service Provider</li></ol></li>
+            <li>In <MadCap:variable name="General.EMS&#160;Desktop Client" /> configure the EMS Web App parameter “Portal Authentication Method”</li>
+            <li>In EMS <MadCap:variable name="General.EMS&#160;Desktop Client" />, configure the applicable Portal Authentication Variables.</li>
+            <li>In EMS <MadCap:variable name="General.EMS&#160;Desktop Client" />, change the Login URL under <span class="bold">Configuration </span>&gt; <span class="bold">Everyday User Applications</span> &gt; <span class="bold">Web App&#160;Menus</span>.<ol start="1"><li>Select <span class="bold">Login.aspx</span>and click&#160;<span class="bold">Edit</span></li><li>Enter in the URL to your Remote Service Provider</li></ol></li>
             <li>Configure your remote Service provider to send the user back to the default.aspx page of the web application that the request originated from.</li>
         </ol>
-        <h2><a name="EMS_Configuration"></a>EMS Configuration</h2>
+        <h2><a name="EMS_Configuration"></a>EMS Desktop Client Configuration</h2>
         <p>Please reference our Portal Authentication section for further details around the configuration required within EMS. There are a number of different options available. You will need to know the method that the user identifying value will be passed and the name of that value. Other values can also be passed (ie: email address and phone number) to aid in automatic web user account provisioning as well.</p>
         <h3><a name="Session_Method"></a>Session Method</h3>
         <p>A session is a way to provide/maintain user state information in an inherently stateless environment.&#160; It provides access to a session-wide cache you can use to store information.</p>
@@ -81,7 +80,7 @@
         <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; End Sub</p>
         <p>&lt;/script&gt;</p>
         <h3><a name="Form_Method"></a>Form Method</h3>
-        <p>Forms enable client-side users to submit data to a server in a standardized format via HTML. &#160;The creator of a form designs the form to collect the required data using a variety of controls, such as INPUT or SELECT. &#160;Users viewing the form fill in the data and then click Submit to send the data to the server.</p>
+        <p>Forms enable client-side users to submit data to a server in a standardized format via HTML.&#160;The creator of a form designs the form to collect the required data using a variety of controls, such as INPUT or SELECT. Users viewing the form fill in the data and then click Submit to send the data to the server.</p>
         <p>To use the form method, set the&#160;Portal Authentication Method&#160;parameter to&#160;<span class="bold">Form&#160;</span>and type the appropriate variable for the&#160;Portal Authentication Variable&#160;parameter.&#160; To create portals through a form, create a web page with a form similar to below.&#160; Once the user logs on through the portal, the form below can be submitted to log the user on to EMS Web App.</p>
         <p><span class="bold">Code example in HTML:</span>
         </p>
