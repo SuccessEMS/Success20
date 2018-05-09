@@ -1708,7 +1708,7 @@
             Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ConnectMCtoEMSDatabase.html">
             <TocEntry
               Title="Connect to Data Sources"
-              Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ConnectDataSources.html" />
+              Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/ConnectDataSources.html" />
           </TocEntry>
           <TocEntry
             Title="Import Events"
@@ -1788,17 +1788,19 @@
             Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/CustomizeRSSFeeds.html" />
           <TocEntry
             Title="Customize Menus"
-            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_CustomizeMenus.html" />
+            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/CustomizeMenus.html" />
           <TocEntry
             Title="Registration"
             Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MaintainMCSoftwareReg.html" />
           <TocEntry
-            Title="Data Sources" />
+            Title="Data Sources"
+            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/ConnectDataSources.html" />
           <TocEntry
             Title="Email Header"
             Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/CustomizeEmailHeaders.html" />
           <TocEntry
-            Title="Help Text" />
+            Title="Help Text"
+            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_CustomizeHelpText.html" />
           <TocEntry
             Title="Subscriptions" />
         </TocEntry>
@@ -1819,7 +1821,7 @@
           Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_CustomizeHelpText.html" />
         <TocEntry
           Title="Customize Menus in Master Calendar"
-          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_CustomizeMenus.html" />
+          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/CustomizeMenus.html" />
         <TocEntry
           Title="Customize Your Master Calendar Site and Automated Emails"
           Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/SiteAdministrationandCustomizingMC.html" />
