@@ -2081,7 +2081,7 @@ p.table-important
 {
 	font-weight: 700;
 	color: #333;
-	text-transform: none;
+	
 }
 
 .status-box
@@ -2124,6 +2124,7 @@ p.table-important
 	border-radius: 4px;
 	border-color: #afbd22;
 	margin-bottom: 30px;
+	page-break-inside: avoid;
 }
 
 .box-tip
@@ -2138,6 +2139,7 @@ p.table-important
 	border-radius: 4px;
 	border-color: #00477f;
 	margin-bottom: 30px;
+	page-break-inside: avoid;
 }
 
 .box-important
@@ -2152,6 +2154,7 @@ p.table-important
 	border-radius: 4px;
 	border-color: #f6c343;
 	margin-bottom: 30px;
+	page-break-inside: avoid;
 }
 
 .box-warning
@@ -2166,6 +2169,7 @@ p.table-important
 	border-radius: 4px;
 	border-color: #ee2e23;
 	margin-bottom: 30px;
+	page-break-inside: avoid;
 }
 
 .box-note p
@@ -2180,6 +2184,7 @@ p.box-note
 	line-height: 30px;
 	font-size: 16px;
 	font-weight: 400;
+	page-break-inside: avoid;
 }
 
 .box-tip p
@@ -2194,6 +2199,7 @@ p.box-tip
 	line-height: 30px;
 	font-size: 16px;
 	font-weight: 400;
+	page-break-inside: avoid;
 }
 
 .box-important p
@@ -2208,6 +2214,7 @@ p.box-important
 	line-height: 30px;
 	font-size: 16px;
 	font-weight: 400;
+	page-break-inside: avoid;
 }
 
 .box-warning p
@@ -2222,6 +2229,7 @@ p.box-warning
 	line-height: 30px;
 	font-size: 16px;
 	font-weight: 400;
+	page-break-inside: avoid;
 }
 
 .box-note:before
@@ -2303,7 +2311,6 @@ p.box-warning span
 {
 	font-weight: 700;
 	color: #333;
-	text-transform: none;
 }
 
 /********Note Combo Box Links*********/
@@ -2971,6 +2978,12 @@ ul.unorder-list
 .bold
 {
 	font-weight: bold;
+}
+
+.boldAllCaps
+{
+	font-weight: bold;
+	text-transform: uppercase;
 }
 
 .italics
