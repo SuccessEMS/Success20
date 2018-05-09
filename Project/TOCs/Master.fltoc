@@ -1853,11 +1853,11 @@
           Title="Configure Master Calendar to Use the Master Calendar API Web Service"
           Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ConfigMCtoUseMC_API_WebServ.htm" />
         <TocEntry
-          Title="Verify the Master Calendar API"
-          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_VerifyMCAPI.html" />
-        <TocEntry
           Title="API Functions"
           Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/APIfunctions.htm"></TocEntry>
+        <TocEntry
+          Title="Verify the Master Calendar API"
+          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_VerifyMCAPI.html" />
       </TocEntry>
     </TocEntry>
     <TocEntry
