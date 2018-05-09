@@ -1879,8 +1879,6 @@ ul ul li::before
 
 p.table-note
 {
-	font-size: 14px;
-	line-height: 20px;
 	margin: 15px, 10px, 15px, 10px;
 	padding: 15px, 15px, 15px, 15px;
 	border-top: 1px;
@@ -1891,8 +1889,6 @@ p.table-note
 
 p.table-tip
 {
-	font-size: 14px;
-	line-height: 20px;
 	margin: 15px, 10px, 15px, 10px;
 	padding: 15px, 15px, 15px, 15px;
 	border-top: 1px;
@@ -1903,8 +1899,6 @@ p.table-tip
 
 p.table-warning
 {
-	font-size: 14px;
-	line-height: 20px;
 	margin: 15px, 10px, 15px, 10px;
 	padding: 15px, 15px, 15px, 15px;
 	border-top: 1px;
@@ -1915,8 +1909,6 @@ p.table-warning
 
 p.table-important
 {
-	font-size: 14px;
-	line-height: 20px;
 	margin: 15px, 10px, 15px, 10px;
 	padding: 15px, 15px, 15px, 15px;
 	border-top: 1px;
@@ -1937,8 +1929,6 @@ p.table-important
 
 .table-note p
 {
-	font-size: 14px;
-	line-height: 20px;
 	margin-bottom: 10px;
 }
 
@@ -1954,8 +1944,6 @@ p.table-important
 
 .table-tip p
 {
-	font-size: 14px;
-	line-height: 20px;
 	margin-bottom: 10px;
 }
 
@@ -1971,8 +1959,6 @@ p.table-important
 
 .table-warning p
 {
-	font-size: 14px;
-	line-height: 20px;
 	margin-bottom: 10px;
 }
 
@@ -1988,8 +1974,6 @@ p.table-important
 
 .table-important p
 {
-	font-size: 14px;
-	line-height: 20px;
 	margin-bottom: 10px;
 }
 

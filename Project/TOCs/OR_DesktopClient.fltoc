@@ -496,7 +496,8 @@
             Title="Edit a Booking in the Navigator"
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/EditBookinNav.html" />
           <TocEntry
-            Title="Edit Multiple Bookings in the Navigator" />
+            Title="Edit Multiple Bookings in the Navigator"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/EditMultBookinNav.htm" />
           <TocEntry
             Title="Move Bookings to a Different Reservation in the Navigator"
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/MoveBooktoDifRes.html" />
@@ -522,7 +523,8 @@
               Title="Copy Booking Details Between Bookings"
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/CopyBookDetBetwBookings.htm" />
             <TocEntry
-              Title="Delete Booking Detail Items from Multiple Bookings" />
+              Title="Delete Booking Detail Items from Multiple Bookings"
+              Link="/Content/EMSDesktopClient/V44.1/UserGuide/DeleteBookDetailsMultBook.htm" />
             <TocEntry
               Title="Delete Booking Details from Multiple Bookings"
               Link="/Content/EMSDesktopClient/V44.1/UserGuide/DeleteBookDetailsMultBook.htm" />
@@ -586,7 +588,7 @@
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/ReservationWizard.htm">
           <TocEntry
             Title="Fields in the Reservation Wizard"
-            Link="/Content/EMSDesktopClient/V44.1/UserGuide/DC_UG_FieldsinResWiz.htm" />
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/FieldsinResWiz.htm" />
           <TocEntry
             Title="The Everyday User Reservations Browser"
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/EverydayUserReservBrowser.htm">
@@ -726,10 +728,11 @@
             Title="Configure Automated Reports"
             Link="/Content/EMSDesktopClient/V44.1/UserGuide/ConfigAutomatedReports.html" />
           <TocEntry
-            Title="Work with Saved Reports" />
+            Title="Work with Saved Reports"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/WorkwithSavedReports.html" />
           <TocEntry
             Title="Work with a Query"
-            Link="/Content/EMSDesktopClient/V44.1/UserGuide/WorkwithResBook.html" />
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/WorkwithQuery.html" />
         </TocEntry>
         <TocEntry
           Title="Billing"

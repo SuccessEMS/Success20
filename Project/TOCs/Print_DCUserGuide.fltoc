@@ -1065,7 +1065,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Work with a Query"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/WorkwithResBook.html"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/WorkwithQuery.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"

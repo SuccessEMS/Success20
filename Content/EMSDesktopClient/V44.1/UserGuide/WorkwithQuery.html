@@ -1,22 +1,35 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html MadCap:lastBlockDepth="8" MadCap:lastHeight="13818" MadCap:lastWidth="864" style="mc-master-page: url('../../../Resources/MasterPages/EMSDesktopClient.flmsp');" class="desktopClient" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+<html style="mc-master-page: url('../../../Resources/MasterPages/EMSDesktopClient.flmsp');" class="desktopClient" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
         <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title mt-export-translate="no">Work with a Query V44.1 (EMS Desktop Client)</title>
         <meta name="mt-type" value="application/x.deki-text" />
         <meta name="mt-unsafe" value="false" />
     </head>
     <body>
-        <h1 class="mt-export-title" MadCap:autonum="CHAPTER&#160;1: ">
+        <h1 class="mt-export-title">
             <MadCap:concept term="V44.1" />Work with a Query</h1>
         <p>A&#160;query&#160;is the primary mechanism for retrieving information from a database. A query consists of questions that are presented to the database in a predefined format. A Query Builder function is available from the Reports menu. You can use this function to&#160;create&#160;queries for retrieving information from your EMS database. When you create a query, you can name and save the query so that you can run the query at any time that you choose. You can create a query from a newly created query,&#160;or you can create a query by copying an existing query and editing the copied query as needed. You can also edit&#160;a query, delete&#160;a query, and view&#160;and print&#160;a query's filters.</p>
-        <h2><a name="RTF4372656174655f7175657279"></a>create a query</h2>
+        <p>This topic provides information about the following:</p>
+        <ul class="unorder-list">
+            <li><a href="#CreateQuery">Create a Query</a>
+            </li>
+            <li><a href="#EditQuery">Edit a Query</a>
+            </li>
+            <li><a href="#delete_a_query">Delete a Query</a>
+            </li>
+            <li><a href="#View_and_print_a_querys_filters">View and Print a Query's Filter</a>
+            </li>
+            <li><a href="#RunQuery">Run a Query</a>
+            </li>
+        </ul>
+        <h2><a name="CreateQuery"></a>create a query</h2>
         <ol start="1" class="number-list">
             <li>On the EMS menu bar, click Reports &gt;&#160;Queries &gt;&#160;Query Builder.&#160;The Query Definitions dialog box opens. The dialog box displays all the queries that have been previously defined in your EMS database and that have a status of Active.&#160;&#160;&#160;</li>
         </ol>
         <p>
             <img src="../../../Resources/Images/DTC_V44.1_RepQuer/Working with a Query.gif" alt="https://success.emssoftware.com/@api/deki/files/1510/emsum_Reports_image006.gif?revision=3&amp;size=bestfit&amp;width=433&amp;height=390" />
         </p>
-        <p class="note-box">Tip:&#160;Optionally, to view all queries in your EMS database, regardless of status, under Show, click Inactive.</p>
+        <p class="box-tip"><span class="bold">TIP:</span>&#160;Optionally, to view all queries in your EMS database, regardless of status, under Show, click Inactive.</p>
         <ol start="2" class="number-list">
             <li>Do one of the following:<ul start="2"><li>To create a query from scratch, click New.</li><li>To create a query by editing an existing query, select the query that is to be edited, and then click Copy.</li></ul></li>
         </ol>
@@ -28,7 +41,7 @@
             <li>Enter or edit the needed information for the query. See:<ul start="3"><li><a href="#">Query Builder Filter tab</a></li><li><a href="#Display">Display Fields tab</a></li><li><a href="#Filter">Filter tab</a></li><li><a href="#Sort">Sort tab</a></li><li><a href="#Chart">Chart tab</a></li><li><a href="#Users">Users tab</a></li></ul></li>
             <li>Do one of the following:<ul start="3"><li>Click OK to close the Query Builder Filter dialog box and save the named query. The named query is displayed on the Reports menu under the Queries option. You can run this query at any later date when needed.</li><li>Open the Results tab, and then click Preview to run the query immediately and view the results on the tab. You can then click OK to close the Query Builder Filter dialog box and save the named query. The named query is displayed on the Reports menu under the Queries option. You can run this query at any later date when needed.</li></ul></li>
         </ol>
-        <h3><a name="Query"></a>Query Builder Filter tab</h3>
+        <h3><a name="QueryBuilderFilterTab"></a>Query Builder Filter tab</h3>
         <p>
             <img src="../../../Resources/Images/DTC_V44.1_RepQuer/Working with a Query.png" alt="emsum_Reports_image007.png" />
         </p>
@@ -110,7 +123,7 @@
         <ol start="2" class="number-list">
             <li>Continue with any other configuration for the query as needed, or do one of the following:<ul start="2"><li>Click OK to close the Query Builder Filter dialog box and save the named query. The named query is displayed on the Reports menu under the Queries option. You can run this query at any later date when needed.</li><li>Open the Results tab, and then click Preview to run the query immediately and view the results on the tab. You can then click OK to close the Query Builder Filter dialog box and save the named query. The named query is displayed on the Reports menu under the Queries option. You can run this query at any later date when needed.</li></ul></li>
         </ol>
-        <h3><a name="Display"></a>Display Fields tab</h3>
+        <h3><a name="DisplayFieldsTab"></a>Display Fields tab</h3>
         <p class="title">Query Builder Filter dialog box, Display Fields tab</p>
         <p>
             <img src="../../../Resources/Images/DTC_V44.1_RepQuer/Working with a Query_1.png" alt="emsum_Reports_image008.png" />
@@ -124,7 +137,7 @@
             <li>The fields are displayed in the query results in the order in which they are listed in the Selected list. Optionally, to change the order of the fields, select a field and then click Move Up/Move Down as needed.</li>
             <li>Continue with any other configuration for the query as needed, or do one of the following:<ul start="2"><li>Click OK to close the Query Builder Filter dialog box and save the named query. The named query is displayed on the Reports menu under the Queries option. You can run this query at any later date when needed.</li><li>Open the Results tab, and then click Preview to run the query immediately and view the results on the tab. You can then click OK to close the Query Builder Filter dialog box and save the named query. The named query is displayed on the Reports menu under the Queries option. You can run this query at any later date when needed.</li></ul></li>
         </ol>
-        <h3><a name="Filter"></a>Filter tab</h3>
+        <h3><a name="FilterTab"></a>Filter tab</h3>
         <p>
             <img src="../../../Resources/Images/DTC_V44.1_RepQuer/Working with a Query_2.png" alt="emsum_Reports_image009.png" />
         </p>
@@ -141,7 +154,7 @@
         <ol start="2" class="number-list">
             <li>Continue with any other configuration for the query as needed, or do one of the following:<ul start="2"><li>Click OK to close the Query Builder Filter dialog box and save the named query. The named query is displayed on the Reports menu under the Queries option. You can run this query at any later date when needed.</li><li>Open the Results tab, and then click Preview to run the query immediately and view the results on the tab. You can then click OK to close the Query Builder Filter dialog box and save the named query. The named query is displayed on the Reports menu under the Queries option. You can run this query at any later date when needed.</li></ul></li>
         </ol>
-        <h3><a name="Sort"></a>Sort tab</h3>
+        <h3><a name="SortTab"></a>Sort tab</h3>
         <p>
             <img src="../../../Resources/Images/DTC_V44.1_RepQuer/Working with a Query_3.png" alt="emsum_Reports_image010.png" />
         </p>
@@ -149,7 +162,7 @@
             <li>Open the Sort tab, select the field or CTRL-click to select the multiple fields by which the query results are to be sorted, and then click the Move button (&gt;) to move the fields to the Selected list.</li>
             <li>Continue with any other configuration for the query as needed, or do one of the following:<ul start="1"><li>Click OK to close the Query Builder Filter dialog box and save the named query. The named query is displayed on the Reports menu under the Queries option. You can run this query at any later date when needed.</li><li>Open the Results tab, and then click Preview to run the query immediately and view the results on the tab. You can then click OK to close the Query Builder Filter dialog box and save the named query. The named query is displayed on the Reports menu under the Queries option. You can run this query at any later date when needed.</li></ul></li>
         </ol>
-        <h3><a name="Chart"></a>Chart tab</h3>
+        <h3><a name="ChartTab"></a>Chart tab</h3>
         <p>
             <img src="../../../Resources/Images/DTC_V44.1_RepQuer/Working with a Query_4.png" alt="emsum_Reports_image011.png" />
         </p>
@@ -157,11 +170,9 @@
             <li>Open the Chart tab, and specify the type of chart that is to be used to graph the query results.</li>
             <li>Manually enter any information for the chart (for example, Chart Title) as needed.</li>
             <li>Optionally, do one or both of the following:<ul start="1"><li>To show a legend with the chart, select Show Legend, and then specify the legend information (alignment, header, footer, and marker style and size).</li><li>To spell check any charting information that you manually entered, click Spelling.</li></ul></li>
-        </ol>
-        <ol start="4" class="number-list">
             <li>Continue with any other configuration for the query as needed, or do one of the following:<ul start="4"><li>Click OK to close the Query Builder Filter dialog box and save the named query. The named query is displayed on the Reports menu under the Queries option. You can run this query at any later date when needed.</li><li>Open the Results tab, and then click Preview to run the query immediately and view the results on the tab. You can then click OK to close the Query Builder Filter dialog box and save the named query. The named query is displayed on the Reports menu under the Queries option. You can run this query at any later date when needed.</li></ul></li>
         </ol>
-        <h3><a name="Users"></a>Users tab</h3>
+        <h3><a name="UsersTab"></a>Users tab</h3>
         <p class="box-tip"><span class="bold">TIP:</span>&#160;The ability to assign specific queries to specific users is available only in EMS Enterprise. It is not available in EMS Professional.</p>
         <p>
             <img src="../../../Resources/Images/DTC_V44.1_RepQuer/Working with a Query_5.png" alt="emsum_Reports_image012.png" />
@@ -173,7 +184,7 @@
         <ol start="2" class="number-list">
             <li>Continue with any other configuration for the query as needed, or do one of the following:<ul start="2"><li>Click OK to close the Query Builder Filter dialog box and save the named query. The named query is displayed on the Reports menu under the Queries option. You can run this query at any later date when needed.</li><li>Open the Results tab, and then click Preview to run the query immediately and view the results on the tab. You can then click OK to close the Query Builder Filter dialog box and save the named query. The named query is displayed on the Reports menu under the Queries option. You can run this query at any later date when needed.</li></ul></li>
         </ol>
-        <h2>To edit a query</h2>
+        <h2><a name="EditQuery"></a>Edit a Query</h2>
         <ol start="1" class="number-list">
             <li>On the EMS menu bar, click Reports.&#160;The Reports menu opens.</li>
             <li>On the Reports menu, click Queries &gt; Query Builder.&#160;The Query Definitions dialog box opens. The dialog box displays, by name, any queries that have been previously defined in your EMS application.&#160;</li>
@@ -181,14 +192,14 @@
             <li>Edit the query as necessary including one or more of the following:<ul start="1"><li>Renaming the query.</li><li>Changing the fields that are to be displayed in the query results.</li><li>Changing the fields that define the query.</li><li>Changing the order of the fields by which the query results are to be sorted.</li><li>Changing the charting options for the query results.</li><li>Changing the users who can run the query.</li></ul></li>
             <li>Do one of the following:<ul start="1"><li>Click OK to close the Query Builder Filter dialog box and save the edited query. The edited query is displayed on the Reports menu under the Queries option. You can run this query at any later date when needed.</li><li>Open the Results tab, and then click Preview to run the query immediately and view the results on the tab. You can then click OK to close the Query Builder Filter dialog box and save the edited query. The edited query is displayed on the Reports menu under the Queries option. You can run this query at any later date when needed.</li></ul></li>
         </ol>
-        <h2>To delete a query</h2>
+        <h2><a name="delete_a_query"></a>delete a Query</h2>
         <ol start="1" class="number-list">
             <li>On the EMS menu bar, click Reports.&#160;The Reports menu opens.</li>
             <li>On the Reports menu, click Queries &gt; Query Builder.&#160;The Query Definitions dialog box opens. The dialog box displays any queries that have been previously defined in your EMS application.&#160;</li>
             <li>Select the query that is to be deleted, and then click Delete.&#160;A message opens, asking you if it is OK to delete the selected query.</li>
             <li>Click Yes.&#160;The message closes. The query is deleted.</li>
         </ol>
-        <h2>To view and print a query's filters</h2>
+        <h2><a name="View_and_print_a_querys_filters"></a>View and print a query's filters</h2>
         <ol start="1" class="number-list">
             <li>On the EMS menu bar, click Reports.&#160;The Reports menu opens.</li>
             <li>On the Reports menu, click Queries &gt; Query Builder.&#160;The Query Definitions dialog box opens. The dialog box displays any queries that have been previously defined in your EMS application.</li>
@@ -203,7 +214,7 @@
         <ol start="4" class="number-list">
             <li>Select the option or options that best fit your working needs.</li>
         </ol>
-        <h2>To run a&#160;query</h2>
+        <h2><a name="RunQuery"></a>run a&#160;query</h2>
         <p>When you run a saved query, you can run the query from the Reports menu, or you can run the query from the Query Definitions dialog box.</p>
         <ol start="1" class="number-list">
             <li>On the EMS menu bar, click Reports and on the Reports menu, click Queries, and then do one of the following:<ul start="1"><li>Click the name of the query that you are running.</li><li>Click Queries &gt; Query Builder and on the Query Definitions dialog box, select the query that you are running, and then click Run.</li><li>The query is run and the results are displayed onscreen in the Query Results dialog box.</li></ul></li>
@@ -218,7 +229,9 @@
         <ol start="2" class="number-list">
             <li>Optionally, on the Query Results dialog box, do one or more of the following, and then click Get Data to rerun the query according to the edited definition.<ul start="2"><li>Select the date for which the data in your EMS database is to be queried.</li></ul></li>
         </ol>
-        <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
+        <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');margin-left: 0;margin-right: auto;width: 100%;" class="TableStyle-PatternedRows" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
@@ -236,7 +249,7 @@
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
                         <p>The starting date is set to the first day of the month and the ending date is set to the last day of the month but you can edit one or both of these dates.</p>
-                        <p>Note:&#160;For some queries, if you select Custom, a Use Specific Times option becomes available. If you enter the same date for the starting date and ending date, you can select Use Specific Times, and then enter a starting time and ending time to query the data in specific time range on the same day.</p>
+                        <p class="table-note">Note:&#160;For some queries, if you select Custom, a Use Specific Times option becomes available. If you enter the same date for the starting date and ending date, you can select Use Specific Times, and then enter a starting time and ending time to query the data in specific time range on the same day.</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
