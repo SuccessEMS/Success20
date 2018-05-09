@@ -1779,17 +1779,20 @@
           Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/SiteAdministrationandCustomizingMC.html">
           <TocEntry
             Title="Customize Themes"
-            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/CustomizeThemeandEmails.html" />
+            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/CustomizeThemeColorsBanners.html" />
           <TocEntry
-            Title="Default Settings" />
+            Title="Default Settings"
+            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/CustomizeEmailText.html" />
           <TocEntry
-            Title="RSS Menus" />
+            Title="RSS Menus"
+            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ManageRSSFeeds.html" />
           <TocEntry
             Title="Registration" />
           <TocEntry
             Title="Data Sources" />
           <TocEntry
-            Title="Email Header" />
+            Title="Email Header"
+            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/CustomizeEmailHeaders.html" />
           <TocEntry
             Title="Help Text" />
           <TocEntry
