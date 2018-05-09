@@ -1784,10 +1784,14 @@
             Title="Default Settings"
             Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/CustomizeEmailText.html" />
           <TocEntry
-            Title="RSS Menus"
-            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ManageRSSFeeds.html" />
+            Title="RSS Feeds"
+            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/CustomizeRSSFeeds.html" />
           <TocEntry
-            Title="Registration" />
+            Title="Customize Menus"
+            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_CustomizeMenus.html" />
+          <TocEntry
+            Title="Registration"
+            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MaintainMCSoftwareReg.html" />
           <TocEntry
             Title="Data Sources" />
           <TocEntry
@@ -1834,10 +1838,10 @@
       </TocEntry>
       <TocEntry
         Title="Maintain Master Calendar Software Registration"
-        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_MaintainMCSoftwareReg.html" />
+        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MaintainMCSoftwareReg.html" />
       <TocEntry
         Title="Manage RSS Feeds"
-        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ManageRSSFeeds.html" />
+        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/CustomizeRSSFeeds.html" />
       <TocEntry
         Title="Master Calendar Admin Field Definitions"
         Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_MCAdminFieldDef.html">
