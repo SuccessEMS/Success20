@@ -1810,43 +1810,6 @@
           Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/AdminFunctions.htm" />
       </TocEntry>
       <TocEntry
-        Title="Calendar Management"
-        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_CalendarManagement.html"></TocEntry>
-      <TocEntry
-        Title="Configure Users and Templates"
-        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ConfigUsersTemplates.html"></TocEntry>
-      <TocEntry
-        Title="Customize Master Calendar Site Appearance and Behavior"
-        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_CustomMCSiteAppBehav.html">
-        <TocEntry
-          Title="Customize Help Text in Master Calendar"
-          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/CustomizeHelpText.html" />
-        <TocEntry
-          Title="Customize Menus in Master Calendar"
-          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/CustomizeMenus.html" />
-        <TocEntry
-          Title="Customize Your Master Calendar Site and Automated Emails"
-          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/SiteAdministrationandCustomizingMC.html" />
-        <TocEntry
-          Title="Set Default Home Page Behavior"
-          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/SetDefaultHomePgBehavior.html" />
-        <TocEntry
-          Title="Set the Default Home Page Layout"
-          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/SetDefaultHomePgLayout.html" />
-      </TocEntry>
-      <TocEntry
-        Title="Integrated Authentication for Master Calendar"
-        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_IntegAuthenforMC.html">
-        <TocEntry
-          Title="Portal Authentication Methods" />
-      </TocEntry>
-      <TocEntry
-        Title="Maintain Master Calendar Software Registration"
-        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MaintainMCSoftwareReg.html" />
-      <TocEntry
-        Title="Manage RSS Feeds"
-        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/CustomizeRSSFeeds.html" />
-      <TocEntry
         Title="Master Calendar Admin Field Definitions"
         Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_MCAdminFieldDef.html">
         <TocEntry
@@ -1878,6 +1841,9 @@
           Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/AreaTooltip.html" />
       </TocEntry>
       <TocEntry
+        Title="Integrated Authentication for Master Calendar"
+        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_IntegAuthenforMC.html"></TocEntry>
+      <TocEntry
         Title="Master Calendar API"
         Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_MasterCalAPI.html">
         <TocEntry
@@ -1890,15 +1856,9 @@
           Title="Verify the Master Calendar API"
           Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_VerifyMCAPI.html" />
         <TocEntry
-          Title="Release Notes"
-          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ReleaseNotes.html" />
-        <TocEntry
           Title="API Functions"
           Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/APIfunctions.htm"></TocEntry>
       </TocEntry>
-      <TocEntry
-        Title="Work with Subscriptions"
-        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/ManageSubscriptions.html" />
     </TocEntry>
     <TocEntry
       Title="EMS Platform Services"
