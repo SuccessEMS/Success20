@@ -1719,19 +1719,19 @@
         </TocEntry>
         <TocEntry
           Title="Groupings and Calendars"
-          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ConfigCalGroupingsandCals.html">
+          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/GroupingsandCals.html">
           <TocEntry
             Title="Groupings"
-            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ManageGroupingsinMC.html" />
+            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/ManageGroupingsinMC.html" />
           <TocEntry
             Title="Calendars"
-            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ConfiguringCalendarsinMC.html" />
+            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/ConfigCalendars.html" />
           <TocEntry
             Title="External Links"
-            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ManageExtLinksforGrouping.html" />
+            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/ManageExtLinksforGrouping.html" />
           <TocEntry
             Title="Calendar URLs"
-            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ConfigureCalURLs.html" />
+            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/ConfigCalURLs.html" />
         </TocEntry>
         <TocEntry
           Title="Configuration"
@@ -1766,13 +1766,13 @@
         </TocEntry>
         <TocEntry
           Title="Security"
-          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ConfigUsersTemplates.html">
+          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/Security.html">
           <TocEntry
             Title="Configure Users"
-            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ConfigureUsers.html" />
+            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/ConfigUsers.html" />
           <TocEntry
             Title="Configure User Templates"
-            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ManageUserTemplates.html" />
+            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/ConfigUserTemplates.html" />
         </TocEntry>
         <TocEntry
           Title="Site Administration"
@@ -1811,7 +1811,7 @@
       </TocEntry>
       <TocEntry
         Title="Master Calendar Admin Field Definitions"
-        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_MCAdminFieldDef.html">
+        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MCAdminFieldDef.html">
         <TocEntry
           Title="Area: Calendar"
           Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/AreaCalendar.html" />
@@ -1842,22 +1842,22 @@
       </TocEntry>
       <TocEntry
         Title="Integrated Authentication for Master Calendar"
-        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_IntegAuthenforMC.html"></TocEntry>
+        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/IntegAuthenforMC.html"></TocEntry>
       <TocEntry
         Title="Master Calendar API"
-        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_MasterCalAPI.html">
+        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/API_MasterCalAPI.html">
         <TocEntry
           Title="Master Calendar API Requirements and Licensing"
           Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/APISysRequirements.html"></TocEntry>
         <TocEntry
           Title="Configure Master Calendar to Use the Master Calendar API Web Service"
-          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_ConfigMCtoUseMC_API_WebServ.htm" />
+          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/API_ConfigMCtoWebServ.htm" />
         <TocEntry
           Title="API Functions"
           Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/APIfunctions.htm"></TocEntry>
         <TocEntry
           Title="Verify the Master Calendar API"
-          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_VerifyMCAPI.html" />
+          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/VerifyMCAPI.html" />
       </TocEntry>
     </TocEntry>
     <TocEntry
