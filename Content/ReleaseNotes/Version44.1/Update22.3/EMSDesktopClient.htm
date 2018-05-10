@@ -5,26 +5,26 @@
         <link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
-        <h1 class="Heading1">EMS Desktop Client<br />Release Notes <br />V44.1, Update 22.3</h1>
+        <h1 class="Heading1" MadCap:autonum="CHAPTER&#160;1: ">EMS Desktop Client<br />Release Notes <br />V44.1, Update 22.3</h1>
         <p class="p_1">This section describes updates to&#160;your EMS software.&#160;&#160;</p>
         <p>See Also:&#160;<a href="#Contact">Contact Customer Support</a>&#160;and&#160;<MadCap:xref href="../../../Update_to_LatestVersion_EMS.htm"><a href="../../../Update_to_LatestVersion_EMS.htm">Updating to the Latest Version of EMS (Patches and Builds)</a></MadCap:xref>. </p>
         <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');width: 100%;margin-left: 0;margin-right: auto;" cellspacing="0">
-            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 154px;" />
-            <col class="TableStyle-PatternedRows-Column-Regular" />
-            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 240px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 247px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 285px;" />
             <col class="TableStyle-PatternedRows-Column-Regular" />
             <tr class="TableStyle-PatternedRows-Body-LightRows">
                 <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
                     <p class="p_3">V44.1 Update&#160;22.3</p>
                 </td>
                 <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                    <p class="p_3">Release&#160;Date:&#160;<br />May 7, 2018<br /></p>
+                    <p class="p_3">Release&#160;Date:&#160;May 10, 2018<br /></p>
                 </td>
                 <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                    <p class="p_3">Patch:&#160;<br /><br /></p>
+                    <p class="p_3">Patch:&#160;44.1.22003.201805070<br /><br /></p>
                 </td>
                 <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                    <p class="p_3">Build #:&#160;<br /><br /></p>
+                    <p class="p_3">Build #:&#160;44.1.22003.431<br /><br /></p>
                 </td>
             </tr>
         </table>
@@ -44,13 +44,31 @@
             </thead>
             <tbody>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows" style="text-align: left;">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: left;">
                         <p class="RNArea">Security</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" style="text-align: left;">
-                        <p class="RNTitle">Add View Reservation Summary Role to EMS&#160;Desktop Client</p>
-                        <p class="RNBody">A new parameter has been added to EMS&#160;Desktop Client that will allow EMS&#160;Web&#160;App users to browse to Reservation Summary detail URLs without requiring authentication. </p>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
+                        <p class="RNTitle">New Security Role Added to EMS&#160;Desktop Client:&#160;View Reservation Summary</p>
+                        <p class="RNBody">Available through Configuration &gt; Everyday User Security Templates, the new security role allows Administrators to configure unauthenticated access for viewing reservation summary details.</p>
+                        <p class="RNBody">On the (unauthenticated user) Everyday User Security Template, authentication is not required to view the ReservationSummary page. If not selected, viewing ReservationSummary requires an authenticated session of the EMS Web App. For all other Everyday User Process Templates, the user has access to view the ReservationSummary page.  If not selected, only Owner or Delegate of the meeting can view all details of the ReservationSummary page. All other authenticated users will have access to the unauthenticated view of the ReservationSummary page.</p>
                         <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=38044&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">38044</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="text-align: left;" rowspan="2">
+                        <p class="RNArea">Create/Manage Reservations</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
+                        <p class="RNTitle">Minimum Character Count for Attendee Search</p>
+                        <p class="RNBody">Through a system parameter, set the minimum character count to initiate type ahead searches for Find Attendees on calendar enabled templates and reservations. The default minimum character count to initial the attendee lookup is set to three (3) characters.</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=38462&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">38462</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" style="text-align: left;">
+                        <p class="RNTitle">Configure Type-Ahead Search for Attendees</p>
+                        <p class="RNBody">The new system parameter, Delay for Type Ahead Search Trigger, allows the Administrator to set the duration after the last keystroke entry in a search field before triggering search call for attendees on Calendar-enabled templates and reservations.</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=38476&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">38476</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
             </tbody>

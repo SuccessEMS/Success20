@@ -260,10 +260,10 @@
     </TocEntry>
     <TocEntry
       Title="User Guide"
-      Link="/Content/EMSMasterCalendar/V8/UserGuide/MC_UG_Introduction.html">
+      Link="/Content/EMSMasterCalendar/V8/UserGuide/Introduction.html">
       <TocEntry
         Title="Log In to Master Calendar"
-        Link="/Content/EMSMasterCalendar/V8/UserGuide/MC_UG_LogIn.html" />
+        Link="/Content/EMSMasterCalendar/V8/UserGuide/LogIn.html" />
       <TocEntry
         Title="Use Basic Features of EMS Master Calendar"
         Link="/Content/EMSMasterCalendar/V8/UserGuide/MC_UG_UseBasicFeatures.html">
@@ -275,7 +275,7 @@
           Link="/Content/EMSMasterCalendar/V8/UserGuide/MC_UG_SearchbyKeyword.html" />
         <TocEntry
           Title="Export Search Results"
-          Link="/Content/EMSMasterCalendar/V8/UserGuide/MC_UG_ExportSearchResults.html" />
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/ExportSearchResults.html" />
         <TocEntry
           Title="Search for an Event or Special Date"
           Link="/Content/EMSMasterCalendar/V8/UserGuide/MC_UG_SearchforEventorSpecialDate.html" />
@@ -285,13 +285,13 @@
       </TocEntry>
       <TocEntry
         Title="Work with Calendars"
-        Link="/Content/EMSMasterCalendar/V8/UserGuide/MC_UG_WorkwithCalendars.html">
+        Link="/Content/EMSMasterCalendar/V8/UserGuide/ManagingYourCalendars.html">
         <TocEntry
           Title="Modify the Calendar Display"
           Link="/Content/EMSMasterCalendar/V8/UserGuide/MC_UG_ModifyCalendarDispaly.html" />
         <TocEntry
           Title="Filter Events on the Calendar"
-          Link="/Content/EMSMasterCalendar/V8/UserGuide/MC_UG_FilterEventsonCalendar.html" />
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/FilterEventsonCalendar.html" />
         <TocEntry
           Title="Set a Timeframe for the Calendar Display"
           Link="/Content/EMSMasterCalendar/V8/UserGuide/MC_UG_SetTimeFrameforDisplay.html" />
@@ -319,7 +319,7 @@
         Link="/Content/EMSMasterCalendar/V8/UserGuide/MC_UG_UserOptions.html">
         <TocEntry
           Title="Change Your Password"
-          Link="/Content/EMSMasterCalendar/V8/UserGuide/MC_UG_ChangeYourPassword.html" />
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/ChangeYourPassword.html" />
         <TocEntry
           Title="View Custom Help Text"
           Link="/Content/EMSMasterCalendar/V8/UserGuide/MC_UG_ViewCustomHelpText.html" />
@@ -332,10 +332,10 @@
       </TocEntry>
       <TocEntry
         Title="How Do I Publicize an Event in Master Calendar?"
-        Link="/Content/EMSMasterCalendar/V8/UserGuide/MC_UG_HowtoPublicizeEvent.html" />
+        Link="/Content/EMSMasterCalendar/V8/UserGuide/HowtoPublicizeEvent.html" />
       <TocEntry
         Title="Work with Events"
-        Link="/Content/EMSMasterCalendar/V8/UserGuide/MC_UG_WorkwithEvents.html">
+        Link="/Content/EMSMasterCalendar/V8/UserGuide/ManagingYourEvents.html">
         <TocEntry
           Title="Types of Master Calendar Users"
           Link="/Content/EMSMasterCalendar/V8/UserGuide/MC_UG_TypesofUsers.html" />
@@ -344,20 +344,20 @@
           Link="/Content/EMSMasterCalendar/V8/UserGuide/MC_UG_SubmitEvents.html" />
         <TocEntry
           Title="Additional Info Fields"
-          Link="/Content/EMSMasterCalendar/V8/UserGuide/MC_UG_AdditionalInfoFields.html" />
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/AdditionalInfoFields.html" />
         <TocEntry
           Title="Custom, Email, and Attachment Fields"
-          Link="/Content/EMSMasterCalendar/V8/UserGuide/MC_UG_CustomEmailAttachmentFields.html" />
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/CustomEmailAttachmentFields.html" />
         <TocEntry
           Title="Event Times Fields"
-          Link="/Content/EMSMasterCalendar/V8/UserGuide/MC_UG_EventTimesFields.html" />
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/EventTimesFields.html" />
         <TocEntry
           Title="General Info Fields"
-          Link="/Content/EMSMasterCalendar/V8/UserGuide/MC_UG_GeneralInfoFields.html" />
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/GeneralInfoFields.html" />
       </TocEntry>
       <TocEntry
         Title="Glossary"
-        Link="/Content/EMSMasterCalendar/V8/UserGuide/MC_UG_Glossary.html" />
+        Link="/Content/EMSMasterCalendar/V8/UserGuide/Glossary.html" />
     </TocEntry>
     <TocEntry
       Title="Older Releases">
