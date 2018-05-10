@@ -266,7 +266,7 @@
         Link="/Content/EMSMasterCalendar/V8/UserGuide/LogIn.html" />
       <TocEntry
         Title="Use Basic Features of EMS Master Calendar"
-        Link="/Content/EMSMasterCalendar/V8/UserGuide/MC_UG_UseBasicFeatures.html">
+        Link="/Content/EMSMasterCalendar/V8/UserGuide/UseBasicFeatures.html">
         <TocEntry
           Title="Use Field Icons in EMS Master Calendar"
           Link="/Content/EMSMasterCalendar/V8/UserGuide/MC_UG_UseFieldIcons.html"></TocEntry>
@@ -281,23 +281,23 @@
           Link="/Content/EMSMasterCalendar/V8/UserGuide/MC_UG_SearchforEventorSpecialDate.html" />
         <TocEntry
           Title="Use RSS Feeds in EMS Master Calendar"
-          Link="/Content/EMSMasterCalendar/V8/UserGuide/MC_UG_UseRSSFeeds.html" />
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/UseRSSFeeds.html" />
       </TocEntry>
       <TocEntry
         Title="Work with Calendars"
         Link="/Content/EMSMasterCalendar/V8/UserGuide/ManagingYourCalendars.html">
         <TocEntry
           Title="Modify the Calendar Display"
-          Link="/Content/EMSMasterCalendar/V8/UserGuide/MC_UG_ModifyCalendarDispaly.html" />
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/ModifyCalendarDispaly.html" />
         <TocEntry
           Title="Filter Events on the Calendar"
           Link="/Content/EMSMasterCalendar/V8/UserGuide/FilterEventsonCalendar.html" />
         <TocEntry
           Title="Set a Timeframe for the Calendar Display"
-          Link="/Content/EMSMasterCalendar/V8/UserGuide/MC_UG_SetTimeFrameforDisplay.html" />
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/SetTimeFrameforDisplay.html" />
         <TocEntry
           Title="Navigate in the Master Calendar"
-          Link="/Content/EMSMasterCalendar/V8/UserGuide/MC_UG_NavinMasterCalendar.html" />
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/NavigateMasterCalendar.html" />
         <TocEntry
           Title="Open Events from the Master Calendar"
           Link="/Content/EMSMasterCalendar/V8/UserGuide/MC_UG_OpenEvents.html" />
