@@ -530,7 +530,7 @@
       </TocEntry>
       <TocEntry
         Title="PDF"
-        Link="/Content/EMSforOutlook/InstallationGuide/Outlook_Install_PDF.pdf" />
+        Link="/Content/EMSMasterCalendar/V8/InstallationGuide/MC_Install_PDF.pdf" />
     </TocEntry>
     <TocEntry
       Title="EMS Platform Services"
@@ -1706,11 +1706,7 @@
             Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/BroadcastAnnouncements.html" />
           <TocEntry
             Title="Connectors"
-            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/Connector.html">
-            <TocEntry
-              Title="Connect to Data Sources"
-              Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/ConnectDataSources.html" />
-          </TocEntry>
+            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/Connector.html"></TocEntry>
           <TocEntry
             Title="Import Events"
             Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/ImportEvents.html"></TocEntry>
@@ -1860,6 +1856,9 @@
           Title="Verify the Master Calendar API"
           Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/VerifyMCAPI.html" />
       </TocEntry>
+      <TocEntry
+        Title="PDF"
+        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_Config_PDF.pdf" />
     </TocEntry>
     <TocEntry
       Title="EMS Platform Services"
@@ -2837,6 +2836,9 @@
       <TocEntry
         Title="Glossary"
         Link="/Content/EMSMasterCalendar/V8/UserGuide/Glossary.html" />
+      <TocEntry
+        Title="PDF"
+        Link="/Content/EMSMasterCalendar/V8/UserGuide/MC_UG_PDF.pdf" />
     </TocEntry>
     <TocEntry
       Title="EMS Regics User Guide and Credit Card Processing Guide"
