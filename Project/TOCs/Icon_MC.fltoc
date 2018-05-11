@@ -41,7 +41,8 @@
           Link="/Content/EMSMasterCalendar/V8/InstallationGuide/StartingMasterCalendar.htm" />
       </TocEntry>
       <TocEntry
-        Title="PDF" />
+        Title="PDF"
+        Link="/Content/EMSMasterCalendar/V8/InstallationGuide/MC_Install_PDF.pdf" />
     </TocEntry>
     <TocEntry
       Title="Configuration Guide"

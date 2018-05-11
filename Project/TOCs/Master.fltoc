@@ -530,7 +530,7 @@
       </TocEntry>
       <TocEntry
         Title="PDF"
-        Link="/Content/EMSforOutlook/InstallationGuide/Outlook_Install_PDF.pdf" />
+        Link="/Content/EMSMasterCalendar/V8/InstallationGuide/MC_Install_PDF.pdf" />
     </TocEntry>
     <TocEntry
       Title="EMS Platform Services"
@@ -2837,7 +2837,8 @@
         Title="Glossary"
         Link="/Content/EMSMasterCalendar/V8/UserGuide/Glossary.html" />
       <TocEntry
-        Title="PDF" />
+        Title="PDF"
+        Link="/Content/EMSMasterCalendar/V8/UserGuide/MC_UG_PDF.pdf" />
     </TocEntry>
     <TocEntry
       Title="EMS Regics User Guide and Credit Card Processing Guide"
