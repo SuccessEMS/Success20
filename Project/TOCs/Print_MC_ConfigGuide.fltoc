@@ -197,17 +197,7 @@
           StartSection="false"
           PageNumberReset="continue"
           SectionNumberReset="continue"
-          VolumeNumberReset="same">
-          <TocEntry
-            Title="Connect to Data Sources"
-            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/ConnectDataSources.html"
-            ChapterNumberReset="continue"
-            BreakType="chapter"
-            StartSection="false"
-            PageNumberReset="continue"
-            SectionNumberReset="continue"
-            VolumeNumberReset="same" />
-        </TocEntry>
+          VolumeNumberReset="same"></TocEntry>
         <TocEntry
           Title="Import Events"
           Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/ImportEvents.html"

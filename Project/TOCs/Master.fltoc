@@ -1706,11 +1706,7 @@
             Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/BroadcastAnnouncements.html" />
           <TocEntry
             Title="Connectors"
-            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/Connector.html">
-            <TocEntry
-              Title="Connect to Data Sources"
-              Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/ConnectDataSources.html" />
-          </TocEntry>
+            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/Connector.html"></TocEntry>
           <TocEntry
             Title="Import Events"
             Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/ImportEvents.html"></TocEntry>
