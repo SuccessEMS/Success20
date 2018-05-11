@@ -1,23 +1,87 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<CatapultSkin Version="2" SkinType="Component" Comment="HTML5 Toolbar skin" ComponentType="TopicToolbar" EnableResponsiveOutput="True">
-    <Stylesheet>
-        <Styles>
-            <Style Name="Toolbar">
-                <Properties>
-                    <Property Name="MarginBottom">33px</Property>
-                    <Property Name="MarginRight">-4px</Property>
-                    <Property Name="Float">right</Property>
-                </Properties>
-            </Style>
-            <Medium Name="Mobile">
-                <Style Name="Toolbar">
-                    <Properties>
-                        <Property Name="Display">none</Property>
-                    </Properties>
-                </Style>
-            </Medium>
-        </Styles>
-    </Stylesheet>
-    <TopicToolbar EnableCustomLayout="true" Buttons="TopicRatings|Separator|EditUserProfile|Print|ExpandAll" />
-    <Strings />
+<CatapultSkin
+  Version="3"
+  SkinType="Component"
+  Comment="HTML5 Toolbar skin"
+  ComponentType="TopicToolbar"
+  EnableResponsiveOutput="True">
+  <Stylesheet>
+    <Styles>
+      <Style
+        Name="Toolbar">
+        <Properties>
+          <Property
+            Name="MarginBottom">33px</Property>
+          <Property
+            Name="MarginRight">-4px</Property>
+          <Property
+            Name="Float">right</Property>
+        </Properties>
+      </Style>
+      <Medium
+        Name="Mobile">
+        <Style
+          Name="Toolbar">
+          <Properties>
+            <Property
+              Name="Display">none</Property>
+          </Properties>
+        </Style>
+      </Medium>
+      <Style
+        Name="ToolbarItem">
+        <Classes>
+          <StyleClass
+            Name="NextTopic">
+            <Properties>
+              <Property
+                Name="BorderTop">solid 2px #e1e1e1</Property>
+              <Property
+                Name="BorderRight">solid 2px #e1e1e1</Property>
+              <Property
+                Name="BorderBottom">solid 2px #e1e1e1</Property>
+              <Property
+                Name="BorderLeft">solid 2px #e1e1e1</Property>
+              <Property
+                Name="PaddingLeft">0px</Property>
+              <Property
+                Name="BoxShadowVShadow">1px</Property>
+              <Property
+                Name="PaddingTop">0px</Property>
+            </Properties>
+          </StyleClass>
+          <StyleClass
+            Name="PreviousTopic">
+            <Properties>
+              <Property
+                Name="PaddingTop">0px</Property>
+              <Property
+                Name="BoxShadowVShadow">1px</Property>
+              <Property
+                Name="BorderTop">solid 2px #e1e1e1</Property>
+              <Property
+                Name="BorderRight">solid 2px #e1e1e1</Property>
+              <Property
+                Name="BorderBottom">solid 2px #e1e1e1</Property>
+              <Property
+                Name="BorderLeft">solid 2px #e1e1e1</Property>
+              <Property
+                Name="PaddingRight">6px</Property>
+            </Properties>
+          </StyleClass>
+        </Classes>
+      </Style>
+      <Style
+        Name="Toolbar Button Separator">
+        <Properties>
+          <Property
+            Name="Height">15px</Property>
+        </Properties>
+      </Style>
+    </Styles>
+  </Stylesheet>
+  <TopicToolbar
+    EnableCustomLayout="true"
+    Buttons="PreviousTopic|Filler|NextTopic" />
+  <Strings />
 </CatapultSkin>
