@@ -1856,6 +1856,9 @@
           Title="Verify the Master Calendar API"
           Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/VerifyMCAPI.html" />
       </TocEntry>
+      <TocEntry
+        Title="PDF"
+        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_Config_PDF.pdf" />
     </TocEntry>
     <TocEntry
       Title="EMS Platform Services"
@@ -2833,6 +2836,8 @@
       <TocEntry
         Title="Glossary"
         Link="/Content/EMSMasterCalendar/V8/UserGuide/Glossary.html" />
+      <TocEntry
+        Title="PDF" />
     </TocEntry>
     <TocEntry
       Title="EMS Regics User Guide and Credit Card Processing Guide"
