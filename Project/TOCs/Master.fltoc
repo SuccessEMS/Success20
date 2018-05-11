@@ -2749,16 +2749,16 @@
         Link="/Content/EMSMasterCalendar/V8/UserGuide/UseBasicFeatures.html">
         <TocEntry
           Title="Use Field Icons in EMS Master Calendar"
-          Link="/Content/EMSMasterCalendar/V8/UserGuide/MC_UG_UseFieldIcons.html" />
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/UseFieldIcons.html" />
         <TocEntry
           Title="Search by Keyword"
-          Link="/Content/EMSMasterCalendar/V8/UserGuide/MC_UG_SearchbyKeyword.html" />
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/SearchbyKeyword.html" />
         <TocEntry
           Title="Export Search Results"
           Link="/Content/EMSMasterCalendar/V8/UserGuide/ExportSearchResults.html" />
         <TocEntry
           Title="Search for an Event or Special Date"
-          Link="/Content/EMSMasterCalendar/V8/UserGuide/MC_UG_SearchforEventorSpecialDate.html" />
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/SearchforEventorSpecialDate.html" />
         <TocEntry
           Title="Use RSS Feeds in EMS Master Calendar"
           Link="/Content/EMSMasterCalendar/V8/UserGuide/UseRSSFeeds.html" />
@@ -2768,7 +2768,7 @@
         Link="/Content/EMSMasterCalendar/V8/UserGuide/ManagingYourCalendars.html">
         <TocEntry
           Title="Modify the Calendar Display"
-          Link="/Content/EMSMasterCalendar/V8/UserGuide/ModifyCalendarDispaly.html" />
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/ModifyCalendardisplay.html" />
         <TocEntry
           Title="Filter Events on the Calendar"
           Link="/Content/EMSMasterCalendar/V8/UserGuide/FilterEventsonCalendar.html" />
@@ -2780,35 +2780,34 @@
           Link="/Content/EMSMasterCalendar/V8/UserGuide/NavigateMasterCalendar.html" />
         <TocEntry
           Title="Open Events from the Master Calendar"
-          Link="/Content/EMSMasterCalendar/V8/UserGuide/MC_UG_OpenEvents.html" />
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/OpenEvents.html" />
         <TocEntry
-          Title="Scroll Through Events on the Calendar"
-          Link="/Content/EMSMasterCalendar/V8/UserGuide/MC_UG_ScrollThroughEvents.html" />
+          Title="Scroll Through Events on the Calendar" />
         <TocEntry
           Title="Subscribe to a Calendar"
-          Link="/Content/EMSMasterCalendar/V8/UserGuide/MC_UG_SubscribetoCalendar.html" />
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/SubscribetoCalendar.html" />
         <TocEntry
           Title="Subscribe to a Calendar Using Email"
-          Link="/Content/EMSMasterCalendar/V8/UserGuide/MC_UG_SubscribetoCalendarUsingEmail.html" />
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/SubscribetoCalendarUsingEmail.html" />
         <TocEntry
           Title="Subscribe to a Calendar Using iCal"
-          Link="/Content/EMSMasterCalendar/V8/UserGuide/MC_UG_SubscribetoCalendarUsingical.html" />
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/SubscribetoCalendarUsingical.html" />
       </TocEntry>
       <TocEntry
         Title="User Options"
-        Link="/Content/EMSMasterCalendar/V8/UserGuide/MC_UG_UserOptions.html">
+        Link="/Content/EMSMasterCalendar/V8/UserGuide/UserOptions.html">
         <TocEntry
           Title="Change Your Password"
           Link="/Content/EMSMasterCalendar/V8/UserGuide/ChangeYourPassword.html" />
         <TocEntry
           Title="View Custom Help Text"
-          Link="/Content/EMSMasterCalendar/V8/UserGuide/MC_UG_ViewCustomHelpText.html" />
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/ViewCustomHelpText.html" />
         <TocEntry
           Title="View Your Notifications"
-          Link="/Content/EMSMasterCalendar/V8/UserGuide/MC_UG_ViewYourNotifications.html" />
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/ViewYourNotifications.html" />
         <TocEntry
           Title="View Your Requests"
-          Link="/Content/EMSMasterCalendar/V8/UserGuide/MC_UG_ViewYourRequests.html" />
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/ViewYourRequests.html" />
       </TocEntry>
       <TocEntry
         Title="How Do I Publicize an Event in Master Calendar?"
@@ -2818,10 +2817,10 @@
         Link="/Content/EMSMasterCalendar/V8/UserGuide/ManagingYourEvents.html">
         <TocEntry
           Title="Types of Master Calendar Users"
-          Link="/Content/EMSMasterCalendar/V8/UserGuide/MC_UG_TypesofUsers.html" />
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/TypesofUsers.html" />
         <TocEntry
           Title="Submit an Event"
-          Link="/Content/EMSMasterCalendar/V8/UserGuide/MC_UG_SubmitEvents.html" />
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/SubmitEvents.html" />
         <TocEntry
           Title="Additional Info Fields"
           Link="/Content/EMSMasterCalendar/V8/UserGuide/AdditionalInfoFields.html" />
