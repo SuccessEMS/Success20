@@ -2896,8 +2896,18 @@
         Title="[%=System.LinkedTitle%]"
         Link="/Content/LearnAboutOurApplications/What Do EMS APIs Do.htm" />
       <TocEntry
-        Title="[%=System.LinkedTitle%]"
-        Link="/Content/LearnAboutOurApplications/What is Facilities Management.htm" />
+        Title="VPAT (Voluntary Product Accessibility Template)"
+        Link="/Content/LearnAboutOurApplications/VPAT_Overview.htm">
+        <TocEntry
+          Title="VPAT 508 ADA Compliance"
+          Link="/Content/LearnAboutOurApplications/VPAT508ADACompliance.htm" />
+        <TocEntry
+          Title="VPAT for EMS Web App"
+          Link="/Content/LearnAboutOurApplications/VPAT_EMSWebApp.htm" />
+        <TocEntry
+          Title="VPAT for EMS Master Calendar"
+          Link="/Content/LearnAboutOurApplications/VPAT_MasterCalendar.htm" />
+      </TocEntry>
       <TocEntry
         Title="What is Integrated Authentication"
         Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_Introduction.htm">
@@ -2919,23 +2929,13 @@
       </TocEntry>
       <TocEntry
         Title="[%=System.LinkedTitle%]"
+        Link="/Content/LearnAboutOurApplications/What is Facilities Management.htm" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
         Link="/Content/LearnAboutOurApplications/What is Polycom Integration.htm" />
       <TocEntry
         Title="[%=System.LinkedTitle%]"
         Link="/Content/LearnAboutOurApplications/What is the EMS Floor Plans.htm" />
-      <TocEntry
-        Title="VPAT"
-        Link="/Content/LearnAboutOurApplications/VPAT_Overview.htm">
-        <TocEntry
-          Title="VPAT 508 ADA Compliance"
-          Link="/Content/LearnAboutOurApplications/VPAT508ADACompliance.htm" />
-        <TocEntry
-          Title="VPAT for EMS Web App"
-          Link="/Content/LearnAboutOurApplications/VPAT_EMSWebApp.htm" />
-        <TocEntry
-          Title="VPAT for EMS Master Calendar"
-          Link="/Content/LearnAboutOurApplications/VPAT_MasterCalendar.htm" />
-      </TocEntry>
       <TocEntry
         Title="[%=System.LinkedTitle%]"
         Link="/Content/LearnAboutOurApplications/What is Cisco TMS Integration.htm" />
