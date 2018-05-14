@@ -2799,8 +2799,7 @@
           Title="Change Your Password"
           Link="/Content/EMSMasterCalendar/V8/UserGuide/ChangeYourPassword.html" />
         <TocEntry
-          Title="View Custom Help Text"
-          Link="/Content/EMSMasterCalendar/V8/UserGuide/ViewCustomHelpText.html" />
+          Title="View Custom Help Text" />
         <TocEntry
           Title="View Your Notifications"
           Link="/Content/EMSMasterCalendar/V8/UserGuide/ViewYourNotifications.html" />

@@ -220,7 +220,6 @@
           ChapterNumberReset="continue" />
         <TocEntry
           Title="View Custom Help Text"
-          Link="/Content/EMSMasterCalendar/V8/UserGuide/ViewCustomHelpText.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
