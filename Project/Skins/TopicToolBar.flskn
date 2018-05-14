@@ -18,16 +18,6 @@
             Name="Float">right</Property>
         </Properties>
       </Style>
-      <Medium
-        Name="Mobile">
-        <Style
-          Name="Toolbar">
-          <Properties>
-            <Property
-              Name="Display">none</Property>
-          </Properties>
-        </Style>
-      </Medium>
       <Style
         Name="ToolbarItem">
         <Classes>
@@ -69,6 +59,32 @@
                 Name="PaddingRight">0px</Property>
             </Properties>
           </StyleClass>
+          <StyleClass
+            Name="Blank"
+            Custom="true">
+            <Properties>
+              <Property
+                Name="BackgroundRepeat">no-repeat</Property>
+              <Property
+                Name="BackgroundPosition">center center</Property>
+              <Property
+                Name="BackgroundColor">#ffffff</Property>
+              <Property
+                Name="BackgroundGradient">vertical #ffffff #ffffff</Property>
+              <Property
+                Name="BoxShadowVShadow">0px</Property>
+              <Property
+                Name="BorderLeft">none 0px #e1e1e1</Property>
+              <Property
+                Name="BorderBottom">none 0px #e1e1e1</Property>
+              <Property
+                Name="BorderRight">none 0px #e1e1e1</Property>
+              <Property
+                Name="BorderTop">none 0px #e1e1e1</Property>
+              <Property
+                Name="Width">6px</Property>
+            </Properties>
+          </StyleClass>
         </Classes>
       </Style>
       <Style
@@ -78,10 +94,52 @@
             Name="Height">15px</Property>
         </Properties>
       </Style>
+      <Medium
+        Name="Tablet">
+        <Style
+          Name="ToolbarItem">
+          <Classes>
+            <StyleClass
+              Name="Blank">
+              <Properties>
+                <Property
+                  Name="BackgroundRepeat">no-repeat</Property>
+                <Property
+                  Name="BackgroundPosition">center center</Property>
+              </Properties>
+            </StyleClass>
+          </Classes>
+        </Style>
+      </Medium>
+      <Medium
+        Name="Mobile">
+        <Style
+          Name="Toolbar">
+          <Properties>
+            <Property
+              Name="Display">none</Property>
+          </Properties>
+        </Style>
+        <Style
+          Name="ToolbarItem">
+          <Classes>
+            <StyleClass
+              Name="Blank">
+              <Properties>
+                <Property
+                  Name="BackgroundRepeat">no-repeat</Property>
+                <Property
+                  Name="BackgroundPosition">center center</Property>
+              </Properties>
+            </StyleClass>
+          </Classes>
+        </Style>
+      </Medium>
     </Styles>
+    <Stylesheet></Stylesheet>
   </Stylesheet>
   <TopicToolbar
     EnableCustomLayout="true"
-    Buttons="PreviousTopic|NextTopic" />
+    Buttons="PreviousTopic|Blank|NextTopic" />
   <Strings />
 </CatapultSkin>
