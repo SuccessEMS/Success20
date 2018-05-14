@@ -522,7 +522,7 @@
           Link="/Content/EMSMasterCalendar/V8/InstallationGuide/StartingMasterCalendar.htm" />
         <TocEntry
           Title="Integrated Authentication for Master Calendar"
-          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_IntegAuthenforMC.html">
+          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/IntegAuthenforMC.html">
           <TocEntry
             Title="Portal Authentication Methods"
             Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_PortalAuthenMethods.html" />
@@ -2260,7 +2260,7 @@
           Link="/Content/EMSDesktopClient/V44.1/UserGuide/WorkwithSavedReports.html" />
         <TocEntry
           Title="Work with a Query"
-          Link="/Content/EMSDesktopClient/V44.1/UserGuide/WorkwithResBook.html" />
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/WorkwithQuery.html" />
       </TocEntry>
       <TocEntry
         Title="Billing"
