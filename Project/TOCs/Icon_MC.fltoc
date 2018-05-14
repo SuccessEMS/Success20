@@ -175,7 +175,7 @@
           Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/SiteAdministrationandCustomizingMC.html">
           <TocEntry
             Title="Customize Themes"
-            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/CustomizeThemeColorsBanners.html" />
+            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/CustomizeYourMCSite.html" />
           <TocEntry
             Title="Default Settings"
             Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/CustomizeEmailText.html" />

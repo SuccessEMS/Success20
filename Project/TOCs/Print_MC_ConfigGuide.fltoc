@@ -393,7 +393,7 @@
         VolumeNumberReset="same">
         <TocEntry
           Title="Customize Themes"
-          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/CustomizeThemeColorsBanners.html"
+          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/CustomizeYourMCSite.html"
           ChapterNumberReset="continue"
           BreakType="chapter"
           StartSection="false"
