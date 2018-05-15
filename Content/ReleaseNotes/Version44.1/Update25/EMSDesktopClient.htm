@@ -18,7 +18,7 @@
                     <p class="p_3">V44.1 Update 25</p>
                 </td>
                 <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                    <p class="p_3">Release&#160;Date:&#160;<br />May XX, 2018<br /></p>
+                    <p class="p_3">Release&#160;Date:&#160;<br />May 31, 2018<br /></p>
                 </td>
                 <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
                     <p class="p_3">Patch:&#160;<br /><br /></p>
@@ -67,11 +67,13 @@
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows" style="text-align: left;">
-                        <p class="RNArea">User Defined Fields</p>
+                        <p class="RNArea">User-Defined Fields (UDFs)</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" style="text-align: left;">
-                        <p class="RNTitle">[Navigator] [UDF]Previous set values using as default</p>
-                        <p>&#160;</p>
+                        <p class="RNTitle">Previously Set Child UDF Values Were Being Used As Defaults</p>
+                        <p class="RNBody">If users created a reservation and set child values for a multiselect user-defined field (UDF), any subsequent reservation with a multiselect UDF would display the previously set child values as defaults.</p>
+                        <p class="RNBody"><span class="bold">Fix:</span> Modified functionality so that previously set child values for a multiselect UDF  do not display as defaults in subsequent reservations, and users are required to select child values.</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=38659&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">38659</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
             </tbody>
