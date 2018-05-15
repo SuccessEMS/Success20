@@ -363,7 +363,7 @@ div.example
 }
 
 /* Previous Next Toolbar */
-div.PrevNext
+.PrevNext
 {
 	padding: 0px;
 	margin: 0px;
@@ -1264,6 +1264,22 @@ MadCap|tocProxy
 	{
 		left: 60px;
 	}
+	
+	.title-bar-layout a.logo {
+    top: 0;
+    margin: 0;
+    margin-left: 50px;
+    width: 319px;
+    height: 55px;
+    background: transparent url(Images/EMS_Logo_Doc.png) no-repeat center center;
+    background: url(Images/EMS_Logo_Doc.png) no-repeat center center, -moz-linear-gradient(top, transparent 0%, transparent 100%);
+    background: url(Images/EMS_Logo_Doc.png) no-repeat center center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,transparent), color-stop(100%,transparent));
+    background: url(Images/EMS_Logo_Doc.png) no-repeat center center, -webkit-linear-gradient(top, transparent 0%, transparent 100%);
+    background: url(Images/EMS_Logo_Doc.png) no-repeat center center, -o-linear-gradient(top, transparent 0%,transparent 100%);
+    background: url(Images/EMS_Logo_Doc.png) no-repeat center center, -ms-linear-gradient(top, transparent 0%,transparent 100%);
+    background: url(Images/EMS_Logo_Doc.png) no-repeat center center, linear-gradient(top, transparent 0%,transparent 100%);
+    -pie-background: url(Skins/Fluid/Stylesheets/Images/EMS_Logo_Doc.png) no-repeat center center, linear-gradient(transparent, transparent);
+}
 
 	.container
 	{
