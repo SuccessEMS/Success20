@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xml:lang="en-us" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../Resources/MasterPages/ReleaseNotes.flmsp');">
+<html xml:lang="en-us" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../Resources/MasterPages/ReleaseNotes.flmsp');" MadCap:searchable="False">
     <head>
         <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
         <link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
@@ -19,7 +19,7 @@
                     <p class="p_3">V44.1 Update 25</p>
                 </td>
                 <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                    <p class="p_3">Release&#160;Date:&#160;<br />May 31, 2018</p>
+                    <p class="p_3">Release&#160;Date:&#160;<br />May 30, 2018</p>
                 </td>
                 <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
                     <p class="p_3">Patch:&#160;<br /></p>
@@ -46,15 +46,12 @@
             <tbody>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows" style="text-align: left;">
-                        <p class="p_7"><span class="italics">Campus Planning Interface (CPI)</span>
-                        </p>
+                        <p class="RNArea">Set Course Preferences</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" style="text-align: left;">
-                        <p class="bold">Course Preferences 'Requires Different Room' Checkbox not being honored</p>
-                        <p class="RNBody">Customer has reported that the "Requires Different" room for cross-listed courses does not seem to be behaving properly.</p>
-                        <p class="RNBody">I got on a call with the customer and recorded what they were reporting. Prior to publishing, customer went through cross-listed courses (that exist on different domains than the parent), and marked them as "Require Different Room."</p>
-                        <p class="RNBody">When she changes a room on the parent, whether in Banner or EMS directly, EMS then writes the new location back to all child courses, even though the checkbox is still marked on the child courses.</p>
-                        <p class="RNBody">This causes the customer a lot of work to clean up this mess every time a room changes. (Video Attached</p>
+                        <p class="bold"><span class="italics">Requires Different Room</span> Checkbox Was Not Being Honored</p>
+                        <p class="RNBody">For cross-listed courses, when users changed a room on the parent course, all of the child courses were updated with the new room location even though the <span class="bold">Requires Different Room</span> checkbox was selected for the child courses. </p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that when the <span class="bold">Requires Different Room</span> checkbox is selected for child courses, the child course locations are not updated when the parent course location is updated. </p>
                         <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=37923&amp;_a=edit&amp;triage=false" class="RNRefHyper" title="For EMS Internal Use Only" alt="For EMS Internal Use Only">37923</a><br />(For EMS&#160;internal use only) &#160;</p>
                     </td>
                 </tr>
