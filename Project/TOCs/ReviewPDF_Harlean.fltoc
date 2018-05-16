@@ -2,6 +2,15 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="EMS Floor Plan U22.3 (Deloitte)"
-    Link="/Content/ReleaseNotes/Version44.1/Update22.3/EMSFloorPlan.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
+    Title="Update 25">
+    <TocEntry
+      Title="EMS Web App Release Notes U25"
+      Link="/Content/ReleaseNotes/Version44.1/Update25/EMSWebApp.htm" />
+    <TocEntry
+      Title="EMS Floor Plan Release Notes U25"
+      Link="/Content/ReleaseNotes/Version44.1/Update25/EMSFloorPlan.htm" />
+    <TocEntry
+      Title="EMS Kiosk App Release Notes U25"
+      Link="/Content/ReleaseNotes/Version44.1/Update25/EMSKioskApp.htm" />
+  </TocEntry>
 </CatapultToc>
