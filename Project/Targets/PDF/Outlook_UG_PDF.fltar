@@ -2,7 +2,7 @@
 <CatapultTarget
   Version="2"
   Comment="EMS for Microsoft Outlook User Guide"
-  Type="PDF"
+  Type="MsWord"
   Destinations=""
   GlossaryTermConversion="marked"
   MasterToc="/Project/TOCs/Print_Outlook_UG.fltoc"
