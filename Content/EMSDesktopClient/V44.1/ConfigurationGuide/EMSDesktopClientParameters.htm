@@ -1,12 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html MadCap:lastHeight="26929" MadCap:lastWidth="966" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" style="mc-master-page: url('..\..\..\Resources\MasterPages\EMSDesktopClient.flmsp');">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\EMSDesktopClient.flmsp');">
     <head>
         <link href="../../../Resources/TableStyles/PatternedRows_Param.css" rel="stylesheet" MadCap:stylesheetType="table" /><title>EMS Desktop Client Tab System Parameters V44.1 (EMS Desktop Client)</title>
     </head>
     <body>
-        <h1>
+        <h1 MadCap:autonum="CHAPTER&#160;1: ">
             <MadCap:concept term="V44.1" />EMS&#160;System Parameters</h1>
-        <h2>EMS&#160;Desktop Client</h2>
+        <p>Below are the parameters for <a href="#EMSDesktopClient">EMS&#160;Desktop Client</a> and <a href="#EMSCampus">EMS&#160;Desktop Client -- Academic Planning</a> (optional)&#160;parameters. </p>
+        <h2><a name="EMSDesktopClient"></a>EMS&#160;Desktop Client</h2>
         <table cellspacing="0" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows_Param.css');" class="TableStyle-PatternedRows">
             <col style="width: 131px;" class="TableStyle-PatternedRows-Column-Regular" />
             <col style="width: 212px;" class="TableStyle-PatternedRows-Column-Regular" />
@@ -625,6 +626,114 @@
                     <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">Creates a prompt to expert user upon login if number of Everyday Users is within a certain percentage of the licensing limit.</td>
                     <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">99</td>
                     <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">This alerts EMS Desktop Client users  that they are reaching their Everyday User limit.</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2><a name="EMSCampus"></a>EMS&#160;Desktop Client -- Academic Planning (Campus)&#160;Optional Parameters</h2>
+        <table cellspacing="0" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows_Param.css');" class="TableStyle-PatternedRows">
+            <col style="width: 122px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 212px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 246px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 156px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 179px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr style="height : 15.600000000000001px;" class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">Area</th>
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">Title</th>
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">Description</th>
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">Value</th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">EXAMPLE</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr style="height : 60px;" class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Academic Import</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Academic Import Days Of The Week</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Indicates how EMS determines the days of the week in import data. Whenever this parameter is changed, any existing (already created) Academic Import Sessions will still reflect the old parameter settings, even if you haven't yet imported a file.  If you change this parmaeter and then need to load a file using the new setting, if you have already created the Session, it needs to be deleted and recreated.  Any future Sessions created after changing this parameter will use the updated parameter value.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Specific Text/Positional, Monday First/Positional, Sunday First</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">&#160;</td>
+                </tr>
+                <tr style="height : 60px;" class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Campus</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Academic Book Course Color</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Color used for courses displayed in the Academic Book.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Color Picker</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">Green</td>
+                </tr>
+                <tr style="height : 60px;" class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Campus</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Academic Book Crosslisted Course Color</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Color used for cross-listed courses displayed in the Academic Book.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Color Picker</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">Purple</td>
+                </tr>
+                <tr style="height : 60px;" class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Campus</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Academic Unit Title Plural</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>System-defined label for Academic Units. <br /></p>
+                        <p>&#160;</p>
+                        <p><span class="bold">NOTE</span>:&#160;Typically renamed to “Departments.”</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Text</p>
+                        <p>&#160;</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>Departments</p>
+                        <p>&#160;</p>
+                    </td>
+                </tr>
+                <tr style="height : 60px;" class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Campus</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Academic Unit Title Singular</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>System defined label for Academic Unit. </p>
+                        <p>&#160;</p>
+                        <p><span class="bold">NOTE</span>:&#160;Typically renamed to “Departments.”</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Text</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>Departments</p>
+                    </td>
+                </tr>
+                <tr style="height : 60px;" class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Campus</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Accumulate Enrollment On Shared Space Courses (non-crosslisted only)</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Accumulate enrollment on courses that share space instead of using the largest enrollment (which is the approach for crosslisted courses).  This only applies to courses that are manually marked as Shared Space in EMS; it does not apply to cross-listed courses.</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">YES/NO</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">Typically set to "Yes."</td>
+                </tr>
+                <tr style="height : 60px;" class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">&#160;</td>
                 </tr>
             </tbody>
         </table>
