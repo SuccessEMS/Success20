@@ -5,7 +5,7 @@
         <meta name="mt-unsafe" value="true" />
     </head>
     <body>
-        <h1 MadCap:autonum="CHAPTER&#160;1: ">
+        <h1>
             <MadCap:concept term="V44.1" />Open ID Connect Authentication</h1>
         <p>This section guides you authenticating your users via the Open ID Connect protocol.&#160;Authentication with Open ID requires configuration in&#160;<MadCap:variable name="General.Mobile" /> before users can authenticate. </p>
         <p class="box-note"><span class="bold">NOTE:</span>&#160;For more information about how Open ID can be hosted or pre-configured in the EMS Mobile App, see <MadCap:xref href="Mobile_OpenIDConnectAuthenHostPreconfig.htm">Open ID Connect Authentication&#160;Can Be&#160;Hosted or Pre-Configured in the EMS Mobile App</MadCap:xref>.</p>
@@ -30,7 +30,7 @@
             </li>
         </ul>
         <p>OpenID&#160;authentication configuration requires two inputs:&#160;</p>
-        <ol start="1">
+        <ol start="1" class="number-list">
             <li>User Info Endpoint.&#160;The EMS Platform Services will send the access_token to this endpoint to retrieve information about the end user.</li>
             <li>Specify whether the EMS Platform Services&#160;should make a GET or POST request to the userinfo endpoint.</li>
         </ol>
@@ -60,6 +60,6 @@
         <p>Assuming you have installed the EMS Platform Services API at https://ems.<span class="italics">yourcompany</span>.com/endpoint, you can test the authentication with a curl command:</p>
         <div class="indent">curl -X POST -H 'x-ems-consumer: MobileApp' -H 'Content-Type: application/json' -d '{"token":"your_access_token"}' https://ems.yourcompany.com/endpoint...authentication</div>
         <p>...where your<span class="italics">_access_token</span> is a valid <span class="italics">access_token</span> retrieved from your IdP.</p>
-        <p class="note-box"><span class="bold">NOTE:</span> <span class="bold">api/v1/authentication</span> is the endpoint within the API where your request must be sent.</p>
+        <p class="box-note"><span class="bold">NOTE:</span> <span class="bold">api/v1/authentication</span> is the endpoint within the API where your request must be sent.</p>
     </body>
 </html>
