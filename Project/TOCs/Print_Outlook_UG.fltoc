@@ -16,7 +16,11 @@
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
-      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/TOC8_5X11.flpgl" />
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/TOC8_5X11.flpgl"
+      AutoEndOnLeftPage="disabled"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue" />
     <TocEntry
       Title="EMS for Microsoft Outlook "
       Link="/Content/EMSforOutlook/UserGuide/UseEMSforOutlook.htm"
@@ -29,7 +33,9 @@
       PageNumber="1"
       SectionNumberReset="continue"
       VolumeNumberReset="same"
-      AutoEndOnLeftPage="disabled">
+      AutoEndOnLeftPage="enabled"
+      ReplaceMergeNode="false"
+      PageType="firstright">
       <TocEntry
         Title="Get Started with EMS for Outlook"
         Link="/Content/EMSforOutlook/UserGuide/GetStarted.htm"
@@ -40,7 +46,11 @@
         SectionNumberReset="continue"
         VolumeNumberReset="same"
         ChapterNumberReset="continue"
-        AutoEndOnLeftPage="disabled">
+        AutoEndOnLeftPage="enabled"
+        ChapterNumber=""
+        ReplaceMergeNode="false"
+        PageNumber="(multiple)"
+        PageType="continue">
         <TocEntry
           Title="Microsoft Outlook, EMS for Microsoft Outlook, and EMS Web App Comparison"
           Link="/Content/EMSforOutlook/UserGuide/OutlookComparisons.htm"
@@ -51,7 +61,9 @@
           SectionNumberReset="continue"
           VolumeNumberReset="same"
           ChapterNumberReset="continue"
-          AutoEndOnLeftPage="disabled" />
+          AutoEndOnLeftPage="enabled"
+          PageNumber="(multiple)"
+          PageType="continue" />
       </TocEntry>
       <TocEntry
         Title="Create a Reservation in EMS for Microsoft Outlook"
@@ -63,7 +75,9 @@
         SectionNumberReset="continue"
         VolumeNumberReset="same"
         ChapterNumberReset="continue"
-        AutoEndOnLeftPage="disabled">
+        AutoEndOnLeftPage="enabled"
+        PageNumber="(multiple)"
+        PageType="continue">
         <TocEntry
           Title="Create a Single Reservation"
           Link="/Content/EMSforOutlook/UserGuide/CreateSingleRes.htm"
@@ -74,7 +88,9 @@
           SectionNumberReset="continue"
           VolumeNumberReset="same"
           ChapterNumberReset="continue"
-          AutoEndOnLeftPage="disabled" />
+          AutoEndOnLeftPage="enabled"
+          PageNumber="(multiple)"
+          PageType="continue" />
         <TocEntry
           Title="Create a Series Reservation"
           Link="/Content/EMSforOutlook/UserGuide/CreateSeriesRes.htm"
@@ -85,7 +101,9 @@
           SectionNumberReset="continue"
           VolumeNumberReset="same"
           ChapterNumberReset="continue"
-          AutoEndOnLeftPage="disabled" />
+          AutoEndOnLeftPage="enabled"
+          PageNumber="(multiple)"
+          PageType="continue" />
         <TocEntry
           Title="Create a Video Conference Reservation"
           Link="/Content/EMSforOutlook/UserGuide/CreateVideoConRes.htm"
@@ -96,7 +114,9 @@
           SectionNumberReset="continue"
           VolumeNumberReset="same"
           ChapterNumberReset="continue"
-          AutoEndOnLeftPage="disabled" />
+          AutoEndOnLeftPage="enabled"
+          PageNumber="(multiple)"
+          PageType="continue" />
         <TocEntry
           Title="Edit or Cancel a Reservation"
           Link="/Content/EMSforOutlook/UserGuide/EditCancelSchedEvent.htm"
@@ -107,7 +127,9 @@
           SectionNumberReset="continue"
           VolumeNumberReset="same"
           ChapterNumberReset="continue"
-          AutoEndOnLeftPage="disabled" />
+          AutoEndOnLeftPage="enabled"
+          PageNumber="(multiple)"
+          PageType="continue" />
       </TocEntry>
       <TocEntry
         Title="Use Skype for Business in EMS for Outlook"
@@ -119,7 +141,9 @@
         SectionNumberReset="continue"
         VolumeNumberReset="same"
         ChapterNumberReset="continue"
-        AutoEndOnLeftPage="disabled" />
+        AutoEndOnLeftPage="enabled"
+        PageNumber="(multiple)"
+        PageType="continue" />
       <TocEntry
         Title="Resolve Booking Conflicts"
         Link="/Content/EMSforOutlook/UserGuide/ResolveBookingConflicts.htm"
@@ -130,7 +154,9 @@
         SectionNumberReset="continue"
         VolumeNumberReset="same"
         ChapterNumberReset="continue"
-        AutoEndOnLeftPage="disabled" />
+        AutoEndOnLeftPage="enabled"
+        PageNumber="(multiple)"
+        PageType="continue" />
       <TocEntry
         Title="View Known Errors/Alerts for EMS for Outlook"
         Link="/Content/EMSforOutlook/UserGuide/ViewKnownErrorsAlerts.htm"
@@ -141,7 +167,9 @@
         SectionNumberReset="continue"
         VolumeNumberReset="same"
         ChapterNumberReset="continue"
-        AutoEndOnLeftPage="disabled" />
+        AutoEndOnLeftPage="enabled"
+        PageNumber="(multiple)"
+        PageType="continue" />
     </TocEntry>
   </TocEntry>
 </CatapultToc>

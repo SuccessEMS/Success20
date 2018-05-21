@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html MadCap:lastBlockDepth="6" MadCap:lastHeight="1942" MadCap:lastWidth="778" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head><title mt-export-translate="no">Using Windows Authentication (NTLM) for EMS Mobile</title>
         <meta name="mt-type" value="application/x.deki-text" />
         <meta name="mt-unsafe" value="true" />
@@ -8,10 +8,10 @@
         <h1>
             <MadCap:concept term="V44.1" />Windows Authentication (NTLM) for EMS Mobile</h1>
         <p>Follow the steps in this section to authenticate&#160;your users with Windows Authentication via Microsoft's NTLM challenge-response protocol. &#160;</p>
-        <p class="note-box">Tip:&#160;Windows Authentication requires that you install and use the optional EMS Platform Services API.</p>
+        <p class="box-tip"><span class="boldAllCaps">Tip:</span>&#160;Windows Authentication requires that you install and use the optional EMS Platform Services API.</p>
         <h2>User Login Scenario</h2>
         <p>Once you have established a connection to the EMS Platform Services API, the user log-in process is as follows:</p>
-        <ul>
+        <ul class="unorder-list">
             <li>EMS Mobile user will enter domain credentials on the Sign In screen and tap <span class="bold">Sign In.</span></li>
             <li><MadCap:variable name="General.Mobile" />&#160;will send credentials to the EMS Platform Services API.</li>
             <li>IIS will intercept the call and issue a challenge to&#160;<MadCap:variable name="General.Mobile" />.
@@ -28,6 +28,6 @@
             <br />
         </div>
         <p>...where your<span class="italics">_username</span> and your<span class="italics">_password</span> are your credentials.</p>
-        <p class="note-box">Note:&#160;<span class="bold">api/v1/authentication</span> is the endpoint within the API where your request must be sent.</p>
+        <p class="box-note"><span class="bold">NOTE:</span>&#160;<span class="bold">api/v1/authentication</span> is the endpoint within the API where your request must be sent.</p>
     </body>
 </html>
