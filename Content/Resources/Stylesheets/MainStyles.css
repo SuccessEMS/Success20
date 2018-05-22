@@ -3129,6 +3129,11 @@ p.PDFh1
 		mc-auto-number-format: 'CHAPTER {chapnum}: ';
 	}
 
+	h1.RNprint
+	{
+		mc-auto-number-format: '';
+	}
+	
 	div.TitleandImage
 	{
 		page-break-inside: avoid;
