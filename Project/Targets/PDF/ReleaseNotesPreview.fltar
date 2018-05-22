@@ -14,7 +14,8 @@
   EmbedImages="true"
   MasterPageLayout="/Content/Resources/PageLayouts/PreviewRN/PrevChapters.flpgl"
   RemoveImagesFromHeadings="false"
-  MasterStylesheet="/Content/Resources/Stylesheets/MainStyles.css">
+  MasterStylesheet="/Content/Resources/Stylesheets/MainStyles.css"
+  InjectBookHeadings="false">
   <PrintedOutput
     CollapseMargins="true"
     ExpandingTextConversion="expand"
