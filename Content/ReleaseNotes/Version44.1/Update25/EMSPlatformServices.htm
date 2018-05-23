@@ -51,7 +51,11 @@
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
                         <p class="RNTitle">Search Enhancement</p>
-                        <p class="RNBody">Users can now search Buildings by any user-defined field (UDF). </p>
+                        <p class="RNBody">Users can now search Buildings by any user-defined field (UDF). Added UDF filters to the following routes:</p>
+                        <ul>
+                            <li>GET/Buildings</li>
+                            <li>POST/buildings/action/search</li>
+                        </ul>
                         <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/Aspen/_queries?id=37244&amp;_a=edit&amp;fullScreen=true&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">37244</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
@@ -63,6 +67,11 @@
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
                         <p class="RNTitle">View UDFs for Multiple Rooms</p>
                         <p class="RNBody">Users can  now view UDFs for multiple rooms IDs.</p>
+                        <p class="RNBody">The following new routes were added:</p>
+                        <ul>
+                            <li>GET/rooms/{id}/userdefinedfields</li>
+                            <li>POST/rooms/actions/search/userdefinedfields</li>
+                        </ul>
                         <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/Aspen/_queries?id=37245&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">37245</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
@@ -72,7 +81,11 @@
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
                         <p class="RNTitle">ParentID&#160;for Attachments and Drawings</p>
-                        <p class="RNBody">A ParentID can now be used to associate a particular drawing/attachment with a booking.</p>
+                        <p class="RNBody">A ParentID is returned in the response for the following routes:</p>
+                        <ul>
+                            <li>bookings/actions/search/drawings</li>
+                            <li>bookings/actions/search/attachments</li>
+                        </ul>
                         <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/Aspen/_queries?id=37928&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">37928</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
@@ -104,6 +117,7 @@
                     <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows" style="text-align: left;">
                         <p class="RNTitle">Enhanced GET&#160;Statuses Functionality</p>
                         <p class="RNBody">Additional filters have been added so that GET/Statuses returns all statuses, instead of active statuses and those that have the display on web flag set to true.</p>
+                        <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/Aspen/_queries?id=38130&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">38130</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
             </tbody>
@@ -160,24 +174,24 @@
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNArea">IIS&#160;Instance</p>
-                        <p>&#160;</p>
-                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="text-align: left;">&#160;</td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNTitle">Unable to Install Multiple EMS&#160;Platform Services Instances on the Same IIS&#160;Instance</p>
-                        <p class="RNBody">Administrators were unable to install multiple EMS Platform Services instances on the same IIS. </p>
-                        <p class="RNBody"><span class="bold">Fix</span>:&#160;Modified functionality so that Administrators can install multiple EMS&#160;Platform instances. </p>
-                        <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/Aspen/_queries?id=36741&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">36741</a><br />(For EMS&#160;Internal Use Only)</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows" style="text-align: left;">&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" style="text-align: left;">
                         <p class="RNTitle">Correct Time Not Displayed When Updating Booking With Room in Another Timezone</p>
                         <p class="RNBody">When updating a booking with a room in another building in a different timezone, the correct time was not displaying. </p>
                         <p class="RNBody"><span class="bold">Fix</span>:&#160;Modified functionality so that the new booking will have the time set correctly according to its timezone. </p>
                         <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/Aspen/_queries?id=37064&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">37064</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows" style="text-align: left;">
+                        <p class="RNArea">SAML&#160;IdP&#160;Metadata Import</p>
+                        <p>&#160;</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" style="text-align: left;">
+                        <p class="RNTitle">Support of Multiple IdP Certificates</p>
+                        <p class="RNBody">The EMS&#160;Platform Services SAML&#160;Identify Provider (IdP) metadata import did not support multiple IdP&#160;certificates. </p>
+                        <p class="RNBody"><span class="bold">Fix</span>:&#160;Modified functionality so that the import function  supports multiple (possibly concurrently valid) certificates that can be used to validate the signature in the SAML response.</p>
+                        <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/Aspen/_queries?id=37472&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">37472</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
             </tbody>
