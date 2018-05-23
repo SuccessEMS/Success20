@@ -68,15 +68,6 @@
       PageNumberReset="continue"
       PageLayout="/Content/Resources/PageLayouts/PreviewRN/PrevChapters.flpgl" />
     <TocEntry
-      Title="EMS Kiosk App"
-      Link="/Content/ReleaseNotes/Version44.1/Update25/EMSKioskApp.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-      BreakType="chapter"
-      PageType="continue"
-      AutoEndOnLeftPage="disabled"
-      StartSection="false"
-      PageNumberReset="continue"
-      PageLayout="/Content/Resources/PageLayouts/PreviewRN/PrevChapters.flpgl" />
-    <TocEntry
       Title="EMS Master Calendar"
       Link="/Content/ReleaseNotes/Version44.1/Update25/EMSMasterCalendar.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
       BreakType="chapter"
