@@ -2,6 +2,6 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="EMS Platform Services U25"
-    Link="/Content/ReleaseNotes/Version44.1/Update25/EMSPlatformServices.htm" />
+    Title="Installing EMS Platform Services"
+    Link="/Content/EMSPlatformServices/A_InstallationGuide/Platform_InstallPS.html" />
 </CatapultToc>
