@@ -97,21 +97,21 @@
                 <tr style="height : 90px;" class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Groups &amp; Contacts</td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Group Bad Status Title</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Label used for “Bad” value on the Group Status dropdown list. On the Billing Information tab of the Group record there is a field for status with values Bad, OK or Warning. These three labels can be changed to suit organization's business rules. If the Group status is set to "Bad", no reservations can be made for this Group.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Label used for “Bad” value on the Group Status drop-down list. On the Billing Information tab of the Group record there is a field for status with values Bad, OK or Warning. These three labels can be changed to suit organization's business rules. If the Group status is set to "Bad", no reservations can be made for this Group.</td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Bad</td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">Delinquent, Do not Book</td>
                 </tr>
                 <tr style="height : 30px;" class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Groups &amp; Contacts</td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Group OK Status Title</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Label used for “OK” value on the Group Status dropdown list. </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Label used for “OK” value on the Group Status drop-down list. </td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">OK</td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">Good Standing.</td>
                 </tr>
                 <tr style="height : 75px;" class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Groups &amp; Contacts</td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Group Warning Status Title</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Label used for “Warning” value on the Group Status dropdown list. If the Group status is set to "Warning," a message appears when this group is selected, however a reservation can still be made for this Group.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Label used for “Warning” value on the Group Status drop-down list. If the Group status is set to "Warning," a message appears when this group is selected, however a reservation can still be made for this Group.</td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Warning</td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">Slow paying.</td>
                 </tr>
@@ -259,7 +259,7 @@
                 <tr style="height : 75px;" class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Labels</td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Phone/Fax Labels List</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Options available as a dropdown menu in the Phone 1 and Phone 2 fields when creating or editing a Group, a Contact, or a Reservation. Enter options as text separated by semicolons. Default options are Phone, Fax, Mobile, and Other.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Options available as a drop-down menu in the Phone 1 and Phone 2 fields when creating or editing a Group, a Contact, or a Reservation. Enter options as text separated by semicolons. Default options are Phone, Fax, Mobile, and Other.</td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">&#160;</td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">Primary, Office, Mobile, Fax, Other</td>
                 </tr>
@@ -633,8 +633,8 @@
         <table cellspacing="0" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows_Param.css');" class="TableStyle-PatternedRows">
             <col style="width: 122px;" class="TableStyle-PatternedRows-Column-Regular" />
             <col style="width: 212px;" class="TableStyle-PatternedRows-Column-Regular" />
-            <col style="width: 246px;" class="TableStyle-PatternedRows-Column-Regular" />
-            <col style="width: 156px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 235px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 170px;" class="TableStyle-PatternedRows-Column-Regular" />
             <col style="width: 179px;" class="TableStyle-PatternedRows-Column-Regular" />
             <thead>
                 <tr style="height : 15.600000000000001px;" class="TableStyle-PatternedRows-Head-Header1">
@@ -825,91 +825,681 @@
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
                         <p>Course User Defined Field 01</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Maps an EMS user-defined field to a custom field in your Student Information System.</p>
+                        <p>&#160;</p>
+                        <p><span class="bold">NOTE</span>:&#160;Only needed if customization has been completed to bring custom field from Student Information System into EMS.</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Course Type User Defined Field (Drop-down List)</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>"Secondary Instructor"</p>
+                    </td>
                 </tr>
                 <tr style="height : 60px;" class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Campus</p>
+                    </td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
                         <p>Course User Defined Field 02</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Maps an EMS user-defined field to a custom field in your Student Information System.</p>
+                        <p>&#160;</p>
+                        <p><span class="bold">NOTE</span>:&#160;Only needed if customization has been completed to bring custom field from Student Information System into EMS.</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Course Type User Defined Field (Drop-down List)</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>"Secondary Instructor"</p>
+                    </td>
                 </tr>
                 <tr style="height : 60px;" class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Campus</p>
+                    </td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
                         <p>Course User Defined Field 03</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Maps an EMS user-defined field to a custom field in your Student Information System.</p>
+                        <p>&#160;</p>
+                        <p><span class="bold">NOTE</span>:&#160;Only needed if customization has been completed to bring custom field from Student Information System into EMS.</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Course Type User Defined Field (Drop-down List)</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>"Secondary Instructor"</p>
+                    </td>
                 </tr>
                 <tr style="height : 60px;" class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Campus</p>
+                    </td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
                         <p>Course User Defined Field 04</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Maps an EMS user-defined field to a custom field in your Student Information System.</p>
+                        <p>&#160;</p>
+                        <p><span class="bold">NOTE</span>:&#160;Only needed if customization has been completed to bring custom field from Student Information System into EMS.</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Course Type User Defined Field (Drop-down List)</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>"Secondary Instructor"</p>
+                    </td>
                 </tr>
                 <tr style="height : 60px;" class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Campus</p>
+                    </td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
                         <p>Course User Defined Field 05</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Maps an EMS user-defined field to a custom field in your Student Information System.</p>
+                        <p>&#160;</p>
+                        <p><span class="bold">NOTE</span>:&#160;Only needed if customization has been completed to bring custom field from Student Information System into EMS.</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Course Type User Defined Field (Drop-down List)</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>"Secondary Instructor"</p>
+                    </td>
                 </tr>
                 <tr style="height : 60px;" class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Campus</p>
+                    </td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
                         <p>Course User Defined Field 06</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Maps an EMS user-defined field to a custom field in your Student Information System.</p>
+                        <p>&#160;</p>
+                        <p><span class="bold">NOTE</span>:&#160;Only needed if customization has been completed to bring custom field from Student Information System into EMS.</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Course Type User Defined Field (Drop-down List)</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>"Secondary Instructor"</p>
+                    </td>
                 </tr>
                 <tr style="height : 60px;" class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Campus</p>
+                    </td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
                         <p>Course User Defined Field 07</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Maps an EMS user-defined field to a custom field in your Student Information System.</p>
+                        <p>&#160;</p>
+                        <p><span class="bold">NOTE</span>:&#160;Only needed if customization has been completed to bring custom field from Student Information System into EMS.</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Course Type User Defined Field (Drop-down List)</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>"Secondary Instructor"</p>
+                    </td>
                 </tr>
                 <tr style="height : 60px;" class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Campus</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Course User Defined Field 08</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Maps an EMS user-defined field to a custom field in your Student Information System.</p>
+                        <p>&#160;</p>
+                        <p><span class="bold">NOTE</span>:&#160;Only needed if customization has been completed to bring custom field from Student Information System into EMS.</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Course Type User Defined Field (Drop-down List)</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>"Secondary Instructor"</p>
+                    </td>
                 </tr>
                 <tr style="height : 60px;" class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Campus</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Course User Defined Field 09</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Maps an EMS user-defined field to a custom field in your Student Information System.</p>
+                        <p>&#160;</p>
+                        <p><span class="bold">NOTE</span>:&#160;Only needed if customization has been completed to bring custom field from Student Information System into EMS.</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Course Type User Defined Field (Drop-down List)</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>"Secondary Instructor"</p>
+                    </td>
                 </tr>
                 <tr style="height : 60px;" class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Campus</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Course User Defined Field 10</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Maps an EMS user-defined field to a custom field in your Student Information System.</p>
+                        <p>&#160;</p>
+                        <p><span class="bold">NOTE</span>:&#160;Only needed if customization has been completed to bring custom field from Student Information System into EMS.</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Course Type User Defined Field (Drop-down List)</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>"Secondary Instructor"</p>
+                        <p>&#160;</p>
+                    </td>
                 </tr>
                 <tr style="height : 60px;" class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Campus</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Day Label 1 - Sunday</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Determines the label that indicates Sunday in various areas of EMS Campus such as the Time Block Template configuration area. The default value is U.</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Text</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">U</td>
+                </tr>
+                <tr style="height : 60px;" class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Campus</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Day Label 2 - Monday</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Determines the label that indicates Sunday in various areas of EMS Campus such as the Time Block Template configuration area. The default value is M.</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Text</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">M</td>
+                </tr>
+                <tr style="height : 60px;" class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Campus</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Day Label 3 - Tuesday</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Determines the label that indicates Sunday in various areas of EMS Campus such as the Time Block Template configuration area. The default value is T.</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Text</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>T</p>
+                    </td>
+                </tr>
+                <tr style="height : 60px;" class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Campus</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Day Label 4 - Wednesday</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Determines the label that indicates Sunday in various areas of EMS Campus such as the Time Block Template configuration area. The default value is W.</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Text</p>
+                        <p>&#160;</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>W</p>
+                        <p>&#160;</p>
+                    </td>
+                </tr>
+                <tr style="height : 60px;" class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Campus</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Day Label 5 - Thursday</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Determines the label that indicates Sunday in various areas of EMS Campus such as the Time Block Template configuration area. The default value is R.</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Text</p>
+                        <p>&#160;</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>R</p>
+                        <p>&#160;</p>
+                    </td>
+                </tr>
+                <tr style="height : 60px;" class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Campus</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Day Label 6 - Friday</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Determines the label that indicates Sunday in various areas of EMS Campus such as the Time Block Template configuration area. The default value is F.</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Text</p>
+                        <p>&#160;</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>F</p>
+                        <p>&#160;</p>
+                    </td>
+                </tr>
+                <tr style="height : 60px;" class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Campus</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Day Label 7 - Saturday</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Determines the label that indicates Sunday in various areas of EMS Campus such as the Time Block Template configuration area. The default value is S.</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Text</p>
+                        <p>&#160;</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>S</p>
+                        <p>&#160;</p>
+                    </td>
+                </tr>
+                <tr style="height : 60px;" class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Campus</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Default Cancel Reason</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Used for courses when publishing a term.</p>
+                        <p>&#160;</p>
+                        <p><span class="bold">NOTE</span>:&#160;Allows users to run reports and filter information, so as to keep academic cancellations separate from other cancellations that they might be tracking.</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Drop-down</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>"Canceled in Student Information System"</p>
+                    </td>
+                </tr>
+                <tr style="height : 60px;" class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Campus</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Default Event Type</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Used for courses when publishing a term.</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Drop-down</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>"Course"</p>
+                    </td>
+                </tr>
+                <tr style="height : 60px;" class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Campus</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Default Group</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Used for courses when publishing a term.</p>
+                        <p>&#160;</p>
+                        <p><span class="bold">NOTE</span>:&#160;Must have a value in order to publish a term.</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Drop-down</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>"Registrar's Office"</p>
+                    </td>
+                </tr>
+                <tr style="height : 60px;" class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Campus</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Default Reservation Source</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Used for courses when publishing a term.</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Drop-down</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>"Student Information System"</p>
+                    </td>
+                </tr>
+                <tr style="height : 60px;" class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Campus</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Default Seat Fill Percentage</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Used to determine an appropriate room size for a class of a specific estimated enrollment (typically 100%).</p>
+                        <p>&#160;</p>
+                        <p><span class="bold">NOTE</span>:&#160;This is only used when optimizing courses.  If there is a course that needs a larger room then what its enrollment would normally cal for, this number can be lowered.  For instance, if a course has an enrollment of 30, but needs to be in a room that could hold 60 or more, the seat fill percentage would be set to "50%".  This parameter only needs to be adjusted if the user wants a default seat fill for all courses to be something other than 100%.  This field cannot be set to above 100%.</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Numeric</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>100</p>
+                    </td>
+                </tr>
+                <tr style="height : 60px;" class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Campus</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Default Setup Type</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Used to build a setup type and capacity (from the Student Information System) when synchronizing rooms (typically “classroom”).</p>
+                        <p>&#160;</p>
+                        <p><span class="bold">NOTE</span>:&#160;Must be set prior to synchronizing Rooms from the Student Information System in order to pull Student Information System room capacities into EMS.</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Drop-down</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>"Academic Style"</p>
+                    </td>
+                </tr>
+                <tr style="height : 60px;" class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Campus</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Domain Title Plural</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>System defined label for Domains (typically renamed to “Campuses”).</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Text</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>"Campuses"</p>
+                    </td>
+                </tr>
+                <tr style="height : 60px;" class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Campus</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Domain Title Singular</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>System defined label for Domain (typically renamed to "Campus").</p>
+                        <p>&#160;</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Text</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>"Campus"</p>
+                    </td>
+                </tr>
+                <tr style="height : 60px;" class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Campus</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Final Exam Event Type</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Used when creating a final exam booking.</p>
+                        <p>&#160;</p>
+                        <p><span class="bold">NOTE</span>:&#160;This parameter is used in conjunction with Final Exam Module. </p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Drop-down</p>
+                        <p>&#160;</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>"Exam"</p>
+                    </td>
+                </tr>
+                <tr style="height : 60px;" class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Campus</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Include CRN in Reservation Event Name</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Include the Course Reservation Number (CRN) in front of the event name post-publish in all areas of EMS Campus where the event name is used.</p>
+                        <p>&#160;</p>
+                        <p><span class="bold">NOTE</span>:&#160;This parameter always adds the CRN to the front of the event name.</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">YES/NO</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">"NO"</td>
+                </tr>
+                <tr style="height : 60px;" class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Campus</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Keep Sibling Crosslisting Room Assignments In Sync</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>A sibling cross-list describes a crosslist that has at least three courses and the two child courses have a meeting pattern that is not shared with the parent course. If set to "YES," then these sibling crosslist courses become a matched set and are placed in Confirmed/Crosslist status and not Conflict.</p>
+                        <p>&#160;</p>
+                        <p><span class="bold">NOTE</span>:&#160;For example, BIO 110 01, BIO 111 01, and BIO 112 01 are all cross-listed.  They all meet MWF 10-1050, and BIO 110 01 is set as the parent.  However, BIO 111 and 112 also share a lab T 9-1150 that BIO 110 doesn't have.  If the parameter is set to "No" then BIO 111 appears in "Conflict" status.  If parameter is set to "Yes" then BIO 111 T 9-1150 appears as "Confirmed" status.</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">YES/NO</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">"YES"</td>
+                </tr>
+                <tr style="height : 60px;" class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Campus</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Large class size (if more than xx students)</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Used to determine what constitutes a “large” class for weighting by enrollment in the room optimization process. See Also:&#160;<a href="../UserGuide/RoomAssignmentsOptimization.htm">Room Optimization</a>. </p>
+                        <p>&#160;</p>
+                        <p><span class="bold">NOTE</span>:&#160;This is also how the cutoffs are based in the "Room Availability/Usage" report.</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Numeric</p>
+                        <p>&#160;</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">50</td>
+                </tr>
+                <tr style="height : 60px;" class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Campus</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Large class size weight adjustment</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Used to determine the optimization weighting for a "large" class. See Also:&#160;<a href="../UserGuide/RoomAssignmentsOptimization.htm">Room Optimization</a>. </p>
+                        <p>&#160;</p>
+                        <p><span class="bold">NOTE</span>:&#160;This parameter determines how many potential extra points a large class gets for its optimization rank score.</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Numeric</p>
+                        <p>&#160;</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>30</p>
+                        <p>&#160;</p>
+                    </td>
+                </tr>
+                <tr style="height : 60px;" class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Campus</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Lock Academic Unit Room access</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Used during optimization process. If set to Yes, a room will be assigned to an Academic Unit' (i.e., Department) course only if that Academic Unit owns the room.</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">YES/NO</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">"NO"</td>
+                </tr>
+                <tr style="height : 60px;" class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Campus</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Manually update Student Information System/ERP System after Publishing</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>If set to "NO," course location in the Student Information System will be automatically updated during the publishing process.</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">YES/NO</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">"YES"</td>
+                </tr>
+                <tr style="height : 60px;" class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Campus</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Student Information System/ERP Title</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>System defined label for Student Information System/ERP (typically "Student Information System").</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Text</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">Banner</td>
+                </tr>
+                <tr style="height : 60px;" class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Campus</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Small class size (if less than xx students)</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Used to determine what constitutes a “small” class for weighting by enrollment in the room optimization process. See Also:&#160;<a href="../UserGuide/RoomAssignmentsOptimization.htm">Room Optimization</a>. </p>
+                        <p>&#160;</p>
+                        <p><span class="bold">NOTE</span>:&#160;This also determines how the cutoffs are based in the "Room Availability/Usage" report.</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Numeric</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>25</p>
+                        <p>&#160;</p>
+                    </td>
+                </tr>
+                <tr style="height : 60px;" class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Campus</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Small class size weight adjustment</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Used to adjust the optimization weighting for a “small” class.</p>
+                        <p>&#160;</p>
+                        <p><span class="bold">NOTE</span>:&#160;Determines how many potential extra points a small class gets for its optimization rank score.</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Numeric</p>
+                        <p>&#160;</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">-100</td>
+                </tr>
+                <tr style="height : 60px;" class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Campus</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Subject Title Plural</p>
+                        <p>&#160;</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">System defined label for Subjects (typically “Subjects”).</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Text</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>"Subjects"</p>
+                    </td>
+                </tr>
+                <tr style="height : 60px;" class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Campus</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Subject Title Singular</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>System defined label for Subject (typically “Subject”).</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Text</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>"Subject"</p>
+                    </td>
+                </tr>
+                <tr style="height : 60px;" class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Campus</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Sync Course Dates Without Start/End Times</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>If set to No, Courses with incomplete course date records (e.g., missing start/end times or dates) will not be imported into EMS Campus.<br /><br /><span class="bold">NOTE</span>:&#160;Only works for missing start/end times; course dates still need days of the week and start/end dates.</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">YES/NO</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">"NO"</td>
+                </tr>
+                <tr style="height : 60px;" class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                        <p>Campus</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                        <p>Web Service URL</p>
+                        <p>&#160;</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                        <p>The URL&#160;to the EMS&#160;Campus Web Service.</p>
+                        <p>&#160;</p>
+                        <p><span class="bold">NOTE</span>:&#160;This parameter must be filled out with the correct URL in order to sync with the Student Information System.  When copying production EMS to test EMS environments, this parameter should always be updated to point to the test EMS Campus Web Service.</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">Text</td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">https://www.school.edu/EMSCampusWebService<br />/EMSCampusService.asmx</td>
                 </tr>
             </tbody>
         </table>
