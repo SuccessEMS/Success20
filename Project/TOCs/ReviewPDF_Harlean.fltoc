@@ -2,15 +2,9 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="Update 25">
-    <TocEntry
-      Title="EMS Web App Release Notes U25"
-      Link="/Content/ReleaseNotes/Version44.1/Update25/EMSWebApp.htm" />
-    <TocEntry
-      Title="EMS Floor Plan Release Notes U25"
-      Link="/Content/ReleaseNotes/Version44.1/Update25/EMSFloorPlan.htm" />
-    <TocEntry
-      Title="EMS Kiosk App Release Notes U25"
-      Link="/Content/ReleaseNotes/Version44.1/Update25/EMSKioskApp.htm" />
-  </TocEntry>
+    Title="GoogleSuiteIntegration"
+    Link="/Content/GoogleSuiteIntegration/Config.htm"></TocEntry>
+  <TocEntry
+    Title="IntegrationtoMicrosoftExchange"
+    Link="/Content/EMSforOutlook/IntegrationtoMicrosoftExchange/LearnMoreaboutEWS.htm" />
 </CatapultToc>
