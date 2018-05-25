@@ -126,7 +126,7 @@
         Link="/Content/EMSMobileApp/B_ConfigurationGuide/Mobile_HowtoUpgradeMobileApptoAPI.html" />
       <TocEntry
         Title="Set EMS Mobile Parameters"
-        Link="/Content/EMSMobileApp/B_ConfigurationGuide/Mobile_SetMobileParameters.html"></TocEntry>
+        Link="/Content/EMSMobileApp/B_ConfigurationGuide/MobileAppParam.htm"></TocEntry>
       <TocEntry
         Title="PDF"
         Link="/Content/EMSMobileApp/B_ConfigurationGuide/EMSMobileApp_ConfigurationGuide.pdf" />
