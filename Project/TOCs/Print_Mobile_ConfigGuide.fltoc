@@ -130,7 +130,7 @@
           VolumeNumberReset="same" />
         <TocEntry
           Title="Set EMS Mobile Parameters"
-          Link="/Content/EMSMobileApp/B_ConfigurationGuide/Mobile_SetMobileParameters.html"
+          Link="/Content/EMSMobileApp/B_ConfigurationGuide/MobileAppParam.htm"
           ChapterNumberReset="continue"
           BreakType="chapter"
           StartSection="false"
