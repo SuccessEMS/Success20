@@ -47,9 +47,9 @@ html.emsroomSignApp
 	mc-community-features: disabled;
 }
 
-html.emsPlateformService
+html.emsPlatformServices
 {
-	mc-master-page: url('../MasterPages/emsPlateformService.flmsp');
+	mc-master-page: url('../MasterPages/emsPlatformServices.flmsp');
 	mc-community-features: disabled;
 }
 
@@ -1271,13 +1271,13 @@ MadCap|tocProxy
    		 margin-left: 50px;
    		 width: 319px;
   		 height: 55px;
-  		 background: transparent url(Images/EMS_Logo_Doc.png) no-repeat center center;
-   		 background: url(Images/EMS_Logo_Doc.png) no-repeat center center, -moz-linear-gradient(top, transparent 0%, transparent 100%);
-     	 background: url(Images/EMS_Logo_Doc.png) no-repeat center center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,transparent), color-stop(100%,transparent));
-   		 background: url(Images/EMS_Logo_Doc.png) no-repeat center center, -webkit-linear-gradient(top, transparent 0%, transparent 100%);
-		 background: url(Images/EMS_Logo_Doc.png) no-repeat center center, -o-linear-gradient(top, transparent 0%,transparent 100%);
-   		 background: url(Images/EMS_Logo_Doc.png) no-repeat center center, -ms-linear-gradient(top, transparent 0%,transparent 100%);
-  		 background: url(Images/EMS_Logo_Doc.png) no-repeat center center, linear-gradient(top, transparent 0%,transparent 100%);
+  		 background: transparent url(EMS_Logo_Doc.png) no-repeat center center;
+   		 background: url(EMS_Logo_Doc.png) no-repeat center center, -moz-linear-gradient(top, transparent 0%, transparent 100%);
+     	 background: url(EMS_Logo_Doc.png) no-repeat center center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,transparent), color-stop(100%,transparent));
+   		 background: url(EMS_Logo_Doc.png) no-repeat center center, -webkit-linear-gradient(top, transparent 0%, transparent 100%);
+		 background: url(EMS_Logo_Doc.png) no-repeat center center, -o-linear-gradient(top, transparent 0%,transparent 100%);
+   		 background: url(EMS_Logo_Doc.png) no-repeat center center, -ms-linear-gradient(top, transparent 0%,transparent 100%);
+  		 background: url(EMS_Logo_Doc.png) no-repeat center center, linear-gradient(top, transparent 0%,transparent 100%);
    		 -pie-background: url(Skins/Fluid/Stylesheets/Images/EMS_Logo_Doc.png) no-repeat center center, linear-gradient(transparent, transparent);
 	}
 
