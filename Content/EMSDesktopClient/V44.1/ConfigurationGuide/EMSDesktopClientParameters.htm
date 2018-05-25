@@ -303,7 +303,7 @@
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Allow Users To Delete Notifications</td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">When set to YES, this parameter allows users to delete notifications from the Dashboard.</td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Yes/No</td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">Typically set to YES so reports will show all details of the Catering order.</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">&#160;</td>
                 </tr>
                 <tr style="height : 273.59999999999996px;" class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Notifications</td>
@@ -706,13 +706,13 @@
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
                         <p>System defined label for Academic Unit. </p>
                         <p>&#160;</p>
-                        <p><span class="bold">NOTE</span>:&#160;Typically renamed to “Departments.”</p>
+                        <p><span class="bold">NOTE</span>:&#160;Typically renamed to “Department.”</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
                         <p>Text</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p>Departments</p>
+                        <p>Department</p>
                     </td>
                 </tr>
                 <tr style="height : 60px;" class="TableStyle-PatternedRows-Body-DarkerRows">
@@ -734,9 +734,9 @@
                         <p>Allow Cross-Domain Cross Listings</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p>Accumulate enrollment on courses that share space instead of using the largest enrollment (which is the approach for crosslisted courses).  This only applies to courses that are manually marked as Shared Space in EMS; it does not apply to cross-listed courses.</p>
+                        <p>If set to "YES,"&#160;this indicates that courses can be cross-listed across multiple domains.</p>
                         <p>&#160;</p>
-                        <p><span class="bold">NOTE</span>:&#160;Only needed if courses will be manually set to shared space across domains; will prompt the user to select the domain everytime they manually share space.</p>
+                        <p><span class="bold">NOTE</span>:&#160;Only needed if courses will be manually set to shared space across domains; will prompt the user to select the domain every time they manually share space.</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">YES/NO</td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">Typically set to "NO."</td>
@@ -749,9 +749,7 @@
                         <p>Allow Sync of Academic Units from Student Information System</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p>If set to "YES," the Synchronize Academic Units option is enabled in <span class="bold">Academic </span>&gt; <span class="bold">Configuration</span>.</p>
-                        <p>&#160;</p>
-                        <p><span class="bold">NOTE</span>:&#160;We no longer supply this view as a baseline, so it typically will not work even if it is set to "YES."&#160;</p>
+                        <p><span class="bold">NOTE</span>:&#160;This view is no longer supplied by EMS&#160;Software; therefore, setting this parameter to "YES"&#160;will not work. </p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">YES/NO</td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">Typically set to "NO."</td>
@@ -812,7 +810,7 @@
                         <p>The EMS user account that is used by the auto-sync service for authentication.</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p>Text</p>
+                        <p>Drop-down</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
                         <p>Set to the Auto Sync user account that was created; usually "Auto Sync."</p>
@@ -1210,7 +1208,7 @@
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
                         <p>Used to determine an appropriate room size for a class of a specific estimated enrollment (typically 100%).</p>
                         <p>&#160;</p>
-                        <p><span class="bold">NOTE</span>:&#160;This is only used when optimizing courses.  If there is a course that needs a larger room then what its enrollment would normally cal for, this number can be lowered.  For instance, if a course has an enrollment of 30, but needs to be in a room that could hold 60 or more, the seat fill percentage would be set to "50%".  This parameter only needs to be adjusted if the user wants a default seat fill for all courses to be something other than 100%.  This field cannot be set to above 100%.</p>
+                        <p><span class="bold">NOTE</span>:&#160;This is only used when optimizing courses.  If there is a course that needs a larger room than what its enrollment would normally call for, this number can be lowered.  For instance, if a course has an enrollment of 30, but needs to be in a room that could hold 60 or more, the seat fill percentage would be set to "50%".  This parameter only needs to be adjusted if the user wants a default seat fill for all courses to be something other than 100%.  This field cannot be set to above 100%.</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
                         <p>Numeric</p>
@@ -1301,7 +1299,7 @@
                         <p>Include CRN in Reservation Event Name</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p>Include the Course Reservation Number (CRN) in front of the event name post-publish in all areas of EMS Campus where the event name is used.</p>
+                        <p>Include the Course Reference Number (CRN) in front of the event name post-publish in all areas of EMS Campus where the event name is used.</p>
                         <p>&#160;</p>
                         <p><span class="bold">NOTE</span>:&#160;This parameter always adds the CRN to the front of the event name.</p>
                     </td>
@@ -1370,7 +1368,7 @@
                         <p>Lock Academic Unit Room access</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p>Used during optimization process. If set to Yes, a room will be assigned to an Academic Unit' (i.e., Department) course only if that Academic Unit owns the room.</p>
+                        <p>Used during optimization process. If set to Yes, a room will be assigned to an Academic Unit's (i.e., Department) course only if that Academic Unit owns the room.</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">YES/NO</td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">"NO"</td>
