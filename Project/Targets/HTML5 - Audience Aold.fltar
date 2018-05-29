@@ -14,10 +14,11 @@
   ConditionTagExpression="include[&quot;General.Audience A&quot;] exclude[&quot;General.Audience B&quot;] "
   DefaultUrl="/Content/Home.htm"
   SearchBarSkin="/Project/Skins/HomeSearchBar.flskn"
-  FaviconSkin="(none)"
+  FaviconSkin="/Project/Skins/Favicon.flskn"
   MasterToc="/Project/TOCs/Master.fltoc"
   MasterStylesheet="/Content/Resources/Stylesheets/StylesForHomePage.css"
-  SearchEngine="MadCapSearch">
+  SearchEngine="MadCapSearch"
+  MenuSkin="/Project/Skins/SideMenu.flskn">
   <PrintedOutput
     CollapseMargins="true"
     GenerateTOCProxy="true"
