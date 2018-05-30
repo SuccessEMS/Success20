@@ -1539,6 +1539,19 @@ ul li::before
 	height: 5px;
 }
 
+/***Make P in list same font-size***/
+ul.unorder-list li p, ul.unorder-list li ul li p
+{
+	font-size: 16px;
+}
+
+ol.number-list li p, ol.number-list li ul li p
+{
+	font-size: 16px;
+}
+/***End Make P in list same font-size***/
+
+
 table ul li::before
 {
 	background: none;
@@ -1640,6 +1653,18 @@ ul li
 	position: relative;
 	background: none;
 }
+
+/***Make P in list same font-size***/
+table ul.unorder-list li p, table ul.unorder-list li ul li p, table ul li p, table ul li ul li p
+{
+	font-size: 16px;
+}
+
+table ol.number-list li p, table ol.number-list li ul li p, table ol li p, table ol li ul li p
+{
+	font-size: 16px;
+}
+/***End Make P in list same font-size***/
 
 table ul li:before,
 ul li::before
