@@ -1397,7 +1397,7 @@
         Link="/Content/WebApp/A_V44.1/B_ConfigurationGuide/WebApp_CG_SecurityTemplates.html">
         <TocEntry
           Title="Configure Security Templates"
-          Link="/Content/WebApp/A_V44.1/B_ConfigurationGuide/WebApp_CG_ConfigSecurityTemps.html" />
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigSecTemplate.htm" />
         <TocEntry
           Title="Assign Security Templates to Multiple Everyday Users"
           Link="/Content/WebApp/A_V44.1/B_ConfigurationGuide/WebApp_CG_AssignSecTempMultEU.html" />
@@ -1410,7 +1410,7 @@
         Link="/Content/WebApp/A_V44.1/B_ConfigurationGuide/WebApp_CG_EmailEverydayUser.html" />
       <TocEntry
         Title="Configure Web Menus"
-        Link="/Content/WebApp/A_V44.1/B_ConfigurationGuide/WebApp_CG_ConfigWeb Menus.html" />
+        Link="/Content/WebApp/A_V44.1/B_ConfigurationGuide/WebApp_CG_ConfigWebMenus.html" />
       <TocEntry
         Title="Configure Help Text"
         Link="/Content/WebApp/A_V44.1/B_ConfigurationGuide/WebApp_CG_ConfigHelpText.html" />
