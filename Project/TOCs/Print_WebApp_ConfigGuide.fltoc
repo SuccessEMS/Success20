@@ -131,7 +131,7 @@
     ChapterNumberReset="continue">
     <TocEntry
       Title="Configure Security Templates"
-      Link="/Content/WebApp/A_V44.1/B_ConfigurationGuide/WebApp_CG_ConfigSecurityTemps.html"
+      Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigSecTemplate.htm"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
@@ -172,7 +172,7 @@
     ChapterNumberReset="continue" />
   <TocEntry
     Title="Configure Web Menus"
-    Link="/Content/WebApp/A_V44.1/B_ConfigurationGuide/WebApp_CG_ConfigWeb Menus.html"
+    Link="/Content/WebApp/A_V44.1/B_ConfigurationGuide/WebApp_CG_ConfigWebMenus.html"
     BreakType="chapter"
     StartSection="false"
     PageNumberReset="continue"
