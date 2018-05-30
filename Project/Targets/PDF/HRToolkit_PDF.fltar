@@ -6,7 +6,7 @@
   Destinations=""
   GlossaryTermConversion="marked"
   MasterToc="/Project/TOCs/Print_HRToolkit.fltoc"
-  ConditionTagExpression="include[&quot;General.Print Only&quot; or General.PDF or PrintGuides.UserGuideA] exclude[&quot;General.Online Only&quot; or General.Online or PrintGuides.UserGuideB] "
+  ConditionTagExpression="include[&quot;General.Print Only&quot;] exclude[&quot;General.Online Only&quot;] "
   PatchHeadingLevels="false"
   InjectEmptyPages="false"
   UseLocalBuildSettings="true"
