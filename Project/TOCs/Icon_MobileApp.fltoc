@@ -136,61 +136,61 @@
       Link="/Content/EMSMobileApp/C_UserGuide/2_EMS Mobile App.htm">
       <TocEntry
         Title="Introduction"
-        Link="/Content/EMSMobileApp/C_UserGuide/MobileApp_UserGuide_Introduction.html">
+        Link="/Content/EMSMobileApp/C_UserGuide/Introduction.html">
         <TocEntry
           Title="What's New"
-          Link="/Content/EMSMobileApp/C_UserGuide/MobileApp_UserGuide_WhatsNew.html"></TocEntry>
+          Link="/Content/EMSMobileApp/C_UserGuide/WhatsNew.html"></TocEntry>
       </TocEntry>
       <TocEntry
         Title="Get Started With EMS Mobile"
-        Link="/Content/EMSMobileApp/C_UserGuide/MobileApp_UserGuide_GetStarted.html">
+        Link="/Content/EMSMobileApp/C_UserGuide/GetStarted.html">
         <TocEntry
           Title="Log In, Reset Password, or Create An Account"
-          Link="/Content/EMSMobileApp/C_UserGuide/MobileApp_UserGuide_LogInResetPasswordCreateAccount.html" />
+          Link="/Content/EMSMobileApp/C_UserGuide/LogInResetPasswordCreateAccount.html" />
         <TocEntry
           Title="Enter Your Server URL"
-          Link="/Content/EMSMobileApp/C_UserGuide/MobileApp_UserGuide_EnterYourServerURL.html" />
+          Link="/Content/EMSMobileApp/C_UserGuide/EnterYourServerURL.html" />
         <TocEntry
           Title="Search For Events"
-          Link="/Content/EMSMobileApp/C_UserGuide/MobileApp_UserGuide_SearchforEvents.html" />
+          Link="/Content/EMSMobileApp/C_UserGuide/SearchforEvents.html" />
         <TocEntry
           Title="Check In to Meetings"
-          Link="/Content/EMSMobileApp/C_UserGuide/MobileApp_UserGuide_CheckIntoMeetings.html" />
+          Link="/Content/EMSMobileApp/C_UserGuide/CheckIntoMeetings.html" />
         <TocEntry
           Title="Cancel Meetings"
-          Link="/Content/EMSMobileApp/C_UserGuide/MobileApp_UserGuide_CancelMeetings.html" />
+          Link="/Content/EMSMobileApp/C_UserGuide/CancelMeetings.html" />
         <TocEntry
           Title="End Meetings Early"
-          Link="/Content/EMSMobileApp/C_UserGuide/MobileApp_UserGuide_EndMeetingsEarly.html" />
+          Link="/Content/EMSMobileApp/C_UserGuide/EndMeetingsEarly.html" />
         <TocEntry
           Title="Favorite Locations"
-          Link="/Content/EMSMobileApp/C_UserGuide/MobileApp_UserGuide_FavoriteLocations.html" />
+          Link="/Content/EMSMobileApp/C_UserGuide/FavoriteLocations.html" />
         <TocEntry
           Title="Remove Favorite Locations"
-          Link="/Content/EMSMobileApp/C_UserGuide/MobileApp_UserGuide_RemoveFavoriteLocations.html" />
+          Link="/Content/EMSMobileApp/C_UserGuide/RemoveFavoriteLocations.html" />
         <TocEntry
           Title="Use QR Codes"
-          Link="/Content/EMSMobileApp/C_UserGuide/MobileApp_UserGuide_UseQRCodes.html" />
+          Link="/Content/EMSMobileApp/C_UserGuide/UseQRCodes.html" />
       </TocEntry>
       <TocEntry
         Title="Attend a Meeting"
-        Link="/Content/EMSMobileApp/C_UserGuide/MobileApp_UserGuide_AttendMeeting.html" />
+        Link="/Content/EMSMobileApp/C_UserGuide/AttendMeeting.html" />
       <TocEntry
         Title="Create a Meeting"
-        Link="/Content/EMSMobileApp/C_UserGuide/MobileApp_UserGuide_CreateMeeting.html">
+        Link="/Content/EMSMobileApp/C_UserGuide/CreateMeeting.html">
         <TocEntry
           Title="Find a Room"
-          Link="/Content/EMSMobileApp/C_UserGuide/MobileApp_UserGuide_FindRoom.html" />
+          Link="/Content/EMSMobileApp/C_UserGuide/FindRoom.html" />
         <TocEntry
           Title="Invite People"
-          Link="/Content/EMSMobileApp/C_UserGuide/MobileApp_UserGuide_InvitePeople.html" />
+          Link="/Content/EMSMobileApp/C_UserGuide/InvitePeople.html" />
       </TocEntry>
       <TocEntry
         Title="Change a Meeting"
-        Link="/Content/EMSMobileApp/C_UserGuide/MobileApp_UserGuide_ChangeMeeting.html" />
+        Link="/Content/EMSMobileApp/C_UserGuide/ChangeMeeting.html" />
       <TocEntry
         Title="Use Skype for Business in the EMS Mobile App"
-        Link="/Content/EMSMobileApp/C_UserGuide/MobileApp_UserGuide_UseSkypeforBusiness.html" />
+        Link="/Content/EMSMobileApp/C_UserGuide/UseSkypeforBusiness.html" />
       <TocEntry
         Title="PDF"
         Link="/Content/EMSMobileApp/C_UserGuide/EMSMobileApp_UserGuide.pdf" />
