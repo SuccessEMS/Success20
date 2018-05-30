@@ -1933,6 +1933,8 @@ p.table-note
 	padding: 15px, 15px, 15px, 15px;
 	border-top: 1px;
 	border-bottom: 1px;
+	border-left: 0px;
+	border-right: 0px;
 	border-style: solid;
 	border-color: #afbd22;
 }
@@ -1943,6 +1945,8 @@ p.table-tip
 	padding: 15px, 15px, 15px, 15px;
 	border-top: 1px;
 	border-bottom: 1px;
+	border-left: 0px;
+	border-right: 0px;
 	border-style: solid;
 	border-color: #00477f;
 }
@@ -1953,6 +1957,8 @@ p.table-warning
 	padding: 15px, 15px, 15px, 15px;
 	border-top: 1px;
 	border-bottom: 1px;
+	border-left: 0px;
+	border-right: 0px;
 	border-style: solid;
 	border-color: #ee2e23;
 }
@@ -1963,6 +1969,8 @@ p.table-important
 	padding: 15px, 15px, 15px, 15px;
 	border-top: 1px;
 	border-bottom: 1px;
+	border-left: 0px;
+	border-right: 0px;
 	border-style: solid;
 	border-color: #f6c343;
 }
@@ -1973,6 +1981,8 @@ p.table-important
 	padding: 15px, 15px, 15px, 15px;
 	border-top: 1px;
 	border-bottom: 1px;
+	border-left: 0px;
+	border-right: 0px;
 	border-style: solid;
 	border-color: #afbd22;
 }
@@ -1988,6 +1998,8 @@ p.table-important
 	padding: 15px, 15px, 15px, 15px;
 	border-top: 1px;
 	border-bottom: 1px;
+	border-left: 0px;
+	border-right: 0px;
 	border-style: solid;
 	border-color: #00477f;
 }
@@ -2003,6 +2015,8 @@ p.table-important
 	padding: 15px, 15px, 15px, 15px;
 	border-top: 1px;
 	border-bottom: 1px;
+	border-left: 0px;
+	border-right: 0px;
 	border-style: solid;
 	border-color: #ee2e23;
 }
@@ -2018,6 +2032,8 @@ p.table-important
 	padding: 15px, 15px, 15px, 15px;
 	border-top: 1px;
 	border-bottom: 1px;
+	border-left: 0px;
+	border-right: 0px;
 	border-style: solid;
 	border-color: #f6c343;
 }
