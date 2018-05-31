@@ -151,7 +151,7 @@
       ChapterNumberReset="continue" />
     <TocEntry
       Title="Everyday User Security Template Field Definitions"
-      Link="/Content/WebApp/A_V44.1/B_ConfigurationGuide/WebApp_CG_EverydayUserSecTempFieldDef.html"
+      Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigEUSecurityFieldDef.htm"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
