@@ -2,9 +2,6 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="GoogleSuiteIntegration"
-    Link="/Content/GoogleSuiteIntegration/Config.htm"></TocEntry>
-  <TocEntry
-    Title="IntegrationtoMicrosoftExchange"
-    Link="/Content/EMSforOutlook/IntegrationtoMicrosoftExchange/LearnMoreaboutEWS.htm" />
+    Title="ConfigurePlatformServices"
+    Link="/Content/EMSPlatformServices/ConfigurationGuide/ConfigPSinAdminPortal.html" />
 </CatapultToc>

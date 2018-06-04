@@ -73,7 +73,7 @@
         <p><span class="bold">New Customers:</span> The encryption key is already provided in the default.json file.</p>
         <p><span class="bold">Existing Customers:</span> The encryption key needs to be generated and added to the default.json file before using the AuthKey API. Run the following command in a terminal, openssl rand -base64 32, to generate a 256-bit key that is Base64 encoded. The encryption key must be 256-bit and must be Base64 encoded. Restart EMS&#160;Platform Services after updating default.Json file.</p>
         <ol>
-            <li><a href="../../../EMSPlatformServices/B_ConfigurationGuide/Platform_ConfigPSinAdminPortal.html">Login to EMS Platform Services</a>.</li>
+            <li><a href="../../../EMSPlatformServices/ConfigurationGuide/ConfigPSinAdminPortal.html">Login to EMS Platform Services</a>.</li>
             <li> Navigate to the Integrations tab.</li>
             <li>Select EMS Mobile / EMS Web Application.</li>
             <li>Set Everyday user authentication method to SAML and save changes.</li>
@@ -228,7 +228,7 @@
         <h2><a name="Shibboleth"></a>Shibboleth</h2>
         <p>Users can sign in to the EMS Web App and EMS Mobile App using single sign on through Shibboleth. To utilize this functionality,  the service provider and identity provider certificates must be uploaded to the database.</p>
         <ol>
-            <li><a href="../../../EMSPlatformServices/B_ConfigurationGuide/Platform_ConfigPSinAdminPortal.html#create_a_new_integration_client">Create a new client for Shibboleth in the Integrations tab.</a> </li>
+            <li><a href="../../../EMSPlatformServices/ConfigurationGuide/ConfigPSinAdminPortal.html#create_a_new_integration_client">Create a new client for Shibboleth in the Integrations tab.</a> </li>
             <li>Designate an <span class="bold">Everyday User Authentication</span> type by choosing <span class="bold">SAML&#160;</span>from the dropdown.</li>
             <li>Click <span class="bold">Save Client</span>. </li>
             <li>From the <span class="bold">Auth Keys </span>tab, click the <span class="bold">New Auth Key </span>button.</li>

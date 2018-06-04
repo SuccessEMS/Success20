@@ -347,7 +347,7 @@
     ChapterNumberReset="continue" />
   <TocEntry
     Title="Configuring Platform Services in the Admin Portal"
-    Link="/Content/EMSPlatformServices/B_ConfigurationGuide/Platform_ConfigPSinAdminPortal.html"
+    Link="/Content/EMSPlatformServices/ConfigurationGuide/ConfigPSinAdminPortal.html"
     BreakType="chapter"
     AutoEndOnLeftPage="disabled"
     StartSection="false"

@@ -21,7 +21,7 @@
       Link="/Content/ConfigGuides/7_EMS_PlatformServices_CG.htm">
       <TocEntry
         Title="Configure Platform Services in the Admin Portal"
-        Link="/Content/EMSPlatformServices/B_ConfigurationGuide/Platform_ConfigPSinAdminPortal.html" />
+        Link="/Content/EMSPlatformServices/ConfigurationGuide/ConfigPSinAdminPortal.html" />
     </TocEntry>
     <TocEntry
       Title="Release Notes"
