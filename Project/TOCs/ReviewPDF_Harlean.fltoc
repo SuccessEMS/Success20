@@ -2,6 +2,6 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="ConfigurePlatformServices"
-    Link="/Content/EMSPlatformServices/ConfigurationGuide/ConfigPSinAdminPortal.html" />
+    Title="ConfigureGSuite"
+    Link="/Content/GoogleSuiteIntegration/Config.htm" />
 </CatapultToc>
