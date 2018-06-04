@@ -1498,6 +1498,7 @@ ol.number-list li a,
 ul.unorder-list li a
 {
 	color: #00467f;
+	font-size: 16px;
 }
 
 ol.number-list,
@@ -1625,6 +1626,7 @@ table ol li a,
 table ul li a
 {
 	color: #00467f;
+	font-size: 16px;
 }
 
 table ol,
