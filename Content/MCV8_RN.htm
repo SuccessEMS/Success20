@@ -5,9 +5,11 @@
         <link href="Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
-        <h1 MadCap:autonum="CHAPTER&#160;1: ">Master Calendar <br />Release Notes<br />V8.0</h1>
+        <h1>Master Calendar <br />Release Notes<br />V8.0</h1>
         <p>EMS release notes for the EMS&#160;Master Calendar are organized by Update. For information on changes to other products released in the Update, click on the Update number in the title. See Also:&#160;<a href="#Contact_Customer_Support">Contact Customer Support</a>.</p>
         <ul class="unorder-list">
+            <li><a href="#Update25">V44.1, Update 25</a>
+            </li>
             <li><a href="#Update24">V44.1, Update 24</a>
             </li>
             <li><a href="#Update22">V44.1, Update 22</a>
@@ -29,6 +31,89 @@
             <li><a href="#Update5">V44.1, Update 5</a>
             </li>
         </ul>
+        <h4><a name="Update25"></a><span style="font-size: 26pt;"><span style="font-size: 24pt;">V44.1, </span></span><a href="V44.1_ReleaseNotes.htm#Update25" style="font-size: 24pt;">Update 25</a><span style="font-size: 26pt;"><span style="font-size: 24pt;">*</span></span>
+        </h4>
+        <table style="mc-table-style: url('Resources/TableStyles/PatternedRows.css');width: 718px;" class="TableStyle-PatternedRows" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 192px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 175px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 278px;" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1" colspan="3">*Click the linked Update Number above for more information regarding <br />enhancements and fixes for all products released during this Update.</th>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p style="text-align: center;">Release Date</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1" style="text-align: center;">SQL Patch Number</th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                        <p style="text-align: center;">Build Numbers</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p style="text-align: center;">05/31/2018</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p style="text-align: center;">44.1.25.201805170</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="beforelist">Build #:&#160;8.0.0.201805210</p>
+                        <p class="beforelist">MC Data Connector: 8.0.0.181</p>
+                        <p class="beforelist">MC API: 1.0.1.29 </p>
+                        <p class="beforelist">MC Import Service: 8.0.0.181</p>
+                        <p class="beforelist">MC Email Notification Service: 8.0.0.181</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows" colspan="3" style="text-align: center;">
+                        <p colspan="3" style="text-align: center;"><span class="bold">See Also:</span>&#160;<br /><a href="WhatsNewV44.1.htm">What's New for Version 44.1</a></p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h4>Fixes</h4>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('Resources/TableStyles/PatternedRows.css');width: 100%;margin-left: 0;margin-right: auto;" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 202px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1" style="text-align: left;">
+                        <p class="p_6">Area</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1" style="text-align: left;">
+                        <p class="p_6">Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: left;">
+                        <p class="RNArea">Connector Service</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
+                        <p class="RNTitle">Master Calendar TBLEventDetailHistory is logging ALL events</p>
+                        <p class="RNBody">All events that the Master Calendar connector service was sending to EMS Master Calendar were being added to the tblEventDetailHistory table.</p>
+                        <p class="RNBody"><span class="bold">Fix: </span>Modified functionality so that only modified events are added to the tblEventDetailHistory table.</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=37087&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">37087</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows" style="text-align: left;">
+                        <p class="RNArea">Image and Image Alt Text</p>
+                        <p>&#160;</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows" style="text-align: left;">
+                        <p class="RNTitle">Images and Image Alt Tags Were Not Displaying for All Admins from the Event Information Page</p>
+                        <p class="RNBody">For events created in EMS and brought over to Master Calendar through the connector, when an admin added an image and an image alt tag to an event, the EventInfoRequest.aspx page did not display the image and image alt tag to any admins except the admin who originally added the image and alt tag.</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that the EventInfoRequest.aspx page displays the image and image alt tag to all admins.</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=38350&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">38350</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
         <h4><a name="Update24"></a><span style="font-size: 26pt;"><span style="font-size: 24pt;">V44.1, </span></span><a href="V44.1_ReleaseNotes.htm#Update24" style="font-size: 24pt;">Update 24</a><span style="font-size: 26pt;"><span style="font-size: 24pt;">*</span></span>
         </h4>
         <table style="mc-table-style: url('Resources/TableStyles/PatternedRows.css');width: 718px;" class="TableStyle-PatternedRows" cellspacing="0">

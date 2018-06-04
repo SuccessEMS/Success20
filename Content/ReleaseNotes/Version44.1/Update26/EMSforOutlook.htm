@@ -7,7 +7,8 @@
     <body>
         <h1 class="RNprint">
             <MadCap:concept term="V44.1" />EMS for Outlook <br />Release Notes <br />V44.1, Update 26</h1>
-        <p>This section describes updates to&#160;your EMS software.&#160;&#160;</p>
+        <p>
+            <MadCap:concept term="V44.1" />This section describes updates to&#160;your EMS software.&#160;&#160;</p>
         <p>See Also:&#160;<a href="#Contact">Contact Customer Support</a>&#160;and&#160;<MadCap:xref href="../../../Update_to_LatestVersion_EMS.htm"><a href="../../../Update_to_LatestVersion_EMS.htm">Updating to the Latest Version of EMS (Patches and Builds)</a></MadCap:xref>. </p>
         <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');margin-left: auto;margin-right: auto;width: 100%;" cellspacing="0">
             <col class="TableStyle-PatternedRows-Column-Regular" style="width: 154px;" />
@@ -19,7 +20,7 @@
                     <p class="p_3">V44.1 Update 26</p>
                 </td>
                 <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                    <p class="p_3">Release&#160;Date:&#160;<br />June 30, 2018<br /></p>
+                    <p class="p_3">Release&#160;Date:&#160;<br />June 22, 2018<br /></p>
                 </td>
                 <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
                     <p class="p_3">Patch:&#160;<br /><br /></p>
@@ -45,24 +46,36 @@
             </thead>
             <tbody>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" rowspan="2">
-                        <p class="RNArea">Create or Edit Reservation</p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="RNArea">X</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p class="RNTitle">
-                            <MadCap:annotation MadCap:createDate="2018-05-25T08:28:07.9069077-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="This item is on hold and may or may not be in this release. Move to the next release if this item doesn't appear in the the current release's query." MadCap:editor="Megan.Laub" MadCap:editDate="2018-05-25T08:28:09.0222694-06:00">Error</MadCap:annotation> After Creating a Reservation in the EMS for Outlook Add-in</p>
+                        <p class="RNTitle"> "You cannot book this Room after ..." error message has incorrect date</p>
+                        <p class="RNBody">X</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=37128&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">37128</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="RNArea">Create or Edit Reservation</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="RNTitle">Error After Creating a Reservation in the EMS for Outlook Add-in</p>
                         <p class="RNBody">For some EMS for Outlook add-in users, when they used a template to create a reservation, an error occurred after clicking <span class="bold">Save &amp; Close</span> or <span class="bold">Send</span>, and the reservation was not saved in the EMS database. However, the invite was sent to attendees.</p>
                         <p class="RNBody"><span class="bold">Fix:</span> Modified functionality so that when users create a reservation in the EMS for Outlook add-in, the template information populates appropriately, and the reservation is created with no errors.</p>
                         <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=36800&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">36800</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
-                        <p class="RNTitle">
-                            <MadCap:annotation MadCap:createDate="2018-05-25T08:28:11.6357704-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="This item is on hold and may or may not be in this release. Move to the next release if this item doesn't appear in the the current release's query." MadCap:editor="Megan.Laub" MadCap:editDate="2018-05-25T08:28:12.6781728-06:00">Reservations</MadCap:annotation> Incorrectly Updated When  Rooms Were Changed to Rooms in Building from a Different Time Zone</p>
-                        <p class="RNBody">For both single and recurring reservations, when users changed a room to one in a building from a different time zone, the reservation updated incorrectly. For example, in single occurrence reservations, only one room displayed in the <span class="bold">Selected Rooms</span> tab although more than one room was selected, and in recurring reservations, the <span class="bold">Days Available</span> column displayed incorrect values.</p>
-                        <p class="RNBody"><span class="bold">Fix:</span> Modified functionality so that when users change a room to one in a building from a different time zone, the reservation updates correctly.</p>
-                        <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=35985&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">35985</a><br />(For EMS&#160;Internal Use Only)</p>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                        <p class="RNArea">X</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
+                        <p class="RNTitle">Outlook add-in shows services for only one location</p>
+                        <p class="RNBody">X</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=38020&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">38020</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
             </tbody>
