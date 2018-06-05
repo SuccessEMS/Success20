@@ -91,13 +91,13 @@
         </TocEntry>
         <TocEntry
           Title="Floor Plans Configuration Guide"
-          Link="/Content/OptionalFeatures/FloorPlan/A_V44.1/ConfigurationGuide/FloorPlan_CG_ConfigOverview.htm">
+          Link="/Content/OptionalFeatures/FloorPlan/A_V44.1/ConfigurationGuide/ConfigGuideOverview.htm">
           <TocEntry
             Title="Introduction"
-            Link="/Content/OptionalFeatures/FloorPlan/A_V44.1/ConfigurationGuide/FloorPlan_CG_Introduction.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+            Link="/Content/OptionalFeatures/FloorPlan/A_V44.1/ConfigurationGuide/Introduction.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
           <TocEntry
             Title="Floor Plans Configuration Steps"
-            Link="/Content/OptionalFeatures/FloorPlan/A_V44.1/ConfigurationGuide/FloorPlan_CG_FPConfigSteps.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+            Link="/Content/OptionalFeatures/FloorPlan/A_V44.1/ConfigurationGuide/ConfigurationFPSteps.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         </TocEntry>
         <TocEntry
           Title="PDF"
