@@ -5,7 +5,7 @@
     Title="Documentation for Optional Features">
     <TocEntry
       Title="Optional Features"
-      Link="/Content/OptionalFeatures/1_OptionalFeaturesHome.htm">
+      Link="/Content/OptionalFeatures.htm">
       <TocEntry
         Title="EMS API Home"
         Link="/Content/OptionalFeatures/2_EMS_API_Home.htm">
