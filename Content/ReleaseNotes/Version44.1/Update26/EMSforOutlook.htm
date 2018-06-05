@@ -47,31 +47,20 @@
             <tbody>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p class="RNArea">X</p>
+                        <p class="RNArea">Create or Edit Reservation</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p class="RNTitle"> "You cannot book this Room after ..." error message has incorrect date</p>
-                        <p class="RNBody">X</p>
-                        <p class="RNBody"><span class="bold">Fix:</span>&#160;</p>
+                        <p class="RNTitle">Error Message "You cannot book this Room after..." Had Incorrect Date</p>
+                        <p class="RNBody">In EMS&#160;for Outlook, the error message "You cannot book this Location after..." displayed the date 1/1/0001 instead of the date specified in the <span class="bold">Only Allow New Bookings Prior to This Date</span> field (EMS&#160;Desktop Client &gt; Configuration &gt; Everyday User Applications &gt; Everyday User Process Template &gt; select a template and click Edit &gt; Booking Rules tab). </p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that the error message "You cannot book this Location after..." displays the date specified in the "</p>
                         <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=37128&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">37128</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p class="RNArea">Create or Edit Reservation</p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p class="RNTitle">Error After Creating a Reservation in the EMS for Outlook Add-in</p>
-                        <p class="RNBody">For some EMS for Outlook add-in users, when they used a template to create a reservation, an error occurred after clicking <span class="bold">Save &amp; Close</span> or <span class="bold">Send</span>, and the reservation was not saved in the EMS database. However, the invite was sent to attendees.</p>
-                        <p class="RNBody"><span class="bold">Fix:</span> Modified functionality so that when users create a reservation in the EMS for Outlook add-in, the template information populates appropriately, and the reservation is created with no errors.</p>
-                        <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=36800&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">36800</a><br />(For EMS&#160;Internal Use Only)</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
                         <p class="RNArea">X</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
                         <p class="RNTitle">Outlook add-in shows services for only one location</p>
                         <p class="RNBody">X</p>
                         <p class="RNBody"><span class="bold">Fix:</span>&#160;</p>
