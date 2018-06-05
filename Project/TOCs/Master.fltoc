@@ -537,27 +537,27 @@
         Link="/Content/OptionalFeatures/3_EMS_FloorPlansHome.htm">
         <TocEntry
           Title="Introduction"
-          Link="/Content/OptionalFeatures/FloorPlan/A_V44.1/FloorPlan_IG/FloorPlan_IG_Introduction.htm">
+          Link="/Content/OptionalFeatures/FloorPlan/A_V44.1/InstallationGuide/Introduction.htm">
           <TocEntry
             Title="Requirements"
-            Link="/Content/OptionalFeatures/FloorPlan/A_V44.1/FloorPlan_IG/FloorPlan_IG_Requirements.htm" />
+            Link="/Content/OptionalFeatures/FloorPlan/A_V44.1/InstallationGuide/Requirements.htm" />
         </TocEntry>
         <TocEntry
           Title="Obtain Floor Plans Installation Files"
-          Link="/Content/OptionalFeatures/FloorPlan/A_V44.1/FloorPlan_IG/FloorPlan_IG_ObtainFPInstallFiles.htm" />
+          Link="/Content/OptionalFeatures/FloorPlan/A_V44.1/InstallationGuide/ObtainFPInstallFiles.htm" />
         <TocEntry
           Title="Install Floor Plans Components"
-          Link="/Content/OptionalFeatures/FloorPlan/A_V44.1/FloorPlan_IG/FloorPlan_IG_InstallFloorPlanComponents.htm">
+          Link="/Content/OptionalFeatures/FloorPlan/A_V44.1/InstallationGuide/InstallFloorPlanComponents.htm">
           <TocEntry
             Title="Install or Upgrade the Floor Plans Web Service"
-            Link="/Content/OptionalFeatures/FloorPlan/A_V44.1/FloorPlan_IG/FloorPlan_IG_InstallUpgradeFPWebService.htm" />
+            Link="/Content/OptionalFeatures/FloorPlan/A_V44.1/InstallationGuide/InstallUpgradeFPWebService.htm" />
           <TocEntry
             Title="Install or Upgrade the Floor Plans Configuration Tool"
-            Link="/Content/OptionalFeatures/FloorPlan/A_V44.1/FloorPlan_IG/FloorPlan_IG_InstallUpgradeFPConfigTool.htm" />
+            Link="/Content/OptionalFeatures/FloorPlan/A_V44.1/InstallationGuide/InstallUpgradeFPConfigTool.htm" />
         </TocEntry>
         <TocEntry
           Title="Upload, Configure, and View Floor Plans"
-          Link="/Content/OptionalFeatures/FloorPlan/A_V44.1/FloorPlan_IG/FloorPlan_IG_UploadConfigViewFP.htm" />
+          Link="/Content/OptionalFeatures/FloorPlan/A_V44.1/InstallationGuide/UploadConfigViewFP.htm" />
         <TocEntry
           Title="Integrated Authentication Options"
           Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_IntegratedAuthenOptions.html">
