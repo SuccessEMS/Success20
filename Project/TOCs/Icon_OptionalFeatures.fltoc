@@ -64,10 +64,10 @@
           Link="/Content/OptionalFeatures/EMS_API/A_V44.1/EMSAPI_Guide_PDF.pdf" />
       </TocEntry>
       <TocEntry
-        Title="EMS Floor Plan"
+        Title="EMS Floor Plans"
         Link="/Content/OptionalFeatures/3_EMS_FloorPlansHome.htm">
         <TocEntry
-          Title="Floor Plan Installation Guide"
+          Title="Floor Plans Installation Guide"
           Link="/Content/OptionalFeatures/FloorPlan/A_V44.1/InstallationGuide/InstallGuideOverview.htm">
           <TocEntry
             Title="Introduction"
@@ -80,36 +80,23 @@
             Title="Obtain Floor Plans Installation Files"
             Link="/Content/OptionalFeatures/FloorPlan/A_V44.1/InstallationGuide/ObtainFPInstallFiles.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
           <TocEntry
-            Title="Install Floor Plans Components"
-            Link="/Content/OptionalFeatures/FloorPlan/A_V44.1/InstallationGuide/InstallFloorPlanComponents.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
-            <TocEntry
-              Title="Install or Upgrade the Floor Plan Web Service"
-              Link="/Content/OptionalFeatures/FloorPlan/A_V44.1/InstallationGuide/InstallUpgradeFPWebService.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-            <TocEntry
-              Title="Install or Upgrade the Floor Plan Configuration Tool"
-              Link="/Content/OptionalFeatures/FloorPlan/A_V44.1/InstallationGuide/InstallUpgradeFPConfigTool.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-          </TocEntry>
+            Title="Install or Upgrade the Floor Plans Web Service"
+            Link="/Content/OptionalFeatures/FloorPlan/A_V44.1/InstallationGuide/InstallUpgradeFPWebService.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
           <TocEntry
-            Title="Upload, Configure, and View Floorplans"
+            Title="Install or Upgrade the Floor Plans Configuration Tool"
+            Link="/Content/OptionalFeatures/FloorPlan/A_V44.1/InstallationGuide/InstallUpgradeFPConfigTool.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          <TocEntry
+            Title="Upload, Configure, and View Floor Plans"
             Link="/Content/OptionalFeatures/FloorPlan/A_V44.1/InstallationGuide/UploadConfigViewFP.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         </TocEntry>
         <TocEntry
-          Title="Floor Plan Configuration Guide"
+          Title="Floor Plans Configuration Guide"
           Link="/Content/OptionalFeatures/FloorPlan/A_V44.1/ConfigurationGuide/FloorPlan_CG_ConfigOverview.htm">
           <TocEntry
             Title="Introduction"
             Link="/Content/OptionalFeatures/FloorPlan/A_V44.1/ConfigurationGuide/FloorPlan_CG_Introduction.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
           <TocEntry
-            Title="Hardware and Software Requirements"
-            Link="/Content/OptionalFeatures/FloorPlan/A_V44.1/ConfigurationGuide/FloorPlan_CG_HardwareSoftwareReqs.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-          <TocEntry
-            Title="Install or Upgrade the Floor Plan Web Service"
-            Link="/Content/OptionalFeatures/FloorPlan/A_V44.1/ConfigurationGuide/FloorPlan_CG_InstallUpgradeFPWebServ.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-          <TocEntry
-            Title="Install or Upgrade the Floor Plans Configuration Utility"
-            Link="/Content/OptionalFeatures/FloorPlan/A_V44.1/ConfigurationGuide/FloorPlan_CG_InstallUpgradeFPConfigUtility.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-          <TocEntry
-            Title="Floor Plan Configuration Steps"
+            Title="Floor Plans Configuration Steps"
             Link="/Content/OptionalFeatures/FloorPlan/A_V44.1/ConfigurationGuide/FloorPlan_CG_FPConfigSteps.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         </TocEntry>
         <TocEntry

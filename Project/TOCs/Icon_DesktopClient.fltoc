@@ -1855,15 +1855,11 @@
           Title="Obtain Floor Plans Installation Files"
           Link="/Content/OptionalFeatures/FloorPlan/A_V44.1/InstallationGuide/ObtainFPInstallFiles.htm" />
         <TocEntry
-          Title="Install Floor Plans Components"
-          Link="/Content/OptionalFeatures/FloorPlan/A_V44.1/InstallationGuide/InstallFloorPlanComponents.htm">
-          <TocEntry
-            Title="Install or Upgrade the Floor Plan Web Service"
-            Link="/Content/OptionalFeatures/FloorPlan/A_V44.1/InstallationGuide/InstallUpgradeFPWebService.htm" />
-          <TocEntry
-            Title="Install or Upgrade the Floor Plan Configuration Tool"
-            Link="/Content/OptionalFeatures/FloorPlan/A_V44.1/InstallationGuide/InstallUpgradeFPConfigTool.htm" />
-        </TocEntry>
+          Title="Install or Upgrade the Floor Plan Web Service"
+          Link="/Content/OptionalFeatures/FloorPlan/A_V44.1/InstallationGuide/InstallUpgradeFPWebService.htm" />
+        <TocEntry
+          Title="Install or Upgrade the Floor Plan Configuration Tool"
+          Link="/Content/OptionalFeatures/FloorPlan/A_V44.1/InstallationGuide/InstallUpgradeFPConfigTool.htm" />
         <TocEntry
           Title="Upload, Configure, and View Floorplans"
           Link="/Content/OptionalFeatures/FloorPlan/A_V44.1/InstallationGuide/UploadConfigViewFP.htm" />
