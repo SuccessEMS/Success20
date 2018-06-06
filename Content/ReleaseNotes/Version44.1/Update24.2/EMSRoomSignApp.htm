@@ -27,10 +27,10 @@
                 </td>
             </tr>
         </table>
-        <h2>Enhancement</h2>
+        <h2>Fix</h2>
         <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');width: 100%;margin-left: 0;margin-right: auto;" cellspacing="0">
             <col class="TableStyle-PatternedRows-Column-Regular" style="width: 177px;" />
-            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 426px;" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1" style="text-align: left;">
@@ -44,52 +44,13 @@
             <tbody>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows" style="text-align: left;">
-                        <p class="RNArea">NFC&#160;Authentication</p>
+                        <p class="RNArea">LEDs</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" style="text-align: left;">
-                        <p class="RNTitle">NFC&#160;Authentication With Iadea </p>
-                        <p class="RNBody">NFC&#160;Authentication supported for Iadea Hardware enclosure. </p>
-                        <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/Aspen/_queries?id=37060&amp;_a=edit&amp;triage=false" class="RNRefHyper" title="For EMS Internal Use Only" alt="For EMS Internal Use Only">37060</a><br />(For EMS&#160;Internal Use Only)</p>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-        <h2>Fixes</h2>
-        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');width: 100%;margin-left: 0;margin-right: auto;" cellspacing="0">
-            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 157px;" />
-            <col class="TableStyle-PatternedRows-Column-Regular" />
-            <thead>
-                <tr class="TableStyle-PatternedRows-Head-Header1">
-                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1" style="text-align: left;">
-                        <p class="p_6">Area</p>
-                    </th>
-                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1" style="text-align: left;">
-                        <p class="p_6">Description</p>
-                    </th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p class="RNArea">Agenda View</p>
-                        <p>&#160;</p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p class="RNTitle">All Bookings Not Displayed in Agenda View</p>
-                        <p class="RNBody">Past bookings were not displaying in the booking Agenda View in the EMS&#160;Room Sign App following Update 18.</p>
-                        <p class="RNBody"><span class="bold">Fix</span>:&#160;Modified functionality so that past bookings for that day display on the Agenda View. </p>
-                        <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/Aspen/_queries?id=36703&amp;_a=edit&amp;triage=false" class="RNRefHyper">36703</a><br />(For EMS&#160;Internal Use Only)</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
-                        <p class="RNArea">Fonts</p>
-                        <p>&#160;</p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
-                        <p class="RNTitle">Google Fonts Were Loading Instead of Local Fonts</p>
-                        <p class="RNBody"><span class="bold">Fix</span>:&#160;Modified functionality so that local fonts load instead of Google fonts.</p>
-                        <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/Aspen/_queries?id=38513&amp;_a=edit&amp;triage=false" class="RNRefHyper">38513</a><br />(For EMS&#160;Internal Use Only)</p>
+                        <p class="RNTitle">EMS&#160;Room Sign App LEDs De-Sync Following iPad Inactivity</p>
+                        <p class="RNBody">iPads running on iOS ≥ 11 was playing sounds regardless of any user interaction inactivity. Devices running on iOS 11 will suspend the Audio Context after a period of inactivity, and it is not properly resumed when a new sound is needed to be played.</p>
+                        <p class="RNBody"><span class="bold">Fix</span>:&#160;Modified functionality so that when the Room Sign App completes polling, the LEDs are triggered.</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/Aspen/_queries?id=36960&amp;_a=edit&amp;triage=false" class="RNRefHyper" title="For EMS Internal Use Only" alt="For EMS Internal Use Only">36960</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
             </tbody>
