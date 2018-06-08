@@ -1,24 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="3787" MadCap:lastWidth="873" style="mc-master-page: url('..\..\..\Resources\MasterPages\OR_DC.flmsp');" class="desktopClient">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\OR_DC.flmsp');" class="desktopClient">
     <head>
         <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" />
     </head>
     <body>
-        <h2>Create a Web User from a Group&#160;</h2>
-        <p>Concept:&#160;A web user&#160;is a registered user who can submit requests for reservations or schedule reservations in Virtual EMS&#160;(VEMS). When you&#160;<a href="../../V44.1/UserGuide/InfoAboutGroupsIndiv.html#Add_or_Modify_Basic_Profile_Information" title="Working With Information About Groups or Individuals" alt="Working With Information About Groups or Individuals">add a new group or individual in your database</a>, you decide the "level" of the group that you are adding. For a group that is added at the individual (personnel/employee) level, you might also need to create a web user from the group. This user can then create and view reservations on behalf of a group or groups in VEMS. You can create only one web user&#160;from&#160;a group. When you create a web user, you can also specify one or more delegates for the web user. A&#160;delegate&#160;is a web user who can create and view reservations on behalf of another web user.</p>
-        <ol start="1">
+        <h1>Create a Web User from a Group&#160;</h1>
+        <p>A web user&#160;is a registered user who can submit requests for reservations or schedule reservations in Virtual EMS&#160;(VEMS). When you&#160;<a href="../../V44.1/UserGuide/InfoAboutGroupsIndiv.html#AddModifyBasicProfileInfo">add a new group or individual in your database</a>, you decide the "level" of the group that you are adding. For a group that is added at the individual (personnel/employee) level, you might also need to create a web user from the group. This user can then create and view reservations on behalf of a group or groups in VEMS. You can create only one web user&#160;from&#160;a group. When you create a web user, you can also specify one or more delegates for the web user. A&#160;delegate&#160;is a web user who can create and view reservations on behalf of another web user.</p>
+        <ol start="1" class="number-list">
             <li>On the toolbar, click the Groups icon.&#160;<br /></li>
         </ol>
         <p>
             <img src="../../../Resources/Images/DTC_V44.1_GroupCon/Working with Information About_13.png" alt="https://success.emssoftware.com/@api/deki/files/6138/clipboard_e827180a17c0c64ec5ffac53a16efa64c.png?revision=1" />
         </p>
-        <ol start="2">
-            <li>Select the group for which you are creating the web user, then click&#160;Tools &gt; Create Web User.&#160;A dialog box opens&#160;on the Web User&#160;tab.</li>
-        </ol>
-        <ol start="3">
+        <ol start="2" class="number-list">
+            <li>Select the group for which you are creating the web user, then click&#160;<span class="bold">Tools </span>&gt; <span class="bold">Create Web User</span>.&#160;A dialog box opens&#160;on the <span class="bold">Web User</span>&#160;tab.</li>
             <li>Enter the information for the web user.</li>
         </ol>
-        <p class="note-box">Tip:&#160;Ideally, you should enter all the necessary information before&#160;saving; however, if you need to access your web user, on the EMS menu bar, click&#160;Configuration &gt; Web &gt; Web Users.</p>
+        <p class="box-tip"><span class="boldAllCaps">Tip:</span>&#160;Ideally, you should enter all the necessary information before&#160;saving; however, if you need to access your web user, on the EMS menu bar, click&#160;<span class="bold">Configuration </span>&gt; <span class="bold">Web </span>&gt; <span class="bold">Web Users</span>.</p>
         <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
@@ -126,28 +124,20 @@
                 </tr>
             </tbody>
         </table>
-        <p class="note-box">Tip: Ideally, you should enter all the necessary information for your web user before you save the web user; however, at any time if you need to access your web user, on the EMS menu bar, click Configuration &gt; Web &gt; Web Users.</p>
-        <ol start="4">
+        <p class="box-tip"><span class="boldAllCaps">Tip: </span>Ideally, you should enter all the necessary information for your web user before you save the web user; however, at any time if you need to access your web user, on the EMS menu bar, click <span class="bold">Configuration </span>&gt; <span class="bold">Web </span>&gt; <span class="bold">Web Users</span>.</p>
+        <ol start="4" class="number-list">
             <li>Open the Process Templates tab and on the Available list, use the arrows to move button templates to the Selected list. A web user process template defines the functions that are available to each type of web user in VEMS when the user is submitting a request for a reservation.</li>
-            <li>Open the Groups tab and do one of the following to specify the groups on whose behalf the web user can view and make reservations in VEMS.</li>
+            <li>Open the Groups tab and do one of the following to specify the groups on whose behalf the web user can view and make reservations in VEMS.<ul start="4"><li>The group (web user) is selected by default. You can leave this group in the Selected list, or you can select the group and click the Remove button (&lt;).</li><li>Specify any combination of search criteria for the Find field and Group Type, and then click Display to produce a list of all groups that meet the criteria. In the Available list, select a group, or CTRL-click to select multiple groups, and then click the Move button (&gt;) to move the selected groups to the Selected list.</li></ul></li>
         </ol>
-        <ul>
-            <li>The group (web user) is selected by default. You can leave this group in the Selected list, or you can select the group and click the Remove button (&lt;).</li>
-            <li>Specify any combination of search criteria for the Find field and Group Type, and then click Display to produce a list of all groups that meet the criteria. In the Available list, select a group, or CTRL-click to select multiple groups, and then click the Move button (&gt;) to move the selected groups to the Selected list.</li>
-        </ul>
-        <p class="note-box">Tip: If you leave the Find field blank, then a list of all currently active groups for the selected group type is displayed. If you enter a search string in the Find field, the string is not case-sensitive, but your search is limited to the exact order of the characters in the string and it must begin with the information for which you are searching. For example,&#160;And&#160;returns&#160;Anderson, Scott, but not Cooper, Anderson.</p>
-        <ol start="6">
-            <li>Open the Delegates tab, and on the Search by dropdown list, do one of the following to specify the delegates for the everyday user:</li>
+        <p class="box-tip"><span class="boldAllCaps">Tip:</span> If you leave the Find field blank, then a list of all currently active groups for the selected group type is displayed. If you enter a search string in the Find field, the string is not case-sensitive, but your search is limited to the exact order of the characters in the string and it must begin with the information for which you are searching. For example,&#160;And&#160;returns&#160;Anderson, Scott, but not Cooper, Anderson.</p>
+        <ol start="6" class="number-list">
+            <li>Open the <span class="bold">Delegates </span>tab, and on the Search by dropdown list, do one of the following to specify the delegates for the everyday user:<ul start="6"><li>Leave the&#160;<span class="bold">Find&#160;</span>field blank, and then click&#160;<span class="bold">Display&#160;</span>to open a list of&#160;all&#160;currently available Everyday Users. Select a user, or CTRL-click to select multiple Web Users, and then click the Move button (&gt;) to move the selected Web Users to the Selected list.</li><li>On the&#160;Search By&#160;dropdown list, select the option by which to search (Email Address or User Name), and in the <span class="bold">Find </span>field, enter the string by which to filter your search, and then click <span class="bold">Display</span>. Select a web user, or CTRL-click to select multiple web users, and then click the Move button (&gt;) to move the selected users to the Selected list.</li></ul></li>
         </ol>
-        <ul>
-            <li>Leave the&#160;Find&#160;field blank, and then click&#160;Display&#160;to open a list of&#160;all&#160;currently available Everyday Users. Select a user, or CTRL-click to select multiple Web Users, and then click the Move button (&gt;) to move the selected Web Users to the Selected list.</li>
-            <li>On the&#160;Search By&#160;dropdown list, select the option by which to search (Email Address or User Name), and in the Find field, enter the string by which to filter your search, and then click Display. Select a web user, or CTRL-click to select multiple web users, and then click the Move button (&gt;) to move the selected users to the Selected list.</li>
-        </ul>
-        <p class="note-box">Tip: The string is not case-sensitive, but your search is limited to the exact order of the characters in the string and it must begin with the information for which you are searching. For example, if searching by Email Address, a search string of&#160;bob&#160;returns&#160;bob.worth@emssoftwarea.com&#160;but not&#160;dbobbett@emssoftware.com.</p>
-        <ol start="7">
-            <li>You can click Spelling to spell check any information that you manually entered for the web user.</li>
-            <li>Click&#160;OK.&#160;The dialog box for creating a web user closes and a message opens indicating that the web user was created successfully.</li>
-            <li>Click&#160;OK&#160;to close the message and return to the Groups window.</li>
+        <p class="box-tip"><span class="bold">Tip: </span>The string is not case-sensitive, but your search is limited to the exact order of the characters in the string and it must begin with the information for which you are searching. For example, if searching by Email Address, a search string of&#160;bob&#160;returns&#160;bob.worth@emssoftwarea.com&#160;but not&#160;dbobbett@emssoftware.com.</p>
+        <ol start="7" class="number-list">
+            <li>You can click <span class="bold">Spelling </span>to spell check any information that you manually entered for the web user.</li>
+            <li>Click&#160;<span class="bold">OK</span>.&#160;The dialog box for creating a web user closes and a message opens indicating that the web user was created successfully.</li>
+            <li>Click&#160;<span class="bold">OK&#160;</span>to close the message and return to the Groups window.</li>
         </ol>
     </body>
 </html>
