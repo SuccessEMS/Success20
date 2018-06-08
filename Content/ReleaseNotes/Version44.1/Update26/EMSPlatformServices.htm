@@ -31,7 +31,7 @@
         </table>
         <h2>Enhancements</h2>
         <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');width: 100%;margin-left: 0;margin-right: auto;" cellspacing="0">
-            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 120px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 165px;" />
             <col class="TableStyle-PatternedRows-Column-Regular" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
@@ -46,11 +46,11 @@
             <tbody>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: left;">
-                        <p class="RNArea">Area</p>
+                        <p class="RNArea">Edit Booking &gt; In&#160;Progress Restriction</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
-                        <p class="RNTitle">Title</p>
-                        <p class="RNBody">Body</p>
+                        <p class="RNTitle">Restrict Editing of In-Progress Bookings with Service Orders</p>
+                        <p class="RNBody">Restrict editing of in-progress bookings if they have services orders.</p>
                         <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=38737&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">38737</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
@@ -65,25 +65,28 @@
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: left;">
-                        <p class="RNArea">Logging</p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: left;" rowspan="2">
+                        <p class="RNArea">Logging </p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
                         <p class="RNTitle">EMS&#160;Platform Services Version Included in Logs
 </p>
                         <p class="RNBody">To aid in remote customer debugging, the logging mechanisms have been updated to include the EMS&#160;Platform Services version in the logs.
-<![CDATA[
-]]></p>
-                        <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=38738&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">38738</a><br />(For EMS&#160;Internal Use Only)</p>
+
+</p>
+                        <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=34897&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">34897</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="text-align: left;">&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">&#160;</td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows" style="text-align: left;">&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" style="text-align: left;">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows" style="text-align: left;">
+                        <p class="RNTitle">"Always On" Detailed Logging for Error Requests</p>
+                        <p class="RNBody">When an error occurs during a request,  the complete set of log entries for the request are now captured and outputted as follows:</p>
+                        <ul>
+                            <li>On a successful request, the platform will only output logs at the default or specified log level (e.g. "Warning").</li>
+                            <li>On an erroneous request, the platform will output fine-grained logs for that request (e.g. all DEBUG/INFO log entries).</li>
+                        </ul>
+                        <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=35085&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">35085</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
                 </tr>
             </tbody>
         </table>
