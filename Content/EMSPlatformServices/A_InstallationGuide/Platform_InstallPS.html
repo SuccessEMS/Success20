@@ -19,6 +19,8 @@
             <li>
                 <MadCap:xref href="#Verify_Installation_Status">Verify Installation Status</MadCap:xref>
             </li>
+            <li><a href="#Verifying">Verify NTLM&#160;Authentication</a>
+            </li>
         </ul>
         <h2><a name="Install_Platform_Services"></a>Install Platform Services</h2>
         <ol class="number-list">
@@ -31,7 +33,7 @@
             <li>Choose a default folder to install EMS Platform Services to. The Platform installer by default will try to install in Programs folder, you can change the path to wwwroot folder. The typical install path is&#160;C:\Program Files\EMS Software\Ems.Platform.Api\. Click&#160;<span class="bold">Next</span>.&#160;</li>
             <li>You will need to enter the SQL server and EMS database, configured to allow external connections. Make a note of the database name.&#160;</li>
             <li>Enter a Virtual Directory Name.</li>
-            <li>To enable NTLM authentication for Everyday User Authentication for the Platform Services Admin Portal and Integration Clients, click the&#160;<span class="bold">Enable NTLM&#160;For EMS Everyday User Authentication</span>&#160;box.&#160;</li>
+            <li>To enable NTLM authentication for Everyday User Authentication for the Platform Services Admin Portal and Integration Clients, click the&#160;<span class="bold">Enable NTLM&#160;For EMS Everyday User Authentication</span>&#160;box.&#160;To complete the NTLM&#160;Authentication, see <span class="bold">Verifying NTLM&#160;Authentication </span>below. </li>
             <li>Click the&#160;<span class="bold">Install&#160;</span>button to complete the installation. You will receive a prompt from the Wizard that installation is complete. EMS Platform Services is now installed on your Web server.</li>
             <li>Click&#160;<span class="bold">Finish</span>.&#160;</li>
         </ol>
@@ -62,6 +64,24 @@
         <ol class="number-list">
             <li>Access your URL for Platform Services (e.g.,&#160;https://yourcompany.com/ems-platform-api).</li>
             <li>Verify the status of your installation by navigating  to&#160;https://yourcompany.com/ems-platform-api/status. <p><img src="../Images/PS_IG_Install2.png" class="PDFlarge" /></p></li>
+        </ol>
+        <h2><a name="Verifying"></a>Verifying NTLM&#160;Authentication</h2>
+        <ol>
+            <li>Ensure that the <span class="bold">Enable NTLM&#160;For EMS Everyday User Authentication</span>&#160;box was checked during Platform Services installation.</li>
+            <li>Verify that Windows Authentication is enabled  from your Internet Information Services (IIS) Manager. </li>
+        </ol>
+        <p>
+            <img src="../Images/InstallPS_IISManager.png" class="PDFsmall" />
+        </p>
+        <ol MadCap:continue="true">
+            <li>Navigate to the EMS&#160;Platform Services URL. </li>
+            <li>Verify that the Windows Security dialog box appears.</li>
+        </ol>
+        <p>
+            <img src="../Images/InstallPS_WindowsSecurity.png" />
+        </p>
+        <ol MadCap:continue="true">
+            <li>Enter  the Everyday User's <span class="bold">username </span>and <span class="bold">password</span>. </li>
         </ol>
     </body>
 </html>
