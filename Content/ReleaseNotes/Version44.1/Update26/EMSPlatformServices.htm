@@ -46,11 +46,14 @@
             <tbody>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: left;">
-                        <p class="RNArea">Area</p>
+                        <p class="RNArea">Edit Booking &gt; In&#160;Progress Restriction</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
-                        <p class="RNTitle">Title</p>
-                        <p class="RNBody">Body</p>
+                        <p class="RNTitle">Restrict Editing of In-Progress Bookings with Service Orders</p>
+                        <p class="RNBody">RIn-progress bookings that contain service orders (tblServiceOrder.BookingID) are not editable. Restrict editing of in-progress bookings if they have services orders.</p>
+                        <p class="RNBody">Service orders can have a time component and pricing that could be impacted by the edit and cause customer workflows to fail.</p>
+                        <p class="RNBody">in-progress bookings that contain service orders (tblServiceOrder.BookingID) are not editable.</p>
+                        <p class="RNBody">should be run as part of booking search (for CanEdit) and /bookings/ID/ edit</p>
                         <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=38737&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">38737</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
@@ -94,7 +97,7 @@
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows" style="text-align: left;">
                         <p class="RNTitle">"Always On" Detailed Logging for Error Requests</p>
-                        <p>When an error occurs during a request,  the complete set of log entries for the request are now captured and outputted as follows:</p>
+                        <p class="RNBody">When an error occurs during a request,  the complete set of log entries for the request are now captured and outputted as follows:</p>
                         <ul>
                             <li>On a successful request, the platform will only output logs at the default or specified log level (e.g. "Warning").</li>
                             <li>On an erroneous request, the platform will output fine-grained logs for that request (e.g. all DEBUG/INFO log entries).</li>
