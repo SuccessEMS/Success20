@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html MadCap:lastBlockDepth="7" MadCap:lastHeight="11980" MadCap:lastWidth="917" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:searchable="False">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:searchable="False">
     <head>
         <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title mt-export-translate="no">SAML Authentication</title>
         <meta name="mt-type" value="application/x.deki-text" />
@@ -228,7 +228,7 @@
         <h2><a name="Shibboleth"></a>Shibboleth</h2>
         <p>Users can sign in to the EMS Web App and EMS Mobile App using single sign on through Shibboleth. To utilize this functionality,  the service provider and identity provider certificates must be uploaded to the database.</p>
         <ol>
-            <li><a href="../../../EMSPlatformServices/ConfigurationGuide/ConfigPSinAdminPortal.html#create_a_new_integration_client">Create a new client for Shibboleth in the Integrations tab.</a> </li>
+            <li><a href="../../../EMSPlatformServices/ConfigurationGuide/ConfigPSinAdminPortal.html#CreateNewIntegrationClient">Create a new client for Shibboleth in the Integrations tab.</a> </li>
             <li>Designate an <span class="bold">Everyday User Authentication</span> type by choosing <span class="bold">SAML&#160;</span>from the dropdown.</li>
             <li>Click <span class="bold">Save Client</span>. </li>
             <li>From the <span class="bold">Auth Keys </span>tab, click the <span class="bold">New Auth Key </span>button.</li>
@@ -251,13 +251,13 @@
         </ol>
         <h3><a name="HowPlatformSupportsSAML"></a>How EMS Platform Services Supports SAML</h3>
         <p>No Two-Factor Authentication (2fa) support is provided&#160;with SAML authentication. 2fa is the responsibility of the Identity Provider (3rd-Party or Customer owned) and not the EMS Platform Services.&#160;Token expiration is configured and managed the same for SAML as for other authorization types, thus overriding any SAML Assertion Conditions that specify the assertion expiration timestamp.</p>
-        <p class="box-note"><span class="bold">NOTE:</span>&#160;See Also: <MadCap:xref href="Mobile_PersistentAuthen.htm">Persistent Authentication</MadCap:xref> for token expiration configuration details. Refer to <MadCap:xref href="../../B_ConfigurationGuide/Mobile_CustomizeMobileAppUsingConfigJson.htm">Customize Your Mobile App Configuration Using config.json</MadCap:xref>&#160;for details on building a configuration file for <MadCap:variable name="General.Mobile" />.</p>
+        <p class="box-note"><span class="bold">NOTE:</span>&#160;See Also: <a href="Mobile_PersistentAuthen.htm">Persistent Authentication</a> for token expiration configuration details. Refer to <a href="../../B_ConfigurationGuide/Mobile_CustomizeMobileAppUsingConfigJson.htm">Customize Your Mobile App Configuration Using config.json</a>&#160;for details on building a configuration file for <MadCap:variable name="General.Mobile" />.</p>
         <p>Once you have created your configuration file, you may proceed with one of the sections below, depending on whether you intend to host the file or pre-configure the application and redistribute it.</p>
         <h3><a name="UsingHostedConfig"></a>Using Hosted Configuration (Public Deployment)</h3>
         <p>Host your configuration file from an applicable web server. Distribute the URL to your end users.</p>
         <p class="box-warning"><span class="bold">WARNING:</span> It is not recommended to make this configuration file publicly available, since it will likely have URLs and/or other information in it that you do not want made available. Instead, host the file in a way such that it is only available internally to your organization. Users should only have to perform this import one time per installation of the application.</p>
         <h3><a name="PreConfigureEMSMobileApp"></a>Pre-Configure EMS&#160;Mobile App (Private Deployment)</h3>
-        <p>If you wish to pre-configure <MadCap:variable name="General.Mobile" />, see&#160;<MadCap:xref href="../../B_ConfigurationGuide/Mobile_ConfigRe-signMobilePrivDeploy.html">Configure and Re-Sign the EMS Mobile App</MadCap:xref>.</p>
+        <p>If you wish to pre-configure <MadCap:variable name="General.Mobile" />, see&#160;<a href="../../B_ConfigurationGuide/Mobile_ConfigRe-signMobilePrivDeploy.html">Configure and Re-Sign the EMS Mobile App</a>.</p>
         <h2><a name="Test_Your_SAML_Configuration"></a>Test Your SAML&#160;Configuration</h2>
         <p>Assuming you have installed the EMS Platform Services API at https://ems.yourcompany.com/endpoint, then you can test the configuration with a simple curl command:</p>
         <div class="indent">cURL -X GET -H 'x-ems-consumer: MobileApp' https://ems.yourcompany.com/endpoint/api/v1/health</div>

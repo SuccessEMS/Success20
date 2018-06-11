@@ -1704,6 +1704,23 @@ ul ul li::before
 
 /*******************End Table Unorder and Number List CSS************/
 /****************************************************************************/
+
+/****Code Sample Styles*****/
+
+pre.code-sample
+{
+	padding: 5px, 0px, 5px, 0px;
+	margin-left: 15px;
+	border-top: 2px;
+	border-bottom: 2px;
+	border-left: 0px;
+	border-right: 0px;
+	border-style: solid;
+	border-color: #d3d3d3;
+}
+
+/****End Code Sample Styles****/
+
 /***************Install Snippet Numbered List CSS****************/
 
 ol.number-list-snip
@@ -3227,6 +3244,11 @@ p.PDFh1
 		margin-left: 34px;
 		padding-top: 0px;
 		padding-bottom: 20px;
+		font-size: 11px;
+	}
+	
+	table ul.unorder-list li a, table ol.number-list li a
+	{
 		font-size: 11px;
 	}
 
