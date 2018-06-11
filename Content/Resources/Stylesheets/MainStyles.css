@@ -1165,6 +1165,18 @@ div#searchPane
 /*SideMenu CSS*/
 /****************************/
 
+/***Turn off auto expand/collapse for side nav
+.menu[class*=_Skins] ul.sub-menu 
+{
+   display: none;
+}
+
+.menu[class*=_Skins] .is-active
+{
+   display: block !important;
+}
+***/
+
 #smartmenu-accordion .menu > li,
 ul.menu,
 ul.menu ul,

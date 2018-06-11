@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="455" MadCap:lastWidth="934">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
         <link href="../Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
         <link rel="icon" href="../Images/favicon.png" />
@@ -40,5 +40,17 @@
         </div>
         <script src="../../Resources/Scripts/sidemenu.js">
         </script>
+		
+		<!-- Turn off out expand/collapse for side nav
+		<script type="text/javascript">/*<![CDATA[*/
+			$(document).ready(function() {
+
+			$(".menu[class*=_Skins] .selected").parents("ul").addClass("is-active");
+   
+			$(".menu[class*=_Skins] .selected").parent("li").children().addClass("is-active");
+   
+			});
+		/*]]>*/</script>
+		-->
     </body>
 </html>
