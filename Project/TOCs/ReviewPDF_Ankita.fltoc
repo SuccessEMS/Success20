@@ -2,9 +2,9 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="Release Notes_U24.2_RoomSignApp"
-    Link="/Content/ReleaseNotes/Version44.1/Update24.2/EMSRoomSignApp.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
+    Title="Release Notes_U26_RoomSignApp"
+    Link="/Content/ReleaseNotes/Version44.1/Update26/EMSRoomSignApp.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
   <TocEntry
-    Title="Known Issues_U24.2_RoomSignApp"
-    Link="/Content/ReleaseNotes/Version44.1/Update24.2/EMSRoomSignApp_KnownIssues.htm" />
+    Title="ReleaseNotes_U26_PlatformServices"
+    Link="/Content/ReleaseNotes/Version44.1/Update26/EMSPlatformServices.htm" />
 </CatapultToc>
