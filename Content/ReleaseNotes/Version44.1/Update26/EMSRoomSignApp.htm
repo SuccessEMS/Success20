@@ -88,9 +88,8 @@
                     </td>
                     <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
                         <p class="RNTitle">EMS Room Sign App Running on iOS 11 Devices and ArmourActive Enclosures Not Syncing</p>
-                        <p class="RNBody">Users are required to interact/touch the EMS Room Sign App for it to start playing sounds. This causes LEDs on the ArmourActive enclosures to be out of sync or display a blue light when the EMS Room Sign App (web page) is loading.</p>
-                        <p class="RNBody">This issue is the result of Apple making a change to the Web Audio API in iOS 11. It now requires sounds to be triggered from an explicit user action, such as a tap. Calling noteOn() from an onload event will no longer play sound. Please find more information from Apple <a href="https://developer.apple.com/library/content/documentation/AudioVideo/Conceptual/Using_HTML5_Audio_Video/PlayingandSynthesizingSounds/PlayingandSynthesizingSounds.html#//apple_ref/doc/uid/TP40009523-CH6-SW5">here</a>.</p>
-                        <p class="RNBody"><span class="bold">Fix</span>:&#160;Modified functionality so that iPads running on iOS 11 or after play sounds regardless of any user interaction inactivity.</p>
+                        <p class="RNBody">iPads running on iOS 11 or greater were playing sounds regardless of any user interaction inactivity. Devices running on iOS 11 suspended the Audio Context after a period of inactivity, and were not properly resumed when a new sound was needed to be played.</p>
+                        <p class="RNBody"><span class="bold">Fix</span>: Modified functionality so that when the Room Sign App completes polling, the LEDs are triggered.</p>
                         <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=39388&amp;_a=edit&amp;triage=true" class="RNRefHyper">39388</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
