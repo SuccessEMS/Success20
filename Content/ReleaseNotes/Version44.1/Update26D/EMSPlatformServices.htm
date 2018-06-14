@@ -45,13 +45,32 @@
             </thead>
             <tbody>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows" style="text-align: left;">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: left;">
                         <p class="RNArea">Authentication</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" style="text-align: left;">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
                         <p class="RNTitle">NTLM&#160;Authentication for EMS&#160;Platform Services</p>
                         <p class="RNBody">Administrators on a security template can authenticate with NTLM during installation setup. </p>
                         <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=30718&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">30718</a>, <a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=38737&amp;_a=edit&amp;triage=true" class="RNRefHyper">38737</a>, <a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=38738&amp;_a=edit&amp;triage=true" class="RNRefHyper">38738</a>, <a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=38739&amp;_a=edit&amp;triage=true" class="RNRefHyper">38739</a>, <a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=38742&amp;_a=edit&amp;triage=true" class="RNRefHyper">38742</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows" style="text-align: left;">
+                        <p class="RNArea">API Calls</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows" style="text-align: left;">
+                        <p class="RNTitle">Edit In-Progress Bookings</p>
+                        <p class="RNBody">Modified the PATCH/bookings/{id} route to allow editing the Start Time and End Time fields for a booking that is in-progress:</p>
+                        <p class="RNBodyBeforeList">Note that in-progress edits will NOT be supported on the following booking types:</p>
+                        <ul class="RN-unorder-list">
+                            <li>Bookings with service orders</li>
+                            <li>Bookings with setup/teardown times</li>
+                            <li>Video conference bookings</li>
+                            <li>Integrated calendar bookings (Microsoft Exchange and G Suite)</li>
+                            <li>Managed space (request rooms) bookings</li>
+                        </ul>
+                        <p class="RNBody">For this enhancement, no changes were made to the notifications that are triggered on changing the start time and end time.</p>
+                        <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=38329&amp;_a=edit&amp;triage=false" class="RNRefHyper" title="For Internal Use Only" alt="For Internal Use Only">38329</a>, <a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=38737&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">38737</a>, <a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=38738&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">38738</a>, <a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=38739&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">38739</a>, <a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=38740&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">38740</a>, <a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=38741&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">38741</a>, <a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=38742&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">38742</a>, <a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=38744&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">38744</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
             </tbody>
