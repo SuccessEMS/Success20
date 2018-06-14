@@ -5,7 +5,7 @@
         <meta name="mt-unsafe" value="true" />
     </head>
     <body>
-        <h1 MadCap:autonum="CHAPTER&#160;1: ">
+        <h1>
             <MadCap:concept term="V44.1" />
             <MadCap:annotation MadCap:createDate="2017-11-21T15:34:27.5383607-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="This topic contains repeated info from 2008. Also contains two &quot;Add Roles&quot; sections that seeme to have the same content. Is 2008 and 2012 both in this topic?" MadCap:editor="Megan.Laub" MadCap:editDate="2017-11-21T15:35:08.7452640-07:00">Best</MadCap:annotation> Practices: Setting Up Your Web Server 2012 or 2012 R2</h1>
         <p>This section guides you in best practices&#160;in setting up a Web Server for installation of EMS web-based products and is intended for experienced System Administrators.&#160; Please be aware that we can only provide instructions for modifying your web server as tested in our facilities, and cannot guarantee results for your configuration. Lastly, after completing these modifications, you will need to perform your own adjustments to system security etc. &#160; &#160; &#160;&#160;</p>
@@ -55,7 +55,7 @@
         <p>
             <img src="Images/WebApp_Install/Best Practices Setting Up_1.jpg" alt="" class="PDFlarge" />
         </p>
-        <ol start="2">
+        <ol start="2" class="number-list">
             <li>In the&#160;Server Manager&#160;window, scroll down to&#160;<span class="bold">Roles Summary</span>, and then click&#160;<span class="bold">Add Roles</span>.</li>
             <li>Select&#160;<span class="bold">Web Server (IIS)</span>&#160;on the&#160;Select Server Roles&#160;page. An introductory page will open with links for further information.<ol start="1" style="list-style-type: lower-alpha;"><li>The Web Server (IIS) role in Windows Server 2012 provides a secure, easy-to-manage, modular and extensible platform for reliably hosting websites, services, and applications.</li></ol></li>
         </ol>
@@ -130,7 +130,7 @@
         </p>
         <p><span class="bold">IIS Management Console</span>&#160;– IIS Manager provides infrastructure to manage IIS by using a graphical user interface. IIS Manager can be used to manage a local or remote Web server that runs IIS.</p>
         <h2><a name="WinSer2012-2012R2"></a>Windows Server 2012/2012 R2&#160;</h2>
-        <p>Important: Before beginning the installation process, please see our&#160;<a href="../../../EMS_SystemReq_44.1.html">system requirements</a>. The minimum hardware requirements must be met to continue with the below configuration. Administrative rights will be necessary to enable the roles and features listed for each Windows Server.</p>
+        <p class="box-important"><span class="boldAllCaps">Important: </span>Before beginning the installation process, please see our&#160;<a href="../../../EMS_SystemReq_44.1.html">system requirements</a>. The minimum hardware requirements must be met to continue with the below configuration. Administrative rights will be necessary to enable the roles and features listed for each Windows Server.</p>
         <ol start="1" class="number-list">
             <li>In Server Manager, click&#160;<span class="bold">Manage&#160;</span>and then select&#160;<span class="bold">Add Roles and Features</span>&#160;to start the <span class="bold">Add Roles and Features Wizard</span>.</li>
         </ol>
@@ -186,7 +186,7 @@
         </ol>
         <h3>To Install .NET Framework 4.5: Regics Only&#160;</h3>
         <ol start="1" class="number-list">
-            <li>Repeat Steps 1-10 from the <MadCap:xref href="#_Toc11250">Windows Server 2012/2012 R2</MadCap:xref> section.</li>
+            <li>Repeat Steps 1-10 from the <a href="#WinSer2012-2012R2">Windows Server 2012/2012 R2</a> section.</li>
             <li>Once expanded, select&#160;both&#160;the&#160;<span class="bold">.NET Framework 4.5</span>&#160;and&#160;<span class="bold">ASP.NET 4.5</span>&#160;options and click&#160;<span class="bold">Next</span>.&#160;</li>
         </ol>
         <p>
