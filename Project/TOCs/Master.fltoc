@@ -2639,7 +2639,11 @@
           Link="/Content/EMSforOutlook/UserGuide/CreateSingleRes.htm" />
         <TocEntry
           Title="Create a Series Reservation"
-          Link="/Content/EMSforOutlook/UserGuide/CreateSeriesRes.htm" />
+          Link="/Content/EMSforOutlook/UserGuide/CreateSeriesRes.htm">
+          <TocEntry
+            Title="Add Services to a Booking"
+            Link="/Content/EMSforOutlook/Legacy/C_User_Unknown/Outlook_UG_AddServicestoBooking.html" />
+        </TocEntry>
         <TocEntry
           Title="Create a Video Conference Reservation"
           Link="/Content/EMSforOutlook/UserGuide/CreateVideoConRes.htm" />
