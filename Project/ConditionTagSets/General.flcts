@@ -17,4 +17,8 @@
     Name="Online Only"
     Comment=""
     OriginalName="TechDocs" />
+  <ConditionTag
+    BackgroundColor="#4b0082"
+    Name="Edit_in_Review"
+    Comment="For changes that require approval and should not appear online or in print" />
 </CatapultConditionTagSet>
