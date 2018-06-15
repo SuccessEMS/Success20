@@ -2,11 +2,17 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="Cloud Services"
+    Title="EMS Cloud Services"
     Link="/Content/EMSCloudServices/Cloud.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <TocEntry
+      Title="Prerequisites for EMS Cloud Services"
+      Link="/Content/EMSCloudServices/Prerequisites.htm" />
     <TocEntry
       Title="Architecture"
       Link="/Content/EMSCloudServices/Architecture.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Installation of EMS Cloud Services"
+      Link="/Content/EMSCloudServices/Installation.htm" />
     <TocEntry
       Title="Glossary"
       Link="/Content/Glossary/1_Glossary.htm"
