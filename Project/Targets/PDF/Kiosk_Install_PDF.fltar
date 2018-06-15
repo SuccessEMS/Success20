@@ -6,7 +6,7 @@
   Destinations=""
   GlossaryTermConversion="marked"
   MasterToc="/Project/TOCs/Print_Kiosk_InstallGuide.fltoc"
-  ConditionTagExpression="include[&quot;General.Print Only&quot;] exclude[&quot;General.Online Only&quot;] "
+  ConditionTagExpression="include[&quot;General.Print Only&quot;] exclude[General.Edit_in_Review or &quot;General.Online Only&quot;] "
   PatchHeadingLevels="false"
   InjectEmptyPages="false"
   UseLocalBuildSettings="true"
