@@ -14,6 +14,10 @@
         <p>This topic provides information on the following:&#160;</p>
         <ul class="unorder-list">
             <li><a href="#Configure_Integration_to_Exchange_Instructions">Configure Integration to Exchange Instructions</a>
+                <ul>
+                    <li><a href="#ConfigureMutlipleMailDomains">Configure Multiple Mail Domains</a>
+                    </li>
+                </ul>
             </li>
             <li><a href="#Test_Your_Exchange_Integration">Test Your Exchange Integration</a>
             </li>
@@ -44,6 +48,24 @@
             <li>Select the Authentication Type:<ul start="6"><li><span class="bold">Anonymous&#160;</span>– No authentication</li><li><span class="bold">Specify Account</span>&#160;– Relies on a custom account (not the Integration with Exchange Account) that you create and manage.&#160;Please contact Customer Support (or a member of the Professional Services group if you are working with one) to discuss the configuration process for this option.</li><li><span class="bold">Default Credentials</span>&#160;– Relies on security context of EMS application calling the Integration with Exchange&#160;Web Service.&#160;If using this option, Integrated Windows Authentication should be enabled for the Integration with Exchange Web Service.</li><li>For MS Exchange 2007/2010 environments, click&#160;<span class="bold">Save</span>.</li></ul><div class="note-box note"><p><span class="bold">NOTE:</span>&#160;When testing Integration with Exchange, the email account that is being used (either on the Test Settings tab or in the "Testing Integration with Exchange" section below) MUST exist in the Exchange environment being tested.&#160;If you are testing Integration with Exchange in a development environment please verify that a mailbox for the email being used exists in that domain/environment.</p></div></li>
             <li>Click&#160;<span class="bold">Test Configuration</span>.&#160;If any errors are encountered, please verify your configuration. Otherwise, your Integration with Exchange configuration is complete.&#160;</li>
         </ol>
+        <h2><a name="ConfigureMutlipleMailDomains"></a>Configure Multiple Mail Domains</h2>
+        <p>To configure multiple mail domains, you must edit the web.config file. This will enable the Mail Domain drop-down that allows Administrators to specify different EWS&#160;URLs, AutoDiscover settings, and authentication options based on the domain. </p>
+        <p>When an EIWS booking is made through EMS for Outlook or the EMS&#160;Web App, it will automatically pull the domain from that user’s email address.  It will then use the corresponding Mail Domain option.</p>
+        <ol>
+            <li>Open the <span class="bold">web.config</span> file. </li>
+            <li>Navigate to the mail domains line at the top under the Configuration section. </li>
+        </ol>
+        <p>
+            <img src="../Images/EIWS_Maildomains.png" class="PDFsmall" />
+        </p>
+        <ol MadCap:continue="true">
+            <li>Remove the comment marks (&lt;!-- --&gt;) and add your domains to the value (e.g., <span style="font-family: 'Courier New';"><br />&lt;add key="mailDomains" value="dea.com│google.com│microsoft.com"/&gt;</span></li>
+            <li>Save your <span class="bold">web.config</span> file. You will now see the <span class="bold">Mail Domain</span> drop-down menu on the Exchange Integration Web Service screen. Each menu item will have its own <span class="bold">Provider </span>area. </li>
+        </ol>
+        <p>
+            <img src="../Images/EIWS_Screen.png" class="PDFsmall" />
+        </p>
+        <p class="box-note"><span class="bold">NOTE</span>:&#160;These settings are stored in the tblPamSettings table. </p>
         <h2><a name="Test_Your_Exchange_Integration"></a>Test Your Exchange Integration</h2>
         <p>To test your &#160;configuration, you will need to log into EMS Web App with a user account (configured with the user’s primary email address) belonging to a Everyday Application Process Template (within the EMS client application) that has the&#160;<a href="../../WebApp/A_V44.1/B_ConfigurationGuide/WebApp_CG_EverydayUserProcTempFieldDef.html">Enable Integration to Microsoft Exchange</a>&#160;option checked.</p>
         <ol start="1" class="number-list">
