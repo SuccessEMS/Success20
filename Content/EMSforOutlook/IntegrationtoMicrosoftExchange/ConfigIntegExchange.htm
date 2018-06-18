@@ -49,7 +49,8 @@
             <li>Click&#160;<span class="bold">Test Configuration</span>.&#160;If any errors are encountered, please verify your configuration. Otherwise, your Integration with Exchange configuration is complete.&#160;</li>
         </ol>
         <h2><a name="ConfigureMutlipleMailDomains"></a>Configure Multiple Mail Domains</h2>
-        <p>Configuring multiple mail domains will require editing the web.config file. This Mail Domain drop-down will allow you to specify different EWS&#160;URLs, AutoDiscover settings, and authentication options based on the domain. When an EIWS booking is made through EMS for Outlook or the EMS&#160;Web App, it will automatically pull the domain from that user’s email address.  It will then use the corresponding Mail Domain option.</p>
+        <p>To configure multiple mail domains, you must edit the web.config file. This will enable the Mail Domain drop-down that allows Administrators to specify different EWS&#160;URLs, AutoDiscover settings, and authentication options based on the domain. </p>
+        <p>When an EIWS booking is made through EMS for Outlook or the EMS&#160;Web App, it will automatically pull the domain from that user’s email address.  It will then use the corresponding Mail Domain option.</p>
         <ol>
             <li>Open the <span class="bold">web.config</span> file. </li>
             <li>Navigate to the mail domains line at the top under the Configuration section. </li>
@@ -59,7 +60,7 @@
         </p>
         <ol MadCap:continue="true">
             <li>Remove the comment marks (&lt;!-- --&gt;) and add your domains to the value (e.g., <span style="font-family: 'Courier New';"><br />&lt;add key="mailDomains" value="dea.com│google.com│microsoft.com"/&gt;</span></li>
-            <li>Save your <span class="bold">web.config</span> file. You will now see the <span class="bold">Mail Domain</span> drop-down menu in Exchange Integration Web Service screen. Each menu item will have it's own <span class="bold">Provider </span>area. </li>
+            <li>Save your <span class="bold">web.config</span> file. You will now see the <span class="bold">Mail Domain</span> drop-down menu on the Exchange Integration Web Service screen. Each menu item will have its own <span class="bold">Provider </span>area. </li>
         </ol>
         <p>
             <img src="../Images/EIWS_Screen.png" class="PDFsmall" />
