@@ -5,7 +5,7 @@
   Type="MsWord"
   Destinations=""
   GlossaryTermConversion="marked"
-  MasterToc="/Project/TOCs/ReviewPDF_Harlean.fltoc"
+  MasterToc="/Project/TOCs/ReviewPDF_Mindy.fltoc"
   ConditionTagExpression="include[&quot;General.Print Only&quot;] exclude[&quot;General.Online Only&quot;] "
   PatchHeadingLevels="false"
   InjectEmptyPages="false"

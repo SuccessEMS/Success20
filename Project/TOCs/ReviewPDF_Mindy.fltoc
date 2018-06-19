@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Managed Space">
+    <TocEntry
+      Title="Configure Managed Space for Web App"
+      Link="/Content/WebApp/A_V44.1/B_ConfigurationGuide/WebApp_CG_ConfigManagedSpace.html" />
+    <TocEntry
+      Title="How Do I Configure EMS for Meeting Requests and Approvals (Managed Space)? V44.1 (EMS Desktop Client)"
+      Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/HowDoIConfigureEMSMtgReq.html" />
+    <TocEntry
+      Title="Managing Requests for Managed Space V44.1 (EMS Desktop Client)"
+      Link="/Content/EMSDesktopClient/V44.1/UserGuide/ManageReqMangedSpace.html" />
+    <TocEntry
+      Title="Guest Requests Tab V44.1 (EMS Desktop Client)"
+      Link="/Content/EMSDesktopClient/V44.1/UserGuide/GuestRequestsTab.html" />
+  </TocEntry>
+</CatapultToc>
