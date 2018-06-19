@@ -5,7 +5,7 @@
         <link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
-        <h1 class="Heading1" MadCap:autonum="CHAPTER&#160;1: ">EMS Desktop Client<br />Release Notes <br />V44.1, Update 26D</h1>
+        <h1 class="Heading1">EMS Desktop Client<br />Release Notes <br />V44.1, Update 26D</h1>
         <p class="p_1">
             <MadCap:concept term="V44.1" />This section describes updates to&#160;your EMS software.&#160;&#160;</p>
         <p>See Also:&#160;<a href="#Contact">Contact Customer Support</a>&#160;and&#160;<MadCap:xref href="../../../Update_to_LatestVersion_EMS.htm"><a href="../../../Update_to_LatestVersion_EMS.htm">Updating to the Latest Version of EMS (Patches and Builds)</a></MadCap:xref>. </p>
@@ -45,14 +45,75 @@
             </thead>
             <tbody>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows" style="text-align: left;">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: left;">
                         <p class="RNArea">Functionality</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" style="text-align: left;">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
                         <p class="RNTitle">Enhanced Performance When Searching Large Groups </p>
                         <p class="RNBody">When parameter name (Offer Dropdown Selection of Groups)&#160;is set to YES, a new typeahead search function is available for groups in the Reservation Wizard, Navigator, Browser, and Calendar. </p>
                         <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=38419&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">38419</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="text-align: left;">
+                        <p class="RNArea">Database Performance</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
+                        <p class="RNTitle">Improved Speed for Query <span class="italics">ems_RES_ServiceOrderDetail_Edit</span> </p>
+                        <p class="RNBody">Improved the speed for the query <span class="italics">ems_RES_ServiceOrderDetail_Edit</span>. The query now runs in under 3 seconds.</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=38458&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">38458</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: left;">
+                        <p class="RNArea">Database Performance</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
+                        <p class="RNTitle">Improved Speed for Opening the EMS&#160;Desktop Client Navigator</p>
+                        <p class="RNBody">Improved the speed for opening the EMS Desktop Client Navigator. The process to open the Navigator now completes in one second or less.</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=39012&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">39012</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="text-align: left;">
+                        <p class="RNArea">Database Performance</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
+                        <p class="RNTitle">Improved Speed for Adding Resources to a Category</p>
+                        <p class="RNBody">Improved the speed for adding resources to a category the EMS Desktop Client. The query to add resources to a category now returns in one second or less.</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=39014&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">39014</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: left;">
+                        <p class="RNArea">Database Performance</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
+                        <p class="RNTitle">Review all stored procs for canidates for WITH RECOMPILE</p>
+                        <p class="RNBody">Many of our stored procedures have a significant amount of conditional logic that can cause SQL Server to cache execution plans that are not optimal for execution when a new set of parameters are passed to the procedure.  Adding a WITH RECOMPILE option to the stored procedure definition appears to have given us significant performance boosts at Deloitte.  Deloitte has asked us to identify other stored procedures that may benefit from adding this option.</p>
+                        <p class="RNBody">Review all stored procs and identify any that may benefit from adding the WITH RECOMPILE option</p>
+                        <p class="RNBody">Appropriate changes made</p>
+                        <p class="RNBody">Create test plan with QA to demonstrate improved performance</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=39298&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">39298</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="text-align: left;">
+                        <p class="RNArea">Database Performance</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
+                        <p class="RNTitle">Evaluated <span class="italics">ems_RES_Availability_ListRooms</span> Query to Improve Performance</p>
+                        <p class="RNBody">Evaluated the <span class="italics">ems_RES_Availability_ListRooms</span> to determine <MadCap:annotation MadCap:createDate="2018-06-19T10:33:50.8727284-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Still testing, so there is no acceptance criteria and not sure what the results are." MadCap:editor="Megan.Laub" MadCap:editDate="2018-06-19T10:34:26.7533380-06:00">ways to improve performance.</MadCap:annotation></p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=39380&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">39380</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: left;">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">&#160;</td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows" style="text-align: left;">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows" style="text-align: left;">&#160;</td>
                 </tr>
             </tbody>
         </table>
