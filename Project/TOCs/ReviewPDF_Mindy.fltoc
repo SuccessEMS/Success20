@@ -2,9 +2,15 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="Release Notes_WebApp_U26"
-    Link="/Content/ReleaseNotes/Version44.1/Update26/EMSWebApp.htm"></TocEntry>
-  <TocEntry
-    Title="Release Notes_Kiosk_U26"
-    Link="/Content/ReleaseNotes/Version44.1/Update26/EMSKioskApp.htm" />
+    Title="Managed Space">
+    <TocEntry
+      Title="How Do I Configure EMS for Meeting Requests and Approvals (Managed Space)? V44.1 (EMS Desktop Client)"
+      Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/HowDoIConfigureEMSMtgReq.html" />
+    <TocEntry
+      Title="Managing Requests for Managed Space V44.1 (EMS Desktop Client)"
+      Link="/Content/EMSDesktopClient/V44.1/UserGuide/ManageReqMangedSpace.html" />
+    <TocEntry
+      Title="Guest Requests Tab V44.1 (EMS Desktop Client)"
+      Link="/Content/EMSDesktopClient/V44.1/UserGuide/GuestRequestsTab.html" />
+  </TocEntry>
 </CatapultToc>
