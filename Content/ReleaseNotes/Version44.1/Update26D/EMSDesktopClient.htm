@@ -5,7 +5,7 @@
         <link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
-        <h1 class="Heading1">EMS Desktop Client<br />Release Notes <br />V44.1, Update 26D</h1>
+        <h1 class="Heading1" MadCap:autonum="CHAPTER&#160;1: ">EMS Desktop Client<br />Release Notes <br />V44.1, Update 26D</h1>
         <p class="p_1">
             <MadCap:concept term="V44.1" />This section describes updates to&#160;your EMS software.&#160;&#160;</p>
         <p>See Also:&#160;<a href="#Contact">Contact Customer Support</a>&#160;and&#160;<MadCap:xref href="../../../Update_to_LatestVersion_EMS.htm"><a href="../../../Update_to_LatestVersion_EMS.htm">Updating to the Latest Version of EMS (Patches and Builds)</a></MadCap:xref>. </p>
@@ -56,65 +56,45 @@
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="text-align: left;" rowspan="5">
-                        <p class="RNArea">Database Performance</p>
+                        <p class="RNArea">Database </p>
                         <p>&#160;</p>
                         <p>&#160;</p>
                         <p>&#160;</p>
                         <p>&#160;</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNTitle">Improved Speed for Query <span class="italics">ems_RES_ServiceOrderDetail_Edit</span> </p>
-                        <p class="RNBody">Improved the speed for the query <span class="italics">ems_RES_ServiceOrderDetail_Edit</span>. The query now runs in under three seconds.</p>
+                        <p class="RNTitle">Stored Procedures Refactoring for Performance Improvements</p>
+                        <p class="RNBody">Refactored temp tables in EMS_RES_Book_Bookings. </p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=39381&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">39381</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
+                        <p class="RNTitle">Database Optimizations for Performance Improvements</p>
+                        <p class="RNBody">Added column stacks to improve opening the Reservation Book in EMS&#160;Desktop Client. </p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=38192&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">38192</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
+                        <p class="RNTitle">Database Optimizations for Performance Improvements</p>
+                        <p class="RNBody">Added recompile options to EMS_RES_ServiceOrderDetail_Edit and two other stored procedures. </p>
                         <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=38458&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">38458</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
-                        <p class="RNTitle">Improved Speed for Opening the EMS&#160;Desktop Client Navigator</p>
-                        <p class="RNBody">Improved the speed for opening the EMS Desktop Client Navigator. The procedure to open the Navigator now completes in one second or less.</p>
-                        <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=39012&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">39012</a><br />(For EMS&#160;Internal Use Only)</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNTitle">Improved Speed for Adding Resources to a Category</p>
-                        <p class="RNBody">Improved the speed for adding resources to a category the EMS Desktop Client. The query to add resources to a category now returns in one second or less.</p>
+                        <p class="RNTitle">Database Optimizations for Performance Improvements</p>
+                        <p class="RNBody">Added recompile options for adding resources to a category.</p>
                         <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=39014&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">39014</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
-                        <p class="RNTitle">Reviewed All Stored Procedures for Candidates for <span class="italics">WITH RECOMPILE</span></p>
-                        <p class="RNBody">Reviewed all stored procedures and <MadCap:annotation MadCap:createDate="2018-06-19T10:39:52.4237111-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Still testing. If this RN is going to customer, need a list of procedures that will benefit from &quot;With Recompile&quot; option." MadCap:editor="Megan.Laub" MadCap:editDate="2018-06-19T10:40:29.1466470-06:00">identified the procedures that may benefit from adding the <span class="italics">WITH RECOMPILE</span> option.</MadCap:annotation> </p>
-                        <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=39298&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">39298</a><br />(For EMS&#160;Internal Use Only)</p>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows" style="text-align: left;">
+                        <p class="RNTitle">Database Optimizations for Performance Improvements</p>
+                        <p class="RNBody">Added new indexes to the EMS_RES_Book_Bookings table. </p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=39539&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">39539</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNTitle">Evaluated <span class="italics">ems_RES_Availability_ListRooms</span> Query to Improve Performance</p>
-                        <p class="RNBody">Evaluated the <span class="italics">ems_RES_Availability_ListRooms</span> to determine <MadCap:annotation MadCap:createDate="2018-06-19T10:33:50.8727284-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Still testing, so there is no acceptance criteria and not sure what the results are." MadCap:editor="Megan.Laub" MadCap:editDate="2018-06-19T10:34:26.7533380-06:00">ways to improve performance.</MadCap:annotation></p>
-                        <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=39380&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">39380</a><br />(For EMS&#160;Internal Use Only)</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: left;">&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">&#160;</td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="text-align: left;">&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">&#160;</td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: left;">&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">&#160;</td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="text-align: left;">&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">&#160;</td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows" style="text-align: left;">&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" style="text-align: left;">&#160;</td>
                 </tr>
             </tbody>
         </table>
