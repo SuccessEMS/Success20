@@ -2,7 +2,7 @@
 <CatapultTarget
   Version="2"
   Comment="General Data Protection Regulation"
-  Type="PDF"
+  Type="MsWord"
   Destinations=""
   GlossaryTermConversion="marked"
   MasterToc="/Project/TOCs/GDPR.fltoc"
