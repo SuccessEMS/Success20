@@ -13,7 +13,8 @@
     ChapterNumberReset="continue"
     ComputeToc="false"
     ReplaceMergeNode="false"
-    PageNumber="1"></TocEntry>
+    PageNumber="1"
+    PageType="title"></TocEntry>
   <TocEntry
     Title="[%=System.LinkedTitle%]"
     Link="/Content/Print Only Topics/TOC.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
@@ -22,7 +23,8 @@
     PageNumberReset="reset"
     PageLayout="/Content/Resources/PageLayouts/PreviewRN/PrevTOC.flpgl"
     PageNumber="1"
-    AutoEndOnLeftPage="disabled">
+    AutoEndOnLeftPage="disabled"
+    PageType="normal">
     <TocEntry
       Title="EMS Desktop Client"
       Link="/Content/ReleaseNotes/Version44.1/Update26/EMSDesktopClient.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
