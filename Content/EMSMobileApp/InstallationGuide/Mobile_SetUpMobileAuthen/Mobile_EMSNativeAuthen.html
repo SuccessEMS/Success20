@@ -3,7 +3,7 @@
     <head><title>EMS Native Authentication</title>
     </head>
     <body>
-        <h1>
+        <h1 MadCap:autonum="CHAPTER&#160;1: ">
             <MadCap:concept term="V44.1" />EMS Native Authentication</h1>
         <p>Authenticate your users via Everyday Application User (emsuser) credentials stored in the EMS database. The following example shows the default configuration that ships with EMS Mobile App.</p>
         <p>
@@ -20,8 +20,8 @@
         <p>Assuming you have installed the EMS Platform Services (at &#160;https://yourcompany.com/ems-platform-api),&#160;you can test the authentication with a curl command:</p>
         <div class="indent">curl -X POST -H 'x-ems-consumer: MobileApp' -H 'Content-Type: application/json' -d '{"username":"your_username", "password":"your_password"}' https://ems.yourcompany.com/endpoint...authentication</div>
         <p>...where your<span class="italics">_username</span> and your<span class="italics">_password</span> are your credentials.</p>
-        <div class="note-box note">
-            <p><span class="bold">Note</span>:&#160;<span class="bold">api/v1/authentication </span>is the endpoint within the API where your request must be sent.</p>
+        <div class="box-note">
+            <p><span class="boldAllCaps">Note:</span>&#160;<span class="bold">api/v1/authentication </span>is the endpoint within the API where your request must be sent.</p>
         </div>
     </body>
 </html>
