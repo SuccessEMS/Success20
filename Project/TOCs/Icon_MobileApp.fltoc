@@ -110,7 +110,10 @@
           Link="/Content/EMSMobileApp/B_ConfigurationGuide/Mobile_ConfigRe-signMobilePrivDeploy.html" />
         <TocEntry
           Title="Customize Your Mobile App Configuration Using config.json (Private Deployment Only)"
-          Link="/Content/EMSMobileApp/B_ConfigurationGuide/Mobile_CustomizeMobileAppUsingConfigJson.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Link="/Content/EMSMobileApp/B_ConfigurationGuide/Mobile_CustomizeMobileAppUsingConfigJson.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
+        <TocEntry
+          Title="Assign Templates to EMS Mobile Users"
+          Link="/Content/EMSMobileApp/B_ConfigurationGuide/Mobile_AssignTemptoMobileUsers.html" />
         <TocEntry
           Title="Restrict Users' Mobile App Versions"
           Link="/Content/EMSMobileApp/B_ConfigurationGuide/Mobile_RestrictUsersMobileAppVer.html" />
