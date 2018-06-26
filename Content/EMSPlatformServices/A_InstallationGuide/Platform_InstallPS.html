@@ -5,7 +5,7 @@
         <meta name="mt-unsafe" value="true" />
     </head>
     <body>
-        <h1 MadCap:autonum="CHAPTER&#160;1: ">
+        <h1>
             <MadCap:concept term="V44.1" />Install EMS Platform Services</h1>
         <p>This topic provides information on the following:&#160;</p>
         <ul class="unorder-list">
@@ -38,13 +38,13 @@
             <li>Click&#160;<span class="bold">Finish</span>.&#160;</li>
         </ol>
         <h2><a name="InstallMultiple"></a>Install A Multiple Instance of EMS&#160;Platform Services in the Iis</h2>
-        <ol>
+        <ol class="number-list">
             <li>After <a href="#Install_Platform_Services">installing EMS Platform Services</a>, copy the installed directory for each additional instance of EMS Platform Services.</li>
         </ol>
         <p>
             <img src="../Images/platformconfig1.PNG" class="PDFlarge" />
         </p>
-        <ol MadCap:continue="true">
+        <ol MadCap:continue="true" class="number-list">
             <li>From your Internet Information Services (IIS)&#160;Manager, right click and <span class="bold">Add Application</span>. In the Add Application dialog box, choose a unique name in the <span class="bold">Alias </span>field. In the <span class="bold">Physical Path</span> field, include the path of the copied folder above.</li>
         </ol>
         <p>
@@ -57,7 +57,7 @@
         <p>
             <img src="../Images/platformconfig3.PNG" class="PDFlarge" />
         </p>
-        <ol MadCap:continue="true">
+        <ol MadCap:continue="true" class="number-list">
             <li>Reset the IIS.</li>
         </ol>
         <h2><a name="Verify_Installation_Status"></a>Verify Installation Status</h2>
@@ -66,21 +66,21 @@
             <li>Verify the status of your installation by navigating  to&#160;https://yourcompany.com/ems-platform-api/status. <p><img src="../Images/PS_IG_Install2.png" class="PDFlarge" /></p></li>
         </ol>
         <h2><a name="Verifying"></a>Verifying NTLM&#160;Authentication</h2>
-        <ol>
+        <ol class="number-list">
             <li>Ensure that the <span class="bold">Enable NTLM&#160;For EMS Everyday User Authentication</span>&#160;box was checked during Platform Services installation.</li>
             <li>Verify that Windows Authentication is enabled  from your Internet Information Services (IIS) Manager. </li>
         </ol>
         <p>
             <img src="../Images/InstallPS_IISManager.png" class="PDFsmall" />
         </p>
-        <ol MadCap:continue="true">
+        <ol MadCap:continue="true" class="number-list">
             <li>Navigate to the EMS&#160;Platform Services URL. </li>
             <li>Verify that the Windows Security dialog box appears.</li>
         </ol>
         <p>
             <img src="../Images/InstallPS_WindowsSecurity.png" />
         </p>
-        <ol MadCap:continue="true">
+        <ol MadCap:continue="true" class="number-list">
             <li>Enter  the Everyday User's <span class="bold">username </span>and <span class="bold">password</span>. </li>
         </ol>
     </body>
