@@ -61,9 +61,9 @@
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
                         <p class="RNTitle">Access to Browse Reservation Details</p>
-                        <p class="RNBody">Available through Configuration &gt; Everyday User Security Templates, the new security role allows Administrators to configure unauthenticated access for viewing reservation summary details.</p>
-                        <p class="RNBody">On the (unauthenticated user) Everyday User Security Template, authentication is not required to view the ReservationSummary page. If not selected, viewing ReservationSummary requires an authenticated session of the EMS Web App. For all other Everyday User Process Templates, the user has access to view the ReservationSummary page.  If not selected, only Owner or Delegate of the meeting can view all details of the ReservationSummary page. All other authenticated users will have access to the unauthenticated view of the ReservationSummary page.</p>
-                        <p class="RNBody">See Also:&#160;<a href="EMSDesktopClient.htm">EMS&#160;Desktop Client Release Notes Update 26</a>.</p>
+                        <p class="RNBody">A new role, <span class="bold">View Reservation Summary</span>, has been added to everyday user security templates (accessed in the EMS&#160;Desktop Client through Configuration &gt; Everyday User Applications &gt; Everyday User Security Templates &gt; New/Edit template &gt; Roles tab). </p>
+                        <p class="RNBody">When the <span class="bold">View Reservation Summary</span> role is added to a security template, users will need to have been assigned the security template to view the Reservation Summary page using the link in notification/confirmation emails. If users have not been assigned to the security template with the <span class="bold">View Reservation Summary</span> role, they will not be able to view the Reservation Summary page through the notification/confirmation email link. Administrators can use this new role to limit access to reservation information through forwarded emails.  </p>
+                        <p class="RNBody">See Also:&#160;<a href="EMSDesktopClient.htm#New_Security_Role_Added">EMS&#160;Desktop Client Release Notes Update 26</a>.</p>
                         <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/Aspen/_queries?id=38376&amp;_a=edit&amp;fullScreen=true&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">38376</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
@@ -84,7 +84,7 @@
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
                         <p class="RNTitle"><a name="MiniumCharacterLengthforAttendeeSearch"></a>Minimum Character Length for Attendee Search</p>
                         <p class="RNBody">A&#160;new parameter, <span class="italics">Minimum Characters to Initiate Type Ahead Search</span>, was added that affects the Find Attendees search field in calendar-enabled templates (Exchange and G Suite). The parameter lets administrators configure a minimum attendee lookup search length. The default is <span class="bold">3</span>&#160;characters. </p>
-                        <p class="RNBody">This new parameter gives administrators with large Global Address Lists the ability to set the minimum character search length at a higher value and prevent performance issues when returning attendee results. </p>
+                        <p class="RNBody">This new parameter  enables administrators to specify a longer duration after the last keystroke entry to prevent performance issues when returning attendee results. Updates recommended only for organizations with complex Exchange or G&#160;Suite deployments. </p>
                         <p class="RNBody"><span class="bold">See Also:</span>&#160;<a href="EMSDesktopClient.htm#MinimumCharacterCountAttendeeSearch">EMS&#160;Desktop Client U26 Release Notes</a> and <a href="../../../EMSDesktopClient/V44.1/ConfigurationGuide/EMSEverydayUserApplicationsParameters.htm#Minimum_Characters_to_Initiate_Type_Ahead_Search">Everyday User Applications Parameters</a></p>
                         <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/Aspen/_queries?id=38480&amp;_a=edit&amp;fullScreen=true&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">38480</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
@@ -93,7 +93,7 @@
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
                         <p class="RNTitle"><a name="DelayforTypeAheadSearchTrigger"></a>Configuration for Search on Type Ahead Fields</p>
                         <p class="RNBody">A new parameter, <span class="italics">Delay for Type Ahead Search Trigger (ms)</span>, was added that affects the Find Attendees search field in calendar-enabled templates (Exchange and G Suite). The parameter lets administrators configure the duration after the last keystroke entry in a search field before triggering a search call for attendees. The default is <span class="bold">400 ms</span>. </p>
-                        <p class="RNBody">This new parameter enables administrators with large Global Address Lists to specify a longer duration before triggering a search event and prevent performance issues when returning attendee results.</p>
+                        <p class="RNBody">This new parameter enables administrators to specify a longer duration before triggering a search event to prevent performance issues when returning attendee results.</p>
                         <p class="RNBody"><span class="bold">See Also:</span>&#160;<a href="EMSDesktopClient.htm#ConfigureTypeAheadSearchforAttendees">EMS&#160;Desktop Client U26 Release Notes</a> and <a href="../../../EMSDesktopClient/V44.1/ConfigurationGuide/EMSEverydayUserApplicationsParameters.htm#Delay_for_Type_Ahead_Search_Trigger">Everyday User Applications Parameters</a></p>
                         <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/Aspen/_queries?id=38482&amp;_a=edit&amp;fullScreen=true&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">38482</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
@@ -109,10 +109,20 @@
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" style="text-align: left;">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
                         <p class="RNTitle">My Account Page (Chrome and Safari)</p>
                         <p class="RNBody">When using EMS&#160;Web App on a Chrome or Safari browser, users can now access all functionality on the My Account  page with a keyboard. <br /></p>
                         <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=34040&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">34040</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
+                        <p class="RNArea">Conflict Messaging </p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows" style="text-align: left;">
+                        <p class="RNTitle">Improved Conflict Messaging (Non-Calendar Enabled Templates)</p>
+                        <p class="RNBody">Improved messaging when resolving conflicts on recurring meetings (non-calendar enabled templates).</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=39397&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">39397</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
             </tbody>
@@ -178,30 +188,20 @@
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p class="RNArea">Search Functionality</p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
-                        <p class="RNTitle">Latency with GetAvailability and LookupAttendee Searches</p>
-                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Existing attendee lookup calls in the EMS&#160;Web App have been removed to prevent any latency. </p>
-                        <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/Aspen/_queries?id=38455&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">38455</a><br />(For EMS&#160;Internal Use Only)</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
                         <p class="RNArea">Browse Locations</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
                         <p class="RNTitle">Reverted Date in Browse Locations</p>
                         <p class="RNBody">Users were experiencing a reverted date when hitting enter in Browse Locations if the cursor was in the Find a Room search field. </p>
                         <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that users can complete their search without the date changing. </p>
                         <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/Aspen/_queries?id=38550&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">38550</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
                         <p class="RNArea">Translation</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" style="text-align: left;">
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows" style="text-align: left;">
                         <p class="RNTitle">Language Translation Error</p>
                         <p class="RNBody">Translation for Polish, Spanish, Japanese, and French was not displaying correctly. </p>
                         <p class="RNBody"><span class="bold">Fix</span>:&#160;Modified functionality so that rendered pages display in the selected language. </p>
