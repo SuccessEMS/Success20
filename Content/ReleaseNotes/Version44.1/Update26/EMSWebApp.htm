@@ -72,8 +72,8 @@
                         <p class="RNArea">Error Page</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
-                        <p class="RNTitle">Custom Error Page for 500 Errors</p>
-                        <p class="RNBody">A custom error page that does not provide unnecessary information about the application has been created for 500 errors.</p>
+                        <p class="RNTitle">500 Internal Server Error Page</p>
+                        <p class="RNBody">A security issue has been resolved. Submit an EMS Support Help Desk ticket through the <a href="https://portal.emssoftware.com/s/support">EMS Customer Support Portal</a> to receive additional information.</p>
                         <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/Aspen/_queries?id=39020&amp;_a=edit&amp;fullScreen=true&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">39020</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
@@ -82,16 +82,18 @@
                         <p class="RNArea">Attendee Search</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNTitle">Minimum Character Length for Attendee Search</p>
-                        <p class="RNBody">A&#160;new parameter was added that allows administrators to configure a minimum attendee lookup search length. The default is 3 characters. This new parameter gives administrators with large Global Address Lists the ability to set the minimum character search length at a higher value and prevent performance issues when returning attendee results. </p>
+                        <p class="RNTitle"><a name="MiniumCharacterLengthforAttendeeSearch"></a>Minimum Character Length for Attendee Search</p>
+                        <p class="RNBody">A&#160;new parameter, <span class="italics">Minimum Characters to Initiate Type Ahead Search</span>, was added that affects the Find Attendees search field in calendar-enabled templates (Exchange and G Suite). The parameter lets administrators configure a minimum attendee lookup search length. The default is <span class="bold">3</span>&#160;characters. </p>
+                        <p class="RNBody">This new parameter gives administrators with large Global Address Lists the ability to set the minimum character search length at a higher value and prevent performance issues when returning attendee results. </p>
                         <p class="RNBody"><span class="bold">See Also:</span>&#160;<a href="EMSDesktopClient.htm#MinimumCharacterCountAttendeeSearch">EMS&#160;Desktop Client U26 Release Notes</a> and <a href="../../../EMSDesktopClient/V44.1/ConfigurationGuide/EMSEverydayUserApplicationsParameters.htm#Minimum_Characters_to_Initiate_Type_Ahead_Search">Everyday User Applications Parameters</a></p>
                         <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/Aspen/_queries?id=38480&amp;_a=edit&amp;fullScreen=true&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">38480</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
-                        <p class="RNTitle">Configuration for Search on Type Ahead Fields</p>
-                        <p class="RNBody">A new parameter was added that allows administrators to configure the duration after the last keystroke entry in a search field before triggering a search call for attendees on calendar-enabled templates and reservation. This new parameter gives administrators with large Global Address Lists the ability to set a longer duration time before triggering a search event and prevent performance issues when returning attendee results.</p>
+                        <p class="RNTitle"><a name="DelayforTypeAheadSearchTrigger"></a>Configuration for Search on Type Ahead Fields</p>
+                        <p class="RNBody">A new parameter, <span class="italics">Delay for Type Ahead Search Trigger (ms)</span>, was added that affects the Find Attendees search field in calendar-enabled templates (Exchange and G Suite). The parameter lets administrators configure the duration after the last keystroke entry in a search field before triggering a search call for attendees. The default is <span class="bold">400 ms</span>. </p>
+                        <p class="RNBody">This new parameter enables administrators with large Global Address Lists to specify a longer duration before triggering a search event and prevent performance issues when returning attendee results.</p>
                         <p class="RNBody"><span class="bold">See Also:</span>&#160;<a href="EMSDesktopClient.htm#ConfigureTypeAheadSearchforAttendees">EMS&#160;Desktop Client U26 Release Notes</a> and <a href="../../../EMSDesktopClient/V44.1/ConfigurationGuide/EMSEverydayUserApplicationsParameters.htm#Delay_for_Type_Ahead_Search_Trigger">Everyday User Applications Parameters</a></p>
                         <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/Aspen/_queries?id=38482&amp;_a=edit&amp;fullScreen=true&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">38482</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
@@ -143,47 +145,45 @@
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p class="RNArea">LDAP&#160;Authentication</p>
-                        <p>&#160;</p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNTitle">Intermittent Slowness Experienced During Authentication (EMS&#160;Cloud Services Customers)</p>
-                        <p class="RNBody">EMS&#160;Cloud Services customers experienced intermittent slowness when authenticating with LDAP. </p>
-                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality to reduce latency during LDAP&#160;authentication for EMS&#160;Cloud Services customers. </p>
-                        <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/Aspen/_queries?id=38324&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">38324</a><br />(For EMS&#160;Internal Use Only)</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
                         <p class="RNArea">Create a Reservation</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
                         <p class="RNTitle">Users Could Request Parts of and Whole Combo Rooms</p>
                         <p class="RNBody">When Requesting Rooms, users were able to select a combo room and its components without receiving a warning message regarding conflicts. </p>
                         <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that users can either select the combo room components or the whole combo room. Users will receive an error if they try to do both.</p>
                         <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/Aspen/_queries?id=36802&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">36802</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
                         <p class="RNArea">Responsive State</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
                         <p class="RNTitle">Reduced Menu Functionality</p>
                         <p class="RNBody">When viewing the EMS&#160;Web App on a small screen in responsive state (on a mobile device), the reduced menu that appears in the upper left-hand corner (also referred to as a hamburger menu) was auto expanding. This made working with the event impossible.</p>
                         <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that the hamburger menu does not auto expand and users can access their events on the EMS&#160;Web App in a responsive state. </p>
                         <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/Aspen/_queries?id=36862&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">36862</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
                         <p class="RNArea">Create a Reservation</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
                         <p class="RNTitle">Booking Rule Error</p>
-                        <p class="RNBody">EMS&#160;Web App users received a booking rule violation error when booking a building that is closed on the current day, even if the day of request is open.</p>
-                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that users can create a reservation on a day the building is closed if the building is open on the day of reservation and the booking complies with all booking rules, such as advanced notice.</p>
+                        <p class="RNBody">EMS&#160;Web App users received a booking rule violation error when booking a building that is closed on the current day, even if the day of the request is open.</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that users can create a reservation on a day the building is closed as long as the building is open on the day of the reservation and as long as the booking complies with all booking rules, such as advanced notice.</p>
                         <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/Aspen/_queries?id=37663&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">37663</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="RNArea">Search Functionality</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
+                        <p class="RNTitle">Latency with GetAvailability and LookupAttendee Searches</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Existing attendee lookup calls in the EMS&#160;Web App have been removed to prevent any latency. </p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/Aspen/_queries?id=38455&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">38455</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
@@ -198,21 +198,10 @@
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p class="RNArea">User-Defined Fields (UDFs)</p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
-                        <p class="RNTitle">Required UDFs Were Missing from EMS&#160;Web App Reservations</p>
-                        <p class="RNBody">Dependent required user-defined fields (UDFs)&#160;that were required were not appearing on reservations made in the EMS&#160;Web App. </p>
-                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that required UDFs appear on reservations made in the EMS&#160;Web App.</p>
-                        <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/Aspen/_queries?id=38716&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">38716</a><br />(For EMS&#160;Internal Use Only)</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
                         <p class="RNArea">Translation</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows" style="text-align: left;">
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" style="text-align: left;">
                         <p class="RNTitle">Language Translation Error</p>
                         <p class="RNBody">Translation for Polish, Spanish, Japanese, and French was not displaying correctly. </p>
                         <p class="RNBody"><span class="bold">Fix</span>:&#160;Modified functionality so that rendered pages display in the selected language. </p>

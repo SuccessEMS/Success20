@@ -61,18 +61,20 @@
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
                         <p class="RNTitle"><a name="MinimumCharacterCountAttendeeSearch"></a>Minimum Character Count for Attendee Search</p>
-                        <p class="RNBody">A new system parameter, <span class="italics">Minimum Characters to Initiate Type Ahead Search</span>, allows administrators to set the minimum character count to initiate type-ahead searches for Find Attendees on calendar-enabled templates and reservations. The default minimum character count to initiate the attendee lookup is set to 3 characters.</p>
+                        <p class="RNBody">A new system parameter, <span class="italics">Minimum Characters to Initiate Type Ahead Search</span>, allows administrators to set the minimum character count to initiate type-ahead searches for the Find Attendees field on calendar-enabled template reservations. The default minimum character count to initiate the attendee lookup is set to <span class="bold">3</span> characters.</p>
                         <p class="RNBody"><span class="bold">System Parameter</span>
                             <br /><span class="bold">Area</span>: Create/Manage Reservations<br /><span class="bold">Name</span>: Minimum Characters to Initiate Type Ahead Search<br /><span class="bold">Value</span>: Positive Integer<br /><span class="bold">Default Value</span>: 3<br /><span class="bold">Applies to EMS End Points:</span> EMS&#160;Web App</p>
+                        <p class="RNBody"><span class="bold">See Also:</span>&#160;<a href="EMSWebApp.htm#MiniumCharacterLengthforAttendeeSearch">EMS&#160;Web App U26 Release Notes</a> and <a href="../../../EMSDesktopClient/V44.1/ConfigurationGuide/EMSEverydayUserApplicationsParameters.htm#Minimum_Characters_to_Initiate_Type_Ahead_Search">Everyday User Applications Parameters</a></p>
                         <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/Aspen/_queries?id=38480&amp;_a=edit&amp;fullScreen=true&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">38480</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
                         <p class="RNTitle"><a name="ConfigureTypeAheadSearchforAttendees"></a>Configure Type-Ahead Search for Attendees</p>
-                        <p class="RNBody">A new system parameter, <span class="italics">Delay for Type Ahead Search Trigger</span>, allows administrators to set the duration after the last keystroke entry in a search field before triggering the search call for attendees on calendar-enabled templates and reservations.</p>
+                        <p class="RNBody">A new system parameter, <span class="italics">Delay for Type Ahead Search Trigger</span>, allows administrators to set the duration after the last keystroke entry in a search field before triggering the search call for attendees on calendar-enabled template reservations.</p>
                         <p class="RNBody"><span class="bold">System Parameter</span>
                             <br /><span class="bold">Area</span>: Create/Manage Reservation<br /><span class="bold">Name</span>:  Delay for Type Ahead Search Trigger (ms)<br /><span class="bold">Value Type</span>: Drop down selection - 400 ms; 600 ms 800 ms; 1000 ms<br /><span class="bold">Default Value</span>: 400 ms<br /><span class="bold">Applies to EMS End Points</span>: EMS&#160;Web App</p>
+                        <p class="RNBody"><span class="bold">See Also:</span>&#160;<a href="EMSWebApp.htm#DelayforTypeAheadSearchTrigger">EMS&#160;Web App U26 Release Notes</a> and <a href="../../../EMSDesktopClient/V44.1/ConfigurationGuide/EMSEverydayUserApplicationsParameters.htm#Delay_for_Type_Ahead_Search_Trigger">Everyday User Applications Parameters</a></p>
                         <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/Aspen/_queries?id=38482&amp;_a=edit&amp;fullScreen=true&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">38482</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
@@ -116,34 +118,6 @@
                         <p class="RNTitle">Database Optimizations for Performance Improvements</p>
                         <p class="RNBody">Added new indexes to the EMS_RES_Book_Bookings table. </p>
                         <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=39676&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">39676</a><br />(For EMS&#160;Internal Use Only)</p>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-        <h2>Fix</h2>
-        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');width: 100%;margin-left: 0;margin-right: auto;" cellspacing="0">
-            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 202px;" />
-            <col class="TableStyle-PatternedRows-Column-Regular" />
-            <thead>
-                <tr class="TableStyle-PatternedRows-Head-Header1">
-                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1" style="text-align: left;">
-                        <p class="p_6">Area</p>
-                    </th>
-                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1" style="text-align: left;">
-                        <p class="p_6">Description</p>
-                    </th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows" style="text-align: left;">
-                        <p class="RNArea">Database</p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" style="text-align: left;">
-                        <p class="RNTitle">Opening a Recurrent Booking Was Generating Errors</p>
-                        <p class="RNBody">Opening a reservation with multiple bookings from the Reservation Book or Navigator was generating errors and causing unresponsive behavior.</p>
-                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified the EMS_RES_Navigator_Bookings so that it executes in an efficient manner.</p>
-                        <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=39302&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">39302</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
             </tbody>

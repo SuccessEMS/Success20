@@ -101,29 +101,26 @@
           Title="EMS Desktop Client"
           Link="/Content/EMSDesktopClient/V43/IntroDC.htm" />
         <TocEntry
-          Title="EMS Desktop Client -- Academic Planning"
+          Title="EMS Desktop Client – Academic Planning"
           Link="/Content/EMSDesktopClient_AcademicPlanning/V43/Campus_43_Introduction.htm" />
         <TocEntry
           Title="Virtual EMS (VEMS)"
-          Link="/Content/ReleaseNotes/VirtualEMS_V43.htm" />
+          Link="/Content/WebApp/C_43/WebApp_43_Introduction.htm" />
         <TocEntry
           Title="EMS Kiosk"
           Link="/Content/EMSKioskApp/V43/Kiosk_Introv43.htm" />
         <TocEntry
           Title="EMS Glance"
-          Link="/Content/ReleaseNotes/EMSGlance_V43.htm" />
+          Link="/Content/EMSRoomSignApp/C_V43/Glance_OlderReleases.htm" />
         <TocEntry
           Title="EMS RoomWizard"
-          Link="/Content/ReleaseNotes/EMSRoomWizard_V43.htm" />
+          Link="/Content/OptionalFeatures/RoomWiz/C_V43/RoomWizard_IntroV43.htm" />
         <TocEntry
           Title="EMS API"
           Link="/Content/OptionalFeatures/EMS_API/C_V43/EMS_IntrotoV43.htm" />
         <TocEntry
           Title="CISCO TMS Integration"
           Link="/Content/OptionalFeatures/Cisco/C_V43/CISCO_IntrotoV43.htm" />
-        <TocEntry
-          Title="EMS RoomWizard"
-          Link="/Content/OptionalFeatures/RoomWiz/C_V43/RoomWizard_IntroV43.htm" />
         <TocEntry
           Title="EMS Floor Plans"
           Link="/Content/OptionalFeatures/FloorPlan/C_V43/EMSFloorPlans_IntrotoV43.htm" />

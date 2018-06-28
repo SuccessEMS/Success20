@@ -29,7 +29,7 @@
                 </td>
             </tr>
         </table>
-        <h2>Fix</h2>
+        <h2>Fixes</h2>
         <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');width: 100%;margin-left: 0;margin-right: auto;" cellspacing="0">
             <col class="TableStyle-PatternedRows-Column-Regular" style="width: 217px;" />
             <col class="TableStyle-PatternedRows-Column-Regular" style="width: 440px;" />
@@ -45,15 +45,26 @@
             </thead>
             <tbody>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
-                        <p class="RNArea">Search Functionality</p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="RNArea">LDAP&#160;Authentication</p>
+                        <p>&#160;</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" style="text-align: left;">
-                        <p class="RNTitle">
-                            <MadCap:annotation MadCap:createDate="2018-06-26T09:56:47.4781182-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="This item is on hold and may or may not be in this release. Move to the next release if this item doesn't appear in the the current release's query." MadCap:editor="Megan.Laub" MadCap:editDate="2018-06-26T09:56:48.1428209-06:00">Latency with GetAvailability and LookupAttendee Searches</MadCap:annotation>
-                        </p>
-                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Existing attendee lookup calls in the EMS&#160;Web App have been removed to prevent any latency. </p>
-                        <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/Aspen/_queries?id=38455&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">38455</a><br />(For EMS&#160;Internal Use Only)</p>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
+                        <p class="RNTitle">Intermittent Slowness Experienced During Authentication (EMS&#160;Cloud Services Customers)</p>
+                        <p class="RNBody">EMS&#160;Cloud Services customers experienced intermittent slowness when authenticating with LDAP. </p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality to reduce latency during LDAP&#160;authentication for EMS&#160;Cloud Services customers. </p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/Aspen/_queries?id=38324&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">38324</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
+                        <p class="RNArea">User-Defined Fields (UDFs)</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows" style="text-align: left;">
+                        <p class="RNTitle">Required UDFs Were Missing from EMS&#160;Web App Reservations</p>
+                        <p class="RNBody">Dependent required user-defined fields (UDFs)&#160;that were required were not appearing on reservations made in the EMS&#160;Web App. </p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that required UDFs appear on reservations made in the EMS&#160;Web App.</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/Aspen/_queries?id=38716&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">38716</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
             </tbody>
