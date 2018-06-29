@@ -57,20 +57,16 @@
         </h2>
         <table style="mc-table-style: url('../Resources/TableStyles/PatternedRows.css');width: 718px;" class="TableStyle-PatternedRows" cellspacing="0">
             <col class="TableStyle-PatternedRows-Column-Regular" style="width: 191px;" />
-            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 302px;" />
             <col class="TableStyle-PatternedRows-Column-Regular" style="width: 240px;" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
-                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1" colspan="3">*Click the linked Update Number above for more information regarding <br />enhancements and fixes for all products released during this Update.</th>
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1" colspan="3">*Click the linked Update Number above for more information regarding <br />enhancements and fixes for all products released during this Update.</th>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1" style="text-align: center;">
                         <p style="text-align: center;">Release Date</p>
                     </th>
-                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1" style="text-align: center;">Patch number</th>
-                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1" style="text-align: center;">
-                        <p style="text-align: center;">Build Number</p>
-                    </th>
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1" style="text-align: center;" colspan="2">Patch number</th>
                 </tr>
             </thead>
             <tbody>
@@ -78,15 +74,12 @@
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: center;">
                         <p style="text-align: center;">06/29/2018</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: center;">
-                        <p style="text-align: center;">XX</p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: center;">
-                        <p style="text-align: center;">XX</p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: center;" colspan="2">
+                        <p style="text-align: center;">44.1.26000.201806250</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows" style="text-align: center;" colspan="3">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows" style="text-align: center;" colspan="3">
                         <p colspan="3" style="text-align: center;"><span class="bold">See Also:</span>
                             <br /><a href="../WhatsNewV44.1.htm">What's New for Version 44.1</a>
                         </p>
@@ -115,8 +108,15 @@
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
                         <p class="RNTitle"><a name="New_Security_Role_Added"></a>New Security Role Added to EMS&#160;Desktop Client:&#160;View Reservation Summary</p>
-                        <p class="RNBody">Available through Configuration &gt; Everyday User Security Templates, the new security role allows Administrators to configure unauthenticated access for viewing reservation summary details.</p>
-                        <p class="RNBody">On the (unauthenticated user) Everyday User Security Template, authentication is not required to view the ReservationSummary page. If not selected, viewing ReservationSummary requires an authenticated session of the EMS Web App. For all other Everyday User Process Templates, the user has access to view the ReservationSummary page.  If not selected, only Owner or Delegate of the meeting can view all details of the ReservationSummary page. All other authenticated users will have access to the unauthenticated view of the ReservationSummary page.</p>
+                        <p class="RNBody">A new role, <span class="bold">View Reservation Summary</span>, has been added to everyday user security templates (accessed in the EMS&#160;Desktop Client through Configuration &gt; Everyday User Applications &gt; Everyday User Security Templates &gt; New/Edit template &gt; Roles tab). </p>
+                        <p class="RNBody">This new role relates to the reservation summary links in notification/confirmation emails. When a user clicks on a reservation summary link in an email, the EMS&#160;Web App will perform an authentication check before displaying the Reservation Summary page:&#160;</p>
+                        <ul class="RN-unorder-list">
+                            <li>If the user is the owner or a delegate of the owner for the reservation, the user can view the Reservation Summary page, even if the user has not been assigned the <span class="bold">View Reservation Summary</span> role.</li>
+                            <li>If the user has been assigned the <span class="bold">View Reservation Summary</span> role, then the user can view the Reservation Summary page.</li>
+                            <li>If the user has not been assigned the <span class="bold">View Reservation Summary</span> role, then the user cannot view the Reservation Summary page.</li>
+                        </ul>
+                        <p class="RNBody">Administrators can use this new role to limit access to reservation information from forwarded emails.  </p>
+                        <p class="RNBody">See Also:&#160;<a href="Version44.1/Update26/EMSWebApp.htm#New_Security_Role_Added">EMS&#160;Web App Release Notes Update 26</a> and <a href="../EMSDesktopClient/V44.1/ConfigurationGuide/ConfigSecTemplate.htm#View_Reservation_Summary">Assigning Roles to Users</a>.</p>
                         <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=38375&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">38375</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
