@@ -25,6 +25,7 @@
                 </td>
             </tr>
         </table>
+        <p class="box-important"><span class="boldAllCaps">Important:</span>&#160;The EMS&#160;Desktop Client enhancements listed in the table below do not require a new Desktop Client build. The enhancements are covered in the SQL Patch # 44.1.26000.201806250.</p>
         <h2>Enhancements</h2>
         <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');width: 100%;margin-left: 0;margin-right: auto;" cellspacing="0">
             <col class="TableStyle-PatternedRows-Column-Regular" style="width: 202px;" />
@@ -49,12 +50,12 @@
                         <p class="RNBody">A new role, <span class="bold">View Reservation Summary</span>, has been added to everyday user security templates (accessed in the EMS&#160;Desktop Client through Configuration &gt; Everyday User Applications &gt; Everyday User Security Templates &gt; New/Edit template &gt; Roles tab). </p>
                         <p class="RNBody">This new role relates to the reservation summary links in notification/confirmation emails. When a user clicks on a reservation summary link in an email, the EMS&#160;Web App will perform an authentication check before displaying the Reservation Summary page:&#160;</p>
                         <ul class="RN-unorder-list">
-                            <li>If the user is the owner or a delegate of the owner for the reservation, the user can view the Reservation Summary page, even if the user has not been assigned the <span class="bold">View Reservation Summary</span> role.</li>
+                            <li>If the user is the owner of the reservation, or a delegate of the owner, the user can view the Reservation Summary page, even if the user has not been assigned the <span class="bold">View Reservation Summary</span> role.</li>
                             <li>If the user has been assigned the <span class="bold">View Reservation Summary</span> role, then the user can view the Reservation Summary page.</li>
                             <li>If the user has not been assigned the <span class="bold">View Reservation Summary</span> role, then the user cannot view the Reservation Summary page.</li>
                         </ul>
                         <p class="RNBody">Administrators can use this new role to limit access to reservation information from forwarded emails.  </p>
-                        <p class="RNBody">See Also:&#160;<a href="EMSWebApp.htm#New_Security_Role_Added">EMS&#160;Web App Release Notes Update 26</a> and <a href="../../../EMSDesktopClient/V44.1/ConfigurationGuide/ConfigSecTemplate.htm#View_Reservation_Summary">Assigning Roles to Users</a>.</p>
+                        <p class="RNBody">See Also:&#160;<a href="EMSWebApp.htm#ViewReservationSummary">EMS&#160;Web App Release Notes Update 26</a> and <a href="../../../EMSDesktopClient/V44.1/ConfigurationGuide/ConfigSecTemplate.htm#View_Reservation_Summary">Assigning Roles to Users</a>.</p>
                         <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=38375&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">38375</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
@@ -98,7 +99,7 @@
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
                         <p class="RNTitle">Database Optimizations for Performance Improvements</p>
-                        <p class="RNBody">Added column stacks to improve opening the Reservation Book in EMS&#160;Desktop Client. </p>
+                        <p class="RNBody">Added column store indexes to improve opening the Reservation Book in EMS&#160;Desktop Client. </p>
                         <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=39667&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">39667</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>

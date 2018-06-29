@@ -1468,6 +1468,11 @@ ul
 	padding: 0;
 }
 
+ul ul
+{
+	list-style-image: url('../Images/Bullet2.png');
+}
+
 ul img,
 ol img
 {
@@ -1594,6 +1599,11 @@ table ul
 	list-style: url('../Images/Bullet1.png');
 	margin: 0;
 	padding: 0;
+}
+
+table ul ul
+{
+	list-style-image: url('../Images/Bullet2.png');
 }
 
 table ul img,
