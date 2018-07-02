@@ -2,24 +2,12 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="Introduction to the EMS for Outlook Window"
-    Link="/Content/EMSforOutlook/Legacy/C_User_Unknown/Outlook_UG_IntroductionEMSforOutlookWindow.html" />
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/ReleaseNotes/Version44.1/Update26/EMSDesktopClient_KnownIssues.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
   <TocEntry
-    Title="Adding Services to a Booking"
-    Link="/Content/EMSforOutlook/Legacy/C_User_Unknown/Outlook_UG_AddServicestoBooking.html" />
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/ReleaseNotes/Version44.1/Update26/EMSDesktopClient_AcadPlan_KnownIssues.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
   <TocEntry
-    Title="Enabling Exchange Caching"
-    Link="/Content/EMSforOutlook/Legacy/C_User_Unknown/Outlook_UG_EnableExchangeCaching.html" />
-  <TocEntry
-    Title="Filtering Room Searches"
-    Link="/Content/EMSforOutlook/Legacy/C_User_Unknown/Outlook_UG_FilterRoomSearches.html" />
-  <TocEntry
-    Title="Inviting People"
-    Link="/Content/EMSforOutlook/Legacy/C_User_Unknown/Outlook_UG_InvitePeople.html" />
-  <TocEntry
-    Title="Troubleshooting"
-    Link="/Content/EMSforOutlook/Legacy/C_User_Unknown/Outlook_UG_Troubleshooting.html" />
-  <TocEntry
-    Title="Viewing The Schedule"
-    Link="/Content/EMSforOutlook/Legacy/C_User_Unknown/Outlook_UG_ViewSchedule.html" />
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/ReleaseNotes/Version44.1/Update26/EMSforOutlook_KnownIssues.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
 </CatapultToc>

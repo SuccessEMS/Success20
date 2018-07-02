@@ -2,18 +2,12 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="Managed Space">
-    <TocEntry
-      Title="Configure Managed Space for Web App"
-      Link="/Content/WebApp/A_V44.1/B_ConfigurationGuide/WebApp_CG_ConfigManagedSpace.html" />
-    <TocEntry
-      Title="How Do I Configure EMS for Meeting Requests and Approvals (Managed Space)? V44.1 (EMS Desktop Client)"
-      Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/HowDoIConfigureEMSMtgReq.html" />
-    <TocEntry
-      Title="Managing Requests for Managed Space V44.1 (EMS Desktop Client)"
-      Link="/Content/EMSDesktopClient/V44.1/UserGuide/ManageReqMangedSpace.html" />
-    <TocEntry
-      Title="Guest Requests Tab V44.1 (EMS Desktop Client)"
-      Link="/Content/EMSDesktopClient/V44.1/UserGuide/GuestRequestsTab.html" />
-  </TocEntry>
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/ReleaseNotes/Version44.1/Update26/EMSWebApp_Known_Issues.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/ReleaseNotes/Version44.1/Update26/EMSKioskApp_KnownIssues.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/ReleaseNotes/Version44.1/Update26/EMSFloorPlans_Known_Issues.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
 </CatapultToc>
