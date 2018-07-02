@@ -4,7 +4,7 @@
         <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
     </head>
     <body>
-        <h1 MadCap:autonum="CHAPTER&#160;1: ">
+        <h1>
             <MadCap:concept term="V44.1" />EMS Room Sign App Known Issues (Update&#160;25)</h1>
         <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');margin-left: 0;margin-right: auto;width: 100%;" class="TableStyle-PatternedRows" cellspacing="0">
             <col class="TableStyle-PatternedRows-Column-Regular" />
@@ -22,9 +22,9 @@
             <tbody>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
-                        <p class="RNTitle">EMS Room Sign App Running on iOS 11 Devices and ArmourActive Enclosures Not Syncing
+                        <p class="RNTitle">EMS Room Sign App Running on iOS 11 Devices and ArmorActive Enclosures Not Syncing
 </p>
-                        <p>Users are required to interact/touch the EMS Room Sign App for it to start playing sounds. This causes LEDs on the ArmourActive enclosures to be out of sync or display a blue light when the EMS Room Sign App (web page) is loading.
+                        <p>Users are required to interact/touch the EMS Room Sign App for it to start playing sounds. This causes LEDs on the ArmorActive enclosures to be out of sync or display a blue light when the EMS Room Sign App (web page) is loading.
 This issue is the result of Apple making a change to the Web Audio API in iOS 11. It now requires sounds to be triggered from an explicit user action, such as a tap. Calling noteOn() from an onload event will no longer play sound. Please find more information from Apple <a href="https://developer.apple.com/library/content/documentation/AudioVideo/Conceptual/Using_HTML5_Audio_Video/PlayingandSynthesizingSounds/PlayingandSynthesizingSounds.html#//apple_ref/doc/uid/TP40009523-CH6-SW5">here</a>.
 </p>
                     </td>
