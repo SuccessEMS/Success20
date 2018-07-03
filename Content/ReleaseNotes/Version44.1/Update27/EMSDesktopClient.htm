@@ -44,7 +44,8 @@
                         <p class="RNArea">Functionality</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" style="text-align: left;">
-                        <p class="RNTitle">Enhanced Performance When Searching Large Groups </p>
+                        <p class="RNTitle">
+                            <MadCap:annotation MadCap:createDate="2018-07-03T09:23:02.2269375-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="This item was in U26-D and it also made it into the U26.1 hotfix release as item #39336. Need to ask Matt if this RN should be included with U27 or if it already went out in U26 (it wasn't in the U26 RNs)." MadCap:editor="Megan.Laub" MadCap:editDate="2018-07-03T09:26:16.4843488-06:00">Enhanced Performance When Searching Large Groups</MadCap:annotation> </p>
                         <p class="RNBody">When parameter <span class="italics">Offer Dropdown Selection of Groups</span>&#160;is set to YES, a new type-ahead search function is available for groups in the Reservation Wizard, Navigator, Browser, and Calendar. </p>
                         <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=38419&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">38419</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
@@ -54,7 +55,7 @@
         <h2>Fixes</h2>
         <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');width: 100%;margin-left: 0;margin-right: auto;" cellspacing="0">
             <col class="TableStyle-PatternedRows-Column-Regular" style="width: 202px;" />
-            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 795px;" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1" style="text-align: left;">
@@ -68,49 +69,62 @@
             <tbody>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="RNArea">Group Notifications</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="RNTitle">Group Notifications Prevented for All Buildings on Rule When One Building Had a Special&#160;Date Configured</p>
+                        <p class="RNBody">For a group notification rule configured with two or more buildings, the special dates on any of the configured buildings were preventing notifications from going out for the non-special date buildings on the notification that day. </p>
+                        <p class="RNBody">For example, both Building&#160;A and Building&#160;B share a group notification rule. Building A has July&#160;4 configured as a special date, but Building&#160;B does not, and Building&#160;B has bookings on July&#160;4. Even though Building&#160;B's bookings should trigger a group notification, the notification is not sent because of the special date configured for Building&#160;A.</p>
+                        <p class="RNBody"><span class="bold">Fix:&#160;</span>Modified functionality so that only buildings with special dates are prevented from triggering group notifications.</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=27922&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">27922</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="RNArea">Reservation Wizard</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="RNTitle">Unable to Select LDAP-Assigned  Process Templates in the   Reservation Wizard </p>
+                        <p class="RNBody">EMS&#160;Desktop Client users were unable to select LDAP-assigned process templates in the <span class="bold">Everyday User Applications</span> tab of Reservation Wizard when assigning an everyday user to a reservation. </p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that EMS&#160;Desktop Client users are able to select LDAP-assigned process templates in the <span class="bold">Everyday User Applications</span> tab of Reservation Wizard.</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=37476&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">37476</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
                         <p class="RNArea">Web Deploy</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p class="RNTitle">
-                            <MadCap:annotation MadCap:createDate="2018-06-05T15:20:37.7933671-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="This item is on hold and may or may not be in this release. Move to the next release if this item doesn't appear in the the current release's query." MadCap:editor="Megan.Laub" MadCap:editDate="2018-06-05T15:20:39.1788010-06:00">Users </MadCap:annotation>Could Not Log In When Using Windows Authentication and Connecting with Web Deploy Service</p>
+                        <p class="RNTitle">Users Could Not Log In When Using Windows Authentication and Connecting with Web Deploy Service</p>
                         <p class="RNBody">When using Windows Authentication and connecting using the Web Deploy Service, users could not log in.</p>
                         <p class="RNBodyBeforeList"><span class="bold">Fix:</span> Modified functionality so that users can log in when using Windows Authentication and connecting using the Web Deploy Service.</p>
                         <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=37999&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">37999</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNArea">Confirmation Settings</p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="RNArea">Custom Reports</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNTitle">
-                            <MadCap:annotation MadCap:createDate="2018-05-22T10:59:31.5716024-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="This item is on hold and may or may not be in this release. Move to the next release if this item doesn't appear in the the current release's query." MadCap:editor="Megan.Laub" MadCap:editDate="2018-05-25T08:28:45.6592640-06:00">Date</MadCap:annotation> Format Error When Specifying Confirmation Settings</p>
-                        <p class="RNBody">When specifying confirmation settings, if users entered the date in the format dd/mm/yyyy instead of mm/dd/yyyy, they would receive the error message <span class="italics">“Argument ‘Expression’ is not a valid value.”</span> Also, this issue sometimes prevented users from sending confirmations.</p>
-                        <p class="RNBody"><b>Fix:</b> Modified functionality so that when specifying confirmation settings, the date format dd/mm/yyyy is valid, and users can enter the date in this format without receiving an error message.</p>
-                        <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=38836&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">38836</a><br />(For EMS&#160;Internal Use Only)</p>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="RNTitle">Custom Reports Functionality Not Working in Some EMS&#160;Desktop Client Versions</p>
+                        <p class="RNBody">Custom reports functionality was not working in EMS&#160;Desktop Client version
+23.1
+or higher.</p>
+                        <p class="RNBody"><span class="bold">Fix:&#160;</span>Restored functionality so that custom reports functionality works on all&#160;Desktop Client versions.</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=38711&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">38711</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: left;">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows" style="text-align: left;">
                         <p class="RNArea">ActiveReports <br />Client Web</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
-                        <p class="RNTitle">ActiveReports Library Not Licensed</p>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" style="text-align: left;">
+                        <p class="RNTitle">
+                            <MadCap:annotation MadCap:createDate="2018-07-03T09:30:13.1795333-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="This item was part of 26-WC. Not sure if it needs to go in U27 (not currently in the query) or if this even was/will be released to the general public. It may just need to be deleted. " MadCap:editor="Megan.Laub" MadCap:editDate="2018-07-03T09:34:23.6540567-06:00">ActiveReports Library Not Licensed</MadCap:annotation>
+                        </p>
                         <p class="RNBody">When users generated a confirmation or report, a message apppeared at the bottom of the confirmation or report stating that the document was created using an evaluation version of ActiveReports and that only a licensed user may legally create reports for use in production.</p>
                         <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that the ActiveReports license is valid, and the invalid license message does not appear.</p>
                         <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=38828&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">38828</a><br />(For EMS&#160;Internal Use Only)</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNArea">Database</p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNTitle">
-                            <MadCap:annotation MadCap:createDate="2018-06-28T08:28:37.2477747-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="This item is on hold and may or may not be in this release. Move to the next release if this item doesn't appear in the the current release's query." MadCap:editor="Megan.Laub" MadCap:editDate="2018-06-28T08:28:37.8860724-06:00">Opening </MadCap:annotation>a Recurrent Booking Was Generating Errors</p>
-                        <p class="RNBody">Opening a reservation with multiple bookings from the Reservation Book or Navigator was generating errors and causing unresponsive behavior.</p>
-                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified the EMS_RES_Navigator_Bookings so that it executes in an efficient manner.</p>
-                        <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=39302&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">39302</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
             </tbody>
