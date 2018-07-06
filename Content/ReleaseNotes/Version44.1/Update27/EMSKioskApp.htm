@@ -44,6 +44,35 @@
             </thead>
             <tbody>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="RNArea">Locate a Person</p>
+                        <p>&#160;</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="RNTitle">EMS&#160;Kiosk App "Locate a Person" Results Prompt Was Misleading</p>
+                        <p class="RNBody">When using the <span class="bold">Locate a Person</span> search option on the landing page to find a person's reservations, the "your name" text in the results prompt was misleading: </p>
+                        <p class="RNBody" style="margin-left: 60px;"><span class="italics">"Here are your results for '[name]'. Choose your name to continue." </span>
+                        </p>
+                        <p class="RNBody"> The "your name" text was confusing because users may not be searching for their own reservations. They may be searching for another person's reservations or for a group's reservations. </p>
+                        <p class="RNBody"><span class="bold">Fix</span>:&#160;Modified the <span class="bold">Locate a Person</span> search results prompt so that the text is not misleading. The new prompt now states:</p>
+                        <p class="RNBody" style="margin-left: 60px;"><span class="italics">"Here are your results for '[name]'. Please select a User/Group to view reservations on behalf of.'"</span>
+                        </p>
+                        <p class="RNRef">  Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=34570&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">34570</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="RNArea">User Sessions</p>
+                        <p>&#160;</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="RNTitle">User Sessions Terminated Without Requiring Timeout/Logoff When Kiosk Profile Parameter Was Set to "Yes"</p>
+                        <p class="RNBody">When the parameter "Require Timeout/Logoff to Terminate User Session" was set to "Yes" in <a href="../../../EMSKioskApp/V44.1/ConfigurationGuide/ConfigKioskAppProfiles.htm#Require_Timeout/Logoff_to_Terminate_User_Session">Kiosk Profiles</a> <MadCap:annotation MadCap:createDate="2018-07-06T09:12:39.3383585-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="This parameter is not available for current version of software. Is it only available to Legacy and older or did the parameter availability change occur in a Kiosk 2.0 update? Need to check with Mindy." MadCap:editor="Megan.Laub" MadCap:editDate="2018-07-06T09:14:07.5898804-06:00">(Legacy version or older)</MadCap:annotation>, the EMS&#160;Kiosk app was ending user sessions when users went back to the main menu instead of ending the sessions only when users logged off or their sessions timed out.</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that when the parameter "Require Timeout/Logoff to Terminate User Session" is set to "Yes," the EMS&#160;Kiosk app does not end user sessions unless users log off or their sessions time out.</p>
+                        <p class="RNRef">  Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=36619&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">36619</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows" style="text-align: left;">
                         <p class="RNArea">Provisioning</p>
                         <p>&#160;</p>
@@ -51,7 +80,7 @@
                     <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" style="text-align: left;">
                         <p class="RNTitle">EMS&#160;Kiosk App Lost Provisioning After Session Expiration</p>
                         <p class="RNBody">After the EMS&#160;Kiosk App session expired, the Kiosk needed to be provisioned. </p>
-                        <p class="RNBody"><span class="bold">Fix</span>:&#160;Modified functionality so that the EMS&#160;Kiosk App provisioning survives token expiration.</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that the EMS&#160;Kiosk App provisioning survives token expiration.</p>
                         <p class="RNRef">  Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/Aspen/_workitems?_a=edit&amp;id=37125&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">37125</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
