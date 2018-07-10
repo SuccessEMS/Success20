@@ -87,18 +87,18 @@ mcTableFootStyle
 .TableStyle-PatternedRows
 {
 	border-collapse: separate;
-	overflow: hidden;font-size:14px;
-	border-spacing: 0px 0px; margin-bottom:20px;font-size:14px;
+	overflow: hidden;font-size: 11px;
+	border-spacing: 0px 0px; margin-bottom:20px;font-size: 11px;
 }
 
 .TableStyle-PatternedRows p,
 .TableStyle-PatternedRows td
 {
-	font-size:14px;
+	font-size: 11px;
 	padding-top: 0px;
 	padding-bottom: 0px;
 	margin-top: 0px;
-	line-height: 28px;
+	line-height: 22px;
 }
 
 .TableStyle-PatternedRows p
@@ -134,14 +134,14 @@ padding: 10px;
 	padding-bottom: 5px;
 	color: #ffffff;
 	font-family: 'Open Sans';
-	font-weight: 600;font-size:14px;
+	font-weight: 600;font-size: 11px;
 	background-color: #333333; text-align:left; text-transform:uppercase;
 }
 
 .TableStyle-PatternedRows-HeadI-Regular-Header1 p
 {
 	color: #ffffff;
-	font-family: 'Open Sans';font-size:14px;
+	font-family: 'Open Sans';font-size: 11px;
 	font-weight: 600;text-align:left; text-transform:uppercase; margin:0px; padding:0px;
 }
 
@@ -159,14 +159,14 @@ padding: 10px;
 	font-weight: 600;
 	background-color: #333333;
 	border-bottom-width: 0px;
-	border-bottom-color: #ffffff;font-size:14px;
+	border-bottom-color: #ffffff;font-size: 11px;
 	border-bottom-style: solid;text-align:left; text-transform:uppercase;
 }
 
 .TableStyle-PatternedRows-HeadE-Regular-Header1 p
 {
 	color: #ffffff;margin:0px; padding:0px;
-	font-family: 'Open Sans';font-size:14px;
+	font-family: 'Open Sans';font-size: 11px;
 	font-weight: 600;text-align:left; text-transform:uppercase;
 }
 
@@ -179,7 +179,7 @@ padding: 10px;
 	color: #ffffff;
 	font-family: 'Open Sans';
 	font-weight: 600;
-	background-color: #00008b;font-size:14px;
+	background-color: #00008b;font-size: 11px;
 	border-bottom-width: 0px;
 	border-bottom-color: #ffffff;
 	border-bottom-style: solid;text-align:left; text-transform:uppercase;
@@ -188,7 +188,7 @@ padding: 10px;
 .TableStyle-PatternedRows-HeadF-Regular-Header1 p
 {
 	color: #ffffff;
-	font-family: 'Open Sans';margin:0px; padding:0px;font-size:14px;
+	font-family: 'Open Sans';margin:0px; padding:0px;font-size: 11px;
 	font-weight: 600;text-align:left; text-transform:uppercase;
 }
 
@@ -204,14 +204,14 @@ padding: 10px;
 	color: #ffffff;
 	font-family: 'Open Sans';
 	font-weight: 600;
-	background-color: #00008b;font-size:14px;
+	background-color: #00008b;font-size: 11px;
 }
 
 .TableStyle-PatternedRows-HeadH-Regular-Header1 p
 {
 	color: #ffffff;
 	font-family: 'Open Sans';margin:0px; padding:0px;
-	font-weight: 600;text-align:left; text-transform:uppercase;font-size:14px;
+	font-weight: 600;text-align:left; text-transform:uppercase;font-size: 11px;
 }
 
 .TableStyle-PatternedRows-HeadD-Regular-Header1
@@ -226,13 +226,13 @@ padding: 10px;
 	background-color: #333333;
 	border-bottom-width: 0px;
 	border-bottom-color: #ffffff;
-	border-bottom-style: solid;font-size:14px;
+	border-bottom-style: solid;font-size: 11px;
 }
 
 .TableStyle-PatternedRows-HeadD-Regular-Header1 p
 {
 	color: #ffffff;
-	font-family: 'Open Sans';margin:0px; padding:0px;font-size:14px;
+	font-family: 'Open Sans';margin:0px; padding:0px;font-size: 11px;
 	font-weight: 600;text-align:left; text-transform:uppercase;
 }
 
@@ -252,7 +252,7 @@ padding: 10px;
 {
 	color: #ffffff;
 	font-family: 'Open Sans';
-	font-weight: 600;margin:0px; padding:0px;font-size:14px;
+	font-weight: 600;margin:0px; padding:0px;font-size: 11px;
 }
 
 .TableStyle-PatternedRows-HeadB-Regular-Header1
@@ -267,14 +267,14 @@ padding: 10px;
 	color: #ffffff;
 	font-family: 'Open Sans';
 	font-weight: 600;
-	background-color: #00008b;font-size:14px;
+	background-color: #00008b;font-size: 11px;
 }
 
 .TableStyle-PatternedRows-HeadB-Regular-Header1 p
 {
 	color: #ffffff;
 	font-family: 'Open Sans';
-	font-weight: 600;margin:0px; padding:0px;font-size:14px;
+	font-weight: 600;margin:0px; padding:0px;font-size: 11px;
 }
 
 .TableStyle-PatternedRows-HeadA-Regular-Header1
@@ -286,14 +286,14 @@ padding: 10px;
 	color: #ffffff;
 	font-family: 'Open Sans';
 	font-weight: 600;
-	background-color: #00008b;font-size:14px;
+	background-color: #00008b;font-size: 11px;
 }
 
 .TableStyle-PatternedRows-HeadA-Regular-Header1 p
 {
 	color: #ffffff;
 	font-family: 'Open Sans';
-	font-weight: 600;margin:0px; padding:0px;font-size:14px;
+	font-weight: 600;margin:0px; padding:0px;font-size: 11px;
 }
 
 .TableStyle-PatternedRows-HeadG-Regular-Header1
@@ -305,7 +305,7 @@ padding: 10px;
 	color: #ffffff;
 	font-family: 'Open Sans';
 	font-weight: 600;
-	background-color: #00008b;font-size:14px;
+	background-color: #00008b;font-size: 11px;
 }
 
 .TableStyle-PatternedRows-HeadG-Regular-Header1 p
@@ -324,14 +324,14 @@ padding: 10px;
 	color: #ffffff;
 	font-family: 'Open Sans';
 	font-weight: 600;
-	background-color: #00008b;font-size:14px;
+	background-color: #00008b;font-size: 11px;
 }
 
 .TableStyle-PatternedRows-HeadI-DarkShade-Header1 p
 {
 	color: #ffffff;
 	font-family: 'Open Sans';
-	font-weight: 600;margin:0px; padding:0px;font-size:14px;
+	font-weight: 600;margin:0px; padding:0px;font-size: 11px;
 }
 
 .TableStyle-PatternedRows-HeadE-DarkShade-Header1
@@ -349,7 +349,7 @@ padding: 10px;
 	background-color: #00008b;
 	border-bottom-width: 0px;
 	border-bottom-color: #ffffff;
-	border-bottom-style: solid;font-size:14px;
+	border-bottom-style: solid;font-size: 11px;
 }
 
 .TableStyle-PatternedRows-HeadE-DarkShade-Header1 p
@@ -371,14 +371,14 @@ padding: 10px;
 	background-color: #00008b;
 	border-bottom-width: 0px;
 	border-bottom-color: #ffffff;
-	border-bottom-style: solid;font-size:14px;
+	border-bottom-style: solid;font-size: 11px;
 }
 
 .TableStyle-PatternedRows-HeadF-DarkShade-Header1 p
 {
 	color: #ffffff;
 	font-family: 'Open Sans';
-	font-weight: 600;margin:0px; padding:0px;font-size:14px;
+	font-weight: 600;margin:0px; padding:0px;font-size: 11px;
 }
 
 .TableStyle-PatternedRows-HeadH-DarkShade-Header1
@@ -393,14 +393,14 @@ padding: 10px;
 	color: #ffffff;
 	font-family: 'Open Sans';
 	font-weight: 600;
-	background-color: #00008b;font-size:14px;
+	background-color: #00008b;font-size: 11px;
 }
 
 .TableStyle-PatternedRows-HeadH-DarkShade-Header1 p
 {
 	color: #ffffff;
 	font-family: 'Open Sans';
-	font-weight: 600;margin:0px; padding:0px;font-size:14px;
+	font-weight: 600;margin:0px; padding:0px;font-size: 11px;
 }
 
 .TableStyle-PatternedRows-HeadD-DarkShade-Header1
@@ -415,14 +415,14 @@ padding: 10px;
 	background-color: #00008b;
 	border-bottom-width: 0px;
 	border-bottom-color: #ffffff;
-	border-bottom-style: solid;font-size:14px;
+	border-bottom-style: solid;font-size: 11px;
 }
 
 .TableStyle-PatternedRows-HeadD-DarkShade-Header1 p
 {
 	color: #ffffff;
 	font-family: 'Open Sans';
-	font-weight: 600;margin:0px; padding:0px;font-size:14px;
+	font-weight: 600;margin:0px; padding:0px;font-size: 11px;
 }
 
 .TableStyle-PatternedRows-HeadC-DarkShade-Header1
@@ -434,7 +434,7 @@ padding: 10px;
 	color: #ffffff;
 	font-family: 'Open Sans';
 	font-weight: 600;
-	background-color: #00008b;font-size:14px;
+	background-color: #00008b;font-size: 11px;
 }
 
 .TableStyle-PatternedRows-HeadC-DarkShade-Header1 p
@@ -456,7 +456,7 @@ padding: 10px;
 	color: #ffffff;
 	font-family: 'Open Sans';
 	font-weight: 600;
-	background-color: #00008b;font-size:14px;
+	background-color: #00008b;font-size: 11px;
 }
 
 .TableStyle-PatternedRows-HeadB-DarkShade-Header1 p
@@ -475,14 +475,14 @@ padding: 10px;
 	color: #ffffff;
 	font-family: 'Open Sans';
 	font-weight: 600;
-	background-color: #00008b;font-size:14px;
+	background-color: #00008b;font-size: 11px;
 }
 
 .TableStyle-PatternedRows-HeadA-DarkShade-Header1 p
 {
 	color: #ffffff;
 	font-family: 'Open Sans';
-	font-weight: 600;margin:0px; padding:0px;font-size:14px;
+	font-weight: 600;margin:0px; padding:0px;font-size: 11px;
 }
 
 .TableStyle-PatternedRows-HeadG-DarkShade-Header1
@@ -494,7 +494,7 @@ padding: 10px;
 	color: #ffffff;
 	font-family: 'Open Sans';
 	font-weight: 600;
-	background-color: #00008b;font-size:14px;
+	background-color: #00008b;font-size: 11px;
 }
 
 .TableStyle-PatternedRows-HeadG-DarkShade-Header1 p
@@ -1379,38 +1379,60 @@ padding: 10px;
 	.TableStyle-PatternedRows ul
 	{
 		list-style:url('../Images/Bullet1Table.png');		
-		line-height: 20px;
+		line-height: 17px;
 		margin-top: 0px;
-		margin-left: 25px;
+		margin-left: 15px;
 		padding-top: 0px;
-		padding-bottom: 20px;
+		padding-bottom: 15px;
+	}
+	
+	.TableStyle-PatternedRow td ol
+	{	
+		list-style-type: decimal;
+		line-height: 17px;
+		margin-top: 0px;
+		margin-left: 17px;
+		padding-top: 0px;
+		padding-bottom: 15px;
 	}
 	
 	.TableStyle-PatternedRows li
 	{
-		margin-top: 10px;
+		margin-top: 5px;
 		line-height: 17px;
 		color: #666666;
-		font-size: 14px;
+		font-size: 11px;
 	}
 	
 	.TableStyle-PatternedRows ul.unorder-list li
 	{
 		list-style:url('../Images/Bullet1Table.png');		
-		line-height: 20px;
+		line-height: 17px;
 		margin-top: 0px;
-		margin-left: 25px;
+		margin-left: 15px;
 		padding-top: 0px;
-		padding-bottom: 20px;
-		font-size: 14px;
+		padding-bottom: 15px;
+		font-size: 11px;
 	}	
 		
-
-	.TableStyle-PatternedRows p a,
+	.TableStyle-PatternedRows ol.number-list li
+	{
+		line-height: 17px;
+		margin-top: 0px;
+		margin-left: 15px;
+		padding-top: 0px;
+		padding-bottom: 15px;
+		font-size: 11px;
+	}	
+	
+	.TableStyle-PatternedRows p a, .TableStyle-PatternedRows tr td ul li a,
 	.right-content a
 	{
-		font-size: 14px;
-		
+		font-size: 11px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+		padding-top: 0px;
+		padding-bottom: 0px;
 		color: #00467f;
 		font-weight: 600;
 	}
@@ -1425,7 +1447,7 @@ padding: 10px;
 	.TableStyle-PatternedRows MadCap|xref
 	{
 		color: #00467f;
-		font-size: 14px;
+		font-size: 11px;
 		mc-format: '{para}';
 		text-decoration: underline;
 		
@@ -1435,14 +1457,14 @@ padding: 10px;
 	.TableStyle-PatternedRows MadCap|xref:hover
 	{
 		color: #00467f;
-		font-size: 14px;
+		font-size: 11px;
 		text-decoration: underline;
 	}
 	
 	.TableStyle-PatternedRows ul li MadCap|xref
 	{
 		color: #00467f;
-		font-size: 14px;
+		font-size: 11px;
 		mc-format: '{para}';
 		text-decoration: underline;
 	}
@@ -1450,7 +1472,7 @@ padding: 10px;
 	.TableStyle-PatternedRows ul li MadCap|xref:hover
 	{
 		color: #00467f;
-		font-size: 14px;
+		font-size: 11px;
 		text-decoration: underline;
 	}
 
@@ -1465,7 +1487,7 @@ padding: 10px;
 {
 	border-collapse: separate;
 	overflow: hidden;font-size:12px;
-	border-spacing: 0px 0px; margin-bottom:20px;font-size:15px;
+	border-spacing: 0px 0px; margin-bottom:20px;font-size:11px;
 }
 
 .TableStyle-PatternedRows-Column-Regular
@@ -1491,7 +1513,7 @@ padding: 10px;
 	padding-bottom: 5px;
 	color: #ffffff;
 	font-family: 'Open Sans';
-	font-weight: 600;font-size:12px;
+	font-weight: 600;font-size:11px;
 	background-color: #333333; text-align:left; text-transform:uppercase;
 }
 
@@ -1516,14 +1538,14 @@ padding: 10px;
 	font-weight: 600;
 	background-color: #333333;
 	border-bottom-width: 0px;
-	border-bottom-color: #ffffff;font-size:12px;
+	border-bottom-color: #ffffff;font-size:11px;
 	border-bottom-style: solid;text-align:left; text-transform:uppercase;
 }
 
 .TableStyle-PatternedRows-HeadE-Regular-Header1 p
 {
 	color: #ffffff;margin:0px; padding:0px;
-	font-family: 'Open Sans';font-size:12px;
+	font-family: 'Open Sans';font-size:11px;
 	font-weight: 600;text-align:left; text-transform:uppercase;
 }
 
@@ -1536,7 +1558,7 @@ padding: 10px;
 	color: #ffffff;
 	font-family: 'Open Sans';
 	font-weight: 600;
-	background-color: #00008b;font-size:12px;
+	background-color: #00008b;font-size:11px;
 	border-bottom-width: 0px;
 	border-bottom-color: #ffffff;
 	border-bottom-style: solid;text-align:left; text-transform:uppercase;
@@ -1545,7 +1567,7 @@ padding: 10px;
 .TableStyle-PatternedRows-HeadF-Regular-Header1 p
 {
 	color: #ffffff;
-	font-family: 'Open Sans';margin:0px; padding:0px;font-size:12px;
+	font-family: 'Open Sans';margin:0px; padding:0px;font-size:11px;
 	font-weight: 600;text-align:left; text-transform:uppercase;
 }
 
@@ -1561,14 +1583,14 @@ padding: 10px;
 	color: #ffffff;
 	font-family: 'Open Sans';
 	font-weight: 600;
-	background-color: #00008b;font-size:12px;
+	background-color: #00008b;font-size:11px;
 }
 
 .TableStyle-PatternedRows-HeadH-Regular-Header1 p
 {
 	color: #ffffff;
 	font-family: 'Open Sans';margin:0px; padding:0px;
-	font-weight: 600;text-align:left; text-transform:uppercase;font-size:12px;
+	font-weight: 600;text-align:left; text-transform:uppercase;font-size:11px;
 }
 
 .TableStyle-PatternedRows-HeadD-Regular-Header1
@@ -1583,13 +1605,13 @@ padding: 10px;
 	background-color: #333333;
 	border-bottom-width: 0px;
 	border-bottom-color: #ffffff;
-	border-bottom-style: solid;font-size:12px;
+	border-bottom-style: solid;font-size:11px;
 }
 
 .TableStyle-PatternedRows-HeadD-Regular-Header1 p
 {
 	color: #ffffff;
-	font-family: 'Open Sans';margin:0px; padding:0px;font-size:12px;
+	font-family: 'Open Sans';margin:0px; padding:0px;font-size:11px;
 	font-weight: 600;text-align:left; text-transform:uppercase;
 }
 
@@ -1609,7 +1631,7 @@ padding: 10px;
 {
 	color: #ffffff;
 	font-family: 'Open Sans';
-	font-weight: 600;margin:0px; padding:0px;font-size:12px;
+	font-weight: 600;margin:0px; padding:0px;font-size:11px;
 }
 
 .TableStyle-PatternedRows-HeadB-Regular-Header1
@@ -1624,14 +1646,14 @@ padding: 10px;
 	color: #ffffff;
 	font-family: 'Open Sans';
 	font-weight: 600;
-	background-color: #00008b;font-size:12px;
+	background-color: #00008b;font-size:11px;
 }
 
 .TableStyle-PatternedRows-HeadB-Regular-Header1 p
 {
 	color: #ffffff;
 	font-family: 'Open Sans';
-	font-weight: 600;margin:0px; padding:0px;font-size:15px;
+	font-weight: 600;margin:0px; padding:0px;font-size:11px;
 }
 
 .TableStyle-PatternedRows-HeadA-Regular-Header1
@@ -1643,14 +1665,14 @@ padding: 10px;
 	color: #ffffff;
 	font-family: 'Open Sans';
 	font-weight: 600;
-	background-color: #00008b;font-size:12px;
+	background-color: #00008b;font-size:11px;
 }
 
 .TableStyle-PatternedRows-HeadA-Regular-Header1 p
 {
 	color: #ffffff;
 	font-family: 'Open Sans';
-	font-weight: 600;margin:0px; padding:0px;font-size:12px;
+	font-weight: 600;margin:0px; padding:0px;font-size:11px;
 }
 
 .TableStyle-PatternedRows-HeadG-Regular-Header1
@@ -1662,7 +1684,7 @@ padding: 10px;
 	color: #ffffff;
 	font-family: 'Open Sans';
 	font-weight: 600;
-	background-color: #00008b;font-size:12px;
+	background-color: #00008b;font-size:11px;
 }
 
 .TableStyle-PatternedRows-HeadG-Regular-Header1 p
@@ -1681,14 +1703,14 @@ padding: 10px;
 	color: #ffffff;
 	font-family: 'Open Sans';
 	font-weight: 600;
-	background-color: #00008b;font-size:12px;
+	background-color: #00008b;font-size:11px;
 }
 
 .TableStyle-PatternedRows-HeadI-DarkShade-Header1 p
 {
 	color: #ffffff;
 	font-family: 'Open Sans';
-	font-weight: 600;margin:0px; padding:0px;font-size:12px;
+	font-weight: 600;margin:0px; padding:0px;font-size:11px;
 }
 
 .TableStyle-PatternedRows-HeadE-DarkShade-Header1
@@ -1706,7 +1728,7 @@ padding: 10px;
 	background-color: #00008b;
 	border-bottom-width: 0px;
 	border-bottom-color: #ffffff;
-	border-bottom-style: solid;font-size:12px;
+	border-bottom-style: solid;font-size:11px;
 }
 
 .TableStyle-PatternedRows-HeadE-DarkShade-Header1 p
@@ -1728,7 +1750,7 @@ padding: 10px;
 	background-color: #00008b;
 	border-bottom-width: 0px;
 	border-bottom-color: #ffffff;
-	border-bottom-style: solid;font-size:12px;
+	border-bottom-style: solid;font-size:11px;
 }
 
 .TableStyle-PatternedRows-HeadF-DarkShade-Header1 p
@@ -1750,14 +1772,14 @@ padding: 10px;
 	color: #ffffff;
 	font-family: 'Open Sans';
 	font-weight: 600;
-	background-color: #00008b;font-size:12px;
+	background-color: #00008b;font-size:11px;
 }
 
 .TableStyle-PatternedRows-HeadH-DarkShade-Header1 p
 {
 	color: #ffffff;
 	font-family: 'Open Sans';
-	font-weight: 600;margin:0px; padding:0px;font-size:12px;
+	font-weight: 600;margin:0px; padding:0px;font-size:11px;
 }
 
 .TableStyle-PatternedRows-HeadD-DarkShade-Header1
@@ -1772,14 +1794,14 @@ padding: 10px;
 	background-color: #00008b;
 	border-bottom-width: 0px;
 	border-bottom-color: #ffffff;
-	border-bottom-style: solid;font-size:12px;
+	border-bottom-style: solid;font-size:11px;
 }
 
 .TableStyle-PatternedRows-HeadD-DarkShade-Header1 p
 {
 	color: #ffffff;
 	font-family: 'Open Sans';
-	font-weight: 600;margin:0px; padding:0px;font-size:12px;
+	font-weight: 600;margin:0px; padding:0px;font-size:11px;
 }
 
 .TableStyle-PatternedRows-HeadC-DarkShade-Header1
@@ -1791,7 +1813,7 @@ padding: 10px;
 	color: #ffffff;
 	font-family: 'Open Sans';
 	font-weight: 600;
-	background-color: #00008b;font-size:12px;
+	background-color: #00008b;font-size:11px;
 }
 
 .TableStyle-PatternedRows-HeadC-DarkShade-Header1 p
@@ -1813,7 +1835,7 @@ padding: 10px;
 	color: #ffffff;
 	font-family: 'Open Sans';
 	font-weight: 600;
-	background-color: #00008b;font-size:12px;
+	background-color: #00008b;font-size:11px;
 }
 
 .TableStyle-PatternedRows-HeadB-DarkShade-Header1 p
@@ -1832,14 +1854,14 @@ padding: 10px;
 	color: #ffffff;
 	font-family: 'Open Sans';
 	font-weight: 600;
-	background-color: #00008b;font-size:12px;
+	background-color: #00008b;font-size:11px;
 }
 
 .TableStyle-PatternedRows-HeadA-DarkShade-Header1 p
 {
 	color: #ffffff;
 	font-family: 'Open Sans';
-	font-weight: 600;margin:0px; padding:0px;font-size:12px;
+	font-weight: 600;margin:0px; padding:0px;font-size:11px;
 }
 
 .TableStyle-PatternedRows-HeadG-DarkShade-Header1
@@ -1851,7 +1873,7 @@ padding: 10px;
 	color: #ffffff;
 	font-family: 'Open Sans';
 	font-weight: 600;
-	background-color: #00008b;font-size:12px;
+	background-color: #00008b;font-size:11px;
 }
 
 .TableStyle-PatternedRows-HeadG-DarkShade-Header1 p
