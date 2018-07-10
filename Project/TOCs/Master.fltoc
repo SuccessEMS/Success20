@@ -1613,6 +1613,9 @@
         Title="Configure Custom Labels, Messages, and Images"
         Link="/Content/EMSRoomSignApp/44.1/ConfigurationGuide/CustomLabelsMessImage.html" />
       <TocEntry
+        Title="Global Settings"
+        Link="/Content/EMSRoomSignApp/44.1/ConfigurationGuide/GlobalSettings.html" />
+      <TocEntry
         Title="PDF"
         Link="/Content/EMSRoomSignApp/44.1/ConfigurationGuide/RSA_Config_PDF.pdf" />
     </TocEntry>
