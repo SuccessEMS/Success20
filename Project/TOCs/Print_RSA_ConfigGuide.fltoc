@@ -107,6 +107,13 @@
         SectionNumberReset="continue"
         VolumeNumberReset="same"
         ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Global Settings"
+        Link="/Content/EMSRoomSignApp/44.1/ConfigurationGuide/GlobalSettings.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/ChaptersLandscape8_5X11.flpgl" />
     </TocEntry>
   </TocEntry>
 </CatapultToc>
