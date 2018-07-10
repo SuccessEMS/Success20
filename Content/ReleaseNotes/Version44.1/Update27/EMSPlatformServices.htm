@@ -45,10 +45,10 @@
             </thead>
             <tbody>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
                         <p class="RNArea">Logging</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" style="text-align: left;">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
                         <p class="RNTitle">
                             <MadCap:annotation MadCap:createDate="2018-06-25T08:21:54.2609497-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="This item is on hold and may or may not be in this release. Move to the next release if this item doesn't appear in the the current release's query." MadCap:editor="Megan.Laub" MadCap:editDate="2018-06-25T08:21:55.0335431-06:00">"Always On" Detailed Logging for Error Requests</MadCap:annotation>
                         </p>
@@ -58,6 +58,19 @@
                             <li>On an erroneous request, the platform will output fine-grained logs for that request (e.g. all DEBUG/INFO log entries).</li>
                         </ul>
                         <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=35085&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">35085</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows" style="text-align: left;">
+                        <p class="RNTitle">
+                            <MadCap:annotation MadCap:createDate="2018-07-10T14:03:32.6107583-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Dev still in process. Need to check back for X seconds and final outcome of enhancement." MadCap:editor="Megan.Laub" MadCap:editDate="2018-07-10T14:05:38.0282392-06:00">SAML: Import IdP Metadata Via URL</MadCap:annotation>
+                        </p>
+                        <p class="RNBody">An endpoint to supply a URL which we load IdP metadata. Note 37475, which is to consume this URL periodically, so either this ticket or that one must tackle storing the URL.</p>
+                        <p class="RNBody">Platform should continue to successfully interact with a SAML IdP within X seconds/minutes of the IdP changing its metadata (X to be determined).</p>
+                        <p class="RNBody">Must include a configuration option to enable/disable periodic watching of the URL</p>
+                        <p class="RNBody">Note that the parameter to store the URL has already been created as "SAML_IdpMetadataURL" for TFS&#160;item 38094</p>
+                        <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=38094&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">38094</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
             </tbody>
@@ -78,11 +91,22 @@
             </thead>
             <tbody>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="RNTitle">Search Bookings Gave wrong results when searching by originalEventStartTime (bookings are from different TZ)</p>
+                        <p>Search returns only one of two bookings</p>
+                        <p>Fix: Modified functionality so that search returns two bookings in this case.</p>
+                        <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=38094&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">38958</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
                         <p class="RNArea">Skype for Business &gt; AutoDiscover URLs</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" style="text-align: left;">
-                        <p class="RNTitle">EMS&#160;Skype for Business Not Working with Internal and External AutoDiscover URLs</p>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows" style="text-align: left;">
+                        <p class="RNTitle">
+                            <MadCap:annotation MadCap:createDate="2018-07-10T14:06:14.5544113-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Check with Ankita: Should this note be in Platform or Web App or both? " MadCap:editor="Megan.Laub" MadCap:editDate="2018-07-10T14:06:38.9594955-06:00">EMS&#160;Skype for Business Not Working with Internal and External AutoDiscover URLs</MadCap:annotation>
+                        </p>
                         <p class="RNBody">For customers with internal and external AutoDiscover URLs, EMS&#160;Web App users were unable to add reservations to their Skype accounts. The reservations were created in EMS&#160;Web App, but users received the error message:&#160;"Your reservation was created, but there was a problem creating the meeting in your conferencing system."</p>
                         <p class="RNBody"><span class="bold">Fix:&#160;</span>Modified functionality so that users no longer receive an error and the reservation is added to their Skype account.</p>
                         <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=39085&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">39085</a><br />(For EMS&#160;Internal Use Only)</p>
