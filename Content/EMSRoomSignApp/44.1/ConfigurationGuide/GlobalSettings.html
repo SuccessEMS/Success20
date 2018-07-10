@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\emsroomSignApp.flmsp');" MadCap:searchable="False">
     <head>
+        <link href="../../../Resources/TableStyles/PatternedRows_ParamLG.css" rel="stylesheet" MadCap:stylesheetType="table" />
         <link href="../../../Resources/TableStyles/PatternedRows_Param.css" rel="stylesheet" MadCap:stylesheetType="table" /><title mt-export-translate="no">Configuring EMS Room Sign App</title>
         <meta name="mt-type" value="application/x.deki-text" />
         <meta name="mt-unsafe" value="true" />
@@ -1074,17 +1075,17 @@
             </tbody>
         </table>
         <h2><a name="Table"></a>EMS&#160;Room Sign App Combination Scenarios</h2>
-        <table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/TableStyles/PatternedRows_Param.css');" class="TableStyle-PatternedRows" cellspacing="0">
-            <col style="width: 256px;" class="TableStyle-PatternedRows-Column-Regular" />
-            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 230px;" />
+        <table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/TableStyles/PatternedRows_ParamLG.css');" class="TableStyle-PatternedRows" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 241px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 204px;" />
             <col class="TableStyle-PatternedRows-Column-Regular" />
             <col class="TableStyle-PatternedRows-Column-Regular" />
-            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1" colspan="2">IF YOU CHOOSE <br />these Fields . . . with these  OPTIONS . . .</th>
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">THIS IS THE RESULT . . .</th>
-                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">IF "REQUIRE AUTHENTICATION TO END BOOKING"&#160;IS SET TO YES . . .</th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">IF "REQUIRE AUTHENTICATION TO END BOOKING"&#160;IS SET TO YES . . .</th>
                     <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">IF "REQUIRE AUTHENTICATION TO ADJUST BOOKING IN PROGRESS"&#160;IS SET TO YES . . .</th>
                 </tr>
             </thead>
@@ -1098,11 +1099,11 @@
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-family: Arial;font-size: 7pt;">
                         <p>User must type in part or all of Group Name and Group Look will take over. </p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-family: Arial;font-size: 7pt;">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="font-family: Arial;font-size: 7pt;">
                         <p>Allows users to End without Look Up.</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p>Allows users to End without Look Up.</p>
+                        <p>Allows users to Adjust without Look Up.</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
@@ -1114,7 +1115,7 @@
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="font-family: Arial;font-size: 7pt;">
                         <p>User is prompted with a message  to "Swipe badge to continue."</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="font-family: Arial;font-size: 7pt;">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="font-family: Arial;font-size: 7pt;">
                         <p>N/A (Users cannot book without Badge.)</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
@@ -1130,7 +1131,7 @@
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-family: Arial;font-size: 7pt;">
                         <p>User is prompted to authenticate, not "SWIPE Badge to continue." User must manually input badge number.</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-family: Arial;font-size: 7pt;">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="font-family: Arial;font-size: 7pt;">
                         <p>User receives message to Authenticate, not Swipe Badge. User manually inputs badge number. </p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
@@ -1146,7 +1147,7 @@
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="font-family: Arial;font-size: 7pt;">
                         <p>Allows a user to manually type in a name but pulls the Group from the setting "Default Group for NO/Manual Identification."</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="font-family: Arial;font-size: 7pt;">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="font-family: Arial;font-size: 7pt;">
                         <p>Allows user to End without a Group. </p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">Allows user to Adjust without a Group. </td>
@@ -1160,7 +1161,7 @@
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-family: Arial;font-size: 7pt;">
                         <p>No Group name is requested or displayed.     The Group name pulls from the setting, "Default Group for NO/Manual Identification."</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-family: Arial;font-size: 7pt;">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="font-family: Arial;font-size: 7pt;">
                         <p>Allows user to End without a Group. </p>
                         <p>&#160;</p>
                     </td>
@@ -1177,7 +1178,7 @@
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="font-family: Arial;font-size: 7pt;">
                         <p>Must input  external reference, no password.</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="font-family: Arial;font-size: 7pt;">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="font-family: Arial;font-size: 7pt;">
                         <p>Users must input external reference. </p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
@@ -1193,7 +1194,7 @@
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-family: Arial;font-size: 7pt;">
                         <p>Must input  external reference, no password.</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-family: Arial;font-size: 7pt;">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="font-family: Arial;font-size: 7pt;">
                         <p>Users must input external reference. </p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
@@ -1209,7 +1210,7 @@
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="font-family: Arial;font-size: 7pt;">
                         <p>User must type in part or all of Group Name and Group Look will take over. </p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="font-family: Arial;font-size: 7pt;">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="font-family: Arial;font-size: 7pt;">
                         <p>Allows users to End without Look Up.</p>
                         <p>&#160;</p>
                     </td>
@@ -1226,7 +1227,7 @@
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-family: Arial;font-size: 7pt;">
                         <p>Allows users to manually type in name. Allows users to manually type in name. However, the Group will default to what has been set as "Default Group for No/Manual Identification."&#160;</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-family: Arial;font-size: 7pt;">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="font-family: Arial;font-size: 7pt;">
                         <p>Allows user to End without a Group.</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
@@ -1242,7 +1243,7 @@
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="font-family: Arial;font-size: 7pt;">
                         <p>No Group name is requested or displayed. The Group name defaults to what is set as "Default Group for No/Manual Identification."</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="font-family: Arial;font-size: 7pt;">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="font-family: Arial;font-size: 7pt;">
                         <p>Allows user to End without a Group.</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
@@ -1258,7 +1259,7 @@
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-family: Arial;font-size: 7pt;">
                         <p>User must input the Group's email address or contact; no password is required. </p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-family: Arial;font-size: 7pt;">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="font-family: Arial;font-size: 7pt;">
                         <p>User must input email address of Everyday User. </p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
@@ -1274,7 +1275,7 @@
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="font-family: Arial;font-size: 7pt;">
                         <p>User must input the Group's email address or contact; no password is required. </p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="font-family: Arial;font-size: 7pt;">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="font-family: Arial;font-size: 7pt;">
                         <p>User must input email address of Everyday User. </p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
@@ -1291,7 +1292,7 @@
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-family: Arial;font-size: 7pt;">
                         <p>User must type in part or all of Group Name and Group Look will take over. </p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-family: Arial;font-size: 7pt;">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="font-family: Arial;font-size: 7pt;">
                         <p>Allows users to End without Look Up.</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">Allows users to Adjust without Look Up.</td>
@@ -1305,7 +1306,7 @@
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="font-family: Arial;font-size: 7pt;">
                         <p>Allows users to manually type in name. However, the Group will default to what has been set as "Default Group for No/Manual Identification."&#160;</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="font-family: Arial;font-size: 7pt;">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="font-family: Arial;font-size: 7pt;">
                         <p>Allows user to End without a Group.</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
@@ -1321,7 +1322,7 @@
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-family: Arial;font-size: 7pt;">
                         <p>No Group name is requested or displayed. The Group name defaults to what is set as "Default Group for No/Manual Identification."</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-family: Arial;font-size: 7pt;">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="font-family: Arial;font-size: 7pt;">
                         <p>Allows user to End without a Group.</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
@@ -1337,7 +1338,7 @@
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="font-family: Arial;font-size: 7pt;">
                         <p>User must input Network ID of Group.</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="font-family: Arial;font-size: 7pt;">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="font-family: Arial;font-size: 7pt;">
                         <p>Must input Network ID of Group. </p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
@@ -1353,7 +1354,7 @@
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-family: Arial;font-size: 7pt;">
                         <p>User must input Network ID of Group.</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-family: Arial;font-size: 7pt;">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="font-family: Arial;font-size: 7pt;">
                         <p>Must input Network ID of Group. </p>
                         <p>&#160;</p>
                     </td>
@@ -1371,7 +1372,7 @@
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="font-family: Arial;font-size: 7pt;">
                         <p>User must type in part or all of Group Name and Group Look will take over. </p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="font-family: Arial;font-size: 7pt;">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="font-family: Arial;font-size: 7pt;">
                         <p>Allows user to End without a Lookup.</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">Allows user to Adjust without a Lookup.</td>
@@ -1385,7 +1386,7 @@
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-family: Arial;font-size: 7pt;">
                         <p>Allows users to manually type in name. However, the Group will default to what has been set as "Default Group for No/Manual Identification."&#160;</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-family: Arial;font-size: 7pt;">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="font-family: Arial;font-size: 7pt;">
                         <p>Allows user to End without a Group.</p>
                         <p>&#160;</p>
                     </td>
@@ -1402,7 +1403,7 @@
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="font-family: Arial;font-size: 7pt;">
                         <p>No Group name is requested or displayed.     The Group name pulls from the setting, "Default Group for NO/Manual Identification."</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="font-family: Arial;font-size: 7pt;">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="font-family: Arial;font-size: 7pt;">
                         <p>Allows user to End without a Group.</p>
                         <p>&#160;</p>
                     </td>
@@ -1420,8 +1421,12 @@
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-family: Arial;font-size: 7pt;">
                         <p>User must input Other ID&#160;of Group. </p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-family: Arial;font-size: 7pt;">&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="font-family: Arial;font-size: 7pt;">
+                        <p>Must input Network ID of Group. </p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>Must input Network ID of Group. </p>
+                    </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="font-family: Arial;font-size: 7pt;" colspan="2">
@@ -1432,8 +1437,12 @@
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="font-family: Arial;font-size: 7pt;">
                         <p>User must input Other ID&#160;of Group. </p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="font-family: Arial;font-size: 7pt;">&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="font-family: Arial;font-size: 7pt;">
+                        <p>Must input Network ID of Group. </p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>Must input Network ID of Group. </p>
+                    </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-family: Arial;font-size: 7pt;" colspan="2">
@@ -1444,8 +1453,11 @@
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-family: Arial;font-size: 7pt;">
                         <p>User must type in part or all of Group Name and Group Look will take over.</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-family: Arial;font-size: 7pt;">&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="font-family: Arial;font-size: 7pt;">
+                        <p>Allows users to End without Look Up.</p>
+                        <p>&#160;</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">Allows users to Adjust without Look Up.</td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="font-family: Arial;font-size: 7pt;" colspan="2">
@@ -1456,8 +1468,10 @@
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="font-family: Arial;font-size: 7pt;">
                         <p>Allows users to manually type in name. However, the Group will default to what has been set as "Default Group for No/Manual Identification." </p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="font-family: Arial;font-size: 7pt;">&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="font-family: Arial;font-size: 7pt;">
+                        <p>Allows user to End without a Group.</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">Allows user to Adjust without a Group.</td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-family: Arial;font-size: 7pt;" colspan="2">
@@ -1468,8 +1482,14 @@
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-family: Arial;font-size: 7pt;">
                         <p>No Group name is requested or displayed. The Group name pulls from the setting, "Default Group for NO/Manual Identification."</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-family: Arial;font-size: 7pt;">&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="font-family: Arial;font-size: 7pt;">
+                        <p>Allows user to End without a Group.</p>
+                        <p>&#160;</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>Allows user to Adjust without a Group.</p>
+                        <p>&#160;</p>
+                    </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="font-family: Arial;font-size: 7pt;" colspan="2">
@@ -1480,7 +1500,7 @@
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="font-family: Arial;font-size: 7pt;">
                         <p>User must input Other ID&#160;of Group. </p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="font-family: Arial;font-size: 7pt;">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="font-family: Arial;font-size: 7pt;">&#160;</td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">&#160;</td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
@@ -1492,7 +1512,7 @@
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-family: Arial;font-size: 7pt;">
                         <p>User must input Other ID&#160;of Group. </p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-family: Arial;font-size: 7pt;">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="font-family: Arial;font-size: 7pt;">&#160;</td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">&#160;</td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
@@ -1504,7 +1524,7 @@
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="font-family: Arial;font-size: 7pt;">
                         <p>User must type in part or all of Group Name and Group Look will take over.</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="font-family: Arial;font-size: 7pt;">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="font-family: Arial;font-size: 7pt;">&#160;</td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">&#160;</td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
@@ -1516,7 +1536,7 @@
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-family: Arial;font-size: 7pt;">
                         <p>Allows users to manually type in name. However, the Group will default to what has been set as "Default Group for No/Manual Identification." </p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-family: Arial;font-size: 7pt;">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="font-family: Arial;font-size: 7pt;">&#160;</td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">&#160;</td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
@@ -1528,7 +1548,7 @@
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="font-family: Arial;font-size: 7pt;">
                         <p>No Group name is requested or displayed. The Group name pulls from the setting, "Default Group for NO/Manual Identification."</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="font-family: Arial;font-size: 7pt;">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="font-family: Arial;font-size: 7pt;">&#160;</td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">&#160;</td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
@@ -1540,7 +1560,7 @@
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-family: Arial;font-size: 7pt;">
                         <p>User must input Other ID&#160;of Group. </p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-family: Arial;font-size: 7pt;">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="font-family: Arial;font-size: 7pt;">&#160;</td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">&#160;</td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
@@ -1552,7 +1572,7 @@
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="font-family: Arial;font-size: 7pt;">
                         <p>User must input Other ID&#160;of Group. </p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="font-family: Arial;font-size: 7pt;">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="font-family: Arial;font-size: 7pt;">&#160;</td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">&#160;</td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
@@ -1564,44 +1584,35 @@
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-family: Arial;font-size: 7pt;">
                         <p>User must type in part or all of Group Name and Group Look will take over.</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-family: Arial;font-size: 7pt;">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="font-family: Arial;font-size: 7pt;">&#160;</td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">&#160;</td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="font-family: Arial;font-size: 7pt;" colspan="2">
+                        <p style="font-size: ;">Group Authentication  Field = <span class="bold">Everyday User Email/Password</span></p>
+                        <p style="font-size: ;">Group Authentication  Method = <span class="bold">Group</span></p>
+                        <p style="font-size: ;">Group Identification Method = <span class="bold">Manual Input</span></p>
+                    </td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="font-family: Arial;font-size: 7pt;">
-                        <p style="font-size: 7pt;">Group Authentication  Field</p>
-                        <p style="font-size: 7pt;">Group Authentication  Method</p>
-                        <p style="font-size: 7pt;">Group Identification Method</p>
+                        <p style="font-size: 7pt;"><span style="font-size: ;">Allows users to manually type in name. However, the Group will default to what has been set as "Default Group for No/Manual Identification." </span>
+                        </p>
                         <p style="font-size: 7pt;">&#160;</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="font-family: Arial;font-size: 7pt;">
-                        <p style="font-size: 7pt;">Everyday User Email/Password</p>
-                        <p style="font-size: 7pt;">Group</p>
-                        <p style="font-size: 7pt;">Manual Input</p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="font-family: Arial;font-size: 7pt;">
-                        <p style="font-size: 7pt;"><span style="font-size: 8pt;">Allows users to manually type in name. However, the Group will default to what has been set as "Default Group for No/Manual Identification." </span>
-                        </p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="font-family: Arial;font-size: 7pt;">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="font-family: Arial;font-size: 7pt;">&#160;</td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">&#160;</td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows" style="font-family: Arial;font-size: 8pt;">
-                        <p style="font-size: 8pt;">Group Authentication  Field</p>
-                        <p style="font-size: 8pt;">Group Authentication  Method</p>
-                        <p style="font-size: 8pt;">Group Identification Method</p>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows" style="font-family: Arial;font-size: 8pt;" colspan="2">
+                        <p style="font-size: ;">Group Authentication  Field = <span class="bold">Everyday User Email/Password</span></p>
+                        <p style="font-size: ;">Group Authentication  Method = <span class="bold">Group</span></p>
+                        <p style="font-size: ;">Group Identification Method = <span class="bold">No Identification</span></p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows" style="font-family: Arial;font-size: 8pt;">
-                        <p style="font-size: 8pt;">Everyday User Email/Password</p>
-                        <p style="font-size: 8pt;">Group</p>
-                        <p style="font-size: 8pt;">No Identification</p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows" style="font-family: Arial;font-size: 8pt;">
-                        <p style="font-size: 7pt;"><span style="font-size: 8pt;">No Group name is requested or displayed. The Group name pulls from the setting, "Default Group for NO/Manual Identification."</span>
+                        <p style="font-size: 7pt;"><span style="font-size: ;">No Group name is requested or displayed. The Group name pulls from the setting, "Default Group for NO/Manual Identification."</span>
                         </p>
+                        <p style="font-size: 7pt;">&#160;</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows" style="font-family: Arial;font-size: 7pt;">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" style="font-family: Arial;font-size: 7pt;">&#160;</td>
                     <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">&#160;</td>
                 </tr>
             </tbody>
