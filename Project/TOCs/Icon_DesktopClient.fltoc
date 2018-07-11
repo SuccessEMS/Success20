@@ -26,6 +26,9 @@
         Title="Downgrade the EMS Desktop Client Web Deploy"
         Link="/Content/EMSDesktopClient/V44.1/InstallationGuide/DowngradeWebDeploy.htm" />
       <TocEntry
+        Title="Switching Between Environments in the EMS Desktop Client Web Deploy"
+        Link="/Content/EMSDesktopClient/V44.1/InstallationGuide/SwitchingBetweenEnvironments.htm" />
+      <TocEntry
         Title="Installing Custom Reports in EMS Desktop Client"
         Link="/Content/EMSDesktopClient/V44.1/InstallationGuide/InstallCustomReport.html" />
       <TocEntry
