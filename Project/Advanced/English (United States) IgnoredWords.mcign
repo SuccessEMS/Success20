@@ -212,5 +212,6 @@
     <Word Comment="">NetworkID</Word>
     <Word Comment="">EMS\username</Word>
     <Word Comment="">tblRegistry</Word>
-    <Word>SHA1</Word>
+    <Word Comment="">SHA1</Word>
+    <Word>OpenID</Word>
 </IgnoredWordsDictionary>

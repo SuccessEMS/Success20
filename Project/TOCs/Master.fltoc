@@ -1898,6 +1898,9 @@
           Title="Portal Authentication Methods"
           Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_PortalAuthenMethods.html" />
       </TocEntry>
+      <TocEntry
+        Title="SAML"
+        Link="/Content/EMSMobileApp/InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_SAMLAuthen.html" />
     </TocEntry>
   </TocEntry>
   <TocEntry
