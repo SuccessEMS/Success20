@@ -292,7 +292,7 @@
       ChapterNumberReset="continue" />
     <TocEntry
       Title="Portal or Federated Authentication"
-      Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_PortalFederatedAuthen.html"
+      Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/PortalFederatedAuthen.html"
       BreakType="chapter"
       PageNumberReset="continue"
       PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"

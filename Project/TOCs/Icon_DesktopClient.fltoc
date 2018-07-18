@@ -1888,7 +1888,7 @@
             Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_LDAPAuthentication.html" />
           <TocEntry
             Title="Portal or Federated Authentication"
-            Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_PortalFederatedAuthen.html">
+            Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/PortalFederatedAuthen.html">
             <TocEntry
               Title="Portal Authentication Methods"
               Link="/Content/Authentication/PortalAuthMethods.html" />
@@ -2114,7 +2114,7 @@
           Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_LDAPAuthentication.html" />
         <TocEntry
           Title="Portal or Federated Authentication"
-          Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_PortalFederatedAuthen.html">
+          Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/PortalFederatedAuthen.html">
           <TocEntry
             Title="Portal Authentication Methods"
             Link="/Content/Authentication/PortalAuthMethods.html" />
