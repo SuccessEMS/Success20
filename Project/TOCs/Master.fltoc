@@ -791,18 +791,14 @@
       Title="Authentication Options"
       Link="/Content/Authentication/EMSAuthenticationMethods.htm">
       <TocEntry
-        Title="Introduction"
-        Link="/Content/Authentication/IntroEMSIntegratedAuth.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
-        <TocEntry
-          Title="Integrated Authentication Considerations"
-          Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_IntegratedAuthenticationConsid.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-      </TocEntry>
-      <TocEntry
         Title="Integrated Windows Authentication"
-        Link="/Content/Authentication/WindowsAuthen.html">
+        Link="/Content/Authentication/IntroEMSIntegratedAuth.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
         <TocEntry
           Title="Manage Everyday Users For Integrated Authentication"
           Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_ManageEUforIntegAuthen.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Integrated Authentication Considerations"
+          Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_IntegratedAuthenticationConsid.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       </TocEntry>
       <TocEntry
         Title="LDAP Authentication"
@@ -817,6 +813,12 @@
       <TocEntry
         Title="SAML"
         Link="/Content/Authentication/SAMLAuthen.html" />
+      <TocEntry
+        Title="NTLM Windows Authentication"
+        Link="/Content/Authentication/NTLMWindowsAuthentication.html" />
+      <TocEntry
+        Title="EMS Native Authentication"
+        Link="/Content/Authentication/EMSNativeAuthen.html" />
     </TocEntry>
     <TocEntry
       Title="EMS Desktop Client"
@@ -1535,27 +1537,17 @@
       Title="EMS for Microsoft Outlook"
       Link="/Content/EMSforOutlook/ConfigurationGuide/ConfigOutlookOverview.htm">
       <TocEntry
-        Title="Configure EMS for Outlook"
-        Link="/Content/EMSforOutlook/ConfigurationGuide/ConfigforOutlook.htm" />
-      <TocEntry
-        Title="Integrated Authentication Options for EMS for Outlook Add-in">
+        Title="Integrated Authentication Options for EMS for Outlook Add-in"
+        Link="/Content/Authentication/IntroEMSIntegratedAuth.htm">
         <TocEntry
-          Title="Introduction"
-          Link="/Content/Authentication/IntroEMSIntegratedAuth.htm">
-          <TocEntry
-            Title="Integrated Authentication Considerations"
-            Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_IntegratedAuthenticationConsid.htm" />
-        </TocEntry>
+          Title="Integrated Authentication Considerations"
+          Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_IntegratedAuthenticationConsid.htm" />
         <TocEntry
-          Title="Integrated Windows Authentication"
-          Link="/Content/Authentication/WindowsAuthen.html">
-          <TocEntry
-            Title="Manage Everyday Users For Integrated Authentication"
-            Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_ManageEUforIntegAuthen.htm" />
-        </TocEntry>
+          Title="Manage Everyday Users For Integrated Authentication"
+          Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_ManageEUforIntegAuthen.htm" />
         <TocEntry
           Title="LDAP Authentication"
-          Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/LDAPAuth_MobileandWeb.html" />
+          Link="/Content/Authentication/LDAPAuthen.html" />
         <TocEntry
           Title="Portal or Federated Authentication"
           Link="/Content/Authentication/PortalFederatedAuthen.html">
@@ -1564,6 +1556,9 @@
             Link="/Content/Authentication/PortalAuthMethods.html" />
         </TocEntry>
       </TocEntry>
+      <TocEntry
+        Title="Configure EMS for Outlook"
+        Link="/Content/EMSforOutlook/ConfigurationGuide/ConfigforOutlook.htm" />
       <TocEntry
         Title="PDF"
         Link="/Content/EMSforOutlook/ConfigurationGuide/Outlook_Config_PDF.pdf" />

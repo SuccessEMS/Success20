@@ -2,6 +2,6 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="Configuring Exchange Room Integration (ERI) V44.1"
-    Link="/Content/Integrations/ExchangeRoomIntegration/ConfigurationGuide/ConfigERI.html" />
+    Title="AuthenticationMethods"
+    Link="/Content/Authentication/EMSAuthenticationMethods.htm" />
 </CatapultToc>
