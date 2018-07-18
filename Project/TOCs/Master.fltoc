@@ -408,7 +408,7 @@
           Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/IntegAuthenforMC.html">
           <TocEntry
             Title="Portal Authentication Methods"
-            Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/PortalAuthMethods.html" />
+            Link="/Content/Authentication/PortalAuthMethods.html" />
         </TocEntry>
       </TocEntry>
       <TocEntry
@@ -582,7 +582,7 @@
             Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_PortalFederatedAuthen.html">
             <TocEntry
               Title="Portal Authentication Methods"
-              Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/PortalAuthMethods.html" />
+              Link="/Content/Authentication/PortalAuthMethods.html" />
           </TocEntry>
         </TocEntry>
         <TocEntry
@@ -1518,7 +1518,7 @@
           Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_PortalFederatedAuthen.html">
           <TocEntry
             Title="Portal Authentication Methods"
-            Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/PortalAuthMethods.html" />
+            Link="/Content/Authentication/PortalAuthMethods.html" />
         </TocEntry>
         <TocEntry
           Title="EMS Mobile App Authentication Options"
@@ -1559,7 +1559,7 @@
           Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_PortalFederatedAuthen.html">
           <TocEntry
             Title="Portal Authentication Methods"
-            Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/PortalAuthMethods.html" />
+            Link="/Content/Authentication/PortalAuthMethods.html" />
         </TocEntry>
       </TocEntry>
       <TocEntry
@@ -1896,7 +1896,7 @@
         Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_PortalFederatedAuthen.html">
         <TocEntry
           Title="Portal Authentication Methods"
-          Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/PortalAuthMethods.html" />
+          Link="/Content/Authentication/PortalAuthMethods.html" />
       </TocEntry>
       <TocEntry
         Title="SAML"

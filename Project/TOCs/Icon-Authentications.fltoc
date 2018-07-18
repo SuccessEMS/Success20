@@ -106,7 +106,7 @@
       ChapterNumberReset="continue"></TocEntry>
     <TocEntry
       Title="Portal Authentication Methods"
-      Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/PortalAuthMethods.html"
+      Link="/Content/Authentication/PortalAuthMethods.html"
       BreakType="chapter"
       AutoEndOnLeftPage="disabled"
       StartSection="false"
