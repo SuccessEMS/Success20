@@ -264,7 +264,7 @@
       ChapterNumberReset="continue" />
     <TocEntry
       Title="Integrated Windows Authentication"
-      Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/WindowsAuthen.html"
+      Link="/Content/Authentication/WindowsAuthen.html"
       BreakType="chapter"
       PageNumberReset="continue"
       PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
@@ -301,7 +301,7 @@
       ChapterNumberReset="continue">
       <TocEntry
         Title="Portal Authentication Methods"
-        Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_PortalAuthenMethods.html"
+        Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/PortalAuthMethods.html"
         BreakType="chapter"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"

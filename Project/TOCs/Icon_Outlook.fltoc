@@ -40,7 +40,7 @@
         </TocEntry>
         <TocEntry
           Title="Integrated Windows Authentication"
-          Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/WindowsAuthen.html">
+          Link="/Content/Authentication/WindowsAuthen.html">
           <TocEntry
             Title="Manage Everyday Users For Integrated Authentication"
             Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_ManageEUforIntegAuthen.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
@@ -53,7 +53,7 @@
           Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_PortalFederatedAuthen.html">
           <TocEntry
             Title="Portal Authentication Methods"
-            Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_PortalAuthenMethods.html" />
+            Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/PortalAuthMethods.html" />
         </TocEntry>
       </TocEntry>
       <TocEntry
