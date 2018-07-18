@@ -558,11 +558,10 @@
           Title="Upload, Configure, and View Floor Plans"
           Link="/Content/OptionalFeatures/FloorPlan/A_V44.1/InstallationGuide/UploadConfigViewFP.htm" />
         <TocEntry
-          Title="Integrated Authentication Options"
-          Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_IntegratedAuthenOptions.html">
+          Title="Integrated Authentication Options">
           <TocEntry
             Title="Introduction"
-            Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_Introduction.htm">
+            Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntroEMSIntegratedAuth.htm">
             <TocEntry
               Title="Integrated Authentication Considerations"
               Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_IntegratedAuthenticationConsid.htm" />
@@ -576,10 +575,10 @@
           </TocEntry>
           <TocEntry
             Title="LDAP Authentication"
-            Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_LDAPAuthentication.html" />
+            Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/LDAPAuth_MobileandWeb.html" />
           <TocEntry
             Title="Portal or Federated Authentication"
-            Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/PortalFederatedAuthen.html">
+            Link="/Content/Authentication/PortalFederatedAuthen.html">
             <TocEntry
               Title="Portal Authentication Methods"
               Link="/Content/Authentication/PortalAuthMethods.html" />
@@ -1494,11 +1493,10 @@
           Link="/Content/Authentication/NTLMWindowsAuthentication.html" />
       </TocEntry>
       <TocEntry
-        Title="Integrated Authentication Options"
-        Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_IntegratedAuthenOptions.html">
+        Title="Integrated Authentication Options">
         <TocEntry
           Title="Introduction"
-          Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_Introduction.htm">
+          Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntroEMSIntegratedAuth.htm">
           <TocEntry
             Title="Integrated Authentication Considerations"
             Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_IntegratedAuthenticationConsid.htm" />
@@ -1512,10 +1510,10 @@
         </TocEntry>
         <TocEntry
           Title="LDAP Authentication"
-          Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_LDAPAuthentication.html" />
+          Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/LDAPAuth_MobileandWeb.html" />
         <TocEntry
           Title="Portal or Federated Authentication"
-          Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/PortalFederatedAuthen.html">
+          Link="/Content/Authentication/PortalFederatedAuthen.html">
           <TocEntry
             Title="Portal Authentication Methods"
             Link="/Content/Authentication/PortalAuthMethods.html" />
@@ -1535,11 +1533,10 @@
         Title="Configure EMS for Outlook"
         Link="/Content/EMSforOutlook/ConfigurationGuide/ConfigforOutlook.htm" />
       <TocEntry
-        Title="Integrated Authentication Options for EMS for Outlook Add-in"
-        Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_IntegratedAuthenOptions.html">
+        Title="Integrated Authentication Options for EMS for Outlook Add-in">
         <TocEntry
           Title="Introduction"
-          Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_Introduction.htm">
+          Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntroEMSIntegratedAuth.htm">
           <TocEntry
             Title="Integrated Authentication Considerations"
             Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_IntegratedAuthenticationConsid.htm" />
@@ -1553,10 +1550,10 @@
         </TocEntry>
         <TocEntry
           Title="LDAP Authentication"
-          Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_LDAPAuthentication.html" />
+          Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/LDAPAuth_MobileandWeb.html" />
         <TocEntry
           Title="Portal or Federated Authentication"
-          Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/PortalFederatedAuthen.html">
+          Link="/Content/Authentication/PortalFederatedAuthen.html">
           <TocEntry
             Title="Portal Authentication Methods"
             Link="/Content/Authentication/PortalAuthMethods.html" />
@@ -1872,11 +1869,10 @@
         Link="/Content/GoogleSuiteIntegration/Config.htm" />
     </TocEntry>
     <TocEntry
-      Title="Authentication Options"
-      Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_IntegratedAuthenOptions.html">
+      Title="Authentication Options">
       <TocEntry
         Title="Introduction"
-        Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_Introduction.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+        Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntroEMSIntegratedAuth.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
         <TocEntry
           Title="Integrated Authentication Considerations"
           Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_IntegratedAuthenticationConsid.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
@@ -1890,10 +1886,10 @@
       </TocEntry>
       <TocEntry
         Title="LDAP Authentication"
-        Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_LDAPAuthentication.html" />
+        Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/LDAPAuth_MobileandWeb.html" />
       <TocEntry
         Title="Portal or Federated Authentication"
-        Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/PortalFederatedAuthen.html">
+        Link="/Content/Authentication/PortalFederatedAuthen.html">
         <TocEntry
           Title="Portal Authentication Methods"
           Link="/Content/Authentication/PortalAuthMethods.html" />
@@ -2896,7 +2892,7 @@
       </TocEntry>
       <TocEntry
         Title="What is Integrated Authentication"
-        Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_Introduction.htm">
+        Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntroEMSIntegratedAuth.htm">
         <TocEntry
           Title="[%=System.LinkedTitle%]"
           Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_IntegratedAuthenticationConsid.htm" />

@@ -6,7 +6,7 @@
     Link="/Content/Authentication.htm">
     <TocEntry
       Title="Introduction"
-      Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_Introduction.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntroEMSIntegratedAuth.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
       BreakType="chapter"
       AutoEndOnLeftPage="disabled"
       StartSection="false"
@@ -95,7 +95,7 @@
       ChapterNumberReset="continue" />
     <TocEntry
       Title="Portal or Federated Authentication"
-      Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/PortalFederatedAuthen.html"
+      Link="/Content/Authentication/PortalFederatedAuthen.html"
       BreakType="chapter"
       AutoEndOnLeftPage="disabled"
       StartSection="false"

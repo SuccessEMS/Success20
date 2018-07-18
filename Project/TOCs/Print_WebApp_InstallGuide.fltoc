@@ -226,7 +226,6 @@
   </TocEntry>
   <TocEntry
     Title="Integrated Authentication Options"
-    Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_IntegratedAuthenOptions.html"
     BreakType="chapter"
     StartSection="false"
     PageNumberReset="continue"
@@ -236,7 +235,7 @@
     ChapterNumberReset="continue">
     <TocEntry
       Title="Introduction"
-      Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_Introduction.htm"
+      Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntroEMSIntegratedAuth.htm"
       BreakType="chapter"
       PageNumberReset="continue"
       PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
@@ -283,7 +282,7 @@
     </TocEntry>
     <TocEntry
       Title="LDAP Authentication"
-      Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_LDAPAuthentication.html"
+      Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/LDAPAuth_MobileandWeb.html"
       BreakType="chapter"
       PageNumberReset="continue"
       PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
@@ -292,7 +291,7 @@
       ChapterNumberReset="continue" />
     <TocEntry
       Title="Portal or Federated Authentication"
-      Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/PortalFederatedAuthen.html"
+      Link="/Content/Authentication/PortalFederatedAuthen.html"
       BreakType="chapter"
       PageNumberReset="continue"
       PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"

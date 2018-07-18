@@ -29,11 +29,10 @@
           Link="/Content/EMSforOutlook/InstallationGuide/WhereExchServURLVerNum.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       </TocEntry>
       <TocEntry
-        Title="Integrated Authentication Options"
-        Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_IntegratedAuthenOptions.html">
+        Title="Integrated Authentication Options">
         <TocEntry
           Title="Introduction"
-          Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_Introduction.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+          Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntroEMSIntegratedAuth.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
           <TocEntry
             Title="Integrated Authentication Considerations"
             Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_IntegratedAuthenticationConsid.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
@@ -47,10 +46,10 @@
         </TocEntry>
         <TocEntry
           Title="LDAP Authentication"
-          Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_LDAPAuthentication.html" />
+          Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/LDAPAuth_MobileandWeb.html" />
         <TocEntry
           Title="Portal or Federated Authentication"
-          Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/PortalFederatedAuthen.html">
+          Link="/Content/Authentication/PortalFederatedAuthen.html">
           <TocEntry
             Title="Portal Authentication Methods"
             Link="/Content/Authentication/PortalAuthMethods.html" />
