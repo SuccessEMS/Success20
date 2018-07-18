@@ -235,7 +235,7 @@
       ChapterNumberReset="continue" />
     <TocEntry
       Title="SAML Authentication"
-      Link="/Content/EMSMobileApp/InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_SAMLAuthen.html"
+      Link="/Content/EMSMobileApp/InstallationGuide/Mobile_SetUpMobileAuthen/SAMLAuthen.html"
       BreakType="chapter"
       AutoEndOnLeftPage="disabled"
       StartSection="false"
@@ -358,7 +358,7 @@
     ChapterNumberReset="continue" />
   <TocEntry
     Title="[%=System.LinkedTitle%]"
-    Link="/Content/EMSRoomSignApp/44.1/InstallationGuide/Authentication.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    Link="/Content/EMSRoomSignApp/44.1/ConfigurationGuide/Authentication.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
     BreakType="chapter"
     AutoEndOnLeftPage="disabled"
     StartSection="false"

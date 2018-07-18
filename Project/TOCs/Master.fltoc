@@ -353,7 +353,7 @@
         Link="/Content/EMSRoomSignApp/44.1/InstallationGuide/BestPractices.htm" />
       <TocEntry
         Title="Authentication Settings"
-        Link="/Content/EMSRoomSignApp/44.1/InstallationGuide/Authentication.htm" />
+        Link="/Content/EMSRoomSignApp/44.1/ConfigurationGuide/Authentication.htm" />
       <TocEntry
         Title="Install EMS Room Sign App"
         Link="/Content/EMSRoomSignApp/44.1/InstallationGuide/InstallRSA.html" />
@@ -1484,7 +1484,7 @@
           Link="/Content/EMSMobileApp/InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_PersistentAuthen.htm" />
         <TocEntry
           Title="SAML Authentication"
-          Link="/Content/EMSMobileApp/InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_SAMLAuthen.html">
+          Link="/Content/EMSMobileApp/InstallationGuide/Mobile_SetUpMobileAuthen/SAMLAuthen.html">
           <TocEntry
             Title="SAML Authentication Can Be Hosted or Pre-Configured in the EMS Mobile App"
             Link="/Content/EMSMobileApp/InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_SAMLAuthenHostPreconfig.htm" />
@@ -1590,7 +1590,7 @@
       Link="/Content/ConfigGuides/9_EMS_RoomSignApp_CG.htm">
       <TocEntry
         Title="Authentication Options"
-        Link="/Content/EMSRoomSignApp/44.1/InstallationGuide/Authentication.htm" />
+        Link="/Content/EMSRoomSignApp/44.1/ConfigurationGuide/Authentication.htm" />
       <TocEntry
         Title="Best Practices for Device Configuration"
         Link="/Content/EMSRoomSignApp/44.1/ConfigurationGuide/BestPractDeviceConfSteps.htm" />
@@ -1900,7 +1900,7 @@
       </TocEntry>
       <TocEntry
         Title="SAML"
-        Link="/Content/EMSMobileApp/InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_SAMLAuthen.html" />
+        Link="/Content/EMSMobileApp/InstallationGuide/Mobile_SetUpMobileAuthen/SAMLAuthen.html" />
     </TocEntry>
   </TocEntry>
   <TocEntry

@@ -69,7 +69,7 @@
           ChapterNumberReset="continue" />
         <TocEntry
           Title="Authentication Settings"
-          Link="/Content/EMSRoomSignApp/44.1/InstallationGuide/Authentication.htm"
+          Link="/Content/EMSRoomSignApp/44.1/ConfigurationGuide/Authentication.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"

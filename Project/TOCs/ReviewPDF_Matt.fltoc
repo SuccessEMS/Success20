@@ -2,6 +2,16 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="EMS Desktop Client Update 26.4"
-    Link="/Content/ReleaseNotes/Version44.1/Update26.4/EMSDesktopClient.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    Title="EMSDesktopClient_Update 27"
+    Link="/Content/ReleaseNotes/Version44.1/Update27/EMSDesktopClient.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
+  <TocEntry
+    Title="EMSCampus_Update 27"
+    Link="/Content/ReleaseNotes/Version44.1/Update27/EMSDesktopClient_AcademicPlanning.htm" />
+  <TocEntry
+    Title="EMSOutlook_Update 27"
+    Link="/Content/ReleaseNotes/Version44.1/Update27/EMSforOutlook.htm">
+    <TocEntry
+      Title="CoreDocumentationChange_InstallingCustomReports"
+      Link="/Content/EMSDesktopClient/V44.1/InstallationGuide/InstallCustomReport.html" />
+  </TocEntry>
 </CatapultToc>

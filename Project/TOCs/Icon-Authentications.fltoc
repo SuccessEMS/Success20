@@ -162,7 +162,7 @@
       ChapterNumberReset="continue" />
     <TocEntry
       Title="SAML Authentication"
-      Link="/Content/EMSMobileApp/InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_SAMLAuthen.html"
+      Link="/Content/EMSMobileApp/InstallationGuide/Mobile_SetUpMobileAuthen/SAMLAuthen.html"
       BreakType="chapter"
       AutoEndOnLeftPage="disabled"
       StartSection="false"

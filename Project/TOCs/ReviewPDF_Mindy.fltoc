@@ -2,6 +2,9 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="EMSWebApp_Update26.X"
-    Link="/Content/ReleaseNotes/Version44.1/Update26.X/EMSWebApp.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    Title="EMSWebApp_U27"
+    Link="/Content/ReleaseNotes/Version44.1/Update27/EMSWebApp.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
+  <TocEntry
+    Title="EMSKioskApp_U27"
+    Link="/Content/ReleaseNotes/Version44.1/Update27/EMSKioskApp.htm" />
 </CatapultToc>

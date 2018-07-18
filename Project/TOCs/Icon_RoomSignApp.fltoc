@@ -20,7 +20,7 @@
         Link="/Content/EMSRoomSignApp/44.1/InstallationGuide/BestPractices.htm" />
       <TocEntry
         Title="Authentication Settings"
-        Link="/Content/EMSRoomSignApp/44.1/InstallationGuide/Authentication.htm" />
+        Link="/Content/EMSRoomSignApp/44.1/ConfigurationGuide/Authentication.htm" />
       <TocEntry
         Title="Install EMS Room Sign App"
         Link="/Content/EMSRoomSignApp/44.1/InstallationGuide/InstallRSA.html" />

@@ -8,7 +8,7 @@
         <p>The following table provides information on the various authentication methods for each EMS&#160;product. </p>
         <table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
             <col class="TableStyle-PatternedRows-Column-Regular" />
-            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 228px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 226px;" />
             <col class="TableStyle-PatternedRows-Column-Regular" />
             <col class="TableStyle-PatternedRows-Column-Regular" />
             <col class="TableStyle-PatternedRows-Column-Regular" />
@@ -32,7 +32,7 @@
                     </td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
                         <ul>
-                            <li>EMS&#160;Authentication</li>
+                            <li>EMS&#160;Native Authentication</li>
                             <li><a href="OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_LDAPAuthentication.html">LDAP</a>
                             </li>
                             <li><a href="OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_IntegratedWindowsAuthen.html">Windows Authentication</a>
@@ -52,7 +52,7 @@
                     </td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
                         <ul>
-                            <li><a href="EMSMobileApp/InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_SAMLAuthen.html#updateSAMLConfiguration">SAML 2.0 (ADFS)</a>
+                            <li><a href="EMSMobileApp/InstallationGuide/Mobile_SetUpMobileAuthen/SAMLAuthen.html#updateSAMLConfiguration">SAML 2.0 (ADFS)</a>
                             </li>
                             <li>NTLM&#160;(Windows Authentication)</li>
                             <li><a href="OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_LDAPAuthentication.html">LDAP</a>
@@ -76,11 +76,8 @@
                     </td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
                         <ul>
-                            <li>LDAP</li>
-                            <li>EMS&#160;Authentication</li>
-                            <li><a href="EMSKioskApp/Legacy/B_Config/Kiosk_CG_API/Kiosk_CG_APIKioskValidate1.htm">Badge</a>
-                            </li>
-                            <li>PIN</li>
+                            <li>Primary:<ul><li><a href="EMSDesktopClient/V44.1/ConfigurationGuide/EMSKioskAppParameters.htm">Exact Match</a></li><li><a href="OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_LDAPAuthentication.html">LDAP</a></li><li><a href="EMSDesktopClient/V44.1/ConfigurationGuide/EMSKioskAppParameters.htm">Standard</a></li><li>Badge</li></ul></li>
+                            <li>Secondary:<ul><li>Exact Match</li><li>LDAP</li><li>Standard</li></ul></li>
                         </ul>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">YES</td>
@@ -91,11 +88,16 @@
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">EMS&#160;Kiosk App (Legacy)</td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
                         <ul>
+                            <li>Primary;</li>
                             <li>LDAP</li>
-                            <li>EMS&#160;Authentication</li>
-                            <li><a href="EMSKioskApp/Legacy/B_Config/Kiosk_CG_API/Kiosk_CG_APIKioskValidate1.htm">Badge</a>
-                            </li>
-                            <li>PIN</li>
+                            <li>Exact Match</li>
+                            <li>Standard</li>
+                            <li>Badge</li>
+                        </ul>
+                        <p>Secondary:</p>
+                        <ul>
+                            <li>Security Type</li>
+                            <li>Badge</li>
                         </ul>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
@@ -106,15 +108,24 @@
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p><a href="EMSRoomSignApp/44.1/InstallationGuide/Authentication.htm">EMS&#160;Room Sign App</a>
+                        <p><a href="EMSRoomSignApp/44.1/ConfigurationGuide/Authentication.htm">EMS&#160;Room Sign App</a>
                         </p>
                         <p>&#160;</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
                         <ul>
-                            <li><a href="EMSRoomSignApp/44.1/InstallationGuide/Authentication.htm#GroupIdentification">EMS&#160;Authentication</a>
+                            <li><a href="EMSRoomSignApp/44.1/ConfigurationGuide/Authentication.htm#GroupIdentification">Group Authentication:</a>
+                                <ul>
+                                    <li>Badge</li>
+                                    <li>External Reference</li>
+                                    <li>Group/Contact Email</li>
+                                    <li>Network ID</li>
+                                    <li>Other ID</li>
+                                    <li>Personnel Number</li>
+                                </ul>
                             </li>
-                            <li><a href="EMSRoomSignApp/44.1/InstallationGuide/Authentication.htm#Secondary">Secondary Authentication (Badges)</a>
+                            <li>Contact Authentication</li>
+                            <li><a href="EMSRoomSignApp/44.1/ConfigurationGuide/Authentication.htm#Secondary">Secondary Authentication</a>
                             </li>
                         </ul>
                     </td>
@@ -137,7 +148,7 @@
                     </td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
                         <ul>
-                            <li><a href="EMSMobileApp/InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_SAMLAuthen.html">SAML</a>
+                            <li><a href="EMSMobileApp/InstallationGuide/Mobile_SetUpMobileAuthen/SAMLAuthen.html">SAML</a>
                             </li>
                             <li><a href="EMSMobileApp/InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_UseWindowsAuthenforMobile.html">NTLM&#160;(Windows Authentication)</a>
                             </li>
@@ -160,7 +171,7 @@
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p><a href="EMSMasterCalendar/V8/ConfigurationGuide/IntegAuthenforMC.html">EMS&#160;Master Calendar</a>
+                        <p><a href="EMSMasterCalendar/V8/ConfigurationGuide/IntegAuthenforMC.html">Master Calendar</a>
                         </p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
@@ -171,7 +182,7 @@
                             </li>
                             <li><a href="OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_PortalAuthenMethods.html">Portal Authentication</a>
                             </li>
-                            <li><a href="EMSMobileApp/InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_EMSNativeAuthen.html">EMS&#160;Native&#160;Authentication</a>
+                            <li><a href="EMSMobileApp/InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_EMSNativeAuthen.html">Native&#160;Authentication</a>
                             </li>
                         </ul>
                     </td>
@@ -212,7 +223,8 @@
                     </td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
                         <ul>
-                            <li>NTLM Windows Authentication</li>
+                            <li><a href="OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_ManageEUforIntegAuthen.htm">Exchange Authentication</a>
+                            </li>
                         </ul>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
@@ -229,7 +241,7 @@
                     </td>
                     <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
                         <ul>
-                            <li>EMS Authentication</li>
+                            <li>EMS Native Authentication</li>
                         </ul>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
@@ -264,7 +276,7 @@
             </li>
             <li><a href="OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_PortalAuthenMethods.html">Portal Authentication Methods</a>
             </li>
-            <li><a href="EMSMobileApp/InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_SAMLAuthen.html">SAML&#160;Authentication</a>
+            <li><a href="EMSMobileApp/InstallationGuide/Mobile_SetUpMobileAuthen/SAMLAuthen.html">SAML&#160;Authentication</a>
             </li>
         </ul>
     </body>
