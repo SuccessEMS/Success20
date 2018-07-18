@@ -131,7 +131,7 @@
         </TocEntry>
         <TocEntry
           Title="Integrated Windows Authentication"
-          Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_IntegratedWindowsAuthen.html"
+          Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/WindowsAuthen.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"

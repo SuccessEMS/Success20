@@ -66,7 +66,7 @@
       </TocEntry>
       <TocEntry
         Title="Integrated Windows Authentication"
-        Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_IntegratedWindowsAuthen.html"
+        Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/WindowsAuthen.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -111,14 +111,14 @@
     </TocEntry>
     <TocEntry
       Title="EMS Mobile Authentication"
-      Link="/Content/EMSMobileApp/InstallationGuide/Authentication/Mobile_SetUpMobileAuthen.html"
+      Link="/Content/EMSMobileApp/InstallationGuide/Authentication/ConfigureAuthentication.html"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
       PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl">
       <TocEntry
         Title="EMS Native Authentication"
-        Link="/Content/EMSMobileApp/InstallationGuide/Authentication/Mobile_EMSNativeAuthen.html"
+        Link="/Content/Authentication/EMSNativeAuthen.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -132,14 +132,14 @@
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
       <TocEntry
         Title="Open ID Connect Authentication"
-        Link="/Content/EMSMobileApp/InstallationGuide/Authentication/Mobile_OpenIDConnectAuthen.html"
+        Link="/Content/EMSMobileApp/InstallationGuide/Authentication/OpenIDAuthen.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl">
         <TocEntry
           Title="Open ID Connect Authentication Can Be Hosted or Pre-Configured in the EMS Mobile App"
-          Link="/Content/EMSMobileApp/InstallationGuide/Authentication/Mobile_OpenIDConnectAuthenHostPreconfig.htm"
+          Link="/Content/EMSMobileApp/InstallationGuide/Authentication/OpenIDConnectAuthenHostPreconfig.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -147,7 +147,7 @@
       </TocEntry>
       <TocEntry
         Title="Persistent Authentication"
-        Link="/Content/EMSMobileApp/InstallationGuide/Authentication/Mobile_PersistentAuthen.htm"
+        Link="/Content/EMSMobileApp/InstallationGuide/Authentication/PersistentAuth.htm"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -161,7 +161,7 @@
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl">
         <TocEntry
           Title="SAML Authentication Can Be Hosted or Pre-Configured in the EMS Mobile App"
-          Link="/Content/EMSMobileApp/InstallationGuide/Authentication/Mobile_SAMLAuthenHostPreconfig.htm"
+          Link="/Content/EMSMobileApp/InstallationGuide/Authentication/SAMLAuthenHostPreconfig.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -169,7 +169,7 @@
       </TocEntry>
       <TocEntry
         Title="Using Windows Authentication (NTLM) for EMS Mobile"
-        Link="/Content/EMSMobileApp/InstallationGuide/Authentication/Mobile_UseWindowsAuthenforMobile.html"
+        Link="/Content/Authentication/NTLMWindowsAuthentication.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"

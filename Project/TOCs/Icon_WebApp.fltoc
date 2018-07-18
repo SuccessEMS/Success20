@@ -86,7 +86,7 @@
         </TocEntry>
         <TocEntry
           Title="Integrated Windows Authentication"
-          Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_IntegratedWindowsAuthen.html">
+          Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/WindowsAuthen.html">
           <TocEntry
             Title="Manage Everyday Users For Integrated Authentication"
             Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_ManageEUforIntegAuthen.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
