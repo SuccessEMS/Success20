@@ -117,7 +117,7 @@
       ChapterNumberReset="continue"></TocEntry>
     <TocEntry
       Title="LDAP Authentication"
-      Link="/Content/EMSMobileApp/InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_LDAPAuthen.html"
+      Link="/Content/Authentication/LDAPAuthen.html"
       BreakType="chapter"
       AutoEndOnLeftPage="disabled"
       StartSection="false"
@@ -128,7 +128,7 @@
       ChapterNumberReset="continue" />
     <TocEntry
       Title="Open ID Connect Authentication"
-      Link="/Content/EMSMobileApp/InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_OpenIDConnectAuthen.html"
+      Link="/Content/EMSMobileApp/InstallationGuide/Authentication/Mobile_OpenIDConnectAuthen.html"
       BreakType="chapter"
       AutoEndOnLeftPage="disabled"
       StartSection="false"
@@ -139,7 +139,7 @@
       ChapterNumberReset="continue">
       <TocEntry
         Title="Open ID Connect Authentication Can Be Hosted or Pre-Configured in the EMS Mobile App"
-        Link="/Content/EMSMobileApp/InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_OpenIDConnectAuthenHostPreconfig.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+        Link="/Content/EMSMobileApp/InstallationGuide/Authentication/Mobile_OpenIDConnectAuthenHostPreconfig.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
         BreakType="chapter"
         AutoEndOnLeftPage="disabled"
         StartSection="false"
@@ -151,7 +151,7 @@
     </TocEntry>
     <TocEntry
       Title="Persistent Authentication"
-      Link="/Content/EMSMobileApp/InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_PersistentAuthen.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      Link="/Content/EMSMobileApp/InstallationGuide/Authentication/Mobile_PersistentAuthen.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
       BreakType="chapter"
       AutoEndOnLeftPage="disabled"
       StartSection="false"
@@ -162,7 +162,7 @@
       ChapterNumberReset="continue" />
     <TocEntry
       Title="SAML Authentication"
-      Link="/Content/EMSMobileApp/InstallationGuide/Mobile_SetUpMobileAuthen/SAMLAuthen.html"
+      Link="/Content/Authentication/SAMLAuthen.html"
       BreakType="chapter"
       AutoEndOnLeftPage="disabled"
       StartSection="false"
@@ -173,7 +173,7 @@
       ChapterNumberReset="continue">
       <TocEntry
         Title="SAML Authentication Can Be Hosted or Pre-Configured in the EMS Mobile App"
-        Link="/Content/EMSMobileApp/InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_SAMLAuthenHostPreconfig.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+        Link="/Content/EMSMobileApp/InstallationGuide/Authentication/Mobile_SAMLAuthenHostPreconfig.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
         BreakType="chapter"
         AutoEndOnLeftPage="disabled"
         StartSection="false"
@@ -185,7 +185,7 @@
     </TocEntry>
     <TocEntry
       Title="Windows Authentication (NTLM)"
-      Link="/Content/EMSMobileApp/InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_UseWindowsAuthenforMobile.html"
+      Link="/Content/EMSMobileApp/InstallationGuide/Authentication/Mobile_UseWindowsAuthenforMobile.html"
       BreakType="chapter"
       AutoEndOnLeftPage="disabled"
       StartSection="false"
@@ -196,7 +196,7 @@
       ChapterNumberReset="continue" />
     <TocEntry
       Title="EMS Native Authentication"
-      Link="/Content/EMSMobileApp/InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_EMSNativeAuthen.html"
+      Link="/Content/EMSMobileApp/InstallationGuide/Authentication/Mobile_EMSNativeAuthen.html"
       BreakType="chapter"
       AutoEndOnLeftPage="disabled"
       StartSection="false"

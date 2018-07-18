@@ -111,35 +111,35 @@
     </TocEntry>
     <TocEntry
       Title="EMS Mobile Authentication"
-      Link="/Content/EMSMobileApp/InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_SetUpMobileAuthen.html"
+      Link="/Content/EMSMobileApp/InstallationGuide/Authentication/Mobile_SetUpMobileAuthen.html"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
       PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl">
       <TocEntry
         Title="EMS Native Authentication"
-        Link="/Content/EMSMobileApp/InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_EMSNativeAuthen.html"
+        Link="/Content/EMSMobileApp/InstallationGuide/Authentication/Mobile_EMSNativeAuthen.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
       <TocEntry
         Title="LDAP Authentication"
-        Link="/Content/EMSMobileApp/InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_LDAPAuthen.html"
+        Link="/Content/Authentication/LDAPAuthen.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
       <TocEntry
         Title="Open ID Connect Authentication"
-        Link="/Content/EMSMobileApp/InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_OpenIDConnectAuthen.html"
+        Link="/Content/EMSMobileApp/InstallationGuide/Authentication/Mobile_OpenIDConnectAuthen.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl">
         <TocEntry
           Title="Open ID Connect Authentication Can Be Hosted or Pre-Configured in the EMS Mobile App"
-          Link="/Content/EMSMobileApp/InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_OpenIDConnectAuthenHostPreconfig.htm"
+          Link="/Content/EMSMobileApp/InstallationGuide/Authentication/Mobile_OpenIDConnectAuthenHostPreconfig.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -147,21 +147,21 @@
       </TocEntry>
       <TocEntry
         Title="Persistent Authentication"
-        Link="/Content/EMSMobileApp/InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_PersistentAuthen.htm"
+        Link="/Content/EMSMobileApp/InstallationGuide/Authentication/Mobile_PersistentAuthen.htm"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
       <TocEntry
         Title="SAML Authentication"
-        Link="/Content/EMSMobileApp/InstallationGuide/Mobile_SetUpMobileAuthen/SAMLAuthen.html"
+        Link="/Content/Authentication/SAMLAuthen.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl">
         <TocEntry
           Title="SAML Authentication Can Be Hosted or Pre-Configured in the EMS Mobile App"
-          Link="/Content/EMSMobileApp/InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_SAMLAuthenHostPreconfig.htm"
+          Link="/Content/EMSMobileApp/InstallationGuide/Authentication/Mobile_SAMLAuthenHostPreconfig.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -169,7 +169,7 @@
       </TocEntry>
       <TocEntry
         Title="Using Windows Authentication (NTLM) for EMS Mobile"
-        Link="/Content/EMSMobileApp/InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_UseWindowsAuthenforMobile.html"
+        Link="/Content/EMSMobileApp/InstallationGuide/Authentication/Mobile_UseWindowsAuthenforMobile.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
