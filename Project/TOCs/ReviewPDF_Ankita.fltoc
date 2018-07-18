@@ -2,6 +2,9 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="EMSPlatformServices_Update26.X"
-    Link="/Content/ReleaseNotes/Version44.1/Update26.X/EMSPlatformServices.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    Title="EMSPlatformServices_U27"
+    Link="/Content/ReleaseNotes/Version44.1/Update27/EMSPlatformServices.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
+  <TocEntry
+    Title="EMSRSA_U27"
+    Link="/Content/ReleaseNotes/Version44.1/Update27/EMSRoomSignApp.htm" />
 </CatapultToc>
