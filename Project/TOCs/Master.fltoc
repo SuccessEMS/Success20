@@ -427,8 +427,6 @@
       <TocEntry
         Title="License Requirements for Platform Services"
         Link="/Content/EMSPlatformServices/A_InstallationGuide/Platform_LicenseRequirements.html" />
-      <TocEntry
-        Title="PDF" />
     </TocEntry>
     <TocEntry
       Title="EMS Exchange Room Integration (ERI)"
@@ -558,32 +556,11 @@
           Title="Upload, Configure, and View Floor Plans"
           Link="/Content/OptionalFeatures/FloorPlan/A_V44.1/InstallationGuide/UploadConfigViewFP.htm" />
         <TocEntry
-          Title="Integrated Authentication Options">
-          <TocEntry
-            Title="Introduction"
-            Link="/Content/Authentication/IntroEMSIntegratedAuth.htm">
-            <TocEntry
-              Title="Integrated Authentication Considerations"
-              Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_IntegratedAuthenticationConsid.htm" />
-          </TocEntry>
-          <TocEntry
-            Title="Integrated Windows Authentication"
-            Link="/Content/Authentication/WindowsAuthen.html">
-            <TocEntry
-              Title="Manage Everyday Users For Integrated Authentication"
-              Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_ManageEUforIntegAuthen.htm" />
-          </TocEntry>
-          <TocEntry
-            Title="LDAP Authentication"
-            Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/LDAPAuth_MobileandWeb.html" />
-          <TocEntry
-            Title="Portal or Federated Authentication"
-            Link="/Content/Authentication/PortalFederatedAuthen.html">
-            <TocEntry
-              Title="Portal Authentication Methods"
-              Link="/Content/Authentication/PortalAuthMethods.html" />
-          </TocEntry>
-        </TocEntry>
+          Title="Integrated Authentication Options"
+          Link="/Content/Authentication/IntroEMSIntegratedAuth.htm"></TocEntry>
+        <TocEntry
+          Title="Integrated Authentication Considerations"
+          Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_IntegratedAuthenticationConsid.htm" />
         <TocEntry
           Title="PDF"
           Link="/Content/OptionalFeatures/FloorPlan/A_V44.1/FloorPlans_PDF.pdf" />
@@ -2765,8 +2742,6 @@
           Title="Open Events from the Master Calendar"
           Link="/Content/EMSMasterCalendar/V8/UserGuide/OpenEvents.html" />
         <TocEntry
-          Title="Scroll Through Events on the Calendar" />
-        <TocEntry
           Title="Subscribe to a Calendar"
           Link="/Content/EMSMasterCalendar/V8/UserGuide/SubscribetoCalendar.html" />
         <TocEntry
@@ -2782,8 +2757,6 @@
         <TocEntry
           Title="Change Your Password"
           Link="/Content/EMSMasterCalendar/V8/UserGuide/ChangeYourPassword.html" />
-        <TocEntry
-          Title="View Custom Help Text" />
         <TocEntry
           Title="View Your Notifications"
           Link="/Content/EMSMasterCalendar/V8/UserGuide/ViewYourNotifications.html" />
@@ -3022,7 +2995,8 @@
         Title="VIDEO: Working With a Reservation"
         Link="/Content/VIDEO/DC/VIDEO_WorkingReservation.htm" />
       <TocEntry
-        Title="VIDEO: Automating Reports in EMS Desktop Client" />
+        Title="VIDEO: Automating Reports in EMS Desktop Client"
+        Link="/Content/EMSDesktopClient/V44.1/Video Tutorials/VIDEO_Automating Reports.htm" />
     </TocEntry>
     <TocEntry
       Title="EMS Desktop Client -- Academic Planning"
