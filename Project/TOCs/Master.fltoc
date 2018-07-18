@@ -811,6 +811,37 @@
     Link="/Content/ConfigGuides/1_ConfigurationHome/1_Configuration Home.htm"
     ReplaceMergeNode="false">
     <TocEntry
+      Title="Authentication Options"
+      Link="/Content/Authentication/EMSAuthenticationMethods.htm">
+      <TocEntry
+        Title="Introduction"
+        Link="/Content/Authentication/IntroEMSIntegratedAuth.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+        <TocEntry
+          Title="Integrated Authentication Considerations"
+          Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_IntegratedAuthenticationConsid.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
+      <TocEntry
+        Title="Integrated Windows Authentication"
+        Link="/Content/Authentication/WindowsAuthen.html">
+        <TocEntry
+          Title="Manage Everyday Users For Integrated Authentication"
+          Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_ManageEUforIntegAuthen.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
+      <TocEntry
+        Title="LDAP Authentication"
+        Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/LDAPAuth_MobileandWeb.html" />
+      <TocEntry
+        Title="Portal or Federated Authentication"
+        Link="/Content/Authentication/PortalFederatedAuthen.html">
+        <TocEntry
+          Title="Portal Authentication Methods"
+          Link="/Content/Authentication/PortalAuthMethods.html" />
+      </TocEntry>
+      <TocEntry
+        Title="SAML"
+        Link="/Content/Authentication/SAMLAuthen.html" />
+    </TocEntry>
+    <TocEntry
       Title="EMS Desktop Client"
       Link="/Content/ConfigGuides/2_EMS_Desktop_Client_CG.htm">
       <TocEntry
@@ -1420,7 +1451,7 @@
         Link="/Content/WebApp/A_V44.1/B_ConfigurationGuide/WebApp_CG_WebAppSysParameters.html" />
       <TocEntry
         Title="Authentication Options"
-        Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/AuthOptions_WebApp.htm" />
+        Link="/Content/WebApp/A_V44.1/B_ConfigurationGuide/AuthOptions_WebApp.htm" />
     </TocEntry>
     <TocEntry
       Title="EMS Mobile App"
@@ -1493,14 +1524,11 @@
           Link="/Content/Authentication/NTLMWindowsAuthentication.html" />
       </TocEntry>
       <TocEntry
-        Title="Integrated Authentication Options">
+        Title="Integrated Authentication Options"
+        Link="/Content/Authentication/IntroEMSIntegratedAuth.htm">
         <TocEntry
-          Title="Introduction"
-          Link="/Content/Authentication/IntroEMSIntegratedAuth.htm">
-          <TocEntry
-            Title="Integrated Authentication Considerations"
-            Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_IntegratedAuthenticationConsid.htm" />
-        </TocEntry>
+          Title="Integrated Authentication Considerations"
+          Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_IntegratedAuthenticationConsid.htm" />
         <TocEntry
           Title="Integrated Windows Authentication"
           Link="/Content/Authentication/WindowsAuthen.html">
@@ -1622,6 +1650,12 @@
     <TocEntry
       Title="EMS Master Calendar"
       Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/Introduction.htm">
+      <TocEntry
+        Title="Authentication Options"
+        Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_Authentication Options_MC.htm" />
+      <TocEntry
+        Title="Integrated Authentication for Master Calendar"
+        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/IntegAuthenforMC.html"></TocEntry>
       <TocEntry
         Title="Admin Interface Overview"
         Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/AdminInterfaceOverview.html">
@@ -1812,9 +1846,6 @@
           Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/AreaTooltip.html" />
       </TocEntry>
       <TocEntry
-        Title="Integrated Authentication for Master Calendar"
-        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/IntegAuthenforMC.html"></TocEntry>
-      <TocEntry
         Title="Master Calendar API"
         Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/API_MasterCalAPI.html">
         <TocEntry
@@ -1838,10 +1869,10 @@
       Title="EMS Platform Services"
       Link="/Content/ConfigGuides/7_EMS_PlatformServices_CG.htm">
       <TocEntry
-        Title="Configure Platform Services in the Admin Portal"
+        Title="Authentication Options"
         Link="/Content/EMSPlatformServices/ConfigurationGuide/ConfigPSinAdminPortal.html" />
       <TocEntry
-        Title="Authentication Options"
+        Title="Configure Platform Services in the Admin Portal"
         Link="/Content/EMSPlatformServices/ConfigurationGuide/ConfigPSinAdminPortal.html" />
     </TocEntry>
     <TocEntry
@@ -1867,36 +1898,6 @@
       <TocEntry
         Title="Configuration of G Suite Integration"
         Link="/Content/GoogleSuiteIntegration/Config.htm" />
-    </TocEntry>
-    <TocEntry
-      Title="Authentication Options">
-      <TocEntry
-        Title="Introduction"
-        Link="/Content/Authentication/IntroEMSIntegratedAuth.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
-        <TocEntry
-          Title="Integrated Authentication Considerations"
-          Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_IntegratedAuthenticationConsid.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-      </TocEntry>
-      <TocEntry
-        Title="Integrated Windows Authentication"
-        Link="/Content/Authentication/WindowsAuthen.html">
-        <TocEntry
-          Title="Manage Everyday Users For Integrated Authentication"
-          Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_ManageEUforIntegAuthen.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-      </TocEntry>
-      <TocEntry
-        Title="LDAP Authentication"
-        Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/LDAPAuth_MobileandWeb.html" />
-      <TocEntry
-        Title="Portal or Federated Authentication"
-        Link="/Content/Authentication/PortalFederatedAuthen.html">
-        <TocEntry
-          Title="Portal Authentication Methods"
-          Link="/Content/Authentication/PortalAuthMethods.html" />
-      </TocEntry>
-      <TocEntry
-        Title="SAML"
-        Link="/Content/Authentication/SAMLAuthen.html" />
     </TocEntry>
   </TocEntry>
   <TocEntry
@@ -2907,7 +2908,7 @@
           Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_Authentication Options_Regics.htm" />
         <TocEntry
           Title="[%=System.LinkedTitle%]"
-          Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/AuthOptions_WebApp.htm" />
+          Link="/Content/WebApp/A_V44.1/B_ConfigurationGuide/AuthOptions_WebApp.htm" />
       </TocEntry>
       <TocEntry
         Title="[%=System.LinkedTitle%]"

@@ -310,7 +310,7 @@
     </TocEntry>
     <TocEntry
       Title="EMS Web App and VEMS Authentication Options"
-      Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/AuthOptions_WebApp.htm"
+      Link="/Content/WebApp/A_V44.1/B_ConfigurationGuide/AuthOptions_WebApp.htm"
       BreakType="chapter"
       PageNumberReset="continue"
       PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
