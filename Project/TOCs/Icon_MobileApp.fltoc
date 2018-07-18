@@ -29,7 +29,7 @@
         Title="Integrated Authentication Options">
         <TocEntry
           Title="Introduction"
-          Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntroEMSIntegratedAuth.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+          Link="/Content/Authentication/IntroEMSIntegratedAuth.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
           <TocEntry
             Title="Integrated Authentication Considerations"
             Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_IntegratedAuthenticationConsid.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />

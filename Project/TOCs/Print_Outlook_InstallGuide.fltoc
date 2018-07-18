@@ -109,7 +109,7 @@
         ChapterNumberReset="continue">
         <TocEntry
           Title="Introduction"
-          Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntroEMSIntegratedAuth.htm"
+          Link="/Content/Authentication/IntroEMSIntegratedAuth.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"

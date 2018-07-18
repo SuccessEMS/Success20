@@ -6,7 +6,7 @@
     Link="/Content/Authentication.htm">
     <TocEntry
       Title="Introduction"
-      Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntroEMSIntegratedAuth.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      Link="/Content/Authentication/IntroEMSIntegratedAuth.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
       BreakType="chapter"
       AutoEndOnLeftPage="disabled"
       StartSection="false"
@@ -17,7 +17,7 @@
       ChapterNumberReset="continue">
       <TocEntry
         Title="[%=System.LinkedTitle%]"
-        Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_Authentication Options_WebAppVEMS.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+        Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/AuthOptions_WebApp.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
         BreakType="chapter"
         AutoEndOnLeftPage="disabled"
         StartSection="false"

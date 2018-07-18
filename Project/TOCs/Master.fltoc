@@ -561,7 +561,7 @@
           Title="Integrated Authentication Options">
           <TocEntry
             Title="Introduction"
-            Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntroEMSIntegratedAuth.htm">
+            Link="/Content/Authentication/IntroEMSIntegratedAuth.htm">
             <TocEntry
               Title="Integrated Authentication Considerations"
               Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_IntegratedAuthenticationConsid.htm" />
@@ -1420,7 +1420,7 @@
         Link="/Content/WebApp/A_V44.1/B_ConfigurationGuide/WebApp_CG_WebAppSysParameters.html" />
       <TocEntry
         Title="Authentication Options"
-        Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_Authentication Options_WebAppVEMS.htm" />
+        Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/AuthOptions_WebApp.htm" />
     </TocEntry>
     <TocEntry
       Title="EMS Mobile App"
@@ -1496,7 +1496,7 @@
         Title="Integrated Authentication Options">
         <TocEntry
           Title="Introduction"
-          Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntroEMSIntegratedAuth.htm">
+          Link="/Content/Authentication/IntroEMSIntegratedAuth.htm">
           <TocEntry
             Title="Integrated Authentication Considerations"
             Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_IntegratedAuthenticationConsid.htm" />
@@ -1536,7 +1536,7 @@
         Title="Integrated Authentication Options for EMS for Outlook Add-in">
         <TocEntry
           Title="Introduction"
-          Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntroEMSIntegratedAuth.htm">
+          Link="/Content/Authentication/IntroEMSIntegratedAuth.htm">
           <TocEntry
             Title="Integrated Authentication Considerations"
             Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_IntegratedAuthenticationConsid.htm" />
@@ -1872,7 +1872,7 @@
       Title="Authentication Options">
       <TocEntry
         Title="Introduction"
-        Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntroEMSIntegratedAuth.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+        Link="/Content/Authentication/IntroEMSIntegratedAuth.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
         <TocEntry
           Title="Integrated Authentication Considerations"
           Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_IntegratedAuthenticationConsid.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
@@ -2892,7 +2892,7 @@
       </TocEntry>
       <TocEntry
         Title="What is Integrated Authentication"
-        Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntroEMSIntegratedAuth.htm">
+        Link="/Content/Authentication/IntroEMSIntegratedAuth.htm">
         <TocEntry
           Title="[%=System.LinkedTitle%]"
           Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_IntegratedAuthenticationConsid.htm" />
@@ -2907,7 +2907,7 @@
           Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_Authentication Options_Regics.htm" />
         <TocEntry
           Title="[%=System.LinkedTitle%]"
-          Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_Authentication Options_WebAppVEMS.htm" />
+          Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/AuthOptions_WebApp.htm" />
       </TocEntry>
       <TocEntry
         Title="[%=System.LinkedTitle%]"
