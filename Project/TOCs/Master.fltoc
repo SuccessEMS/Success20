@@ -1439,6 +1439,36 @@
         Title="Introduction"
         Link="/Content/EMSMobileApp/B_ConfigurationGuide/Mobile_Introduction.htm" />
       <TocEntry
+        Title="Authentication"
+        Link="/Content/EMSMobileApp/B_ConfigurationGuide/Authentication/ConfigureAuthentication.html">
+        <TocEntry
+          Title="EMS Native Authentication"
+          Link="/Content/Authentication/EMSNativeAuthen.html" />
+        <TocEntry
+          Title="LDAP Authentication"
+          Link="/Content/Authentication/LDAPAuthen.html" />
+        <TocEntry
+          Title="Open ID Connect Authentication"
+          Link="/Content/EMSMobileApp/B_ConfigurationGuide/Authentication/OpenIDAuthen.html">
+          <TocEntry
+            Title="Open ID Connect Authentication Can Be Hosted or Pre-Configured in the EMS Mobile App"
+            Link="/Content/EMSMobileApp/B_ConfigurationGuide/Authentication/OpenIDConnectAuthenHostPreconfig.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="Persistent Authentication"
+          Link="/Content/EMSMobileApp/B_ConfigurationGuide/Authentication/PersistentAuth.htm" />
+        <TocEntry
+          Title="SAML Authentication"
+          Link="/Content/Authentication/SAMLAuthen.html">
+          <TocEntry
+            Title="SAML Authentication Can Be Hosted or Pre-Configured in the EMS Mobile App"
+            Link="/Content/EMSMobileApp/B_ConfigurationGuide/Authentication/SAMLAuthenHostPreconfig.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="Using Windows Authentication (NTLM) for EMS Mobile"
+          Link="/Content/Authentication/NTLMWindowsAuthentication.html" />
+      </TocEntry>
+      <TocEntry
         Title="Add Mobile Users"
         Link="/Content/EMSMobileApp/B_ConfigurationGuide/Mobile_AddMobileUsers.htm" />
       <TocEntry
@@ -1472,36 +1502,6 @@
       <TocEntry
         Title="Set EMS Mobile Parameters"
         Link="/Content/EMSMobileApp/B_ConfigurationGuide/MobileAppParam.htm" />
-      <TocEntry
-        Title="EMS Mobile Authentication"
-        Link="/Content/EMSMobileApp/InstallationGuide/Authentication/ConfigureAuthentication.html">
-        <TocEntry
-          Title="EMS Native Authentication"
-          Link="/Content/Authentication/EMSNativeAuthen.html" />
-        <TocEntry
-          Title="LDAP Authentication"
-          Link="/Content/Authentication/LDAPAuthen.html" />
-        <TocEntry
-          Title="Open ID Connect Authentication"
-          Link="/Content/EMSMobileApp/InstallationGuide/Authentication/OpenIDAuthen.html">
-          <TocEntry
-            Title="Open ID Connect Authentication Can Be Hosted or Pre-Configured in the EMS Mobile App"
-            Link="/Content/EMSMobileApp/InstallationGuide/Authentication/OpenIDConnectAuthenHostPreconfig.htm" />
-        </TocEntry>
-        <TocEntry
-          Title="Persistent Authentication"
-          Link="/Content/EMSMobileApp/InstallationGuide/Authentication/PersistentAuth.htm" />
-        <TocEntry
-          Title="SAML Authentication"
-          Link="/Content/Authentication/SAMLAuthen.html">
-          <TocEntry
-            Title="SAML Authentication Can Be Hosted or Pre-Configured in the EMS Mobile App"
-            Link="/Content/EMSMobileApp/InstallationGuide/Authentication/SAMLAuthenHostPreconfig.htm" />
-        </TocEntry>
-        <TocEntry
-          Title="Using Windows Authentication (NTLM) for EMS Mobile"
-          Link="/Content/Authentication/NTLMWindowsAuthentication.html" />
-      </TocEntry>
       <TocEntry
         Title="Integrated Authentication Options"
         Link="/Content/Authentication/IntroEMSIntegratedAuth.htm">

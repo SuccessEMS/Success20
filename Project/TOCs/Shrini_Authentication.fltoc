@@ -167,7 +167,7 @@
   </TocEntry>
   <TocEntry
     Title="EMS Mobile Authentication"
-    Link="/Content/EMSMobileApp/InstallationGuide/Authentication/ConfigureAuthentication.html"
+    Link="/Content/EMSMobileApp/B_ConfigurationGuide/Authentication/ConfigureAuthentication.html"
     BreakType="chapter"
     AutoEndOnLeftPage="disabled"
     StartSection="false"
@@ -200,7 +200,7 @@
       ChapterNumberReset="continue" />
     <TocEntry
       Title="Open ID Connect Authentication"
-      Link="/Content/EMSMobileApp/InstallationGuide/Authentication/OpenIDAuthen.html"
+      Link="/Content/EMSMobileApp/B_ConfigurationGuide/Authentication/OpenIDAuthen.html"
       BreakType="chapter"
       AutoEndOnLeftPage="disabled"
       StartSection="false"
@@ -211,7 +211,7 @@
       ChapterNumberReset="continue">
       <TocEntry
         Title="Open ID Connect Authentication Can Be Hosted or Pre-Configured in the EMS Mobile App"
-        Link="/Content/EMSMobileApp/InstallationGuide/Authentication/OpenIDConnectAuthenHostPreconfig.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+        Link="/Content/EMSMobileApp/B_ConfigurationGuide/Authentication/OpenIDConnectAuthenHostPreconfig.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
         BreakType="chapter"
         AutoEndOnLeftPage="disabled"
         StartSection="false"
@@ -223,7 +223,7 @@
     </TocEntry>
     <TocEntry
       Title="Persistent Authentication"
-      Link="/Content/EMSMobileApp/InstallationGuide/Authentication/PersistentAuth.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      Link="/Content/EMSMobileApp/B_ConfigurationGuide/Authentication/PersistentAuth.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
       BreakType="chapter"
       AutoEndOnLeftPage="disabled"
       StartSection="false"
@@ -245,7 +245,7 @@
       ChapterNumberReset="continue">
       <TocEntry
         Title="SAML Authentication Can Be Hosted or Pre-Configured in the EMS Mobile App"
-        Link="/Content/EMSMobileApp/InstallationGuide/Authentication/SAMLAuthenHostPreconfig.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+        Link="/Content/EMSMobileApp/B_ConfigurationGuide/Authentication/SAMLAuthenHostPreconfig.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
         BreakType="chapter"
         AutoEndOnLeftPage="disabled"
         StartSection="false"
