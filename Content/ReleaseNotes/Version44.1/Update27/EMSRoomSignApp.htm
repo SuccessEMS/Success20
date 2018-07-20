@@ -46,23 +46,14 @@
             </thead>
             <tbody>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
                         <p class="RNArea">Integrations</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p class="RNTitle">Crestron Integration</p>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
+                        <p class="RNTitle">
+                            <MadCap:annotation MadCap:createDate="2018-07-19T13:55:00.0255311-06:00" MadCap:creator="Jen.Naused" MadCap:initials="JE" MadCap:comment="Check with Ankita 7/25 to see if this is going in. " MadCap:editor="Jen.Naused" MadCap:editDate="2018-07-19T13:55:16.0696703-06:00">Crestron</MadCap:annotation> Integration</p>
                         <p class="RNBody">The EMS&#160;Room Sign App now offers a Crestron integration. Crestron tablets are a turn-key hardware solution rather than a consumer tablet.  </p>
                         <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=39252&amp;_a=edit&amp;triage=true" class="RNRefHyper" title="EMS Internal Use Only" alt="EMS Internal Use Only">39252</a><br />(For EMS&#160;Internal Use Only)</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
-                        <p class="RNArea">Hardware</p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
-                        <p class="RNTitle">Iadea Room Sign RFID Functionality </p>
-                        <p class="RNBody">The EMS Room Sign App now integrates with Iadea Room Sign RFID functionality.</p>
-                        <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=34423&amp;triage=true&amp;fullScreen=false&amp;_a=edit" class="RNRefHyper" title="For EMS Internal Use Only" alt="For EMS Internal Use Only">34423</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
             </tbody>
@@ -88,8 +79,8 @@
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
                         <p class="RNTitle">Check In Button and Automatic Cancellation Were Being Activated Incorrectly</p>
-                        <p class="RNBody">The <span class="bold">Check In</span> button was being activated based on the setup or reserved time instead of the time specified in the EMS&#160;Desktop Client settings. Additionally, automatic cancellation was being applied inconsistently (e.g., applying automatic cancellation based on the setup time instead of the interval after check in  specified in EMS&#160;Desktop Client settings). </p>
-                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that the <span class="bold">Check In</span> button is activated based on the time specified in the EMS&#160;Desktop Client settings, and automatic cancellation cancels the room based on the interval specified in EMS&#160;Desktop Client settings. </p>
+                        <p class="RNBody">The <span class="bold">Check In</span> button was being activated based on the setup or reserved time instead of the event time. Additionally, automatic cancellation was being applied inconsistently (e.g., applying automatic cancellation based on the setup time instead of the interval after check in  specified in EMS&#160;Desktop Client settings). </p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that the <span class="bold">Check In</span> button is activated based on the event time and automatic cancellation cancels the room based on the interval specified in EMS&#160;Desktop Client settings. </p>
                         <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=39543&amp;_a=edit&amp;triage=false" class="RNRefHyper" title="EMS Internal Use Only" alt="EMS Internal Use Only">39543</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
