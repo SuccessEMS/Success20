@@ -5,7 +5,7 @@
         <link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
-        <h1 class="Heading1">EMS Desktop Client<br />Release Notes <br />V44.1, Update 28</h1>
+        <h1 class="Heading1" MadCap:autonum="CHAPTER&#160;1: ">EMS Desktop Client<br />Release Notes <br />V44.1, Update 28</h1>
         <p class="p_1">
             <MadCap:concept term="V44.1" />This section describes updates to&#160;your EMS software.&#160;&#160;</p>
         <p>See Also:&#160;<a href="#Contact">Contact Customer Support</a>&#160;and&#160;<MadCap:xref href="../../../Update_to_LatestVersion_EMS.htm"><a href="../../../Update_to_LatestVersion_EMS.htm">Updating to the Latest Version of EMS (Patches and Builds)</a></MadCap:xref>. </p>
@@ -56,16 +56,26 @@
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows" style="text-align: left;">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="text-align: left;">
                         <p class="RNArea">Confirmation Settings</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows" style="text-align: left;">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
                         <p class="RNTitle">
                             <MadCap:annotation MadCap:createDate="2018-07-03T09:28:57.5154836-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="This item is on hold and may or may not be in this release. Move to the next release if this item doesn't appear in the the current release's query." MadCap:editor="Megan.Laub" MadCap:editDate="2018-07-03T09:28:58.3110307-06:00">Date Format Error When Specifying Confirmation Settings</MadCap:annotation>
                         </p>
                         <p class="RNBody">When specifying confirmation settings, if users entered the date in the format dd/mm/yyyy instead of mm/dd/yyyy, they would receive the error message <span class="italics">“Argument ‘Expression’ is not a valid value.”</span> Also, this issue sometimes prevented users from sending confirmations.</p>
                         <p class="RNBody"><b>Fix:</b> Modified functionality so that when specifying confirmation settings, the date format dd/mm/yyyy is valid, and users can enter the date in this format without receiving an error message.</p>
                         <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=38836&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">38836</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows" style="text-align: left;">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" style="text-align: left;">
+                        <p class="RNTitle">Group Notifications Prevented for All Buildings on Rule When One Building Had a Special&#160;Date Configured</p>
+                        <p class="RNBody">For a group notification rule configured with two or more buildings, the special dates on any of the configured buildings were preventing notifications from going out for the non-special date buildings on the notification that day. </p>
+                        <p class="RNBody">For example, both Building&#160;A and Building&#160;B share a group notification rule. Building A has July&#160;4 configured as a special date, but Building&#160;B does not, and Building&#160;B has bookings on July&#160;4. Even though Building&#160;B's bookings should trigger a group notification, the notification is not sent because of the special date configured for Building&#160;A.</p>
+                        <p class="RNBody"><span class="bold">Fix:&#160;</span>Modified functionality so that only buildings with special dates are prevented from triggering group notifications.</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=27922&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">27922</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
             </tbody>

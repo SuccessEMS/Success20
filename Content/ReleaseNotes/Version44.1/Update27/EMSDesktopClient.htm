@@ -46,60 +46,48 @@
             <tbody>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p class="RNArea">Group Notifications</p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p class="RNTitle">Group Notifications Prevented for All Buildings on Rule When One Building Had a Special&#160;Date Configured</p>
-                        <p class="RNBody">For a group notification rule configured with two or more buildings, the special dates on any of the configured buildings were preventing notifications from going out for the non-special date buildings on the notification that day. </p>
-                        <p class="RNBody">For example, both Building&#160;A and Building&#160;B share a group notification rule. Building A has July&#160;4 configured as a special date, but Building&#160;B does not, and Building&#160;B has bookings on July&#160;4. Even though Building&#160;B's bookings should trigger a group notification, the notification is not sent because of the special date configured for Building&#160;A.</p>
-                        <p class="RNBody"><span class="bold">Fix:&#160;</span>Modified functionality so that only buildings with special dates are prevented from triggering group notifications.</p>
-                        <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=27922&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">27922</a><br />(For EMS&#160;Internal Use Only)</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
                         <p class="RNArea">Reservation Wizard</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
                         <p class="RNTitle">Unable to Select LDAP-Assigned  Process Templates in the   Reservation Wizard </p>
                         <p class="RNBody">EMS&#160;Desktop Client users were unable to select LDAP-assigned process templates in the <span class="bold">Everyday User Applications</span> tab of Reservation Wizard when assigning an everyday user to a reservation. </p>
                         <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that EMS&#160;Desktop Client users are able to select LDAP-assigned process templates in the <span class="bold">Everyday User Applications</span> tab of Reservation Wizard.</p>
                         <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=37476&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">37476</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
                         <p class="RNArea">Custom Reports</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
                         <p class="RNTitle">Custom Reports Not Working in Some EMS&#160;Desktop Client Versions</p>
-                        <p class="RNBody">Custom reports was not working in EMS&#160;Desktop Client version
-23.1
-or higher.</p>
-                        <p class="RNBody"><span class="bold">Fix:&#160;</span>Restored functionality so that custom reports work on all&#160;Desktop Client versions.</p>
+                        <p class="RNBody">Changes were made to the EMS&#160;Desktop Client to better support future custom reports and changes to existing custom reports.  As such, any customers on 44.1 that are currently using an <a href="../../../EMSDesktopClient/V44.1/InstallationGuide/InstallCustomReport.html">EMS Custom Repor</a>t will need to contact <a href="../../../ContactUs.htm">EMS Support</a> or their Consultant to obtain a new DLL file if they intend to deploy Update 27 of the EMS&#160;Desktop Client.</p>
+                        <p class="RNBody"><span class="bold">Fix:&#160;</span>Restored functionality so that custom reports work on all&#160;EMS&#160;Desktop Client versions. </p>
+                        <p class="RNBody"><span class="bold">IMPORTANT:&#160;This fix requires customers to obtain a new DLL&#160;file from </span><a href="../../../ContactUs.htm" class="bold">EMS&#160;Customer Support</a><span class="bold">. </span>
+                        </p>
                         <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=38711&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">38711</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
                         <p class="RNArea">Web Deploy</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
                         <p class="RNTitle">Users Could Not Log In When Using Windows Authentication and Connecting with Web Deploy Service</p>
                         <p class="RNBody">When using Windows Authentication and connecting using the Web Deploy Service, users could not log in.</p>
                         <p class="RNBodyBeforeList"><span class="bold">Fix:</span> Modified functionality so that users can log in when using Windows Authentication and connecting using the Web Deploy Service.</p>
                         <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=37999&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">37999</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
                         <p class="RNArea">Confirmations &amp;&#160;Invoices</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
                         <p class="RNTitle">Confirmations and Invoices Displayed Incorrect Information</p>
                         <p class="RNBody">For a reservation with multiple bookings, the confirmation and invoice displayed all resources and pricing under the last booking date.</p>
                         <p class="RNBody"><span class="bold">Fix:&#160;</span>Modified functionality so that invoices and confirmations display each booking under its correct date.</p>
-                        <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=39933&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">39933</a>, <a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=40029&amp;_a=edit&amp;triage=true" class="RNRefHyper">40029</a><br />(For EMS&#160;Internal Use Only)</p>
+                        <p class="RNRef">Internal Reference #&#160; <a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=40029&amp;_a=edit&amp;triage=true" class="RNRefHyper">40029</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
             </tbody>
