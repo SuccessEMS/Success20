@@ -2,9 +2,6 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="EMSWebApp_U27"
-    Link="/Content/ReleaseNotes/Version44.1/Update27/EMSWebApp.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
-  <TocEntry
-    Title="EMSKioskApp_U27"
-    Link="/Content/ReleaseNotes/Version44.1/Update27/EMSKioskApp.htm" />
+    Title="Integrated Authentication"
+    Link="/Content/Authentication/IntroEMSIntegratedAuth.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
 </CatapultToc>
