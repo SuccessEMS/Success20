@@ -18,12 +18,11 @@
       <TocEntry
         Title="Introduction"
         Link="/Content/EMSMobileApp/C_UserGuide/Introduction.html"
+        BreakType="chapter"
         ChapterNumberReset="reset"
         ChapterNumber="1"
-        BreakType="chapter"
-        PageNumberReset="reset"
         StartSection="false"
-        PageNumber="1"
+        PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
         SectionNumberReset="continue"
         VolumeNumberReset="same">
@@ -33,7 +32,10 @@
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
-          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue" />
       </TocEntry>
       <TocEntry
         Title="Get Started With EMS Mobile"
@@ -41,114 +43,152 @@
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
-        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl">
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue">
         <TocEntry
           Title="Log In, Reset Password, or Create An Account"
           Link="/Content/EMSMobileApp/C_UserGuide/LogInResetPasswordCreateAccount.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
-          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue" />
         <TocEntry
           Title="Enter Your Server URL"
           Link="/Content/EMSMobileApp/C_UserGuide/EnterYourServerURL.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
-          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue" />
         <TocEntry
           Title="Search For Events"
           Link="/Content/EMSMobileApp/C_UserGuide/SearchforEvents.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
-          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue" />
         <TocEntry
           Title="Check In to Meetings"
           Link="/Content/EMSMobileApp/C_UserGuide/CheckIntoMeetings.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
-          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue" />
         <TocEntry
           Title="Cancel Meetings"
           Link="/Content/EMSMobileApp/C_UserGuide/CancelMeetings.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
-          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue" />
         <TocEntry
           Title="End Meetings Early"
           Link="/Content/EMSMobileApp/C_UserGuide/EndMeetingsEarly.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
-          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue" />
         <TocEntry
-          Title="Favorite Locations"
-          Link="/Content/EMSMobileApp/C_UserGuide/FavoriteLocations.html"
+          Title="Assign or Remove Favorite Locations"
+          Link="/Content/EMSMobileApp/C_UserGuide/AssignRemoveFavLoc.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
-          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
-        <TocEntry
-          Title="Remove Favorite Locations"
-          Link="/Content/EMSMobileApp/C_UserGuide/RemoveFavoriteLocations.html"
-          BreakType="chapter"
-          StartSection="false"
-          PageNumberReset="continue"
-          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue" />
         <TocEntry
           Title="Use QR Codes"
           Link="/Content/EMSMobileApp/C_UserGuide/UseQRCodes.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
-          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue" />
       </TocEntry>
-      <TocEntry
-        Title="Attend a Meeting"
-        Link="/Content/EMSMobileApp/C_UserGuide/AttendMeeting.html"
-        BreakType="chapter"
-        StartSection="false"
-        PageNumberReset="continue"
-        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
       <TocEntry
         Title="Create a Meeting"
         Link="/Content/EMSMobileApp/C_UserGuide/CreateMeeting.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
-        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl">
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue">
         <TocEntry
           Title="Find a Room"
           Link="/Content/EMSMobileApp/C_UserGuide/FindRoom.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
-          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue" />
         <TocEntry
           Title="Invite People"
           Link="/Content/EMSMobileApp/C_UserGuide/InvitePeople.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
-          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue" />
       </TocEntry>
       <TocEntry
-        Title="Change a Meeting"
-        Link="/Content/EMSMobileApp/C_UserGuide/ChangeMeeting.html"
+        Title="Edit a Meeting"
+        Link="/Content/EMSMobileApp/C_UserGuide/EditMeeting.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
-        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Attend a Meeting"
+        Link="/Content/EMSMobileApp/C_UserGuide/AttendMeeting.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
       <TocEntry
         Title="Use Skype for Business in the EMS Mobile App"
         Link="/Content/EMSMobileApp/C_UserGuide/UseSkypeforBusiness.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
-        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
     </TocEntry>
   </TocEntry>
 </CatapultToc>

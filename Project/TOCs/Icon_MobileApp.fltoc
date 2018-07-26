@@ -14,7 +14,7 @@
         Link="/Content/EMSMobileApp/InstallationGuide/Mobile_InstallandBasicSetup.html">
         <TocEntry
           Title="Architecture"
-          Link="/Content/EMSMobileApp/InstallationGuide/Mobile_Architecture.html" />
+          Link="/Content/EMSMobileApp/InstallationGuide/Architecture.html" />
         <TocEntry
           Title="How Mobile App Data Is Stored on Devices"
           Link="/Content/EMSMobileApp/InstallationGuide/Mobile_HowAppDataIsStoredonDevices.html" />
@@ -141,7 +141,7 @@
         Link="/Content/EMSMobileApp/C_UserGuide/Introduction.html">
         <TocEntry
           Title="What's New"
-          Link="/Content/EMSMobileApp/C_UserGuide/WhatsNew.html"></TocEntry>
+          Link="/Content/EMSMobileApp/C_UserGuide/WhatsNew.html" />
       </TocEntry>
       <TocEntry
         Title="Get Started With EMS Mobile"
@@ -165,11 +165,8 @@
           Title="End Meetings Early"
           Link="/Content/EMSMobileApp/C_UserGuide/EndMeetingsEarly.html" />
         <TocEntry
-          Title="Favorite Locations"
-          Link="/Content/EMSMobileApp/C_UserGuide/FavoriteLocations.html" />
-        <TocEntry
-          Title="Remove Favorite Locations"
-          Link="/Content/EMSMobileApp/C_UserGuide/RemoveFavoriteLocations.html" />
+          Title="Assign or Remove Favorite Locations"
+          Link="/Content/EMSMobileApp/C_UserGuide/AssignRemoveFavLoc.htm" />
         <TocEntry
           Title="Use QR Codes"
           Link="/Content/EMSMobileApp/C_UserGuide/UseQRCodes.html" />
@@ -188,14 +185,14 @@
           Link="/Content/EMSMobileApp/C_UserGuide/InvitePeople.html" />
       </TocEntry>
       <TocEntry
-        Title="Change a Meeting"
-        Link="/Content/EMSMobileApp/C_UserGuide/ChangeMeeting.html" />
+        Title="Edit a Meeting"
+        Link="/Content/EMSMobileApp/C_UserGuide/EditMeeting.html" />
       <TocEntry
         Title="Use Skype for Business in the EMS Mobile App"
         Link="/Content/EMSMobileApp/C_UserGuide/UseSkypeforBusiness.html" />
       <TocEntry
         Title="PDF"
-        Link="/Content/EMSMobileApp/C_UserGuide/EMSMobileApp_UserGuide.pdf" />
+        Link="/Content/WebApp/A_V44.1/C_UserGuide/WebApp_UG_PDF.pdf" />
     </TocEntry>
     <TocEntry
       Title="Video Tutorials"

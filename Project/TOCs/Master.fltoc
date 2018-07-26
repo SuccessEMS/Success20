@@ -243,23 +243,24 @@
       Link="/Content/InstallGuides/MobileApp/4_MobileAppHome.htm">
       <TocEntry
         Title="Introduction"
-        Link="/Content/EMSMobileApp/InstallationGuide/Mobile_Introduction.html" />
-      <TocEntry
-        Title="Installation and Basic Setup"
-        Link="/Content/EMSMobileApp/InstallationGuide/Mobile_InstallandBasicSetup.html">
+        Link="/Content/EMSMobileApp/InstallationGuide/Mobile_Introduction.html">
         <TocEntry
-          Title="Architecture"
-          Link="/Content/EMSMobileApp/InstallationGuide/Mobile_Architecture.html" />
-        <TocEntry
-          Title="How Mobile App Data Is Stored on Devices"
-          Link="/Content/EMSMobileApp/InstallationGuide/Mobile_HowAppDataIsStoredonDevices.html" />
+          Title="What's New"
+          Link="/Content/EMSMobileApp/InstallationGuide/Mobile_WhatsNew.html" />
       </TocEntry>
       <TocEntry
         Title="System Requirements"
         Link="/Content/EMSMobileApp/InstallationGuide/Mobile_SysRequirements.html" />
       <TocEntry
-        Title="What's New"
-        Link="/Content/EMSMobileApp/InstallationGuide/Mobile_WhatsNew.html" />
+        Title="Installation and Basic Setup"
+        Link="/Content/EMSMobileApp/InstallationGuide/Mobile_InstallandBasicSetup.html">
+        <TocEntry
+          Title="Architecture"
+          Link="/Content/EMSMobileApp/InstallationGuide/Architecture.html" />
+        <TocEntry
+          Title="How Mobile App Data Is Stored on Devices"
+          Link="/Content/EMSMobileApp/InstallationGuide/Mobile_HowAppDataIsStoredonDevices.html" />
+      </TocEntry>
       <TocEntry
         Title="PDF"
         Link="/Content/WebApp/A_V44.1/A_InstallationGuide/WebApp_Install_PDF.pdf" />
@@ -2567,11 +2568,8 @@
           Title="End Meetings Early"
           Link="/Content/EMSMobileApp/C_UserGuide/EndMeetingsEarly.html" />
         <TocEntry
-          Title="Favorite Locations"
-          Link="/Content/EMSMobileApp/C_UserGuide/FavoriteLocations.html" />
-        <TocEntry
-          Title="Remove Favorite Locations"
-          Link="/Content/EMSMobileApp/C_UserGuide/RemoveFavoriteLocations.html" />
+          Title="Assign or Remove Favorite Locations"
+          Link="/Content/EMSMobileApp/C_UserGuide/AssignRemoveFavLoc.htm" />
         <TocEntry
           Title="Use QR Codes"
           Link="/Content/EMSMobileApp/C_UserGuide/UseQRCodes.html" />
@@ -2590,8 +2588,8 @@
           Link="/Content/EMSMobileApp/C_UserGuide/InvitePeople.html" />
       </TocEntry>
       <TocEntry
-        Title="Change a Meeting"
-        Link="/Content/EMSMobileApp/C_UserGuide/ChangeMeeting.html" />
+        Title="Edit a Meeting"
+        Link="/Content/EMSMobileApp/C_UserGuide/EditMeeting.html" />
       <TocEntry
         Title="Use Skype for Business in the EMS Mobile App"
         Link="/Content/EMSMobileApp/C_UserGuide/UseSkypeforBusiness.html" />
