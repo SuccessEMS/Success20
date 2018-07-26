@@ -8,23 +8,23 @@
       Link="/Content/InstallGuides/MobileApp/4_MobileAppHome.htm">
       <TocEntry
         Title="Introduction"
-        Link="/Content/EMSMobileApp/InstallationGuide/Mobile_Introduction.html" />
+        Link="/Content/EMSMobileApp/InstallationGuide/Introduction.html" />
       <TocEntry
         Title="Installation and Basic Setup"
-        Link="/Content/EMSMobileApp/InstallationGuide/Mobile_InstallandBasicSetup.html">
+        Link="/Content/EMSMobileApp/InstallationGuide/InstallandBasicSetup.html">
         <TocEntry
           Title="Architecture"
           Link="/Content/EMSMobileApp/InstallationGuide/Architecture.html" />
         <TocEntry
           Title="How Mobile App Data Is Stored on Devices"
-          Link="/Content/EMSMobileApp/InstallationGuide/Mobile_HowAppDataIsStoredonDevices.html" />
+          Link="/Content/EMSMobileApp/InstallationGuide/HowAppDataIsStoredonDevices.html" />
       </TocEntry>
       <TocEntry
         Title="System Requirements"
-        Link="/Content/EMSMobileApp/InstallationGuide/Mobile_SysRequirements.html" />
+        Link="/Content/EMSMobileApp/InstallationGuide/SysRequirements.html" />
       <TocEntry
         Title="What's New"
-        Link="/Content/EMSMobileApp/InstallationGuide/Mobile_WhatsNew.html" />
+        Link="/Content/EMSMobileApp/InstallationGuide/WhatsNew.html" />
       <TocEntry
         Title="PDF"
         Link="/Content/EMSMobileApp/InstallationGuide/EMSMobileApp_InstallationGuide.pdf"></TocEntry>

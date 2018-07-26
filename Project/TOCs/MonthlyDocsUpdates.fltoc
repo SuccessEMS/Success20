@@ -5,25 +5,25 @@
     Title="Mobile App Installation Guide">
     <TocEntry
       Title="Introduction"
-      Link="/Content/EMSMobileApp/InstallationGuide/Mobile_Introduction.html" />
+      Link="/Content/EMSMobileApp/InstallationGuide/Introduction.html" />
     <TocEntry
       Title="System Requirements"
-      Link="/Content/EMSMobileApp/InstallationGuide/Mobile_SysRequirements.html" />
+      Link="/Content/EMSMobileApp/InstallationGuide/SysRequirements.html" />
     <TocEntry
       Title="Installation and Basic Setup"
-      Link="/Content/EMSMobileApp/InstallationGuide/Mobile_InstallandBasicSetup.html" />
+      Link="/Content/EMSMobileApp/InstallationGuide/InstallandBasicSetup.html" />
     <TocEntry
       Title="Architecture"
       Link="/Content/EMSMobileApp/InstallationGuide/Architecture.html" />
     <TocEntry
       Title="How Mobile App Data Is Stored on Devices"
-      Link="/Content/EMSMobileApp/InstallationGuide/Mobile_HowAppDataIsStoredonDevices.html" />
+      Link="/Content/EMSMobileApp/InstallationGuide/HowAppDataIsStoredonDevices.html" />
     <TocEntry
       Title="[%=System.LinkedTitle%]"
-      Link="/Content/EMSMobileApp/InstallationGuide/Mobile_ConnectwithEMSPlatformServices.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      Link="/Content/EMSMobileApp/InstallationGuide/ConnectwithEMSPlatformServices.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     <TocEntry
       Title="What's New"
-      Link="/Content/EMSMobileApp/InstallationGuide/Mobile_WhatsNew.html" />
+      Link="/Content/EMSMobileApp/InstallationGuide/WhatsNew.html" />
   </TocEntry>
   <TocEntry
     Title="Mobile App Configuration Guide">

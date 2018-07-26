@@ -18,7 +18,7 @@
       PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/TOC8_5X11.flpgl" />
     <TocEntry
       Title="Introduction"
-      Link="/Content/EMSMobileApp/InstallationGuide/Mobile_Introduction.html"
+      Link="/Content/EMSMobileApp/InstallationGuide/Introduction.html"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="reset"
@@ -30,21 +30,21 @@
       VolumeNumberReset="same"></TocEntry>
     <TocEntry
       Title="System Requirements"
-      Link="/Content/EMSMobileApp/InstallationGuide/Mobile_SysRequirements.html"
+      Link="/Content/EMSMobileApp/InstallationGuide/SysRequirements.html"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
       PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
     <TocEntry
       Title="What's New"
-      Link="/Content/EMSMobileApp/InstallationGuide/Mobile_WhatsNew.html"
+      Link="/Content/EMSMobileApp/InstallationGuide/WhatsNew.html"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
       PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
     <TocEntry
       Title="Installation and Basic Setup"
-      Link="/Content/EMSMobileApp/InstallationGuide/Mobile_InstallandBasicSetup.html"
+      Link="/Content/EMSMobileApp/InstallationGuide/InstallandBasicSetup.html"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
@@ -57,7 +57,7 @@
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
       <TocEntry
         Title="How Mobile App Data Is Stored on Devices"
-        Link="/Content/EMSMobileApp/InstallationGuide/Mobile_HowAppDataIsStoredonDevices.html"
+        Link="/Content/EMSMobileApp/InstallationGuide/HowAppDataIsStoredonDevices.html"
         BreakType="chapter"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
