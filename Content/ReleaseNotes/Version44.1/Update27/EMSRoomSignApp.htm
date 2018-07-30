@@ -23,10 +23,10 @@
                     <p class="p_3">Release&#160;Date:<br />July 31, 2018<br /></p>
                 </td>
                 <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                    <p>SQL&#160;Patch #:&#160;<br /></p>
+                    <p>Patch #:&#160;<br />44.1.27000.201807270</p>
                 </td>
                 <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                    <p class="p_3">Build #:&#160;<br /><br /></p>
+                    <p class="p_3">Build #:&#160;<br />18.7.11.4<br /></p>
                 </td>
             </tr>
         </table>
@@ -46,7 +46,7 @@
             </thead>
             <tbody>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" rowspan="2">
                         <p class="RNArea">Check In</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
@@ -57,23 +57,22 @@
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="RNTitle">Auto Cancellation Not Functioning Properly on Exchange-enabled Templates</p>
+                        <p class="RNBody">For EMS&#160;Room Sign App profiles in Exchange-enabled templates that allow for 15 minutes early check in, as well as auto cancellation at either 15 or 30 minutes after start time, auto cancellation was not working. If the room was not checked into, the auto cancellation was not canceling the room 30 minutes after start time.</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that a room that is not checked into is canceled after 30 minutes from start. </p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=39930&amp;_a=edit&amp;triage=true" class="RNRefHyper" title="EMS Internal Use Only" alt="EMS Internal Use Only">39930</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
                         <p class="RNArea">Badge Reader</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
                         <p class="RNTitle">Unable to Scan Badges that Have Badge Numbers Longer Than Nine Digits</p>
                         <p class="RNBody">If a badge number longer than nine digits was entered in the Badge Number field (EMS&#160;Desktop Client &gt; Groups &gt; Edit Group &gt; Other tab), users would receive an error message when they scanned their badges stating that the EMS&#160;Room Sign App was unable to find the users.  </p>
                         <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that users no longer receive an error when they scan their badges. </p>
                         <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=38821&amp;_a=edit&amp;triage=true" class="RNRefHyper" title="EMS Internal Use Only" alt="EMS Internal Use Only">38821</a><br />(For EMS&#160;Internal Use Only)</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
-                        <p class="RNTitle">Auto Cancellation Not Functioning Properly on Exchange-enabled Templates</p>
-                        <p class="RNBody">For EMS&#160;Room Sign App profiles in Exchange-enabled templates that allow for 15 minutes early check in, as well as auto cancellation at either 15 or 30 minutes after start time, auto cancellation was not working. If the room was not checked into, the auto cancellation was not canceling the room 30 minutes after start time.</p>
-                        <p class="RNBody"><span class="bold">Fix</span>:&#160;Modified functionality so that a room that is not checked into is canceled after 30 minutes from start. </p>
-                        <p class="RNBody">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=39930&amp;_a=edit&amp;triage=true" class="RNRefHyper" title="EMS Internal Use Only" alt="EMS Internal Use Only">39930</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
             </tbody>
