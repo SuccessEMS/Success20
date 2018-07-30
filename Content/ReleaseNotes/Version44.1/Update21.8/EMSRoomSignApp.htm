@@ -10,23 +10,19 @@
         <p>
             <MadCap:concept term="V44.1" />This section describes updates to&#160;your EMS software.&#160;&#160;</p>
         <p>See Also:&#160;<a href="#Contact">Contact Customer Support</a>&#160;and&#160;<MadCap:xref href="../../../Update_to_LatestVersion_EMS.htm"><a href="../../../Update_to_LatestVersion_EMS.htm">Updating to the Latest Version of EMS (Patches and Builds)</a></MadCap:xref>. </p>
-        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');margin-left: 0;margin-right: auto;width: 100%;" cellspacing="0">
-            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 138px;" />
-            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 213px;" />
-            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 202px;" />
-            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 110px;" />
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');margin-left: 0;margin-right: auto;" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 151px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 127px;" />
             <tr class="TableStyle-PatternedRows-Body-LightRows">
                 <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
                     <p class="p_3">V44.1 Update 21.8</p>
                 </td>
                 <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                    <p class="p_3">Release&#160;Date:<br />July XX, 2018<br /></p>
-                </td>
-                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                    <p>SQL&#160;Patch #:&#160;<br /></p>
+                    <p class="p_3">Release&#160;Date:<br />July 30, 2018<br /></p>
                 </td>
                 <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                    <p class="p_3">Build #:&#160;<br /><br /></p>
+                    <p class="p_3">Build #:&#160;<br />18.7.11.3<br /></p>
                 </td>
             </tr>
         </table>
@@ -51,8 +47,8 @@
                     </td>
                     <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
                         <p class="RNTitle">Check In Button and Automatic Cancellation Were Being Activated Incorrectly</p>
-                        <p class="RNBody">The <span class="bold">Check In</span> button was being activated based on the setup or reserved time instead of the time specified in the EMS&#160;Desktop Client settings. Additionally, automatic cancellation was being applied inconsistently (e.g., applying automatic cancellation based on the setup time instead of the interval after check in  specified in EMS&#160;Desktop Client settings). </p>
-                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that the <span class="bold">Check In</span> button is activated based on the time specified in the EMS&#160;Desktop Client settings, and automatic cancellation cancels the room based on the interval specified in EMS&#160;Desktop Client settings. </p>
+                        <p class="RNBody">The <span class="bold">Check In</span> button was being activated based on the setup or reserved time instead of the event time. Additionally, automatic cancellation was being applied inconsistently (e.g., applying automatic cancellation based on the setup time instead of the interval after check in  specified in EMS&#160;Desktop Client settings). </p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that the <span class="bold">Check In</span> button is activated based on the event time and automatic cancellation cancels the room based on the interval specified in EMS&#160;Desktop Client settings.</p>
                         <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=39543&amp;_a=edit&amp;triage=false" class="RNRefHyper" title="EMS Internal Use Only" alt="EMS Internal Use Only">39543</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
