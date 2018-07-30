@@ -59,7 +59,7 @@
       Link="/Content/EMSMobileApp/B_ConfigurationGuide/Mobile_ConfigMobileQRCodes.html" />
     <TocEntry
       Title="How Do I Know When To Upgrade the Mobile App and API?"
-      Link="/Content/EMSMobileApp/B_ConfigurationGuide/Mobile_HowtoUpgradeMobileApptoAPI.html" />
+      Link="/Content/EMSMobileApp/InstallationGuide/HowtoUpgradeMobileApptoAPI.html" />
     <TocEntry
       Title="[%=System.LinkedTitle%]"
       Link="/Content/EMSMobileApp/B_ConfigurationGuide/MobileAppParam.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />

@@ -1499,7 +1499,7 @@
         Link="/Content/EMSMobileApp/B_ConfigurationGuide/Mobile_ConfigMobileQRCodes.html" />
       <TocEntry
         Title="How Do I Know When To Upgrade the Mobile App and API?"
-        Link="/Content/EMSMobileApp/B_ConfigurationGuide/Mobile_HowtoUpgradeMobileApptoAPI.html" />
+        Link="/Content/EMSMobileApp/InstallationGuide/HowtoUpgradeMobileApptoAPI.html" />
       <TocEntry
         Title="Set EMS Mobile Parameters"
         Link="/Content/EMSMobileApp/B_ConfigurationGuide/MobileAppParam.htm" />
