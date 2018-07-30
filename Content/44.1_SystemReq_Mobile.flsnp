@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h2>EMS&#160;Mobile App System Requirements</h2>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('Resources/TableStyles/PatternedRows.css');margin-left: 0;margin-right: auto;width: 100%;" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                        <p>Supported Platforms</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>Android 4.4, 5.0, 6.0, 7.0, 7.1</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>iOS 9.x, 10.x</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="bold">Prerequisites</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
+                        <p class="beforelist">To host and install <MadCap:variable name="General.Mobile" />, you will need the following:</p>
+                        <ul class="unorder-list">
+                            <li>EMS database&#160;server, web server <strong>and <MadCap:variable name="General.Platform Services" /></strong>&#160;(see <a href="EMSPlatformServices/A_InstallationGuide/Platform_LicenseRequirements.html" title="EMS V44.1 System Requirements" alt="EMS V44.1 System Requirements">Requirements</a>)&#160;</li>
+                            <li>mobile phone(s)</li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
