@@ -216,10 +216,10 @@
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p class="RNTitle">Unable to Create Reservations with Billing Reference Numbers Containing All Zeros</p>
-                        <p class="RNBody">EMS&#160;Web App users were unable to create a reservation if they selected a billing reference number that contained all zeroes (from the Reservation Details tab). They received the error message: "Billing Reference is required and must be valid." </p>
-                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that users can successfully create reservations with billing reference numbers that contain all zeroes.</p>
-                        <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=38391&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">38391</a><br />(For EMS&#160;Internal Use Only)</p>
+                        <p class="RNTitle">Unable to Create Reservations When Billing Reference or PO&#160;Number Contains "&amp;" Character</p>
+                        <p class="RNBody">When a Billing Reference or PO number containing an "&amp;" character was added in EMS&#160;Desktop Client, the EMS&#160;Web App was unable to create reservations  associated with that number. EMS&#160;Web App users would receive an error stating that the Billing Reference or PO Number was required and must be entered.</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that Billing Reference and PO numbers containing "&amp;" are accepted in EMS&#160;Web App and reservations associated with those numbers can be made.   </p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=35112&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">35112</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
