@@ -17,7 +17,7 @@
       PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/TOC8_5X11.flpgl">
       <TocEntry
         Title="Introduction"
-        Link="/Content/EMSMobileApp/C_UserGuide/Introduction.html"
+        Link="/Content/EMSMobileApp/UserGuide/Introduction.html"
         BreakType="chapter"
         ChapterNumberReset="reset"
         ChapterNumber="1"
@@ -28,7 +28,7 @@
         VolumeNumberReset="same">
         <TocEntry
           Title="What's New"
-          Link="/Content/EMSMobileApp/C_UserGuide/WhatsNew.html"
+          Link="/Content/EMSMobileApp/UserGuide/WhatsNew.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -39,7 +39,7 @@
       </TocEntry>
       <TocEntry
         Title="Get Started With EMS Mobile"
-        Link="/Content/EMSMobileApp/C_UserGuide/GetStarted.html"
+        Link="/Content/EMSMobileApp/UserGuide/GetStarted.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -49,7 +49,7 @@
         ChapterNumberReset="continue">
         <TocEntry
           Title="Log In, Reset Password, or Create An Account"
-          Link="/Content/EMSMobileApp/C_UserGuide/LogInResetPasswordCreateAccount.html"
+          Link="/Content/EMSMobileApp/UserGuide/LogInResetPasswordCreateAccount.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -59,7 +59,7 @@
           ChapterNumberReset="continue" />
         <TocEntry
           Title="Enter Your Server URL"
-          Link="/Content/EMSMobileApp/C_UserGuide/EnterYourServerURL.html"
+          Link="/Content/EMSMobileApp/UserGuide/EnterYourServerURL.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -69,7 +69,7 @@
           ChapterNumberReset="continue" />
         <TocEntry
           Title="Search For Events"
-          Link="/Content/EMSMobileApp/C_UserGuide/SearchforEvents.html"
+          Link="/Content/EMSMobileApp/UserGuide/SearchforEvents.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -79,7 +79,7 @@
           ChapterNumberReset="continue" />
         <TocEntry
           Title="Check In to Meetings"
-          Link="/Content/EMSMobileApp/C_UserGuide/CheckIntoMeetings.html"
+          Link="/Content/EMSMobileApp/UserGuide/CheckIntoMeetings.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -89,7 +89,7 @@
           ChapterNumberReset="continue" />
         <TocEntry
           Title="Cancel Meetings"
-          Link="/Content/EMSMobileApp/C_UserGuide/CancelMeetings.html"
+          Link="/Content/EMSMobileApp/UserGuide/CancelMeetings.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -99,7 +99,7 @@
           ChapterNumberReset="continue" />
         <TocEntry
           Title="End Meetings Early"
-          Link="/Content/EMSMobileApp/C_UserGuide/EndMeetingsEarly.html"
+          Link="/Content/EMSMobileApp/UserGuide/EndMeetingsEarly.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -109,7 +109,7 @@
           ChapterNumberReset="continue" />
         <TocEntry
           Title="Assign or Remove Favorite Locations"
-          Link="/Content/EMSMobileApp/C_UserGuide/AssignRemoveFavLoc.htm"
+          Link="/Content/EMSMobileApp/UserGuide/AssignRemoveFavLoc.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -119,7 +119,7 @@
           ChapterNumberReset="continue" />
         <TocEntry
           Title="Use QR Codes"
-          Link="/Content/EMSMobileApp/C_UserGuide/UseQRCodes.html"
+          Link="/Content/EMSMobileApp/UserGuide/UseQRCodes.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -130,7 +130,7 @@
       </TocEntry>
       <TocEntry
         Title="Create a Meeting"
-        Link="/Content/EMSMobileApp/C_UserGuide/CreateMeeting.html"
+        Link="/Content/EMSMobileApp/UserGuide/CreateMeeting.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -140,7 +140,7 @@
         ChapterNumberReset="continue">
         <TocEntry
           Title="Find a Room"
-          Link="/Content/EMSMobileApp/C_UserGuide/FindRoom.html"
+          Link="/Content/EMSMobileApp/UserGuide/FindRoom.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -150,7 +150,7 @@
           ChapterNumberReset="continue" />
         <TocEntry
           Title="Invite People"
-          Link="/Content/EMSMobileApp/C_UserGuide/InvitePeople.html"
+          Link="/Content/EMSMobileApp/UserGuide/InvitePeople.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
@@ -161,7 +161,7 @@
       </TocEntry>
       <TocEntry
         Title="Edit a Meeting"
-        Link="/Content/EMSMobileApp/C_UserGuide/EditMeeting.html"
+        Link="/Content/EMSMobileApp/UserGuide/EditMeeting.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -171,7 +171,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Attend a Meeting"
-        Link="/Content/EMSMobileApp/C_UserGuide/AttendMeeting.html"
+        Link="/Content/EMSMobileApp/UserGuide/AttendMeeting.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -181,7 +181,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="Use Skype for Business in the EMS Mobile App"
-        Link="/Content/EMSMobileApp/C_UserGuide/UseSkypeforBusiness.html"
+        Link="/Content/EMSMobileApp/UserGuide/UseSkypeforBusiness.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
