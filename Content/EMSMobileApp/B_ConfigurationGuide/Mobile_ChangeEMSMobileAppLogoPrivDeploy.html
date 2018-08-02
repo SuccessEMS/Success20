@@ -32,10 +32,12 @@
             <li>
                 <p>Resign your target ipa with this command:</p><pre>fastlane run resign \</pre><pre>ipa:path/to/your/file.ipa \</pre><pre>signing_identity:"iPhone Distribution: &lt;Your Team Name&gt;" \</pre><pre xml:space="preserve">provisioning_profile:$HOME/Library/MobileDevice/
 Provisioning Profiles/&lt;your profile GUID&gt;.mobileprovision \</pre><pre>display_name:EMS-Resigned</pre>
-                <p class="box-note"><span class="bold">NOTE</span>:&#160;If you want a bash scrip that will do this, copy this into a file (e.g., resign_enterprise.sh):<br /><br />#!/bin/bash<br />IPA=relative/path/to/file.ipa<br />IDENTITY="iPhone Distribution: &lt;Your Team Name&gt;"<br />PROFILE=$HOME/Library/MobileDevice/Provisioning Profiles/
-&lt;your profile GUID&gt;.mobileprovision<br />DISPLAY_NAME=EMS-Resigned<br />fastlane run resign ipa:"$IPA" signing_identity:
+                <div class="box-note">
+                    <p><span class="bold">NOTE</span>:&#160;If you want a bash scrip that will do this, copy this into a file (e.g., resign_enterprise.sh):</p><pre><span style="font-family: 'Courier New';"><span style="font-size: 10pt;">#!/bin/bash</span></span><br style="font-family: 'Courier New';font-size: 8pt;" /><span style="font-family: 'Courier New';"><span style="font-size: 10pt;">IPA=relative/path/to/file.ipa</span></span><br style="font-family: 'Courier New';font-size: 10pt;" /><span style="font-family: 'Courier New';"><span style="font-size: 10pt;">IDENTITY="iPhone Distribution: &lt;Your Team Name&gt;"</span></span><br style="font-family: 'Courier New';font-size: 10pt;" /><span style="font-family: 'Courier New';"><span style="font-size: 10pt;">PROFILE=$HOME/Library/MobileDevice/Provisioning Profiles/
+&lt;your profile GUID&gt;.mobileprovision</span></span><br style="font-family: 'Courier New';font-size: 10pt;" /><span style="font-family: 'Courier New';"><span style="font-size: 10pt;">DISPLAY_NAME=EMS-Resigned</span></span><br style="font-family: 'Courier New';font-size: 10pt;" /><span style="font-family: 'Courier New';"><span style="font-size: 10pt;">fastlane run resign ipa:"$IPA" signing_identity:
 "$IDENTITY" provisioning_profile:"$PROFILE" display_name:
-$DISPLAY_NAME</p>
+$DISPLAY_NAME</span></span></pre>
+                </div>
             </li>
             <li>Do the rest of this on the Mac.</li>
             <li>Login to <a href="https://developer.apple.com/">https://developer.apple.com</a> and switch to team "Your Team Name."</li>
