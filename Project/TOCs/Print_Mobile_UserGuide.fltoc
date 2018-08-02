@@ -28,14 +28,11 @@
         VolumeNumberReset="same">
         <TocEntry
           Title="What's New"
-          Link="/Content/EMSMobileApp/UserGuide/WhatsNew.html"
+          Link="/Content/EMSMobileApp/InstallationGuide/WhatsNew.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
-          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
-          SectionNumberReset="continue"
-          VolumeNumberReset="same"
-          ChapterNumberReset="continue" />
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
       </TocEntry>
       <TocEntry
         Title="Get Started With EMS Mobile"
