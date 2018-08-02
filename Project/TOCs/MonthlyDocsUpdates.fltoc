@@ -72,7 +72,7 @@
       Link="/Content/EMSMobileApp/UserGuide/Introduction.html">
       <TocEntry
         Title="What's New"
-        Link="/Content/EMSMobileApp/UserGuide/WhatsNew.html" />
+        Link="/Content/EMSMobileApp/InstallationGuide/WhatsNew.html" />
     </TocEntry>
     <TocEntry
       Title="Get Started With EMS Mobile"
