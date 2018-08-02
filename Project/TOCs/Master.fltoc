@@ -2541,11 +2541,7 @@
       Link="/Content/EMSMobileApp/UserGuide/2_EMS Mobile App.htm">
       <TocEntry
         Title="Introduction"
-        Link="/Content/EMSMobileApp/UserGuide/Introduction.html">
-        <TocEntry
-          Title="What's New"
-          Link="/Content/EMSMobileApp/InstallationGuide/WhatsNew.html" />
-      </TocEntry>
+        Link="/Content/EMSMobileApp/UserGuide/Introduction.html"></TocEntry>
       <TocEntry
         Title="Get Started With EMS Mobile"
         Link="/Content/EMSMobileApp/UserGuide/GetStarted.html">
