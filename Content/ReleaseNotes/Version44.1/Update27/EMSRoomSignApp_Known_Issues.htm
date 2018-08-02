@@ -22,7 +22,8 @@
             <tbody>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
-                        <p class="RNTitle">EMS Room Sign App Running on iOS 11 Devices and ArmorActive Enclosures Not Syncing
+                        <p class="RNTitle">
+                            <MadCap:annotation MadCap:createDate="2018-08-02T07:40:09.9665199-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Known issue is not showing in Known Issues Query, but the Known Issue flag is set to True in TFS. This happened in the last update, too. Leaving this known issue in U27 since Ankita wanted it in the last update." MadCap:editor="Megan.Laub" MadCap:editDate="2018-08-02T07:41:28.8132983-06:00">EMS Room Sign App Running on iOS 11 </MadCap:annotation>Devices and ArmorActive Enclosures Not Syncing
 </p>
                         <p class="RNBody">Users are required to interact/touch the EMS Room Sign App for it to start playing sounds. This causes LEDs on the ArmorActive enclosures to be out of sync or display a blue light when the EMS Room Sign App (web page) is loading.
 This issue is the result of Apple making a change to the Web Audio API in iOS 11. It now requires sounds to be triggered from an explicit user action, such as a tap. Calling noteOn() from an onload event will no longer play sound. Please find more information from Apple <a href="https://developer.apple.com/library/content/documentation/AudioVideo/Conceptual/Using_HTML5_Audio_Video/PlayingandSynthesizingSounds/PlayingandSynthesizingSounds.html#//apple_ref/doc/uid/TP40009523-CH6-SW5">here</a>.
@@ -33,6 +34,5 @@ This issue is the result of Apple making a change to the Web Audio API in iOS 11
                 </tr>
             </tbody>
         </table>
-        <p>&#160;</p>
     </body>
 </html>
