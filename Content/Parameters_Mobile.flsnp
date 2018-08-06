@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="Resources/TableStyles/PatternedRows_Param.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <table cellspacing="0" style="mc-table-style: url('Resources/TableStyles/PatternedRows_Param.css');width: 100%;margin-left: 0;margin-right: auto;" class="TableStyle-PatternedRows">
+            <col style="width : 117px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 160px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 312px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 167px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 204px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">AREA</th>
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">Title</th>
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">Description</th>
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">Value</th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">EXAMPLE</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr style="height : 90px;" class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Mobile-Specific</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Field to find rooms by when scanning QR codes</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Indicates the fields you want to match rooms by Room ID, Room Code or External Reference. </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Room ID, Room Code, External Reference (on room).</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">&#160;</td>
+                </tr>
+                <tr style="height : 90px;" class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Mobile-Specific</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Label for the Help Link on the Mobile App</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Login to the EMS Mobile App and click on top left navigation bar. &#160; On the bottom there is a help URL. This parameter allows you to configure the label for the help link. &#160; You can also configure the URL using another parameter - URL for HELP link on the EMS&#160;Mobile App.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">Login to the EMS Mobile App and click on top left navigation bar. &#160; On the bottom there is a help URL.   </td>
+                </tr>
+                <tr style="height : 45px;" class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Mobile-Specific</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Maximum EMS Mobile App version that the API should allow to connect.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Maximum app version that the API will allow to connect.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">&#160;</td>
+                </tr>
+                <tr style="height : 45px;" class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Mobile-Specific</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Minimum EMS Mobile App version that the API should allow to connect.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Minimum app version that the API will allow to connect.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">&#160;</td>
+                </tr>
+                <tr style="height : 45px;" class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Mobile-Specific</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Minimum number of minutes to book via QR code or mobile Browse Location</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">&#160;</td>
+                </tr>
+                <tr style="height : 30px;" class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Mobile-Specific</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Mobile checkin proximity distance</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">&#160;</td>
+                </tr>
+                <tr style="height : 30px;" class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Mobile-Specific</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Mobile proximity unit of measurement</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">&#160;</td>
+                </tr>
+                <tr style="height : 75px;" class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Mobile-Specific</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Scans custom QR codes and interprets them as URLs.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">QR Codes when scanned, can be configured to be interpreted as a URL.   If the Customer's configuration requires QR codes to be scanned as a URL, this parameter should be set to YES.   If set to No, QR Codes will be scanned as plain text.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">&#160;</td>
+                </tr>
+                <tr style="height : 75px;" class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Mobile-Specific</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Sets the header variable for the EMS Mobile APIs Header Authentication Method</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">EMS Mobile App supports header authentication.    The value of the header variable is set on the Platform's Admin page.   The same value should also be set for this parameter to make the Header Authentication work.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">See Also:&#160;<a href="Authentication/PortalAuthMethods.html">Portal Authentication Methods. </a></td>
+                </tr>
+                <tr style="height : 120px;" class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Mobile-Specific</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">The Query String Field in QR Code URLs for looking up Rooms</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">If you have the parameter SCAN CUSTOM QR CODES and INTERPRETS THEM AS URLS set to YES, then this is what tells the app to look for in the Query string. &#160; &#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">If set to ROOMID, when it goes to the following URL: http://blah.com?romID=23921, it would use that ROOMID to look up the room based on the parameter: &#160;FIELD TO FIND ROOMS BY WHEN SCANNING QR CODES.</td>
+                </tr>
+                <tr style="height : 45px;" class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Mobile-Specific</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">The subject for the EMS Mobile two-factor setup email</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Subject of the email sent to users notifying them to go to the EMS&#160;Web App and scan their 2fa barcode.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">The first time you configure 2fa (Two-Factor Authentication) you get e-mailed. &#160;This is the subject of that e-mail.</td>
+                </tr>
+                <tr style="height : 30px;" class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Mobile-Specific</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">URL for the EMS Mobile App in the app store</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Setting this parameter to blank prevents&#160;the EMS Mobile App popup prompt from appearing.&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">&#160;</td>
+                </tr>
+                <tr style="height : 30px;" class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Mobile-Specific</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">URL for the EMS Mobile App in the play store</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Setting this parameter to blank prevents&#160;the EMS Mobile App popup prompt from appearing.&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">&#160;</td>
+                </tr>
+                <tr style="height : 90px;" class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">Mobile-Specific</td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">URL for the Help Link on the mobile app</td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">Login to the EMS Mobile App and click on top left navigation bar. &#160; On the bottom there is a help URL. The URL you put here, will be the URL for the Help Link. &#160; You can also configure the Help Link Label using another parameter - URL for HELP link Label on the EMS Mobile App.</td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">&#160;</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
