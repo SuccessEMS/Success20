@@ -201,6 +201,9 @@
           Title="Configure Integration to Microsoft Exchange"
           Link="/Content/EMSforOutlook/IntegrationtoMicrosoftExchange/ConfigIntegExchange.htm" />
         <TocEntry
+          Title="Configure Multiple Mail Domains"
+          Link="/Content/EMSforOutlook/IntegrationtoMicrosoftExchange/ConfigMultipleMailDomain.htm" />
+        <TocEntry
           Title="Use Application Pool Identity for Integration for Exchange Service Account"
           Link="/Content/EMSforOutlook/IntegrationtoMicrosoftExchange/UseAppPoolIdentif.htm" />
         <TocEntry

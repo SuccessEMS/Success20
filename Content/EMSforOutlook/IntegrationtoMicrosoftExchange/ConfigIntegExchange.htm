@@ -15,7 +15,7 @@
         <ul class="unorder-list">
             <li><a href="#Configure_Integration_to_Exchange_Instructions">Configure Integration to Exchange Instructions</a>
                 <ul>
-                    <li><a href="#ConfigureMutlipleMailDomains">Configure Multiple Mail Domains</a>
+                    <li><a href="ConfigMultipleMailDomain.htm#ConfigureMutlipleMailDomains">Configure Multiple Mail Domains</a>
                     </li>
                 </ul>
             </li>
@@ -48,24 +48,6 @@
             <li>Select the Authentication Type:<ul start="6"><li><span class="bold">Anonymous&#160;</span>– No authentication</li><li><span class="bold">Specify Account</span>&#160;– Relies on a custom account (not the Integration with Exchange Account) that you create and manage.&#160;Please contact Customer Support (or a member of the Professional Services group if you are working with one) to discuss the configuration process for this option.</li><li><span class="bold">Default Credentials</span>&#160;– Relies on security context of EMS application calling the Integration with Exchange&#160;Web Service.&#160;If using this option, Integrated Windows Authentication should be enabled for the Integration with Exchange Web Service.</li><li>For MS Exchange 2007/2010 environments, click&#160;<span class="bold">Save</span>.</li></ul><div class="box-note"><p><span class="boldAllCaps">NOTE:</span>&#160;When testing Integration with Exchange, the email account that is being used (either on the Test Settings tab or in the "Testing Integration with Exchange" section below) MUST exist in the Exchange environment being tested.&#160;If you are testing Integration with Exchange in a development environment please verify that a mailbox for the email being used exists in that domain/environment.</p></div></li>
             <li>Click&#160;<span class="bold">Test Configuration</span>.&#160;If any errors are encountered, please verify your configuration. Otherwise, your Integration with Exchange configuration is complete.&#160;</li>
         </ol>
-        <h2><a name="ConfigureMutlipleMailDomains"></a>Configure Multiple Mail Domains</h2>
-        <p>To configure multiple mail domains, you must edit the web.config file. This will enable the Mail Domain drop-down that allows Administrators to specify different EWS&#160;URLs, AutoDiscover settings, and authentication options based on the domain. </p>
-        <p>When an EIWS booking is made through EMS for Outlook or the EMS&#160;Web App, it will automatically pull the domain from that user’s email address.  It will then use the corresponding Mail Domain option.</p>
-        <ol class="number-list">
-            <li>Open the <span class="bold">web.config</span> file. </li>
-            <li>Navigate to the mail domains line at the top under the Configuration section. </li>
-        </ol>
-        <p>
-            <img src="../Images/EIWS_Maildomains.png" class="PDFsmall" />
-        </p>
-        <ol MadCap:continue="true" class="number-list">
-            <li>Remove the comment marks (&lt;!-- --&gt;) and add your domains to the value (e.g., <span style="font-family: 'Courier New';"><br />&lt;add key="mailDomains" value="dea.com│google.com│microsoft.com"/&gt;</span></li>
-            <li>Save your <span class="bold">web.config</span> file. You will now see the <span class="bold">Mail Domain</span> drop-down menu on the <span class="bold">pamconfig.aspx </span>screen. Each menu item will have its own <span class="bold">Provider </span>area. </li>
-        </ol>
-        <p>
-            <img src="../Images/EIWS_Screen.png" class="PDFsmall" />
-        </p>
-        <p class="box-note"><span class="boldAllCaps">NOTE:</span>&#160;These settings are stored in the tblPamSettings table. </p>
         <h2><a name="Test_Your_Exchange_Integration"></a>Test Your Exchange Integration</h2>
         <p>To test your &#160;configuration, you will need to log into EMS Web App with a user account (configured with the user’s primary email address) belonging to a Everyday Application Process Template (within the EMS client application) that has the&#160;<a href="../../WebApp/A_V44.1/B_ConfigurationGuide/WebApp_CG_EverydayUserProcTempFieldDef.html">Enable Integration to Microsoft Exchange</a>&#160;option checked.</p>
         <ol start="1" class="number-list">
@@ -78,12 +60,15 @@
         <h2><a name="Optional_Messaging_Settings"></a>Optional Messaging Settings​</h2>
         <p>The options on the <span class="bold">Message </span>tab (as reached&#160;above in&#160;<a href="#Tabs">Step 2</a>)&#160;shown below guide you in further configuring your integration.</p>
         <p>
-            <img src="../../Resources/Images/Integration to Microsoft/Configuring Integration to_2.png" />
+            <img src="../../Resources/Images/Integration to Microsoft/Configuring Integration to_2.png">
+            </img>
         </p>
         <p class="title">Message Tab Fields</p>
         <table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/PatternedRows.css');margin-left: 0;margin-right: auto;" class="TableStyle-PatternedRows" cellspacing="0">
-            <col class="TableStyle-PatternedRows-Column-Regular" />
-            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular">
+            </col>
+            <col class="TableStyle-PatternedRows-Column-Regular">
+            </col>
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
@@ -139,7 +124,7 @@
         </table>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>Concept:&#160;The default installation allows&#160;file attachments up to 4MB.&#160;<MadCap:snippetText src="../../Click_to_Expand.flsnp" /></MadCap:dropDownHotspot>
+                <MadCap:dropDownHotspot>Concept:&#160;The default installation allows&#160;file attachments up to 4MB.&#160;<MadCap:snippetText src="../../Click_to_Expand.flsnp"></MadCap:snippetText></MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
                 <p>If your implementation needs file attachments that are larger, follow the two procedures&#160;below:</p>
@@ -158,11 +143,12 @@
             <p><span class="boldAllCaps">IMPORTANT:</span>&#160;The maximum file size is 2 GB.</p>
         </div>
         <ol start="1" class="number-list">
-            <li>In the&#160;&lt;system.webServer&gt;&#160;section, include this xml node:<div class="indent"><p>&lt;security&gt;</p><p>&#160;&#160;&#160;&#160;&#160; &lt;requestFiltering&gt;</p><p>&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;requestLimits&#160;maxAllowedContentLength="51200000"/&gt; &lt;!--maxAllowedContentLength in bytes, 50MB=51200000--&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</p><p>&#160;&#160;&#160;&#160;&#160;&#160;&lt;/requestFiltering&gt;</p><p>&#160;&#160;&#160; &lt;/security&gt;</p></div></li>
-            <li>In the&#160;&lt;httpRuntime&#160;element, add these highlighted attributes with the end result looking like this:<div class="indent"><p>&lt;httpRuntime&#160;targetFramework="4.5"&#160;requestLengthDiskThreshold="2147483644"&#160;maxRequestLength="51200"&#160;&#160;/&gt;&#160; &lt;!—-requestLengthDiskThreshold in bytes, &amp; maxRequestLength in KB, 50MB--&gt;</p></div></li>
-            <li>Under the&#160;&lt;appSettings&gt;&#160;look for the “MaximumUploadSizeInBytes” key.&#160; Update this value to the number of bytes allowed.&#160; For instance, 50MB would look like this:<div class="indent"><p>&lt;add&#160;key="MaximumUploadSizeInBytes"&#160;value="52428800000"/&gt;&#160; &lt;!—- in&#160;bytes50MB--&gt;&#160;</p></div></li>
+            <li>In the&#160;&lt;system.webServer&gt;&#160;section, include this xml node:<div class="indent"><pre>&lt;security&gt;</pre><pre>&#160;&#160;&#160;&#160;&#160; &lt;requestFiltering&gt;</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;requestLimits&#160;maxAllowedContentLength="51200000"/&gt; &lt;!--maxAllowedContentLength in bytes, 50MB=51200000--&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&lt;/requestFiltering&gt;</pre><pre>&#160;&#160;&#160; &lt;/security&gt;</pre></div></li>
+            <li>In the&#160;&lt;httpRuntime&#160;element, add these highlighted attributes with the end result looking like this:<div class="indent"><pre xml:space="preserve">&lt;httpRuntime&#160;targetFramework="4.5"&#160;requestLengthDiskThreshold="2147483644"&#160;
+maxRequestLength="51200"&#160;&#160;/&gt;&#160; &lt;!—-requestLengthDiskThreshold in bytes, &amp; maxRequestLength in KB, 50MB--&gt;</pre></div></li>
+            <li>Under the&#160;&lt;appSettings&gt;&#160;look for the “MaximumUploadSizeInBytes” key.&#160; Update this value to the number of bytes allowed.&#160; For instance, 50MB would look like this:<div class="indent"><pre>&lt;add&#160;key="MaximumUploadSizeInBytes"&#160;value="52428800000"/&gt;&#160; &lt;!—- in&#160;bytes50MB--&gt;&#160;</pre></div></li>
         </ol>
-        <h3>Enable Larger File Attachments in the Exchange Integration Web Service<a name="database"></a><img src="../../Resources/Images/Integration to Microsoft/Configuring Integration to.gif" alt="Edit section" class="img_1" /></h3>
+        <h3>Enable Larger File Attachments in the Exchange Integration Web Service<a name="database"></a><img src="../../Resources/Images/Integration to Microsoft/Configuring Integration to.gif" alt="Edit section" class="img_1"></img></h3>
         <p>By default Exchange Integration attachments will only accept files 4MB or less. If your implementation needs to allow for Exchange message attachments larger than 4MB, the config updates above will need to be applied in the Exchange Integration Web Service.</p>
         <div class="box-note">
             <p><span class="boldAllCaps">NOTE:</span>&#160;Due to the size of the xml sent, we recommend adding 5MB to the desired file upload size. (i.e., if you want to allow a max of 20MB files, calculate a total of 25MB worth of Kilobytes and bytes.</p>

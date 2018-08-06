@@ -68,6 +68,9 @@
           Title="[%=System.LinkedTitle%]"
           Link="/Content/EMSforOutlook/IntegrationtoMicrosoftExchange/ConfigIntegExchange.htm" />
         <TocEntry
+          Title="Configure Multiple Mail Domains"
+          Link="/Content/EMSforOutlook/IntegrationtoMicrosoftExchange/ConfigMultipleMailDomain.htm" />
+        <TocEntry
           Title="[%=System.LinkedTitle%]"
           Link="/Content/EMSforOutlook/IntegrationtoMicrosoftExchange/UseAppPoolIdentif.htm" />
         <TocEntry
