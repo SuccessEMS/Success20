@@ -116,7 +116,7 @@
           ChapterNumberReset="continue" />
         <TocEntry
           Title="Use QR Codes"
-          Link="/Content/EMSMobileApp/UserGuide/UseQRCodes.html"
+          Link="/Content/EMSMobileApp/UserGuide/ScanQRCodes.html"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
