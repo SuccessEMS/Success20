@@ -26,7 +26,9 @@
       PageNumber="1"
       PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
       SectionNumberReset="continue"
-      VolumeNumberReset="same" />
+      VolumeNumberReset="same"
+      AutoEndOnLeftPage="disabled"
+      PageType="firstright" />
     <TocEntry
       Title="Install EMS Platform Services"
       Link="/Content/EMSPlatformServices/A_InstallationGuide/Platform_InstallPS.html"
@@ -36,7 +38,9 @@
       PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
       SectionNumberReset="continue"
       VolumeNumberReset="same"
-      ChapterNumberReset="continue" />
+      ChapterNumberReset="continue"
+      AutoEndOnLeftPage="disabled"
+      PageType="continue" />
     <TocEntry
       Title="License Requirements for Platform Services"
       Link="/Content/EMSPlatformServices/A_InstallationGuide/Platform_LicenseRequirements.html"
@@ -46,7 +50,9 @@
       PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
       SectionNumberReset="continue"
       VolumeNumberReset="same"
-      ChapterNumberReset="continue" />
+      ChapterNumberReset="continue"
+      AutoEndOnLeftPage="disabled"
+      PageType="continue" />
     <TocEntry
       Title="Configure Platform Services in the Admin Portal"
       Link="/Content/EMSPlatformServices/ConfigurationGuide/ConfigPSinAdminPortal.html"
@@ -56,6 +62,8 @@
       PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
       SectionNumberReset="continue"
       VolumeNumberReset="same"
-      ChapterNumberReset="continue" />
+      ChapterNumberReset="continue"
+      AutoEndOnLeftPage="disabled"
+      PageType="continue" />
   </TocEntry>
 </CatapultToc>
