@@ -100,7 +100,7 @@
         Link="/Content/EMSMobileApp/UserGuide/AssignRemoveFavLoc.htm" />
       <TocEntry
         Title="Use QR Codes"
-        Link="/Content/EMSMobileApp/UserGuide/UseQRCodes.html" />
+        Link="/Content/EMSMobileApp/UserGuide/ScanQRCodes.html" />
     </TocEntry>
     <TocEntry
       Title="Attend a Meeting"
