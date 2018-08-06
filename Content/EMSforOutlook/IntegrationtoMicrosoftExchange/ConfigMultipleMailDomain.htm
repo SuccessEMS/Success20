@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head><title>Configure Multiple Mail Domains</title>
+    </head>
+    <body>
+        <h1 MadCap:autonum="CHAPTER&#160;1: ">Configure Multiple Mail Domains</h1>
+        <p>To configure multiple mail domains, you must edit the web.config file. This will enable the Mail Domain drop-down that allows Administrators to specify different EWS&#160;URLs, AutoDiscover settings, and authentication options based on the domain. </p>
+        <p>When an EIWS booking is made through EMS for Outlook or the EMS&#160;Web App, it will automatically pull the domain from that user’s email address.  It will then use the corresponding Mail Domain option.</p>
+        <ol class="number-list">
+            <li>Open the <span class="bold">web.config</span> file. </li>
+            <li>Navigate to the mail domains line at the top under the Configuration section. </li>
+        </ol>
+        <p>
+            <img src="../Images/EIWS_Maildomains.png" class="PDFsmall" />
+        </p>
+        <ol MadCap:continue="true" class="number-list">
+            <li>Remove the comment marks (&lt;!-- --&gt;) and add your domains to the value (e.g., <span style="font-family: 'Courier New';"><br />&lt;add key="mailDomains" value="dea.com│google.com│microsoft.com"/&gt;</span></li>
+            <li>Save your <span class="bold">web.config</span> file. You will now see the <span class="bold">Mail Domain</span> drop-down menu on the <span class="bold">pamconfig.aspx </span>screen. Each menu item will have its own <span class="bold">Provider </span>area. </li>
+        </ol>
+        <p>
+            <img src="../Images/EIWS_Screen.png" class="PDFsmall" />
+        </p>
+        <ol MadCap:continue="true" class="number-list">
+            <li><a href="ConfigIntegExchange.htm#Test_Your_Exchange_Integration">Test your Exchange Integration</a>.</li>
+        </ol>
+        <p class="box-note"><span class="boldAllCaps">NOTE:</span>&#160;These settings are stored in the tblPamSettings table. </p>
+    </body>
+</html>
