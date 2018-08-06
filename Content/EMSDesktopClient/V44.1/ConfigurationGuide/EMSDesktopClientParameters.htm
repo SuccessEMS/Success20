@@ -576,60 +576,67 @@
                 </tr>
                 <tr style="height : 45px;" class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">System</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Dashboard Check Interval</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p>Indicates how frequently the Dashboard should check for updates. </p>
-                        <p>&#160;</p>
-                        <p><span class="bold">NOTE</span>: Setting this for more frequent updates might impact application performance.</p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">5 Minutes, 10 Minutes, 15 Minutes, 30 Minutes, 1 Hour</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Custom Calendaring Icon</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Allows you to upload a custom icon for the EMS&#160;for Outlook add-in. The recommended image size is 32&#160;x&#160;32 pixels. See&#160;Also:&#160;<a href="../../../EMSforOutlook/ConfigurationGuide/ConfigforOutlook.htm#CustomizeAddinIcon">Customize the Add-in icon</a>.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">&#160;</td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">&#160;</td>
                 </tr>
                 <tr style="height : 45px;" class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">System</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Disable Online Help</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">If set to YES, then Online Help is not available for the EMS system. (The link Help &gt; Contents is not displayed on the EMS main menu.)</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Yes/No</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Dashboard Check Interval</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Indicates how frequently the Dashboard should check for updates. </p>
+                        <p>&#160;</p>
+                        <p><span class="bold">NOTE</span>: Setting this for more frequent updates might impact application performance.</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">5 Minutes, 10 Minutes, 15 Minutes, 30 Minutes, 1 Hour</td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">&#160;</td>
                 </tr>
-                <tr style="height : 120px;" class="TableStyle-PatternedRows-Body-LightRows">
+                <tr style="height : 45px;" class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">System</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">NetworkID Login - Ignore Desktop Client Domain</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Setting to YES, causes EMS Desktop Client to ignore the domain when using Integrated Authentication, which is useful if you leverage multiple domains. </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Disable Online Help</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">If set to YES, then Online Help is not available for the EMS system. (The link Help &gt; Contents is not displayed on the EMS main menu.)</td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Yes/No</td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">If a user logs in under the domain EMS\username, this parameter causes EMS Desktop Client to overlook the "EMS" portion of the credentials and still enable user login even though they are authenticating via a different domain.</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">&#160;</td>
                 </tr>
-                <tr style="height : 72px;" class="TableStyle-PatternedRows-Body-DarkerRows">
+                <tr style="height : 120px;" class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">System</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Platform Services Desktop Secret Key</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">This is the secret the EMS&#160;Desktop Client will use when communicating with EMS&#160;Platform Services. &#160; &#160;It is required only for G-Suite.</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">For more information, click <a href="../../../GoogleSuiteIntegration/Config.htm">here</a>.  &#160;</td>
-                </tr>
-                <tr style="height : 100.8px;" class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">System</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Server Time Zone</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Sets the time zone for the server to the indicated value.</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">Affects how times get calculated for date calculations, dashboard notifications, all kinds of stuff. &#160;You see issues when this isn’t set to what the server actually is. &#160;This was removed for EMS&#160;Cloud Services customers so they can’t change it (because they have no control over the actual servers).</td>
-                </tr>
-                <tr style="height : 30px;" class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">System</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Use Integrated Authentication Only</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">&#160;If set to YES, then EMS users are required to manually log-in and authenticate against LDAP.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">NetworkID Login - Ignore Desktop Client Domain</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Setting to YES, causes EMS Desktop Client to ignore the domain when using Integrated Authentication, which is useful if you leverage multiple domains. </td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Yes/No</td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">If a user logs in under the domain EMS\username, this parameter causes EMS Desktop Client to overlook the "EMS" portion of the credentials and still enable user login even though they are authenticating via a different domain.</td>
                 </tr>
-                <tr style="height : 43.199999999999996px;" class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">System</td>
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">Warn within XX% of Everyday User Licensing Limit</td>
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">Creates a prompt to expert user upon login if number of Everyday Users is within a certain percentage of the licensing limit.</td>
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">99</td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">This alerts EMS Desktop Client users  that they are reaching their Everyday User limit.</td>
+                <tr style="height : 72px;" class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">System</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Platform Services Desktop Secret Key</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">This is the secret the EMS&#160;Desktop Client will use when communicating with EMS&#160;Platform Services. &#160; &#160;It is required only for G-Suite.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">For more information, click <a href="../../../GoogleSuiteIntegration/Config.htm">here</a>.  &#160;</td>
+                </tr>
+                <tr style="height : 100.8px;" class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">System</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Server Time Zone</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Sets the time zone for the server to the indicated value.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">Affects how times get calculated for date calculations, dashboard notifications, all kinds of stuff. &#160;You see issues when this isn’t set to what the server actually is. &#160;This was removed for EMS&#160;Cloud Services customers so they can’t change it (because they have no control over the actual servers).</td>
+                </tr>
+                <tr style="height : 30px;" class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">System</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Use Integrated Authentication Only</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">&#160;If set to YES, then EMS users are required to manually log-in and authenticate against LDAP.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Yes/No</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">&#160;</td>
+                </tr>
+                <tr style="height : 43.199999999999996px;" class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">System</td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">Warn within XX% of Everyday User Licensing Limit</td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">Creates a prompt to expert user upon login if number of Everyday Users is within a certain percentage of the licensing limit.</td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">99</td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">This alerts EMS Desktop Client users  that they are reaching their Everyday User limit.</td>
                 </tr>
             </tbody>
         </table>
-        <h2><a name="EMSCampus"></a>EMS&#160;Desktop Client -- Academic Planning (Campus)&#160;Optional Parameters</h2>
+        <h2><a name="EMSCampus"></a>EMS&#160;Desktop Client — Academic Planning (Campus)&#160;Optional Parameters</h2>
         <table cellspacing="0" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows_Param.css');" class="TableStyle-PatternedRows">
             <col style="width: 122px;" class="TableStyle-PatternedRows-Column-Regular" />
             <col style="width: 212px;" class="TableStyle-PatternedRows-Column-Regular" />

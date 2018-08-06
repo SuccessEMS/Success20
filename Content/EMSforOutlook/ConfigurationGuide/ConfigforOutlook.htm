@@ -4,7 +4,7 @@
         <link href="../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
     </head>
     <body>
-        <h1 MadCap:autonum="CHAPTER&#160;1: ">
+        <h1>
             <MadCap:concept term="V44.1" />Configure EMS for Outlook</h1>
         <p>You will need to configure special settings in EMS Desktop Client&#160;in order to activate the EMS for Outlook&#160;toolbar button for&#160;Outlook users.&#160;The add-in&#160;uses each&#160;Outlook user’s EMS&#160;Everyday User&#160;account&#160;to establish their room booking privileges based on&#160;the Process Template(s) to which&#160;the Everyday User is&#160;assigned and&#160;EMS Group(s) for which&#160;the appointment can be booked.</p>
         <p>Additional configuration tasks are required in order to enable your Microsoft Outlook users to access EMS for Outlook functionality. See Also:&#160;<a href="../../EMSDesktopClient/V44.1/ConfigurationGuide/ConfigRooms.html#ConfigureOutlookTBDRooms">Configure Outlook TBD&#160;Rooms</a>. </p>
@@ -38,13 +38,16 @@
         <p>You can replace the default EMS for Outlook icon that displays in Outlook with a custom icon of your choosing. </p>
         <ol start="1" class="number-list">
             <li>Log into EMS Desktop Client.</li>
-            <li>Navigate to <span class="bold">System Administration</span> &gt; <span class="bold">Settings </span>&gt;&#160;<span class="bold">Parameters&#160;</span>and select the&#160;<span class="bold">Everyday User Applications</span>&#160;tab.</li>
-            <li>In the&#160;Area&#160;drop-down, select <span class="bold">EMS for Outlook - Specific</span>.</li>
+            <li>Navigate to <span class="bold">System Administration</span> &gt; <span class="bold">Settings </span>&gt;&#160;<span class="bold">Parameters&#160;</span>and select the&#160;<span class="bold">Desktop Client</span>&#160;tab.</li>
+        </ol>
+        <p class="box-note"><span class="boldAllCaps">Note:&#160;</span>Make sure to select the <span class="bold">Desktop Client</span> tab instead of the <span class="bold">Everyday User Applications</span> tab.</p>
+        <ol start="1" class="number-list" MadCap:continue="true">
+            <li>In the&#160;Area&#160;drop-down field of the Parameters dialog, select <span class="bold">System</span>.</li>
             <li>Select&#160;<span class="bold">Custom&#160;Calendaring Icon</span> and click&#160;<span class="bold">Edit</span>.</li>
             <li>Make your changes and click&#160;<span class="bold">OK</span>.&#160;</li>
             <li>Click&#160;<span class="bold">Close</span>. Microsoft Outlook will need to be restarted to see the custom icon change. </li>
         </ol>
-        <p class="box-important"> <span class="bold">IMPORTANT:</span>&#160;Supported file types are .ico, .jpeg, .jpg, or .png. The recommended size is 32 x 32.</p>
+        <p class="box-important"> <span class="bold">IMPORTANT:</span>&#160;Supported file types are .ico, .jpeg, .jpg, or .png. The recommended size is 32&#160;x&#160;32 pixels.</p>
         <h2><a name="EMSforOutlookParameters"></a>EMS for Outlook System Parameters</h2>
         <p>In addition to changing the Add-in label and custom icon, you can use the following parameters to make additional changes. See Also:&#160;<a href="../../EMSDesktopClient/V44.1/ConfigurationGuide/OutlookSysParam.htm">EMS&#160;for Outlook Parameters</a>. </p>
         <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
