@@ -7,7 +7,9 @@
     BreakType="chapter"
     StartSection="false"
     PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Title8_5X11.flpgl"
-    PageNumberReset="continue"></TocEntry>
+    PageNumberReset="continue"
+    AutoEndOnLeftPage="disabled"
+    PageType="title"></TocEntry>
   <TocEntry
     Title="[%=System.LinkedTitle%]"
     Link="/Content/Print Only Topics/TOC.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
@@ -54,6 +56,18 @@
       AutoEndOnLeftPage="disabled"
       PageType="continue" />
     <TocEntry
+      Title="Authentication Methods"
+      Link="/Content/Authentication/EMSAuthenticationMethods.htm"
+      BreakType="chapter"
+      PageType="continue"
+      StartSection="false"
+      PageNumberReset="continue"
+      AutoEndOnLeftPage="disabled"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue" />
+    <TocEntry
       Title="Configure Platform Services in the Admin Portal"
       Link="/Content/EMSPlatformServices/ConfigurationGuide/ConfigPSinAdminPortal.html"
       BreakType="chapter"
@@ -64,6 +78,6 @@
       VolumeNumberReset="same"
       ChapterNumberReset="continue"
       AutoEndOnLeftPage="disabled"
-      PageType="continue" />
+      PageType="continue"></TocEntry>
   </TocEntry>
 </CatapultToc>
