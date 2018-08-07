@@ -91,8 +91,8 @@ mcTableFootStyle
 	border-spacing: 0px 0px; margin-bottom:20px;font-size: 11px;
 }
 
-.TableStyle-PatternedRows p,
-.TableStyle-PatternedRows td
+.TableStyle-PatternedRows p, .TableStyle-PatternedRows p a,
+.TableStyle-PatternedRows td, .TableStyle-PatternedRows td a
 {
 	font-size: 11px;
 	padding-top: 0px;
@@ -1396,7 +1396,7 @@ padding: 10px;
 		padding-bottom: 15px;
 	}
 	
-	.TableStyle-PatternedRows li
+	.TableStyle-PatternedRows li, .TableStyle-PatternedRows li a
 	{
 		margin-top: 5px;
 		line-height: 17px;
