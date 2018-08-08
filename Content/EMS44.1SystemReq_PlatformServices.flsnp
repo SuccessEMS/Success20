@@ -4,8 +4,6 @@
         <link href="Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" />
     </head>
     <body>
-        <h2><MadCap:variable name="General.Platform Services" />
-        </h2>
         <table class="TableStyle-PatternedRows" style="mc-table-style: url('Resources/TableStyles/PatternedRows.css');margin-left: 0;margin-right: auto;width: 100%;" cellspacing="0">
             <col class="TableStyle-PatternedRows-Column-Regular" />
             <col class="TableStyle-PatternedRows-Column-Regular" style="width: 273px;" />
