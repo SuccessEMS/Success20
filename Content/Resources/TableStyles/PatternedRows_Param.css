@@ -1379,14 +1379,14 @@ padding: 10px;
 	.TableStyle-PatternedRows ul
 	{
 		list-style:url('../Images/Bullet1Table.png');		
-		line-height: 20px;
+		line-height: 17px;
 		margin-top: 0px;
 		margin-left: 25px;
 		padding-top: 0px;
 		padding-bottom: 20px;
 	}
 	
-	.TableStyle-PatternedRows li
+	.TableStyle-PatternedRows ul li, .TableStyle-PatternedRows ol li
 	{
 		margin-top: 10px;
 		line-height: 17px;
@@ -1394,10 +1394,33 @@ padding: 10px;
 		font-size: 14px;
 	}
 	
+	.TableStyle-PatternedRows ul li a, .TableStyle-PatternedRows ol li a
+	{
+		margin-top: 10px;
+		line-height: 17px;
+		font-size: 14px;
+	}
+	
+	.TableStyle-PatternedRows ul li ul li, .TableStyle-PatternedRows ol li ul li
+	{
+		
+		margin-top: 10px;
+		line-height: 17px;
+		color: #666666;
+		font-size: 14px;
+	}
+	
+    .TableStyle-PatternedRows ul li ul li a, .TableStyle-PatternedRows ol li ul li a
+	{
+		margin-top: 10px;
+		line-height: 17px;
+		font-size: 14px;
+	}
+	
 	.TableStyle-PatternedRows ul.unorder-list li
 	{
 		list-style:url('../Images/Bullet1Table.png');		
-		line-height: 20px;
+		line-height: 17px;
 		margin-top: 0px;
 		margin-left: 25px;
 		padding-top: 0px;
@@ -1410,7 +1433,6 @@ padding: 10px;
 	.right-content a
 	{
 		font-size: 14px;
-		
 		color: #00467f;
 		font-weight: 600;
 	}
