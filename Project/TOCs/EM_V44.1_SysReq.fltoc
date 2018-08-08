@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="EMS V44.1 System Requirements"
+    Link="/Content/EMS_SystemReq_44.1.html">
+    <TocEntry
+      Title="EMS Database Servers"
+      Link="/Content/EMS_SystemReq_44.1.html#DatabaseServer"
+      StartSection="false" />
+    <TocEntry
+      Title="EMS Web Servers"
+      Link="/Content/EMS_SystemReq_44.1.html#EMSWebServer" />
+    <TocEntry
+      Title="EMS Desktop Client"
+      Link="/Content/EMS_SystemReq_44.1.html#EMSDesktopClient" />
+    <TocEntry
+      Title="EMS Web App"
+      Link="/Content/EMS_SystemReq_44.1.html#EMSWebApp">
+      <TocEntry
+        Title="EMS Web App (Mobile)"
+        Link="/Content/EMS_SystemReq_44.1.html#EMSWebApp" />
+    </TocEntry>
+    <TocEntry
+      Title="EMS Platform Services"
+      Link="/Content/EMS_SystemReq_44.1.html#EMSPlatformServices" />
+    <TocEntry
+      Title="EMS Mobile App"
+      Link="/Content/EMS_SystemReq_44.1.html#EMSMobileApp"></TocEntry>
+    <TocEntry
+      Title="EMS for Outlook"
+      Link="/Content/EMS_SystemReq_44.1.html#EMSforOutlook">
+      <TocEntry
+        Title="EMS Integration for Exchange"
+        Link="/Content/EMS_SystemReq_44.1.html#EMSforOutlook" />
+    </TocEntry>
+    <TocEntry
+      Title="EMS Kiosk App"
+      Link="/Content/EMS_SystemReq_44.1.html#EMSKioskApp" />
+    <TocEntry
+      Title="EMS Room Sign App (formerly Glance)"
+      Link="/Content/EMS_SystemReq_44.1.html#EMSRoomSignApp" />
+    <TocEntry
+      Title="Master Calendar"
+      Link="/Content/EMS_SystemReq_44.1.html#EMSMasterCalendar" />
+    <TocEntry
+      Title="Regics"
+      Link="/Content/EMS_SystemReq_44.1.html#Regics" />
+    <TocEntry
+      Title="EMS Services"
+      Link="/Content/EMS_SystemReq_44.1.html#EMSServices" />
+  </TocEntry>
+</CatapultToc>
