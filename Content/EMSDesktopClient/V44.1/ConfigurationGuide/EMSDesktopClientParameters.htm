@@ -7,21 +7,34 @@
         <h1 MadCap:autonum="CHAPTER&#160;1: ">
             <MadCap:concept term="V44.1" />EMS&#160;System Parameters</h1>
         <p>Below are the parameters for <a href="#EMSDesktopClient">EMS&#160;Desktop Client</a> and <a href="#EMSCampus">EMS&#160;Desktop Client — Academic Planning</a> (optional). </p>
+        <h2><a name="EMSDesktopClient"></a>EMS&#160;Desktop Client</h2>
         <p>Parameters for the EMS&#160;Desktop Client are broken into the following Areas:&#160;</p>
         <ul>
-            <li>Billing</li>
-            <li>Email</li>
-            <li>Groups &amp;&#160;Contacts</li>
-            <li>Integration to Microsoft Exchange</li>
-            <li>Labels</li>
-            <li>Messaging</li>
-            <li>Notifications</li>
-            <li>Platform</li>
+            <li><a href="#Billing">Billing</a>
+            </li>
+            <li><a href="#Email">Email</a>
+            </li>
+            <li><a href="#Groups&amp;Contacts">Groups &amp;&#160;Contacts</a>
+            </li>
+            <li><a href="#Integration">Integration to Microsoft Exchange</a>
+            </li>
+            <li><a href="#Labels">Labels</a>
+            </li>
+            <li><a href="#LDAP">LDAP</a>
+            </li>
+            <li><a href="#Messaging">Messaging</a>
+            </li>
+            <li><a href="#Notifications">Notifications</a>
+            </li>
+            <li><a href="#Platform">Platform</a>
+            </li>
             <li>Reports</li>
-            <li>&#160;</li>
+            <li>Reservations</li>
+            <li>Resources</li>
+            <li>Service Orders</li>
+            <li>System</li>
         </ul>
-        <p>&#160;</p>
-        <h2><a name="EMSDesktopClient"></a>EMS&#160;Desktop Client</h2>
+        <h2><a name="Billing"></a>Billing</h2>
         <table cellspacing="0" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows_Param.css');margin-left: 0;margin-right: auto;width: 100%;" class="TableStyle-PatternedRows">
             <col style="width: 131px;" class="TableStyle-PatternedRows-Column-Regular" />
             <col style="width: 212px;" class="TableStyle-PatternedRows-Column-Regular" />
@@ -52,6 +65,25 @@
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Reserved Time or Event Time</td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">A resource costs 10/hour based on Service Order Time. &#160; The parameter is set to&#160;"Event Time"&#160;and the booking is from 8 am - 5 pm. &#160;The Event End Time with a 5:30 Reserved End time. &#160; &#160;The resource will  be in use starting at 9 am but no end time on the resource is set. &#160;Therefore, the resource will&#160;be in use until 5 pm and will be billed from 9 am until 5 pm.</td>
                 </tr>
+            </tbody>
+        </table>
+        <h2><a name="Email"></a>Email</h2>
+        <table cellspacing="0" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows_Param.css');width: 100%;margin-left: 0;margin-right: auto;" class="TableStyle-PatternedRows">
+            <col style="width: 131px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 212px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 246px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 156px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 179px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">Area</th>
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">Title</th>
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">Description</th>
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">Value</th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">EXAMPLE</th>
+                </tr>
+            </thead>
+            <tbody>
                 <tr style="height : 115.2px;" class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Email</td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Enable Email Support</td>
@@ -74,12 +106,31 @@
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">&#160;</td>
                 </tr>
                 <tr style="height : 30px;" class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Email</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">SMTP Security Protocol</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">The security protocol for the mail server used to send emails on behalf of the everyday user applications. </td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">(none), TLS, SSL3</td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">Email</td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">SMTP Security Protocol</td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">The security protocol for the mail server used to send emails on behalf of the everyday user applications. </td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">(none), TLS, SSL3</td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">&#160;</td>
                 </tr>
+            </tbody>
+        </table>
+        <h2><a name="Groups&amp;Contacts"></a>Groups &amp;&#160;Contacts</h2>
+        <table cellspacing="0" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows_Param.css');width: 100%;margin-left: 0;margin-right: auto;" class="TableStyle-PatternedRows">
+            <col style="width: 131px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 212px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 246px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 156px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 179px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">Area</th>
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">Title</th>
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">Description</th>
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">Value</th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">EXAMPLE</th>
+                </tr>
+            </thead>
+            <tbody>
                 <tr style="height : 60px;" class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Groups &amp; Contacts</td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Default Address Format as International</td>
@@ -144,12 +195,31 @@
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">Typically set to NO.</td>
                 </tr>
                 <tr style="height : 75px;" class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Groups &amp; Contacts</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Show Account Field On Group</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">If enabled, an&#160;Account&#160;field is displayed on a Group record. Accounts are usually created for purposes of tracking revenue tied to resources. The Account field on the Group record may be used for other purposes such as tying a salesperson to a Group.</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Yes/No</td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">Typically set to NO. </td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">Groups &amp; Contacts</td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">Show Account Field On Group</td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">If enabled, an&#160;Account&#160;field is displayed on a Group record. Accounts are usually created for purposes of tracking revenue tied to resources. The Account field on the Group record may be used for other purposes such as tying a salesperson to a Group.</td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">Yes/No</td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">Typically set to NO. </td>
                 </tr>
+            </tbody>
+        </table>
+        <h2><a name="Integration"></a>Integration to Microsoft Exchange</h2>
+        <table cellspacing="0" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows_Param.css');width: 100%;margin-left: 0;margin-right: auto;" class="TableStyle-PatternedRows">
+            <col style="width: 131px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 212px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 246px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 156px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 179px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">Area</th>
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">Title</th>
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">Description</th>
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">Value</th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">EXAMPLE</th>
+                </tr>
+            </thead>
+            <tbody>
                 <tr style="height : 57.6px;" class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Integration to Microsoft Exchange</td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Allow date/time changes on PAM Bookings in EMS Client</td>
@@ -158,13 +228,32 @@
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">The reason a customer might want this set to NO, is so that an EMS&#160;Desktop Client user will not be able to change the date or time of a meeting that is on a person's calendar.</td>
                 </tr>
                 <tr style="height : 30px;" class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Integration to Microsoft Exchange</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Exchange Integration Web Service URL</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">The URL for the Exchange Integration Web Service.</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows"><a href="http://localhost/Pam44-1/Service.asmx &#160; &#160;">http://localhost/Pam44-1/Service.asmx &#160; &#160; </a>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">Integration to Microsoft Exchange</td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">Exchange Integration Web Service URL</td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">The URL for the Exchange Integration Web Service.</td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows"><a href="http://localhost/Pam44-1/Service.asmx &#160; &#160;">http://localhost/Pam44-1/Service.asmx &#160; &#160; </a>
                     </td>
                 </tr>
+            </tbody>
+        </table>
+        <h2><a name="Labels"></a>Labels</h2>
+        <table cellspacing="0" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows_Param.css');width: 100%;margin-left: 0;margin-right: auto;" class="TableStyle-PatternedRows">
+            <col style="width: 131px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 212px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 246px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 156px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 179px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">Area</th>
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">Title</th>
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">Description</th>
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">Value</th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">EXAMPLE</th>
+                </tr>
+            </thead>
+            <tbody>
                 <tr style="height : 28.8px;" class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Labels</td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">1st Contact Title</td>
@@ -292,64 +381,154 @@
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">Sales Category.</td>
                 </tr>
                 <tr style="height : 30px;" class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Labels</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Salesperson Title</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">The label for the&#160;Salesperson&#160;field on a Reservation or Group.&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">Labels</td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">Salesperson Title</td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">The label for the&#160;Salesperson&#160;field on a Reservation or Group.&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">&#160;</td>
                 </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">LDAP</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">LDAP - Ignore Desktop Client Domain</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Yes/No </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">Default is NO. </td>
+            </tbody>
+        </table>
+        <h2><a name="LDAP"></a>LDAP</h2>
+        <table cellspacing="0" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows_Param.css');width: 100%;margin-left: 0;margin-right: auto;" class="TableStyle-PatternedRows">
+            <col style="width: 131px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 212px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 246px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 156px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 179px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">Area</th>
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">Title</th>
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">Description</th>
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">Value</th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">EXAMPLE</th>
                 </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">LDAP</td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">LDAP - Ignore Desktop Client Domain</td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">Yes/No </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">Default is NO. </td>
+                </tr>
+            </tbody>
+        </table>
+        <h2><a name="Messaging"></a>Messaging</h2>
+        <table cellspacing="0" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows_Param.css');width: 100%;margin-left: 0;margin-right: auto;" class="TableStyle-PatternedRows">
+            <col style="width: 131px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 212px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 246px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 156px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 179px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">Area</th>
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">Title</th>
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">Description</th>
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">Value</th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">EXAMPLE</th>
+                </tr>
+            </thead>
+            <tbody>
                 <tr style="height : 45px;" class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Messaging</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Number of concurrent emails that can be sent by one platform service instance.</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">This parameter is not used by any EMS application.   It will be removed in an upcoming update. </td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">Messaging</td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">Number of concurrent emails that can be sent by one platform service instance.</td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">This parameter is not used by any EMS application.   It will be removed in an upcoming update. </td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">&#160;</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2><a name="Notifications"></a>Notifications</h2>
+        <table cellspacing="0" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows_Param.css');width: 100%;margin-left: 0;margin-right: auto;" class="TableStyle-PatternedRows">
+            <col style="width: 131px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 212px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 246px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 156px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 179px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">Area</th>
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">Title</th>
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">Description</th>
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">Value</th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">EXAMPLE</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr style="height : 30px;" class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Notifications</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Allow Users To Delete Notifications</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">When set to YES, this parameter allows users to delete notifications from the Dashboard.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Yes/No</td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">&#160;</td>
                 </tr>
-                <tr style="height : 30px;" class="TableStyle-PatternedRows-Body-DarkerRows">
+                <tr style="height : 273.59999999999996px;" class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Notifications</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Allow Users To Delete Notifications</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">When set to YES, this parameter allows users to delete notifications from the Dashboard.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Exclude Building Closures On Notifications</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">When set to NO, building closures are not excluded from notification date calculations.</td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Yes/No</td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">Parameter is set to YES. &#160; A Building is closed on the 9th, 10th and 11th (three days). &#160;Today is the 4th. &#160; &#160; A notification is set to trigger within 10 days. &#160; &#160; Something is done on the 16th that triggers the notification.  &#160;IT WILL be triggered because even though the 16th is more than 10 days away from the 4th, we are subtracting (excluding) three days. &#160; &#160;Next, something is done on the 18th that triggers the notification.  It will NOT trigger because the 18th is 14 days from the 4th and when you subtract three closed days - you are outside of 10 days. &#160; &#160; &#160; &#160;IF BOTH EXCLUDE BUILDING CLOSURES ON NOTIFICATIONS AND EXCLUDE WEEKENDS ON NOTIFICATIONS ARE SET TO YES, ADD NUMBER OF DAYS EXCLUDED TOGETHER IN CALCULATION.    BOTH WILL BE TAKEN INTO ACCOUNT.</td>
                 </tr>
-                <tr style="height : 273.59999999999996px;" class="TableStyle-PatternedRows-Body-LightRows">
+                <tr style="height : 288px;" class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Notifications</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Exclude Building Closures On Notifications</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">When set to NO, building closures are not excluded from notification date calculations.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Exclude Weekends On Notifications</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">When set to NO, weekends are not excluded from notification date calculations.</td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Yes/No</td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">Parameter is set to YES. &#160; A Building is closed on the 9th, 10th and 11th (three days). &#160;Today is the 4th. &#160; &#160; A notification is set to trigger within 10 days. &#160; &#160; Something is done on the 16th that triggers the notification.  &#160;IT WILL be triggered because even though the 16th is more than 10 days away from the 4th, we are subtracting (excluding) three days. &#160; &#160;Next, something is done on the 18th that triggers the notification.  It will NOT trigger because the 18th is 14 days from the 4th and when you subtract three closed days - you are outside of 10 days. &#160; &#160; &#160; &#160;IF BOTH EXCLUDE BUILDING CLOSURES ON NOTIFICATIONS AND EXCLUDE WEEKENDS ON NOTIFICATIONS ARE SET TO YES, ADD NUMBER OF DAYS EXCLUDED TOGETHER IN CALCULATION.    BOTH WILL BE TAKEN INTO ACCOUNT.</td>
-                </tr>
-                <tr style="height : 288px;" class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Notifications</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Exclude Weekends On Notifications</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">When set to NO, weekends are not excluded from notification date calculations.</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Yes/No</td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
                         <p>Parameter is set to YES. &#160; Group notification is set to remind Group 10 days prior to booking. &#160; Today is Wednesday the 4th and a meeting will take place on Wednesday the 18th. Therefore, a reminder notification will get triggered to the recipient on Wednesday the 4th because that is 14 days less four weekend days (thus 10 days).</p>
                         <p> &#160; &#160; <span class="bold">NOTE</span>:&#160; If a Group reminder is set to be sent at 4 pm and the bookings on the 18th ends before 4 pm, no Group reminders will be triggered. No reminders will go to recipients who have bookings that end before notification is to be sent. If&#160;both the "Exclude Building Closures on Notifications"&#160;and "Exclude Weekends on Notifications"&#160;parameters are set to YES, add the number of days excluded together in your calculation. Both will be taken into account. </p>
                     </td>
                 </tr>
-                <tr style="height : 45px;" class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Notifications</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Ignore Building Closure/Weekend Notification Settings Beyond xx Days</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Specifies the number of days after which building closures and/or weekends are ignored for notification date calculations.</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">999</td>
+                <tr style="height : 45px;" class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">Notifications</td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">Ignore Building Closure/Weekend Notification Settings Beyond xx Days</td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">Specifies the number of days after which building closures and/or weekends are ignored for notification date calculations.</td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">999</td>
                 </tr>
-                <tr style="height : 115.2px;" class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Platform</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Allow multiple platform sessions to share the same token.</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">If set to YES, EMS&#160;Platform Services will return the "same" value user token if multiple calls to authentication are made. &#160; If set to NO, EMS&#160;Platform Services will generate a new token for each authentication call. &#160; The Default value of the parameter is YES. &#160;&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Yes/No</td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">If set to YES, a user will be able to log into the same application (e.g., mobile) on multiple devices. &#160; If set to NO, the user will have only one active session for an application on one device. &#160; As soon as the user logs on to the same app on the other device, he will be logged out of the first app.</td>
+            </tbody>
+        </table>
+        <h2><a name="Platform"></a>Platform</h2>
+        <table cellspacing="0" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows_Param.css');width: 100%;margin-left: 0;margin-right: auto;" class="TableStyle-PatternedRows">
+            <col style="width: 131px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 212px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 246px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 156px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 179px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">Area</th>
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">Title</th>
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">Description</th>
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">Value</th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">EXAMPLE</th>
                 </tr>
+            </thead>
+            <tbody>
+                <tr style="height : 115.2px;" class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">Platform</td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">Allow multiple platform sessions to share the same token.</td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">If set to YES, EMS&#160;Platform Services will return the "same" value user token if multiple calls to authentication are made. &#160; If set to NO, EMS&#160;Platform Services will generate a new token for each authentication call. &#160; The Default value of the parameter is YES. &#160;&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">Yes/No</td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">If set to YES, a user will be able to log into the same application (e.g., mobile) on multiple devices. &#160; If set to NO, the user will have only one active session for an application on one device. &#160; As soon as the user logs on to the same app on the other device, he will be logged out of the first app.</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>EMS&#160;Desktop Client -- Academic Planning parameters are broken into the following Areas:</p>
+        <ul>
+            <li>Academic Import</li>
+            <li>Campus</li>
+        </ul>
+        <table cellspacing="0" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows_Param.css');margin-left: 0;margin-right: auto;width: 100%;" class="TableStyle-PatternedRows">
+            <col style="width: 131px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 212px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 246px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 156px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 179px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <tbody>
                 <tr style="height : 42.75px;" class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Reports</td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Calendar Inquiry Print Format</td>

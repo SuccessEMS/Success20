@@ -9,7 +9,7 @@
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
-                        <p>Database Server</p>
+                        <p>&#160;</p>
                     </th>
                 </tr>
             </thead>
@@ -36,69 +36,59 @@
                 </tr>
             </tbody>
         </table>
-        <div class="note-box note">
-            <p><span class="boldAllCaps">Note:</span>  To view best practices for setting up your SQL server, refer to <a href="SQL_Server44.1_BestPractices.htm">EMS Best Practices for SQL Server</a>.</p>
-        </div>
-        <table class="TableStyle-PatternedRows" style="mc-table-style: url('Resources/TableStyles/PatternedRows.css');margin-left: 0;margin-right: auto;width: 100%;" cellspacing="0">
+        <p class="box-note"><span class="boldAllCaps">Note:</span>  To view best practices for setting up your SQL server, refer to <a href="SQL_Server44.1_BestPractices.htm">EMS Best Practices for SQL Server</a>.</p>
+        <h2><a name="EMSWebServer"></a>EMS&#160;Web Server</h2>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('Resources/TableStyles/PatternedRows.css');width: 100%;margin-left: 0;margin-right: auto;" cellspacing="0">
             <col class="TableStyle-PatternedRows-Column-Regular" />
             <col class="TableStyle-PatternedRows-Column-Regular" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
-                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1" colspan="2">
-                        <p colspan="2"><a name="Web_Server44.1"></a>Web Server</p>
-                    </th>
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">Operating System</th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">IIS APP POOL</th>
                 </tr>
             </thead>
             <tbody>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p class="bold">Operating System</p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p class="bold">IIS App Pool</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
                         <p>Windows Server 2012</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
                         <p>8</p>
                     </td>
                 </tr>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
                         <p>Windows Server 2012 R2</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
                         <p>8.5</p>
                     </td>
                 </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p>Windows Server 2016</p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">&#160;</td>
-                </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows"><span class="bold">Prerequisites</span>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Windows Server 2016</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">&#160;</td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p>Application Pool Running&#160;4.0**</p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows"><span class="bold">Prerequisites</span>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">&#160;</td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p>.NET Framework 4.6.1**</p>
+                        <p>Application Pool Running&#160;</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">(2.0 or 4.0 depending on the EMS&#160;Software Application)</td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows" colspan="2">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>.NET Framework 4.6.1**</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">&#160;</td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" colspan="2">
                         <p><span class="bold">Minimum System Requirements</span>
                         </p>
                         <p>Processor: 2.0 GHz and 4 cores or faster<br />           Memory: 8 GB or more**<br />            Hard-Disk Space: 1 GB or more</p>
@@ -108,49 +98,39 @@
             </tbody>
         </table>
         <p>*Requires an update to Windows Management Framework to version 3.<br />**= varies per EMS Software Application</p>
-        <table class="TableStyle-PatternedRows" style="mc-table-style: url('Resources/TableStyles/PatternedRows.css');margin-left: 0;margin-right: auto;width: 100%;" cellspacing="0" MadCap:conditions="General.Edit_in_Review">
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('Resources/TableStyles/PatternedRows.css');width: 100%;margin-left: 0;margin-right: auto;" cellspacing="0" MadCap:conditions="General.Edit_in_Review">
             <col class="TableStyle-PatternedRows-Column-Regular" />
             <col class="TableStyle-PatternedRows-Column-Regular" />
             <col class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p class="Strong_2">Software Module</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p class="Strong_2">.NET Version</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                        <p class="Strong_2">IIS App Pool</p>
+                    </th>
+                </tr>
+            </thead>
             <tbody>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p class="Strong_2">
-                            <MadCap:annotation MadCap:createDate="2018-06-26T14:25:42.5725288-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="This table is out-of-date. Matt would like the information updated for the endpoints and added to the note about &quot;varies per EMS Software Application.&quot; The table is currently turned off for online and print. Only PO review targets will generate this table. This info might also work under the prereq section in the Web Server table. Need to check with Matt." MadCap:editor="Megan.Laub" MadCap:editDate="2018-06-26T14:27:38.9816603-06:00">Software </MadCap:annotation>Module</p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p class="Strong_2">.NET Version</p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p class="Strong_2">IIS App Pool</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
                         <p class="Strong_1">Desktop Web Deploy</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
                         <p class="p_7">4.5.2</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
                         <p class="p_7">4.0</p>
                     </td>
                 </tr>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
                         <p class="Strong_1">Virtual EMS</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p class="p_7">3.5</p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p class="p_7">2.0</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p class="Strong_1">Campus Web Service</p>
-                    </td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
                         <p class="p_7">3.5</p>
                     </td>
@@ -160,29 +140,29 @@
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p class="Strong_1">Campus Planning Interface</p>
+                        <p class="Strong_1">Campus Web Service</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p class="p_7">4.6.1</p>
+                        <p class="p_7">3.5</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="p_7">2.0</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="Strong_1">Campus Planning Interface</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="p_7">4.6.1</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
                         <p class="p_7">4.0</p>
                     </td>
                 </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p class="Strong_1">Floor Plan Configuration</p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p class="p_7">3.5</p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p class="p_7">2.0</p>
-                    </td>
-                </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p class="Strong_1">Room Diagramming Service</p>
+                        <p class="Strong_1">Floor Plan Configuration</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
                         <p class="p_7">3.5</p>
@@ -192,13 +172,24 @@
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
-                        <p class="Strong_1">PAM Web Service</p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="Strong_1">Room Diagramming Service</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
                         <p class="p_7">3.5</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="p_7">2.0</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                        <p class="Strong_1">PAM Web Service</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                        <p class="p_7">3.5</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
                         <p class="p_7">2.0</p>
                     </td>
                 </tr>
@@ -243,7 +234,7 @@
                 </tr>
             </tbody>
         </table>
-        <p>*= varies per application</p>
+        <p>*= varies per application.</p>
         <div class="note-box tip">
             <p><span class="boldAllCaps">Tip: </span><MadCap:variable name="General.EMS&#160;Web App" /> V44.1 has been optimized for Internet Explorer 11 and does not require compatibility with previous versions of Internet Explorer.&#160; EMS recommends <em>disabling compatibility mode </em>when&#160;using <MadCap:variable name="General.EMS&#160;Web App" /> V44.1.</p>
         </div>
@@ -332,7 +323,7 @@
                     <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
                         <p class="beforelist">To host and install <MadCap:variable name="General.Mobile" />, you will need the following:</p>
                         <ul class="unorder-list">
-                            <li>EMS database&#160;server, web server <strong>and <MadCap:variable name="General.Platform Services" /></strong>&#160;(see <a href="EMSPlatformServices/A_InstallationGuide/Platform_LicenseRequirements.html" title="EMS V44.1 System Requirements" alt="EMS V44.1 System Requirements">Requirements</a>)&#160;</li>
+                            <li>EMS database&#160;server, web server and <strong><MadCap:variable name="General.Platform Services" /></strong>&#160;(see also:&#160;System Requirements and <a href="EMSPlatformServices/A_InstallationGuide/Platform_LicenseRequirements.html" title="EMS V44.1 System Requirements" alt="EMS V44.1 System Requirements">Licensing Requirements</a>)&#160;</li>
                             <li>mobile phone(s)</li>
                         </ul>
                     </td>
