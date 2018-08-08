@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('Resources/TableStyles/PatternedRows.css');margin-left: 0;margin-right: auto;width: 100%;" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 308px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1" colspan="2">
+                        <p>Supported Platforms</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Android </p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">4.4, 5.0, 6.0, 7.0, 7.1</td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>iOS </p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">9.x, 10.x</td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" colspan="2">
+                        <p class="bold">Prerequisites</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows" colspan="2">
+                        <p class="beforelist">To host and install <MadCap:variable name="General.Mobile" />, you will need the following:</p>
+                        <ul class="unorder-list">
+                            <li>EMS Database&#160;Server</li>
+                            <li>EMS&#160;Web Server </li>
+                            <li>EMS&#160;Platform&#160;Services (see also:&#160;<a href="EMSPlatformServices/A_InstallationGuide/Platform_LicenseRequirements.html" title="EMS V44.1 System Requirements" alt="EMS V44.1 System Requirements">Licensing Requirements</a>)&#160;</li>
+                            <li>Mobile phone(s)</li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

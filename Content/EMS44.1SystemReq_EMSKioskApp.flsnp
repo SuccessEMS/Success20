@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('Resources/TableStyles/PatternedRows.css');margin-left: 0;margin-right: auto;width: 100%;" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                        <p>Supported Browsers</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>Internet Explorer 11</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>Google Chrome (latest)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>.NET Framework&#160;4.6.2</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
+                        <p><a href="https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/iis/index?tabs=aspnetcore2x#install-the-net-core-windows-server-hosting-bundle">ASP.NET Core 2.0</a>
+                        </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

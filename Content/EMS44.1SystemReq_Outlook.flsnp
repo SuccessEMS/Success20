@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('Resources/TableStyles/PatternedRows.css');width: 100%;margin-left: 0;margin-right: auto;" cellspacing="0">
+            <col style="width: 290px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 193px;" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">&#160;</th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">&#160;</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Microsoft<sup>®</sup> Office</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>365</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Outlook (32- and 64-bit)</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>2010, 2013, 2016</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>.NET Framework</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>4.6.1</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p><a href="https://www.microsoft.com/en-us/download/details.aspx?id=54246" rel="external nofollow" target="_blank">Microsoft<sup>®</sup> Visual Studio 2010 Tools for Office Runtime</a>
+                        </p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>VSTOR&#160;2010</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" colspan="2">
+                        <p><span class="bold">Prerequisites</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p><MadCap:variable name="General.EMS&#160;Web App" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>Latest</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                        <p>On User Workstations</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
+                        <p>Desktop requirements for Microsoft<sup>®</sup>&#160;Outlook Windows 7, 8, or 10</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>EMS Integration for Exchange</h3>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('Resources/TableStyles/PatternedRows.css');width: 100%;margin-left: 0;margin-right: auto;" cellspacing="0">
+            <col style="width: 271px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 212px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">&#160;</th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">&#160;</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Microsoft<sup>®</sup> Exchange</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>2010 SP3, 2013, 2016</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Microsoft<sup>®</sup> Office</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>365</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" colspan="2">
+                        <p colspan="2"><a rel="internal" target="_blank" title="Learn More About Exchange Web Services (EWS)" href="EMSforOutlook/IntegrationtoMicrosoftExchange/LearnMoreaboutEWS.htm" alt="Learn More About Exchange Web Services (EWS)">Exchange Web Services (EWS) impersonation</a>
+                        </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

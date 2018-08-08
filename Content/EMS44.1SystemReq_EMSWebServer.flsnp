@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('Resources/TableStyles/PatternedRows.css');width: 100%;margin-left: 0;margin-right: auto;" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">Operating System</th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">IIS APP POOL</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Windows Server 2012</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>8</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Windows Server 2012 R2</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>8.5</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Windows Server 2016</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">&#160;</td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows"><span class="bold">Prerequisites</span>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">&#160;</td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Application Pool Running&#160;</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">(2.0 or 4.0 depending on the EMS&#160;Software Application)</td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>.NET Framework 4.6.1**</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">&#160;</td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" colspan="2">
+                        <p><span class="bold">Minimum System Requirements</span>
+                        </p>
+                        <p>Processor: 2.0 GHz and 4 cores or faster<br />           Memory: 8 GB or more**<br />            Hard-Disk Space: 1 GB or more</p>
+                        <p>*For up to 100 concurrent users.&#160;Increased specs required for 100+ concurrent users.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>*Requires an update to Windows Management Framework to version 3.<br />**= varies per EMS Software Application</p>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('Resources/TableStyles/PatternedRows.css');width: 100%;margin-left: 0;margin-right: auto;" cellspacing="0" MadCap:conditions="General.Edit_in_Review">
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p class="Strong_2">Software Module</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p class="Strong_2">.NET Version</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                        <p class="Strong_2">IIS App Pool</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="Strong_1">Desktop Web Deploy</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="p_7">4.5.2</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="p_7">4.0</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="Strong_1">Virtual EMS</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="p_7">3.5</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="p_7">2.0</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="Strong_1">Campus Web Service</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="p_7">3.5</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="p_7">2.0</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="Strong_1">Campus Planning Interface</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="p_7">4.6.1</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="p_7">4.0</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="Strong_1">Floor Plan Configuration</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="p_7">3.5</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="p_7">2.0</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="Strong_1">Room Diagramming Service</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="p_7">3.5</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="p_7">2.0</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                        <p class="Strong_1">PAM Web Service</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                        <p class="p_7">3.5</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
+                        <p class="p_7">2.0</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
