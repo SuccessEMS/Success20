@@ -1545,7 +1545,7 @@
         PageNumber="1">
         <TocEntry
           Title="All Applications Tab Parameters"
-          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/AllApplicationParameters.htm"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/EMSAllApplicationParameters.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"

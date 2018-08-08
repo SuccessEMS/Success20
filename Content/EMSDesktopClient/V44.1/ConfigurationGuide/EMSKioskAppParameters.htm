@@ -6,8 +6,26 @@
     <body>
         <h1 MadCap:autonum="CHAPTER&#160;1: ">
             <MadCap:concept term="V44.1" />EMS System Parameters</h1>
-        <div class="box-note"><span class="bold">NOTE:</span>&#160;From the <a href="AllApplicationParameters.htm">All Applications tab</a> of the Parameters dialog, you can configure the following parameters for EMS&#160;Kiosk: <span class="bold">Everyday Users linked to Groups via External Reference</span>, <span class="bold">Building Title Plural</span>, <span class="bold">Building Title Singular</span>, <span class="bold">Group Title Plural</span>, <span class="bold">Group Title Singular</span>, <span class="bold">Room Title Plural</span>, and <span class="bold">Room Title Singular</span>. </div>
         <h2>EMS&#160;Kiosk App</h2>
+        <div class="box-note"><span class="bold">NOTE:</span>&#160;From the <a href="EMSAllApplicationParameters.htm">All Applications tab</a> of the Parameters dialog, you can configure the following parameters for EMS&#160;Kiosk: <span class="bold">Everyday Users linked to Groups via External Reference</span>, <span class="bold">Building Title Plural</span>, <span class="bold">Building Title Singular</span>, <span class="bold">Group Title Plural</span>, <span class="bold">Group Title Singular</span>, <span class="bold">Room Title Plural</span>, and <span class="bold">Room Title Singular</span>. </div>
+        <p>Parameters for the EMS&#160;Kiosk App are broken into the following Areas:</p>
+        <ul>
+            <li><a href="#FloorPlans">Floor Plans</a>
+            </li>
+            <li><a href="#Hoteling">Hoteling</a>
+            </li>
+            <li><a href="#MakeReservation">Make Reservation</a>
+            </li>
+            <li><a href="#Miscellaneous">Miscellaneous</a>
+            </li>
+            <li><a href="#MyReservations">My Reservations</a>
+            </li>
+            <li><a href="#Security">Security</a>
+            </li>
+            <li><a href="#Today">Today's Events</a>
+            </li>
+        </ul>
+        <h2><a name="FloorPlans"></a>Floor Plans</h2>
         <table cellspacing="0" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows_Param.css');width: 100%;margin-left: 0;margin-right: auto;" class="TableStyle-PatternedRows">
             <col style="width : 85.8px;" class="TableStyle-PatternedRows-Column-Regular" />
             <col style="width : 195px;" class="TableStyle-PatternedRows-Column-Regular" />
@@ -35,29 +53,63 @@
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">YES/NO</td>
                 </tr>
                 <tr style="height : 30px;" class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Floor Plans</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Show Floor Plan Module in Kiosk</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">If enabled, the optional Floor Plan module can be displayed in EMS Kiosk.</td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">Floor Plans</td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">Show Floor Plan Module in Kiosk</td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">If enabled, the optional Floor Plan module can be displayed in EMS Kiosk.</td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">YES/NO</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2><a name="Hoteling"></a>Hoteling</h2>
+        <table cellspacing="0" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows_Param.css');width: 100%;margin-left: 0;margin-right: auto;" class="TableStyle-PatternedRows">
+            <col style="width : 85.8px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width : 195px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width : 221.4px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width : 249px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">Area</th>
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">Title</th>
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">Description</th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">VALUE</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr style="height : 30px;" class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Hoteling</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Allow Check In From Kiosk</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">If set to&#160;YES,&#160;allows a user to check in to a workspace from EMS Workplace.</td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">YES/NO</td>
                 </tr>
-                <tr style="height : 30px;" class="TableStyle-PatternedRows-Body-DarkerRows">
+                <tr style="height : 45px;" class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Hoteling</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Allow Check In From Kiosk</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">If set to&#160;YES,&#160;allows a user to check in to a workspace from EMS Workplace.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Enable Group Type Filtering on Make Reservation</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">If set to&#160;YES, enables feature filtering and/or room type filtering by group type on the Make a Reservation page.</td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">YES/NO</td>
                 </tr>
-                <tr style="height : 45px;" class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Hoteling</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Enable Group Type Filtering on Make Reservation</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">If set to&#160;YES, enables feature filtering and/or room type filtering by group type on the Make a Reservation page.</td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">YES/NO</td>
+                <tr style="height : 30px;" class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">Hoteling</td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">Group Type Filtering Space Label on Make Reservation</td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">The label used if group type filtering is enabled.</td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">&#160;</td>
                 </tr>
-                <tr style="height : 30px;" class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Hoteling</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Group Type Filtering Space Label on Make Reservation</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">The label used if group type filtering is enabled.</td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">&#160;</td>
+            </tbody>
+        </table>
+        <h2><a name="MakeReservation"></a>Make Reservation</h2>
+        <table cellspacing="0" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows_Param.css');width: 100%;margin-left: 0;margin-right: auto;" class="TableStyle-PatternedRows">
+            <col style="width : 85.8px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width : 195px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width : 221.4px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width : 249px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">Area</th>
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">Title</th>
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">Description</th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">VALUE</th>
                 </tr>
+            </thead>
+            <tbody>
                 <tr style="height : 120px;" class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Make Reservation</td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Booking Duration Set By Specific End Time Or Number Of Hours</td>
@@ -143,104 +195,155 @@
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">&#160;</td>
                 </tr>
                 <tr style="height : 30px;" class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Make Reservation</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Time Drop Down Increment</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">The time increment that is used on Time dropdown menus.</td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">Make Reservation</td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">Time Drop Down Increment</td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">The time increment that is used on Time dropdown menus.</td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
                         <p>5 minutes <br />15 minutes <br />30 minutes <br />60 minutes</p>
                     </td>
                 </tr>
-                <tr style="height : 30px;" class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Miscellaneous</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Browser Title</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">The text that is displayed in the title bar of the Kiosk browser.</td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">&#160;</td>
+            </tbody>
+        </table>
+        <h2><a name="Miscellaneous"></a>Miscellaneous</h2>
+        <table cellspacing="0" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows_Param.css');width: 100%;margin-left: 0;margin-right: auto;" class="TableStyle-PatternedRows">
+            <col style="width : 85.8px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width : 195px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 210px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 260px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">Area</th>
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">Title</th>
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">Description</th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">VALUE</th>
                 </tr>
-                <tr style="height : 45px;" class="TableStyle-PatternedRows-Body-LightRows">
+            </thead>
+            <tbody>
+                <tr style="height : 30px;" class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Miscellaneous</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Default Page</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">The first page that first opens in EMS Kiosk or that is displayed when EMS Kiosk times-out.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Browser Title</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">The text that is displayed in the title bar of the Kiosk browser.</td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">&#160;</td>
                 </tr>
                 <tr style="height : 45px;" class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Miscellaneous</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Display Cancel Button for Group Searches</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">If set to YES, the Cancel button is displayed for group searches, allowing the user to cancel a search.</td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">YES/NO</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Default Page</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">The first page that first opens in EMS Kiosk or that is displayed when EMS Kiosk times-out.</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">&#160;</td>
                 </tr>
                 <tr style="height : 45px;" class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Miscellaneous</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Enable Stand-by Mode on Timeout</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">If set to YES, then EMS Kiosk goes into Standby-by Mode (a Stand By button is displayed) after timing out.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Display Cancel Button for Group Searches</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">If set to YES, the Cancel button is displayed for group searches, allowing the user to cancel a search.</td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">YES/NO</td>
                 </tr>
-                <tr style="height : 60px;" class="TableStyle-PatternedRows-Body-DarkerRows">
+                <tr style="height : 45px;" class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Miscellaneous</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Location Format</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Select from Building Code, Room or Room Description or Building Description, Room or Room Description.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Enable Stand-by Mode on Timeout</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">If set to YES, then EMS Kiosk goes into Standby-by Mode (a Stand By button is displayed) after timing out.</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">YES/NO</td>
+                </tr>
+                <tr style="height : 60px;" class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Miscellaneous</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Location Format</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Select from Building Code, Room or Room Description or Building Description, Room or Room Description.</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">&#160;</td>
+                </tr>
+                <tr style="height : 30px;" class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Miscellaneous</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Max Booking/Availability Records Returned</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">The maximum number of rooms that are displayed when making a reservation.</td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">&#160;</td>
                 </tr>
                 <tr style="height : 30px;" class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Miscellaneous</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Max Booking/Availability Records Returned</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">The maximum number of rooms that are displayed when making a reservation.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Max Records Returned for Group Searches</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">The maximum number of records returned when searching for a group.</td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">&#160;</td>
                 </tr>
-                <tr style="height : 30px;" class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Miscellaneous</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Max Records Returned for Group Searches</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">The maximum number of records returned when searching for a group.</td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">&#160;</td>
+                <tr style="height : 45px;" class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">Miscellaneous</td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">Page Timeout (seconds)</td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">The period of inactivity in EMS Kiosk, after which the default page is displayed.</td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">&#160;</td>
                 </tr>
-                <tr style="height : 45px;" class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Miscellaneous</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Page Timeout (seconds)</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">The period of inactivity in EMS Kiosk, after which the default page is displayed.</td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">&#160;</td>
+            </tbody>
+        </table>
+        <h2><a name="MyReservations"></a>My Reservations</h2>
+        <table cellspacing="0" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows_Param.css');width: 100%;margin-left: 0;margin-right: auto;" class="TableStyle-PatternedRows">
+            <col style="width: 201px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 153px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 189px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width : 249px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">Area</th>
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">Title</th>
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">Description</th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">VALUE</th>
                 </tr>
-                <tr style="height : 30px;" class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">My Reservations</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Allow User to Cancel Booking</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">If set to YES, then users can cancel bookings from the Reservations page.</td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">YES/NO</td>
-                </tr>
-                <tr style="height : 45px;" class="TableStyle-PatternedRows-Body-LightRows">
+            </thead>
+            <tbody>
+                <tr style="height : 30px;" class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">My Reservations</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Allow User to Cancel/End Booking outside of Kiosk Profile</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">If enabled, users can cancel or end a booking outside of using their EMS Kiosk profiles.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Allow User to Cancel Booking</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">If set to YES, then users can cancel bookings from the Reservations page.</td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">YES/NO</td>
                 </tr>
                 <tr style="height : 45px;" class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">My Reservations</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Allow User to End Booking</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">&#160;If set to YES, then users can end their bookings from the My Reservations page.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Allow User to Cancel/End Booking outside of Kiosk Profile</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">If enabled, users can cancel or end a booking outside of using their EMS Kiosk profiles.</td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">YES/NO</td>
                 </tr>
-                <tr style="height : 30px;" class="TableStyle-PatternedRows-Body-LightRows">
+                <tr style="height : 45px;" class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">My Reservations</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Cancel Status</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">The status that is applied to canceled bookings.</td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Allow User to End Booking</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">&#160;If set to YES, then users can end their bookings from the My Reservations page.</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">YES/NO</td>
+                </tr>
+                <tr style="height : 30px;" class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">My Reservations</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Cancel Status</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">The status that is applied to canceled bookings.</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
                         <p>&#160;</p>
                     </td>
                 </tr>
-                <tr style="height : 30px;" class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">My Reservations</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Cancellation Cutoff (minutes)</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">&#160;</td>
-                </tr>
                 <tr style="height : 30px;" class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">My Reservations</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Number of days in the future you can cancel a booking</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Cancellation Cutoff (minutes)</td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">&#160;</td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">&#160;</td>
                 </tr>
-                <tr style="height : 120px;" class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Security&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Group Field used for "Exact Match" Authentication</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">The field that is compared with the ID that the user enters: External Reference, Badge Number, Personnel Number (all of these are group settings). This parameter is used in conjunction with the Primary User Authentication Type parameter, which must be set to Exact Match.</td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                <tr style="height : 30px;" class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">My Reservations</td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">Number of days in the future you can cancel a booking</td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">&#160;</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2><a name="Security"></a>Security</h2>
+        <table cellspacing="0" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows_Param.css');width: 100%;margin-left: 0;margin-right: auto;" class="TableStyle-PatternedRows">
+            <col style="width : 85.8px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width : 195px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width : 221.4px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width : 249px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">Area</th>
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">Title</th>
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">Description</th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">VALUE</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr style="height : 120px;" class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Security&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Group Field used for "Exact Match" Authentication</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">The field that is compared with the ID that the user enters: External Reference, Badge Number, Personnel Number (all of these are group settings). This parameter is used in conjunction with the Primary User Authentication Type parameter, which must be set to Exact Match.</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
                         <p>External Reference</p>
                         <p>Badge Number</p>
                         <p>Personnel Number</p>
@@ -248,10 +351,10 @@
                         <p>Email Address</p>
                     </td>
                 </tr>
-                <tr style="height : 15px;" class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Security&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows"><a name="Primary"></a>Primary User Authentication Type</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                <tr style="height : 15px;" class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Security&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows"><a name="Primary"></a>Primary User Authentication Type</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
                         <p rowspan="4">The options are as follows: </p>
                         <ul>
                             <li rowspan="4"><span class="bold">Standard:</span> Partial names are enough for a match, and all groups that match are listed. </li>
@@ -259,71 +362,88 @@
                             <li rowspan="4"><span class="bold">LDAP:</span> Both the user's network ID and password must be entered.</li>
                         </ul>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
                         <p>Standard<br />Exact Match<br />LDAP</p>
                     </td>
                 </tr>
-                <tr style="height : 60px;" class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Security&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Require Authentication for all Kiosk Functions</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Requires users to identify themselves before using EMS Kiosk. Used for kiosks in a public location where an exact user ID match is needed.</td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">&#160;</td>
-                </tr>
                 <tr style="height : 60px;" class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Security&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows"><a name="Secondary"></a>Secondary User Authentication Type (Only used if "Badge" is primary security)</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">(Used only if “Badge” is primary security). Alternate authentication method that is used when a user doesn't have his/her badge.</td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Require Authentication for all Kiosk Functions</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Requires users to identify themselves before using EMS Kiosk. Used for kiosks in a public location where an exact user ID match is needed.</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">&#160;</td>
+                </tr>
+                <tr style="height : 60px;" class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Security&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows"><a name="Secondary"></a>Secondary User Authentication Type (Only used if "Badge" is primary security)</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">(Used only if “Badge” is primary security). Alternate authentication method that is used when a user doesn't have his/her badge.</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
                         <p>Exact Match<br />LDAP<br />Standard</p>
                     </td>
                 </tr>
-                <tr style="height : 60px;" class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Security&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Show 10 Key As Modal</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Used with the Use 10-Key Keyboard for Authentication parameter. Displays 10-key keyboard as a modal popup on the page.</td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">YES/NO</td>
-                </tr>
-                <tr style="height : 30px;" class="TableStyle-PatternedRows-Body-LightRows">
+                <tr style="height : 60px;" class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Security&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Use 10-Key Keyboard for Authentication</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Uses a numeric 10-key numeric keyboard instead of the full keyboard.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Show 10 Key As Modal</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Used with the Use 10-Key Keyboard for Authentication parameter. Displays 10-key keyboard as a modal popup on the page.</td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">YES/NO</td>
                 </tr>
-                <tr style="height : 75px;" class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Today's Events&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Default Sort Column</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">If set to YES, sets Today's Events to sort (in Ascending/Descending order) by Start Time, End Time, Event Name, Employee Name, Location, and Has Map. Defaults to NO.</td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">&#160;</td>
+                <tr style="height : 30px;" class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">Security&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">Use 10-Key Keyboard for Authentication</td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">Uses a numeric 10-key numeric keyboard instead of the full keyboard.</td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">YES/NO</td>
                 </tr>
-                <tr style="height : 30px;" class="TableStyle-PatternedRows-Body-LightRows">
+            </tbody>
+        </table>
+        <h2><a name="Today"></a>Today's Events</h2>
+        <table cellspacing="0" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows_Param.css');width: 100%;margin-left: 0;margin-right: auto;" class="TableStyle-PatternedRows">
+            <col style="width: 84px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 197px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width : 221.4px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width : 249px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">Area</th>
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">Title</th>
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">Description</th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">VALUE</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr style="height : 75px;" class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Today's Events&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Display Building Drop Down</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">&#160;If set to YES, users can filter by building on the Today's Events page.</td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">YES/NO</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Default Sort Column</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">If set to YES, sets Today's Events to sort (in Ascending/Descending order) by Start Time, End Time, Event Name, Employee Name, Location, and Has Map. Defaults to NO.</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">&#160;</td>
                 </tr>
-                <tr style="height : 45px;" class="TableStyle-PatternedRows-Body-DarkerRows">
+                <tr style="height : 30px;" class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Today's Events&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Display Event Name Search</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">If set to YES, then the Search for Events button is displayed on the Today’s Events page.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Display Building Drop Down</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">&#160;If set to YES, users can filter by building on the Today's Events page.</td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">YES/NO</td>
                 </tr>
-                <tr style="height : 30px;" class="TableStyle-PatternedRows-Body-LightRows">
+                <tr style="height : 45px;" class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Today's Events&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Display Floor Drop Down</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">If set to YES, users can filter by floor on the Today's Events page.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Display Event Name Search</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">If set to YES, then the Search for Events button is displayed on the Today’s Events page.</td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">YES/NO</td>
                 </tr>
                 <tr style="height : 30px;" class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Today's Events&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Display Room Type Drop Down</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">If set to YES, users can filter by room type on the Today's Events page.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Display Floor Drop Down</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">If set to YES, users can filter by floor on the Today's Events page.</td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">YES/NO</td>
                 </tr>
-                <tr style="height : 60px;" class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">Today's Events&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">Drop Events in Past</td>
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">If set to YES, then events that occurred before the current day’s time are not displayed on the Today's Events page.</td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">YES/NO</td>
+                <tr style="height : 30px;" class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Today's Events&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Display Room Type Drop Down</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">If set to YES, users can filter by room type on the Today's Events page.</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">YES/NO</td>
+                </tr>
+                <tr style="height : 60px;" class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">Today's Events&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">Drop Events in Past</td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">If set to YES, then events that occurred before the current day’s time are not displayed on the Today's Events page.</td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">YES/NO</td>
                 </tr>
             </tbody>
         </table>
