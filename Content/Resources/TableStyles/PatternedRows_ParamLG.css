@@ -1386,6 +1386,12 @@ padding: 10px;
 		padding-bottom: 15px;
 	}
 	
+/**	table ol
+	{
+		margin-top: 0px;
+		padding-top: 0px;
+	} **/
+	
 	.TableStyle-PatternedRow td ol
 	{	
 		list-style-type: decimal;

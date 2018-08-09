@@ -1846,7 +1846,7 @@
       Link="/Content/ConfigGuides/7_EMS_PlatformServices_CG.htm">
       <TocEntry
         Title="Authentication Methods"
-        Link="/Content/EMSPlatformServices/ConfigurationGuide/ConfigPSinAdminPortal.html" />
+        Link="/Content/Authentication/EMSAuthenticationMethods.htm" />
       <TocEntry
         Title="Configure Platform Services in the Admin Portal"
         Link="/Content/EMSPlatformServices/ConfigurationGuide/ConfigPSinAdminPortal.html" />
