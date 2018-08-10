@@ -29,7 +29,8 @@
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" colspan="2">
-                        <p class="bold">Prerequisites</p>
+                        <h6><span class="bold">PREREQUISITES</span>
+                        </h6>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">

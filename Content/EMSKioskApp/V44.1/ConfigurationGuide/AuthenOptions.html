@@ -1,37 +1,49 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html MadCap:lastBlockDepth="6" MadCap:lastHeight="626" MadCap:lastWidth="865" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head><title>Integrated Authentication Options V44.1 (EMS Kiosk App)</title>
     </head>
     <body>
-        <h1>
-            <MadCap:concept term="V44.1" />Integrated Authentication Options</h1>
-        <p>This guide provides configuration instructions for System Administration and IT users for EMS Everyday User Applications: EMS Web App, EMS Mobile App, EMS for Outlook, and EMS Floor Plans.</p>
-        <p>This Integrated Authentication provides information on the following topics: </p>
-        <ul class="unorder-list">
-            <li><a href="../../../Authentication/IntroEMSIntegratedAuth.htm">Introduction</a>
-                <ul>
-                    <li><a href="../../../WebApp/A_V44.1/B_ConfigurationGuide/AuthOptions_WebApp.htm">Authentication Options for EMS Web App and Virtual EMS (VEMS)</a>
-                    </li>
-                    <li><a href="../../../OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_Authentication Options_Mobile.htm">Authentication Options for EMS Mobile</a>
-                    </li>
-                    <li><a href="../../../OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_Authentication Options_MC.htm">Authentication Options for EMS Master Calendar</a>
-                    </li>
-                    <li><a href="../../../OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_Authentication Options_Regics.htm">Authentication Options for EMS Regics</a>
-                    </li>
-                </ul>
+        <h1 MadCap:autonum="CHAPTER&#160;1: ">
+            <MadCap:concept term="V44.1" />Authentication Options for the EMS&#160;Kiosk App</h1>
+        <p>The following authentication methods are supported for the EMS&#160;Kiosk App. </p>
+        <p>See Also:&#160;<a href="../../../EMSDesktopClient/V44.1/ConfigurationGuide/EMSKioskAppParameters.htm#Security">EMS&#160;Kiosk App Parameters</a>. </p>
+        <h2>Primary Authentication</h2>
+        <ol>
+            <li>Badge</li>
+            <li>Group Name/Email (Standard)</li>
+            <li>Group Field (Exact Match)</li>
+            <li><a href="../../../WebApp/A_V44.1/B_ConfigurationGuide/ConfigureLDAPMobileandWeb.html#Configure_EMS_Web_App_to_Use_LDAP_Authentication">LDAP</a>
             </li>
-            <li><a href="../../../OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_IntegratedAuthenticationConsid.htm">Integrated Authentication Considerations</a>
-            </li>
-            <li><a href="../../../Authentication/WindowsAuthen.html">Integrated Windows Authentication</a>
-            </li>
-            <li><a href="../../../OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_ManageEUforIntegAuthen.htm">Manage Everyday Users For Integrated Authentication</a>
-            </li>
-            <li><a href="../../../OptionalFeatures/IntegratedAuthentication/V44.1/LDAPAuth_MobileandWeb.html">LDAP Authentication</a>
-            </li>
-            <li><a href="../../../Authentication/PortalFederatedAuthen.html">Portal or Federated Authentication</a>
-            </li>
-            <li><a href="../../../Authentication/PortalAuthMethods.html">Portal Authentication Methods</a>
-            </li>
+        </ol>
+        <p class="box-note"><span class="bold">NOTE</span>:&#160;Badge authentication provides the best user experience and most secure authentication. </p>
+        <h2>Secondary Authentication</h2>
+        <p>If Badge is the Primary Authentication, the Secondary Authentication options are:</p>
+        <ol>
+            <li>Group Field (Exact Match)</li>
+            <li>LDAP</li>
+            <li>Group Name/Email (Standard)</li>
+        </ol>
+        <h2>Provisioning Authentication For the <MadCap:variable name="General.Kiosk" /></h2>
+        <p class="box-note"><span class="bold">NOTE</span>: For provisioning authentication in the EMS Kiosk App, only <a href="../../../Authentication/LDAPAuthen.html">LDAP</a> and <a href="../../../Authentication/EMSNativeAuthen.html">EMS&#160;Native</a> authentication methods are supported.</p>
+        <ol>
+            <li>Navigate to the EMS Platform Services Admin Portal. Choose the “Everyday User Auth Method” dropdown, and set to either <a href="../../../Authentication/LDAPAuthen.html">LDAP</a> or <a href="../../../Authentication/EMSNativeAuthen.html">EMS Native</a>.</li>
+        </ol>
+        <p>
+            <img src="../../../EMSMobileApp/Images/B_ConfigurationGuide/userauthentication.png" />
+        </p>
+        <ul>
+            <li>If selecting LDAP, ensure LDAP is configured per <a href="../../../Authentication/LDAPAuthen.html">EMS LDAP authentication</a> requirements.</li>
+            <li>If selecting Native authentication, configure the username and password field in the EMS Desktop Client menu bar. Click Configuration &gt; Everyday User Applications &gt; Everyday Users.</li>
         </ul>
+        <ol start="2">
+            <li>Click <span class="bold">Save</span>.</li>
+        </ol>
+        <p class="box-note"><span class="bold">NOTE</span>: This setting controls the authentication method for EMS Kiosk App provisioning only. Everyday User authentication and validation within the EMS Kiosk App is managed per profile per Security Parameter. For more information on Profile Security Parameters, see <a href="ConfigKioskAppProfiles.htm#Parameters">Parameters Tab</a>.</p>
+        <ol start="2" MadCap:continue="true">
+            <li>
+                <p><a href="../../../EMSPlatformServices/ConfigurationGuide/ConfigPSinAdminPortal.html#ClearCache">Clear cache in EMS Platform Services</a> and in the EMS Web App Admin Portal.</p>
+            </li>
+        </ol>
+        <p class="box-note"><span class="bold">NOTE</span>:&#160;By default, the EMS Kiosk App uses secure cookies. We strongly recommend you use this approach in your production environment. However, you may wish to test without SSL. To disable secure cookies in your test environment, add the following to appsettings.json inside the "PlatformOptions" section:<br /><img src="../Images/securecookies.png" style="width: 611px;height: 97px;" /><br /></p>
     </body>
 </html>

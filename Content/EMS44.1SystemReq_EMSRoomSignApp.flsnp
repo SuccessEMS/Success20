@@ -5,7 +5,7 @@
     </head>
     <body>
         <table class="TableStyle-PatternedRows" style="mc-table-style: url('Resources/TableStyles/PatternedRows.css');margin-left: 0;margin-right: auto;width: 100%;" cellspacing="0">
-            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 243px;" />
             <col class="TableStyle-PatternedRows-Column-Regular" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
@@ -49,27 +49,34 @@
                 </tr>
             </tbody>
         </table>
-        <table class="TableStyle-PatternedRows" style="mc-table-style: url('Resources/TableStyles/PatternedRows.css');margin-left: 0;margin-right: auto;" cellspacing="0">
-            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 193px;" />
-            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 396px;" />
+        <p>&#160;</p>
+        <table style="width: 100%;mc-table-style: url('Resources/TableStyles/PatternedRows.css');margin-left: 0;margin-right: auto;" class="TableStyle-PatternedRows" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1" colspan="2">TABLET REQUIREMENTS</th>
+                </tr>
+            </thead>
             <tbody>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p>Tablet Requirements</p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows"><span class="bold">Supported Resolutions</span>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p style="text-align: left;"><strong>Supported Resolutions</strong>
-                            <br />            1024 x 768<br />            1280 x 1024<br />            1660 x 900<br />            1920 x 1080<br />            2048 x 1536</p>
-                        <p class="table-note"><span class="bold">Note:&#160;</span><MadCap:variable name="General.RSA" /> will run on touch-enabled tablets (with above resolutions)&#160;set in landscape mode.&#160;Integrating with ArmorActive&#160;enclosures require a browser&#160;that can play sound.&#160;<span class="bold">See Also: </span><MadCap:xref href="EMSRoomSignApp/44.1/ConfigurationGuide/BestPractDeviceConfSteps.htm">Best Practice:&#160;Device Configuration Steps</MadCap:xref>.&#160;</p>
-                        <p>EMS tests on and recommends the <a href="https://www.apple.com/ipad-mini-4/">iPad Mini</a> and <a href="http://www.samsung.com/us/mobile/tablets/all-other-tablets/samsung-galaxy-tab-a-8-0-16gb-wi-fi-smoky-titanium-sm-t350nzaaxar/">8” Samsung Tab A.</a></p>
-                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">1024 x 768<br />            1280 x 1024<br />            1660 x 900<br />            1920 x 1080<br />            2048 x 1536</td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows"><strong>Prerequisites</strong>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" colspan="2">EMS tests on and recommends the <a href="https://www.apple.com/ipad-mini-4/">iPad Mini</a> and <a href="http://www.samsung.com/us/mobile/tablets/all-other-tablets/samsung-galaxy-tab-a-8-0-16gb-wi-fi-smoky-titanium-sm-t350nzaaxar/">8” Samsung Tab A.</a></td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" colspan="2"><span class="bold">NOTE:&#160;</span>EMS Room Sign App will run on touch-enabled tablets (with above resolutions)&#160;set in landscape mode.&#160;Integrating with ArmorActive&#160;enclosures require a browser&#160;that can play sound.&#160;<span class="bold">See Also: </span><MadCap:xref href="EMSRoomSignApp/44.1/ConfigurationGuide/BestPractDeviceConfSteps.htm">Best Practice:&#160;Device Configuration Steps</MadCap:xref>.&#160;</td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" colspan="2">
+                        <h6 colspan="2">PREREQUISITES</h6>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
-                        <p><MadCap:variable name="General.EMS&#160;Desktop Client" />, running&#160;on database and web servers that meet our EMS&#160;System Requirements.</p>
-                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" colspan="2"><MadCap:variable name="General.EMS&#160;Desktop Client" />, running&#160;on database and web servers that meet our EMS&#160;System Requirements.</td>
                 </tr>
             </tbody>
         </table>
