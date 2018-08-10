@@ -45,7 +45,9 @@
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
                         <p>Application Pool Running&#160;</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">(2.0 or 4.0 depending on the EMS&#160;Software Application)</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>(2.0 or 4.0 depending on the EMS&#160;Software Application)</p>
+                    </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
