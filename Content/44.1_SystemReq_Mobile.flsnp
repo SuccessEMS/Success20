@@ -34,7 +34,7 @@
                     <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
                         <p class="beforelist">To host and install <MadCap:variable name="General.Mobile" />, you will need the following:</p>
                         <ul class="unorder-list">
-                            <li>EMS database&#160;server, web server <strong>and <MadCap:variable name="General.Platform Services" /></strong>&#160;(see <a href="EMSPlatformServices/A_InstallationGuide/Platform_LicenseRequirements.html" title="EMS V44.1 System Requirements" alt="EMS V44.1 System Requirements">Requirements</a>)&#160;</li>
+                            <li>EMS database&#160;server, web server <strong>and <MadCap:variable name="General.Platform Services" /></strong>&#160;(see <a href="EMSPlatformServices/InstallationGuide/LicenseRequirements.html" title="EMS V44.1 System Requirements" alt="EMS V44.1 System Requirements">Requirements</a>)&#160;</li>
                             <li>mobile phone(s)</li>
                         </ul>
                     </td>

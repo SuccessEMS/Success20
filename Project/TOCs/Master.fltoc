@@ -424,13 +424,16 @@
       Link="/Content/InstallGuides/7_PlatformServices/V44.1/7_PlatformServicesHome.htm">
       <TocEntry
         Title="Introduction to EMS Platform Services"
-        Link="/Content/EMSPlatformServices/A_InstallationGuide/Platform_Introduction.html" />
+        Link="/Content/EMSPlatformServices/InstallationGuide/Introduction.html" />
+      <TocEntry
+        Title="Prerequisites and Requirements for EMS Platform Services"
+        Link="/Content/EMSPlatformServices/InstallationGuide/SystemRequirements.htm" />
+      <TocEntry
+        Title="License Requirements for EMS Platform Services"
+        Link="/Content/EMSPlatformServices/InstallationGuide/LicenseRequirements.html" />
       <TocEntry
         Title="Install EMS Platform Services"
-        Link="/Content/EMSPlatformServices/A_InstallationGuide/Platform_InstallPS.html" />
-      <TocEntry
-        Title="License Requirements for Platform Services"
-        Link="/Content/EMSPlatformServices/A_InstallationGuide/Platform_LicenseRequirements.html" />
+        Link="/Content/EMSPlatformServices/InstallationGuide/InstallPS.html" />
     </TocEntry>
     <TocEntry
       Title="EMS Exchange Room Integration (ERI)"

@@ -335,7 +335,7 @@
     ChapterNumberReset="continue" />
   <TocEntry
     Title="Installing EMS Platform Services"
-    Link="/Content/EMSPlatformServices/A_InstallationGuide/Platform_InstallPS.html"
+    Link="/Content/EMSPlatformServices/InstallationGuide/InstallPS.html"
     BreakType="chapter"
     AutoEndOnLeftPage="disabled"
     StartSection="false"
