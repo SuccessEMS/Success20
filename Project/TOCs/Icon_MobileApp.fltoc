@@ -117,7 +117,7 @@
         </TocEntry>
         <TocEntry
           Title="LDAP Authentication"
-          Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/LDAPAuth_MobileandWeb.html" />
+          Link="/Content/WebApp/A_V44.1/B_ConfigurationGuide/ConfigureLDAPMobileandWeb.html" />
         <TocEntry
           Title="Portal or Federated Authentication"
           Link="/Content/Authentication/PortalFederatedAuthen.html">

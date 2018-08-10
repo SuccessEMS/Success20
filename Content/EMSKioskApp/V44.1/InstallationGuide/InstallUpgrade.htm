@@ -3,7 +3,7 @@
     <head><title>Install or Upgrade the EMS Kiosk App V44.1 (EMS Kiosk App)</title>
     </head>
     <body>
-        <h1>
+        <h1 MadCap:autonum="CHAPTER&#160;1: ">
             <MadCap:concept term="V44.1" />Install or Upgrade the EMS Kiosk App</h1>
         <ol start="1" class="number-list">
             <li>Verify that the <MadCap:xref href="SysReqPrereq.htm">System Requirements and Prerequisites for EMS Kiosk App</MadCap:xref> have&#160;been fulfilled:<ol start="1"><li>Patches</li><li>API</li><li><a href="https://docs.microsoft.com/en-us/aspnet/core/publishing/iis#install-the-net-core-windows-server-hosting-bundle?tabs=aspnetcore2x" title="https://docs.microsoft.com/en-us/aspnet/core/publishing/iis?tabs=aspnetcore2x#install-the-net-core-windows-server-hosting-bundle">.NET Core Windows Server Hosting Bundle</a>:<ol start="1"><li>Run the installer.</li><li>When complete, open a CMD prompt as an Admin.</li><li>Right-click the <span class="bold">Start </span>button and select <span class="bold">Command Prompt (admin)</span>.</li><li>Type <span class="bold">net stop was /y</span> &lt;enter&gt;.</li><li>Type <span class="bold">net start w3svc</span> &lt;enter&gt;.</li></ol></li><li>EMS Platform Services<ol start="1"><li>You may want to test that Platform Services is properly installed by navigating to the&#160;URL it created on install (http://localhost/EmsPlatform).</li><li>To ensure Platform Services is working correctly,&#160;connect to&#160;http://localhost/EmsPlatform/admin&#160;and use an Admin Everyday User&#160;to verify you can log in.&#160;If you see license info, everything is working properly.</li></ol></li></ol></li>
@@ -38,26 +38,5 @@
             <li>Return to the EMS Platform Admin and set the Active, Enable Logging, and User Auth to&#160;<span class="bold">CHECKED</span>.</li>
             <li>Click&#160;<span class="bold">Save</span>.</li>
         </ol>
-        <h2>Provisioning Authentication for the EMS&#160;Kiosk App (for Administrators)</h2>
-        <p class="box-note"><span class="bold">NOTE:&#160;</span>For provisioning authentication in the EMS&#160;Kiosk App, only LDAP&#160;and Native authentication methods are supported. </p>
-        <ol start="1" class="number-list">
-            <li>Navigate to the EMS&#160;Platform Services Admin Portal. Choose the “Everyday User Auth Method” dropdown, and set to either <span class="bold">LDAP&#160;</span>or <span class="bold">EMS&#160;Native</span>. <br /><img src="../Images/Kiosk_IG_InstallUpgrade1.PNG" style="width: 539px;height: 330px;" /><br /></li>
-        </ol>
-        <ul class="unorder-list">
-            <li>If selecting LDAP, ensure LDAP&#160;is configured per <a href="../../../OptionalFeatures/IntegratedAuthentication/V44.1/LDAPAuth_MobileandWeb.html">EMS&#160;LDAP&#160;authentication requirements</a>.</li>
-            <li>If selecting Native authentication, configure the username and password field in the EMS&#160;Desktop Client menu bar. Click Configuration &gt;&#160;Everyday User Applications &gt;&#160;Everyday Users. </li>
-        </ul>
-        <ol start="2" class="number-list">
-            <li>Click&#160;<span class="bold">Save</span>.</li>
-        </ol>
-        <p class="box-note"><span class="bold">NOTE:</span>&#160;This setting controls the authentication method for EMS&#160;Kiosk App provisioning <b style="text-decoration: underline;">only</b>. Everyday User authentication and validation within the EMS&#160;Kiosk App is managed per profile per Security Parameter. For more information on Profile Security Parameters, see <a href="../ConfigurationGuide/ConfigKioskAppProfiles.htm#Parameters">Parameters Tab</a>. </p>
-        <ol start="2" MadCap:continue="true" class="number-list">
-            <li><a href="../../../EMSPlatformServices/ConfigurationGuide/ConfigPSinAdminPortal.html#ClearCache">Clear cache in EMS&#160;Platform Services</a> and in the EMS&#160;Web App Admin. </li>
-        </ol>
-        <p class="box-note"><span class="bold">NOTE:</span> By default, the EMS Kiosk App uses secure cookies. We strongly recommend you use this approach in your production environment. However, you may wish to test without SSL. To disable secure cookies in your test environment, add the following to appsettings.json inside the "PlatformOptions" section:</p>
-        <p>
-            <img src="../../../Resources/Images/Kiosk_IG_InstallUpgrade1/Install or Upgrade the EMS_12.png" alt="EMSKiosk_InstallingUpgrading_Cookie.PNG" class="PDFlarge">
-            </img>
-        </p>
     </body>
 </html>
