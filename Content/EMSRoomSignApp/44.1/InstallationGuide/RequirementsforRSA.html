@@ -1,6 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html MadCap:lastBlockDepth="10" MadCap:lastHeight="4709" MadCap:lastWidth="718" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\emsroomSignApp.flmsp');">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\emsroomSignApp.flmsp');">
     <head>
+        <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" />
         <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title mt-export-translate="no">Requirements for the EMS Room Sign App</title>
         <meta name="mt-type" value="application/x.deki-text" />
         <meta name="mt-unsafe" value="true" />
@@ -32,111 +34,21 @@
         <h2><a id="prerequisites" name="prerequisites"></a>Prerequisites</h2>
         <p>Before installing the EMS Room Sign App, the following prerequisites must be in place:</p>
         <ul class="unorder-list">
-            <li>All previous versions of the EMS Room Sign App web application have been&#160;uninstalled.</li>
-            <li>The EMS Room Sign App API has been installed.&#160;The EMS Room Sign App API URL is required for the EMS Room Sign App web application installation.</li>
-            <li>An EMS user account with ‘EMS API Web Service Access’ has been created. The user account is necessary&#160;to access the database.</li>
+            <li>You must have installed and configured the <a href="../../../EMSDesktopClient/V44.1/InstallationGuide/InstallationInstructions.html">EMS Desktop Client</a>.</li>
+            <li>All previous versions of the EMS Room Sign App web application must be uninstalled.</li>
+            <li>The <a href="InstallRSA.html#Install_or_Upgrade_the_EMS_Room_Sign_App_API">EMS Room Sign App API</a> has been installed.&#160;The EMS Room Sign App API URL is required for the EMS Room Sign App web application installation.</li>
+            <li>An EMS user account with ‘<a href="InstallRSA.html#Create_an_EMS_Admin_User_to_Manage">EMS API Web Service Access</a>’ enabled. The user account is necessary&#160;to access the database.</li>
         </ul>
-        <h2><a id="EMSdesktopclient" name="EMSdesktopclient"></a>EMS Desktop Client</h2>
-        <p>You must have installed and configured the EMS Desktop Client.</p>
-        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
-            <thead>
-                <tr class="TableStyle-PatternedRows-Head-Header1">
-                    <th scope="col" class="TableStyle-PatternedRows-HeadD-Regular-Header1"><strong>Operating Systems</strong>
-                    </th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td data-th="Operating Systems" class="TableStyle-PatternedRows-BodyD-Regular-LightRows">Windows 7 (32-bit and 64-bit)</td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td data-th="Operating Systems" class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">Windows 8 (32-bit and 64-bit)</td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td data-th="Operating Systems" class="TableStyle-PatternedRows-BodyD-Regular-LightRows">Windows 8.1 (32-bit and 64-bit)</td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td data-th="Operating Systems" class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">Windows 10 (32-bit and 64-bit)</td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td data-th="Operating Systems" class="TableStyle-PatternedRows-BodyA-Regular-LightRows">.NET Framework&#160;4.6.1</td>
-                </tr>
-            </tbody>
-        </table>
-        <h2><a id="databaseserver" name="databaseserver"></a>Database Server</h2>
-        <p>EMS Desktop Client must run on servers that meet our system requirements. Additionally, the EMS Room Sign App API is housed on a web server, which also has specific&#160;requirements.</p>
-        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
-            <thead>
-                <tr class="TableStyle-PatternedRows-Head-Header1">
-                    <th scope="col" class="TableStyle-PatternedRows-HeadD-Regular-Header1">Database Servers</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td data-th="Database Servers" class="TableStyle-PatternedRows-BodyD-Regular-LightRows">Microsoft SQL Server 2008 R2</td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td data-th="Database Servers" class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">Microsoft SQL Server 2012 SP2</td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td data-th="Database Servers" class="TableStyle-PatternedRows-BodyD-Regular-LightRows">Microsoft SQL Server 2012 SP3</td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td data-th="Database Servers" class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">Microsoft SQL Server 2014 SP1, Compatibility Level 110</td>
-                </tr>
-            </tbody>
-        </table>
-        <h2><a id="Webserver" name="Webserver"></a>Web Server</h2>
-        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
-            <col style="width: 422px;" />
-            <col style="width: 184px;" />
-            <thead>
-                <tr class="TableStyle-PatternedRows-Head-Header1">
-                    <th scope="col" class="TableStyle-PatternedRows-HeadE-Regular-Header1">Operating System</th>
-                    <th scope="col" class="TableStyle-PatternedRows-HeadD-Regular-Header1">IIS App Pool</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td data-th="Operating System" class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Windows Server 2008 R2</td>
-                    <td data-th="IIS App Pool" class="TableStyle-PatternedRows-BodyD-Regular-LightRows">7/7.5</td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td data-th="Operating System" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Windows Server 2012</td>
-                    <td data-th="IIS App Pool" class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">8</td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td data-th="Operating System" class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Windows Server 2012 R2</td>
-                    <td data-th="IIS App Pool" class="TableStyle-PatternedRows-BodyD-Regular-LightRows">8.5</td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td data-th="Operating System" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows"><b>Prerequisites</b>
-                    </td>
-                    <td data-th="IIS App Pool" class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">&#160;</td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td data-th="Operating System" class="TableStyle-PatternedRows-BodyE-Regular-LightRows">.NET Framework 4.6.1*</td>
-                    <td data-th="IIS App Pool" class="TableStyle-PatternedRows-BodyD-Regular-LightRows">&#160;</td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td data-th="Operating System" class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows" style="text-align: left;">
-                        <p><b>Minimum System Requirements</b>
-                        </p>
-                        <p>Processor: 2.0 GHz and 4 cores or faster</p>
-                        <p>           Memory: 8 GB or more*</p>
-                        <p>          Hard-Disk Space: 1 GB or more</p>
-                        <p>*For up to 100 concurrent users.&#160;Increased specs required for 100+ concurrent users.</p>
-                    </td>
-                    <td data-th="IIS App Pool" class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">&#160;</td>
-                </tr>
-            </tbody>
-        </table>
-        <p>*Varies per EMS Software Application.</p>
+        <h2><a id="databaseserver" name="databaseserver"></a>EMS&#160;Database Server</h2>
+        <p>The EMS Room Sign App API is housed on a web server, which has specific&#160;requirements.</p>
+        <MadCap:snippetBlock src="../../../EMS44.1SystemReq_DatabaseServer.flsnp" />
+        <h2><a id="Webserver" name="Webserver"></a>EMS&#160;Web Server</h2>
+        <p>&#160;</p>
         <h2><a id="tabletrequirements" name="tabletrequirements"></a>Tablet Requirements</h2>
         <p>The EMS Room Sign App website&#160;sits on the same web server as the API. Although the EMS Room Sign App can be accessed from any web browser, it is designed for touch-enabled tablets running in landscape mode. We support tablets with the following specifications:</p>
         <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
-            <col style="width: 289px;" />
-            <col style="width: 399px;" />
+            <col style="width: 289px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 399px;" class="TableStyle-PatternedRows-Column-Regular" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th scope="col" class="TableStyle-PatternedRows-HeadE-Regular-Header1">Tablet Operating Systems</th>
