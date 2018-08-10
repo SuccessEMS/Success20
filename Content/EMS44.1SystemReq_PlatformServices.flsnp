@@ -59,10 +59,7 @@
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows"><strong>Prerequisites</strong>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <h6>&#160;</h6>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" colspan="2"><strong>PREREQUISITES</strong>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
