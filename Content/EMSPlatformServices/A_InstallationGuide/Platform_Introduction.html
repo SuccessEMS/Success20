@@ -74,9 +74,15 @@
         <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
-                    <th scope="col" class="TableStyle-PatternedRows-HeadE-Regular-Header1">Response Code</th>
-                    <th scope="col" class="TableStyle-PatternedRows-HeadE-Regular-Header1">Title</th>
-                    <th scope="col" class="TableStyle-PatternedRows-HeadD-Regular-Header1">Meaning</th>
+                    <th scope="col" class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p scope="col">Response Code</p>
+                    </th>
+                    <th scope="col" class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p scope="col">Title</p>
+                    </th>
+                    <th scope="col" class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                        <p scope="col">Meaning</p>
+                    </th>
                 </tr>
             </thead>
             <tbody>
@@ -88,7 +94,7 @@
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td data-th="Response Code" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">400</td>
                     <td data-th="Title" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Bad Request</td>
-                    <td data-th="Meaning" class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">&#160;</td>
+                    <td data-th="Meaning" class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">Server could not understand the request due to invalid syntax</td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td data-th="Response Code" class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
@@ -100,7 +106,7 @@
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td data-th="Response Code" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">500</td>
                     <td data-th="Title" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Server Error</td>
-                    <td data-th="Meaning" class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">&#160;</td>
+                    <td data-th="Meaning" class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">General status code that indicates the server encountered an unexpected condition and could not fulfill the request</td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td data-th="Response Code" class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
@@ -119,35 +125,39 @@
             </tbody>
         </table>
         <h3>HTTP Request Methods</h3>
-        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../Resources/TableStyles/PatternedRows.css');margin-left: 0;margin-right: auto;" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
-                    <th scope="col" class="TableStyle-PatternedRows-HeadE-Regular-Header1">Method</th>
+                    <th scope="col" class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p scope="col">Method</p>
+                    </th>
                     <th scope="col" class="TableStyle-PatternedRows-HeadD-Regular-Header1">
-                        <MadCap:annotation MadCap:createDate="2018-08-07T15:00:03.8657824-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Per Joe, locate definitions on the internet. This is general info" MadCap:editor="Megan.Laub" MadCap:editDate="2018-08-07T15:00:18.7672699-06:00">Description</MadCap:annotation>
+                        <p scope="col">Description</p>
                     </th>
                 </tr>
             </thead>
             <tbody>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td data-th="Method" class="TableStyle-PatternedRows-BodyE-Regular-LightRows">GET</td>
-                    <td data-th="Description" class="TableStyle-PatternedRows-BodyD-Regular-LightRows">&#160;</td>
+                    <td data-th="Description" class="TableStyle-PatternedRows-BodyD-Regular-LightRows">Requests data from a specified source.</td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td data-th="Method" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">POST</td>
-                    <td data-th="Description" class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">&#160;</td>
+                    <td data-th="Description" class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">Sends data to the API&#160;server to create or update a resource; data sent to the server is stored in the request body of the HTTP&#160;request.</td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td data-th="Method" class="TableStyle-PatternedRows-BodyE-Regular-LightRows">PUT</td>
-                    <td data-th="Description" class="TableStyle-PatternedRows-BodyD-Regular-LightRows">&#160;</td>
+                    <td data-th="Description" class="TableStyle-PatternedRows-BodyD-Regular-LightRows">Sends data to the API&#160;server to create or update a resource (similar to POST). However, PUT&#160;requests are idempotent and calling the same PUT&#160;request multiple times will always produce the same result. Calling a POST request repeatedly may have the side effect of creating the same resource multiple times.</td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td data-th="Method" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">DELETE</td>
-                    <td data-th="Description" class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">&#160;</td>
+                    <td data-th="Description" class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">Deletes the specified resource.</td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td data-th="Method" class="TableStyle-PatternedRows-BodyB-Regular-LightRows">PATCH</td>
-                    <td data-th="Description" class="TableStyle-PatternedRows-BodyA-Regular-LightRows">&#160;</td>
+                    <td data-th="Description" class="TableStyle-PatternedRows-BodyA-Regular-LightRows">Applies partial modifications to a resource.</td>
                 </tr>
             </tbody>
         </table>
