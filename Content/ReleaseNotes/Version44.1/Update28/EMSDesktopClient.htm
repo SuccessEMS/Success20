@@ -68,12 +68,12 @@
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: left;">
-                        <p class="RNArea">Confirmations</p>
+                        <p class="RNArea">Create Reservation and Confirmations</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
                         <p class="RNTitle">Error messages and incorrect date when Region Format set to Spanish (Mexico)</p>
-                        <p class="RNBody">When the Region Format on a user's computer was set to <span class="bold">Spanish (Mexico)</span>, the user would receive error messages when the user tried to generate confirmations.</p>
-                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that booking details can be edited when booking is locked but 'lock booking details' parameter is set to no.</p>
+                        <p class="RNBody">When a computer's Region Format was set to <span class="bold">Spanish (Mexico)</span>, users would receive the error message <span class="italics">"... is not a valid time"</span> when they tried to select times for reservations. Additionally, when users generated  confirmations, the booking dates were incorrect because the confirmations would list the dates in the mm/dd/yyyy format instead of the dd/mm/yyyy format. </p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that when a computer's Region Format is set to <span class="bold">Spanish (Mexico)</span>, users can successfully select times for reservations, and users can generate confirmations with the correct booking dates showing (using dd/mm/yyyy format).</p>
                         <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=39351&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">39351</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
@@ -82,9 +82,9 @@
                         <p class="RNArea">Edit Reservation</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNTitle">Cannot edit booking details even if "lock booking details if booking is locked" is set to "no"</p>
-                        <p class="RNBody">XXThe booking details are locked even though the parameter is set to no.</p>
-                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that booking details can be edited when booking is locked but 'lock booking details' parameter is set to no.</p>
+                        <p class="RNTitle">Unable to Edit Booking Details When <span class="italics">Lock Booking Details If Booking Is Locked</span> Was Set to No</p>
+                        <p class="RNBody">Even though the parameter <span class="italics">Lock Booking Details If Booking Is Locked</span> was set to <span class="bold">No</span>, users were unable edit the booking details of locked bookings.</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that when the parameter <span class="italics">Lock Booking Details If Booking Is Locked</span> is set to <span class="bold">No</span>, users can edit the booking details of locked bookings. </p>
                         <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=39516&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">39516</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
