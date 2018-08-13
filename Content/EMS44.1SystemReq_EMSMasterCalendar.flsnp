@@ -74,8 +74,8 @@
                         <p>Processor: 2.0 GHz and 4 cores or faster</p>
                         <p>Memory: 8 GB or more</p>
                         <p>Hard-Disk Space: 100 MB</p>
-                        <p>Software: Application Pool Running, .NET 2.0 Framework, .NET 3.5 Framework Installed</p>
-                        <p>Network Card: 100 / 1000 Mbps ethernet, switched</p>
+                        <p>Software: Application Pool .Net CLR Version 4.0, .NET Framework 4.6.1 Installed</p>
+                        <p>Network Card: 100 / 1000 Mbps Ethernet, switched</p>
                     </td>
                 </tr>
             </tbody>
