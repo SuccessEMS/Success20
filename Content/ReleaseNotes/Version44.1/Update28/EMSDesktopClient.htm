@@ -45,37 +45,49 @@
             </thead>
             <tbody>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: left;">
-                        <p class="RNArea">Notifications</p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="RNArea">Confirmation Settings</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
-                        <p class="RNTitle">Email Notifications Were Not Being Sent</p>
-                        <p class="RNBody">When reservations were created with bookings that met the conditions of the Group Notification rule, group email notifications were not being sent.</p>
-                        <p class="RNBodyBeforeList"><span class="bold">Fix:</span>&#160;Modified functionality so that Everyday Users receive the group notification. </p>
-                        <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=33666&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">33666</a><br />(For EMS&#160;Internal Use Only)</p>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="RNTitle">Confirmations Displaying %% Symbols in Place of Date/Time/Location</p>
+                        <p class="RNBody">Below Bookings/Details: Instead of booking date - string %BookingDate%</p>
+                        <p class="RNBody">Instead of time - sting %TimeEventStart% - %TimeEventEnd%</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Under Bookings/Details: Under Bookings/Details:</p>
+                        <p class="RNBody">Numbers with correct Date/Time.</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=36803&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">36803</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="text-align: left;">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Confirmation Settings</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="RNTitle">Desktop client confirmation issues</p>
+                        <p class="RNBody">XX</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;XX</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=38780&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">38780</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: left;">
                         <p class="RNArea">Confirmation Settings</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNTitle">
-                            <MadCap:annotation MadCap:createDate="2018-07-03T09:28:57.5154836-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="This item is on hold and may or may not be in this release. Move to the next release if this item doesn't appear in the the current release's query." MadCap:editor="Megan.Laub" MadCap:editDate="2018-07-03T09:28:58.3110307-06:00">Date Format Error When Specifying Confirmation Settings</MadCap:annotation>
-                        </p>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
+                        <p class="RNTitle">Date Format Error When Specifying Confirmation Settings</p>
                         <p class="RNBody">When specifying confirmation settings, if users entered the date in the format dd/mm/yyyy instead of mm/dd/yyyy, they would receive the error message <span class="italics">“Argument ‘Expression’ is not a valid value.”</span> Also, this issue sometimes prevented users from sending confirmations.</p>
                         <p class="RNBody"><b>Fix:</b> Modified functionality so that when specifying confirmation settings, the date format dd/mm/yyyy is valid, and users can enter the date in this format without receiving an error message.</p>
                         <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=38836&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">38836</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows" style="text-align: left;">&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" style="text-align: left;">
-                        <p class="RNTitle">Group Notifications Prevented for All Buildings on Rule When One Building Had a Special&#160;Date Configured</p>
-                        <p class="RNBody">For a group notification rule configured with two or more buildings, the special dates on any of the configured buildings were preventing notifications from going out for the non-special date buildings on the notification that day. </p>
-                        <p class="RNBody">For example, both Building&#160;A and Building&#160;B share a group notification rule. Building A has July&#160;4 configured as a special date, but Building&#160;B does not, and Building&#160;B has bookings on July&#160;4. Even though Building&#160;B's bookings should trigger a group notification, the notification is not sent because of the special date configured for Building&#160;A.</p>
-                        <p class="RNBody"><span class="bold">Fix:&#160;</span>Modified functionality so that only buildings with special dates are prevented from triggering group notifications.</p>
-                        <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=27922&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">27922</a><br />(For EMS&#160;Internal Use Only)</p>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows" style="text-align: left;">
+                        <p class="RNArea">Edit Reservation</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows" style="text-align: left;">
+                        <p class="RNTitle">Cannot edit booking details even if "lock booking details if booking is locked" is set to "no"</p>
+                        <p class="RNBody">XXThe booking details are locked even though the parameter is set to no.</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that booking details can be edited when booking is locked but 'lock booking details' parameter is set to no.</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=39516&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">39516</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
             </tbody>
