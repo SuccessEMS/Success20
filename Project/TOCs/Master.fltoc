@@ -2551,6 +2551,9 @@
       <TocEntry
         Title="Skype for Business in the EMS Web App"
         Link="/Content/WebApp/A_V44.1/C_UserGuide/WebApp_SkypeforBusiness.html" />
+      <TocEntry
+        Title="PDF"
+        Link="/Content/WebApp/A_V44.1/C_UserGuide/WebApp_UG_PDF.pdf" />
     </TocEntry>
     <TocEntry
       Title="EMS Mobile App"
@@ -2811,9 +2814,6 @@
         Title="Configuration of G Suite Integration"
         Link="/Content/GoogleSuiteIntegration/Config.htm" />
     </TocEntry>
-    <TocEntry
-      Title="PDF"
-      Link="/Content/WebApp/A_V44.1/C_UserGuide/WebApp_UG_PDF.pdf" />
   </TocEntry>
   <TocEntry
     Title="Older Releases"

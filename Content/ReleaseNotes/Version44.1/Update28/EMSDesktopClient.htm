@@ -45,20 +45,17 @@
             </thead>
             <tbody>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" rowspan="2">
                         <p class="RNArea">Confirmations</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
                         <p class="RNTitle">Confirmations Incorrectly Displayed the Booking Date and Start and End Times</p>
                         <p class="RNBody">For some EMS Desktop Client users, when they generated confirmations, the booking date and the start and end times were displayed incorrectly in the Bookings/Details section. The booking date displayed as <span class="italics">%BookingDate%</span> and the start and end time as <span class="italics">%TimeEventStart% - %TimeEventEnd%</span>.</p>
-                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that confirmations display the actual booking date and start and end times for a reservation.</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that confirmations display the actual booking date and the start and end times for a reservation.</p>
                         <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=36803&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">36803</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNArea">Confirmations</p>
-                    </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
                         <p class="RNTitle">Date Format Error When Specifying Confirmation Settings</p>
                         <p class="RNBody">When specifying confirmation settings, if users entered the date in the format dd/mm/yyyy instead of mm/dd/yyyy, they would receive the error message <span class="italics">“Argument ‘Expression’ is not a valid value.”</span> Also, this issue sometimes prevented users from sending confirmations.</p>
@@ -73,7 +70,7 @@
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
                         <p class="RNTitle">Error Messages and Incorrect Date When Region Format Was Set to Spanish&#160;(Mexico)</p>
                         <p class="RNBody">When a computer's Region Format was set to <span class="bold">Spanish (Mexico)</span>, users would receive the error message <span class="italics">"... is not a valid time"</span> when they tried to select times for reservations. Additionally, when users generated  confirmations, the booking dates were incorrect because the confirmations would list the dates in the mm/dd/yyyy format instead of the dd/mm/yyyy format. </p>
-                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that when a computer's Region Format is set to <span class="bold">Spanish (Mexico)</span>, users can successfully select times for reservations, and users can generate confirmations with the correct booking dates showing (using dd/mm/yyyy format).</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that when a computer's Region Format is set to <span class="bold">Spanish (Mexico)</span>, users can successfully select times for reservations, and users can generate confirmations with the correct booking dates listed (using dd/mm/yyyy format).</p>
                         <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=39351&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">39351</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>

@@ -50,7 +50,7 @@
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
                         <p class="RNTitle">EMS&#160;for Outlook Add-in Was Not Correctly Updating the Location Field</p>
-                        <p class="RNBody">The EMS&#160;for Outlook add-in was not correctly updating the <span class="bold">Location </span>field in the Outlook meeting window when room changes were made to recurring reservations. When room changes were made in the EMS&#160;for Outlook add-in, the <span class="bold">Location </span>field would display the previous (old) room name instead of just displaying the current/updated  room name.</p>
+                        <p class="RNBody">The EMS&#160;for Outlook add-in was not correctly updating the <span class="bold">Location </span>field in the Outlook meeting window when room changes were made to recurring reservations. When room changes were made in the EMS&#160;for Outlook add-in, the <span class="bold">Location </span>field would display the previous (old) room name instead of just displaying the updated  room name.</p>
                         <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that the EMS&#160;for Outlook add-in updates the <span class="bold">Location </span>field with the appropriate room name(s) . </p>
                         <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=35903&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">35903</a> and <a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=36738&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">36738</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
@@ -60,9 +60,9 @@
                         <p class="RNArea">Resolve Conflicts</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p class="RNTitle">Resolve Conflict Window Did Not Display in Microsoft Outlook 2013</p>
-                        <p class="RNBody">For Microsoft Outlook 2013 users <MadCap:annotation MadCap:createDate="2018-08-13T18:38:34.6057784-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Is being a delegate requirement?" MadCap:editor="Megan.Laub" MadCap:editDate="2018-08-13T18:38:54.1042726-06:00">who were acting as delegates</MadCap:annotation>, the Resolve Conflict window did not display when conflicts occurred.</p>
-                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that the Resolve Conflict window displays when conflicts occur.</p>
+                        <p class="RNTitle">Resolve Conflict Window Did Not Appear in Microsoft Outlook 2013</p>
+                        <p class="RNBody">For Microsoft Outlook 2013 users <MadCap:annotation MadCap:createDate="2018-08-13T18:38:34.6057784-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Is being a delegate requirement?" MadCap:editor="Megan.Laub" MadCap:editDate="2018-08-13T18:38:54.1042726-06:00">who were acting as delegates</MadCap:annotation>, the Resolve Conflict window did not appear when conflicts occurred.</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that the Resolve Conflict window appears when conflicts occur.</p>
                         <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=39013&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">39013</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
@@ -73,7 +73,7 @@
                         </p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p class="RNTitle">Users Received Error Message That They Were Not Configured As Their Own Delegate</p>
+                        <p class="RNTitle">Users Received an Error Message That They Were Not Configured As Their Own Delegate</p>
                         <p class="RNBody">When trying to access the EMS&#160;for Outlook add-in, some  users were receiving an error message stating that they were not configured as their own delegate. These users could not open and use the Outlook add-in. </p>
                         <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that users no longer receive an error message and are able to use the EMS&#160;for Outlook add-in.</p>
                         <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=39902&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">39902</a><br />(For EMS&#160;Internal Use Only)</p>
@@ -92,7 +92,7 @@
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" rowspan="3">
                         <p class="RNArea">Create Reservations</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
@@ -103,24 +103,18 @@
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p class="RNArea">Create Reservations</p>
-                    </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
                         <p class="RNTitle">Error Initializing the EMS for Outlook Add-in</p>
                         <p class="RNBody">Some users were unable to make reservations because there was an error initializing the EMS&#160;for Outlook add-in when everyday user names and/or group names contained extra commas.</p>
-                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that everyday user and group name formats that contain apostrophes or commas are valid, and users are able to make reservations in the Outlook add-in with these everyday user and group names. </p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that everyday user and group name formats that contain apostrophes or commas are valid, and users are able to make reservations in the Outlook add-in with these everyday user names and group names. </p>
                         <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=40011&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">40011</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
-                        <p class="RNArea">Create Reservation</p>
-                    </td>
                     <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
                         <p class="RNTitle">Location Field and Exchange Room Integration (ERI)&#160;Email Were Not Updating Correctly When Changes Were Made to a Reservation Before Saving</p>
-                        <p class="RNBody">The <span class="bold">Location </span>field and the email address for the Exchange Room Integration (ERI) were not updating correctly when room changes were made prior to saving a reservation. In the Microsoft Outlook meeting window, the room name for the original room would remain in the Location field, and the ERI email address would disappear from the <span class="bold">To</span> field. </p>
-                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that the Location field and ERI email address update correctly when changes are made to a reservation prior to saving.</p>
+                        <p class="RNBody">The <span class="bold">Location </span>field and the email address for an Exchange Room Integration (ERI) were not updating correctly when room changes were made prior to saving a reservation. In the Microsoft Outlook meeting window, the room name for the original room would remain in the Location field, and the ERI email address would disappear from the <span class="bold">To</span> field. </p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that the <span class="bold">Location </span>field and ERI email address update correctly when changes are made to a reservation prior to saving.</p>
                         <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=40045&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">40045</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
