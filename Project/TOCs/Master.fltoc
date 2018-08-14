@@ -1445,6 +1445,9 @@
           Title="Configure EMS Web App to Use LDAP Authentication"
           Link="/Content/WebApp/A_V44.1/B_ConfigurationGuide/ConfigureLDAPMobileandWeb.html" />
       </TocEntry>
+      <TocEntry
+        Title="PDF"
+        Link="/Content/WebApp/A_V44.1/B_ConfigurationGuide/WebApp_Config_PDF.pdf" />
     </TocEntry>
     <TocEntry
       Title="EMS Mobile App"
@@ -2808,6 +2811,9 @@
         Title="Configuration of G Suite Integration"
         Link="/Content/GoogleSuiteIntegration/Config.htm" />
     </TocEntry>
+    <TocEntry
+      Title="PDF"
+      Link="/Content/WebApp/A_V44.1/C_UserGuide/WebApp_UG_PDF.pdf" />
   </TocEntry>
   <TocEntry
     Title="Older Releases"
