@@ -2,6 +2,9 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="Authentication Options for EMS Kiosk App"
-    Link="/Content/EMSKioskApp/V44.1/ConfigurationGuide/AuthenOptions.html" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    Title="EMS Web App Release Notes U28"
+    Link="/Content/ReleaseNotes/Version44.1/Update28/EMSWebApp.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
+  <TocEntry
+    Title="EMS Master Calendar Release Notes U28"
+    Link="/Content/ReleaseNotes/Version44.1/Update28/EMSMasterCalendar.htm" />
 </CatapultToc>
