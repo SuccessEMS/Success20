@@ -10,6 +10,9 @@
         Title="Introduction to EMS Platform Services"
         Link="/Content/EMSPlatformServices/InstallationGuide/Introduction.html" />
       <TocEntry
+        Title="Prerequisites and Requirements"
+        Link="/Content/EMSPlatformServices/InstallationGuide/SystemRequirements.htm"></TocEntry>
+      <TocEntry
         Title="Install EMS Platform Services"
         Link="/Content/EMSPlatformServices/InstallationGuide/InstallPS.html" />
       <TocEntry
