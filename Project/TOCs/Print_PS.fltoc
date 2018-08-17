@@ -32,8 +32,20 @@
       AutoEndOnLeftPage="disabled"
       PageType="firstright" />
     <TocEntry
-      Title="Install EMS Platform Services"
-      Link="/Content/EMSPlatformServices/InstallationGuide/InstallPS.html"
+      Title="Prerequisites and Requirements"
+      Link="/Content/EMSPlatformServices/InstallationGuide/SystemRequirements.htm"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue"
+      AutoEndOnLeftPage="disabled"
+      PageType="continue"></TocEntry>
+    <TocEntry
+      Title="License Requirements for Platform Services"
+      Link="/Content/EMSPlatformServices/InstallationGuide/LicenseRequirements.html"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
@@ -44,8 +56,8 @@
       AutoEndOnLeftPage="disabled"
       PageType="continue" />
     <TocEntry
-      Title="License Requirements for Platform Services"
-      Link="/Content/EMSPlatformServices/InstallationGuide/LicenseRequirements.html"
+      Title="Install EMS Platform Services"
+      Link="/Content/EMSPlatformServices/InstallationGuide/InstallPS.html"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"

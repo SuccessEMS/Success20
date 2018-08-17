@@ -426,7 +426,7 @@
         Title="Introduction to EMS Platform Services"
         Link="/Content/EMSPlatformServices/InstallationGuide/Introduction.html" />
       <TocEntry
-        Title="Prerequisites and Requirements for EMS Platform Services"
+        Title="Prerequisites and Requirements"
         Link="/Content/EMSPlatformServices/InstallationGuide/SystemRequirements.htm" />
       <TocEntry
         Title="License Requirements for EMS Platform Services"

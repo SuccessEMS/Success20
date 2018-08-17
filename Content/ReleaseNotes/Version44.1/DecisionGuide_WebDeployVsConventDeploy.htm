@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="2020" MadCap:lastWidth="912">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
         <link href="../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" />
         <link href="../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
@@ -14,14 +14,14 @@
             <li>​<a href="#ConventionalDeployment">Conventional Deployment</a></li>
         </ol>
         <h3><a name="EMSDesktopWebDeployment"></a>EMS Desktop Web Deployment</h3>
-        <div class="note-box note">
-            <p><span class="bold">Note</span>: EMS Desktop Web Deployment (V44+ and V44.1) is an alternative method for installing EMS Desktop Client locally on individual user machines. This solution is not a replacement for the EMS Web Client (discontinued after V43), but rather, it is an alternative to using Microsoft<sup>®</sup> methods of deployment, such as SCCM. Administrators can use it to host EMS Desktop Client on a web server, with the ability to push the URL to any EMS Administrators so they can download EMS Desktop Client without needing Administrative Privileges on their local machine.</p>
+        <div class="box-note">
+            <p><span class="boldAllCaps">Note:</span> EMS Desktop Web Deployment (V44+ and V44.1) is an alternative method for installing EMS Desktop Client locally on individual user machines. This solution is not a replacement for the EMS Web Client (discontinued after V43), but rather, it is an alternative to using Microsoft<sup>®</sup> methods of deployment, such as SCCM. Administrators can use it to host EMS Desktop Client on a web server, with the ability to push the URL to any EMS Administrators so they can download EMS Desktop Client without needing Administrative Privileges on their local machine.</p>
         </div>
         <p>The web deploy application is installed on your web server. The EMS Desktop Application is included within this installation. Once installed, end users point their web browsers to the EMS Web Deployment Application, which points them with a link to download the EMS Desktop Client. (See also: Types of EMS Users). Once a user downloads and runs that link, the EMS Desktop Client is installed in the user's profile on that workstation. Once installed, the EMS Desktop Client will check the server for an updated version of the client each time the client is launched. If a new version is available, then it will automatically download and install the update.</p>
         <h3><a name="ConventionalDeployment"></a>​Conventional Deployment</h3>
         <p>Conventional Deployment works like previous releases of EMS. The downloadable installer is in the form of a MSI file. Once the software is installed on the Admin Users workstation, it connects directly to the database. optionally it can be configured to connect to the Desktop Client API included in the Web Deployment option.</p>
-        <div class="note-box note">
-            <p><span class="bold">Note</span>: The Web Deployment method also adds an application layer (in the form of a web service), to the architecture of the application. Instead of the Desktop Client connecting directly to the Database server as it has in the past. All connections are routed through the Desktop Client API (Included with Web Deploy). this can add additional benefit for Security Considerations, or multi-region deployments.</p>
+        <div class="box-note">
+            <p><span class="boldAllCaps">Note:</span> The Web Deployment method also adds an application layer (in the form of a web service), to the architecture of the application. Instead of the Desktop Client connecting directly to the Database server as it has in the past. All connections are routed through the Desktop Client API (Included with Web Deploy). this can add additional benefit for Security Considerations, or multi-region deployments.</p>
         </div>
         <h2>Features of Each Deployment Method</h2>
         <p>The table below outlines the features available between the two deployment methods.</p>
@@ -118,8 +118,8 @@ Yes</td>
                 </tr>
             </tbody>
         </table>
-        <div class="note-box note">
-            <p><span class="bold">Note</span>:&#160;To enable SSL, you first make changes to the EMS Desktop Client .msi file. See Also: Enabling SSL.</p>
+        <div class="box-note">
+            <p><span class="boldAllCaps">Note:</span>&#160;To enable SSL, you first make changes to the EMS Desktop Client .msi file. See Also: Enabling SSL.</p>
         </div>
     </body>
 </html>
