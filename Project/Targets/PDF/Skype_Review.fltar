@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CatapultTarget
   Version="2"
-  Comment="EMS Platform Services Installation &amp; Configuration Guide"
+  Comment="Skype for Business Integration"
   Type="MsWord"
   Destinations=""
   GlossaryTermConversion="marked"
-  MasterToc="/Project/TOCs/Print_PS.fltoc"
+  MasterToc="/Project/TOCs/Print_Skype.fltoc"
   ConditionTagExpression="include[General.Edit_in_Review or &quot;General.Print Only&quot;] exclude[&quot;General.Online Only&quot;] "
   PatchHeadingLevels="false"
   InjectEmptyPages="false"
