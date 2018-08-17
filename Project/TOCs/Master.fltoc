@@ -2848,6 +2848,9 @@
     Title="FAQs"
     Link="/Content/LearnAboutOurApplications/LearnAboutOurApplications.htm">
     <TocEntry
+      Title="General Data Protection Regulation (GDPR)"
+      Link="/Content/GeneralDataProtectionRegulation.htm" />
+    <TocEntry
       Title="Managing EMS"
       Link="/Content/LearnAboutOurApplications/Managing EMS.htm">
       <TocEntry
