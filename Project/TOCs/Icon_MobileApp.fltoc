@@ -131,7 +131,7 @@
       </TocEntry>
       <TocEntry
         Title="PDF"
-        Link="/Content/EMSMobileApp/B_ConfigurationGuide/EMSMobileApp_ConfigurationGuide.pdf" />
+        Link="/Content/EMSMobileApp/B_ConfigurationGuide/Mobile_Config_PDF.pdf" />
     </TocEntry>
     <TocEntry
       Title="User Guide"
@@ -192,7 +192,7 @@
         Link="/Content/EMSMobileApp/UserGuide/UseSkypeforBusiness.html" />
       <TocEntry
         Title="PDF"
-        Link="/Content/WebApp/A_V44.1/C_UserGuide/WebApp_UG_PDF.pdf" />
+        Link="/Content/EMSMobileApp/UserGuide/Mobile_UG_PDF.pdf" />
     </TocEntry>
     <TocEntry
       Title="Video Tutorials"
