@@ -2,8 +2,8 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="EMS Platform Services"
-    Link="/Content/Print/PS_FrontPage.htm"
+    Title="Skype for Business Integration"
+    Link="/Content/Print/Skype_FrontPage.htm"
     BreakType="chapter"
     StartSection="false"
     PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Title8_5X11.flpgl"
@@ -18,7 +18,7 @@
     PageNumberReset="continue"
     PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/TOC8_5X11.flpgl">
     <TocEntry
-      Title="Introduction to EMS Skype for Business Integration "
+      Title="Introduction to Skype for Business Integration "
       Link="/Content/Skype/C_UserGuide/SkypeforBusiness_UserGuide_Introduction.html"
       BreakType="chapter"
       PageNumberReset="reset"
