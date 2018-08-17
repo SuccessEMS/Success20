@@ -235,7 +235,7 @@
             </tbody>
         </table>
         <p>*= varies per application.</p>
-        <div class="note-box tip">
+        <div class="box-tip">
             <p><span class="boldAllCaps">Tip: </span><MadCap:variable name="General.EMS&#160;Web App" /> V44.1 has been optimized for Internet Explorer 11 and does not require compatibility with previous versions of Internet Explorer.&#160; EMS recommends <em>disabling compatibility mode </em>when&#160;using <MadCap:variable name="General.EMS&#160;Web App" /> V44.1.</p>
         </div>
         <h2>EMS Web App (Mobile)</h2>
