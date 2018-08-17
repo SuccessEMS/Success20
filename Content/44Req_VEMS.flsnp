@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="519" MadCap:lastWidth="1478">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>&#160;</head>
     <body>
         <h2>Virtual EMS&#160;(VEMS)</h2>
@@ -32,7 +32,7 @@
                         <p class="Strong_1">Minimum System Requirements</p>
                     </td>
                     <td>
-                        <p class="HTMLAddress" style="text-align: left;">Processor: 2.0 GHz or faster*<br />Memory: 2 GB or more*<br />Video: SVGA 1024 x 768  or higher resolution<br />Network Card: 10 / 100 / 1000 Mbps ethernet (or other Internet connectivity)</p>
+                        <p class="HTMLAddress" style="text-align: left;">Processor: 2.0 GHz or faster*<br />Memory: 2 GB or more*<br />Video: SVGA 1024 x 768  or higher resolution<br />Network Card: 10 / 100 / 1000 Mbps Ethernet (or other Internet connectivity)</p>
                     </td>
                 </tr>
             </tbody>

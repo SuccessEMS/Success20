@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="1237" MadCap:lastWidth="1478">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>&#160;</head>
     <body>
         <h2 class="Heading2_1">EMS&#160;Master Calendar </h2>
@@ -23,7 +23,7 @@
                         <p class="Strong_1">Minimum&#160;System Requirements</p>
                     </td>
                     <td>
-                        <p class="HTMLAddress" style="text-align: left;">Processor: 2.0 GHz and 4 cores or faster<br />Memory: 8 GB or more<br />Hard-Disk Space: 2 separate physical drives of at least 6 GB; one for data, and the other for transaction logs (SCSI drives w/9ms access or better and RAID strategy for fault tolerance recommended)<br />Software: Microsoft SQL Server 2014, Microsoft SQL Server 2012, Microsoft SQL Server 2008 R2, Microsoft SQL Server 2005 SP3<br />Network Card: 100 / 1000 Mbps ethernet, switched</p>
+                        <p class="HTMLAddress" style="text-align: left;">Processor: 2.0 GHz and 4 cores or faster<br />Memory: 8 GB or more<br />Hard-Disk Space: 2 separate physical drives of at least 6 GB; one for data, and the other for transaction logs (SCSI drives w/9ms access or better and RAID strategy for fault tolerance recommended)<br />Software: Microsoft SQL Server 2014, Microsoft SQL Server 2012, Microsoft SQL Server 2008 R2, Microsoft SQL Server 2005 SP3<br />Network Card: 100 / 1000 Mbps Ethernet, switched</p>
                     </td>
                 </tr>
             </tbody>
@@ -48,7 +48,7 @@
                         <p class="Strong_1">Minimum&#160;System Requirements</p>
                     </td>
                     <td>
-                        <p class="HTMLAddress" style="text-align: left;">Processor: 2.0 GHz and 4 cores or faster<br />Memory: 8 GB or more<br />Hard-Disk Space: 100 MB<br />Software: Application Pool Running, .NET 2.0 Framework, .NET 3.5 Framework Installed<br />Network Card: 100 / 1000 Mbps ethernet, switched</p>
+                        <p class="HTMLAddress" style="text-align: left;">Processor: 2.0 GHz and 4 cores or faster<br />Memory: 8 GB or more<br />Hard-Disk Space: 100 MB<br />Software: Application Pool Running, .NET 2.0 Framework, .NET 3.5 Framework Installed<br />Network Card: 100 / 1000 Mbps Ethernet, switched</p>
                     </td>
                 </tr>
             </tbody>
@@ -80,7 +80,7 @@
                         <p class="NormalWeb_2">4.6.1</p>
                     </td>
                     <td>
-                        <p class="NormalWeb_2">10 mb.</p>
+                        <p class="NormalWeb_2">10 MB</p>
                     </td>
                 </tr>
                 <tr>
@@ -91,7 +91,7 @@
                         <p class="NormalWeb_2">4.6.1</p>
                     </td>
                     <td>
-                        <p class="NormalWeb_2">10 mb.</p>
+                        <p class="NormalWeb_2">10 MB</p>
                     </td>
                 </tr>
                 <tr>
@@ -102,7 +102,7 @@
                         <p class="NormalWeb_2">4.6.1</p>
                     </td>
                     <td>
-                        <p class="NormalWeb_2">10 mb.</p>
+                        <p class="NormalWeb_2">10 MB</p>
                     </td>
                 </tr>
             </tbody>
@@ -134,7 +134,7 @@
                         <p class="NormalWeb_2">2.0</p>
                     </td>
                     <td>
-                        <p class="NormalWeb_2">10 mb.</p>
+                        <p class="NormalWeb_2">10 MB</p>
                     </td>
                 </tr>
                 <tr>
@@ -145,7 +145,7 @@
                         <p class="NormalWeb_2">2.0</p>
                     </td>
                     <td>
-                        <p class="NormalWeb_2">10 mb.</p>
+                        <p class="NormalWeb_2">10 MB</p>
                     </td>
                 </tr>
                 <tr>
@@ -156,7 +156,7 @@
                         <p class="NormalWeb_2">2.0</p>
                     </td>
                     <td>
-                        <p class="NormalWeb_2">10 mb.</p>
+                        <p class="NormalWeb_2">10 MB</p>
                     </td>
                 </tr>
             </tbody>

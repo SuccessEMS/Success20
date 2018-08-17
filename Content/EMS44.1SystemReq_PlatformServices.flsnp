@@ -84,7 +84,7 @@
                         <p>ASP.NET Version 4.6</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
-                        <p class="beforelist">Under Web Server (IIS)-&gt;Web Server-&gt;Application Development:</p>
+                        <p class="beforelist">Under Web Server (IIS) &gt; Web Server &gt; Application Development:</p>
                         <ul class="unorder-list">
                             <li>ISAPI Extensions</li>
                             <li>ISAPI Filters</li>

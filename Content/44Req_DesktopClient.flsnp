@@ -44,7 +44,7 @@
                         <p class="Strong_1">Minimum System Requirements</p>
                     </td>
                     <td style="text-align: left;" class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
-                        <p class="HTMLAddress" style="text-align: left;">Processor: 2.0 GHz and 4 cores or faster<br />Memory: 8 GB or more*<br />Hard-Disk Space: 2 separate physical drives of at least 6 GB; one for data, and the other for transaction logs (SCSI drives w/9ms access or better and RAID strategy for fault tolerance recommended)<br />Software: Microsoft SQL Server 2014, Microsoft SQL Server 2012, Microsoft SQL Server 2008 R2<br />Network Card: 100 / 1000 Mbps ethernet, switched</p>
+                        <p class="HTMLAddress" style="text-align: left;">Processor: 2.0 GHz and 4 cores or faster<br />Memory: 8 GB or more*<br />Hard-Disk Space: 2 separate physical drives of at least 6 GB; one for data, and the other for transaction logs (SCSI drives w/9ms access or better and RAID strategy for fault tolerance recommended)<br />Software: Microsoft SQL Server 2014, Microsoft SQL Server 2012, Microsoft SQL Server 2008 R2<br />Network Card: 100 / 1000 Mbps Ethernet, switched</p>
                         <p class="HTMLAddress_1">*Specs apply for up to 100 concurrent users. Increased specs are required for 100+ concurrent users.</p>
                     </td>
                 </tr>

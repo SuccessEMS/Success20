@@ -37,7 +37,7 @@
                         <p>Memory: 8 GB or more</p>
                         <p>Hard-Disk Space: 2 separate physical drives of at least 6 GB; one for data, and the other for transaction logs (SCSI drives w/9ms access or better and RAID strategy for fault tolerance recommended)</p>
                         <p>Software: Microsoft SQL Server 2016 SP1, Microsoft SQL Server 2014, Microsoft SQL Server 2012</p>
-                        <p>Network Card: 100 / 1000 Mbps ethernet, switched</p>
+                        <p>Network Card: 100 / 1000 Mbps Ethernet, switched</p>
                     </td>
                 </tr>
             </tbody>
