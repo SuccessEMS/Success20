@@ -4,7 +4,7 @@
         <link href="../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title>Configure Integration to Microsoft Exchange V44.1</title>
     </head>
     <body>
-        <h1>
+        <h1 MadCap:autonum="CHAPTER&#160;1: ">
             <MadCap:concept term="V44.1" />Configure Integration to Microsoft Exchange</h1>
         <p class="box-note"><span class="boldAllCaps">NOTE:</span>&#160;As of 44.1, Update 24, the testing function on pamconfig.aspx will test the FindItems, GetUserAvailability, Create, Edit, and Cancel EWS calls used by the EMS integration.  Previously, only FindItems was tested.  There is not necessarily a 1:1 guide as to what would cause a failure for each specific call, however this does not mean that scenarios exist where ‘create’ would succeed but ‘cancel’ would fail for example.  The ‘GetUserAvailability’ call does not leverage ApplicationImpersonation, so if this is succeeding and the create/edit/cancel calls are failing then the issue is likely around permissions for the service account. Testing will be logged in the logfile, which has a default location of ExchangeIntegrationWebService\LogFiles and can be modified in the web.config file.</p>
         <p>Configuring EMS to work with Exchange Online (Office 365) or Exchange 2013 is the same as configuring EMS to work with a 2007/2010 Exchange environment that is hosted on your network.&#160;See&#160;<a href="ConfigureEWSImpersonation.htm">Configure EWS Impersonation for Microsoft<sup>®</sup> Exchange</a> for information on configuring impersonation on Exchange Online (Office 365).&#160;If you need additional assistance configuring this, please contact&#160;<a href="mailto:support@emssoftware.com" title="mailto:support@emssoftware.com">support@emssoftware.com</a>.</p>
@@ -15,7 +15,7 @@
         <ul class="unorder-list">
             <li><a href="#Configure_Integration_to_Exchange_Instructions">Configure Integration to Exchange Instructions</a>
                 <ul>
-                    <li><a href="ConfigMultipleMailDomain.htm#ConfigureMutlipleMailDomains">Configure Multiple Mail Domains</a>
+                    <li><a href="ConfigMultipleMailDomain.htm">Configure Multiple Mail Domains</a>
                     </li>
                 </ul>
             </li>
