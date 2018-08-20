@@ -1879,10 +1879,10 @@
       Link="/Content/ConfigGuides/11_Skype for Business Configuration Guide.htm">
       <TocEntry
         Title="Introduction to Skype for Business Integration"
-        Link="/Content/Skype/ConfigurationGuide/SkypeforBusiness_UserGuide_Introduction.html" />
+        Link="/Content/Skype/ConfigurationGuide/Introduction.html" />
       <TocEntry
         Title="Configure Skype for Business"
-        Link="/Content/Skype/ConfigurationGuide/SkypeforBusiness_UserGuide_ConfigureSkypeforBusiness.html" />
+        Link="/Content/Skype/ConfigurationGuide/ConfigureSkypeforBusiness.html" />
     </TocEntry>
     <TocEntry
       Title="G Suite Integration"
