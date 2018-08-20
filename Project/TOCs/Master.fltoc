@@ -1601,7 +1601,7 @@
     </TocEntry>
     <TocEntry
       Title="EMS Room Sign App (formerly Glance)"
-      Link="/Content/ConfigGuides/9_EMS_RoomSignApp_CG.htm">
+      Link="/Content/EMSRoomSignApp/44.1/ConfigurationGuide/Introduction.htm">
       <TocEntry
         Title="Authentication Options"
         Link="/Content/EMSRoomSignApp/44.1/ConfigurationGuide/Authentication.htm" />
