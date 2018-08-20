@@ -1,18 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html MadCap:lastBlockDepth="8" MadCap:lastHeight="8931" MadCap:lastWidth="1191" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\emsroomSignApp.flmsp');">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\emsroomSignApp.flmsp');">
     <head><title mt-export-translate="no">Installing the EMS Room Sign App</title>
         <meta name="mt-type" value="application/x.deki-text" />
         <meta name="mt-unsafe" value="true" />
     </head>
     <body>
-        <h1>
+        <h1 MadCap:autonum="CHAPTER&#160;1: ">
             <MadCap:concept term="V44.1" />Install <MadCap:variable name="General.RSA" /></h1>
         <div class="box-warning">
             <p><span class="bold">WARNING:</span>&#160;The EMS Room Sign App was <span class="bold">formerly named EMS Glance</span>. Some of the installation files (e.g., API, dll, etc.) will temporarily retain the Glance name.&#160;</p>
         </div>
         <p>This topic will provide information that will allow you to do the following:</p>
         <ul class="unorder-list">
-            <li><a href="#Install_or_Upgrade_the_Database_Component">Install or Upgrade the Database Component</a>
+            <li><a href="#Install_or_Upgrade_the_Database_Component">Install or Upgrade the EMS&#160;Database Component</a>
             </li>
             <li><a href="#Install_or_Upgrade_the_EMS_Room_Sign_App_DLL">Install or Upgrade the EMS&#160;Room Sign App DLL</a>
             </li>
@@ -30,20 +30,20 @@
             </li>
         </ul>
         <p>To install or upgrade the EMS Room Sign App, you will:</p>
-        <ul class="unorder-list">
+        <ol>
             <li>Update your database with the new <a href="#Install_or_Upgrade_the_Database_Component">EMS Room Sign App .sql file</a>.</li>
-            <li>Copy the <a href="#Install_or_Upgrade_the_EMS_Room_Sign_App_DLL">EMS Room Sign App .dll</a> file to each user workstation that needs EMS Room Sign App options on EMS Desktop Client.</li>
+            <li>Copy the <a href="#Install_or_Upgrade_the_EMS_Room_Sign_App_DLL">EMS Room Sign App .dll</a> file to each user workstation that needs EMS Room Sign App options in EMS Desktop Client.</li>
             <li>Install the new <a href="#Install_or_Upgrade_the_EMS_Room_Sign_App_API">EMS Room Sign App API</a> on the web server that will be running it, and <a href="#Verify_the_EMS_Room_Sign_App_API_Installation">verify the installation</a>.</li>
             <li>Install the new <a href="#Install_or_Upgrade_the_EMS_Room_Sign_Web_Application">EMS Room Sign App web application</a> on the web server that will be hosting it (and hook it to your EMS Room Sign App API, SQL server, and database).</li>
             <li><a href="#Create_an_EMS_Admin_User_to_Manage">Create an Admin User</a> to manage EMS Room Sign App.</li>
             <li><a href="#Access_EMS_Room_Sign_App_on_Your_Device(s)">Access your&#160;EMS Room Sign application</a> through the web&#160;on your device(s).</li>
-        </ul>
+        </ol>
         <h2><a name="Install_or_Upgrade_the_Database_Component"></a>Install or Upgrade the Database Component</h2>
         <ol class="number-list">
-            <li>Obtain the&#160;<span class="bold">EMSRoomSignApp.sql</span>&#160;file.</li>
+            <li><a href="ObtainInstallFiles.html">Obtain</a> the&#160;<span class="bold">EMSRoomSignApp.sql</span>&#160;file.</li>
             <li>Open&#160;Microsoft SQL Server Management Studio.</li>
             <li>Within&#160;Microsoft SQL Server Management Studio, select&#160;<span class="bold">File &gt; Open &gt; File…</span>&#160;and locate&#160;<span class="bold">EMSRoomSignApp.sql</span>.</li>
-            <li>Select your&#160;<span class="bold">EMS</span>&#160;database&#160;and execute the query&#160;(<span class="bold">Query </span>&gt; <span class="bold">Execute</span>).&#160;When query execution has completed, the message "Command(s) completed successfully" will appear in the Results section.</li>
+            <li>Select your&#160;<span class="bold">EMS</span>&#160;Database&#160;and execute the query&#160;(<span class="bold">Query </span>&gt; <span class="bold">Execute</span>).&#160;When query execution has completed, the message "Command(s) completed successfully" will appear in the Results section.</li>
         </ol>
         <h2><a name="Install_or_Upgrade_the_EMS_Room_Sign_App_DLL"></a>Install or Upgrade the EMS Room Sign App DLL</h2>
         <ol class="number-list">
@@ -117,7 +117,7 @@
             <img src="../Images/RSA_launchpin.png" class="PDFlarge" />
         </p>
         <h2><a name="Access_EMS_Room_Sign_App_on_Your_Device(s)"></a>Access EMS Room Sign App on Your Device(s)</h2>
-        <p>The EMS Room Sign App is ready to use once all of the Room Sign components have been properly installed and at least one Profile has been configured for use (see&#160;<a href="../ConfigurationGuide/Configuration.html">Configure the EMS Room Sign App</a>).&#160;To access the EMS Room Sign App on your device, do the following:</p>
+        <p>The EMS Room Sign App is ready to use once all of the  components have been properly installed and at least one Profile has been configured for use (see&#160;<a href="../ConfigurationGuide/Configuration.html">Configure the EMS Room Sign App</a>).&#160;To access the EMS Room Sign App on your device, do the following:</p>
         <ol class="number-list">
             <li>On your device, open a browser and enter the URL to your EMS Room Sign App web application:<p><b>Example:</b>&#160;http://[ServerName]/EMSGlance<br />(replace [ServerName] with the name of your web server)</p></li>
             <li>The first time you access the EMS Room Sign App on your device, the Settings screen will appear.<p><img src="../Images/A_Installation/RSA_InstalRSA_SettingsScreen.png" class="PDFmedium" /></p></li>
