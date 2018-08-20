@@ -30,7 +30,19 @@
       SectionNumberReset="continue"
       VolumeNumberReset="same"
       AutoEndOnLeftPage="disabled"
-      PageType="firstright" />
+      PageType="firstright"></TocEntry>
+    <TocEntry
+      Title="Architecture"
+      Link="/Content/EMSPlatformServices/InstallationGuide/Architecture.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue"
+      AutoEndOnLeftPage="disabled"
+      PageType="continue"></TocEntry>
     <TocEntry
       Title="Prerequisites and Requirements"
       Link="/Content/EMSPlatformServices/InstallationGuide/SystemRequirements.htm"
