@@ -421,7 +421,7 @@
     </TocEntry>
     <TocEntry
       Title="EMS Platform Services"
-      Link="/Content/InstallGuides/7_PlatformServices/V44.1/7_PlatformServicesHome.htm">
+      Link="/Content/EMSPlatformServices/InstallationGuide/7_PlatformServicesHome.htm">
       <TocEntry
         Title="Introduction to EMS Platform Services"
         Link="/Content/EMSPlatformServices/InstallationGuide/Introduction.html" />
