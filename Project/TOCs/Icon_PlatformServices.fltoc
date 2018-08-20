@@ -8,7 +8,10 @@
       Link="/Content/InstallGuides/7_PlatformServices/V44.1/7_PlatformServicesHome.htm">
       <TocEntry
         Title="Introduction to EMS Platform Services"
-        Link="/Content/EMSPlatformServices/InstallationGuide/Introduction.html" />
+        Link="/Content/EMSPlatformServices/InstallationGuide/Introduction.html"></TocEntry>
+      <TocEntry
+        Title="Architecture"
+        Link="/Content/EMSPlatformServices/InstallationGuide/Architecture.html"></TocEntry>
       <TocEntry
         Title="Prerequisites and Requirements"
         Link="/Content/EMSPlatformServices/InstallationGuide/SystemRequirements.htm"></TocEntry>
