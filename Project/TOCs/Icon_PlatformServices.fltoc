@@ -24,7 +24,7 @@
     </TocEntry>
     <TocEntry
       Title="Configuration Guide"
-      Link="/Content/ConfigGuides/7_EMS_PlatformServices_CG.htm">
+      Link="/Content/EMSPlatformServices/ConfigurationGuide/7_EMS_PlatformServices_CG.htm">
       <TocEntry
         Title="Authentication Methods"
         Link="/Content/Authentication/EMSAuthenticationMethods.htm" />
