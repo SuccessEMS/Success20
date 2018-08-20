@@ -344,26 +344,26 @@
       Title="EMS Room Sign App (formerly Glance)"
       Link="/Content/InstallGuides/8_RoomSignAppV44.1/8_RoomSignAppHome.htm">
       <TocEntry
-        Title="Requirements for the EMS Room Sign App"
+        Title="Prerequisites and Requirements for the EMS Room Sign App"
         Link="/Content/EMSRoomSignApp/44.1/InstallationGuide/RequirementsforRSA.html" />
-      <TocEntry
-        Title="Obtain the Installation Files for EMS Room Sign"
-        Link="/Content/EMSRoomSignApp/44.1/InstallationGuide/ObtainInstallFiles.html" />
       <TocEntry
         Title="Architecture for the EMS Room Sign App"
         Link="/Content/EMSRoomSignApp/44.1/InstallationGuide/Architecture.html" />
       <TocEntry
-        Title="Best Practices for Using EMS Room Sign App"
-        Link="/Content/EMSRoomSignApp/44.1/InstallationGuide/BestPractices.htm" />
-      <TocEntry
         Title="Authentication Settings"
         Link="/Content/EMSRoomSignApp/44.1/ConfigurationGuide/Authentication.htm" />
+      <TocEntry
+        Title="Obtain the Installation Files for EMS Room Sign App"
+        Link="/Content/EMSRoomSignApp/44.1/InstallationGuide/ObtainInstallFiles.html" />
       <TocEntry
         Title="Install EMS Room Sign App"
         Link="/Content/EMSRoomSignApp/44.1/InstallationGuide/InstallRSA.html" />
       <TocEntry
         Title="Deploy EMS Room Sign App on Appliances"
         Link="/Content/EMSRoomSignApp/44.1/InstallationGuide/DeployRSAAppliances.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Best Practices for Using EMS Room Sign App"
+        Link="/Content/EMSRoomSignApp/44.1/InstallationGuide/BestPractices.htm" />
       <TocEntry
         Title="PDF"
         Link="/Content/EMSRoomSignApp/44.1/ConfigurationGuide/RSA_Config_PDF.pdf" />
