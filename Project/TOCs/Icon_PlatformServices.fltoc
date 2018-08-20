@@ -5,7 +5,7 @@
     Title="Documentation for EMS Platform Services">
     <TocEntry
       Title="Installation Guide"
-      Link="/Content/InstallGuides/7_PlatformServices/V44.1/7_PlatformServicesHome.htm">
+      Link="/Content/EMSPlatformServices/InstallationGuide/IG_Overview.htm">
       <TocEntry
         Title="Introduction to EMS Platform Services"
         Link="/Content/EMSPlatformServices/InstallationGuide/Introduction.html"></TocEntry>
@@ -24,7 +24,7 @@
     </TocEntry>
     <TocEntry
       Title="Configuration Guide"
-      Link="/Content/ConfigGuides/7_EMS_PlatformServices_CG.htm">
+      Link="/Content/EMSPlatformServices/ConfigurationGuide/CG_Overview.htm">
       <TocEntry
         Title="Authentication Methods"
         Link="/Content/Authentication/EMSAuthenticationMethods.htm" />

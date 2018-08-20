@@ -421,7 +421,7 @@
     </TocEntry>
     <TocEntry
       Title="EMS Platform Services"
-      Link="/Content/InstallGuides/7_PlatformServices/V44.1/7_PlatformServicesHome.htm">
+      Link="/Content/EMSPlatformServices/InstallationGuide/IG_Overview.htm">
       <TocEntry
         Title="Introduction to EMS Platform Services"
         Link="/Content/EMSPlatformServices/InstallationGuide/Introduction.html" />
@@ -1859,7 +1859,7 @@
     </TocEntry>
     <TocEntry
       Title="EMS Platform Services"
-      Link="/Content/ConfigGuides/7_EMS_PlatformServices_CG.htm">
+      Link="/Content/EMSPlatformServices/ConfigurationGuide/CG_Overview.htm">
       <TocEntry
         Title="Authentication Methods"
         Link="/Content/Authentication/EMSAuthenticationMethods.htm" />
@@ -1876,13 +1876,13 @@
     </TocEntry>
     <TocEntry
       Title="Skype for Business "
-      Link="/Content/ConfigGuides/11_Skype for Business Configuration Guide.htm">
+      Link="/Content/Skype/ConfigurationGuide/CG_Overview.htm">
       <TocEntry
         Title="Introduction to Skype for Business Integration"
-        Link="/Content/Skype/C_UserGuide/SkypeforBusiness_UserGuide_Introduction.html" />
+        Link="/Content/Skype/ConfigurationGuide/Introduction.html" />
       <TocEntry
         Title="Configure Skype for Business"
-        Link="/Content/Skype/C_UserGuide/SkypeforBusiness_UserGuide_ConfigureSkypeforBusiness.html" />
+        Link="/Content/Skype/ConfigurationGuide/ConfigureSkypeforBusiness.html" />
     </TocEntry>
     <TocEntry
       Title="G Suite Integration"

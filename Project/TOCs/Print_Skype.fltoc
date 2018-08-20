@@ -19,7 +19,7 @@
     PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/TOC8_5X11.flpgl">
     <TocEntry
       Title="Introduction to Skype for Business Integration "
-      Link="/Content/Skype/C_UserGuide/SkypeforBusiness_UserGuide_Introduction.html"
+      Link="/Content/Skype/ConfigurationGuide/Introduction.html"
       BreakType="chapter"
       PageNumberReset="reset"
       ChapterNumberReset="reset"
@@ -33,7 +33,7 @@
       PageType="firstright" />
     <TocEntry
       Title="Configure Skype for Business Integration"
-      Link="/Content/Skype/C_UserGuide/SkypeforBusiness_UserGuide_ConfigureSkypeforBusiness.html"
+      Link="/Content/Skype/ConfigurationGuide/ConfigureSkypeforBusiness.html"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
