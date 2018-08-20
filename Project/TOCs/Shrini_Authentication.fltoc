@@ -435,7 +435,7 @@
   </TocEntry>
   <TocEntry
     Title="Configuring Skype for Business"
-    Link="/Content/Skype/C_UserGuide/SkypeforBusiness_UserGuide_ConfigureSkypeforBusiness.html"
+    Link="/Content/Skype/ConfigurationGuide/SkypeforBusiness_UserGuide_ConfigureSkypeforBusiness.html"
     BreakType="chapter"
     AutoEndOnLeftPage="disabled"
     StartSection="false"
