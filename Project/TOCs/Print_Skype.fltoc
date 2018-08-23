@@ -16,7 +16,8 @@
     BreakType="chapter"
     StartSection="false"
     PageNumberReset="continue"
-    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/TOC8_5X11.flpgl">
+    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/TOC8_5X11.flpgl"
+    AutoEndOnLeftPage="disabled">
     <TocEntry
       Title="Introduction to Skype for Business Integration "
       Link="/Content/Skype/ConfigurationGuide/Introduction.html"
