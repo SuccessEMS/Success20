@@ -14,7 +14,8 @@
     ComputeToc="false"
     ReplaceMergeNode="false"
     PageNumber="1"
-    PageType="title"></TocEntry>
+    PageType="title"
+    AutoEndOnLeftPage="disabled"></TocEntry>
   <TocEntry
     Title="[%=System.LinkedTitle%]"
     Link="/Content/Print Only Topics/TOC.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
