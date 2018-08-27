@@ -6,11 +6,13 @@
     <body>
         <h1>
             <MadCap:concept term="V44.1" />
-            <MadCap:annotation MadCap:createDate="2017-11-01T22:30:37.2402341-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Does this topic belong in the Config Guide instead of Install Guide?s" MadCap:editor="Megan.Laub" MadCap:editDate="2017-11-01T22:30:58.3702393-06:00">Configure HTTP&#160;Security Headers</MadCap:annotation>
+            <MadCap:annotation MadCap:createDate="2017-11-01T22:30:37.2402341-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Does this topic belong in the Config Guide instead of Install Guide?s" MadCap:editor="Megan.Laub" MadCap:editDate="2017-11-01T22:30:58.3702393-06:00">HTTP&#160;Security Headers</MadCap:annotation>
         </h1>
-        <h2>Configure HTTP&#160;Security Headers</h2>
-        <p>When a user visits a site through a browser, the server responds with HTTP Response Headers. These headers tell the browser how to behave during communication with the site. For example, using the <code>strict-transport-security</code> HTTP&#160;header forces the browser to communicate solely over HTTPS. You can use the <code>strict-transport-security</code> and other security headers to improve web security. </p>
-        <p>For the EMS Web App, the following security headers can be configured in the web.config file:</p>
+        <p>When a user visits a site through a browser, the server responds with HTTP Response Headers. These headers tell the browser how to behave during communication with the site. For example, using the <code>strict-transport-security</code> header forces the browser to communicate solely over HTTPS. You can use the <code>strict-transport-security</code> and other security headers to improve web security for the EMS&#160;Web App. </p>
+        <p>The following security headers can be configured in the EMS&#160;Web App's web.config file:</p>
+        <div class="box-tip">
+            <p><span class="bold">TIP&#160;FOR&#160;EMS&#160;CLOUD&#160;CUSTOMERS:</span> Modifications to the web.config file must be performed by EMS Cloud Operations. To request these changes, please <a href="#Contact_Customer_Support">contact EMS Support</a>.</p>
+        </div>
         <table style="width: 100%;mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');margin-left: 0;margin-right: auto;" class="TableStyle-PatternedRows" cellspacing="0">
             <col class="TableStyle-PatternedRows-Column-Regular" style="width: 287px;" />
             <col class="TableStyle-PatternedRows-Column-Regular" />
@@ -78,10 +80,17 @@
                 </tr>
             </tbody>
         </table>
-        <p> To set HTTP&#160;security headers, you will need to edit the web.config file as follows:&#160; </p>
+        <h2>Configure Security Headers</h2>
+        <p>To configure HTTP&#160;security headers, you will need to edit the web.config file as follows:&#160; </p>
         <div class="box-tip">
             <p><span class="bold">TIP&#160;FOR&#160;EMS&#160;CLOUD&#160;CUSTOMERS:</span> Modifications to the web.config file must be performed by EMS Cloud Operations. To request these changes, please <a href="#Contact_Customer_Support">contact EMS Support</a>.</p>
         </div>
+        <ol class="number-list">
+            <li>Open the EMS Web App web.config file (typically, C:\inetpub\wwwroot\EMSWebApp\web.config).</li>
+            <li>Locate the custom headers nodes under the &lt;httpProtocol&gt; node:<p>&lt;!--&lt;add name="X-Frame-Options" value="deny" /&gt;--&gt;&lt;!-- valid only when NOT using Skype integration - can be configured with 'allow-from' when using Skype --&gt;</p><p>&lt;add name="X-Content-Type-Options" value="nosniff"/&gt;</p><p>&lt;!--&lt;add name="Strict-Transport-Security" value="max-age=31536000"/&gt;--&gt;&lt;!-- valid only when using SSL/HTTPS --&gt;</p><p>&lt;!--&lt;add name="Content-Security-Policy" value="default-src 'self'"/&gt;--&gt;&lt;!-- valid only when NOT using Skype integration - can be configured with appropriate values when using Skype --&gt;</p></li>
+            <li>Edit the nodes according to your company's EMS&#160;Web App configuration.  </li>
+            <li>Save the file.</li>
+        </ol>
         <h2><a name="Contact_Customer_Support"></a>Contact Customer Support</h2>
         <MadCap:snippetBlock src="../../../ContactCustomerSupport.flsnp" />
     </body>
