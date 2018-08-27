@@ -101,8 +101,7 @@
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" colspan="2">
-                        <p colspan="2"><a rel="internal" target="_blank" title="Learn More About Exchange Web Services (EWS)" href="EMSforOutlook/IntegrationtoMicrosoftExchange/LearnMoreaboutEWS.htm" alt="Learn More About Exchange Web Services (EWS)">Exchange Web Services (EWS) impersonation</a>
-                        </p>
+                        <p colspan="2">See Also:&#160;<a rel="internal" target="_blank" title="Learn More About Exchange Web Services (EWS)" href="EMSforOutlook/IntegrationtoMicrosoftExchange/LearnMoreaboutEWS.htm" alt="Learn More About Exchange Web Services (EWS)">Exchange Web Services (EWS) Impersonation</a> and <a href="EMSforOutlook/IntegrationtoMicrosoftExchange/ConfigureEWSImpersonation.htm">Configure EWS Impersonation</a></p>
                     </td>
                 </tr>
             </tbody>

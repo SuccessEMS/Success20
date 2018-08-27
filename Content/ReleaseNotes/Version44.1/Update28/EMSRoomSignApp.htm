@@ -20,7 +20,7 @@
                     <p class="p_3">V44.1 Update 28</p>
                 </td>
                 <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                    <p class="p_3">Release&#160;Date:<br />August XX, 2018<br /></p>
+                    <p class="p_3">Release&#160;Date:<br />August&#160;24,&#160;2018<br /></p>
                 </td>
                 <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
                     <p>SQL&#160;Patch #:&#160;<br /></p>
@@ -50,8 +50,8 @@
                         <p class="RNArea">Integrations</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p class="RNTitle">Crestron Integration</p>
-                        <p class="RNBody">The EMS&#160;Room Sign App now offers a Crestron integration. Crestron tablets are a turn-key hardware solution rather than a consumer tablet.  </p>
+                        <p class="RNTitle">Crestron LED&#160;Integration</p>
+                        <p class="RNBody">The EMS&#160;Room Sign App now offers an LED&#160;integration with Crestron panels. Crestron tablets are a turn-key hardware solution rather than a consumer tablet.  </p>
                         <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=39252&amp;_a=edit&amp;triage=true" class="RNRefHyper" title="EMS Internal Use Only" alt="EMS Internal Use Only">39252</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
@@ -67,7 +67,7 @@
                 </tr>
             </tbody>
         </table>
-        <h2 MadCap:conditions="General.Online Only">Fixes</h2>
+        <h2>Fixes</h2>
         <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');width: 100%;margin-left: 0;margin-right: auto;" cellspacing="0">
             <col class="TableStyle-PatternedRows-Column-Regular" style="width: 157px;" />
             <col class="TableStyle-PatternedRows-Column-Regular" />
@@ -83,14 +83,33 @@
             </thead>
             <tbody>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" rowspan="2">
                         <p class="RNArea">Checking In</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
-                        <p class="RNTitle">VC&#160;Reservation Removed from EMS&#160;Web App if Users Checked in Via the EMS&#160;Web App</p>
-                        <p class="RNBody">Once EMS&#160;Room Sign App users checked into a Video Conference (VC)&#160;reservation created in the EMS&#160;Web App with check in enabled, the reservation was removed from the EMS&#160;Web App. The reservation would still be visible from the EMS&#160;Desktop Client. </p>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="RNTitle">VC&#160;Reservation Removed from EMS&#160;Web App if Users Checked in Via the EMS&#160;Room Sign App</p>
+                        <p class="RNBody">For Video Conference (VC) reservations created in the EMS Web App with check in enabled, if users checked into these reservations from the EMS Room Sign App, the reservations would be removed from the EMS Web App. The reservations would still be visible from the EMS Desktop Client. </p>
                         <p class="RNBody"><span class="bold">Fix</span>:&#160;Modified functionality so that VC reservations do not disappear from the EMS Web App following check in from the EMS&#160;Room Sign App. </p>
                         <p class="RNRef"> Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=39831&amp;_a=edit&amp;triage=true" class="RNRefHyper" title="EMS Internal Use Only" alt="EMS Internal Use Only">39831</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="RNTitle">Check In Button Disappeared at Event Start Time Even Though Users Had Not Checked In</p>
+                        <p class="RNBody">The <span class="bold">Check In</span> button was disappearing at the event start time even though users had not checked into their meetings. Because the <span class="bold">Check In</span> button was no longer showing, users incorrectly assumed they were checked in, and then the auto cancel function would cancel their reservations at the specified auto cancel time.</p>
+                        <p class="RNBody"><span class="bold">Fix</span>:&#160;Modified functionality so that the <span class="bold">Check In</span> button displays at the event time and stays on until the auto cancel function cancels the room. </p>
+                        <p class="RNRef"> Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=40631&amp;_a=edit&amp;triage=true" class="RNRefHyper" title="EMS Internal Use Only" alt="EMS Internal Use Only">40631</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                        <p class="RNArea">Create Reservation</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
+                        <p class="RNTitle">Setting <span class="italics">Allow Book Now and Book Later</span> Profile Parameter to <span class="italics">No</span> Caused UI&#160;Issues</p>
+                        <p class="RNBody">When the <span class="bold">Allow Book Now and Book Later</span> profile parameter was set to <span class="bold">No</span> in EMS&#160;Desktop Client, UI issues occurred in the create reservation modal of the EMS&#160;Room Sign App. </p>
+                        <p class="RNBody"><span class="bold">Fix</span>:&#160;Modified functionality so that there are no longer UI&#160;issues in the create reservation modal when the <span class="bold">Allow Book Now and Book Later</span> parameter is set to <span class="bold">No</span>. </p>
+                        <p class="RNRef"> Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=38289&amp;_a=edit&amp;triage=true" class="RNRefHyper" title="EMS Internal Use Only" alt="EMS Internal Use Only">38289</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
             </tbody>
