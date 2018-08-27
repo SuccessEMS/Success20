@@ -49,9 +49,9 @@
                         <p class="RNArea">Security</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" style="text-align: left;">
-                        <p class="RNTitle">EMS&#160;Web App Security Enhancement</p>
-                        <p class="RNBody">An enhancement has been implemented to strengthen security in the EMS&#160;Web App. Submit an EMS&#160;Support Help Desk ticket through the <a href="https://portal.emssoftware.com/s/support">EMS Customer Support Portal</a> to receive additional information. </p>
-                        <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/Aspen/_queries?id=40097&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">40097</a><br />(For EMS&#160;Internal Use Only)</p>
+                        <p class="RNTitle">EMS&#160;Web App Security Enhancements</p>
+                        <p class="RNBody">Enhancements have been implemented to strengthen security in the EMS&#160;Web App. Submit an EMS&#160;Support Help Desk ticket through the <a href="https://portal.emssoftware.com/s/support">EMS Customer Support Portal</a> to receive additional information. </p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/Aspen/_queries?id=40097&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">40097</a>, <a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=40083&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">40083</a>, <a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=40048&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">40048</a>, <a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=40050&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">40050</a>, <a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=40046&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">40046</a>, <a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=40047&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">40047</a>, and <a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=40051&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">40051</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
             </tbody>
@@ -76,9 +76,9 @@
                         <p class="RNArea">Create Events</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
-                        <p class="RNTitle">Items on the Schedule Grid Displayed Improperly</p>
-                        <p class="RNBody">When a booking was created in Indian Standard Time (IST), the red time-indicator in the Schedule Grid of Create Events displayed the incorrect time selection for all buildings and attendee availability. However, when the booking was selected, the time displayed correctly. </p>
-                        <p class="RNBody"><span class="bold">Fix</span>:&#160;Modified functionality so that the correct time zone and attendee availability are displayed in the Schedule Grid.</p>
+                        <p class="RNTitle">Items on the Schedule Grid Displayed Improperly for IST&#160;Time Zone</p>
+                        <p class="RNBody">When a search was completed in Indian Standard Time (IST), the red time-indicator in the Schedule Grid in Create Events displayed the incorrect time selection for all buildings and attendee availability. However, when the booking was Created, the time was reflected correctly. </p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that the schedule grid reflects the correct time when searching in IST.</p>
                         <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/Aspen/_queries?id=39573&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">39573</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
@@ -88,8 +88,8 @@
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
                         <p class="RNTitle">VC Booking Resource Incorrectly Duplicated</p>
-                        <p class="RNBody">Users adding multiple video conference (VC) resources from the same multimedia category were experiencing a duplication of Service Orders added to their booking.</p>
-                        <p class="RNBody"><span class="bold">Fix</span>:&#160;Modified functionality so that Services Orders are only added to a booking once and are not duplicated. </p>
+                        <p class="RNBody">When creating a booking in a VC-enabled template and adding multiple resources (of which at least one is configured to be <span class="italics">tied to feature</span> and one is not), there were multiple, duplicate service orders created on the booking when only a single service order should have been created.</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that resources that meet this configuration will result in a single service order added to the booking. </p>
                         <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/Aspen/_queries?id=39952&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">39952</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
@@ -99,8 +99,8 @@
                     </td>
                     <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" style="text-align: left;">
                         <p class="RNTitle">Translation File Fixes</p>
-                        <p class="RNBody">Changes in all columns were not reflected in full translation files for Polish, French, Spanish, and Japanese. </p>
-                        <p class="RNBody"><span class="bold">Fix</span>:&#160;Modified functionality so that each tab is addressed in each translation file. </p>
+                        <p class="RNBody">Translation files were updated to accommodate label changes for "phone" and to accommodate recent field changes. </p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that the application properly reads all translation file entries.</p>
                         <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/Aspen/_queries?id=39961&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">39961</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>

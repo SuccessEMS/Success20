@@ -5,6 +5,6 @@
     Title="EMS Web App Release Notes U28"
     Link="/Content/ReleaseNotes/Version44.1/Update28/EMSWebApp.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
   <TocEntry
-    Title="EMS Master Calendar Release Notes U28"
-    Link="/Content/ReleaseNotes/Version44.1/Update28/EMSMasterCalendar.htm" />
+    Title="Customize EMS Web App"
+    Link="/Content/WebApp/A_V44.1/A_InstallationGuide/WebApp_Customize.html" />
 </CatapultToc>
