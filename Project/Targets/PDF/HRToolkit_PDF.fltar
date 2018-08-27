@@ -2,7 +2,7 @@
 <CatapultTarget
   Version="2"
   Comment="EMS HR Toolkit"
-  Type="MsWord"
+  Type="PDF"
   Destinations=""
   GlossaryTermConversion="marked"
   MasterToc="/Project/TOCs/Print_HRToolkit.fltoc"

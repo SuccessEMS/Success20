@@ -165,6 +165,9 @@
             Title="Import Group/Contact or Hybrid Data"
             Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_ImportGroupContactHybridData.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         </TocEntry>
+        <TocEntry
+          Title="PDF"
+          Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_PDF.pdf" />
       </TocEntry>
       <TocEntry
         Title="Active Directory"

@@ -2,7 +2,7 @@
 <CatapultTarget
   Version="2"
   Comment="EMS Room Sign App Configuration Guide"
-  Type="PDF"
+  Type="MsWord"
   Destinations=""
   GlossaryTermConversion="marked"
   MasterToc="/Project/TOCs/Print_RSA_ConfigGuide.fltoc"

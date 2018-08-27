@@ -17,7 +17,7 @@
       PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/TOC8_5X11.flpgl">
       <TocEntry
         Title="EMS Room Sign App"
-        Link="/Content/EMSRoomSignApp/44.1/InstallationGuide/Introduction.html"
+        Link="/Content/EMSRoomSignApp/44.1/ConfigurationGuide/Introduction.htm"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="reset"
