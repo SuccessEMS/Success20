@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\EMSWebApp.flmsp');" class="emsWebapp" MadCap:onlyLocalStylesheets="False">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../Resources/MasterPages/EMSWebApp.flmsp');" class="emsWebapp" MadCap:onlyLocalStylesheets="False">
     <head>
-        <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title>Customize EMS Web App</title>
+        <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title>Configure Security Headers V44.1 (EMS Web App)</title>
     </head>
     <body>
         <h1>
@@ -13,6 +13,7 @@
         <div class="box-tip">
             <p><span class="bold">TIP&#160;FOR&#160;EMS&#160;CLOUD&#160;CUSTOMERS:</span> Modifications to the web.config file must be performed by EMS Cloud Operations. To request these changes, please <a href="#Contact_Customer_Support">contact EMS Support</a>.</p>
         </div>
+        <p class="title"><a name="HeaderTable"></a>Security Headers Available for Configuration in EMS&#160;Web App</p>
         <table style="width: 100%;mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');margin-left: 0;margin-right: auto;" class="TableStyle-PatternedRows" cellspacing="0">
             <col class="TableStyle-PatternedRows-Column-Regular" style="width: 287px;" />
             <col class="TableStyle-PatternedRows-Column-Regular" />
@@ -23,10 +24,10 @@
                         <p>HTTP&#160;Security Header</p>
                     </th>
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
-                        <p>Description</p>
+                        <p>Default</p>
                     </th>
                     <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
-                        <p>Default</p>
+                        <p>Description</p>
                     </th>
                 </tr>
             </thead>
@@ -36,11 +37,11 @@
                         <p>X-Frame-Options</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p>Indicates whether a browser should be allowed to render a page in a &lt;frame&gt;, &lt;iframe&gt;, or &lt;object&gt;. By default, this header is disabled. To enable this header, you will need to edit the web.config file. </p>
-                        <p class="table-note"><span class="bold">Note:</span>&#160;If you want to enable the <code>x-frame-options</code> header and your company uses the Skype for Business Integration, the header must be configured with the value <code>allow-from</code>. </p>
+                        <p>Disabled</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p>Disabled</p>
+                        <p>This header indicates whether a browser should be allowed to render a page in a &lt;frame&gt;, &lt;iframe&gt;, or &lt;object&gt;. By default, this header is disabled. To enable this header, you will need to edit the web.config file. </p>
+                        <p class="table-note"><span class="bold">Note:</span>&#160;If you want to enable the <code>x-frame-options</code> header and your company uses the Skype for Business Integration, the header must be configured with the value <code>allow-from</code>. </p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
@@ -48,10 +49,10 @@
                         <p>X-Content-Type-Options</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p>Blocks content sniffing by instructing the browser to follow the MIME&#160;types indicated in the header. </p>
+                        <p>Enabled</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p>Enabled</p>
+                        <p>This header blocks content sniffing by instructing the browser to follow the MIME&#160;types indicated in the header. </p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
@@ -59,11 +60,11 @@
                         <p>Strict-Transport-Security</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p>Forces communication using HTTPS&#160;instead of HTTP. By default, the <code>strict-transport-security</code> header is disabled. To enable this header, you will need to edit the web.config file. </p>
-                        <p class="table-note"><span class="bold">Note:</span>&#160;The <code>strict-transport-security</code> header is only valid if you are using SSL/HTTPS.</p>
+                        <p>Disabled</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p>Disabled</p>
+                        <p>This header forces communication using HTTPS&#160;instead of HTTP. By default, the <code>strict-transport-security</code> header is disabled. To enable this header, you will need to edit the web.config file. </p>
+                        <p class="table-note"><span class="bold">Note:</span>&#160;The <code>strict-transport-security</code> header is only valid if you are using SSL/HTTPS.</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
@@ -71,11 +72,11 @@
                         <p>Content-Security-Policy</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
-                        <p>Prevents attacks, such as cross-site scripting, by defining content sources that are approved and allowing the browser to load them. By default, the <code>content-security-policy</code>&#160;header is disabled. To enable this header, you will need to edit the web.config file. </p>
-                        <p class="table-note"><span class="bold">Note:</span>&#160;If your company uses the Skype for Business Integration and you want to enable <code>content-security-policy</code>, the header must be configured with the appropriate values.</p>
+                        <p>Disabled</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
-                        <p>Disabled</p>
+                        <p>This header prevents attacks, such as cross-site scripting, by defining content sources that are approved and allowing the browser to load them. By default, the <code>content-security-policy</code>&#160;header is disabled. To enable this header, you will need to edit the web.config file. </p>
+                        <p class="table-note"><span class="bold">Note:</span>&#160;If your company uses the Skype for Business Integration and you want to enable <code>content-security-policy</code>, the header must be configured with the appropriate values.</p>
                     </td>
                 </tr>
             </tbody>
@@ -88,7 +89,7 @@
         <ol class="number-list">
             <li>Open the EMS Web App web.config file (typically, C:\inetpub\wwwroot\EMSWebApp\web.config).</li>
             <li>Locate the custom headers nodes under the &lt;httpProtocol&gt; node:<p>&lt;!--&lt;add name="X-Frame-Options" value="deny" /&gt;--&gt;&lt;!-- valid only when NOT using Skype integration - can be configured with 'allow-from' when using Skype --&gt;</p><p>&lt;add name="X-Content-Type-Options" value="nosniff"/&gt;</p><p>&lt;!--&lt;add name="Strict-Transport-Security" value="max-age=31536000"/&gt;--&gt;&lt;!-- valid only when using SSL/HTTPS --&gt;</p><p>&lt;!--&lt;add name="Content-Security-Policy" value="default-src 'self'"/&gt;--&gt;&lt;!-- valid only when NOT using Skype integration - can be configured with appropriate values when using Skype --&gt;</p></li>
-            <li>Edit the nodes according to your company's EMS&#160;Web App configuration.  </li>
+            <li>Edit the nodes according to your company's specifications and EMS&#160;Web App configuration. Note that some header values are not valid with the Skype for Business Integration (see <a href="#HeaderTable">Security Header table</a> for more information).</li>
             <li>Save the file.</li>
         </ol>
         <h2><a name="Contact_Customer_Support"></a>Contact Customer Support</h2>
