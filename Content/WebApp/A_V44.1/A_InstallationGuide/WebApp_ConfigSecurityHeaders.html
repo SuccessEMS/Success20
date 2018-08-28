@@ -42,7 +42,7 @@
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
                         <p>This header indicates whether a browser should be allowed to render a page in a &lt;frame&gt;, &lt;iframe&gt;, or &lt;object&gt;. By default, the <span class="bold">x-frame-options</span> header is disabled. To enable this header, you will need to <a href="#ConfigSecurityHeaders">edit the web.config file</a>. </p>
-                        <p class="table-important" style="margin-top: 20px;"><span class="bold">Important:</span>&#160;If you want to enable the <span class="bold">x-frame-options</span> header and your company uses the Skype for Business Integration, the header must be configured with the<MadCap:annotation MadCap:createDate="2018-08-28T11:18:59.1183112-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Is this the only value that works with SfB and is there any other info that needs to be added?" MadCap:editor="Megan.Laub" MadCap:editDate="2018-08-28T11:19:22.5986816-06:00"> value <span class="bold">allow-from</span></MadCap:annotation>. </p>
+                        <p class="table-important" style="margin-top: 20px;"><span class="bold">Important:</span>&#160;If you want to enable the <span class="bold">x-frame-options</span> header and your company uses the Skype for Business Integration, the header must be configured with values that are appropriate for your EMS&#160;Web App configuration. </p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
@@ -80,7 +80,7 @@
                     </td>
                     <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
                         <p>This header can prevent attacks, such as cross-site scripting, by defining content sources that are approved and allowing the browser to load them. By default, the <span class="bold">content-security-policy</span>&#160;header is disabled. To enable this header, you will need to <a href="#ConfigSecurityHeaders">edit the web.config file</a>. </p>
-                        <p class="table-important" style="margin-top: 20px;"><span class="bold">Important:</span>&#160;If your company uses the Skype for Business Integration and you want to enable the <span class="bold">content-security-policy</span> header, you must configure this header with <MadCap:annotation MadCap:createDate="2018-08-28T11:20:15.9967092-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Is more info required about Skpe and appropriate values?" MadCap:editor="Megan.Laub" MadCap:editDate="2018-08-28T11:24:27.2323642-06:00">appropriate values</MadCap:annotation>. The value <span class="bold">default-src 'self'</span> is not valid with the Skype for Business Integration.</p>
+                        <p class="table-important" style="margin-top: 20px;"><span class="bold">Important:</span>&#160;If your company uses the Skype for Business Integration and you want to enable the <span class="bold">content-security-policy</span> header, you must configure this header with appropriate values. </p>
                     </td>
                 </tr>
             </tbody>
@@ -98,6 +98,7 @@
     NOT using Skype integration - can be configured with appropriate values when using Skype --&gt;</pre><pre xml:space="preserve">  &lt;/customHeaders&gt;</pre><pre>&lt;/httpProtocol&gt;</pre></pre></li>
             <li>Edit the <span class="bold">&lt;customHeaders&gt;</span> nodes as follows:<ul><li>To enable a security header, uncomment the header by removing the "&lt;!&#8209;&#8209;" and "&#8209;&#8209;&gt;" from the beginning and end of the header statement. Make sure to set the header value according to your EMS&#160;Web App configuration and your company's specifications.<p class="box-important"><span class="boldAllCaps">Important:</span>&#160;Some security header values are not valid with the Skype for Business Integration. Refer to the <a href="#HeaderTable">Security Headers</a> table for more information.</p></li><li>To disable a security header, comment the header by adding  the "&lt;!&#8209;&#8209;" and "&#8209;&#8209;&gt;" to the beginning and end of the header statement.</li></ul></li>
             <li>Save the web.config file.</li>
+            <li>Restart the website.</li>
         </ol>
         <h2><a name="Contact_Customer_Support"></a>Contact Customer Support</h2>
         <MadCap:snippetBlock src="../../../ContactCustomerSupport.flsnp" />
