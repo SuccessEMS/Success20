@@ -5,7 +5,7 @@
         <meta name="mt-unsafe" value="true" />
     </head>
     <body>
-        <h1>
+        <h1 MadCap:autonum="CHAPTER&#160;1: ">
             <MadCap:concept term="V44.1" />Configure Platform Services in the Admin Portal</h1>
         <p>To begin configuration of EMS Platform Services, navigate to the EMS&#160;Platform Services Admin Portal using the Platform Services admin URL (e.g., https://yourcompany.com/EMSPlatform/admin). From the EMS Platform Services Admin Portal, you can clear the cache, view license and application information, configure authentication methods, manage integration clients, and view logs.</p>
         <p>EMS Platform Services Admin Portal consists of the following tabs:</p>
@@ -108,7 +108,15 @@
             <li><span class="bold">Integration logs</span>: Includes logs for a selected integration client. Enable logging for any integration client you wish to view logs for by choosing a Client from the dropdown.</li>
         </ul>
         <h3><a name="EditLOGDETAILS"></a>Edit Log Level Details</h3>
-        <p MadCap:conditions="General.Edit_in_Review">ANKITA TO PROVIDE</p>
+        <ol>
+            <li>Navigate to the <a href="../InstallationGuide/InstallPS.html#defaultfolder">Default</a> folder that was created during <a href="../InstallationGuide/InstallPS.html">installation</a>.</li>
+            <li>Open the default.json file for editing.</li>
+            <li>Under <span class="bold">Logging</span>, set the <span class="bold">logLevel </span>field to <span class="bold">Debug</span>. </li>
+        </ol>
+        <p class="title">Default.json File</p>
+        <p class="title">
+            <img src="../Images/Editloglevel.png" />
+        </p>
         <h2><a name="Authentication_Types"></a>Header, Openid, and SAML&#160;(Authentication Options)</h2>
         <p>EMS supports two authentication types for the EMS Platform Services Admin Portal:</p>
         <ol class="number-list">
