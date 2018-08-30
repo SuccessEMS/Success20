@@ -602,12 +602,6 @@
           Title="Introduction"
           Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_Introduction.htm" />
         <TocEntry
-          Title="Installation Overview"
-          Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_InstallationOverview.htm" />
-        <TocEntry
-          Title="Obtain the Installation Files"
-          Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_ObtainInstallFiles.htm" />
-        <TocEntry
           Title="How It Works"
           Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_HowItWorks.htm">
           <TocEntry
@@ -617,12 +611,15 @@
             Title="Align Your Source Data for HR Toolkit"
             Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_AlignSourceData.htm" />
           <TocEntry
-            Title="Configure EMS Web App for HR Toolkit"
-            Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_ConfigWebAppforHRTK.htm" />
-          <TocEntry
             Title="Upgrade Considerations"
             Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_UpgradeConsiderations.htm" />
         </TocEntry>
+        <TocEntry
+          Title="Installation Overview"
+          Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_InstallationOverview.htm" />
+        <TocEntry
+          Title="Obtain the Installation Files"
+          Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_ObtainInstallFiles.htm" />
         <TocEntry
           Title="Install HR Toolkit for the Group/Group Type Model"
           Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_InstallforGroupGroupTypeModel.htm">
@@ -637,6 +634,9 @@
             Title="Import Group/Contact or Hybrid Data"
             Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_ImportGroupContactHybridData.htm" />
         </TocEntry>
+        <TocEntry
+          Title="Configure EMS Web App for HR Toolkit"
+          Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_ConfigWebAppforHRTK.htm" />
       </TocEntry>
       <TocEntry
         Title="Active Directory"
