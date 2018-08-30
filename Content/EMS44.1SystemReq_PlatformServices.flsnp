@@ -59,7 +59,9 @@
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" colspan="2"><strong>PREREQUISITES</strong>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" colspan="2">
+                        <h5 colspan="2"><strong>PREREQUISITES (Prior to Update 28)</strong>
+                        </h5>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
@@ -80,10 +82,10 @@
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
                         <p>ASP.NET Version 4.6</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
                         <p class="beforelist">Under Web Server (IIS) &gt; Web Server &gt; Application Development:</p>
                         <ul class="unorder-list">
                             <li>ISAPI Extensions</li>
@@ -91,6 +93,16 @@
                             <li>.NET Extensibility 4.6</li>
                         </ul>
                     </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" colspan="2">
+                        <h5 colspan="2">Prerequisites (Update 28 and Later)</h5>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows"><a href="https://www.microsoft.com/net/download/archives">ASP.NET&#160;Handler</a>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">See Also:&#160;<a href="EMSPlatformServices/InstallationGuide/SystemRequirements.htm#asp.nethandler">Installing ASP.NET&#160;Handler</a>.</td>
                 </tr>
             </tbody>
         </table>
