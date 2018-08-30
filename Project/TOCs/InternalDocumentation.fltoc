@@ -18,7 +18,7 @@
     AutoEndOnLeftPage="disabled"></TocEntry>
   <TocEntry
     Title="Customize Security in EMS Web App"
-    Link="/Content/InternalDocumentation/WebApp_ConfigSecurityHeaders.html" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    Link="/Content/InternalDocumentation/WebApp_CustomizeSecurity.html" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
     BreakType="chapter"
     StartSection="false"
     PageNumberReset="reset"
