@@ -7,7 +7,7 @@
         <h1>
             <MadCap:concept term="V44.1" />Customize Security in EMS&#160;Web App</h1>
         <p class="beforelist">Through the web.config file and parameter settings, you can enhance security features in the EMS&#160;Web App to meet your organization's needs. This topic provides information about the following security settings:</p>
-        <ul>
+        <ul class="unorder-list">
             <li><a href="#FileSize">Customize Reservation Attachment File Size Limit</a>
             </li>
             <li><a href="#Calendar-Enabled_AttachmentSize">Customize Calendar-Enabled Attachment File Size Limit</a>
@@ -15,19 +15,29 @@
             <li><a href="#SecurityHeaders">Customize HTTP&#160;Security Headers</a>
             </li>
         </ul>
-        <h2><a name="FileSize"></a>Limit Reservation Attachment File Size</h2>
-        <p>The web.config file limits reservation attachment file size to 50 MB. You can edit the file size limit by modifying the web.config file as follows:</p>
+        <h2><a name="FileSize"></a>Limit File Size for Reservation Attachments</h2>
+        <p>A setting in the web.config file limits the file size for reservation attachments to 50 MB. You can edit this file size limit by modifying the web.config file as follows:</p>
+        <div class="box-tip">
+            <p><span class="boldAllCaps">Tip:</span>&#160;You can also limit the file size of calendar-enabled attachments (Exchange and G Suite). Refer to <a href="#Calendar-Enabled_AttachmentSize">Limit File Size of Calendar-Enabled Attachments</a> for more information.</p>
+        </div>
         <ol class="number-list">
             <li>Open the EMS Web App web.config file. The typical path is C:\inetpub\wwwroot\EMSWebApp\web.config.</li>
-            <li>In the web.config file, locate the <span style="color: #228b22;">requestLimits</span> under <span class="bold">&lt;customHeaders&gt;</span>.<pre class="code-sample"><pre>&lt;httpProtocol&gt;</pre><pre xml:space="preserve">  &lt;!-- security-specific http headers --&gt;</pre><pre xml:space="preserve">  &lt;customHeaders&gt;</pre><pre xml:space="preserve" style="color: #228b22;line-height: 0;">    &lt;!--&lt;add name="X-Frame-Options" value="deny" /&gt;--&gt;&lt;!-- valid only when NOT using Skype 
-    integration - can be configured with 'allow-from' when using Skype --&gt;</pre><pre xml:space="preserve" style="color: #228b22;">    &lt;add name="X-Content-Type-Options" value="nosniff"/&gt;</pre><pre xml:space="preserve" style="color: #228b22;line-height: 0;">    &lt;!--&lt;add name="Strict-Transport-Security" value="max-age=31536000"/&gt;--&gt;&lt;!-- valid only when
-    using SSL/HTTPS --&gt;</pre><pre xml:space="preserve" style="color: #228b22;line-height: 0;">    &lt;!--&lt;add name="Content-Security-Policy" value="default-src 'self'"/&gt;--&gt;&lt;!-- valid only when
-    NOT using Skype integration - can be configured with appropriate values when using Skype --&gt;</pre><pre xml:space="preserve">  &lt;/customHeaders&gt;</pre><pre>&lt;/httpProtocol&gt;</pre></pre></li>
-            <li>Edit the <span class="bold">&lt;customHeaders&gt;</span> nodes as follows:<ul><li>To enable a security header, uncomment the header by removing the "&lt;!&#8209;&#8209;" and "&#8209;&#8209;&gt;" from the beginning and end of the header statement. Make sure to set the header value according to your EMS&#160;Web App configuration and your company's specifications.<p class="box-important"><span class="boldAllCaps">Important:</span>&#160;Some security header values are not valid with the Skype for Business Integration. Refer to the <a href="#HeaderTable">Security Headers</a> table for more information.</p></li><li>To disable a security header, comment the header by adding  the "&lt;!&#8209;&#8209;" and "&#8209;&#8209;&gt;" to the beginning and end of the header statement.</li></ul></li>
+            <li>In the web.config file, locate the <span style="color: #228b22;">requestLimits</span> node under <span class="bold">&lt;requestFiltering&gt;</span>.<pre class="code-sample"><pre xml:space="preserve">&lt;requestFiltering&gt;</pre><pre xml:space="preserve">  <span style="color: #228b22;">&lt;requestLimits maxAllowedContentLength="51200000"/&gt;</span></pre><pre xml:space="preserve">&lt;/requestFiltering&gt;</pre></pre></li>
+            <li>Edit the <span class="bold">&lt;requestLimits&gt;</span> node's value according to your maximum file size requirements. <div class="box-important"><p><span class="boldAllCaps">Important:</span>&#160;The default maximum file size is 51200000 bytes (50&#160;MB). When specifying a different maximum file size, make sure to enter the value in bytes. If you remove the <span class="bold">&lt;requestLimits&gt;</span> node from the web.config file, the hard-coded file size limit of 4096000&#160;bytes (4 MB) will go into effect.</p></div></li>
             <li>Save the web.config file.</li>
             <li>Restart the website.</li>
         </ol>
-        <h2><a name="Calendar-Enabled_AttachmentSize"></a>Limit Calendar-Enabled Attachment File Size</h2>
+        <h2><a name="Calendar-Enabled_AttachmentSize"></a>Limit File Size of Calendar-Enabled Attachments</h2>
+        <p>For EMS&#160;Web App, the default file size limit is 8&#160;MB for calendar-enabled reservation attachments (Exchange and G Suite). To modify this file size limit, please <a href="#Contact_Customer_Support">contact EMS Support</a>. A support representative will need to access the hidden parameter <span class="italics">PAM_MaxAttachmentSize</span> in your EMS&#160;database.</p>
+        <p class="beforelist">Parameter for specifying the maximum file size limit for calendar-enabled reservation attachments (Exchange and G Suite):</p>
+        <ul class="unorder-list">
+            <li><span class="bold">Display Value:</span> PAM Maximum size of attachment to allow</li>
+            <li><span class="bold">Keyvalue:</span> PAM_MaxAttachmentSize</li>
+            <li><span class="bold">Default Size:</span>&#160;8 MB</li>
+        </ul>
+        <div class="box-important">
+            <p><span class="boldAllCaps">Important:</span>&#160;When modifying the default maximum file size for calendar-enabled attachments, <MadCap:annotation MadCap:createDate="2018-08-30T11:48:13.3532949-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Does the calendar-enablede max file size need to be in bytes or MB?" MadCap:editor="Megan.Laub" MadCap:editDate="2018-08-30T11:48:39.3189400-06:00">make sure to specify the size in bytes.</MadCap:annotation></p>
+        </div>
         <h2><a name="SecurityHeaders"></a>Customize HTTP&#160;Security Headers</h2>
         <p> HTTP security headers tell the browser how to behave when handling a website's content and data. Using security headers can improve  web security; for example, using the <span class="bold">strict-transport-security</span> header forces the browser to communicate solely over HTTPS.  </p>
         <p>The following table lists the security headers that can be <a href="#ConfigSecurityHeaders">configured</a> in the EMS&#160;Web App's web.config file.</p>
@@ -106,7 +116,7 @@
                 </tr>
             </tbody>
         </table>
-        <h2><a name="ConfigSecurityHeaders"></a>Configure Security Headers</h2>
+        <h3><a name="ConfigSecurityHeaders"></a>Configure Security Headers</h3>
         <p>To configure HTTP&#160;security headers, you will need to edit the web.config file as follows:&#160; </p>
         <div class="box-tip">
             <p><span class="bold">TIP&#160;FOR&#160;EMS&#160;CLOUD&#160;CUSTOMERS:</span> Modifications to the web.config file must be performed by EMS Cloud Operations. To request these changes, please <a href="#Contact_Customer_Support">contact EMS Support</a>.</p>
