@@ -235,7 +235,7 @@
           Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/FormatTabDelimitedFiles.htm"
           Title="Appendix A - Format for Tab-Delimited Files" />
         <TocEntry
-          Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_IntegCourseStudentInfowithSIS.htm"
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/HRToolkit_IntegCourseStudentInfowithSIS.htm"
           Title="Integrate Course and Student Information with Student Information Systems (SIS)" />
       </TocEntry>
     </TocEntry>

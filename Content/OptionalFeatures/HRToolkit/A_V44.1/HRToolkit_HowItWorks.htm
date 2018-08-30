@@ -16,6 +16,15 @@
                 <img src="Images/HRToolkit_InstallGuide/How It Works.png" class="PDFmedium" />
             </p>
             <p class="box-note"><span class="bold">NOTE</span>:&#160;The above is a baseline table. Please note that your table may be customized. </p>
+            <p>EMS Human Resources Toolkit automates the creation, update, and de-activation of user records as individuals and as groups or contacts. EMS Human Resources Toolkit absorbs user records and any changes to these records&#160;from your chosen data source, and then transfers the data&#160;to EMS.&#160;This allows you to automatically sync EMS with user records held in other systems in your organization.</p>
+            <div class="TitleandImage">
+                <p class="title">HR Toolkit Integration Diagram</p>
+                <p>
+                    <img src="Images/HRToolkit_InstallGuide/How HR Toolkit Integrates.png" class="PDFlarge">
+                    </img>
+                </p>
+            </div>
+            <p>The information from your organization’s database(s) is loaded into the <span class="italics">EMS_Staging</span> database table and then the <span class="italics">HRTK_Update_Group</span> stored procedure is created on the EMS database, then executed to populate the data from the staging table into EMS.&#160;This information populates and updates the information for your EMS Groups, Contacts, and Everyday/Web Users.&#160;</p>
         </div>
     </body>
 </html>

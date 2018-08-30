@@ -157,7 +157,7 @@
           Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/FormatTabDelimitedFiles.htm"
           Title="Appendix A - Format for Tab-Delimited Files" />
         <TocEntry
-          Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_IntegCourseStudentInfowithSIS.htm"
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/HRToolkit_IntegCourseStudentInfowithSIS.htm"
           Title="Integrate Course and Student Information with Student Information Systems (SIS)" />
       </TocEntry>
     </TocEntry>
@@ -609,7 +609,7 @@
             Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_HowIntegUserRec.htm" />
           <TocEntry
             Title="Align Your Source Data for HR Toolkit"
-            Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_AlignSourceData.htm" />
+            Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/AlignSourceData.htm" />
           <TocEntry
             Title="Upgrade Considerations"
             Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_UpgradeConsiderations.htm" />
@@ -619,24 +619,21 @@
           Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_InstallationOverview.htm" />
         <TocEntry
           Title="Obtain the Installation Files"
-          Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_ObtainInstallFiles.htm" />
+          Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/InstallHRToolkit.htm" />
         <TocEntry
-          Title="Install HR Toolkit for the Group/Group Type Model"
-          Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_InstallforGroupGroupTypeModel.htm">
+          Title="Install HR Toolkit for the Group/Group Type Model">
           <TocEntry
-            Title="Import Group/Group Type Data"
-            Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_ImportGroupGroupTypeData.htm" />
+            Title="Import Group/Group Type Data" />
         </TocEntry>
         <TocEntry
-          Title="Install HR Toolkit for the Groups/Contacts or Hybrid Model"
-          Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_InstallforGroupContactHybridModel.htm">
+          Title="Install HR Toolkit for the Groups/Contacts or Hybrid Model">
           <TocEntry
             Title="Import Group/Contact or Hybrid Data"
-            Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_ImportGroupContactHybridData.htm" />
+            Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/ImportHRToolkitData.htm" />
         </TocEntry>
         <TocEntry
           Title="Configure EMS Web App for HR Toolkit"
-          Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_ConfigWebAppforHRTK.htm" />
+          Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/ConfigWebAppforHRTK.htm" />
       </TocEntry>
       <TocEntry
         Title="Active Directory"
