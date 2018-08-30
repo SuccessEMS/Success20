@@ -2,8 +2,8 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="EMS Preview Release Notes U28"
-    Link="/Content/Print/ReleaseNotesPreview.htm"
+    Title="Internal Doc Title Page"
+    Link="/Content/Print/InternalDocumentation.htm"
     BreakType="chapter"
     StartSection="false"
     PageLayout="/Content/Resources/PageLayouts/PreviewRN/PrevTitle.flpgl"
