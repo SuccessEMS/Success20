@@ -1919,42 +1919,37 @@
         Link="/Content/OptionalFeatures/5_EMS_HumanResourcesToolkitHome.htm">
         <TocEntry
           Title="Introduction"
-          Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_Introduction.htm" />
+          Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/Introduction.htm" />
         <TocEntry
-          Title="Installation Overview"
-          Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_InstallationOverview.htm" />
+          Title="Installation Overview" />
         <TocEntry
           Title="Obtain the Installation Files"
-          Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_ObtainInstallFiles.htm" />
+          Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/InstallHRToolkit.htm" />
         <TocEntry
           Title="How It Works"
-          Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_HowItWorks.htm">
+          Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HowItWorks.htm">
           <TocEntry
             Title="How HR Toolkit Integrates Your User Records"
-            Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_HowIntegUserRec.htm" />
+            Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HowIntegUserRec.htm" />
           <TocEntry
             Title="Align Your Source Data for HR Toolkit"
-            Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_AlignSourceData.htm" />
+            Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/AlignSourceData.htm" />
           <TocEntry
             Title="Configure EMS Web App for HR Toolkit"
-            Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_ConfigWebAppforHRTK.htm" />
+            Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/ConfigWebAppforHRTK.htm" />
           <TocEntry
-            Title="Upgrade Considerations"
-            Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_UpgradeConsiderations.htm" />
+            Title="Upgrade Considerations" />
         </TocEntry>
         <TocEntry
-          Title="Install HR Toolkit for the Group/Group Type Model"
-          Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_InstallforGroupGroupTypeModel.htm">
+          Title="Install HR Toolkit for the Group/Group Type Model">
           <TocEntry
-            Title="Import Group/Group Type Data"
-            Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_ImportGroupGroupTypeData.htm" />
+            Title="Import Group/Group Type Data" />
         </TocEntry>
         <TocEntry
-          Title="Install HR Toolkit for the Groups/Contacts or Hybrid Model"
-          Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_InstallforGroupContactHybridModel.htm">
+          Title="Install HR Toolkit for the Groups/Contacts or Hybrid Model">
           <TocEntry
             Title="Import Group/Contact or Hybrid Data"
-            Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_ImportGroupContactHybridData.htm" />
+            Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/ImportHRToolkitData.htm" />
         </TocEntry>
       </TocEntry>
       <TocEntry

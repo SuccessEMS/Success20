@@ -72,25 +72,15 @@
             </thead>
             <tbody>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
                         <p class="RNArea">Security</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
                         <p class="RNTitle">Exchange Integration Web Service Cloud <span class="italics">Web.config</span> File Security Issue</p>
-                        <p class="RNBody">A security issue has been resolved. Submit an EMS Support Help Desk ticket through the <a href="https://portal.emssoftware.com/s/support">EMS Customer Support Portal</a> to receive additional information.</p>
+                        <p class="RNBody">Customers who do not enable Windows Authentication in IIS for the Exchange Integration Web Service should comment out this section in order for EIWS to work properly:</p>
+                        <p class="RNBody" style="font-family: 'Courier New';">&lt;remove users="*" roles="" verbs=""/&gt;</p>
+                        <p class="RNBody" style="font-family: 'Courier New';">&lt;add accessType="Allow" roles="Users"/&gt;</p>
                         <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=40291&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">40291</a><br />(For EMS&#160;Internal Use Only)</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
-                        <p class="RNArea">Proxy Server</p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
-                        <p class="RNTitle">
-                            <MadCap:annotation MadCap:createDate="2018-08-22T09:01:42.2374879-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Matt said this one may be pulled from U28 if we don't hear back from customer that the issue was resolved (customer was sent new build)" MadCap:editor="Megan.Laub" MadCap:editDate="2018-08-22T09:02:49.3183757-06:00">Proxy Issues</MadCap:annotation> with Exchange Integration Web Service</p>
-                        <p class="RNBody">Some users were receiving an error when trying to connect their Exchange Integration Web Service (EIWS) to Microsoft<sup>®</sup> Exchange through a proxy.</p>
-                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that users can successfully connect EIWS&#160;to Microsoft Exchange through a proxy.</p>
-                        <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=40075&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">40075</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
             </tbody>

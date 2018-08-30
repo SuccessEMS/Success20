@@ -157,7 +157,7 @@
           Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/FormatTabDelimitedFiles.htm"
           Title="Appendix A - Format for Tab-Delimited Files" />
         <TocEntry
-          Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_IntegCourseStudentInfowithSIS.htm"
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/IntegCourseStudentInfowithSIS.htm"
           Title="Integrate Course and Student Information with Student Information Systems (SIS)" />
       </TocEntry>
     </TocEntry>
@@ -599,44 +599,27 @@
         Title="EMS Human Resources Toolkit"
         Link="/Content/OptionalFeatures/5_EMS_HumanResourcesToolkitHome.htm">
         <TocEntry
-          Title="Introduction"
-          Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_Introduction.htm" />
-        <TocEntry
-          Title="Installation Overview"
-          Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_InstallationOverview.htm" />
-        <TocEntry
-          Title="Obtain the Installation Files"
-          Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_ObtainInstallFiles.htm" />
+          Title="Introduction to the EMS Human Resources Toolkit"
+          Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/Introduction.htm" />
         <TocEntry
           Title="How It Works"
-          Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_HowItWorks.htm">
+          Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HowItWorks.htm">
           <TocEntry
             Title="How HR Toolkit Integrates Your User Records"
-            Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_HowIntegUserRec.htm" />
+            Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HowIntegUserRec.htm" />
           <TocEntry
             Title="Align Your Source Data for HR Toolkit"
-            Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_AlignSourceData.htm" />
-          <TocEntry
-            Title="Configure EMS Web App for HR Toolkit"
-            Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_ConfigWebAppforHRTK.htm" />
-          <TocEntry
-            Title="Upgrade Considerations"
-            Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_UpgradeConsiderations.htm" />
+            Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/AlignSourceData.htm" />
         </TocEntry>
         <TocEntry
-          Title="Install HR Toolkit for the Group/Group Type Model"
-          Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_InstallforGroupGroupTypeModel.htm">
-          <TocEntry
-            Title="Import Group/Group Type Data"
-            Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_ImportGroupGroupTypeData.htm" />
-        </TocEntry>
+          Title="Install EMS HR Toolkit"
+          Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/InstallHRToolkit.htm" />
         <TocEntry
-          Title="Install HR Toolkit for the Groups/Contacts or Hybrid Model"
-          Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_InstallforGroupContactHybridModel.htm">
-          <TocEntry
-            Title="Import Group/Contact or Hybrid Data"
-            Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_ImportGroupContactHybridData.htm" />
-        </TocEntry>
+          Title="Import EMS HR Toolkit Data"
+          Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/ImportHRToolkitData.htm" />
+        <TocEntry
+          Title="Configure EMS Web App for HR Toolkit"
+          Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/ConfigWebAppforHRTK.htm" />
       </TocEntry>
       <TocEntry
         Title="Active Directory"

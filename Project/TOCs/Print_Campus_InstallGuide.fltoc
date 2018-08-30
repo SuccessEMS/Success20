@@ -200,7 +200,7 @@
       VolumeNumberReset="same"
       ChapterNumberReset="continue" />
     <TocEntry
-      Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_IntegCourseStudentInfowithSIS.htm"
+      Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/IntegCourseStudentInfowithSIS.htm"
       Title="Integrate Course and Student Information with Student Information Systems (SIS)"
       BreakType="chapter"
       StartSection="false"
