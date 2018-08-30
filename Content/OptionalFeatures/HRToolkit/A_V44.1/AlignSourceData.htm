@@ -10,7 +10,7 @@
         <p>The HRTK_Update_Group stored procedure contains all of the logic to create your EMS Contact, Group and Everyday Applications (web) User data. Records are imported into EMS from the EMS_Staging database according to the specifications below.</p>
         <p> This topic provides information on the following:</p>
         <ul>
-            <li>Two baseline setups for the staging data:<ul><li><a href="#Hybrid">Hybrid Setup </a></li><li><a href="#Group-Group">Group-Group Type Setup</a></li></ul></li>
+            <li>Two baseline setups for the staging data:<ul><li><a href="#HybridSetup">Hybrid Setup </a></li><li><a href="#Group-Group">Group-Group Type Setup</a></li></ul></li>
             <li><a href="#GroupTypeRecord">Group Type Records</a>
             </li>
             <li><a href="#GroupRecords">Group Records</a>
@@ -19,6 +19,8 @@
             </li>
         </ul>
         <p>Below are the baseline staging database fields for both <a href="#Hybrid">Hybrid</a> and <a href="#Group-Group">Group-Group Type</a> Setups.  Please note that your HR Toolkit staging database may be different.  Please contact your Professional Services Consultant if you are unsure of what HR Toolkit setup you are using.</p>
+        <h2><a name="HybridSetup"></a>Hybrid Setup</h2>
+        <p>In some instances, it may be necessary to combine elements of the Group/Group Type model&#160;into a Hybrid data model. This is typically necessary when you will have some Everyday Application&#160;Users belonging to a department while other Everyday Application&#160;Users are not part of a department and are simply using <a href="ConfigWebAppforHRTK.htm">EMS Web App</a>&#160;on their own. For example,&#160;for study rooms on college campuses, students on campus could have access to EMS Web App&#160;to book these study spaces, but they may not all belong to a Group (department), and therefore are created following the Group/Group Type rules. Additionally, it is possible to have users that belong to both individual Groups and organizational Groups.&#160;For instance, John Doe could be created as a contact for the History department as well as an individual Group.&#160;You should work with your Professional Services Consultant for guidance on whether the Hybrid data model&#160;is right for you. &#160;</p>
         <p class="title"><a name="Hybrid"></a>Baseline Stage Database Fields for Hybrid Setup </p>
         <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
             <col style="width: 185px;" />
@@ -246,7 +248,10 @@
                 </tr>
             </tbody>
         </table>
-        <p class="title"><a name="Group-Group"></a>Baseline Stage Database Fields for Group-Group Type Setup</p>
+        <h2><a name="GroupGroupType"></a>Group-Group Type Model</h2>
+        <p>The <span class="bold">Group/Group Type</span> model categorizes User records by group and group type and does not create Contacts under the Groups imported into the EMS&#160;HR Toolkit. </p>
+        <p class="box-note"><span class="bold">NOTE</span>:&#160;Your EMS environment may use different names for Groups and Contacts, such as Employee.</p>
+        <p class="title">Baseline Stage Database Fields for Group-Group Type Setup</p>
         <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');width: 570px;" class="TableStyle-PatternedRows" cellspacing="0">
             <col style="width: 187px;" class="TableStyle-PatternedRows-Column-Regular" />
             <col style="width: 184px;" class="TableStyle-PatternedRows-Column-Regular" />

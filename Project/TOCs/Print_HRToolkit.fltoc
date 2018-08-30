@@ -39,8 +39,7 @@
         VolumeNumberReset="same"
         ChapterNumberReset="continue"></TocEntry>
       <TocEntry
-        Title="Installation Overview"
-        Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_InstallationOverview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+        Title="Installation Overview" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"

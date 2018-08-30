@@ -614,8 +614,7 @@
             Title="Upgrade Considerations" />
         </TocEntry>
         <TocEntry
-          Title="Installation Overview"
-          Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_InstallationOverview.htm" />
+          Title="Installation Overview" />
         <TocEntry
           Title="Obtain the Installation Files"
           Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/InstallHRToolkit.htm" />
