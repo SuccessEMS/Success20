@@ -5,9 +5,30 @@
     </head>
     <body>
         <h1>
-            <MadCap:concept term="V44.1" />
-            <MadCap:annotation MadCap:createDate="2017-11-01T22:30:37.2402341-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Does this topic belong in the Config Guide instead of Install Guide?" MadCap:editor="Megan.Laub" MadCap:editDate="2018-08-28T11:13:48.9637324-06:00">Configure HTTP&#160;Security Headers</MadCap:annotation>
-        </h1>
+            <MadCap:concept term="V44.1" />Customize Security in EMS&#160;Web App</h1>
+        <p class="beforelist">Through the web.config file and parameter settings, you can enhance security features in the EMS&#160;Web App to meet your organization's needs. This topic provides information about the following security settings:</p>
+        <ul>
+            <li><a href="#FileSize">Customize Reservation Attachment File Size Limit</a>
+            </li>
+            <li><a href="#Calendar-Enabled_AttachmentSize">Customize Calendar-Enabled Attachment File Size Limit</a>
+            </li>
+            <li><a href="#SecurityHeaders">Customize HTTP&#160;Security Headers</a>
+            </li>
+        </ul>
+        <h2><a name="FileSize"></a>Limit Reservation Attachment File Size</h2>
+        <p>The web.config file limits reservation attachment file size to 50 MB. You can edit the file size limit by modifying the web.config file as follows:</p>
+        <ol class="number-list">
+            <li>Open the EMS Web App web.config file. The typical path is C:\inetpub\wwwroot\EMSWebApp\web.config.</li>
+            <li>In the web.config file, locate the <span style="color: #228b22;">requestLimits</span> under <span class="bold">&lt;customHeaders&gt;</span>.<pre class="code-sample"><pre>&lt;httpProtocol&gt;</pre><pre xml:space="preserve">  &lt;!-- security-specific http headers --&gt;</pre><pre xml:space="preserve">  &lt;customHeaders&gt;</pre><pre xml:space="preserve" style="color: #228b22;line-height: 0;">    &lt;!--&lt;add name="X-Frame-Options" value="deny" /&gt;--&gt;&lt;!-- valid only when NOT using Skype 
+    integration - can be configured with 'allow-from' when using Skype --&gt;</pre><pre xml:space="preserve" style="color: #228b22;">    &lt;add name="X-Content-Type-Options" value="nosniff"/&gt;</pre><pre xml:space="preserve" style="color: #228b22;line-height: 0;">    &lt;!--&lt;add name="Strict-Transport-Security" value="max-age=31536000"/&gt;--&gt;&lt;!-- valid only when
+    using SSL/HTTPS --&gt;</pre><pre xml:space="preserve" style="color: #228b22;line-height: 0;">    &lt;!--&lt;add name="Content-Security-Policy" value="default-src 'self'"/&gt;--&gt;&lt;!-- valid only when
+    NOT using Skype integration - can be configured with appropriate values when using Skype --&gt;</pre><pre xml:space="preserve">  &lt;/customHeaders&gt;</pre><pre>&lt;/httpProtocol&gt;</pre></pre></li>
+            <li>Edit the <span class="bold">&lt;customHeaders&gt;</span> nodes as follows:<ul><li>To enable a security header, uncomment the header by removing the "&lt;!&#8209;&#8209;" and "&#8209;&#8209;&gt;" from the beginning and end of the header statement. Make sure to set the header value according to your EMS&#160;Web App configuration and your company's specifications.<p class="box-important"><span class="boldAllCaps">Important:</span>&#160;Some security header values are not valid with the Skype for Business Integration. Refer to the <a href="#HeaderTable">Security Headers</a> table for more information.</p></li><li>To disable a security header, comment the header by adding  the "&lt;!&#8209;&#8209;" and "&#8209;&#8209;&gt;" to the beginning and end of the header statement.</li></ul></li>
+            <li>Save the web.config file.</li>
+            <li>Restart the website.</li>
+        </ol>
+        <h2><a name="Calendar-Enabled_AttachmentSize"></a>Limit Calendar-Enabled Attachment File Size</h2>
+        <h2><a name="SecurityHeaders"></a>Customize HTTP&#160;Security Headers</h2>
         <p> HTTP security headers tell the browser how to behave when handling a website's content and data. Using security headers can improve  web security; for example, using the <span class="bold">strict-transport-security</span> header forces the browser to communicate solely over HTTPS.  </p>
         <p>The following table lists the security headers that can be <a href="#ConfigSecurityHeaders">configured</a> in the EMS&#160;Web App's web.config file.</p>
         <div class="box-tip">
@@ -42,7 +63,7 @@
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
                         <p>This header indicates whether a browser should be allowed to render a page in a &lt;frame&gt;, &lt;iframe&gt;, or &lt;object&gt;. By default, the <span class="bold">x-frame-options</span> header is disabled. To enable this header, you will need to <a href="#ConfigSecurityHeaders">edit the web.config file</a>. </p>
-                        <p class="table-important" style="margin-top: 20px;"><span class="bold">Important:</span>&#160;If you want to enable the <span class="bold">x-frame-options</span> header and your company uses the Skype for Business Integration, the header must be configured with the<MadCap:annotation MadCap:createDate="2018-08-28T11:18:59.1183112-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Is this the only value that works with SfB and is there any other info that needs to be added?" MadCap:editor="Megan.Laub" MadCap:editDate="2018-08-28T11:19:22.5986816-06:00"> value <span class="bold">allow-from</span></MadCap:annotation>. </p>
+                        <p class="table-important" style="margin-top: 20px;"><span class="bold">Important:</span>&#160;If you want to enable the <span class="bold">x-frame-options</span> header and your company uses the Skype for Business Integration, the header must be configured with values that are appropriate for your EMS&#160;Web App configuration. </p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
@@ -80,7 +101,7 @@
                     </td>
                     <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
                         <p>This header can prevent attacks, such as cross-site scripting, by defining content sources that are approved and allowing the browser to load them. By default, the <span class="bold">content-security-policy</span>&#160;header is disabled. To enable this header, you will need to <a href="#ConfigSecurityHeaders">edit the web.config file</a>. </p>
-                        <p class="table-important" style="margin-top: 20px;"><span class="bold">Important:</span>&#160;If your company uses the Skype for Business Integration and you want to enable the <span class="bold">content-security-policy</span> header, you must configure this header with <MadCap:annotation MadCap:createDate="2018-08-28T11:20:15.9967092-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Is more info required about Skpe and appropriate values?" MadCap:editor="Megan.Laub" MadCap:editDate="2018-08-28T11:24:27.2323642-06:00">appropriate values</MadCap:annotation>. The value <span class="bold">default-src 'self'</span> is not valid with the Skype for Business Integration.</p>
+                        <p class="table-important" style="margin-top: 20px;"><span class="bold">Important:</span>&#160;If your company uses the Skype for Business Integration and you want to enable the <span class="bold">content-security-policy</span> header, you must configure this header with appropriate values. </p>
                     </td>
                 </tr>
             </tbody>
@@ -98,6 +119,7 @@
     NOT using Skype integration - can be configured with appropriate values when using Skype --&gt;</pre><pre xml:space="preserve">  &lt;/customHeaders&gt;</pre><pre>&lt;/httpProtocol&gt;</pre></pre></li>
             <li>Edit the <span class="bold">&lt;customHeaders&gt;</span> nodes as follows:<ul><li>To enable a security header, uncomment the header by removing the "&lt;!&#8209;&#8209;" and "&#8209;&#8209;&gt;" from the beginning and end of the header statement. Make sure to set the header value according to your EMS&#160;Web App configuration and your company's specifications.<p class="box-important"><span class="boldAllCaps">Important:</span>&#160;Some security header values are not valid with the Skype for Business Integration. Refer to the <a href="#HeaderTable">Security Headers</a> table for more information.</p></li><li>To disable a security header, comment the header by adding  the "&lt;!&#8209;&#8209;" and "&#8209;&#8209;&gt;" to the beginning and end of the header statement.</li></ul></li>
             <li>Save the web.config file.</li>
+            <li>Restart the website.</li>
         </ol>
         <h2><a name="Contact_Customer_Support"></a>Contact Customer Support</h2>
         <MadCap:snippetBlock src="../../../ContactCustomerSupport.flsnp" />
