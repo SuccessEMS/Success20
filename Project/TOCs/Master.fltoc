@@ -157,7 +157,7 @@
           Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/FormatTabDelimitedFiles.htm"
           Title="Appendix A - Format for Tab-Delimited Files" />
         <TocEntry
-          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/HRToolkit_IntegCourseStudentInfowithSIS.htm"
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/InstallationGuide_CampusWebService/IntegCourseStudentInfowithSIS.htm"
           Title="Integrate Course and Student Information with Student Information Systems (SIS)" />
       </TocEntry>
     </TocEntry>
@@ -600,10 +600,10 @@
         Link="/Content/OptionalFeatures/5_EMS_HumanResourcesToolkitHome.htm">
         <TocEntry
           Title="Introduction"
-          Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_Introduction.htm" />
+          Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/Introduction.htm" />
         <TocEntry
           Title="How It Works"
-          Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_HowItWorks.htm">
+          Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HowItWorks.htm">
           <TocEntry
             Title="How HR Toolkit Integrates Your User Records"
             Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_HowIntegUserRec.htm" />
@@ -611,8 +611,7 @@
             Title="Align Your Source Data for HR Toolkit"
             Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/AlignSourceData.htm" />
           <TocEntry
-            Title="Upgrade Considerations"
-            Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_UpgradeConsiderations.htm" />
+            Title="Upgrade Considerations" />
         </TocEntry>
         <TocEntry
           Title="Installation Overview"

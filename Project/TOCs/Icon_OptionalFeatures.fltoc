@@ -128,7 +128,7 @@
         Link="/Content/OptionalFeatures/5_EMS_HumanResourcesToolkitHome.htm">
         <TocEntry
           Title="Introduction"
-          Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_Introduction.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
+          Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/Introduction.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
         <TocEntry
           Title="Installation Overview"
           Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_InstallationOverview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
@@ -137,7 +137,7 @@
           Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/InstallHRToolkit.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
           Title="How It Works"
-          Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_HowItWorks.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+          Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HowItWorks.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
           <TocEntry
             Title="How HR Toolkit Integrates Your User Records"
             Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_HowIntegUserRec.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
@@ -148,8 +148,7 @@
             Title="Configure EMS Web App for HR Toolkit"
             Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/ConfigWebAppforHRTK.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
           <TocEntry
-            Title="Upgrade Considerations"
-            Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_UpgradeConsiderations.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+            Title="Upgrade Considerations" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         </TocEntry>
         <TocEntry
           Title="Install HR Toolkit for the Group/Group Type Model" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">

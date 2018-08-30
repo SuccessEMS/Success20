@@ -30,7 +30,7 @@
       ComputeToc="false">
       <TocEntry
         Title="Introduction"
-        Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_Introduction.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+        Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/Introduction.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -60,7 +60,7 @@
         ChapterNumberReset="continue" />
       <TocEntry
         Title="How It Works"
-        Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_HowItWorks.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+        Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HowItWorks.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -99,8 +99,7 @@
           VolumeNumberReset="same"
           ChapterNumberReset="continue" />
         <TocEntry
-          Title="Upgrade Considerations"
-          Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_UpgradeConsiderations.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+          Title="Upgrade Considerations" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"
