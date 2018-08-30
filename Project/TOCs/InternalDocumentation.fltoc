@@ -17,106 +17,17 @@
     PageType="title"
     AutoEndOnLeftPage="disabled"></TocEntry>
   <TocEntry
-    Title="[%=System.LinkedTitle%]"
-    Link="/Content/Print Only Topics/TOC.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    Title="Customize Security in EMS Web App"
+    Link="/Content/WebApp/A_V44.1/A_InstallationGuide/WebApp_ConfigSecurityHeaders.html" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
     BreakType="chapter"
     StartSection="false"
     PageNumberReset="reset"
-    PageLayout="/Content/Resources/PageLayouts/PreviewRN/PrevTOC.flpgl"
+    PageLayout="/Content/Resources/PageLayouts/PreviewRN/PrevChapters.flpgl"
     PageNumber="1"
-    AutoEndOnLeftPage="disabled"
-    PageType="normal">
-    <TocEntry
-      Title="EMS Desktop Client"
-      Link="/Content/ReleaseNotes/Version44.1/Update28/EMSDesktopClient.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-      BreakType="chapter"
-      StartSection="false"
-      PageNumberReset="reset"
-      PageLayout="/Content/Resources/PageLayouts/PreviewRN/PrevChapters.flpgl"
-      PageNumber="1"
-      ChapterNumberReset="reset"
-      ChapterNumber="1"
-      SectionNumberReset="continue"
-      VolumeNumberReset="same"
-      PageType="firstright"
-      AutoEndOnLeftPage="disabled"></TocEntry>
-    <TocEntry
-      Title="EMS Database"
-      Link="/Content/ReleaseNotes/Version44.1/Update28/EMSDatabase.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-      BreakType="chapter"
-      PageType="continue"
-      AutoEndOnLeftPage="disabled"
-      StartSection="false"
-      PageNumberReset="continue"
-      PageLayout="/Content/Resources/PageLayouts/PreviewRN/PrevChapters.flpgl"
-      SectionNumberReset="continue"
-      VolumeNumberReset="same"
-      ChapterNumberReset="continue" />
-    <TocEntry
-      Title="EMS Desktop Client—Academic Planning"
-      Link="/Content/ReleaseNotes/Version44.1/Update28/EMSDesktopClient_AcademicPlanning.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-      BreakType="chapter"
-      PageType="continue"
-      AutoEndOnLeftPage="disabled"
-      StartSection="false"
-      PageNumberReset="continue"
-      PageLayout="/Content/Resources/PageLayouts/PreviewRN/PrevChapters.flpgl"
-      SectionNumberReset="continue"
-      VolumeNumberReset="same"
-      ChapterNumberReset="continue"></TocEntry>
-    <TocEntry
-      Title="EMS Web App"
-      Link="/Content/ReleaseNotes/Version44.1/Update28/EMSWebApp.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-      BreakType="chapter"
-      PageType="continue"
-      AutoEndOnLeftPage="disabled"
-      StartSection="false"
-      PageNumberReset="continue"
-      PageLayout="/Content/Resources/PageLayouts/PreviewRN/PrevChapters.flpgl" />
-    <TocEntry
-      Title="EMS for Outlook Add-in"
-      Link="/Content/ReleaseNotes/Version44.1/Update28/EMSforOutlook.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-      BreakType="chapter"
-      PageType="continue"
-      AutoEndOnLeftPage="disabled"
-      StartSection="false"
-      PageNumberReset="continue"
-      PageLayout="/Content/Resources/PageLayouts/PreviewRN/PrevChapters.flpgl" />
-    <TocEntry
-      Title="Master Calendar"
-      Link="/Content/ReleaseNotes/Version44.1/Update28/EMSMasterCalendar.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-      BreakType="chapter"
-      PageType="continue"
-      AutoEndOnLeftPage="disabled"
-      StartSection="false"
-      PageNumberReset="continue"
-      PageLayout="/Content/Resources/PageLayouts/PreviewRN/PrevChapters.flpgl" />
-    <TocEntry
-      Title="EMS Platform Services"
-      Link="/Content/ReleaseNotes/Version44.1/Update28/EMSPlatformServices.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-      BreakType="chapter"
-      PageType="continue"
-      AutoEndOnLeftPage="disabled"
-      StartSection="false"
-      PageNumberReset="continue"
-      PageLayout="/Content/Resources/PageLayouts/PreviewRN/PrevChapters.flpgl" />
-    <TocEntry
-      Title="EMS Room Sign App"
-      Link="/Content/ReleaseNotes/Version44.1/Update28/EMSRoomSignApp.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-      BreakType="chapter"
-      PageType="continue"
-      AutoEndOnLeftPage="disabled"
-      StartSection="false"
-      PageNumberReset="continue"
-      PageLayout="/Content/Resources/PageLayouts/PreviewRN/PrevChapters.flpgl"></TocEntry>
-    <TocEntry
-      Title="Exchange Integration Web Service"
-      Link="/Content/ReleaseNotes/Version44.1/Update28/ExchangeIntegWebServ.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-      BreakType="chapter"
-      PageType="continue"
-      AutoEndOnLeftPage="disabled"
-      StartSection="false"
-      PageNumberReset="continue"
-      PageLayout="/Content/Resources/PageLayouts/PreviewRN/PrevChapters.flpgl" />
-  </TocEntry>
+    ChapterNumberReset="reset"
+    ChapterNumber="1"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    PageType="firstright"
+    AutoEndOnLeftPage="disabled"></TocEntry>
 </CatapultToc>
