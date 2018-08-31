@@ -75,7 +75,7 @@
       PageLayout="/Content/Resources/PageLayouts/PreviewRN/PrevChapters.flpgl" />
     <TocEntry
       Title="EMS for Outlook Add-in"
-      Link="/Content/ReleaseNotes/Version44.1/Update28/EMSforOutlook.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      Link="/Content/ReleaseNotes/Version44.1/Update28.1/EMSforOutlook.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
       BreakType="chapter"
       PageType="continue"
       AutoEndOnLeftPage="disabled"

@@ -3,5 +3,5 @@
   Version="1">
   <TocEntry
     Title="Customize EMS Web App"
-    Link="/Content/WebApp/A_V44.1/A_InstallationGuide/WebApp_ConfigSecurityHeaders.html" />
+    Link="/Content/InternalDocumentation/WebApp_CustomizeSecurity.html" />
 </CatapultToc>

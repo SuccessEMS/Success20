@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Internal Doc Title Page"
+    Link="/Content/Print/InternalDocumentation.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/PreviewRN/PrevTitle.flpgl"
+    PageNumberReset="reset"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue"
+    ComputeToc="false"
+    ReplaceMergeNode="false"
+    PageNumber="1"
+    PageType="title"
+    AutoEndOnLeftPage="disabled"></TocEntry>
+  <TocEntry
+    Title="Customize Security in EMS Web App"
+    Link="/Content/InternalDocumentation/WebApp_CustomizeSecurity.html" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="reset"
+    PageLayout="/Content/Resources/PageLayouts/PreviewRN/PrevChapters.flpgl"
+    PageNumber="1"
+    ChapterNumberReset="reset"
+    ChapterNumber="1"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    PageType="firstright"
+    AutoEndOnLeftPage="disabled"></TocEntry>
+</CatapultToc>
