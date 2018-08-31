@@ -16,22 +16,22 @@
             <tbody>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p>Microsoft SQL Server 2012 SP2</p>
+                        <p>Microsoft SQL Server 2012 </p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p>Microsoft SQL Server 2012 SP3</p>
+                        <p>Microsoft SQL Server 2012</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p>Microsoft SQL Server 2014 SP1, Compatibility Level 110</p>
+                        <p>Microsoft SQL Server 2014, Compatibility Level 110</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
-                        <p>Microsoft SQL Server 2016 SP1, Compatibility Level 110</p>
+                        <p>Microsoft SQL Server 2016, Compatibility Level 110</p>
                     </td>
                 </tr>
             </tbody>
