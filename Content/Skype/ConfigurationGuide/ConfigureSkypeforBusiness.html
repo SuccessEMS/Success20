@@ -7,7 +7,7 @@
     <body>
         <h1 MadCap:autonum="CHAPTER&#160;1: ">
             <MadCap:concept term="V44.1" />Configure Skype for Business</h1>
-        <p class="box-important"><span class="bold">IMPORTANT:</span>&#160;Skype for Business can now also be configured in the <span class="bold">Conferencing </span>tab of the <a href="../../EMSPlatformServices/ConfigurationGuide/ConfigPSinAdminPortal.html#Conferencing">EMS&#160;Platform Services Admin Portal</a>. </p>
+        <p class="box-important"><span class="bold">IMPORTANT:</span>&#160;Skype for Business must now be configured in the <span class="bold">Conferencing </span>tab of the <a href="../../EMSPlatformServices/ConfigurationGuide/ConfigPSinAdminPortal.html#Conferencing">EMS&#160;Platform Services Admin Portal</a>. </p>
         <p>This topic provides information on the following: </p>
         <ul class="unorder-list">
             <li><a href="#SupportedSkypeProducts">Supported Skype Products</a>
@@ -57,11 +57,9 @@
         <h3><a name="SkypeOnline"></a>Skype for Business Online Integration</h3>
         <p>The following prerequisites are required for the Skype for Business online integration: </p>
         <ol class="number-list">
-            <li>
-                <MadCap:annotation MadCap:createDate="2018-08-21T09:09:11.0948118-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Is it okay to write: &quot;Ensure Microsoft Azure Active Directory is installed and functional.&quot;" MadCap:editor="Megan.Laub" MadCap:editDate="2018-08-28T08:31:49.2161541-06:00">Microsoft</MadCap:annotation> Azure Active Directory.</li>
+            <li>Ensure Microsoft Azure Active Directory is installed and functional.</li>
             <li>Ensure you have admin access to Azure environment. </li>
-            <li>
-                <MadCap:annotation MadCap:createDate="2018-08-21T09:18:35.5552111-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Provide the URI, create a URI...what do they do with the URI?" MadCap:editor="Megan.Laub" MadCap:editDate="2018-08-21T09:19:10.2224310-06:00">EMS Conferencing URI</MadCap:annotation> (for example: https://servernamefqdn/web app directory/ConferencingLogin.aspx/). This URI <span class="bold">must </span>be verifiable and accessible externally.</li>
+            <li>Provide EMS Conferencing URI (e.g., https://servernamefqdn/web app directory/ConferencingLogin.aspx/). This URI <span class="bold">must </span>be verifiable and accessible externally.</li>
             <li>Ensure all EMS&#160;components have been deployed:<ol style="list-style-type: lower-alpha;"><li>EMS Platform Services</li><li>EMS&#160;Web App (optional)</li><li><MadCap:variable name="General.Mobile" /> (optional)</li><li><MadCap:variable name="General.EMS&#160;Desktop Client" /></li><li>Integration to Microsoft Exchange</li></ol></li>
         </ol>
         <h2><a name="Deployment_Types"></a>
@@ -69,9 +67,9 @@
         </h2>
         <p>There are three deployment&#160;types for Skype for Business:</p>
         <ol class="number-list">
-            <li><span class="bold">Skype for Business Server 2015 On Premise:</span> This deployment for Skype for Business does not retain a token and requires authentication every 8 hours. As a result, you will be asked to sign in every 8 hours.&#160;<MadCap:annotation MadCap:createDate="2018-08-28T08:51:25.9468910-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Added this. Is it okay?" MadCap:editor="Megan.Laub" MadCap:editDate="2018-08-28T08:51:36.4958757-06:00">Please follow the instructions in&#160;<a href="#SkypeOnPremIntegration">Prerequisites for Skype for Business Server 2015 (On-premise) Integration</a> and <a href="#Integrate_with_the_Skype_for_Business_Server">Integrate Skype for Business Server</a> for configuration.</MadCap:annotation></li>
-            <li><span class="bold">Skype for Business Online:</span> This deployment retains the token so only an initial authentication is required.&#160;<MadCap:annotation MadCap:createDate="2018-08-28T08:51:52.4657276-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Added this. Is it okay?" MadCap:editor="Megan.Laub" MadCap:editDate="2018-08-28T08:51:56.0186923-06:00">Please follow the instructions in&#160;<a href="#SkypeOnline">Prerequisites for Skype for Business Online Integration</a> and <a href="#IntegrateSkypeOnline">Integrate with Skype for Business Online</a> for configuration.</MadCap:annotation></li>
-            <li><span class="bold">Hybrid:</span> This deployment has the same authentication method as the Online deployment. <MadCap:annotation MadCap:createDate="2018-08-28T08:52:02.2551402-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Added this. Is it okay?" MadCap:editor="Megan.Laub" MadCap:editDate="2018-08-28T08:52:06.8324977-06:00">Please follow the instructions in <a href="#SkypeOnline">Prerequisites for Skype for Business Online Integration</a> and <a href="#IntegrateSkypeOnline">Integrate with Skype for Business Online</a> for configuration.</MadCap:annotation> </li>
+            <li><span class="bold">Skype for Business Server 2015 On Premise:</span> This deployment for Skype for Business does not retain a token and requires authentication every 8 hours. As a result, you will be asked to sign in every 8 hours.&#160;Please follow the instructions in&#160;<a href="#SkypeOnPremIntegration">Prerequisites for Skype for Business Server 2015 (On-premise) Integration</a> and <a href="#Integrate_with_the_Skype_for_Business_Server">Integrate Skype for Business Server</a> for configuration.</li>
+            <li><span class="bold">Skype for Business Online:</span> This deployment retains the token so only an initial authentication is required.&#160;Please follow the instructions in&#160;<a href="#SkypeOnline">Prerequisites for Skype for Business Online Integration</a> and <a href="#IntegrateSkypeOnline">Integrate with Skype for Business Online</a> for configuration.</li>
+            <li><span class="bold">Hybrid:</span> This deployment has the same authentication method as the Online deployment. Please follow the instructions in <a href="#SkypeOnline">Prerequisites for Skype for Business Online Integration</a> and <a href="#IntegrateSkypeOnline">Integrate with Skype for Business Online</a> for configuration. </li>
         </ol>
         <p class="box-note"><span class="bold">NOTE:</span>&#160;EMS&#160;Software uses Unified Communications Web API&#160;2.0 to integrate with Skype for Business Server and Skype for Business Online. </p>
         <div class="TitleandImage">
@@ -81,7 +79,7 @@
             </p>
         </div>
         <div class="box-important">
-            <p><span class="boldAllCaps">Important:</span> Ensure that you have <MadCap:annotation MadCap:createDate="2018-08-21T09:34:06.9075696-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Is this EWIS through EMS? If so, add link to install/update EWIS topic." MadCap:editor="Megan.Laub" MadCap:editDate="2018-08-21T09:38:32.9353928-06:00">Exchange Web services</MadCap:annotation> component deployed in your environment.&#160;</p>
+            <p><span class="boldAllCaps">Important:</span> Ensure that you have <a href="../../EMSforOutlook/IntegrationtoMicrosoftExchange/ConfigIntegExchange.htm">Exchange Integration Web Services</a> component deployed in your environment.&#160;</p>
         </div>
         <h2><a name="Integrate_with_the_Skype_for_Business_Server"></a>
             <MadCap:annotation MadCap:createDate="2018-08-21T10:04:29.8690227-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="For Update 24 and on, should step 1 be done in the Platform Admin portal. What about step 2? Has the Platform Services API URL parameter moved? \r\n\r\nShould we add how to complete step 1 in PS Admin Portal or just link to the PS Config topic?" MadCap:editor="Megan.Laub" MadCap:editDate="2018-08-28T08:57:00.8484930-06:00">
