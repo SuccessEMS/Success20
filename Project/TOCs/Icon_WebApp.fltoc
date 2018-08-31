@@ -174,7 +174,7 @@
     </TocEntry>
     <TocEntry
       Title="User Guide"
-      Link="/Content/UserGuides/3_EMSWebAppV44.1_UG.htm">
+      Link="/Content/WebApp/A_V44.1/C_UserGuide/3_EMSWebAppV44.1_UG.htm">
       <TocEntry
         Title="Get Started with EMS Web App"
         Link="/Content/WebApp/A_V44.1/C_UserGuide/WebApp_GettingStarted.html">
@@ -211,8 +211,11 @@
           Link="/Content/WebApp/A_V44.1/C_UserGuide/WebApp_EventDetailsPage.html" />
       </TocEntry>
       <TocEntry
-        Title="Create a Reservation in EMS Web App"
-        Link="/Content/WebApp/A_V44.1/C_UserGuide/WebApp_MakingaResv.html">
+        Title="Overview of Creating a Reservation"
+        Link="/Content/WebApp/A_V44.1/C_UserGuide/IntroCreateRes.htm">
+        <TocEntry
+          Title="Create a Reservation in EMS Web App"
+          Link="/Content/WebApp/A_V44.1/C_UserGuide/WebApp_MakingaResv.html"></TocEntry>
         <TocEntry
           Title="Ways to Make Reservations"
           Link="/Content/WebApp/A_V44.1/C_UserGuide/WebApp_WaystoMakeReservations.html" />

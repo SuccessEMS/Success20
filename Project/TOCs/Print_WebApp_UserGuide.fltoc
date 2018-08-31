@@ -17,7 +17,7 @@
     PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/TOC8_5X11.flpgl" />
   <TocEntry
     Title="Introduction"
-    Link="/Content/UserGuides/3_EMSWebAppV44.1_UG.htm"
+    Link="/Content/WebApp/A_V44.1/C_UserGuide/3_EMSWebAppV44.1_UG.htm"
     BreakType="chapter"
     StartSection="false"
     PageNumberReset="reset"
@@ -140,155 +140,53 @@
       ChapterNumberReset="continue" />
   </TocEntry>
   <TocEntry
-    Title="Create a Reservation in EMS Web App"
-    Link="/Content/WebApp/A_V44.1/C_UserGuide/WebApp_MakingaResv.html"
-    BreakType="chapter"
-    StartSection="false"
-    PageNumberReset="continue"
-    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
-    SectionNumberReset="continue"
-    VolumeNumberReset="same"
-    ChapterNumberReset="continue">
+    Title="Overview of Creating a Reservation"
+    Link="/Content/WebApp/A_V44.1/C_UserGuide/IntroCreateRes.htm">
+    <TocEntry
+      Title="Create a Reservation in EMS Web App"
+      Link="/Content/WebApp/A_V44.1/C_UserGuide/WebApp_MakingaResv.html"></TocEntry>
     <TocEntry
       Title="Ways to Make Reservations"
-      Link="/Content/WebApp/A_V44.1/C_UserGuide/WebApp_WaystoMakeReservations.html"
-      BreakType="chapter"
-      StartSection="false"
-      PageNumberReset="continue"
-      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
-      SectionNumberReset="continue"
-      VolumeNumberReset="same"
-      ChapterNumberReset="continue" />
+      Link="/Content/WebApp/A_V44.1/C_UserGuide/WebApp_WaystoMakeReservations.html" />
     <TocEntry
       Title="View Your Events"
-      Link="/Content/WebApp/A_V44.1/C_UserGuide/WebApp_ViewingYourEvents.html"
-      BreakType="chapter"
-      StartSection="false"
-      PageNumberReset="continue"
-      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
-      SectionNumberReset="continue"
-      VolumeNumberReset="same"
-      ChapterNumberReset="continue" />
+      Link="/Content/WebApp/A_V44.1/C_UserGuide/WebApp_ViewingYourEvents.html" />
     <TocEntry
       Title="Search for Available Rooms"
-      Link="/Content/WebApp/A_V44.1/C_UserGuide/WebApp_SearchingforAvailableRooms.html"
-      BreakType="chapter"
-      StartSection="false"
-      PageNumberReset="continue"
-      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
-      SectionNumberReset="continue"
-      VolumeNumberReset="same"
-      ChapterNumberReset="continue" />
+      Link="/Content/WebApp/A_V44.1/C_UserGuide/WebApp_SearchingforAvailableRooms.html" />
     <TocEntry
       Title="Book Multiple Rooms"
-      Link="/Content/WebApp/A_V44.1/C_UserGuide/WebApp_BookingMultipleRooms.html"
-      BreakType="chapter"
-      StartSection="false"
-      PageNumberReset="continue"
-      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
-      SectionNumberReset="continue"
-      VolumeNumberReset="same"
-      ChapterNumberReset="continue" />
+      Link="/Content/WebApp/A_V44.1/C_UserGuide/WebApp_BookingMultipleRooms.html" />
     <TocEntry
       Title="Book Recurring Meetings"
-      Link="/Content/WebApp/A_V44.1/C_UserGuide/WebApp_BookingRecurringMeetings.html"
-      BreakType="chapter"
-      StartSection="false"
-      PageNumberReset="continue"
-      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
-      SectionNumberReset="continue"
-      VolumeNumberReset="same"
-      ChapterNumberReset="continue" />
+      Link="/Content/WebApp/A_V44.1/C_UserGuide/WebApp_BookingRecurringMeetings.html" />
     <TocEntry
       Title="Book a Video Conference Room"
-      Link="/Content/WebApp/A_V44.1/C_UserGuide/WebApp_BookingVCRoom.html"
-      BreakType="chapter"
-      StartSection="false"
-      PageNumberReset="continue"
-      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
-      SectionNumberReset="continue"
-      VolumeNumberReset="same"
-      ChapterNumberReset="continue" />
+      Link="/Content/WebApp/A_V44.1/C_UserGuide/WebApp_BookingVCRoom.html" />
     <TocEntry
       Title="Book a Desk or Workspace"
-      Link="/Content/WebApp/A_V44.1/C_UserGuide/WebApp_BookingDeskWorkspace.html"
-      BreakType="chapter"
-      StartSection="false"
-      PageNumberReset="continue"
-      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
-      SectionNumberReset="continue"
-      VolumeNumberReset="same"
-      ChapterNumberReset="continue" />
+      Link="/Content/WebApp/A_V44.1/C_UserGuide/WebApp_BookingDeskWorkspace.html" />
     <TocEntry
       Title="Add Reservation Details"
-      Link="/Content/WebApp/A_V44.1/C_UserGuide/WebApp_AddingReservationDetails.htm"
-      BreakType="chapter"
-      StartSection="false"
-      PageNumberReset="continue"
-      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
-      SectionNumberReset="continue"
-      VolumeNumberReset="same"
-      ChapterNumberReset="continue" />
+      Link="/Content/WebApp/A_V44.1/C_UserGuide/WebApp_AddingReservationDetails.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     <TocEntry
       Title="Add Services to a Meeting"
-      Link="/Content/WebApp/A_V44.1/C_UserGuide/WebApp_AddingServicestoMtg.htm"
-      BreakType="chapter"
-      StartSection="false"
-      PageNumberReset="continue"
-      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
-      SectionNumberReset="continue"
-      VolumeNumberReset="same"
-      ChapterNumberReset="continue" />
+      Link="/Content/WebApp/A_V44.1/C_UserGuide/WebApp_AddingServicestoMtg.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     <TocEntry
       Title="Work with Services"
-      Link="/Content/WebApp/A_V44.1/C_UserGuide/WebApp_WorkingwithServices.htm"
-      BreakType="chapter"
-      StartSection="false"
-      PageNumberReset="continue"
-      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
-      SectionNumberReset="continue"
-      VolumeNumberReset="same"
-      ChapterNumberReset="continue" />
+      Link="/Content/WebApp/A_V44.1/C_UserGuide/WebApp_WorkingwithServices.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     <TocEntry
       Title="Cancel Your Reservations and Bookings"
-      Link="/Content/WebApp/A_V44.1/C_UserGuide/WebApp_CancelingYourResvandBook.html"
-      BreakType="chapter"
-      StartSection="false"
-      PageNumberReset="continue"
-      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
-      SectionNumberReset="continue"
-      VolumeNumberReset="same"
-      ChapterNumberReset="continue" />
+      Link="/Content/WebApp/A_V44.1/C_UserGuide/WebApp_CancelingYourResvandBook.html" />
     <TocEntry
       Title="Edit Reservations and Bookings"
-      Link="/Content/WebApp/A_V44.1/C_UserGuide/WebApp_EditResvBooking.html"
-      BreakType="chapter"
-      StartSection="false"
-      PageNumberReset="continue"
-      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
-      SectionNumberReset="continue"
-      VolumeNumberReset="same"
-      ChapterNumberReset="continue" />
+      Link="/Content/WebApp/A_V44.1/C_UserGuide/WebApp_EditResvBooking.html" />
     <TocEntry
       Title="Invite Attendees with EMS for Outlook"
-      Link="/Content/WebApp/A_V44.1/C_UserGuide/WebApp_InviteAttendeesOutlook.htm"
-      BreakType="chapter"
-      StartSection="false"
-      PageNumberReset="continue"
-      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
-      SectionNumberReset="continue"
-      VolumeNumberReset="same"
-      ChapterNumberReset="continue" />
+      Link="/Content/WebApp/A_V44.1/C_UserGuide/WebApp_InviteAttendeesOutlook.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     <TocEntry
       Title="Notifications in the EMS Web App"
-      Link="/Content/WebApp/A_V44.1/C_UserGuide/WebApp_Notifications.htm"
-      BreakType="chapter"
-      StartSection="false"
-      PageNumberReset="continue"
-      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
-      SectionNumberReset="continue"
-      VolumeNumberReset="same"
-      ChapterNumberReset="continue" />
+      Link="/Content/WebApp/A_V44.1/C_UserGuide/WebApp_Notifications.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
   </TocEntry>
   <TocEntry
     Title="Personalize Your Account"
