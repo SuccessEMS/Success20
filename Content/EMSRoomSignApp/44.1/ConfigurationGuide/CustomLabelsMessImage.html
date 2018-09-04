@@ -1,14 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\emsroomSignApp.flmsp');">
     <head>
-        <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title>Customizing Labels, Messages, and Images in the EMS Room Sign App</title>
+        <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <title>Customizing Labels, Messages, and Images in the EMS Room Sign App</title>
     </head>
     <body>
         <h1 MadCap:autonum="CHAPTER&#160;1: ">
             <MadCap:concept term="V44.1" />Configure Custom Labels, Messages, Style Sheets, and Images in EMS Room Sign App</h1>
         <ol class="number-list">
             <li>On the EMS Desktop Client toolbar, click <span class="bold">EMS Glance Settings</span> to access the EMS Room Sign App Settings area.&#160;<p class="box-note"><span class="boldAllCaps">Note:</span> You can set how information displays at the Global level (the default for all Profiles) or for just one <a href="ConfigProfile.html">Profile.</a></p></li>
-            <li>Open <span class="bold">Global Settings</span>&#160;to set this functionality as the default for all Profiles,&#160;<i>or</i>&#160;open a Profile&#160;for which you wish to create a special display,&#160;and then edit the settings on the <span class="bold">Settings </span>tab.<p><img src="../Images/B_Configuration/EMSGlanceMainWindow.png" style="width: 544px;height: 289px;" /></p></li>
+            <li>Open <span class="bold">Global Settings</span>&#160;to set this functionality as the default for all Profiles,&#160;<i>or</i>&#160;open a Profile&#160;for which you want to create a special display,&#160;and then edit the settings on the <span class="bold">Settings </span>tab.<p><img src="../Images/B_Configuration/EMSGlanceMainWindow.png" style="width: 544px;height: 289px;" /></p></li>
             <li>Adjust the Global or Profile settings listed in the table below to configure how logos, labels, images, and other visual elements display. The EMS Room Sign App allows you to re-label all buttons, page labels, and messages.</li>
         </ol>
         <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
@@ -71,7 +72,9 @@
             <li>Create an EMSRoomSignApp/Content/Custom folder on your web server.</li>
             <li>Name your custom style sheet CUSTOM.CSS and place it in the EMSRoomSignApp/Content/Custom folder. If the system detects this file, it will override all default style sheets (e.g., Layout.css, Positioning.css, Site.css, etc.).</li>
         </ol>
-        <h2><a name="SupportedLogo"></a>Supported Logo and Background Image Sizes</h2>
+        <h2>
+            <a name="SupportedLogo">
+            </a>Supported Logo and Background Image Sizes</h2>
         <p>To customize the logo and/or background, update the ‘Logo Url’ and ‘Background Url’ profile settings in the ‘Misc’ area.* You can use either a URL or a server path (e.g., /EmsRoomSign/Content/Images/custom-logo.png). The logo can be a maximum of 300 x 80 pixels.&#160;The background depends on the tablet resolution. For landscape mode, the image resolution will typically be 1024 x 768.</p>
         <p class="title">EMS Room Sign App Profile Settings</p>
         <p>

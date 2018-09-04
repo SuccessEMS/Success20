@@ -5,7 +5,7 @@
         <meta name="mt-unsafe" value="true" />
     </head>
     <body>
-        <h1>Upgrade Instructions</h1>
+        <h1 MadCap:autonum="CHAPTER&#160;1: ">Upgrade Instructions</h1>
         <MadCap:snippetBlock src="../../../CloudInstallNote.flsnp" />
         <p>In order to upgrade&#160;<MadCap:variable name="General.Product" />, you must perform two operations:</p>
         <ul class="unorder-list">
@@ -41,7 +41,7 @@
             <li>Using <strong>SQL Server Management Studio</strong>, back&#160;up your existing EMS databases.</li>
             <li>Run <strong>EMS.ServerInstall.exe</strong>. (This .exe can be run from any PC that has access to your database server.)<p><img src="Images/Installation/ServerInstallUpgradeUtility.png" class="PDFlarge" /></p></li>
             <li>In the Server field,&#160;enter the name of the MS SQL Server.</li>
-            <li>In the Database field, enter the name of the EMS database you wish to upgrade.&#160;</li>
+            <li>In the Database field, enter the name of the EMS database you want to upgrade.&#160;</li>
             <li>In the Server Authentication area, specify your MS SQL Server authentication credentials.&#160; If SQL Server Authentication Mode is selected, you will be required to specify a User Name and Password.&#160;</li>
             <li>Click the <strong>Execute </strong>button. A Backup Database popup&#160;will appear.&#160;</li>
             <li>Click <strong>Yes</strong> to acknowledge that you have backed up your EMS databases and it is OK to continue. You have completed the upgrade process for the server portion of EMS. Next you will upgrade individual workstations.&#160;<p><img alt="" class="internal" src="Images/Installation/ServerInstallUpgradeUtility.png" /></p></li>
@@ -62,7 +62,7 @@
                 <li>Download the&#160;<strong>EMSDesktopWebDeploySetup.msi</strong>&#160;file onto the web server that will be running <MadCap:variable name="General.EMS&#160;Desktop Client" /> Web Deployment.</li>
                 <li>Run the&#160;<strong>EMSDesktopWebDeploySetup.msi </strong>as an administrator.</li>
                 <li>The first screen welcomes you to the <MadCap:variable name="General.EMS&#160;Desktop Client" /> Web Deployment&#160;Setup Wizard.&#160;Click&#160;<strong>Next</strong>&#160;to begin the installation process.&#160;The&#160;<em>Destination Folder</em>&#160;dialog&#160;will appear.<p><img alt="" class="internal" src="Images/Installation/WebDeploymentsetup.png" /></p></li>
-                <li>Select the destination folder where you wish to install the EMS <MadCap:variable name="General.EMS&#160;Desktop Client" /> Web Deployment.&#160;The installation process will create a new physical directory on your web server based on the destination folder path you entered (“EMSDesktopWebDeploy” in the example above.).</li>
+                <li>Select the destination folder where you want to install the EMS <MadCap:variable name="General.EMS&#160;Desktop Client" /> Web Deployment.&#160;The installation process will create a new physical directory on your web server based on the destination folder path you entered (“EMSDesktopWebDeploy” in the example above.).</li>
                 <li>In the <strong>Web Site URL and Virtual Directory Name</strong>&#160;fields, enter your SQL instance name.</li>
                 <li>In the <strong>EMS Database </strong>field, enter your Database Name: the Virtual Directory Name will default to the destination folder specified in Step 6.&#160; It is recommended that you keep the default setting.&#160; The installation process will create a virtual directory on your web server based on the virtual directory entered (“EMS Desktop Web Deploy” in the example above.)&#160;</li>
                 <li>If you will be using a Load Balancer with the EMS&#160;Desktop&#160;Web Deploy application, enter&#160;the Name or IP Address of your server in the <strong>EMS SQL Server</strong> field.&#160;</li>
@@ -77,11 +77,11 @@
                 <li>After following the steps above, verify your <MadCap:variable name="General.EMS&#160;Desktop Client" /> Web Deployment installation by opening a browser and entering the address:<p class="mt-indent-2">http://[ServerName]/EMSDesktopWebDeploy/&#160; (replace [ServerName] with the name of your web server)</p></li>
             </ol>
             <div class="box-note">
-                <p><span class="bold">NOTE:</span>&#160;The first time you launch the <MadCap:variable name="General.EMS&#160;Desktop Client" /> Web Deployment, it may take a few extra moments for the page to display.&#160; If you encounter any issues, please contact <a href="#Contact_Customer_Support">Customer Support</a> for assistance.</p>
+                <p><span class="bold">NOTE:</span>&#160;The first time you launch the <MadCap:variable name="General.EMS&#160;Desktop Client" /> Web Deployment, it might take a few extra moments for the page to display.&#160; If you encounter any issues, please contact <a href="#Contact_Customer_Support">Customer Support</a> for assistance.</p>
             </div>
         </div>
         <h3><a name="Installing"></a>Installing Additional EMS Services</h3>
-        <p>All optional EMS features, services, and add-ons are listed <a href="../../../OptionalFeatures.htm">here</a>. You may need to install or upgrade additional features.</p>
+        <p>All optional EMS features, services, and add-ons are listed <a href="../../../OptionalFeatures.htm">here</a>. You might need to install or upgrade additional features.</p>
         <h2><a name="Contact_Customer_Support"></a>Contact Customer Support</h2>
         <MadCap:snippetBlock src="../../../ContactCustomerSupport.flsnp" />
     </body>

@@ -1,13 +1,7 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="[%=System.LinkedTitle%]"
-    Link="/Content/ReleaseNotes/Version44.1/Update28/EMSWebApp_Known_Issues.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-  <TocEntry
-    Title="[%=System.LinkedTitle%]"
-    Link="/Content/ReleaseNotes/Version44.1/Update28/EMSFloorPlans_Known_Issues.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-  <TocEntry
-    Title="[%=System.LinkedTitle%]"
-    Link="/Content/ReleaseNotes/Version44.1/Update28/EMSKioskApp_KnownIssues.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    Title="Administrative Functions in the EMS Web App"
+    Link="/Content/WebApp/A_V44.1/B_ConfigurationGuide/AdminFunctions.htm" />
 </CatapultToc>
