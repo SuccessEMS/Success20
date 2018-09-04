@@ -33,7 +33,7 @@
     BreakType="chapter"
     StartSection="false"
     PageNumberReset="continue"
-    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
+    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"></TocEntry>
   <TocEntry
     Title="Configure Everyday Users"
     Link="/Content/WebApp/A_V44.1/B_ConfigurationGuide/WebApp_CG_ConfigEverydayUsers.htm"
@@ -217,4 +217,7 @@
     SectionNumberReset="continue"
     VolumeNumberReset="same"
     ChapterNumberReset="continue" />
+  <TocEntry
+    Title="Authentication Options"
+    Link="/Content/WebApp/A_V44.1/B_ConfigurationGuide/AuthOptions_WebApp.htm" />
 </CatapultToc>
