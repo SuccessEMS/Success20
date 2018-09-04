@@ -32,7 +32,7 @@
         Link="/Content/WebApp/A_V44.1/A_InstallationGuide/WebApp_OptionalFeatures.html">
         <TocEntry
           Title="Customize EMS Web App"
-          Link="/Content/WebApp/A_V44.1/A_InstallationGuide/WebApp_Customize.html" />
+          Link="/Content/WebApp/A_V44.1/B_ConfigurationGuide/WebApp_Customize.html" />
       </TocEntry>
       <TocEntry
         Title="EMS Mobile Web Application"
