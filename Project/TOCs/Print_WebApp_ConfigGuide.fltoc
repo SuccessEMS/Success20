@@ -28,6 +28,13 @@
     SectionNumberReset="continue"
     VolumeNumberReset="same"></TocEntry>
   <TocEntry
+    Title="Administrative Functions in the EMS Web App"
+    Link="/Content/WebApp/A_V44.1/B_ConfigurationGuide/AdminFunctions.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
+  <TocEntry
     Title="Configure Everyday Users"
     Link="/Content/WebApp/A_V44.1/B_ConfigurationGuide/WebApp_CG_ConfigEverydayUsers.htm"
     BreakType="chapter"
