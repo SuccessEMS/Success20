@@ -1,21 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <html MadCap:lastBlockDepth="8" MadCap:lastHeight="4499" MadCap:lastWidth="734" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\EMSDesktopClient.flmsp');">
-    <head><title>Configure Statuses V44.1 (EMS Desktop Client)</title>
+    <head>
+        <title>Configure Statuses V44.1 (EMS Desktop Client)</title>
         <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" />
     </head>
     <body>
         <h1>
             <MadCap:concept term="V44.1" />Configure Statuses</h1>
         <p>A status automates the booking workflow, especially for booking requests that must be approved and then completed. A status is one of four core data items that you must configure so that your users can make reservations.</p>
-        <p class="box-tip"><span class="bold">TIP:</span> You can associate a status to reservations and to bookings, but only booking-level statuses affects room availability. Every booking must have a status.</p>
-        <p>You may wish to configure your own statuses to automate the booking request workflow, such as “Confirmed,” “Tentative,” “Wait List,” and “Canceled.” You can configure as many statuses as you need and give them any names you want; however, you must always assign one of the four following status types to a status:</p>
+        <p class="box-tip">
+            <span class="bold">TIP:</span> You can associate a status to reservations and to bookings, but only booking-level statuses affects room availability. Every booking must have a status.</p>
+        <p>You may want to configure your own statuses to automate the booking request workflow, such as “Confirmed,” “Tentative,” “Wait List,” and “Canceled.” You can configure as many statuses as you need and give them any names you want; however, you must always assign one of the four following status types to a status:</p>
         <ul class="unorder-list">
             <li>Book Space</li>
             <li>Wait</li>
             <li>Info Only</li>
             <li>Cancel</li>
         </ul>
-        <p class="box-important"><span class="bold">IMPORTANT:&#160;</span>Status type determines if a room remains available to other users. </p>
+        <p class="box-important">
+            <span class="bold">IMPORTANT:&#160;</span>Status type determines if a room remains available to other users. </p>
         <p>The name that you assign to a status is a convenient label that assists you in managing your organization’s business. The status type is what is actually used by EMS to determine if a room must be taken out of inventory.</p>
         <h2 class="Heading2">To configure statuses&#160;</h2>
         <ol start="1" class="number-list">
@@ -24,7 +27,8 @@
         <p>
             <img src="../../../Resources/Images/DTC_V44_CGBookElements/Configuring Statuses.png" alt="emssg_coreadmin_image005.png" />
         </p>
-        <p class="box-tip"><span class="bold">TIP:</span>&#160;Optionally, to view all statuses in your EMS database, regardless of status, under Show, click Inactive.</p>
+        <p class="box-tip">
+            <span class="bold">TIP:</span>&#160;Optionally, to view all statuses in your EMS database, regardless of status, under Show, click Inactive.</p>
         <ol start="2" class="number-list">
             <li>Click New.&#160;The Status dialog box opens.</li>
         </ol>
@@ -114,7 +118,8 @@
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td colspan="2" class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p><MadCap:variable name="General.EMS&#160;Web App" /> Settings</p>
+                        <p>
+                            <MadCap:variable name="General.EMS&#160;Web App" /> Settings</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
@@ -123,7 +128,8 @@
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
                         <p>Select this option to display the event details for bookings with this status in EMS Web App.</p>
-                        <p><span class="bold">Note</span>:&#160;For a booking to appear on Browse Events, the event type, status and room for that booking all have to have Display to Everyday User (DEDU)&#160;settings enabled. If one of these properties is not DEDU-enabled, the booking will not appear on Browse Events in the EMS&#160;Web App.</p>
+                        <p>
+                            <span class="bold">Note</span>:&#160;For a booking to appear on Browse Events, the event type, status and room for that booking all have to have Display to Everyday User (DEDU)&#160;settings enabled. If one of these properties is not DEDU-enabled, the booking will not appear on Browse Events in the EMS&#160;Web App.</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">

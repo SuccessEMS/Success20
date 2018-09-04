@@ -1,7 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <html xml:lang="en-us" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../Resources/MasterPages/EMSMobileApp.flmsp');">
     <head>
-        <link href="../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+        <link href="../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <title>
+        </title>
     </head>
     <body>
         <h1 MadCap:autonum="CHAPTER&#160;1: ">
@@ -13,7 +15,8 @@
             <li>To assign multiple templates to multiple users in a single step, see&#160;also:&#160;<MadCap:xref href="../../WebApp/A_V44.1/B_ConfigurationGuide/WebApp_CG_AssignSecTempMultEU.html">Assign Security Templates to Multiple Everyday Users</MadCap:xref>.</li>
         </ul>
         <div class="box-tip">
-            <p><span class="bold">TIP:</span>&#160;You configure EMS Desktop Client user accounts in a different area (under the <span class="bold">System Administration</span> &gt; <span class="bold">Security </span>menu). For instructions,&#160;see&#160;<MadCap:xref href="../../EMSDesktopClient/V44.1/ConfigurationGuide/ConfigUsers.htm">Configure EMS&#160;Desktop Client Users</MadCap:xref>.</p>
+            <p>
+                <span class="bold">TIP:</span>&#160;You configure EMS Desktop Client user accounts in a different area (under the <span class="bold">System Administration</span> &gt; <span class="bold">Security </span>menu). For instructions,&#160;see&#160;<MadCap:xref href="../../EMSDesktopClient/V44.1/ConfigurationGuide/ConfigUsers.htm">Configure EMS&#160;Desktop Client Users</MadCap:xref>.</p>
             <p>Additionally, if your organization uses EMS Human Resources Toolkit to manage Everyday User accounts,&#160;see also:&#160;<MadCap:xref href="../../OptionalFeatures/5_EMS_HumanResourcesToolkitHome.htm">EMS Human Resources Toolkit</MadCap:xref>.</p>
             <p>Lastly, a set of Account Management parameters control account management behavior. To view these parameters, see also: <a href="../../WebApp/A_V44.1/B_ConfigurationGuide/WebApp_CG_WebAppSysParameters.html">EMS Web App Parameters</a>.</p>
         </div>
@@ -31,14 +34,17 @@
         </MadCap:dropDown>
         <ol start="1" class="number-list">
             <li>On the EMS Desktop Client&#160;menu bar, click <span class="bold">Configuration </span>&gt; <span class="bold">Everyday User Applications</span> &gt;&#160;<span class="bold">Everyday Users</span>.&#160;The Everyday&#160;Users window opens. The number of configured users for EMS Web App&#160;shows in&#160;the upper left corner.&#160;The number of users for which your organization is licensed shows in the top center.<p><img src="../../WebApp/A_V44.1/B_ConfigurationGuide/Images/WebApp_Config/Configuring Everyday Users_1.png" alt="https://success.emssoftware.com/@api/deki/files/4020/DTPEverydayUsers.png?revision=1" class="PDFlarge" /></p></li>
-            <li><a name="SearchforUser"></a>Check that the user you wish to configure does not already exist.&#160;</li>
+            <li>
+                <a name="SearchforUser">
+                </a>Check that the user you want to configure does not already exist.&#160;</li>
             <ol style="list-style-type: lower-alpha;">
                 <li>Enter the user name or email address in the&#160;<span class="bold">Find</span>&#160;field.&#160;<div class="box-tip"><p><span class="bold">TIP:</span>&#160;This search string is not case-sensitive, but your entries must be in the correct order. For example, if searching by Email Address, a search string of&#160;bob&#160;returns&#160;bobworth@emssoftware.com&#160;but not&#160;dbobbett@emssoftware.com.</p></div></li>
                 <li>Narrow your search results by:<ul><li>Group Type</li><li>City</li><li>Status</li><li>Process Template</li></ul></li>
                 <li>Click<span class="bold">&#160;Display</span>. Search results show&#160;in the lower pane of the window. If your user does not already exist in EMS, proceed to the next step.&#160;</li>
             </ol>
         </ol>
-        <p class="box-note"><span class="bold">NOTE:&#160;</span>If the EMS system parameter <span class="bold">Users linked to Groups via External Reference</span>&#160;is set to&#160;<span class="bold">Yes</span>, then you will also see&#160;a Group column and a City column.</p>
+        <p class="box-note">
+            <span class="bold">NOTE:&#160;</span>If the EMS system parameter <span class="bold">Users linked to Groups via External Reference</span>&#160;is set to&#160;<span class="bold">Yes</span>, then you will also see&#160;a Group column and a City column.</p>
         <ol start="1" class="number-list" MadCap:continue="true">
             <li>Create a new user.&#160;Click the&#160;<span class="bold">New&#160;</span>button.&#160;A dialog box opens.&#160;&#160;&#160;<div class="box-note"><p><span class="bold">NOTE:</span>&#160;If the user has confirmed membership (by responding to an email containing an activation link), the&#160;<span class="bold">Validated&#160;</span>checkbox highlighted below will be selected.&#160;If the user had to answer questions when requesting an account, you can view the user's responses on the&#160;<span class="bold">User Defined Fields</span>&#160;tab.</p></div><p><img src="../../WebApp/A_V44.1/B_ConfigurationGuide/Images/WebApp_Config/Configuring Everyday Users_2.png" alt="https://success.emssoftware.com/@api/deki/files/3934/WebUserConfig.png?revision=2" /></p><div class="box-tip"><p><span class="bold">TIP:</span>&#160;When you configure a user, you can also specify one or more delegates for the user from the <span class="bold"><a href="#delegates">Delegates </a></span>tab. A&#160;delegate&#160;is a user who can create and view reservations on behalf of another user.<br /></p></div></li>
             <li>Enter information for the new user.&#160;User name&#160;and email address are required; password&#160;is only required if not using the optional <a href="../../Authentication/IntroEMSIntegratedAuth.htm">Integrated Authentication</a> module. All other information is optional and can be added later as&#160;needed.</li>
@@ -59,7 +65,8 @@
             <tbody>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p><span class="bold">Name</span>
+                        <p>
+                            <span class="bold">Name</span>
                         </p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
@@ -68,7 +75,8 @@
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p><span class="bold">Password</span>
+                        <p>
+                            <span class="bold">Password</span>
                         </p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
@@ -77,7 +85,8 @@
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p><span class="bold">Email Address</span>
+                        <p>
+                            <span class="bold">Email Address</span>
                         </p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
@@ -86,7 +95,8 @@
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p><span class="bold">Phone 1 /Phone 2</span>
+                        <p>
+                            <span class="bold">Phone 1 /Phone 2</span>
                         </p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
@@ -95,7 +105,8 @@
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p><span class="bold">Notes</span>
+                        <p>
+                            <span class="bold">Notes</span>
                         </p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
@@ -104,7 +115,8 @@
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p><span class="bold">External Reference</span>
+                        <p>
+                            <span class="bold">External Reference</span>
                         </p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
@@ -113,7 +125,8 @@
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p><span class="bold">Network ID</span>
+                        <p>
+                            <span class="bold">Network ID</span>
                         </p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
@@ -122,7 +135,8 @@
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p><span class="bold">Email Opt Out</span>
+                        <p>
+                            <span class="bold">Email Opt Out</span>
                         </p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
@@ -131,21 +145,26 @@
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p><span class="bold">Status</span>
+                        <p>
+                            <span class="bold">Status</span>
                         </p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
                         <p>REQUIRED. Select the status for the user:</p>
                         <ul class="unorder-list">
-                            <li><span class="bold">Active</span>—The user can log in to EMS Web App, EMS Mobile App, and EMS for Outlook.</li>
-                            <li><span class="bold">Pending</span>—The user cannot log in to EMS Web App, EMS Mobile App, and EMS for Outlook and is informed that he/she must check back at a later time.</li>
-                            <li><span class="bold">Inactive</span>—The user cannot log in to EMS Web App, EMS Mobile App, and EMS for Outlook&#160;and is instructed to contact the EMS administrator.</li>
+                            <li>
+                                <span class="bold">Active</span>—The user can log in to EMS Web App, EMS Mobile App, and EMS for Outlook.</li>
+                            <li>
+                                <span class="bold">Pending</span>—The user cannot log in to EMS Web App, EMS Mobile App, and EMS for Outlook and is informed that he/she must check back at a later time.</li>
+                            <li>
+                                <span class="bold">Inactive</span>—The user cannot log in to EMS Web App, EMS Mobile App, and EMS for Outlook&#160;and is instructed to contact the EMS administrator.</li>
                         </ul>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p><span class="bold">Security Template</span>
+                        <p>
+                            <span class="bold">Security Template</span>
                         </p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
@@ -154,17 +173,20 @@
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p><span class="bold">Time Zone</span>
+                        <p>
+                            <span class="bold">Time Zone</span>
                         </p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
                         <p>OPTIONAL. The time zone in which the user is located. </p>
-                        <p><span class="bold">NOTE</span>:&#160;As of Version 44.1, EMS&#160;Software strongly recommends that time zones are assigned to users  for an optimal experience on all Everyday User Applications.</p>
+                        <p>
+                            <span class="bold">NOTE</span>:&#160;As of Version 44.1, EMS&#160;Software strongly recommends that time zones are assigned to users  for an optimal experience on all Everyday User Applications.</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
-                        <p><span class="bold">Validated</span>
+                        <p>
+                            <span class="bold">Validated</span>
                         </p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
@@ -181,13 +203,16 @@
         </p>
         <ol start="5" class="number-list" MadCap:continue="true">
             <li>From the <span class="bold">Groups </span>tab, specify Groups&#160;on whose behalf the user can create and manage reservations.&#160;To&#160;filter the list of active groups displayed, use the&#160;<span class="bold">Find&#160;</span>and&#160;<span class="bold">Type&#160;</span>fields and&#160;then click&#160;<span class="bold">Display</span>. Select one or more Groups (use CTRL-click for multiple groups), and then click&#160;<span class="bold">Move&#160;</span>(<span class="bold">&gt;</span>) to move the selected groups to the <span class="bold">Selected </span>list.</li>
-            <li><a name="delegates"></a>Specify Delegates the user can impersonate from the <span class="bold">Delegates&#160;</span>tab.&#160;To see all available users, click&#160;<span class="bold">Display</span>. To narrow the search results, use the&#160;<span class="bold">Search </span>by&#160;dropdown list to search by User Name or Email Address.&#160;Select one or more delegates (using CTRL-click for multiple delegates), and then click&#160;<span class="bold">Move&#160;</span>(<span class="bold">&gt;</span>) to move the selected users to the <span class="bold">Selected </span>list.&#160;</li>
+            <li>
+                <a name="delegates">
+                </a>Specify Delegates the user can impersonate from the <span class="bold">Delegates&#160;</span>tab.&#160;To see all available users, click&#160;<span class="bold">Display</span>. To narrow the search results, use the&#160;<span class="bold">Search </span>by&#160;dropdown list to search by User Name or Email Address.&#160;Select one or more delegates (using CTRL-click for multiple delegates), and then click&#160;<span class="bold">Move&#160;</span>(<span class="bold">&gt;</span>) to move the selected users to the <span class="bold">Selected </span>list.&#160;</li>
         </ol>
         <p>
             <img src="Delegate.PNG" />
         </p>
         <div class="box-tip">
-            <p><span class="bold">TIP:</span>&#160;Click&#160;the <span class="bold">Spelling&#160;</span>icon to spell-check any information that you manually entered for the user.</p>
+            <p>
+                <span class="bold">TIP:</span>&#160;Click&#160;the <span class="bold">Spelling&#160;</span>icon to spell-check any information that you manually entered for the user.</p>
         </div>
         <ol start="5" class="number-list" MadCap:continue="true">
             <li>Click&#160;<span class="bold">OK</span>.&#160;The dialog box closes and returns you&#160;to the users window with the newly configured user automatically selected.</li>

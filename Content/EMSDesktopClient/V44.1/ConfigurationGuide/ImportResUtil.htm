@@ -4,7 +4,7 @@
         <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title>Import Reservations Utility V44.1 (EMS Desktop Client)</title>
     </head>
     <body>
-        <h1 class="Heading1">
+        <h1 class="Heading1" MadCap:autonum="CHAPTER&#160;1: ">
             <MadCap:concept term="V44.1" />Import Reservations Utility</h1>
         <p>This utility enables you to import existing reservations into your EMS database from a tab-delimited text file. (See&#160;Also: <a href="ResImportFileSpec.htm">Reservation Import File Specifications</a> for the import file specifications.) Importing reservations is a two-step process.</p>
         <ol start="1" class="number-list">
@@ -143,9 +143,9 @@
             <li>    The Import Utility only allows you to specify the Start Date. If your start time is greater than your end time, EMS will assume your end date is one day later. You cannot import a single booking longer than 24 hours.</li>
             <li>   All times should be local to the time zone of the building you’re booking.  For example, 0800 for New York, and 0800 for London would create 8:00 am bookings in the respective buildings.</li>
             <li>   Once you start loading your import file, if you see "Unassigned" rooms or groups/people, that means the data in your import file did not find an exact match. You can manually fix rooms and groups individually, but if you notice that there are way too many to cleanup individually, you may be better off deleting the import session, then fixing your import file, and then creating a new session. If you create manual mappings, they will be remembered for future import sessions.</li>
-            <li> After launching an import, you may see a failure message. The import may have completed anyways, so after waiting a while, check to see before re-launching the import.</li>
-            <li>If you are importing vidoeconference reservations, you will need to one more step for them to have associated reservation numbers: after the import, for these reservations use the “Move Bookings” option to move them to a primary reservation number. That reservation should then be marked as “Videoconference” in EMS, and a host site designated.</li>
-            <li>Setup and Teardown time are not included in the import. If you need the room blocked including setup/teardown time, you can set your start time and end time to reflect the entire duration for which you wish to block the room, or you can modify the bookings post-import.</li>
+            <li> After launching an import, you might see a failure message. The import might have been completed, so after waiting a while, check to see before re-launching the import.</li>
+            <li>If you are importing video conference reservations, you will need to one more step for them to have associated reservation numbers: after the import, for these reservations use the “Move Bookings” option to move them to a primary reservation number. That reservation should then be marked as “Videoconference” in EMS, and a host site designated.</li>
+            <li>Setup and Teardown time are not included in the import. If you need the room blocked including setup/teardown time, you can set your start time and end time to reflect the entire duration for which you want to block the room, or you can modify the bookings post-import.</li>
         </ul>
         <h2 class="Heading2"><a name="ConfigureResImport"></a>Configure the Reservation Import&#160;</h2>
         <p class="box-tip"><span class="bold">NOTE:</span>&#160;This section describes the steps for configuring a new reservation import. If you simply need to load an existing import, then after opening the Reservation Import Sessions window, skip to&#160;the following section, <MadCap:xref href="#ImportResintoSession">Import Reservations Into a Session</MadCap:xref>.</p>
