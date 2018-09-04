@@ -2,9 +2,9 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="EMS Platform Services Release Notes Update 28"
-    Link="/Content/ReleaseNotes/Version44.1/Update28/EMSPlatformServices.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/ReleaseNotes/Version44.1/Update28/EMSMobileApp_KnownIssues.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
   <TocEntry
-    Title="EMS Room Sign App Release Notes Update 28"
-    Link="/Content/ReleaseNotes/Version44.1/Update28/EMSRoomSignApp.htm" />
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/ReleaseNotes/Version44.1/Update28/EMSRoomSignApp_Known_Issues.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
 </CatapultToc>
