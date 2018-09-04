@@ -31,10 +31,8 @@
             </li>
         </ul>
         <h2><a name="Configure_Integration_to_Exchange_Instructions"></a>Configure Integration to Exchange Instructions</h2>
-        <div>
-            <p>As of Update 28, access to the PAMconfig.aspx is restricted by default. Customers who do not enable Windows Authentication in IIS for the Exchange Integration Web Service should comment out the following section in order for EIWS to work properly:</p>
-            <p>&lt;remove users="*" roles="" verbs=""/&gt;</p>
-            <p>&lt;add accessType="Allow" roles="Users"/&gt;”</p>
+        <div class="box-important">
+            <p><span class="boldAllCaps">Important:</span>&#160;As of Update 28, access to the PAMconfig.aspx page is restricted by default. Customers who do not enable Windows Authentication in IIS for the Exchange Integration Web Service should comment out the following section in order for EIWS to work properly:</p><pre class="code-sample"><pre>&lt;remove users="*" roles="" verbs=""/&gt;</pre><pre>&lt;add accessType="Allow" roles="Users"/&gt;”</pre></pre>
         </div>
         <ol start="1" class="number-list">
             <li>After following the&#160;<a href="InstallUpgradeforEIWservice.htm">installation instructions</a>, access the Integration to Exchange configuration area by opening a browser and entering the following:<p>http://[ServerName]/ExchangeIntegrationWebService/PamConfig.aspx&#160;(replace [ServerName] with the name of your web server)</p></li>
