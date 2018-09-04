@@ -4,13 +4,13 @@
         <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
     </head>
     <body>
-        <h1 MadCap:autonum="CHAPTER&#160;1: ">
+        <h1>
             <MadCap:concept term="V44.1" />Align Your Source Data for HR Toolkit</h1>
         <p>You can use the specifications below to make sure your source data will import correctly into EMS.</p>
         <p>The HRTK_Update_Group stored procedure contains all of the logic to create your EMS Contact, Group and Everyday Applications (web) User data. Records are imported into EMS from the EMS_Staging database according to the specifications below.</p>
         <p> This topic provides information on the following:</p>
-        <ul>
-            <li>Two baseline setups for the staging data:<ul><li><a href="#HybridSetup">Hybrid Setup </a></li><li><a href="#Group-Group">Group-Group Type Setup</a></li></ul></li>
+        <ul class="unorder-list">
+            <li>Two baseline setups for the staging data:<ul><li><a href="#HybridSetup">Hybrid Setup </a></li><li><a href="#GroupGroupType">Group-Group Type Setup</a></li></ul></li>
             <li><a href="#GroupTypeRecord">Group Type Records</a>
             </li>
             <li><a href="#GroupRecords">Group Records</a>
@@ -18,7 +18,7 @@
             <li><a href="#ContactRecords">Contact Records</a>
             </li>
         </ul>
-        <p>Below are the baseline staging database fields for both <a href="#Hybrid">Hybrid</a> and <a href="#Group-Group">Group-Group Type</a> Setups.  Please note that your EMS&#160;HR Toolkit staging database may be different.  Please contact your Professional Services Consultant if you are unsure of what EMS&#160;HR Toolkit setup you are using.</p>
+        <p>Below are the baseline staging database fields for both <a href="#Hybrid">Hybrid</a> and <a href="#GroupGroupType">Group-Group Type</a> Setups.  Please note that your EMS&#160;HR Toolkit staging database may be different.  Please contact your Professional Services Consultant if you are unsure of what EMS&#160;HR Toolkit setup you are using.</p>
         <h2><a name="HybridSetup"></a>Hybrid Setup</h2>
         <p>In some instances, it may be necessary to combine elements of the Group/Group Type model&#160;into a Hybrid data model. This is typically necessary when you will have some Everyday Application&#160;Users belonging to a department while other Everyday Application&#160;Users are not part of a department and are simply using <a href="ConfigWebAppforHRTK.htm">EMS Web App</a>&#160;on their own. </p>
         <p>For example,&#160;for study rooms on college campuses, students on campus could have access to EMS Web App&#160;to book these study spaces, but they may not all belong to a Group (department), and therefore are created following the Group/Group Type rules. Additionally, it is possible to have users that belong to both individual Groups and organizational Groups.&#160;For instance, John Doe could be created as a contact for the History department as well as an individual Group.&#160;You should work with your Professional Services Consultant for guidance on whether the Hybrid data model&#160;is right for you. &#160;</p>
@@ -474,18 +474,18 @@ WebUser.NetworkID
             </tbody>
         </table>
         <h2><a name="GroupTypeRecord"></a>Group Type Records&#160;</h2>
-        <ul>
+        <ul class="unorder-list">
             <li>Unique GroupTypes in EMS_Staging.tblPeople are added to the Group Types table in EMS (EMS.tblGroupType). Group Types are not updated or de-activated.</li>
         </ul>
         <h2><a name="GroupRecords"></a>Group Records&#160;</h2>
-        <ul>
+        <ul class="unorder-list">
             <li>Groups that exist in EMS_Staging.tblPeople, but not in EMS.tblGroup (based on EMS_Staging.tblPeople.PersonnelNumber and EMS.tblGroup.ExternalReference) will be created in EMS.</li>
             <li>For Groups that exist in EMS_Staging.tblPeople and in EMS.tblGroup, GroupName (tblPeople.LastName, tblPeople.FirstName) and GroupType changes in EMS_Staging will be updated in EMS.</li>
             <li>Groups that exist in EMS.tblGroup, but not in EMS_Staging.tblPeople will be de-activated in EMS.</li>
             <li>An Everyday User Account will be created for each group.</li>
         </ul>
         <h2><a name="ContactRecords"></a>Contact Records&#160;</h2>
-        <ul>
+        <ul class="unorder-list">
             <li>Contacts that exist in EMS_Staging.tblPeople, but not in EMS.tblContact (based on EMS_Staging.tblPeople.PersonnelNumber and EMS.tblContact.ExternalReference), will be created in EMS. A Web User account will also be created for the Contact in EMS and the Group record will be automatically assigned to the Contact’s Web User record. This allows the Contact to make a reservation on behalf of the Group in EMS Web App.</li>
             <li>For Contacts that exist in EMS_Staging.tblPeople and in EMS.tblContact, any/all changes to the Contact’s information (name, address, etc.) in EMS_Staging will be updated in EMS.</li>
             <li>Contacts that exist in EMS.tblContact, but not in EMS_Staging.tblPeople will be de-activated in EMS.</li>
