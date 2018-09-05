@@ -29,11 +29,7 @@
       </TocEntry>
       <TocEntry
         Title="Optional EMS Web App Features"
-        Link="/Content/WebApp/A_V44.1/A_InstallationGuide/WebApp_OptionalFeatures.html">
-        <TocEntry
-          Title="Customize EMS Web App"
-          Link="/Content/WebApp/A_V44.1/B_ConfigurationGuide/WebApp_Customize.html" />
-      </TocEntry>
+        Link="/Content/WebApp/A_V44.1/A_InstallationGuide/WebApp_OptionalFeatures.html"></TocEntry>
       <TocEntry
         Title="EMS Mobile Web Application"
         Link="/Content/WebApp/A_V44.1/A_InstallationGuide/WebApp_MobileWebApplication.html" />
@@ -167,7 +163,10 @@
         Link="/Content/WebApp/A_V44.1/B_ConfigurationGuide/WebApp_CG_ConfigHelpText.html" />
       <TocEntry
         Title="Configure Language Translations for Everyday User Applications"
-        Link="/Content/WebApp/A_V44.1/B_ConfigurationGuide/WebApp_CG_ConfigLangTransEUapps.html" />
+        Link="/Content/WebApp/A_V44.1/B_ConfigurationGuide/WebApp_CG_ConfigLangTransEUapps.html"></TocEntry>
+      <TocEntry
+        Title="Customize EMS Web App"
+        Link="/Content/WebApp/A_V44.1/B_ConfigurationGuide/WebApp_Customize.html" />
       <TocEntry
         Title="EMS Web App System Parameters"
         Link="/Content/WebApp/A_V44.1/B_ConfigurationGuide/WebApp_CG_WebAppSysParameters.html" />

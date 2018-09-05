@@ -88,18 +88,7 @@
     PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
     SectionNumberReset="continue"
     VolumeNumberReset="same"
-    ChapterNumberReset="continue">
-    <TocEntry
-      Title="Customize EMS Web App"
-      Link="/Content/WebApp/A_V44.1/B_ConfigurationGuide/WebApp_Customize.html"
-      BreakType="chapter"
-      StartSection="false"
-      PageNumberReset="continue"
-      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
-      SectionNumberReset="continue"
-      VolumeNumberReset="same"
-      ChapterNumberReset="continue" />
-  </TocEntry>
+    ChapterNumberReset="continue"></TocEntry>
   <TocEntry
     Title="EMS Mobile Web Application"
     Link="/Content/WebApp/A_V44.1/A_InstallationGuide/WebApp_MobileWebApplication.html"
