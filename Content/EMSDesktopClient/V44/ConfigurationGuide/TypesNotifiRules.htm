@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html MadCap:lastBlockDepth="4" MadCap:lastHeight="5346" MadCap:lastWidth="642" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\OR_DC.flmsp');">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\OR_DC.flmsp');">
     <head />
     <body>
-        <h1>
+        <h1 MadCap:autonum="CHAPTER&#160;1: ">
             <MadCap:concept term="V44" />Types of Notification Rules</h1>
         <p>This topic details the types of Notification Rules in EMS:</p>
         <ul>
@@ -55,11 +55,11 @@
             <li>After selecting a category, the State, Grouping, and Resource options appear. You can select (all), (multiple), (none), or an individual item on the list. To notify on a whole category, keep the selections set to (all).</li>
         </ol>
         <ul>
-            <li>State—Select the corresponding state that you the Notification to trigger on.  "New Service Orders" will have to start in that state.  "Changes To Service Orders" will have to change into that state.  More than one state may be selected.</li>
-            <li>Grouping—Select the grouping that a resource is in. These are set at the resource level in EMS. See Configuring Groupings.</li>
+            <li>State—Select the corresponding state that you the Notification to trigger on.  "New Service Orders" will have to start in that state.  "Changes To Service Orders" will have to change into that state.  More than one state can be selected.</li>
+            <li>Grouping—Select the grouping that a resource is in. These are set at the resource level in EMS. See <a href="ConfigGroupingsResource.html">Configuring Groupings</a>.</li>
             <li>Resource—Select an individual resource from the list.</li>
         </ul>
-        <p class="note-box">Note: When you choose a Group or Category, all three items (New Service Orders, Changes To Service Orders, and Deletion/Cancelation Of Service Orders) will become auto-selected. The notification will now only fire on all three. To set the rule to trigger notifications on only one or two of these three, you must select (all) on both Group and Category.</p>
+        <p class="note-box"><span class="bold">NOTE</span>: When you choose a Group or Category, all three items (New Service Orders, Changes To Service Orders, and Deletion/Cancelation Of Service Orders) will become auto-selected. The notification will now only fire on all three. To set the rule to trigger notifications on only one or two of these three, you must select (all) on both Group and Category.</p>
         <ol start="3">
             <li>Next to the Notification triggers if change occurs within... field, you can specify the timeframe (in days or hours) leading up to the booking when notifications generate. Enter a number and select "Days" or "Hours" from the dropdown.</li>
             <li>For Source, indicate whether additions and/or changes in the EMS Desktop Client, EMS Web App, or both will trigger a Notification.</li>
