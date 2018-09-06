@@ -13,11 +13,11 @@
             <li class="li_1">To assign multiple templates to multiple users in a single step, see&#160;<a href="AssignSecTempMultUser.htm">Assigning Templates to Multiple Users</a>.</li>
         </ul>
         <p class="box-note"><span class="boldAllCaps">Note:&#160;</span>EMS classifies users into two categories: <span class="bold">Guests/Visitors</span>&#160;and&#160;<span class="bold">Everyday Users</span>.</p>
-        <p class="box-tip"><span class="boldAllCaps">Tip:&#160;</span>You configure EMS Desktop Client user accounts in a different area (under the System Administration&gt;Security menu). For instructions,&#160;See Also:&#160;<a href="ConfigUsers.htm">Configuring EMS Desktop Client User Accounts.</a></p>
+        <p class="box-tip"><span class="boldAllCaps">Tip:&#160;</span>You configure EMS Desktop Client user accounts in a different area (under the <span class="bold">System Administration</span> &gt; <span class="bold">Security </span>menu). For instructions,&#160;See Also:&#160;<a href="ConfigUsers.htm">Configuring EMS Desktop Client User Accounts.</a></p>
         <p class="p_3">Additionally, if your organization uses EMS Human Resources Toolkit to manage Everyday User accounts,&#160;See Also:&#160;<a href="../../../OptionalFeatures/HRToolkit/A_V44.1/Introduction.htm">Using EMS HR Toolkit</a>.</p>
         <p class="p_3">Lastly, a set of Account Management parameters control account management behavior. To see these parameters, refer to&#160;<a href="../../../WebApp/A_V44.1/B_ConfigurationGuide/WebApp_CG_WebAppSysParameters.html">EMS Web App System Parameters</a>.</p>
         <ol start="1" class="number-list">
-            <li class="li_1">On the EMS Desktop Client&#160;menu bar, click Configuration &gt; Everyday User Applications &gt;&#160;Everyday Users.&#160;The Everyday&#160;Users window opens. The number of configured users for EMS Web App&#160;shows in&#160;the upper left corner.&#160;The number of users for which your organization is licensed shows in the top center.</li>
+            <li class="li_1">On the EMS Desktop Client&#160;menu bar, navigate to <span class="bold">Configuration </span>&gt; <span class="bold">Everyday User Applications</span> &gt;&#160;<span class="bold">Everyday Users</span>.&#160;The Everyday&#160;Users window opens. The number of configured users for EMS Web App&#160;shows in&#160;the upper left corner.&#160;The number of users for which your organization is licensed shows in the top center.</li>
         </ol>
         <p class="p_5">
             <img src="../../../Resources/Images/Configuring Everyday Users/Configuring Everyday Users_1.png" alt="https://success.emssoftware.com/@api/deki/files/4020/DTPEverydayUsers.png?revision=1" class="PDFlarge" />
@@ -38,9 +38,9 @@
         </ol>
         <p class="box-note"><span class="boldAllCaps">Note:&#160;</span>If the EMS system parameter "Users linked to Groups via External Reference"&#160;is set to&#160;Yes, then you will also see&#160;a Group column and a City column.</p>
         <ol start="3" class="number-list" MadCap:continue="true">
-            <li class="li_1">Create a new user.&#160;Click the&#160;New&#160;button.&#160;A dialog box opens.</li>
+            <li class="li_1">Create a new user.&#160;Click the&#160;<span class="bold">New&#160;</span>button.&#160;A dialog box opens.</li>
         </ol>
-        <p class="box-note"><span class="boldAllCaps">Note:</span>&#160;If the user has confirmed membership (by responding to an email containing an activation link), the&#160;Validated&#160;checkbox highlighted below will be selected.&#160;<br />If the user had to answer questions when requesting an account, you can view the user's responses on the&#160;User Defined Fields&#160;tab.</p>
+        <p class="box-note"><span class="boldAllCaps">Note:</span>&#160;If the user has confirmed membership (by responding to an email containing an activation link), the&#160;Validated&#160;checkbox highlighted below will be selected.&#160;<br />If the user had to answer questions when requesting an account, you can view the user's responses on the&#160;<span class="bold">User Defined Fields</span>&#160;tab.</p>
         <p class="p_6">
             <img src="../../../Resources/Images/Configuring Everyday Users/Configuring Everyday Users_2.png" alt="https://success.emssoftware.com/@api/deki/files/3934/WebUserConfig.png?revision=2" class="img_1" />
         </p>
@@ -132,9 +132,11 @@
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
                         <p class="p_11">Required field. Select the status for the user:</p>
-                        <p class="p_11">• Active—The user can log in to EMS Web App, EMS Mobile App, and EMS for Outlook.</p>
-                        <p class="p_11">• Pending—The user cannot log in to EMS Web App, EMS Mobile App, and EMS for Outlook and is informed that he/she must check back at a later time.</p>
-                        <p class="p_11">• Inactive—The user cannot log in to EMS Web App, EMS Mobile App, and EMS for Outlook&#160;and is instructed to contact the EMS administrator.</p>
+                        <ul>
+                            <li>Active—The user can log in to EMS Web App, EMS Mobile App, and EMS for Outlook.</li>
+                            <li>Pending—The user cannot log in to EMS Web App, EMS Mobile App, and EMS for Outlook and is informed that he/she must check back at a later time.</li>
+                            <li>Inactive—The user cannot log in to EMS Web App, EMS Mobile App, and EMS for Outlook&#160;and is instructed to contact the EMS administrator.</li>
+                        </ul>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
@@ -164,13 +166,13 @@
             </tbody>
         </table>
         <ol start="5" class="number-list">
-            <li class="li_1">Assign process templates to the new user.&#160;Open the&#160;Process Templates&#160;tab. The&#160;process templates you assign&#160;here will appear as menu items to the user in EMS Web App, EMS Mobile App, and EMS for Outlook.</li>
-            <li class="li_1">Specify Groups&#160;on whose behalf the user can create and manage reservations.&#160;Open the&#160;Groups&#160;tab. To&#160;filter the list of active groups displayed, use the&#160;Find&#160;and&#160;Type&#160;fields and&#160;then click&#160;Display. Select one or more Groups (use CTRL-click for multiple groups), and then click&#160;Move&#160;(&gt;) to move the selected groups to the Selected list.</li>
-            <li class="li_1">Specify Delegates the user can impersonate.&#160;Open the&#160;Delegates&#160;tab; to see all available users, simply click&#160;Display. To narrow the search results, use the&#160;Search by&#160;dropdown list to search by User Name or Email Address.&#160;Select one or more delegates (using CTRL-click for multiple delegates), and then click&#160;Move&#160;(&gt;) to move the selected users to the Selected list.&#160;</li>
+            <li class="li_1">Assign process templates to the new user.&#160;Open the&#160;<span class="bold">Process Templates&#160;</span>tab. The&#160;process templates you assign&#160;here will appear as menu items to the user in EMS Web App, EMS Mobile App, and EMS for Outlook.</li>
+            <li class="li_1">Specify Groups&#160;on whose behalf the user can create and manage reservations.&#160;Open the&#160;<span class="bold">Groups&#160;</span>tab. To&#160;filter the list of active groups displayed, use the&#160;Find&#160;and&#160;Type&#160;fields and&#160;then click&#160;Display. Select one or more Groups (use CTRL-click for multiple groups), and then click&#160;Move&#160;(&gt;) to move the selected groups to the Selected list.</li>
+            <li class="li_1">Specify Delegates the user can impersonate.&#160;Open the&#160;<span class="bold">Delegates&#160;</span>tab; to see all available users, simply click&#160;Display. To narrow the search results, use the&#160;Search by&#160;drop-down list to search by User Name or Email Address.&#160;Select one or more delegates (using CTRL-click for multiple delegates), and then click&#160;Move&#160;(&gt;) to move the selected users to the Selected list.&#160;</li>
         </ol>
-        <p class="box-tip"><span class="boldAllCaps">Tip:</span>&#160;Click&#160;Spelling&#160;to spell-check any information that you manually entered for the user.</p>
+        <p class="box-tip"><span class="boldAllCaps">Tip:</span>&#160;Click&#160;<span class="bold">Spelling&#160;</span>to spell-check any information that you manually entered for the user.</p>
         <ol start="8" class="number-list">
-            <li class="li_1">Click&#160;OK.&#160;The dialog box closes and returns you&#160;to the users window with the newly configured user automatically selected.</li>
+            <li class="li_1">Click&#160;<span class="bold">OK</span>.&#160;The dialog box closes and returns you&#160;to the users window with the newly configured user automatically selected.</li>
         </ol>
     </body>
 </html>
