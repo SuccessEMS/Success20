@@ -1,8 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <html xml:lang="en-us" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../Resources/MasterPages/OR_DC.flmsp');" class="desktopClient">
     <head>
-        <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" />
-        <title>Import Reservations Utility V44 (EMS Desktop Client)</title>
+        <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title>Import Reservations Utility V44 (EMS Desktop Client)</title>
     </head>
     <body>
         <h1 class="Heading1" MadCap:autonum="CHAPTER&#160;1: ">
@@ -27,9 +26,7 @@
                 <MadCap:xref href="#DeleteResImpor">Delete&#160;a Reservation Import&#160;</MadCap:xref>
             </li>
         </ul>
-        <h2>
-            <a name="Best">
-            </a>Best Practices for Using the Reservation Import Utility</h2>
+        <h2><a name="Best"></a>Best Practices for Using the Reservation Import Utility</h2>
         <p>The practices below are recommended for preparing existing reservations for import into EMS.</p>
         <p>To view the fields you are importing in order, from EMS <span class="bold">System Administration</span> &gt; <span class="bold">Tools </span>&gt; <span class="bold">Import Reservation Utility</span>, you can use <span class="bold">Print </span>&gt; <span class="bold">Import Format</span> to view the fields in order. These fields are explained below.</p>
         <ul class="unorder-list">
@@ -58,15 +55,12 @@
             <li>    The Import Utility only allows you to specify the Start Date. If your start time is greater than your end time, EMS will assume your end date is one day later. You cannot import a single booking longer than 24 hours.</li>
             <li>   All times should be local to the time zone of the building you’re booking.  For example, 0800 for New York, and 0800 for London would create 8:00 am bookings in the respective buildings.</li>
             <li>   Once you start loading your import file, if you see "Unassigned" rooms or groups/people," that means the data in your import file did not find an exact match. You can manually fix rooms and groups individually, but if you notice that there are way too many to cleanup individually, you may be better off deleting the import session, then fixing your import file, and then creating a new session. If you create manual mappings, they will be remembered for future import sessions.</li>
-            <li> After launching an import, you may see a failure message. The import may have completed anyways, so after waiting a while, check to see before re-launching the import.</li>
-            <li>If you are importing vidoeconference reservations, you will need to one more step for them to have associated reservation numbers: after the import, for these reservations use the “Move Bookings” option to move them to a primary reservation number. That reservation should then be marked as “Videoconference” in EMS, and a host site designated.</li>
+            <li> After launching an import, you might see a failure message. The import might have completed anyways, so after waiting a while, check to see before re-launching the import.</li>
+            <li>If you are importing VC reservations, you will need to one more step for them to have associated reservation numbers: after the import, for these reservations use the “Move Bookings” option to move them to a primary reservation number. That reservation should then be marked as “Videoconference” in EMS, and a host site designated.</li>
             <li>Setup and Teardown time are not included in the import. If you need the room blocked including setup/teardown time, you can set your start time and end time to reflect the entire duration for which you want to block the room, or you can modify the bookings post-import.</li>
         </ul>
-        <h2 class="Heading2">
-            <a name="ConfigureResImport">
-            </a>Configure the Reservation Import&#160;</h2>
-        <p class="box-note">
-            <span class="boldAllCaps">Note:&#160;</span>This section describes the steps for configuring a new reservation import. If you simply need to load an existing import, then after opening the Reservation Import Sessions window, skip to&#160;the following section, <MadCap:xref href="#ImportResintoSession">Import Reservations Into a Session</MadCap:xref>.</p>
+        <h2 class="Heading2"><a name="ConfigureResImport"></a>Configure the Reservation Import&#160;</h2>
+        <p class="box-note"><span class="boldAllCaps">Note:&#160;</span>This section describes the steps for configuring a new reservation import. If you simply need to load an existing import, then after opening the Reservation Import Sessions window, skip to&#160;the following section, <MadCap:xref href="#ImportResintoSession">Import Reservations Into a Session</MadCap:xref>.</p>
         <ol start="1" class="number-list">
             <li>On the EMS menu bar, click <span class="bold">System Administration</span> &gt; <span class="bold">Tools </span>&gt;&#160;<span class="bold">Import Reservations Utility</span>.&#160;The Reservation Import Sessions window opens. This window lists all the reservation sessions that have been imported into your EMS database.</li>
         </ol>
@@ -100,8 +94,7 @@
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
                         <p>Available only if you select a status with a type of Book Space. This status is applied only if the status that you selected results in the imported bookings being in conflict with existing bookings.</p>
-                        <p class="table-note">
-                            <span class="bold">Note:</span>&#160;If the appropriate status is not available, you can configure it. See&#160;<a href="ConfigStatuses.htm">Configure Statuses</a>.</p>
+                        <p class="table-note"><span class="bold">Note:</span>&#160;If the appropriate status is not available, you can configure it. See&#160;<a href="ConfigStatuses.htm">Configure Statuses</a>.</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
@@ -110,8 +103,7 @@
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
                         <p>A name or description for the import session.</p>
-                        <p class="table-note">
-                            <span class="bold">Note:</span>&#160;The name can be a maximum of 50 characters, including spaces.</p>
+                        <p class="table-note"><span class="bold">Note:</span>&#160;The name can be a maximum of 50 characters, including spaces.</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
@@ -120,8 +112,7 @@
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
                         <p>Select the event type for the imported reservations.</p>
-                        <p class="table-note">
-                            <span class="bold">Note:</span>&#160;If the appropriate event type is not available, you can configure it. See&#160;<a href="ConfigEventTypes.htm">Configure Event Types.</a></p>
+                        <p class="table-note"><span class="bold">Note:</span>&#160;If the appropriate event type is not available, you can configure it. See&#160;<a href="ConfigEventTypes.htm">Configure Event Types.</a></p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
@@ -130,8 +121,7 @@
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
                         <p>Available only Override Existing Bookings is selected. If imported bookings override existing bookings, then select the conflict status into which the overridden bookings are to be placed.</p>
-                        <p class="table-note">
-                            <span class="bold">Note:</span>&#160;If the appropriate status is not available, you can configure it. See&#160;<a href="ConfigStatuses.htm">Configure Statuses</a>.</p>
+                        <p class="table-note"><span class="bold">Note:</span>&#160;If the appropriate status is not available, you can configure it. See&#160;<a href="ConfigStatuses.htm">Configure Statuses</a>.</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
@@ -148,8 +138,7 @@
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
                         <p>Select a source if applicable.</p>
-                        <p class="table-note">
-                            <span class="bold">Note:&#160;</span>If the appropriate reservation source is not available, you can configure it. See&#160;<a href="ConfigReservSource.htm">Configure Reservation Sources</a>.</p>
+                        <p class="table-note"><span class="bold">Note:&#160;</span>If the appropriate reservation source is not available, you can configure it. See&#160;<a href="ConfigReservSource.htm">Configure Reservation Sources</a>.</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
@@ -158,8 +147,7 @@
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
                         <p>Select the setup type for the imported reservations.</p>
-                        <p class="table-note">
-                            <span class="bold">Note:</span>&#160;If the appropriate setup type is not available, you can configure it. See&#160;<a href="ConfigSetupType.html">Configure Setup Types</a>.</p>
+                        <p class="table-note"><span class="bold">Note:</span>&#160;If the appropriate setup type is not available, you can configure it. See&#160;<a href="ConfigSetupType.html">Configure Setup Types</a>.</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
@@ -168,8 +156,7 @@
                     </td>
                     <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
                         <p>Select the status that is to be applied to the imported reservations.</p>
-                        <p class="table-note">
-                            <span class="bold">Note:</span>&#160;Only statuses that do not have a Reconfirm Date are available. If the appropriate status is not available, you can configure it. See&#160;<a href="ConfigStatuses.htm">Configure Statuses</a>.</p>
+                        <p class="table-note"><span class="bold">Note:</span>&#160;Only statuses that do not have a Reconfirm Date are available. If the appropriate status is not available, you can configure it. See&#160;<a href="ConfigStatuses.htm">Configure Statuses</a>.</p>
                     </td>
                 </tr>
             </tbody>
@@ -177,9 +164,7 @@
         <ol start="4" class="number-list">
             <li>Click&#160;OK.&#160;The Reservation Import Session dialog box closes. You return to the Reservation Import Sessions window. The newly configured import session is displayed in the window.</li>
         </ol>
-        <h2>
-            <a name="ImportResintoSession">
-            </a>Import Reservations Into a Session&#160;</h2>
+        <h2><a name="ImportResintoSession"></a>Import Reservations Into a Session&#160;</h2>
         <ol start="1" class="number-list">
             <li>On the EMS menu bar, click System Administration &gt; Tools &gt;&#160;Import Reservations Utility&#160;to open the Reservation Import Sessions window.</li>
             <li>Select the reservation session into which you are importing the reservations, and then click&#160;Load.&#160;The Import Reservations wizard opens.</li>
@@ -190,8 +175,7 @@
         <ol start="3" class="number-list">
             <li>Click the Search icon&#160;to browse to and select the file you are importing, and then click&#160;Next.&#160;The Import Reservations wizard displays all the reservations in the import file by the building/room combinations that have been assigned to them.&#160;</li>
         </ol>
-        <p class="box-tip">
-            <span class="boldAllCaps">Tip:</span>&#160;If a Building/Room combination in the import file is identical to a Building Code/Room code in the EMS database, then the record is automatically assigned; otherwise, the record remains unchanged.</p>
+        <p class="box-tip"><span class="boldAllCaps">Tip:</span>&#160;If a Building/Room combination in the import file is identical to a Building Code/Room code in the EMS database, then the record is automatically assigned; otherwise, the record remains unchanged.</p>
         <p>
             <img src="../Resources/Images/DTC_V44_SysAdTools/Import Reservations Utility_4.png" alt="emssg_SysAdminTools_image020.png" class="PDFlarge" />
         </p>
@@ -203,16 +187,13 @@
         <p>
             <img src="../Resources/Images/DTC_V44_SysAdTools/Import Reservations Utility_5.png" alt="emssg_SysAdminTools_image021.png" class="PDFlarge" />
         </p>
-        <p class="box-tip">
-            <span class="boldAllCaps">Tip:</span>&#160;If a group name in the import file is identical to a group name in the EMS database, then the record is automatically assigned; otherwise, the record remains unassigned.</p>
+        <p class="box-tip"><span class="boldAllCaps">Tip:</span>&#160;If a group name in the import file is identical to a group name in the EMS database, then the record is automatically assigned; otherwise, the record remains unassigned.</p>
         <ol start="7" class="number-list">
             <li>To work with groups:<ul start="7"><li>To Assign a Group,&#160;select a group, or CTRL-click to select multiple groups, and then click&#160;Assign&#160;to open the Groups window, and select the group in your EMS database for which all reservations that are assigned to the selected group will be made.</li><li>To Exclude a Group From the Import, select a group, or CTRL-click to select multiple groups, and then click&#160;Do Not Import&#160;to exclude all reservations that are assigned to this group.</li><li>To Unassign a&#160;Group,&#160;select a group, or CTRL-click to select multiple groups, and then click&#160;Unassign&#160;to undo a Group assignment.</li></ul></li>
             <li>Click&#160;Finish.&#160;A message opens indicating that the reservations were imported successfully.</li>
             <li>Click&#160;OK&#160;to close the message and the Import Reservations Wizard and return to the Reservation Import Sessions window.</li>
         </ol>
-        <h2 class="Heading2">
-            <a name="DeleteResImpor">
-            </a>Delete&#160;a Reservation Import&#160;</h2>
+        <h2 class="Heading2"><a name="DeleteResImpor"></a>Delete&#160;a Reservation Import&#160;</h2>
         <p>You can delete a reservation import session. If you delete an import session, all reservations in the session are deleted. Because you cannot recover these reservations other than to repeat the import process, make certain you want to delete the session.</p>
         <ol start="1" class="number-list">
             <li>On the EMS menu bar, click System Administration &gt; Tools &gt;&#160;Import Reservations Utility.&#160;The Reservation Import Sessions window opens. This window lists all the reservation sessions that have been imported into your EMS database.</li>
