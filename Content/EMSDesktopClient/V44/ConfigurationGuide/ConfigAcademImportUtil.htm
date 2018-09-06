@@ -4,7 +4,7 @@
         <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title>Configure the Academic Import Utility V44 (EMS Desktop Client)</title>
     </head>
     <body>
-        <h1 class="Heading1" MadCap:autonum="CHAPTER&#160;1: ">
+        <h1 class="Heading1">
             <MadCap:concept term="V44" />Configure the Academic Import Utility</h1>
         <p>The Academic Import Utility (AIU) is an optional, add-on component for EMS that is designed to manually import from your Student Information System, or SIS. For each scheduled class that is being imported, a single reservation with multiple bookings is created. One booking is created for each date on which the class meets. All class reservations created by the import process are assigned to one Group (customer, client, and so on) that you have configured in your EMS database.&#160;The imported class data can be one of two formats,&#160;tab-delimited&#160;or&#160;fixed width. In addition, prior to using the AIU, you should have certain&#160;items&#160;configured in your EMS database.</p>
         <p>To import data, you must&#160;configure&#160;a session for each block of data (i.e. quarter or semester). After you have configured a session, AIU saves the settings for use in both the initial import and any subsequent re-import. When a session is re-imported, only events in the import file that have changed since the last import are recreated in the EMS database. This prevents the unnecessary re-import of unchanged events and the associated invalidation of large ranges of reservation numbers. After configuring a session, you import the session.</p>
@@ -709,7 +709,7 @@
                         <p>Group</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p>The reservation holder for all reservations in the session. For example, Registrar's Office. You can select a value from the Group dropdown list, or you can click the Search icon&#160;to open the Groups window and create the necessary group. See&#160;<a href="../../V44.1/ConfigurationGuide/ConfigGroup.htm">Configuring Groups.</a></p>
+                        <p>The reservation holder for all reservations in the session. For example, Registrar's Office. You can select a value from the Group drop-down list, or you can click the Search icon&#160;to open the Groups window and create the necessary group. See&#160;<a href="../../V44.1/ConfigurationGuide/ConfigGroup.htm">Configuring Groups.</a></p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
@@ -717,7 +717,7 @@
                         <p>Event Type</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p>Select a value from the dropdown list. If none of the event types that are currently configured in your EMS database meets your needs, then you can configure a type (for example, Academic). See&#160;<a href="../../V44.1/ConfigurationGuide/ConfigEventType.html">Configuring Event Types.</a></p>
+                        <p>Select a value from the drop-down list. If none of the event types that are currently configured in your EMS database meets your needs, then you can configure a type (for example, Academic). See&#160;<a href="../../V44.1/ConfigurationGuide/ConfigEventType.html">Configuring Event Types.</a></p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
@@ -725,7 +725,7 @@
                         <p>Setup Type</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p>Select a value from the dropdown list. If none of the event types that are currently configured in your EMS database meets your needs, then you can configure a type (for example, Classroom). See&#160;<a href="../../V44.1/ConfigurationGuide/ConfigSetupType.html">Configuring Setup Types.</a></p>
+                        <p>Select a value from the drop-down list. If none of the event types that are currently configured in your EMS database meets your needs, then you can configure a type (for example, Classroom). See&#160;<a href="../../V44.1/ConfigurationGuide/ConfigSetupType.html">Configuring Setup Types.</a></p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
@@ -742,7 +742,7 @@
                         <p>Conflict Status</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p>Available after you specify a Status. Select a value from the dropdown list. If none of the statuses that are currently configured in your EMS database meets your needs, then you can configure a status (for example, Academic - Conflict). See<a href="../../V44.1/ConfigurationGuide/ConfigStatuses.htm"> Configuring Statuses.</a></p>
+                        <p>Available after you specify a Status. Select a value from the drop-down list. If none of the statuses that are currently configured in your EMS database meets your needs, then you can configure a status (for example, Academic - Conflict). See<a href="../../V44.1/ConfigurationGuide/ConfigStatuses.htm"> Configuring Statuses.</a></p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
@@ -758,7 +758,7 @@
                         <p>Cross List Conflict Status</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p>Available if you select Use Cross List Status. The status that is to be applied to cross-listed classes. Select a value from the dropdown list. If none of the statuses that are currently configured in your EMS database meets your needs, then you can configure a status (for example, Academic - Cross List). See&#160;<a href="../../V44.1/ConfigurationGuide/ConfigStatuses.htm">Configuring Statuses.</a></p>
+                        <p>Available if you select Use Cross List Status. The status that is to be applied to cross-listed classes. Select a value from the drop-down list. If none of the statuses that are currently configured in your EMS database meets your needs, then you can configure a status (for example, Academic - Cross List). See&#160;<a href="../../V44.1/ConfigurationGuide/ConfigStatuses.htm">Configuring Statuses.</a></p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
@@ -774,7 +774,7 @@
                         <p>Override Conflict Status</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p>Available if you select Override Existing Bookings. The status that is to be applied to existing events if they are overridden by imported events. Select a value from the dropdown list. If none of the statuses that are currently configured in your EMS database meets your needs, then you can configure a status (for example, Academic - Conflict). See&#160;<a href="../../V44.1/ConfigurationGuide/ConfigStatuses.htm">Configuring Statuses.</a></p>
+                        <p>Available if you select Override Existing Bookings. The status that is to be applied to existing events if they are overridden by imported events. Select a value from the drop-down list. If none of the statuses that are currently configured in your EMS database meets your needs, then you can configure a status (for example, Academic - Conflict). See&#160;<a href="../../V44.1/ConfigurationGuide/ConfigStatuses.htm">Configuring Statuses.</a></p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
@@ -800,7 +800,7 @@
         </p>
         <ol start="2">
             <li>Click the Search icon&#160;to browse to and select the file that you are importing.</li>
-            <li>On the Import Format dropdown list, select the format for the file (Fixed Width or Tab Delimited).</li>
+            <li>On the Import Format drop-down list, select the format for the file (Fixed Width or Tab Delimited).</li>
             <li>Click Next.&#160;Two results are possible:</li>
         </ol>
         <ul>
@@ -824,7 +824,7 @@
             <img src="../../../Resources/Images/DTC_V44_VideoDispInter/Configuring the Academic Import_6.png" alt="emssg_appendixacademic_image006.png" />
         </p>
         <ol start="7">
-            <li>On the Building dropdown list, select the building or view by which to filter the available rooms list.</li>
+            <li>On the Building drop-down list, select the building or view by which to filter the available rooms list.</li>
             <li>On the Available rooms list, select the room to which the classes are to be assigned, and then click OK.&#160;Two results are possible:</li>
         </ol>
         <ul>

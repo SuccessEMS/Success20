@@ -3,7 +3,7 @@
     <head><title>Configure Notification Rules V44 (EMS Desktop Client)</title>
     </head>
     <body>
-        <h1 MadCap:autonum="CHAPTER&#160;1: ">
+        <h1>
             <MadCap:concept term="V44" />Configure Notification Rules</h1>
         <p>Notification Rules determine which EMS users are emailed about&#160;additions or changes&#160;are made in EMS. You can set these rules to trigger for new or changed&#160;bookings or service orders, changes to VIP events, new web user accounts, or when specific&#160;UDF options are selected. Triggers are based on rooms, statuses, event types, group types, setup types,&#160;and/or categories.</p>
         <p>For a Notification to be generated, all the criteria in the rule&#160;must be met. Typically, notifications are an internal function for reservation schedulers and service providers, but when you are configuring a Notification Rule, you can specify the email address for whomever you want to receive an Email Notification.</p>
@@ -88,7 +88,7 @@
         <p>​<img src="../Resources/Images/DTC_V44_CGBookElements/Configuring Notification Rules.jpg" class="PDFlarge" /></p>
         <ol start="1" class="number-list">
             <li>The&#160;Setup Type&#160;field in the Notification Rule Wizard enables you to ensure&#160;that changes to a booking's&#160;room setup will appropriately notify attendees.&#160;(See&#160;this section&#160;for configuring Setup Types).&#160;You can select one of the existing setup types, or one of the options below.<ul start="1"><li>(all)&#160;- The rule will trigger on all Setup Types.</li><li>(any other than Room default) -&#160;Notifications will trigger for all Setup Types except for the Room's default Setup Type. (To change the default Setup Type you can go to Configuration &gt; Facilities &gt; Rooms, then select a Room and press "Edit"; then make your changes in&#160;the "Default Setup Type" field.)&#160;</li></ul></li>
-            <li>Next to the&#160;Notification triggers if change occurs within...&#160;field, you can specify the timeframe (in days or hours) leading up to the booking when notifications generate. Enter a number and select "Days" or "Hours" from the dropdown.</li>
+            <li>Next to the&#160;Notification triggers if change occurs within...&#160;field, you can specify the timeframe (in days or hours) leading up to the booking when notifications generate. Enter a number and select "Days" or "Hours" from the drop-down list.</li>
             <li>The&#160;Display New Booking As&#160;field enables you to specify&#160;whether the Notification occurs as&#160;Booking Information&#160;or&#160;Reservation Information. For example, for new reservations that contain multiple bookings (recurring meetings), if Booking Information is selected, then a Notification occurs for every individual booking. If Reservation Information is selected, then a single Notification occurs for the entire reservation.</li>
             <li>For&#160;Source, indicate whether additions and/or changes in the&#160;EMS Desktop Client, VEMS, or both will trigger a Notification.</li>
         </ol>
@@ -101,11 +101,11 @@
             <li>Deleted/Canceled&#160;Service Orders</li>
         </ul>
         <ol start="1" class="number-list">
-            <li>On the&#160;Category&#160;dropdown list, select the category for which the service order Notification is to be generated.&#160;If the appropriate category is not available, you can configure it. See&#160;Configuring Categories.&#160;<br />After selecting a category, the&#160;State,&#160;Grouping, and&#160;Resource&#160;options&#160;appear.&#160;You can select (all), (multiple), (none), or an individual item on the list.&#160;To notify on a whole category, keep the selections set to (all).<ul start="1"><li>State&#160;- Select the corresponding state that you the Notification to trigger on.&#160; "New Service Orders" will have to start in that state.&#160; "Changes To Service Orders" will have to change into that state.&#160; More than one state can be selected.</li><li>Grouping&#160;- Select the grouping that a resource is in.&#160;These are set at the resource level in EMS.&#160;See&#160;<a href="ConfigGroup.htm" title="Configuring Groupings for a Resource" alt="Configuring Groupings for a Resource">Configuring Groups</a>.</li><li>Resource&#160;- Select an individual resource from the list.</li></ul></li>
+            <li>On the&#160;Category&#160;drop-down list, select the category for which the service order Notification is to be generated.&#160;If the appropriate category is not available, you can configure it. See&#160;Configuring Categories.&#160;<br />After selecting a category, the&#160;State,&#160;Grouping, and&#160;Resource&#160;options&#160;appear.&#160;You can select (all), (multiple), (none), or an individual item on the list.&#160;To notify on a whole category, keep the selections set to (all).<ul start="1"><li>State&#160;- Select the corresponding state that you the Notification to trigger on.&#160; "New Service Orders" will have to start in that state.&#160; "Changes To Service Orders" will have to change into that state.&#160; More than one state can be selected.</li><li>Grouping&#160;- Select the grouping that a resource is in.&#160;These are set at the resource level in EMS.&#160;See&#160;<a href="ConfigGroup.htm" title="Configuring Groupings for a Resource" alt="Configuring Groupings for a Resource">Configuring Groups</a>.</li><li>Resource&#160;- Select an individual resource from the list.</li></ul></li>
         </ol>
         <p class="box-note"><span class="bold">NOTE:</span>&#160;When you choose&#160;a Group or Category, all three items (New Service Orders, Changes To Service Orders, and Deletion/Cancelation Of Service Orders) will become auto-selected.&#160;The notification will now only fire on all three.&#160;To set the rule to trigger notifications on only one or two of these three, you must select (all) on both Group and Category.</p>
         <ol start="2" class="number-list">
-            <li>Next to the&#160;Notification triggers if change occurs within...&#160;field, you can specify the timeframe (in days or hours) leading up to the booking when notifications generate. Enter a number and select "Days" or "Hours" from the dropdown.</li>
+            <li>Next to the&#160;Notification triggers if change occurs within...&#160;field, you can specify the timeframe (in days or hours) leading up to the booking when notifications generate. Enter a number and select "Days" or "Hours" from the drop-down.</li>
             <li>For&#160;Source, indicate whether additions and/or changes in the&#160;EMS Desktop Client, VEMS, or both will trigger a Notification.</li>
         </ol>
         <h2><a name="NotficationRulesforAnything"></a>Notification Rules for&#160;Anything On A VIP Event</h2>
@@ -115,9 +115,9 @@
         <h2><a name="UDFRules"></a>User Defined Field&#160;Notification Rules</h2>
         <ol start="1" class="number-list">
             <li>In&#160;Type&#160;field, select the&#160;User Defined Field&#160;type for which the Notification is to be generated.&#160;If the appropriate UDF is not available, you can configure it. See&#160;Configuring User Defined Fields (UDFs).</li>
-            <li>Select the UDF for which the Notification is to be generated. (Available UDFs have a field type of&#160;List. UDFs with other field types are not displayed on the User Defined Field dropdown list.)</li>
+            <li>Select the UDF for which the Notification is to be generated. (Available UDFs have a field type of&#160;List. UDFs with other field types are not displayed on the User Defined Field drop-down list.)</li>
             <li>Select the UDF value for which the Notification is to be generated.</li>
-            <li>Next to the&#160;Notification triggers if change occurs within...&#160;field, you can specify the timeframe (in days or hours) leading up to the booking when notifications generate. Enter a number and select "Days" or "Hours" from the dropdown.</li>
+            <li>Next to the&#160;Notification triggers if change occurs within...&#160;field, you can specify the timeframe (in days or hours) leading up to the booking when notifications generate. Enter a number and select "Days" or "Hours" from the drop-down list.</li>
             <li>For&#160;Source, indicate whether additions and/or changes in the&#160;EMS Desktop Client, VEMS, or both will trigger a Notification.</li>
         </ol>
         <p class="box-note"><span class="bold">NOTE:</span>&#160;The Service Order options described&#160;here only apply to&#160;EMS Enterprise. In EMS Professional, only one service order Notification per category can be configured at any time in your EMS database.</p>
