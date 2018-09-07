@@ -1,22 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" style="mc-master-page: url('..\..\..\Resources\MasterPages\EMSWebApp.flmsp');" class="emsWebapp" MadCap:onlyLocalStylesheets="False">
     <head>
-        <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" />
-        <title>
-        </title>
+        <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
     </head>
     <body>
         <h1 MadCap:autonum="CHAPTER&#160;1: ">
             <MadCap:concept term="V44.1" />
             <MadCap:annotation MadCap:createDate="2017-11-30T20:43:20.6728021-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Mobile Config Guide topic &quot;Add Mobile Users&quot; is a wiki link to this topic. If updated here, update the Mobile topic, too." MadCap:editor="Megan.Laub" MadCap:editDate="2017-11-30T20:43:59.5257416-07:00">Configure Everyday Users</MadCap:annotation>
         </h1>
-        <p>This section guides you in&#160;configuring&#160;one Everyday User at a time. Once you have configured these users, you may need to assign them to&#160;security templates and one or more process templates.&#160;</p>
+        <p>This section guides you in&#160;configuring&#160;one Everyday User at a time. Once you have configured these users, you might need to assign them to&#160;security templates and one or more process templates.&#160;</p>
         <ul class="unorder-list">
             <li>To assign users to Everyday User process templates, see&#160;<a href="../../../EMSDesktopClient/V44.1/ConfigurationGuide/AssignTempEverydayUser.htm">Assign Templates to an Everyday User</a>.</li>
             <li>To assign multiple templates to multiple users in a single step, see&#160;<a href="../../../EMSDesktopClient/V44.1/ConfigurationGuide/AssignSecTempMultUser.htm">Assign Templates to Multiple Users</a>.</li>
         </ul>
-        <p class="box-tip">
-            <span class="boldAllCaps">Tip:&#160;</span>You configure EMS Desktop Client user accounts in a different area (under the <span class="bold">System Administration</span> &gt; <span class="bold">Security </span>menu). For instructions,&#160;see <a href="../../../EMSDesktopClient/V44.1/ConfigurationGuide/ConfigUsers.htm">Configure EMS Desktop Client User Accounts</a>.</p>
+        <p class="box-tip"><span class="boldAllCaps">Tip:&#160;</span>You configure EMS Desktop Client user accounts in a different area (under the <span class="bold">System Administration</span> &gt; <span class="bold">Security </span>menu). For instructions,&#160;see <a href="../../../EMSDesktopClient/V44.1/ConfigurationGuide/ConfigUsers.htm">Configure EMS Desktop Client User Accounts</a>.</p>
         <p>Additionally, if your organization uses EMS Human Resources Toolkit to manage Everyday User accounts,&#160;See Also:&#160;<a href="../../../OptionalFeatures/5_EMS_HumanResourcesToolkitHome.htm">EMS HR Toolkit</a>.</p>
         <p>Lastly, a set of Account Management parameters control account management behavior. To see these parameters, refer to&#160;<a href="WebApp_CG_WebAppSysParameters.html">EMS Web App System Parameters</a>.</p>
         <MadCap:dropDown>
@@ -25,16 +22,13 @@
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
                 <p>"Guests" or "Visitors" (unauthenticated or anonymous&#160;users)&#160;can&#160;browse events,&#160;see details about your organization’s space, and/or submit requests. These users&#160;can register themselves through EMS Web App and create a user account. To enable this, you need to set certain account management parameters (see&#160;<a href="WebApp_CG_WebAppSysParameters.html">EMS Web App System Parameters</a>) and select&#160;the Credit\Edit an Account role for the unauthenticated user (see the <span class="bold">Roles </span>tab definition in&#160;<a href="WebApp_CG_ConfigEverydayUserTemplates.html">Configuring&#160;a security template</a>).</p>
-                <p>"Guests" or "Visitors"&#160;(authenticated users)&#160;may also submit and manage reservations if you enable them. You can configure these users&#160;through the EMS Desktop Client or&#160;the optional Integrated Authentication module. See Also:&#160;<a href="../../../EMSDesktopClient/V44.1/ConfigurationGuide/ConfigAddInfoGroup.html#CreateEverydayUserGroup">Creating&#160;a User from a&#160;Group</a>&#160;and&#160;<a href="../../../EMSDesktopClient/V44.1/ConfigurationGuide/ConfigContacts.htm#CreateEverydayUser">Creating&#160;a User from a Contact</a>.&#160;Before you configure a user, check&#160;that the user has not already been created.</p>
+                <p>"Guests" or "Visitors"&#160;(authenticated users)&#160;can also submit and manage reservations if you enable them. You can configure these users&#160;through the EMS Desktop Client or&#160;the optional Integrated Authentication module. See Also:&#160;<a href="../../../EMSDesktopClient/V44.1/ConfigurationGuide/ConfigAddInfoGroup.html#CreateEverydayUserGroup">Creating&#160;a User from a&#160;Group</a>&#160;and&#160;<a href="../../../EMSDesktopClient/V44.1/ConfigurationGuide/ConfigContacts.htm#CreateEverydayUser">Creating&#160;a User from a Contact</a>.&#160;Before you configure a user, check&#160;that the user has not already been created.</p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
-        <p class="box-tip">
-            <span class="boldAllCaps">Tip:</span>&#160;Everyday User process&#160;templates&#160;control access and behavior in EMS Software's&#160;Everyday User Applications.&#160;If you are upgrading from an older release of EMS, you may recognize Everyday Users as "Web Users" and "Everyday User Process Templates" as "Web Process Templates."</p>
+        <p class="box-tip"><span class="boldAllCaps">Tip:</span>&#160;Everyday User process&#160;templates&#160;control access and behavior in EMS Software's&#160;Everyday User Applications.&#160;If you are upgrading from an older release of EMS, you might recognize Everyday Users as "Web Users" and "Everyday User Process Templates" as "Web Process Templates."</p>
         <ol class="number-list">
             <li>On the EMS Desktop Client&#160;menu bar, click <span class="bold">Configuration </span>&gt; <span class="bold">Everyday User Applications</span> &gt;&#160;<span class="bold">Everyday Users</span>.&#160;The Everyday&#160;Users window opens. The number of configured users for EMS Web App&#160;shows in&#160;the upper left corner.&#160;The number of users for which your organization is licensed shows in the top center.<p><img src="Images/WebApp_Config/Configuring Everyday Users_1.png" class="PDFlarge" /></p></li>
-            <li>
-                <a name="SearchforUser">
-                </a>Check that the user you want to configure does not already exist.&#160;Enter the user name or email address in the&#160;<span class="bold">Find</span>&#160;field.&#160;<div class="box-tip"><p><span class="boldAllCaps">Tip:&#160;</span>This search string is not case-sensitive, but your entries must be in the correct order. For example, if searching by Email Address, a search string of&#160;bob&#160;returns&#160;bobworth@emssoftware.com&#160;but not&#160;dbobbett@emssoftware.com.</p><p class="beforelist">You&#160;can&#160;narrow your search results by:</p><ul start="1" class="unorder-list"><li><span class="bold">Group Type</span>&#160;</li><li><span class="bold">City</span></li><li><span class="bold">Status</span></li><li><span class="bold">Process Template</span></li></ul></div><p>Then <span class="bold">Click&#160;Display</span>; search results show&#160;in the lower pane of the window. If your user does not already exist in EMS, proceed to the next step.&#160;</p><p class="box-note"><span class="boldAllCaps">Note:</span>&#160;If the EMS system parameter <span class="bold">Users linked to Groups via External Reference</span>&#160;is set to&#160;<span class="bold">Yes</span>, then you will also see&#160;a Group column and a City column.</p></li>
+            <li><a name="SearchforUser"></a>Check that the user you want to configure does not already exist.&#160;Enter the user name or email address in the&#160;<span class="bold">Find</span>&#160;field.&#160;<div class="box-tip"><p><span class="boldAllCaps">Tip:&#160;</span>This search string is not case-sensitive, but your entries must be in the correct order. For example, if searching by Email Address, a search string of&#160;bob&#160;returns&#160;bobworth@emssoftware.com&#160;but not&#160;dbobbett@emssoftware.com.</p><p class="beforelist">You&#160;can&#160;narrow your search results by:</p><ul start="1" class="unorder-list"><li><span class="bold">Group Type</span>&#160;</li><li><span class="bold">City</span></li><li><span class="bold">Status</span></li><li><span class="bold">Process Template</span></li></ul></div><p>Then <span class="bold">Click&#160;Display</span>; search results show&#160;in the lower pane of the window. If your user does not already exist in EMS, proceed to the next step.&#160;</p><p class="box-note"><span class="boldAllCaps">Note:</span>&#160;If the EMS system parameter <span class="bold">Users linked to Groups via External Reference</span>&#160;is set to&#160;<span class="bold">Yes</span>, then you will also see&#160;a Group column and a City column.</p></li>
             <li>Create a new user.&#160;Click the&#160;<span class="bold">New&#160;</span>button.&#160;A dialog box opens.&#160;&#160;&#160;<p class="box-note"><span class="boldAllCaps">Note:&#160;</span>If the user has confirmed membership (by responding to an email containing an activation link), the&#160;<span class="bold">Validated&#160;</span>checkbox highlighted below will be selected.&#160;If the user had to answer questions when requesting an account, you can view the user's responses on the&#160;<span class="bold">User Defined Fields</span>&#160;tab.</p><div class="TitleandImage"><p class="title">Everyday User Dialog</p><p><img src="Images/WebApp_Config/Configuring Everyday Users_2.png" /></p></div><p class="box-tip"><span class="boldAllCaps">Tip:</span>&#160;When you configure a user, you can also specify one or more delegates for the user. A&#160;delegate&#160;is a user who can create and view reservations on behalf of another user.</p></li>
             <li>Enter information for the new user.&#160;User name&#160;and email address are required; password&#160;is only required if not using the optional Integrated Authentication module. All other information is optional and can be added later as&#160;needed.</li>
         </ol>
@@ -56,8 +50,7 @@
                 <tbody>
                     <tr class="TableStyle-PatternedRows-Body-LightRows">
                         <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                            <p>
-                                <span class="bold">Name</span>
+                            <p><span class="bold">Name</span>
                             </p>
                         </td>
                         <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
@@ -66,8 +59,7 @@
                     </tr>
                     <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                         <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                            <p>
-                                <span class="bold">Password</span>
+                            <p><span class="bold">Password</span>
                             </p>
                         </td>
                         <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
@@ -76,8 +68,7 @@
                     </tr>
                     <tr class="TableStyle-PatternedRows-Body-LightRows">
                         <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                            <p>
-                                <span class="bold">Email Address</span>
+                            <p><span class="bold">Email Address</span>
                             </p>
                         </td>
                         <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
@@ -86,8 +77,7 @@
                     </tr>
                     <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                         <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                            <p>
-                                <span class="bold">Phone 1 /Phone 2</span>
+                            <p><span class="bold">Phone 1 /Phone 2</span>
                             </p>
                         </td>
                         <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
@@ -96,8 +86,7 @@
                     </tr>
                     <tr class="TableStyle-PatternedRows-Body-LightRows">
                         <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                            <p>
-                                <span class="bold">Notes</span>
+                            <p><span class="bold">Notes</span>
                             </p>
                         </td>
                         <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
@@ -106,8 +95,7 @@
                     </tr>
                     <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                         <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                            <p>
-                                <span class="bold">External Reference</span>
+                            <p><span class="bold">External Reference</span>
                             </p>
                         </td>
                         <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
@@ -116,8 +104,7 @@
                     </tr>
                     <tr class="TableStyle-PatternedRows-Body-LightRows">
                         <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                            <p>
-                                <span class="bold">Network ID</span>
+                            <p><span class="bold">Network ID</span>
                             </p>
                         </td>
                         <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
@@ -126,8 +113,7 @@
                     </tr>
                     <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                         <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                            <p>
-                                <span class="bold">Email Opt Out</span>
+                            <p><span class="bold">Email Opt Out</span>
                             </p>
                         </td>
                         <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
@@ -136,8 +122,7 @@
                     </tr>
                     <tr class="TableStyle-PatternedRows-Body-LightRows">
                         <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                            <p>
-                                <span class="bold">Status</span>
+                            <p><span class="bold">Status</span>
                             </p>
                         </td>
                         <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
@@ -151,8 +136,7 @@
                     </tr>
                     <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                         <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                            <p>
-                                <span class="bold">Security Template</span>
+                            <p><span class="bold">Security Template</span>
                             </p>
                         </td>
                         <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
@@ -161,8 +145,7 @@
                     </tr>
                     <tr class="TableStyle-PatternedRows-Body-LightRows">
                         <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                            <p>
-                                <span class="bold">Time Zone</span>
+                            <p><span class="bold">Time Zone</span>
                             </p>
                         </td>
                         <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
@@ -171,8 +154,7 @@
                     </tr>
                     <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                         <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
-                            <p>
-                                <span class="bold">Validated</span>
+                            <p><span class="bold">Validated</span>
                             </p>
                         </td>
                         <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
