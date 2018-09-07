@@ -6,8 +6,8 @@
         <meta name="mt-unsafe" value="true" />
     </head>
     <body>
-        <h1>Introduction to Integration to Polycom</h1>
-        <p>For EMS customers who use the Polycom RealPresence Resource Manager to manage their video communication systems, this interface enables integration between EMS and Polycom. Polycom provides a 3<sup>rd</sup> Party Booking API that exposes Polycom RealPresence Resource Manager booking functionality to external scheduling systems like EMS. The Polycom&#160;Interface Installation Guide takes you through the steps&#160;to install and configure the EMS interface with&#160;Polycom.</p>
+        <h1 MadCap:autonum="CHAPTER&#160;1: ">Introduction to Integration to Polycom</h1>
+        <p>For EMS customers who use the Polycom RealPresence Resource Manager to manage their video communication systems, this interface enables integration between EMS and Polycom. Polycom provides a 3<sup>rd</sup> Party Booking API that exposes Polycom RealPresence Resource Manager booking functionality to external scheduling systems like EMS. The <span class="italics">Polycom&#160;Interface Installation Guide </span>takes you through the steps&#160;to install and configure the EMS interface with&#160;Polycom.</p>
         <ul class="unorder-list">
             <li>
                 <MadCap:xref href="#Polycom_Integration_Diagram">Polycom&#160;Integration Diagram</MadCap:xref>
@@ -35,22 +35,22 @@
             </p>
         </div>
         <h2><a name="How_It_Works"></a>How It Works</h2>
-        <p>Polycom provides a 3<sup>rd</sup> Party Booking API that exposes Polycom RealPresence Resource Manager booking functionality to external scheduling systems like EMS.&#160;</p>
-        <p>While video conferencing system management software controls the delivery of audio and video content, the scheduling component within the software is typically designed to be used by the person responsible for all technical aspects of the session. However, technicians may be unavailable when video conferences need to be scheduled or changes need to be made. There is a solution to this problem - integration between your videoconferencing system management software and EMS. This simplifies the process and allows the host to focus on other details of the meeting.</p>
-        <p>EMS - Polycom integration provides a cohesive and powerful way to book and manage video conferences. With the integration, you can coordinate all aspects of your video conference efforts, from booking the room and reserving the equipment to ensuring that break services have been scheduled and attendees are aware of the event. Even if your organization is using EMS’ standard functionality for video conference scheduling, this is another way to take your video conference scheduling to the next level.&#160;The integration requires the purchase of the Polycom RealPresence Resource Manager API directly from Polycom.</p>
+        <p>Polycom provides a third-party Booking API that exposes Polycom RealPresence Resource Manager booking functionality to external scheduling systems like EMS.&#160;</p>
+        <p>While video conferencing system management software controls the delivery of audio and video content, the scheduling component within the software is typically designed to be used by the person responsible for all technical aspects of the session. However, technicians may be unavailable when video conferences need to be scheduled or changes need to be made. There is a solution to this problem - integration between your video conferencing (VC) system management software and EMS. This simplifies the process and allows the host to focus on other details of the meeting.</p>
+        <p>EMS-Polycom integration provides a cohesive and powerful way to book and manage video conferences. With the integration, you can coordinate all aspects of your video conference efforts, from booking the room and reserving the equipment to ensuring that break services have been scheduled and attendees are aware of the event. Even if your organization is using EMS’ standard functionality for video conference scheduling, this is another way to take your video conference scheduling to the next level.&#160;The integration requires the purchase of the Polycom RealPresence Resource Manager API directly from Polycom.</p>
         <h2><a name="Technical_Architecture"></a>Technical Architecture</h2>
         <p>The EMS Polycom Interface is comprised of two components:</p>
         <ol start="1" class="number-list">
-            <li><span class="bold">EMS Polycom Service:</span>&#160;Windows service responsible for pushing video conference bookings from EMS to the Polycom Realpresence Resource Manager API at timed intervals.</li>
+            <li><span class="bold">EMS Polycom Service:</span>&#160;Windows service responsible for pushing video conference bookings from EMS to the Polycom RealPresence Resource Manager API at timed intervals.</li>
             <li><span class="bold">Polycom Activity DLL:&#160;</span>Custom Polycom DLL provided by EMS that will display all EMS Polycom Interface activity within the EMS application, including errors and successfully scheduled video conferences. The Polycom Activity DLL also contains an area that allows EMS Administrators to configure various EMS&#160;Polycom Interface settings.</li>
         </ol>
-        <p>New video conferences booked in EMS are pushed to the Polycom Realpresence Resource Manager API based on various settings defined within EMS (see EMS Polycom Interface Configuration Settings) Subsequent critical booking changes (i.e. date, time or location changes) and/or cancellations are also relayed to the API. The EMS&#160;Polycom Interface is a one-way interface and changes made in Polycom will not be reflected in EMS.</p>
+        <p>New video conferences booked in EMS are pushed to the Polycom RealPresence Resource Manager API based on various settings defined within EMS (see EMS Polycom Interface Configuration Settings) Subsequent critical booking changes (i.e. date, time or location changes) and/or cancellations are also relayed to the API. The EMS&#160;Polycom Interface is a one-way interface and changes made in Polycom will not be reflected in EMS.</p>
         <p>
             <img src="Images/Polycom/Introduction_2.png" alt="https://success.emssoftware.com/@api/deki/files/5009/PolycomV44Diagram.png?revision=1" class="PDFlarge" />
         </p>
-        <p>See Also:&#160;<a href="Polycom_AdvancedPolycomInterfaceConfig.html">Advanced EMS Polycom Interface Configuration</a>&#160;to learn about how data&#160;is transferred from EMS to the Polycom Realpresence Resource Manager API.</p>
+        <p>See Also:&#160;<a href="Polycom_AdvancedPolycomInterfaceConfig.html">Advanced EMS Polycom Interface Configuration</a>&#160;to learn about how data&#160;is transferred from EMS to the Polycom RealPresence Resource Manager API.</p>
         <h2><a name="How_Resources_Are_Mapped_Between_EMS_and_Polycom"></a>How Resources Are Mapped Between EMS and Polycom&#160;</h2>
-        <p>By default, the following booking information is transferred from EMS to the Polycom Realpresence Resource Manager API:</p>
+        <p>By default, the following booking information is transferred from EMS to the Polycom RealPresence Resource Manager API:</p>
         <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');margin-left: 0;margin-right: auto;" class="TableStyle-PatternedRows" cellspacing="0">
             <col class="TableStyle-PatternedRows-Column-Regular" />
             <col class="TableStyle-PatternedRows-Column-Regular" />
