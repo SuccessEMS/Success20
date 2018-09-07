@@ -16,13 +16,19 @@
                 <MadCap:xref href="#ConfigurePricing">Configure Pricing for Billable Items in a Rate Schedule&#160;</MadCap:xref>
             </li>
         </ul>
-        <p class="box-tip"><span class="boldAllCaps">Tip:&#160;</span>You Can Assign Rate Schedules to Specific Rooms and Resources.</p>
-        <p>After you define your organization’s rate schedules, you have three options for manually assigning the prices to billable items (rooms and resources) based on these schedules:</p>
-        <ul class="unorder-list">
-            <li>During the configuration of a room or resource. When you are configuring a room or resource, the configuration dialog box contains a <span class="bold">Pricing </span>tab. This tab lists all the rate schedules that are currently configured in your EMS database. You can specify the pricing method for the billable item that you are configuring for each rate schedule. You can also specify a discount percentage for the item, a minimum charge for the item, a maximum charge for the item, or any combination of these options.</li>
-            <li>After all necessary rooms and resources are configured. Both the Rooms window and the Resources window contain a <span class="bold">Pricing</span> button. You can click <span class="bold">Pricing </span>to open an Edit Pricing window. You can use the options on this window to specify the pricing method for the billable items (rooms and resources) for a selected rate schedule. You can also specify a discount percentage for the item, a minimum charge for the item, a maximum charge for the item, or any combination of these options. (See <a href="ConfigRooms.html">Configure Rooms</a> and <a href="ConfigResourcesforCat.html">Configure Resources for a Category</a>)</li>
-            <li>Where rate schedules are defined. The Rate Schedules window has a <span class="bold">Pricing </span>button. After you have defined a rate schedule, you can select a rate schedule in the Rate Schedules window and click Pricing to open an Edit Pricing window. You can use the options on this window to specify the pricing method for every billable item for the rate schedule. You can also specify a discount percentage for the item, a minimum charge for the item, a maximum charge for the item, or any combination of these options. (See <a href="#ConfigureRate">Configure Rate Schedules</a>.)</li>
-        </ul>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Concept:&#160;You Can Assign Rate Schedules to Specific Rooms and Resources. <MadCap:snippetText src="../../../Click_to_Expand.flsnp" /></MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>After you define your organization’s rate schedules, you have three options for manually assigning the prices to billable items (rooms and resources) based on these schedules:</p>
+                <ul class="unorder-list">
+                    <li>During the configuration of a room or resource. When you are configuring a room or resource, the configuration dialog box contains a <span class="bold">Pricing </span>tab. This tab lists all the rate schedules that are currently configured in your EMS database. You can specify the pricing method for the billable item that you are configuring for each rate schedule. You can also specify a discount percentage for the item, a minimum charge for the item, a maximum charge for the item, or any combination of these options.</li>
+                    <li>After all necessary rooms and resources are configured. Both the Rooms window and the Resources window contain a <span class="bold">Pricing</span> button. You can click <span class="bold">Pricing </span>to open an Edit Pricing window. You can use the options on this window to specify the pricing method for the billable items (rooms and resources) for a selected rate schedule. You can also specify a discount percentage for the item, a minimum charge for the item, a maximum charge for the item, or any combination of these options. (See <a href="ConfigRooms.html">Configure Rooms</a> and <a href="ConfigResourcesforCat.html">Configure Resources for a Category</a>)</li>
+                    <li>Where rate schedules are defined. The Rate Schedules window has a <span class="bold">Pricing </span>button. After you have defined a rate schedule, you can select a rate schedule in the Rate Schedules window and click Pricing to open an Edit Pricing window. You can use the options on this window to specify the pricing method for every billable item for the rate schedule. You can also specify a discount percentage for the item, a minimum charge for the item, a maximum charge for the item, or any combination of these options. (See <a href="#ConfigureRate">Configure Rate Schedules</a>.)</li>
+                </ul>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
         <h2><a name="ConfigureRate"></a>Configure a Rate Schedule:</h2>
         <ol start="1" class="number-list">
             <li>On the EMS menu bar, click <span class="bold">Configuration </span>&gt; <span class="bold">Billing </span>&gt;&#160;<span class="bold">Rate Schedules</span>.&#160;The Rate Schedules window opens. This window lists all the rate schedules that are currently configured in your EMS database.</li>
@@ -49,19 +55,9 @@
             <img src="../Resources/Images/DTC_V44_CGBilling/Configuring Rate Schedules_2.png" alt="emssg_CoreConfigurationBilling_image005.png" />
         </p>
         <ol MadCap:continue="true" class="number-list">
-            <li>Do one of the following:</li>
+            <li>Do one of the following:<ul MadCap:continue="true"><li>To configure the pricing for a resource category, on the Category drop-down list, select the category, and then click&#160;Display. Optionally, on the Grouping drop-down list, select a resource grouping to filter the search results.</li><li>To configure the pricing for rooms, on the Category drop-down list, select&#160;<span class="bold">Room Charge</span>.</li></ul><p>All rooms in all buildings that are currently configured in your EMS database are displayed in the lower pane of the dialog box.</p><ul MadCap:continue="true"><li>On the Building drop-down list, select a specific building, area, or view to filter the search results.</li><li>On the Grouping drop-down list, select a room type to filter the search results.</li></ul></li>
         </ol>
-        <ul>
-            <li>To configure the pricing for a resource category, on the Category dropdown list, select the category, and then click&#160;Display.</li>
-            <li>Optionally, on the Grouping dropdown list, select a resource grouping to filter the search results.</li>
-            <li>To configure the pricing for rooms, on the Category dropdown list, select&#160;Room Charge.</li>
-        </ul>
-        <p>All rooms in all buildings that are currently configured in your EMS database are displayed in the lower pane of the dialog box.</p>
-        <ul>
-            <li>On the Building dropdown list, select a specific building, area, or view to filter the search results.</li>
-            <li>On the Grouping dropdown list, select a room type to filter the search results.</li>
-        </ul>
-        <ol start="4">
+        <ol start="4" class="number-list">
             <li>For each billable item (resource or room), select the pricing method, which determines the cost for reserving the item.</li>
         </ol>
         <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
@@ -134,7 +130,7 @@
                 </tr>
             </tbody>
         </table>
-        <ol start="5">
+        <ol start="5" class="number-list">
             <li>After you select a pricing method, click in the appropriate fields to select the currently displayed amount, and edit the amount as needed.</li>
         </ol>
         <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
@@ -208,8 +204,8 @@
                 </tr>
             </tbody>
         </table>
-        <ol start="6">
-            <li>Click&#160;Close.&#160;The Edit Pricing window closes. You return to the Rate Schedules window with the rate schedule automatically selected.</li>
+        <ol start="6" class="number-list">
+            <li>Click&#160;<span class="bold">Close</span>.&#160;The Edit Pricing window closes. You return to the Rate Schedules window with the rate schedule automatically selected.</li>
         </ol>
     </body>
 </html>
