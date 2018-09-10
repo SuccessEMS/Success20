@@ -6,27 +6,44 @@
         <h1 MadCap:autonum="CHAPTER&#160;1: ">Authorize URLs for Subscribing to Events</h1>
         <p>To authorize URLs for subscribing to events from GSuite:</p>
         <ol>
-            <li>Navigate to this link.</li>
+            <li>Navigate to this <a href="https://console.developers.google.com/apis/credentials/domainverification">link</a>.</li>
             <li>Ensure you have the correct project selected. </li>
         </ol>
         <p>
-            <img src="image.png" style="width: 615px;height: 248px;" />
+            <img src="images/image.png" style="width: 615px;height: 248px;" />
         </p>
         <ol MadCap:continue="true">
-            <li>Enter your EMS&#160;Cloud Services Domain (for example:&#160;my-subdomain.emscloudservice.com). </li>
+            <li>Enter your EMS&#160;Cloud Services <span class="bold">Domain </span>(for example:&#160;my-subdomain.emscloudservice.com). </li>
             <li>Click <span class="bold">Add Domain</span>.</li>
         </ol>
         <p>
-            <img src="AddDomain.png" />
+            <img src="images/AddDomain.png" />
         </p>
         <ol MadCap:continue="true">
             <li>The Verify Ownership dialog box will appear. Click <span class="bold">Take Me There</span>. </li>
         </ol>
         <p class="title">Verify Ownership Dialog Box</p>
         <p>
-            <img src="VerifyOwnership.png" />
+            <img src="images/VerifyOwnership.png" />
         </p>
-        <p>The Webmaster Central dialog box will appear. Sign in to your domain name provider. Click the Other drop-box list and click Add a </p>
-        <p>&#160;</p>
+        <ol MadCap:continue="true">
+            <li>The <span class="bold">Webmaster Central </span>dialog box will appear. Sign in to your domain name provider. </li>
+            <li>Click the <span class="bold">Other </span>drop-box list and click<span class="bold"> Add a CNAME&#160;record</span>. </li>
+        </ol>
+        <p class="title">Webmaster Central Dialog Box</p>
+        <p>
+            <img src="images/webmaster.png" />
+        </p>
+        <ol MadCap:continue="true">
+            <li>Provide the <span class="bold">CNAME Label / Host</span> and the <span class="bold">CNAME Destination / Target </span>to EMS to be applied to DNS for validation.</li>
+        </ol>
+        <p class="title">Providing the CNAME&#160;Label/Host and Destination Target</p>
+        <p>
+            <img src="images/cnamelabel.png" />
+        </p>
+        <ol MadCap:continue="true">
+            <li>Once EMS has put the records in place, you can click <span class="bold">Verify</span>.</li>
+        </ol>
+        <p class="box-note"> <span class="bold">NOTE</span>:&#160;If you end up away from this page, you can follow the steps again and it will produce the same records.</p>
     </body>
 </html>
