@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <h1 MadCap:autonum="CHAPTER&#160;1: ">Introduction to Google Calendar</h1>
+        <p>Google Calendar Integration allows access to G Suite users’ Google Calendars to provide their free/busy statuses within EMS for scheduling meetings. Everyday Users can see attendee availability directly within the EMS Web App or Mobile App alongside space availability information from the EMS database. </p>
+        <p>Google Calendar Integration is managed through EMS Platform Services.  Google user authentication is supported through SAML authentication.</p>
+        <p class="box-note"><span class="bold">NOTE:</span> Google calendar integration requires an account with G Suite by Google Cloud. For more information please click <a href="https://gsuite.google.com/signup/basic/welcome">here</a>.</p>
+        <p>This <span class="italics">User Guide </span>will provide information that will allow you to:</p>
+        <ul>
+            <li><a href="#CreateBooking">Create a Booking</a>
+            </li>
+            <li>Filter Buildings/Locations</li>
+            <li>Select a Room</li>
+            <li>Create Favorite Rooms</li>
+            <li><a href="#SetUserPref">Set User Preferences</a>
+            </li>
+        </ul>
+        <h2><a name="CreateBooking"></a>Create a Booking</h2>
+        <p>When creating a booking, users can easily compare room availability alongside invitee availability to find a day and time that works for the right people and in the right space. Additionally, Google Calendar Integration will send invitations to attendee’s Gmail and Calendars.</p>
+        <ol>
+            <li>Create a new calendar item. </li>
+            <li>Add the name of your meeting to the <span class="bold">Add Title </span>field.<p class="box-note"><span class="bold">NOTE</span>:&#160;A Title is not required; however, if one is not assigned, EMS&#160;will provide a default Title based on the <a href="ConfigIntents.htm">intent</a>. </p></li>
+            <li>Provide a date and time, ensuring you are in the correct time zone. </li>
+            <li>From the EMS&#160;extension, select an <a href="ConfigIntents.htm">Intent</a> from the drop-down list. </li>
+        </ol>
+        <p>
+            <img src="intents.png" />
+        </p>
+        <ol MadCap:continue="true">
+            <li>Search for a <b>Room</b>. Use the <b>Filters</b> link to filter by <b>Building </b>or search by<b> Room Name</b>.</li>
+            <li>Depending on whether the Room is classified as a reserved room, options will include either <span class="bold">Book </span>or <span class="bold">Reserve</span>. Select a room by clicking either <span class="bold">Book</span> or <b>Reserve</b>. </li>
+            <li>Once a room is selected, a guest mailbox is added to the <b>Guests</b> tab. </li>
+        </ol>
+        <p>
+            <img src="images/GuestsTab.png" />
+        </p>
+        <p class="box-note"><span class="bold">NOTE</span>:&#160;To remove a Room, click <span class="bold">Remove</span>. </p>
+        <ol MadCap:continue="true">
+            <li>Click <b>Save</b>. </li>
+        </ol>
+        <p>&#160;</p>
+        <h2><a name="SetUserPref"></a>Set User Preferences</h2>
+        <p>Setting user preferences allows users to designate favorite locations, floors, and rooms. This will expedite the booking process for future reservations. </p>
+    </body>
+</html>
