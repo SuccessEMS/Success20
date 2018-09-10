@@ -56,12 +56,12 @@
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNArea">XX</p>
+                        <p class="RNArea">Edit Reservation</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows" style="text-align: left;">
                         <p class="RNTitle">Added Ability to Swap Bookings with Override Description Room and Disregard Conflicts in the Override Room</p>
-                        <p class="RNBody">Users can now swap bookings with  override description rooms, and the software will not check for availability in the override rooms. </p>
-                        <p class="RNBody">This enhancement gives admins the ability to swap a booking in an override room (for example, Booking A) with a booking in a configured room (Booking B). This can be useful in cases where Booking A has a higher priority than Booking B. Therefore, Booking A is moved to the configured room, and Booking B is moved to the override description room to await reassignment to another configured room. </p>
+                        <p class="RNBody">Users can now swap bookings with  override description rooms, and the software will no longer check for availability in the override rooms. </p>
+                        <p class="RNBody">This enhancement gives admins the ability to swap a booking in an override room (for example, Booking A) with a booking in a configured room (for example, Booking B). This can be useful in cases where Booking A has a higher priority than Booking B. Therefore, Booking A is moved to the configured room, and Booking B is moved to the override description room to await reassignment to another configured room. </p>
                         <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=39880&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">39880</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
@@ -87,9 +87,9 @@
                         <p class="RNArea">Web Deploy</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" style="text-align: left;">
-                        <p class="RNTitle">Web Deploy Removed Customer DLL Files When Updating EMS&#160;Desktop Client</p>
-                        <p class="RNBody">When updating EMS&#160;Desktop Client, the web deploy would delete the entire application folder XX</p>
-                        <p class="RNBody"><span class="bold">Fix:</span>&#160;XX</p>
+                        <p class="RNTitle">Web Deploy Removed Custom DLL Files When Updating EMS&#160;Desktop Client</p>
+                        <p class="RNBody">When updating EMS&#160;Desktop Client, web deploy would delete the entire application directory and rebuild it. If customers had placed organization-specific DLL&#160;files in the application directory (such as files for custom reports, custom badge printing, or EMS&#160;Room Sign configuration), these DLL files would be deleted and need to be added back into the application directory each time the web deploy updated the EMS&#160;Desktop Client.</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that when updating EMS&#160;Desktop Client, or installing a new version, the web deploy no longer deletes the entire application folder. Instead, it checks, file by file, to ensure custom DLL files remain in the application directory. </p>
                         <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=40799&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">40799</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
