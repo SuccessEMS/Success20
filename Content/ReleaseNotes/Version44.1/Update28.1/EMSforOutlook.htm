@@ -42,36 +42,47 @@
             <tbody>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p class="RNArea">Recurring Reservations</p>
+                        <p class="RNArea">Create a Reservation </p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="RNTitle">Meeting Invites on Exchange Room Integration Mailbox Did Not Have EMS IDs</p>
+                        <p class="RNBody">When creating a meeting with a room configured for Exchange Room Integration (ERI), the meeting invite on the ERI&#160;room mailbox calendar did not have an EMS&#160;ID. However, the meeting invite on the organizer's calendar did have an EMS&#160;ID. </p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that on the initial send of a meeting invite, the EMS&#160;ID shows in the meeting invite body on all attendee calendars, including ERI&#160;room calendars.</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=33205&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">33205</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="RNArea">Recurring Reservations</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
                         <p class="RNTitle">EMS&#160;for Outlook Add-in Was Not Correctly Updating the Location Field</p>
                         <p class="RNBody">The EMS&#160;for Outlook add-in was not correctly updating the <span class="bold">Location </span>field in the Outlook meeting window when room changes were made to recurring reservations. When room changes were made in the EMS&#160;for Outlook add-in, the <span class="bold">Location </span>field would display the previous (old) room name instead of just displaying the updated  room name.</p>
                         <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that the EMS&#160;for Outlook add-in updates the <span class="bold">Location </span>field with the appropriate room name(s). </p>
                         <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=35903&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">35903</a> and <a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=36738&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">36738</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" rowspan="3">
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" rowspan="3">
                         <p class="RNArea">Create Reservations</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
                         <p class="RNTitle">EMS&#160;for Outlook Add-in Did Not Show Correct Selected Time for Indian Standard Time in the Schedule View</p>
                         <p class="RNBody">When creating reservations in Indian Standard Time (IST), buildings from non-IST&#160;time zones did not show the correct selected time in the Schedule View of the EMS&#160;for Outlook add-in. Additionally, when creating reservations in  non-IST&#160;time zones, buildings from the IST&#160;time zone did not show the correct selected time in the Schedule View.</p>
                         <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that when Indian Standard Time is selected for creating reservations, non-IST&#160;buildings show the correct time in the Schedule View, and when a non-IST time zone is selected for creating reservations, the IST&#160;buildings show the correct time in the Schedule View.</p>
                         <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=39981&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">39981</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
                         <p class="RNTitle">Error Initializing the EMS for Outlook Add-in</p>
                         <p class="RNBody">Some users were unable to make reservations because there was an error initializing the EMS&#160;for Outlook add-in when everyday user names and/or group names contained extra commas.</p>
                         <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that everyday user and group name formats that contain apostrophes or commas are valid, and users are able to make reservations in the Outlook add-in with these everyday user names and group names. </p>
                         <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=40011&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">40011</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
                         <p class="RNTitle">Location Field and Exchange Room Integration (ERI)&#160;Email Were Not Updating Correctly When Changes Were Made to a Reservation Before Saving</p>
                         <p class="RNBody">The <span class="bold">Location </span>field and the email address for an Exchange Room Integration (ERI) were not updating correctly when room changes were made prior to saving a reservation. In the Microsoft Outlook meeting window, the room name for the original room would remain in the Location field, and the ERI email address would disappear from the <span class="bold">To</span> field. </p>
                         <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that the <span class="bold">Location </span>field and ERI email address update correctly when changes are made to a reservation prior to saving.</p>
