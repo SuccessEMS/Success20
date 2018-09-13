@@ -38,5 +38,6 @@
         </table>
         <p>*The EMS Kiosk App is an ASP.NET core application. The “.Net Core Server Hosting Bundle” needs to be installed on the web server.</p>
         <p>**URL Rewrite 2.1 for IIS&#160;needs to be installed on the web server.</p>
+        <p class="box-important"><span class="bold">IMPORTANT</span>:&#160;Microsoft has identified a <a href="https://github.com/aspnet/Announcements/issues/310">vulnerability</a> for ASP.NET Core 2.0 for applications with multi-factor authentication. Therefore, EMS&#160;Kiosk App is <span class="bold">NOT </span>affected by this vulnerability. </p>
     </body>
 </html>
