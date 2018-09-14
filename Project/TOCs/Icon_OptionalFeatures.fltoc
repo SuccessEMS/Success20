@@ -128,26 +128,26 @@
         Link="/Content/OptionalFeatures/5_EMS_HumanResourcesToolkitHome.htm">
         <TocEntry
           Title="Introduction to the EMS Human Resources Toolkit"
-          Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/Introduction.htm" />
+          Link="/Content/OptionalFeatures/HRToolkit/V44.1/Introduction.htm" />
         <TocEntry
           Title="How It Works"
-          Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HowItWorks.htm">
+          Link="/Content/OptionalFeatures/HRToolkit/V44.1/HowItWorks.htm">
           <TocEntry
             Title="How HR Toolkit Integrates Your User Records"
-            Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HowIntegUserRec.htm" />
+            Link="/Content/OptionalFeatures/HRToolkit/V44.1/HowIntegUserRec.htm" />
           <TocEntry
             Title="Align Your Source Data for HR Toolkit"
-            Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/AlignSourceData.htm" />
+            Link="/Content/OptionalFeatures/HRToolkit/V44.1/AlignSourceData.htm" />
         </TocEntry>
         <TocEntry
           Title="Install EMS HR Toolkit"
-          Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/InstallHRToolkit.htm" />
+          Link="/Content/OptionalFeatures/HRToolkit/V44.1/InstallHRToolkit.htm" />
         <TocEntry
           Title="Import EMS HR Toolkit Data"
-          Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/ImportHRToolkitData.htm" />
+          Link="/Content/OptionalFeatures/HRToolkit/V44.1/ImportHRToolkitData.htm" />
         <TocEntry
           Title="Configure EMS Web App for HR Toolkit"
-          Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/ConfigWebAppforHRTK.htm" />
+          Link="/Content/OptionalFeatures/HRToolkit/V44.1/ConfigWebAppforHRTK.htm" />
       </TocEntry>
       <TocEntry
         Title="Active Directory"
