@@ -2677,19 +2677,19 @@
       Link="/Content/UserGuides/8_EMSRoomSignApp_UG.htm">
       <TocEntry
         Title="Introduction to EMS Room Sign App"
-        Link="/Content/EMSRoomSignApp/44.1/UserGuide/RSA_UG_Introduction.html" />
+        Link="/Content/EMSRoomSignApp/44.1/UserGuide/Introduction.html" />
       <TocEntry
         Title="Best Practices for Using EMS Room Sign App"
-        Link="/Content/EMSRoomSignApp/44.1/UserGuide/RSA_UG_BestPracticesforUsing.html" />
+        Link="/Content/EMSRoomSignApp/44.1/UserGuide/BestPracticesforUsing.html" />
       <TocEntry
         Title="Get Started with EMS Room Sign App"
-        Link="/Content/EMSRoomSignApp/44.1/UserGuide/RSA_UG_GettingStarted.html" />
+        Link="/Content/EMSRoomSignApp/44.1/UserGuide/GettingStarted.html" />
       <TocEntry
         Title="Deploying the EMS Room Sign App on Tablets"
-        Link="/Content/EMSRoomSignApp/44.1/UserGuide/RSA_UG_DeployingonTablet.html" />
+        Link="/Content/EMSRoomSignApp/44.1/UserGuide/DeployingonTablet.html" />
       <TocEntry
         Title="Set Up EMS Room Sign App to Demo on a Desktop Browser (Update 12+)"
-        Link="/Content/EMSRoomSignApp/44.1/UserGuide/RSA_UG_SettingUpRSAtoDemo.html" />
+        Link="/Content/EMSRoomSignApp/44.1/UserGuide/SettingUpRSAtoDemo.html" />
       <TocEntry
         Title="PDF"
         Link="/Content/EMSRoomSignApp/44.1/UserGuide/RSA_UserGuide_PDF.pdf" />

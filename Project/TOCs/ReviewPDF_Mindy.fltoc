@@ -1,7 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="Administrative Functions in the EMS Web App"
-    Link="/Content/WebApp/A_V44.1/B_ConfigurationGuide/AdminFunctions.htm" />
+    Title="EMSWebApp_ReleaseNotes_U29"
+    Link="/Content/ReleaseNotes/Version44.1/Update29/EMSWebApp.htm"></TocEntry>
+  <TocEntry
+    Title="EMSKioskApp_ReleaseNotes_U29"
+    Link="/Content/ReleaseNotes/Version44.1/Update29/EMSKioskApp.htm" />
 </CatapultToc>
