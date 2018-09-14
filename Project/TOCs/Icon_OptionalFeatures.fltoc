@@ -108,75 +108,80 @@
         Link="/Content/OptionalFeatures/4_EMS_Facility_Management_Toolkit_Home.htm">
         <TocEntry
           Title="Introduction"
-          Link="/Content/OptionalFeatures/FMToolkit/A_V44.1/FMToolkit_Introduction.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+          Link="/Content/OptionalFeatures/FMToolkit/V44.1/Introduction.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
           <TocEntry
             Title="How It Works"
-            Link="/Content/OptionalFeatures/FMToolkit/A_V44.1/FMToolkit_HowItWorks.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+            Link="/Content/OptionalFeatures/FMToolkit/V44.1/HowItWorks.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         </TocEntry>
         <TocEntry
           Title="Installation Overview"
-          Link="/Content/OptionalFeatures/FMToolkit/A_V44.1/FMToolkit_InstallOverview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Link="/Content/OptionalFeatures/FMToolkit/V44.1/InstallOverview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
           Title="Obtain the Installation Files"
-          Link="/Content/OptionalFeatures/FMToolkit/A_V44.1/FMToolkit_ObtainInstallFiles.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Link="/Content/OptionalFeatures/FMToolkit/V44.1/ObtainInstallFiles.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
           Title="Install and Execute the Facility Management Toolkit"
-          Link="/Content/OptionalFeatures/FMToolkit/A_V44.1/FMToolkit_InstallExecuteFMToolkit.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Link="/Content/OptionalFeatures/FMToolkit/V44.1/InstallExecuteFMToolkit.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="PDF" />
       </TocEntry>
       <TocEntry
         Title="EMS Human Resources Toolkit"
         Link="/Content/OptionalFeatures/5_EMS_HumanResourcesToolkitHome.htm">
         <TocEntry
           Title="Introduction to the EMS Human Resources Toolkit"
-          Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/Introduction.htm" />
+          Link="/Content/OptionalFeatures/HRToolkit/V44.1/Introduction.htm" />
         <TocEntry
           Title="How It Works"
-          Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HowItWorks.htm">
+          Link="/Content/OptionalFeatures/HRToolkit/V44.1/HowItWorks.htm">
           <TocEntry
             Title="How HR Toolkit Integrates Your User Records"
-            Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HowIntegUserRec.htm" />
+            Link="/Content/OptionalFeatures/HRToolkit/V44.1/HowIntegUserRec.htm" />
           <TocEntry
             Title="Align Your Source Data for HR Toolkit"
-            Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/AlignSourceData.htm" />
+            Link="/Content/OptionalFeatures/HRToolkit/V44.1/AlignSourceData.htm" />
         </TocEntry>
         <TocEntry
           Title="Install EMS HR Toolkit"
-          Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/InstallHRToolkit.htm" />
+          Link="/Content/OptionalFeatures/HRToolkit/V44.1/InstallHRToolkit.htm" />
         <TocEntry
           Title="Import EMS HR Toolkit Data"
-          Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/ImportHRToolkitData.htm" />
+          Link="/Content/OptionalFeatures/HRToolkit/V44.1/ImportHRToolkitData.htm" />
         <TocEntry
           Title="Configure EMS Web App for HR Toolkit"
-          Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/ConfigWebAppforHRTK.htm" />
+          Link="/Content/OptionalFeatures/HRToolkit/V44.1/ConfigWebAppforHRTK.htm" />
+        <TocEntry
+          Title="PDF"
+          Link="/Content/OptionalFeatures/HRToolkit/V44.1/HRToolkit_PDF.pdf" />
       </TocEntry>
       <TocEntry
         Title="Active Directory"
         Link="/Content/OptionalFeatures/8_Active DirectoryHome.htm">
         <TocEntry
           Title="Connect to Your Database Using Active Directory"
-          Link="/Content/OptionalFeatures/Active Directory/OptFeat_ConnectToYourDatabase.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+          Link="/Content/OptionalFeatures/Active Directory/ConnectToYourDatabase.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
           <TocEntry
             Title="Pre-Installation Requirements"
-            Link="/Content/OptionalFeatures/Active Directory/OptFeat_Pre-InstallReqs.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+            Link="/Content/OptionalFeatures/Active Directory/Pre-InstallReqs.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
           <TocEntry
             Title="Configure Your EMS Database"
-            Link="/Content/OptionalFeatures/Active Directory/OptFeat_ConfigYourEMSDatabase.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+            Link="/Content/OptionalFeatures/Active Directory/ConfigYourEMSDatabase.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
           <TocEntry
             Title="Configure EMS Desktop Client"
-            Link="/Content/OptionalFeatures/Active Directory/OptFeat_ConfigEMSDesktopClient.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+            Link="/Content/OptionalFeatures/Active Directory/ConfigEMSDesktopClient.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
           <TocEntry
             Title="Connect Your EMS Web-Based Applications"
-            Link="/Content/OptionalFeatures/Active Directory/OptFeat_ConnectYourEMSWebBasedApps.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+            Link="/Content/OptionalFeatures/Active Directory/ConnectYourEMSWebBasedApps.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
           <TocEntry
             Title="Finalize Your Database Connection"
-            Link="/Content/OptionalFeatures/Active Directory/OptFeat_FinalizeYourDatabaseCon.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+            Link="/Content/OptionalFeatures/Active Directory/FinalizeYourDatabaseCon.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
           <TocEntry
             Title="Manage Database Connections With EMS Services"
-            Link="/Content/OptionalFeatures/Active Directory/OptFeat_ManageDatabaseCon.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+            Link="/Content/OptionalFeatures/Active Directory/ManageDatabaseCon.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         </TocEntry>
         <TocEntry
           Title="How Do I Translate EMS To Another Language?"
-          Link="/Content/OptionalFeatures/Active Directory/OptFeat_HowTranslateEMSAnothLang.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
+          Link="/Content/OptionalFeatures/Active Directory/HowTranslateEMSAnothLang.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
         <TocEntry
           Title="Install EMS Automated Report Service"
           Link="/Content/ServicesComponents/EMSAutomatedReportService.htm" />

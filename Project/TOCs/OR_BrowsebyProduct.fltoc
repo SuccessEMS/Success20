@@ -42,7 +42,7 @@
         Link="/Content/OptionalFeatures/FloorPlan/B_V44/FloorPlan_OlderReleases.htm" />
       <TocEntry
         Title="EMS FM Toolkit"
-        Link="/Content/OptionalFeatures/FMToolkit/B_44/FMToolkit_OlderReleases.htm" />
+        Link="/Content/OptionalFeatures/FMToolkit/V44/FMToolkit_OlderReleases.htm" />
       <TocEntry
         Title="EMS HR Toolkit"
         Link="/Content/OptionalFeatures/HRToolkit/B_V44/HRToolkit_OlderReleases.htm" />
@@ -90,7 +90,7 @@
           Link="/Content/OptionalFeatures/FloorPlan/B_V44/FloorPlan_V44_EMSFloorPlanV44.htm" />
         <TocEntry
           Title="FM Toolkit"
-          Link="/Content/OptionalFeatures/FMToolkit/B_44/FMToolkit_V44_EMSFMTV44.htm" />
+          Link="/Content/OptionalFeatures/FMToolkit/V44/FMToolkit_V44_EMSFMTV44.htm" />
         <TocEntry
           Title="HR Toolkit"
           Link="/Content/OptionalFeatures/HRToolkit/B_V44/HRToolkit_V44_HRToolkitV44.htm" />

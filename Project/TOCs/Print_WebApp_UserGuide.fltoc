@@ -17,7 +17,7 @@
     PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/TOC8_5X11.flpgl" />
   <TocEntry
     Title="Introduction"
-    Link="/Content/WebApp/A_V44.1/C_UserGuide/3_EMSWebAppV44.1_UG.htm"
+    Link="/Content/UserGuides/3_EMSWebAppV44.1_UG.htm"
     BreakType="chapter"
     StartSection="false"
     PageNumberReset="reset"

@@ -576,75 +576,75 @@
         Link="/Content/OptionalFeatures/4_EMS_Facility_Management_Toolkit_Home.htm">
         <TocEntry
           Title="Introduction"
-          Link="/Content/OptionalFeatures/FMToolkit/A_V44.1/FMToolkit_Introduction.htm">
+          Link="/Content/OptionalFeatures/FMToolkit/V44.1/Introduction.htm">
           <TocEntry
             Title="How It Works"
-            Link="/Content/OptionalFeatures/FMToolkit/A_V44.1/FMToolkit_HowItWorks.htm" />
+            Link="/Content/OptionalFeatures/FMToolkit/V44.1/HowItWorks.htm" />
         </TocEntry>
         <TocEntry
           Title="Installation Overview"
-          Link="/Content/OptionalFeatures/FMToolkit/A_V44.1/FMToolkit_InstallOverview.htm" />
+          Link="/Content/OptionalFeatures/FMToolkit/V44.1/InstallOverview.htm" />
         <TocEntry
           Title="Obtain the Installation Files"
-          Link="/Content/OptionalFeatures/FMToolkit/A_V44.1/FMToolkit_ObtainInstallFiles.htm" />
+          Link="/Content/OptionalFeatures/FMToolkit/V44.1/ObtainInstallFiles.htm" />
         <TocEntry
           Title="Install and Execute the Facility Management Toolkit"
-          Link="/Content/OptionalFeatures/FMToolkit/A_V44.1/FMToolkit_InstallExecuteFMToolkit.htm" />
+          Link="/Content/OptionalFeatures/FMToolkit/V44.1/InstallExecuteFMToolkit.htm" />
       </TocEntry>
       <TocEntry
         Title="EMS Human Resources Toolkit"
         Link="/Content/OptionalFeatures/5_EMS_HumanResourcesToolkitHome.htm">
         <TocEntry
           Title="Introduction to the EMS Human Resources Toolkit"
-          Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/Introduction.htm" />
+          Link="/Content/OptionalFeatures/HRToolkit/V44.1/Introduction.htm" />
         <TocEntry
           Title="How It Works"
-          Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HowItWorks.htm">
+          Link="/Content/OptionalFeatures/HRToolkit/V44.1/HowItWorks.htm">
           <TocEntry
             Title="How HR Toolkit Integrates Your User Records"
-            Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HowIntegUserRec.htm" />
+            Link="/Content/OptionalFeatures/HRToolkit/V44.1/HowIntegUserRec.htm" />
           <TocEntry
             Title="Align Your Source Data for HR Toolkit"
-            Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/AlignSourceData.htm" />
+            Link="/Content/OptionalFeatures/HRToolkit/V44.1/AlignSourceData.htm" />
         </TocEntry>
         <TocEntry
           Title="Install EMS HR Toolkit"
-          Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/InstallHRToolkit.htm" />
+          Link="/Content/OptionalFeatures/HRToolkit/V44.1/InstallHRToolkit.htm" />
         <TocEntry
           Title="Import EMS HR Toolkit Data"
-          Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/ImportHRToolkitData.htm" />
+          Link="/Content/OptionalFeatures/HRToolkit/V44.1/ImportHRToolkitData.htm" />
         <TocEntry
           Title="Configure EMS Web App for HR Toolkit"
-          Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/ConfigWebAppforHRTK.htm" />
+          Link="/Content/OptionalFeatures/HRToolkit/V44.1/ConfigWebAppforHRTK.htm" />
       </TocEntry>
       <TocEntry
         Title="Active Directory"
         Link="/Content/OptionalFeatures/8_Active DirectoryHome.htm">
         <TocEntry
           Title="Connect to Your Database Using Active Directory"
-          Link="/Content/OptionalFeatures/Active Directory/OptFeat_ConnectToYourDatabase.htm">
+          Link="/Content/OptionalFeatures/Active Directory/ConnectToYourDatabase.htm">
           <TocEntry
             Title="Pre-Installation Requirements"
-            Link="/Content/OptionalFeatures/Active Directory/OptFeat_Pre-InstallReqs.htm" />
+            Link="/Content/OptionalFeatures/Active Directory/Pre-InstallReqs.htm" />
           <TocEntry
             Title="Configure Your EMS Database"
-            Link="/Content/OptionalFeatures/Active Directory/OptFeat_ConfigYourEMSDatabase.htm" />
+            Link="/Content/OptionalFeatures/Active Directory/ConfigYourEMSDatabase.htm" />
           <TocEntry
             Title="Configure EMS Desktop Client"
-            Link="/Content/OptionalFeatures/Active Directory/OptFeat_ConfigEMSDesktopClient.htm" />
+            Link="/Content/OptionalFeatures/Active Directory/ConfigEMSDesktopClient.htm" />
           <TocEntry
             Title="Connect Your EMS Web-Based Applications"
-            Link="/Content/OptionalFeatures/Active Directory/OptFeat_ConnectYourEMSWebBasedApps.htm" />
+            Link="/Content/OptionalFeatures/Active Directory/ConnectYourEMSWebBasedApps.htm" />
           <TocEntry
             Title="Finalize Your Database Connection"
-            Link="/Content/OptionalFeatures/Active Directory/OptFeat_FinalizeYourDatabaseCon.htm" />
+            Link="/Content/OptionalFeatures/Active Directory/FinalizeYourDatabaseCon.htm" />
           <TocEntry
             Title="Manage Database Connections With EMS Services"
-            Link="/Content/OptionalFeatures/Active Directory/OptFeat_ManageDatabaseCon.htm" />
+            Link="/Content/OptionalFeatures/Active Directory/ManageDatabaseCon.htm" />
         </TocEntry>
         <TocEntry
           Title="How Do I Translate EMS To Another Language?"
-          Link="/Content/OptionalFeatures/Active Directory/OptFeat_HowTranslateEMSAnothLang.htm"></TocEntry>
+          Link="/Content/OptionalFeatures/Active Directory/HowTranslateEMSAnothLang.htm"></TocEntry>
         <TocEntry
           Title="Install EMS Automated Report Service"
           Link="/Content/ServicesComponents/EMSAutomatedReportService.htm" />
@@ -2397,7 +2397,7 @@
     </TocEntry>
     <TocEntry
       Title="EMS Web App "
-      Link="/Content/WebApp/A_V44.1/C_UserGuide/3_EMSWebAppV44.1_UG.htm">
+      Link="/Content/UserGuides/3_EMSWebAppV44.1_UG.htm">
       <TocEntry
         Title="Get Started with EMS Web App"
         Link="/Content/WebApp/A_V44.1/C_UserGuide/WebApp_GettingStarted.html">

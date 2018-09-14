@@ -19,24 +19,46 @@
     PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/TOC8_5X11.flpgl">
     <TocEntry
       Title="Introduction to EMS Platform Services"
-      Link="/Content/EMSPlatformServices/InstallationGuide/Introduction.html" />
+      Link="/Content/EMSPlatformServices/InstallationGuide/Introduction.html"
+      BreakType="chapter"
+      PageNumberReset="reset"
+      StartSection="false"
+      PageNumber="1" />
     <TocEntry
       Title="Architecture"
-      Link="/Content/EMSPlatformServices/InstallationGuide/Architecture.html" />
+      Link="/Content/EMSPlatformServices/InstallationGuide/Architecture.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue" />
     <TocEntry
       Title="Prerequisites and Requirements"
-      Link="/Content/EMSPlatformServices/InstallationGuide/SystemRequirements.htm"></TocEntry>
+      Link="/Content/EMSPlatformServices/InstallationGuide/SystemRequirements.htm"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"></TocEntry>
     <TocEntry
       Title="License Requirements for EMS Platform Services"
-      Link="/Content/EMSPlatformServices/InstallationGuide/LicenseRequirements.html" />
+      Link="/Content/EMSPlatformServices/InstallationGuide/LicenseRequirements.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue" />
     <TocEntry
       Title="Install EMS Platform Services"
-      Link="/Content/EMSPlatformServices/InstallationGuide/InstallPS.html" />
+      Link="/Content/EMSPlatformServices/InstallationGuide/InstallPS.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue" />
     <TocEntry
       Title="Authentication Methods"
-      Link="/Content/Authentication/EMSAuthenticationMethods.htm" />
+      Link="/Content/Authentication/EMSAuthenticationMethods.htm"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue" />
     <TocEntry
       Title="Configure Platform Services in the Admin Portal"
-      Link="/Content/EMSPlatformServices/ConfigurationGuide/ConfigPSinAdminPortal.html" />
+      Link="/Content/EMSPlatformServices/ConfigurationGuide/ConfigPSinAdminPortal.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue" />
   </TocEntry>
 </CatapultToc>
