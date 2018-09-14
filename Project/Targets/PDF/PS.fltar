@@ -2,7 +2,7 @@
 <CatapultTarget
   Version="2"
   Comment="EMS Platform Services Installation &amp; Configuration Guide"
-  Type="MsWord"
+  Type="PDF"
   Destinations=""
   GlossaryTermConversion="marked"
   MasterToc="/Project/TOCs/Print_PS.fltoc"
