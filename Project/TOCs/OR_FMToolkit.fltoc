@@ -28,11 +28,11 @@
       Title="Version 43">
       <TocEntry
         Title="Introduction to EMS Facility Management (FM) Toolkit"
-        Link="/Content/OptionalFeatures/FMToolkit/C_V43/FMToolkit_IntroV43.htm"
+        Link="/Content/OptionalFeatures/FMToolkit/V43/FMToolkit_IntroV43.htm"
         MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
         Title="FM Toolkit Install"
-        Link="/Content/OptionalFeatures/FMToolkit/C_V43/FM Toolkit Install.pdf" />
+        Link="/Content/OptionalFeatures/FMToolkit/V43/FM Toolkit Install.pdf" />
     </TocEntry>
   </TocEntry>
 </CatapultToc>
