@@ -2017,35 +2017,35 @@
         Link="/Content/OptionalFeatures/8_Room_Wizard_Home.htm">
         <TocEntry
           Title="Introduction"
-          Link="/Content/OptionalFeatures/RoomWiz/A_V44.1/RoomWiz_Introduction.htm" />
+          Link="/Content/OptionalFeatures/RoomWizard/V44.1/Introduction.htm" />
         <TocEntry
           Title="System Requirements"
-          Link="/Content/OptionalFeatures/RoomWiz/A_V44.1/RoomWiz_SystemRequirements.htm" />
+          Link="/Content/OptionalFeatures/RoomWizard/V44.1/SystemRequirements.htm" />
         <TocEntry
           Title="Obtain the Installation Files"
-          Link="/Content/OptionalFeatures/RoomWiz/A_V44.1/RoomWiz_ObtainInstallFiles.htm" />
+          Link="/Content/OptionalFeatures/RoomWizard/V44.1/ObtainInstallFiles.htm" />
         <TocEntry
           Title="Install EMS - RoomWizard Interface"
-          Link="/Content/OptionalFeatures/RoomWiz/A_V44.1/RoomWiz_InstallRWinterface.htm" />
+          Link="/Content/OptionalFeatures/RoomWizard/V44.1/InstallRWinterface.htm" />
         <TocEntry
           Title="Install EMS -RoomWizard Interface Website"
-          Link="/Content/OptionalFeatures/RoomWiz/A_V44.1/RoomWiz_InstallRWInterWebsite.htm" />
+          Link="/Content/OptionalFeatures/RoomWizard/V44.1/InstallRWInterWebsite.htm" />
         <TocEntry
           Title="Configure the EMS RoomWizard Interface"
-          Link="/Content/OptionalFeatures/RoomWiz/A_V44.1/RoomWiz_ConfigEMSRW.htm">
+          Link="/Content/OptionalFeatures/RoomWizard/V44.1/ConfigEMSRW.htm">
           <TocEntry
             Title="Data Transferred Between Units and the Interface"
-            Link="/Content/OptionalFeatures/RoomWiz/A_V44.1/RoomWiz_DataTransBetweenUnits.htm" />
+            Link="/Content/OptionalFeatures/RoomWizard/V44.1/DataTransBetweenUnits.htm" />
           <TocEntry
             Title="Room Wizard Communication"
-            Link="/Content/OptionalFeatures/RoomWiz/A_V44.1/RoomWiz_RWCommunication.htm" />
+            Link="/Content/OptionalFeatures/RoomWizard/V44.1/RWCommunication.htm" />
           <TocEntry
             Title="Security Considerations"
-            Link="/Content/OptionalFeatures/RoomWiz/A_V44.1/RoomWiz_SecurityConsiderations.htm" />
+            Link="/Content/OptionalFeatures/RoomWizard/V44.1/SecurityConsiderations.htm" />
         </TocEntry>
         <TocEntry
           Title="Configure Steelcase RoomWizard"
-          Link="/Content/OptionalFeatures/RoomWiz/A_V44.1/RoomWiz_ConfigSteelcaseRW.htm" />
+          Link="/Content/OptionalFeatures/RoomWizard/V44.1/ConfigSteelcaseRW.htm" />
       </TocEntry>
       <TocEntry
         Title="Polycom Integration"

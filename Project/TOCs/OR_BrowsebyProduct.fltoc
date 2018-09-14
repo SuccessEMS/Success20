@@ -33,7 +33,7 @@
         Link="/Content/OptionalFeatures/EMS_API/B_V44/API_OlderReleases.htm"></TocEntry>
       <TocEntry
         Title="EMS RoomWizard"
-        Link="/Content/OptionalFeatures/RoomWiz/B_V44/RoomWizard_OlderReleases.htm" />
+        Link="/Content/OptionalFeatures/RoomWizard/B_V44/RoomWizard_OlderReleases.htm" />
       <TocEntry
         Title="EMS CISCO TMS"
         Link="/Content/OptionalFeatures/Cisco/B_V44/Cisco_OlderReleases.htm" />
@@ -114,7 +114,7 @@
           Link="/Content/EMSRoomSignApp/C_V43/Glance_OlderReleases.htm" />
         <TocEntry
           Title="EMS RoomWizard"
-          Link="/Content/OptionalFeatures/RoomWiz/C_V43/RoomWizard_IntroV43.htm" />
+          Link="/Content/OptionalFeatures/RoomWizard/C_V43/RoomWizard_IntroV43.htm" />
         <TocEntry
           Title="EMS API"
           Link="/Content/OptionalFeatures/EMS_API/C_V43/EMS_IntrotoV43.htm" />

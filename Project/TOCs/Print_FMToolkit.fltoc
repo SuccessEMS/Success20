@@ -22,7 +22,11 @@
       PageNumberReset="reset"
       StartSection="false"
       PageNumber="1"
-      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      ChapterNumberReset="reset"
+      ChapterNumber="1"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same" />
     <TocEntry
       Title="[%=System.LinkedTitle%]"
       Link="/Content/OptionalFeatures/FMToolkit/V44.1/HowItWorks.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
