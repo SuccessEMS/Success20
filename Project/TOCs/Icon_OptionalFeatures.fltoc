@@ -123,7 +123,8 @@
           Title="Install and Execute the Facility Management Toolkit"
           Link="/Content/OptionalFeatures/FMToolkit/V44.1/InstallExecuteFMToolkit.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
-          Title="PDF" />
+          Title="PDF"
+          Link="/Content/OptionalFeatures/FMToolkit/V44.1/FMToolkit_PDF.pdf" />
       </TocEntry>
       <TocEntry
         Title="EMS Human Resources Toolkit"
@@ -261,35 +262,37 @@
         Link="/Content/OptionalFeatures/8_Room_Wizard_Home.htm">
         <TocEntry
           Title="Introduction"
-          Link="/Content/OptionalFeatures/RoomWiz/A_V44.1/RoomWiz_Introduction.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
+          Link="/Content/OptionalFeatures/RoomWizard/V44.1/RoomWiz_Introduction.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
         <TocEntry
           Title="System Requirements"
-          Link="/Content/OptionalFeatures/RoomWiz/A_V44.1/RoomWiz_SystemRequirements.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Link="/Content/OptionalFeatures/RoomWizard/V44.1/RoomWiz_SystemRequirements.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
           Title="Obtain the Installation Files"
-          Link="/Content/OptionalFeatures/RoomWiz/A_V44.1/RoomWiz_ObtainInstallFiles.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Link="/Content/OptionalFeatures/RoomWizard/V44.1/RoomWiz_ObtainInstallFiles.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
           Title="Install EMS - RoomWizard Interface"
-          Link="/Content/OptionalFeatures/RoomWiz/A_V44.1/RoomWiz_InstallRWinterface.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Link="/Content/OptionalFeatures/RoomWizard/V44.1/RoomWiz_InstallRWinterface.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
           Title="Install EMS -RoomWizard Interface Website"
-          Link="/Content/OptionalFeatures/RoomWiz/A_V44.1/RoomWiz_InstallRWInterWebsite.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Link="/Content/OptionalFeatures/RoomWizard/V44.1/RoomWiz_InstallRWInterWebsite.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
           Title="Configure the EMS RoomWizard Interface"
-          Link="/Content/OptionalFeatures/RoomWiz/A_V44.1/RoomWiz_ConfigEMSRW.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+          Link="/Content/OptionalFeatures/RoomWizard/V44.1/RoomWiz_ConfigEMSRW.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
           <TocEntry
             Title="Data Transferred Between Units and the Interface"
-            Link="/Content/OptionalFeatures/RoomWiz/A_V44.1/RoomWiz_DataTransBetweenUnits.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+            Link="/Content/OptionalFeatures/RoomWizard/V44.1/RoomWiz_DataTransBetweenUnits.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
           <TocEntry
             Title="Room Wizard Communication"
-            Link="/Content/OptionalFeatures/RoomWiz/A_V44.1/RoomWiz_RWCommunication.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+            Link="/Content/OptionalFeatures/RoomWizard/V44.1/RoomWiz_RWCommunication.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
           <TocEntry
             Title="Security Considerations"
-            Link="/Content/OptionalFeatures/RoomWiz/A_V44.1/RoomWiz_SecurityConsiderations.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+            Link="/Content/OptionalFeatures/RoomWizard/V44.1/RoomWiz_SecurityConsiderations.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         </TocEntry>
         <TocEntry
           Title="Configure Steelcase RoomWizard"
-          Link="/Content/OptionalFeatures/RoomWiz/A_V44.1/RoomWiz_ConfigSteelcaseRW.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Link="/Content/OptionalFeatures/RoomWizard/V44.1/RoomWiz_ConfigSteelcaseRW.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="PDF" />
       </TocEntry>
       <TocEntry
         Title="Services and Components"
