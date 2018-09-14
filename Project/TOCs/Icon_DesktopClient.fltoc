@@ -1899,20 +1899,20 @@
         Link="/Content/OptionalFeatures/4_EMS_Facility_Management_Toolkit_Home.htm">
         <TocEntry
           Title="Introduction"
-          Link="/Content/OptionalFeatures/FMToolkit/A_V44.1/FMToolkit_Introduction.htm">
+          Link="/Content/OptionalFeatures/FMToolkit/V44.1/Introduction.htm">
           <TocEntry
             Title="How It Works"
-            Link="/Content/OptionalFeatures/FMToolkit/A_V44.1/FMToolkit_HowItWorks.htm" />
+            Link="/Content/OptionalFeatures/FMToolkit/V44.1/HowItWorks.htm" />
         </TocEntry>
         <TocEntry
           Title="Installation Overview"
-          Link="/Content/OptionalFeatures/FMToolkit/A_V44.1/FMToolkit_InstallOverview.htm" />
+          Link="/Content/OptionalFeatures/FMToolkit/V44.1/InstallOverview.htm" />
         <TocEntry
           Title="Obtain the Installation Files"
-          Link="/Content/OptionalFeatures/FMToolkit/A_V44.1/FMToolkit_ObtainInstallFiles.htm" />
+          Link="/Content/OptionalFeatures/FMToolkit/V44.1/ObtainInstallFiles.htm" />
         <TocEntry
           Title="Install and Execute the Facility Management Toolkit"
-          Link="/Content/OptionalFeatures/FMToolkit/A_V44.1/FMToolkit_InstallExecuteFMToolkit.htm" />
+          Link="/Content/OptionalFeatures/FMToolkit/V44.1/InstallExecuteFMToolkit.htm" />
       </TocEntry>
       <TocEntry
         Title="EMS Human Resources Toolkit"

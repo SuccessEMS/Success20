@@ -108,20 +108,22 @@
         Link="/Content/OptionalFeatures/4_EMS_Facility_Management_Toolkit_Home.htm">
         <TocEntry
           Title="Introduction"
-          Link="/Content/OptionalFeatures/FMToolkit/A_V44.1/FMToolkit_Introduction.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+          Link="/Content/OptionalFeatures/FMToolkit/V44.1/Introduction.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
           <TocEntry
             Title="How It Works"
-            Link="/Content/OptionalFeatures/FMToolkit/A_V44.1/FMToolkit_HowItWorks.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+            Link="/Content/OptionalFeatures/FMToolkit/V44.1/HowItWorks.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         </TocEntry>
         <TocEntry
           Title="Installation Overview"
-          Link="/Content/OptionalFeatures/FMToolkit/A_V44.1/FMToolkit_InstallOverview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Link="/Content/OptionalFeatures/FMToolkit/V44.1/InstallOverview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
           Title="Obtain the Installation Files"
-          Link="/Content/OptionalFeatures/FMToolkit/A_V44.1/FMToolkit_ObtainInstallFiles.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Link="/Content/OptionalFeatures/FMToolkit/V44.1/ObtainInstallFiles.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
           Title="Install and Execute the Facility Management Toolkit"
-          Link="/Content/OptionalFeatures/FMToolkit/A_V44.1/FMToolkit_InstallExecuteFMToolkit.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Link="/Content/OptionalFeatures/FMToolkit/V44.1/InstallExecuteFMToolkit.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="PDF" />
       </TocEntry>
       <TocEntry
         Title="EMS Human Resources Toolkit"
@@ -148,6 +150,9 @@
         <TocEntry
           Title="Configure EMS Web App for HR Toolkit"
           Link="/Content/OptionalFeatures/HRToolkit/V44.1/ConfigWebAppforHRTK.htm" />
+        <TocEntry
+          Title="PDF"
+          Link="/Content/OptionalFeatures/HRToolkit/V44.1/HRToolkit_PDF.pdf" />
       </TocEntry>
       <TocEntry
         Title="Active Directory"
