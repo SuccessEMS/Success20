@@ -1957,29 +1957,29 @@
         Link="/Content/OptionalFeatures/8_Active DirectoryHome.htm">
         <TocEntry
           Title="Connect to Your Database Using Active Directory"
-          Link="/Content/OptionalFeatures/Active Directory/OptFeat_ConnectToYourDatabase.htm">
+          Link="/Content/OptionalFeatures/Active Directory/ConnectToYourDatabase.htm">
           <TocEntry
             Title="Pre-Installation Requirements"
-            Link="/Content/OptionalFeatures/Active Directory/OptFeat_Pre-InstallReqs.htm" />
+            Link="/Content/OptionalFeatures/Active Directory/Pre-InstallReqs.htm" />
           <TocEntry
             Title="Configure Your EMS Database"
-            Link="/Content/OptionalFeatures/Active Directory/OptFeat_ConfigYourEMSDatabase.htm" />
+            Link="/Content/OptionalFeatures/Active Directory/ConfigYourEMSDatabase.htm" />
           <TocEntry
             Title="Configure EMS Desktop Client"
-            Link="/Content/OptionalFeatures/Active Directory/OptFeat_ConfigEMSDesktopClient.htm" />
+            Link="/Content/OptionalFeatures/Active Directory/ConfigEMSDesktopClient.htm" />
           <TocEntry
             Title="Connect Your EMS Web-Based Applications"
-            Link="/Content/OptionalFeatures/Active Directory/OptFeat_ConnectYourEMSWebBasedApps.htm" />
+            Link="/Content/OptionalFeatures/Active Directory/ConnectYourEMSWebBasedApps.htm" />
           <TocEntry
             Title="Finalize Your Database Connection"
-            Link="/Content/OptionalFeatures/Active Directory/OptFeat_FinalizeYourDatabaseCon.htm" />
+            Link="/Content/OptionalFeatures/Active Directory/FinalizeYourDatabaseCon.htm" />
           <TocEntry
             Title="Manage Database Connections With EMS Services"
-            Link="/Content/OptionalFeatures/Active Directory/OptFeat_ManageDatabaseCon.htm" />
+            Link="/Content/OptionalFeatures/Active Directory/ManageDatabaseCon.htm" />
         </TocEntry>
         <TocEntry
           Title="How Do I Translate EMS To Another Language?"
-          Link="/Content/OptionalFeatures/Active Directory/OptFeat_HowTranslateEMSAnothLang.htm"></TocEntry>
+          Link="/Content/OptionalFeatures/Active Directory/HowTranslateEMSAnothLang.htm"></TocEntry>
         <TocEntry
           Title="Install EMS Automated Report Service"
           Link="/Content/ServicesComponents/EMSAutomatedReportService.htm" />

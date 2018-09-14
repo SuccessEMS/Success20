@@ -571,7 +571,7 @@
   </TocEntry>
   <TocEntry
     Title="[%=System.LinkedTitle%]"
-    Link="/Content/OptionalFeatures/Active Directory/OptFeat_ConfigEMSDesktopClient.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    Link="/Content/OptionalFeatures/Active Directory/ConfigEMSDesktopClient.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
     BreakType="chapter"
     AutoEndOnLeftPage="disabled"
     StartSection="false"
@@ -582,7 +582,7 @@
     ChapterNumberReset="continue" />
   <TocEntry
     Title="[%=System.LinkedTitle%]"
-    Link="/Content/OptionalFeatures/Active Directory/OptFeat_ConnectToYourDatabase.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    Link="/Content/OptionalFeatures/Active Directory/ConnectToYourDatabase.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
     BreakType="chapter"
     AutoEndOnLeftPage="disabled"
     StartSection="false"
