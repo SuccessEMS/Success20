@@ -2,32 +2,40 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="Internal Doc Title Page"
-    Link="/Content/Print/InternalDocumentation.htm"
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/Print Only Topics/TOC.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
     BreakType="chapter"
     StartSection="false"
-    PageLayout="/Content/Resources/PageLayouts/PreviewRN/PrevTitle.flpgl"
-    PageNumberReset="reset"
-    SectionNumberReset="continue"
-    VolumeNumberReset="same"
-    ChapterNumberReset="continue"
-    ComputeToc="false"
-    ReplaceMergeNode="false"
-    PageNumber="1"
-    PageType="title"
-    AutoEndOnLeftPage="disabled"></TocEntry>
-  <TocEntry
-    Title="Customize Security in EMS Web App"
-    Link="/Content/InternalDocumentation/WebApp_CustomizeSecurity.html" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-    BreakType="chapter"
-    StartSection="false"
-    PageNumberReset="reset"
-    PageLayout="/Content/Resources/PageLayouts/PreviewRN/PrevChapters.flpgl"
-    PageNumber="1"
-    ChapterNumberReset="reset"
-    ChapterNumber="1"
-    SectionNumberReset="continue"
-    VolumeNumberReset="same"
-    PageType="firstright"
-    AutoEndOnLeftPage="disabled"></TocEntry>
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/TOC8_5X11.flpgl">
+    <TocEntry
+      Title="GSuite User Guide"
+      Link="/Content/GoogleSuiteIntegration/IntroGoogleCalendarUserGuide.htm">
+      <TocEntry
+        Title="Configure Intents"
+        Link="/Content/GoogleSuiteIntegration/ConfigIntents.htm"
+        BreakType="chapter"
+        ChapterNumberReset="reset"
+        ChapterNumber="1"
+        StartSection="false"
+        PageNumberReset="continue"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same" />
+      <TocEntry
+        Title="Conflict Resolution"
+        Link="/Content/GoogleSuiteIntegration/ConflictResolution.htm"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Authorize URLs for Subscribing to Events"
+        Link="/Content/GoogleSuiteIntegration/AuthURLsforSubscribingtoEvents.htm"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue" />
+    </TocEntry>
+  </TocEntry>
 </CatapultToc>
