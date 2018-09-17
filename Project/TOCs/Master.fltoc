@@ -1134,7 +1134,7 @@
       </TocEntry>
       <TocEntry
         Title="Configuration &gt; Kiosk"
-        Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigurationKiosk.htm">
+        Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigKiosk.htm">
         <TocEntry
           Title="Configure Kiosk Profiles"
           Link="/Content/EMSKioskApp/V44.1/ConfigurationGuide/ConfigKioskAppProfiles.htm" />

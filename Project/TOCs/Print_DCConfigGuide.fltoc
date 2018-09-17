@@ -1143,7 +1143,7 @@
       </TocEntry>
       <TocEntry
         Title="Configuration &gt; Kiosk"
-        Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigurationKiosk.htm"
+        Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigKiosk.htm"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
