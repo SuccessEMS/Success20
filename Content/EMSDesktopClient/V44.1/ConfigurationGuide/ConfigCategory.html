@@ -267,8 +267,8 @@
                         <p>Available at Checkout</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p>Select this option if this category is to be displayed as part of the initial&#160;Room Request process in <MadCap:variable name="General.EMS&#160;Web App" />. If not selected, <MadCap:variable name="General.EMS&#160;Web App" /> users must first complete the Room Request process before they can request the category.</p>
-                        <p class="table-note"><span class="boldAllCaps">Note:&#160;</span>For example, if an Attendee type Category is associated with a booking template and this option is selected, then users will be able to add or remove attendees&#160;<em>during</em>&#160;the booking. If it is de-selected, by contrast, they will only be able to manage attendees on the Reservation Details &gt; Services page once the reservation is created and they are in edit mode.&#160;</p>
+                        <p>Select <span class="bold">Available at Checkout</span> if this category is to be displayed as part of the initial&#160;Room Request process in <MadCap:variable name="General.EMS&#160;Web App" />. If <span class="bold">Available at Checkout</span> not selected, <MadCap:variable name="General.EMS&#160;Web App" /> users must first complete the Room Request process before they can request the category.</p>
+                        <p class="table-note"><span class="boldAllCaps">Note:&#160;</span>For example, if an Attendee-type category is associated with a booking template and the <span class="bold">Available at Checkout</span> option is selected, then users will be able to add or remove attendees&#160;<em>during</em>&#160;the booking. If <span class="bold">Available at Checkout</span> is not selected, users will only be able to manage attendees on the <span class="bold">Reservation Details</span> &gt; <span class="bold">Services </span>page once the reservation is created and they are in edit mode.&#160;</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
@@ -278,17 +278,19 @@
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
                         <p>Select this option if <MadCap:variable name="General.EMS&#160;Web App" /> users are to be prompted to enter a billing reference and/or PO number when they select a resource from the category.&#160;</p>
-                        <p class="table-note"><span class="boldAllCaps">Note:</span>&#160;Selecting these options does not&#160;<em>require&#160;</em>the user to enter these values, only that they will be prompted to enter values. The behavior of these fields (required, validated, or displayed)&#160;is controlled in the&#160;Billing Reference Validation and PO Number Validation&#160;<MadCap:variable name="General.EMS&#160;Web App" />&#160;system <a href="../../../WebApp/A_V44.1/B_ConfigurationGuide/WebApp_CG_WebAppSysParameters.html">parameters</a> in <MadCap:variable name="General.EMS&#160;Desktop Client" />.&#160;Users will see the Billing Reference field during the booking process when this parameter is set at either the reservation, room, or category level.&#160;Whether the Billing Reference field displays is based on four settings: global, template, room-level setting, category-level setting. The booking template setting overrides the global setting. The room and category level settings can both override the template setting. After the Admin decides whether to display the field, user entries will be validated based on the value in the "Billing Reference Validation" parameter set on the template.</p>
-                        <p>Billing Reference field options:</p>
-                        <ul>
-                            <li>Show (Prompt)</li>
-                            <li>Require</li>
-                            <li>Validate (Show and Require)</li>
-                            <li>Don't Show</li>
-                        </ul>
-                        <p>Additionally, the&#160;<strong>Billing Reference Validation</strong>&#160;parameter will always determine whether it is optional, required, or required and validated.&#160;</p>
-                        <p><strong>See Also:&#160;</strong>
-                            <MadCap:xref href="ConfigFieldBehaviorBillRef.html">Configure Field Behavior for Billing Reference and PO Numbers</MadCap:xref>.</p>
+                        <p class="table-note">
+                            <p><span class="boldAllCaps">Note:</span>&#160;Selecting the <span class="bold">Prompt for Billing Reference</span> or <span class="bold">Prompt for PO Number</span> option does not&#160;<em>require&#160;</em>the user to enter the billing reference or purchase order values. Instead, selecting these options only has the system prompt users to enter the values. </p>
+                            <p>The behavior of these fields (required, validated, or displayed)&#160;is controlled in the&#160;<span class="italics">Billing Reference Validation</span> and <span class="italics">PO Number Validation</span>&#160;Everyday&#160;User Applications system <a href="EMSEverydayUserApplicationsParameters.htm">parameters</a> in <MadCap:variable name="General.EMS&#160;Desktop Client" />.&#160;Users will see the Billing Reference field during the booking process when the parameter is set at either the reservation, room, or category level.&#160;Whether the Billing Reference field displays is based on four settings: global, template, room-level setting, and category-level. The booking template setting overrides the global setting. The room and category level settings can both override the template setting. After the Admin decides whether to display the field, user entries will be validated based on the value in the <span class="italics">Billing Reference Validation</span> parameter set on the template.</p>
+                            <p>Billing Reference field options:</p>
+                            <ul>
+                                <li>Show (Prompt)</li>
+                                <li>Require</li>
+                                <li>Validate (Show and Require)</li>
+                                <li>Don't Show</li>
+                            </ul>
+                            <p>Additionally, the&#160;<span class="italics">Billing Reference Validation</span>&#160;parameter will always determine whether it is optional, required, or required and validated.&#160;</p>
+                            <p><strong>See Also:&#160;</strong><a href="ConfigFieldBehaviorBillRef.html">Configure Field Behavior for Billing Reference and PO Numbers</a>.</p>
+                        </p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
@@ -321,7 +323,7 @@
                         <p>Inactive</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
-                        <p>Leave this option blank to add the category as an active category. Select this option to inactivate the category.</p>
+                        <p>To add the category as an active category, do NOT select the <span class="bold">Inactive </span>check box. To inactivate the category, select the <span class="bold">Inactive </span>check box.</p>
                     </td>
                 </tr>
             </tbody>
