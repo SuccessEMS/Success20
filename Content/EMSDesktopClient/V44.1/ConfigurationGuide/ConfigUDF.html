@@ -6,7 +6,7 @@
         <meta name="mt-unsafe" value="true" />
     </head>
     <body>
-        <h1 class="mt-export-title" MadCap:autonum="CHAPTER&#160;1: ">
+        <h1 MadCap:autonum="CHAPTER&#160;1: ">
             <MadCap:concept term="V44.1" />Configure User Defined Fields (UDFs)</h1>
         <p>You can configure&#160;<em class="bold">User Defined Fields,</em>&#160;or&#160;<em class="bold">UDFs</em>, which are custom fields that store additional information or data for a Building, a Group, a Group with a Reservation, a Reservation, a room, a service order, a guest request, or a web user.</p>
         <p>For example, for a Reservation, you might want to note the date that the contract for the event was received and if the event was approved by a supervisor. For a guest request, you might want to inquire if alcohol will be served at the event. User defined fields are displayed on the User Defined Fields tab in the Reservation Wizard and on the User Defined Fields tab in the Navigator. If User Defined Fields have been completed for a Reservation, then these fields can be displayed on any confirmations and invoices that are generated for the Reservation.</p>
@@ -193,7 +193,7 @@
             <li>Click <span class="bold">OK</span>.&#160;The User Defined Field dialog box will close and you will be returned to the User Defined Fields window.</li>
         </ol>
         <h2 class="Heading2"><a name="UDF_Field_Types"></a>UDF Field Types</h2>
-        <p>You can select from the following types of UDF fields in the Field Type drop-down list of the  U<a href="#UDF_Tab">ser Defined Field Tab</a>:&#160;</p>
+        <p>You can select from the following types of UDF fields in the Field Type drop-down list of the  <a href="#UDF_Tab">User Defined Field Tab</a>:&#160;</p>
         <ul class="unorder-list">
             <li><a href="#Date_UDF">Date UDF</a>
             </li>
@@ -205,28 +205,43 @@
             </li>
         </ul>
         <h3 class="Heading3"><a name="Date_UDF"></a>Date UDF&#160;</h3>
-        <p>Allows the user to enter a value into a date field</p>
-        <p>
-            <img src="../../../Resources/Images/DTC_V44_CGOthDataTypes/Configuring User Defined Fields_3.gif" alt="https://success.emssoftware.com/@api/deki/files/1401/UDFDate.gif?revision=1&amp;size=bestfit&amp;width=476&amp;height=144" />
-        </p>
+        <p>The Date user defined field type allows the user to enter a value into a date field</p>
+        <div class="TitleandImage">
+            <p class="title">Date UDF&#160;Field Type</p>
+            <p>
+                <img src="../../../Resources/Images/DTC_V44_CGOthDataTypes/Configuring User Defined Fields_3.gif" alt="https://success.emssoftware.com/@api/deki/files/1401/UDFDate.gif?revision=1&amp;size=bestfit&amp;width=476&amp;height=144" />
+            </p>
+        </div>
         <h3><a name="List_UDF"></a>List UDF&#160;</h3>
-        <p>Allows the user to select an item or items from a list that you populate.&#160;The <span class="bold">Allow Multi-Select </span>option lets the user pick more than more than one item from the list.</p>
-        <p>
-            <img src="../../../Resources/Images/DTC_V44_CGOthDataTypes/Configuring User Defined Fields_4.gif" alt="https://success.emssoftware.com/@api/deki/files/1402/UDFList.gif?revision=1&amp;size=bestfit&amp;width=478&amp;height=146" />
-        </p>
-        <p>Items of a list are configured on the <span class="bold">Items </span>tab.</p>
-        <p>
-            <img src="../../../Resources/Images/DTC_V44_CGOthDataTypes/Configuring User Defined Fields_5.gif" alt="https://success.emssoftware.com/@api/deki/files/1406/UDFListItems.gif?revision=1&amp;size=bestfit&amp;width=594&amp;height=218" />
-        </p>
+        <p>The List user defined field type allows the user to select an item or items from a list that you populate.&#160;The <span class="bold">Allow Multi-Select </span>option lets the user pick more than one item from the list.</p>
+        <div class="TitleandImage">
+            <p class="title">List UDF&#160;Field Type</p>
+            <p>
+                <img src="../../../Resources/Images/DTC_V44_CGOthDataTypes/Configuring User Defined Fields_4.gif" alt="https://success.emssoftware.com/@api/deki/files/1402/UDFList.gif?revision=1&amp;size=bestfit&amp;width=478&amp;height=146" />
+            </p>
+        </div>
+        <p>You can configure the items for a list on the <span class="bold">Items </span>tab. The User Defined Field Dialog box displays the <span class="bold">Items </span>tab when you select <span class="bold">List </span>as the field type.</p>
+        <div>
+            <p class="title">Items Tab of the User Defined Field Dialog Box</p>
+            <p>
+                <img src="../../../Resources/Images/DTC_V44_CGOthDataTypes/Configuring User Defined Fields_5.gif" alt="https://success.emssoftware.com/@api/deki/files/1406/UDFListItems.gif?revision=1&amp;size=bestfit&amp;width=594&amp;height=218" />
+            </p>
+        </div>
         <h3><a name="Numeric_UDF"></a>Numeric UDF</h3>
-        <p>Allows the user to enter ONLY a number into a text field.</p>
-        <p>
-            <img src="../../../Resources/Images/DTC_V44_CGOthDataTypes/Configuring User Defined Fields_6.gif" alt="https://success.emssoftware.com/@api/deki/files/1403/UDFNumeric.gif?revision=1&amp;size=bestfit&amp;width=479&amp;height=145" />
-        </p>
+        <p>The Numeric user defined field type allows  the user to enter ONLY a number into a text field.</p>
+        <div class="TitleandImage">
+            <p class="title">Numeric UDF Field Type</p>
+            <p>
+                <img src="../../../Resources/Images/DTC_V44_CGOthDataTypes/Configuring User Defined Fields_6.gif" alt="https://success.emssoftware.com/@api/deki/files/1403/UDFNumeric.gif?revision=1&amp;size=bestfit&amp;width=479&amp;height=145" />
+            </p>
+        </div>
         <h3><a name="Text_UDF"></a>Text UDF&#160;</h3>
-        <p>Allows the user to enter any text into a text field.</p>
-        <p>
-            <img src="../../../Resources/Images/DTC_V44_CGOthDataTypes/Configuring User Defined Fields_7.gif" alt="https://success.emssoftware.com/@api/deki/files/1405/UDFText2.gif?revision=1&amp;size=bestfit&amp;width=481&amp;height=145" />
-        </p>
+        <p>The Text user defined field type allows the user to enter any text into a text field.</p>
+        <div class="TitleandImage">
+            <p class="title">Text UDF&#160;Field Type</p>
+            <p>
+                <img src="../../../Resources/Images/DTC_V44_CGOthDataTypes/Configuring User Defined Fields_7.gif" alt="https://success.emssoftware.com/@api/deki/files/1405/UDFText2.gif?revision=1&amp;size=bestfit&amp;width=481&amp;height=145" />
+            </p>
+        </div>
     </body>
 </html>
