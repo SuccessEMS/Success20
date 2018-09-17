@@ -7,6 +7,11 @@
       Title="Browse by Update #"
       Link="/Content/V44.1_ReleaseNotes.htm">
       <TocEntry
+        Title="Update 28.1"
+        Link="/Content/V44.1_ReleaseNotes.htm#Update28.1"
+        StartSection="false"
+        ReplaceMergeNode="false"></TocEntry>
+      <TocEntry
         Title="Update 28"
         Link="/Content/V44.1_ReleaseNotes.htm#Update28"
         StartSection="false"
