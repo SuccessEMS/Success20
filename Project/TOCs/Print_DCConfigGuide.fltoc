@@ -485,7 +485,7 @@
           PageNumber="1" />
         <TocEntry
           Title="Configure Services for a Category"
-          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigureServicesforCat.htm"
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigServicesforCat.htm"
           BreakType="chapter"
           StartSection="false"
           PageNumberReset="continue"

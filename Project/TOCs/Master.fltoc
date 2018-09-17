@@ -908,7 +908,7 @@
           Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/DefineResourceSel.htm" />
         <TocEntry
           Title="Configure Services for a Category"
-          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigureServicesforCat.htm" />
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigServicesforCat.htm" />
         <TocEntry
           Title="Configure Groupings for a Resource"
           Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigGroupingsResource.html" />
