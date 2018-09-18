@@ -143,7 +143,7 @@
           Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigPricingResourceEditPriceWin.htm" />
         <TocEntry
           Title="Export Pricing Information for a Resource"
-          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ExportPricInfo.htm" />
+          Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ExportPricInfoResource.htm" />
       </TocEntry>
       <TocEntry
         Title="Configuration &gt; Billing"
