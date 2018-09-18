@@ -158,6 +158,17 @@
             SectionNumberReset="continue"
             VolumeNumberReset="same"
             ChapterNumberReset="continue"
+            PageNumber="1"></TocEntry>
+          <TocEntry
+            Title="Export Pricing Information for a Room"
+            Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ExportPricInfoRoom.htm"
+            BreakType="chapter"
+            StartSection="false"
+            PageNumberReset="continue"
+            PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+            SectionNumberReset="continue"
+            VolumeNumberReset="same"
+            ChapterNumberReset="continue"
             PageNumber="1" />
         </TocEntry>
         <TocEntry
