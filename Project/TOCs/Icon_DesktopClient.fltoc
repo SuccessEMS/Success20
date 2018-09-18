@@ -76,7 +76,10 @@
             Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigGenerRoomQRCode.htm" />
           <TocEntry
             Title="Import Rooms"
-            Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ImportRooms.htm" />
+            Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ImportRooms.htm"></TocEntry>
+          <TocEntry
+            Title="Export Pricing Information for a Room"
+            Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ExportPricInfoRoom.htm" />
         </TocEntry>
         <TocEntry
           Title="Configure Buildings"
