@@ -3226,6 +3226,41 @@ p.PDFh1
 		font-size: 14px;
 	}
 
+	/********Print Body Styles
+	
+	body
+{
+	font-size: 11px;
+	line-height: 23px;
+}
+	
+p, p.beforelist, .title, .italics, .bold, .boldAllCaps
+{
+	font-size: 11px;
+	line-height: 23px;
+}
+
+p, p.beforelist, .title
+
+{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+ol li, ul li, ol.number-list li, ul.unorder-list li 
+{
+	font-size: 11px;
+	line-height: 23px;
+}
+
+ol li ul li p.box-tip, ol li ul li p.box-note, ol li ul li p.box-warning, ol li ul li p.box-important, p.box-tip, .box-tip, p.box-note, .box-note, p.box-warning, .box-warning, p.box-important, .box-important
+{
+	font-size: 11px;
+	line-height: 23px;
+}
+
+**************/
 	/**************Table Print PDF Styles*******************/
 
 	table p

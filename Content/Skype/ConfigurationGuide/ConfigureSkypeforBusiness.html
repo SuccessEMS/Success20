@@ -90,22 +90,12 @@
             </p>
         </div>
         <p><a name="PlatformServicesAdminPortal"></a>To configure Skype for Business in the EMS Platform Services Admin Portal:</p>
-        <ol>
+        <ol class="number-list">
             <li>Navigate to the <span class="bold">Conferencing </span>tab.</li>
             <li>Provide a <span class="bold">Client Name </span>in the <span class="bold">Azure Active Directory Client ID </span>field. This determines the ID of the registered application.</li>
             <li>Provide the <span class="bold">Azure Active Directory Tenant</span>. This determines the name of the AAD tenant.</li>
             <li>Provide the<span class="bold"> Skype for Business AutoDiscover URL</span>. This performs autodiscovery to find the appropriate server to communicate with. Multiple URLs must be separated by commas and cannot contain any spaces. The client machine and the Web server should have access to the Autodiscover URL.</li>
-            <li>Choose a <span class="bold">Skype for Business Server Authentication Method</span> from the drop-down. This determines the authentication type that is used to generate a token. You can choose from the following <a href="../../Authentication/EMSAuthenticationMethods.htm">authentication methods</a>:</li>
-        </ol>
-        <ul>
-            <li><span class="bold">NTLM</span>
-            </li>
-            <li><span class="bold">ADFS</span>—The EMS&#160;Mobile App does not support ADFS&#160;authentication. </li>
-            <li><span class="bold">Username/Password</span>
-            </li>
-            <li><span class="bold">Oauth (Online)</span>—This is the only authentication option for Skype for Business Online Integration. </li>
-        </ul>
-        <ol start="6">
+            <li>Choose a <span class="bold">Skype for Business Server Authentication Method</span> from the drop-down. This determines the authentication type that is used to generate a token. You can choose from the following <a href="../../Authentication/EMSAuthenticationMethods.htm">authentication methods</a>:<ul><li><span class="bold">NTLM</span></li><li><span class="bold">ADFS</span>—The EMS&#160;Mobile App does not support ADFS&#160;authentication. </li><li><span class="bold">Username/Password</span></li><li><span class="bold">Oauth (Online)</span>—This is the only authentication option for Skype for Business Online Integration. </li></ul></li>
             <li>Click<span class="bold"> Save Changes</span>. </li>
             <li>From the <span class="bold">Everyday User Applications</span> parameters tab, select the <span class="bold">Platform Services API URL</span> parameter and click <span class="bold">Edit</span> to specify the Platform Services URL.</li>
         </ol>
@@ -115,14 +105,14 @@
                 <img src="../../EMSRoomSignApp/44.1/Images/image11.png" class="PDFlarge" />
             </p>
         </div>
-        <ol start="8">
+        <ol start="8" MadCap:continue="true" class="number-list">
             <li>Add EMS Applications to the Allowed Domains List. Unified Communications Web API (UCWA) uses xframe and cross-domain scripting to accomplish the user authentication to leverage the integration. Therefore, EMS applications must be added to a whitelist within the Skype for Business implementation. The whitelist needs to be updated on each of the servers that a user could leverage. For more information, please see <a href="https://ucwa.skype.com/documentation/itadmin-configuration">here</a>. <ul MadCap:continue="true"><li>At a minimum, customers will need to whitelist the EMS&#160;Web App and EMS&#160;Mobile App conferencing URL (trailing forward slash is required). Please see examples below:<ul><li>EMS&#160;Web App: https://servername.domain/EMSWebApplicationName/ConfrencingLogin.aspx/<ul><li>Any combination of this URL will need to be whitelisted (e.g., if there is a different URL for Internal versus External or Mobile Web Access).</li></ul></li><li>EMS&#160;Mobile App: <br />emssoftware://skype/x<ul><li>If the customer re-Packages the EMS&#160;Mobile App, the same URL should be used.</li></ul></li></ul></li><li>Optionally, whitelisting the EMS Web server will facilitate both test and prod environments without adding multiple single entries. Please consult your organization's IT&#160;department and provide them with the following <a href="https://ucwa.skype.com/documentation/itadmin-configuration">steps</a>. </li></ul></li>
         </ol>
         <div class="box-important">
             <p><span class="boldAllCaps">Important:</span> When testing the Skype for Business Integration, ensure you are using a whitelisted <span class="bold">FULLY QUALIFIED DOMAIN</span>. Most browsers will throw a cross domain error unless the server name is whitelisted without FDQN.</p>
             <p>For example: <span class="bold">http://xxxx.servername.com/emswebapp </span>is different than <span class="bold">http://xxxx/emswebapp </span><br />or <span class="bold">https://xxxxx.servername.com/emswebapp</span></p>
         </div>
-        <ol start="9">
+        <ol start="9" MadCap:continue="true" class="number-list">
             <li>Configure trusted Skype certificates. The client devices and EMS Servers need to be able to trust the certificates that are installed on the Skype servers within the Skype implementation. Customers can use private certificates that the Web server has been configured to trust.</li>
         </ol>
         <h2><a name="IntegrateSkypeOnline"></a>Integration with Skype for Business Online</h2>

@@ -20,7 +20,7 @@
             </li>
             <li><a href="#Verifying">Verify NTLM&#160;Authentication</a>
             </li>
-            <li MadCap:conditions="General.Edit_in_Review"><a href="#UpgradePlatformServicesSoftware">Upgrade EMS Platform Services Software</a>
+            <li><a href="#UpgradePlatformServicesSoftware">Upgrade EMS Platform Services Software</a>
             </li>
         </ul>
         <h2><a name="Install_Platform_Services"></a>Install Platform Services</h2>
@@ -38,12 +38,12 @@
         </div>
         <ol class="number-list" MadCap:continue="true">
             <li><a name="defaultfolder"></a>Choose a default folder for installing EMS Platform Services. The Platform installer by default will try to install in the Programs folder. You can change the path to wwwroot folder. The typical install path is&#160;C:\Program Files\EMS Software, LLC\EmsPlatformApi\. Click&#160;<span class="bold">Next</span>.&#160;</li>
-            <li>You will need to enter the<MadCap:annotation MadCap:createDate="2018-08-07T15:31:06.3511115-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="After this step, need to add step about checkbox for &quot;Use Windows Authentication For Database Connection&quot;—when enabled, authentication will use an Active Directory account instead of EMS User for the database [database authenticator]" MadCap:editor="Megan.Laub" MadCap:editDate="2018-08-07T15:34:27.5670503-06:00"> SQL server and EMS database</MadCap:annotation>, configured to allow external connections. Make a note of the database name.&#160;<ul MadCap:continue="true" MadCap:conditions="General.Edit_in_Review"><li>Select the <span class="bold">Use Windows Authentication for Database Connection</span> checkbox to use an Active Directory account instead of the EMS&#160;User for database authentication.</li></ul></li>
+            <li>You will need to enter the SQL server and EMS database, configured to allow external connections. Make a note of the database name.&#160;<ul MadCap:continue="true"><li>Select the <span class="bold">Use Windows Authentication for Database Connection</span> checkbox to use an Active Directory account instead of the EMS&#160;User for database authentication.</li></ul></li>
         </ol>
-        <p class="box-tip" MadCap:conditions="General.Edit_in_Review"><span class="boldAllCaps"><MadCap:annotation MadCap:createDate="2018-08-07T15:52:08.7486221-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Is this tip necessary? If okay, remember to turn off the review condition in Flare." MadCap:editor="Megan.Laub" MadCap:editDate="2018-08-07T15:52:37.1983723-06:00">Tip</MadCap:annotation>:</span>&#160;If you are unsure of the SQL&#160;server and EMS&#160;database name, you can find the SQL server and EMS&#160;database name in the EMS&#160;Web App (<span class="bold">Admin Functions</span> &gt; <span class="bold">Connection String values</span> under the version number heading) or EMS&#160;Desktop Client (<span class="bold">File </span>&gt; <span class="bold">Change Database</span> &gt; <span class="bold">Provide Server Parameters</span> dialog). You can also contact your company's IT&#160;group to locate the information. </p>
+        <p class="box-tip"><span class="boldAllCaps">Tip:</span>&#160;If you are unsure of the SQL&#160;server and EMS&#160;database name, you can find the SQL server and EMS&#160;database name in the EMS&#160;Web App (<span class="bold">Admin Functions</span> &gt; <span class="bold">Connection String values</span> under the version number heading) or EMS&#160;Desktop Client (<span class="bold">File </span>&gt; <span class="bold">Change Database</span> &gt; <span class="bold">Provide Server Parameters</span> dialog). You can also contact your company's IT&#160;group to locate the information. </p>
         <ol class="number-list" MadCap:continue="true">
             <li>Enter a Virtual Directory Name.</li>
-            <li><a name="EnableNTLM_Checkbox"></a>To enable NTLM authentication for Everyday User Authentication for the Platform Services Admin Portal <MadCap:annotation MadCap:createDate="2018-08-07T15:18:04.9079163-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Ask Ankita about removing integration clients. Does the checkbox only refer to PS Admin Portal? This checkbox doesn't affect the individual integration clients?" MadCap:editor="Megan.Laub" MadCap:editDate="2018-08-07T15:18:56.3605533-06:00">and Integration Clients</MadCap:annotation>, click the&#160;<span class="bold">Enable NTLM&#160;For EMS Everyday User Authentication</span>&#160;box.&#160;</li>
+            <li><a name="EnableNTLM_Checkbox"></a>To enable NTLM authentication for Everyday User Authentication for the Platform Services Admin Portal <MadCap:annotation MadCap:createDate="2018-08-07T15:18:04.9079163-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Ankita is checking on this: \r\n\r\nDoes the &quot;Enable NTLM for EMS Everyday User Authentication&quot; check box only refer to the PS Admin Portal? This check box does not affect the individual integration clients, right? If so, can we delete the &quot;and Integration Clients&quot; from this step?" MadCap:editor="Megan.Laub" MadCap:editDate="2018-09-19T12:10:07.4575083-06:00">and Integration Clients</MadCap:annotation>, click the&#160;<span class="bold">Enable NTLM&#160;For EMS Everyday User Authentication</span>&#160;box.&#160;</li>
         </ol>
         <p class="box-important"><span class="boldAllCaps">Important:</span>&#160;To use NTLM&#160;authentication when logging into the EMS&#160;Platform Services Admin Portal, you must select the&#160;<span class="bold">Enable NTLM&#160;For EMS Everyday User Authentication</span>&#160;box. If you complete the installation process without selecting the&#160;<span class="bold">Enable NTLM&#160;For EMS Everyday User Authentication</span>&#160;box and you want to use NTLM authentication, you will need to  re-install the EMS&#160;Platform Services software and select the checkbox during  install.</p>
         <ol class="number-list" MadCap:continue="true">
@@ -83,7 +83,7 @@
         <ol MadCap:continue="true" class="number-list">
             <li>Reset the IIS.</li>
         </ol>
-        <h2><a name="Verify_Installation_Status"></a>Verify Installation <MadCap:annotation MadCap:createDate="2018-08-10T08:17:55.2160244-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Check with Ankita about providing instructions to disable the status and admin page for security reasons. Joe said he could provide instructions." MadCap:editor="Megan.Laub" MadCap:editDate="2018-08-10T08:19:00.2764058-06:00">Status</MadCap:annotation></h2>
+        <h2><a name="Verify_Installation_Status"></a>Verify Installation Status</h2>
         <ol class="number-list">
             <li>Access your URL for Platform Services (e.g.,&#160;https://yourcompany.com/EMSPlatform).</li>
             <li>Verify the status of your installation by navigating  to&#160;https://yourcompany.com/EMSPlatform/status. </li>
@@ -118,16 +118,16 @@
                 <li>Enter  the Everyday User's <span class="bold">username </span>and <span class="bold">password</span>. </li>
             </ol>
         </div>
-        <h2 MadCap:conditions="General.Edit_in_Review"><a name="UpgradePlatformServicesSoftware"></a>Upgrade EMS Platform Services software</h2>
-        <p class="beforelist" MadCap:conditions="General.Edit_in_Review">To upgrade EMS&#160;Platform Services to the current version of the software, you will need to do the following:&#160;</p>
-        <ol class="number-list" MadCap:conditions="General.Edit_in_Review">
-            <li MadCap:conditions="General.Edit_in_Review">Uninstall the EMS&#160;Platform Services software through Windows Control Panel &gt; Programs &gt; Uninstall a Program. </li>
-            <li MadCap:conditions="General.Edit_in_Review">Obtain the current release of EMS Platform Services from the <a href="https://portal.emssoftware.com/" title="EMS&#160;Customer Portal" alt="EMS&#160;Customer Portal">EMS&#160;Customer Portal</a>. </li>
+        <h2><a name="UpgradePlatformServicesSoftware"></a>Upgrade EMS Platform Services software</h2>
+        <p class="beforelist">To upgrade EMS&#160;Platform Services to the current version of the software, you will need to do the following:&#160;</p>
+        <ol class="number-list">
+            <li>Uninstall the EMS&#160;Platform Services software through <span class="bold">Windows Control Panel</span> &gt; <span class="bold">Programs </span>&gt; <span class="bold">Uninstall a Program</span>. </li>
+            <li>Obtain the current release of EMS Platform Services from the <a href="https://portal.emssoftware.com/" title="EMS&#160;Customer Portal" alt="EMS&#160;Customer Portal">EMS&#160;Customer Portal</a>. </li>
         </ol>
-        <p class="box-tip" MadCap:conditions="General.Edit_in_Review"><span class="boldAllCaps">Tip:</span>&#160;For more information on obtaining the latest version of the EMS&#160;Platform Services software and on enhancements and fixes to the software, see also:&#160;<a href="../../Update_to_LatestVersion_EMS.htm">Updating to the Latest Version of EMS (Patches and Builds)</a> and <a href="../../V44.1_ReleaseNotes.htm">Release Notes</a>.</p>
-        <ol class="number-list" MadCap:continue="true" MadCap:conditions="General.Edit_in_Review">
-            <li MadCap:conditions="General.Edit_in_Review">Re-install the EMS&#160;Platform services by completing the steps in the <a href="#Install_Platform_Services">Install Platform Services</a> section.</li>
+        <p class="box-tip"><span class="boldAllCaps">Tip:</span>&#160;For more information on obtaining the latest version of the EMS&#160;Platform Services software and on enhancements and fixes to the software, see also:&#160;<a href="../../Update_to_LatestVersion_EMS.htm">Updating to the Latest Version of EMS (Patches and Builds)</a> and <a href="../../V44.1_ReleaseNotes.htm">Release Notes</a>.</p>
+        <ol class="number-list" MadCap:continue="true">
+            <li>Re-install the EMS&#160;Platform services by completing the steps in the <a href="#Install_Platform_Services">Install Platform Services</a> section.</li>
         </ol>
-        <p class="box-note" MadCap:conditions="General.Edit_in_Review"><span class="boldAllCaps">Note:</span>&#160;If multiple instances of the EMS&#160;Platform Services software exist in IIS, you will need to delete the instances from the Windows directory and from IIS, and then install the multiple instances again once you have finished upgrading the EMS&#160;Platform Services software. See Also:&#160;<a href="#InstallMultiple">Install a Multiple Instance of EMS&#160;Platform Services in the IIS</a>. </p>
+        <p class="box-note"><span class="boldAllCaps">Note:</span>&#160;If multiple instances of the EMS&#160;Platform Services software exist in IIS, you will need to delete the instances from the Windows directory and from IIS, and then install the multiple instances again once you have finished upgrading the EMS&#160;Platform Services software. See Also:&#160;<a href="#InstallMultiple">Install a Multiple Instance of EMS&#160;Platform Services in the IIS</a>. </p>
     </body>
 </html>
