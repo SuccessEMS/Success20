@@ -53,7 +53,7 @@
         </ul>
         <p class="box-note"><span class="bold">NOTE</span>:&#160;Only Redirect HTTP&#160;Binding Type is currently supported. </p>
         <h2><a name="updateSAMLConfiguration"></a>update SAML&#160;configuration</h2>
-        <ol class="number-list" style="list-style-type: lower-alpha;">
+        <ol class="number-list">
             <li>Delete existing identity and service provider keys. As of Update 23 (March 2018), SP and IdP certs are stored in the database instead of the file system of EMS&#160;Platform Services.</li>
             <li>Generate encryption key. </li>
             <li><a href="#Identifyyourprovider">Update SAML configuration based on these settings</a>.</li>
@@ -64,9 +64,9 @@
         <p class="box-note"><span class="bold">NOTE:</span>&#160;The Encryption Key is used for encrypting and decrypting the Service Provider private key when stored in the database via the AuthKey API.</p>
         <p><span class="bold">New Customers:</span> The encryption key is already provided in the default.json file.</p>
         <p><span class="bold">Existing Customers:</span> The encryption key needs to be generated and added to the default.json file before using the AuthKey API. Run the following command in a terminal, openssl rand -Base64 32, to generate a 256-bit key that is Base64 encoded. The encryption key must be 256-bit and must be Base64 encoded. Restart EMS&#160;Platform Services after updating default.Json file.</p>
-        <ol>
+        <ol class="number-list">
             <li><a href="../EMSPlatformServices/ConfigurationGuide/ConfigPSinAdminPortal.html">Login to EMS Platform Services</a>.</li>
-            <li> Navigate to the Integrations tab.</li>
+            <li>Navigate to the Integrations tab.</li>
             <li>Select EMS Mobile / EMS Web Application.</li>
             <li>Set Everyday user authentication method to SAML and save changes.</li>
             <li>Select SAML from the left navigation bar.</li>
@@ -77,7 +77,7 @@
         <p>You are responsible for the configuration of your chosen IdP, with information relevant to the EMS Platform Services acting as a Service Provider for SAML Authentication. The following EMS Platform Services related settings might be needed in order to configure your IdP.</p>
         <p>The following fields are required to complete SAML authentication configuration:&#160;</p>
         <p>
-            <img src="../EMSPlatformServices/Images/ConfigPS_SAMLAuth.png" class="PDFsmall" />
+            <img src="../EMSPlatformServices/Images/ConfigPS_SAMLAuth.png" class="PDFlarge" />
         </p>
         <table border="1" cellpadding="0" cellspacing="0" style="mc-table-style: url('../Resources/TableStyles/PatternedRows.css');margin-left: 0;margin-right: auto;width: 100%;" class="TableStyle-PatternedRows">
             <col class="TableStyle-PatternedRows-Column-Regular" style="width: 234px;" />
