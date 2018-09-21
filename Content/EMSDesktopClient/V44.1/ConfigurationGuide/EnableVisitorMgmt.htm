@@ -17,25 +17,47 @@
         <h2><a name="Configurecatforvis"></a>Configure a Category for Visitors</h2>
         <p class="box-note"><span class="boldAllCaps">Note:</span>&#160;The Visitor Management tab is displayed only if your organization has purchased and installed the optional Visitor Management module, which enables front-desk users such as reception to check in visitors, print badges, access lists of visitors, and run reports. The values that you specify on this tab are used when a new visitor checks into your building. See Also: <a href="ConfigBuilding.html#Specify">Specify Unregistered Attendee/Visitor&#160;Behavior</a>.</p>
         <ol class="number-list">
-            <li>In the <MadCap:variable name="General.EMS&#160;Desktop Client" />, navigate to <span class="bold">Configuration </span>&gt;&#160;<span class="bold">Administration&#160;</span>&gt;&#160;<span class="bold">Categories</span>. </li>
+            <li>In the <MadCap:variable name="General.EMS&#160;Desktop Client" />, navigate to <span class="bold">Configuration </span>&gt;&#160;<span class="bold">Administration&#160;</span>&gt;&#160;<span class="bold">Categories</span>.</li>
+            <li>When the Categories window opens, click <span class="bold">New</span> to create a new category for visitors in the Category dialog box.</li>
+            <li>Click the <span class="bold">Category </span>tab and do the following:<ol MadCap:continue="true"><li>Enter a category name in the <span class="bold">Category </span>field.</li><li>Ensure the <span class="bold">Category Type</span> field is set to <span class="bold">Attendees</span>. </li><li>Select the <span class="bold">Attendees Are Visitors</span> box at the bottom of the tab to enable the <span class="bold">Visitor </span>check box as a default on your Everyday User Template. </li></ol></li>
         </ol>
-        <p>
-            <img src="Images/DC_CG_EnableVis_ConfigCat.png" class="PDFlarge" />
-        </p>
+        <div class="TitleandImage">
+            <p class="title">Create a Visitors Category in the Category Dialog Box</p>
+            <p>
+                <img src="../Images/EnableVM_1.PNG" class="PDFmedium" />
+                <br />
+            </p>
+        </div>
+        <ol class="number-list" MadCap:continue="true">
+            <li><a name="DisplaytoEDU"></a>From the <span class="bold">Everyday User Applications</span> tab, select the <span class="bold">Display to Everyday Users </span>option so that the category is available for those booking templates. </li>
+        </ol>
+        <div class="TitleandImage">
+            <p class="title">Everyday User Applications Tab of the Category Dialog Box</p>
+            <p>
+                <img src="Images/DC_CG_EnableVis_Display.png" class="PDFmedium" />
+            </p>
+        </div>
+        <ol class="number-list" MadCap:continue="true">
+            <li><a name="AddVisitorCategory"></a>Open the Everyday User Process Templates window (<span class="bold">Configuration </span>&gt; <span class="bold">Everyday User Applications</span> &gt; <span class="bold">Everyday User Process Templates</span>) and do the following to add the newly created <span class="bold">Visitors </span>category to a template:&#160;<ol MadCap:continue="true" style="list-style-type: lower-alpha;"><li>Select the process template that you want to add the <span class="bold">Visitors </span>category to and click <span class="bold">Edit</span>. </li><li>From the <span class="bold">Categories </span>tab, use the arrow to move the <span class="bold">Visitors </span>category from the Available column to the Selected column.</li><li>Click <span class="bold">OK&#160;</span>to save your changes.</li></ol></li>
+        </ol>
+        <div class="TitleandImage">
+            <p class="title">Adding the Visitors Category to an Everyday User Process Template</p>
+            <p>
+                <img src="Images/DC_Config_Configuring_Everyday_Users/VisitorsCategory.PNG" class="PDFlarge" />
+            </p>
+        </div>
         <ol MadCap:continue="true" class="number-list">
-            <li>Create a new category for visitors. From the <span class="bold">Category </span>tab:<ol MadCap:continue="true"><li>Enter a category name in the <span class="bold">Category </span>field.</li><li>Ensure the <span class="bold">Category Type</span> field is set to <span class="bold">Attendees</span>. </li><li>Select the <span class="bold">Attendees Are Visitors</span> box at the bottom of the tab to enable the <span class="bold">Visitor </span>checkbox as a default on your Everyday User Template. <br /><img src="../Images/EnableVM_1.PNG" class="PDFmedium" /><br /></li></ol></li>
-            <li><a name="DisplaytoEDU"></a>Select the <span class="bold">Display to Everyday Users </span>option on the <span class="bold">Everyday User Applications</span> tab so that the category is available for those booking templates. <p><img src="Images/DC_CG_EnableVis_Display.png" class="PDFmedium" /></p></li>
-            <li><a name="AddVisitorCategory"></a>Add the newly created <span class="bold">Visitors </span>category to the Everyday User Templates to include it on the <span class="bold">Categories </span>tab.</li>
+            <li><a name="authorize"></a>
+                <MadCap:annotation MadCap:createDate="2018-09-21T14:38:02.4153217-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="How? By using info in first sentence in the note below? If so, maybe add first sentence to step 6." MadCap:editor="Megan.Laub" MadCap:editDate="2018-09-21T14:42:22.3147668-06:00">Authorize users to manage visitors.</MadCap:annotation> </li>
         </ol>
-        <p>
-            <img src="Images/DC_Config_Configuring_Everyday_Users/VisitorsCategory.PNG" class="PDFlarge" />
-        </p>
-        <ol MadCap:continue="true" class="number-list">
-            <li><a name="authorize"></a>Authorize users to manage visitors. </li>
-        </ol>
-        <p class="box-note"><span class="boldAllCaps">Note:</span>&#160;If you only allow certain types of users to handle visitors, be sure to assign them to the template you configured above using the <span class="bold">Assign </span>button. If you want to allow visitors to check themselves in (for example, using EMS Mobile App, choose the <span class="bold">Self Serve Mode </span>on the <span class="bold">Process Template</span> tab when configuring the template, and be sure to enable it for Everyday User Applications as needed.</p>
-        <p>
-            <img src="Images/DC_CG_EnableVis_AuthUsers.png" class="PDFlarge" />
-        </p>
+        <div class="box-note">
+            <p><span class="boldAllCaps">Note:</span>&#160;If you only allow certain types of users to handle visitors, be sure to assign them to the template you configured above using the <span class="bold">Assign </span>button. If you want to allow visitors to check themselves in (for example, using EMS Mobile App, choose the <span class="bold">Self Serve Mode </span>on the <span class="bold">Process Template</span> tab when configuring the template, and be sure to enable it for Everyday User Applications as needed.</p>
+            <div class="TitleandImage">
+                <p class="title" style="font-weight: bold;">Self Serve Mode</p>
+                <p>
+                    <img src="Images/DC_CG_EnableVis_AuthUsers.png" class="PDFlarge" />
+                </p>
+            </div>
+        </div>
     </body>
 </html>

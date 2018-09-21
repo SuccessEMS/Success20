@@ -9,41 +9,30 @@
         <p>For a Notification to be generated, all the criteria in the rule&#160;must be met. Typically, notifications are an internal function for reservation schedulers and service providers, but when you are configuring a Notification Rule, you can specify the email address for whomever you want to receive an Email Notification.</p>
         <p>This topic contains information on the following:</p>
         <ul class="unorder-list">
-            <li>
-                <MadCap:xref href="#ConfigureNotRule">To Configure a Notification Rule</MadCap:xref>
+            <li><a href="#ConfigureNotRule">Configure a Notification Rule</a>
             </li>
-            <li>
-                <MadCap:xref href="#BookingNotRules">Booking Notification Rules</MadCap:xref>
+            <li><a href="#BookingNotRules">Booking Notification Rules</a>
             </li>
-            <li>
-                <MadCap:xref href="#ServiceOrderNotificationRules">Service Order&#160;Notification Rules</MadCap:xref>
+            <li><a href="#ServiceOrderNotificationRules">Service Order&#160;Notification Rules</a>
             </li>
-            <li>
-                <MadCap:xref href="#NotficationRulesforAnything">Notification Rules for&#160;Anything On A VIP Event</MadCap:xref>
+            <li><a href="#NotficationRulesforAnything">Notification Rules for&#160;Anything On A VIP Event</a>
             </li>
-            <li>
-                <MadCap:xref href="#NewWebUsers">New Everyday Users&#160;Notification Rules</MadCap:xref>
+            <li><a href="#NewWebUsers">New Everyday Users&#160;Notification Rules</a>
             </li>
-            <li>
-                <MadCap:xref href="#UDFRules">User Defined Field&#160;Notification Rules</MadCap:xref>
+            <li><a href="#UDFRules">User Defined Field&#160;Notification Rules</a>
             </li>
-            <li>
-                <MadCap:xref href="#SelectUsersNotify">Select Users to Notify&#160;</MadCap:xref>
+            <li><a href="#SelectUsersNotify">Select Users to Notify</a>
             </li>
-            <li>
-                <MadCap:xref href="#SelectingRoomsReqNot">Selecting Rooms Requiring Notifications&#160;</MadCap:xref>
+            <li><a href="#SelectingRoomsReqNot">Selecting Rooms Requiring Notifications</a>
             </li>
-            <li>
-                <MadCap:xref href="#SelectBookingStatus">Select Booking Statuses Requiring Notifications&#160;</MadCap:xref>
+            <li><a href="#SelectBookingStatus">Select Booking Statuses Requiring Notifications</a>
             </li>
-            <li>
-                <MadCap:xref href="#SelectEvent">Select Event Types Requiring Notifications&#160;</MadCap:xref>
+            <li><a href="#SelectEvent">Select Event Types Requiring Notifications&#160;</a>
             </li>
-            <li>
-                <MadCap:xref href="#CopyNotRule">Copy a Notification Rule&#160;</MadCap:xref>
+            <li><a href="#CopyNotRule">Copy a Notification Rule</a>
             </li>
         </ul>
-        <p class="box-note"><span class="bold">NOTE:</span>&#160;The EMS Email Notification Service must be installed and configured for Email Notifications to be sent.&#160;See the&#160;Email Notification Service Install Instructions&#160;for details.</p>
+        <p class="box-note"><span class="bold">NOTE:</span>&#160;The EMS Email Notification Service must be installed and configured for Email Notifications to be sent.&#160;See the&#160;<a href="../../../ServicesComponents/InstallUpgradeEMSEmailNotificationSvc.htm">Email Notification Service Install Instructions</a><a href="[%=Links.WebsitePath%]../../../ServicesComponents/InstallUpgradeEMSEmailNotificationSvc.htm">Email Notification Service Install Instructions</a>&#160;for details.</p>
         <p>The timing of notification emails also depends&#160;on settings in&#160;the following three EMS system parameters (See&#160;<a href="EditSysParam.htm">System Parameters</a>):</p>
         <ul class="unorder-list">
             <li>Exclude Building Closures on Notifications</li>
@@ -58,23 +47,29 @@
                 <p>EMS enables you to set detailed rules that trigger when notifications are sent to people and groups. This highly customizable feature guides you through a series of screens where you fine-tune your notification rules so that notices are more meaningful and timely, and so that notices automatically go to the right people at the right time. You can set your rules to trigger notifications for specific people, rooms, event statuses, and event types. Take extra time with this step and revisit your rules regularly to make sure they are continuing to serve your needs.</p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
-        <h2><a name="ConfigureNotRule"></a>To Configure a Notification Rule</h2>
+        <h2><a name="ConfigureNotRule"></a>Configure a Notification Rule</h2>
         <ol start="1" class="number-list">
-            <li>On the EMS menu bar, click Configuration &gt; Administration &gt;&#160;Notification Rules.&#160;The Rules window opens, listing all active Notification Rules configured in your implementation.&#160;To view any de-activated Rules, select&#160;Inactive&#160;in the&#160;Show&#160;section.</li>
+            <li>On the EMS menu bar, click <span class="bold">Configuration </span>&gt; <span class="bold">Administration </span>&gt;&#160;<span class="bold">Notification Rules</span>.&#160;The Rules window opens, listing all active Notification Rules configured in your implementation.&#160;To view any de-activated Rules, select&#160;<span class="bold">Inactive&#160;</span>in the&#160;Show&#160;section.</li>
         </ol>
-        <p>
-            <img src="../Resources/Images/DTC_V44_CGBookElements/Configuring Notification Rules.gif" alt="https://success.emssoftware.com/@api/deki/files/1379/RulesScreen.gif?revision=1" />
-        </p>
+        <div class="TitleandImage">
+            <p class="title">Rules Window</p>
+            <p>
+                <img src="../Resources/Images/DTC_V44_CGBookElements/Configuring Notification Rules.gif" alt="https://success.emssoftware.com/@api/deki/files/1379/RulesScreen.gif?revision=1" class="PDFmedium" />
+            </p>
+        </div>
         <ol start="2" class="number-list">
-            <li>Click&#160;New.&#160;The Notification Rule Wizard opens.</li>
+            <li>Click&#160;<span class="bold">New</span>.&#160;The Notification Rule Wizard opens.</li>
         </ol>
-        <p>
-            <img src="../Resources/Images/DTC_V44_CGBookElements/Configuring Notification Rules_2.png" alt="https://success.emssoftware.com/@api/deki/files/4205/clipboard_e5c94863311ba9891f256c82ce106c750?revision=1&amp;size=bestfit&amp;width=947&amp;height=625" />
-        </p>
+        <div class="TitleandImage">
+            <p class="title">Notification Rule Wizard</p>
+            <p>
+                <img src="../Resources/Images/DTC_V44_CGBookElements/Configuring Notification Rules_2.png" alt="https://success.emssoftware.com/@api/deki/files/4205/clipboard_e5c94863311ba9891f256c82ce106c750?revision=1&amp;size=bestfit&amp;width=947&amp;height=625" class="PDFlarge" />
+            </p>
+        </div>
         <ol start="3" class="number-list">
             <li>In the&#160;Description&#160;field, enter a name or description for the new Notification.</li>
-            <li>Leave the&#160;Inactive&#160;box unchecked to add the Notification Rule as an active Rule.&#160;</li>
-            <li>Select the&#160;Notification&#160;Type; these&#160;are defined&#160;below and your selection in this field changes additional fields that become available.</li>
+            <li>Leave the&#160;<span class="bold">Inactive&#160;</span>box unchecked to add the Notification Rule as an active Rule.&#160;</li>
+            <li>Select the&#160;Notification&#160;Type, which&#160;are defined&#160;in the following section. Your selection in the field changes additional fields that become available.</li>
         </ol>
         <h2><a name="BookingNotRules"></a>Booking Notification Rules</h2>
         <p>Any of the following notification types are considered booking notifications, and are available when creating new Notification Rules in the wizard:</p>
