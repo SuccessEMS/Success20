@@ -95,7 +95,7 @@
       PageNumberReset="continue"
       PageLayout="/Content/Resources/PageLayouts/PreviewRN/PrevChapters.flpgl" />
     <TocEntry
-      Title="GSuite Integration"
+      Title="G Suite Integration"
       Link="/Content/ReleaseNotes/Version44.1/Update29/GSuite.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     <TocEntry
       Title="Regics"
