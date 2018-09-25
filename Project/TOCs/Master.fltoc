@@ -768,7 +768,7 @@
           Link="/Content/ServicesComponents/InstallUpgradeEMSEmailNotificationSvc.htm" />
         <TocEntry
           Title="Install or Upgrade the EMS Campus Auto Sync Service (EMS Campus Only)"
-          Link="/Content/ServicesComponents/InstallUpgrade EMS Campus Auto Sync Service.htm" />
+          Link="/Content/ServicesComponents/InstallUpgrade_CampusAutoSyncService.htm" />
       </TocEntry>
     </TocEntry>
   </TocEntry>

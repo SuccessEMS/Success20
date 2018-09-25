@@ -412,7 +412,7 @@
       ChapterNumberReset="continue" />
     <TocEntry
       Title="[%=System.LinkedTitle%]"
-      Link="/Content/ServicesComponents/InstallUpgrade EMS Campus Auto Sync Service.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      Link="/Content/ServicesComponents/InstallUpgrade_CampusAutoSyncService.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
       BreakType="chapter"
       AutoEndOnLeftPage="disabled"
       StartSection="false"
