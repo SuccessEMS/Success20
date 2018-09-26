@@ -28,7 +28,7 @@
             </li>
             <li><span class="bold">Anti-Virus Software</span>
                 <ul>
-                    <li>If you choose to use AV software, ensure you exclude SQL files per best practices from Microsoft. See&#160;<a href="#" title="EMS Best Practices for SQL Server" alt="EMS Best Practices for SQL Server">KB 309422</a>&#160;and look for the section&#160;Directories and file-name extensions to exclude from virus scanning.</li>
+                    <li>If you choose to use AV software, ensure you exclude SQL files per best practices from Microsoft. See&#160;<a href="#" title="EMS Best Practices for SQL Server" alt="EMS Best Practices for SQL Server">KB 309422</a>&#160;and look for the section,&#160;<span class="italics">Directories and File-name Extensions to Exclude from Virus Scanning</span>.</li>
                 </ul>
             </li>
         </ul>
@@ -72,7 +72,7 @@
                 <ul>
                     <li>This does not affect system performance; however,&#160;because&#160;compressed backups can take 20-50% of the time of an uncompressed backup, it does make a difference. </li>
                     <li>Compressed backups require less storage because compressed backups&#160;are 20–50% the size of&#160;uncompressed backups.</li>
-                    <li>To set use a SQL query window. Effective immediately, no downtime required.<pre class="code-sample">sp_configure 'backup compression default', 1 reconfigure&#160;</pre></li>
+                    <li>Use a SQL query window; effective immediately, no downtime required.<pre class="code-sample">sp_configure 'backup compression default', 1 reconfigure&#160;</pre></li>
                 </ul>
             </li>
         </ul>
@@ -90,7 +90,12 @@
                     <li><span class="bold">Auto-file growth&#160;</span>should be set to fixed bytes, not a percentage. Do not use the default setting of 1 MB.</li>
                 </ul>
             </li>
-            <li>Compatibility Level<ul><li>Background:<ul><li>A database’s compatibility level (CL) is usually the same as the version of the instance.</li><li>However it is possible to set a CL back one or more versions.</li><li>When upgrading a database to a newer version of SQL Server, the database CL may remain the same from the previous version.</li><li>There is a case when the CL for 2014 (120) is used, a performance degradation is possible.  This is a <a href="https://stackoverflow.com/questions/26528713/new-cardinality-estimator-sql-server-2014-is-way-off">documented bug</a> in the cardinality estimator of the SQL query engine in 2014.</li></ul></li><li>Ensure the CL&#160;is set as follows:</li></ul></li>
+            <li><span class="bold">Compatibility Level</span>
+                <ul>
+                    <li>Background:<ul><li>A database’s compatibility level (CL) is usually the same as the version of the instance.</li><li>However it is possible to set a CL back one or more versions.</li><li>When upgrading a database to a newer version of SQL Server, the database CL may remain the same from the previous version.</li><li>There is a case when the CL for 2014 (120) is used, a performance degradation is possible.  This is a <a href="https://stackoverflow.com/questions/26528713/new-cardinality-estimator-sql-server-2014-is-way-off">documented bug</a> in the cardinality estimator of the SQL query engine in 2014.</li></ul></li>
+                    <li>Ensure the CL&#160;is set as follows:</li>
+                </ul>
+            </li>
         </ul>
         <table style="mc-table-style: url('Resources/TableStyles/PatternedRows.css');margin-left: 0;margin-right: auto;" class="TableStyle-PatternedRows" cellspacing="0">
             <col class="TableStyle-PatternedRows-Column-Regular" style="width: 83px;" />
