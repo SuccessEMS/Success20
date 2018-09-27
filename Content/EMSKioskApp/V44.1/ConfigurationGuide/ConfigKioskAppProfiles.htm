@@ -4,7 +4,7 @@
         <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title>Configure EMS Kiosk App Profiles V44.1 (EMS Kiosk App)</title>
     </head>
     <body>
-        <h1>
+        <h1 MadCap:autonum="CHAPTER&#160;1: ">
             <MadCap:concept term="V44.1" />Configure EMS Kiosk App Profiles</h1>
         <p>When you configure the EMS Kiosk App on a specific touch-screen device, a Kiosk profile controls the functionality that will be&#160;available on the device. You configure an EMS Kiosk profile through the EMS Desktop Client.</p>
         <p>You can set parameters and default language translations and floor plans&#160;at the&#160;Global&#160;level (these set defaults for all Profiles) or for&#160;just one Kiosk Profile&#160;(on the tabs below).&#160;This topic guides you in configuring one Kiosk Profile.&#160;</p>
@@ -20,9 +20,25 @@
         </ul>
         <h2><a name="Kiosk_Profile_Area"></a>Navigate to the Kiosk Profiles Area</h2>
         <ol start="1" class="number-list">
-            <li>From the EMS Desktop Client menu bar, click <span class="bold">Configuration </span>&gt; <span class="bold">Kiosk </span>&gt;&#160;<span class="bold">Kiosk Profiles</span>.&#160;The Kiosk Profiles window opens, listing&#160;all active Kiosk Profiles.<div class="TitleandImage"><p class="title">Kiosk Profile Window</p><p><img src="../../../Resources/Images/EMS Kiosk App Set Up/Configuring the EMS Kiosk.png" alt="emssg_EMSKiosk_image001.png" /></p></div></li>
-            <li>Click&#160;<span class="bold">New</span>.&#160;The Kiosk Profile dialog box opens. The <span class="bold">Kiosk Profile</span> tab is the active tab.&#160;<div class="TitleandImage"><p class="title">Kiosk Profile</p><p><img src="../../../Resources/Images/EMS Kiosk App Set Up/Configuring the EMS Kiosk_1.png" alt="https://success.emssoftware.com/@api/deki/files/4140/clipboard_e82e2f3bf1e0997dded5d05bb3f5f77c7?revision=1&amp;size=bestfit&amp;width=784&amp;height=470" class="PDFlarge" /></p></div></li>
-            <li>Enter the information for the new profile on the <span class="bold">Kiosk Profile</span> tab.&#160;</li>
+            <li>From the EMS Desktop Client menu bar, click <span class="bold">Configuration </span>&gt; <span class="bold">Kiosk </span>&gt;&#160;<span class="bold">Kiosk Profiles</span>.&#160;The Kiosk Profiles window opens, listing&#160;all active Kiosk Profiles.</li>
+        </ol>
+        <div class="TitleandImage">
+            <p class="title">Kiosk Profile Window</p>
+            <p>
+                <img src="../../../Resources/Images/EMS Kiosk App Set Up/Configuring the EMS Kiosk.png" alt="emssg_EMSKiosk_image001.png" class="PDFmedium" />
+            </p>
+        </div>
+        <ol MadCap:continue="true" class="number-list">
+            <li>Click&#160;<span class="bold">New</span>.&#160;The Kiosk Profile dialog box opens. The <span class="bold">Kiosk Profile</span> tab is the active tab.&#160;</li>
+        </ol>
+        <div class="TitleandImage">
+            <p class="title">Kiosk Profile</p>
+            <p>
+                <img src="../../../Resources/Images/EMS Kiosk App Set Up/Configuring the EMS Kiosk_1.png" alt="https://success.emssoftware.com/@api/deki/files/4140/clipboard_e82e2f3bf1e0997dded5d05bb3f5f77c7?revision=1&amp;size=bestfit&amp;width=784&amp;height=470" class="PDFlarge" />
+            </p>
+        </div>
+        <ol MadCap:continue="true" class="number-list">
+            <li>Enter the information for the new profile on the <span class="bold">Kiosk Profile</span> tab.</li>
         </ol>
         <h2><a name="KioskProfileTab"></a>Kiosk Profile Tab</h2>
         <p>Fields on the <span class="bold">Kiosk Profile</span> tab are described below.</p>
@@ -64,7 +80,9 @@
                         <p>Default Translation</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p>A translation is the language in which the menu items, menu text, and Help Text are displayed on a Kiosk page. If you leave this field set to "(default)", then this Kiosk Profile will inherit the language setting in EMS Kiosk global parameters (and if these are not specified, the default language is US English). In order to set a default language for this Kiosk Profile, you will need to first add one or more languages on the&#160;<MadCap:xref href="#Translations">Translations tab</MadCap:xref>; then you can select a language on this dropdown to be the language in which the Kiosk automatically displays. If you add multiple languages on the <span class="bold">Translations </span>tab for users to choose from, your selection in this field sets the default to display unless they choose another language.</p>Note:&#160;If the language you want is not available in this dropdown&#160;field, then the&#160;translation must be defined globally for EMS Desktop Client (see&#160;<a href="../../../EMSDesktopClient/V44.1/ConfigurationGuide/ConfigLangTrans.htm">Configure Language Translations</a>).&#160;Global parameters can be accessed under <span class="bold">System Administration </span>&gt; <span class="bold">Settings </span>&gt;&#160;<span class="bold">System Parameters</span>.&#160;Additionally, in order to make alternate languages available on your kiosks, you must&#160;<a href="ConfigKioskAppMenus.htm#enable_language">enable the Language Selection menu</a>&#160;for EMS Kiosk App.</td>
+                        <p>A translation is the language in which the menu items, menu text, and Help Text are displayed on a Kiosk page. If you leave this field set to "(default)", then this Kiosk Profile will inherit the language setting in EMS Kiosk global parameters (and if these are not specified, the default language is US English). In order to set a default language for this Kiosk Profile, you will need to first add one or more languages on the&#160;<MadCap:xref href="#Translations">Translations tab</MadCap:xref>; then you can select a language on this dropdown to be the language in which the Kiosk automatically displays. If you add multiple languages on the <span class="bold">Translations </span>tab for users to choose from, your selection in this field sets the default to display unless they choose another language.</p>
+                        <p class="table-note"><span class="boldAllCaps">Note:</span>&#160;If the language you want is not available in this dropdown&#160;field, then the&#160;translation must be defined globally for EMS Desktop Client (see&#160;<a href="../../../EMSDesktopClient/V44.1/ConfigurationGuide/ConfigLangTrans.htm">Configure Language Translations</a>).&#160;Global parameters can be accessed under <span class="bold">System Administration </span>&gt; <span class="bold">Settings </span>&gt;&#160;<span class="bold">System Parameters</span>.&#160;Additionally, in order to make alternate languages available on your kiosks, you must&#160;<a href="ConfigKioskAppMenus.htm#enable_language">enable the Language Selection menu</a>&#160;for EMS Kiosk App.</p>
+                    </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
@@ -72,7 +90,7 @@
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
                         <p>Select the default floor plan&#160;that is to be displayed for the current day’s events in the selected&#160;<span class="bold">Building&#160;</span>(above).</p>
-                        <p><span class="bold">Note</span>: This is an add-on feature that is only available if floor plans have been configured using the optional&#160;<a href="../../../OptionalFeatures/FloorPlan/A_V44.1/InstallationGuide/Introduction.htm">EMS&#160;Floor Plans</a>&#160;utility.&#160;</p>
+                        <p class="table-note"><span class="boldAllCaps">Note:</span> This is an add-on feature that is only available if floor plans have been configured using the optional&#160;<a href="../../../OptionalFeatures/FloorPlan/A_V44.1/InstallationGuide/Introduction.htm">EMS&#160;Floor Plans</a>&#160;utility.&#160;</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
@@ -116,8 +134,8 @@
             </p>
         </div>
         <ol class="number-list">
-            <li>On the Building dropdown list, select the applicable building.</li>
-            <li>On the Room Type dropdown list, leave the default value of (all), or select the appropriate room type.&#160;The Available list displays all the rooms that meet your search criteria.</li>
+            <li>On the Building drop-down list, select the applicable building.</li>
+            <li>On the Room Type drop-down list, leave the default value of (all), or select the appropriate room type.&#160;The Available list displays all the rooms that meet your search criteria.</li>
             <li>On the Available list, select the room, or CTRL-click to select the multiple rooms that a user can book from the Make Reservation page, and then click the&#160;<span class="bold">Move&#160;</span>(<span class="bold">&gt;</span>) button to move the selected rooms to the Selected list.</li>
         </ol>
         <h2><a name="MenuItems"></a>Menu Items Tab</h2>
@@ -125,16 +143,28 @@
         <ol start="1" class="number-list">
             <li>On the Available list, select the menu item, or CTRL-click to select the multiple menu items that are to be available to an EMS Kiosk user.</li>
             <li>Click the&#160;<span class="bold">Move&#160;</span>(<span class="bold">&gt;</span>) button to move the selected items to the Selected list.</li>
-            <li>Click&#160;<span class="bold">OK</span>.<div class="TitleandImage"><p class="title">Menu Items Tab</p><p><img src="../../../Resources/Images/EMS Kiosk App Set Up/Configuring the EMS Kiosk_4.png" alt="https://success.emssoftware.com/@api/deki/files/6387/ConfigureProfilesMenuItemsTab.png?revision=1" class="PDFlarge" /></p></div></li>
+            <li>Click&#160;<span class="bold">OK</span>.</li>
         </ol>
+        <div class="TitleandImage">
+            <p class="title">Menu Items Tab</p>
+            <p>
+                <img src="../../../Resources/Images/EMS Kiosk App Set Up/Configuring the EMS Kiosk_4.png" alt="https://success.emssoftware.com/@api/deki/files/6387/ConfigureProfilesMenuItemsTab.png?revision=1" class="PDFlarge" />
+            </p>
+        </div>
         <h2><a name="Translations"></a>Translations Tab</h2>
         <p>A translation is the language in which the menu items, menu text, and Help Text are displayed on a Kiosk page. If you select one or more languages here, then this Kiosk Profile will inherit the language setting in EMS Kiosk global parameters (and if these are not specified, the default language is US English). If you add multiple languages here for users to choose from, you can set&#160;a language as the default to display on the kiosk unless they choose another language on the&#160;<MadCap:xref href="#KioskProfileTab">Kiosk Profile Tab</MadCap:xref>.</p>
         <p class="box-tip"><span class="bold">TIP:</span>&#160;If the language you want is not available in this dropdown&#160;field, then the&#160;translation must be defined globally for EMS Desktop Client (see&#160;<a href="../../../EMSDesktopClient/V44.1/ConfigurationGuide/ConfigLangTrans.htm">Configure Language Translations</a>).&#160;Global parameters can be accessed under <span class="bold">System Administration</span> &gt; <span class="bold">Settings </span>&gt;&#160;<span class="bold">System Parameters</span>.&#160;Additionally, in order to make alternate languages available on your kiosks,  you must&#160;<a href="ConfigKioskAppMenus.htm#enable_language">enable the Language Selection menu</a>&#160;for EMS Kiosk App. </p>
         <ol start="1" class="number-list">
             <li>To add a translation to your Kiosk Profile, in the Available list, select the language (or CTRL-click to select the multiple languages to be available on the Kiosk).</li>
             <li>Click the&#160;<span class="bold">Move&#160;</span>(<span class="bold">&gt;</span>) button to move the selected items to the Selected list.</li>
-            <li>Click&#160;<span class="bold">OK</span>.<div class="TitleandImage"><p class="title">Translations Tab</p><p><img src="../../../Resources/Images/EMS Kiosk App Set Up/Configuring the EMS Kiosk_5.png" alt="https://success.emssoftware.com/@api/deki/files/6386/ConfigureProfilesTranslationsTab.png?revision=1" class="PDFlarge" /></p></div></li>
+            <li>Click&#160;<span class="bold">OK</span>.</li>
         </ol>
+        <div class="TitleandImage">
+            <p class="title">Translations Tab</p>
+            <p>
+                <img src="../../../Resources/Images/EMS Kiosk App Set Up/Configuring the EMS Kiosk_5.png" alt="https://success.emssoftware.com/@api/deki/files/6386/ConfigureProfilesTranslationsTab.png?revision=1" class="PDFlarge" />
+            </p>
+        </div>
         <h2><a name="Images"></a>Images Tab</h2>
         <p>Use the <span class="bold">Images </span>tab to select the images (map of area, image of building, and so on) that show in the Information area of EMS Kiosk.</p>
         <div class="TitleandImage">
@@ -160,7 +190,7 @@
             </p>
         </div>
         <h3>Parameters No Longer Used by Current Version of the EMS Kiosk App</h3>
-        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');margin-left: 0;margin-right: auto;width: 100%;" cellspacing="0">
             <col class="TableStyle-PatternedRows-Column-Regular" style="width: 200px;" />
             <col class="TableStyle-PatternedRows-Column-Regular" style="width: 500px;" />
             <thead>
@@ -249,7 +279,15 @@
             </p>
         </div>
         <ol start="1" class="number-list">
-            <li>Select the Help Text that you are customizing, and then click&#160;<span class="bold">Edit</span>.&#160;The Help Text dialog box opens. The <span class="bold">Help Text</span> tab is the active tab. The tab contains options for entering and configuring the Help Text.<ul start="1"><li>Design is selected by default. Use the standard Windows plain text formatting options to format the message (spacing, number of lines, capitalization, and so on) so that it is displayed the way that you want in the headers and footers.</li><li>Select HTML and enter the necessary HTML code to format the message (spacing, number of lines, capitalization, and so on) so that it is displayed the way that you want in the headers and footers.</li></ul><div class="TitleandImage"><p class="title">Selecting Design in the Help Text Tab</p><p><img src="../../../Resources/Images/EMS Kiosk App Set Up/Configuring the EMS Kiosk_11.png" alt="https://success.emssoftware.com/@api/deki/files/4142/clipboard_e73fba84e4e6c76de8c785d6a49d31cec?revision=1&amp;size=bestfit&amp;width=713&amp;height=496" class="PDFlarge" /></p></div></li>
+            <li>Select the Help Text that you are customizing, and then click&#160;<span class="bold">Edit</span>.&#160;The Help Text dialog box opens. The <span class="bold">Help Text</span> tab is the active tab. The tab contains options for entering and configuring the Help Text.<ul start="1"><li>Design is selected by default. Use the standard Windows plain text formatting options to format the message (spacing, number of lines, capitalization, and so on) so that it is displayed the way that you want in the headers and footers.</li><li>Select HTML and enter the necessary HTML code to format the message (spacing, number of lines, capitalization, and so on) so that it is displayed the way that you want in the headers and footers.</li></ul></li>
+        </ol>
+        <div class="TitleandImage">
+            <p class="title">Selecting Design in the Help Text Tab</p>
+            <p>
+                <img src="../../../Resources/Images/EMS Kiosk App Set Up/Configuring the EMS Kiosk_11.png" alt="https://success.emssoftware.com/@api/deki/files/4142/clipboard_e73fba84e4e6c76de8c785d6a49d31cec?revision=1&amp;size=bestfit&amp;width=713&amp;height=496" class="PDFlarge" />
+            </p>
+        </div>
+        <ol start="1" class="number-list" MadCap:continue="true">
             <li class="ListParagraph">If Help Text translations have been defined for web templates or kiosk pages (see&#160;<a href="../../../WebApp/A_V44.1/B_ConfigurationGuide/WebApp_CG_ConfigLangTransEUapps.html">Configure Language Translations for Everyday User Applications</a>), then open the <span class="bold">Translations </span>tab, and for each translation, click in the Text field, and enter the appropriate translation for the Help Text item.</li>
             <li class="ListParagraph">Click&#160;<span class="bold">OK</span>.&#160;The Help Text dialog box closes. You return to the <span class="bold">Help Text</span> tab with the newly configured Help Text item automatically selected in the tab.</li>
             <li class="ListParagraph">Continue with any other configuration for the profile as needed; otherwise, click&#160;<span class="bold">OK&#160;</span>to close the Kiosk Profile dialog box and return to the Kiosk Profiles window. The newly configured profile is displayed in the window.</li>
