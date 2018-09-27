@@ -67,7 +67,7 @@
                 </tr>
             </tbody>
         </table>
-        <h2>Fix</h2>
+        <h2>Fixes</h2>
         <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');width: 100%;margin-left: 0;margin-right: auto;" cellspacing="0">
             <col class="TableStyle-PatternedRows-Column-Regular" style="width: 202px;" />
             <col class="TableStyle-PatternedRows-Column-Regular" />
@@ -83,10 +83,21 @@
             </thead>
             <tbody>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows" style="text-align: left;">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="RNArea">UDF Notification Rules</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="RNTitle">UDFs Not Sending Notifications If Multiple List Items Were Selected</p>
+                        <p class="RNBody">For reservations created on a template with  multi-select UDFs that have multiple list items, if all list items were selected (in the Values field of the <span class="bold">User Defined Field</span> tab), no notification emails were sent. If only one list item value was selected, then a notification email would be sent. </p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that notification emails are sent for each UDF list item value selected. </p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=32645&amp;triage=true&amp;fullScreen=false&amp;_a=edit" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">32645</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows" style="text-align: left;">
                         <p class="RNArea">Web Deploy</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" style="text-align: left;">
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows" style="text-align: left;">
                         <p class="RNTitle">Web Deploy Removed Custom DLL Files When Updating EMS&#160;Desktop Client</p>
                         <p class="RNBody">When updating EMS&#160;Desktop Client, web deploy would delete the entire application directory and rebuild it. If customers had placed organization-specific DLL&#160;files in the application directory (such as files for custom reports, custom badge printing, or EMS&#160;Room Sign configuration), these DLL files would be deleted and need to be added back into the application directory each time the web deploy updated the EMS&#160;Desktop Client.</p>
                         <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that when updating EMS&#160;Desktop Client, or installing a new version, the web deploy no longer deletes the entire application folder. Instead, it checks, file by file, to ensure custom DLL files remain in the application directory. </p>
