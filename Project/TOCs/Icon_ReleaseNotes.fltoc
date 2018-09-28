@@ -12,6 +12,11 @@
         StartSection="false"
         ReplaceMergeNode="false"></TocEntry>
       <TocEntry
+        Title="Update 28.4"
+        Link="/Content/V44.1_ReleaseNotes.htm#Update28.4"
+        StartSection="false"
+        ReplaceMergeNode="false"></TocEntry>
+      <TocEntry
         Title="Update 28"
         Link="/Content/V44.1_ReleaseNotes.htm#Update28"
         StartSection="false"
@@ -24,6 +29,11 @@
       <TocEntry
         Title="Update 27"
         Link="/Content/V44.1_ReleaseNotes.htm#Update27"
+        StartSection="false"
+        ReplaceMergeNode="false"></TocEntry>
+      <TocEntry
+        Title="Update 26.4"
+        Link="/Content/V44.1_ReleaseNotes.htm#Update26.4"
         StartSection="false"
         ReplaceMergeNode="false"></TocEntry>
       <TocEntry
