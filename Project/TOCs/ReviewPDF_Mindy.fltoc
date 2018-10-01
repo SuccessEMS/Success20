@@ -2,9 +2,12 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="EMSWebApp_ReleaseNotes_U29"
-    Link="/Content/ReleaseNotes/Version44.1/Update29/EMSWebApp.htm"></TocEntry>
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/ReleaseNotes/Version44.1/Update29/EMSFloorPlans_Known_Issues.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
   <TocEntry
-    Title="EMSKioskApp_ReleaseNotes_U29"
-    Link="/Content/ReleaseNotes/Version44.1/Update29/EMSKioskApp.htm" />
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/ReleaseNotes/Version44.1/Update29/EMSKioskApp_KnownIssues.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/ReleaseNotes/Version44.1/Update29/EMSWebApp_Known_Issues.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
 </CatapultToc>
