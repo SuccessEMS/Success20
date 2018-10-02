@@ -26,7 +26,7 @@
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p><a href="https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/iis/index?tabs=aspnetcore2x#install-the-net-core-windows-server-hosting-bundle">ASP.NET Core 2.0</a>*</p>
+                        <p><a href="https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/iis/index?tabs=aspnetcore2x#install-the-net-core-windows-server-hosting-bundle">ASP.NET Core 2.1.5</a>*</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
@@ -66,6 +66,7 @@
                 </tr>
             </tbody>
         </table>
-        <p class="box-important"><span class="bold">IMPORTANT</span>:&#160;When upgrading from U28 to U29, .NET Core 2.1 must be implemented, as U29 will not work with .NET&#160;Core 2.0. </p>
+        <p>*EMS Software tests the EMS Kiosk App&#160;on an HD touch-screen monitor that is run on a Windows 10 computer.</p>
+        <p class="box-important"><span class="bold">IMPORTANT</span>:&#160;When upgrading from U28 to U29, .NET Core 2.1.5 must be implemented, as U29 will not work with .NET&#160;Core 2.0. </p>
     </body>
 </html>
