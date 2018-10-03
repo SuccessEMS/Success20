@@ -66,7 +66,7 @@
                 </tr>
             </tbody>
         </table>
-        <p>*EMS Software tests the EMS Kiosk App&#160;on an HD touch-screen monitor that is run on a Windows 10 computer.</p>
+        <p>*EMS Software tests the EMS Kiosk App&#160;on an HD touch-screen monitor that is run on a Windows&#160;10 computer.</p>
         <p class="box-important"><span class="bold">IMPORTANT</span>:&#160;When upgrading from U28 to U29, .NET Core 2.1.5 must be implemented, as U29 will not work with .NET&#160;Core 2.0. </p>
     </body>
 </html>
