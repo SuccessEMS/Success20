@@ -11,9 +11,10 @@
   UseLocalBuildSettings="true"
   IgnoredCompilerWarnings="20032,20033,20034,20035,20036,20037,20038,20039,20040,20041"
   MasterStylesheet="/Content/Resources/Stylesheets/MainStyles.css"
-  MasterPageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+  MasterPageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/ChaptersLandscape8_5X11.flpgl"
   EmbedImages="true"
-  ConditionTagExpression="include[&quot;General.Print Only&quot;] exclude[&quot;General.Online Only&quot;] ">
+  ConditionTagExpression="include[&quot;General.Print Only&quot;] exclude[&quot;General.Online Only&quot;] "
+  OutputFolder="C:\Users\Jen.Naused\Desktop\Success22\TechDocs">
   <PrintedOutput
     CollapseMargins="true"
     ExpandingTextConversion="expand"
