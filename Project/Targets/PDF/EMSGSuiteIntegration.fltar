@@ -1,28 +1,26 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CatapultTarget
   Version="2"
-  Comment=""
-  Type="MsWord"
+  Comment="EMS G Suite Integration"
+  Type="PDF"
   Destinations=""
   GlossaryTermConversion="marked"
-  MasterToc="/Project/TOCs/MonthlyDocsUpdates_JEN.fltoc"
+  MasterToc="/Project/TOCs/EMSforGoogleCalendar.fltoc"
+  ConditionTagExpression="include[&quot;General.Print Only&quot;] exclude[General.Edit_in_Review or &quot;General.Online Only&quot;] "
   PatchHeadingLevels="false"
   InjectEmptyPages="false"
   UseLocalBuildSettings="true"
   IgnoredCompilerWarnings="20032,20033,20034,20035,20036,20037,20038,20039,20040,20041"
   MasterStylesheet="/Content/Resources/Stylesheets/MainStyles.css"
-  MasterPageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/ChaptersLandscape8_5X11.flpgl"
-  EmbedImages="true"
-  ConditionTagExpression="include[&quot;General.Print Only&quot;] exclude[&quot;General.Online Only&quot;] "
-  OutputFolder="C:\Users\Jen.Naused\Desktop\Success22\TechDocs">
+  MasterPageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+  EmbedImages="true">
   <PrintedOutput
     CollapseMargins="true"
     ExpandingTextConversion="expand"
     PopupConversion="remove-body"
-    GenerateTOCProxy="false"
-    EnableTrackedChanges="true" />
+    GenerateTOCProxy="false" />
   <DocumentProperties
-    Title="Draft"
+    Title="EMS Platform Services Installation &amp; Configuration Guide"
     Author="EMS Software" />
   <PDF
     ShowUsedBookmarks="false"
@@ -33,5 +31,5 @@
     CropAndRegistrationMarks="false"
     ConvertToCMYK="true"
     FullScreen="false"
-    PageMode="UseOutlines" />
+    PageMode="UseNone" />
 </CatapultTarget>

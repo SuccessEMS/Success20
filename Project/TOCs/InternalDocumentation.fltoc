@@ -2,40 +2,9 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="[%=System.LinkedTitle%]"
-    Link="/Content/Print Only Topics/TOC.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-    BreakType="chapter"
-    StartSection="false"
-    PageNumberReset="continue"
-    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/TOC8_5X11.flpgl">
+    Title="Troubleshooting">
     <TocEntry
-      Title="GSuite User Guide"
-      Link="/Content/GoogleSuiteIntegration/IntroGoogleCalendarUserGuide.htm">
-      <TocEntry
-        Title="Configure Intents"
-        Link="/Content/GoogleSuiteIntegration/ConfigIntents.htm"
-        BreakType="chapter"
-        ChapterNumberReset="reset"
-        ChapterNumber="1"
-        StartSection="false"
-        PageNumberReset="continue"
-        SectionNumberReset="continue"
-        VolumeNumberReset="same" />
-      <TocEntry
-        Title="Conflict Resolution"
-        Link="/Content/GoogleSuiteIntegration/ConflictResolution.htm"
-        BreakType="chapter"
-        StartSection="false"
-        PageNumberReset="continue"
-        SectionNumberReset="continue"
-        VolumeNumberReset="same"
-        ChapterNumberReset="continue" />
-      <TocEntry
-        Title="Authorize URLs for Subscribing to Events"
-        Link="/Content/GoogleSuiteIntegration/AuthURLsforSubscribingtoEvents.htm"
-        BreakType="chapter"
-        StartSection="false"
-        PageNumberReset="continue" />
-    </TocEntry>
+      Title="Troubleshooting Skype for Business"
+      Link="/Content/InternalDocumentation/TroubleShootingSkypeforBusiness.htm" />
   </TocEntry>
 </CatapultToc>

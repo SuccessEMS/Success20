@@ -6,7 +6,7 @@
         <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
-        <h1 class="RNprint" MadCap:autonum="">EMS Room Sign App <br />Release Notes <br />V44.1, Update 24.3</h1>
+        <h1 class="RNprint" MadCap:autonum="">EMS Room Sign App <br />Release Notes <br />V44.1, Update 22.4</h1>
         <p>
             <MadCap:concept term="V44.1" />This section describes updates to&#160;your EMS software.&#160;&#160;</p>
         <p MadCap:conditions="General.Online Only">See Also:&#160;<a href="#Contact">Contact Customer Support</a>&#160;and&#160;<MadCap:xref href="../../../Update_to_LatestVersion_EMS.htm"><a href="../../../Update_to_LatestVersion_EMS.htm">Updating to the Latest Version of EMS (Patches and Builds)</a></MadCap:xref>. </p>
@@ -16,7 +16,7 @@
             <col class="TableStyle-PatternedRows-Column-Regular" style="width: 319px;" />
             <tr class="TableStyle-PatternedRows-Body-LightRows">
                 <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                    <p class="p_3">V44.1 Update 24.3</p>
+                    <p class="p_3">V44.1 Update 22.4</p>
                 </td>
                 <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
                     <p class="p_3">Release&#160;Date:<br />October 4, 2018<br /></p>
@@ -55,9 +55,20 @@
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
                         <p class="RNTitle">Polling Interval Parameter Added</p>
-                        <p class="RNBody">To prevent old data from being returned after the GetBookings call, a database timeout has been added. </p>
-                        <p class="RNBody">Suggested timeout values:  (interval - Math.Min(5, interval / 5))</p>
-                        <p class="RNBody">5 seconds = 4-second timeout<br />10 seconds = 8-second timeout<br />20 seconds = 16-second timeout<br />30 seconds = 25-second timeout<br />60 seconds = 55-second timeout<br />120 seconds = 115-second timeout</p>
+                        <p class="RNBody">To prevent old data from being returned after the GetBookings call, a database timeout has been added. The default polling interval is equal to 120 seconds. </p>
+                        <p class="RNBody">Timeout values are calculated as: (Polling interval - Math.Min(5, interval / 5)). </p>
+                        <p class="RNBody">Examples: </p>
+                        <div>
+                            <div>
+                                <p class="RNBody">5 seconds = 4-second timeout </p>
+                                <p class="RNBody">10 seconds = 8-second timeout </p>
+                                <p class="RNBody">20 seconds = 16-second timeout </p>
+                                <p class="RNBody">30 seconds = 25-second timeout </p>
+                                <p class="RNBody">60 seconds = 55-second timeout </p>
+                                <p class="RNBody">120 seconds = 115-second timeout </p>
+                            </div>
+                        </div>
+                        <p class="RNBody">If no polling interval is passed, a default timeout value of 115 seconds is used.</p>
                         <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=41350&amp;_a=edit&amp;triage=true" class="RNRefHyper" title="EMS Internal Use Only" alt="EMS Internal Use Only">41350</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>

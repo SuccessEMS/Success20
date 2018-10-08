@@ -3,20 +3,19 @@
     <head>
     </head>
     <body>
-        <h1 MadCap:autonum="CHAPTER&#160;1: ">Introduction to Google Calendar</h1>
-        <p>Google Calendar Integration allows access to GSuite users’ Google Calendars to provide their free/busy statuses within EMS for scheduling meetings. Everyday Users can see attendee availability directly within the EMS Web App or Mobile App alongside space availability information from the EMS database. </p>
-        <p>Google Calendar Integration is managed through EMS Platform Services.  Google user authentication is supported through SAML authentication.</p>
-        <p class="box-note"><span class="bold">NOTE:</span> Google Calendar integration requires an account with GSuite by Google Cloud. For more information please click <a href="https://gsuite.google.com/signup/basic/welcome">here</a>.</p>
+        <h1 MadCap:autonum="CHAPTER&#160;1: ">Introduction to EMS&#160;for Google Calendar</h1>
+        <p>The EMS&#160;for Google Calendar integration allows access to GSuite users’ Google Calendars to provide their free/busy statuses within EMS for scheduling meetings. Everyday Users can see attendee availability directly within the EMS Web App or Mobile App alongside space availability information from the EMS database. </p>
+        <p>EMS&#160;for Google Calendar integration is managed through EMS Platform Services.  Google user authentication is supported through SAML authentication.</p>
+        <p class="box-note"><span class="bold">NOTE:</span> EMS&#160;for Google Calendar integration requires an account with GSuite by Google Cloud. For more information please click <a href="https://gsuite.google.com/signup/basic/welcome">here</a>.</p>
         <p>This <span class="italics">User Guide </span>will provide information that will allow you to:</p>
         <ul>
-            <li>Set User Preferences</li>
-            <li><a href="#CreateBooking">Create a Booking</a>
+            <li><a href="#SetUserPref">Set User Preferences</a>
             </li>
-            <li><a href="#FilterBuildingsLocations">Filter Buildings/Locations</a>
-            </li>
-            <li><a href="#SelectRoom">Select a Room</a>
+            <li><a href="#Options">Options in EMS&#160;for Google Calendar</a>
             </li>
             <li><a href="#CreateFavoriteRooms">Create Favorite Rooms</a>
+            </li>
+            <li><a href="#CreateBooking">Create a Booking</a>
             </li>
             <li><a href="ConfigIntents.htm">Configure Intents</a>
             </li>
@@ -25,13 +24,59 @@
             <li><a href="AuthURLsforSubscribingtoEvents.htm">Authorize URLs for Subscribing </a>
             </li>
         </ul>
+        <h2><a name="SetUserPref"></a>Set User Preferences</h2>
+        <p>Setting user preferences allows users to designate favorite locations, floors, and rooms. This will expedite the booking process for future reservations. </p>
+        <p>To set user preferences:</p>
+        <ol>
+            <li>Click on the gear icon in the upper right-hand corner of EMS&#160;for Google Calendar. </li>
+        </ol>
+        <p class="title">Setting User Preferences in EMS&#160;for Google Calendar</p>
+        <p>
+            <img src="images/preferencesgearicon.png" />
+        </p>
+        <ol MadCap:continue="true">
+            <li>The <span class="bold">Preferences </span>tab will appear. From here, you can set user preferences for <span class="bold">Spaces </span>or <span class="bold">Filters</span>. </li>
+        </ol>
+        <p>
+            <img src="images/userpref_spacesfilters.png" />
+        </p>
+        <ol MadCap:continue="true">
+            <li>Under the <span class="bold">Spaces </span>tab, select your Preferred Booking Type. The Booking Type you choose will be now become your default for future bookings. See Also:&#160;<a href="ConfigIntents.htm">Configure Intents in the EMS Desktop Client</a>. </li>
+        </ol>
+        <p>
+            <img src="images/spaces_preferredbookingtype.png" />
+        </p>
+        <ol MadCap:continue="true">
+            <li>Under the <span class="bold">Filters </span>tab, set your Default Filters for each of your Booking Types. </li>
+            <li>Select a Default Location. Select one or more buildings, or filter by <a href="../EMSDesktopClient/V44.1/ConfigurationGuide/ConfigAreas.html">Area</a>. </li>
+            <li>Select a Default Floor from the dropdown field. </li>
+            <li>After selecting your preferred filters, click <span class="bold">Save</span>. Your user preferences will be available the next time EMS for Google Calendar loads. </li>
+        </ol>
+        <h2><a name="Options"></a>Options in EMS&#160;for Google Calendar</h2>
+        <ol>
+            <li>Navigate to the <span class="bold">Options </span>page on the top right-hand corner of EMS&#160;for Google Calendar. </li>
+        </ol>
+        <p>
+            <img src="images/options.png" />
+        </p>
+        <ol MadCap:continue="true">
+            <li>From here you can edit the <span class="bold">Platform URL</span>, view and copy <span class="bold">Logs</span>, view your <span class="bold">Version</span>, <span class="bold">Permissions</span>, etc. </li>
+        </ol>
+        <p>
+            <img src="images/options2.png" style="width: 388px;height: 362px;" />
+        </p>
+        <h2><a name="CreateFavoriteRooms"></a>Create Favorite Rooms</h2>
+        <p>To create favorite locations in EMS&#160;for Google Calendar, simply click the blue heart icon next to the room. The favorite is saved immediately once the heart is selected. </p>
+        <p>
+            <img src="images/favoriterooms.png" />
+        </p>
         <h2><a name="CreateBooking"></a>Create a Booking</h2>
-        <p>When creating a booking, users can easily compare room availability alongside invitee availability to find a day and time that works for the right people and in the right space. Additionally, Google Calendar Integration will send invitations to attendee’s Gmail and Calendars.</p>
+        <p>When creating a booking, users can easily compare room availability alongside invitee availability to find a day and time that works for the right people and in the right space. Additionally, EMS&#160;for Google Calendar integration will send invitations to attendee’s Gmail and Calendars.</p>
         <ol>
             <li>Create a new calendar item. </li>
             <li>Add the name of your meeting to the <span class="bold">Add Title </span>field.<p class="box-note"><span class="bold">NOTE</span>:&#160;A Title is not required; however, if one is not assigned, EMS&#160;will provide a default Title based on the <a href="ConfigIntents.htm">Booking Type</a>. </p></li>
             <li>Provide a date and time, ensuring you are in the correct time zone. </li>
-            <li>From the EMS&#160;for Google Calendar, select a <a href="ConfigIntents.htm">Booking Type</a> from the drop-down list. </li>
+            <li>From EMS&#160;for Google Calendar, select a <a href="ConfigIntents.htm">Booking Type</a> from the drop-down list. </li>
         </ol>
         <p>
             <img src="images/intents.png" />
@@ -44,21 +89,14 @@
         <p>
             <img src="images/GuestsTab.png" />
         </p>
-        <p>&#160;</p>
+        <p class="title">Room Added via EMS&#160;for Google Calendar</p>
+        <p>
+            <img src="images/remove.png" style="width: 290px;height: 248px;" />
+        </p>
         <p class="box-note"><span class="bold">NOTE</span>:&#160;To remove a Room, click <span class="bold">Remove</span>. </p>
         <ol MadCap:continue="true">
             <li>Click <b>Save</b>. </li>
         </ol>
-        <h2><a name="FilterBuildingsLocations"></a>Filter Buildings/Locations</h2>
-        <p>(Content to come.)</p>
-        <h2><a name="SelectRoom"></a>Select a Room</h2>
-        <p>(Content to come.)</p>
-        <h2><a name="CreateFavoriteRooms"></a>Create Favorite Rooms</h2>
-        <p>To create favorite locations in EMS&#160;for Google Calendar, simply click the heart icon next to the room. The favorite is saved immediately once the heart is clicked. </p>
-        <p>
-            <img src="images/favoriterooms.png" />
-        </p>
-        <h2><a name="SetUserPref"></a>Set User Preferences</h2>
-        <p>Setting user preferences allows users to designate favorite locations, floors, and rooms. This will expedite the booking process for future reservations. </p>
+        <p class="box-warning"><span class="bold">WARNING</span>:&#160;If a <a href="ConflictResolution.htm">conflict exists</a>, a <span style="color: #ff0000;">red </span>square will appear over your EMS&#160;for Google Calendar icon at the top of your menu. See Also:&#160;<a href="ConflictResolution.htm">Conflict Resolution in EMS&#160;for Google Calendar</a>. </p>
     </body>
 </html>
