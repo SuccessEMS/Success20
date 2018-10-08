@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:searchable="False">
+    <head>
+    </head>
+    <body>
+        <h1>SAML Terminology and Process</h1>
+        <p style="line-height: 20px;margin-top: -15px;"><span class="italics">(EMS Internal Documentation)</span>
+        </p>
+        <p>When troubleshooting SAML, it is important to understand SAML terminology and how the SAML authentication process works. Understanding the process can help you determine where and when a SAML issue is occurring and the best way to resolve the issue. The information in this topic provides general information about SAML and how SAML&#160;works with EMS&#160;Platform Services.</p>
+        <p>This topic provides the following information:</p>
+        <ul class="unorder-list">
+            <li><a href="#What_Is_SAML">What Is SAML?</a>
+            </li>
+            <li><a href="#SAML_Terminology">SAML&#160;Terminology</a>
+                <ul>
+                    <li><a href="#Service_Provider">Service Provider</a>
+                    </li>
+                    <li><a href="#Identity_Provider">Identity Provider</a>
+                    </li>
+                    <li><a href="#User_Agent">User Agent</a>
+                    </li>
+                    <li><a href="#SAML_Assertion">SAML&#160;Assertion</a>
+                    </li>
+                    <li><a href="#SAML_Profiles">SAML Profiles</a>
+                    </li>
+                    <li><a href="#SAML_Protocols">SAML&#160;Protocols</a>
+                    </li>
+                    <li><a href="#SAML_Binding_Types">SAML&#160;Binding Types</a>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="#SAML_Authentication_Process">SAML&#160;Authentication Process</a>
+                <ul>
+                    <li><a href="#SAML_Diagram">SAML Workflow Diagram</a>
+                    </li>
+                    <li><a href="#SAML_Authentication_Example">SAML Workflow Description</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <h2><a name="What_Is_SAML"></a>What Is SAML?</h2>
+        <p>Security Assertion Markup Language (SAML) is a standard for exchanging authentication and authorization data between  an <a href="#Identity_Provider">identity provider (IdP)</a> and a <a href="#Service_Provider">service provider (SP)</a>. SAML is the link between the authentication of a user’s identity and the authorization to use a service, such as EMS&#160;Web App or EMS&#160;Mobile App. SAML&#160;provides the following authentication and authorization benefits:&#160;</p>
+        <ul class="unorder-list">
+            <li>Single Sign On — Gives users the ability to log onto multiple services with the same credentials</li>
+            <li>Access Control — Verifies that users have permission to access a particular service or perform a specific function in a service</li>
+            <li>Federated Identity — One organization authenticating with credentials from a different organization (linking and storing a user's identity across different identity management systems) </li>
+        </ul>
+        <p>Most organizations already know the identity of their users because users are logged into their organization's domain or intranet. Through SAML, organizations can make further use of their users' identity information&#160;and log users into other web-based applications, such as  EMS&#160;Web App and EMS&#160;Mobile App.</p>
+        <h2><a name="SAML_Terminology"></a>SAML&#160;Terminology</h2>
+        <p>The following terminology is useful for understanding and troubleshooting SAML:&#160;</p>
+        <ul class="unorder-list">
+            <li><a href="#Service_Provider">Service Provider</a>
+            </li>
+            <li><a href="#Identity_Provider">Identity Provider</a>
+            </li>
+            <li><a href="#User_Agent">User Agent</a>
+            </li>
+            <li><a href="#SAML_Assertion">SAML&#160;Assertion</a>
+            </li>
+            <li><a href="#SAML_Profiles">SAML Profiles</a>
+            </li>
+            <li><a href="#SAML_Protocols">SAML&#160;Protocols</a>
+            </li>
+            <li><a href="#SAML_Binding_Types">SAML&#160;Binding Types</a>
+            </li>
+        </ul>
+        <h3><a name="Service_Provider"></a>Service Provider </h3>
+        <p>A SAML&#160;service provider (SP) is a <MadCap:annotation MadCap:createDate="2018-09-25T09:22:42.1279158-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Can it be called an &quot;application&quot; instead, or is that incorrect?" MadCap:editor="Megan.Laub" MadCap:editDate="2018-09-25T09:23:03.5564235-06:00">system entity</MadCap:annotation> that <span class="italics">receives </span>and accepts authentication assertions. For EMS, the SP is EMS&#160;Platform Services because it generates SAML&#160;requests and receives and validates SAML&#160;responses. To grant users access to EMS&#160;Web App or EMS&#160;Mobile App, EMS&#160;Platform Services needs the user authentication from the Identity Provider.</p>
+        <h3><a name="Identity_Provider"></a>Identity Provider</h3>
+        <p>A SAML&#160;identity provider (IdP) is a <MadCap:annotation MadCap:createDate="2018-09-25T09:23:13.1011008-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Can it be called an &quot;application&quot; instead, or is that incorrect?" MadCap:editor="Megan.Laub" MadCap:editDate="2018-09-25T09:23:13.9126257-06:00">system entity</MadCap:annotation> that <span class="italics">issues </span>authentication assertions. IdPs, such as ADFS and Azure, authenticate user login credentials and then send that authentication data (SAML&#160;assertions)&#160;to EMS&#160;Platform Services along with the users' access rights for EMS Web App or EMS&#160;Mobile App. The IdP application is hosted elsewhere, not with EMS. EMS&#160;does not store or have access to users' passwords. </p>
+        <p>For a list of IdPs that EMS&#160;has tested and supports, see <a href="../Authentication/SAMLAuthen.html#SupportedIdentityProviders">Supported Identity Providers</a>.</p>
+        <h3><a name="User_Agent"></a>User Agent </h3>
+        <p>For SAML, a user agent is the browser used to access an application (for example, using Google Chrome to access EMS&#160;Web App). </p>
+        <h3><a name="SAML_Assertion"></a>SAML&#160;Assertion</h3>
+        <p>A SAML assertion is the XML&#160;document that the IdP sends to the SP. The SAML&#160;assertion contains the user authorization. In the <a href="#SAML_Diagram">SAML&#160;workflow</a>, once the IdP has determined that the users are who they say they are and that the users have the right to access the content or services they are interested in, the IdP sends a SAML assertion to the Service Provider (EMS&#160;Platform Services). A SAML assertion may be encrypted for increased security. <MadCap:annotation MadCap:createDate="2018-10-08T10:43:08.2179993-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Useful info, or should we delete the types of assertions? Does knowing the different assertion types help pinpoint troubleshooting issues?" MadCap:editor="Megan.Laub" MadCap:editDate="2018-10-08T10:43:49.0329062-06:00">There are three different types of SAML&#160;Assertions:</MadCap:annotation>&#160;</p>
+        <ul class="unorder-list">
+            <li>Authentication Assertion — This type of assertion proves identification of users and provides the time users logged in and what method of authentication they used, such as Kerberos and 2 factor. Authentication assertions are typically generated by IdPs because IdPs are in charge of authenticating users and keeping track of user information. </li>
+            <li>Attribute Assertion — This type of assertion passes the SAML&#160;attributes to the Service Provider. SAML attributes are specific pieces of data that provide information about the user.</li>
+            <li>Authorization Decision Assertion — This type of assertion explains whether the user is authorized to use the service (like EMS Web App) or whether the IdP denied the user's request due to a password failure or lack of rights to the service. </li>
+        </ul>
+        <h3><a name="SAML_Profiles"></a>SAML&#160;Profiles</h3>
+        <p>SAML&#160;profiles are combinations of assertions, protocols, and bindings to support a defined use case.</p>
+        <h3><a name="SAML_Protocols"></a>SAML&#160;Protocols</h3>
+        <p>SAML protocols are requests and responses for obtaining assertions and doing identity management.</p>
+        <h3><a name="SAML_Binding_Types"></a>SAML&#160;Binding Types</h3>
+        <p>SAML&#160;Service Providers and Identity Providers communicate by exchanging messages (requests and responses). A binding defines how these messages are sent. EMS&#160;supports HTTP Redirect binding; POST&#160;binding has limited support. </p>
+        <p>Refer to the following for more detailed information on binding types:&#160;</p>
+        <ul class="unorder-list">
+            <li><a href="#HTTP_Redirect_Binding">HTTP&#160;Redirect Binding</a>
+            </li>
+            <li><a href="#HTTP_POST_Binding">HTTP POST&#160;Binding</a>
+            </li>
+        </ul>
+        <h4><a name="HTTP_Redirect_Binding"></a>HTTP Redirect Binding</h4>
+        <p>An HTTP&#160;redirect binding encodes the SAML message directly in the URL&#160;query string of an HTTP&#160;GET request. Since the length of URLs is limited, customers need to be aware of the length of the URL. If a configuration creates a request that is very large, then the URL could be too long and cause issues. This URL length problem is sometimes seen with ADFS&#160;and older versions of Internet Explorer. </p>
+        <p>The following is an example of the HTTP&#160;redirect binding being used to authenticate a user.  </p>
+        <h4><a name="HTTP_POST_Binding"></a>HTTP POST&#160;Binding</h4>
+        <p>HTTP redirect binding encodes the SAML message in a POST&#160;form that is auto-submitted to the IdP. EMS&#160;has limited support for HTTP&#160;POST binding. Although EMS&#160;Platform Services can generate this POST form, when EMS&#160;Platform Services sends the POST form request back to the EMS&#160;Web App or Mobile App, the browser does not automatically follow the POST form like the browser would a redirect. In other words, EMS&#160;Platform Services can create the POST binding, but EMS&#160;Web App and Mobile App do not know where to forward the forms.</p>
+        <p class="box-note"><span class="boldAllCaps">Note: </span>Customers with custom apps can use the HTTP&#160;POST binding type <MadCap:annotation MadCap:createDate="2018-10-05T11:20:14.7568629-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Are customers on their own if they use POST binding, or does support need to help these customers? If they need to hep them, what info can we provide here? " MadCap:editor="Megan.Laub" MadCap:editDate="2018-10-05T11:21:02.2657293-06:00">as long as they properly set up their SAML configuration</MadCap:annotation>.</p>
+        <h2><a name="SAML_Authentication_Process"></a>SAML&#160;Authentication Process</h2>
+        <p>To troubleshoot SAML authentication issues, it is important to determine at what point during the SAML&#160;authentication process the issue occurred. The SAML&#160;authentication process consists of SAML&#160;requests and responses being passed between a <a href="#Service_Provider">service provider</a>, <a href="#Identity_Provider">identity provider</a>, and <a href="#User_Agent">user agent</a>.&#160;The following diagram provides an example of the SAML&#160;authentication process as a workflow.</p>
+        <h3><a name="SAML_Diagram"></a>SAML Workflow Diagram</h3>
+        <p>The following diagram is an example of the SAML authentication process. For a detailed description of the steps show in this diagram, see <a href="#SAML_Authentication_Example">SAML Workflow Description</a>.</p>
+        <p>
+            <img src="Images/SAMLProcessExample.jpg" style="width: 860px;height: 580px;" title="Borrowed from https://images.idgesg.net/images/article/2017/10/security-assertion-markup-language-saml-explainer-100738529-orig.jpg" />
+        </p>
+        <h3><a name="SAML_Authentication_Example"></a>SAML Workflow Description</h3>
+        <p>The following describes an example workflow for the SAML&#160;authentication process (the numbers below correspond to numbers in the previous diagram). In the example, a user is trying to access the EMS&#160;Web App, which is the target resource in the previous diagram. The service provider is EMS&#160;Platform Services, and the user agent is the user's browser. </p>
+        <p><span class="bold"><MadCap:annotation MadCap:createDate="2018-10-08T10:38:04.7718293-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Does breaking the steps into phases help at all? Should we just remove the phase breaks?" MadCap:editor="Megan.Laub" MadCap:editDate="2018-10-08T10:38:29.6875015-06:00">Phase 1:</MadCap:annotation>&#160;Communication Between EMS&#160;Platform Services  and User's Browser</span>
+        </p>
+        <ol class="number-list">
+            <li><a name="Step1"></a>The user tries to access  EMS&#160;Web App (target resource). The user's browser (user agent) requests access through EMS Platform Services (service provider). EMS&#160;Platform Services verifies whether the user is already authenticated within the system. If the user is authenticated, the user goes on to step 7. If the user is unauthenticated, EMS&#160;Platform Services starts the authentication process.</li>
+            <li><a name="Step2"></a>EMS&#160;Platform Services determines the appropriate identity provider (IdP) for the user and then redirects the user to the IdP's single sign-on service (SSO).</li>
+        </ol>
+        <p><span class="bold">Phase 2:&#160;Communication Between Identity Provider and User's Browser</span>
+        </p>
+        <ol class="number-list" MadCap:continue="true">
+            <li><a name="Step3"></a>The user's browser sends an authentication request to the IdP's SSO service,&#160;and the SSO&#160;service identifies the user. <p class="box-note"><span class="boldAllCaps">Note:</span>&#160;<MadCap:annotation MadCap:createDate="2018-09-25T13:35:04.7165386-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Is this info useful? Should it be removed? Should more info be added (are attributes defined in a metadata file)?" MadCap:editor="Megan.Laub" MadCap:editDate="2018-09-25T13:35:42.5750355-06:00">Additional</MadCap:annotation> information about the user may be retrieved from the user data store for inclusion in the SAML response (step 4). These attributes are predetermined as part of the federation agreement between the IdP and the SP.</p></li>
+            <li><a name="Step4"></a>The IdP's SSO&#160;service returns an XHTML&#160;form to the browser with a SAML&#160;response that contains the authentication assertion and any additional attributes. </li>
+        </ol>
+        <p><span class="bold">Phase 3:&#160;Communication Between EMS&#160;Platform Services and User's Browser</span>
+        </p>
+        <ol class="number-list" MadCap:continue="true">
+            <li><a name="Step5"></a>The browser passes the SAML response on to EMS&#160;Platform Services.</li>
+            <li><a name="Step6"></a>EMS&#160;Platform Services processes and validates the SAML response  and creates a security context for the user (basically,  logs the user in) and then redirects the user back to EMS&#160;Web App.</li>
+            <li><a name="Step7"></a>After following the redirect, the browser requests access to EMS&#160;Web App again.</li>
+            <li><a name="Step8"></a>The user is logged in and can access EMS&#160;Web App.</li>
+        </ol>
+        <h3><a name="SAML_Initiation"></a>SAML Initiation</h3>
+        <p>There are two ways to initiate the SAML process:&#160;SP-initiated method and IdP-initiated method. EMS&#160;<MadCap:annotation MadCap:createDate="2018-09-25T14:13:09.8717678-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Don't support or don't fully support? EMS Live speaker said that IdP-initiated was supported on-prem. Is this true?" MadCap:editor="Megan.Laub" MadCap:editDate="2018-10-05T09:44:45.0068011-06:00">does not fully support IdP-initiated SAML</MadCap:annotation>.</p>
+        <ul class="unorder-list">
+            <li>SP-initiated — In this workflow, the user initiates the login process at the SP. For example, a user tries to access EMS&#160;Web App and is not authenticated. EMS&#160;Platform Services redirects the user to the IdP with a SAML Request (AuthnRequest). The SAML Request contains the necessary information for the  IdP to authenticate the user and reply to EMS&#160;Platform Services with the correct SAML Assertion (SAMLResponse). <p><span class="italics">Exampe of SP-initiated workflow</span> — The  SAML <a href="#SAML_Authentication_Example">workflow description</a> in the previous section is an example of the SP-initiated method because the user starts the process by first going to EMS&#160;Web App (target resource).</p></li>
+            <li>
+                <MadCap:annotation MadCap:createDate="2018-09-28T13:34:34.0618000-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Need to fix this. Is the example correct?" MadCap:editor="Megan.Laub" MadCap:editDate="2018-10-05T09:44:59.7562912-06:00">IdP-initiated (not fully supported) — In this workflow,</MadCap:annotation> the user initiates the login process at the IdP. The IdP needs to be configured with the SP's (EMS&#160;Platform Services's) SAML metadata information, such as the Assertion Consumer URL, Issuer, and Audiences. The IdP will send a SAML Assertion (SAMLResponse) to the SP, which the SP will validate based on the configured requirements. <p><span class="italics">Example of IdP-initiated workflow</span> — The user first goes to the IdP, possibly through a corporate portal, and tries to access a resource managed by EMS&#160;Platform Services. <MadCap:annotation MadCap:createDate="2018-10-08T10:33:50.9187524-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Is there other info to add to this, such as more details on why IdP-initiated doesn't work right now?" MadCap:editor="Megan.Laub" MadCap:editDate="2018-10-08T10:34:34.1524766-06:00">There is an enhancement ticket for EMS&#160;to support IdP-initiated SAML.</MadCap:annotation></p></li>
+        </ul>
+    </body>
+</html>
