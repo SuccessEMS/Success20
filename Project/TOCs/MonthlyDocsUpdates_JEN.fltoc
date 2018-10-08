@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Configuration &gt; Facililties"
+    Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigFacil.html">
+    <TocEntry
+      Title="Overview of Configuring Rooms"
+      Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/OverviewConfigRooms.html">
+      <TocEntry
+        Title="Configure Rooms"
+        Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigRooms.html" />
+      <TocEntry
+        Title="Room Configuration Wizard"
+        Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/RoomConfigWiz.htm" />
+      <TocEntry
+        Title="Configure Room Pricing"
+        Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigRoomPricing.htm" />
+      <TocEntry
+        Title="Configure Override Rooms"
+        Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigOverrideRooms.htm" />
+      <TocEntry
+        Title="Configure and Generate Room QR Codes"
+        Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigGenerRoomQRCode.htm" />
+      <TocEntry
+        Title="Import Rooms"
+        Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ImportRooms.htm"></TocEntry>
+      <TocEntry
+        Title="Export Pricing Information for a Room"
+        Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ExportPricInfoRoom.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Configure Buildings"
+      Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigBuilding.html" />
+    <TocEntry
+      Title="Configure Building Hours"
+      Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigBuildingHours.html">
+      <TocEntry
+        Title="Building Hours Wizard"
+        Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/BuildHourWiz.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Configure Areas"
+      Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigAreas.html" />
+    <TocEntry
+      Title="Configure Room Types"
+      Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigRoomType.html" />
+    <TocEntry
+      Title="Configure Setup Types"
+      Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigSetupType.html" />
+    <TocEntry
+      Title="Configure Features"
+      Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigFeatures.html" />
+    <TocEntry
+      Title="Configure Floors"
+      Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigFloors.html" />
+    <TocEntry
+      Title="Configure Floor Plans"
+      Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigFloorPlans.html" />
+    <TocEntry
+      Title="Configure Public Views"
+      Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigPublicViews.html" />
+  </TocEntry>
+</CatapultToc>
