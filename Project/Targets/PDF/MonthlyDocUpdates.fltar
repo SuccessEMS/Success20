@@ -5,7 +5,7 @@
   Type="MsWord"
   Destinations=""
   GlossaryTermConversion="marked"
-  MasterToc="/Project/TOCs/MonthlyDocsUpdates.fltoc"
+  MasterToc="/Project/TOCs/MonthlyDocsUpdates_JEN.fltoc"
   PatchHeadingLevels="false"
   InjectEmptyPages="false"
   UseLocalBuildSettings="true"
