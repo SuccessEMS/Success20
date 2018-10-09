@@ -8,10 +8,29 @@
         </p>
         <p>This section provides troubleshooting tips and information about SAML.</p>
         <ul class="unorder-list">
+            <li><a href="#Troubleshooting_Steps">Troubleshooting Steps</a>
+            </li>
+            <li><a href="#Verify_SAML_Configuration_PS">Verify SAML&#160;Configuration in EMS&#160;Platform Services</a>
+            </li>
+            <li><a href="#Verify_Auth_Key_Config_PS">Verify Auth Key Configuration in EMS&#160;Platform Services</a>
+            </li>
+            <li><a href="#SAML_Metadata">SAML&#160;Metadata Import Guidelines</a>
+            </li>
+            <li><a href="#SAML_Debug_Logs_Tools">SAML&#160;Debugging: Logs and Tools</a>
+                <ul>
+                    <li><a href="#SAML_Trace">How to Perform a SAML&#160;Trace</a>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="#Error_Messages_and_Codes">Error Messages and Codes</a>
+            </li>
+        </ul>
+        <p>See Also:</p>
+        <ul class="unorder-list">
             <li>For an overview of SAML terminology and how SAML&#160;works, see <a href="SAML_TermsProcess.htm">SAML&#160;2.0 Terminology and Process Overview</a>. </li>
             <li>For instructions on configuring SAML in EMS&#160;Platform Services, see <a href="../Authentication/SAMLAuthen.html">SAML&#160;Authentication</a>.</li>
         </ul>
-        <h2>Troubleshooting Overview</h2>
+        <h2><a name="Troubleshooting_Steps"></a>Troubleshooting Steps</h2>
         <p>To troubleshoot SAML&#160;configuration issues, <MadCap:annotation MadCap:createDate="2018-10-08T11:00:19.9596799-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Are these steps the best way to troubleshoot? Should support first verify the Platform configuration because it is a quick check, or is it not quick because every company is configured differently? If they can't quickly look over the PS Admin UI SAML Configuration fields, when should they review these fields? After performming a SAML Trace?" MadCap:editor="Megan.Laub" MadCap:editDate="2018-10-08T12:17:04.4923325-06:00">perform the following steps</MadCap:annotation>:</p>
         <ol class="number-list">
             <li>Determine where in the SAML&#160;authentication process the error or issue is occurring. Refer to <a href="SAML_TermsProcess.htm#SAML_Authentication_Process">SAML Authentication Process</a> for a diagram and detailed description of the process.</li>
@@ -21,7 +40,7 @@
         <p>For IdPs that require configuring the Service Provider in advance (for example, Azure AD), to determine what info to provide on the IdP side, do the following:</p>
         <p>IdP may want the base Service Provider base URL (in Service Provider Base URL for IdP Callback field in Platform Admin UI, https://mycompany.com/EmsPlatform). Or, IdP may need the full URL path (https://mycompany.com/EmsPlatform/api/v1/authentication/saml).</p>
         <p>Relay State Parameter – Extra component in redirect binding URL or extra Input Type in POST binding that remembers where the user was when user was determined to be unauthenticated and sent to the IdP. With this parameter (contains data about where the user was), once the user is authenticated by the IdP, the IdP can use the relay state parameter to send the user back to the page in the Web App that the user was taken from. In Platform SAML specification, relay state parameter is a destination URL. If IdP needs relay state parameter, just give them the Platform URL (IdP-initiated is not supported because Platform uses relay state to determine where to send user after IdP authenticates the user and sends the user back to Platform. [Maybe add to variations section] IdP-initiated SAML, wouldn’t know where to send the user: web app, mobile app, etc.)</p>
-        <h2>Verify SAML&#160;Configuration in EMS&#160;Platform Services</h2>
+        <h2><a name="Verify_SAML_Configuration_PS"></a>Verify SAML&#160;Configuration in EMS&#160;Platform Services</h2>
         <p>
             <MadCap:annotation MadCap:createDate="2018-10-08T13:52:43.4673853-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Is this info needed for troubleshooting, or would this information be better put into the SAML Authentication section as a checklist of info to find before configuring SAML?" MadCap:editor="Megan.Laub" MadCap:editDate="2018-10-08T13:53:29.6039558-06:00">The following information is needed when configuring SAML&#160;for EMS&#160;Platform Services (service provider) and the identity provider: </MadCap:annotation>
         </p>
@@ -42,7 +61,7 @@
             <li>Identity Provider URL for Service Provider Redirect – REQUIRED. Tells we are going to send the user (where we send the user to log in/ authenticate). This URL (e.g., https://idp.example.org/SAML2/SSO/Redirect) includes the authentication request details provided by EMS Platform Services and contains opaque data that it includes in the request. This enables the Identify Provider to include it as Relay State on the SAMLResponse. NOTE: If you have the identity provider metadata.xml file, you can upload it through the EMS Platform Services endpoint https://company.platform/api/v1/authentication/saml/metadata/idp. The identity provider certificate will be uploaded for you and Identity Provider Issuer. The Identity Provider URL for Service Provider Redirect fields will be populated for you.</li>
             <li>Service Provider Base URL for IdP Callback – REQUIRED. Where the IdP should send the user back (where the IdP sends the user after the user logs in/ authenticates). Set this URL to the base URL of the EMS Platform Services installation (i.e., https://mycompany.com/EmsPlatform). EMS Platform Services will autogenerate the values for the Service Provider Issuer and the Service Provider Base URL for IdP Callback. Only put in the base platform URL.</li>
         </ul>
-        <h2>Verify Auth Key Configuration in EMS&#160;Platform Services</h2>
+        <h2><a name="Verify_Auth_Key_Config_PS"></a>Verify Auth Key Configuration in EMS&#160;Platform Services</h2>
         <p>After verifying the a customer's SAML&#160;configuration in the <span class="bold">SAML </span>tab of the EMS&#160;Platform Services Admin Portal, you can set up or verify the auth keys in the <span class="bold">Auth Keys</span>  tab. For information on setting up auth keys, see the <a href="../EMSPlatformServices/ConfigurationGuide/ConfigPSinAdminPortal.html#Auth">Auth Keys</a> section. When setting up or verifying auth key information, keep in mind the following:</p>
         <ul class="unorder-list">
             <li>Service provider keys (EMS) and identity provider keys must be configured or added in separately.</li>
@@ -50,36 +69,17 @@
             <li>You must format the Public Key and Private Key fields in a specific manner (there is an open ticket to fix the formatting requirement). For the IdP auth key, you do not need to enter the Private Key from the IdP (this field will be grayed out). For the service provider, you can enter both a Public Key and Private Key. For hosted customers, we are hosting the service provider, but they are hosting their own IdP. <MadCap:annotation MadCap:createDate="2018-10-08T15:01:54.5208185-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="For both cloud and on-prem?" MadCap:editor="Megan.Laub" MadCap:editDate="2018-10-08T15:02:02.7523863-06:00">The IdP metadata only contains the Public Key</MadCap:annotation>.</li>
             <li>Make sure that you clear out the <span class="bold">Not Before</span> and <span class="bold">Not After</span> fields. Certificates have their own expirations embedded in them, and EMS&#160;Platform Services is using those embedded expiration <MadCap:annotation MadCap:createDate="2018-10-08T15:03:30.1051901-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Dates or times? Verify in Admin portal. Is this true for everyone? Should this be in the PS config section for Auth Keys?" MadCap:editor="Megan.Laub" MadCap:editDate="2018-10-08T15:04:26.8228108-06:00">dates</MadCap:annotation>.</li>
         </ul>
-        <h2>SAML&#160;Metadata Import</h2>
+        <h2><a name="SAML_Metadata"></a>SAML&#160;Metadata Import Guidelines</h2>
         <p>SAML metadata describes how each side is configured and what each side wants their requests/responses to look like. Metadata helps automate the configuration process. Both sides don’t have be done automatically. One side can be automated and the other side manually configured.</p>
         <p>**When importing IdP metadata, note that we don’t have a UI for this yet. To import, use a request through Postman (or similar). POST to base with /api/v1/authentication/saml/metadata/idp. (How do they get this XML body?) The body you post into it is XML document (shows info like the embedded certificate, default Name ID assertion, tells what kind of binding they support, location to send user to). The metadata is an XML document, but our API is .json. Need to create .json payload where the only key is xml and the value is the XML payload. (Who creates the payload? Support and PS? How do they create a .json payload? What do they do with the payload file after it is created?)</p>
         <p>From our website: NOTE: [does this note need to be updated since the XML file needs a .json payload?] If you have the identity provider metadata.xml file, you can upload (POST in Postman?) it through the EMS Platform Services endpoint https://company.platform/api/v1/authentication/saml/metadata/idp. The identity provider certificate will be uploaded for you and Identity Provider Issuer. The Identity Provider URL for Service Provider Redirect fields will be populated for you.</p>
-        <h2>How to Debug</h2>
+        <h2><a name="SAML_Debug_Logs_Tools"></a>SAML&#160;DebugGing: Logs and Tools</h2>
+        <p>When troubleshooting SAML configuration issues, it can be helpful to view the logs in the EMS Platform Services Admin UI. It is also helpful to perform a SAML trace, which allows you to view the SAML&#160;requests and responses.</p>
         <ul class="unorder-list">
-            <li>Platform Logs – Through the PS Admin UI, in the Logs tab. Can view logs for Platform (global logs) (paste logs into Splunk?). Splunk is helpful if error is on the Service Provider side, but if on the IdP side, it just looks like the user never came back (error occurred while user was trying to log in to the IdP side). Global logs are just for Platform. Integration logs are for the integration client. SAML issues should be in global only, right (do they need to Edit Log Level Details to get useful logs for debugging SAML or this only for integrations, not global; maybe update Core doc when get answer because this is not specified in the section)?</li>
-            <li>SAML Trace – Firefox and Chrome (Stephan recommends firefox SAML tracer output)</li>
+            <li>Platform Logs — The logs are available in the <span class="bold">Logs </span>tab of the EMS&#160;Platform Services PS Admin UI. From the <span class="bold">Logs </span>tab, <MadCap:annotation MadCap:createDate="2018-10-08T18:31:46.8673093-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Do they need to make sure the Log Level details are set to &quot;debug&quot;. If so, refer them to Config PS topic." MadCap:editor="Megan.Laub" MadCap:editDate="2018-10-08T18:32:12.9213509-06:00">you can view logs for global logs for EMS&#160;Platform Services</MadCap:annotation>. Splunk is helpful if error is on the service provider side (EMS&#160;Platform Services); however, if the issue is on the IdP side, it just looks like the user never came back (error occurred while user was trying to log in to the IdP side). Global logs are just for Platform. Integration logs are for the integration client. SAML issues should be in global only, right (do they need to Edit Log Level Details to get useful logs for debugging SAML or this only for integrations, not global; maybe update Core doc when get answer because this is not specified in the section)?</li>
+            <li>SAML Trace — Firefox and Chrome (Stephan recommends firefox SAML tracer output) and browser DevTools</li>
         </ul>
-        <h2>
-            <MadCap:annotation MadCap:createDate="2018-10-08T11:04:33.5793131-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Are there HTTP error codes or SAML error codes or messages that support should watch for or handle a certain way?" MadCap:editor="Megan.Laub" MadCap:editDate="2018-10-08T11:31:33.0762301-06:00">Error Messages and Codes</MadCap:annotation>
-        </h2>
-        <p>Invalid or Missing POST parameter – Looking at the SAML response from SAML-tracer can help with this error. Could be configuration issue, such as potentially be that Platform expects redirect binding and IdP sent a POST binding instead. IdP sending a parameter we don’t expect.</p>
-        <p class="box-important"><span class="boldAllCaps">Important:</span> To properly troubleshoot SAML&#160;issues, you need to understand at what point in the workflow the error or issue is occurring. Try to narrow down the place in the process. For example, the user has reached the IdP already; therefore, we know the SAML request made it to the IdP and then failed. See <a href="SAML_TermsProcess.htm#SAML_Authentication_Process">SAML Authentication Process</a> to determine at which of the three SAML phases the issue is occurring.</p>
-        <p>IdP may or may not need to be configured (like ADFS: needs to have URL to send users back to after user has authenticated). Platform does send URL for user redirect to the IdP and some providers don’t need any other information than the info in the request. Some need to put the info into their system (for the tested IdPs, is there a list of which require extra configuration? Then support may have potential answer for why IdP portion is causing error.). For example: Shibboleth uses URL address in request to send user back. ADFS uses the URL address in the request from Platform to verify that the address matches the URL in their system before sending user back. If URL is a location that is not configured in ADFS (valid location), ADFS will error out. Some IdPs may be automated in this process, and some may be particular and use info for verification. Same IdP could be automated and a different deployment could be more particular. Just depends on how it was set up.</p>
-        <p style="color: #ff0000;">
-            <MadCap:annotation MadCap:createDate="2018-10-08T15:10:41.8440817-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="These are potential error messages/codes. Check with Stephan and find out if any of these are issues that support/PS would run into." MadCap:editor="Megan.Laub" MadCap:editDate="2018-10-08T15:11:19.2192698-06:00">Browser Setting Issues</MadCap:annotation>
-        </p>
-        <p style="color: #ff0000;">A user’s browser displays the error "Can't display the webpage."</p>
-        <p style="color: #ff0000;">A user’s browser is stuck on the redirection page.</p>
-        <p style="color: #ff0000;">I am getting a basic Login pop-up; authentication is not transparent.</p>
-        <p style="color: #ff0000;">Error: Your request included an invalid SAML response. To logout, click here.</p>
-        <p style="color: #ff0000;">Error: RoleSessionName is required in AuthnResponse (Service: AWSSecurityTokenService; Status Code: 400; Error Code: InvalidIdentityToken)</p>
-        <p style="color: #ff0000;">Error: Not authorized to perform sts:AssumeRoleWithSAML (Service: AWSSecurityTokenService; Status Code: 403; Error Code: AccessDenied)</p>
-        <p style="color: #ff0000;">Error: RoleSessionName in AuthnResponse must match [a-zA-Z_0-9+=,.@-]{2,64} (Service: AWSSecurityTokenService; Status Code: 400; Error Code: InvalidIdentityToken)</p>
-        <p style="color: #ff0000;">Error: Response signature invalid (Service: AWSSecurityTokenService; Status Code: 400; Error Code: InvalidIdentityToken)</p>
-        <p style="color: #ff0000;">Error: Failed to assume role: Issuer not present in specified provider (Service: AWSOpenIdDiscoveryService; Status Code: 400; Error Code: AuthSamlInvalidSamlResponseException)</p>
-        <p style="color: #ff0000;">Error: Could not parse metadata.</p>
-        <p style="color: #ff0000;">Error: Requested DurationSeconds Exceeds MaxSessionDuration Set for this Role.</p>
-        <h2><a name="SAML_Trace"></a>How to Perform a SAML&#160;Trace</h2>
+        <h3><a name="SAML_Trace"></a>How to Perform a SAML&#160;Trace</h3>
         <p>To obtain a sample SAML&#160;request/response, you can perform a SAML trace. The following steps explain how to perform a SAML&#160;trace using <a href="https://addons.mozilla.org/en-US/firefox/addon/saml-tracer/">Firefox SAML-tracer</a>.</p>
         <ol class="number-list">
             <li>Download the <a href="https://addons.mozilla.org/en-US/firefox/addon/saml-tracer/">SAML-tracer</a> tool for Firefox.</li>
@@ -94,6 +94,26 @@
                 <li>Select the SAML&#160;<span class="bold">POST </span>call in the upper portion of the trace window. Then, in the lower portion of the trace window, click the <MadCap:annotation MadCap:createDate="2018-10-08T13:19:57.7688675-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="What info should support look for? X509 certificate is correct? Anything?" MadCap:editor="Megan.Laub" MadCap:editDate="2018-10-08T13:20:27.9501378-06:00">SAML filter option</MadCap:annotation>. </li>
                 <li>If needed, save the filtered SAML information, either through copy and paste or by using the <span class="bold">Export </span>button.&#160;<p class="box-note"><span class="boldAllCaps">Note:&#160;</span>After reviewing the SAML&#160;request/response, if you are unsure which part of the SAML request/response to provide to Dev, just send Dev the entire SAML request/response.</p></li>
             </ol>
+            <h2>
+                <MadCap:annotation MadCap:createDate="2018-10-08T11:04:33.5793131-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Are there HTTP error codes or SAML error codes or messages that support should watch for or handle a certain way?" MadCap:editor="Megan.Laub" MadCap:editDate="2018-10-08T11:31:33.0762301-06:00"><a name="Error_Messages_and_Codes"></a>Error Messages and Codes</MadCap:annotation>
+            </h2>
+            <p>Invalid or Missing POST parameter – Looking at the SAML response from SAML-tracer can help with this error. Could be configuration issue, such as potentially be that Platform expects redirect binding and IdP sent a POST binding instead. IdP sending a parameter we don’t expect.</p>
+            <p class="box-important"><span class="boldAllCaps">Important:</span> To properly troubleshoot SAML&#160;issues, you need to understand at what point in the workflow the error or issue is occurring. Try to narrow down the place in the process. For example, the user has reached the IdP already; therefore, we know the SAML request made it to the IdP and then failed. See <a href="SAML_TermsProcess.htm#SAML_Authentication_Process">SAML Authentication Process</a> to determine at which of the three SAML phases the issue is occurring.</p>
+            <p>IdP may or may not need to be configured (like ADFS: needs to have URL to send users back to after user has authenticated). Platform does send URL for user redirect to the IdP and some providers don’t need any other information than the info in the request. Some need to put the info into their system (for the tested IdPs, is there a list of which require extra configuration? Then support may have potential answer for why IdP portion is causing error.). For example: Shibboleth uses URL address in request to send user back. ADFS uses the URL address in the request from Platform to verify that the address matches the URL in their system before sending user back. If URL is a location that is not configured in ADFS (valid location), ADFS will error out. Some IdPs may be automated in this process, and some may be particular and use info for verification. Same IdP could be automated and a different deployment could be more particular. Just depends on how it was set up.</p>
+            <p style="color: #ff0000;">
+                <MadCap:annotation MadCap:createDate="2018-10-08T15:10:41.8440817-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="These are potential error messages/codes. Check with Stephan and find out if any of these are issues that support/PS would run into." MadCap:editor="Megan.Laub" MadCap:editDate="2018-10-08T15:11:19.2192698-06:00">Browser Setting Issues</MadCap:annotation>
+            </p>
+            <p style="color: #ff0000;">A user’s browser displays the error "Can't display the webpage."</p>
+            <p style="color: #ff0000;">A user’s browser is stuck on the redirection page.</p>
+            <p style="color: #ff0000;">I am getting a basic Login pop-up; authentication is not transparent.</p>
+            <p style="color: #ff0000;">Error: Your request included an invalid SAML response. To logout, click here.</p>
+            <p style="color: #ff0000;">Error: RoleSessionName is required in AuthnResponse (Service: AWSSecurityTokenService; Status Code: 400; Error Code: InvalidIdentityToken)</p>
+            <p style="color: #ff0000;">Error: Not authorized to perform sts:AssumeRoleWithSAML (Service: AWSSecurityTokenService; Status Code: 403; Error Code: AccessDenied)</p>
+            <p style="color: #ff0000;">Error: RoleSessionName in AuthnResponse must match [a-zA-Z_0-9+=,.@-]{2,64} (Service: AWSSecurityTokenService; Status Code: 400; Error Code: InvalidIdentityToken)</p>
+            <p style="color: #ff0000;">Error: Response signature invalid (Service: AWSSecurityTokenService; Status Code: 400; Error Code: InvalidIdentityToken)</p>
+            <p style="color: #ff0000;">Error: Failed to assume role: Issuer not present in specified provider (Service: AWSOpenIdDiscoveryService; Status Code: 400; Error Code: AuthSamlInvalidSamlResponseException)</p>
+            <p style="color: #ff0000;">Error: Could not parse metadata.</p>
+            <p style="color: #ff0000;">Error: Requested DurationSeconds Exceeds MaxSessionDuration Set for this Role.</p>
         </div>
     </body>
 </html>
