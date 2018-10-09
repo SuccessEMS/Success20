@@ -19,7 +19,7 @@
                     <p class="p_3">V44.1 Update 30</p>
                 </td>
                 <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                    <p class="p_3">Release&#160;Date:&#160;<br />October XX, 2018<br /></p>
+                    <p class="p_3">Release&#160;Date:&#160;<br />October 31, 2018<br /></p>
                 </td>
                 <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
                     <p class="p_3">Patch:&#160;<br /><br /></p>
@@ -50,7 +50,7 @@
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
                         <p class="RNTitle">
-                            <MadCap:annotation MadCap:createDate="2018-07-03T11:23:58.3759217-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="This item is on hold and may or may not be in this release. Move to the next release if this item doesn't appear in the the current release's query." MadCap:editor="Megan.Laub" MadCap:editDate="2018-07-03T11:23:59.1664725-06:00">Error After Creating a Reservation</MadCap:annotation> in the EMS for Outlook Add-in
+                            <MadCap:annotation MadCap:createDate="2018-07-03T11:23:58.3759217-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="This item is on hold and may or may not be in this release. Move to the next release if this item doesn't appear in the the current release's query.\r\n\r\nStill not showing in U30 but leave for now. It's still early (10/8/18)" MadCap:editor="Jen.Naused" MadCap:editDate="2018-10-08T13:15:20.0554598-06:00">Error After Creating a Reservation</MadCap:annotation> in the EMS for Outlook Add-in
 </p>
                         <p class="RNBody">For some EMS for Outlook add-in users, when they used a template to create a reservation, an error occurred after clicking Save &amp;amp; Close or Send, and the reservation was not saved in the EMS database. However, the invite was sent to attendees.</p>
                         <p class="RNBody"><span class="bold">Fix:</span> Modified functionality so that when users create a reservation in the EMS for Outlook add-in, the template information populates appropriately, and the reservation is created with no errors.</p>
@@ -59,13 +59,13 @@
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p class="RNArea">Authentication</p>
+                        <p class="RNArea">Component Room</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p class="RNTitle">Users Received an Error Message That They Were Not Configured As Their Own Delegate</p>
-                        <p class="RNBody">When trying to access the EMS&#160;for Outlook add-in, some  users were receiving an error message stating that they were not configured as their own delegate. These users could not open and use the Outlook add-in. </p>
-                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that users no longer receive an error message and can use the EMS&#160;for Outlook add-in.</p>
-                        <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=39902&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">39902</a><br />(For EMS&#160;Internal Use Only)</p>
+                        <p class="RNTitle">Component Rooms Showed Incorrect Components</p>
+                        <p class="RNBody">Component rooms were not displaying as booked and were selectable on Schedule and List View when parent combo was selected. </p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that if a component room is chosen, the combo room is not selectable.</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=39620&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">39620</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
@@ -73,10 +73,10 @@
                         <p class="RNArea">Canceling a Reservation</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p class="RNTitle">Reservation Canceled in EMS for Outlook Add-in Not Canceled in EMS&#160;Desktop Client</p>
-                        <p class="RNBody">When users canceled a reservation in the EMS&#160;for Outlook add-in, the reservation was not canceled in the EMS&#160;Desktop Client. </p>
-                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that when users cancel a reservation in the EMS&#160;for Outlook add-in, the reservation is also canceled in the EMS&#160;Desktop Client.</p>
-                        <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=39942&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">39942</a><br />(For EMS&#160;Internal Use Only)</p>
+                        <p class="RNTitle">EMS&#160;for Outlook Add-in Was Unresponsive When Resolving Conflict</p>
+                        <p class="RNBody">Users attempting to resolve a conflict in the EMS&#160;for Outlook Add-in experienced an unresponsive Resolve Conflicts screen. Clicking the (+) sign to add a new location did not work. </p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that users can successfully resolve conflicts in the EMS&#160;for Outlook Add-in. </p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=40727&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">40727</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
