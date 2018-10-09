@@ -88,11 +88,23 @@
         <h3><a name="SAML_Profiles"></a>
             <MadCap:annotation MadCap:createDate="2018-10-08T17:38:42.1820105-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Delete or useful? Should we say more?" MadCap:editor="Megan.Laub" MadCap:editDate="2018-10-08T17:40:35.6276461-06:00">SAML&#160;Profiles</MadCap:annotation>
         </h3>
-        <p>SAML&#160;profiles are combinations of assertions, protocols, and bindings to support a defined use case.</p>
+        <p> SAML&#160;profiles describe how SAML&#160;assertions, protocols, and bindings combine to support a defined use case. An example of a SAML&#160;profile is the Web Browser SSO&#160;Profile.</p>
         <h3><a name="SAML_Protocols"></a>
             <MadCap:annotation MadCap:createDate="2018-10-08T17:40:16.1893075-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Delete or useful? Should we say more?" MadCap:editor="Megan.Laub" MadCap:editDate="2018-10-08T17:40:27.1037614-06:00">SAML&#160;Protocols</MadCap:annotation>
         </h3>
-        <p>SAML protocols are requests and responses for obtaining assertions and doing identity management.</p>
+        <p>SAML protocols describe how specific SAML&#160;elements are packaged within SAML&#160;request and response elements. These protocols also define how different entities (SPs &amp; IdPs) make requests and respond to requests for security information. The following are examples of a SAML&#160;request and response.</p>
+        <div class="TitleandImage">
+            <p class="title"><a name="SAMLRequestExample"></a>Example SAML&#160;Request</p>
+            <p>
+                <img src="Images/SAMLRequest.PNG" title="Example SAML Request" alt="Example Request from https://en.wikipedia.org/wiki/SAML_2.0" class="PDFlarge" />
+            </p>
+        </div>
+        <div class="TitleandImage">
+            <p class="title"><a name="SAMLResponseExample"></a>Example SAML&#160;Response</p>
+            <p>
+                <img src="Images/SAMLResponse.PNG" alt="Example Response from https://en.wikipedia.org/wiki/SAML_2.0" title="Example SAML Response" class="PDFlarge" />
+            </p>
+        </div>
         <h3><a name="SAML_Binding_Types"></a>SAML&#160;Binding Types</h3>
         <p>SAML&#160;Service Providers and Identity Providers communicate by exchanging messages (requests and responses). A binding defines how these messages are sent. EMS&#160;supports HTTP Redirect binding; POST&#160;binding has limited support. </p>
         <p>Refer to the following for more detailed information on binding types:&#160;</p>
@@ -103,11 +115,22 @@
             </li>
         </ul>
         <h4><a name="HTTP_Redirect_Binding"></a>HTTP Redirect Binding</h4>
-        <p>An HTTP&#160;redirect binding encodes the SAML message directly in the URL&#160;query string of an HTTP&#160;GET request. Since the length of URLs is limited, customers need to be aware of the length of the URL. If a configuration creates a request that is very large, then the URL could be too long and cause issues. This URL length problem is sometimes seen with ADFS&#160;and older versions of Internet Explorer. </p>
-        <p>The following is an example of the HTTP&#160;redirect binding being used to authenticate a user.  </p>
+        <p>An HTTP&#160;redirect binding encodes the SAML message directly in the URL&#160;query string of an HTTP&#160;GET request.  Since the length of URLs is limited, customers need to be aware of the length of the URL. If a configuration creates a request that is very large, then the URL could be too long and cause errors in applications. This URL length problem is sometimes seen with ADFS&#160;and older versions of Internet Explorer. </p>
+        <p>For example, if using the HTTP&#160;redirect binding, the previous <a href="#SAMLRequestExample">example SAML&#160;request</a> would be encoded into a URL&#160;query string as shown in the following example. </p>
+        <div class="TitleandImage">
+            <p class="title">Example of HTTP&#160;Redirect Binding</p>
+            <p>
+                <img src="Images/SAMLRedirectBinding.PNG" alt="HTTP Redirect Binding Example from  https://en.wikipedia.org/wiki/SAML_2.0#SAML_2.0_Profiles" title="Example of HTTP Redirect Binding" class="PDFlarge" />
+            </p>
+        </div>
         <h4><a name="HTTP_POST_Binding"></a>HTTP POST&#160;Binding</h4>
-        <p>HTTP redirect binding encodes the SAML message in a POST&#160;form that is auto-submitted to the IdP. EMS&#160;has limited support for HTTP&#160;POST binding. Although EMS&#160;Platform Services can generate this POST form, when EMS&#160;Platform Services sends the POST form request back to the EMS&#160;Web App or Mobile App, the browser does not automatically follow the POST form like the browser would a redirect. In other words, EMS&#160;Platform Services can create the POST binding, but EMS&#160;Web App and Mobile App do not know where to forward the forms.</p>
-        <p class="box-note"><span class="boldAllCaps">Note: </span>Customers with custom apps can use the HTTP&#160;POST binding type <MadCap:annotation MadCap:createDate="2018-10-05T11:20:14.7568629-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Are customers on their own if they use POST binding, or does support need to help these customers? If they need to hep them, what info can we provide here? " MadCap:editor="Megan.Laub" MadCap:editDate="2018-10-05T11:21:02.2657293-06:00">as long as they properly set up their SAML configuration</MadCap:annotation>.</p>
+        <p>HTTP POST&#160;binding encodes the SAML message in a POST&#160;form that is auto-submitted to the IdP. EMS&#160;has limited support for HTTP&#160;POST binding. Although EMS&#160;Platform Services can generate this POST form, when EMS&#160;Platform Services sends the POST form request back to the EMS&#160;Web App or EMS&#160;Mobile App, the browser does not automatically follow the POST form like the browser would follow a redirect. In other words, EMS&#160;Platform Services can create the POST binding, but EMS&#160;Web App and EMS&#160;Mobile App do not know where to forward the forms.</p>
+        <p class="box-note"><span class="boldAllCaps">Note: </span>Customers with custom applications can use the HTTP&#160;POST binding type <MadCap:annotation MadCap:createDate="2018-10-05T11:20:14.7568629-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Are customers on their own if they use POST binding, or does support need to help these customers? If they need to hep them, what info can we provide here? " MadCap:editor="Megan.Laub" MadCap:editDate="2018-10-05T11:21:02.2657293-06:00">as long as they properly set up their SAML configuration</MadCap:annotation>.</p>
+        <div class="TitleandImage">
+            <p class="title">Example HTTP&#160;POST Binding</p>
+            <p>
+                <img src="Images/SAMLPOSTBinding.PNG" alt="HTTP POST Binding Example from https://en.wikipedia.org/wiki/SAML_2.0#SAML_2.0_Profiles" title="Example of HTTP POST Binding" class="PDFlarge" /> </p>
+        </div>
         <h2><a name="SAML_Authentication_Process"></a>SAML&#160;Authentication Process</h2>
         <p>To troubleshoot SAML authentication issues, it is important to determine at what point during the SAML&#160;authentication process the issue occurred. The SAML&#160;authentication process consists of SAML&#160;requests and responses being passed between a <a href="#Service_Provider">service provider</a>, <a href="#Identity_Provider">identity provider</a>, and <a href="#User_Agent">user agent</a>.&#160;The following diagram provides an example of the SAML&#160;authentication process as a workflow.</p>
         <h3><a name="SAML_Diagram"></a>SAML Workflow Diagram</h3>
