@@ -3,11 +3,11 @@
     <head>
     </head>
     <body>
-        <h1>SAML Terminology and Process</h1>
+        <h1>SAML Terminology and Process Overview</h1>
         <p style="line-height: 20px;margin-top: -15px;"><span class="italics">(EMS Internal Documentation)</span>
         </p>
         <p>When troubleshooting SAML, it is important to understand SAML terminology and how the SAML authentication process works. Understanding the process can help you determine where and when a SAML issue is occurring and the best way to resolve the issue. The information in this topic provides general information about SAML and how SAML&#160;works with EMS&#160;Platform Services.</p>
-        <p>This topic provides the following information:</p>
+        <p>This topic provides the information about:</p>
         <ul class="unorder-list">
             <li><a href="#What_Is_SAML">What Is SAML?</a>
             </li>
@@ -37,6 +37,8 @@
                     </li>
                 </ul>
             </li>
+            <li><a href="#SAML_Initiation">SAML Initiation:&#160;SP-Initiated and IdP-Initiated</a>
+            </li>
         </ul>
         <h2><a name="What_Is_SAML"></a>What Is SAML?</h2>
         <p>Security Assertion Markup Language (SAML) is a standard for exchanging authentication and authorization data between  an <a href="#Identity_Provider">identity provider (IdP)</a> and a <a href="#Service_Provider">service provider (SP)</a>. SAML is the link between the authentication of a user’s identity and the authorization to use a service, such as EMS&#160;Web App or EMS&#160;Mobile App. SAML&#160;provides the following authentication and authorization benefits:&#160;</p>
@@ -47,7 +49,7 @@
         </ul>
         <p>Most organizations already know the identity of their users because users are logged into their organization's domain or intranet. Through SAML, organizations can make further use of their users' identity information&#160;and log users into other web-based applications, such as  EMS&#160;Web App and EMS&#160;Mobile App.</p>
         <h2><a name="SAML_Terminology"></a>SAML&#160;Terminology</h2>
-        <p>The following terminology is useful for understanding and troubleshooting SAML:&#160;</p>
+        <p>The following are common terms used with SAML:&#160;</p>
         <ul class="unorder-list">
             <li><a href="#Service_Provider">Service Provider</a>
             </li>
@@ -78,9 +80,13 @@
             <li>Attribute Assertion — This type of assertion passes the SAML&#160;attributes to the Service Provider. SAML attributes are specific pieces of data that provide information about the user.</li>
             <li>Authorization Decision Assertion — This type of assertion explains whether the user is authorized to use the service (like EMS Web App) or whether the IdP denied the user's request due to a password failure or lack of rights to the service. </li>
         </ul>
-        <h3><a name="SAML_Profiles"></a>SAML&#160;Profiles</h3>
+        <h3><a name="SAML_Profiles"></a>
+            <MadCap:annotation MadCap:createDate="2018-10-08T17:38:42.1820105-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Delete or useful? Should we say more?" MadCap:editor="Megan.Laub" MadCap:editDate="2018-10-08T17:40:35.6276461-06:00">SAML&#160;Profiles</MadCap:annotation>
+        </h3>
         <p>SAML&#160;profiles are combinations of assertions, protocols, and bindings to support a defined use case.</p>
-        <h3><a name="SAML_Protocols"></a>SAML&#160;Protocols</h3>
+        <h3><a name="SAML_Protocols"></a>
+            <MadCap:annotation MadCap:createDate="2018-10-08T17:40:16.1893075-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Delete or useful? Should we say more?" MadCap:editor="Megan.Laub" MadCap:editDate="2018-10-08T17:40:27.1037614-06:00">SAML&#160;Protocols</MadCap:annotation>
+        </h3>
         <p>SAML protocols are requests and responses for obtaining assertions and doing identity management.</p>
         <h3><a name="SAML_Binding_Types"></a>SAML&#160;Binding Types</h3>
         <p>SAML&#160;Service Providers and Identity Providers communicate by exchanging messages (requests and responses). A binding defines how these messages are sent. EMS&#160;supports HTTP Redirect binding; POST&#160;binding has limited support. </p>
@@ -105,7 +111,7 @@
             <img src="Images/SAMLProcessExample.jpg" style="width: 860px;height: 580px;" title="Borrowed from https://images.idgesg.net/images/article/2017/10/security-assertion-markup-language-saml-explainer-100738529-orig.jpg" />
         </p>
         <h3><a name="SAML_Authentication_Example"></a>SAML Workflow Description</h3>
-        <p>The following describes an example workflow for the SAML&#160;authentication process (the numbers below correspond to numbers in the previous diagram). In the example, a user is trying to access the EMS&#160;Web App, which is the target resource in the previous diagram. The service provider is EMS&#160;Platform Services, and the user agent is the user's browser. </p>
+        <p>The following steps are an example workflow of the SAML&#160;authentication process (the numbers below correspond to numbers in the previous diagram). In the example, a user is trying to access the EMS&#160;Web App, which is the target resource in the previous <a href="#SAML_Diagram">diagram</a>. The service provider is EMS&#160;Platform Services, and the user agent is the user's browser. </p>
         <p><span class="bold"><MadCap:annotation MadCap:createDate="2018-10-08T10:38:04.7718293-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Does breaking the steps into phases help at all? Should we just remove the phase breaks?" MadCap:editor="Megan.Laub" MadCap:editDate="2018-10-08T10:38:29.6875015-06:00">Phase 1:</MadCap:annotation>&#160;Communication Between EMS&#160;Platform Services  and User's Browser</span>
         </p>
         <ol class="number-list">
@@ -126,8 +132,8 @@
             <li><a name="Step7"></a>After following the redirect, the browser requests access to EMS&#160;Web App again.</li>
             <li><a name="Step8"></a>The user is logged in and can access EMS&#160;Web App.</li>
         </ol>
-        <h3><a name="SAML_Initiation"></a>SAML Initiation</h3>
-        <p>There are two ways to initiate the SAML process:&#160;SP-initiated method and IdP-initiated method. EMS&#160;<MadCap:annotation MadCap:createDate="2018-09-25T14:13:09.8717678-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Don't support or don't fully support? EMS Live speaker said that IdP-initiated was supported on-prem. Is this true?" MadCap:editor="Megan.Laub" MadCap:editDate="2018-10-05T09:44:45.0068011-06:00">does not fully support IdP-initiated SAML</MadCap:annotation>.</p>
+        <h2><a name="SAML_Initiation"></a>SAML Initiation</h2>
+        <p>There are two ways to initiate the SAML process:&#160;the SP-initiated method and the IdP-initiated method. EMS&#160;<MadCap:annotation MadCap:createDate="2018-09-25T14:13:09.8717678-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Don't support or don't fully support? EMS Live speaker said that IdP-initiated was supported on-prem. Is this true?" MadCap:editor="Megan.Laub" MadCap:editDate="2018-10-05T09:44:45.0068011-06:00">does not fully support IdP-initiated SAML</MadCap:annotation>.</p>
         <ul class="unorder-list">
             <li>SP-initiated — In this workflow, the user initiates the login process at the SP. For example, a user tries to access EMS&#160;Web App and is not authenticated. EMS&#160;Platform Services redirects the user to the IdP with a SAML Request (AuthnRequest). The SAML Request contains the necessary information for the  IdP to authenticate the user and reply to EMS&#160;Platform Services with the correct SAML Assertion (SAMLResponse). <p><span class="italics">Exampe of SP-initiated workflow</span> — The  SAML <a href="#SAML_Authentication_Example">workflow description</a> in the previous section is an example of the SP-initiated method because the user starts the process by first going to EMS&#160;Web App (target resource).</p></li>
             <li>
