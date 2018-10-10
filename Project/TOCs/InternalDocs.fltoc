@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Internal Documentation">
+    <TocEntry
+      Title="Skype for Business Troubleshooting"
+      Link="/Content/InternalDocumentation/TroubleShootingSkypeforBusiness.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="SAML 2.0"
+      Link="/Content/InternalDocumentation/SAMLOverview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+      <TocEntry
+        Title="Terminology and Process Overview"
+        Link="/Content/InternalDocumentation/SAML_TermsProcess.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Troubleshooting"
+        Link="/Content/InternalDocumentation/SAMLTroubleshooting.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+    <TocEntry
+      Title="EMS Web App: Configure Security Headers"
+      Link="/Content/InternalDocumentation/WebApp_CustomizeSecurity.html" />
+  </TocEntry>
+</CatapultToc>
