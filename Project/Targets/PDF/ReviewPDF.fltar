@@ -5,7 +5,7 @@
   Type="MsWord"
   Destinations=""
   GlossaryTermConversion="marked"
-  MasterToc="/Project/TOCs/ReleaseNotesPreview.fltoc"
+  MasterToc="/Project/TOCs/ReviewPDF.fltoc"
   PatchHeadingLevels="false"
   InjectEmptyPages="false"
   UseLocalBuildSettings="true"
