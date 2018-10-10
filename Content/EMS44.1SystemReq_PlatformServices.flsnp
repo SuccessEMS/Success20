@@ -20,7 +20,7 @@
             <tbody>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td data-th="Operating System" class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p data-th="Operating System">Windows Server 2008 R2</p>
+                        <p data-th="Operating System">Windows Server 2012&#160;&#160;</p>
                     </td>
                     <td data-th="IIS" class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: center;">
                         <p data-th="IIS">8</p>
@@ -28,64 +28,56 @@
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td data-th="Operating System" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p data-th="Operating System">Windows Server 2012&#160;&#160;</p>
-                    </td>
-                    <td data-th="IIS" class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: center;">
-                        <p data-th="IIS">8</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td data-th="Operating System" class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
                         <p data-th="Operating System">Windows Server 2012 R2&#160;&#160;</p>
                     </td>
-                    <td data-th="IIS" class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: center;">
+                    <td data-th="IIS" class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: center;">
                         <p data-th="IIS">8.5</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p>.NET Framework</p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: center;">
-                        <p>4.6.1</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p>Application Pool</p>
+                        <p>.NET Framework</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: center;">
-                        <p>4.0</p>
+                        <p>4.6.1</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" colspan="2">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Application Pool</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: center;">
+                        <p>4.0</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" colspan="2">
                         <h5 colspan="2"><strong>PREREQUISITES (Prior to Update 28)</strong>
                         </h5>
                     </td>
                 </tr>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
                         <p>HTTPPlatformHandler&#160;IIS Module</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
                         <p style="text-align: left;"><a href="https://www.iis.net/downloads/microsoft/httpplatformhandler" title="https://www.iis.net/downloads/microsoft/httpplatformhandler">Download Version 1.2&#160;here</a>&#160;OR download the installer&#160;<a href="http://download.microsoft.com/download/8/1/3/813AC4E6-9203-4F7A-8DD5-F3D54D10C5CD/httpPlatformHandler_amd64.msi" title="http://download.microsoft.com/download/8/1/3/813AC4E6-9203-4F7A-8DD5-F3D54D10C5CD/httpPlatformHandler_amd64.msi">here</a>.</p>
                     </td>
                 </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
                         <p>PowerShell</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
                         <p><a href="https://msdn.microsoft.com/en-us/powershell/wmf/5.1/release-notes" title="https://msdn.microsoft.com/en-us/powershell/wmf/5.1/release-notes">5+ Version</a>
                         </p>
                     </td>
                 </tr>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
                         <p>ASP.NET Version 4.6</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
                         <p class="beforelist">Under Web Server (IIS) &gt; Web Server &gt; Application Development:</p>
                         <ul class="unorder-list">
                             <li>ISAPI Extensions</li>
@@ -94,15 +86,15 @@
                         </ul>
                     </td>
                 </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" colspan="2">
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" colspan="2">
                         <h5 colspan="2">Prerequisites (Update 28 and Later)</h5>
                     </td>
                 </tr>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows"><a href="https://www.microsoft.com/net/download/archives">ASP.NET&#160;Handler</a>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows"><a href="https://www.microsoft.com/net/download/archives">ASP.NET&#160;Handler</a>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">See Also:&#160;<a href="EMSPlatformServices/InstallationGuide/SystemRequirements.htm#asp.nethandler">Installing ASP.NET&#160;Handler</a>.</td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">See Also:&#160;<a href="EMSPlatformServices/InstallationGuide/SystemRequirements.htm#asp.nethandler">Installing ASP.NET&#160;Handler</a>.</td>
                 </tr>
             </tbody>
         </table>
