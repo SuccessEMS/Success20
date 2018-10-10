@@ -7,7 +7,7 @@
         <p style="line-height: 20px;margin-top: -15px;"><span class="italics">(EMS Internal Documentation)</span>
         </p>
         <p>When troubleshooting SAML, it is important to understand SAML terminology and how the SAML authentication process works. Understanding the process can help you determine where and when a SAML issue is occurring and the best way to resolve the issue. The information in this topic provides general information about SAML and how SAML&#160;works with EMS&#160;Platform Services.</p>
-        <p>This topic provides the information about the following:</p>
+        <p class="beforelist">This topic provides the information about the following:</p>
         <ul class="unorder-list">
             <li><a href="#What_Is_SAML">What Is SAML?</a>
             </li>
@@ -27,6 +27,8 @@
                     </li>
                     <li><a href="#SAML_Binding_Types">SAML&#160;Binding Types</a>
                     </li>
+                    <li><a href="#Relay_State_Parameter">Relay State Parameter</a>
+                    </li>
                 </ul>
             </li>
             <li><a href="#SAML_Authentication_Process">SAML&#160;Authentication Process</a>
@@ -40,10 +42,12 @@
             <li><a href="#SAML_Initiation">SAML Initiation:&#160;SP-Initiated and IdP-Initiated</a>
             </li>
         </ul>
-        <p>See Also:</p>
+        <p class="beforelist">See Also:</p>
         <ul class="unorder-list">
-            <li>For information about troubleshooting SAML&#160;issues, see <a href="SAMLTroubleshooting.htm">SAML&#160;Troubleshooting</a>. </li>
-            <li>For instructions on configuring SAML in EMS&#160;Platform Services, see <a href="../Authentication/SAMLAuthen.html">SAML&#160;Authentication</a>.</li>
+            <li><a href="SAMLTroubleshooting.htm">SAML&#160;Troubleshooting</a>
+            </li>
+            <li><a href="../Authentication/SAMLAuthen.html">SAML&#160;Authentication</a>
+            </li>
         </ul>
         <h2><a name="What_Is_SAML"></a>What Is SAML?</h2>
         <p>Security Assertion Markup Language (SAML) is a standard for exchanging authentication and authorization data between  an <a href="#Identity_Provider">identity provider (IdP)</a> and a <a href="#Service_Provider">service provider (SP)</a>. SAML is the link between the authentication of a user’s identity and the authorization to use a service, such as EMS&#160;Web App or EMS&#160;Mobile App. SAML&#160;provides the following authentication and authorization benefits:&#160;</p>
@@ -131,6 +135,14 @@
             <p>
                 <img src="Images/SAMLPOSTBinding.PNG" alt="HTTP POST Binding Example from https://en.wikipedia.org/wiki/SAML_2.0#SAML_2.0_Profiles" title="Example of HTTP POST Binding" class="PDFlarge" /> </p>
         </div>
+        <h3><a name="Relay_State_Parameter"></a>Relay State Parameter</h3>
+        <p>The relay state parameter is an extra component in the <a href="#HTTP_Redirect_Binding">redirect binding</a> URL or an extra input type in the <a href="#HTTP_POST_Binding">POST binding</a> that remembers where the user was when the user was determined by the SP&#160;to be unauthenticated and then sent to the IdP. Once the user is authenticated by the IdP, the IdP can use the relay state parameter to send the user back to the page in EMS&#160;Web App where the user was taken from for authentication. </p>
+        <p>In the SAML&#160;specification for EMS&#160;Platform Services, the relay state parameter is a destination URL. If an IdP needs the relay state parameter for configuration, use the EMS&#160;Platform Services URL, either the base or full URL, depending on the IdP requirements:</p>
+        <ul class="unorder-list">
+            <li>Base URL — https://mycompany.com/EmsPlatform</li>
+            <li>Full URL —&#160;https://mycompany.com/EmsPlatform/api/v1/authentication/saml</li>
+        </ul>
+        <p class="box-important"><span class="boldAllCaps">Important:</span>&#160;If customers use IdP-initiated SAML, which is not supported by EMS, they will receive an error if the relay state parameter is configured with the EMS&#160;Platform Services URL.&#160;See <a href="#SAML_Initiation">SAML&#160;Initiation</a> for more information.</p>
         <h2><a name="SAML_Authentication_Process"></a>SAML&#160;Authentication Process</h2>
         <p>To troubleshoot SAML authentication issues, it is important to determine at what point during the SAML&#160;authentication process the issue occurred. The SAML&#160;authentication process consists of SAML&#160;requests and responses being passed between a <a href="#Service_Provider">service provider</a>, <a href="#Identity_Provider">identity provider</a>, and <a href="#User_Agent">user agent</a>.&#160;The following diagram provides an example of the SAML&#160;authentication process as a workflow.</p>
         <h3><a name="SAML_Diagram"></a>SAML Workflow Diagram</h3>
@@ -140,7 +152,7 @@
         </p>
         <h3><a name="SAML_Authentication_Example"></a>SAML Workflow Description</h3>
         <p>The following steps are an example workflow of the SAML&#160;authentication process (the numbers below correspond to numbers in the previous diagram). In the example, a user is trying to access the EMS&#160;Web App, which is the target resource in the previous <a href="#SAML_Diagram">diagram</a>. The service provider is EMS&#160;Platform Services, and the user agent is the user's browser. </p>
-        <p><span class="bold"><MadCap:annotation MadCap:createDate="2018-10-08T10:38:04.7718293-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Does breaking the steps into phases help at all? Should we just remove the phase breaks?" MadCap:editor="Megan.Laub" MadCap:editDate="2018-10-08T10:38:29.6875015-06:00">Phase 1:</MadCap:annotation>&#160;Communication Between EMS&#160;Platform Services  and User's Browser</span>
+        <p><span class="bold"><MadCap:annotation MadCap:createDate="2018-10-08T10:38:04.7718293-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Does breaking the steps into phases help at all? Should we just remove the phase breaks?\r\n\r\nWe could call the phases by what side the issue is occurring on: 1. SP Side, 2. IdP Side, 3. SP Side?" MadCap:editor="Megan.Laub" MadCap:editDate="2018-10-10T10:14:17.4174119-06:00">Phase 1:</MadCap:annotation>&#160;Communication Between EMS&#160;Platform Services  and User's Browser</span>
         </p>
         <ol class="number-list">
             <li><a name="Step1"></a>The user tries to access  EMS&#160;Web App (target resource). The user's browser (user agent) requests access through EMS Platform Services (service provider). EMS&#160;Platform Services verifies whether the user is already authenticated within the system. If the user is authenticated, the user goes on to step 7. If the user is unauthenticated, EMS&#160;Platform Services starts the authentication process.</li>

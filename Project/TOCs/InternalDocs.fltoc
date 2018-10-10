@@ -2,7 +2,8 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="Internal Documentation">
+    Title="Internal Documentation"
+    Link="/Content/InternalDocumentation/InternalDocumentation.htm">
     <TocEntry
       Title="Skype for Business Troubleshooting"
       Link="/Content/InternalDocumentation/TroubleShootingSkypeforBusiness.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
