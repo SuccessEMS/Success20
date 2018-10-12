@@ -25,7 +25,6 @@
                         <p>Windows<sup>®</sup> 2016 Server</p>
                         <p>Windows<sup>®</sup> 2012 Server</p>
                         <p>Windows<sup>®</sup> 2012 Server R2</p>
-                        <p>Windows<sup>®</sup> 2008 Server R2</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
@@ -63,7 +62,7 @@
                         <p>Windows<sup>®</sup> 2016 Server</p>
                         <p>Windows<sup>®</sup> 2012 Server</p>
                         <p>Windows<sup>®</sup> 2012 Server R2</p>
-                        <p>Windows<sup>®</sup> 2008 Server R2 and IIS 7.0/7.5</p>
+                        <p> IIS 7.0/7.5</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
