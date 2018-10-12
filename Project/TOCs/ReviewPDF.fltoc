@@ -11,4 +11,10 @@
       Title="[%=System.LinkedTitle%]"
       Link="/Content/InternalDocumentation/SAMLTroubleshooting.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
   </TocEntry>
+  <TocEntry
+    Title="SAML Authentication"
+    Link="/Content/Authentication/SAMLAuthen.html"></TocEntry>
+  <TocEntry
+    Title="Configuring Platform Services in the Admin Portal"
+    Link="/Content/EMSPlatformServices/ConfigurationGuide/ConfigPSinAdminPortal.html" />
 </CatapultToc>
