@@ -35,8 +35,23 @@
           PageNumberReset="continue"
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl">
           <TocEntry
-            Title="EMS Native Authentication"
-            Link="/Content/Authentication/EMSNativeAuthen.html"
+            Title="SAML Authentication"
+            Link="/Content/Authentication/SAMLAuthen.html"
+            BreakType="chapter"
+            StartSection="false"
+            PageNumberReset="continue"
+            PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl">
+            <TocEntry
+              Title="SAML Authentication Can Be Hosted or Pre-Configured in the EMS Mobile App"
+              Link="/Content/EMSMobileApp/B_ConfigurationGuide/Authentication/SAMLAuthenHostPreconfig.htm"
+              BreakType="chapter"
+              StartSection="false"
+              PageNumberReset="continue"
+              PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
+          </TocEntry>
+          <TocEntry
+            Title="Using Windows Authentication (NTLM) for EMS Mobile"
+            Link="/Content/Authentication/NTLMWindowsAuthentication.html"
             BreakType="chapter"
             StartSection="false"
             PageNumberReset="continue"
@@ -71,23 +86,8 @@
             PageNumberReset="continue"
             PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
           <TocEntry
-            Title="SAML Authentication"
-            Link="/Content/Authentication/SAMLAuthen.html"
-            BreakType="chapter"
-            StartSection="false"
-            PageNumberReset="continue"
-            PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl">
-            <TocEntry
-              Title="SAML Authentication Can Be Hosted or Pre-Configured in the EMS Mobile App"
-              Link="/Content/EMSMobileApp/B_ConfigurationGuide/Authentication/SAMLAuthenHostPreconfig.htm"
-              BreakType="chapter"
-              StartSection="false"
-              PageNumberReset="continue"
-              PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
-          </TocEntry>
-          <TocEntry
-            Title="Using Windows Authentication (NTLM) for EMS Mobile"
-            Link="/Content/Authentication/NTLMWindowsAuthentication.html"
+            Title="EMS Native Authentication"
+            Link="/Content/Authentication/EMSNativeAuthen.html"
             BreakType="chapter"
             StartSection="false"
             PageNumberReset="continue"
@@ -204,72 +204,6 @@
           PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
           SectionNumberReset="continue"
           VolumeNumberReset="same" />
-        <TocEntry
-          Title="Integrated Authentication Options"
-          BreakType="chapter"
-          StartSection="false"
-          PageNumberReset="continue"
-          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl">
-          <TocEntry
-            Title="Introduction"
-            Link="/Content/Authentication/IntroEMSIntegratedAuth.htm"
-            BreakType="chapter"
-            StartSection="false"
-            PageNumberReset="continue"
-            PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl">
-            <TocEntry
-              Title="Integrated Authentication Considerations"
-              Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_IntegratedAuthenticationConsid.htm"
-              BreakType="chapter"
-              StartSection="false"
-              PageNumberReset="continue"
-              PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
-          </TocEntry>
-          <TocEntry
-            Title="Integrated Windows Authentication"
-            Link="/Content/Authentication/WindowsAuthen.html"
-            BreakType="chapter"
-            StartSection="false"
-            PageNumberReset="continue"
-            PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl">
-            <TocEntry
-              Title="Manage Everyday Users For Integrated Authentication"
-              Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_ManageEUforIntegAuthen.htm"
-              BreakType="chapter"
-              StartSection="false"
-              PageNumberReset="continue"
-              PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
-          </TocEntry>
-          <TocEntry
-            Title="LDAP Authentication"
-            Link="/Content/WebApp/A_V44.1/B_ConfigurationGuide/ConfigureLDAPMobileandWeb.html"
-            BreakType="chapter"
-            StartSection="false"
-            PageNumberReset="continue"
-            PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
-          <TocEntry
-            Title="Portal or Federated Authentication"
-            Link="/Content/Authentication/PortalFederatedAuthen.html"
-            BreakType="chapter"
-            StartSection="false"
-            PageNumberReset="continue"
-            PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl">
-            <TocEntry
-              Title="Portal Authentication Methods"
-              Link="/Content/Authentication/PortalAuthMethods.html"
-              BreakType="chapter"
-              StartSection="false"
-              PageNumberReset="continue"
-              PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
-          </TocEntry>
-          <TocEntry
-            Title="EMS Mobile App Authentication Options"
-            Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_Authentication Options_Mobile.htm"
-            BreakType="chapter"
-            StartSection="false"
-            PageNumberReset="continue"
-            PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
-        </TocEntry>
       </TocEntry>
     </TocEntry>
   </TocEntry>
