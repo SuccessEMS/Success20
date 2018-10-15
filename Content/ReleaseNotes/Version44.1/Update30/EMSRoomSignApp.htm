@@ -50,81 +50,44 @@
                         <p class="RNArea">Room Sign App API</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p class="RNTitle">Glance API - Add Polling Interval Parameter to GetBookings Call</p>
-                        <p class="RNBody">XX</p>
+                        <p class="RNTitle">Added Polling Interval Parameter to <span class="italics">GetBookings</span> Call</p>
+                        <p class="RNBody">To prevent old data from being returned after a <span class="italics">GetBookings</span> call, a database timeout has been added. The default polling interval is equal to 120 seconds. </p>
+                        <p class="RNBody">Timeout values are calculated as follows:&#160;<span class="italics">(Polling interval - Math.Min(5, interval / 5))</span></p>
+                        <p class="RNBodyBeforeList">Examples: </p>
+                        <ul class="RN-unorder-list">
+                            <li>5 seconds = 4-second timeout </li>
+                            <li>10 seconds = 8-second timeout </li>
+                            <li>20 seconds = 16-second timeout </li>
+                            <li>30 seconds = 25-second timeout </li>
+                            <li>60 seconds = 55-second timeout </li>
+                            <li>120 seconds = 115-second timeout </li>
+                        </ul>
+                        <p class="RNBody">If no polling interval is passed, a default timeout value of 115 seconds will be used.</p>
                         <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=41420&amp;_a=edit&amp;triage=true" class="RNRefHyper" title="EMS Internal Use Only" alt="EMS Internal Use Only">41420</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
                         <p class="RNArea">Room Sign App API</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
-                        <p class="RNTitle"> Make DRS_API_GetBookings Perform Uncommitted Reads</p>
-                        <p class="RNBody">XX</p>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="RNTitle">DRS_API_GetBookings Now Performs Uncommitted Reads</p>
+                        <p class="RNBody">To prevent database tables from being locked due to excessive and concurrent reads and transactions, the main polling procedure, DRS_API_GetBookings, now performs uncommitted reads.</p>
                         <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=41421&amp;_a=edit&amp;triage=true" class="RNRefHyper" title="EMS Internal Use Only" alt="EMS Internal Use Only">41421</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
-            </tbody>
-        </table>
-        <h2 MadCap:conditions="General.Online Only">Fixes</h2>
-        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');width: 100%;margin-left: 0;margin-right: auto;" cellspacing="0">
-            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 186px;" />
-            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 651px;" />
-            <thead>
-                <tr class="TableStyle-PatternedRows-Head-Header1">
-                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">AREA</th>
-                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">DESCRIPTION</th>
-                </tr>
-            </thead>
-            <tbody>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p class="RNArea">LED</p>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                        <p class="RNArea">Room Sign App API</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p class="RNTitle">LED&#160;Sync Error</p>
-                        <p class="RNBody">Users experienced an LED sync error on EMS&#160;Room Sign devices when check-in was present at the same time that 'reserve' was also available. When the user created a reservation in front of an existing meeting that was already allowing check-in, the device displayed the check-in color while there was a reserved meeting in progress. Additionally, the 'check-in' button was still displayed for that future event.</p>
-                        <p class="RNBody"><span class="bold">Fix</span>:&#160;Modified functionality so that the device should switch to the reserved LED color until the meeting ends and then switch back to the check-in LED status color while hiding the check-in button for the future event.</p>
-                        <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=35825&amp;_a=edit&amp;triage=true" class="RNRefHyper" title="EMS Internal Use Only" alt="EMS Internal Use Only">35825</a><br />(For EMS&#160;Internal Use Only)</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p class="RNArea">Secondary Authentication</p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p class="RNTitle">Secondary Authentication Field Not Clearing</p>
-                        <p class="RNBody">When users entered incorrect values in the EMS&#160;Room Sign App, the secondary authentication fields were not clearing. </p>
-                        <p class="RNBody"><span class="bold">Fix</span>:&#160;Modified functionality so that fields can be cleared when incorrect values are entered into the EMS&#160;Room Sign App. </p>
-                        <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=36612&amp;_a=edit&amp;triage=true" class="RNRefHyper" title="EMS Internal Use Only" alt="EMS Internal Use Only">36612</a><br />(For EMS&#160;Internal Use Only)</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p class="RNTitle">Keyboard not focused on text input fields when modal pops up</p>
-                        <p class="RNBody">XX </p>
-                        <p class="RNBody"><span class="bold">Fix</span>:&#160;Modified functionality so that . </p>
-                        <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=36804&amp;_a=edit&amp;triage=true" class="RNRefHyper" title="EMS Internal Use Only" alt="EMS Internal Use Only">36804</a><br />(For EMS&#160;Internal Use Only)</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p class="RNTitle">Reserve modal text fields are shifted in IE</p>
-                        <p class="RNBody">XX</p>
-                        <p class="RNBody"><span class="bold">Fix</span>:&#160;Modified functionality so that . </p>
-                        <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=37154&amp;_a=edit&amp;triage=true" class="RNRefHyper" title="EMS Internal Use Only" alt="EMS Internal Use Only">37154</a><br />(For EMS&#160;Internal Use Only)</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">&#160;</td>
                     <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
-                        <p class="RNTitle">GSK Room Sign 21.9 Reserve and End Now buttons are showing at check in time</p>
-                        <p class="RNBody">xX. </p>
-                        <p class="RNBody"><span class="bold">Fix</span>:&#160;Modified functionality so that . </p>
-                        <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=41129&amp;_a=edit&amp;triage=true" class="RNRefHyper" title="EMS Internal Use Only" alt="EMS Internal Use Only">41129</a><br />(For EMS&#160;Internal Use Only)</p>
+                        <p class="RNTitle">
+                            <MadCap:annotation MadCap:createDate="2018-10-15T11:22:31.5925442-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Need to update the &quot;Install EMS Room Sign App&quot; topic because they no longer need to install API (or, will we need to keep the instructions for older versions of the software?). Also need to uopdate the RSA sys req page. Also, update &quot;Obtain Installation Files for EMS Room Sign App&quot; and RSA Architecture, " MadCap:editor="Megan.Laub" MadCap:editDate="2018-10-15T11:45:42.0795288-06:00">Moved EMS&#160;Room Sign API into Application to Improve Performance</MadCap:annotation> </p>
+                        <p class="RNBody">The API&#160;for EMS&#160;Room Sign App has been moved into the application to improve performance. Installing or upgrading EMS&#160;Room Sign App no longer requires installation of <span class="bold">EMSGlanceAPI.msi</span>. </p>
+                        <p class="RNBody">
+                            <MadCap:annotation MadCap:createDate="2018-10-15T11:51:25.7872560-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Should this info that the customer needs? Should this be removed?" MadCap:editor="Megan.Laub" MadCap:editDate="2018-10-15T11:51:51.8033620-06:00">Note that the <span class="italics">GetAPIVersion </span>call is no longer necessary and has been removed.</MadCap:annotation> </p>
+                        <p class="RNBody">See Also:&#160;<a href="../../../EMSRoomSignApp/44.1/InstallationGuide/InstallRSA.html">Install EMS&#160;Room Sign App</a> and <a href="../../../EMSRoomSignApp/44.1/InstallationGuide/RequirementsforRSA.html">Prerequisites &amp;&#160;Requirements for EMS&#160;Room Sign App</a></p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=41516&amp;_a=edit&amp;triage=true" class="RNRefHyper" title="EMS Internal Use Only" alt="EMS Internal Use Only">41516</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
             </tbody>
