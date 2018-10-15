@@ -57,7 +57,7 @@
                 </tr>
             </tbody>
         </table>
-        <h2 MadCap:conditions="General.Online Only">Fixes</h2>
+        <h2>Fixes</h2>
         <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');width: 100%;margin-left: 0;margin-right: auto;" cellspacing="0">
             <col class="TableStyle-PatternedRows-Column-Regular" style="width: 157px;" />
             <col class="TableStyle-PatternedRows-Column-Regular" style="width: 428px;" />
@@ -68,6 +68,28 @@
                 </tr>
             </thead>
             <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="RNArea">LED</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="RNTitle">LED&#160;Sync Error</p>
+                        <p class="RNBody">Users experienced an LED sync error on EMS&#160;Room Sign devices when check-in was present at the same time that 'reserve' was also available. When the user created a reservation in front of an existing meeting that was already allowing check-in, the device displayed the check-in color while there was a reserved meeting in progress. Additionally, the 'check-in' button was still displayed for that future event.</p>
+                        <p class="RNBody"><span class="bold">Fix</span>:&#160;Modified functionality so that the device should switch to the reserved LED color until the meeting ends and then switch back to the check-in LED status color while hiding the check-in button for the future event.</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=35825&amp;_a=edit&amp;triage=true" class="RNRefHyper" title="EMS Internal Use Only" alt="EMS Internal Use Only">35825</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="RNArea">Secondary Authentication</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="RNTitle">Secondary Authentication Field Not Clearing</p>
+                        <p class="RNBody">When users entered incorrect values in the EMS&#160;Room Sign App, the secondary authentication fields were not clearing. </p>
+                        <p class="RNBody"><span class="bold">Fix</span>:&#160;Modified functionality so that fields can be cleared when incorrect values are entered into the EMS&#160;Room Sign App. </p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=36612&amp;_a=edit&amp;triage=true" class="RNRefHyper" title="EMS Internal Use Only" alt="EMS Internal Use Only">36612</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">&#160;</td>
                     <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
