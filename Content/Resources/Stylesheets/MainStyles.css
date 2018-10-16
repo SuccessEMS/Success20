@@ -2406,6 +2406,7 @@ p.box-warning
 	padding-bottom: 0;
 }
 
+/****
 .box-note p span,
 p.box-note span,
 .box-tip p span,
@@ -2418,7 +2419,7 @@ p.box-warning span
 	font-weight: 700;
 	color: #333;
 }
-
+***/
 /********Note Combo Box Links*********/
 
 .box-tip MadCap|xref,
