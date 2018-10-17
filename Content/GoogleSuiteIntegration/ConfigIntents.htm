@@ -4,17 +4,33 @@
     </head>
     <body>
         <h1 MadCap:autonum="CHAPTER&#160;1: ">Configure Intents in the EMS&#160;Desktop Client</h1>
-        <p>Booking Types are configured as Intents in the EMS&#160;Desktop Client. Booking Types are a new configuration available for grouping Everyday User Process templates. Everyday User Process templates can be assigned to only one intent. </p>
+        <p>Booking Types are configured as Intents in the EMS&#160;Desktop Client. Booking Types are a new configuration available for grouping Everyday User Process templates. Administrators can configure up to five (5) Intents. Everyday User Process templates can be assigned to only one intent. </p>
         <p>Booking Types are configured in the EMS&#160;Desktop Client. To configure an intent:&#160;</p>
         <ol>
-            <li>Navigate to the <span class="bold">Everyday User Process Templates</span> tab &gt;&#160;<span class="bold">Details </span>tab. </li>
-            <li>Provide an <span class="bold">Intent Name</span> (there is a 20-character limit). </li>
-            <li>Designate a <span class="bold">Start Time</span>, <span class="bold">End Time</span>, and <span class="bold">Default Duration</span>.</li>
-            <li><span class="bold">Menu Sequence</span>. </li>
-            <li>Ensure your Everyday User Process template has an assigned <span class="bold">Priority Value</span> relative to the other templates linked to the intent. </li>
+            <li>Navigate to<span class="bold"> Configuration </span>&gt;&#160;<span class="bold">Everyday User Applications &gt;&#160;Intents</span> tab. </li>
         </ol>
-        <p class="box-note"><span class="bold">NOTE</span>:&#160;Priority is a required field and two process templates cannot have the same priority value. Priority values ≤ 0 should not be assigned to any process template.</p>
-        <p>The Intents will now display on your Google calendar.</p>
+        <p>
+            <img src="images/IntentstabinDTC.png" style="width: 438px;height: 273px;" /> </p>
+        <ol MadCap:continue="true">
+            <li>Provide an <span class="bold">Intent Name</span> (there is a 20-character limit). </li>
+            <li>Designate a <span class="bold">Default Start Time.</span></li>
+            <li>Designate a <span class="bold">Default End Time.</span></li>
+        </ol>
+        <p class="box-note"><span class="bold">NOTE</span>:&#160;<span class="bold">Default Start Time</span> and <span class="bold">Default End Time</span> are not utilized by EMS&#160;for Google Calendar. These fields are utilized by other EMS&#160;products (e.g., EMS&#160;Mobile App). </p>
+        <ol MadCap:continue="true">
+            <li>Designate a<span class="bold"> <MadCap:popup><MadCap:popupHead>Menu Sequence</MadCap:popupHead><MadCap:popupBody>The Menu Sequence controls the order in which the Booking Types appear to users. Users see Intents within their application as a Booking Type. </MadCap:popupBody></MadCap:popup></span>. </li>
+            <li>Click the <span class="bold">Everyday User Process Template</span> tab to assign Intents to a process template. Using the Move (&gt;)&#160;button, add all templates for your Everyday Users that match the Booking Type. </li>
+        </ol>
+        <p>
+            <img src="images/AssignIntentstoProcessTemplate.png" style="width: 502px;height: 301px;" />
+        </p>
+        <ol MadCap:continue="true">
+            <li>Assign a <span class="bold" style="font-weight: normal;">priority value</span> for these Intents. You can enter a number in the <b>Edit Priority</b> field or use the <span class="bold">Move Up</span> and <span class="bold">Move Down</span> buttons to set  a priority relative to the other templates linked to the Intent. </li>
+        </ol>
+        <p class="box-note"><span class="bold">NOTE</span>:&#160;<span class="bold">Priority </span>is required  and two process templates cannot have the same priority value. When using Intents, the Everyday User only views rooms associated with the template that has been assigned to the Booking Type. The highest priority template will be used for reservation with that Booking Type. <MadCap:annotation MadCap:createDate="2018-10-17T14:05:12.3063389-06:00" MadCap:creator="Jen.Naused" MadCap:initials="JE" MadCap:comment="Per Matt in 10/12 meeting, he will provide example. " MadCap:editor="Jen.Naused" MadCap:editDate="2018-10-17T14:05:23.4306416-06:00">For example, </MadCap:annotation></p>
+        <ol MadCap:continue="true">
+            <li>The Booking Type will now display on EMS&#160;for Google Calendar.</li>
+        </ol>
         <p>
             <img src="images/intents.png" />
         </p>
