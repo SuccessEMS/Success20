@@ -5,7 +5,7 @@
         <meta name="mt-unsafe" value="true" />
     </head>
     <body>
-        <h1 MadCap:autonum="CHAPTER&#160;1: ">
+        <h1>
             <MadCap:concept term="V44.1" />Portal Authentication Methods</h1>
         <p>This topic provides information about the following:</p>
         <ul class="unorder-list">
@@ -32,15 +32,13 @@
                 </ul>
             </li>
         </ul>
-        <div class="box-note">
-            <p><span class="bold">NOTE:</span>&#160;EMS applications do&#160;not&#160;natively support SAML. You must use our&#160;<a href="PortalFederatedAuthen.html">Portal Authentication</a>&#160;to use SAML.</p>
-        </div>
+        <p class="box-note"><span class="boldAllCaps">NOTE:</span>&#160;EMS applications do&#160;not&#160;natively support SAML. You must use our&#160;<a href="PortalFederatedAuthen.html">Portal Authentication</a>&#160;to use SAML.</p>
         <h2><a name="Server_Variable_Method_(Header_Variable)"></a>Server Variable Method (Header Variable)</h2>
         <p>Server Variable/Header Variable is a collection of variables that are set by Internet Information Server (IIS).&#160;</p>
         <p>Applications like SiteMinder create custom server variables for portal site use.</p>
         <p>Set the&#160;<span class="bold">Portal Authentication Method</span>&#160;parameter to&#160;Server Variable&#160;and type the appropriate variable for the&#160;<span class="bold">Portal Authentication Variable</span>&#160;parameter. Direct users to your EMS Web App&#160;Default.aspx page.</p>
         <h2><a name="Server_Variable_Method_–_Federated_(SAML)"></a>Server Variable Method – Federated (SAML)</h2>
-        <p class="box-note"><span class="bold">NOTE:</span>&#160;As of Update 23 (March 2018), SAML authentication for the EMS&#160;Web App is supported through EMS&#160;Platform Services. This is now the recommended method for configuring SAML. See Also:&#160;<a href="SAMLAuthen.html">SAML&#160;Authentication</a>. </p>
+        <p class="box-note"><span class="boldAllCaps">NOTE:</span>&#160;As of Update 23 (March 2018), SAML authentication for the EMS&#160;Web App is supported through EMS&#160;Platform Services. This is now the recommended method for configuring SAML. See Also:&#160;<a href="SAMLAuthen.html">SAML&#160;Authentication</a>. </p>
         <p>SAML can be leveraged for authentication with your EMS applications by leveraging our portal authentication method and a service provider of your choosing.</p>
         <h3><a name="Method_1:_Locally_installed_Service_Provider"></a>Method 1: Locally installed Service Provider</h3>
         <p>Using this method, you install a service provider of choice on the webserver hosting the EMS web applications. All traffic is routed through that service provider (typically via an ISAPI filter). This service provider will manage all of the authentication for the user. Once the user has successfully authenticated, it will pass an identifier for the user to the EMS application using one of our portal methods. In this scenario typically the Server Variable (Header) method is used.</p>

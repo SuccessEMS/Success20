@@ -34,7 +34,7 @@
         <p>The minimum version of EMS Web App and EMS Platform Services for authentication through SAML 2.0 is Update 23.</p>
         <div class="box-note">
             <p><span class="bold">NOTE:</span> For EMS&#160;Web App, Administrators must enable SAML 2.0  authentication by changing  the following parameter value to <span class="bold">Yes </span>in EMS&#160;Desktop Client:</p>
-            <ol>
+            <ol class="number-list">
                 <li>Navigate to <span class="bold">System Administration</span> &gt; <span class="bold">Settings </span>&gt; <span class="bold">Parameters </span>&gt; <span class="bold">Everyday User Applications</span> tab &gt; <span class="bold">Authentication </span>&gt; <span class="bold">Use SAML 2.0 Authentication for User Authentication Web App Only</span>.</li>
                 <li>Select YES. </li>
             </ol>
@@ -52,7 +52,7 @@
             <li>Shibboleth</li>
         </ul>
         <p class="box-note"><span class="bold">NOTE</span>:&#160;Only Redirect HTTP&#160;Binding Type is currently supported. </p>
-        <h2><a name="updateSAMLConfiguration"></a>update SAML&#160;configuration</h2>
+        <h2><a name="updateSAMLConfiguration"></a>Update SAML&#160;configuration</h2>
         <ol class="number-list">
             <li>Delete existing identity and service provider keys. As of Update 23 (March 2018), SP and IdP certs are stored in the database instead of the file system of EMS&#160;Platform Services.</li>
             <li>Generate encryption key. </li>
@@ -68,7 +68,7 @@
             <li><a href="../EMSPlatformServices/ConfigurationGuide/ConfigPSinAdminPortal.html">Login to EMS Platform Services</a>.</li>
             <li>Navigate to the Integrations tab.</li>
             <li>Select EMS Mobile / EMS Web Application.</li>
-            <li>Set Everyday user authentication method to SAML and save changes.</li>
+            <li>Set <span class="bold">Everyday User Authentication Method</span> to <span class="bold">SAML </span>and save changes.</li>
             <li>Select SAML from the left navigation bar.</li>
             <li>Configure SAML&#160;authentication settings.</li>
         </ol>

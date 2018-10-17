@@ -91,8 +91,8 @@ mcTableFootStyle
 	border-spacing: 0px 0px; margin-bottom:20px;font-size: 11px;
 }
 
-.TableStyle-PatternedRows p, .TableStyle-PatternedRows p a,
-.TableStyle-PatternedRows td, .TableStyle-PatternedRows td a
+.TableStyle-PatternedRows p, 
+.TableStyle-PatternedRows td
 {
 	font-size: 11px;
 	padding-top: 0px;
@@ -1402,7 +1402,7 @@ padding: 10px;
 		padding-bottom: 15px;
 	}
 	
-	.TableStyle-PatternedRows li, .TableStyle-PatternedRows li a
+	.TableStyle-PatternedRows li
 	{
 		margin-top: 5px;
 		line-height: 17px;
@@ -1431,25 +1431,7 @@ padding: 10px;
 		font-size: 11px;
 	}	
 	
-	.TableStyle-PatternedRows p a, .TableStyle-PatternedRows tr td ul li a,
-	.right-content a
-	{
-		font-size: 11px;
-		margin-top: 0px;
-		margin-bottom: 0px;
-		padding-top: 0px;
-		padding-bottom: 0px;
-		color: #00467f;
-		font-weight: 600;
-	}
-
-	.TableStyle-PatternedRows p a:hover,
-	.right-content a:hover
-	{
-		color: #00467f;
-		text-decoration: underline;
-	}
-
+	
 	.TableStyle-PatternedRows MadCap|xref
 	{
 		color: #00467f;

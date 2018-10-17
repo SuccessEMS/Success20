@@ -242,8 +242,6 @@ p
 p a,
 .right-content a
 {
-	font-size: 18px;
-	line-height: 32px;
 	color: #00467f;
 	font-weight: 600;
 }
@@ -1515,7 +1513,6 @@ ol.number-list li a,
 ul.unorder-list li a
 {
 	color: #00467f;
-	font-size: 16px;
 }
 
 ol.number-list,
@@ -2212,7 +2209,7 @@ p.table-important
 .note-box a:visited,
 .note-box a:hover
 {
-	font-size: 16px;
+	
 }
 
 /*********************End Note Box Links**************/
@@ -2406,6 +2403,7 @@ p.box-warning
 	padding-bottom: 0;
 }
 
+/****
 .box-note p span,
 p.box-note span,
 .box-tip p span,
@@ -2418,7 +2416,7 @@ p.box-warning span
 	font-weight: 700;
 	color: #333;
 }
-
+***/
 /********Note Combo Box Links*********/
 
 .box-tip MadCap|xref,
@@ -2450,7 +2448,7 @@ p.box-warning span
 .box-tip a:visited,
 .box-tip a:hover
 {
-	font-size: 16px;
+	
 }
 
 .box-note a,
@@ -2458,7 +2456,7 @@ p.box-warning span
 .box-note a:visited,
 .box-note a:hover
 {
-	font-size: 16px;
+	
 }
 
 .box-important a,
@@ -2466,7 +2464,7 @@ p.box-warning span
 .box-important a:visited,
 .box-important a:hover
 {
-	font-size: 16px;
+	
 }
 
 .box-warning a,
@@ -2474,7 +2472,7 @@ p.box-warning span
 .box-warning a:visited,
 .box-warning a:hover
 {
-	font-size: 16px;
+	
 }
 
 /*********************End Note Combo Box Links**************/
@@ -2783,15 +2781,13 @@ ul.unorder-list
 	ul.number-list li,
 	ul.unorder-list li
 	{
-		font-size: 14px;
-		line-height: 24px;
+		
 	}
 
 	ul.number-list li a,
 	ul.unorder-list li a
 	{
-		font-size: 14px;
-		line-height: 24px;
+		
 	}
 
 	.responsive-table tbody tr td,
@@ -2880,8 +2876,7 @@ ul.unorder-list
 	p a,
 	a
 	{
-		font-size: 14px;
-		line-height: 24px;
+		
 	}
 
 	.number-list h4.sty-h4,
@@ -3306,7 +3301,7 @@ ol li ul li p.box-tip, ol li ul li p.box-note, ol li ul li p.box-warning, ol li 
 	
 	table ul.unorder-list li a, table ol.number-list li a
 	{
-		font-size: 11px;
+		
 	}
 
 	td
@@ -3317,8 +3312,6 @@ ol li ul li p.box-tip, ol li ul li p.box-note, ol li ul li p.box-warning, ol li 
 	table p a,
 	.right-content a
 	{
-		font-size: 11px;
-		line-height: 25px;
 		color: #00467f;
 		font-weight: 600;
 	}
