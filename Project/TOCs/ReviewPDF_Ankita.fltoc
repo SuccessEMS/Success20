@@ -2,6 +2,12 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="Update29.2_PlatformServices"
-    Link="/Content/ReleaseNotes/Version44.1/Update29.2/EMSPlatformServices.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    Title="Update 29.3">
+    <TocEntry
+      Title="U29.3_Web App"
+      Link="/Content/ReleaseNotes/Version44.1/Update29.3/EMSWebApp.htm" />
+    <TocEntry
+      Title="U29.3_Platform Services"
+      Link="/Content/ReleaseNotes/Version44.1/Update29.3/EMSPlatformServices.htm" />
+  </TocEntry>
 </CatapultToc>
