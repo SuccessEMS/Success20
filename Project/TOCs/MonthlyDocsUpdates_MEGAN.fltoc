@@ -3,37 +3,127 @@
   Version="1">
   <TocEntry
     Title="Configuration &gt; Resources"
-    Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/OverviewConfigRes.html">
+    Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/OverviewConfigRes.html"
+    BreakType="chapter"
+    PageNumberReset="reset"
+    ChapterNumberReset="reset"
+    ChapterNumber="1"
+    StartSection="false"
+    PageNumber="1"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    AutoEndOnLeftPage="disabled"
+    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl">
     <TocEntry
       Title="Categories, Resources, Services - What's the Difference?"
-      Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/CategoriesResourcesServices_WhatsDiff.htm" />
+      Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/CategoriesResourcesServices_WhatsDiff.htm"
+      BreakType="chapter"
+      AutoEndOnLeftPage="disabled"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue" />
     <TocEntry
       Title="Configure Resources for a Category"
-      Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigResourcesforCat.html">
+      Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigResourcesforCat.html"
+      BreakType="chapter"
+      AutoEndOnLeftPage="disabled"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue">
       <TocEntry
         Title="Resource Configuration Wizard"
-        Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ResourceConfigWiz.htm" />
+        Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ResourceConfigWiz.htm"
+        BreakType="chapter"
+        AutoEndOnLeftPage="disabled"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
     </TocEntry>
     <TocEntry
       Title="Import Resources for a Category"
-      Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ImportResourcesforCat.htm" />
+      Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ImportResourcesforCat.htm"
+      BreakType="chapter"
+      AutoEndOnLeftPage="disabled"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue" />
     <TocEntry
       Title="Define Resource Selections and Selection Items"
-      Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/DefineResourceSel.htm" />
+      Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/DefineResourceSel.htm"
+      BreakType="chapter"
+      AutoEndOnLeftPage="disabled"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue" />
     <TocEntry
       Title="Configure Services for a Category"
-      Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigServicesforCat.htm" />
+      Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigServicesforCat.htm"
+      BreakType="chapter"
+      AutoEndOnLeftPage="disabled"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue" />
     <TocEntry
       Title="Configure Groupings for a Resource"
-      Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigGroupingsResource.html" />
+      Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigGroupingsResource.html"
+      BreakType="chapter"
+      AutoEndOnLeftPage="disabled"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue" />
     <TocEntry
       Title="Define Production Areas and Production Items for a Catering Resource"
-      Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/DefineProdAreaItems.htm" />
+      Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/DefineProdAreaItems.htm"
+      BreakType="chapter"
+      AutoEndOnLeftPage="disabled"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue" />
     <TocEntry
       Title="Configure Pricing for a Resource in the Edit Pricing Window"
-      Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigPricingResourceEditPriceWin.htm" />
+      Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigPricingResourceEditPriceWin.htm"
+      BreakType="chapter"
+      AutoEndOnLeftPage="disabled"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue" />
     <TocEntry
       Title="Export Pricing Information for a Resource"
-      Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ExportPricInfoResource.htm" />
+      Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ExportPricInfoResource.htm"
+      BreakType="chapter"
+      AutoEndOnLeftPage="disabled"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue" />
   </TocEntry>
 </CatapultToc>
