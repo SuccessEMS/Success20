@@ -2,6 +2,7 @@
 <html xml:lang="en-us" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\EMSDesktopClient.flmsp');">
     <head>
         <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" />
         <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title>Configure Rate Schedule V44.1 (EMS Desktop Client)</title>
     </head>
     <body>
@@ -67,18 +68,16 @@
             <li>For each billable item (resource or room), select the pricing method, which determines the cost for reserving the item.</li>
         </ol>
         <MadCap:snippetBlock src="PricingMethod.flsnp" />
-        <table border="0" cellspacing="0" class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');">
-            <col style="width: 194px;" class="TableStyle-PatternedRows-Column-Regular" />
-            <col style="width: 696px;" class="TableStyle-PatternedRows-Column-Regular" />
+        <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');margin-left: 0;margin-right: auto;width: 100%;" class="TableStyle-PatternedRows" cellspacing="0">
+            <col style="width: 184px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
-                    <th scope="col" class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
                         <p>Pricing Method</p>
                     </th>
-                    <th scope="col" class="TableStyle-PatternedRows-HeadD-Regular-Header1">
-                        <dl>
-                            <dt class="TableColumnHeader">DESCRIPTION</dt>
-                        </dl>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                        <p>Description</p>
                     </th>
                 </tr>
             </thead>
@@ -88,110 +87,54 @@
                         <p>Half Day/Full Day (Event Time)</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p class="TableBody">The total number of hours for the event is counted and then compared to the number of hours that is indicated in the Hours column. If the total number of hours for the event is less than or equal to the hours that are indicated in the Hours column, then the Half Day price is charged for the room. If the total number of hours for the event is greater than the hours that are indicated in the Hours column, then the Full Day price is charged for the room.</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p>Half Day/Full Day (Reserved Time)</p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p class="TableBody">The total number of hours for the Reservation (event time and reserved time) is counted and then compared to the number of hours that is indicated in the Hours column. If the total number of hours for the Reservation is less than or equal to the hours that are indicated in the Hours column, then the Half Day price is charged for the room. If the total number of hours for the Reservation is greater than the hours that are indicated in the Hours column, then the Full Day price is charged for the room.</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p>Hourly (Event Time)</p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p class="TableBody">The price that is indicated in the Price column is multiplied by the event time (in hours) for the booking. This price can be used in conjunction with an initial flat fee, as well as minimum and maximum fees.</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p>Hourly (Reserved Time)</p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p class="TableBody">The price that is indicated in the Price column is multiplied by the reserved time (in hours) for the booking. This price can be used in conjunction with an initial flat fee, as well as minimum and maximum fees.</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p>Hourly (Specific)</p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p class="TableBody">The price that is indicated in the Price column is multiplied by the number of hours indicated when adding a room to a booking.</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p>Unit</p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p class="TableBody">The price that is indicated in the Price column is applied to the room, regardless of the event time or reserved time for the booking.</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <th class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p>Pricing Method</p>
-                    </th>
-                    <th class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p>Description</p>
-                    </th>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p>Half Day/Full Day (Event Time)</p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
                         <p>The total number of hours for the event is counted and then compared to the number of hours that is indicated in the Hours column. If the total number of hours for the event is less than or equal to the hours that are indicated in the Hours column, then the Half Day price is charged for the billable item. If the total number of hours for the event is greater than the hours that are indicated in the Hours column, then the Full Day price is charged for the billable item.</p>
                     </td>
                 </tr>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
                         <p>Half Day/Full Day (Reserved Time)</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
                         <p>The total number of hours for the reservation (event time and reserved time) is counted and then compared to the number of hours that is indicated in the Hours column. If the total number of hours for the reservation is less than or equal to the hours that are indicated in the Hours column, then the Half Day price is charged for the billable item. If the total number of hours for the reservation is greater than the hours that are indicated in the Hours column, then the Full Day price is charged for the billable item.</p>
                     </td>
                 </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
                         <p>Hourly (Event Time)</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
                         <p>The price that is indicated in the Price column is multiplied by the event time (in hours) for the booking. This price can be used in conjunction with an initial “flat” fee, as well as minimum and maximum fees.</p>
                     </td>
                 </tr>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
                         <p>Hourly (Reserved Time)</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
                         <p>The price that is indicated in the Price column is multiplied by the reserved time (in hours) for the booking. This price can be used in conjunction with an initial “flat” fee, as well as minimum and maximum fees.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Hourly (Service Time)</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>The price that is indicated in the Price column is multiplied by the reserved time (in hours) for the service. This price can be used in conjunction with an initial “flat” fee, as well as minimum and maximum fees.</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p>Hourly (Service Time)</p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p>The price that is indicated in the Price column is multiplied by the reserved time (in hours) for the service. This price can be used in conjunction with an initial “flat” fee, as well as minimum and maximum fees.</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
                         <p>Hourly (Specific)</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
                         <p>The price that is indicated in the Price column is multiplied by the number of hours indicated when adding a billable item to a booking.</p>
                     </td>
                 </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
                         <p>Unit</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
                         <p>The price that is indicated in the Price column is applied to the billable item, regardless of the event time or reserved time for the booking.</p>
                     </td>
                 </tr>
