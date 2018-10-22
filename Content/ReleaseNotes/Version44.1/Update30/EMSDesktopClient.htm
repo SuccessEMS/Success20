@@ -83,42 +83,53 @@
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="text-align: left;" rowspan="2">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="RNArea">Modify Booking Details</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="RNTitle">Modify Booking Details Expert User Template Behavior</p>
+                        <p class="RNBody">Modify Booking Details expert user template process is not behaving as expected. It is not allowing users to check in Visitors or modify the Visitor category (e.g., add, edit, or delete Visitors).</p>
+                        <p class="RNBody"><span class="bold">Fix</span>:&#160;Modified functionality so that the Modify Booking Details security process allows users to edit booking details on any booking.</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=41308&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">41308</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: left;" rowspan="2">
                         <p class="RNArea">EMS&#160;Dashboard</p>
                         <p>&#160;</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
                         <p class="RNTitle">Notification Timezone Issues</p>
                         <p class="RNBody">Reservation notifications on the EMS&#160;Dashboard were reflecting the server timezone, and not the timezone where the user created/was viewing the reservation. </p>
                         <p class="RNBody"><span class="bold">Fix</span>:&#160;Modified functionality so that the timezone displayed on the EMS&#160;Dashboard is the timezone where the user created/viewed the reservation. </p>
                         <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=30419&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">30419</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
                         <p class="RNTitle">Audit Time Stamps Reflected Incorrect Time</p>
                         <p class="RNBody">Audit time stamps in the EMS&#160;Dashboard and Manage Services were reflecting the local time of the SQL&#160;server, instead of the local time of the user. </p>
                         <p class="RNBody"><span class="bold">Fix</span>:&#160;Modified functionality so that the dateTime should reflect the time set on the user's machine.</p>
                         <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=34510&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">34510</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
                         <p class="RNArea">Authentication</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
                         <p class="RNTitle">LDAP&#160;Authentication Failed if Advanced Communication Enabled</p>
                         <p class="RNBody">Authentication to the EMS&#160;Desktop Client using LDAP did not work when advanced communication options were enabled. </p>
                         <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that users can authenticate to the EMS&#160;Desktop Client using LDAP with or without advanced communications options enabled.</p>
                         <p class="RNRef">  Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=41041&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">41041</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
                         <p class="RNArea">Debugging Errors</p>
                         <p>&#160;</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" style="text-align: left;">
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows" style="text-align: left;">
                         <p class="RNTitle">Just In Time (JIT)&#160;<MadCap:annotation MadCap:createDate="2018-10-08T13:33:12.9081086-06:00" MadCap:creator="Jen.Naused" MadCap:initials="JE" MadCap:comment="I don't understand this bug. Very little info in TFS -- mostly the log from customer. Ask Matt to clarify. " MadCap:editor="Jen.Naused" MadCap:editDate="2018-10-08T13:33:36.4886587-06:00">Debugging</MadCap:annotation> Errors</p>
                         <p class="RNBody">Users closing multiple different GUI&#160;Windows in the EMS&#160;Desktop Client experienced JIT&#160;debugging errors. When JIT debugging was enabled, any unhandled exception was sent to the JIT debugger registered on the computer instead of the dialog box. </p>
                         <p class="RNRef">  Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=40794&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">40794</a><br />(For EMS&#160;Internal Use Only)</p>
