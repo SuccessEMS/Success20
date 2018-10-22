@@ -339,7 +339,7 @@ If an alert has been configured for the resource, then display this alert when a
             </p>
         </div>
         <ol MadCap:continue="true" class="number-list">
-            <li>For each rate schedule, click in the Pricing Method field and select the pricing method from the drop-down list. The pricing method determines the cost for reserving the resource (see the following table). If the appropriate rate schedule is not available, you can <a href="ConfigRateSchedule.htm">configure it</a>.</li>
+            <li>For each rate schedule, select the rate schedule row and then click in the Pricing Method field and select the pricing method from the drop-down list. The pricing method determines the cost for reserving the resource (see the following table). If the appropriate rate schedule is not available, you can <a href="ConfigRateSchedule.htm">configure it</a>.</li>
         </ol>
         <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');width: 100%;margin-left: 0;margin-right: auto;" class="TableStyle-PatternedRows" cellspacing="0">
             <col class="TableStyle-PatternedRows-Column-Regular" style="width: 180px;" />
@@ -347,7 +347,9 @@ If an alert has been configured for the resource, then display this alert when a
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
-                        <p>Pricing Method</p>
+                        <p>
+                            <MadCap:annotation MadCap:createDate="2018-10-22T13:35:37.6938664-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="If updating this pricing methods table, you may also need to update the pricing tables in the following topics: ConfigResourcesforCat.html, ConfigRateSchedule.htm, ConfigPricingResourceEditPriceWin.htm, ConfigRoomPricing.htm, and ConfigRooms.html. Note that the tables in the Room topics are slightly different from the other pricing methods tables in the topics." MadCap:editor="Megan.Laub" MadCap:editDate="2018-10-22T13:41:43.8043179-06:00">Pricing Method</MadCap:annotation>
+                        </p>
                     </th>
                     <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
                         <p>Description</p>
@@ -413,7 +415,8 @@ The price that is indicated in the Price column is multiplied by the <span class
 </p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p>The price that is indicated in the Price column is multiplied by the <span class="italics">reserved time</span> (in hours) for the service (resource). This price can be used in conjunction with an initial “flat” fee, as well as minimum and maximum fees.</p>
+                        <p>The price that is indicated in the Price column is multiplied by the <span class="italics"><MadCap:annotation MadCap:createDate="2018-10-22T13:33:25.4385652-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Should this be &quot;service time&quot; instead of &quot;reserved time&quot;?" MadCap:editor="Megan.Laub" MadCap:editDate="2018-10-22T13:33:43.5282859-06:00">reserved</MadCap:annotation> time</span> (in hours) for the service (resource). This price can be used in conjunction with an initial “flat” fee, as well as minimum and maximum fees.</p>
+                        <p class="table-note"><span class="boldAllCaps">Note:</span>&#160;This pricing method is only available for a resource with a service order.</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
