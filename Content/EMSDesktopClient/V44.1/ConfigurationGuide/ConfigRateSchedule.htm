@@ -67,7 +67,6 @@
             <li>Do one of the following:<ul MadCap:continue="true"><li>To configure the pricing for a resource category, on the Category drop-down list, select the category, and then click&#160;Display. Optionally, on the Grouping drop-down list, select a resource grouping to filter the search results.</li><li>To configure the pricing for rooms, on the Category drop-down list, select&#160;<span class="bold">Room Charge</span>.</li></ul><p>All rooms in all buildings that are currently configured in your EMS database are displayed in the lower pane of the dialog box.</p><ul MadCap:continue="true"><li>On the Building drop-down list, select a specific building, area, or view to filter the search results.</li><li>On the Grouping drop-down list, select a room type to filter the search results.</li></ul></li>
             <li>For each billable item (resource or room), select the pricing method, which determines the cost for reserving the item.</li>
         </ol>
-        <MadCap:snippetBlock src="PricingMethod.flsnp" />
         <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');margin-left: 0;margin-right: auto;width: 100%;" class="TableStyle-PatternedRows" cellspacing="0">
             <col style="width: 184px;" class="TableStyle-PatternedRows-Column-Regular" />
             <col class="TableStyle-PatternedRows-Column-Regular" />
@@ -87,7 +86,7 @@
                         <p>Half Day/Full Day (Event Time)</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p>The total number of hours for the event is counted and then compared to the number of hours that is indicated in the Hours column. If the total number of hours for the event is less than or equal to the hours that are indicated in the Hours column, then the Half Day price is charged for the billable item. If the total number of hours for the event is greater than the hours that are indicated in the Hours column, then the Full Day price is charged for the billable item.</p>
+                        <p>The total number of hours for the <span class="italics">event </span>is counted and then compared to the number of hours that is indicated in the Hours column. If the total number of hours for the event is less than or equal to the hours that are indicated in the Hours column, then the Half Day price is charged for the billable item. If the total number of hours for the event is greater than the hours that are indicated in the Hours column, then the Full Day price is charged for the billable item.</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
@@ -95,46 +94,56 @@
                         <p>Half Day/Full Day (Reserved Time)</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p>The total number of hours for the reservation (event time and reserved time) is counted and then compared to the number of hours that is indicated in the Hours column. If the total number of hours for the reservation is less than or equal to the hours that are indicated in the Hours column, then the Half Day price is charged for the billable item. If the total number of hours for the reservation is greater than the hours that are indicated in the Hours column, then the Full Day price is charged for the billable item.</p>
+                        <p>The total number of hours for the <span class="italics">reservation </span>(event time and reserved time) is counted and then compared to the number of hours that is indicated in the Hours column. If the total number of hours for the reservation is less than or equal to the hours that are indicated in the Hours column, then the Half Day price is charged for the billable item. If the total number of hours for the reservation is greater than the hours that are indicated in the Hours column, then the Full Day price is charged for the billable item.</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Half Day/Full Day (Service Time)</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>The total number of hours for the <span class="italics">service time </span>is counted and then compared to the number of hours that is indicated in the Hours column. If the total number of hours for the service time is less than or equal to the hours that are indicated in the Hours column, then the Half Day price is charged for the billable item. If the total number of hours for the service time is greater than the hours that are indicated in the Hours column, then the Full Day price is charged for the billable item.</p>
+                        <p class="table-note"><span class="boldAllCaps">Note:</span>&#160;This pricing method is only available for a resource with a service order.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
                         <p>Hourly (Event Time)</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p>The price that is indicated in the Price column is multiplied by the event time (in hours) for the booking. This price can be used in conjunction with an initial “flat” fee, as well as minimum and maximum fees.</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p>Hourly (Reserved Time)</p>
-                    </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p>The price that is indicated in the Price column is multiplied by the reserved time (in hours) for the booking. This price can be used in conjunction with an initial “flat” fee, as well as minimum and maximum fees.</p>
+                        <p>The price that is indicated in the Price column is multiplied by the <span class="italics">event time</span> (in hours) for the booking. This price can be used in conjunction with an initial “flat” fee, as well as minimum and maximum fees.</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p>Hourly (Service Time)</p>
+                        <p>Hourly (Reserved Time)</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p>The price that is indicated in the Price column is multiplied by the reserved time (in hours) for the service. This price can be used in conjunction with an initial “flat” fee, as well as minimum and maximum fees.</p>
+                        <p>The price that is indicated in the Price column is multiplied by the <span class="italics">reserved time</span> (in hours) for the booking. This price can be used in conjunction with an initial “flat” fee, as well as minimum and maximum fees.</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p>Hourly (Specific)</p>
+                        <p>Hourly (Service Time)</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>The price that is indicated in the Price column is multiplied by the <span class="italics">r<MadCap:annotation MadCap:createDate="2018-10-22T13:22:57.5049494-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Should this be &quot;service time&quot; instead of &quot;reserved time&quot;?" MadCap:editor="Megan.Laub" MadCap:editDate="2018-10-22T13:23:10.7994540-06:00">eserved</MadCap:annotation> time</span> (in hours) for the service. This price can be used in conjunction with an initial “flat” fee, as well as minimum and maximum fees.</p>
+                        <p class="table-note"><span class="boldAllCaps">Note:</span>&#160;This pricing method is only available for a resource with a service order.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Hourly (Specific)</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
                         <p>The price that is indicated in the Price column is multiplied by the number of hours indicated when adding a billable item to a booking.</p>
                     </td>
                 </tr>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
                         <p>Unit</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
                         <p>The price that is indicated in the Price column is applied to the billable item, regardless of the event time or reserved time for the booking.</p>
                     </td>
                 </tr>
