@@ -26,8 +26,8 @@
         </table>
         <h2>Fixes</h2>
         <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');width: 100%;margin-left: 0;margin-right: auto;" cellspacing="0">
-            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 202px;" />
-            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 607px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 189px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 776px;" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1" style="text-align: left;">
@@ -44,10 +44,10 @@
                         <p class="RNArea">Time Zone</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p class="RNTitle">Start Date for Brasilia Time Zone DST Incorrect</p>
-                        <p class="RNBody">The start date for Brasilia daylight saving time (DST) has changed to the first Sunday of November. The database time zone table (tblTimeZone) has been updated with the new DST&#160;start date for the Brasilia time zone (ID=53); however, all existing bookings in buildings in the Brasilia time zone also require updating to reflect the new Brasilia DST start date.</p>
+                        <p class="RNTitle">Incorrect Start Date for Brasilia Time Zone DST</p>
+                        <p class="RNBody">The start date for Brasilia daylight saving time (DST) has changed to the first Sunday of November. The database time zone table (tblTimeZone) has been updated with the new DST&#160;start date for the Brasilia time zone (ID=53); however, all existing bookings in buildings in the Brasilia time zone also required updating to reflect the new Brasilia DST start date.</p>
                         <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that  the Brasilia time zone DST&#160;is appropriately updated in EMS&#160;applications and in all bookings with buildings in the Brasilia time zone.</p>
-                        <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=41570&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">41570</a><br />(For EMS&#160;Internal Use Only)</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=41665&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">41665</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
@@ -59,7 +59,7 @@
                             <MadCap:annotation MadCap:createDate="2018-10-19T12:16:09.9349990-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Not much info in TFS. Check back later to see if they add more specifics, such as how quickly it now loads or how many rooms/time zones were causing the slow down." MadCap:editor="Megan.Laub" MadCap:editDate="2018-10-19T12:17:19.7151302-06:00">Browse Locations Page Loading Slowly</MadCap:annotation>
                         </p>
                         <p class="RNBody">
-                            <MadCap:annotation MadCap:createDate="2018-10-19T12:18:42.4191664-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Was it everyone or just customers over XX rooms and multiple time zones? " MadCap:editor="Megan.Laub" MadCap:editDate="2018-10-19T12:19:20.0728083-06:00">For some customers</MadCap:annotation>, the Browse Locations page was taking 55+ seconds to display the room schedule grid. </p>
+                            <MadCap:annotation MadCap:createDate="2018-10-19T12:18:42.4191664-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Was it everyone or just customers with over XX rooms and multiple time zones? " MadCap:editor="Megan.Laub" MadCap:editDate="2018-10-22T07:49:57.4073045-06:00">For some customers</MadCap:annotation>, the Browse Locations page was taking 55+ seconds to display the room schedule grid. </p>
                         <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that  the Browse Locations page loads more quickly. </p>
                         <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=41636&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">41636</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
