@@ -104,9 +104,6 @@
       PageNumberReset="continue"
       PageLayout="/Content/Resources/PageLayouts/PreviewRN/PrevChapters.flpgl"></TocEntry>
     <TocEntry
-      Title="G Suite Integration"
-      Link="/Content/ReleaseNotes/Version44.1/Update30/GSuite.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-    <TocEntry
       Title="Master Calendar"
       Link="/Content/ReleaseNotes/Version44.1/Update30/EMSMasterCalendar.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
       BreakType="chapter"
