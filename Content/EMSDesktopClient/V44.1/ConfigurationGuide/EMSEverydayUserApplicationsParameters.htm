@@ -979,10 +979,8 @@
                 <tr style="height : 195px;" class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">General</td>
                     <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">Max Length for Text Fields</td>
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
-                        <p>Introduced in Fall 2017 release to mitigate a security vulnerability where the Web App previously accepted an unlimited character count into certain fields. &#160; This parameter applies to the following fields:</p>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                        <p>Introduced in Fall 2017 to mitigate a security vulnerability where the EMS&#160;Web App previously accepted an unlimited character count into certain fields. &#160; This parameter applies to the following fields:</p>
                         <ul>
                             <li>UDFs</li>
                             <li>Reservation Comments</li>
@@ -991,7 +989,10 @@
                             <li>Web Text &#160;</li>
                         </ul>
                         <p><span class="bold">NOTE</span>:&#160;This parameter does not apply to the LDAP Configuration page. </p>
-                        <p>&#160;</p>
+                    </td>
+                    <p>&#160;</p>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
+                        <p><span class="bold">IMPORTANT</span>:&#160;If utilizing Skype for Business integration, this parameter must be set to '0' (unlimited). If a limit is set here, the Skype for Business invitation will not contain all required information. </p>
                     </td>
                 </tr>
             </tbody>
