@@ -77,15 +77,6 @@
       PageNumberReset="continue"
       PageLayout="/Content/Resources/PageLayouts/PreviewRN/PrevChapters.flpgl"></TocEntry>
     <TocEntry
-      Title="EMS Kiosk App"
-      Link="/Content/ReleaseNotes/Version44.1/Update30/EMSKioskApp.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-      BreakType="chapter"
-      PageType="continue"
-      AutoEndOnLeftPage="disabled"
-      StartSection="false"
-      PageNumberReset="continue"
-      PageLayout="/Content/Resources/PageLayouts/PreviewRN/PrevChapters.flpgl"></TocEntry>
-    <TocEntry
       Title="EMS Platform Services"
       Link="/Content/ReleaseNotes/Version44.1/Update30/EMSPlatformServices.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
       BreakType="chapter"
@@ -103,9 +94,6 @@
       StartSection="false"
       PageNumberReset="continue"
       PageLayout="/Content/Resources/PageLayouts/PreviewRN/PrevChapters.flpgl"></TocEntry>
-    <TocEntry
-      Title="G Suite Integration"
-      Link="/Content/ReleaseNotes/Version44.1/Update30/GSuite.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     <TocEntry
       Title="Master Calendar"
       Link="/Content/ReleaseNotes/Version44.1/Update30/EMSMasterCalendar.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
