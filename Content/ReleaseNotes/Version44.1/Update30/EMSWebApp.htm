@@ -51,7 +51,7 @@
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
                         <p class="RNTitle">Region-specific Dial-in Information Provided</p>
                         <p class="RNBody">Skype for Business meeting invitation information generated through the EMS&#160;Web App now includes only the dial-in numbers for the applicable region in which the user belongs, along with a link to reach the full dial-in number list. </p>
-                        <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=41483&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">41483</a><br />(For EMS&#160;Internal Use Only)</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=41483&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">41483</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
@@ -65,14 +65,14 @@
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
                         <p class="RNTitle">Enhanced Formatting </p>
                         <p class="RNBody">The font, size, and color of Skype for Business information that appears in the meeting invitation when a meeting is initiated from the EMS&#160;Web App now matches the native Skype for Business add-in  exactly. </p>
-                        <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=41490&amp;_a=edit&amp;triage=true" class="RNRefHyper">41490</a><br />(For EMS&#160;Internal Use Only)</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=41490&amp;_a=edit&amp;triage=true" class="RNRefHyper">41490</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
                         <p class="RNTitle">Inclusion of Disclaimer Text if Configured within Skype for Business</p>
                         <p class="RNBody">If an organization has configured HTML-supported disclaimer text within the Skype for Business application, the meeting invitation generated through the EMS&#160;Web App will now contain the disclaimer text. Code indicating meeting invite is a Skype meeting is added to enable “join skype” on video conferencing devices.</p>
-                        <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=41544&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">41544</a><br />(For EMS&#160;Internal Use Only)</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=41544&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">41544</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
             </tbody>
@@ -109,7 +109,7 @@
                     </td>
                     <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
                         <p class="RNTitle">Browse Locations Page Loading Slowly</p>
-                        <p class="RNBody">For some customers, the Browse Locations page was taking 55+ seconds to display the room schedule grid because SQL Server was inefficiently executing time zone conversions on the query used to get bookings.</p>
+                        <p class="RNBody">Browse Locations was slow upon initial loading of the Schedule Grid.</p>
                         <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified the webapp_Common_GetBookEvents query to break time zone conversions into separate queries so that the Browse Locations page loads more quickly. </p>
                         <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=41636&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">41636</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
