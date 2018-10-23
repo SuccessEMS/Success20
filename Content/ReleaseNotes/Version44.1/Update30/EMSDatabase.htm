@@ -40,27 +40,14 @@
             </thead>
             <tbody>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
                         <p class="RNArea">Time Zone</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
                         <p class="RNTitle">Incorrect Start Date for Brasilia Time Zone DST</p>
                         <p class="RNBody">The start date for Brasilia daylight saving time (DST) has changed to the first Sunday of November. The database time zone table (tblTimeZone) has been updated with the new DST&#160;start date for the Brasilia time zone (ID=53); however, all existing bookings in buildings in the Brasilia time zone also required updating to reflect the new Brasilia DST start date.</p>
                         <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that  the Brasilia time zone DST&#160;is appropriately updated in EMS&#160;applications and in all bookings with buildings in the Brasilia time zone.</p>
                         <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=41665&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">41665</a><br />(For EMS&#160;Internal Use Only)</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
-                        <p class="RNArea">
-                            <MadCap:annotation MadCap:createDate="2018-10-23T08:06:39.6910993-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="TFS says the areas affected are Browse Events and Schedule View Grids; however, the title and parts of the description and AC say it's affecting Browse Locations. What is correct? Are both correct?" MadCap:editor="Megan.Laub" MadCap:editDate="2018-10-23T08:08:20.8611527-06:00">Browse Locations</MadCap:annotation>
-                        </p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
-                        <p class="RNTitle">Browse Locations Page Loading Slowly</p>
-                        <p class="RNBody">For some customers, the Browse Locations page was taking 55+ seconds to display the room schedule grid because SQL Server was inefficiently executing time zone conversions on the query used to get bookings.</p>
-                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified the webapp_Common_GetBookEvents query to break time zone conversions into separate queries so that the Browse Locations page loads more quickly. </p>
-                        <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=41636&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">41636</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
             </tbody>
