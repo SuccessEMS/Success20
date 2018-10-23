@@ -55,11 +55,8 @@
                         <p class="RNArea">Browse Events and Schedule View</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
-                        <p class="RNTitle">
-                            <MadCap:annotation MadCap:createDate="2018-10-19T12:16:09.9349990-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Not much info in TFS. Check back later to see if they add more specifics, such as how quickly it now loads or how many rooms/time zones were causing the slow down." MadCap:editor="Megan.Laub" MadCap:editDate="2018-10-19T12:17:19.7151302-06:00">Browse Locations Page Loading Slowly</MadCap:annotation>
-                        </p>
-                        <p class="RNBody">
-                            <MadCap:annotation MadCap:createDate="2018-10-19T12:18:42.4191664-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Was it everyone or just customers with over XX rooms and multiple time zones? " MadCap:editor="Megan.Laub" MadCap:editDate="2018-10-22T07:49:57.4073045-06:00">For some customers</MadCap:annotation>, the Browse Locations page was taking 55+ seconds to display the room schedule grid because SQL Server was inefficiently executing time zone conversions on the query used to get bookings.</p>
+                        <p class="RNTitle">Browse Locations Page Loading Slowly</p>
+                        <p class="RNBody">For some customers, the Browse Locations page was taking 55+ seconds to display the room schedule grid because SQL Server was inefficiently executing time zone conversions on the query used to get bookings.</p>
                         <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified the webapp_Common_GetBookEvents query to break time zone conversions into separate queries so that the Browse Locations page loads more quickly. </p>
                         <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=41636&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">41636</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
