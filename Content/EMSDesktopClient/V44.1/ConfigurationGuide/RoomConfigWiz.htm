@@ -8,11 +8,24 @@
             <MadCap:concept term="V44.1" />Room Configuration Wizard</h1>
         <p class="beforelist">The Room Configuration Wizard enables you to&#160;configure multiple rooms at one time. These rooms should&#160;have the following properties in common:</p>
         <ul class="unorder-list">
-            <li class="li_1">Room type</li>
-            <li class="li_1">Setup hours</li>
-            <li class="li_1">Teardown hours</li>
-            <li class="li_1">Features</li>
-            <li class="li_1">Setup types</li>
+            <li class="li_1"><a href="ConfigRoomType.html">Room type</a>
+            </li>
+            <li class="li_1">
+                <MadCap:popup>
+                    <MadCap:popupHead>Setup hours</MadCap:popupHead>
+                    <MadCap:popupBody>Setup hours are the time spent by staff preparing a room for an event.</MadCap:popupBody>
+                </MadCap:popup>
+            </li>
+            <li class="li_1">
+                <MadCap:popup>
+                    <MadCap:popupHead>Teardown hours</MadCap:popupHead>
+                    <MadCap:popupBody>Teardown hours are time spent cleaning up after an event. </MadCap:popupBody>
+                </MadCap:popup>
+            </li>
+            <li class="li_1"><a href="ConfigFeatures.html">Features</a>
+            </li>
+            <li class="li_1"><a href="ConfigSetupType.html">Setup types</a>
+            </li>
         </ul>
         <p class="beforelist">This topic provides information on the following:</p>
         <ul class="unorder-list">
@@ -33,8 +46,8 @@
         </ol>
         <div class="TitleandImage">
             <p class="title">Rooms Window</p>
-            <p>
-                <img src="../../../Resources/Images/Configuration Facilities/Room Configuration Wizard.png" />
+            <p class="title">
+                <img src="Images/RoomsConfigurationPage.png" style="width: 587px;height: 238px;" />
             </p>
         </div>
         <ol MadCap:continue="true" class="number-list">
@@ -42,13 +55,14 @@
         </ol>
         <div class="TitleandImage">
             <p class="title">Room Configuration Wizard</p>
-            <p>
-                <img src="../../../Resources/Images/Configuration Facilities/Room Configuration Wizard_1.png" class="PDFlarge" />
+            <p class="title">
+                <img src="Images/RoomConfigWizard.png" />
             </p>
         </div>
         <ol MadCap:continue="true" class="number-list">
             <li>Select the common properties for all the rooms that you are configuring and enter the appropriate values.</li>
         </ol>
+        <p class="title">Room Properties</p>
         <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
             <col class="TableStyle-PatternedRows-Column-Regular" />
             <col class="TableStyle-PatternedRows-Column-Regular" />
@@ -161,32 +175,37 @@
         </ol>
         <h2 class="Heading2"><a name="ConfigureFeatures"></a>Configure Features for Multiple Rooms&#160;</h2>
         <ol class="number-list">
-            <li>If all the rooms should have the same features, under Items, select&#160;<span class="bold">Features</span>.</li>
-            <li>On the Available list, select the feature (CTRL-click to select multiple features) you want&#160;the rooms&#160;to have. If the appropriate features are not available, you can configure them. See&#160;<a href="ConfigFeatures.html">Configuring Features</a>.</li>
-            <li>If any of the rooms that you select for configuration have existing features and you want to drop these existing features and apply only the new features, select <span class="bold">Overwrite Existing</span>; otherwise, the new features are appended to the list of existing features.</li>
+            <li>From the Room Configuration Wizard screen, under <span class="bold">Items</span>, select&#160;<span class="bold">Features</span>. From here, you can select Features for rooms that should all have the same features. </li>
+        </ol>
+        <p>
+            <img src="Images/Features.png" />
+        </p>
+        <ol class="number-list" MadCap:continue="true">
+            <li>On the Available list, select the feature (CTRL-click to select multiple features) you want&#160;the rooms&#160;to have. If the appropriate features are not available, you can configure them. See&#160;Also:&#160;<a href="ConfigFeatures.html">Configuring Features</a>.</li>
+            <li>If any of the rooms that you select for configuration have existing features and you want to drop these existing features and apply only the new features, click the <span class="bold">Overwrite Existing </span>checkbox; otherwise, the new features are appended to the list of existing features.</li>
             <li>Continue with any other optional configuration for the room as needed; otherwise, click&#160;<span class="bold">Next&#160;</span>to continue in the&#160;Room Configuration wizard.&#160;</li>
         </ol>
         <h2><a name="Exclude"></a>Exclude Resources for Multiple Rooms&#160;</h2>
         <ol class="number-list">
-            <li>Under Items, select&#160;<span class="bold">Excluded Resources</span>.&#160;The <span class="bold">Excluded Resources</span> tab opens.</li>
+            <li>From the Room Configuration Wizard screen, under <span class="bold">Items</span>, select the <span class="bold">Excluded Resources</span> tab.&#160;</li>
             <li>Select the category that contains the resources that are to be excluded.&#160;The category’s resources are displayed in the Available list.</li>
             <li>On the Available list, CTRL-click to select multiple resources you want&#160;excluded from the rooms.</li>
-            <li>If any of the rooms you select for configuration have existing resources and you want to drop these existing resources and apply only the new resources, select&#160;<span class="bold">Overwrite Existing</span>; otherwise, the new resources are simply appended to the list of existing resources.</li>
+            <li>If any of the rooms you select for configuration have existing resources and you want to drop these existing resources and apply only the new resources, select&#160;the <span class="bold">Overwrite Existing </span>checkbox; otherwise, the new resources are simply appended to the list of existing resources.</li>
             <li>Click the Move button (&gt;) to move the selected resources to the Selected list.</li>
             <li>Continue with any other optional configuration for the room as needed; otherwise, click&#160;<span class="bold">Next&#160;</span>to continue in the&#160;Room Configuration wizard.</li>
         </ol>
         <h2><a name="ConfigureCommon"></a>Configure Common Setup Types for Multiple Rooms&#160;</h2>
         <ol class="number-list">
-            <li>Under Items, select&#160;<span class="bold">Setup Types</span>.&#160;The Setup Types tab opens.</li>
-            <li>If any of the rooms you select for configuration have existing setup types and you want to drop them and apply only the new setup types, select&#160;<span class="bold">Overwrite Existing</span>; otherwise, the new setup types are simply appended to the list of existing setup types.</li>
+            <li>From the Room Configuration Wizard screen, under <span class="bold">Items</span>, select&#160;<span class="bold">Setup Types</span>.&#160;</li>
+            <li>If any of the rooms you select for configuration have existing setup types and you want to drop them and apply only the new setup types, select&#160;the <span class="bold">Overwrite Existing</span> <b>Setup Types and Capacities</b> checkbox; otherwise, the new setup types are simply appended to the list of existing setup types.</li>
             <li>For each applicable setup type, select&#160;<span class="bold">In Use</span>, and then use&#160;the Min. Capacity and/or Max. Capacity fields&#160;to set headcount limits&#160;for the setup type.</li>
             <li>Continue with any other optional configuration for the room as needed; otherwise, click&#160;<span class="bold">Next&#160;</span>to continue in the&#160;Room Configuration wizard.&#160;</li>
         </ol>
         <h2><a name="ConfigureCommonUDF"></a>Configure Common UDFs for Multiple Rooms&#160;</h2>
         <ol class="number-list">
-            <li>Click&#160;<span class="bold">User Defined Fields</span>.&#160;The User Defined Fields tab opens. All the UDFs that have a type of Room are displayed on the tab.</li>
-            <li>If any of the rooms &#160;you select for configuration have existing UDFs with set values and you want to drop them and apply only the new values, select&#160;<span class="bold">Overwrite Existing</span>; otherwise, the new values are simply appended to the list of existing values.</li>
-            <li>For each UDF&#160;you configure for the room, do the following:<ol><li>Select the UDF.</li><li>Click&#160;<span class="bold">Set Value</span>&#160;to open a Value dialog box.</li><li>Enter the value for the UDF in the Value field, and then click <span class="bold">OK </span>to close the dialog box and return to the <span class="bold">User Defined Fields</span> tab.</li></ol></li>
+            <li>From the Room Configuration Wizard screen, under <span class="bold">Items</span>, select <span class="bold">User Defined Fields</span>.&#160;All UDFs that have a type of Room are displayed on the tab.</li>
+            <li>If any of the rooms you select for configuration have existing UDFs with set values and you want to drop them and apply only the new values, select&#160;<span class="bold">Overwrite Existing</span>; otherwise, the new values are simply appended to the list of existing values.</li>
+            <li>For each UDF&#160;you configure for the room, do the following:<ol><li><p>Click&#160;<span class="bold">Set Value</span>&#160;to open a Value dialog box.</p><ul><li>Enter the value for the UDF in the Value field, and then click <span class="bold">OK </span>to close the dialog box and return to the <span class="bold">User Defined Fields</span> tab.</li></ul></li><li>Click <span class="bold">Clear Value</span> to clear the value associated with the UDF. </li></ol></li>
             <li>Continue with any other optional configuration for the room as needed; otherwise, click&#160;<span class="bold">Next&#160;</span>to continue in the&#160;Room Configuration wizard.&#160;</li>
         </ol>
     </body>
