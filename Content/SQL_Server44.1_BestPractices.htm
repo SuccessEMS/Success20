@@ -95,73 +95,9 @@
                     <li>Background:<ul><li>A database’s compatibility level (CL) is usually the same as the version of the instance.</li><li>However it is possible to set a CL back one or more versions.</li><li>When upgrading a database to a newer version of SQL Server, the database CL may remain the same from the previous version.</li><li>There is a case when the CL for 2014 (120) is used, a performance degradation is possible.  This is a <a href="https://stackoverflow.com/questions/26528713/new-cardinality-estimator-sql-server-2014-is-way-off">documented bug</a> in the cardinality estimator of the SQL query engine in 2014.</li></ul></li>
                     <li>Ensure the CL&#160;is set as follows:</li>
                 </ul>
+                <MadCap:snippetBlock src="EMS44.1SystemReq_DatabaseServer.flsnp" />
             </li>
         </ul>
-        <table style="mc-table-style: url('Resources/TableStyles/PatternedRows.css');margin-left: 0;margin-right: auto;" class="TableStyle-PatternedRows" cellspacing="0">
-            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 83px;" />
-            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 305px;" />
-            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 224px;" />
-            <thead>
-                <tr class="TableStyle-PatternedRows-Head-Header1">
-                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">CL</th>
-                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">VERSION</th>
-                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
-                        <p>DB COMPATIBILITY</p>
-                        <p>&#160;</p>
-                    </th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p>110</p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p>SQL Server 2012 = 11.00.xxxx</p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p>110</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p>120</p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p>SQL Server 2014 = 12.00.xxxx</p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p>110 (avoid CL&#160;for 2014)</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p>130</p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p>SQL Server 2016 = 13.00.xxxx</p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p>130</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p>140</p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p>SQL Server 2017* = 14.00.xxxx</p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p>140</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" colspan="2">*<span class="bold">NOTE</span>:&#160;2017 is not yet officially supported by EMS. </td>
-                </tr>
-            </tbody>
-        </table>
         <h2>tempdb&#160;</h2>
         <ul class="unorder-list">
             <li><span class="bold">tempdb</span>&#160;is a system database&#160;and the temporary work space (scratchpad) for a data server’s query processing. It is critical this be configured for maximum efficiency. In versions SQL 2014 and prior, tempdb’s default settings are incorrect for proper configuration. This out-of-the-box configuration will likely be a bottleneck.</li>
