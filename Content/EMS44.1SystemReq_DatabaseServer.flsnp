@@ -49,6 +49,5 @@
                 </tr>
             </tbody>
         </table>
-        <p class="box-note"><span class="boldAllCaps">Note:</span>  To view best practices for setting up your SQL server, refer to <a href="SQL_Server44.1_BestPractices.htm">EMS Best Practices for SQL Server</a>.</p>
     </body>
 </html>
