@@ -26,7 +26,7 @@
         <p class="box-note"><span class="boldAllCaps">Note:&#160;</span>You must configure a category prior to configuring the resources for that category. See <a href="ConfigCategory.html">Configure Categories</a> for more information.</p>
         <ol class="number-list">
             <li>On the EMS menu bar, click <span class="bold">Configuration </span>&gt; <span class="bold">Resources</span>. A list of all the categories that are currently configured in your EMS database and for which you can configure resources opens. If the appropriate category is not listed, you can <a href="ConfigCategory.html">configure it</a>.</li>
-            <li>Select the category for which you are configuring the resources. The Resources window opens. This window lists all the resources that are currently configured in your EMS database for the selected category and that have a status of <span class="bold">Active</span>.</li>
+            <li>Select the category for which you are configuring the resources. The Resources window opens. This window lists all of the resources that are currently configured in your EMS database for the selected category and that have a status of <span class="bold">Active</span>.<ul><li>To view all resources for the category in your EMS database, regardless of status, under Show, click <span class="bold">Inactive</span>.</li><li>To filter the displayed resources based on the Resource name, in the Filter field, enter a search string (not case-sensitive, but characters must be in exact order).<p class="box-tip"><span class="boldAllCaps">Tip:&#160;</span>The search string is not case-sensitive, but your search is limited to the exact order of the characters in the string and it must begin with the information for which you are searching. For example, a search string of&#160;Cold&#160;returns&#160;Cold&#160;Boxed Lunches, but not Sandwiches (Cold).</p></li></ul></li>
         </ol>
         <div class="TitleandImage">
             <p class="title"> <a name="ResourcesWindow"></a>Resources Window</p>
@@ -34,11 +34,8 @@
                 <img src="Images/DC_Resources/ResourcesWindow1.PNG" class="PDFlarge" />
             </p>
         </div>
-        <ol MadCap:continue="true" class="number-list">
-            <li>Optionally, do one or both of the following:<ul MadCap:continue="true"><li>To view all resources for the category in your EMS database, regardless of status, under Show, click <span class="bold">Inactive</span>.</li><li>To filter the displayed resources based on the Resource name, in the Filter field, enter a search string (not case-sensitive, but characters must be in exact order).</li></ul></li>
-        </ol>
         <p class="box-tip"><span class="boldAllCaps">Tip: </span>The remainder of this procedure describes how to configure a resource “from scratch.” You can also configure a resource by copying an existing resource. Select the resource that you want to copy, and click <span class="bold">Copy</span>.</p>
-        <ol start="4" class="number-list">
+        <ol start="4" class="number-list" MadCap:continue="true">
             <li>From the Resources dialog box, click <span class="bold">New</span>. The Resource dialog box opens.</li>
         </ol>
         <div class="TitleandImage">
@@ -492,9 +489,7 @@ The values that are indicated in these columns are used in conjunction with the 
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
                         <p>
-                            <MadCap:annotation MadCap:createDate="2018-10-22T14:16:29.4987330-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="If price remains constant no matter the number of hours booked, How is the flat price used in conjunction with Hourly time?" MadCap:editor="Megan.Laub" MadCap:editDate="2018-10-25T11:22:04.9854817-06:00">
-A resource price that remains constant regardless of the total number of hours booked for the resource. Used in conjunction with Hourly (Event Time) and Hourly (Reserved Time).</MadCap:annotation>
-                        </p>
+A resource price that remains constant regardless of the total number of hours booked for the resource. Used in conjunction with Hourly (Event Time) and Hourly (Reserved Time).</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
