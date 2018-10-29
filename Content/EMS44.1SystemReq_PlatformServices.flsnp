@@ -92,9 +92,31 @@
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows"><a href="https://www.microsoft.com/net/download/archives">ASP.NET&#160;Handler</a>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows"><a href="https://www.microsoft.com/net/download/archives">ASP.NET&#160;Core</a>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">See Also:&#160;<a href="EMSPlatformServices/InstallationGuide/SystemRequirements.htm#asp.nethandler">Installing ASP.NET&#160;Handler</a>.</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">See Also:&#160;<a href="EMSPlatformServices/InstallationGuide/SystemRequirements.htm#asp.nethandler">Installing ASP.NET&#160;Handler</a>.</td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>PowerShell</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p><a href="https://msdn.microsoft.com/en-us/powershell/wmf/5.1/release-notes" title="https://msdn.microsoft.com/en-us/powershell/wmf/5.1/release-notes">5+ Version</a>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
+                        <p>ASP.NET Version 4.6</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
+                        <p class="beforelist">Under Web Server (IIS) &gt; Web Server &gt; Application Development:</p>
+                        <ul class="unorder-list">
+                            <li>ISAPI Extensions</li>
+                            <li>ISAPI Filters</li>
+                            <li>.NET Extensibility 4.6</li>
+                        </ul>
+                    </td>
                 </tr>
             </tbody>
         </table>
