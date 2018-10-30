@@ -29,7 +29,7 @@
                 </td>
             </tr>
         </table>
-        <h2>Fixes</h2>
+        <h2>Fix</h2>
         <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');width: 100%;margin-left: 0;margin-right: auto;" cellspacing="0">
             <col class="TableStyle-PatternedRows-Column-Regular" style="width: 111px;" />
             <col class="TableStyle-PatternedRows-Column-Regular" style="width: 384px;" />
@@ -45,50 +45,14 @@
             </thead>
             <tbody>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p class="RNArea">Conflict Resolution and <br />Recurring Reservations </p>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                        <p class="RNArea">Auto-Summary</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p class="RNTitle">EMS&#160;for Outlook Add-in Was Unresponsive When Users Tried to Resolve Conflicts</p>
-                        <p class="RNBody">When resolving booking conflicts for a recurring meeting, the select room button (<span class="bold">+</span>) on the Resolve Conflicts page was unresponsive, and users were unable to select a new location to resolve the conflict. This was caused by rooms configured to alert users where no alert message was actually configured. </p>
-                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that the select room button (<span class="bold">+</span>) on the Resolve Conflicts page functions properly, and users can select a new location to resolve a conflict.</p>
-                        <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=40727&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">40727</a><br />(For EMS&#160;Internal Use Only)</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="font-style: italic;">Billing Reference and PO Numbers</td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p class="RNTitle">Group Default Billing Reference (BR)&#160;and PO&#160;Numbers Were Not Populating</p>
-                        <p class="RNBody">When creating a reservation in EMS for Outlook, the BR and PO&#160;values were not populating by default in their respective fields.  The defaults were populating when users toggled from a different group back to the original group.</p>
-                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that the default BR and PO values for a group are populated in the respective fields by default when creating a new reservation on a template that displays these fields.</p>
-                        <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=40968&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">40968</a><br />(For EMS&#160;Internal Use Only)</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-style: italic;">&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p class="RNTitle">Incorrect Time Bar in Attendee Schedule View</p>
-                        <p class="RNBody">Time labels across the attendees area of schedule view was not reflecting the correct time for the organizer and attendees.</p>
-                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that the attendee schedule view reflects the correct time. </p>
-                        <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=41582&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">41582</a><br />(For EMS&#160;Internal Use Only)</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="font-style: italic;">Create a Reservation</td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p class="RNTitle">Incorrect Time Bar in Attendee Schedule View</p>
-                        <p class="RNBody">Regardless of what was configured in the "Allow New Bookings Within Range of this Many Days," users experienced the error message "You cannot book this Room after XX/XX/XXXX. . . ."&#160;The date on the error message was one day before the last allowed booking date. </p>
-                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that the correct last allowed booking date displays if users try to book beyond that date.</p>
-                        <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=41099&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">41099</a><br />(For EMS&#160;Internal Use Only)</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows" style="font-style: italic;">Cancellations</td>
                     <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
-                        <p class="RNTitle">Canceling One Occurrence in EMS&#160;for Outlook Canceled All Bookings </p>
-                        <p class="RNBody">Canceling one occurrence in EMS&#160;for Outlook resulted in the cancellation of all dates in the series in the EMS&#160;Web App and EMS&#160;Desktop Client. </p>
-                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that canceling one occurrence does not affect other dates in the series. </p>
-                        <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=41308&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">41308</a><br />(For EMS&#160;Internal Use Only)</p>
+                        <p class="RNTitle">Event Name and Event Type Displayed As "Event" in Auto-Summary</p>
+                        <p class="RNBody">The EMS&#160;for Outlook auto-summary displayed both the event name and event type  with the label "Event."</p>
+                        <p class="RNBody"><span class="bold">Fix:</span> Modified functionality so that the auto-summary displays the labels "Event Name" and "Event Type" instead of just "Event."</p>
+                        <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=40899&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">40899</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
             </tbody>
