@@ -7,6 +7,31 @@
       Title="Browse by Update #"
       Link="/Content/V44.1_ReleaseNotes.htm">
       <TocEntry
+        Title="Update 30"
+        Link="/Content/V44.1_ReleaseNotes.htm#Update30"
+        StartSection="false"
+        ReplaceMergeNode="false"></TocEntry>
+      <TocEntry
+        Title="Update Pre-30"
+        Link="/Content/V44.1_ReleaseNotes.htm#UpdatePre30"
+        StartSection="false"
+        ReplaceMergeNode="false"></TocEntry>
+      <TocEntry
+        Title="Update 29.4"
+        Link="/Content/V44.1_ReleaseNotes.htm#Update29.4"
+        StartSection="false"
+        ReplaceMergeNode="false"></TocEntry>
+      <TocEntry
+        Title="Update 29.3"
+        Link="/Content/V44.1_ReleaseNotes.htm#Update29.3"
+        StartSection="false"
+        ReplaceMergeNode="false"></TocEntry>
+      <TocEntry
+        Title="Update 29.1"
+        Link="/Content/V44.1_ReleaseNotes.htm#Update29.1"
+        StartSection="false"
+        ReplaceMergeNode="false"></TocEntry>
+      <TocEntry
         Title="Update 29"
         Link="/Content/V44.1_ReleaseNotes.htm#Update29"
         StartSection="false"
