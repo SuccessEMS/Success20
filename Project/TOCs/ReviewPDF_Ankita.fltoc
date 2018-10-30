@@ -2,12 +2,6 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="Update 30 Release Note Drafts">
-    <TocEntry
-      Title="U30 EMS Platform Services"
-      Link="/Content/ReleaseNotes/Version44.1/Update30/EMSPlatformServices.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-    <TocEntry
-      Title="U30 EMS Room Sign App"
-      Link="/Content/ReleaseNotes/Version44.1/Update30/EMSRoomSignApp.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-  </TocEntry>
+    Title="Global Settings"
+    Link="/Content/EMSRoomSignApp/44.1/ConfigurationGuide/GlobalSettings.html" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
 </CatapultToc>
