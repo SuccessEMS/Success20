@@ -19,33 +19,53 @@
             </thead>
             <tbody>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">110</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>110</p>
+                    </td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
                         <p>Microsoft SQL Server 2012 = 11.00.XXXX</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">110</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>110</p>
+                    </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">120</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>120</p>
+                    </td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
                         <p>Microsoft SQL Server 2014 = 12.00.XXXX</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">110 (avoid CL&#160;for 2014)</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>110 (avoid CL&#160;for 2014)</p>
+                    </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">130</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>130</p>
+                    </td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
                         <p>Microsoft SQL Server 2016 = 13.00.XXXX</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">130</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>130</p>
+                    </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">140</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Microsoft SQL&#160;Server 2017* = 14.00.XXXX</td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">140</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>140</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Microsoft SQL&#160;Server 2017* = 14.00.XXXX</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>140</p>
+                    </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" colspan="3">*<span class="bold">NOTE</span>:&#160;2017 is not yet officially supported by EMS&#160;Software. </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" colspan="3">
+                        <p colspan="3" class="table-note">*<span class="bold">NOTE</span>:&#160;2017 is not yet officially supported by EMS&#160;Software. </p>
+                    </td>
                 </tr>
             </tbody>
         </table>
