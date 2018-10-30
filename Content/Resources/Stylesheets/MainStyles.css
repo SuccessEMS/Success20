@@ -2275,66 +2275,7 @@ p.table-important
 	page-break-inside: avoid;
 }
 
-.box-note p
-{
-	line-height: 30px;
-	font-size: 16px;
-	font-weight: 400;
-}
-
-p.box-note
-{
-	line-height: 30px;
-	font-size: 16px;
-	font-weight: 400;
-	page-break-inside: avoid;
-}
-
-.box-tip p
-{
-	line-height: 30px;
-	font-size: 16px;
-	font-weight: 400;
-}
-
-p.box-tip
-{
-	line-height: 30px;
-	font-size: 16px;
-	font-weight: 400;
-	page-break-inside: avoid;
-}
-
-.box-important p
-{
-	line-height: 30px;
-	font-size: 16px;
-	font-weight: 400;
-}
-
-p.box-important
-{
-	line-height: 30px;
-	font-size: 16px;
-	font-weight: 400;
-	page-break-inside: avoid;
-}
-
-.box-warning p
-{
-	line-height: 30px;
-	font-size: 16px;
-	font-weight: 400;
-}
-
-p.box-warning
-{
-	line-height: 30px;
-	font-size: 16px;
-	font-weight: 400;
-	page-break-inside: avoid;
-}
-
+/**Add Icons to Note, Tip, Important, and Warning **/
 .box-note:before
 {
 	position: absolute;
@@ -2359,18 +2300,6 @@ p.box-warning
 	height: 31px;
 }
 
-.box-warning:before
-{
-	position: absolute;
-	left: 14px;
-	top: 23px;
-	content: '';
-	display: block;
-	background-image: url('../Images/icon-waring.png');
-	width: 24px;
-	height: 24px;
-}
-
 .box-important:before
 {
 	position: absolute;
@@ -2383,25 +2312,86 @@ p.box-warning
 	height: 24px;
 }
 
+.box-warning:before
+{
+	position: absolute;
+	left: 14px;
+	top: 23px;
+	content: '';
+	display: block;
+	background-image: url('../Images/icon-waring.png');
+	width: 24px;
+	height: 24px;
+}
+
+/**Style for <p> tags when notes are within a Div **/
+
 .box-note p
 {
+	line-height: 30px;
+	font-size: 16px;
+	font-weight: 400;
 	padding-bottom: 0;
 }
 
 .box-tip p
 {
+	line-height: 30px;
+	font-size: 16px;
+	font-weight: 400;
 	padding-bottom: 0;
 }
 
 .box-important p
 {
+	line-height: 30px;
+	font-size: 16px;
+	font-weight: 400;
 	padding-bottom: 0;
 }
 
 .box-warning p
 {
+	line-height: 30px;
+	font-size: 16px;
+	font-weight: 400;
 	padding-bottom: 0;
 }
+
+/**<p> note styles might be obsolete; need to verify**/
+
+p.box-note
+{
+	line-height: 30px;
+	font-size: 16px;
+	font-weight: 400;
+	page-break-inside: avoid;
+}
+
+p.box-tip
+{
+	line-height: 30px;
+	font-size: 16px;
+	font-weight: 400;
+	page-break-inside: avoid;
+}
+
+p.box-important
+{
+	line-height: 30px;
+	font-size: 16px;
+	font-weight: 400;
+	page-break-inside: avoid;
+}
+
+p.box-warning
+{
+	line-height: 30px;
+	font-size: 16px;
+	font-weight: 400;
+	page-break-inside: avoid;
+}
+/**End <p> notes**/
 
 /****
 .box-note p span,
