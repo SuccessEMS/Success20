@@ -13,7 +13,7 @@
         <meta name="mt-unsafe" value="true" />
     </head>
     <body>
-        <h1 MadCap:autonum="CHAPTER&#160;1: ">
+        <h1>
             <MadCap:concept term="V44.1" />Prerequisites &amp;&#160;Requirements for <MadCap:variable name="General.RSA" /></h1>
         <p>This topic outlines the requirements necessary to install, configure, and use the <MadCap:variable name="General.RSA" /> (formerly named EMS Glance), including:</p>
         <ul class="unorder-list">
@@ -31,17 +31,27 @@
         </ul>
         <p class="box-important"><span class="boldAllCaps">IMPORTANT: </span>The EMS Room Sign App requires a license. Please contact your Account Executive to determine if your organization is licensed for the EMS Room Sign App or if you want to learn more.</p>
         <h2><a id="prerequisites" name="prerequisites"></a>Prerequisites</h2>
-        <p>Before installing the EMS Room Sign App, the following prerequisites must be in place:</p>
+        <p>Before installing the EMS Room Sign App, the following prerequisites must be in place (<MadCap:annotation MadCap:createDate="2018-10-30T08:49:11.3105950-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Created two prereq sections based on versions." MadCap:editor="Megan.Laub" MadCap:editDate="2018-10-30T08:49:48.0105720-06:00">based on software update version</MadCap:annotation>):</p>
+        <p class="box-tip"><span class="boldAllCaps">Note:</span>&#160;As of <a href="../../../V44.1_ReleaseNotes.htm#Update30">Update 30</a>, the EMSGlanceAPI.msi file is no longer required for installation because the API has been moved into the application to improve performance. If you have upgraded to Update 30 or later, you do not need to install the API or enable an EMS&#160;user account with EMS&#160;API web service access. See Also:&#160;<a href="#U30Prereqs">Prerequisites for Update 30 and Later</a>.</p>
+        <h3>Prior to Update 30</h3>
         <ul class="unorder-list">
             <li>You must have installed and configured the <a href="../../../EMSDesktopClient/V44.1/InstallationGuide/InstallationInstructions.html">EMS Desktop Client</a>.</li>
-            <li>All previous versions of the EMS Room Sign App web application must be uninstalled.</li>
-            <li>The <a href="InstallRSA.html#Install_or_Upgrade_the_EMS_Room_Sign_App_API">EMS Room Sign App API</a> has been installed.&#160;The EMS Room Sign App API URL is required for the EMS Room Sign App web application installation.</li>
+            <li>You must uninstall all previous versions of the EMS Room Sign App web application.</li>
+            <li>For all versions prior to Update 30, the <a href="InstallRSA.html#Install_or_Upgrade_the_EMS_Room_Sign_App_API">EMS Room Sign App API</a> must be installed.&#160;The EMS Room Sign App API URL is required for the EMS Room Sign App web application installation.</li>
+            <li>An EMS user account with ‘<a href="InstallRSA.html#Create_an_EMS_Admin_User_to_Manage">EMS API Web Service Access</a>’ enabled. The user account is necessary&#160;to access the database.</li>
+        </ul>
+        <h3><a name="U30Prereqs"></a>Update 30 and Later</h3>
+        <ul class="unorder-list">
+            <li>You must have installed and configured the <a href="../../../EMSDesktopClient/V44.1/InstallationGuide/InstallationInstructions.html">EMS Desktop Client</a>.</li>
+            <li>You must uninstall all previous versions of the EMS Room Sign App web application.</li>
+            <li>For all versions prior to Update 30, the <a href="InstallRSA.html#Install_or_Upgrade_the_EMS_Room_Sign_App_API">EMS Room Sign App API</a> must be installed.&#160;The EMS Room Sign App API URL is required for the EMS Room Sign App web application installation.<p class="box-tip"><span class="boldAllCaps">Note:</span>&#160;As of Update 30, the EMSGlanceAPI.msi file is no longer required for installation because the API has been moved into the application to improve performance. </p></li>
             <li>An EMS user account with ‘<a href="InstallRSA.html#Create_an_EMS_Admin_User_to_Manage">EMS API Web Service Access</a>’ enabled. The user account is necessary&#160;to access the database.</li>
         </ul>
         <h2><a id="databaseserver" name="databaseserver"></a>EMS&#160;Database Server</h2>
-        <p>The EMS Room Sign App API is housed on a web server, which has specific&#160;requirements.</p>
         <MadCap:snippetBlock src="../../../EMS44.1SystemReq_DatabaseServer.flsnp" />
         <h2><a id="Webserver" name="Webserver"></a>EMS&#160;Web Server</h2>
+        <p>The EMS Room Sign web application is housed on a web server, which has specific requirements. </p>
+        <p class="box-important"><span class="boldAllCaps">Important:&#160;</span>As of Update 30, the Room Sign App API has moved into EMS Room Sign application to improve performance. The EMSGlanceAPI.msi file is no longer required for install.</p>
         <MadCap:snippetBlock src="../../../EMS44.1SystemReq_EMSWebServer.flsnp" />
         <h2><a name="EMSRoomSignApp"></a>ems room sign app Requirements</h2>
         <MadCap:snippetBlock src="../../../EMS44.1SystemReq_EMSRoomSignApp.flsnp" />
