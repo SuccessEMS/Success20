@@ -77,9 +77,17 @@
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
                         <p class="RNTitle">
                             <MadCap:annotation MadCap:createDate="2018-10-15T11:22:31.5925442-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Need to update the &quot;Install EMS Room Sign App&quot; topic because they no longer need to install API (or, will we need to keep the instructions for older versions of the software?). Also need to update the RSA sys req page. Also, update &quot;Obtain Installation Files for EMS Room Sign App&quot; and RSA Architecture." MadCap:editor="Megan.Laub" MadCap:editDate="2018-10-17T14:31:36.2214139-06:00">Moved EMS&#160;Room Sign API into Application to Improve Performance</MadCap:annotation> </p>
-                        <p class="RNBody">The API&#160;for EMS&#160;Room Sign App has been moved into the application (in a Data Access Layer)&#160;to improve performance. Installing or upgrading EMS&#160;Room Sign App no longer requires installation of <span class="bold">EMSGlanceAPI.msi</span>. </p>
+                        <p class="RNBody">The API&#160;for EMS&#160;Room Sign App has been moved into the application (in a Data Access Layer)&#160;to improve performance. Installing or upgrading EMS&#160;Room Sign App no longer requires installation of <span class="bold">EMSGlanceAPI.msi</span>. The EMS&#160;Room Sign application installer has been modified to ask for the server and database paths instead of the API URL. </p>
                         <p class="RNBody">Note that the <span class="italics">GetAPIVersion </span>call is no longer necessary and has been removed. </p>
-                        <p class="RNBody"><span class="bold">See Also:</span>&#160;<a href="../../../EMSRoomSignApp/44.1/InstallationGuide/InstallRSA.html">Install EMS&#160;Room Sign App</a>, <a href="../../../EMSRoomSignApp/44.1/InstallationGuide/RequirementsforRSA.html">Prerequisites &amp;&#160;Requirements for EMS&#160;Room Sign App</a>, and <a href="../../../EMSRoomSignApp/44.1/InstallationGuide/Architecture.html">Architecture for EMS Room Sign App</a></p>
+                        <p class="RNBody">Additionally, the following changes have been made to the EMS&#160;Room Sign App web.config file:</p>
+                        <ul class="RN-unorder-list">
+                            <li>removed EMSGlanceAPIURL key</li>
+                            <li>added JSONDateFormat Key (&lt;add key="JSONDateFormat" value="IsoDateFormat" /&gt;)</li>
+                            <li>added durationUsePrimaryDB (&lt;add key="durationUsePrimaryDB" value="5" /&gt;)</li>
+                            <li>added useEmsUser key (&lt;add key="useEmsUser" value="true" /&gt;)</li>
+                            <li>added connectionStrings section</li>
+                        </ul>
+                        <p class="RNBody"><span class="bold">See Also:</span>&#160;<a href="../../../EMSRoomSignApp/44.1/InstallationGuide/InstallRSA.html">Install EMS&#160;Room Sign App</a>, <a href="../../../EMSRoomSignApp/44.1/InstallationGuide/ObtainInstallFiles.html">Obtain the Installation Files</a>, <a href="../../../EMSRoomSignApp/44.1/InstallationGuide/RequirementsforRSA.html">Prerequisites &amp;&#160;Requirements for EMS&#160;Room Sign App</a>, and <a href="../../../EMSRoomSignApp/44.1/InstallationGuide/Architecture.html">Architecture for EMS Room Sign App</a></p>
                         <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=41516&amp;_a=edit&amp;triage=true" class="RNRefHyper" title="EMS Internal Use Only" alt="EMS Internal Use Only">41516</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
