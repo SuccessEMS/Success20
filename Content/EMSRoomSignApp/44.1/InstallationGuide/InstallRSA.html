@@ -93,7 +93,7 @@
                     <li><span class="bold">Prior to Update 30</span><![CDATA[  ]]><ol MadCap:continue="false" style="list-style-type: lower-alpha;"><li>When the EMS Room Sign App API Path screen appears, enter the URL of your EMS Room Sign App API Web Service.<p><span class="bold">Example:</span> http://[ServerName]/EMSGlanceAPI/service.asmx <br />(replace [ServerName] with the name of your web server)</p></li><li>Click <span class="bold">Next</span>. </li></ol></li>
                     <li><span class="bold">Update 30 or Later</span>
                         <ol MadCap:continue="false" style="list-style-type: lower-alpha;">
-                            <li>When the <MadCap:annotation MadCap:createDate="2018-11-01T13:14:09.7608326-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Can we provide more precise information here? Is there an exact name for this installer screen? Also, are the paths they need to enter for the RSA Web Server and the EMS Database?  Or, is this the SQL Server and EMS Database path?" MadCap:editor="Megan.Laub" MadCap:editDate="2018-11-01T13:15:05.1596325-06:00">Server and Database path screen appears</MadCap:annotation>, enter the server and database paths in the appropriate fields.</li>
+                            <li>When the EMS SQL&#160;Server Database Settings screen appears, enter your EMS SQL&#160;<span class="bold">Server&#160;</span>name and your EMS&#160;<span class="bold">Database</span>&#160;name in the appropriate fields.<p><img src="../Images/A_Installation/RSA_InstalRSA_ServerDatabase.png" title="EMS SQL&#160;Server Database Settings Screen" alt="EMS SQL&#160;Server Database Settings Screen of the EMS Room Sign App Installer" /></p></li>
                             <li>Click <span class="bold">Next</span>.</li>
                         </ol>
                     </li>
@@ -108,8 +108,40 @@
         <ol start="1" class="number-list">
             <li>Create&#160;the EMS Admin Account to be used for the EMS Room Sign App:
     <ol start="1" style="list-style-type: lower-alpha;"><li>Create a user account in EMS Desktop Client under <span class="bold">System Administration</span> &gt; <span class="bold">Security</span> &gt;&#160;<span class="bold">Users&#160;</span>(with any user name and password you choose).</li><li>Uncheck the <span class="bold">Administrator&#160;</span>box.</li><li>Then add the process&#160;<span class="bold">EMS API Web Service Access</span>&#160;to this account.</li></ol></li>
-            <li>Enter the user name and password for the account in the <MadCap:annotation MadCap:createDate="2018-11-01T13:15:33.6333218-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="In U30, the web.config file settings were updated. Can we provide an updated example in this step?" MadCap:editor="Megan.Laub" MadCap:editDate="2018-11-01T13:15:57.3757186-06:00">web.config file of the EMS Room Sign App settings, for example:</MadCap:annotation></li>
-        </ol><pre class="code-sample"><pre>&lt;appSettings&gt;</pre><blockquote><pre>&lt;add key="webpages:Version" value="2.0.0.0"/&gt;<br />&lt;add key="webpages:Enabled" value="false"/&gt;<br />&lt;add key="PreserveLoginUrl" value="true"/&gt;<br />&lt;add key="ClientValidationEnabled" value="true"/&gt;<br />&lt;add key="UnobtrusiveJavaScriptEnabled" value="true"/&gt;<br />&lt;add key="ClientValidationEnabled" value="true"/&gt;<br />&lt;add key="EMSGlanceAPIURL" value=""/&gt;<br /><span style="background-color: #ffff00;">&lt;add key="EmsUser" value="admin"/&gt;</span><br style="background-color: #ffff00;" /><span style="background-color: #ffff00;">&lt;add key="EmsPassword" value="admin"/&gt;</span></pre></blockquote></pre>
+            <li>Enter the user name and password for the account in the web.config file of the EMS Room Sign App settings (see the following example excerpt from the web.config file):<p class="box-note"><span class="boldAllCaps">Note:</span>&#160;In <a href="../../../V44.1_ReleaseNotes.htm#Update30">Update 30</a>, changes were made to the web.config file. If you are running a software version prior to Update 30, your web.config file may contain different values than the ones shown in the example below.</p></li>
+        </ol><pre class="code-sample"><pre>&lt;appSettings&gt;</pre><pre xml:space="preserve" style="margin-left: 20px;">&lt;add key="webpages:Version" value="2.0.0.0" /&gt; 
+&lt;add key="webpages:Enabled" value="false" /&gt; 
+&lt;add key="PreserveLoginUrl" value="true" /&gt; 
+&lt;add key="ClientValidationEnabled" value="true" /&gt; 
+&lt;add key="UnobtrusiveJavaScriptEnabled" value="true" /&gt; 
+&lt;add key="EmsUser" value="admin" /&gt; 
+<span style="background-color: #ffff00;">&lt;add key="EmsPassword" value="admin" /&gt;</span>
+&lt;add key="ShowDetailedErrors" value="true" /&gt; 
+&lt;!-- Set this pin to be used to access selecting the profile and room the 1st 
+time the application is launched on a device --&gt; 
+&lt;add key="LaunchPin" value="" /&gt; 
+&lt;add key="ExceptionHandlingSectionNode" value="glanceExceptionHandling" /&gt;
+&lt;add key="ValidateAntiForgery" value="false" /&gt; 
+&lt;add key="UseRelativeFilePaths" value="false" /&gt;
+&lt;add key="ForceTLS11AsMinimumProtocol" value="false" /&gt;
+&lt;!-- Set to INFO to enable trace logging of timing associated with the 
+most common actions - supported values:  "verbose" "debug" "info" "warning" 
+"error" "fatal" "none" --&gt; 
+&lt;add key="LogLevel" value="info" /&gt; 
+&lt;!-- File path to which trace logging data should be written --&gt; 
+&lt;add key="LogPath" value="" /&gt; 
+&lt;!-- Trace logging file size limit, in bytes --&gt; 
+&lt;add key="LogMaxFileSize" value="1073741824" /&gt; 
+&lt;!-- Max number of trace logging files to be retained --&gt; 
+&lt;add key="LogFileCountLimit" value="10" /&gt; 
+&lt;add key="UseJSON" value="true" /&gt; 
+&lt;!--IsoDateFormat or MicrosoftDateFormat --&gt; 
+&lt;add key="JSONDateFormat" value="IsoDateFormat" /&gt; 
+&lt;!-- durationUsePrimaryDB is the duration in minutes to call the primary 
+database to get bookings after a manual reservation is made from a Glance unit--&gt; 
+&lt;add key="durationUsePrimaryDB" value="5" /&gt; 
+<span style="background-color: #ffff00;">&lt;add key="useEmsUser" value="true" /&gt;</span>
+</pre><pre xml:space="preserve">&lt;/appSettings&gt;</pre></pre>
         <div class="box-tip">
             <p class="mt-indent-2" style="text-align: left;"><span class="bold">TIP FOR&#160;EMS&#160;CLOUD CUSTOMERS:</span> Modifications to the web.config file must be performed by EMS Cloud Operations. To request these changes, please <a href="../../../ContactUs.htm">contact EMS Support</a>.</p>
         </div>
