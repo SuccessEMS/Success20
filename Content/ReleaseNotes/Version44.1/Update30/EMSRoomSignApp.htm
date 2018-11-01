@@ -76,10 +76,11 @@
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p class="RNTitle">Moved EMS&#160;Room Sign API into Application to Improve Performance </p>
+                        <p class="RNTitle">
+                            <MadCap:annotation MadCap:createDate="2018-11-01T13:17:11.4073473-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="As of 11/1/2018 at 1:18 p.m., still waiting on Ankita for approval on this release note (added web.config file changes and that the installer has been updated)." MadCap:editor="Megan.Laub" MadCap:editDate="2018-11-01T13:18:25.1809864-06:00">Moved EMS&#160;Room Sign API into Application to Improve Performance</MadCap:annotation> </p>
                         <p class="RNBody">The API&#160;for EMS&#160;Room Sign App has been moved into the application (in a Data Access Layer)&#160;to improve performance. Installing or upgrading EMS&#160;Room Sign App no longer requires installation of <span class="bold">EMSGlanceAPI.msi</span>. The EMS&#160;Room Sign application installer has been modified to ask for the server and database paths instead of the API URL. </p>
                         <p class="RNBody">Note that the <span class="italics">GetAPIVersion </span>call is no longer necessary and has been removed. </p>
-                        <p class="RNBody">Additionally, the following changes have been made to the EMS&#160;Room Sign App web.config file:</p>
+                        <p class="RNBody">Additionally, the following changes have been made to the EMS&#160;Room Sign App <span class="italics">web.config</span> file:</p>
                         <ul class="RN-unorder-list">
                             <li>removed EMSGlanceAPIURL key</li>
                             <li>added JSONDateFormat Key (&lt;add key="JSONDateFormat" value="IsoDateFormat" /&gt;)</li>
