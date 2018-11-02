@@ -19,7 +19,7 @@
     ExpandingTextConversion="expand"
     PopupConversion="remove-body"
     GenerateTOCProxy="false"
-    EnableTrackedChanges="true" />
+    EnableTrackedChanges="false" />
   <DocumentProperties
     Title="Draft"
     Author="EMS Software" />
