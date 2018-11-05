@@ -2,15 +2,9 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="Requirements for the EMS Room Sign App"
-    Link="/Content/EMSRoomSignApp/44.1/InstallationGuide/RequirementsforRSA.html" />
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/ReleaseNotes/Version44.1/Update30/EMSMobileApp_KnownIssues.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
   <TocEntry
-    Title="Obtain the Installation Files for EMS Room Sign"
-    Link="/Content/EMSRoomSignApp/44.1/InstallationGuide/ObtainInstallFiles.html" />
-  <TocEntry
-    Title="Architecture for the EMS Room Sign App"
-    Link="/Content/EMSRoomSignApp/44.1/InstallationGuide/Architecture.html" />
-  <TocEntry
-    Title="Install the EMS Room Sign App"
-    Link="/Content/EMSRoomSignApp/44.1/InstallationGuide/InstallRSA.html" />
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/ReleaseNotes/Version44.1/Update30/EMSRoomSignApp_Known_Issues.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
 </CatapultToc>
