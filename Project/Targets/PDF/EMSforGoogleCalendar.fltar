@@ -1,26 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CatapultTarget
   Version="2"
-  Comment="EMS G Suite Integration"
-  Type="PDF"
+  Comment="EMS for Google Calendar"
+  Type="MsWord"
   Destinations=""
   GlossaryTermConversion="marked"
   MasterToc="/Project/TOCs/EMSforGoogleCalendar.fltoc"
-  ConditionTagExpression="include[&quot;General.Print Only&quot;] exclude[General.Edit_in_Review or &quot;General.Online Only&quot;] "
+  ConditionTagExpression="include[&quot;General.Print Only&quot;] exclude[&quot;General.Online Only&quot;] "
   PatchHeadingLevels="false"
   InjectEmptyPages="false"
   UseLocalBuildSettings="true"
   IgnoredCompilerWarnings="20032,20033,20034,20035,20036,20037,20038,20039,20040,20041"
+  EmbedImages="true"
+  MasterPageLayout="/Content/Resources/PageLayouts/PreviewRN/PrevChapters.flpgl"
+  RemoveImagesFromHeadings="false"
   MasterStylesheet="/Content/Resources/Stylesheets/MainStyles.css"
-  MasterPageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
-  EmbedImages="true">
+  InjectBookHeadings="false">
   <PrintedOutput
     CollapseMargins="true"
     ExpandingTextConversion="expand"
     PopupConversion="remove-body"
-    GenerateTOCProxy="false" />
+    GenerateTOCProxy="false"
+    EnableTrackedChanges="false"
+    DisableMasterPageUsage="false" />
   <DocumentProperties
-    Title="EMS Platform Services Installation &amp; Configuration Guide"
+    Title="Preview Draft"
     Author="EMS Software" />
   <PDF
     ShowUsedBookmarks="false"
