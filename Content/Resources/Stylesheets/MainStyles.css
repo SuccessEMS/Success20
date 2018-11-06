@@ -2321,7 +2321,7 @@ p.table-important
 	height: 24px;
 }
 
-/**Style for <p> tags when Notifications are within a <div> **/
+/**Style for <p> tags within Notification within <div> tags **/
 
 .box-note p, .box-tip p, .box-important p, .box-warning p
 {
