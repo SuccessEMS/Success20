@@ -2,15 +2,6 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="Requirements for the EMS Room Sign App"
-    Link="/Content/EMSRoomSignApp/44.1/InstallationGuide/RequirementsforRSA.html" />
-  <TocEntry
-    Title="Obtain the Installation Files for EMS Room Sign"
-    Link="/Content/EMSRoomSignApp/44.1/InstallationGuide/ObtainInstallFiles.html" />
-  <TocEntry
-    Title="Architecture for the EMS Room Sign App"
-    Link="/Content/EMSRoomSignApp/44.1/InstallationGuide/Architecture.html" />
-  <TocEntry
-    Title="Install the EMS Room Sign App"
-    Link="/Content/EMSRoomSignApp/44.1/InstallationGuide/InstallRSA.html" />
+    Title="ReleaseNotes_30.1"
+    Link="/Content/ReleaseNotes/Version44.1/Update30.1/EMSPlatformServices.htm" />
 </CatapultToc>
