@@ -2,6 +2,26 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="Configure EMS for Google Calendar"
-    Link="/Content/GoogleSuiteIntegration/ConfigGoogleCalendar.htm"></TocEntry>
+    Title="EMS for Google Calendar">
+    <TocEntry
+      Title="Installation Guide"
+      Link="/Content/GoogleSuiteIntegration/IntroInstallation.htm" />
+    <TocEntry
+      Title="Configuration Guide"
+      Link="/Content/GoogleSuiteIntegration/ConfigGoogleCalendar.htm">
+      <TocEntry
+        Title="Authentication"
+        Link="/Content/GoogleSuiteIntegration/Authentication.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="User Guide"
+      Link="/Content/GoogleSuiteIntegration/IntroGoogleCalendarUserGuide.htm">
+      <TocEntry
+        Title="Conflict Resolution"
+        Link="/Content/GoogleSuiteIntegration/ConflictResolution.htm" />
+      <TocEntry
+        Title="Authorize URLs for Subscribing to Events"
+        Link="/Content/GoogleSuiteIntegration/AuthURLsforSubscribingtoEvents.htm" />
+    </TocEntry>
+  </TocEntry>
 </CatapultToc>
