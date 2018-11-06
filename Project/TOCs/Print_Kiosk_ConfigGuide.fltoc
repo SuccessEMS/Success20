@@ -14,7 +14,12 @@
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="reset"
-      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/TOC8_5X11.flpgl"></TocEntry>
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/TOC8_5X11.flpgl"
+      AutoEndOnLeftPage="disabled"
+      PageNumber="1"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue"></TocEntry>
     <TocEntry
       Title="Introduction to EMS Kiosk App"
       Link="/Content/ConfigGuides/6_EMS Kiosk (V44.1) Configuration Guide.htm"
@@ -26,7 +31,8 @@
       ChapterNumber="1"
       PageNumber="1"
       SectionNumberReset="continue"
-      VolumeNumberReset="same"></TocEntry>
+      VolumeNumberReset="same"
+      AutoEndOnLeftPage="disabled"></TocEntry>
     <TocEntry
       Title="Configure EMS Kiosk App Profiles"
       Link="/Content/EMSKioskApp/V44.1/ConfigurationGuide/ConfigKioskAppProfiles.htm"
@@ -36,7 +42,8 @@
       PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
       SectionNumberReset="continue"
       VolumeNumberReset="same"
-      ChapterNumberReset="continue" />
+      ChapterNumberReset="continue"
+      AutoEndOnLeftPage="disabled" />
     <TocEntry
       Title="Configure EMS Kiosk App Menus"
       Link="/Content/EMSKioskApp/V44.1/ConfigurationGuide/ConfigKioskAppMenus.htm"
@@ -46,7 +53,8 @@
       PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
       SectionNumberReset="continue"
       VolumeNumberReset="same"
-      ChapterNumberReset="continue" />
+      ChapterNumberReset="continue"
+      AutoEndOnLeftPage="disabled" />
     <TocEntry
       Title="Customize the Logo and Background in the EMS Kiosk App"
       Link="/Content/EMSKioskApp/V44.1/ConfigurationGuide/CustomizeLogoBackground.htm"
@@ -55,6 +63,7 @@
       PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
       SectionNumberReset="continue"
       VolumeNumberReset="same"
-      ChapterNumberReset="continue" />
+      ChapterNumberReset="continue"
+      AutoEndOnLeftPage="disabled" />
   </TocEntry>
 </CatapultToc>
