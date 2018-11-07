@@ -2,15 +2,6 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="[%=System.LinkedTitle%]"
-    Link="/Content/ReleaseNotes/Version44.1/Update30/EMSDesktopClient_KnownIssues.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-  <TocEntry
-    Title="[%=System.LinkedTitle%]"
-    Link="/Content/ReleaseNotes/Version44.1/Update30/EMSDesktopClient_AcadPlan_KnownIssues.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-  <TocEntry
-    Title="[%=System.LinkedTitle%]"
-    Link="/Content/ReleaseNotes/Version44.1/Update30/EMSforOutlook_KnownIssues.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-  <TocEntry
-    Title="[%=System.LinkedTitle%]"
-    Link="/Content/ReleaseNotes/Version44.1/Update30/ExchangeIntegWebServ_Known_Issues.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    Title="Update 30.2"
+    Link="/Content/ReleaseNotes/Version44.1/Update30.2/EMSforOutlook.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
 </CatapultToc>
