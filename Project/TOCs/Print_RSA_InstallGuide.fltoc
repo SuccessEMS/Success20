@@ -21,7 +21,7 @@
       VolumeNumberReset="same"
       ChapterNumberReset="continue">
       <TocEntry
-        Title="EMS Room Sign App (formerly Glance)"
+        Title="Introduction to EMS Room Sign App (formerly Glance)"
         Link="/Content/InstallGuides/8_RoomSignAppV44.1/8_RoomSignAppHome.htm"
         BreakType="chapter"
         PageNumberReset="reset"
