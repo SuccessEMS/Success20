@@ -2,26 +2,82 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="EMS for Google Calendar">
+    Title="EMS for Google Calendar"
+    Link="/Content/Print/EMSGSuiteIntegration.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Title8_5X11.flpgl">
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Print Only Topics/TOC.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/TOC8_5X11.flpgl" />
     <TocEntry
       Title="Installation Guide"
-      Link="/Content/GoogleSuiteIntegration/IntroInstallation.htm" />
+      Link="/Content/GoogleSuiteIntegration/IntroInstallation.htm"
+      BreakType="chapter"
+      PageNumberReset="reset"
+      ChapterNumberReset="reset"
+      ChapterNumber="1"
+      StartSection="false"
+      PageNumber="1"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same" />
     <TocEntry
       Title="Configuration Guide"
-      Link="/Content/GoogleSuiteIntegration/ConfigGoogleCalendar.htm">
+      Link="/Content/GoogleSuiteIntegration/ConfigGoogleCalendar.htm"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue">
       <TocEntry
         Title="Authentication"
-        Link="/Content/GoogleSuiteIntegration/Authentication.htm" />
+        Link="/Content/GoogleSuiteIntegration/Authentication.htm"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
     </TocEntry>
     <TocEntry
       Title="User Guide"
-      Link="/Content/GoogleSuiteIntegration/IntroGoogleCalendarUserGuide.htm">
+      Link="/Content/GoogleSuiteIntegration/IntroGoogleCalendarUserGuide.htm"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue">
       <TocEntry
         Title="Conflict Resolution"
-        Link="/Content/GoogleSuiteIntegration/ConflictResolution.htm" />
+        Link="/Content/GoogleSuiteIntegration/ConflictResolution.htm"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
       <TocEntry
         Title="Authorize URLs for Subscribing to Events"
-        Link="/Content/GoogleSuiteIntegration/AuthURLsforSubscribingtoEvents.htm" />
+        Link="/Content/GoogleSuiteIntegration/AuthURLsforSubscribingtoEvents.htm"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
     </TocEntry>
   </TocEntry>
 </CatapultToc>

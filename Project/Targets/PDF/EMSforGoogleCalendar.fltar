@@ -2,7 +2,7 @@
 <CatapultTarget
   Version="2"
   Comment="EMS for Google Calendar"
-  Type="MsWord"
+  Type="PDF"
   Destinations=""
   GlossaryTermConversion="marked"
   MasterToc="/Project/TOCs/EMSforGoogleCalendar.fltoc"
@@ -24,7 +24,7 @@
     EnableTrackedChanges="false"
     DisableMasterPageUsage="false" />
   <DocumentProperties
-    Title="Preview Draft"
+    Title="EMS for Google Calendar"
     Author="EMS Software" />
   <PDF
     ShowUsedBookmarks="false"
