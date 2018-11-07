@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\emsroomSignApp.flmsp');">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../Resources/MasterPages/emsroomSignApp.flmsp');">
     <head>
-        <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" />
-        <title mt-export-translate="no">Configuring New Booking Functionality in the EMS Room Sign App</title>
+        <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title mt-export-translate="no">Configure New Booking Functionality in the EMS Room Sign App (V44.1)</title>
         <meta name="mt-type" value="application/x.deki-text" />
         <meta name="mt-unsafe" value="true" />
     </head>
     <body>
         <h1 MadCap:autonum="CHAPTER&#160;1: ">
-            <MadCap:concept term="V44.1" />Configure New Booking Functionality in EMS Room Sign App</h1>
+            <MadCap:concept term="V44.1" />Configure New Booking Functionality</h1>
+        <p>To configure new booking functionality in EMS&#160;Room Sign App, complete the following steps:</p>
         <ol class="number-list">
             <li>On the <MadCap:variable name="General.EMS&#160;Desktop Client" /> toolbar, click <span class="bold">EMS&#160;Glance Settings</span> to access the <MadCap:variable name="General.RSA" /> Settings area.&#160;<div class="box-note"><p><span class="boldAllCaps">Note:</span> You can set how information displays at the Global level (the default for all Profiles) or for just one Profile.&#160;</p></div></li>
             <li>Open Global Settings&#160;to set this functionality as the default for all Profiles,&#160;<em>or</em>&#160;open a Profile&#160;for which you want to create a special display,&#160;and then edit the settings on the <span class="bold">Settings </span>tab.</li>
@@ -56,8 +56,7 @@
                     </td>
                     <td data-th="Description" class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
                         <p>Indicates if a room can be booked for a future time on the&#160;<i>current</i>&#160;day. If set to&#160;<span class="bold">No</span>, the <span class="bold">Start Down</span> dropdown on the Reserve popup is disabled.</p>
-                        <p>
-                            <span class="bold">Note:</span> Currently, the EMS Room Sign App supports only same day bookings.</p>
+                        <p><span class="bold">Note:</span> Currently, the EMS Room Sign App supports only same day bookings.</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
@@ -66,8 +65,7 @@
                     </td>
                     <td data-th="Description" class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
                         <p>The default duration for booking the room, in minutes, where the start time is the current time. For example, if you enter 60 for this value and the current time is 8:00 am, then the default start/end time on the Reserve popup will be 8:00 to 9:00 am.</p>
-                        <p>
-                            <span class="bold">Note:</span> The Default Duration value must not be larger than the&#160;Maximum Number of Minutes for New Booking&#160;value.</p>
+                        <p><span class="bold">Note:</span> The Default Duration value must not be larger than the&#160;Maximum Number of Minutes for New Booking&#160;value.</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
@@ -84,8 +82,7 @@
                     </td>
                     <td data-th="Description" class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
                         <p>The default name for an event when booking a room. The <span class="bold">Event Name</span> field is always displayed on the Reserve popup.&#160;</p>
-                        <p>
-                            <span class="bold">Note:</span> If&#160;Require Event Name for New Booking&#160;is set to&#160;<span class="bold">Yes</span>, then <span class="bold">Default Event Name</span> for New Booking should be left blank.</p>
+                        <p><span class="bold">Note:</span> If&#160;Require Event Name for New Booking&#160;is set to&#160;<span class="bold">Yes</span>, then <span class="bold">Default Event Name</span> for New Booking should be left blank.</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
@@ -94,8 +91,7 @@
                     </td>
                     <td data-th="Description" class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
                         <p>The default <span class="bold">Event Type</span> when booking a room.</p>
-                        <p>
-                            <span class="bold">Note:</span> The <span class="bold">Event Type</span> field is not displayed on the Reserve popup.</p>
+                        <p><span class="bold">Note:</span> The <span class="bold">Event Type</span> field is not displayed on the Reserve popup.</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
@@ -104,8 +100,7 @@
                     </td>
                     <td data-th="Description" class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
                         <p>The default Reservation Source when booking a room.</p>
-                        <p>
-                            <span class="bold">Note:</span> The <span class="bold">Reservation Source</span> field is not displayed on the Reserve popup.</p>
+                        <p><span class="bold">Note:</span> The <span class="bold">Reservation Source</span> field is not displayed on the Reserve popup.</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
@@ -114,8 +109,7 @@
                     </td>
                     <td data-th="Description" class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
                         <p>The default Status when booking a room.</p>
-                        <p>
-                            <span class="bold">Note:</span> The <span class="bold">Status</span> field is not displayed on the Reserve popup.</p>
+                        <p><span class="bold">Note:</span> The <span class="bold">Status</span> field is not displayed on the Reserve popup.</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
@@ -128,30 +122,42 @@
                 </tr>
             </tbody>
         </table>
-        <p class="title">Reserve Popup (Opens after the Reserve button is pushed on the Available screen)</p>
-        <p>
-            <img src="../Images/B_Configuration/RSA_UgConfigNewBookFunct_ReservePopup.png" />
-        </p>
-        <p>See Also:&#160;<a href="Authentication.htm#GroupIdentification">Group Identification/Authentication Settings</a>.</p>
-        <p class="title">Reserve Popup (No Identification)</p>
-        <p>
-            <img src="../Images/B_Configuration/RSA_UgConfigNewBookFunct_ReservePopupNoIdentification.png" />
-        </p>
-        <p class="title">Group Lookup Authentication</p>
-        <p>
-            <img src="../Images/B_Configuration/RSA_UgConfigNewBookFunct_GroupLookup.png" />
-        </p>
-        <p class="title">Group Lookup (Matching Search Results from which to Select)</p>
-        <p>
-            <img src="../Images/B_Configuration/RSA_UgConfigNewBookFunct_GroupLookupSearchResults.png" />
-        </p>
-        <p class="title">Authentication without Password</p>
-        <p>
-            <img src="../Images/B_Configuration/RSA_UgConfigNewBookFunct_AuthWithoutPass.png" />
-        </p>
-        <p class="title">Authentication with Password</p>
-        <p>
-            <img src="../Images/B_Configuration/RSA_UgConfigNewBookFunct_AuthWithPass.png" />
-        </p>
+        <div class="TitleandImage">
+            <p class="title">Reserve Popup (Opens after the Reserve button is pushed on the Available screen)</p>
+            <p>
+                <img src="../Images/B_Configuration/RSA_UgConfigNewBookFunct_ReservePopup.png" class="PDFlarge" />
+            </p>
+            <p>See Also:&#160;<a href="Authentication.htm#GroupIdentification">Group Identification/Authentication Settings</a>.</p>
+        </div>
+        <div class="TitleandImage">
+            <p class="title">Reserve Popup (No Identification)</p>
+            <p>
+                <img src="../Images/B_Configuration/RSA_UgConfigNewBookFunct_ReservePopupNoIdentification.png" class="PDFlarge" />
+            </p>
+        </div>
+        <div class="TitleandImage">
+            <p class="title">Group Lookup Authentication</p>
+            <p>
+                <img src="../Images/B_Configuration/RSA_UgConfigNewBookFunct_GroupLookup.png" class="PDFlarge" />
+            </p>
+        </div>
+        <div class="TitleandImage">
+            <p class="title">Group Lookup (Matching Search Results from which to Select)</p>
+            <p>
+                <img src="../Images/B_Configuration/RSA_UgConfigNewBookFunct_GroupLookupSearchResults.png" class="PDFlarge" />
+            </p>
+        </div>
+        <div class="TitleandImage">
+            <p class="title">Authentication without Password</p>
+            <p>
+                <img src="../Images/B_Configuration/RSA_UgConfigNewBookFunct_AuthWithoutPass.png" class="PDFlarge" />
+            </p>
+        </div>
+        <div class="TitleandImage">
+            <p class="title">Authentication with Password</p>
+            <p>
+                <img src="../Images/B_Configuration/RSA_UgConfigNewBookFunct_AuthWithPass.png" class="PDFlarge" />
+            </p>
+        </div>
     </body>
 </html>

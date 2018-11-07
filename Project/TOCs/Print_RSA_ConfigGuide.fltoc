@@ -7,14 +7,16 @@
     BreakType="chapter"
     StartSection="false"
     PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Title8_5X11.flpgl"
-    PageNumberReset="continue">
+    PageNumberReset="continue"
+    AutoEndOnLeftPage="disabled">
     <TocEntry
       Title="[%=System.LinkedTitle%]"
       Link="/Content/Print Only Topics/TOC.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
-      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/TOC8_5X11.flpgl">
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/TOC8_5X11.flpgl"
+      AutoEndOnLeftPage="disabled">
       <TocEntry
         Title="EMS Room Sign App"
         Link="/Content/EMSRoomSignApp/44.1/ConfigurationGuide/Introduction.htm"
@@ -26,7 +28,8 @@
         ChapterNumber="1"
         PageNumber="1"
         SectionNumberReset="continue"
-        VolumeNumberReset="same"></TocEntry>
+        VolumeNumberReset="same"
+        AutoEndOnLeftPage="disabled"></TocEntry>
       <TocEntry
         Title="Best Practices for Device Configuration"
         Link="/Content/EMSRoomSignApp/44.1/ConfigurationGuide/BestPractDeviceConfSteps.htm"
@@ -36,7 +39,8 @@
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
         SectionNumberReset="continue"
         VolumeNumberReset="same"
-        ChapterNumberReset="continue" />
+        ChapterNumberReset="continue"
+        AutoEndOnLeftPage="disabled" />
       <TocEntry
         Title="Configure the EMS Room Sign App"
         Link="/Content/EMSRoomSignApp/44.1/ConfigurationGuide/Configuration.html"
@@ -46,7 +50,8 @@
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
         SectionNumberReset="continue"
         VolumeNumberReset="same"
-        ChapterNumberReset="continue" />
+        ChapterNumberReset="continue"
+        AutoEndOnLeftPage="disabled" />
       <TocEntry
         Title="Configure Profiles"
         Link="/Content/EMSRoomSignApp/44.1/ConfigurationGuide/ConfigProfile.html"
@@ -56,7 +61,8 @@
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
         SectionNumberReset="continue"
         VolumeNumberReset="same"
-        ChapterNumberReset="continue" />
+        ChapterNumberReset="continue"
+        AutoEndOnLeftPage="disabled" />
       <TocEntry
         Title="Configure Check In Functionality "
         Link="/Content/EMSRoomSignApp/44.1/ConfigurationGuide/ConfigCheckInFunct.html"
@@ -66,7 +72,8 @@
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
         SectionNumberReset="continue"
         VolumeNumberReset="same"
-        ChapterNumberReset="continue" />
+        ChapterNumberReset="continue"
+        AutoEndOnLeftPage="disabled" />
       <TocEntry
         Title="Configure Edit Booking Functionality"
         Link="/Content/EMSRoomSignApp/44.1/ConfigurationGuide/ConfigEditBookFunct.html"
@@ -76,7 +83,8 @@
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
         SectionNumberReset="continue"
         VolumeNumberReset="same"
-        ChapterNumberReset="continue" />
+        ChapterNumberReset="continue"
+        AutoEndOnLeftPage="disabled" />
       <TocEntry
         Title="Configure How Booking Information Displays"
         Link="/Content/EMSRoomSignApp/44.1/ConfigurationGuide/ConfigHowBookInfoDisplay.html"
@@ -86,7 +94,8 @@
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
         SectionNumberReset="continue"
         VolumeNumberReset="same"
-        ChapterNumberReset="continue" />
+        ChapterNumberReset="continue"
+        AutoEndOnLeftPage="disabled" />
       <TocEntry
         Title="Configure New Booking Functionality"
         Link="/Content/EMSRoomSignApp/44.1/ConfigurationGuide/ConfigNewBookFunct.html"
@@ -96,7 +105,8 @@
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
         SectionNumberReset="continue"
         VolumeNumberReset="same"
-        ChapterNumberReset="continue" />
+        ChapterNumberReset="continue"
+        AutoEndOnLeftPage="disabled" />
       <TocEntry
         Title="Configure Custom Labels, Messages, and Images"
         Link="/Content/EMSRoomSignApp/44.1/ConfigurationGuide/CustomLabelsMessImage.html"
@@ -106,14 +116,16 @@
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
         SectionNumberReset="continue"
         VolumeNumberReset="same"
-        ChapterNumberReset="continue" />
+        ChapterNumberReset="continue"
+        AutoEndOnLeftPage="disabled" />
       <TocEntry
         Title="Global Settings"
         Link="/Content/EMSRoomSignApp/44.1/ConfigurationGuide/GlobalSettings.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
-        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/ChaptersLandscape8_5X11.flpgl" />
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/ChaptersLandscape8_5X11.flpgl"
+        AutoEndOnLeftPage="disabled" />
     </TocEntry>
   </TocEntry>
 </CatapultToc>
