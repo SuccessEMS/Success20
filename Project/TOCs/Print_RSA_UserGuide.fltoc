@@ -7,17 +7,19 @@
     BreakType="chapter"
     StartSection="false"
     PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Title8_5X11.flpgl"
-    PageNumberReset="continue">
+    PageNumberReset="continue"
+    AutoEndOnLeftPage="disabled">
     <TocEntry
       Title="[%=System.LinkedTitle%]"
       Link="/Content/Print Only Topics/TOC.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
-      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/TOC8_5X11.flpgl">
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/TOC8_5X11.flpgl"
+      AutoEndOnLeftPage="disabled">
       <TocEntry
         Title="EMS Room Sign App (formerly Glance)"
-        Link="/Content/UserGuides/8_EMSRoomSignApp_UG.htm"
+        Link="/Content/EMSRoomSignApp/44.1/UserGuide/Introduction.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="reset"
@@ -26,7 +28,8 @@
         ChapterNumber="1"
         PageNumber="1"
         SectionNumberReset="continue"
-        VolumeNumberReset="same"></TocEntry>
+        VolumeNumberReset="same"
+        AutoEndOnLeftPage="disabled"></TocEntry>
       <TocEntry
         Title="Introduction to EMS Room Sign App"
         Link="/Content/EMSRoomSignApp/44.1/UserGuide/Introduction.html"
@@ -36,7 +39,8 @@
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
         SectionNumberReset="continue"
         VolumeNumberReset="same"
-        ChapterNumberReset="continue" />
+        ChapterNumberReset="continue"
+        AutoEndOnLeftPage="disabled" />
       <TocEntry
         Title="Best Practices for Using EMS Room Sign App"
         Link="/Content/EMSRoomSignApp/44.1/UserGuide/BestPracticesforUsing.html"
@@ -46,7 +50,8 @@
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
         SectionNumberReset="continue"
         VolumeNumberReset="same"
-        ChapterNumberReset="continue" />
+        ChapterNumberReset="continue"
+        AutoEndOnLeftPage="disabled" />
       <TocEntry
         Title="Get Started with EMS Room Sign App"
         Link="/Content/EMSRoomSignApp/44.1/UserGuide/GettingStarted.html"
@@ -56,7 +61,8 @@
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
         SectionNumberReset="continue"
         VolumeNumberReset="same"
-        ChapterNumberReset="continue" />
+        ChapterNumberReset="continue"
+        AutoEndOnLeftPage="disabled" />
       <TocEntry
         Title="Deploying the EMS Room Sign App on Tablets"
         Link="/Content/EMSRoomSignApp/44.1/UserGuide/DeployingonTablet.html"
@@ -66,7 +72,8 @@
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
         SectionNumberReset="continue"
         VolumeNumberReset="same"
-        ChapterNumberReset="continue" />
+        ChapterNumberReset="continue"
+        AutoEndOnLeftPage="disabled" />
       <TocEntry
         Title="Set Up EMS Room Sign App to Demo on a Desktop Browser (Update 12+)"
         Link="/Content/EMSRoomSignApp/44.1/UserGuide/SettingUpRSAtoDemo.html"
@@ -76,7 +83,8 @@
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
         SectionNumberReset="continue"
         VolumeNumberReset="same"
-        ChapterNumberReset="continue" />
+        ChapterNumberReset="continue"
+        AutoEndOnLeftPage="disabled" />
     </TocEntry>
   </TocEntry>
 </CatapultToc>
