@@ -2,6 +2,63 @@
 <CatapultToc
   Version="1">
   <TocEntry
+    Title="Configuration &gt; Billing"
+    Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigBilling.htm">
+    <TocEntry
+      Title="Configure Rate Schedules"
+      Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigRateSchedule.htm" />
+    <TocEntry
+      Title="Configure Pricing Plans"
+      Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigPricingPlan.htm" />
+    <TocEntry
+      Title="Export Pricing Information for Billable Items (Rooms &amp; Resources)"
+      Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ExportPricingInfoBillableItems.htm" />
+    <TocEntry
+      Title="Configure Calculations"
+      Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigCalc.htm" />
+    <TocEntry
+      Title="Configure Accounts"
+      Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigAccount.htm" />
+    <TocEntry
+      Title="Configure Payment Types"
+      Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigPaymentType.htm" />
+    <TocEntry
+      Title="Configure Sales Categories"
+      Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigSalesCat.htm" />
+    <TocEntry
+      Title="Configure Billing References and PO Numbers"
+      Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigBillRefPO.htm" />
+    <TocEntry
+      Title="Establishing Billing Reference and PO Behavior"
+      Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/EstablishBillingRef.htm" />
+    <TocEntry
+      Title="Configure Currencies"
+      Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigCurrencies.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Other Reservation Functions"
+    Link="/Content/EMSDesktopClient/V44.1/UserGuide/OtherResFunctions.html">
+    <TocEntry
+      Title="Record Actual Attendance Numbers for Bookings"
+      Link="/Content/EMSDesktopClient/V44.1/UserGuide/RecActAttend.html" />
+    <TocEntry
+      Title="Manage Attendees and Visitors"
+      Link="/Content/EMSDesktopClient/V44.1/UserGuide/ManageAttendeesVisitor.html">
+      <TocEntry
+        Title="View Visitors"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/ViewVisitors.htm" />
+      <TocEntry
+        Title="Check In Visitors"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/CheckInVisitors.htm" />
+      <TocEntry
+        Title="Import a List of Visitors"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/ImportListVis.html"></TocEntry>
+      <TocEntry
+        Title="Generate Attendee Visitor Reports"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/GenVisitorRep.html" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
     Title="Configuration &gt; Resources"
     Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/OverviewConfigRes.html"
     BreakType="chapter"
@@ -124,6 +181,6 @@
       PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
       SectionNumberReset="continue"
       VolumeNumberReset="same"
-      ChapterNumberReset="continue" />
+      ChapterNumberReset="continue"></TocEntry>
   </TocEntry>
 </CatapultToc>

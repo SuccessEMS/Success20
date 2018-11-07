@@ -2,7 +2,7 @@
 <CatapultTarget
   Version="2"
   Comment="EMS Room Sign App Installation Guide"
-  Type="MsWord"
+  Type="PDF"
   Destinations=""
   GlossaryTermConversion="marked"
   MasterToc="/Project/TOCs/Print_RSA_InstallGuide.fltoc"
@@ -25,7 +25,7 @@
     ShowUsedBookmarks="false"
     InitialMagnification="100"
     PageLayout="SinglePage"
-    TitleBar="DocumentTitle"
+    TitleBar="FileName"
     CollapsedBookmarks="true"
     CropAndRegistrationMarks="false"
     ConvertToCMYK="true"

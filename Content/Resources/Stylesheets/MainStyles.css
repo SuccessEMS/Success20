@@ -2213,6 +2213,7 @@ p.table-important
 }
 
 /*********************End Note Box Links**************/
+
 /* **********************    Notification Box Combo    ***********************************  */
 
 .box-note
@@ -2227,7 +2228,6 @@ p.table-important
 	border-radius: 4px;
 	border-color: #afbd22;
 	margin-bottom: 30px;
-	page-break-inside: avoid;
 }
 
 .box-tip
@@ -2242,7 +2242,6 @@ p.table-important
 	border-radius: 4px;
 	border-color: #00477f;
 	margin-bottom: 30px;
-	page-break-inside: avoid;
 }
 
 .box-important
@@ -2257,7 +2256,6 @@ p.table-important
 	border-radius: 4px;
 	border-color: #f6c343;
 	margin-bottom: 30px;
-	page-break-inside: avoid;
 }
 
 .box-warning
@@ -2272,10 +2270,9 @@ p.table-important
 	border-radius: 4px;
 	border-color: #ee2e23;
 	margin-bottom: 30px;
-	page-break-inside: avoid;
 }
 
-/**Add Icons to Note, Tip, Important, and Warning **/
+/**Add Icons to Notifications **/
 .box-note:before
 {
 	position: absolute;
@@ -2324,73 +2321,31 @@ p.table-important
 	height: 24px;
 }
 
-/**Style for <p> tags when notes are within a Div **/
+/**Style for <p> tags within Notification within <div> tags **/
 
-.box-note p
+.box-note p, .box-tip p, .box-important p, .box-warning p
 {
 	line-height: 30px;
 	font-size: 16px;
 	font-weight: 400;
+}
+
+.box-note p:last-child, .box-tip p:last-child, .box-important p:last-child, .box-warning p:last-child
+{
 	padding-bottom: 0;
 }
 
-.box-tip p
+/**Style when Notifications class is applied to <p> tags instead of <div> 
+
+p.box-note, p.box-tip, p.box-important, p.box-warning
 {
 	line-height: 30px;
 	font-size: 16px;
 	font-weight: 400;
-	padding-bottom: 0;
-}
+	padding-top: 20px;
+	padding-bottom: 20px;
+}**/
 
-.box-important p
-{
-	line-height: 30px;
-	font-size: 16px;
-	font-weight: 400;
-	padding-bottom: 0;
-}
-
-.box-warning p
-{
-	line-height: 30px;
-	font-size: 16px;
-	font-weight: 400;
-	padding-bottom: 0;
-}
-
-/**<p> note styles might be obsolete; need to verify**/
-
-p.box-note
-{
-	line-height: 30px;
-	font-size: 16px;
-	font-weight: 400;
-	page-break-inside: avoid;
-}
-
-p.box-tip
-{
-	line-height: 30px;
-	font-size: 16px;
-	font-weight: 400;
-	page-break-inside: avoid;
-}
-
-p.box-important
-{
-	line-height: 30px;
-	font-size: 16px;
-	font-weight: 400;
-	page-break-inside: avoid;
-}
-
-p.box-warning
-{
-	line-height: 30px;
-	font-size: 16px;
-	font-weight: 400;
-	page-break-inside: avoid;
-}
 /**End <p> notes**/
 
 /****
@@ -3209,6 +3164,14 @@ p.PDFh1
 	pre
 	{
 		font-size: 14px;
+	}
+
+	
+/**Avoid page break in Box Notes**/
+
+.box-note, .box-tip, .box-important, .box-warning
+	{
+		page-break-inside: avoid;
 	}
 
 	/********Print Body Styles

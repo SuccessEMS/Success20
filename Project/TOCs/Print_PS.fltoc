@@ -16,14 +16,22 @@
     BreakType="chapter"
     StartSection="false"
     PageNumberReset="continue"
-    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/TOC8_5X11.flpgl">
+    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/TOC8_5X11.flpgl"
+    AutoEndOnLeftPage="disabled"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue">
     <TocEntry
       Title="Introduction to EMS Platform Services"
       Link="/Content/EMSPlatformServices/InstallationGuide/Introduction.html"
       BreakType="chapter"
       PageNumberReset="reset"
       StartSection="false"
-      PageNumber="1" />
+      PageNumber="1"
+      ChapterNumberReset="reset"
+      ChapterNumber="1"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same" />
     <TocEntry
       Title="Architecture"
       Link="/Content/EMSPlatformServices/InstallationGuide/Architecture.html"

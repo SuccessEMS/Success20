@@ -52,8 +52,8 @@
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" colspan="2">
-                        <h5 colspan="2"><strong>PREREQUISITES (Prior to Update 28)</strong>
-                        </h5>
+                        <p colspan="2" class="beforelist"><span class="boldAllCaps">PREREQUISITES (Prior to Update 28)</span>
+                        </p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
@@ -88,7 +88,8 @@
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" colspan="2">
-                        <h5 colspan="2">Prerequisites (Update 28 and Later)</h5>
+                        <p colspan="2" class="beforelist"><span class="boldAllCaps">Prerequisites (Update 28 and Later)</span>
+                        </p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
