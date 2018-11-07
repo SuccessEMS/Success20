@@ -18,29 +18,18 @@
       PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/TOC8_5X11.flpgl"
       AutoEndOnLeftPage="disabled">
       <TocEntry
-        Title="EMS Room Sign App (formerly Glance)"
+        Title="Introduction to EMS Room Sign App"
         Link="/Content/EMSRoomSignApp/44.1/UserGuide/Introduction.html"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="reset"
         PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
         ChapterNumberReset="reset"
+        AutoEndOnLeftPage="disabled"
         ChapterNumber="1"
-        PageNumber="1"
-        SectionNumberReset="continue"
-        VolumeNumberReset="same"
-        AutoEndOnLeftPage="disabled"></TocEntry>
-      <TocEntry
-        Title="Introduction to EMS Room Sign App"
-        Link="/Content/EMSRoomSignApp/44.1/UserGuide/Introduction.html"
-        BreakType="chapter"
-        StartSection="false"
-        PageNumberReset="continue"
-        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
-        SectionNumberReset="continue"
-        VolumeNumberReset="same"
-        ChapterNumberReset="continue"
-        AutoEndOnLeftPage="disabled" />
+        PageNumber="1" />
       <TocEntry
         Title="Best Practices for Using EMS Room Sign App"
         Link="/Content/EMSRoomSignApp/44.1/UserGuide/BestPracticesforUsing.html"
