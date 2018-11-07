@@ -63,14 +63,70 @@
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows" style="font-style: italic;">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-style: italic;">
                         <p class="RNArea">Cancellations</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
                         <p class="RNTitle">Canceling One Occurrence in EMS&#160;for Outlook Canceled All Bookings</p>
                         <p class="RNBody">Canceling one occurrence in EMS&#160;for Outlook resulted in the cancellation of all dates in the series in the EMS&#160;Web App and EMS&#160;Desktop Client. </p>
                         <p class="RNBody"><span class="bold">Fix</span>:&#160;Modified functionality so that canceling one occurrence does not affect other dates in the series. </p>
                         <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=41533&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">41533</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="font-style: italic;">
+                        <p class="RNArea">Conflict Resolution and <br />Recurring Reservations </p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="RNTitle">EMS&#160;for Outlook Add-in Was Unresponsive When Users Tried to Resolve Conflicts</p>
+                        <p class="RNBody">When resolving booking conflicts for a recurring meeting, the select room button (<span class="bold">+</span>) on the Resolve Conflicts page was unresponsive, and users were unable to select a new location to resolve the conflict. This was caused by rooms configured to alert users where no alert message was actually configured. </p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that the select room button (<span class="bold">+</span>) on the Resolve Conflicts page functions properly, and users can select a new location to resolve a conflict.</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=40727&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">40727</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-style: italic;">Billing Reference and PO Numbers</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="RNTitle">Group Default Billing Reference (BR)&#160;and PO&#160;Numbers Were Not Populating</p>
+                        <p class="RNBody">When creating a reservation in EMS for Outlook, the BR and PO&#160;values were not populating by default in their respective fields.  The defaults were populating when users toggled from a different group back to the original group.</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that the default BR and PO values for a group are populated in the respective fields by default when creating a new reservation on a template that displays these fields.</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=40968&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">40968</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="font-style: italic;">Edit a Reservation</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="RNTitle">Attendees' Calendars Were&#160;Not Updating When Dragging and Dropping</p>
+                        <p class="RNBody">Reservations created using the EMS&#160;for Outlook Add-in that were edited by dragging and dropping to a new time were not updating on attendees' calendars. </p>
+                        <p class="RNBody"><span class="bold">Fix</span>:&#160;Modified functionality so that the attendees' calendars are updated. </p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=41827&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">41827</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-style: italic;">Edit a Reservation</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="RNTitle">Dragging and Dropping Did Not Update Database</p>
+                        <p class="RNBody">Users were unable to drag/drop a single occurrence in the EMS&#160;for Outlook Add-in. The time was not updating in the database unless the time was changed in the meeting drop down. </p>
+                        <p class="RNBody"><span class="bold">Fix</span>:&#160;Modified functionality so that simply dragging and dropping updates the time in the database.</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=41640&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">41640</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="font-style: italic;">Delegates</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="RNTitle">Edits Made to Delegate Calendar Were Not Reflected in EMS&#160;Web App or EMS&#160;Desktop Client</p>
+                        <p class="RNBody">Edits made on a delegate's calendar in the EMS for Outlook Add-in  were not reflected in the EMS Web App or the EMS&#160;Desktop Client. </p>
+                        <p class="RNBody"><span class="bold">Fix</span>:&#160;Modified functionality so that edits made to a delegate's calendar will be reflected in all EMS&#160;access points.</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=40232&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">40232</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows" style="font-style: italic;">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
+                        <p class="RNTitle">Default Meeting Options Inconsistent </p>
+                        <p class="RNBody">Default meeting options for the Skype for Business link generated through the EMS&#160;Web App were different than the options for the Skype link created using native Outlook.</p>
+                        <p class="RNBody"><span class="bold">Fix</span>:&#160;Modified functionality so that users have the same defaults for Skype link when generated using EMS for Outlook and native Outlook.</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=41798&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">41798</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
             </tbody>
