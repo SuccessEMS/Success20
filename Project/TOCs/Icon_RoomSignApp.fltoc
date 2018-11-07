@@ -36,7 +36,7 @@
     </TocEntry>
     <TocEntry
       Title="Configuration Guide"
-      Link="/Content/EMSRoomSignApp/44.1/UserGuide/Introduction.html">
+      Link="/Content/EMSRoomSignApp/44.1/ConfigurationGuide/Introduction.htm">
       <TocEntry
         Title="Best Practices for Device Configuration"
         Link="/Content/EMSRoomSignApp/44.1/ConfigurationGuide/BestPractDeviceConfSteps.htm" />
@@ -70,10 +70,7 @@
     </TocEntry>
     <TocEntry
       Title="User Guide"
-      Link="/Content/UserGuides/8_EMSRoomSignApp_UG.htm">
-      <TocEntry
-        Title="Introduction to EMS Room Sign App"
-        Link="/Content/EMSRoomSignApp/44.1/UserGuide/Introduction.html" />
+      Link="/Content/EMSRoomSignApp/44.1/UserGuide/Introduction.html">
       <TocEntry
         Title="Best Practices for Using EMS Room Sign App"
         Link="/Content/EMSRoomSignApp/44.1/UserGuide/BestPracticesforUsing.html" />
