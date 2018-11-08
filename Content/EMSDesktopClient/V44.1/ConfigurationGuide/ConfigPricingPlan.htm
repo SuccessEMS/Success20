@@ -3,10 +3,11 @@
     <head><title>Configure Pricing Plans V44.1 (EMS Desktop Client)</title>
     </head>
     <body>
-        <h1 MadCap:autonum="CHAPTER&#160;1: ">
+        <h1>
             <MadCap:concept term="V44.1" />Configure Pricing Plans</h1>
         <p>A&#160;<span class="italics">pricing plan</span>&#160;bundles different&#160;rate schedules. When you&#160;configure&#160;a pricing plan, you can specify different rates schedules for the billable items in the plan, and you can also specify the calculation that is to be applied to a billable item when the plan is used for a group’s reservation. After you configure pricing plans, you can assign a default plan to a group’s record. Whenever a user makes a reservation for the group, the default pricing plan is displayed automatically in the Pricing Plan field on the <span class="bold">Billing </span>tab of the Reservation Wizard.</p>
         <p class="box-tip"><span class="boldAllCaps">TIP:&#160;</span>To help you keep track of your pricing plans and how they are used (for instance, to keep track of all your discounts),&#160;export your pricing plans&#160;periodically.&#160;</p>
+        <p>To configure pricing plans through the Pricing Plans window, complete the following steps:</p>
         <ol start="1" class="number-list">
             <li>On the EMS menu bar, click <span class="bold">Configuration </span>&gt; <span class="bold">Billing </span>&gt;&#160;<span class="bold">Pricing Plans</span>.&#160;The Pricing Plans window opens. This window lists all the pricing plans that are currently configured in your EMS database and that have a status of <span class="bold">Active</span>.</li>
         </ol>
@@ -28,11 +29,10 @@
         </div>
         <ol start="3" class="number-list">
             <li>In the Pricing Plan field, enter a name or description for the new plan (maximum of 30 characters, including spaces).</li>
-            <li>Optionally, on the Calculation Type drop-down list, select the type of calculation that is to be applied to a resource when the plan is used for a group’s reservation and then go to&#160;Step 5; otherwise, go to&#160;Step 6.<ul start="3"><li>In Addition to Group—The group must pay the calculations that are set for the billable items in the pricing plan&#160;in addition&#160;to any calculations that it must always pay.</li><li>Override Group—Override any calculations that are defined at the Group level and pay what is defined for the billable items in the pricing plan.</li></ul></li>
-            <li>Open the <span class="bold">Calculations </span>tab, and on the Available list select the calculation, or CTRL-click to&#160;select the multiple calculations that are to always apply to this pricing plan, and then click the Move button (&gt;) to move the selected calculations to the Selected list.</li>
+            <li>Optionally, select the type of calculation to apply to a resource as follows:&#160;<ol start="1" style="list-style-type: lower-alpha;"><li>From&#160;the Calculation Type drop-down list, select a calculation type:<ul start="1" style="list-style-type: lower-alpha;"><li><span class="bold">In Addition to Group</span>—The group must pay the calculations that are set for the billable items in the pricing plan,&#160;in addition&#160;to any calculations that the group must always pay.</li><li><span class="bold">Override Group</span>—Override any calculations that are defined at the Group level and pay what is defined for the billable items in the pricing plan.</li></ul></li><li>&#160;Open the <span class="bold">Calculations </span>tab, and on the Available list select the calculation, or CTRL-click to&#160;select the multiple calculations that are to always apply to this pricing plan, and then click the Move button (&gt;) to move the selected calculations to the Selected list.</li></ol></li>
         </ol>
         <p class="box-tip"><span class="boldAllCaps">TIP:</span>&#160;If the appropriate calculation is not available, you can configure it.&#160;See <a href="ConfigCalc.htm">Configure Calculations</a>.</p>
-        <ol start="6" class="number-list">
+        <ol start="6" class="number-list" MadCap:continue="true">
             <li>Open the <span class="bold">Rate Schedules</span> tab, and for each resource category (including Room Charge) that is to have its price set by this pricing plan, double-click in the Rate Schedule field, and then select the appropriate rate schedule from the drop-down list.</li>
         </ol>
         <p class="box-tip"><span class="boldAllCaps">TIP:</span>&#160;If you do not select a rate schedule for a resource category, or for the Room Charge, then the pricing for these items is set to zero in the pricing plan.</p>
