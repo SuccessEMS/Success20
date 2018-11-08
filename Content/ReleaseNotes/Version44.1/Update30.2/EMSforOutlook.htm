@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xml:lang="en-us" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../Resources/MasterPages/ReleaseNotes.flmsp');" MadCap:searchable="False">
+<html xml:lang="en-us" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../Resources/MasterPages/ReleaseNotes.flmsp');" MadCap:searchable="True">
     <head>
         <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
         <link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
@@ -45,7 +45,9 @@
             </thead>
             <tbody>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-style: italic;">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-style: italic;">
+                        <p>&#160;</p>
+                    </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
                         <p class="RNTitle">Incorrect Time Bar in Attendee Schedule View</p>
                         <p class="RNBody">Time labels across the attendees area of schedule view was not reflecting the correct time for the organizer and attendees.</p>
@@ -54,10 +56,12 @@
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="font-style: italic;">Create a Reservation</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="font-style: italic;">
+                        <p>Create a Reservation</p>
+                    </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p class="RNTitle">Incorrect Time Bar in Attendee Schedule View</p>
-                        <p class="RNBody">Regardless of what was configured in the "Allow New Bookings Within Range of this Many Days," users experienced the error message "You cannot book this Room after XX/XX/XXXX. . . ."&#160;The date on the error message was one day before the last allowed booking date. </p>
+                        <p class="RNTitle">Incorrect Booking Rule Error Message</p>
+                        <p class="RNBody">Regardless of what was configured in the "Allow New Bookings Within Range of this Many Days," users experienced the error message, "You cannot book this Room after XX/XX/XXXX. . . ."&#160;The date on the error message was one day before the last allowed booking date. </p>
                         <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that the correct last allowed booking date displays if users try to book beyond that date.</p>
                         <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=41099&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">41099</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
@@ -85,7 +89,9 @@
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-style: italic;">Billing Reference and PO Numbers</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-style: italic;">
+                        <p>Billing Reference and PO Numbers</p>
+                    </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
                         <p class="RNTitle">Group Default Billing Reference (BR)&#160;and PO&#160;Numbers Were Not Populating</p>
                         <p class="RNBody">When creating a reservation in EMS for Outlook, the BR and PO&#160;values were not populating by default in their respective fields.  The defaults were populating when users toggled from a different group back to the original group.</p>
@@ -94,7 +100,9 @@
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="font-style: italic;">Edit a Reservation</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="font-style: italic;">
+                        <p>Edit a Reservation</p>
+                    </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
                         <p class="RNTitle">Attendees' Calendars Were&#160;Not Updating When Dragging and Dropping</p>
                         <p class="RNBody">Reservations created using the EMS&#160;for Outlook Add-in that were edited by dragging and dropping to a new time were not updating on attendees' calendars. </p>
@@ -103,7 +111,9 @@
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-style: italic;">Edit a Reservation</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-style: italic;">
+                        <p>Edit a Reservation</p>
+                    </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
                         <p class="RNTitle">Dragging and Dropping Did Not Update Database</p>
                         <p class="RNBody">Users were unable to drag/drop a single occurrence in the EMS&#160;for Outlook Add-in. The time was not updating in the database unless the time was changed in the meeting drop down. </p>
@@ -112,7 +122,9 @@
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="font-style: italic;">Delegates</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="font-style: italic;">
+                        <p>Delegates</p>
+                    </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
                         <p class="RNTitle">Edits Made to Delegate Calendar Were Not Reflected in EMS&#160;Web App or EMS&#160;Desktop Client</p>
                         <p class="RNBody">Edits made on a delegate's calendar in the EMS for Outlook Add-in  were not reflected in the EMS Web App or the EMS&#160;Desktop Client. </p>
@@ -121,7 +133,9 @@
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows" style="font-style: italic;">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows" style="font-style: italic;">
+                        <p>&#160;</p>
+                    </td>
                     <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
                         <p class="RNTitle">Default Meeting Options Inconsistent </p>
                         <p class="RNBody">Default meeting options for the Skype for Business link generated through the EMS&#160;Web App were different than the options for the Skype link created using native Outlook.</p>
