@@ -50,20 +50,53 @@
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
                         <p class="RNTitle">Combo Room Components Showed Incorrectly in EMS for Outlook </p>
-                        <p class="RNBody">After reserving a combo room, the Schedule View and List View showed the component rooms as available even though the parent combo room was shown as reserved. Additionally, booking one of these incorrectly displayed component rooms would cause a conflict window to appear.</p>
+                        <p class="RNBody">After reserving a combo room, the Schedule View and List View showed the component rooms as available even though the parent combo room was shown as reserved. Additionally, booking one of these component rooms would cause a conflict window to appear.</p>
                         <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that Schedule View and List View show the component rooms as unavailable if the parent combo room has been reserved.</p>
                         <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=39620&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">39620</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
                         <p class="RNArea">Recurring Reservation</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
                         <p class="RNTitle">Send Update Button Not Updating Database</p>
-                        <p class="RNBody">EMS&#160;for Outlook was not updating the time in the Database when users dragged/dropped a single occurrence of a recurring reservation and used the EMS&#160;for Outlook Send Update button, unless the time was changed in the meeting dropdown.  This issue also occurred for single reservations; however, there was no delay using the native Outlook Send Update button.</p>
-                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that dragging and dropping alone in EMS&#160;for Outlook updates the time in the database.</p>
+                        <p class="RNBody">EMS&#160;for Outlook was not updating the time in the Database when users dragged/dropped a single occurrence of a recurring reservation and used the EMS&#160;for Outlook <span class="bold">Send Update</span> button unless the time was changed in the meeting dropdown.  This issue also occurred for single reservations; however, there was no delay using the native Outlook <span class="bold">Send Update</span> button.</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that dragging and dropping alone in EMS&#160;for Outlook will update the time in the database.</p>
                         <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=41171&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">41171</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="RNArea">Cancel Meeting</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="RNTitle">Meetings Canceled in EMS&#160;for Outlook Were Not Showing As Canceled in the Attendees' Outlook Calendars</p>
+                        <p class="RNBody">When a single or recurring meeting was canceled in EMS&#160;for Outlook, the attendees' Outlook calendars did not show the meeting as canceled even though the organizer's Outlook calendar showed the meeting as canceled.</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that when a single or recurring meeting is canceled in EMS&#160;for Outlook, the organizer's and attendees' calendars show the meeting as canceled.</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=41623&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">41623</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="RNArea">XX</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="RNTitle">Room Availability Issue with Date Conversion to Coordinated Universal Time (UTC)</p>
+                        <p class="RNBody">XX</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that XX.</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=41782&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">41782</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                        <p class="RNArea">Create Reservations</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
+                        <p class="RNTitle">Meeting Invitation Did Not Show As Sent When the Organizer Viewed the Invitation After Clicking Send</p>
+                        <p class="RNBody">Meeting invitations were not showing as sent after the organizer clicked the <span class="bold">Send </span>button. When the organizer viewed the meeting invite, Outlook displayed the <span class="bold">Delete </span>button instead of the <span class="bold">Cancel Meeting</span> button, and Outlook also displayed the message, "You haven't sent this meeting invitation yet."</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that after the organizer clicks <span class="bold">Send </span>on a meeting invitation, Outlook will display the <span class="bold">Cancel Meeting</span> button when the organizer views the meeting invite, and Outlook will no longer display the message, "You haven't sent this meeting invitation yet."</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=41829&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">41829</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
             </tbody>
