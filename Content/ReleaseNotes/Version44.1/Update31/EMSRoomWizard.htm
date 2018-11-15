@@ -46,13 +46,26 @@
             </thead>
             <tbody>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows" style="text-align: left;">
-                        <p class="RNArea">XX</p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: left;">
+                        <p class="RNArea">RoomWizard</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" style="text-align: left;">
-                        <p class="RNTitle">EMS RoomWizard Connector <MadCap:annotation MadCap:createDate="2018-11-07T14:13:15.4581486-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Is this a security issue. If we provide this information, and companies were using the EMSUser Account to have RoomWizard work, will nefarious people be able to hack those companies?" MadCap:editor="Megan.Laub" MadCap:editDate="2018-11-07T14:15:00.5994113-07:00">Did Not Work Without SQL EMSUser Account</MadCap:annotation></p>
-                        <p class="RNBody">XX.</p>
-                        <p class="RNBody"><span class="bold">Fix</span>:&#160;Modified functionality so that XX.</p>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
+                        <p class="RNTitle">
+                            <MadCap:annotation MadCap:createDate="2018-11-15T13:17:32.6324378-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Created two versions because info in TFS item talked about bug in two different ways. Ask Mindy which release note in this table is correct (both are for the same TFS item)." MadCap:editor="Megan.Laub" MadCap:editDate="2018-11-15T13:30:17.2627537-07:00">EMS RoomWizard Connector Did Not Work If SQL EMSUser Account Password Was Changed</MadCap:annotation>
+                        </p>
+                        <p class="RNBody">If the SQL&#160;EMSUser account password was changed, users would get the error "Could not build list of available data sources" when they ran the EMS RoomWizard connector. </p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that when users modify the SQL&#160;EMSUser account password, the EMS&#160;RoomWizard connector can connect to the EMS&#160;database without generating an error.</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=32326&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">32326</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows" style="text-align: left;">
+                        <p class="RNArea">RoomWizard</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows" style="text-align: left;">
+                        <p class="RNTitle">EMS RoomWizard Connector Did Not Work Without SQL EMSUser Account</p>
+                        <p class="RNBody">If the SQL&#160;EMSUser account was modified or replaced with a different account, such as an Active Directly account, users would get the error "Could not build list of available data sources" when they ran the EMS RoomWizard connector. </p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that when users modify or replace the SQL&#160;EMSUser account, the EMS&#160;RoomWizard connector can connect to the EMS&#160;database without generating an error.</p>
                         <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=32326&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">32326</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>

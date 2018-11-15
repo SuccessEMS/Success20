@@ -31,7 +31,7 @@
         </table>
         <h2>Enhancement</h2>
         <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');width: 100%;margin-left: 0;margin-right: auto;" cellspacing="0">
-            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 202px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 183px;" />
             <col class="TableStyle-PatternedRows-Column-Regular" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
@@ -56,11 +56,9 @@
                 </tr>
             </tbody>
         </table>
-        <h2>
-            <MadCap:annotation MadCap:createDate="2018-11-13T09:08:30.5149087-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Did not put 27712 in DTC v44.1 release notes because it looks like 27712 is just for V44 and V43. The LDAP issue for v44.1 one should have been resolved with 37476 back in August. Check with Mindy to verify." MadCap:editor="Megan.Laub" MadCap:editDate="2018-11-13T09:09:44.3963656-07:00">Fix</MadCap:annotation>
-        </h2>
+        <h2>Fixes</h2>
         <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');width: 100%;margin-left: 0;margin-right: auto;" cellspacing="0">
-            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 202px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 182px;" />
             <col class="TableStyle-PatternedRows-Column-Regular" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
@@ -74,15 +72,26 @@
             </thead>
             <tbody>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows" style="text-align: left;">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: left;">
                         <p class="RNArea">Email</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" style="text-align: left;">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
                         <p class="RNTitle">Unable to Send Emails Using Gmail SMTP Email Settings</p>
                         <p class="RNBodyBeforeList">Users were unable to send emails from EMS&#160;Desktop Client when using Gmail SMTP email settings. When trying to send an email, they would get the error message: </p>
                         <p class="RNBody" style="margin-left: 55px;">"The SMTP&#160;server requires a secure connection or the client was not authenticated. The server response was:&#160;5.5.1 Authentication Required."</p>
                         <p class="RNBody"><span class="bold">Fix</span>:&#160;Modified functionality so that users can send emails from EMS Desktop Client when using Gmail SMTP&#160;email settings. </p>
                         <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=41280&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">41280</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows" style="text-align: left;">
+                        <p class="RNArea">Modify Booking Details</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows" style="text-align: left;">
+                        <p class="RNTitle">Modify Booking Details Expert User Template Behavior</p>
+                        <p class="RNBody">Modify Booking Details expert user template process was not behaving as expected. The template was not allowing users to check in visitors or modify the visitor category (e.g., add, edit, or delete visitors).</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that the Modify Booking Details security process allows expert users to edit booking details on any booking. </p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=42117&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42117</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
             </tbody>
