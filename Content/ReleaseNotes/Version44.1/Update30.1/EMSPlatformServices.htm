@@ -48,11 +48,11 @@
                         <p class="RNTitle">Response Issue With Rooms/actions/availability </p>
                         <p class="RNBody">A change to the behavior of the rooms/actions/availability call was made to cause passing of an empty WebUserId or a WebUserId equal to 0 with the Client token to fail due to having an invalid relationship with the templates also passed in the call. This change also caused passing a WebUserId equal to 0 with a UserToken to fail due to the WebUserId having an invalid relationship with the templates passed in the call. Both of these changes have been reverted.</p>
                         <p class="RNBody">The following routes have been updated:</p>
-                        <ul>
+                        <ul class="RN-unorder-list">
                             <li>POST/rooms/action/availability</li>
                             <li>POST/rooms/action/availability/templates</li>
                         </ul>
-                        <p class="RNBody"><b>Fix</b>:&#160;Updated GA routes for single and multi-templates so they return results with webuser id -0.</p>
+                        <p class="RNBody"><b>Fix:</b>&#160;Updated GA routes for single and multi-templates so they return results with webuser id -0.</p>
                         <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=41838&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">41838</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
