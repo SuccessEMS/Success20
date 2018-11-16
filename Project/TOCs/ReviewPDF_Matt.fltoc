@@ -2,12 +2,9 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="Outlook_30..2"
-    Link="/Content/ReleaseNotes/Version44.1/Update30.2/EMSforOutlook.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/ReleaseNotes/Version44.1/Update31/EMSDesktopClient.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
   <TocEntry
-    Title="Web App_30.2"
-    Link="/Content/ReleaseNotes/Version44.1/Update30.2/EMSWebApp.htm"></TocEntry>
-  <TocEntry
-    Title="PS_30.2"
-    Link="/Content/ReleaseNotes/Version44.1/Update30.2/EMSPlatformServices.htm" />
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/ReleaseNotes/Version44.1/Update31/EMSforOutlook.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
 </CatapultToc>
