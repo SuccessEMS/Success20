@@ -2,32 +2,8 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="SAML Authentication"
-    Link="/Content/Authentication/SAMLAuthen.html"
-    BreakType="chapter"
-    PageNumberReset="reset"
-    AutoEndOnLeftPage="disabled"
-    ChapterNumberReset="reset"
-    ChapterNumber="1"
-    StartSection="false"
-    PageNumber="1"
-    SectionNumberReset="continue"
-    VolumeNumberReset="same"
-    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"></TocEntry>
-  <TocEntry
-    Title="Configuring Platform Services in the Admin Portal"
-    Link="/Content/EMSPlatformServices/ConfigurationGuide/ConfigPSinAdminPortal.html"
-    BreakType="chapter"
-    AutoEndOnLeftPage="disabled"
-    StartSection="false"
-    PageNumberReset="continue"
-    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
-    SectionNumberReset="continue"
-    VolumeNumberReset="same"
-    ChapterNumberReset="continue" />
-  <TocEntry
-    Title="[%=System.LinkedTitle%]"
-    Link="/Content/EMSMobileApp/B_ConfigurationGuide/Authentication/SAMLAuthenHostPreconfig.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    Title="Update_30.4"
+    Link="/Content/ReleaseNotes/Version44.1/Update30.4/EMSDesktopClient.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
     BreakType="chapter"
     AutoEndOnLeftPage="disabled"
     StartSection="false"
