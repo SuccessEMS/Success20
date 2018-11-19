@@ -25,8 +25,9 @@
             </li>
             <li><a href="#SetLaunchPin">Set a Launch Pin</a>
             </li>
-            <li><a href="#Access_EMS_Room_Sign_App_on_Your_Device(s)">Access EMS&#160;Room Sign App on Your Devices</a>
+            <li><a href="#Access_EMS_Room_Sign_App_on_Your_Device(s)">Access <MadCap:annotation MadCap:createDate="2018-11-19T15:38:23.6415603-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Added &quot;Register.&quot; Can we change to &quot;Register EMS Room Sign App on Your Devices&quot;?" MadCap:editor="Megan.Laub" MadCap:editDate="2018-11-19T15:40:18.6275870-07:00">(Register)</MadCap:annotation>&#160;EMS&#160;Room Sign App on Your Devices</a>
             </li>
+            <li><a href="#Deregister_RSA_on_Your_Device"><MadCap:annotation MadCap:createDate="2018-11-19T15:43:44.3720052-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Added link. Okay?" MadCap:editor="Megan.Laub" MadCap:editDate="2018-11-19T15:43:56.1344934-07:00">Deregister EMS Room Sign App on Your Devices</MadCap:annotation></a> <ul><li><a href="#Remove_Unused_Devices_from_the_Database"><MadCap:annotation MadCap:createDate="2018-11-19T15:43:02.7530509-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Delete if no instructions are added for this section. Also, if instructions are added, is this section only useful to software prior to U29?" MadCap:editor="Megan.Laub" MadCap:editDate="2018-11-19T15:43:34.1776495-07:00">Remove Unused Devices from the Databas</MadCap:annotation>e</a> (for versions prior to Update 29)</li></ul></li>
         </ul>
         <h2>Overview of Install/Upgrade Process</h2>
         <p>To install or upgrade the EMS Room Sign App, you will:</p>
@@ -146,31 +147,65 @@ database to get bookings after a manual reservation is made from a Glance unit--
             <p class="mt-indent-2" style="text-align: left;"><span class="bold">TIP FOR&#160;EMS&#160;CLOUD CUSTOMERS:</span> Modifications to the web.config file must be performed by EMS Cloud Operations. To request these changes, please <a href="../../../ContactUs.htm">contact EMS Support</a>.</p>
         </div>
         <h2><a name="SetLaunchPin"></a>Set a Launch Pin</h2>
+        <p>To set a launch pin, complete the following steps:</p>
         <ol class="number-list">
             <li>Open a browser and enter the URL to your EMS Room Sign App web application.</li>
-            <li>If this is your first time accessing the site, select a profile and room. Each individual profile can be protected with a passcode; however, the first landing page does not have a passcode set by default. </li>
-            <li>Modify the web.config file to set a Launch Pin. Setting this value (which is blank by default), will force users to enter a code the first time they browse to the EMS&#160;Room Sign site. </li>
-            <li>Navigate to the Room Sign App web directory. </li>
-            <li>Edit the web.config file. </li>
-            <li>Enter a value for the Launch Pin key. </li>
+            <li>If this is your first time accessing the site, <MadCap:annotation MadCap:createDate="2018-11-19T11:53:15.2872573-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Does profile need to be configured prior to setting a launch pin? If so, need to add a note and link to configuring profile in EMS Desktop. Up to this point in the topic, we haven't told the user to configure a profile." MadCap:editor="Megan.Laub" MadCap:editDate="2018-11-19T11:59:22.9739504-07:00">select a profile and room</MadCap:annotation>. Each individual profile can be protected with a passcode; however, the first landing page does not have a passcode set by default. </li>
+            <li>Modify the web.config file to set a Launch Pin. Setting this value (which is blank by default), will force users to enter a code the first time they browse to the EMS&#160;Room Sign site. To set the Launch Pin key in the web.config file, do the following:<ol style="list-style-type: lower-alpha;"><li>Navigate to the Room Sign App web directory. </li><li>Open the web.config file for editing.</li><li>In the web.config file, locate <span class="bold">key="LaunchPin"</span> and enter a value for the Launch Pin key. </li><li>Save the web.config file.</li></ol></li>
         </ol>
         <div class="TitleandImage">
-            <p class="title">Example Screenshot With a 0000 Pin </p>
+            <p class="title">Example Screenshot with a 0000 Pin </p>
             <p>
                 <img src="../Images/RSA_launchpin.png" class="PDFlarge" />
             </p>
         </div>
-        <h2><a name="Access_EMS_Room_Sign_App_on_Your_Device(s)"></a>Access EMS Room Sign App on Your Device(s)</h2>
-        <p>The EMS Room Sign App is ready to use once all of the  components have been properly installed and at least one Profile has been configured for use (see&#160;<a href="../ConfigurationGuide/Configuration.html" MadCap:conditions="General.Online Only">Configure the EMS Room Sign App</a><a href="https://docs.emssoftware.com/Content/EMSRoomSignApp/44.1/ConfigurationGuide/Configuration.html" MadCap:conditions="General.Print Only">Configure the EMS Room Sign App</a>).&#160;To access the EMS Room Sign App on your device, do the following:</p>
+        <h2><a name="Access_EMS_Room_Sign_App_on_Your_Device(s)"></a>Access <MadCap:annotation MadCap:createDate="2018-11-19T13:06:18.6424605-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Added &quot;Register&quot; to connect and keep parallel with &quot;Deregister&quot; section. Can we rename this section &quot;Register EMS Room Sign App on Your Devices&quot;?" MadCap:editor="Megan.Laub" MadCap:editDate="2018-11-19T15:55:05.5680996-07:00">(Register)</MadCap:annotation>&#160;EMS Room Sign App on Your Device(s)</h2>
+        <p>The EMS Room Sign App is ready to use once all of the  components have been properly installed and <span class="italics">at least one Profile has been configured for use</span>. (See&#160;<a href="../ConfigurationGuide/Configuration.html" MadCap:conditions="General.Online Only">Configure the EMS Room Sign App</a><a href="https://docs.emssoftware.com/Content/EMSRoomSignApp/44.1/ConfigurationGuide/Configuration.html" MadCap:conditions="General.Print Only">Configure the EMS Room Sign App</a>.)&#160;</p>
+        <div class="box-note">
+            <p><span class="bold">NOTE:</span>&#160;<MadCap:annotation MadCap:createDate="2018-11-19T13:28:55.2872060-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Added note. Okay?" MadCap:editor="Megan.Laub" MadCap:editDate="2018-11-19T13:29:00.3024191-07:00">Each EMS&#160;Room Sign device</MadCap:annotation> is tied to one specific room in EMS.&#160;Therefore, each room you register to a device will count against your available licenses. If you get an error about exceeding your license count, you will need to deregister unused devices to&#160;free up licenses (see <a href="#Deregister_RSA_on_Your_Device">Deregister EMS Room Sign App on Your Devices</a>).</p>
+        </div>
+        <p>To register&#160;the EMS Room Sign App on your device, do the following:</p>
         <ol class="number-list">
+            <li>Ensure that you have <a href="../ConfigurationGuide/ConfigProfile.html#Create_a_New_Profile">configured the profile</a> in EMS&#160;Desktop Client that you want to associate with the device.</li>
             <li>On your device, open a browser and enter the URL to your EMS Room Sign App web application:<p><b>Example:</b>&#160;http://[ServerName]/EMSGlance<br />(replace [ServerName] with the name of your web server)</p></li>
             <li>The first time you access the EMS Room Sign App on your device, the Settings screen will appear.<p><img src="../Images/A_Installation/RSA_InstalRSA_SettingsScreen.png" class="PDFmedium" /></p></li>
-            <li value="3">Select the Profile in the&#160;<span class="bold">Profile</span>&#160;dropdown.</li>
-            <li value="4">Select the Room in the&#160;<span class="bold">Room</span>&#160;dropdown.</li>
+            <li value="3">Select the Profile from the&#160;<span class="bold">Profile</span>&#160;drop-down list.</li>
+            <li value="4">Select the Room from the&#160;<span class="bold">Room</span>&#160;drop-down list.</li>
             <li value="5">Click&#160;<span class="bold">Apply</span>.</li>
         </ol>
         <div class="box-note">
             <p><span class="bold">NOTE:</span> Once the EMS Room Sign App is running, to re-access the Settings screen for any reason, simply double-tap the EMS Room Sign App logo in the upper-left hand corner of the screen.</p>
         </div>
+        <h2><a name="Deregister_RSA_on_Your_Device"></a>Deregister EMS&#160;Room Sign App on Your Devices</h2>
+        <p>Each EMS Room Sign device is tied to one specific room in EMS.&#160;Therefore, each room you associate with a device counts against your available licenses. If you get an error about exceeding your license count, you will need to deregister unused devices to&#160;free up licenses. </p>
+        <div class="box-important">
+            <p><span class="boldAllCaps">Important:</span>&#160;For versions prior to <a href="../../../V44.1_ReleaseNotes.htm#Update29">Update 29</a>, you should <a href="InstallRSA.html#Deregister_RSA_on_Your_Device">deregister  devices</a> before you <a href="../ConfigurationGuide/ConfigProfile.html#Delete_a_Profile">delete a profile</a> or before you <a href="../ConfigurationGuide/ConfigProfile.html#adddeleteroom">delete a room from a profile</a>. EMS&#160;Desktop Client does not automatically deregister devices when you delete a profile or a room from a profile. If you have already deleted a profile or room and you did not first deregister the devices, you will not be able to deregister the devices through the <a href="#DeregisterDeviceWindow">Deregister Device window</a>. You will need to <MadCap:annotation MadCap:createDate="2018-11-19T15:03:43.8181431-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Remove link if no instructions are added." MadCap:editor="Megan.Laub" MadCap:editDate="2018-11-19T15:03:56.6267940-07:00"><a href="#Remove_Unused_Devices_from_the_Database">access the database to remove the devices</a></MadCap:annotation> and free up licenses.</p>
+            <p>For Update 29 and later, when you <a href="../ConfigurationGuide/ConfigProfile.html#Delete_a_Profile">delete a profile</a> or when you <a href="../ConfigurationGuide/ConfigProfile.html#adddeleteroom">delete a room from a profile</a>, the software automatically deregisters the devices associated with the profile/rooms.</p>
+        </div>
+        <p>To deregister devices and free up licenses, complete the following steps:&#160;</p>
+        <ol class="number-list">
+            <li>On the <MadCap:variable name="General.EMS&#160;Desktop Client" /> toolbar, click <span class="bold">EMS&#160;Glance Settings</span>&#160;to access the <MadCap:variable name="General.RSA" /> settings area.&#160;</li>
+            <li>Then select&#160;<strong>Deregister Device</strong> and click <strong>Open</strong>. The Deregister Device window opens.</li>
+            <li>From the drop-down list, select the Profile associated with the device you want to deregister.</li>
+            <li>From the list of rooms that appears, select the room associated with the device you want to deregister, and then click <span class="bold">Deregister</span>.</li>
+        </ol>
+        <div class="TitleandImage">
+            <p class="title"><a name="DeregisterDeviceWindow"></a>Deregister Device Window</p>
+            <p>
+                <img src="../Images/Deregister2.PNG" title="Deregister Device Window for EMS Room Sign App" alt="Deregister Device Window for EMS Room Sign App" class="PDFmedium" />
+            </p>
+        </div>
+        <ol class="number-list" MadCap:continue="true">
+            <li>In the Deregister Device confirmation window, click <span class="bold">Yes </span>to confirm. A message will appear explaining that the device was successfully deregistered.</li>
+            <li>Repeat steps 3–5 to deregister additional devices.</li>
+            <li>Click <span class="bold">Close </span>to exit the Deregister Device window.</li>
+        </ol>
+        <h3><a name="Remove_Unused_Devices_from_the_Database"></a>
+            <MadCap:annotation MadCap:createDate="2018-11-19T15:02:37.7330781-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Added section. Okay? Also need to add instructions for accessing database, if needed." MadCap:editor="Megan.Laub" MadCap:editDate="2018-11-19T15:02:56.5242776-07:00">Remove Unused</MadCap:annotation> Devices from the Database</h3>
+        <p>For versions prior to Update 29, you can get an error about exceeding your license count, even though you are not using all your licenses, if you delete a profile or delete rooms from a profile without first deregistering devices. When you delete a profile or room with out first deregistering devices, the devices remain associated with the rooms in the database and count against your available licenses. </p>
+        <div class="box-important">
+            <p><span class="boldAllCaps">Important:</span> For Update 29 and later, when you <a href="../ConfigurationGuide/ConfigProfile.html#Delete_a_Profile">delete a profile</a> or when you <a href="../ConfigurationGuide/ConfigProfile.html#adddeleteroom">delete a room from a profile</a>, the software automatically deregisters the devices associated with the profile/rooms and frees up the licenses.</p>
+        </div>
+        <p>If you have already deleted a profile (or a room from a profile) and you did not first <a href="#Deregister_RSA_on_Your_Device">deregister the devices</a>, you will need to access the database to <MadCap:annotation MadCap:createDate="2018-11-19T15:37:43.6424586-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Add instructions" MadCap:editor="Megan.Laub" MadCap:editDate="2018-11-19T15:37:46.8556162-07:00">deregister the devices as follows</MadCap:annotation>:</p>
     </body>
 </html>
