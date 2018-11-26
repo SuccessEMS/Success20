@@ -209,10 +209,9 @@ database to get bookings after a manual reservation is made from a Glance unit--
         </div>
         <p>If you are running software prior to Update 29 and you have already deleted a profile or room  without first <a href="#Deregister_RSA_on_Your_Device">deregistering the devices</a>, you will need to access the database to remove the IDs associated with these devices as follows:</p>
         <div class="box-tip">
-            <p><span class="boldAllCaps">Tip:</span>&#160;You can view the total number of registered rooms in the EMS&#160;database by executing the following SQL&#160;statement:&#160;</p>
+            <p><span class="boldAllCaps">Tip:</span>&#160;You can use the following SQL statement to verify how many registered rooms you have before and after you remove rooms from the database:&#160;</p>
             <p><span class="italics">SELECT&#160;COUNT(UDID)&#160;AS RegisteredRooms&#160;FROM&#160;sDigitalRoomSignLimit</span>
             </p>
-            <p>You can use the SQL&#160;statement above to verify how many registered rooms you have before and after you remove rooms from the database.  </p>
         </div>
         <ol class="number-list">
             <li>In the EMS&#160;database, access the <span class="bold">dbo.tblDigitalRoomSignLimit</span> table.</li>
