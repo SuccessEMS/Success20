@@ -41,6 +41,9 @@
       PageType="firstright"
       AutoEndOnLeftPage="disabled"></TocEntry>
     <TocEntry
+      Title="EMS Desktop Client V43"
+      Link="/Content/ReleaseNotes/Version44.1/Update31/EMSDesktopClientV43.htm" />
+    <TocEntry
       Title="EMS Web App"
       Link="/Content/ReleaseNotes/Version44.1/Update31/EMSWebApp.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
       BreakType="chapter"
