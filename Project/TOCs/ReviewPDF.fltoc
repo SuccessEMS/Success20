@@ -2,11 +2,9 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="Update_30.4"
-    Link="/Content/ReleaseNotes/Version44.1/Update30.4/EMSDesktopClient.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-    BreakType="chapter"
-    AutoEndOnLeftPage="disabled"
-    StartSection="false"
-    PageNumberReset="continue"
-    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
+    Title="Install the EMS Room Sign App"
+    Link="/Content/EMSRoomSignApp/44.1/InstallationGuide/InstallRSA.html"></TocEntry>
+  <TocEntry
+    Title="Configuring Profiles in the EMS Room Sign App"
+    Link="/Content/EMSRoomSignApp/44.1/ConfigurationGuide/ConfigProfile.html" />
 </CatapultToc>
