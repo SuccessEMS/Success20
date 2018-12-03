@@ -80,6 +80,16 @@
           Link="/Content/GoogleSuiteIntegration/Config.htm" />
       </TocEntry>
       <TocEntry
+        Title="Skype for Business "
+        Link="/Content/Skype/ConfigurationGuide/CG_Overview.htm">
+        <TocEntry
+          Title="Introduction to Skype for Business Integration"
+          Link="/Content/Skype/ConfigurationGuide/Introduction.html" />
+        <TocEntry
+          Title="Configure Skype for Business"
+          Link="/Content/Skype/ConfigurationGuide/ConfigureSkypeforBusiness.html" />
+      </TocEntry>
+      <TocEntry
         Title="Meeting Planner"
         Link="/Content/MeetingPlanner.pdf" />
     </TocEntry>
