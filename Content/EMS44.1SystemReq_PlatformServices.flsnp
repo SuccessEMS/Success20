@@ -10,7 +10,7 @@
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th scope="col" class="TableStyle-PatternedRows-HeadE-Regular-Header1">
-                        <p scope="col">Operating System</p>
+                        <p scope="col">Operating <MadCap:annotation MadCap:createDate="2018-12-06T10:36:06.0335021-07:00" MadCap:creator="Jen.Naused" MadCap:initials="JE" MadCap:comment="When updating this table, update the IntroInstallation topic in EMS for Google Calendar. We took this off a snippet because Matt didn't want the &quot;Prior to Update 28&quot; information here. " MadCap:editor="Jen.Naused" MadCap:editDate="2018-12-06T10:36:53.1562506-07:00">System</MadCap:annotation></p>
                     </th>
                     <th scope="col" class="TableStyle-PatternedRows-HeadD-Regular-Header1">
                         <p scope="col">IIS</p>

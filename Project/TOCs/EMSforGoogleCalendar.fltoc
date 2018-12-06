@@ -38,8 +38,8 @@
       VolumeNumberReset="same"
       ChapterNumberReset="continue">
       <TocEntry
-        Title="Authentication"
-        Link="/Content/GoogleSuiteIntegration/Authentication.htm"
+        Title="Authorize URLs for Subscribing to Events"
+        Link="/Content/GoogleSuiteIntegration/AuthURLsforSubscribingtoEvents.htm"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -59,8 +59,8 @@
       VolumeNumberReset="same"
       ChapterNumberReset="continue">
       <TocEntry
-        Title="Conflict Resolution"
-        Link="/Content/GoogleSuiteIntegration/ConflictResolution.htm"
+        Title="Authentication"
+        Link="/Content/GoogleSuiteIntegration/Authentication.htm"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
@@ -69,8 +69,8 @@
         VolumeNumberReset="same"
         ChapterNumberReset="continue" />
       <TocEntry
-        Title="Authorize URLs for Subscribing to Events"
-        Link="/Content/GoogleSuiteIntegration/AuthURLsforSubscribingtoEvents.htm"
+        Title="Conflict Resolution"
+        Link="/Content/GoogleSuiteIntegration/ConflictResolution.htm"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
