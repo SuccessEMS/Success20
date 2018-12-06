@@ -2,6 +2,6 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="Update30.5"
-    Link="/Content/ReleaseNotes/Version44.1/Update30.5/EMSRoomSignApp.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    Title="Configure Platform Services"
+    Link="/Content/EMSPlatformServices/ConfigurationGuide/ConfigPSinAdminPortal.html" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
 </CatapultToc>
