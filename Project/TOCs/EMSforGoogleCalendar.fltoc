@@ -36,18 +36,7 @@
       PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
       SectionNumberReset="continue"
       VolumeNumberReset="same"
-      ChapterNumberReset="continue">
-      <TocEntry
-        Title="Authorize URLs for Subscribing to Events"
-        Link="/Content/GoogleSuiteIntegration/AuthURLsforSubscribingtoEvents.htm"
-        BreakType="chapter"
-        StartSection="false"
-        PageNumberReset="continue"
-        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
-        SectionNumberReset="continue"
-        VolumeNumberReset="same"
-        ChapterNumberReset="continue" />
-    </TocEntry>
+      ChapterNumberReset="continue"></TocEntry>
     <TocEntry
       Title="User Guide"
       Link="/Content/GoogleSuiteIntegration/IntroGoogleCalendarUserGuide.htm"
