@@ -50,13 +50,13 @@
                         <p>4.0</p>
                     </td>
                 </tr>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                <tr class="TableStyle-PatternedRows-Body-LightRows" MadCap:conditions="General.GSuite_Snippet_Remove,General.GSuite_Platform_Snippet">
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" colspan="2">
                         <p colspan="2" class="beforelist"><span class="boldAllCaps">PREREQUISITES (Prior to Update 28)</span>
                         </p>
                     </td>
                 </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows" MadCap:conditions="General.GSuite_Snippet_Remove,General.GSuite_Platform_Snippet">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
                         <p>HTTPPlatformHandler&#160;IIS Module</p>
                     </td>
@@ -64,7 +64,7 @@
                         <p style="text-align: left;"><a href="https://www.iis.net/downloads/microsoft/httpplatformhandler" title="https://www.iis.net/downloads/microsoft/httpplatformhandler">Download Version 1.2&#160;here</a>&#160;OR download the installer&#160;<a href="http://download.microsoft.com/download/8/1/3/813AC4E6-9203-4F7A-8DD5-F3D54D10C5CD/httpPlatformHandler_amd64.msi" title="http://download.microsoft.com/download/8/1/3/813AC4E6-9203-4F7A-8DD5-F3D54D10C5CD/httpPlatformHandler_amd64.msi">here</a>.</p>
                     </td>
                 </tr>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                <tr class="TableStyle-PatternedRows-Body-LightRows" MadCap:conditions="General.GSuite_Snippet_Remove,General.GSuite_Platform_Snippet">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
                         <p>PowerShell</p>
                     </td>
@@ -73,7 +73,7 @@
                         </p>
                     </td>
                 </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows" MadCap:conditions="General.GSuite_Snippet_Remove,General.GSuite_Platform_Snippet">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
                         <p>ASP.NET Version 4.6</p>
                     </td>
@@ -88,7 +88,9 @@
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" colspan="2">
-                        <p colspan="2" class="beforelist"><span class="boldAllCaps">Prerequisites (Update 28 and Later)</span>
+                        <p colspan="2" class="beforelist"><span class="boldAllCaps">Prerequisites </span>
+                            <MadCap:conditionalText MadCap:conditions="General.GSuite_Snippet_Remove,General.GSuite_Platform_Snippet"><span class="boldAllCaps">(Update 28 and Later)</span>
+                            </MadCap:conditionalText>
                         </p>
                     </td>
                 </tr>

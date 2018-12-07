@@ -1,6 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditionTagExpression="exclude[General.GSuite_Platform_Snippet or General.GSuite_WebServer_Snippet] " style="mc-master-page: url('..\Resources\MasterPages\emsGSuiteIntegration.flmsp');">
     <head>
+        <link href="../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" />
         <link href="../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" />
         <link href="../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" />
     </head>
@@ -26,127 +30,11 @@
         <h2><a name="Prerequisites"></a>Prerequisites and Requirements </h2>
         <p class="box-important"><span class="bold">IMPORTANT</span>:&#160;EMS&#160;for Google Calendar is managed through <a href="#EMSPlatformServices">EMS Platform Services (Update 31 or later). </a></p>
         <h3>
-            <MadCap:annotation MadCap:createDate="2018-12-06T10:35:29.5178310-07:00" MadCap:creator="Jen.Naused" MadCap:initials="JE" MadCap:comment="Took this off a snippet because Matt did not want the &quot;Prior to Update 28&quot; information here (12/4/18 meeting)" MadCap:editor="Jen.Naused" MadCap:editDate="2018-12-06T10:35:53.3294626-07:00">Requirements</MadCap:annotation> for <MadCap:variable name="General.Platform Services" /></h3>
-        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../Resources/TableStyles/PatternedRows.css');margin-left: 0;margin-right: auto;width: 100%;" cellspacing="0">
-            <col class="TableStyle-PatternedRows-Column-Regular" />
-            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 273px;" />
-            <thead>
-                <tr class="TableStyle-PatternedRows-Head-Header1">
-                    <th scope="col" class="TableStyle-PatternedRows-HeadE-Regular-Header1">
-                        <p scope="col">Operating System</p>
-                    </th>
-                    <th scope="col" class="TableStyle-PatternedRows-HeadD-Regular-Header1">
-                        <p scope="col">IIS</p>
-                    </th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td data-th="Operating System" class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p data-th="Operating System">Windows Server 2012&#160;&#160;</p>
-                    </td>
-                    <td data-th="IIS" class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: center;">
-                        <p data-th="IIS">8</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td data-th="Operating System" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p data-th="Operating System">Windows Server 2012 R2&#160;&#160;</p>
-                    </td>
-                    <td data-th="IIS" class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: center;">
-                        <p data-th="IIS">8.5</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p>.NET Framework</p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: center;">
-                        <p>4.6.1</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p>Application Pool</p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: center;">
-                        <p>4.0</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" colspan="2">
-                        <p colspan="2" class="beforelist"><span class="boldAllCaps">Prerequisites </span>
-                        </p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p><a href="https://www.microsoft.com/net/download/dotnet-core/2.1">ASP.NET&#160;Core</a>
-                        </p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p>See Also:&#160;<a href="../EMSPlatformServices/InstallationGuide/SystemRequirements.htm#asp.nethandler">Installing ASP.NET&#160;Core</a>.</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p>PowerShell</p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p><a href="https://msdn.microsoft.com/en-us/powershell/wmf/5.1/release-notes" title="https://msdn.microsoft.com/en-us/powershell/wmf/5.1/release-notes">5+ Version</a>
-                        </p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
-                        <p>ASP.NET Version 4.6</p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
-                        <p class="beforelist">Under Web Server (IIS) &gt; Web Server &gt; Application Development:</p>
-                        <ul class="unorder-list">
-                            <li>ISAPI Extensions</li>
-                            <li>ISAPI Filters</li>
-                            <li>.NET Extensibility 4.6</li>
-                        </ul>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-        <h3>EMS&#160;Web Server Requirements</h3>
-        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../Resources/TableStyles/PatternedRows.css');width: 100%;margin-left: 0;margin-right: auto;" cellspacing="0">
-            <col class="TableStyle-PatternedRows-Column-Regular" />
-            <col class="TableStyle-PatternedRows-Column-Regular" />
-            <thead>
-                <tr class="TableStyle-PatternedRows-Head-Header1">
-                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">Operating System</th>
-                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">IIS VERSION</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p>Windows Server 2012</p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p>8</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p>Windows Server 2012 R2</p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p>8.5</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p>Windows Server 2016</p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">&#160;</td>
-                </tr>
-            </tbody>
-        </table>
+            <MadCap:annotation MadCap:createDate="2018-12-07T10:07:36.2740460-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Using Snippet condition to hide &quot;prior to Update 28) info from the Platform requirements snippet. Condition is excluded in this topic through Topic Properties &gt; Snippet Conditions tab." MadCap:editor="Megan.Laub" MadCap:editDate="2018-12-07T10:09:00.7615137-07:00">Requirements</MadCap:annotation> for <MadCap:variable name="General.Platform Services" /></h3>
+        <MadCap:snippetBlock src="../EMS44.1SystemReq_PlatformServices.flsnp" />
+        <h3>
+            <MadCap:annotation MadCap:createDate="2018-12-07T10:09:14.2389340-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Using Snippet condition to hide info Matt didn't want in the web server snippet. Condition is excluded in this topic through Topic Properties &gt; Snippet Conditions tab." MadCap:editor="Megan.Laub" MadCap:editDate="2018-12-07T10:09:48.3377485-07:00">EMS&#160;Web Server</MadCap:annotation> Requirements</h3>
+        <MadCap:snippetBlock src="../EMS44.1SystemReq_EMSWebServer.flsnp" />
         <h2><a name="Licensing"></a>Licensing</h2>
         <p>EMS for Google Calendar license is required. Please contact your <a href="../ContactUs.htm">EMS&#160;Account Representative</a>. </p>
         <h2><a name="Deploying"></a>Deploying EMS&#160;for Google Calendar (Cloud Customers)</h2>

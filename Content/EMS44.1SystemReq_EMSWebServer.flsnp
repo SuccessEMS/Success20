@@ -36,12 +36,12 @@
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">&#160;</td>
                 </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows" MadCap:conditions="General.Snippet_Remove_Partial_Content_from_Topic,General.GSuite_WebServer_Snippet">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows"><span class="bold">Prerequisites</span>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">&#160;</td>
                 </tr>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                <tr class="TableStyle-PatternedRows-Body-LightRows" MadCap:conditions="General.Snippet_Remove_Partial_Content_from_Topic,General.GSuite_WebServer_Snippet">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
                         <p>Application Pool Running&#160;</p>
                     </td>
@@ -49,13 +49,13 @@
                         <p>(2.0 or 4.0 depending on the EMS&#160;Software Application)</p>
                     </td>
                 </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows" MadCap:conditions="General.Snippet_Remove_Partial_Content_from_Topic,General.GSuite_WebServer_Snippet">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
                         <p>.NET Framework 4.6.1**</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">&#160;</td>
                 </tr>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                <tr class="TableStyle-PatternedRows-Body-LightRows" MadCap:conditions="General.Snippet_Remove_Partial_Content_from_Topic,General.GSuite_WebServer_Snippet">
                     <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" colspan="2">
                         <p><span class="bold">Minimum System Requirements</span>
                         </p>
@@ -65,100 +65,100 @@
                 </tr>
             </tbody>
         </table>
-        <p>*Requires an update to Windows Management Framework to version 3.<br />**= varies per EMS Software Application</p>
-        <table class="TableStyle-PatternedRows" style="mc-table-style: url('Resources/TableStyles/PatternedRows.css');width: 100%;margin-left: 0;margin-right: auto;" cellspacing="0" MadCap:conditions="General.Edit_in_Review">
-            <col class="TableStyle-PatternedRows-Column-Regular" />
-            <col class="TableStyle-PatternedRows-Column-Regular" />
-            <col class="TableStyle-PatternedRows-Column-Regular" />
+        <p MadCap:conditions="General.Snippet_Remove_Partial_Content_from_Topic,General.GSuite_WebServer_Snippet">*Requires an update to Windows Management Framework to version 3.<br />**= varies per EMS Software Application</p>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('Resources/TableStyles/PatternedRows.css');width: 100%;margin-left: 0;margin-right: auto;" cellspacing="0" MadCap:conditions="General.Edit_in_Review,General.Snippet_Remove_Partial_Content_from_Topic">
+            <col class="TableStyle-PatternedRows-Column-Regular" MadCap:conditions="General.GSuite_WebServer_Snippet" />
+            <col class="TableStyle-PatternedRows-Column-Regular" MadCap:conditions="General.GSuite_WebServer_Snippet" />
+            <col class="TableStyle-PatternedRows-Column-Regular" MadCap:conditions="General.GSuite_WebServer_Snippet" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
-                        <p class="Strong_2">Software Module</p>
+                        <p class="Strong_2" MadCap:conditions="General.Snippet_Remove_Partial_Content_from_Topic">Software Module</p>
                     </th>
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
-                        <p class="Strong_2">.NET Version</p>
+                        <p class="Strong_2" MadCap:conditions="General.Snippet_Remove_Partial_Content_from_Topic">.NET Version</p>
                     </th>
                     <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
-                        <p class="Strong_2">IIS App Pool</p>
+                        <p class="Strong_2" MadCap:conditions="General.Snippet_Remove_Partial_Content_from_Topic">IIS App Pool</p>
                     </th>
                 </tr>
             </thead>
             <tbody>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p class="Strong_1">Desktop Web Deploy</p>
+                        <p class="Strong_1" MadCap:conditions="General.Snippet_Remove_Partial_Content_from_Topic">Desktop Web Deploy</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p class="p_7">4.5.2</p>
+                        <p class="p_7" MadCap:conditions="General.Snippet_Remove_Partial_Content_from_Topic">4.5.2</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p class="p_7">4.0</p>
+                        <p class="p_7" MadCap:conditions="General.Snippet_Remove_Partial_Content_from_Topic">4.0</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p class="Strong_1">Virtual EMS</p>
+                        <p class="Strong_1" MadCap:conditions="General.Snippet_Remove_Partial_Content_from_Topic">Virtual EMS</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p class="p_7">3.5</p>
+                        <p class="p_7" MadCap:conditions="General.Snippet_Remove_Partial_Content_from_Topic">3.5</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p class="p_7">2.0</p>
+                        <p class="p_7" MadCap:conditions="General.Snippet_Remove_Partial_Content_from_Topic">2.0</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p class="Strong_1">Campus Web Service</p>
+                        <p class="Strong_1" MadCap:conditions="General.Snippet_Remove_Partial_Content_from_Topic">Campus Web Service</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p class="p_7">3.5</p>
+                        <p class="p_7" MadCap:conditions="General.Snippet_Remove_Partial_Content_from_Topic">3.5</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p class="p_7">2.0</p>
+                        <p class="p_7" MadCap:conditions="General.Snippet_Remove_Partial_Content_from_Topic">2.0</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p class="Strong_1">Campus Planning Interface</p>
+                        <p class="Strong_1" MadCap:conditions="General.Snippet_Remove_Partial_Content_from_Topic">Campus Planning Interface</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p class="p_7">4.6.1</p>
+                        <p class="p_7" MadCap:conditions="General.Snippet_Remove_Partial_Content_from_Topic">4.6.1</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p class="p_7">4.0</p>
+                        <p class="p_7" MadCap:conditions="General.Snippet_Remove_Partial_Content_from_Topic">4.0</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p class="Strong_1">Floor Plan Configuration</p>
+                        <p class="Strong_1" MadCap:conditions="General.Snippet_Remove_Partial_Content_from_Topic">Floor Plan Configuration</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p class="p_7">3.5</p>
+                        <p class="p_7" MadCap:conditions="General.Snippet_Remove_Partial_Content_from_Topic">3.5</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p class="p_7">2.0</p>
+                        <p class="p_7" MadCap:conditions="General.Snippet_Remove_Partial_Content_from_Topic">2.0</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p class="Strong_1">Room Diagramming Service</p>
+                        <p class="Strong_1" MadCap:conditions="General.Snippet_Remove_Partial_Content_from_Topic">Room Diagramming Service</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p class="p_7">3.5</p>
+                        <p class="p_7" MadCap:conditions="General.Snippet_Remove_Partial_Content_from_Topic">3.5</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p class="p_7">2.0</p>
+                        <p class="p_7" MadCap:conditions="General.Snippet_Remove_Partial_Content_from_Topic">2.0</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
-                        <p class="Strong_1">PAM Web Service</p>
+                        <p class="Strong_1" MadCap:conditions="General.Snippet_Remove_Partial_Content_from_Topic">PAM Web Service</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
-                        <p class="p_7">3.5</p>
+                        <p class="p_7" MadCap:conditions="General.Snippet_Remove_Partial_Content_from_Topic">3.5</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
-                        <p class="p_7">2.0</p>
+                        <p class="p_7" MadCap:conditions="General.Snippet_Remove_Partial_Content_from_Topic">2.0</p>
                     </td>
                 </tr>
             </tbody>
