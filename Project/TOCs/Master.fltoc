@@ -1117,6 +1117,9 @@
           Title="Configure EMS Web App Menus"
           Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigWebAppMenu.htm" />
         <TocEntry
+          Title="Configure Intents"
+          Link="/Content/GoogleSuiteIntegration/ConfigIntents.htm" />
+        <TocEntry
           Title="Configure Help Text"
           Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigHelpText.htm" />
         <TocEntry
