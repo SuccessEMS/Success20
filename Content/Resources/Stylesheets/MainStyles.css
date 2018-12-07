@@ -1,4 +1,4 @@
-﻿/*<meta />*/
+/*<meta />*/
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
 
@@ -55,7 +55,7 @@ html.emsPlatformServices
 
 html.emsIntegrations
 {
-	mc-master-page: url('../MasterPages/emsIntegrations.flmsp');
+	mc-master-page: url('../MasterPages/emsOptionalIntegrationsFeatures.flmsp');
 	mc-community-features: disabled;
 }
 
@@ -361,6 +361,7 @@ div.example
 }
 
 /* Previous Next Toolbar */
+
 .PrevNext
 {
 	padding: 0px;
@@ -730,7 +731,6 @@ img.Thumbnail-side-by-side
 	mc-thumbnail-max-height: auto;
 	mc-thumbnail-max-width: 50px;
 }
-
 
 /* Responsive layout - makes the four columns stack on top of each other instead of next to each other */
 
@@ -1274,23 +1274,23 @@ MadCap|tocProxy
 	{
 		left: 60px;
 	}
-	
-	.title-bar-layout a.logo {
-   		 top: 0;
-   		 margin: 0;
-   		 margin-left: 50px;
-   		 width: 319px;
-  		 height: 55px;
-  		 background: transparent url(EMS_Logo_Doc.png) no-repeat center center;
-   		 background: url(EMS_Logo_Doc.png) no-repeat center center, -moz-linear-gradient(top, transparent 0%, transparent 100%);
-     	 background: url(EMS_Logo_Doc.png) no-repeat center center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,transparent), color-stop(100%,transparent));
-   		 background: url(EMS_Logo_Doc.png) no-repeat center center, -webkit-linear-gradient(top, transparent 0%, transparent 100%);
-		 background: url(EMS_Logo_Doc.png) no-repeat center center, -o-linear-gradient(top, transparent 0%,transparent 100%);
-   		 background: url(EMS_Logo_Doc.png) no-repeat center center, -ms-linear-gradient(top, transparent 0%,transparent 100%);
-  		 background: url(EMS_Logo_Doc.png) no-repeat center center, linear-gradient(top, transparent 0%,transparent 100%);
-   		 -pie-background: url(Skins/Fluid/Stylesheets/Images/EMS_Logo_Doc.png) no-repeat center center, linear-gradient(transparent, transparent);
-	}
 
+	.title-bar-layout a.logo
+	{
+		top: 0;
+		margin: 0;
+		margin-left: 50px;
+		width: 319px;
+		height: 55px;
+		background: transparent url(EMS_Logo_Doc.png) no-repeat center center;
+		background: url(EMS_Logo_Doc.png) no-repeat center center, -moz-linear-gradient(top, transparent 0%, transparent 100%);
+		background: url(EMS_Logo_Doc.png) no-repeat center center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,transparent), color-stop(100%,transparent));
+		background: url(EMS_Logo_Doc.png) no-repeat center center, -webkit-linear-gradient(top, transparent 0%, transparent 100%);
+		background: url(EMS_Logo_Doc.png) no-repeat center center, -o-linear-gradient(top, transparent 0%,transparent 100%);
+		background: url(EMS_Logo_Doc.png) no-repeat center center, -ms-linear-gradient(top, transparent 0%,transparent 100%);
+		background: url(EMS_Logo_Doc.png) no-repeat center center, linear-gradient(top, transparent 0%,transparent 100%);
+		-pie-background: url(Skins/Fluid/Stylesheets/Images/EMS_Logo_Doc.png) no-repeat center center, linear-gradient(transparent, transparent);
+	}
 
 	.container
 	{
@@ -1555,17 +1555,20 @@ ul li::before
 }
 
 /***Make P in list same font-size***/
-ul.unorder-list li p, ul.unorder-list li ul li p
+
+ul.unorder-list li p,
+ul.unorder-list li ul li p
 {
 	font-size: 16px;
 }
 
-ol.number-list li p, ol.number-list li ul li p
+ol.number-list li p,
+ol.number-list li ul li p
 {
 	font-size: 16px;
 }
+
 /***End Make P in list same font-size***/
-
 
 table ul li::before
 {
@@ -1675,15 +1678,23 @@ ul li
 }
 
 /***Make P in list same font-size***/
-table ul.unorder-list li p, table ul.unorder-list li ul li p, table ul li p, table ul li ul li p
+
+table ul.unorder-list li p,
+table ul.unorder-list li ul li p,
+table ul li p,
+table ul li ul li p
 {
 	font-size: 16px;
 }
 
-table ol.number-list li p, table ol.number-list li ul li p, table ol li p, table ol li ul li p
+table ol.number-list li p,
+table ol.number-list li ul li p,
+table ol li p,
+table ol li ul li p
 {
 	font-size: 16px;
 }
+
 /***End Make P in list same font-size***/
 
 table ul li:before,
@@ -1723,7 +1734,6 @@ ul ul li::before
 
 /*******************End Table Unorder and Number List CSS************/
 /****************************************************************************/
-
 /****Code Sample Styles*****/
 
 pre.code-sample
@@ -1739,7 +1749,6 @@ pre.code-sample
 }
 
 /****End Code Sample Styles****/
-
 /***************Install Snippet Numbered List CSS****************/
 
 ol.number-list-snip
@@ -1950,8 +1959,8 @@ ul ul li::before
 
 /* **********************    PDF Button    ***********************************  */
 /****************************************************************************/
-
 /******************** Notes in Tables *********************************/
+
 /*p.note-table
 {
 	font-size: 14px;
@@ -2184,7 +2193,6 @@ p.table-important
 {
 	font-weight: 700;
 	color: #333;
-	
 }
 
 .status-box
@@ -2213,7 +2221,6 @@ p.table-important
 }
 
 /*********************End Note Box Links**************/
-
 /* **********************    Notification Box Combo    ***********************************  */
 
 .box-note
@@ -2273,6 +2280,7 @@ p.table-important
 }
 
 /**Add Icons to Notifications **/
+
 .box-note:before
 {
 	position: absolute;
@@ -2323,14 +2331,20 @@ p.table-important
 
 /**Style for <p> tags within Notification within <div> tags **/
 
-.box-note p, .box-tip p, .box-important p, .box-warning p
+.box-note p,
+.box-tip p,
+.box-important p,
+.box-warning p
 {
 	line-height: 30px;
 	font-size: 16px;
 	font-weight: 400;
 }
 
-.box-note p:last-child, .box-tip p:last-child, .box-important p:last-child, .box-warning p:last-child
+.box-note p:last-child,
+.box-tip p:last-child,
+.box-important p:last-child,
+.box-warning p:last-child
 {
 	padding-bottom: 0;
 }
@@ -2362,6 +2376,7 @@ p.box-warning span
 	color: #333;
 }
 ***/
+
 /********Note Combo Box Links*********/
 
 .box-tip MadCap|xref,
@@ -3155,7 +3170,7 @@ p.PDFh1
 	{
 		mc-auto-number-format: '';
 	}
-	
+
 	div.TitleandImage
 	{
 		page-break-inside: avoid;
@@ -3166,10 +3181,12 @@ p.PDFh1
 		font-size: 14px;
 	}
 
-	
-/**Avoid page break in Box Notes**/
+	/**Avoid page break in Box Notes**/
 
-.box-note, .box-tip, .box-important, .box-warning
+	.box-note,
+	.box-tip,
+	.box-important,
+	.box-warning
 	{
 		page-break-inside: avoid;
 	}
@@ -3209,6 +3226,7 @@ ol li ul li p.box-tip, ol li ul li p.box-note, ol li ul li p.box-warning, ol li 
 }
 
 **************/
+
 	/**************Table Print PDF Styles*******************/
 
 	table p
@@ -3251,8 +3269,9 @@ ol li ul li p.box-tip, ol li ul li p.box-note, ol li ul li p.box-warning, ol li 
 		padding-bottom: 20px;
 		font-size: 11px;
 	}
-	
-	table ul.unorder-list li a, table ol.number-list li a
+
+	table ul.unorder-list li a,
+	table ol.number-list li a
 	{
 		
 	}
@@ -3480,3 +3499,4 @@ ol li ul li p.box-tip, ol li ul li p.box-note, ol li ul li p.box-warning, ol li 
 		background: none;
 	}
 }
+
