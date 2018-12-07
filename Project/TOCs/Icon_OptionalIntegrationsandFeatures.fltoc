@@ -2,7 +2,90 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="Documentation for Optional Features">
+    Title="Optional Integrations and Features"
+    Link="/Content/OptionalIntegrationsandFeatures.htm">
+    <TocEntry
+      Title="Integrations"
+      Link="/Content/Integrations.htm">
+      <TocEntry
+        Title="Exchange Room Integration (ERI)"
+        Link="/Content/Integrations/ExchangeRoomIntegration/ERILandingPage.htm">
+        <TocEntry
+          Title="Installation Guide"
+          Link="/Content/InstallGuides/11_ERI_V44.1/11_ERI_Home.htm">
+          <TocEntry
+            Title="Introduction to ERI"
+            Link="/Content/Integrations/ExchangeRoomIntegration/InstallationGuide/IntroductiontoERI.html" />
+          <TocEntry
+            Title="Architecture of ERI"
+            Link="/Content/Integrations/ExchangeRoomIntegration/InstallationGuide/ArchitectureofERI.html" />
+          <TocEntry
+            Title="System Requirements of ERI"
+            Link="/Content/Integrations/ExchangeRoomIntegration/InstallationGuide/SystemRequirements.html" />
+          <TocEntry
+            Title="Installing Exchange Room Integration"
+            Link="/Content/Integrations/ExchangeRoomIntegration/InstallationGuide/InstallingERI.html" />
+        </TocEntry>
+        <TocEntry
+          Title="Configuration Guide"
+          Link="/Content/ConfigGuides/8_EMS_ExchangeRoomIntegration_CG.htm">
+          <TocEntry
+            Title="Configuring Exchange Room Integration (ERI)"
+            Link="/Content/Integrations/ExchangeRoomIntegration/ConfigurationGuide/ConfigERI.html" />
+        </TocEntry>
+        <TocEntry
+          Title="PDF"
+          Link="/Content/Integrations/ExchangeRoomIntegration/ERI_PDF.pdf" />
+      </TocEntry>
+      <TocEntry
+        Title="Human Resources Information Systems (HRIS)"
+        Link="/Content/Integrations/HumanResourcesInformationSystem.htm" />
+      <TocEntry
+        Title="Microsoft Exchange Integration"
+        Link="/Content/Integrations/MicrosoftExchangeIntegrations.htm"></TocEntry>
+      <TocEntry
+        Title="Video Conferencing"
+        Link="/Content/Integrations/VideoConferencing.htm" />
+      <TocEntry
+        Title="Integration to Microsoft® Exchange"
+        Link="/Content/EMSforOutlook/IntegrationtoMicrosoftExchange/Introduction.htm">
+        <TocEntry
+          Title="System Requirements for Integration to Exchange"
+          Link="/Content/EMSforOutlook/IntegrationtoMicrosoftExchange/IntegExchanReqs.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Install or Upgrade the Exchange Integration Web Service"
+          Link="/Content/EMSforOutlook/IntegrationtoMicrosoftExchange/InstallUpgradeforEIWservice.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Configure Integration to Exchange"
+          Link="/Content/EMSforOutlook/IntegrationtoMicrosoftExchange/ConfigIntegExchange.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Use Application Pool Identity for Integration for Exchange Service Account"
+          Link="/Content/EMSforOutlook/IntegrationtoMicrosoftExchange/UseAppPoolIdentif.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="PDF"
+          Link="/Content/EMSforOutlook/IntegrationtoMicrosoftExchange/IntegrationtoMicrosoftExchange.pdf" />
+        <TocEntry
+          Title="Configure EWS Impersonation for Microsoft® Exchange"
+          Link="/Content/EMSforOutlook/IntegrationtoMicrosoftExchange/ConfigureEWSImpersonation.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+          <TocEntry
+            Title="Learn More About Exchange Web Services (EWS) Impersonation"
+            Link="/Content/EMSforOutlook/IntegrationtoMicrosoftExchange/LearnMoreaboutEWS.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        </TocEntry>
+      </TocEntry>
+      <TocEntry
+        Title="Skype for Business "
+        Link="/Content/Skype/ConfigurationGuide/CG_Overview.htm">
+        <TocEntry
+          Title="Introduction to Skype for Business Integration"
+          Link="/Content/Skype/ConfigurationGuide/Introduction.html" />
+        <TocEntry
+          Title="Configure Skype for Business"
+          Link="/Content/Skype/ConfigurationGuide/ConfigureSkypeforBusiness.html" />
+      </TocEntry>
+      <TocEntry
+        Title="Meeting Planner"
+        Link="/Content/MeetingPlanner.pdf" />
+    </TocEntry>
     <TocEntry
       Title="Optional Features"
       Link="/Content/OptionalFeatures.htm">
