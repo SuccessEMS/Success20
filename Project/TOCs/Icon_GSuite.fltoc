@@ -9,7 +9,7 @@
       Link="/Content/GoogleSuiteIntegration/Config.htm" />
     <TocEntry
       Title="EMS for Google Calendar"
-      Link="/Content/Print/EMSGSuiteIntegration.htm"
+      Link="/Content/GoogleSuiteIntegration/Google_Cal_Overview.htm"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
