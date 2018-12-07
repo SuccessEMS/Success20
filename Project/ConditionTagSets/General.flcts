@@ -21,4 +21,18 @@
     BackgroundColor="#4b0082"
     Name="Edit_in_Review"
     Comment="For changes that require approval and should not appear online or in print" />
+  <ConditionTag
+    BackgroundColor="#66cdaa"
+    Name="GSuite_Platform_Snippet"
+    Comment="For removing selected portions of snippet from Topic"
+    OriginalName="GSuite_Platform_Snippet" />
+  <ConditionTag
+    BackgroundColor="#008000"
+    Name="NewTag"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#ff7f50"
+    Name="GSuite_WebServer_Snippet"
+    Comment="For removing selected portions of snippet from Topic"
+    OriginalName="Copy of GSuite_WebServer_Snippet" />
 </CatapultConditionTagSet>
