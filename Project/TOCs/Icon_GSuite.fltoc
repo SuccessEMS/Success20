@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="G Suite Integration"
+    Link="/Content/GoogleSuiteIntegration/Introduction.htm">
+    <TocEntry
+      Title="Configuration of G Suite Integration"
+      Link="/Content/GoogleSuiteIntegration/Config.htm" />
+    <TocEntry
+      Title="EMS for Google Calendar"
+      Link="/Content/Print/EMSGSuiteIntegration.htm"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Title8_5X11.flpgl">
+      <TocEntry
+        Title="Installation Guide"
+        Link="/Content/GoogleSuiteIntegration/IntroInstallation.htm"
+        BreakType="chapter"
+        PageNumberReset="reset"
+        ChapterNumberReset="reset"
+        ChapterNumber="1"
+        StartSection="false"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same" />
+      <TocEntry
+        Title="Configuration Guide"
+        Link="/Content/GoogleSuiteIntegration/ConfigGoogleCalendar.htm"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue"></TocEntry>
+      <TocEntry
+        Title="User Guide"
+        Link="/Content/GoogleSuiteIntegration/IntroGoogleCalendarUserGuide.htm"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue">
+        <TocEntry
+          Title="Authentication"
+          Link="/Content/GoogleSuiteIntegration/Authentication.htm"
+          BreakType="chapter"
+          StartSection="false"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue" />
+        <TocEntry
+          Title="Conflict Resolution"
+          Link="/Content/GoogleSuiteIntegration/ConflictResolution.htm"
+          BreakType="chapter"
+          StartSection="false"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue" />
+      </TocEntry>
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Glossary"
+    Link="/Content/Glossary/1_Glossary.htm"
+    Skin="/Project/Skins/HomeSearchBar.flskn"
+    StartSection="false"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue"
+    ComputeToc="false"
+    ReplaceMergeNode="false"></TocEntry>
+</CatapultToc>
