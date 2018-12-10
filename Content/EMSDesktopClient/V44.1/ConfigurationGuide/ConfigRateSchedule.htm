@@ -25,7 +25,7 @@
                 <ul class="unorder-list">
                     <li><span class="bold">During the configuration of a room or resource.</span> When you are configuring a room or resource, the configuration dialog box contains a <span class="bold">Pricing </span>tab. This tab lists all the rate schedules that are currently configured in your EMS database. You can specify the pricing method for the billable item that you are configuring for each rate schedule. You can also specify a discount percentage for the item, a minimum charge for the item, a maximum charge for the item, or any combination of these options. (See&#160;Also:&#160;<a href="ConfigRooms.html#ConfigurePricing">Configure Rooms</a>&#160;and&#160;<a href="ConfigResourcesforCat.html#ConfigurePricingResource">Configure Resources for a Category</a>.)</li>
                     <li><span class="bold">After all necessary rooms and resources are configured.</span> Both the Rooms window and the Resources window contain a <span class="bold">Pricing </span>button. You can click <span class="bold">Pricing </span>to open an Edit Pricing window. You can use the options on this window to specify the pricing method for the billable items (rooms and resources) for a selected rate schedule. You can also specify a discount percentage for the item, a minimum charge for the item, a maximum charge for the item, or any combination of these options. (See&#160;Also:&#160;<a href="ConfigRoomPricing.htm">Configure the Pricing for a Room on the Edit Pricing Window</a>&#160;and&#160;<a href="ConfigPricingResourceEditPriceWin.htm">Configure the Pricing for a Resource on the Edit Pricing Window</a>.)</li>
-                    <li><span class="bold">Where rate schedules are defined.</span> The Rate Schedules window has a <span class="bold">Pricing </span>button. After you have defined a rate schedule, you can select a rate schedule in the Rate Schedules window and click <span class="bold">Pricing </span>to open an Edit Pricing window. You can use the options on this Edit Pricing window to specify the pricing method for every billable item for the rate schedule. You can also specify a discount percentage for the item, a minimum charge for the item, a maximum charge for the item, or any combination of these options. (See&#160;Also:&#160;<a href="ConfigRateSchedule.htm#ConfigurePricing">Configure Rate Schedules</a>.)</li>
+                    <li><span class="bold">Where rate schedules are defined.</span> The Rate Schedules window has a <span class="bold">Pricing </span>button. After you have defined a rate schedule, you can select a rate schedule in the Rate Schedules window and click <span class="bold">Pricing </span>to open an Edit Pricing window. You can use the options on this Edit Pricing window to specify the pricing method for every billable item for the rate schedule. You can also specify a discount percentage for the item, a minimum charge for the item, a maximum charge for the item, or any combination of these options. (See&#160;Also:&#160;<a href="#ConfigurePricing">Configure Pricing for Billable Items in a Rate Schedule</a>.)</li>
                 </ul>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
@@ -198,7 +198,7 @@
                         <p>Flat Price</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p>A resource or room price that remains constant regardless of the total number of hours booked for a room or resource. Used in conjunction with Hourly (Event Time) and Hourly (Reserved Time).</p>
+                        <p>A resource or <MadCap:annotation MadCap:createDate="2018-12-10T10:03:50.1031768-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Service, too?" MadCap:editor="Megan.Laub" MadCap:editDate="2018-12-10T10:03:52.9955256-07:00">room </MadCap:annotation>price that remains constant regardless of the total number of hours booked for a room or resource. Used in conjunction with Hourly (Event Time) and <MadCap:annotation MadCap:createDate="2018-12-10T10:03:15.4969389-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Can Flat Price be applied to Hourly (Service Time)?" MadCap:editor="Megan.Laub" MadCap:editDate="2018-12-10T10:03:37.6033138-07:00">Hourly (Reserved Time)</MadCap:annotation>.</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
@@ -207,7 +207,7 @@
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
                         <p>
-                            <MadCap:annotation MadCap:createDate="2018-11-08T13:56:34.6162070-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Why are the descriptions for Half Day and Full Day the same in this table? Check other Pricing Method tables and see if the descriptions differ." MadCap:editor="Megan.Laub" MadCap:editDate="2018-11-08T13:58:05.2985052-07:00">The dollar amount</MadCap:annotation> that is used in calculating room or resource price for a booking if the pricing unit is Half Day/Full Day (Event Time) or Half Day/Full Day (Reservation Time).</p>
+                            <MadCap:annotation MadCap:createDate="2018-11-08T13:56:34.6162070-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Why are the descriptions for Half Day and Full Day the same in this table? Check other Pricing Method tables and see if the descriptions differ." MadCap:editor="Megan.Laub" MadCap:editDate="2018-11-08T13:58:05.2985052-07:00">The dollar amount</MadCap:annotation> that is used in calculating room or resource price for a booking if the pricing unit is Half Day/Full Day (Event Time) or <MadCap:annotation MadCap:createDate="2018-12-10T09:38:26.4229357-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Should Half Day/Full Day (Service Time) be added her?" MadCap:editor="Megan.Laub" MadCap:editDate="2018-12-10T09:38:48.5514270-07:00">Half Day/Full Day (Reservation Time)</MadCap:annotation>.</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
@@ -215,7 +215,7 @@
                         <p>Full Day Price</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p>The dollar amount that is used in calculating the room or resource price for a booking if the pricing unit is Half Day/Full Day (Event Time) or Half Day/Full Day (Reservation Time).</p>
+                        <p>The dollar amount that is used in calculating the room or resource price for a booking if the pricing unit is Half Day/Full Day (Event Time) or <MadCap:annotation MadCap:createDate="2018-12-10T09:38:55.5374781-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Should Half Day/Full Day (Service Time) be added her?" MadCap:editor="Megan.Laub" MadCap:editDate="2018-12-10T09:39:00.6695774-07:00">Half Day/Full Day (Reservation Time)</MadCap:annotation>.</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
@@ -223,7 +223,7 @@
                         <p>Hours</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
-                        <p>Multiplier used in calculating the room or resource price for a booking if the pricing unit is Half Day/Full Day (Event Time) or Half Day/Full Day (Reservation Time).</p>
+                        <p>Multiplier used in calculating the room or resource price for a booking if the pricing unit is Half Day/Full Day (Event Time) or <MadCap:annotation MadCap:createDate="2018-12-10T10:04:10.5534973-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Should Half Day/Full Day (Service Time) be added her?" MadCap:editor="Megan.Laub" MadCap:editDate="2018-12-10T10:04:18.3940219-07:00">Half Day/Full Day (Reservation Time)</MadCap:annotation>.</p>
                     </td>
                 </tr>
             </tbody>
