@@ -3,7 +3,7 @@
     <head><title></title>
     </head>
     <body>
-        <h1 MadCap:autonum="CHAPTER&#160;1: ">
+        <h1>
             <MadCap:concept term="V44.1" />Install or Upgrade EMS for Outlook on Users' Computers</h1>
         <div class="box-important">
             <p><span class="bold">IMPORTANT:</span>&#160;The installation/upgrading process must begin by&#160;uninstalling previous versions of the EMS for Outlook add-in.&#160;</p>
@@ -48,5 +48,24 @@
         <div class="box-note">
             <p><span class="bold">NOTE:</span>&#160;If the EMS for Outlook displays as Offline,&#160;see&#160;<a href="OutlookAddInOffline.htm">EMS for Outlook Add-In Is Offline</a>.</p>
         </div>
+        <h2>Testing <MadCap:variable name="General.EMS for Outlook Add-in" /></h2>
+        <p>EMS&#160;Software recommends that customers test new versions of EMS for Outlook before deploying to production.  Ideally, customers would have PROD and TEST Exchange environments to pair with the PROD and TEST EMS environments, and separate machines for each environment (e.g., have a machine dedicated to being connected to the test environment).</p>
+        <p>When creating a reservation in EMS for Outlook, the application stores a unique “PAM ID” on the reservation in EMS and stores the EMS Reservation ID on the Exchange object (meeting/appointment) in order to establish the link between the two systems.</p>
+        <p>If the customer has both PROD and TEST linked to the same Exchange environment, here is the risk:</p>
+        <ol>
+            <li>User creates reservation 1234 while connected to TEST EMS.</li>
+            <li>User switches connection (by changing Platform URL) to PROD EMS.</li>
+            <li>User cancels reservation 1234 from Outlook, that was originally created in TEST EMS.</li>
+            <li>Since the connection was changed to PROD, instead of canceling 1234 in TEST, 1234 is canceled in PROD.  1234 in TEST and PROD are almost guaranteed to be two completely different reservations for different users.  So the user has now canceled an unrelated reservation in PROD by accident.</li>
+        </ol>
+        <p>Having separate TEST and PROD Exchange environments is the best way to avoid the problem; however, this is often impractical and costly, if not impossible.  The alternative option is to be careful and deliberate when following the guidelines below:</p>
+        <ol>
+            <li>Users can use a single machine.</li>
+            <li>Install TEST EMS for Outlook version, connect with TEST Platform URL.</li>
+            <li>Make reservations according to test cases and include TEST in the subject line of all meetings created here to help distinguish them.</li>
+            <li>If they are tracking with UAT test cases they can document the date/time/reservation ID used for each test case in order to help track these.</li>
+            <li>Before going back to PROD EMS for Outlook, all TEST reservations must be canceled while still connected to TEST EMS.</li>
+            <li>Once all TEST reservations are canceled, the normal process of uninstalling the TEST EMS for Outlook and reinstalling with PROD can go forward (ensure the Platform URLs are correct).</li>
+        </ol>
     </body>
 </html>
