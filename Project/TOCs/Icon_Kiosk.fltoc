@@ -28,6 +28,9 @@
       Title="Configuration Guide"
       Link="/Content/ConfigGuides/6_EMS Kiosk (V44.1) Configuration Guide.htm">
       <TocEntry
+        Title="Authentication Options"
+        Link="/Content/EMSKioskApp/V44.1/ConfigurationGuide/AuthenOptions.html" />
+      <TocEntry
         Title="Configure EMS Kiosk App Profiles"
         Link="/Content/EMSKioskApp/V44.1/ConfigurationGuide/ConfigKioskAppProfiles.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
