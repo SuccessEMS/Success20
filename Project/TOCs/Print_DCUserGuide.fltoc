@@ -930,18 +930,7 @@
       PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
       SectionNumberReset="continue"
       VolumeNumberReset="same"
-      ChapterNumberReset="continue">
-      <TocEntry
-        Title="Work With and Search for Service Orders"
-        Link="/Content/EMSDesktopClient/V44.1/UserGuide/ManageServiceOrders.html"
-        BreakType="chapter"
-        StartSection="false"
-        PageNumberReset="continue"
-        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
-        SectionNumberReset="continue"
-        VolumeNumberReset="same"
-        ChapterNumberReset="continue" />
-    </TocEntry>
+      ChapterNumberReset="continue"></TocEntry>
     <TocEntry
       Title="Search For Reservations, Bookings, Resources, and Service Orders"
       Link="/Content/EMSDesktopClient/V44.1/UserGuide/SrchResBookResSvcOrder.html"
