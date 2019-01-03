@@ -39,7 +39,7 @@
             <div class="container">
                 <div class="HomeMasterPageFooter outer-row">
                     <div><a href=""><a href="https://www.emssoftware.com/privacy-policy">Privacy Policy </a>|<a href="https://www.emssoftware.com/terms-of-use">Terms of Use </a>|<a href="../../ContactUs.htm"> Contact </a>|<a href="mailto:success@emssoftware.com?subject=Documentation Feedback"> Feedback</a></a>
-                        <p class="Copyright">© <MadCap:variable name="General.Year" /> <MadCap:variable name="General.My Company" />, LLC. All Rights Reserved.</p>
+                        <p class="Copyright">© <MadCap:variable name="General.Year" /> <MadCap:variable name="General.My Company" /> All Rights Reserved.</p>
                     </div>
                     <div class="footer-icons"><a href="https://www.facebook.com/emssoftwarecom" class="facebook"></a><a href="https://twitter.com/ems_software" class="twitter"></a><a href="https://www.youtube.com/user/EMSxDEA" class="youtube"></a><a href="https://www.linkedin.com/company/emssoftware" class="linkedin"></a><a href="https://plus.google.com/u/0/+DeaSoftware" class="googleplus"></a>
                     </div>
