@@ -2,6 +2,6 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="Configure Platform Services"
-    Link="/Content/EMSPlatformServices/ConfigurationGuide/ConfigPSinAdminPortal.html" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    Title="Device Configuration for EMS Room Sign App"
+    Link="/Content/EMSRoomSignApp/44.1/InstallationGuide/DeployRSAAppliances.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
 </CatapultToc>
