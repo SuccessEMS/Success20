@@ -4,7 +4,7 @@
     Name="My Company"
     Comment=""
     OriginalName="ProductName"
-    EvaluatedDefinition="EMS Software">EMS Software</Variable>
+    EvaluatedDefinition="EMS Software, LLC, an Accruent Company">EMS Software, LLC, an Accruent Company</Variable>
   <Variable
     Name="Year"
     Comment=""
@@ -74,5 +74,5 @@
   <Variable
     Name="CopyRight"
     Comment=""
-    EvaluatedDefinition="© 2018 EMS Software, LLC. All Rights Reserved.">© 2018 EMS Software, LLC. All Rights Reserved.</Variable>
+    EvaluatedDefinition="© 2019 EMS Software, LLC, an Accruent Company. All Rights Reserved.">© 2019 EMS Software, LLC, an Accruent Company. All Rights Reserved.</Variable>
 </CatapultVariableSet>
