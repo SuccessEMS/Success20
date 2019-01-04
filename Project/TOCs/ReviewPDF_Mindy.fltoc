@@ -2,6 +2,9 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="[%=System.LinkedTitle%]"
-    Link="/Content/ReleaseNotes/Version44.1/Update30.4/EMSDesktopClient.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    Title="EMS Kiosk App_V31"
+    Link="/Content/ReleaseNotes/Version44.1/Update31/EMSKioskApp.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
+  <TocEntry
+    Title="EMS Web App_V31"
+    Link="/Content/ReleaseNotes/Version44.1/Update31/EMSWebApp.htm" />
 </CatapultToc>
