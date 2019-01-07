@@ -53,7 +53,7 @@
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
                         <p class="RNTitle">Google Integration Issues</p>
                         <p class="RNBody">When a recurring meeting was scheduled in the EMS&#160;Web App, and attendees were invited, the reservation did not always appear on the organizer's calendar. </p>
-                        <p class="RNBody"><b>Fix:</b>&#160;Modified functionality so that  all reservations appear on organizers' calendars.  </p>
+                        <p class="RNBody"><b>Fix:</b>&#160;Modified functionality so that  all reservations appear on the organizer's calendar.  </p>
                         <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=42095&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42095</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
@@ -63,15 +63,15 @@
                     </td>
                     <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows" style="text-align: left;">
                         <p class="RNTitle">Number of Rooms Shown Was Being Affected by Page Size</p>
-                        <p class="RNBody">When using the EMS&#160;Platform Services API with a multi-template availability route, the number of available rooms displayed was being affected by the page size. For example, with a page size of 5, three rooms were shown as available and two as unavailable. However, if the page size was changed to 10, six rooms would show as available. The sort order did not display all of the available rooms before the unavailable rooms. </p>
+                        <p class="RNBody">When using the EMS&#160;Platform Services API with a multi-template availability route, the number of available rooms displayed was being affected by the page size. For example, with a page size of 5, three rooms were shown as available and two as unavailable. However, if the page size was changed to 10, six rooms would show as available. Additionally, the sort order did not display all of the available rooms before the unavailable rooms. </p>
                         <p class="RNBodyBeforeList"><span class="bold">Fix:</span> Modified functionality so that the following occurs for a multi-template availability route: </p>
                         <ul class="RN-unorder-list">
-                            <li>Page size is applied to the results from all process templates, instead of paging per template </li>
-                            <li>Available rooms are returned first, followed by unavailable ones</li>
-                            <li>Availability results are sorted on <span class="bold">UnavailableReason (Ascending)</span>, <span class="bold">Room Description (Ascending)</span>, and <span class="bold">TemplateId</span></li>
-                            <li>If a room is available on more than one template, the room will be returned only once based on the value set for filter <span class="bold">filterDuplicateRoomsByDaysAvailable</span></li>
-                            <li>If the flag <span class="bold">filterDuplicateRoomsByDaysAvailable</span> is set to false, duplicate results are returned</li>
-                            <li><span class="bold">resultsCount</span> property represents the total number of rooms returned in response</li>
+                            <li>Page size is applied to the results from all process templates, instead of paging per template.</li>
+                            <li>Available rooms are returned first, followed by unavailable ones.</li>
+                            <li>Availability results are sorted on <span class="bold">UnavailableReason (Ascending)</span>, <span class="bold">Room Description (Ascending)</span>, and <span class="bold">TemplateId</span>.</li>
+                            <li>If a room is available on more than one template, the room will be returned only once based on the value set for filter <span class="bold">filterDuplicateRoomsByDaysAvailable</span>.</li>
+                            <li>If the flag <span class="bold">filterDuplicateRoomsByDaysAvailable</span> is set to false, duplicate results are returned.</li>
+                            <li><span class="bold">resultsCount</span> property represents the total number of rooms returned in response.</li>
                         </ul>
                         <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=41313&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">41313</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
