@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultDestination
+  Version="1"
+  Comment="This is my publish destination"
+  Host="https://40.118.64.67"
+  User="MyAccountId"
+  Password=""
+  Directory="Bcwebhelp/ems"
+  Port=""
+  ViewUrl="http://www.madcapsoftware.com/"
+  Type="ftp"
+  ConnectionMode="Active"></CatapultDestination>
