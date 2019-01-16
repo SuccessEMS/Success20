@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xml:lang="en-us" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../Resources/MasterPages/ReleaseNotes.flmsp');" MadCap:searchable="False">
+<html xml:lang="en-us" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../Resources/MasterPages/ReleaseNotes.flmsp');" MadCap:searchable="False" MadCap:lastBlockDepth="6" MadCap:lastHeight="14626" MadCap:lastWidth="798">
     <head>
         <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
         <link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
@@ -21,10 +21,10 @@
                     <p class="p_3">Release&#160;Date:&#160;<br />January 16, 2019</p>
                 </td>
                 <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                    <p class="p_3">Patch #:&#160;<br />XX<br /></p>
+                    <p class="p_3">Patch #:&#160;<br />44.1.31000.201812100<br /></p>
                 </td>
                 <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                    <p class="p_3">Build #:&#160;<br />XX</p>
+                    <p class="p_3">Build #:&#160;<br />44.1.31000.434</p>
                 </td>
             </tr>
         </table>
@@ -260,7 +260,7 @@
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
                         <p class="RNTitle">Today's Events Not Displaying All Events</p>
-                        <p class="RNBody">When viewing Today's Events, only workspaces were displaying. </p>
+                        <p class="RNBody">When viewing Today's Events, only a subset of events were displaying. </p>
                         <p class="RNBody"><span class="bold">Fix</span>:&#160;Modified functionality so that all events display on the Today's Events screen.</p>
                         <p class="RNRef">  Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=36575&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">36575</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
@@ -270,7 +270,7 @@
                         <p class="RNArea">Create a Reservation</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
-                        <p class="RNTitle">Messaging Formatting Issue For Reservations That Span One Day</p>
+                        <p class="RNTitle">Messaging Formatting Issue For Reservations That Span Overnight</p>
                         <p class="RNBody">When users created a reservation that ended on the next day, a confusing message appeared that only displayed the start date despite the reservation ending on next day.</p>
                         <p class="RNBody"><span class="bold">Fix</span>:&#160;Modified functionality so that when users create a booking that spans overnight, both the start date and end date are displayed.</p>
                         <p class="RNRef">  Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=36988&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">36988</a><br />(For EMS&#160;Internal Use Only)</p>
@@ -282,7 +282,7 @@
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
                         <p class="RNTitle">Floor Plan Indicators Misaligned on Zoom In/Out</p>
-                        <p class="RNBody">When users viewed a profile in the EMS&#160;Kiosk App, they experienced indicators that were misaligned. </p>
+                        <p class="RNBody">When users zoomed in/out on a floor map in the EMS&#160;Kiosk App, indicators could become misaligned. </p>
                         <p class="RNBody"><span class="bold">Fix</span>:&#160;Modified functionality so that indicators remain static to location spot on map.</p>
                         <p class="RNRef">  Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=37009&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">37009</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
@@ -292,8 +292,8 @@
                         <p class="RNArea">Default View</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
-                        <p class="RNTitle">Default View Remained on Floor Plan View</p>
-                        <p class="RNBody">Despite the parameter "Default search=Floor Map"&#160;being disabled, the default view remained on the Floor Plan view. </p>
+                        <p class="RNTitle">Default View Remained on Floor Map View</p>
+                        <p class="RNBody">Despite the parameter "Default search=Floor Map"&#160;being disabled, the default view remained on the Floor Map view. </p>
                         <p class="RNBody"><span class="bold">Fix</span>:&#160;Modified functionality so that the default view displays the list view once parameter is disabled. </p>
                         <p class="RNRef">  Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=37049&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">37049</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
@@ -304,7 +304,7 @@
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
                         <p class="RNTitle">External Reference Label Not Applying</p>
-                        <p class="RNBody">Users were being prompted for their External Reference to create a reservation. </p>
+                        <p class="RNBody">If the value in the parameter "Label for External Reference"&#160;was modified, Kiosk did not display the updated value. </p>
                         <p class="RNBody"><span class="bold">Fix</span>:&#160;Modified functionality so that the External Reference label is applied in the EMS&#160;Kiosk App.</p>
                         <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=40259&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">40259</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
@@ -314,7 +314,7 @@
                         <p class="RNArea">Choose a Floor</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
-                        <p class="RNTitle">Choose a Floor Filter Displayed Incorrect Styles</p>
+                        <p class="RNTitle">Choosing a Floor Filter on Today's Events Displayed Incorrect Styles</p>
                         <p class="RNBody">When users attempted to Choose a Floor from Today's Events, the floors displayed incorrectly. </p>
                         <p class="RNBody"><span class="bold">Fix</span>:&#160;Modified functionality so that floors are styled and display correctly from the Choose a Floor filter. </p>
                         <p class="RNRef">  Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=41976&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">41976</a><br />(For EMS&#160;Internal Use Only)</p>
