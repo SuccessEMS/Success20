@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" style="mc-master-page: url('..\Resources\MasterPages\BrowsebyProd.flmsp');">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" style="mc-master-page: url('..\Resources\MasterPages\BrowsebyProd.flmsp');" MadCap:lastBlockDepth="8" MadCap:lastHeight="98668" MadCap:lastWidth="859">
     <head>
         <link href="../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
         <link href="../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
@@ -9,6 +9,8 @@
         <p>
             <MadCap:concept term="V44.1" />EMS release notes for the EMS&#160;Platform Services are organized by Update. For information on changes to other products released in the Update, click on the Update number in the title. See Also:&#160;<a href="#Contact_Customer_Support">Contact Customer Support</a>.</p>
         <ul class="unorder-list">
+            <li><a href="#Update31">V44.1, Update 31</a>
+            </li>
             <li><a href="#Update30.2">V44.1, Update 30.2</a>
             </li>
             <li><a href="#Update30">V44.1, Update 30</a>
@@ -70,6 +72,95 @@
             <li><a href="#Update9">V44.1, Update 9 (Platform Services API)</a>
             </li>
         </ul>
+        <h4><a name="Update31"></a>V44.1, <a href="Version44.1/Update31/EMSPlatformServices.htm">Update 31</a></h4>
+        <table style="mc-table-style: url('../Resources/TableStyles/PatternedRows.css');width: 718px;" class="TableStyle-PatternedRows" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 192px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 175px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 278px;" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1" colspan="3">*Click the linked Update Number above for more information regarding <br />enhancements and fixes for all products released during this Update.</th>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p style="text-align: center;">Release Date</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1" style="text-align: center;">
+                        <p style="text-align: center;">Patch Number</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                        <p style="text-align: center;">Build Number</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p style="text-align: center;">01/16/2019</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: center;">
+                        <p>44.1.31000.201812100</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p style="text-align: center;">44.1.31000.620</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows" colspan="3" style="text-align: center;">
+                        <p colspan="3" style="text-align: center;"><span class="bold">See Also:</span>&#160;Known Issues for Update 31<br /><a href="../WhatsNewV44.1.htm">What's New for Version 44.1</a></p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Fixes</h2>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../Resources/TableStyles/PatternedRows.css');width: 100%;margin-left: 0;margin-right: auto;" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 165px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1" style="text-align: left;">
+                        <p class="p_6">Area</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1" style="text-align: left;">
+                        <p class="p_6">Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="RNArea">G Suite</p>
+                        <p>&#160;</p>
+                        <p class="RNArea">&#160;</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
+                        <p class="RNTitle">Google Integration Issues</p>
+                        <p class="RNBody">When a recurring meeting was scheduled in the EMS&#160;Web App, and attendees were invited, the reservation did not always appear on the organizer's calendar. </p>
+                        <p class="RNBody"><b>Fix:</b>&#160;Modified functionality so that  all reservations appear on the organizer's calendar.  </p>
+                        <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=42095&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42095</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
+                        <p class="RNArea">Room Availability</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows" style="text-align: left;">
+                        <p class="RNTitle">Number of Rooms Shown Was Being Affected by Page Size</p>
+                        <p class="RNBody">When using the EMS&#160;Platform Services API with a multi-template availability route, the number of available rooms displayed was being affected by the page size. For example, with a page size of 5, three rooms were shown as available and two as unavailable. However, if the page size was changed to 10, six rooms would show as available. Additionally, the sort order did not display all of the available rooms before the unavailable rooms. </p>
+                        <p class="RNBodyBeforeList"><span class="bold">Fix:</span> Modified functionality so that the following occurs for a multi-template availability route: </p>
+                        <ul class="RN-unorder-list">
+                            <li>Page size is applied to the results from all process templates, instead of paging per template.</li>
+                            <li>Available rooms are returned first, followed by unavailable ones.</li>
+                            <li>Availability results are sorted on <span class="bold">UnavailableReason (Ascending)</span>, <span class="bold">Room Description (Ascending)</span>, and <span class="bold">TemplateId</span>.</li>
+                            <li>If a room is available on more than one template, the room will be returned only once based on the value set for filter <span class="bold">filterDuplicateRoomsByDaysAvailable</span>.</li>
+                            <li>If the flag <span class="bold">filterDuplicateRoomsByDaysAvailable</span> is set to false, duplicate results are returned.</li>
+                            <li><span class="bold">resultsCount</span> property represents the total number of rooms returned in response.</li>
+                        </ul>
+                        <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=41313&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">41313</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
         <h4><a name="Update30.2"></a><span style="font-size: 26pt;"><span style="font-size: 24pt;">V44.1, </span></span><a href="../V44.1_ReleaseNotes.htm#Update30.2" style="font-size: 24pt;">Update 30.2</a><span style="font-size: 26pt;"><span style="font-size: 24pt;">*</span></span>
         </h4>
         <table style="mc-table-style: url('../Resources/TableStyles/PatternedRows.css');width: 718px;" class="TableStyle-PatternedRows" cellspacing="0">
@@ -1448,7 +1539,7 @@
                 </tr>
             </tbody>
         </table>
-        <h2 style="font-size: 24pt;"><a name="Update21"></a><span style="font-size: 26pt;"><span style="font-size: 24pt;">V44.1, </span></span><a href="../V44.1_ReleaseNotes.htm#Update21" style="font-size: 24pt;">Update 21</a><span style="font-size: 26pt;"><span style="font-size: 24pt;">*</span></span> </h2>
+        <h2 style="font-size: 24pt;"><a name="Update21"></a><span style="font-size: 26pt;"><span style="font-size: 24pt;">V44.1, </span></span><a href="../V44.1_ReleaseNotes.htm#Update21" style="font-size: 24pt;">Update 21</a><span style="font-size: 26pt;"><span style="font-size: 24pt;">*</span></span> <![CDATA[ ]]></h2>
         <table style="mc-table-style: url('../Resources/TableStyles/PatternedRows.css');width: 718px;" class="TableStyle-PatternedRows" cellspacing="0">
             <col class="TableStyle-PatternedRows-Column-Regular" style="width: 191px;" />
             <col class="TableStyle-PatternedRows-Column-Regular" style="width: 302px;" />
@@ -1542,7 +1633,7 @@
                 </tr>
             </tbody>
         </table>
-        <h2 style="font-size: 24pt;"><a name="Update20.5"></a><span style="font-size: 26pt;"><span style="font-size: 24pt;">V44.1, </span></span><a href="../V44.1_ReleaseNotes.htm#Update20.5" style="font-size: 24pt;">Update 20.5</a><span style="font-size: 26pt;"><span style="font-size: 24pt;">*</span></span> </h2>
+        <h2 style="font-size: 24pt;"><a name="Update20.5"></a><span style="font-size: 26pt;"><span style="font-size: 24pt;">V44.1, </span></span><a href="../V44.1_ReleaseNotes.htm#Update20.5" style="font-size: 24pt;">Update 20.5</a><span style="font-size: 26pt;"><span style="font-size: 24pt;">*</span></span> <![CDATA[ ]]></h2>
         <table style="mc-table-style: url('../Resources/TableStyles/PatternedRows.css');width: 718px;" class="TableStyle-PatternedRows" cellspacing="0">
             <col class="TableStyle-PatternedRows-Column-Regular" style="width: 191px;" />
             <col class="TableStyle-PatternedRows-Column-Regular" style="width: 302px;" />
