@@ -140,27 +140,7 @@
         <p class="box-note"><span class="bold">NOTE:</span>&#160;When updating the EMS Web App, re-enter/reissue the secret key (from EMS Platform Services) in the new web.config file.  You may need to add https://login.microsoftonline.com and EMS Web App server in the same Internet zone. This is how Microsoft verifies and sends the token key back to EMS Web App/Platform Services server.</p>
         <h2><a name="Connect_EMS_Web_App_Platform_Services"></a>Connect EMS Web App&#160;to Platform Services</h2>
         <p>To integrate with Skype for Business, EMS Web App must connect to EMS Platform Services.&#160;</p>
-        <ol class="number-list">
-            <li>Navigate to the EMS Platform Services Admin Portal.&#160;</li>
-            <li>Select <span class="bold">Integrations</span>. Under Clients, click on the EMS Web App link.</li>
-            <li>Click the <span class="bold">Reset Secret</span> button and copy the generated Secret.</li>
-            <li>In the web.config file located in the designated folder for your current version of EMS, insert the copied Secret&#160;ID into the value field.&#160;</li>
-        </ol>
-        <div class="indent"><pre>&#160; &#160; &lt;add key="platformServicesSecret" value="YourSecretID" /&gt;</pre>
-        </div>
-        <div class="box-important">
-            <p><span class="boldAllCaps">IMPORTANT:</span> EMS Cloud Services customers do not need to generate a Secret or insert it into the web.config file (Steps 3 through 4).</p>
-        </div>
-        <ol start="5" class="number-list">
-            <li><a href="../../EMSPlatformServices/ConfigurationGuide/ConfigPSinAdminPortal.html#ClearCache">Clear the cache in EMS Platform Services</a>.&#160;</li>
-            <li>In the EMS&#160;Desktop Client, navigate to <span class="bold">System Administration</span> &gt;&#160;<span class="bold">Settings&#160;</span>&gt;&#160;<span class="bold">Parameters </span>&gt;&#160;<span class="bold">Everyday User Applications</span>. Configure the <span class="bold">Platform Services API&#160;URL</span>&#160;parameter. Click <span class="bold">Close</span>. </li>
-        </ol>
-        <div class="TitleandImage">
-            <p class="title">Everyday User Applications Tab, Platform Services API&#160;URL</p>
-            <p>
-                <img src="../Images/Skype_ParamforWebApp.PNG" class="PDFlarge" style="width: 523px;height: 140px;" />
-            </p>
-        </div>
+        <MadCap:snippetBlock src="../../ConnectWebApptoPlatform.flsnp" />
         <h2><a name="Configure_Skype_for_Business_on_Global_Templates"></a>Configure Skype for Business on Global Templates</h2>
         <p class="box-important"><span class="boldAllCaps">IMPORTANT:</span>&#160;As of Update 24, the Skype for Business parameters have moved from EMS&#160;Desktop Client to EMS&#160;Platform Services. If you have installed Update 24 or higher, you will need to configure Skype for Business parameters  in the Conferencing tab of <a href="#PlatformServicesAdminPortal">EMS&#160;Platform Services Admin Portal</a>. </p>
         <ol>
