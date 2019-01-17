@@ -12,7 +12,7 @@
   UseLocalBuildSettings="true"
   IgnoredCompilerWarnings="20032,20033,20034,20035,20036,20037,20038,20039,20040,20041"
   EmbedImages="true"
-  MasterPageLayout="/Content/Resources/PageLayouts/PreviewRN/PrevChapters.flpgl"
+  MasterPageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
   RemoveImagesFromHeadings="false"
   MasterStylesheet="/Content/Resources/Stylesheets/MainStyles.css"
   InjectBookHeadings="false">
