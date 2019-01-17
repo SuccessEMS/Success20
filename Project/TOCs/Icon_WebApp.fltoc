@@ -13,10 +13,10 @@
         <TocEntry
           Title="System Architecture"
           Link="/Content/WebApp/A_V44.1/A_InstallationGuide/WebApp_SystemArchitecture.html" />
-        <TocEntry
-          Title="Requirements and Prerequisites"
-          Link="/Content/WebApp/A_V44.1/A_InstallationGuide/WebApp_RequirementPrerequisites.html" />
       </TocEntry>
+      <TocEntry
+        Title="Requirements and Prerequisites"
+        Link="/Content/WebApp/A_V44.1/A_InstallationGuide/WebApp_RequirementPrerequisites.html" />
       <TocEntry
         Title="Obtain the Installation Files"
         Link="/Content/WebApp/A_V44.1/A_InstallationGuide/WebApp_ObtainInstallFiles.html" />

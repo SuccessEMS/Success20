@@ -37,17 +37,17 @@
       SectionNumberReset="continue"
       VolumeNumberReset="same"
       ChapterNumberReset="continue" />
-    <TocEntry
-      Title="Requirements and Prerequisites"
-      Link="/Content/WebApp/A_V44.1/A_InstallationGuide/WebApp_RequirementPrerequisites.html"
-      BreakType="chapter"
-      StartSection="false"
-      PageNumberReset="continue"
-      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
-      SectionNumberReset="continue"
-      VolumeNumberReset="same"
-      ChapterNumberReset="continue" />
   </TocEntry>
+  <TocEntry
+    Title="Requirements and Prerequisites"
+    Link="/Content/WebApp/A_V44.1/A_InstallationGuide/WebApp_RequirementPrerequisites.html"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue" />
   <TocEntry
     Title="Obtain the Installation Files"
     Link="/Content/WebApp/A_V44.1/A_InstallationGuide/WebApp_ObtainInstallFiles.html"
