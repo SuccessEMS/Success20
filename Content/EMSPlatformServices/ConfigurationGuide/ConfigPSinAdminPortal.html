@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\Resources\MasterPages\emsPlatformServices.flmsp');">
     <head>
+        <link href="../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" />
         <link href="../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title mt-export-translate="no">Configuring Platform Services in the Admin Portal</title>
         <meta name="mt-type" value="application/x.deki-text" />
         <meta name="mt-unsafe" value="true" />
@@ -14,6 +15,8 @@
             <li><a href="#HOME">Home—Perform Admin Functions</a>
             </li>
             <li><a href="#Integrations">Integrations—Manage EMS&#160;Integrations</a>
+            </li>
+            <li><a href="#ConnectWebApptoPlatformServices">Connect EMS&#160;Web App to EMS&#160;Platform Services</a>
             </li>
             <li><a href="#Roles">Roles—Create New Roles or Edit Existing Ones</a>
             </li>
@@ -528,6 +531,9 @@ Max bookings per date range
                 </tr>
             </tbody>
         </table>
+        <h2><a name="ConnectWebApptoPlatformServices"></a>Connect EMS&#160;Web App to <MadCap:variable name="General.Platform Services" /></h2>
+        <p class="box-important"><b>IMPORTANT</b>:&#160;Beginning with <a href="../../ReleaseNotes/Version44.1/Update31/EMSWebApp.htm">Update 31</a>, EMS&#160;Platform Services is a pre-requisite for installing and using the EMS&#160;Web App. Please validate <a href="../../EMS_SystemReq_44.1.html#EMSPlatformServices">hardware and software requirements for EMS&#160;Platform Services</a> if it is has not yet been <a href="../InstallationGuide/InstallPS.html">installed</a> in your environment. (If your organization uses the EMS&#160;Mobile App, EMS&#160;Kiosk App, Google Integration, EMS&#160;for Outlook, or SAML authentication, then EMS&#160;Platform Services is already running in your environment.)</p>
+        <MadCap:snippetBlock src="../../ConnectWebApptoPlatform.flsnp" />
         <h2><a name="Roles"></a>Roles</h2>
         <p>Roles are separate entities responsible for capturing the rules associated with authorizing clients and users. These authentication roles allow users to access specific rest API routes. Roles are applied to clients, both <a href="#User-based">user-based</a> and <a href="#non-userbased">non-user based</a>.</p>
         <p>From the <span class="bold">Roles </span>tab, you can <a href="#CreateRoles">create new roles</a> or <a href="#EditRoles">edit existing roles</a>.</p>
