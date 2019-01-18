@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<MadCapLog Protocol="2" Description="MadCap Flare 2018 Generated TechDocs.fltar" Date="2019-01-17T12:52:23.0398895-07:00">
+<MadCapLog Protocol="2" Description="MadCap Flare 2018 Generated TechDocs.fltar" Date="2019-01-18T08:38:01.7777895-07:00">
     <Messages>Compiling target TechDocs...
 Removing previously generated content...
 Loading skin info...
@@ -8103,18 +8103,14 @@ Writing search entry cache...
 Generating final output...
 Generated Default.htm
 Saving result set...
-Warning: The file "V43_ReleaseNotes.htm" has been modified after the build started.
-Warning: The file "EMSMobile_V44.1.htm" has been modified after the build started.
-Ignored Compiler Warnings: 5108
-Output generated in 13 minute(s) and 28 second(s).
+Ignored Compiler Warnings: 5105
+Output generated in 14 minute(s) and 18 second(s).
 
 Done
 Saving log to "C:\Users\megan.laub\Documents\My Projects\Success29\Project\Reports\TechDocs.mclog"
 </Messages>
     <Warnings>
         <LogEntry File="../../Content/Resources/Stylesheets/MainStyles.css" Message="Missing linked source file: C:\Users\megan.laub\Documents\My Projects\Success29\Content\Resources\Stylesheets\Skins\Fluid\Stylesheets\Images\EMS_Logo_Doc.png" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="TechDocs" ErrorID="10001" />
-        <LogEntry File="../../Content/V43_ReleaseNotes.htm" Message="Warning: The file &quot;V43_ReleaseNotes.htm&quot; has been modified after the build started." LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="TechDocs" ErrorID="10127" />
-        <LogEntry File="../../Content/ReleaseNotes/EMSMobile_V44.1.htm" Message="Warning: The file &quot;EMSMobile_V44.1.htm&quot; has been modified after the build started." LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="TechDocs" ErrorID="10127" />
     </Warnings>
     <Errors />
 </MadCapLog>
