@@ -13,6 +13,7 @@
             <col class="TableStyle-PatternedRows-Column-Regular" />
             <col class="TableStyle-PatternedRows-Column-Regular" />
             <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
             <tr class="TableStyle-PatternedRows-Body-LightRows">
                 <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
                     <p class="p_3">V44.1&#160;Update 31.1</p>
@@ -20,8 +21,11 @@
                 <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
                     <p class="p_3">Release&#160;Date:&#160;<br />January 22, 2019<br /></p>
                 </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p>Patch #:<br />44.1.31001.201901180</p>
+                </td>
                 <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                    <p class="p_3">Build #:&#160;<br />44.1.31001<br /></p>
+                    <p class="p_3">Build #:&#160;<br />44.1.31001.1593<br /></p>
                 </td>
             </tr>
         </table>
@@ -55,7 +59,7 @@
                         <p class="RNArea">Parameter Settings</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNTitle"><span class="italics">VEMS_UsePlatformRoomAvailabilitySearch</span> Parameter Enhancement</p>
+                        <p class="RNTitle">Parameter Update for Use of EMS&#160;Platform Services</p>
                         <p class="RNBody">The parameter settings that require use of EMS&#160;Platform Services by EMS&#160;Web App were automated to prevent manual configuration requirements. </p>
                         <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=42915&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42915</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
@@ -82,9 +86,10 @@
                         <p class="RNArea">Timezone</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" style="text-align: left;">
-                        <p class="RNTitle">EMS&#160;Web App Bookings in EMS&#160;for Google Calendar With Eastern Timezone Displayed Incorrect Time</p>
-                        <p class="RNBody">Reservations created on a Google Integration template with an Eastern timezone and a date after March 10, 2019, were displaying with the incorrect time. </p>
-                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that the correct time displays for these Eastern timezone bookings. </p>
+                        <p class="RNTitle">EMS Web App Reservations Created with Start Date in Daylight Savings Time Range Created Calendar Appointment at Incorrect Time in Google Calendar</p>
+                        <p class="RNBody">Reservations created on a Google Integration template with a reservation start date in Daylight Savings Time (between March 10, 2019 and November 2, 2019*) were creating calendar appointments at the wrong time (incorrect by one hour). </p>
+                        <p class="RNBody">*Some global locations have unique start/end dates for DST. These dates reflect the most common range.</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that the calendar appointment is created at the correct time for reservations with a start date in DST range. </p>
                         <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=42868&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42868</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
