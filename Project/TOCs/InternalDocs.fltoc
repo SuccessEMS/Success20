@@ -8,15 +8,8 @@
       Title="Skype for Business Troubleshooting"
       Link="/Content/InternalDocumentation/TroubleShootingSkypeforBusiness.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     <TocEntry
-      Title="SAML 2.0"
-      Link="/Content/InternalDocumentation/SAMLOverview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
-      <TocEntry
-        Title="Terminology and Process Overview"
-        Link="/Content/InternalDocumentation/SAML_TermsProcess.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-      <TocEntry
-        Title="Troubleshooting"
-        Link="/Content/InternalDocumentation/SAMLTroubleshooting.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-    </TocEntry>
+      Title="SAML Troubleshooting"
+      Link="/Content/InternalDocumentation/SAMLTroubleshooting.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     <TocEntry
       Title="EMS Web App: Configure Security Headers"
       Link="/Content/InternalDocumentation/WebApp_CustomizeSecurity.html" />
