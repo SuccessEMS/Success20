@@ -28,19 +28,6 @@
             <li><a href="#PreConfigureEMSMobileApp">Pre-Configure EMS&#160;Mobile App (Private Deployment)</a>
             </li>
         </ul>
-        <h2>Overview of SAML&#160;Configuration Process</h2>
-        <ol>
-            <li>Ensure that the SAML <a href="#Prerequisites">prerequisites</a> have been met.</li>
-            <li><a href="#updateSAMLConfiguration">Update SAML configuration</a>, if needed.</li>
-            <li><a href="#UpdateEncryptionKey">Update the encryption key</a>, if needed. Existing customers may need to update; new customers have the key in the default.json file.</li>
-            <li>Configure SAML authentication for EMS Web App and/or Mobile App in Platform Integrations tab.<ul><li>Complete Web App/Mobile App configuration steps in Integrations tab of Platform UI (see instructions in <a href="#ConfigureSAMLAuthenticationforWebandMobile">Configure SAML Authentication for EMS Mobile App and EMS Web App</a>).</li></ul></li>
-            <li>Configure IdP. Make sure to obtain the following Platform (SP) info to configure the IdP:<ul><li>Identity of the SP (EMS Platform Services); this is the identifier that we put in our SAML requests that tells who we are</li><li>Platform URL—once the user has logged in, the IdP needs a URL for returning the user to EMS Platform Services (service provider URL)</li><li>Whether to sign the SAML response, and if signing, the key to sign the response with</li></ul><p class="box-note"><span class="boldAllCaps">Note:&#160;</span>EMS supports the following IdPs: ADFS, G Suite, Okta, Auth0, Azure AD, Shibboleth,</p></li>
-            <li>Optional. Export XML metadata from IdP.</li>
-            <li>Configure SAML Authentication global settings in the Platform SAML tab (see “Identify Your Provider in Configuration” section in this topic), and configure Auth Keys in the Platform Auth Keys tab (see “Auth Keys” section of “Configure Platform Services in the Admin Portal”). Make sure to obtain the following IdP info for use when configuring Platform (SP):<ul><li>URL to send the user to for sign-on</li><li>Whether to sign the SAML request, and if signing, the key to sign the request with</li><li>IdP (public) key to verify the signature in the IdP response</li><li>Name of the assertion to use to associate users (in other words, which assertion matches the network ID in the EMS WebUser table)</li></ul></li>
-            <li>Configure Web App for SAML in the Desktop Client (set SAML parameter to “Yes”).</li>
-            <li>Configure EMS Mobile App for deployment using one of the following methods:<ul><li>Hosted (Public) deployment (see also “Using Hosted Configuration (Public Deployment” at the end of this chapter)</li><li>Private deployment where you customize JSON</li><li>Private deployment where you configure and re-sign</li></ul></li>
-            <li>Enable logging (Edit Log Level Details) in Platform to help with troubleshooting SAML.</li>
-        </ol>
         <h2><a name="Prerequisites"></a>Prerequisites</h2>
         <p>EMS Platform Services is required for SAML&#160;authentication. </p>
         <h3>EMS&#160;Web App </h3>
