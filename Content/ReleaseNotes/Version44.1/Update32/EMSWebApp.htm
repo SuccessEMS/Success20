@@ -19,7 +19,7 @@
                     <p class="p_3">V44.1&#160;Update 32</p>
                 </td>
                 <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                    <p class="p_3">Release&#160;Date:&#160;<br />January XX, 2019<br /></p>
+                    <p class="p_3">Release&#160;Date:&#160;<br />February XX, 2019<br /></p>
                 </td>
                 <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
                     <p class="p_3">Patch #:&#160;<br /><br /></p>
@@ -29,10 +29,10 @@
                 </td>
             </tr>
         </table>
-        <h2>Fixes</h2>
-        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');width: 100%;margin-left: 0;margin-right: auto;" cellspacing="0">
-            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 272px;" />
-            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 925px;" />
+        <h2>Fix</h2>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');margin-left: 0;margin-right: auto;width: 100%;" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 143px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
                     <th class="TableStyle-PatternedRows-HeadE-Regular-Header1" style="text-align: left;">
@@ -45,47 +45,16 @@
             </thead>
             <tbody>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
-                        <p class="RNTitle">Required UDFs Were Missing from EMS&#160;Web App Reservations</p>
-                        <p class="RNBody">Dependent required user-defined fields (UDFs)&#160;were not appearing on reservations made in the EMS&#160;Web App. </p>
-                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that required UDFs appear on reservations made in the EMS&#160;Web App.</p>
-                        <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/Aspen/_queries?id=38716&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">38716</a><br />(For EMS&#160;Internal Use Only)</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p class="RNArea">LDAP&#160;Authentication</p>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                        <p class="RNArea">Timezone</p>
                         <p>&#160;</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNTitle">Intermittent Slowness Experienced During Authentication (EMS&#160;Cloud Services Customers)</p>
-                        <p class="RNBody">EMS&#160;Cloud Services customers experienced intermittent slowness when authenticating with LDAP. </p>
-                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality to reduce latency during LDAP&#160;authentication for EMS&#160;Cloud Services customers. </p>
-                        <p class="RNRef">Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/Aspen/_queries?id=38324&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">38324</a><br />(For EMS&#160;Internal Use Only)</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p class="RNArea">Schedule View</p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
-                        <p class="RNTitle">Bookings Spanning Overnight Were Not Displayed Correctly on Schedule View</p>
-                        <p class="RNBody">The end time for bookings that span a night were not displaying correctly when toggling to the next day on the Schedule View. </p>
-                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that when toggling to the next day, the booking end time displays correctly.  </p>
-                        <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=40289&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">40289</a><br />(For EMS&#160;Internal Use Only)</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
-                        <p class="RNArea">Skype for Business</p>
-                        <p>&#160;</p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNTitle">Skype Information Was Not Being Added to Reservations</p>
-                        <p class="RNBody">Users were unable to successfully complete the authentication process due to Skype for Business routing to the wrong pool; therefore, Skype was not being added to reservations. </p>
-                        <p class="RNBody"><span class="bold">Fix</span>:&#160;Modified functionality so that users can successfully authenticate to the Skype server and are routed to the correct pool.</p>
-                        <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=41132&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">41132</a><br />(For EMS&#160;Internal Use Only)</p>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" style="text-align: left;">
+                        <p class="RNTitle">EMS Web App Reservations Created with Start Date in Daylight Savings Time Range Created Calendar Appointment at Incorrect Time in Google Calendar</p>
+                        <p class="RNBody">Reservations created on a Google Integration template with a reservation start date in Daylight Savings Time (between March 10, 2019 and November 2, 2019*) were creating calendar appointments at the wrong time (incorrect by one hour). </p>
+                        <p class="RNBody">*Some global locations have unique start/end dates for DST. These dates reflect the most common range.</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that the calendar appointment is created at the correct time for reservations with a start date in DST range. </p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=42889&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42889</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
             </tbody>
