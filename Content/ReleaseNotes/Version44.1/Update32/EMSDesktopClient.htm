@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <html xml:lang="en-us" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\No-Survey Master Page_AA.flmsp');" MadCap:searchable="False">
     <head>
+        <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" />
         <link href="../../../Resources/TableStyles/Border_table_alternate_colors.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
     </head>
     <body>
@@ -29,56 +30,68 @@
             </tr>
         </table>
         <h2>Fixes</h2>
-        <table class="TableStyle-Border_table_alternate_colors" style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/TableStyles/Border_table_alternate_colors.css');" cellspacing="12">
-            <col class="TableStyle-Border_table_alternate_colors-Column-Column1" style="width: 202px;" />
-            <col class="TableStyle-Border_table_alternate_colors-Column-Column1" />
+        <table class="TableStyle-PatternedRows" style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 202px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
             <thead>
-                <tr class="TableStyle-Border_table_alternate_colors-Head-Header1">
-                    <th class="TableStyle-Border_table_alternate_colors-HeadE-Column1-Header1" style="text-align: left;">
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1" style="text-align: left;">
                         <p class="p_6">Area</p>
                     </th>
-                    <th class="TableStyle-Border_table_alternate_colors-HeadD-Column1-Header1" style="text-align: left;">
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1" style="text-align: left;">
                         <p class="p_6">Description</p>
                     </th>
                 </tr>
             </thead>
             <tbody>
-                <tr class="TableStyle-Border_table_alternate_colors-Body-Body1">
-                    <td class="TableStyle-Border_table_alternate_colors-BodyE-Column1-Body1">&#160;</td>
-                    <td class="TableStyle-Border_table_alternate_colors-BodyD-Column1-Body1">
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="RNArea">EMS&#160;for Google Calendar</p>
+                        <p>&#160;</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="RNTitle">EMS&#160;for Outlook License Checkbox</p>
+                        <p class="RNBody">For users with an EMS&#160;for Google Calendar license, an 'Enable for EMS for Google Calendar' checkbox should be available. After checking these boxes, the tab, EMS&#160;for Google Calendar Conflicts will appear. </p>
+                        <p class="RNBody"><b>Fix</b>:&#160;Modified functionality so that the appropriate checkboxes and tabs appear for EMS&#160;for Google Calendar license holders. </p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=42989&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42989</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
                         <p class="RNTitle">EMS Database (Version 2017.01.13.0) Was Not Auditing the Latest ClientConnection in tblServerVersion Table</p>
                         <p class="RNBody">The EMS&#160;Database was not validating against the last connected build of the EMS&#160;Desktop Client; therefore,  no Warning was thrown to the end-user about an updated build being available. </p>
                         <p class="RNBody">Fix:&#160;Modified functionality so that EMS&#160;Desktop Client users receive an error when connecting the database with a prior build of the EMS&#160;Desktop Client.</p>
                         <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=27232&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">27232</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
-                <tr class="TableStyle-Border_table_alternate_colors-Body-Body2">
-                    <td class="TableStyle-Border_table_alternate_colors-BodyE-Column1-Body2">
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
                         <p class="RNArea">Audit Tab</p>
                     </td>
-                    <td class="TableStyle-Border_table_alternate_colors-BodyD-Column1-Body2">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
                         <p class="RNTitle">Editing Critical Room Information Was Recorded in the Audit Tab As a Change to the Everyday User Process Template</p>
                         <p class="RNBody">For rooms tied to an Everyday User Process Template, when a user modified critical room information, such as the room code, the user was incorrectly recorded on the <span class="ui">Audit </span>tab as changing the Everyday User Process Template. </p>
                         <p class="RNBody"><span class="ui">Fix:</span>&#160;Modified functionality so that the <span class="ui">Audit </span>tab for Everyday User Process Templates only records changes made to Everyday User Process Templates. </p>
                         <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=40153&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">40153</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
-                <tr class="TableStyle-Border_table_alternate_colors-Body-Body1">
-                    <td class="TableStyle-Border_table_alternate_colors-BodyE-Column1-Body1" style="text-align: left;">
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="text-align: left;">
                         <p class="RNArea">Notifications</p>
                     </td>
-                    <td class="TableStyle-Border_table_alternate_colors-BodyD-Column1-Body1" style="text-align: left;">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
                         <p class="RNTitle">Notifications Not Triggering</p>
                         <p class="RNBody">Notifications were not being triggered to targeted recipient when a booking time changed. </p>
                         <p class="RNBody"><span class="ui">Fix</span>:&#160;Modified functionality so that notifications are triggered when a booking time changes. </p>
                         <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=40311&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">40311</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
-                <tr class="TableStyle-Border_table_alternate_colors-Body-Body2">
-                    <td class="TableStyle-Border_table_alternate_colors-BodyB-Column1-Body2" style="text-align: left;">
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows" style="text-align: left;">
                         <p class="RNArea">Email</p>
                     </td>
-                    <td class="TableStyle-Border_table_alternate_colors-BodyA-Column1-Body2" style="text-align: left;">
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" style="text-align: left;">
                         <p class="RNTitle">
                             <MadCap:annotation MadCap:createDate="2018-11-26T08:02:25.9733306-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Blocked and removed from U31 because it was a configuration issue, not a bug. Removing from release notes. Saving in U32 just in case, but remove completely if not showing in U32 query." MadCap:editor="Megan.Laub" MadCap:editDate="2018-11-26T08:02:50.7555856-07:00">Unable to Send Emails Using Gmail SMTP Email Settings</MadCap:annotation>
                         </p>
