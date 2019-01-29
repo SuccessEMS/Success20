@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xml:lang="en-us" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\No-Survey Master Page_AA.flmsp');" MadCap:searchable="False">
+    <head><title></title>
+    </head>
+    <body>
+        <h1 class="RNprint">EMS&#160;Desktop Client—Academic Planning <br />Release Notes <br />V44.1, Update 32</h1>
+        <p>
+            <MadCap:concept term="V44.1" />This section describes updates to&#160;your EMS software.&#160;&#160;</p>
+        <p MadCap:conditions="General.Online Only">See Also:&#160;<a href="#Contact">Contact Customer Support</a>&#160;and&#160;<MadCap:xref href="../../../Update_to_LatestVersion_EMS.htm"><a href="../../../Update_to_LatestVersion_EMS.htm">Updating to the Latest Version of EMS (Patches and Builds)</a></MadCap:xref>. </p>
+        <table class="TableStyle-Border_table_alternate_colors" style="margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/TableStyles/Border_table_alternate_colors.css');" cellspacing="12">
+            <col class="TableStyle-Border_table_alternate_colors-Column-Column1" />
+            <col class="TableStyle-Border_table_alternate_colors-Column-Column1" />
+            <col class="TableStyle-Border_table_alternate_colors-Column-Column1" />
+            <col class="TableStyle-Border_table_alternate_colors-Column-Column1" />
+            <tr class="TableStyle-Border_table_alternate_colors-Body-Body1">
+                <td class="TableStyle-Border_table_alternate_colors-BodyE-Column1-Body1">
+                    <p class="p_3">V44.1 Update 32</p>
+                </td>
+                <td class="TableStyle-Border_table_alternate_colors-BodyE-Column1-Body1">
+                    <p class="p_3">Release&#160;Date:&#160;<br />January 2019<br /></p>
+                </td>
+                <td class="TableStyle-Border_table_alternate_colors-BodyE-Column1-Body1">
+                    <p class="p_3">Patch:&#160;<br />XXX<br /></p>
+                </td>
+                <td class="TableStyle-Border_table_alternate_colors-BodyD-Column1-Body1">
+                    <p class="p_3">Build #:&#160;<br />XXX<br /></p>
+                </td>
+            </tr>
+        </table>
+        <h2>Fixes</h2>
+        <table class="TableStyle-Border_table_alternate_colors" style="margin-left: auto;margin-right: auto;width: 100%;mc-table-style: url('../../../Resources/TableStyles/Border_table_alternate_colors.css');" cellspacing="12">
+            <col class="TableStyle-Border_table_alternate_colors-Column-Column1" style="width: 157px;" />
+            <col class="TableStyle-Border_table_alternate_colors-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-Border_table_alternate_colors-Head-Header1">
+                    <th class="TableStyle-Border_table_alternate_colors-HeadE-Column1-Header1" style="text-align: left;">
+                        <p class="p_6">Area</p>
+                    </th>
+                    <th class="TableStyle-Border_table_alternate_colors-HeadD-Column1-Header1" style="text-align: left;">
+                        <p class="p_6">Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Border_table_alternate_colors-Body-Body1">
+                    <td class="TableStyle-Border_table_alternate_colors-BodyE-Column1-Body1" style="text-align: left;">
+                        <p class="RNArea">Reporting</p>
+                    </td>
+                    <td class="TableStyle-Border_table_alternate_colors-BodyD-Column1-Body1" style="text-align: left;">
+                        <p class="RNTitle">Total and Average for "All Buildings" Were Incorrect on Classroom Utilization Report</p>
+                        <p class="RNBody">When running a Classroom Utilization Report for more than one building, the report gives the incorrect number for the <span class="ui">Total for all Buildings</span> and the <span class="ui">Average for all Buildings</span>. Instead of totaling and averaging <span class="italics">all </span>buildings, the report lists the total and average for the last building on the report.  </p>
+                        <p class="RNBody"><span class="ui">Fix:</span>&#160;Modified functionality so that Classroom Utilization Report lists the correct total and average for the <span class="ui">Total for all Buildings</span> and the <span class="ui">Average for all Buildings</span>.</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=35223&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">35223</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Border_table_alternate_colors-Body-Body2">
+                    <td class="TableStyle-Border_table_alternate_colors-BodyB-Column1-Body2" style="text-align: left;">
+                        <p class="RNArea">Campus Planning Interface (CPI) </p>
+                    </td>
+                    <td class="TableStyle-Border_table_alternate_colors-BodyA-Column1-Body2" style="text-align: left;">
+                        <p class="RNTitle">Location Column Was Empty for Courses with "Publish in SIS Room" Selected As Preference</p>
+                        <p class="RNBody">In the CPI&#160;Academic Browser, the <span class="ui">Location </span>column was empty for courses that had  <span class="ui">Publish in SIS&#160;Room</span> selected as a preference in the EMS&#160;Desktop Client (<span class="ui">Academic Browser</span> &gt; <span class="ui">Set Course Preferences </span>&gt; <span class="ui">&gt; Preferences tab </span>&gt; <span class="ui">Publish in SIS&#160;Room</span> option). </p>
+                        <p class="RNBody"><span class="ui">Fix:</span>&#160;Modified functionality so that the <span class="ui">Location </span>column displays the room locations for courses with  <span class="ui">Publish in SIS&#160;Room</span> selected as a preference.</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=41759&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">41759</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h2 MadCap:conditions="General.Online Only"><a name="Contact"></a>Contact Customer Support</h2>
+        <MadCap:snippetBlock src="../../../ContactCustomerSupport.flsnp" MadCap:conditions="General.Online Only" />
+    </body>
+</html>
