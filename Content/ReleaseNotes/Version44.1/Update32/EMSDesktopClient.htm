@@ -1,33 +1,60 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <html xml:lang="en-us" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\No-Survey Master Page_AA.flmsp');" MadCap:searchable="False">
     <head>
-        <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" />
-        <link href="../../../Resources/TableStyles/Border_table_alternate_colors.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+        <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
     </head>
     <body>
         <h1 class="RNprint">EMS Desktop Client<br />Release Notes <br />V44.1, Update 32</h1>
         <p class="p_1">
             <MadCap:concept term="V44.1" />This section describes updates to&#160;your EMS software.&#160;&#160;</p>
         <p MadCap:conditions="General.Online Only">See Also:&#160;<a href="#Contact">Contact Customer Support</a>&#160;and&#160;<MadCap:xref href="../../../Update_to_LatestVersion_EMS.htm"><a href="../../../Update_to_LatestVersion_EMS.htm">Updating to the Latest Version of EMS (Patches and Builds)</a></MadCap:xref>. </p>
-        <table class="TableStyle-Border_table_alternate_colors" style="margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/TableStyles/Border_table_alternate_colors.css');" cellspacing="12">
-            <col class="TableStyle-Border_table_alternate_colors-Column-Column1" />
-            <col class="TableStyle-Border_table_alternate_colors-Column-Column1" />
-            <col class="TableStyle-Border_table_alternate_colors-Column-Column1" />
-            <col class="TableStyle-Border_table_alternate_colors-Column-Column1" />
-            <tr class="TableStyle-Border_table_alternate_colors-Body-Body1">
-                <td class="TableStyle-Border_table_alternate_colors-BodyE-Column1-Body1">
+        <table class="TableStyle-PatternedRows" style="margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <tr class="TableStyle-PatternedRows-Body-LightRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
                     <p class="p_3">V44.1 Update 32</p>
                 </td>
-                <td class="TableStyle-Border_table_alternate_colors-BodyE-Column1-Body1">
-                    <p class="p_3">Release&#160;Date:&#160;<br />January 2019<br /></p>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="p_3">Release&#160;Date:&#160;<br />February 2019<br /></p>
                 </td>
-                <td class="TableStyle-Border_table_alternate_colors-BodyE-Column1-Body1">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
                     <p class="p_3">Patch:&#160;<br />XXX<br /></p>
                 </td>
-                <td class="TableStyle-Border_table_alternate_colors-BodyD-Column1-Body1">
+                <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
                     <p class="p_3">Build #:&#160;<br />XXX<br /></p>
                 </td>
             </tr>
+        </table>
+        <h2>enhancement</h2>
+        <table class="TableStyle-PatternedRows" style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 202px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1" style="text-align: left;">
+                        <p class="p_6">Area</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1" style="text-align: left;">
+                        <p class="p_6">Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                        <p class="RNArea">Parameter</p>
+                        <p>&#160;</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
+                        <p class="RNTitle">Updated Additional Text EMS&#160;for Outlook Parameter</p>
+                        <p class="RNBody">The parameter—<b>Text to append to EMS for Outlook meetings</b>—has been added. This parameter adds text to Outlook meetings when created using EMS&#160;for Outlook. </p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=42911&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42911</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+            </tbody>
         </table>
         <h2>Fixes</h2>
         <table class="TableStyle-PatternedRows" style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
@@ -46,6 +73,30 @@
             <tbody>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="RNArea">Email Notification Service</p>
+                        <p>&#160;</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="RNTitle">Email Notification Service Did Not Function After Receiving Error </p>
+                        <p class="RNBody">When a mail server returned a 554 error code, the Email Notification Service stopped sending out any other emails.</p>
+                        <p class="RNBody"><b>Fix</b>:&#160;Modified functionality so that email is sent based on notification service settings.</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=41126&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">41126</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="RNArea">Room Utilization Report</p>
+                        <p>&#160;</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="RNTitle">Room Utilization Report Not Functioning When Utilizing Special Dates</p>
+                        <p class="RNBody">Room Utilization Report data with Special dates were incorrect. All options pertaining to 'Availability Based On' returned the same incorrect data.</p>
+                        <p class="RNBody"><b>Fix</b>:&#160;Modified functionality so that Room Utilization Reports include correct data.</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=37324&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">37324</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
                         <p class="RNArea">EMS&#160;for Google Calendar</p>
                         <p>&#160;</p>
                     </td>
@@ -57,48 +108,14 @@
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p class="RNTitle">EMS Database (Version 2017.01.13.0) Was Not Auditing the Latest ClientConnection in tblServerVersion Table</p>
-                        <p class="RNBody">The EMS&#160;Database was not validating against the last connected build of the EMS&#160;Desktop Client; therefore,  no Warning was thrown to the end-user about an updated build being available. </p>
-                        <p class="RNBody">Fix:&#160;Modified functionality so that EMS&#160;Desktop Client users receive an error when connecting the database with a prior build of the EMS&#160;Desktop Client.</p>
-                        <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=27232&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">27232</a><br />(For EMS&#160;Internal Use Only)</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
                         <p class="RNArea">Audit Tab</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
                         <p class="RNTitle">Editing Critical Room Information Was Recorded in the Audit Tab As a Change to the Everyday User Process Template</p>
                         <p class="RNBody">For rooms tied to an Everyday User Process Template, when a user modified critical room information, such as the room code, the user was incorrectly recorded on the <span class="ui">Audit </span>tab as changing the Everyday User Process Template. </p>
                         <p class="RNBody"><span class="ui">Fix:</span>&#160;Modified functionality so that the <span class="ui">Audit </span>tab for Everyday User Process Templates only records changes made to Everyday User Process Templates. </p>
                         <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=40153&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">40153</a><br />(For EMS&#160;Internal Use Only)</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNArea">Notifications</p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNTitle">Notifications Not Triggering</p>
-                        <p class="RNBody">Notifications were not being triggered to targeted recipient when a booking time changed. </p>
-                        <p class="RNBody"><span class="ui">Fix</span>:&#160;Modified functionality so that notifications are triggered when a booking time changes. </p>
-                        <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=40311&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">40311</a><br />(For EMS&#160;Internal Use Only)</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows" style="text-align: left;">
-                        <p class="RNArea">Email</p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" style="text-align: left;">
-                        <p class="RNTitle">
-                            <MadCap:annotation MadCap:createDate="2018-11-26T08:02:25.9733306-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Blocked and removed from U31 because it was a configuration issue, not a bug. Removing from release notes. Saving in U32 just in case, but remove completely if not showing in U32 query." MadCap:editor="Megan.Laub" MadCap:editDate="2018-11-26T08:02:50.7555856-07:00">Unable to Send Emails Using Gmail SMTP Email Settings</MadCap:annotation>
-                        </p>
-                        <p class="RNBodyBeforeList">Users were unable to send emails from EMS&#160;Desktop Client when using Gmail SMTP email settings. When trying to send an email, they would get the error message: </p>
-                        <p class="RNBody" style="margin-left: 55px;">"The SMTP&#160;server requires a secure connection or the client was not authenticated. The server response was:&#160;5.5.1 Authentication Required."</p>
-                        <p class="RNBody"><span class="ui">Fix</span>:&#160;Modified functionality so that users can send emails from EMS Desktop Client when using Gmail SMTP&#160;email settings. </p>
-                        <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=41280&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">41280</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
             </tbody>
