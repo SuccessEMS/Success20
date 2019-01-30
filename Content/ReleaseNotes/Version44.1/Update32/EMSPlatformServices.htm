@@ -94,13 +94,21 @@ EMS&#160;Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS S
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
                         <p class="RNArea">Parameter</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows" style="text-align: left;">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
                         <p class="RNTitle">Change to Parameter SAML_SignAuthnRequests</p>
                         <p class="RNBody">There has been a change to the parameter, SAML_SignAuthnRequests, which controls whether or not  SAML requests go to the IdP. This can now be controlled and modified from a toggle in the Admin UI, which reflects the parameter's current state.</p>
                         <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=38968&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">38968</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" style="text-align: left;">
+                        <p class="RNTitle">Skype for Business Meeting Option Parameter Added</p>
+                        <p class="RNBody">A new meeting option parameter has been added to the EMS&#160;Platform Services Admin UI under Skype for Business. </p>
+                        <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=42219&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42219</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
             </tbody>
@@ -122,13 +130,13 @@ EMS&#160;Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS S
             <tbody>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p class="RNArea">XX</p>
+                        <p class="RNArea">API</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p class="RNTitle">Skype 3rd party conference missing when looking at calendar item in outlook from reservation made in web app and mobile</p>
-                        <p class="RNBody">XX</p>
-                        <p class="RNBody"><span class="ui">Fix:</span> Modified functionality so that</p>
-                        <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=36351&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">36351</a><br />(For EMS&#160;Internal Use Only)</p>
+                        <p class="RNTitle">Booking Information Changes Missing in History Tab</p>
+                        <p class="RNBody">When critical booking changes were made, the booking history was not being updated through the EMS&#160;Platform Services API. </p>
+                        <p class="RNBody"><span class="ui"><b>Fix</b>:</span> Modified functionality so that changes to booking's critical information (e.g., date, time, room, attendee, etc.)&#160;are captured in the booking's history tab in the EMS&#160;Desktop Client.</p>
+                        <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=42850&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42850</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
@@ -136,29 +144,26 @@ EMS&#160;Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS S
                         <p>&#160;</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNTitle">Response Issue with rooms/actions/availability</p>
-                        <p class="RNBody">A change to the behavior of the rooms/actions/availability call  caused passing of an empty <span class="ui">WebUserId</span> or a <span class="ui">WebUserId</span> equal to <span class="ui">0</span> with the Client token to fail due to having an invalid relationship with the templates also passed in the call. This change also caused passing a <span class="ui">WebUserId</span> equal to <span class="ui">0</span> with a <span class="ui">UserToken</span> to fail due to the <span class="ui">WebUserId</span> having an invalid relationship with the templates passed in the call. Both of these changes have been reverted.</p>
-                        <p class="RNBodyBeforeList">The following routes have been updated:</p>
-                        <ul class="RN-unorder-list">
-                            <li>POST/rooms/action/availability</li>
-                            <li>POST/rooms/action/availability/templates</li>
-                        </ul>
-                        <p class="RNBody"><span class="ui">Fix:</span> Updated GA routes for single and multi-templates so they return results with WebUserId -0.</p>
-                        <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=41915&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">41915</a><br />(For EMS&#160;Internal Use Only)</p>
+                        <p class="RNTitle">EMS&#160;Web App Was Not Connecting to EMS&#160;Platform</p>
+                        <p class="RNBody">Due to SAML&#160;configuration issues, the EMS&#160;Web App was not connecting to the EMS&#160;Platform. </p>
+                        <p class="RNBody"><span class="ui"><b>Fix</b>:</span> Resolved SAML&#160;configuration issues so that the EMS&#160;Web App can connect to the EMS&#160;Platform.</p>
+                        <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=42212&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42212</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
-                        <p class="RNArea">SAML</p>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="RNArea">Logs</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" style="text-align: left;">
-                        <p class="RNTitle">SAML&#160;Error When Authenticating EMS&#160;Web App with Okta as Identity Provider</p>
-                        <p class="RNBody">When authenticating EMS&#160;Web App using SAML&#160;and Okta as the Identify Provider, users were getting the following error:&#160;</p>
-                        <p class="RNBody" style="margin-left: 55px;"><span class="italics">"Error parsing DestinationURL&#160;in SAMLResponse from the Identity Provider: &lt;nil&gt; "</span>
-                        </p>
-                        <p class="RNBody"><span class="ui">Fix:</span> Modified functionality so that SAML&#160;authentication is successful with Okta. </p>
-                        <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=41972&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">41972</a><br />(For EMS&#160;Internal Use Only)</p>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
+                        <p class="RNTitle">Custom Integration Error Logs Were Combined with Global Logs</p>
+                        <p class="RNBody">For custom integrations on the EMS&#160;Platform that had logging enabled, custom integration logs were being combined with global logs, but with missing information.</p>
+                        <p class="RNBody"><span class="ui">Fix:</span> Modified functionality so that custom integration logs display separately from global logs  under the appropriate integration.</p>
+                        <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=41027&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">41027</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows" style="text-align: left;">&#160;</td>
                 </tr>
             </tbody>
         </table>
