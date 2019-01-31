@@ -162,8 +162,43 @@ EMS&#160;Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS S
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows" style="text-align: left;">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
+                        <p class="RNTitle">EMS&#160;Platform Call Returned False Regardless of How It Was Set in Database</p>
+                        <p class="RNBody">Get Event Types call for "displayOnWeb" and "allowWebRequest" returned a false response, regardless of how the flag was set in the database. </p>
+                        <p class="RNBody"><span class="ui"><b>Fix</b>:</span> Modified functionality so that the correct value is returned on these parameters.</p>
+                        <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=39151&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">39151</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
+                        <p class="RNTitle">Group Email Address Incorrect When Client Token Used</p>
+                        <p class="RNBody">When making the POST /bookings/actions/search REST call, the same email address in the Group model was listed under all Groups that were returned with reservations (if a Client Token was used for the x-ems-api token).</p>
+                        <p class="RNBody"><b>Fix</b>:&#160;Modified functionality so that the correct Group Email Address is returned, as an /authentication token returns the Group model data.</p>
+                        <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=40001&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">40001</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
+                        <p class="RNTitle">Reservation Not Inserted When AltTempContact Parameter Exceeded 50 Characters</p>
+                        <p class="RNBody">When a value for altTempContact exceeded 50 characters, a reservation appeared to be created but was in fact an orphaned booking. </p>
+                        <p class="RNBody"><b>Fix</b>:&#160;Modified functionality so that the parameter field value is validated  prior to insertion and an error is returned if the values do not meet the requirements.</p>
+                        <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=41134&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">41134</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                        <p class="RNArea">SAML&#160;Authentication</p>
+                        <p>&#160;</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" style="text-align: left;">
+                        <p class="RNTitle">Signature Validation Failing (SAML)</p>
+                        <p class="RNBody">Some customers' SAML configuration was not allowing SAML Responses to validate in the EMS&#160;Platform.</p>
+                        <p class="RNBody">Fix:&#160;Modified functionality so that </p>
+                        <p>&#160;</p>
+                    </td>
                 </tr>
             </tbody>
         </table>
