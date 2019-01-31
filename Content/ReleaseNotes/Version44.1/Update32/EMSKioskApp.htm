@@ -64,7 +64,7 @@
                         <p class="RNTitle">
                             <MadCap:annotation MadCap:createDate="2019-01-31T08:34:45.8559267-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Add Feature filter info to Kiosk core documentation. Need to add to user guide. Is there any config info needed for this feature?" MadCap:editor="Megan.Laub" MadCap:editDate="2019-01-31T08:35:31.3927830-07:00">Room search feature filter added to Make a Reservation page</MadCap:annotation>
                         </p>
-                        <p class="RNBody">A feature filter has been added to the Make a Reservation page. Users can now select the Feature filter icon and select one or more room features (such as single monitor and dual monitor)&#160;to narrow the room search results. <MadCap:annotation MadCap:createDate="2019-01-31T09:17:37.8368020-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="This limitation is being addressed in 42200. If they can get rid of the limitation, delete this note info. If they can't get rid of the limitation, leave this note and delete the reference link to 42200." MadCap:editor="Megan.Laub" MadCap:editDate="2019-01-31T09:18:47.2518704-07:00">Note that the feature filter will only display if the EMS Kiosk profile has a room count less than 30.</MadCap:annotation></p>
+                        <p class="RNBody">A feature filter has been added to the Make a Reservation page. Users can now select the Feature filter icon and select one or more room features (such as single monitor and dual monitor)&#160;to narrow the room search results. <MadCap:annotation MadCap:createDate="2019-01-31T09:17:37.8368020-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="This limitation is being addressed in 42200. If they can get rid of the limitation, delete this note info but leave reference link to 422000. If they can't get rid of the limitation, leave this note and delete the reference link to 42200." MadCap:editor="Megan.Laub" MadCap:editDate="2019-01-31T10:11:23.9183377-07:00">Note that the feature filter will only display if the EMS Kiosk profile has a room count less than 30.</MadCap:annotation></p>
                         <p class="RNBody" style="margin-bottom: 0;line-height: 15px;"><span class="bold">Feature Filter Icon</span>
                         </p>
                         <p class="RNBody" style="margin-top: 0;line-height: 15px;">
@@ -156,12 +156,12 @@
             <tbody>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: left;">
-                        <p class="RNArea">XX</p>
+                        <p class="RNArea">Translations</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
-                        <p class="RNTitle">XX</p>
-                        <p class="RNBody">XX</p>
-                        <p class="RNBody"><span class="bold">Fix:</span>&#160; </p>
+                        <p class="RNTitle">Selected language wasn't applied when My Reservation or Make a Reservation page was set as the default page</p>
+                        <p class="RNBody">When the My Reservation page or Make a Reservation page was set as the default page on the profile, the selected language, which users can modify through the <span class="bold">Change Language</span> button,&#160;was not being applied . Note that the new language was not applied the first time users made the selection; however, the new language was applied if users selected the language a second time.</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160; Modified functionality so that when users select a new language, the language is applied and remains throughout the users' entire session. After the session ends, the language will revert to the default language.</p>
                         <p class="RNRef">  Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=34531&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">34531</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
