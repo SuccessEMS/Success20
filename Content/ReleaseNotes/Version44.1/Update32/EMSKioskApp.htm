@@ -31,7 +31,7 @@
         <div class="box-important">
             <p><span class="bold">IMPORTANT:</span>&#160;<MadCap:annotation MadCap:createDate="2019-01-29T14:07:47.8135810-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Should this note be included in the U32 and reference &quot;When upgrading from Update 28 to Update 31 or higher&quot;?" MadCap:editor="Megan.Laub" MadCap:editDate="2019-01-29T14:08:26.9158875-07:00">When upgrading from Update&#160;28 to Update&#160;31, .NET Core 2.1 must be implemented because Update&#160;31 will not work with .NET&#160;Core 2.0. </MadCap:annotation></p>
         </div>
-        <h2>FIXES</h2>
+        <h2>Enhancements</h2>
         <table class="TableStyle-PatternedRows" style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
             <col class="TableStyle-PatternedRows-Column-Regular" style="width: 216px;" />
             <col class="TableStyle-PatternedRows-Column-Regular" />
@@ -61,49 +61,80 @@
                         <p class="RNArea">Make a Reservation</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNTitle">Ability to apply feature filter to room search</p>
-                        <p class="RNBody">XX</p>
-                        <p class="RNRef">  Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=41606&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">41606</a><br />(For EMS&#160;Internal Use Only)</p>
+                        <p class="RNTitle">
+                            <MadCap:annotation MadCap:createDate="2019-01-31T08:34:45.8559267-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Add Feature filter info to Kiosk core documentation. Need to add to user guide. Is there any config info needed for this feature?" MadCap:editor="Megan.Laub" MadCap:editDate="2019-01-31T08:35:31.3927830-07:00">Room search feature filter added to Make a Reservation page</MadCap:annotation>
+                        </p>
+                        <p class="RNBody">A feature filter has been added to the Make a Reservation page. Users can now select the Feature filter icon and select one or more room features (such as single monitor and dual monitor)&#160;to narrow the room search results. <MadCap:annotation MadCap:createDate="2019-01-31T09:17:37.8368020-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="This limitation is being addressed in 42200. If they can get rid of the limitation, delete this note info. If they can't get rid of the limitation, leave this note and delete the reference link to 42200." MadCap:editor="Megan.Laub" MadCap:editDate="2019-01-31T09:18:47.2518704-07:00">Note that the feature filter will only display if the EMS Kiosk profile has a room count less than 30.</MadCap:annotation></p>
+                        <p class="RNBody" style="margin-bottom: 0;line-height: 15px;"><span class="bold">Feature Filter Icon</span>
+                        </p>
+                        <p class="RNBody" style="margin-top: 0;line-height: 15px;">
+                            <img src="../../../EMSKioskApp/V44.1/Images/Kiosk_FeatureFilter_Icon.svg" title="Feature Filter for Room Search" alt="Feature Filter for Room Search (accessed from the Make a Reservation page)" />
+                        </p>
+                        <p class="RNRef">  Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=41606&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">41606</a>, <a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=42200&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42200</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: left;">
-                        <p class="RNArea">XX</p>
+                        <p class="RNArea">Kiosk Labels</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
-                        <p class="RNTitle">XX</p>
-                        <p class="RNBody">XX</p>
-                        <p class="RNRef">  Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=34531&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">34531</a><br />(For EMS&#160;Internal Use Only)</p>
+                        <p class="RNTitle">EMS Kiosk App respects all label values defined in EMS&#160;Desktop Client</p>
+                        <p class="RNBody">The EMS&#160;Kiosk App now respects all labels defined in the <span class="bold">Kiosk </span>parameters tab of EMS&#160;Desktop Client (<span class="bold">System Administration</span> &gt; <span class="bold">Settings </span>&gt; <span class="bold">Parameters </span>&gt; <span class="bold">Kiosk</span>). <MadCap:conditionalText MadCap:conditions="General.Edit_in_Review"><MadCap:annotation MadCap:createDate="2019-01-31T08:54:24.9417072-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Check with Mindy to see if she wants the labels listed from A/C or if she wants it less specific." MadCap:editor="Megan.Laub" MadCap:editDate="2019-01-31T08:55:02.0683931-07:00">The following labels </MadCap:annotation>defined in the <span class="bold">Kiosk </span>parameters tab will be honored and displayed in the EMS&#160;Kiosk App:&#160;</MadCap:conditionalText></p>
+                        <p class="RNBodyBeforeList" MadCap:conditions="General.Edit_in_Review">Today's Events area:</p>
+                        <ul class="RN-unorder-list" MadCap:conditions="General.Edit_in_Review">
+                            <li MadCap:conditions="General.Edit_in_Review">Room Type (name of filter and top of filter results)</li>
+                            <li MadCap:conditions="General.Edit_in_Review">Building (filter by floor—top of filter results)</li>
+                        </ul>
+                        <p class="RNBodyBeforeList" MadCap:conditions="General.Edit_in_Review">Make a Reservation area:</p>
+                        <ul class="RN-unorder-list" MadCap:conditions="General.Edit_in_Review">
+                            <li MadCap:conditions="General.Edit_in_Review">Room Type (name of filter and top of filter results)</li>
+                            <li MadCap:conditions="General.Edit_in_Review">When Hovering over a pin—Room and Room Type labels</li>
+                        </ul>
+                        <p class="RNBodyBeforeList" MadCap:conditions="General.Edit_in_Review">Floor Map area:</p>
+                        <ul class="RN-unorder-list" MadCap:conditions="General.Edit_in_Review">
+                            <li MadCap:conditions="General.Edit_in_Review">When Hovering over a pin—Room and Room Type labels</li>
+                        </ul>
+                        <p class="RNBodyBeforeList" MadCap:conditions="General.Edit_in_Review">Locate a Group area:</p>
+                        <ul class="RN-unorder-list" MadCap:conditions="General.Edit_in_Review">
+                            <li>Menu Name (Group)</li>
+                            <li>Results (Room Type and Room Column Labels)</li>
+                        </ul>
+                        <p class="RNRef">  Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=41715&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">41715</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNArea">XX</p>
+                        <p class="RNArea">Provisioning Page &gt; Authentication</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNTitle">XX</p>
-                        <p class="RNBody">XX</p>
-                        <p class="RNRef">  Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=34531&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">34531</a><br />(For EMS&#160;Internal Use Only)</p>
+                        <p class="RNTitle">Users must have administrator privileges to access the Provisioning page</p>
+                        <p class="RNBody">For added security, users must be logged in as an administrator to access the EMS&#160;Kiosk App Provisioning page. If users are not logged in and try to access the Provisioning page, the message "Re-authentication is required to access Kiosk Provisioning screen" will appear and users will need to enter their admin credentials. If users do not have admin credentials, they can select the <span class="bold">Cancel </span>button to be returned to the default page. </p>
+                        <p class="RNRef">  Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=42166&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42166</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: left;">
-                        <p class="RNArea">XX</p>
+                        <p class="RNArea">Locate a Person</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
-                        <p class="RNTitle">XX</p>
-                        <p class="RNBody">XX</p>
-                        <p class="RNRef">  Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=34531&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">34531</a><br />(For EMS&#160;Internal Use Only)</p>
+                        <p class="RNTitle">Updated messaging on Locate a Person</p>
+                        <p class="RNBody">To prevent confusion, the message that displays after users select a person on the <span class="bold">Locate a Person</span> page has been updated. The message now reads <span class="italics">Locate "xPerson"</span> instead of <span class="italics">Continue as "xPerson"</span>. </p>
+                        <p class="RNRef">  Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=42215&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42215</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNArea">XX</p>
+                        <p class="RNArea">Make a Reservation and Locate Space</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNTitle">XX</p>
-                        <p class="RNBody">XX</p>
-                        <p class="RNRef">  Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=34531&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">34531</a><br />(For EMS&#160;Internal Use Only)</p>
+                        <p class="RNTitle">
+                            <MadCap:annotation MadCap:createDate="2019-01-31T09:35:40.6667716-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="This this item will only go in U32 if 43048 Platform is completed." MadCap:editor="Megan.Laub" MadCap:editDate="2019-01-31T09:36:06.9007330-07:00">Added lazy loading</MadCap:annotation> for room diagrams</p>
+                        <p class="RNBody">To help profiles load more efficiently, lazy loading has been implemented for room diagrams in the sidebar (filters) of the Make a Reservation page and Locate Space page. Lazy loading has been implemented as follows:</p>
+                        <ul class="RN-unorder-list">
+                            <li>On page load, only the first group of images loads (4 images per group).</li>
+                            <li>When users scroll to the bottom of an image group, an activity indicator will display while another group of images is gathered. After the new group of images has been retrieved, the activity indicator disappears, and the new group is appended to the bottom of the previous group of images. This process repeats until users stop scrolling or until no more image results are available. </li>
+                        </ul>
+                        <p class="RNRef">  Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=43011&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">43011</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
             </tbody>
