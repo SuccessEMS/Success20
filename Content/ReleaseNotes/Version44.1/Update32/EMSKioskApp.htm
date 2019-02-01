@@ -170,9 +170,9 @@
                         <p class="RNArea">Parameters</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNTitle">Time increment parameter was not being honored in EMS&#160;Kiosk App</p>
-                        <p class="RNBody">The time drop down increment setting was not being honored at the profile level (EMS&#160;Desktop Client <span class="bold">Configuration</span> &gt; <span class="bold">Kiosk</span> &gt; <span class="bold">Kiosk Profiles</span> &gt; <span class="bold">Parameters</span> tab &gt; <span class="bold">Time Drop Down Increment</span>). Instead of using the profile's parameter setting, EMS&#160;Kiosk App was using the global parameter setting (EMS&#160;Desktop Client <span class="bold">System Administration</span> &gt; <span class="bold">Settings </span>&gt; <span class="bold">Parameters </span>&gt; <span class="bold">Kiosk</span>).  </p>
-                        <p class="RNBody"><span class="bold">Fix:</span> Modified functionality <MadCap:annotation MadCap:createDate="2019-01-31T11:17:46.0506695-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Need to update core documentation to remove the Time Drop Down Increment row in the &quot;Parameters No Longer Used by Current Version of the EMS Kiosk App&quot; table. This bug fix makes that row untrue." MadCap:editor="Megan.Laub" MadCap:editDate="2019-01-31T11:19:14.4415369-07:00">so that the <span class="bold">Time Drop Down Increment</span> parameter is honored at the profile level when the setting is specified in the profile, and it is honored at the global level when no setting is specified in the profile</MadCap:annotation>. Note that setting Time Drop Down Increment parameter at the profile level takes le setting of the parameter will take precedence over the global setting. </p>
+                        <p class="RNTitle">Time increment parameter was not being honored at the profile level</p>
+                        <p class="RNBody">The time drop down increment setting was not being honored at the profile level (<span class="bold">Configuration</span> &gt; <span class="bold">Kiosk</span> &gt; <span class="bold">Kiosk Profiles</span> &gt; <span class="bold">Parameters</span> tab &gt; <span class="bold">Time Drop Down Increment</span>). Instead of using the profile's parameter setting, EMS&#160;Kiosk App was using the global parameter setting (<span class="bold">System Administration</span> &gt; <span class="bold">Settings </span>&gt; <span class="bold">Parameters </span>&gt; <span class="bold">Kiosk</span>).  </p>
+                        <p class="RNBody"><span class="bold">Fix:</span> Modified functionality so that the <MadCap:annotation MadCap:createDate="2019-02-01T10:25:16.6874259-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Need to update core documentation to remove the Time Drop Down Increment row in the &quot;Parameters No Longer Used by Current Version of the EMS Kiosk App&quot; table. This bug fix makes that row untrue." MadCap:editor="Megan.Laub" MadCap:editDate="2019-02-01T10:25:17.4529895-07:00">profile-level changes</MadCap:annotation> made to the <span class="bold">Time Drop Down Increment</span> parameter are honored and take precedence over global parameter settings.</p>
                         <p class="RNRef">  Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=37886&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">37886</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
@@ -222,112 +222,129 @@
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: left;">
-                        <p class="RNArea">XX</p>
+                        <p class="RNArea">Parameters</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
-                        <p class="RNTitle">Kiosk: issue with local profile setting changes to event name</p>
-                        <p class="RNBody">XX</p>
-                        <p class="RNBody"><span class="bold">Fix:</span>&#160; </p>
+                        <p class="RNTitle">"Default Event Name for New Reservation" parameter was not being honored at the profile level</p>
+                        <p class="RNBody">The <span class="bold">Default Event Name for New Reservation</span> was not being honored at the profile level (<span class="bold">Configuration</span> &gt; <span class="bold">Kiosk</span> &gt; <span class="bold">Kiosk Profiles</span> &gt; <span class="bold">Parameters</span> tab). Instead of using the profile's parameter setting, EMS&#160;Kiosk App was using the global parameter setting (<span class="bold">System Administration</span> &gt; <span class="bold">Settings </span>&gt; <span class="bold">Parameters </span>&gt; <span class="bold">Kiosk</span>).    </p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160; Modified functionality so that the profile-level changes made to the <span class="bold">Default Event Name for New Reservation</span> parameter are honored and take precedence over global parameter settings.</p>
                         <p class="RNRef">  Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=42392&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42392</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNArea">XX</p>
+                        <p class="RNArea">Make a Reservation </p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNTitle">Empty Left Side menu on grid view(make reservation screen)</p>
-                        <p class="RNBody">XX</p>
-                        <p class="RNBody"><span class="bold">Fix:</span>&#160; </p>
+                        <p class="RNTitle">Date picker and time picker were not showing when toggling between map and grid view</p>
+                        <p class="RNBody">On the Make a Reservation page, when users toggled between the map and grid view, the date picker and time picker were not showing.  </p>
+                        <p class="RNBody"><span class="bold">Fix:</span> Modified functionality so that the date picker and time picker display when users toggle between the map and grid view.</p>
                         <p class="RNRef">  Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=42439&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42439</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: left;">
-                        <p class="RNArea">XX</p>
+                        <p class="RNArea">Make a Reservation</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
-                        <p class="RNTitle">Kiosk - filters on Make a Reservation do not work if you have more than 1200 rooms per profile</p>
-                        <p class="RNBody">XX</p>
-                        <p class="RNBody"><span class="bold">Fix:</span>&#160; </p>
+                        <p class="RNTitle">Floor filter was not working properly for profiles with more than 1200 rooms</p>
+                        <p class="RNBody">For EMS&#160;Kiosk profiles with more than 1200 rooms, the floor filter was providing the same results regardless of which floor was selected.  </p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that the floor filter works properly and provides the appropriate room results based on the floor(s) selected.</p>
                         <p class="RNRef">  Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=42528&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42528</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNArea">XX</p>
+                        <p class="RNArea">Time Format</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNTitle">Kiosk 2.0 - Clock component doesn't support 24hr time format</p>
-                        <p class="RNBody">XX</p>
-                        <p class="RNBody"><span class="bold">Fix:</span>&#160; </p>
-                        <p class="RNRef">  Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=42567&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42567</a><br />(For EMS&#160;Internal Use Only)</p>
+                        <p class="RNTitle">
+                            <MadCap:annotation MadCap:createDate="2019-02-01T11:16:03.8737443-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Should this go in the core documentation? Is there a seciton on language translation and time?" MadCap:editor="Megan.Laub" MadCap:editDate="2019-02-01T11:21:01.6533130-07:00">EMS&#160;Kiosk App did not support 24 hour time format</MadCap:annotation>
+                        </p>
+                        <p class="RNBody">EMS&#160;Kiosk App did not display time in the 24 hour format; it would only display time in the 12 hour format. </p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that the 12/24 hour time format is tied to the default profile language or the language users select  (<span class="bold">Change Language</span> button). For example, if the default language for an EMS&#160;Kiosk profile is Russian, or users select Russian on the EMS&#160;Kiosk App, the 24 hour format will be used. If the selected language is English, the 12 hour format will be used. </p>
+                        <p class="RNRef">  Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=42567&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42567</a> and <a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=42695&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42695</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: left;">
-                        <p class="RNArea">XX</p>
+                        <p class="RNArea">Make a Reservation &gt; Reservation Conflict</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
-                        <p class="RNTitle">Kiosk 2.0 - Make a Res - Clicking 'conflict' view makes page empty</p>
-                        <p class="RNBody">XX</p>
-                        <p class="RNBody"><span class="bold">Fix:</span>&#160; </p>
+                        <p class="RNTitle">Selecting Reservation Conflict view loads an empty page</p>
+                        <p class="RNBody">If users created a booking conflict and they selected <MadCap:annotation MadCap:createDate="2019-02-01T11:52:48.8809233-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="There is no core documentation on resolving conflicts. Is it okay to call the conflict page &quot;Reservation Conflict&quot; view? The image on the kiosk screen says &quot;Reservation Conflict&quot; but I'm not sure what the actual screen looks like." MadCap:editor="Megan.Laub" MadCap:editDate="2019-02-01T11:54:01.6729717-07:00">Reservation Conflict view</MadCap:annotation>, the page that loaded was empty. </p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that when users select Reservation Conflict view, they are redirected to the Floor Map view. </p>
                         <p class="RNRef">  Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=42619&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42619</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNArea">XX</p>
+                        <p class="RNArea">Make a Reservation</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNTitle">My reservation, today events - Time column &amp; Confirmation popup doesn't honor browser's locale (24HR Time Format)</p>
-                        <p class="RNBody">XX</p>
-                        <p class="RNBody"><span class="bold">Fix:</span>&#160; </p>
-                        <p class="RNRef">  Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=42695&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42695</a><br />(For EMS&#160;Internal Use Only)</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: left;">
-                        <p class="RNArea">XX</p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
-                        <p class="RNTitle">Kiosk 2.0 - Make Reservation - Booking isn't created for current date in recurrence meeting if the Start/End time are less than current time</p>
-                        <p class="RNBody">XX</p>
-                        <p class="RNBody"><span class="bold">Fix:</span>&#160; </p>
+                        <p class="RNTitle">
+                            <MadCap:annotation MadCap:createDate="2019-02-01T12:08:33.8581320-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Talk over with Mindy. Seems like reservation for current date should not be created but the message needs to be updated (it is showing the parameter start/end time instead of reservation time?)  to say &quot;No booking will be created for today.&quot; The future recurrence reservations should be made. Will there be a message stating that the future ones were made along with the &quot;No booking will be created for today&quot;? " MadCap:editor="Megan.Laub" MadCap:editDate="2019-02-01T12:12:18.4816306-07:00">
+                                <MadCap:annotation MadCap:createDate="2019-02-01T12:36:10.3278195-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Is this a confirmation message?" MadCap:editor="Megan.Laub" MadCap:editDate="2019-02-01T12:36:15.7617366-07:00">Confirmation message was misleading for recurring reservations</MadCap:annotation>
+                            </MadCap:annotation>
+                        </p>
+                        <p class="RNBody">If users created a recurring reservation with a date range that included the current date and a reservation time in the past for the current date, the confirmation message would display the current date and reservation time even though the booking for the current date was not created. The future recurring bookings, however, were created. </p>
+                        <p class="RNBodyBeforeList"><span class="bold">Fix:</span>&#160;Modified functionality so that when users create a recurring reservation that includes the current date with a reservation time in the past for the current date, the following will occur:&#160;</p>
+                        <ul class="RN-unorder-list">
+                            <li>A booking for the current date will not be created.</li>
+                            <li>The future bookings will be created, as long as no conflicts occur.</li>
+                            <li>The confirmation message (appears below the calendar) will read, <MadCap:annotation MadCap:createDate="2019-02-01T12:46:37.9778450-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Will it list the future recurring bookings?" MadCap:editor="Megan.Laub" MadCap:editDate="2019-02-01T12:46:50.4957031-07:00">"No booking will be created for today."</MadCap:annotation></li>
+                        </ul>
                         <p class="RNRef">  Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=42800&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42800</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNArea">XX</p>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: left;">
+                        <p class="RNArea">Make a Reservation</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNTitle">Make Reservation - Changing filter options from All to exact value doesn't show elements</p>
-                        <p class="RNBody">XX</p>
-                        <p class="RNBody"><span class="bold">Fix:</span>&#160; </p>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
+                        <p class="RNTitle">
+                            <MadCap:annotation MadCap:createDate="2019-02-01T13:22:21.0032184-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Is this just the filter option elements not showing in the filter modal window, or is the Kiosk not showing all the floors in the floor map view? (Can users view all the floors and they just can't filter anymore?)\r\n\r\nNeed to see if 42808 is linked with this one. If so, then the filters weren't working in the main view, and these items would require a more generic release note: &quot;For some users, the filters were not working properly. For example, after narrowing the filter options, users were unable to reset the filter to show all filter options, and selecting an exact floor did not hide the other floors in the main view.&quot;" MadCap:editor="Megan.Laub" MadCap:editDate="2019-02-01T13:34:08.2221810-07:00">Filter modal window was not showing all filter options after <span class="italics">I want to filter by "All...." </span>was selected</MadCap:annotation>
+                        </p>
+                        <p class="RNBody">After narrowing the filter options, if users reset the filter by selecting the <span class="italics">I want to filter by "All"</span> option, the filter modal window would not display all the filter options. For example, a user selects floor <span class="bold">02</span> in the floor filter and views the floor map. The user does not see an available room, so the user selects <span class="bold">I want to filter by "All Floors"</span> in the floor filter. If the user opens the floor filter again, the user will not see all the floor options listed in the Choose a Floor filter window.  </p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that</p>
                         <p class="RNRef">  Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=42806&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42806</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: left;">
-                        <p class="RNArea">XX</p>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="text-align: left;">
+                        <p class="RNArea">Make a Reservation</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
-                        <p class="RNTitle">Make Reservation - Filtering by exact Floor doesn't hide all other Floor Plans and applies only after additional actions</p>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
+                        <p class="RNTitle">
+                            <MadCap:annotation MadCap:createDate="2019-02-01T13:25:37.3597111-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Check back on this one. Roman thinks this item was resolved in 42806. If that is true, need to re-write 42806 so that it says filtering wasn't working in the main view, not just the labels in the filter modal." MadCap:editor="Megan.Laub" MadCap:editDate="2019-02-01T13:27:31.5227001-07:00">Filtering by exact Floor doesn't hide all other Floor Plans and applies only after additional actions</MadCap:annotation>
+                        </p>
                         <p class="RNBody">XX</p>
-                        <p class="RNBody"><span class="bold">Fix:</span>&#160; </p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that</p>
                         <p class="RNRef">  Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=42808&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42808</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: left;">
+                        <p class="RNArea">Make a Reservation and My Reservations</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
+                        <p class="RNTitle">
+                            <MadCap:annotation MadCap:createDate="2019-02-01T13:39:26.1063044-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="go over with Mindy" MadCap:editor="Megan.Laub" MadCap:editDate="2019-02-01T13:39:35.3110190-07:00">Selecting the Main Menu button was not ending user sessions</MadCap:annotation>
+                        </p>
+                        <p class="RNBody">EMS&#160;Kiosk App was not ending user sessions after users checked in and selected the <span class="bold">Main Menu</span> button from the Check-in Confirmation page. </p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that when a user selects the <span class="bold">Main Menu</span> button on the Check-in Confirmation page, the user's session is ended.</p>
+                        <p class="RNRef">  Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=42827&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42827</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="text-align: left;">
                         <p class="RNArea">XX</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNTitle">Kiosk 2.0 - Make a Res - Check-In - Clicking Main Menu button doesn't end session</p>
+                        <p class="RNTitle">Kiosk 2.0 - Make a Res - Check-In - Booking is automatically checked-in after page refresh</p>
                         <p class="RNBody">XX</p>
-                        <p class="RNBody"><span class="bold">Fix:</span>&#160; </p>
-                        <p class="RNRef">  Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=42827&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42827</a><br />(For EMS&#160;Internal Use Only)</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that</p>
+                        <p class="RNRef">  Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=42830&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42830</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
@@ -335,31 +352,20 @@
                         <p class="RNArea">XX</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
-                        <p class="RNTitle">Kiosk 2.0 - Make a Res - Check-In - Booking is automatically checked-in after page refresh</p>
-                        <p class="RNBody">XX</p>
-                        <p class="RNBody"><span class="bold">Fix:</span>&#160; </p>
-                        <p class="RNRef">  Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=42830&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42830</a><br />(For EMS&#160;Internal Use Only)</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNArea">XX</p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
                         <p class="RNTitle">Re-authentication screen - undefined error</p>
                         <p class="RNBody">XX</p>
-                        <p class="RNBody"><span class="bold">Fix:</span>&#160; </p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that</p>
                         <p class="RNRef">  Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=42865&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42865</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows" style="text-align: left;">
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows" style="text-align: left;">
                         <p class="RNArea">XX</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" style="text-align: left;">
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows" style="text-align: left;">
                         <p class="RNTitle">Kiosk 2.0 - Allow single authentication to access all authenticated functions in Kiosk (Make Reservation)</p>
                         <p class="RNBody">XX</p>
-                        <p class="RNBody"><span class="bold">Fix:</span>&#160; </p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that</p>
                         <p class="RNRef">  Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=42999&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42999</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
