@@ -200,30 +200,23 @@
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: left;">
-                        <p class="RNArea">XX</p>
+                        <p class="RNArea">Today's Events, Make a Reservation, Locate a Person, Floor Maps</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
-                        <p class="RNTitle">Private functionality is not working when configured on Room, Status, or Event Type</p>
-                        <p class="RNBody">Booking information is displayed.</p>
-                        <p>Booking information is not displayed or is shown as 'Private' just like in Web App.</p>
-                        <p>If a booking is in an event type, status, or room that is configured with 'Display to Everyday Users' unchecked, the booking should have the following behavior:</p>
-                        <p>- Today's Events: Does Not Appear</p>
-                        <p>- Make a Reservation: When hovering over a booked space, Event Name displays label for "private bookings (set in parameters &gt; everyday user applications &gt; 'label for private bookings in schedule view')</p>
-                        <p>- Locate a Group: Event Name displays label for "private bookings (set in parameters &gt; everyday user applications &gt; 'label for private bookings in schedule view')</p>
-                        <p>- Floor Map: Event Name displays label for "private bookings (set in parameters &gt; everyday user applications &gt; 'label for private bookings in schedule view')</p>
-                        <p>You should be able to access your own reservations in My Reservations (even if room, status, or event type is indicated on to display to everyday users.)</p>
-                        <p class="RNBody"><span class="bold">Fix:</span>&#160; </p>
+                        <p class="RNTitle">"Available/Display to Everyday Users" selection not being honored for Room, Status, or Event Type</p>
+                        <p class="RNBody">EMS&#160;Kiosk users were able to view reservations with a room, status, or event type that had <span class="bold">Available/Display to Everyday Users</span> unchecked in EMS&#160;Desktop Client.  </p>
+                        <p class="RNBody"><span class="bold">Fix:</span> Modified functionality so that when the <span class="bold">Available/Display to Everyday Users</span> checkbox is not selected for a room, status, or event type, the reservations created do not appear to everyday users on the EMS&#160;Kiosk (Today's Events), and the event name displays the label "Private" (Make a Reservation, Locate a Person, and Floor Maps).</p>
                         <p class="RNRef">  Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=42226&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42226</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNArea">XX</p>
+                        <p class="RNArea">Authentication <br />Login Page<br /></p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNTitle">Kiosk "I don't have my badge screen" - number pad appears off screen and can't be exited</p>
-                        <p class="RNBody">XX</p>
-                        <p class="RNBody"><span class="bold">Fix:</span>&#160; Modified fun</p>
+                        <p class="RNTitle">"I don't have my badge" number pad and return to main menu option were being cut off</p>
+                        <p class="RNBody">The 10-digit number pad and the return to main menu option were being cut off at the bottom of the screen. The number pad and return to main menu option are displayed when "I&#160;don't have my badge" is selected.</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160; Modified functionality so that the 10-digit number pad and the return to main menu option are fully displayed on the EMS&#160;Kiosk screen.</p>
                         <p class="RNRef">  Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=42267&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42267</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
@@ -232,10 +225,10 @@
                         <p class="RNArea">XX</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
-                        <p class="RNTitle">XX</p>
+                        <p class="RNTitle">Kiosk: issue with local profile setting changes to event name</p>
                         <p class="RNBody">XX</p>
                         <p class="RNBody"><span class="bold">Fix:</span>&#160; </p>
-                        <p class="RNRef">  Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=34531&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">34531</a><br />(For EMS&#160;Internal Use Only)</p>
+                        <p class="RNRef">  Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=42392&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42392</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
@@ -243,10 +236,10 @@
                         <p class="RNArea">XX</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNTitle">XX</p>
+                        <p class="RNTitle">Empty Left Side menu on grid view(make reservation screen)</p>
                         <p class="RNBody">XX</p>
                         <p class="RNBody"><span class="bold">Fix:</span>&#160; </p>
-                        <p class="RNRef">  Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=34531&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">34531</a><br />(For EMS&#160;Internal Use Only)</p>
+                        <p class="RNRef">  Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=42439&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42439</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
@@ -254,10 +247,10 @@
                         <p class="RNArea">XX</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
-                        <p class="RNTitle">XX</p>
+                        <p class="RNTitle">Kiosk - filters on Make a Reservation do not work if you have more than 1200 rooms per profile</p>
                         <p class="RNBody">XX</p>
                         <p class="RNBody"><span class="bold">Fix:</span>&#160; </p>
-                        <p class="RNRef">  Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=34531&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">34531</a><br />(For EMS&#160;Internal Use Only)</p>
+                        <p class="RNRef">  Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=42528&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42528</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
@@ -265,10 +258,10 @@
                         <p class="RNArea">XX</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNTitle">XX</p>
+                        <p class="RNTitle">Kiosk 2.0 - Clock component doesn't support 24hr time format</p>
                         <p class="RNBody">XX</p>
                         <p class="RNBody"><span class="bold">Fix:</span>&#160; </p>
-                        <p class="RNRef">  Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=34531&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">34531</a><br />(For EMS&#160;Internal Use Only)</p>
+                        <p class="RNRef">  Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=42567&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42567</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
@@ -276,10 +269,10 @@
                         <p class="RNArea">XX</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
-                        <p class="RNTitle">XX</p>
+                        <p class="RNTitle">Kiosk 2.0 - Make a Res - Clicking 'conflict' view makes page empty</p>
                         <p class="RNBody">XX</p>
                         <p class="RNBody"><span class="bold">Fix:</span>&#160; </p>
-                        <p class="RNRef">  Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=34531&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">34531</a><br />(For EMS&#160;Internal Use Only)</p>
+                        <p class="RNRef">  Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=42619&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42619</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
@@ -287,10 +280,76 @@
                         <p class="RNArea">XX</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNTitle">XX</p>
+                        <p class="RNTitle">My reservation, today events - Time column &amp; Confirmation popup doesn't honor browser's locale (24HR Time Format)</p>
                         <p class="RNBody">XX</p>
                         <p class="RNBody"><span class="bold">Fix:</span>&#160; </p>
-                        <p class="RNRef">  Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=34531&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">34531</a><br />(For EMS&#160;Internal Use Only)</p>
+                        <p class="RNRef">  Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=42695&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42695</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: left;">
+                        <p class="RNArea">XX</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
+                        <p class="RNTitle">Kiosk 2.0 - Make Reservation - Booking isn't created for current date in recurrence meeting if the Start/End time are less than current time</p>
+                        <p class="RNBody">XX</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160; </p>
+                        <p class="RNRef">  Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=42800&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42800</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="text-align: left;">
+                        <p class="RNArea">XX</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
+                        <p class="RNTitle">Make Reservation - Changing filter options from All to exact value doesn't show elements</p>
+                        <p class="RNBody">XX</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160; </p>
+                        <p class="RNRef">  Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=42806&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42806</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: left;">
+                        <p class="RNArea">XX</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
+                        <p class="RNTitle">Make Reservation - Filtering by exact Floor doesn't hide all other Floor Plans and applies only after additional actions</p>
+                        <p class="RNBody">XX</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160; </p>
+                        <p class="RNRef">  Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=42808&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42808</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="text-align: left;">
+                        <p class="RNArea">XX</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
+                        <p class="RNTitle">Kiosk 2.0 - Make a Res - Check-In - Clicking Main Menu button doesn't end session</p>
+                        <p class="RNBody">XX</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160; </p>
+                        <p class="RNRef">  Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=42827&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42827</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: left;">
+                        <p class="RNArea">XX</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
+                        <p class="RNTitle">Kiosk 2.0 - Make a Res - Check-In - Booking is automatically checked-in after page refresh</p>
+                        <p class="RNBody">XX</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160; </p>
+                        <p class="RNRef">  Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=42830&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42830</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="text-align: left;">
+                        <p class="RNArea">XX</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
+                        <p class="RNTitle">Re-authentication screen - undefined error</p>
+                        <p class="RNBody">XX</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160; </p>
+                        <p class="RNRef">  Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=42865&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42865</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
@@ -298,10 +357,10 @@
                         <p class="RNArea">XX</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" style="text-align: left;">
-                        <p class="RNTitle">XX</p>
+                        <p class="RNTitle">Kiosk 2.0 - Allow single authentication to access all authenticated functions in Kiosk (Make Reservation)</p>
                         <p class="RNBody">XX</p>
                         <p class="RNBody"><span class="bold">Fix:</span>&#160; </p>
-                        <p class="RNRef">  Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=34531&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">34531</a><br />(For EMS&#160;Internal Use Only)</p>
+                        <p class="RNRef">  Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=42999&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42999</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
             </tbody>
