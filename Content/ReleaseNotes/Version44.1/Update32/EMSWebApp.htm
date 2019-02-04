@@ -79,7 +79,7 @@
         </table>
         <h2>Fixes</h2>
         <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');margin-left: 0;margin-right: auto;width: 100%;" cellspacing="0">
-            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 190px;" />
             <col class="TableStyle-PatternedRows-Column-Regular" />
             <thead>
                 <tr class="TableStyle-PatternedRows-Head-Header1">
@@ -94,29 +94,40 @@
             <tbody>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p class="RNArea">XX</p>
+                        <p class="RNArea">Viewing Room Details</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p class="RNTitle">The "Hide Host" Setting on Room not impacting the Schedule Grid, Related Events, Unavailable Dates &amp; Times Screen</p>
-                        <p class="RNBody">XX</p>
-                        <p class="RNBody"><b>Fix</b>: Modified functionality so that </p>
+                        <p class="RNTitle">EMS&#160;Web App was not honoring the "Hide Group" setting in the Schedule Grid, Related Events, and Unavailable Dates &amp; Times screen</p>
+                        <p class="RNBodyBeforeList">The <span class="bold">Hide Group</span> room setting was not being honored in EMS&#160;Web App even though the <span class="bold">Hide Group</span> checkbox was selected in EMS&#160;Desktop Client (<span class="bold">Configuration </span>&gt; <span class="bold">Facilities </span>&gt; <span class="bold">Rooms </span>&gt; <span class="bold">Room </span>configuration dialog &gt; <span class="bold">Room </span>tab). In EMS&#160;Web App, the group information remained visible on the following:</p>
+                        <ul class="RN-unorder-list">
+                            <li>Schedule Grid &gt; Booking display bar</li>
+                            <li>Booking Details &gt; Related Events tab</li>
+                            <li>Unavailable Dates &amp; Times screen</li>
+                        </ul>
+                        <p class="RNBody"><b>Fix</b>: Modified functionality so that when the <span class="bold">Hide Group</span> checkbox is selected for a room, the group information is suppressed on all the appropriate screens in EMS&#160;Web App.</p>
                         <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=41135&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">41135</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p class="RNArea">XX</p>
+                        <p class="RNArea">Time Zones</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p class="RNTitle">Timezone defaults to blank if everyday user was created with timezone default of 'no preference'</p>
-                        <p class="RNBody">XX</p>
-                        <p class="RNBody"><b>Fix</b>: Modified functionality so that </p>
+                        <p class="RNTitle">Time Zone field defaulted to empty if the everyday user was created with a time zone default of "no preference"</p>
+                        <p class="RNBody">In EMS&#160;Web App, the <span class="bold">Create booking in this time zone</span> field was empty if the everyday user was created with no time zone specified (EMS&#160;Desktop Client &gt;&#160;<span class="bold">Configuration </span>&gt; <span class="bold">Everyday User Applications</span> &gt; <span class="bold">Everyday Users</span>).  </p>
+                        <p class="RNBodyBeforeList"><b>Fix</b>: Modified functionality so that when no time zone is specified for the everyday user, the time zone value for the  <span class="bold">Create booking in this time zone</span> field will be taken from one of the following (listed in order of preference):</p>
+                        <ul class="RN-unorder-list">
+                            <li>Personalization Template default</li>
+                            <li>Everyday User Process Template default</li>
+                            <li>Everyday User default</li>
+                            <li>First timezone in the list of the template</li>
+                        </ul>
                         <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=42650&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42650</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
-                        <p class="RNArea">Timezones</p>
+                        <p class="RNArea">Time Zones</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
                         <p class="RNTitle">EMS Web App Reservations Created with Start Date in Daylight Savings Time Range Create Calendar Appointment at Incorrect Time in Google Calendar</p>
