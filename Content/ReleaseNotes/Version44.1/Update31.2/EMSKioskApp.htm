@@ -49,17 +49,17 @@
                         <p>&#160;</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
-                        <p class="RNTitle">Unable to Provision EMS&#160;Kiosk App Under Certain Profiles Due to Amount of Rooms</p>
-                        <p class="RNBody">When attempting to choose a profile, the profile modal page in the EMS&#160;Kiosk App kept spinning until it timed out if the profile contained more than 1,000 rooms.</p>
-                        <p class="RNBody"><b>Fix</b>:&#160;Modified functionality so that users can select a profile regardless of the number of rooms.</p>
+                        <p class="RNTitle">Unable to Provision EMS&#160;Kiosk App Under Certain Profiles Due to Amount of Room Diagrams</p>
+                        <p class="RNBody">When attempting to choose a profile, the profile modal page in the EMS&#160;Kiosk App kept spinning until it timed out if the profile contained a high number of room diagrams (more than 250).</p>
+                        <p class="RNBody"><b>Fix</b>:&#160;Modified functionality so that users can select a profile regardless of the number of room diagrams (more than 250).</p>
                         <p class="RNRef">  Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=42979&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42979</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNTitle">Double Requests on Provisioning and Reauthentication</p>
-                        <p class="RNBody">The EMS&#160;Kiosk App was experiencing double requests during provisioning and reauthentication.</p>
-                        <p class="RNBody"><b>Fix</b>:&#160;Modified functionality so that the EMS&#160;Kiosk App provisions correctly. </p>
+                        <p class="RNTitle">Duplicate Platform API&#160;Requests on Provisioning and Reauthentication</p>
+                        <p class="RNBody">The EMS&#160;Kiosk App was executing each Platform API&#160;request twice during provisioning and reauthentication, resulting in long provisioning time and potentially timeout.</p>
+                        <p class="RNBody"><b>Fix</b>:&#160;Modified functionality so that the EMS&#160;Kiosk App executes Platform API&#160;calls correctly. </p>
                         <p class="RNRef">  Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=423014&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">43014</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
