@@ -104,11 +104,19 @@ EMS&#160;Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS S
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" style="text-align: left;">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
                         <p class="RNTitle">Skype for Business Meeting Option Parameter Added</p>
                         <p class="RNBody">A new meeting option parameter has been added to the EMS&#160;Platform Services Admin UI under Skype for Business. </p>
                         <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=42219&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42219</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows" style="text-align: left;">
+                        <p class="RNTitle">New GET&#160;Category States Route Added</p>
+                        <p class="RNBody">Users can now  get states of the categories while adding a service order to Booking.</p>
+                        <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=42930&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42930</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
             </tbody>
@@ -189,15 +197,26 @@ EMS&#160;Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS S
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
                         <p class="RNArea">SAML&#160;Authentication</p>
                         <p>&#160;</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" style="text-align: left;">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
                         <p class="RNTitle">Signature Validation Failing (SAML)</p>
-                        <p class="RNBody">Some customers' SAML configuration was not allowing SAML Responses to validate in the EMS&#160;Platform.</p>
-                        <p class="RNBody">Fix:&#160;Modified functionality so that </p>
-                        <p>&#160;</p>
+                        <p class="RNBody">Some customers' SAML configuration was not allowing SAML Responses to validate in the EMS&#160;Platform (using a Shibboleth IdP).</p>
+                        <p class="RNBody"><b>Fix</b>:&#160;Modified functionality so that signatures can be validated. </p>
+                        <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=41651&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">41651</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
+                        <p class="RNArea">API&#160;Calls</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows" style="text-align: left;">
+                        <p class="RNTitle">Call rooms/actions/availability Returned No Rooms</p>
+                        <p class="RNBody">The rooms/actions/availability call returned an "unavailableReason": 4 response for the current day. </p>
+                        <p class="RNBody"><b>Fix</b>:&#160;Modified functionality so that available rooms are returned.</p>
+                        <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=42300&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42300</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
             </tbody>
