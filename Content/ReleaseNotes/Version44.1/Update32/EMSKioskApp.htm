@@ -349,23 +349,23 @@
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: left;">
-                        <p class="RNArea">XX</p>
+                        <p class="RNArea">Authentication</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
-                        <p class="RNTitle">Re-authentication screen - undefined error</p>
-                        <p class="RNBody">XX</p>
-                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that</p>
+                        <p class="RNTitle">Re-authentication screen was showing an undefined error</p>
+                        <p class="RNBody">When users entered invalid credentials on the authentication screen to access the Kiosk provisioning screen, users were shown the error message "Undefined error," which was not consistent with the messaging shown when invalid credentials were entered during initial provisioning. </p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that when users enter invalid credentials, users are shown the error message<MadCap:annotation MadCap:createDate="2019-02-04T09:42:16.0700664-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="What is the error message that will display? The A/C says that the message should be the same as the one shown during initial provisioning. What is that message?" MadCap:editor="Megan.Laub" MadCap:editDate="2019-02-04T09:46:24.2973706-07:00">...</MadCap:annotation> </p>
                         <p class="RNRef">  Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=42865&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42865</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNArea">XX</p>
+                        <p class="RNArea">Authentication</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNTitle">Kiosk 2.0 - Allow single authentication to access all authenticated functions in Kiosk (Make Reservation)</p>
-                        <p class="RNBody">XX</p>
-                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that</p>
+                        <p class="RNTitle">Allow single authentication to access all authenticated functions was not working consistently</p>
+                        <p class="RNBody">For some users, the feature was not working that allows a single authentication to access all authenticated functions in EMS&#160;Kiosk App. After logging in, users did not remain authenticated between areas even though the parameter <span class="bold">Require Timeout/Logoff to Terminate User Session</span> was set to <span class="bold">Yes</span>. </p>
+                        <p class="RNBody"> <span class="bold">Fix:</span>&#160;Modified functionality so that when the parameter <span class="bold">Require Timeout/Logoff to Terminate User Session</span> is set to <span class="bold">Yes</span>, once users authenticate for one function, they are able to navigate  all functionality until the timeout or logoff occurs. <![CDATA[  ]]></p>
                         <p class="RNRef">  Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=42999&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42999</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
