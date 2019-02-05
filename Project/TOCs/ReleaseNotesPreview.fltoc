@@ -2,7 +2,7 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="EMS Preview Release Notes U31"
+    Title="EMS Preview Release Notes U31.2"
     Link="/Content/Print/ReleaseNotesPreview.htm"
     BreakType="chapter"
     StartSection="false"
@@ -27,78 +27,13 @@
     AutoEndOnLeftPage="disabled"
     PageType="normal">
     <TocEntry
-      Title="EMS Desktop Client"
-      Link="/Content/ReleaseNotes/Version44.1/Update31/EMSDesktopClient.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-      BreakType="chapter"
-      StartSection="false"
-      PageNumberReset="reset"
-      PageLayout="/Content/Resources/PageLayouts/PreviewRN/PrevChapters.flpgl"
-      PageNumber="1"
-      ChapterNumberReset="reset"
-      ChapterNumber="1"
-      SectionNumberReset="continue"
-      VolumeNumberReset="same"
-      PageType="firstright"
-      AutoEndOnLeftPage="disabled"></TocEntry>
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/ReleaseNotes/Version44.1/Update31.2/EMSWebApp.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     <TocEntry
-      Title="EMS Desktop Client V43"
-      Link="/Content/ReleaseNotes/Version44.1/Update31/EMSDesktopClientV43.htm" />
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/ReleaseNotes/Version44.1/Update31.2/EMSKioskApp.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     <TocEntry
-      Title="EMS Web App"
-      Link="/Content/ReleaseNotes/Version44.1/Update31/EMSWebApp.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-      BreakType="chapter"
-      PageType="continue"
-      AutoEndOnLeftPage="disabled"
-      StartSection="false"
-      PageNumberReset="continue"
-      PageLayout="/Content/Resources/PageLayouts/PreviewRN/PrevChapters.flpgl"></TocEntry>
-    <TocEntry
-      Title="EMS for Outlook Add-in"
-      Link="/Content/ReleaseNotes/Version44.1/Update31/EMSforOutlook.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-      BreakType="chapter"
-      PageType="continue"
-      AutoEndOnLeftPage="disabled"
-      StartSection="false"
-      PageNumberReset="continue"
-      PageLayout="/Content/Resources/PageLayouts/PreviewRN/PrevChapters.flpgl"></TocEntry>
-    <TocEntry
-      Title="EMS Kiosk App"
-      Link="/Content/ReleaseNotes/Version44.1/Update31/EMSKioskApp.htm" />
-    <TocEntry
-      Title="EMS Platform Services"
-      Link="/Content/ReleaseNotes/Version44.1/Update31/EMSPlatformServices.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-      BreakType="chapter"
-      PageType="continue"
-      AutoEndOnLeftPage="disabled"
-      StartSection="false"
-      PageNumberReset="continue"
-      PageLayout="/Content/Resources/PageLayouts/PreviewRN/PrevChapters.flpgl" />
-    <TocEntry
-      Title="EMS Room Sign App"
-      Link="/Content/ReleaseNotes/Version44.1/Update31/EMSRoomSignApp.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-      BreakType="chapter"
-      PageType="continue"
-      AutoEndOnLeftPage="disabled"
-      StartSection="false"
-      PageNumberReset="continue"
-      PageLayout="/Content/Resources/PageLayouts/PreviewRN/PrevChapters.flpgl"></TocEntry>
-    <TocEntry
-      Title="EMS Room Wizard"
-      Link="/Content/ReleaseNotes/Version44.1/Update31/EMSRoomWizard.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-      BreakType="chapter"
-      PageType="continue"
-      AutoEndOnLeftPage="disabled"
-      StartSection="false"
-      PageNumberReset="continue"
-      PageLayout="/Content/Resources/PageLayouts/PreviewRN/PrevChapters.flpgl"></TocEntry>
-    <TocEntry
-      Title="EMS Mobile App"
-      Link="/Content/ReleaseNotes/Version44.1/Update31/EMSMobileApp.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-      BreakType="chapter"
-      PageType="continue"
-      AutoEndOnLeftPage="disabled"
-      StartSection="false"
-      PageNumberReset="continue"
-      PageLayout="/Content/Resources/PageLayouts/PreviewRN/PrevChapters.flpgl" />
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/ReleaseNotes/Version44.1/Update31.2/EMSforOutlook.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
   </TocEntry>
 </CatapultToc>
