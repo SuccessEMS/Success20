@@ -45,12 +45,13 @@
             <tbody>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
-                        <p>Move Booking/Reservation Wizard</p>
+                        <p class="RNArea">Move Booking/Reservation Wizard</p>
+                        <p>&#160;</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
-                        <p class="RNTitle">Move Booking/Reservation Wizard Set Booking Column "OriginalStartTimeUTC" to Null</p>
-                        <p class="RNBody">In Update 31, when using the move booking or move reservation wizard, the "OrginalStartTimeUTC" column in the newly created booking was set to null. This resulted in  the bookings/action/search endpoint to fail and prevented the EMS&#160;Web App from loading availability in the grid view. </p>
-                        <p class="RNBody"><b>Fix</b>:&#160;Modified functionality so that "OrginalStartTimeUTC" successfully populates. </p>
+                        <p class="RNTitle">Copying Bookings or Reservations Did Not Update "OriginalStartTimeUTC"&#160;on Bookings Table, Causing Platform Services Errors</p>
+                        <p class="RNBody">When copying bookings or reservations, the "OrginalStartTimeUTC" column in the newly created booking was set to null. This resulted in Platform Services erroring and endpoints using Platform Services to error when rendering bookings (for instance, EMS&#160;Web App and custom integration points). </p>
+                        <p class="RNBody"><b>Fix</b>: Modified functionality so that "OrginalStartTimeUTC" successfully populates and Platform Services and corresponding access points will operate successfully.</p>
                         <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=43102&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">43102</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
