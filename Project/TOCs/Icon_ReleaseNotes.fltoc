@@ -8,7 +8,8 @@
       Link="/Content/V44.1_ReleaseNotes.htm">
       <TocEntry
         Title="Update 31.4"
-        Link="/Content/V44.1_ReleaseNotes.htm" />
+        Link="/Content/V44.1_ReleaseNotes.htm#Update31.4"
+        StartSection="false" />
       <TocEntry
         Title="Update 31.3"
         Link="/Content/V44.1_ReleaseNotes.htm#Update31.3" />

@@ -9,9 +9,8 @@
             <MadCap:concept term="V44.1" />This section describes updates to&#160;your EMS software.&#160;&#160;</p>
         <p MadCap:conditions="General.Online Only">See Also:&#160;<a href="#Contact">Contact Customer Support</a>&#160;and&#160;<MadCap:xref href="../../../Update_to_LatestVersion_EMS.htm"><a href="../../../Update_to_LatestVersion_EMS.htm">Updating to the Latest Version of EMS (Patches and Builds)</a></MadCap:xref>. </p>
         <table class="TableStyle-PatternedRows" style="margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
-            <col class="TableStyle-PatternedRows-Column-Regular" />
-            <col class="TableStyle-PatternedRows-Column-Regular" />
-            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 241px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 240px;" />
             <col class="TableStyle-PatternedRows-Column-Regular" />
             <tr class="TableStyle-PatternedRows-Body-LightRows">
                 <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
@@ -20,11 +19,8 @@
                 <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
                     <p class="p_3">Release&#160;Date:&#160;<br />February 15, 2019<br /></p>
                 </td>
-                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                    <p class="p_3">Patch:&#160;<br />XXX<br /></p>
-                </td>
                 <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                    <p class="p_3">Build #:&#160;<br />XXX<br /></p>
+                    <p class="p_3">Patch:&#160;<br />44.1.31004.201902130<br /></p>
                 </td>
             </tr>
         </table>
@@ -50,7 +46,7 @@
                     </td>
                     <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
                         <p class="RNTitle">Copying Bookings or Reservations Did Not Update "OriginalStartTimeUTC"&#160;on Bookings Table, Causing Platform Services Errors</p>
-                        <p class="RNBody">When copying bookings or reservations, the "OrginalStartTimeUTC" column in the newly created booking was set to null. This resulted in Platform Services erroring and endpoints using Platform Services to error when rendering bookings (for instance, EMS&#160;Web App and custom integration points). </p>
+                        <p class="RNBody">When copying bookings or reservations, the "OrginalStartTimeUTC" column in the newly created booking was set to null. This resulted in Platform Services erroring and endpoints using Platform Services to error when rendering bookings (e.g., EMS&#160;Web App and custom integration points). </p>
                         <p class="RNBody"><b>Fix</b>: Modified functionality so that "OrginalStartTimeUTC" successfully populates and Platform Services and corresponding access points will operate successfully.</p>
                         <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=43102&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">43102</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
