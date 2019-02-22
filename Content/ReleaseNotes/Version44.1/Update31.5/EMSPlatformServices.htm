@@ -26,7 +26,7 @@
             </tr>
         </table>
         <p class="box-note"><b>NOTE</b>:&#160;Beginning with Update 31, EMS&#160;Platform Services is a pre-requisite for installing and using the <a href="../Update31/EMSWebApp.htm">EMS&#160;Web App</a>. Please validate <a href="../../../EMS_SystemReq_44.1.html#EMSPlatformServices">hardware and software requirements for EMS&#160;Platform Services</a> if it is has not yet been installed in your environment.</p>
-        <h2>Enhancements</h2>
+        <h2>Enhancement</h2>
         <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');width: 100%;margin-left: 0;margin-right: auto;" cellspacing="0">
             <col class="TableStyle-PatternedRows-Column-Regular" style="width: 165px;" />
             <col class="TableStyle-PatternedRows-Column-Regular" />
@@ -42,48 +42,13 @@
             </thead>
             <tbody>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p class="RNArea">Timezones</p>
-                        <p>&#160;</p>
-                        <p class="RNArea">&#160;</p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
-                        <p class="RNTitle">Avoid Database Calls to Get Building Data for Timezone</p>
-                        <p class="RNBody">Instead of the booking search using LookupTimeZoneForBuilding to get timezone information for a booking, EMS&#160;database will now use the cached building timezone ID values from the booking data.</p>
-                        <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=43097&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">43097</a><br />(For EMS&#160;Internal Use Only)</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p class="RNArea">Parameters</p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNTitle">Avoid Re-collecting Template Parameter Data</p>
-                        <p class="RNBody">Booking search will retain template parameters for each booking so that previously retrieved data will not be re-collected. </p>
-                        <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=43098&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">43098</a><br />(For EMS&#160;Internal Use Only)</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p class="RNArea">Booking Rules</p>
-                        <p>&#160;</p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
-                        <p class="RNTitle">
-                            <MadCap:annotation MadCap:createDate="2019-02-22T08:35:30.2897448-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Stephen wrote in the discussion area that this enhancement was being done because it made performance worse. Double-check with Mindy about removing 43100." MadCap:editor="Megan.Laub" MadCap:editDate="2019-02-22T08:36:23.3673530-07:00">Concurrent Booking Rule Validation</MadCap:annotation>
-                        </p>
-                        <p>Booking rule validation will now take place concurrently.</p>
-                        <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=43100&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">43100</a><br />(For EMS&#160;Internal Use Only)</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
                         <p class="RNArea">Booking Search</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNTitle">Concurrent Entity Creation in Booking Search </p>
-                        <p class="RNBody">Entity creation in booking search will now take place concurrently. </p>
-                        <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=43099&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">43099</a><br />(For EMS&#160;Internal Use Only)</p>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
+                        <p class="RNTitle"> Booking Search: Performance Enhancements</p>
+                        <p class="RNBody">The per-booking cost of search queries was reduced, improving overall performance.</p>
+                        <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=43097&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">43097</a>, <a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=43098&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">43098</a>, and <a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=43099&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">43099</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
             </tbody>
