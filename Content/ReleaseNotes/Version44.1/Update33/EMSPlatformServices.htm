@@ -84,13 +84,22 @@ EMS Internal Reference # 40234
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
                         <p>&#160;</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows" style="text-align: left;">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
                         <p class="RNTitle">Metadata Import</p>
                         <p class="RNBody">The SAML configuration screen allows users to import IdP metadata by file upload and by URL in the EMS&#160;Platform Services Admin UI. The file mechanism will use the existing API route to upload; however, the URL mechanism needs an alternative route.</p>
                         <p class="RNRef">EMS&#160;Internal <MadCap:annotation MadCap:createDate="2018-09-21T10:35:05.2052352-06:00" MadCap:creator="Jen.Naused" MadCap:initials="JE" MadCap:comment="Get screenshots from Greg. " MadCap:editor="Jen.Naused" MadCap:editDate="2018-09-21T10:35:16.4030376-06:00">Reference</MadCap:annotation> #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=38093&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">38093</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" style="text-align: left;">
+                        <p class="RNTitle">
+                            <MadCap:annotation MadCap:createDate="2019-02-25T12:16:05.7079015-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="No longer showing in U32 query" MadCap:editor="Megan.Laub" MadCap:editDate="2019-02-25T12:16:22.1383249-07:00">Skype for Business </MadCap:annotation>Meeting Option Parameter Added</p>
+                        <p class="RNBody">A new meeting option parameter has been added to the EMS&#160;Platform Services Admin UI under Skype for Business. </p>
+                        <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=42219&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42219</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
             </tbody>
@@ -111,10 +120,44 @@ EMS Internal Reference # 40234
             </thead>
             <tbody>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="RNTitle">
+                            <MadCap:annotation MadCap:createDate="2019-02-25T12:20:07.0350549-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Moved from U32 to U33" MadCap:editor="Megan.Laub" MadCap:editDate="2019-02-25T12:20:12.9086525-07:00">EMS&#160;Platform</MadCap:annotation> Call Returned False Regardless of How It Was Set in Database</p>
+                        <p class="RNBody">Get Event Types call for "displayOnWeb" and "allowWebRequest" returned a false response, regardless of how the flag was set in the database. </p>
+                        <p class="RNBody"><span class="ui"><b>Fix</b>:</span> Modified functionality so that the correct value is returned on these parameters.</p>
+                        <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=39151&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">39151</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="RNArea">API&#160;Calls</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="RNTitle">
+                            <MadCap:annotation MadCap:createDate="2019-02-25T12:21:24.2952943-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Moved from U32 to U33" MadCap:editor="Megan.Laub" MadCap:editDate="2019-02-25T12:21:34.5623468-07:00">Call rooms/actions/availability</MadCap:annotation> Returned No Rooms</p>
+                        <p class="RNBody">The rooms/actions/availability call returned an "unavailableReason": 4 response for the current day. </p>
+                        <p class="RNBody"><b>Fix</b>:&#160;Modified functionality so that available rooms are returned.</p>
+                        <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=42300&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42300</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="RNArea">Logs</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="RNTitle">
+                            <MadCap:annotation MadCap:createDate="2019-02-25T12:18:26.9605649-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="No longer showing in U32 query" MadCap:editor="Megan.Laub" MadCap:editDate="2019-02-25T12:18:34.4781851-07:00">Custom Integration </MadCap:annotation>Error Logs Were Combined with Global Logs</p>
+                        <p class="RNBody">For custom integrations on the EMS&#160;Platform that had logging enabled, custom integration logs were being combined with global logs, but with missing information.</p>
+                        <p class="RNBody"><span class="ui">Fix:</span> Modified functionality so that custom integration logs display separately from global logs  under the appropriate integration.</p>
+                        <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=41027&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">41027</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
                         <p class="RNArea">XX</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
                         <p class="RNTitle">Skype 3rd party conference missing when looking at calendar item in outlook from reservation made in web app and mobile</p>
                         <p class="RNBody">XX</p>
                         <p class="RNBody"><span class="bold">Fix:</span> Modified functionality so that</p>
