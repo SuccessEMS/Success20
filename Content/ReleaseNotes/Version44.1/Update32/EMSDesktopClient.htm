@@ -28,7 +28,7 @@
                 </td>
             </tr>
         </table>
-        <h2>enhancement</h2>
+        <h2>enhancements</h2>
         <table class="TableStyle-PatternedRows" style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
             <col class="TableStyle-PatternedRows-Column-Regular" style="width: 202px;" />
             <col class="TableStyle-PatternedRows-Column-Regular" />
@@ -44,14 +44,31 @@
             </thead>
             <tbody>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
                         <p class="RNArea">Parameter</p>
                         <p>&#160;</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
                         <p class="RNTitle">Updated Additional Text EMS&#160;for Outlook Parameter</p>
                         <p class="RNBody">The parameter—<b>Text to append to EMS for Outlook meetings</b>—has been added. This parameter adds text to Outlook meetings when created using EMS&#160;for Outlook. </p>
                         <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=42911&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42911</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
+                        <p class="RNArea">Installation and Permissions</p>
+                        <p>&#160;</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
+                        <p class="RNTitle">
+                            <MadCap:annotation MadCap:createDate="2019-02-25T14:18:07.4929872-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Need to review core documentation and update applicaple topics with this new installer and permissions change." MadCap:editor="Megan.Laub" MadCap:editDate="2019-02-25T14:18:33.4301950-07:00">EMS.Glance.dll moved to EMS&#160;Desktop Client installer </MadCap:annotation>and EMS&#160;Room Sign App configuration permission added to user processes</p>
+                        <p class="RNBody">Previously, the permission to configure EMS&#160;Room Sign App was controlled by the EMS.Glance.dll, which had to be manually installed on the computer of each user who needed permission. As of Update 32, the EMS.Glance.dll has been moved to the standard EMS&#160;Desktop Client installer package, and the permission to configure EMS&#160;Room Sign App is now granted by admins. </p>
+                        <p class="RNBodyBeforeList">Admins can apply the EMS Room Sign App permission to users and user process templates in the EMS&#160;Desktop Client (<MadCap:annotation MadCap:createDate="2019-02-25T14:20:15.0469871-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Make sure this is correct. The TFS item is still being worked on and this menu selection route may change. Also, does this really refer to Configuration &gt; Everyday User Applications &gt; Everyday Users/Everday User Procedss Templates and then the Special &gt; Allow EMS Room Sign Administration will be an option?" MadCap:editor="Megan.Laub" MadCap:editDate="2019-02-25T14:29:39.1177244-07:00">processes section, Special &gt; Allow EMS Room Sign Administration</MadCap:annotation>): </p>
+                        <ul class="RN-unorder-list">
+                            <li>With EMS&#160;Room Sign administration permission, users can access the <span class="bold">EMS&#160;Glance Settings</span> menu button in EMS Desktop Client and all the <MadCap:annotation MadCap:createDate="2019-02-25T14:36:20.9262303-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Make sure this makes it into U32. It wasn't complete when this release note was written." MadCap:editor="Megan.Laub" MadCap:editDate="2019-02-25T14:36:22.1884964-07:00">EMS&#160;Room Sign App settings accessed through the button. Additionally, users can now access these EMS&#160;Room Sign App settings through the <span class="bold">Configuration </span>menu</MadCap:annotation>:&#160;<ul><li><span class="bold">Configuration </span>&gt; <span class="bold">Room Sign</span> &gt; <span class="bold">Deregister Device</span></li><li><span class="bold">Configuration </span>&gt; <span class="bold">Room Sign</span> &gt; <span class="bold">Global Settings</span></li><li><span class="bold">Configuration </span>&gt; <span class="bold">Room Sign</span> &gt; <span class="bold">Profiles</span></li><li><span class="bold">Configuration </span>&gt; <span class="bold">Room Sign</span> &gt; <span class="bold">Refresh All Units</span></li></ul></li>
+                            <li>Without EMS&#160;Room Sign administration permission, users do not see the <span class="bold">EMS&#160;Glance Settings</span> menu button and cannot access the EMS&#160;Room Sign App configuration settings through the menu button or the <span class="bold">Configuration </span>menu. </li>
+                        </ul>
+                        <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=29647&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">29647</a> and <a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=43498&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">43498</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
             </tbody>
@@ -71,6 +88,28 @@
                 </tr>
             </thead>
             <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="RNArea">Software Updates</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="RNTitle">Older EMS Database Versions were not auditing the latest ClientConnection in tblServerVersion table</p>
+                        <p class="RNBody">When older EMS&#160;Desktop Client versions connected to the database, they were not receiving the alert that a newer version was available. The ClientVersion column in tblServerVersion was being updated with the last version of the Desktop Client used instead of the latest version.</p>
+                        <p class="RNBody"><span class="bold">Fix:&#160;</span>Modified functionality so that when older Desktop Client versions connect to the database, they receive the alert that a newer version is available.</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=27232&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">27232</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="RNArea">XX</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="RNTitle">User Defined Fields overlapping categories on setup worksheet</p>
+                        <p class="RNBody">XX</p>
+                        <p class="RNBody"><span class="bold">Fix:&#160;</span>Modified functionality so that XX</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=34370&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">34370</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
                         <p class="RNArea">Email Notification Service</p>
@@ -131,14 +170,25 @@
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
                         <p class="RNArea">Modify Booking</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
                         <p class="RNTitle">Modify Booking Details Security Process Not Allowing Create New Category on Bookings</p>
                         <p class="RNBody">Modify Booking Details (expert user process template)&#160;was not allowing the user to add, edit, or delete the category and resources on any booking if the user also had access to that category, if the user had at least view-only access to the booking room, or if the user had access to the status the booking was in.</p>
                         <p class="RNBody"><b>Fix</b>:&#160;Modified functionality so that the Modify Booking Details security process allows users to add, edit, or delete the category and resources.</p>
                         <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=43009&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">43009</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                        <p class="RNArea">Notifications</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
+                        <p class="RNTitle">Notifications Not Triggering</p>
+                        <p class="RNBody">Notifications were not being triggered to targeted recipient when a booking time changed. </p>
+                        <p class="RNBody"><span class="bold">Fix</span>:&#160;Modified functionality so that notifications are triggered when a booking time changes. </p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=40311&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">40311</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
             </tbody>
