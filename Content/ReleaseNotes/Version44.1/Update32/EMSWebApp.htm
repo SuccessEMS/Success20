@@ -25,7 +25,7 @@
                     <p class="p_3">Patch #:&#160;<br /><br /></p>
                 </td>
                 <td class="TableStyle-SimpleWithPadding-BodyD-Column1-Row1">
-                    <p class="p_3">Build #:&#160;<br /><br /></p>
+                    <p class="p_3">Build #:&#160;<br /></p>
                 </td>
             </tr>
         </table>
@@ -94,13 +94,22 @@
             <tbody>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p class="RNArea">XX</p>
+                        <p class="RNArea">Session Time Out</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p class="RNTitle">Possible to encounter 500 errors when using the web app in multiple tabs / browser windows</p>
-                        <p class="RNBody">XX</p>
-                        <p class="RNBody"><b>Fix:</b> Modified functionality so that XX</p>
-                        <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=41135&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">41135</a><br />(For EMS&#160;Internal Use Only)</p>
+                        <p class="RNTitle">500 error occurred when using EMS Web App in multiple tabs and/or browser windows</p>
+                        <p class="RNBody">For some customers, when users opened EMS&#160;Web App in multiple tabs and/or windows of the browser, the time-out functionality was not syncing across all the tabs/windows, and users were not aware that they were signed out of all instances of EMS&#160;Web App in the tabs/windows. Also, when the session timer timed out, the redirect to the login page was not taking into account the login override settings, such as Portal Authentication and SAML&#160;scenarios and where a customer-created login page was used. </p>
+                        <p class="RNBody">For example, a user signs into EMS&#160;Web App on Tab&#160;1 of the browser. Then after 30 seconds, the user opens another instance of EMS&#160;Web App on Tab&#160;2. The user stops working in EMS&#160;Web App for a while, and during that time, the session times out in Tab&#160;1; however, a time-out message does not display in Tab&#160;2, and it seems like the user is still signed into the app on Tab&#160;2. The user continues working in Tab&#160;2. When the user tries searching for attendees while creating a reservation, the user gets a 500 error because the user has been signed out of EMS&#160;Web App on Tab&#160;1 and EMS&#160;Web App can no longer pull attendee information.</p>
+                        <p class="RNBodyBeforeList"><b>Fix:</b> Modified functionality so that when users open multiple instances of EMS&#160;Web App in a browser, the following occurs:</p>
+                        <ul class="RN-unorder-list">
+                            <li>The client-side timers sync across all tabs/windows.</li>
+                            <li>Signing out of one tab/window will sign out users in all other tabs/windows.</li>
+                            <li>Timing out of one tab/window will sign out users in all other tabs and windows.</li>
+                            <li>Extending the session of one tab/window will extend the session for all other tabs/windows.</li>
+                            <li>Extending the session via the "Still Working?" modal will close any other tabs/windows that display the same modal and will extend the session.</li>
+                            <li>The redirect to the login page takes into account the login override settings.</li>
+                        </ul>
+                        <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=38837&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">38837</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
