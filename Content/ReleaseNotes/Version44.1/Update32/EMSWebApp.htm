@@ -19,7 +19,7 @@
                     <p class="p_3">V44.1&#160;Update 32</p>
                 </td>
                 <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1">
-                    <p class="p_3">Release&#160;Date:&#160;<br />February XX, 2019<br /></p>
+                    <p class="p_3">Release&#160;Date:&#160;<br />March XX, 2019<br /></p>
                 </td>
                 <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1">
                     <p class="p_3">Patch #:&#160;<br /><br /></p>
@@ -94,9 +94,20 @@
             <tbody>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p class="RNArea">Viewing Room Details</p>
+                        <p class="RNArea">XX</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="RNTitle">Possible to encounter 500 errors when using the web app in multiple tabs / browser windows</p>
+                        <p class="RNBody">XX</p>
+                        <p class="RNBody"><b>Fix:</b> Modified functionality so that XX</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=41135&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">41135</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="RNArea">Viewing Room Details</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
                         <p class="RNTitle">EMS&#160;Web App was not honoring the "Hide Group" setting in the Schedule Grid, Related Events, and Unavailable Dates &amp; Times screen</p>
                         <p class="RNBodyBeforeList">The <span class="bold">Hide Group</span> room setting was not being honored in EMS&#160;Web App even though the <span class="bold">Hide Group</span> checkbox was selected in EMS&#160;Desktop Client (<span class="bold">Configuration </span>&gt; <span class="bold">Facilities </span>&gt; <span class="bold">Rooms </span>&gt; <span class="bold">Room </span>configuration dialog &gt; <span class="bold">Room </span>tab). In EMS&#160;Web App, the group information remained visible on the following:</p>
                         <ul class="RN-unorder-list">
@@ -108,11 +119,11 @@
                         <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=41135&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">41135</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
                         <p class="RNArea">Time Zones</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
                         <p class="RNTitle">Time Zone field defaulted to empty if the everyday user had a time zone default of "no preference"</p>
                         <p class="RNBody">In EMS&#160;Web App, the <span class="bold">Create booking in this time zone</span> field was empty if the everyday user account had no time zone specified (EMS&#160;Desktop Client &gt;&#160;<span class="bold">Configuration </span>&gt; <span class="bold">Everyday User Applications</span> &gt; <span class="bold">Everyday Users</span>).  </p>
                         <p class="RNBodyBeforeList"><b>Fix:</b> Modified functionality so that when an everyday user is created with no time zone specified, the time zone value for the  <span class="bold">Create booking in this time zone</span> field will be taken from one of the following (listed in order of preference):</p>
@@ -125,16 +136,28 @@
                         <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=42650&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42650</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
                         <p class="RNArea">Time Zones</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
                         <p class="RNTitle">EMS Web App Reservations Created with Start Date in Daylight Savings Time Range Created Calendar Appointment at Incorrect Time in Google Calendar</p>
                         <p class="RNBody">Reservations created on a Google Integration template with a reservation start date in Daylight Savings Time (between March 10, 2019 and November 2, 2019*) were creating calendar appointments at the wrong time (incorrect by one hour).</p>
                         <p class="RNBody">*Some global locations have unique start/end dates for DST. These dates reflect the most common range.</p>
                         <p class="RNBody"><b>Fix:</b> Modified functionality so that the calendar appointment is created at the correct time for reservations with a start date in DST range.</p>
                         <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=42889&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42889</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="RNArea">Security</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="RNTitle">
+                            <MadCap:annotation MadCap:createDate="2019-02-25T10:11:44.1282418-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="For cross-sciprting problem. " MadCap:editor="Megan.Laub" MadCap:editDate="2019-02-25T10:12:03.2923079-07:00">EMS&#160;Web App Security Enhancements</MadCap:annotation>
+                        </p>
+                        <p class="RNBody">Enhancements have been implemented to strengthen security in the EMS&#160;Web App. Submit an EMS&#160;Support Help Desk ticket through the <a href="https://portal.emssoftware.com/s/support">EMS Customer Support Portal</a> to receive additional information. </p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=43155&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">43155</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">

@@ -45,10 +45,13 @@
             <tbody>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: left;">
-                        <p>&#160;</p>
+                        <p class="RNArea">Locate a Person</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
-                        <p>&#160;</p>
+                        <p class="RNTitle">
+                            <MadCap:annotation MadCap:createDate="2019-02-25T08:36:42.9809905-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Changed from Documentation &quot;Yes&quot; to &quot;No&quot; in U32. Saving the draft here in case PO wants it back in U32. Delete when working on U33." MadCap:editor="Megan.Laub" MadCap:editDate="2019-02-25T08:37:19.5526246-07:00">Updated messaging</MadCap:annotation> on Locate a Person</p>
+                        <p class="RNBody">To prevent confusion, the message that displays after users select a person on the <span class="bold">Locate a Person</span> page has been updated. The message now reads <span class="italics">Locate "xPerson"</span> instead of <span class="italics">Continue as "xPerson."</span></p>
+                        <p class="RNRef">  Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=42215&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42215</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
@@ -97,15 +100,27 @@
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows" style="text-align: left;">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="text-align: left;">
                         <p class="RNArea">Today's Events</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows" style="text-align: left;">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
                         <p class="RNTitle">
                             <MadCap:annotation MadCap:createDate="2019-01-28T16:27:21.2327694-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="TFS shows this item as &quot;Work Finished&quot; and that it should have gone with U31, but it isn't in the release notes. Should it be deleted?" MadCap:editor="Megan.Laub" MadCap:editDate="2019-01-28T16:27:27.3053325-07:00">Today's Events N</MadCap:annotation>ot Loading</p>
                         <p class="RNBody">Reservations created in the EMS&#160;Kiosk App in a profile-level status were not displaying in the EMS&#160;Desktop Client. </p>
                         <p class="RNBody"><span class="bold">Fix</span>:&#160;Modified functionality so that users can successfully create a reservation in a profile-level status that is different than global-level status.</p>
                         <p class="RNRef">  Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=41046&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">41046</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows" style="text-align: left;">
+                        <p class="RNArea"> Logging Out</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" style="text-align: left;">
+                        <p class="RNTitle">
+                            <MadCap:annotation MadCap:createDate="2019-02-25T08:41:21.1974059-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="No longer showing in U32 query, and item doesn't say which update this bug will go into. Storing it here for now." MadCap:editor="Megan.Laub" MadCap:editDate="2019-02-25T08:42:00.4745763-07:00">Selecting the Main Menu</MadCap:annotation> button was not ending user sessions</p>
+                        <p class="RNBody">When the parameters <span class="bold">Require Authentication for all Kiosk Functions</span> and  <span class="bold">Require Timeout/Logoff to Terminate User Session</span> were both set to <span class="bold">No</span>, EMS Kiosk App was not ending user sessions  when the  <span class="bold">Main Menu</span> button was selected from the Check-in Confirmation page. The <span class="bold">End Session</span> button was displayed in the upper-right of the screen after users checked in and selected <span class="bold">Main Menu</span>.</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that when the parameters are set as described above and users select the <span class="bold">Main Menu</span> button on the Check-in Confirmation page, the user sessions are ended.</p>
+                        <p class="RNRef">  Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=42827&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42827</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
             </tbody>
