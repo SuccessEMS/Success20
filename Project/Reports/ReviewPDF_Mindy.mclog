@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<MadCapLog Protocol="2" Description="MadCap Flare 2018 Generated PDF/ReviewPDF_Mindy.fltar" Date="2019-02-22T17:38:14.2242758-07:00">
+<MadCapLog Protocol="2" Description="MadCap Flare 2018 Generated PDF/ReviewPDF_Mindy.fltar" Date="2019-02-26T08:38:02.6047485-07:00">
     <Messages>Compiling target ReviewPDF_Mindy...
 Checking Word version...
 Removing previously generated content...
@@ -11,24 +11,28 @@ Generating Glossary...
 Processing Page Layouts...
 Collecting source files...
 Processing source files...
-Processing topic: EMSforOutlook.htm
-Processing topic: EMSPlatformServices.htm
+Processing topic: EMSKioskApp.htm
+Processing topic: EMSWebApp.htm
 Generating final output...
 Patching links and page references...
-Unresolved link to file: C:\Users\megan.laub\Documents\My Projects\Success29\Content\ReleaseNotes\Version44.1\Update31\EMSWebApp.htm. File may not be included in the output.
-Unresolved link to file: C:\Users\megan.laub\Documents\My Projects\Success29\Content\EMS_SystemReq_44.1.html. File may not be included in the output.
+Unresolved link to file: C:\Users\megan.laub\Documents\My Projects\Success29\Content\EMSKioskApp\V44.1\InstallationGuide\SysReqPrereq.htm. File may not be included in the output.
+Unresolved link to file: C:\Users\megan.laub\Documents\My Projects\Success29\Content\EMSDesktopClient\V44.1\ConfigurationGuide\EMSKioskAppParameters.htm. File may not be included in the output.
+Unresolved link to file: C:\Users\megan.laub\Documents\My Projects\Success29\Content\EMSKioskApp\V44.1\ConfigurationGuide\ConfigKioskAppProfiles.htm. File may not be included in the output.
+Unresolved link to file: C:\Users\megan.laub\Documents\My Projects\Success29\Content\EMSKioskApp\V44.1\InstallationGuide\SysReqPrereq.htm. File may not be included in the output.
 Saving word output...
 Embedding images into document. This may take several minutes.
 Generated ../../../PDF/ReviewPDF_Mindy/ReviewPDF_Mindy.doc
 Saving result set...
-Output generated in 15 second(s).
+Output generated in 28 second(s).
 
 Done
 Saving log to "C:\Users\megan.laub\Documents\My Projects\Success29\Project\Reports\ReviewPDF_Mindy.mclog"
 </Messages>
     <Warnings>
-        <LogEntry File="../../Content/ReleaseNotes/Version44.1/Update31/EMSWebApp.htm" Message="Unresolved link to file: C:\Users\megan.laub\Documents\My Projects\Success29\Content\ReleaseNotes\Version44.1\Update31\EMSWebApp.htm. File may not be included in the output." LineIndex="-1" CharIndex="-1" Subsystem="MsWord Compiler" Target="ReviewPDF_Mindy" ErrorID="40017" />
-        <LogEntry File="../../Content/EMS_SystemReq_44.1.html" Message="Unresolved link to file: C:\Users\megan.laub\Documents\My Projects\Success29\Content\EMS_SystemReq_44.1.html. File may not be included in the output." LineIndex="-1" CharIndex="-1" Subsystem="MsWord Compiler" Target="ReviewPDF_Mindy" ErrorID="40017" />
+        <LogEntry File="../../Content/EMSKioskApp/V44.1/InstallationGuide/SysReqPrereq.htm" Message="Unresolved link to file: C:\Users\megan.laub\Documents\My Projects\Success29\Content\EMSKioskApp\V44.1\InstallationGuide\SysReqPrereq.htm. File may not be included in the output." LineIndex="-1" CharIndex="-1" Subsystem="MsWord Compiler" Target="ReviewPDF_Mindy" ErrorID="40017" />
+        <LogEntry File="../../Content/EMSDesktopClient/V44.1/ConfigurationGuide/EMSKioskAppParameters.htm" Message="Unresolved link to file: C:\Users\megan.laub\Documents\My Projects\Success29\Content\EMSDesktopClient\V44.1\ConfigurationGuide\EMSKioskAppParameters.htm. File may not be included in the output." LineIndex="-1" CharIndex="-1" Subsystem="MsWord Compiler" Target="ReviewPDF_Mindy" ErrorID="40017" />
+        <LogEntry File="../../Content/EMSKioskApp/V44.1/ConfigurationGuide/ConfigKioskAppProfiles.htm" Message="Unresolved link to file: C:\Users\megan.laub\Documents\My Projects\Success29\Content\EMSKioskApp\V44.1\ConfigurationGuide\ConfigKioskAppProfiles.htm. File may not be included in the output." LineIndex="-1" CharIndex="-1" Subsystem="MsWord Compiler" Target="ReviewPDF_Mindy" ErrorID="40017" />
+        <LogEntry File="../../Content/EMSKioskApp/V44.1/InstallationGuide/SysReqPrereq.htm" Message="Unresolved link to file: C:\Users\megan.laub\Documents\My Projects\Success29\Content\EMSKioskApp\V44.1\InstallationGuide\SysReqPrereq.htm. File may not be included in the output." LineIndex="-1" CharIndex="-1" Subsystem="MsWord Compiler" Target="ReviewPDF_Mindy" ErrorID="40017" />
     </Warnings>
     <Errors />
 </MadCapLog>
