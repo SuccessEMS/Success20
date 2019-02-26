@@ -99,7 +99,7 @@
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
                         <p class="RNTitle">500 error occurred when using EMS Web App in multiple tabs and/or browser windows</p>
                         <p class="RNBody">For some customers, when users opened EMS&#160;Web App in multiple tabs and/or windows of the browser, the time-out functionality was not syncing across all the tabs/windows, and users were not aware that they were signed out of all instances of EMS&#160;Web App in the tabs/windows. Also, when the session timer timed out, the redirect to the login page was not taking into account the login override settings, such as Portal Authentication and SAML&#160;scenarios and where a customer-created login page was used. </p>
-                        <p class="RNBody">For example, a user signs into EMS&#160;Web App on Tab&#160;1 of the browser. Then after 30 seconds, the user opens another instance of EMS&#160;Web App on Tab&#160;2. The user stops working in EMS&#160;Web App for a while, and during that time, the session times out in Tab&#160;1; however, a time-out message does not display in Tab&#160;2, and it seems like the user is still signed into the app on Tab&#160;2. The user continues working in Tab&#160;2. When the user tries searching for attendees while creating a reservation, the user gets a 500 error because the user has been signed out of EMS&#160;Web App on Tab&#160;1 and EMS&#160;Web App can no longer pull attendee information.</p>
+                        <p class="RNBody">Example: A user signs into EMS&#160;Web App on Tab&#160;1 of the browser. Then after 30 seconds, the user opens another instance of EMS&#160;Web App on Tab&#160;2. The user stops working in EMS&#160;Web App for a while, and during that time, the session times out in Tab&#160;1; however, a time-out message does not display in Tab&#160;2, and it appears as though the user is still signed into the app on Tab&#160;2. The user continues working in Tab&#160;2. When the user tries searching for attendees while creating a reservation, the user gets a 500 error because the user has been signed out of EMS&#160;Web App on Tab&#160;1 and EMS&#160;Web App can no longer pull attendee information.</p>
                         <p class="RNBodyBeforeList"><b>Fix:</b> Modified functionality so that when users open multiple instances of EMS&#160;Web App in a browser, the following occurs:</p>
                         <ul class="RN-unorder-list">
                             <li>The client-side timers sync across all tabs/windows.</li>
@@ -124,15 +124,26 @@
                             <li>Booking Details &gt; Related Events tab</li>
                             <li>Unavailable Dates &amp; Times screen</li>
                         </ul>
-                        <p class="RNBody"><b>Fix:</b> Modified functionality so that when the <span class="bold">Hide Group</span> checkbox is selected for a room, the group information is suppressed on all the appropriate screens in EMS&#160;Web App.</p>
+                        <p class="RNBody"><b>Fix:</b> Modified functionality so that when the <span class="bold">Hide Group</span> checkbox is selected for a room, the group information is suppressed on all the appropriate screens in EMS&#160;Web App. Additionally, in Schedule Grid &gt; Booking Display Bar, when the <span class="bold">Hide Group</span> checkbox is selected, the Private label text will be displayed (text is configured in the <span class="bold"><a href="../../../EMSDesktopClient/V44.1/ConfigurationGuide/EMSEverydayUserApplicationsParameters.htm#LabelforPrivateBookings"><span class="bold">Label for “Private” Bookings on Schedule View</span> parameter</a></span>).</p>
                         <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=41135&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">41135</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p class="RNArea">Time Zones</p>
+                        <p class="RNArea">My Events</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="RNTitle">Unable to download .ics files for reservations with non-standard recurrence patterns</p>
+                        <p class="RNBody">For reservations with non-standard recurrence patterns, users were unable to download the .ics file and add the reservations to their calendars via the <span class="bold">Add to My Calendar</span> link <MadCap:annotation MadCap:createDate="2019-02-26T14:13:26.0134746-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Was this only from the My Events page, or was it with any Add to My Calendar link involving non-standard recurrence reservations (such as the link displayed after successfully creating a reservation)?" MadCap:editor="Megan.Laub" MadCap:editDate="2019-02-26T14:14:44.4247513-07:00">on the My Events page</MadCap:annotation>. When users clicked the link, they would get an error message:&#160;"There was a problem attempting to complete the action you requested. Please try again at a later time."  </p>
+                        <p class="RNBody"><b>Fix:</b> Modified functionality so that users can successfully download the .ics file for reservations with non-standard recurrence patterns using the <span class="bold">Add to My Calendar</span> link. </p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=41135&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper"><MadCap:annotation MadCap:createDate="2019-02-26T13:57:38.7240578-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Will there be new TFS number, or should we just use 41135 since that is the bug being fixed when .ics was also fixed?" MadCap:editor="Megan.Laub" MadCap:editDate="2019-02-26T13:58:14.4601507-07:00">41135</MadCap:annotation></a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="RNArea">Time Zones</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
                         <p class="RNTitle">Time Zone field defaulted to empty if the everyday user had a time zone default of "no preference"</p>
                         <p class="RNBody">In EMS&#160;Web App, the <span class="bold">Create booking in this time zone</span> field was empty if the everyday user account had no time zone specified (EMS&#160;Desktop Client &gt;&#160;<span class="bold">Configuration </span>&gt; <span class="bold">Everyday User Applications</span> &gt; <span class="bold">Everyday Users</span>).  </p>
                         <p class="RNBodyBeforeList"><b>Fix:</b> Modified functionality so that when an everyday user is created with no time zone specified, the time zone value for the  <span class="bold">Create booking in this time zone</span> field will be taken from one of the following (listed in order of preference):</p>
@@ -145,11 +156,11 @@
                         <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=42650&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42650</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
                         <p class="RNArea">Time Zones</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
                         <p class="RNTitle">EMS Web App reservations created with start date in daylight savings time range created calendar appointment at incorrect time in Google Calendar</p>
                         <p class="RNBody">Reservations created on a Google Integration template with a reservation start date in Daylight Savings Time (between March 10, 2019 and November 2, 2019*) were creating calendar appointments at the wrong time (incorrect by one hour).</p>
                         <p class="RNBody">*Some global locations have unique start/end dates for DST. These dates reflect the most common range.</p>
@@ -157,11 +168,11 @@
                         <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=42889&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42889</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
                         <p class="RNArea">Security</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
                         <p class="RNTitle">
                             <MadCap:annotation MadCap:createDate="2019-02-25T10:11:44.1282418-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="For cross-sciprting problem. " MadCap:editor="Megan.Laub" MadCap:editDate="2019-02-25T10:12:03.2923079-07:00">EMS&#160;Web App Security Enhancements</MadCap:annotation>
                         </p>
@@ -169,11 +180,11 @@
                         <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=43155&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">43155</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
                         <p class="RNArea">Date Picker</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
                         <p class="RNTitle">
                             <MadCap:annotation MadCap:createDate="2019-02-07T08:49:20.2135029-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Added from U31.2 per Mindy" MadCap:editor="Megan.Laub" MadCap:editDate="2019-02-07T08:49:20.9990493-07:00">Date Picker Not Functioning</MadCap:annotation> for Users with Specific Personalization Defaults</p>
                         <p class="RNBody">On Exchange-enabled templates in the EMS&#160;Web App, if a user had defaulted a time zone in personalization and the current time in that default time zone had crossed midnight (but the user time zone had not), then the date picker picked dates randomly. </p>
@@ -181,11 +192,11 @@
                         <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=42918&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42918</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
                         <p class="RNArea">Time Zones</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
                         <p class="RNTitle">
                             <MadCap:annotation MadCap:createDate="2019-02-07T08:49:13.7851901-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Added from U31.2 per Mindy" MadCap:editor="Megan.Laub" MadCap:editDate="2019-02-07T08:49:14.5627447-07:00">Date Picker reflects</MadCap:annotation> incorrect date with specific personalization defaults</p>
                         <p class="RNBody">If a user had defaulted a time zone in personalization and the current time in that default time zone had crossed midnight (but the user time zone had not), then the EMS&#160;Web App reflected the wrong date once chosen.</p>
