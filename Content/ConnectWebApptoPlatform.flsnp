@@ -20,8 +20,8 @@
         </ol>
         <div class="TitleandImage">
             <p class="title">Everyday User Applications Tab, Platform Services API&#160;URL</p>
-            <p>
-                <img src="Skype/Images/Skype_ParamforWebApp.PNG" class="PDFlarge" style="width: 523px;height: 140px;" />
+            <p class="title">
+                <img src="WebApp/Images/EverydayUserApplicationsTab.png" />
             </p>
         </div>
     </body>
