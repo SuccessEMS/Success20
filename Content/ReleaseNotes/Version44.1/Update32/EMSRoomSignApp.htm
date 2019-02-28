@@ -54,21 +54,19 @@
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p class="RNTitle">Checking Into an Exchange-Enabled Meeting Does Not Change the Meeting Start Time to the Time the User Checked In</p>
-                        <p class="RNBody">Checking into an Exchange-enabled meeting from the EMS&#160;Room Sign App no longer changes the start time to the check in time. </p>
-                        <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=41365&amp;_a=edit&amp;triage=true" class="RNRefHyper" title="EMS Internal Use Only" alt="EMS Internal Use Only">41365</a><br />(For EMS&#160;Internal Use Only)</p>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
+                        <p class="RNArea">Check In</p>
                     </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
                         <p class="RNTitle">
-                            <MadCap:annotation MadCap:createDate="2019-02-25T12:28:51.9375417-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="This item is now set to &quot;No&quot; for documentation. Should this release note be removed?" MadCap:editor="Megan.Laub" MadCap:editDate="2019-02-25T12:29:13.0083827-07:00">Iadea Internal API Access_Token Removed</MadCap:annotation>
-                        </p>
-                        <p class="RNBody">Tokens can now be obtained if the user has set a password on their EMS&#160;Room Sign App. </p>
-                        <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=43037&amp;_a=edit&amp;triage=true" class="RNRefHyper" title="EMS Internal Use Only" alt="EMS Internal Use Only">43037</a><br />(For EMS&#160;Internal Use Only)</p>
+                            <MadCap:annotation MadCap:createDate="2019-02-28T14:40:04.2101244-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Per Mindy, check core documentation and make updates as needed (if this info is not in core documentation, find out if Mindy wants it added)." MadCap:editor="Megan.Laub" MadCap:editDate="2019-02-28T14:41:11.3264582-07:00">Checking into an Exchange-enabled meeting or video conference meeting</MadCap:annotation> no longer changes the meeting start time to the time the user checked in</p>
+                        <p class="RNBody">Now, when users check into an Exchange-enabled meeting or video conference meeting from the EMS&#160;Room Sign App, the meeting start time no longer changes to the check in time. </p>
+                        <p class="RNBodyBeforeList">This change was made to prevent the following issues:&#160;</p>
+                        <ul class="RN-unorder-list">
+                            <li>If the meeting was open in Outlook during check in from the EMS&#160;Room Sign App and the meeting start time was changed to the Room Sign app check in time, the meeting ended up with an Outlook rule violation since the meeting's start time was edited while the meeting was in progress. </li>
+                            <li>For meetings with multi-location bookings, changing the meeting start time to the check in time from the EMS Room Sign App would update the start times of all the booking locations, not just the location where check in occurred.</li>
+                        </ul>
+                        <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=41365&amp;_a=edit&amp;triage=true" class="RNRefHyper" title="EMS Internal Use Only" alt="EMS Internal Use Only">41365</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
             </tbody>
