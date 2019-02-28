@@ -192,12 +192,86 @@
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
                         <p class="RNTitle">'Number or Reservations' Message Always Displayed Quantity of 1</p>
                         <p class="RNBody">When deleting a configuration item that has been used, an error occurred with a message that references "1 Reservation(s) reference(s) this Everyday User."&#160;The quantity in this message never changed regardless of how many items referenced the object.</p>
                         <p class="RNBody">Fix:&#160;Modified functionality so that the quantity stated in the error message is correct. </p>
-                        <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=40311&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">38974</a><br />(For EMS&#160;Internal Use Only)</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=38974&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">38974</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="RNArea">VC&#160;Bookings</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="RNTitle">Date Change From pre-DST to post-DST Start Date (or vice versa) on a VC Booking Changed Start Time of Second Booking</p>
+                        <p class="RNBody">When a VC booking date was updated within Daylight Savings (DST) date, the associated bookings changed to the incorrect time. </p>
+                        <p class="RNBody">Fix:&#160;Modified functionality so that associated bookings on a VC template that has been updated within a DST&#160;date does not change time. </p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=43072&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">43072</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="RNArea">Editing Reservation</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="RNTitle">Second Contact Issue When Editing Reservation</p>
+                        <p class="RNBody">When editing a reservation's Group, the second contact did not default to none and information populated incorrectly. </p>
+                        <p class="RNBody"><b>Fix</b>:&#160;Modified functionality so that the drop-down re-populates with contacts from the new group (and only the new group).</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=43434&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">43434</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="RNArea">Reports</p>
+                        <p>&#160;</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="RNTitle">Special Dates Excluded From Utilization Report </p>
+                        <p class="RNBody">Special dates were being excluded from booked time or 'available time' on Room Utilization reports.  </p>
+                        <p class="RNBody"><b>Fix</b>:&#160;Modified functionality so that the Room Utilization report includes special dates, if there is something booked on those dates.</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=41815&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">41815</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="RNArea">Invoice</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="RNTitle">Invoices Exclude Email Address</p>
+                        <p class="RNBody">"Email Address" and "Event Type" were missing from the invoice header on reprinted invoices.</p>
+                        <p class="RNBody"><b>Fix</b>:&#160;Modified functionality so that department fields display when reprinting an invoice.</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=41820&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">41820</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="RNTitle">Predictive Text and Changing Billing Issues</p>
+                        <p class="RNBody">When editing a reservation, incorrect group contacts were being pulled into the Billing Information tab. </p>
+                        <p class="RNBody"><b>Fix</b>:&#160;Modified functionality so that the Contact drop-down list pulls the correct list of contacts based on the selected Group.</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=41837&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">41837</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="RNArea">DateTime</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="RNTitle">DateTime Audits Inconsistent for EMS Email and Dashboard Notifications</p>
+                        <p class="RNBody">DateTime audits were different depending on where you were in the EMS&#160;Desktop Client. </p>
+                        <p class="RNBody"><b>Fix</b>:&#160;Modified functionality so that there is consistency with DateTime auditing. </p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=42295&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42295</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                        <p class="RNArea">User Defined Fields (UDFs)</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
+                        <p class="RNTitle">Rounding of UDF Field Type 'Numeric' </p>
+                        <p class="RNBody"> </p>
                     </td>
                 </tr>
             </tbody>
