@@ -266,12 +266,26 @@
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
                         <p class="RNArea">User Defined Fields (UDFs)</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
                         <p class="RNTitle">Rounding of UDF Field Type 'Numeric' </p>
-                        <p class="RNBody"> </p>
+                        <p class="RNBody">The user defined field type 'Numeric' was rounding to the nearest whole number when added to an existing reservation in the Navigator. </p>
+                        <p class="RNBody">Fix:&#160;Modified functionality so that the numeric value is saved to the reservation, including the digits to the right of the decimal point.</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=42424&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42424</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
+                        <p class="RNArea">EMS&#160;for Google Calendar</p>
+                        <p>&#160;</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
+                        <p class="RNTitle">Room Mailboxes Were Not Being Added to the Google Calendar Event If Status Was Changed from Canceled to Confirmed </p>
+                        <p class="RNBody">If the status of an event as part of a multi-room reservation created in EMS&#160;for Google Calendar changed from canceled to confirmed, the room mailboxes were not being added back to the event. </p>
+                        <p class="RNBody"><b>Fix</b>:&#160;Modified functionality so that room mailboxes are added back as an attendee after the status changes back to confirmed.</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=42594&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42594</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
             </tbody>
