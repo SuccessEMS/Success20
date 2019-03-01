@@ -49,8 +49,14 @@
                         <p>&#160;</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
-                        <p class="RNTitle">Updated Additional Text EMS&#160;for Outlook Parameter</p>
-                        <p class="RNBody">The parameter—<b>Text to append to EMS for Outlook meetings</b>—has been added. This parameter adds text to Outlook meetings when created using EMS&#160;for Outlook. </p>
+                        <p class="RNTitle">
+                            <MadCap:annotation MadCap:createDate="2019-03-01T10:43:24.3363969-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Need to add this information to system parameters in core documentation." MadCap:editor="Megan.Laub" MadCap:editDate="2019-03-01T10:43:42.8399050-07:00">New parameter for adding text to Outlook meeting body</MadCap:annotation> when meeting is created from EMS&#160;for Outlook</p>
+                        <p class="RNBody">The parameter—<b>Text to append to EMS for Outlook meetings</b>—has been added. This parameter adds text to Outlook meetings when the meetings are created using EMS&#160;for Outlook. </p>
+                        <p class="RNBodyBeforeList">You can access  the new <b>Text to append to EMS for Outlook meetings</b> parameter through EMS&#160;Desktop Client from &#160;<span class="bold">System Administration</span> &gt; <span class="bold">Settings </span>&gt; <span class="bold">Parameters </span>&gt; <span class="bold">Everyday User Applications</span> tab. When&#160;configuring the parameter, the following apply:&#160;</p>
+                        <ul class="RN-unorder-list">
+                            <li>You can enter plain text with a 50 character limit; HTML&#160;is not supported. The text you enter will be added to the meeting body.</li>
+                            <li>If you leave the parameter's value field empty (Null), no text will be added to the meeting body.</li>
+                        </ul>
                         <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=42527&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42527</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
@@ -77,7 +83,7 @@
                         <p>&#160;</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p class="RNTitle">Canceling Series Occurrence Did Not Cancel in EMS</p>
+                        <p class="RNTitle">Canceling series occurrence did not cancel in EMS</p>
                         <p class="RNBody">For recurring meetings created in EMS&#160;for Outlook who try to cancel one booking in the recurrence experienced the booking remaining scheduled in EMS. </p>
                         <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=40122&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">40122</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
@@ -88,7 +94,7 @@
                         <p>&#160;</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p class="RNTitle">In Positive Timezones, EMS&#160;for Outlook Was Not Reading Special Dates Correctly</p>
+                        <p class="RNTitle">In positive timezones, EMS&#160;for Outlook was not reading special dates correctly</p>
                         <p class="RNBody">When booking a room in EMS&#160;for Outlook in a positive timezone, rooms were not available even if time was inside of building hours.</p>
                         <p class="RNBody"><b>Fix</b>:&#160;Modified functionality so that users can book rooms within open building hours.</p>
                         <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=42098&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42098</a><br />(For EMS&#160;Internal Use Only)</p>
@@ -100,7 +106,7 @@
                         <p>&#160;</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p class="RNTitle">Conflict Resolution Was Not Updating Room Resource Calendar</p>
+                        <p class="RNTitle">Conflict resolution was not updating room resource calendar</p>
                         <p class="RNBody">Resolved room conflicts were not reflecting on the room resource calendar. </p>
                         <p class="RNBody"><b>Fix</b>:&#160;Modified functionality so that conflict resolutions are reflected on the room resource calendar.</p>
                         <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=42241&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42241</a><br />(For EMS&#160;Internal Use Only)</p>
@@ -140,7 +146,7 @@
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
                         <p class="RNTitle">Error occurred in EMS&#160;for Outlook when the meeting end time was extended in EMS&#160;Desktop Client while the meeting was in progress</p>
                         <p class="RNBody">For reservations created in EMS Web App using a calendar-enabled template, users in EMS&#160;for Outlook were experiencing an error when the meeting end times were extended in EMS&#160;Desktop Client while the meetings were in&#160;progress. </p>
-                        <p class="RNBody">For example, a reservation with a meeting start time of 10:00 a.m. is created in EMS&#160;Web App. While the meeting in progress, an EMS&#160;Desktop Client user extends the meeting end time  from 10:30 a.m. to 10:45 a.m. Once the meeting end&#160;time has been extended, users in EMS&#160;for Outlook receive the following error:&#160;"This ongoing reservation cannot be edited." </p>
+                        <p class="RNBody">For example, a reservation with a meeting start time of 10:00 a.m. is created in EMS&#160;Web App. While the meeting is in progress, an EMS&#160;Desktop Client user extends the meeting end time  from 10:30 a.m. to 10:45 a.m. Once the meeting end&#160;time has been extended, EMS&#160;for Outlook users receive the following error:&#160;"This ongoing reservation cannot be edited." </p>
                         <p class="RNBody"><b>Fix</b>:&#160;Modified functionality so that when a booking end time is extended in EMS&#160;Desktop Client while a booking is in progress, the end time is updated in EMS&#160;for Outlook, and users do not receive an error.  </p>
                         <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=43616&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">43616</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
@@ -153,7 +159,7 @@
                     <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
                         <p class="RNTitle">Error occurred when  dismissing Outlook reminders for in-progress meetings</p>
                         <p class="RNBody">For reservations created in EMS Web App using a calendar-enabled template, users in EMS&#160;for Outlook were experiencing an error when trying to dismiss the meeting reminders if the meetings were in-progress. </p>
-                        <p class="RNBody">For example, a reservation with a meeting start time of 10:00 a.m. is created in EMS&#160;Web App using a calendar-enabled template. While the meeting is in progress (at 10:02 a.m.), the user tries to dismiss the meeting reminder in Outlook and receives the following error:&#160;"This ongoing reservation cannot be edited." </p>
+                        <p class="RNBody">For example, a reservation with a meeting start time of 10:00 a.m. is created in EMS&#160;Web App using a calendar-enabled template. While the meeting is in progress at 10:02 a.m., the user tries to dismiss the meeting reminder in Outlook and receives the following error:&#160;"This ongoing reservation cannot be edited." </p>
                         <p class="RNBody"><b>Fix</b>:&#160;Modified functionality so that EMS&#160;for Outlook users can dismiss reminders for in-progress meetings without receiving an error.</p>
                         <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=43617&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">43617</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
