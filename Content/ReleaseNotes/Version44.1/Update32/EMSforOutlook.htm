@@ -107,17 +107,55 @@
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
                         <p class="RNArea">Notifications and Conflict Resolution</p>
                         <p>&#160;</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
                         <p class="RNTitle">
                             <MadCap:annotation MadCap:createDate="2019-02-25T11:45:32.5112998-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Release note is from U31.5 (Mindy reviewed)" MadCap:editor="Megan.Laub" MadCap:editDate="2019-02-26T08:07:00.9924303-07:00">Reservations on rooms</MadCap:annotation> that require approval that had setup times specified resulted in a conflict resolution loop</p>
                         <p class="RNBody">EMS&#160;Outlook add-in users were experiencing a conflict resolution loop (users could not exit conflict resolution) for reservations made in the EMS Web App on rooms that require approval (as opposed to self-serve) and that had setup times specified. Users were experiencing the conflict resolution loop when opening the reservations or when trying to dismiss reminders for the reservations.</p>
                         <p class="RNBody">For example, in the EMS&#160;Web App, a room that requires approval is booked for an event with a 30-minute setup time specified. Later, an EMS&#160;Outlook add-in user opens the Outlook application 15 minutes before the event starts (the setup time has already begun). Outlook displays a reminder notification for the event, and the user tries to dismiss the notification. However, instead of dismissing the notification, the user is prompted for conflict resolution, and the user cannot exit conflict resolution.</p>
                         <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that EMS&#160;Outlook add-in users are not prompted for conflict resolution when they open reservations on rooms that require approval and/or when they try to dismiss reminders for these types of reservations.</p>
                         <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=43267&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">43267</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="RNArea">Reservation Summary</p>
+                        <p>&#160;</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="RNTitle">Group/reservation information was missing from Summary Request email</p>
+                        <p class="RNBody">The Summary Request email, which is sent after a user creates a reservation in EMS&#160;for Outlook, was missing group/reservation-level information; however, booking-level information was showing in the Summary Request.</p>
+                        <p class="RNBody"><b>Fix</b>:&#160;Modified functionality so that group/reservation-level information appears in the Summary Request email.</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=43568&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">43568</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="RNArea">Notifications and Errors</p>
+                        <p>&#160;</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="RNTitle">Error occurred in EMS&#160;for Outlook when the meeting end time was extended in EMS&#160;Desktop Client while the meeting was in progress</p>
+                        <p class="RNBody">For reservations created in EMS Web App using a calendar-enabled template, users in EMS&#160;for Outlook were experiencing an error when the meeting end times were extended in EMS&#160;Desktop Client while the meetings were in&#160;progress. </p>
+                        <p class="RNBody">For example, a reservation with a meeting start time of 10:00 a.m. is created in EMS&#160;Web App. While the meeting in progress, an EMS&#160;Desktop Client user extends the meeting end time  from 10:30 a.m. to 10:45 a.m. Once the meeting end&#160;time has been extended, users in EMS&#160;for Outlook receive the following error:&#160;"This ongoing reservation cannot be edited." </p>
+                        <p class="RNBody"><b>Fix</b>:&#160;Modified functionality so that when a booking end time is extended in EMS&#160;Desktop Client while a booking is in progress, the end time is updated in EMS&#160;for Outlook, and users do not receive an error.  </p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=43616&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">43616</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                        <p class="RNArea">Notifications</p>
+                        <p>&#160;</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
+                        <p class="RNTitle">Error occurred when  dismissing Outlook reminders for in-progress meetings</p>
+                        <p class="RNBody">For reservations created in EMS Web App using a calendar-enabled template, users in EMS&#160;for Outlook were experiencing an error when trying to dismiss the meeting reminders if the meetings were in-progress. </p>
+                        <p class="RNBody">For example, a reservation with a meeting start time of 10:00 a.m. is created in EMS&#160;Web App using a calendar-enabled template. While the meeting is in progress (at 10:02 a.m.), the user tries to dismiss the meeting reminder in Outlook and receives the following error:&#160;"This ongoing reservation cannot be edited." </p>
+                        <p class="RNBody"><b>Fix</b>:&#160;Modified functionality so that EMS&#160;for Outlook users can dismiss reminders for in-progress meetings without receiving an error.</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=43617&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">43617</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
             </tbody>

@@ -45,10 +45,10 @@
             </thead>
             <tbody>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows" style="text-align: left;">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: left;">
                         <p class="RNArea">Email</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" style="text-align: left;">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
                         <p class="RNTitle">
                             <MadCap:annotation MadCap:createDate="2018-11-26T08:02:25.9733306-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Blocked and removed from U31 because it was a configuration issue, not a bug. Removing from release notes. Saving in U32 just in case, but remove completely if not showing in U32 query." MadCap:editor="Megan.Laub" MadCap:editDate="2018-11-26T08:02:50.7555856-07:00">Unable to Send Emails Using Gmail SMTP Email Settings</MadCap:annotation>
                         </p>
@@ -56,6 +56,33 @@
                         <p class="RNBody" style="margin-left: 55px;">"The SMTP&#160;server requires a secure connection or the client was not authenticated. The server response was:&#160;5.5.1 Authentication Required."</p>
                         <p class="RNBody"><span class="bold">Fix</span>:&#160;Modified functionality so that users can send emails from EMS Desktop Client when using Gmail SMTP&#160;email settings. </p>
                         <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=41280&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">41280</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="text-align: left;">
+                        <p class="RNArea">Installation and Permissions</p>
+                        <p>&#160;</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
+                        <p class="RNTitle">EMS.Glance.dll moved to EMS&#160;Desktop Client installer and EMS&#160;Room Sign App configuration permission added to user processes</p>
+                        <p class="RNBody">Previously, the permission to configure EMS&#160;Room Sign App was controlled by the EMS.Glance.dll, which had to be manually installed on the computer of each user who needed permission. As of Update 32, the EMS.Glance.dll has been moved to the standard EMS&#160;Desktop Client installer package, and the permission to configure EMS&#160;Room Sign App is now granted by admins. </p>
+                        <p class="RNBodyBeforeList">Admins can apply the permission for EMS Room Sign App configuration to users and user process templates in the EMS&#160;Desktop Client (processes section, Special &gt; Allow EMS Room Sign Administration): </p>
+                        <ul class="RN-unorder-list">
+                            <li>With EMS&#160;Room Sign configuration permission, users can access the <span class="bold">EMS&#160;Glance Settings</span> menu button in EMS Desktop Client and all the EMS&#160;Room Sign App settings accessed through the button. Additionally, users can now access these EMS&#160;Room Sign App settings through the <span class="bold">Configuration </span>menu:&#160;<ul><li><span class="bold">Configuration </span>&gt; <span class="bold">Room Sign</span> &gt; <span class="bold">Deregister Device</span></li><li><span class="bold">Configuration </span>&gt; <span class="bold">Room Sign</span> &gt; <span class="bold">Global Settings</span></li><li><span class="bold">Configuration </span>&gt; <span class="bold">Room Sign</span> &gt; <span class="bold">Profiles</span></li><li><span class="bold">Configuration </span>&gt; <span class="bold">Room Sign</span> &gt; <span class="bold">Refresh All Units</span></li></ul></li>
+                            <li>Without EMS&#160;Room Sign configuration permission, users do not see the <span class="bold">EMS&#160;Glance Settings</span> menu button and cannot access the EMS&#160;Room Sign App configuration settings through the menu button or the <span class="bold">Configuration </span>menu. </li>
+                        </ul>
+                        <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=29647&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">29647</a> and <a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=43498&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">43498</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows" style="text-align: left;">
+                        <p class="RNArea">Software Updates</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" style="text-align: left;">
+                        <p class="RNTitle">Older EMS Database Versions were not auditing the latest ClientConnection in tblServerVersion table</p>
+                        <p class="RNBody">When older EMS&#160;Desktop Client versions connected to the database, they were not receiving the alert that a newer version was available. The ClientVersion column in tblServerVersion was being updated with the last version of the Desktop Client used instead of the latest version.</p>
+                        <p class="RNBody"><span class="bold">Fix:&#160;</span>Modified functionality so that when older Desktop Client versions connect to the database, they receive the alert that a newer version is available.</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=27232&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">27232</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
             </tbody>
