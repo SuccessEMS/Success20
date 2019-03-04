@@ -48,21 +48,33 @@
                         <p class="RNTitle">Error occurred when  dismissing Outlook reminders for in-progress meetings</p>
                         <p class="RNBody">For reservations created in EMS Web App using a calendar-enabled template, users in EMS&#160;for Outlook were experiencing an error when trying to dismiss the meeting reminders if the meetings were in-progress. </p>
                         <p class="RNBody">For example, a reservation with a meeting start time of 10:00 a.m. is created in EMS&#160;Web App using a calendar-enabled template. While the meeting is in progress at 10:02 a.m., the user tries to dismiss the meeting reminder in Outlook and receives the following error:&#160;"This ongoing reservation cannot be edited." </p>
-                        <p class="RNBody"><b>Fix</b>:&#160;Modified functionality so that EMS&#160;for Outlook users can dismiss reminders for in-progress meetings without receiving an error.</p>
+                        <p class="RNBody"><b>Fix:</b>&#160;Modified functionality so that EMS&#160;for Outlook users can dismiss reminders for in-progress meetings without receiving an error.</p>
                         <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=43596&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">43596</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
                         <p class="RNArea">Notifications and Errors</p>
                         <p>&#160;</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
                         <p class="RNTitle">Error occurred in EMS&#160;for Outlook when the meeting end time was extended in EMS&#160;Desktop Client while the meeting was in progress</p>
                         <p class="RNBody">For reservations created in EMS Web App using a calendar-enabled template, users in EMS&#160;for Outlook were experiencing an error when the meeting end times were extended in EMS&#160;Desktop Client while the meetings were in&#160;progress. </p>
                         <p class="RNBody">For example, a reservation with a meeting start time of 10:00 a.m. is created in EMS&#160;Web App. While the meeting in progress, an EMS&#160;Desktop Client user extends the meeting end time  from 10:30 a.m. to 10:45 a.m. Once the meeting end&#160;time has been extended, EMS&#160;for Outlook users receive the following error:&#160;"This ongoing reservation cannot be edited." </p>
-                        <p class="RNBody"><b>Fix</b>:&#160;Modified functionality so that when a booking end time is extended in EMS&#160;Desktop Client while a booking is in progress, the end time is updated in EMS&#160;for Outlook, and users do not receive an error.  </p>
+                        <p class="RNBody"><b>Fix:</b>&#160;Modified functionality so that when a booking end time is extended in EMS&#160;Desktop Client while a booking is in progress, the end time is updated in EMS&#160;for Outlook, and users do not receive an error.  </p>
                         <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=43612&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">43612</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                        <p class="RNArea">Edit Booking</p>
+                        <p>&#160;</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
+                        <p class="RNTitle">Booking edits made in EMS&#160;for Outlook were not updating in EMS Desktop Client</p>
+                        <p class="RNBody">Bookings were not being updated in EMS&#160;Desktop Client if users edited the bookings in EMS&#160;for Outlook on the day of the meeting (especially between the time the bookings were created and up to 10 hours later). However, once the 10&#160;hour window was exceeded, the edits performed in EMS&#160;for Outlook were written back to EMS&#160;Desktop Client. Because the booking information was out-of-sync between EMS&#160;for Outlook and EMS&#160;Desktop Client, users sometimes assumed they had rooms scheduled when they actually did not. </p>
+                        <p class="RNBody"><b>Fix:</b>&#160;Modified functionality so that when users edit bookings in EMS&#160;for Outlook, the bookings are updated in EMS Desktop Client unless the booking rules are violated, the bookings are in progress, or the bookings are in the past.</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=43633&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">43633</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
             </tbody>
