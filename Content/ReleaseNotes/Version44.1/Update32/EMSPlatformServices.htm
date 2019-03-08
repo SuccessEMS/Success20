@@ -104,7 +104,7 @@ EMS&#160;Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS S
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
                         <p class="RNTitle">Change to parameter SAML_SignAuthnRequests</p>
-                        <p class="RNBody">There has been a change to the parameter, SAML_SignAuthnRequests, which controls whether or not  SAML requests go to the IdP. This can now be controlled and modified from a toggle in the Admin UI, which reflects the parameter's current state.</p>
+                        <p class="RNBody">There has been a change to the parameter, SAML_SignAuthnRequests, which controls whether SAML requests go to the IdP. This can now be controlled and modified from a toggle in the Admin UI, which reflects the parameter's current state.</p>
                         <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=38968&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">38968</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
@@ -114,7 +114,7 @@ EMS&#160;Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS S
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
                         <p class="RNTitle">Added paging to GET - /kiosk/{id}/diagrams endpoint</p>
-                        <p class="RNBodyBeforeList">To implement lazy loading for room diagrams in EMS&#160;Kiosk App, paging has been added to GET /kiosk/{id}/diagrams endpoint <MadCap:annotation MadCap:createDate="2019-03-08T08:46:56.2134678-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Should the acceptance criteria in the list below be included?" MadCap:editor="Megan.Laub" MadCap:editDate="2019-03-08T08:47:28.3320118-07:00">as follows</MadCap:annotation>:&#160;</p>
+                        <p class="RNBodyBeforeList">To implement lazy loading for room diagrams in EMS&#160;Kiosk App, paging has been added to the GET /kiosk/{id}/diagrams endpoint as follows:&#160;</p>
                         <ul class="RN-unorder-list">
                             <li>added page Query String parameter with default of 1</li>
                             <li>added pageSize Query String parameter with default of 5</li>
@@ -134,44 +134,29 @@ EMS&#160;Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS S
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
                         <p class="RNArea">Skype for Business</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNTitle">Parameter to set Skype for Business meeting option </p>
-                        <p>Default meetings options for skype link created through EMS applications  were implemented in 41798. As a result following skype meeting options can be set via the API and can be configured through Skype Control panel /PowerShell</p>
-                        <p>1.      Callers get in directly</p>
-                        <p>2.      Who’s a presenter</p>
-                        <p>&#160;</p>
-                        <p>Problem statement :   We couldn’t find a way to configure the option - “These people don’t have to wait in the lobby” in Skype control panel and PowerShell. Per the API documentation, it uses the default value configured by the admin.  KPMG Aus reported that there is no way to configure this option.</p>
-                        <p>Default value set by API for the setting is "Anyone" but the customer's preferred setting is " Same enterprise" to prevent security issues.</p>
-                        <p>Wire up the newly added VEMS_Conferencing_Lobby_Wait_Options parameter, and demonstrate the following settings work as expected:</p>
-                        <p>Only me, the meeting organizer</p>
-                        <p>People I invite from my company</p>
-                        <p>Anyone from my organization</p>
-                        <p>Anyone ( no restrictions)</p>
-                        <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=43684&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">43684</a><br />(For EMS&#160;Internal Use Only)</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
-                        <p class="RNArea">Skype for Business</p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" style="text-align: left;">
-                        <p class="RNTitle">Skype for Business Meeting Option Parameter Added</p>
-                        <p class="RNBody">A new meeting option parameter has been added to the EMS&#160;Platform Services Admin UI under Skype for Business in the <span class="bold">Conferencing </span>tab. The he new parameter settings </p>
-                        <p>This setting should be added to Conferencing tab. Please review the attached design.</p>
-                        <p>Section name : Skype meeting options</p>
-                        <p>Setting name  : "These people don't have to wait in the lobby "</p>
-                        <p>Field Type : Dropdown</p>
-                        <p>Allowed values</p>
-                        <p>Only me, the meeting organizer</p>
-                        <p>People I invite from my company</p>
-                        <p>Anyone from my organization</p>
-                        <p>Anyone ( no restrictions)</p>
-                        <p>Default value : Anyone from my organization</p>
-                        <p>Additional message indicating that other meeting options can be set via skype for business server 2015 control panel or Skype powershell ( refer to attached design)</p>
-                        <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=42219&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42219</a><br />(For EMS&#160;Internal Use Only)</p>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows" style="text-align: left;">
+                        <p class="RNTitle">
+                            <MadCap:annotation MadCap:createDate="2019-03-08T09:57:38.4874994-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Does this information cover 43684, or do we need to provide more info?" MadCap:editor="Megan.Laub" MadCap:editDate="2019-03-08T09:59:39.5581603-07:00">Skype</MadCap:annotation> for Business Meeting Option Parameter Added</p>
+                        <p class="RNBodyBeforeList">A new meeting option parameter has been added to the EMS&#160;Platform Services Admin&#160;UI under Skype for Business on the <span class="bold">Conferencing </span>tab. The parameter <span class="bold">These people don't have to wait in the lobby</span> is a drop-down field with the following values: </p>
+                        <ul class="RN-unorder-list">
+                            <li><span class="bold">Only me, the meeting organizer</span>
+                            </li>
+                            <li><span class="bold">People I invite from my company</span>
+                            </li>
+                            <li><span class="bold">Anyone from my organization</span>
+                            </li>
+                            <li><span class="bold">Anyone (no restrictions</span>
+                            </li>
+                        </ul>
+                        <p class="RNBody">
+                            <MadCap:annotation MadCap:createDate="2019-03-08T09:59:45.2059163-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Need to add this information to the core documentation." MadCap:editor="Megan.Laub" MadCap:editDate="2019-03-08T09:59:55.7019106-07:00">The</MadCap:annotation> default value is <span class="bold">Anyone from my organization</span>.</p>
+                        <p class="RNBody">
+                            <img src="../../../EMSPlatformServices/Images/PlatformSettingAdminUI_TFS42219.png" style="width: 656px;height: 530px;" />
+                        </p>
+                        <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=42219&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42219</a> and <a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=43684&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">43684</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
             </tbody>
@@ -192,33 +177,61 @@ EMS&#160;Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS S
             </thead>
             <tbody>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="RNArea">API Calls</p>
+                    </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
-                        <p class="RNTitle">Group Email Address Incorrect When Client Token Used</p>
+                        <p class="RNTitle">Group email address incorrect when client token was used</p>
                         <p class="RNBody">When making the POST /bookings/actions/search REST call, the same email address in the Group model was listed under all Groups that were returned with reservations (if a Client Token was used for the x-ems-api token).</p>
-                        <p class="RNBody"><b>Fix</b>:&#160;Modified functionality so that the correct Group Email Address is returned, as an /authentication token returns the Group model data.</p>
+                        <p class="RNBody"><b>Fix:</b>&#160;Modified functionality so that the correct Group Email Address is returned, as an /authentication token returns the Group model data.</p>
                         <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=40001&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">40001</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="RNArea">Parameters</p>
+                    </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNTitle">Reservation Not Inserted When AltTempContact Parameter Exceeded 50 Characters</p>
+                        <p class="RNTitle">Reservation not inserted when AltTempContact parameter exceeded 50 characters</p>
                         <p class="RNBody">When a value for altTempContact exceeded 50 characters, a reservation appeared to be created but was in fact an orphaned booking. </p>
-                        <p class="RNBody"><b>Fix</b>:&#160;Modified functionality so that the parameter field value is validated  prior to insertion and an error is returned if the values do not meet the requirements.</p>
+                        <p class="RNBody"><b>Fix:</b>&#160;Modified functionality so that the parameter field value is validated  prior to insertion and an error is returned if the values do not meet the requirements.</p>
                         <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=41134&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">41134</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
                         <p class="RNArea">SAML&#160;Authentication</p>
                         <p>&#160;</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" style="text-align: left;">
-                        <p class="RNTitle">Signature Validation Failing (SAML)</p>
-                        <p class="RNBody">Some customers' SAML configuration was not allowing SAML Responses to validate in the EMS&#160;Platform (using a Shibboleth IdP).</p>
-                        <p class="RNBody"><b>Fix</b>:&#160;Modified functionality so that signatures can be validated. </p>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
+                        <p class="RNTitle">Signature validation failing (SAML)</p>
+                        <p class="RNBody">Some customers' SAML configurations were not allowing SAML Responses to validate in the EMS&#160;Platform (using a Shibboleth IdP).</p>
+                        <p class="RNBody"><b>Fix:</b>&#160;Modified functionality so that signatures can be validated. </p>
                         <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=41651&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">41651</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="RNArea">API</p>
+                        <p>&#160;</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
+                        <p class="RNTitle">Request Body was missing for Get UDF Values for Multiple Rooms</p>
+                        <p class="RNBody">The <span class="bold">Get UDF Values for Multiple Rooms</span> call did not include the Request Body section with the RoomIds array variable. The RoomIds array is a required field in the body for the <span class="bold">Get UDF Values for Multiple Rooms</span> call. </p>
+                        <p class="RNBody"><b>Fix:</b>&#160;Added the Request Body section to the <span class="bold">Get UDF Values for Multiple Rooms</span> call.</p>
+                        <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=43077&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">43077</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                        <p class="RNArea">API</p>
+                        <p>&#160;</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" style="text-align: left;">
+                        <p class="RNTitle">Deleted Remove Delegates Response</p>
+                        <p class="RNBody">The <span class="bold">Remove Delegates</span> call requires a response in an array; however, when calling <span class="bold">Remove Delegates</span>, the response received was a single message not in an array. This issue was causing some customers' code to fail. </p>
+                        <p class="RNBody"><b>Fix:</b>&#160;<MadCap:annotation MadCap:createDate="2019-03-08T10:59:04.3254010-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Or should this read &quot;Modified functionality so that when calling Remove Delegates, the response received is an array&quot;?" MadCap:editor="Megan.Laub" MadCap:editDate="2019-03-08T10:59:05.3788000-07:00">Modified functionality</MadCap:annotation> so that the <span class="bold">Remove Delegates</span> call no longer requires a response in an array</p>
+                        <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=43115&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">43115</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
             </tbody>
