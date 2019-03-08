@@ -49,12 +49,12 @@
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
                         <p class="RNTitle">
-                            <MadCap:annotation MadCap:createDate="2019-03-01T08:31:15.1415788-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Need to review core documentation and see if this enhancement changes any instructions/info (per Mindy). Even if this info isn't covered, we may need to add it to the core documentation (check with Mindy)." MadCap:editor="Megan.Laub" MadCap:editDate="2019-03-01T08:32:20.4240264-07:00">Checking into an Exchange-enabled meeting or video conference meeting no longer changes the meeting start time to the time the user checked in</MadCap:annotation>
+                            <MadCap:annotation MadCap:createDate="2019-03-01T08:31:15.1415788-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Need to review core documentation and see if this enhancement changes any instructions/info (per Mindy). Even if this info isn't covered, we may need to add it to the core documentation (check with Mindy)." MadCap:editor="Megan.Laub" MadCap:editDate="2019-03-01T08:32:20.4240264-07:00">Checking into a calendar-enabled meeting or video conference meeting no longer changes the meeting start time to the time the user checked in</MadCap:annotation>
                         </p>
-                        <p class="RNBody">Now, when users check into an Exchange-enabled meeting or video conference meeting from the EMS&#160;Room Sign App, the meeting start time no longer changes to the check in time. </p>
+                        <p class="RNBody">Now, when users check into an calendar-enabled meeting or video conference meeting from the EMS&#160;Room Sign App, the meeting start time no longer changes to the check in time. </p>
                         <p class="RNBodyBeforeList">This change was made to prevent the following issues:&#160;</p>
                         <ul class="RN-unorder-list">
-                            <li>If the meeting was open in Outlook during check in from the EMS&#160;Room Sign App and the meeting start time was changed to the EMS&#160;Room Sign App check in time, the meeting ended up with an Outlook rule violation because the meeting's start time was edited while the meeting was in progress. </li>
+                            <li>If the meeting was open in Outlook or Google Calendar during check in from the EMS&#160;Room Sign App and the meeting start time was changed to the EMS&#160;Room Sign App check in time, the meeting ended up with an Outlook or Google Calendar rule violation because the meeting's start time was edited while the meeting was in progress. </li>
                             <li>For meetings with multi-location bookings, changing the meeting start time to the check in time from the EMS Room Sign App would update the start times of all the booking locations, not just the location where check in occurred.</li>
                         </ul>
                         <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=41365&amp;_a=edit&amp;triage=true" class="RNRefHyper" title="EMS Internal Use Only" alt="EMS Internal Use Only">41365</a><br />(For EMS&#160;Internal Use Only)</p>
@@ -96,8 +96,8 @@
                         <ul class="RN-unorder-list">
                             <li><span class="bold">No</span>—<span class="bold">Extend </span><MadCap:annotation MadCap:createDate="2019-03-01T09:44:10.5111412-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Is the button labeled &quot;Extend&quot; or &quot;Adjust&quot;? " MadCap:editor="Megan.Laub" MadCap:editDate="2019-03-01T10:09:03.4910681-07:00">button </MadCap:annotation>will not be displayed in the EMS&#160;Room Sign&#160;App.</li>
                             <li><span class="bold">Standard Bookings</span>—<span class="bold">Extend </span>button will be displayed for bookings that are not calendar-enabled or VC bookings and that are not configured with setup and teardown times. Selecting <span class="bold">Extend </span>will extend the booking time by the number of minutes configured in EMS&#160;Room Sign App settings (typically 15 minutes). </li>
-                            <li><span class="bold">Standard + Bookings with Setup and Teardown</span>—<span class="bold">Extend </span>button will be displayed for standard bookings with or without setup and teardown times. Selecting <span class="bold">Extend </span>will extend the meeting time and the teardown time by the number of minutes the meeting was extended. Note that no notifications will be triggered by this change.</li>
-                            <li><span class="bold">Standard + Calendar-Enabled and VC Bookings</span>—<span class="bold">Extend </span>button will be displayed for all standard bookings and all calendar-enabled or VC bookings; however, the <span class="bold">Extend </span>button will not be displayed for bookings with setup and teardown times. For calendar-enabled bookings, selecting the button will only affect the current location, not other booking locations tied to the reservation. For VC bookings, selecting the button will extend the meeting in the current location regardless of the Host.</li>
+                            <li><span class="bold">Standard + Bookings with Setup and Teardown</span>—<span class="bold">Extend </span>button will be displayed for standard bookings with or without setup and teardown times. Selecting <span class="bold">Extend </span>will extend the meeting time and the teardown time by the number of minutes the meeting was extended.</li>
+                            <li><span class="bold">Standard + Calendar-Enabled and VC Bookings</span>—<span class="bold">Extend </span>button will be displayed for all standard bookings and all calendar-enabled or VC bookings; however, the <span class="bold">Extend </span>button will not be displayed for bookings with setup and teardown times. For calendar-enabled bookings, selecting the button will only affect the current location, not other booking locations tied to the reservation. For VC bookings, selecting the button will extend the meeting in the current location regardless of the Host. The Exchange or Google appointment will not be updated upon extend.</li>
                             <li><span class="bold">All Bookings</span>—<span class="bold">Extend </span>button will be displayed for all booking types. Selecting <span class="bold">Extend </span>will extend the meeting time, and the teardown time if applicable, by the number of minutes configured in EMS&#160;Room Sign App settings (typically 15 minutes).</li>
                         </ul>
                         <p class="RNBody">See Also:&#160;<a href="../../../EMSRoomSignApp/44.1/ConfigurationGuide/GlobalSettings.html#AllowExtendBooking">EMS&#160;Room Sign App Global Settings</a></p>
@@ -123,9 +123,9 @@
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
                         <p class="RNTitle">LED&#160;sync color issue</p>
-                        <p class="RNBody">When a user created a reservation in front of an existing meeting that was already allowing check-in, the EMS&#160;Room Sign App displayed the check-in LED color and the check-in button while displaying the reserved meeting.
+                        <p class="RNBody">When a user created a reservation during the check-in window of the next meeting, the EMS&#160;Room Sign App displayed the check-in LED color and the check-in button while displaying the reserved meeting.
 </p>
-                        <p class="RNBody">Fix:&#160;Modified functionality so that the EMS&#160;Room Sign App switches to the reserved LED color until the meeting ends and then switches back to the check-in LED status color while hiding the check-in button for the future event.</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that the EMS&#160;Room Sign App switches to the reserved LED color until the meeting ends and then switches back to the check-in LED status color while hiding the check-in button for the future event.</p>
                         <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=35825&amp;_a=edit&amp;triage=true" class="RNRefHyper" title="EMS Internal Use Only" alt="EMS Internal Use Only">35825</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
@@ -134,13 +134,13 @@
                         <p class="RNArea">Crestron Screen Display</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p class="RNTitle">Screen interface was being cut off on Crestron panels</p>
+                        <p class="RNTitle">Screen interface was being cut off on specific-model Crestron panels</p>
                         <p class="RNBodyBeforeList">For customers using Crestron panels, portions of the screen interface were being cut off on the following models and resolutions:</p>
                         <ul class="RN-unorder-list">
                             <li>7-inch Creston Panel at a resolution of 1024&#160;x&#160;600 (TSS-7-W-S-SIW KIT)</li>
                             <li>10-inch Crestron Panel at a resolution of 1280&#160;x&#160;800 (TSS-10-B-S-SIW KIT)</li>
                         </ul>
-                        <p class="RNBody"><span class="ui">Fix</span>:&#160;Modified functionality so that the interface displays correctly.</p>
+                        <p class="RNBody"><span class="bold">Fix</span>:&#160;Modified functionality so that the interface displays correctly.</p>
                         <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=41953&amp;_a=edit&amp;triage=true" class="RNRefHyper" title="EMS Internal Use Only" alt="EMS Internal Use Only">41953</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
