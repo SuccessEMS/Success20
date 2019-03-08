@@ -29,7 +29,7 @@
             </tr>
         </table>
         <h2>Enhancements</h2>
-        <table class="TableStyle-PatternedRows" style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
+        <table class="TableStyle-PatternedRows" style="width: 100%;mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');margin-left: 0;margin-right: auto;" cellspacing="0">
             <col class="TableStyle-PatternedRows-Column-Regular" style="width: 184px;" />
             <col class="TableStyle-PatternedRows-Column-Regular" style="width: 742px;" />
             <thead>
@@ -48,73 +48,136 @@
                         <p class="RNArea">Parameters</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p class="RNTitle">Parameter Events2HVAC Added</p>
-                        <p class="RNBody">Events2HVAC — Get Changed Bookings — parameter added so that users can get bookings that changed within a timeframe.</p>
+                        <p class="RNTitle">Added parameter Events2HVAC</p>
+                        <p class="RNBody">Events2HVAC parameter — Get Changed Bookings — has been added so that the integrator can get bookings that changed within a timeframe. </p>
+                        <p class="RNBodyBeforeList">The following new query fields have been added to the booking search (filter on tblBooking.DateChanged):</p>
+                        <ul class="RN-unorder-list">
+                            <li>minDateChanged - filter tblBooking.DateChanged &gt;= value</li>
+                            <li>maxDateChanged - filter tblBooking.DateChanged &lt;= value</li>
+                        </ul>
                         <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=29333&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">29333</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p class="RNTitle">Parameter Events 2HVAC Added</p>
-                        <p class="RNBody">Events2HVAC — Get In Progress Bookings — parameter added so that users can get bookings that start OR end within filtered dates that includes "in progress"&#160;bookings.</p>
-                        <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=29337&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">29337</a><br />(For EMS&#160;Internal Use Only)</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
                         <p class="RNArea">Authentication</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
-                        <p class="RNTitle">ADSF/SAML&#160;Migration to Azure </p>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
+                        <p class="RNTitle">ADSF/SAML&#160;migration to Azure </p>
                         <p class="RNBody">SAML/ADSF authentications now work using an Azure IDP.</p>
                         <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=42145&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42145</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p class="RNArea">Service Orders</p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNTitle">State ID&#160;Can Be Set When Adding Service Order to Booking</p>
-                        <p class="RNBody">Users can now set the state ID while adding a service order to Booking.</p>
-                        <p class="RNRef">
-EMS&#160;Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=42836&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42836</a><br />(For EMS&#160;Internal Use Only)</p>
-                    </td>
-                </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
                         <p class="RNArea">Service Orders</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
-                        <p class="RNTitle">State ID&#160;Can Be Set When Editing Service Order to Booking</p>
-                        <p class="RNBody">Users can now set the state ID while editing a service order to Booking.</p>
+                        <p class="RNTitle">State ID&#160;can be set when adding or editing a service order</p>
+                        <p class="RNBody">Users can now set the state ID while adding a service order to a booking or while editing a service order in a booking. </p>
+                        <p class="RNBodyBeforeList">The following routes have been updated to include state Id of service in the request body:</p>
+                        <ul class="RN-unorder-list">
+                            <li>POST/bookings/{id}/serviceorders </li>
+                            <li>PATCH/serviceorders/{id} </li>
+                        </ul>
                         <p class="RNRef">
-EMS&#160;Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=42838&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42838</a><br />(For EMS&#160;Internal Use Only)</p>
+EMS&#160;Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=42836&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42836</a> and <a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=42838&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42838</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p class="RNArea">Parameter</p>
+                        <p class="RNArea">Service Orders</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNTitle">Change to Parameter SAML_SignAuthnRequests</p>
+                        <p class="RNTitle">Added new GET&#160;Category States route</p>
+                        <p class="RNBodyBeforeList">A new route, GET/Categories/{id}/states, has been added. Users can now  get states of the categories while adding a service order to booking.</p>
+                        <ul class="RN-unorder-list">
+                            <li>Request parameter: Category Id  { Required}</li>
+                            <li>Response: Return state id and description and categoryID</li>
+                        </ul>
+                        <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=42930&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42930</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="RNArea">Parameters</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
+                        <p class="RNTitle">Change to parameter SAML_SignAuthnRequests</p>
                         <p class="RNBody">There has been a change to the parameter, SAML_SignAuthnRequests, which controls whether or not  SAML requests go to the IdP. This can now be controlled and modified from a toggle in the Admin UI, which reflects the parameter's current state.</p>
                         <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=38968&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">38968</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="RNArea">EMS&#160;Kiosk App</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
+                        <p class="RNTitle">Added paging to GET - /kiosk/{id}/diagrams endpoint</p>
+                        <p class="RNBodyBeforeList">To implement lazy loading for room diagrams in EMS&#160;Kiosk App, paging has been added to GET /kiosk/{id}/diagrams endpoint <MadCap:annotation MadCap:createDate="2019-03-08T08:46:56.2134678-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Should the acceptance criteria in the list below be included?" MadCap:editor="Megan.Laub" MadCap:editDate="2019-03-08T08:47:28.3320118-07:00">as follows</MadCap:annotation>:&#160;</p>
+                        <ul class="RN-unorder-list">
+                            <li>added page Query String parameter with default of 1</li>
+                            <li>added pageSize Query String parameter with default of 5</li>
+                            <li>added sortBuildingId parameter because EMS&#160;Kiosk App needs to have diagrams sorted by a default building ID and then have the remaining results sorted alphabetically by building name</li>
+                        </ul>
+                        <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=43048&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">43048</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="RNArea">Booking Search Call</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
+                        <p class="RNTitle">Added 'HideGroup' room property to booking search call </p>
+                        <p>In the booking search call (/bookings/actions/search), a 'hideGroup' property has been added to the BookingRoomModel being returned.  The 'hideGroup' property is used to determine when to replace a group name with the <a href="EMSWebApp.htm#Privatelabel">Private label</a> when viewing room details in EMS&#160;Web App.</p>
+                        <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=43067&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">43067</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="RNArea">Skype for Business</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
+                        <p class="RNTitle">Parameter to set Skype for Business meeting option </p>
+                        <p>Default meetings options for skype link created through EMS applications  were implemented in 41798. As a result following skype meeting options can be set via the API and can be configured through Skype Control panel /PowerShell</p>
+                        <p>1.      Callers get in directly</p>
+                        <p>2.      Who’s a presenter</p>
+                        <p>&#160;</p>
+                        <p>Problem statement :   We couldn’t find a way to configure the option - “These people don’t have to wait in the lobby” in Skype control panel and PowerShell. Per the API documentation, it uses the default value configured by the admin.  KPMG Aus reported that there is no way to configure this option.</p>
+                        <p>Default value set by API for the setting is "Anyone" but the customer's preferred setting is " Same enterprise" to prevent security issues.</p>
+                        <p>Wire up the newly added VEMS_Conferencing_Lobby_Wait_Options parameter, and demonstrate the following settings work as expected:</p>
+                        <p>Only me, the meeting organizer</p>
+                        <p>People I invite from my company</p>
+                        <p>Anyone from my organization</p>
+                        <p>Anyone ( no restrictions)</p>
+                        <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=43684&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">43684</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                        <p class="RNArea">Skype for Business</p>
+                    </td>
                     <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" style="text-align: left;">
-                        <p class="RNTitle">New GET&#160;Category States Route Added</p>
-                        <p class="RNBody">Users can now  get states of the categories while adding a service order to Booking.</p>
-                        <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=42930&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42930</a><br />(For EMS&#160;Internal Use Only)</p>
+                        <p class="RNTitle">Skype for Business Meeting Option Parameter Added</p>
+                        <p class="RNBody">A new meeting option parameter has been added to the EMS&#160;Platform Services Admin UI under Skype for Business in the <span class="bold">Conferencing </span>tab. The he new parameter settings </p>
+                        <p>This setting should be added to Conferencing tab. Please review the attached design.</p>
+                        <p>Section name : Skype meeting options</p>
+                        <p>Setting name  : "These people don't have to wait in the lobby "</p>
+                        <p>Field Type : Dropdown</p>
+                        <p>Allowed values</p>
+                        <p>Only me, the meeting organizer</p>
+                        <p>People I invite from my company</p>
+                        <p>Anyone from my organization</p>
+                        <p>Anyone ( no restrictions)</p>
+                        <p>Default value : Anyone from my organization</p>
+                        <p>Additional message indicating that other meeting options can be set via skype for business server 2015 control panel or Skype powershell ( refer to attached design)</p>
+                        <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=42219&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42219</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
             </tbody>
         </table>
         <h2>Fixes</h2>
-        <table class="TableStyle-PatternedRows" style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
+        <table class="TableStyle-PatternedRows" style="width: 100%;mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');margin-left: 0;margin-right: auto;" cellspacing="0">
             <col class="TableStyle-PatternedRows-Column-Regular" style="width: 165px;" />
             <col class="TableStyle-PatternedRows-Column-Regular" />
             <thead>
@@ -128,28 +191,6 @@ EMS&#160;Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS S
                 </tr>
             </thead>
             <tbody>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p class="RNArea">API</p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p class="RNTitle">Booking Information Changes Missing in History Tab</p>
-                        <p class="RNBody">When critical booking changes were made, the booking history was not being updated through the EMS&#160;Platform Services API. </p>
-                        <p class="RNBody"><span class="ui"><b>Fix</b>:</span> Modified functionality so that changes to booking's critical information (e.g., date, time, room, attendee, etc.)&#160;are captured in the booking's history tab in the EMS&#160;Desktop Client.</p>
-                        <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=42850&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42850</a><br />(For EMS&#160;Internal Use Only)</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p>&#160;</p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNTitle">EMS&#160;Web App Was Not Connecting to EMS&#160;Platform</p>
-                        <p class="RNBody">Due to SAML&#160;configuration issues, the EMS&#160;Web App was not connecting to the EMS&#160;Platform. </p>
-                        <p class="RNBody"><span class="ui"><b>Fix</b>:</span> Resolved SAML&#160;configuration issues so that the EMS&#160;Web App can connect to the EMS&#160;Platform.</p>
-                        <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=42212&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42212</a><br />(For EMS&#160;Internal Use Only)</p>
-                    </td>
-                </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">&#160;</td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">

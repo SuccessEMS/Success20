@@ -97,9 +97,9 @@ EMS Internal Reference # 40234
                     <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">&#160;</td>
                     <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" style="text-align: left;">
                         <p class="RNTitle">
-                            <MadCap:annotation MadCap:createDate="2019-02-25T12:16:05.7079015-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="No longer showing in U32 query" MadCap:editor="Megan.Laub" MadCap:editDate="2019-02-25T12:16:22.1383249-07:00">Skype for Business </MadCap:annotation>Meeting Option Parameter Added</p>
-                        <p class="RNBody">A new meeting option parameter has been added to the EMS&#160;Platform Services Admin UI under Skype for Business. </p>
-                        <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=42219&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42219</a><br />(For EMS&#160;Internal Use Only)</p>
+                            <MadCap:annotation MadCap:createDate="2019-03-08T08:22:30.8422975-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Put in rejected state in U32. Probably can remove this in U33. Saving just in case." MadCap:editor="Megan.Laub" MadCap:editDate="2019-03-08T08:23:14.6105058-07:00">Parameter</MadCap:annotation> Events 2HVAC Added</p>
+                        <p class="RNBody">Events2HVAC — Get In Progress Bookings — parameter added so that users can get bookings that start OR end within filtered dates that includes "in progress"&#160;bookings.</p>
+                        <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=29337&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">29337</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
             </tbody>
@@ -154,14 +154,38 @@ EMS Internal Reference # 40234
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
                         <p class="RNArea">XX</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
                         <p class="RNTitle">Skype 3rd party conference missing when looking at calendar item in outlook from reservation made in web app and mobile</p>
                         <p class="RNBody">XX</p>
                         <p class="RNBody"><span class="bold">Fix:</span> Modified functionality so that</p>
                         <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=36351&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">36351</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="RNArea">API</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="RNTitle">
+                            <MadCap:annotation MadCap:createDate="2019-03-08T08:31:26.4468320-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="blocked in U32 and no longer showing in query so moving to U33" MadCap:editor="Megan.Laub" MadCap:editDate="2019-03-08T08:31:43.2821770-07:00">Booking</MadCap:annotation> Information Changes Missing in History Tab</p>
+                        <p class="RNBody">When critical booking changes were made, the booking history was not being updated through the EMS&#160;Platform Services API. </p>
+                        <p class="RNBody"><span class="bold">Fix:</span> Modified functionality so that changes to booking's critical information (e.g., date, time, room, attendee, etc.)&#160;are captured in the booking's history tab in the EMS&#160;Desktop Client.</p>
+                        <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=42850&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42850</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
+                        <p>&#160;</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
+                        <p class="RNTitle">
+                            <MadCap:annotation MadCap:createDate="2019-03-08T08:32:29.0548534-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="blocked in U32 and no longer showing in query so moving to U33" MadCap:editor="Megan.Laub" MadCap:editDate="2019-03-08T08:32:29.6744784-07:00">EMS</MadCap:annotation>&#160;Web App Was Not Connecting to EMS&#160;Platform</p>
+                        <p class="RNBody">Due to SAML&#160;configuration issues, the EMS&#160;Web App was not connecting to the EMS&#160;Platform. </p>
+                        <p class="RNBody"><span class="bold">Fix:</span> Resolved SAML&#160;configuration issues so that the EMS&#160;Web App can connect to the EMS&#160;Platform.</p>
+                        <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=42212&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42212</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
             </tbody>
