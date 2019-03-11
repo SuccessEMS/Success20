@@ -1365,9 +1365,6 @@
       <TocEntry
         Title="Work with Time Block Templates"
         Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/ConfigurationGuide_EMSDesktopClientAcademicPlanning/WorkTimeBlockTemp.html" />
-      <TocEntry
-        Title="Troubleshoot: Slow Performance When De-Synchronizing Terms"
-        Link="/Content/EMSDesktopClient_AcademicPlanning/V44.1/ConfigurationGuide_EMSDesktopClientAcademicPlanning/TroubleshootSlowPerform.html" />
     </TocEntry>
     <TocEntry
       Title="EMS Web App"
