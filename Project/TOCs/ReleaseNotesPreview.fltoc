@@ -25,11 +25,14 @@
     PageLayout="/Content/Resources/PageLayouts/PreviewRN/PrevTOC.flpgl"
     PageNumber="1"
     AutoEndOnLeftPage="disabled"
-    PageType="normal">
+    PageType="normal"
+    ChapterNumberReset="reset"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same">
     <TocEntry
       Title="[%=System.LinkedTitle%]"
       Link="/Content/ReleaseNotes/Version44.1/Update32/EMSDesktopClient.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-      BreakType="none"
+      BreakType="chapter"
       AutoEndOnLeftPage="disabled"
       PageNumberReset="reset"
       PageNumber="1"
@@ -38,11 +41,11 @@
       PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
       SectionNumberReset="continue"
       VolumeNumberReset="same"
-      ChapterNumberReset="continue" />
+      ChapterNumberReset="reset" />
     <TocEntry
       Title="[%=System.LinkedTitle%]"
       Link="/Content/ReleaseNotes/Version44.1/Update32/EMSforOutlook.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-      BreakType="none"
+      BreakType="chapter"
       AutoEndOnLeftPage="disabled"
       StartSection="false"
       PageNumberReset="continue"
@@ -53,7 +56,7 @@
     <TocEntry
       Title="[%=System.LinkedTitle%]"
       Link="/Content/ReleaseNotes/Version44.1/Update32/EMSWebApp.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-      BreakType="none"
+      BreakType="chapter"
       AutoEndOnLeftPage="disabled"
       StartSection="false"
       PageNumberReset="continue"
@@ -64,7 +67,7 @@
     <TocEntry
       Title="[%=System.LinkedTitle%]"
       Link="/Content/ReleaseNotes/Version44.1/Update32/EMSKioskApp.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-      BreakType="none"
+      BreakType="chapter"
       AutoEndOnLeftPage="disabled"
       StartSection="false"
       PageNumberReset="continue"
@@ -75,7 +78,7 @@
     <TocEntry
       Title="[%=System.LinkedTitle%]"
       Link="/Content/ReleaseNotes/Version44.1/Update32/EMSRoomSignApp.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-      BreakType="none"
+      BreakType="chapter"
       AutoEndOnLeftPage="disabled"
       StartSection="false"
       PageNumberReset="continue"
@@ -86,7 +89,7 @@
     <TocEntry
       Title="[%=System.LinkedTitle%]"
       Link="/Content/ReleaseNotes/Version44.1/Update32/EMSPlatformServices.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-      BreakType="none"
+      BreakType="chapter"
       AutoEndOnLeftPage="disabled"
       StartSection="false"
       PageNumberReset="continue"
