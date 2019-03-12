@@ -29,7 +29,7 @@
             </tr>
         </table>
         <div class="box-important">
-            <p><span class="bold">IMPORTANT:</span>&#160;<MadCap:annotation MadCap:createDate="2019-01-29T14:07:47.8135810-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Is this note already in the core doc? Should it be in the core documentation?" MadCap:editor="Megan.Laub" MadCap:editDate="2019-02-07T08:07:09.0545373-07:00">Beginning in Update 29, .NET Core 2.1 is a new requirement. Please refer to the <a href="../../../EMSKioskApp/V44.1/InstallationGuide/SysReqPrereq.htm">EMS&#160;Kiosk App Prerequisites</a> for more information.</MadCap:annotation></p>
+            <p><span class="bold">IMPORTANT:</span>&#160;<MadCap:annotation MadCap:createDate="2019-01-29T14:07:47.8135810-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Is this note already in the core doc? Should it be in the core documentation?" MadCap:editor="Megan.Laub" MadCap:editDate="2019-02-07T08:07:09.0545373-07:00">Beginning in Update 32, .NET Core 2.2 is a new requirement. Please refer to the <a href="../../../EMSKioskApp/V44.1/InstallationGuide/SysReqPrereq.htm">EMS&#160;Kiosk App Prerequisites</a> for more information.</MadCap:annotation></p>
         </div>
         <h2>Enhancements</h2>
         <table class="TableStyle-PatternedRows" style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
@@ -67,27 +67,13 @@
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: left;">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows" style="text-align: left;">
                         <p class="RNArea">Provisioning Page &gt; Authentication</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" style="text-align: left;">
                         <p class="RNTitle">Users must have administrator privileges to access the Provisioning page</p>
                         <p class="RNBody">For added security, users must be logged in as an administrator to access the EMS&#160;Kiosk App Provisioning page. If users are not logged in and try to access the Provisioning page, the message "Re-authentication is required to access Kiosk Provisioning screen" will appear, and users will need to enter their admin credentials. If users do not have admin credentials, they can select the <span class="bold">Cancel </span>button to be returned to the default page. </p>
                         <p class="RNRef">  Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=42166&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42166</a><br />(For EMS&#160;Internal Use Only)</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNArea">Make a Reservation and Locate Space</p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNTitle">Added lazy loading for room diagrams</p>
-                        <p class="RNBody">To help profiles load more efficiently, lazy loading has been implemented for room diagrams in the sidebar (filters) of the Make a Reservation page and Locate Space page. Lazy loading has been implemented as follows:</p>
-                        <ul class="RN-unorder-list">
-                            <li>On page load, only the first group of images loads (4 images per group).</li>
-                            <li>When users scroll to the bottom of an image group, an activity indicator will display while another group of images is gathered. After the new group of images has been retrieved, the activity indicator disappears, and the new group is appended to the bottom of the previous group of images. This process repeats until users stop scrolling or until no more image results are available. </li>
-                        </ul>
-                        <p class="RNRef">  Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=43011&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">43011</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
             </tbody>
@@ -289,47 +275,26 @@
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
                         <p class="RNTitle">
-                            <MadCap:annotation MadCap:createDate="2019-02-25T09:45:02.4435630-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Is this a secruity issue or is it okay to discuss as long as security isn't pointed out? Also, was only testing and confirmation done, or should also say that the Kiosk app was updated/modified to work with the new .net core?\r\n\r\nThe new ASP.NET Core version need to go in the system requirements for kiosk, right?" MadCap:editor="Megan.Laub" MadCap:editDate="2019-02-25T09:47:01.4144518-07:00">EMS&#160;Kiosk App compatible </MadCap:annotation>with ASP.NET&#160;Core 2.2 </p>
-                        <p class="RNBody">The EMS&#160;Kiosk App has been tested and confirmed to work with <a href="https://docs.microsoft.com/en-us/aspnet/core/release-notes/aspnetcore-2.2?view=aspnetcore-2.2">ASP.NET Core 2.2</a>. </p>
-                        <p class="RNBody"><span class="bold">See Also:</span>&#160;<a href="../../../EMSKioskApp/V44.1/InstallationGuide/SysReqPrereq.htm#System_Requirements">System Requirements and Prerequisites for EMS&#160;Kiosk App</a></p>
+                            <MadCap:annotation MadCap:createDate="2019-02-25T09:45:02.4435630-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Is this a secruity issue or is it okay to discuss as long as security isn't pointed out? Also, was only testing and confirmation done, or should also say that the Kiosk app was updated/modified to work with the new .net core?\r\n\r\nThe new ASP.NET Core version need to go in the system requirements for kiosk, right?" MadCap:editor="Megan.Laub" MadCap:editDate="2019-02-25T09:47:01.4144518-07:00">EMS&#160;Kiosk App now requires </MadCap:annotation>ASP.NET&#160;Core 2.2 </p>
+                        <p class="RNBody"><a href="https://docs.microsoft.com/en-us/aspnet/core/release-notes/aspnetcore-2.2?view=aspnetcore-2.2">ASP.NET Core 2.2</a> is now a requirement for EMS&#160;Kiosk App.</p>
+                        <p class="RNBody" MadCap:conditions="General.Online Only"><span class="bold">See Also:</span>&#160;<a href="../../../EMSKioskApp/V44.1/InstallationGuide/SysReqPrereq.htm#System_Requirements">System Requirements and Prerequisites for EMS&#160;Kiosk App</a></p>
                         <p class="RNRef">  Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=43524&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">43524</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: left;">
-                        <p class="RNArea">Floor Plan </p>
-                        <p>&#160;</p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
-                        <p class="RNTitle">Floor Plan icons were not aligned</p>
-                        <p class="RNBody">After upgrading to Update 31, the EMS&#160;Floor Plan icons were misaligned for <MadCap:annotation MadCap:createDate="2019-02-25T10:02:55.4861989-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="For all or some?" MadCap:editor="Megan.Laub" MadCap:editDate="2019-02-25T10:03:00.4783308-07:00">som</MadCap:annotation>e EMS&#160;Kiosk users. </p>
-                        <p class="RNBody"><b>Fix</b>:&#160;Modified functionality so that the EMS&#160;Floor Plan icons are correctly aligned. </p>
-                        <p class="RNRef">  Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=43120&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">43120</a><br />(For EMS&#160;Internal Use Only)</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="text-align: left;">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows" style="text-align: left;">
                         <p class="RNArea">Provisioning </p>
                         <p>&#160;</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNTitle">
-                            <MadCap:annotation MadCap:createDate="2019-02-07T08:43:23.7167196-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Added from U31.2 requested by Mindy" MadCap:editor="Megan.Laub" MadCap:editDate="2019-02-26T09:00:15.9168213-07:00">Unable</MadCap:annotation> to Provision EMS&#160;Kiosk App Under Certain Profiles Due to Amount of Room Diagrams</p>
-                        <p class="RNBody">When attempting to choose a profile, the profile modal page in the EMS&#160;Kiosk App kept spinning until it timed out if the profile contained a high number of room diagrams (more than 250).</p>
-                        <p class="RNBody"><b>Fix</b>:&#160;Modified functionality so that users can select a profile regardless of the number of room diagrams (more than 250).</p>
-                        <p class="RNRef">  Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=42979&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42979</a><br />(For EMS&#160;Internal Use Only)</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows" style="text-align: left;">
-                        <p class="RNArea">Provisioning</p>
-                    </td>
                     <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" style="text-align: left;">
-                        <p class="RNTitle">
-                            <MadCap:annotation MadCap:createDate="2019-02-07T08:44:35.5807070-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Added from U31.2 requested by Mindy" MadCap:editor="Megan.Laub" MadCap:editDate="2019-02-26T09:01:08.5948539-07:00">Duplicate</MadCap:annotation> Platform API&#160;Requests on Provisioning and Re-authentication</p>
-                        <p class="RNBody">The EMS&#160;Kiosk App was executing each Platform API&#160;request twice during provisioning and re-authentication, resulting in long provisioning time and potentially timeout.</p>
-                        <p class="RNBody"><b>Fix</b>:&#160;Modified functionality so that the EMS&#160;Kiosk App executes Platform API&#160;calls correctly. </p>
-                        <p class="RNRef">  Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=423014&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">43014</a><br />(For EMS&#160;Internal Use Only)</p>
+                        <p class="RNTitle">Improvements to EMS&#160;Kiosk App Provisioning</p>
+                        <p class="RNBodyBeforeList">To improve provisioning, the following repairs and enhancements were made to the EMS&#160;Kiosk App:&#160;</p>
+                        <ul class="RN-unorder-list">
+                            <li>Users can now select a profile with a large number of room diagrams (more than 250) without having the profile modal page time out. </li>
+                            <li>To reduce provisioning time and the possibility of timing out, the EMS&#160;Kiosk App now executes EMS&#160;Platform API calls correctly during provisioning and re-authentication. Prior to this update, EMS&#160;Kiosk App was executing each Platform API&#160;request twice during provisioning and re-authentication.</li>
+                            <li>To help profiles load more efficiently, lazy loading has been implemented for room diagrams in the sidebar (filters) of the Make a Reservation page and Locate Space page. Lazy loading has been implemented as follows:<ul><li>On page load, only the first group of images loads (4 images per group).</li><li>When users scroll to the bottom of an image group, an activity indicator will display while another group of images is gathered. After the new group of images has been retrieved, the activity indicator disappears, and the new group is appended to the bottom of the previous group of images. This process repeats until users stop scrolling or until no more image results are available. </li></ul></li>
+                        </ul>
+                        <p class="RNRef">  Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=42979&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42979</a>, <a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=423014&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">43014</a>, and <a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=43011&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">43011</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
             </tbody>

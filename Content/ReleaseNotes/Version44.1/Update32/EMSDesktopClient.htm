@@ -147,8 +147,8 @@
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
                         <p class="RNTitle">Windows Service Not Sending Email</p>
-                        <p class="RNBody">EMS Email Services (including no-show, notifications, and auto reports) were not sending emails to end users or admins. </p>
-                        <p class="RNBody"><b>Fix</b>:&#160;Modified functionality so that email is successfully handed off  to the SMTP server.</p>
+                        <p class="RNBody">If EMS&#160;Email Services (including check in, notifications, and auto reports) encountered an error or exception, the email was never sent. </p>
+                        <p class="RNBody"><b>Fix</b>:&#160;Modified functionality so that EMS&#160;Email Services will retry sending an email up to 5&#160;times if an error or exception is encountered.</p>
                         <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=42195&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42195</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
@@ -168,8 +168,8 @@
                         <p class="RNArea">Notifications</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p class="RNTitle">Notifications Not Triggering</p>
-                        <p class="RNBody">Notifications were not being triggered to targeted recipient when a booking time changed. </p>
+                        <p class="RNTitle">VC&#160;Service Order Change Notifications were not triggering on booking changes</p>
+                        <p class="RNBody">For video conference reservations, Service Order Change Notifications were not being triggered to targeted recipient when a booking time changed. </p>
                         <p class="RNBody"><span class="bold">Fix</span>:&#160;Modified functionality so that notifications are triggered when a booking time changes. </p>
                         <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=40311&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">40311</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
@@ -219,9 +219,9 @@
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">&#160;</td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p class="RNTitle">Predictive Text and Changing Billing Issues</p>
-                        <p class="RNBody">When editing a reservation, incorrect group contacts were being pulled into the Billing Information tab. </p>
-                        <p class="RNBody"><b>Fix</b>:&#160;Modified functionality so that the Contact drop-down list pulls the correct list of contacts based on the selected Group.</p>
+                        <p class="RNTitle">"Bill to Group" displayed incorrect contacts</p>
+                        <p class="RNBody">When specifying the "Bill to Group" on the <span class="bold">Billing Information</span> tab of the Navigator, the contacts listed were for the group assigned to the reservation. </p>
+                        <p class="RNBody"><b>Fix</b>:&#160;Modified functionality so that the contact drop-down pulls the correct list of contacts based on the selected Group.</p>
                         <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=41837&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">41837</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
