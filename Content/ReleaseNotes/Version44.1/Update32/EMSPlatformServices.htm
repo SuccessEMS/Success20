@@ -48,12 +48,11 @@
                         <p class="RNArea">Parameters</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p class="RNTitle">Added parameter Events2HVAC</p>
-                        <p class="RNBody">Events2HVAC parameter — Get Changed Bookings — has been added so that the integrator can get bookings that changed within a timeframe. </p>
-                        <p class="RNBodyBeforeList">The following new query fields have been added to the booking search (filter on tblBooking.DateChanged):</p>
+                        <p class="RNTitle">Updated search bookings route</p>
+                        <p class="RNBodyBeforeList">The search bookings route has been updated in order to get bookings changed within a timeframe.  The following filters were added to the search bookings route: </p>
                         <ul class="RN-unorder-list">
-                            <li>minDateChanged - filter tblBooking.DateChanged &gt;= value</li>
-                            <li>maxDateChanged - filter tblBooking.DateChanged &lt;= value</li>
+                            <li>minDateChanged</li>
+                            <li>maxDateChanged</li>
                         </ul>
                         <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=29333&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">29333</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
@@ -63,8 +62,8 @@
                         <p class="RNArea">Authentication</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNTitle">ADSF/SAML&#160;migration to Azure </p>
-                        <p class="RNBody">SAML/ADSF authentications now work using an Azure IDP.</p>
+                        <p class="RNTitle">Authentication works with Azure IdP</p>
+                        <p class="RNBody">An enhancement was made that fixed an issue related to SAML and ADFS authentication. Authentication now works using Azure IdP.</p>
                         <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=42145&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42145</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
@@ -90,37 +89,8 @@ EMS&#160;Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS S
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
                         <p class="RNTitle">Added new GET&#160;Category States route</p>
-                        <p class="RNBodyBeforeList">A new route, GET/Categories/{id}/states, has been added. Users can now  get states of the categories while adding a service order to booking.</p>
-                        <ul class="RN-unorder-list">
-                            <li>Request parameter: Category Id  { Required}</li>
-                            <li>Response: Return state id and description and categoryID</li>
-                        </ul>
+                        <p class="RNBody">A new route, GET/Categories/{id}/states, has been added. Users can now  get states of the categories while adding a service order to booking.</p>
                         <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=42930&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42930</a><br />(For EMS&#160;Internal Use Only)</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p class="RNArea">Parameters</p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
-                        <p class="RNTitle">Change to parameter SAML_SignAuthnRequests</p>
-                        <p class="RNBody">There has been a change to the parameter, SAML_SignAuthnRequests, which controls whether SAML requests go to the IdP. This can now be controlled and modified from a toggle in the Admin UI, which reflects the parameter's current state.</p>
-                        <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS Suite/Ems/_workItems?id=38968&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">38968</a><br />(For EMS&#160;Internal Use Only)</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p class="RNArea">EMS&#160;Kiosk App</p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNTitle">Added paging to GET - /kiosk/{id}/diagrams endpoint</p>
-                        <p class="RNBodyBeforeList">To implement lazy loading for room diagrams in EMS&#160;Kiosk App, paging has been added to the GET /kiosk/{id}/diagrams endpoint as follows:&#160;</p>
-                        <ul class="RN-unorder-list">
-                            <li>added page Query String parameter with default of 1</li>
-                            <li>added pageSize Query String parameter with default of 5</li>
-                            <li>added sortBuildingId parameter because EMS&#160;Kiosk App needs to have diagrams sorted by a default building ID and then have the remaining results sorted alphabetically by building name</li>
-                        </ul>
-                        <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=43048&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">43048</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
@@ -129,7 +99,7 @@ EMS&#160;Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS S
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
                         <p class="RNTitle">Added 'HideGroup' room property to booking search call </p>
-                        <p>In the booking search call (/bookings/actions/search), a 'hideGroup' property has been added to the BookingRoomModel being returned.  The 'hideGroup' property is used to determine when to replace a group name with the <a href="EMSWebApp.htm#Privatelabel">Private label</a> when viewing room details in EMS&#160;Web App.</p>
+                        <p class="RNBody">In the booking search call (/bookings/actions/search), a 'hideGroup' property has been added to the BookingRoomModel being returned.  The 'hideGroup' property is used to determine when to replace a group name with the <a href="EMSWebApp.htm#Privatelabel">Private label</a> when viewing room details in EMS&#160;Web App.</p>
                         <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=43067&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">43067</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
@@ -181,9 +151,9 @@ EMS&#160;Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS S
                         <p class="RNArea">API Calls</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
-                        <p class="RNTitle">Group email address incorrect when client token was used</p>
-                        <p class="RNBody">When making the POST /bookings/actions/search REST call, the same email address in the Group model was listed under all Groups that were returned with reservations (if a Client Token was used for the x-ems-api token).</p>
-                        <p class="RNBody"><b>Fix:</b>&#160;Modified functionality so that the correct Group Email Address is returned, as an /authentication token returns the Group model data.</p>
+                        <p class="RNTitle">Incorrect Group Email Address was returned</p>
+                        <p class="RNBody">When making the POST /bookings/actions/search REST call, the incorrect Group Email Address was returned.</p>
+                        <p class="RNBody"><b>Fix:</b>&#160;Modified functionality so that the correct Group Email Address is returned.</p>
                         <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=40001&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">40001</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
@@ -216,9 +186,9 @@ EMS&#160;Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS S
                         <p>&#160;</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
-                        <p class="RNTitle">Request Body was missing for Get UDF Values for Multiple Rooms</p>
-                        <p class="RNBody">The <span class="bold">Get UDF Values for Multiple Rooms</span> call did not include the Request Body section with the RoomIds array variable. The RoomIds array is a required field in the body for the <span class="bold">Get UDF Values for Multiple Rooms</span> call. </p>
-                        <p class="RNBody"><b>Fix:</b>&#160;Added the Request Body section to the <span class="bold">Get UDF Values for Multiple Rooms</span> call.</p>
+                        <p class="RNTitle">Request Body was missing for Get UDF Values for Multiple Rooms in the Swagger documentation.</p>
+                        <p class="RNBody">In the Swagger documentation, the <span class="bold">Get UDF Values for Multiple Rooms</span> call did not include the Request Body section with the RoomIds array variable. The RoomIds array is a required field in the body for the <span class="bold">Get UDF Values for Multiple Rooms</span> call. </p>
+                        <p class="RNBody"><b>Fix:</b>&#160;Added the Request Body section to the Swagger documentation.</p>
                         <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=43077&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">43077</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
@@ -228,9 +198,9 @@ EMS&#160;Internal Reference #&#160;<a href="http://emstfs.dea.com:8080/tfs/EMS S
                         <p>&#160;</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" style="text-align: left;">
-                        <p class="RNTitle">Deleted Remove Delegates Response</p>
-                        <p class="RNBody">The <span class="bold">Remove Delegates</span> call requires a response in an array; however, when calling <span class="bold">Remove Delegates</span>, the response received was a single message not in an array. This issue was causing some customers' code to fail. </p>
-                        <p class="RNBody"><b>Fix:</b>&#160;<MadCap:annotation MadCap:createDate="2019-03-08T10:59:04.3254010-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Or should this read &quot;Modified functionality so that when calling Remove Delegates, the response received is an array&quot;?" MadCap:editor="Megan.Laub" MadCap:editDate="2019-03-08T10:59:05.3788000-07:00">Modified functionality</MadCap:annotation> so that the <span class="bold">Remove Delegates</span> call no longer requires a response in an array</p>
+                        <p class="RNTitle">'Delete Remove Delegates Response' missing in Swagger documentation</p>
+                        <p class="RNBody">There was incorrect documentation for 	myuser/delegates/{delegateId}. The Swagger documentation for the Remove Delegates call showed a message array in the response. When calling this API, the response received was a single message not in an array.</p>
+                        <p class="RNBody"> <b>Fix:</b>&#160;Fixed the response for the myuser/delegates/{delegateId}  in the Swagger documentation.</p>
                         <p class="RNRef">EMS&#160;Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=43115&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">43115</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>

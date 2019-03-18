@@ -83,8 +83,9 @@
                         <p>&#160;</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p class="RNTitle">Canceling series occurrence did not cancel in EMS</p>
-                        <p class="RNBody">For recurring meetings created in EMS&#160;for Outlook who try to cancel one booking in the recurrence experienced the booking remaining scheduled in EMS. </p>
+                        <p class="RNTitle">Canceling series occurrence did not cancel in EMS Desktop Client</p>
+                        <p class="RNBody">For recurring meetings created in EMS&#160;for Outlook, when users canceled one booking in the recurrence, the booking remained scheduled in EMS&#160;Desktop Client. </p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that when users cancel one booking in a recurrence in EMS&#160;for Outlook, the booking is also canceled in EMS&#160;Desktop Client.</p>
                         <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=40122&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">40122</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
@@ -94,8 +95,8 @@
                         <p>&#160;</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p class="RNTitle">In positive timezones, EMS&#160;for Outlook was not reading special dates correctly</p>
-                        <p class="RNBody">When booking a room in EMS&#160;for Outlook in a positive timezone, rooms were not available even if time was inside of building hours.</p>
+                        <p class="RNTitle">In positive time zones, EMS&#160;for Outlook was not reading building closures correctly</p>
+                        <p class="RNBody">When booking a room in EMS&#160;for Outlook in a positive time zone, rooms were not available even if the time was inside of building hours.</p>
                         <p class="RNBody"><b>Fix</b>:&#160;Modified functionality so that users can book rooms within open building hours.</p>
                         <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=42098&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42098</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
@@ -119,10 +120,10 @@
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
                         <p class="RNTitle">
-                            <MadCap:annotation MadCap:createDate="2019-02-25T11:45:32.5112998-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Release note is from U31.5 (Mindy reviewed)" MadCap:editor="Megan.Laub" MadCap:editDate="2019-02-26T08:07:00.9924303-07:00">Reservations on rooms</MadCap:annotation> that require approval that had setup times specified resulted in a conflict resolution loop</p>
-                        <p class="RNBody">EMS&#160;Outlook add-in users were experiencing a conflict resolution loop (users could not exit conflict resolution) for reservations made in the EMS Web App on rooms that require approval (as opposed to self-serve) and that had setup times specified. Users were experiencing the conflict resolution loop when opening the reservations or when trying to dismiss reminders for the reservations.</p>
+                            <MadCap:annotation MadCap:createDate="2019-02-25T11:45:32.5112998-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Release note is from U31.5 (Mindy reviewed)" MadCap:editor="Megan.Laub" MadCap:editDate="2019-02-26T08:07:00.9924303-07:00">Reservations for rooms</MadCap:annotation> with setup times specified resulted in a conflict resolution loop</p>
+                        <p class="RNBody">EMS&#160;Outlook add-in users were experiencing a conflict resolution loop (users could not exit conflict resolution) for reservations made in the EMS Web App on rooms with setup times specified. Users were experiencing the conflict resolution loop when opening the reservations or when trying to dismiss reminders for the reservations.</p>
                         <p class="RNBody">For example, in the EMS&#160;Web App, a room that requires approval is booked for an event with a 30-minute setup time specified. Later, an EMS&#160;Outlook add-in user opens the Outlook application 15 minutes before the event starts (the setup time has already begun). Outlook displays a reminder notification for the event, and the user tries to dismiss the notification. However, instead of dismissing the notification, the user is prompted for conflict resolution, and the user cannot exit conflict resolution.</p>
-                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that EMS&#160;Outlook add-in users are not prompted for conflict resolution when they open reservations on rooms that require approval and/or when they try to dismiss reminders for these types of reservations.</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that EMS&#160;Outlook add-in users are not prompted for conflict resolution when they open reservations for rooms with setup times specified and/or when they try to dismiss reminders for these types of reservations.</p>
                         <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=43267&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">43267</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>

@@ -59,7 +59,9 @@
                         <p class="RNArea">Canceling a Reservation</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
-                        <p class="RNTitle">Improved messaging when canceling single occurrence in recurring calendar-enabled reservation</p>
+                        <p class="RNTitle">
+                            <MadCap:annotation MadCap:createDate="2019-03-11T11:13:29.6670772-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Update core doc for this enhancement" MadCap:editor="Megan.Laub" MadCap:editDate="2019-03-11T11:13:56.4022732-06:00">Improved messaging when canceling single occurrence in recurring calendar-enabled reservation</MadCap:annotation>
+                        </p>
                         <p class="RNBodyBeforeList">The following message now displays when a booking that is part of a multi-location occurrence is canceled:</p>
                         <div class="indent">
                             <p class="RNBody">"This booking is part of a Calendar Occurrence. Canceling this location will cancel all locations with same date/time."</p>
@@ -193,15 +195,37 @@
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
                         <p class="RNArea">Time Zones</p>
                     </td>
-                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
                         <p class="RNTitle">
                             <MadCap:annotation MadCap:createDate="2019-02-07T08:49:13.7851901-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Added from U31.2 per Mindy" MadCap:editor="Megan.Laub" MadCap:editDate="2019-02-07T08:49:14.5627447-07:00">Date Picker reflects</MadCap:annotation> incorrect date with specific personalization defaults</p>
                         <p class="RNBody">If a user had defaulted a time zone in personalization and the current time in that default time zone had crossed midnight (but the user time zone had not), then the EMS&#160;Web App reflected the wrong date once chosen.</p>
-                        <p class="RNBody"><b>Fix</b>:&#160;Modified functionality so that the date selected is committed to the date-form field and the New Booking Label is consistent with what was chosen.</p>
+                        <p class="RNBody"><b>Fix:</b>&#160;Modified functionality so that the date selected is committed to the date-form field and the New Booking Label is consistent with what was chosen.</p>
                         <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=42917&amp;_a=edit&amp;triage=true" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">42917</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="RNArea">Room Request Page</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="RNTitle">Events were not showing in schedule view grid of Room Request page</p>
+                        <p class="RNBody">For users with an EMS&#160;for Google Calendar license, events were not showing on the schedule view grid of the Room Request page in EMS&#160;Web App.</p>
+                        <p class="RNBody"><b>Fix:</b>&#160;Modified functionality so that all created events are displayed on the schedule view grid of the Room Requests page.</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=43735&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">43735</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
+                        <p class="RNArea">Language Translation</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
+                        <p class="RNTitle">Corrupt French language translation files caused templates to error out</p>
+                        <p class="RNBody">French language translation files, with apostrophes in certain locations, were causing templates to not function. When users clicked on a template in EMS&#160;Web App, the template would error out.</p>
+                        <p class="RNBody"><b>Fix:</b>&#160;Modified functionality so that the French translation files no longer cause templates to error out, and EMS&#160;Web App functions properly with translations.</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="https://emstfs.emssoftware.com/tfs/ems suite/Ems/_workItems?id=43525&amp;_a=edit&amp;triage=false" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">43525</a><br />(For EMS&#160;Internal Use Only)</p>
                     </td>
                 </tr>
             </tbody>
