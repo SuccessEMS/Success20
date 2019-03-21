@@ -18,5 +18,14 @@
     Link="/Content/EMSKioskApp/V44.1/ConfigurationGuide/ConfigKioskAppMenus.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
   <TocEntry
     Title="Configuring Check In Functionality in the EMS Room Sign App"
-    Link="/Content/EMSRoomSignApp/44.1/ConfigurationGuide/ConfigCheckInFunct.html" />
+    Link="/Content/EMSRoomSignApp/44.1/ConfigurationGuide/ConfigCheckInFunct.html"></TocEntry>
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/EMSKioskAppParameters.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/EMSKioskApp/V44.1/ConfigurationGuide/LanguageTranslation.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+  <TocEntry
+    Title="Configure Language Translations for Everyday User Applications for Web App"
+    Link="/Content/WebApp/A_V44.1/B_ConfigurationGuide/WebApp_CG_ConfigLangTransEUapps.html" />
 </CatapultToc>

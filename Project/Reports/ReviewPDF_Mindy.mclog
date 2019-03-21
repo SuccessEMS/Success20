@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<MadCapLog Protocol="2" Description="MadCap Flare 2018 Generated PDF/ReviewPDF_Mindy.fltar" Date="2019-03-15T13:48:07.7609391-06:00">
+<MadCapLog Protocol="2" Description="MadCap Flare 2018 Generated PDF/ReviewPDF_Mindy.fltar" Date="2019-03-21T10:41:55.9235504-06:00">
     <Messages>Compiling target ReviewPDF_Mindy...
 Checking Word version...
 Removing previously generated content...
@@ -11,18 +11,64 @@ Generating Glossary...
 Processing Page Layouts...
 Collecting source files...
 Processing source files...
-Processing topic: EMSWebApp_Known_Issues.htm
+Processing topic: SysReqPrereq.htm
+Processing topic: EMSKioskApp.htm
+Processing topic: Kiosk_UG_OverviewKioskWindow.htm
+Cross-referenced file not included in TOC: Content\EMSKioskApp\V44.1\UserGuide\Kiosk_UG_ViewYourRes.htm
+Cross-referenced file not included in TOC: Content\EMSKioskApp\V44.1\UserGuide\Kiosk_UG_ViewTodaysEvents.htm
+Cross-referenced file not included in TOC: Content\EMSKioskApp\V44.1\UserGuide\Kiosk_UG_LocatePerson.htm
+Cross-referenced file not included in TOC: Content\EMSKioskApp\V44.1\UserGuide\Kiosk_UG_LocateSpace.htm
+Cross-referenced file not included in TOC: Content\EMSKioskApp\V44.1\UserGuide\Kiosk_UG_BookDeskWorkspace.htm
+Processing topic: ConfigKioskAppProfiles.htm
+Image "Configuring the EMS Kiosk.png" regenerated for "print" medium: Resources\Images\EMS Kiosk App Set Up\Configuring the EMS Kiosk.png
+Image "Configuring the EMS Kiosk_6.png" regenerated for "print" medium: Resources\Images\EMS Kiosk App Set Up\Configuring the EMS Kiosk_6.png
+Image "Configuring the EMS Kiosk_9.png" regenerated for "print" medium: Resources\Images\EMS Kiosk App Set Up\Configuring the EMS Kiosk_9.png
+Processing topic: ConfigKioskAppMenus.htm
+Processing topic: ConfigCheckInFunct.html
+Processing topic: EMSKioskAppParameters.htm
+Processing topic: LanguageTranslation.htm
+Processing topic: WebApp_CG_ConfigLangTransEUapps.html
 Generating final output...
 Patching links and page references...
+Unresolved link to file: C:\Users\megan.laub\Documents\My Projects\Success29\Content\EMSPlatformServices\InstallationGuide\LicenseRequirements.html. File may not be included in the output.
+Unresolved link to file: C:\Users\megan.laub\Documents\My Projects\Success29\Content\EMSPlatformServices\InstallationGuide\Introduction.html. File may not be included in the output.
+Unresolved link to file: C:\Users\megan.laub\Documents\My Projects\Success29\Content\EMS_SystemReq_44.1.html. File may not be included in the output.
+Unresolved link to file: C:\Users\megan.laub\Documents\My Projects\Success29\Content\EMS_SystemReq_44.1.html. File may not be included in the output.
+Unresolved link to file: C:\Users\megan.laub\Documents\My Projects\Success29\Content\EMS_SystemReq_44.1.html. File may not be included in the output.
+Unresolved link to file: C:\Users\megan.laub\Documents\My Projects\Success29\Content\EMS_SystemReq_44.1.html. File may not be included in the output.
+Unresolved link to file: C:\Users\megan.laub\Documents\My Projects\Success29\Content\EMSKioskApp\V44.1\UserGuide\Kiosk_UG_ViewYourRes.htm. File may not be included in the output.
+Unresolved link to file: C:\Users\megan.laub\Documents\My Projects\Success29\Content\EMSDesktopClient\V44.1\ConfigurationGuide\ConfigLangTrans.htm. File may not be included in the output.
+Unresolved link to file: C:\Users\megan.laub\Documents\My Projects\Success29\Content\OptionalFeatures\FloorPlan\A_V44.1\InstallationGuide\Introduction.htm. File may not be included in the output.
+Unresolved link to file: C:\Users\megan.laub\Documents\My Projects\Success29\Content\WebApp\A_V44.1\B_ConfigurationGuide\WebApp_CG_ConfigHelpText.html. File may not be included in the output.
+Unresolved link to file: C:\Users\megan.laub\Documents\My Projects\Success29\Content\EMSDesktopClient\V44.1\ConfigurationGuide\EMSAllApplicationParameters.htm. File may not be included in the output.
+Unresolved link to file: C:\Users\megan.laub\Documents\My Projects\Success29\Content\EMSDesktopClient\V44.1\ConfigurationGuide\ConfigFloorPlans.html. File may not be included in the output.
 Saving word output...
 Embedding images into document. This may take several minutes.
 Generated ../../../PDF/ReviewPDF_Mindy/ReviewPDF_Mindy.doc
 Saving result set...
-Output generated in 16 second(s).
+Output generated in 29 second(s).
 
 Done
 Saving log to "C:\Users\megan.laub\Documents\My Projects\Success29\Project\Reports\ReviewPDF_Mindy.mclog"
 </Messages>
-    <Warnings />
+    <Warnings>
+        <LogEntry File="../../Content/EMSKioskApp/V44.1/UserGuide/Kiosk_UG_OverviewKioskWindow.htm" Message="Cross-referenced file not included in TOC: Content\EMSKioskApp\V44.1\UserGuide\Kiosk_UG_ViewYourRes.htm" LineIndex="-1" CharIndex="-1" Subsystem="Cross-Reference Compiler" Target="ReviewPDF_Mindy" ErrorID="40030" />
+        <LogEntry File="../../Content/EMSKioskApp/V44.1/UserGuide/Kiosk_UG_OverviewKioskWindow.htm" Message="Cross-referenced file not included in TOC: Content\EMSKioskApp\V44.1\UserGuide\Kiosk_UG_ViewTodaysEvents.htm" LineIndex="-1" CharIndex="-1" Subsystem="Cross-Reference Compiler" Target="ReviewPDF_Mindy" ErrorID="40030" />
+        <LogEntry File="../../Content/EMSKioskApp/V44.1/UserGuide/Kiosk_UG_OverviewKioskWindow.htm" Message="Cross-referenced file not included in TOC: Content\EMSKioskApp\V44.1\UserGuide\Kiosk_UG_LocatePerson.htm" LineIndex="-1" CharIndex="-1" Subsystem="Cross-Reference Compiler" Target="ReviewPDF_Mindy" ErrorID="40030" />
+        <LogEntry File="../../Content/EMSKioskApp/V44.1/UserGuide/Kiosk_UG_OverviewKioskWindow.htm" Message="Cross-referenced file not included in TOC: Content\EMSKioskApp\V44.1\UserGuide\Kiosk_UG_LocateSpace.htm" LineIndex="-1" CharIndex="-1" Subsystem="Cross-Reference Compiler" Target="ReviewPDF_Mindy" ErrorID="40030" />
+        <LogEntry File="../../Content/EMSKioskApp/V44.1/UserGuide/Kiosk_UG_OverviewKioskWindow.htm" Message="Cross-referenced file not included in TOC: Content\EMSKioskApp\V44.1\UserGuide\Kiosk_UG_BookDeskWorkspace.htm" LineIndex="-1" CharIndex="-1" Subsystem="Cross-Reference Compiler" Target="ReviewPDF_Mindy" ErrorID="40030" />
+        <LogEntry File="../../Content/EMSPlatformServices/InstallationGuide/LicenseRequirements.html" Message="Unresolved link to file: C:\Users\megan.laub\Documents\My Projects\Success29\Content\EMSPlatformServices\InstallationGuide\LicenseRequirements.html. File may not be included in the output." LineIndex="-1" CharIndex="-1" Subsystem="MsWord Compiler" Target="ReviewPDF_Mindy" ErrorID="40017" />
+        <LogEntry File="../../Content/EMSPlatformServices/InstallationGuide/Introduction.html" Message="Unresolved link to file: C:\Users\megan.laub\Documents\My Projects\Success29\Content\EMSPlatformServices\InstallationGuide\Introduction.html. File may not be included in the output." LineIndex="-1" CharIndex="-1" Subsystem="MsWord Compiler" Target="ReviewPDF_Mindy" ErrorID="40017" />
+        <LogEntry File="../../Content/EMS_SystemReq_44.1.html" Message="Unresolved link to file: C:\Users\megan.laub\Documents\My Projects\Success29\Content\EMS_SystemReq_44.1.html. File may not be included in the output." LineIndex="-1" CharIndex="-1" Subsystem="MsWord Compiler" Target="ReviewPDF_Mindy" ErrorID="40017" />
+        <LogEntry File="../../Content/EMS_SystemReq_44.1.html" Message="Unresolved link to file: C:\Users\megan.laub\Documents\My Projects\Success29\Content\EMS_SystemReq_44.1.html. File may not be included in the output." LineIndex="-1" CharIndex="-1" Subsystem="MsWord Compiler" Target="ReviewPDF_Mindy" ErrorID="40017" />
+        <LogEntry File="../../Content/EMS_SystemReq_44.1.html" Message="Unresolved link to file: C:\Users\megan.laub\Documents\My Projects\Success29\Content\EMS_SystemReq_44.1.html. File may not be included in the output." LineIndex="-1" CharIndex="-1" Subsystem="MsWord Compiler" Target="ReviewPDF_Mindy" ErrorID="40017" />
+        <LogEntry File="../../Content/EMS_SystemReq_44.1.html" Message="Unresolved link to file: C:\Users\megan.laub\Documents\My Projects\Success29\Content\EMS_SystemReq_44.1.html. File may not be included in the output." LineIndex="-1" CharIndex="-1" Subsystem="MsWord Compiler" Target="ReviewPDF_Mindy" ErrorID="40017" />
+        <LogEntry File="../../Content/EMSKioskApp/V44.1/UserGuide/Kiosk_UG_ViewYourRes.htm" Message="Unresolved link to file: C:\Users\megan.laub\Documents\My Projects\Success29\Content\EMSKioskApp\V44.1\UserGuide\Kiosk_UG_ViewYourRes.htm. File may not be included in the output." LineIndex="-1" CharIndex="-1" Subsystem="MsWord Compiler" Target="ReviewPDF_Mindy" ErrorID="40017" />
+        <LogEntry File="../../Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigLangTrans.htm" Message="Unresolved link to file: C:\Users\megan.laub\Documents\My Projects\Success29\Content\EMSDesktopClient\V44.1\ConfigurationGuide\ConfigLangTrans.htm. File may not be included in the output." LineIndex="-1" CharIndex="-1" Subsystem="MsWord Compiler" Target="ReviewPDF_Mindy" ErrorID="40017" />
+        <LogEntry File="../../Content/OptionalFeatures/FloorPlan/A_V44.1/InstallationGuide/Introduction.htm" Message="Unresolved link to file: C:\Users\megan.laub\Documents\My Projects\Success29\Content\OptionalFeatures\FloorPlan\A_V44.1\InstallationGuide\Introduction.htm. File may not be included in the output." LineIndex="-1" CharIndex="-1" Subsystem="MsWord Compiler" Target="ReviewPDF_Mindy" ErrorID="40017" />
+        <LogEntry File="../../Content/WebApp/A_V44.1/B_ConfigurationGuide/WebApp_CG_ConfigHelpText.html" Message="Unresolved link to file: C:\Users\megan.laub\Documents\My Projects\Success29\Content\WebApp\A_V44.1\B_ConfigurationGuide\WebApp_CG_ConfigHelpText.html. File may not be included in the output." LineIndex="-1" CharIndex="-1" Subsystem="MsWord Compiler" Target="ReviewPDF_Mindy" ErrorID="40017" />
+        <LogEntry File="../../Content/EMSDesktopClient/V44.1/ConfigurationGuide/EMSAllApplicationParameters.htm" Message="Unresolved link to file: C:\Users\megan.laub\Documents\My Projects\Success29\Content\EMSDesktopClient\V44.1\ConfigurationGuide\EMSAllApplicationParameters.htm. File may not be included in the output." LineIndex="-1" CharIndex="-1" Subsystem="MsWord Compiler" Target="ReviewPDF_Mindy" ErrorID="40017" />
+        <LogEntry File="../../Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigFloorPlans.html" Message="Unresolved link to file: C:\Users\megan.laub\Documents\My Projects\Success29\Content\EMSDesktopClient\V44.1\ConfigurationGuide\ConfigFloorPlans.html. File may not be included in the output." LineIndex="-1" CharIndex="-1" Subsystem="MsWord Compiler" Target="ReviewPDF_Mindy" ErrorID="40017" />
+    </Warnings>
     <Errors />
 </MadCapLog>

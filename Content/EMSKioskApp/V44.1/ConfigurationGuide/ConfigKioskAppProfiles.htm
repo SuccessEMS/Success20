@@ -4,7 +4,7 @@
         <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title>Configure EMS Kiosk App Profiles V44.1 (EMS Kiosk App)</title>
     </head>
     <body>
-        <h1 MadCap:autonum="CHAPTER&#160;1: ">
+        <h1>
             <MadCap:concept term="V44.1" />Configure EMS Kiosk App Profiles</h1>
         <p>When you configure the EMS Kiosk App on a specific touch-screen device, a Kiosk profile controls the functionality that will be&#160;available on the device. You configure an EMS Kiosk profile through the EMS Desktop Client.</p>
         <p>You can set parameters and default language translations and floor plans&#160;at the&#160;Global&#160;level (these set defaults for all Profiles) or for&#160;just one Kiosk Profile&#160;(on the tabs below).&#160;This topic guides you in configuring one Kiosk Profile.&#160;</p>
@@ -81,7 +81,7 @@
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
                         <p>A translation is the language in which the menu items, menu text, and Help Text are displayed on a Kiosk page. If you leave this field set to "(default)", then this Kiosk Profile will inherit the language setting in EMS Kiosk global parameters (and if these are not specified, the default language is US English). In order to set a default language for this Kiosk Profile, you will need to first add one or more languages on the&#160;<MadCap:xref href="#Translations">Translations tab</MadCap:xref>; then you can select a language on this dropdown to be the language in which the Kiosk automatically displays. If you add multiple languages on the <span class="bold">Translations </span>tab for users to choose from, your selection in this field sets the default to display unless they choose another language.</p>
-                        <p class="table-note"><span class="boldAllCaps">Note:</span>&#160;If the language you want is not available in this dropdown&#160;field, then the&#160;translation must be defined globally for EMS Desktop Client (see&#160;<a href="../../../EMSDesktopClient/V44.1/ConfigurationGuide/ConfigLangTrans.htm">Configure Language Translations</a>).&#160;Global parameters can be accessed under <span class="bold">System Administration </span>&gt; <span class="bold">Settings </span>&gt;&#160;<span class="bold">System Parameters</span>.&#160;Additionally, in order to make alternate languages available on your kiosks, you must&#160;<a href="ConfigKioskAppMenus.htm#enable_language">enable the Language Selection menu</a>&#160;for EMS Kiosk App.</p>
+                        <p class="table-note"><span class="boldAllCaps">Note:</span>&#160;If the language you want is not available in this drop-down&#160;field, then the&#160;translation must be defined globally for EMS Desktop Client (see&#160;<a href="../../../EMSDesktopClient/V44.1/ConfigurationGuide/ConfigLangTrans.htm">Configure Language Translations</a>).&#160;Global parameters can be accessed under <span class="bold">System Administration </span>&gt; <span class="bold">Settings </span>&gt;&#160;<span class="bold">System Parameters</span>.&#160;Additionally, in order to make alternate languages available on your kiosks, you must&#160;<a href="ConfigKioskAppMenus.htm#enable_language">enable the Language Selection menu</a>&#160;for EMS Kiosk App.</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
@@ -153,7 +153,9 @@
         </div>
         <h2><a name="Translations"></a>Translations Tab</h2>
         <p>A translation is the language in which the menu items, menu text, and Help Text are displayed on a Kiosk page. If you select one or more languages here, then this Kiosk Profile will inherit the language setting in EMS Kiosk global parameters (and if these are not specified, the default language is US English). If you add multiple languages here for users to choose from, you can set&#160;a language as the default to display on the kiosk unless they choose another language on the&#160;<MadCap:xref href="#KioskProfileTab">Kiosk Profile Tab</MadCap:xref>.</p>
-        <p class="box-tip"><span class="bold">TIP:</span>&#160;If the language you want is not available in this dropdown&#160;field, then the&#160;translation must be defined globally for EMS Desktop Client (see&#160;<a href="../../../EMSDesktopClient/V44.1/ConfigurationGuide/ConfigLangTrans.htm">Configure Language Translations</a>).&#160;Global parameters can be accessed under <span class="bold">System Administration</span> &gt; <span class="bold">Settings </span>&gt;&#160;<span class="bold">System Parameters</span>.&#160;Additionally, in order to make alternate languages available on your kiosks,  you must&#160;<a href="ConfigKioskAppMenus.htm#enable_language">enable the Language Selection menu</a>&#160;for EMS Kiosk App. </p>
+        <p class="box-tip"><span class="bold">TIP:</span>&#160;If the language you want is not available in this drop-down&#160;field, then the&#160;translation must be defined globally for EMS Desktop Client (see&#160;<a href="../../../EMSDesktopClient/V44.1/ConfigurationGuide/ConfigLangTrans.htm">Configure Language Translations</a>).&#160;Global parameters can be accessed under <span class="bold">System Administration</span> &gt; <span class="bold">Settings </span>&gt;&#160;<span class="bold">System Parameters</span>.&#160;Additionally, in order to make alternate languages available on your kiosks,  you must&#160;<a href="ConfigKioskAppMenus.htm#enable_language">enable the Language Selection menu</a>&#160;for EMS Kiosk App. </p>
+        <p class="box-note"><span class="boldAllCaps">Note:</span>&#160;The EMS&#160;Kiosk App time format, 12-hour vs. 24-hour, is tied to the <MadCap:annotation MadCap:createDate="2019-03-21T08:08:49.5140596-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="How do you set the default profile language? Is this done in Desktop Client?" MadCap:editor="Megan.Laub" MadCap:editDate="2019-03-21T08:21:17.2067414-06:00">default profile language</MadCap:annotation> or the language users select in the app using the <span class="bold">Change Language</span> button. For example, if the default language for your EMS&#160;Kiosk profile is Russian, or users select Russian on the EMS&#160;Kiosk App, the 24-hour format will be used. If the default/selected language is English, the 12-hour format will be used. </p>
+        <p>To add a translation to your Kiosk Profile, follow these steps:</p>
         <ol start="1" class="number-list">
             <li>To add a translation to your Kiosk Profile, in the Available list, select the language (or CTRL-click to select the multiple languages to be available on the Kiosk).</li>
             <li>Click the&#160;<span class="bold">Move&#160;</span>(<span class="bold">&gt;</span>) button to move the selected items to the Selected list.</li>
@@ -189,7 +191,8 @@
                 <img src="../../../Resources/Images/EMS Kiosk App Set Up/Configuring the EMS Kiosk_9.png" alt="emssg_EMSKiosk_image007.png" class="PDFlarge" />
             </p>
         </div>
-        <h3>Parameters No Longer Used by Current Version of the EMS Kiosk App</h3>
+        <h3>
+            <MadCap:annotation MadCap:createDate="2019-03-21T09:03:56.0290205-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Removed Time Drop Down Increment from table (this parameter does appear in the DTC Kiosk sys param table).\r\n\r\nAlso removed Require Timeout/Logoff to Terminate User Session from this table. Added the parameter to the DTC Kiosk parameter table." MadCap:editor="Megan.Laub" MadCap:editDate="2019-03-21T09:32:01.6605801-06:00">Parameters No Longer</MadCap:annotation> Used by Current Version of the EMS Kiosk App</h3>
         <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');margin-left: 0;margin-right: auto;width: 100%;" cellspacing="0">
             <col class="TableStyle-PatternedRows-Column-Regular" style="width: 200px;" />
             <col class="TableStyle-PatternedRows-Column-Regular" style="width: 500px;" />
@@ -218,22 +221,6 @@
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
                         <p>This parameter is not used in the new design.</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p>Make a Reservation / Time Drop Down Increment</p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p>The new design simplifies choosing a start/end time for your reservations. Therefore, Administrators do not have to worry about the time increment.&#160;</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p>Security / <a name="Require_Timeout/Logoff_to_Terminate_User_Session"></a>Require Timeout/Logoff to Terminate User Session</p>
-                    </td>
-                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
-                        <p>Logoff behavior has been changed in the redesigned EMS Kiosk App; therefore, this parameter is no longer utilized. The Miscellaneous / Page Timeout (seconds) parameter alone&#160;governs timeout behavior in the redesigned EMS Kiosk App. If the value set in this parameter passes with no activity, users will see a message on the screen asking them to press continue or they will be logged off.</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
