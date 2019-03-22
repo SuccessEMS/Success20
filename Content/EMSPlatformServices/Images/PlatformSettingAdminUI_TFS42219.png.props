@@ -6,7 +6,8 @@
         <Shapes>
             <Shape Type="Rectangle" PaddingLeft="0" PaddingBottom="0" PaddingRight="0" PaddingTop="0" X="268" Y="430" Width="580" Height="160" ShapeTimeSpan="10000" Right="6" Bottom="82" LineColor="#ff8c00" LineWidth="3" Transparency="0" Left="268" Top="430" />
             <Shape Type="Rectangle" PaddingLeft="0" PaddingBottom="0" PaddingRight="0" PaddingTop="0" X="0" Y="0" Width="860" Height="670" ShapeTimeSpan="10000" Right="3" Bottom="2" Left="0" Top="0" />
-            <Shape Type="Rectangle" PaddingLeft="0" PaddingBottom="0" PaddingRight="0" PaddingTop="0" X="0" Y="0" Width="860" Height="670" ShapeTimeSpan="10000" Right="3" Bottom="2" />
+            <Shape Type="Rectangle" PaddingLeft="0" PaddingBottom="0" PaddingRight="0" PaddingTop="0" X="0" Y="0" Width="860" Height="670" ShapeTimeSpan="10000" Right="3" Bottom="2" LineColor="#ffffff" LineWidth="1" BackgroundColorAlt="#ffffff" Transparency="0" />
+            <Shape Type="Rectangle" PaddingLeft="0" PaddingBottom="0" PaddingRight="0" PaddingTop="0" X="287" Y="289" Width="180" Height="20" ShapeTimeSpan="10000" Right="396" Bottom="363" Left="287" Top="289" LineWidth="0" BackgroundColor="#ffffff" Transparency="0" />
         </Shapes>
         <Shapes IsResourceLayer="true" Name="Resources" />
         <ConditionTagSet />

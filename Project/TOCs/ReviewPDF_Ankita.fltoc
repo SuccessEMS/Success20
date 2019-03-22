@@ -2,6 +2,9 @@
 <CatapultToc
   Version="1">
   <TocEntry
+    Title="Configuring Platform Services in the Admin Portal"
+    Link="/Content/EMSPlatformServices/ConfigurationGuide/ConfigPSinAdminPortal.html" />
+  <TocEntry
     Title="[%=System.LinkedTitle%]"
     Link="/Content/ReleaseNotes/Version44.1/Update32/EMSPlatformServices.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
 </CatapultToc>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<MadCapLog Protocol="2" Description="MadCap Flare 2018 Generated PDF/ReviewPDF_Ankita.fltar" Date="2019-03-11T17:01:18.1657376-06:00">
+<MadCapLog Protocol="2" Description="MadCap Flare 2018 Generated PDF/ReviewPDF_Ankita.fltar" Date="2019-03-22T09:01:09.0513551-06:00">
     <Messages>Compiling target ReviewPDF_Ankita...
 Checking Word version...
 Removing previously generated content...
@@ -11,21 +11,49 @@ Generating Glossary...
 Processing Page Layouts...
 Collecting source files...
 Processing source files...
+Processing topic: ConfigPSinAdminPortal.html
+Image "ConfigPlatformConferencingwithSkype.png" regenerated for "print" medium: EMSPlatformServices\Images\ConfigPlatformConferencingwithSkype.png
 Processing topic: EMSPlatformServices.htm
 Image "PlatformSettingAdminUI_TFS42219.png" regenerated for "print" medium: EMSPlatformServices\Images\PlatformSettingAdminUI_TFS42219.png
 Generating final output...
 Patching links and page references...
+Unresolved link to file: C:\Users\megan.laub\Documents\My Projects\Success29\Content\Authentication\PortalAuthMethods.html. File may not be included in the output.
+Unresolved link to file: C:\Users\megan.laub\Documents\My Projects\Success29\Content\WebApp\A_V44.1\B_ConfigurationGuide\ConfigureLDAPMobileandWeb.html. File may not be included in the output.
+Unresolved link to file: C:\Users\megan.laub\Documents\My Projects\Success29\Content\EMSPlatformServices\InstallationGuide\InstallPS.html. File may not be included in the output.
+Unresolved link to file: C:\Users\megan.laub\Documents\My Projects\Success29\Content\EMSMobileApp\B_ConfigurationGuide\Authentication\OpenIDAuthen.html. File may not be included in the output.
+Unresolved link to file: C:\Users\megan.laub\Documents\My Projects\Success29\Content\Authentication\SAMLAuthen.html. File may not be included in the output.
+Unresolved link to file: C:\Users\megan.laub\Documents\My Projects\Success29\Content\EMSPlatformServices\InstallationGuide\LicenseRequirements.html. File may not be included in the output.
+Unresolved link to file: C:\Users\megan.laub\Documents\My Projects\Success29\Content\ReleaseNotes\Version44.1\Update31\EMSWebApp.htm. File may not be included in the output.
+Unresolved link to file: C:\Users\megan.laub\Documents\My Projects\Success29\Content\EMS_SystemReq_44.1.html. File may not be included in the output.
+Unresolved link to file: C:\Users\megan.laub\Documents\My Projects\Success29\Content\EMSPlatformServices\InstallationGuide\InstallPS.html. File may not be included in the output.
+Unresolved link to file: C:\Users\megan.laub\Documents\My Projects\Success29\Content\EMSPlatformServices\InstallationGuide\InstallPS.html. File may not be included in the output.
+Unresolved link to file: C:\Users\megan.laub\Documents\My Projects\Success29\Content\Authentication\LDAPAuthen.html. File may not be included in the output.
+Unresolved link to file: C:\Users\megan.laub\Documents\My Projects\Success29\Content\GoogleSuiteIntegration\Config.htm. File may not be included in the output.
+Unresolved link to file: C:\Users\megan.laub\Documents\My Projects\Success29\Content\Skype\ConfigurationGuide\ConfigureSkypeforBusiness.html. File may not be included in the output.
 Unresolved link to file: C:\Users\megan.laub\Documents\My Projects\Success29\Content\ReleaseNotes\Version44.1\Update32\EMSWebApp.htm. File may not be included in the output.
 Saving word output...
 Embedding images into document. This may take several minutes.
 Generated ../../../PDF/ReviewPDF_Ankita/ReviewPDF_Ankita.doc
 Saving result set...
-Output generated in 21 second(s).
+Output generated in 23 second(s).
 
 Done
 Saving log to "C:\Users\megan.laub\Documents\My Projects\Success29\Project\Reports\ReviewPDF_Ankita.mclog"
 </Messages>
     <Warnings>
+        <LogEntry File="../../Content/Authentication/PortalAuthMethods.html" Message="Unresolved link to file: C:\Users\megan.laub\Documents\My Projects\Success29\Content\Authentication\PortalAuthMethods.html. File may not be included in the output." LineIndex="-1" CharIndex="-1" Subsystem="MsWord Compiler" Target="ReviewPDF_Ankita" ErrorID="40017" />
+        <LogEntry File="../../Content/WebApp/A_V44.1/B_ConfigurationGuide/ConfigureLDAPMobileandWeb.html" Message="Unresolved link to file: C:\Users\megan.laub\Documents\My Projects\Success29\Content\WebApp\A_V44.1\B_ConfigurationGuide\ConfigureLDAPMobileandWeb.html. File may not be included in the output." LineIndex="-1" CharIndex="-1" Subsystem="MsWord Compiler" Target="ReviewPDF_Ankita" ErrorID="40017" />
+        <LogEntry File="../../Content/EMSPlatformServices/InstallationGuide/InstallPS.html" Message="Unresolved link to file: C:\Users\megan.laub\Documents\My Projects\Success29\Content\EMSPlatformServices\InstallationGuide\InstallPS.html. File may not be included in the output." LineIndex="-1" CharIndex="-1" Subsystem="MsWord Compiler" Target="ReviewPDF_Ankita" ErrorID="40017" />
+        <LogEntry File="../../Content/EMSMobileApp/B_ConfigurationGuide/Authentication/OpenIDAuthen.html" Message="Unresolved link to file: C:\Users\megan.laub\Documents\My Projects\Success29\Content\EMSMobileApp\B_ConfigurationGuide\Authentication\OpenIDAuthen.html. File may not be included in the output." LineIndex="-1" CharIndex="-1" Subsystem="MsWord Compiler" Target="ReviewPDF_Ankita" ErrorID="40017" />
+        <LogEntry File="../../Content/Authentication/SAMLAuthen.html" Message="Unresolved link to file: C:\Users\megan.laub\Documents\My Projects\Success29\Content\Authentication\SAMLAuthen.html. File may not be included in the output." LineIndex="-1" CharIndex="-1" Subsystem="MsWord Compiler" Target="ReviewPDF_Ankita" ErrorID="40017" />
+        <LogEntry File="../../Content/EMSPlatformServices/InstallationGuide/LicenseRequirements.html" Message="Unresolved link to file: C:\Users\megan.laub\Documents\My Projects\Success29\Content\EMSPlatformServices\InstallationGuide\LicenseRequirements.html. File may not be included in the output." LineIndex="-1" CharIndex="-1" Subsystem="MsWord Compiler" Target="ReviewPDF_Ankita" ErrorID="40017" />
+        <LogEntry File="../../Content/ReleaseNotes/Version44.1/Update31/EMSWebApp.htm" Message="Unresolved link to file: C:\Users\megan.laub\Documents\My Projects\Success29\Content\ReleaseNotes\Version44.1\Update31\EMSWebApp.htm. File may not be included in the output." LineIndex="-1" CharIndex="-1" Subsystem="MsWord Compiler" Target="ReviewPDF_Ankita" ErrorID="40017" />
+        <LogEntry File="../../Content/EMS_SystemReq_44.1.html" Message="Unresolved link to file: C:\Users\megan.laub\Documents\My Projects\Success29\Content\EMS_SystemReq_44.1.html. File may not be included in the output." LineIndex="-1" CharIndex="-1" Subsystem="MsWord Compiler" Target="ReviewPDF_Ankita" ErrorID="40017" />
+        <LogEntry File="../../Content/EMSPlatformServices/InstallationGuide/InstallPS.html" Message="Unresolved link to file: C:\Users\megan.laub\Documents\My Projects\Success29\Content\EMSPlatformServices\InstallationGuide\InstallPS.html. File may not be included in the output." LineIndex="-1" CharIndex="-1" Subsystem="MsWord Compiler" Target="ReviewPDF_Ankita" ErrorID="40017" />
+        <LogEntry File="../../Content/EMSPlatformServices/InstallationGuide/InstallPS.html" Message="Unresolved link to file: C:\Users\megan.laub\Documents\My Projects\Success29\Content\EMSPlatformServices\InstallationGuide\InstallPS.html. File may not be included in the output." LineIndex="-1" CharIndex="-1" Subsystem="MsWord Compiler" Target="ReviewPDF_Ankita" ErrorID="40017" />
+        <LogEntry File="../../Content/Authentication/LDAPAuthen.html" Message="Unresolved link to file: C:\Users\megan.laub\Documents\My Projects\Success29\Content\Authentication\LDAPAuthen.html. File may not be included in the output." LineIndex="-1" CharIndex="-1" Subsystem="MsWord Compiler" Target="ReviewPDF_Ankita" ErrorID="40017" />
+        <LogEntry File="../../Content/GoogleSuiteIntegration/Config.htm" Message="Unresolved link to file: C:\Users\megan.laub\Documents\My Projects\Success29\Content\GoogleSuiteIntegration\Config.htm. File may not be included in the output." LineIndex="-1" CharIndex="-1" Subsystem="MsWord Compiler" Target="ReviewPDF_Ankita" ErrorID="40017" />
+        <LogEntry File="../../Content/Skype/ConfigurationGuide/ConfigureSkypeforBusiness.html" Message="Unresolved link to file: C:\Users\megan.laub\Documents\My Projects\Success29\Content\Skype\ConfigurationGuide\ConfigureSkypeforBusiness.html. File may not be included in the output." LineIndex="-1" CharIndex="-1" Subsystem="MsWord Compiler" Target="ReviewPDF_Ankita" ErrorID="40017" />
         <LogEntry File="../../Content/ReleaseNotes/Version44.1/Update32/EMSWebApp.htm" Message="Unresolved link to file: C:\Users\megan.laub\Documents\My Projects\Success29\Content\ReleaseNotes\Version44.1\Update32\EMSWebApp.htm. File may not be included in the output." LineIndex="-1" CharIndex="-1" Subsystem="MsWord Compiler" Target="ReviewPDF_Ankita" ErrorID="40017" />
     </Warnings>
     <Errors />

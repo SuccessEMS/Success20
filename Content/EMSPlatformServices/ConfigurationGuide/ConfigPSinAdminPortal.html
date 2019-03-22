@@ -7,7 +7,7 @@
         <meta name="mt-unsafe" value="true" />
     </head>
     <body>
-        <h1>
+        <h1 MadCap:autonum="CHAPTER&#160;1: ">
             <MadCap:concept term="V44.1" />Configure Platform Services in the Admin Portal</h1>
         <p>To begin configuration of EMS Platform Services, navigate to the EMS&#160;Platform Services Admin Portal using the Platform Services admin URL (e.g., https://yourcompany.com/EMSPlatform/admin). From the EMS Platform Services Admin Portal, you can clear the cache, view license and application information, configure authentication methods, manage integration clients, and view logs.</p>
         <p>EMS Platform Services Admin Portal consists of the following tabs:</p>
@@ -647,12 +647,15 @@ Max bookings per date range
             <li>Provide a <span class="bold">Client Name</span> in the <span class="bold">Azure Active Directory Client ID</span> field. This determines the ID of the registered application. </li>
             <li>Provide the <span class="bold">Azure Active Directory Tenant</span>. This determines the name of the AAD tenant. </li>
             <li>Provide the <span class="bold">Skype for Business AutoDiscover URL</span>. This performs autodiscovery to find the appropriate server to communicate with. Multiple URLs must be separated by commas and cannot contain any spaces. The client machine and the Web server should have access to the Autodiscover URL.</li>
-            <li>Choose a <span class="bold">Skype for Business Server Authentication Method</span> from the drop-down. This determines the authentication type that is used to generate a token. You can choose from the following authentication methods:<ol><li><span class="bold">NTLM</span></li><li><span class="bold">ADFS</span></li><li><span class="bold">Username/Password</span></li><li><span class="bold">Oauth (Online)</span></li></ol></li>
+            <li>Choose a <span class="bold">Skype for Business Server Authentication Method</span> from the drop-down. This determines the authentication type that is used to generate a token. You can choose from the following authentication methods:<ul><li><span class="bold">NTLM</span></li><li><span class="bold">ADFS</span></li><li><span class="bold">Username/Password</span></li><li><span class="bold">Oauth (Online)</span></li></ul></li>
+            <li>
+                <MadCap:annotation MadCap:createDate="2019-03-22T08:50:50.7279971-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Added for U32" MadCap:editor="Megan.Laub" MadCap:editDate="2019-03-22T08:50:54.1216635-06:00">In</MadCap:annotation> the Skype Meeting Options area, select an option from the <span class="bold">These people don't have to wait in the lobby</span> drop-down list. This field determines which participants do not need to wait before joining the meeting. The following options are available:<ul><li><span class="bold">Only me, the meeting organizer</span></li><li><span class="bold">People I invite from my company</span></li><li><span class="bold">Anyone from my organization</span></li><li><span class="bold">Anyone (no restrictions)</span></li></ul><div class="box-note"><p><span class="bold">NOTE:</span> <MadCap:annotation MadCap:createDate="2019-03-22T08:51:11.8509309-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Added for U32. Should this note be added to the release note (43684)?" MadCap:editor="Megan.Laub" MadCap:editDate="2019-03-22T08:51:41.9542974-06:00">The</MadCap:annotation> setting <span class="bold">These people don't have to wait in the lobby</span> does not apply to calendaring applications (Outlook and Google). The meeting options for calendaring applications are controlled directly by the user.</p></div></li>
         </ol>
         <div class="TitleandImage">
-            <p class="title">Conferencing Tab of EMS&#160;Platform Services Admin Portal</p>
+            <p class="title">
+                <MadCap:annotation MadCap:createDate="2019-03-22T08:52:10.7074206-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Is this screen shot okay, or is there a more updated one we should use?" MadCap:editor="Megan.Laub" MadCap:editDate="2019-03-22T08:52:47.3480146-06:00">Conferencing</MadCap:annotation> Tab of EMS&#160;Platform Services Admin Portal</p>
             <p>
-                <img src="../Images/ConfigPlatformConferencing.png" class="PDFmedium" />
+                <img src="../Images/ConfigPlatformConferencingwithSkype.png" class="PDFlarge" />
             </p>
         </div>
     </body>
