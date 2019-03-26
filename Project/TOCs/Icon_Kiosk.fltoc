@@ -40,6 +40,9 @@
         Title="Customize the Logo and Background in the EMS Kiosk App"
         Link="/Content/EMSKioskApp/V44.1/ConfigurationGuide/CustomizeLogoBackground.htm" />
       <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/EMSKioskApp/V44.1/ConfigurationGuide/LanguageTranslation.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
         Title="PDF"
         Link="/Content/EMSKioskApp/V44.1/ConfigurationGuide/Kiosk_Config_PDF.pdf" />
     </TocEntry>
