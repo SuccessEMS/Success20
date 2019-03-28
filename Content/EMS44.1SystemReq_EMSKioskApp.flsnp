@@ -26,7 +26,7 @@
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
-                        <p><a href="https://dotnet.microsoft.com/download/dotnet-core/2.2"><MadCap:annotation MadCap:createDate="2019-03-20T14:38:51.3788995-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Do we want links to the download pages or the info pages?" MadCap:editor="Megan.Laub" MadCap:editDate="2019-03-21T07:11:51.9547689-06:00">ASP</MadCap:annotation>.NET Core 2.2.2</a>* (EMS&#160;Update 32 and later)</p>
+                        <p><a href="https://dotnet.microsoft.com/download/dotnet-core/2.2">ASP.NET Core 2.2.2</a>* (EMS&#160;Update 32 and later)</p>
                         <p><a href="https://dotnet.microsoft.com/download/dotnet-core/2.1">ASP.NET Core 2.1.5</a>* (EMS Updates 29–31)</p>
                         <p><a href="https://dotnet.microsoft.com/download/dotnet-core/2.0">ASP.NET Core 2.0</a>* (EMS&#160;Update 28 and earlier)</p>
                     </td>

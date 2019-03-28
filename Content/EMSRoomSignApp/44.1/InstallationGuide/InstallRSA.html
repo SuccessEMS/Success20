@@ -21,7 +21,7 @@
             <li><a href="#Verify_the_EMS_Room_Sign_App_API_Installation">Verify the EMS&#160;Room Sign App API&#160;Installation</a> (only required for versions prior to Update 30)</li>
             <li><a href="#Install_or_Upgrade_the_EMS_Room_Sign_Web_Application">Install or Upgrade the EMS&#160;Room Sign Web Application</a>
             </li>
-            <li><a href="#Create_an_EMS_Admin_User_to_Manage">Create an EMS&#160;Admin User to Manage Your EMS&#160;Room Sign App API&#160;Web Service</a> <MadCap:annotation MadCap:createDate="2019-03-21T11:18:01.9332698-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Added for U32" MadCap:editor="Megan.Laub" MadCap:editDate="2019-03-21T11:18:10.4694129-06:00">(only required for versions prior to Update 32)</MadCap:annotation></li>
+            <li><a href="#Create_an_EMS_Admin_User_to_Manage">Create an EMS&#160;Admin User to Manage Your EMS&#160;Room Sign App API&#160;Web Service</a> (only required for versions prior to Update 32)</li>
             <li><a href="#SetLaunchPin">Set a Launch Pin</a>
             </li>
             <li><a href="#Access_EMS_Room_Sign_App_on_Your_Device(s)">Register EMS&#160;Room Sign App on Your Devices</a>
@@ -36,8 +36,7 @@
             <li>Copy the <a href="#Install_or_Upgrade_the_EMS_Room_Sign_App_DLL">EMS Room Sign App .dll</a> file to each user workstation that needs EMS Room Sign App options in EMS Desktop Client.</li>
             <li>For versions prior to <a href="../../../V44.1_ReleaseNotes.htm#Update30" MadCap:conditions="General.Online Only">Update 30</a><a href="https://docs.emssoftware.com/Content/V44.1_ReleaseNotes.htm#Update30" MadCap:conditions="General.Print Only">Update 30</a>, install the new <a href="#Install_or_Upgrade_the_EMS_Room_Sign_App_API">EMS Room Sign App API</a> on the web server that will be running it, and <a href="#Verify_the_EMS_Room_Sign_App_API_Installation">verify the installation</a>. </li>
             <li>Install the new <a href="#Install_or_Upgrade_the_EMS_Room_Sign_Web_Application">EMS Room Sign App web application</a> on the web server that will be hosting it (and connect it to your EMS Room Sign App API, SQL server, and database).<p class="box-note"><span class="boldAllCaps">Note:</span>&#160;For <a href="../../../V44.1_ReleaseNotes.htm#Update30" MadCap:conditions="General.Online Only">Update 30</a><a href="https://docs.emssoftware.com/Content/V44.1_ReleaseNotes.htm#Update30" MadCap:conditions="General.Print Only">Update 30</a> and later, the EMS&#160;Room Sign API&#160;has been moved into the application. If you are running Update 30 or later, you will not need to connect the API&#160;to the web application.</p></li>
-            <li>
-                <MadCap:annotation MadCap:createDate="2019-03-21T11:18:38.5514125-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Added for U32" MadCap:editor="Megan.Laub" MadCap:editDate="2019-03-21T11:18:41.2138469-06:00">For versions prior to U32</MadCap:annotation>, <a href="#Create_an_EMS_Admin_User_to_Manage">create an Admin User</a> to manage the EMS Room Sign App API&#160;web service.</li>
+            <li>For versions prior to U32, <a href="#Create_an_EMS_Admin_User_to_Manage">create an Admin User</a> to manage the EMS Room Sign App API&#160;web service.</li>
             <li><a href="#Access_EMS_Room_Sign_App_on_Your_Device(s)">Access your&#160;EMS Room Sign application</a> through the web&#160;on your device(s).</li>
         </ol>
         <h2><a name="Install_or_Upgrade_the_Database_Component"></a>Install or Upgrade the Database Component</h2>
@@ -94,7 +93,7 @@
             <li>The&#160;Completed the EMS Room Sign App Setup Wizard&#160;screen will appear.&#160;Click&#160;<span class="bold">Finish</span>.&#160;</li>
         </ol>
         <h2><a name="Create_an_EMS_Admin_User_to_Manage"></a>Create an EMS Admin User to Manage Your EMS Room Sign App API Web Service</h2>
-        <p class="box-important"><span class="bold"><MadCap:annotation MadCap:createDate="2019-03-21T11:23:43.6811061-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Added note for U32" MadCap:editor="Megan.Laub" MadCap:editDate="2019-03-21T11:23:49.5617011-06:00">IMPORTANT</MadCap:annotation>:</span>&#160;Beginning in Update 32, you do not need to create an EMS&#160;admin user to manage the API because the  API was moved inside of the EMS&#160;Room Sign App. Where required for audit trail purposes, EMS will use the user “EMS Room Sign App.” </p>
+        <p class="box-important"><span class="bold">IMPORTANT:</span>&#160;Beginning in Update 32, you do not need to create an EMS&#160;admin user to manage the API because the  API was moved inside of the EMS&#160;Room Sign App. Where required for audit trail purposes, EMS will use the user “EMS Room Sign App.” </p>
         <p>To create an EMS&#160;admin user to manage your EMS&#160;Room Sign App Api web service, follow these steps:</p>
         <ol start="1" class="number-list">
             <li>Create&#160;the EMS Admin Account to be used for the EMS Room Sign App:
